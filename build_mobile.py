@@ -360,6 +360,7 @@ def main():
     js = js.replace("__PROPHECY_TRACKER_DATA__", "{}")
     js = js.replace("__CORE_BELIEFS_DATA__", "{}")
     js = js.replace("__RESOURCES_DATA__", "{}")
+    js = js.replace("__RELIGIONS_DETAIL_DATA__", "{}")
 
     # Replace all interlinear placeholders with empty objects
     import re
