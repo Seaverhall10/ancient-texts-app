@@ -432,12 +432,22 @@ def main():
             texts = MANIFEST.texts || [];
             categories = MANIFEST.categories || [];
         } catch(e) {
-            document.body.innerHTML = '<div style="padding:2rem;color:#e05540;font-size:1.2rem"><h2>Failed to load app data</h2><p>' + e.message + '</p><p>Make sure you are serving this from a web server (not file://). The mobile version requires HTTP.</p></div>';
+            console.error('[mobile] Bootstrap failed:', e);
+            document.body.innerHTML = '<div style="padding:2rem;color:#e05540;font-size:1.2rem"><h2>Failed to load app data</h2><p>' + e.message + '</p><p>Try refreshing the page. If that doesn\\'t work, clear your browser cache and reload.</p></div>';
             return false;
         }
         _hideLoading();
         return true;
     }
+
+    // Safety: if loading overlay is still visible after 15 seconds, hide it and show error
+    setTimeout(function() {
+        var el = document.getElementById('mobileLoadingOverlay');
+        if (el && el.style.display === 'flex') {
+            el.style.display = 'none';
+            console.error('[mobile] Loading timeout — overlay dismissed after 15s');
+        }
+    }, 15000);
 
     async function loadTextData(textId) {
         if (_loadedTexts[textId]) return true;
@@ -546,11 +556,25 @@ def main():
         old_init2 = "    function init() {"
         if old_init2 in js:
             new_init2 = """    async function init() {
+        try {
         if (typeof IS_MOBILE !== 'undefined' && IS_MOBILE) {
             var ok = await mobileBootstrap();
             if (!ok) return;
         }"""
             js = js.replace(old_init2, new_init2, 1)
+            # Also add closing try/catch at the end of init
+            # Find the closing of init (the showLibrary call is near the end)
+            old_show_lib = "        showLibrary();\n    }"
+            if old_show_lib in js:
+                new_show_lib = """        showLibrary();
+        } catch(e) {
+            console.error('[init] Error during startup:', e);
+            _hideLoading();
+            var mc = document.getElementById('mainContent');
+            if (mc) mc.innerHTML = '<div style="padding:2rem;color:#e05540"><h2>Startup Error</h2><p>' + e.message + '</p><p>Try refreshing the page.</p></div>';
+        }
+    }"""
+                js = js.replace(old_show_lib, new_show_lib, 1)
 
     # ── Patch glossary overlay to lazy-load ──
     old_glossary = "    function openGlossary() {"
@@ -1363,9 +1387,11 @@ body.sidebar-open .main-content { overflow: hidden !important; }
         json.dump(pwa_manifest, f, indent=2)
     print("  manifest.webmanifest")
 
-    # Service worker
+    # Service worker (cache name includes build timestamp for cache busting)
+    from datetime import datetime
+    build_ts = datetime.now().strftime('%Y%m%d%H%M%S')
     sw_js = """// Ancient Texts Library — Service Worker
-const CACHE_NAME = 'ancient-texts-v3.5.0';
+const CACHE_NAME = 'ancient-texts-""" + build_ts + """';
 const CORE_ASSETS = [
     './',
     './index.html',
