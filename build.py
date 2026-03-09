@@ -29,7 +29,9 @@ from datetime import datetime
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE, "data")
-SRC_CSS = os.path.join(BASE, "src", "css", "styles.css")
+SRC_CSS_DIR = os.path.join(BASE, "src", "css")
+SRC_CSS_ORDER = os.path.join(SRC_CSS_DIR, "build-order.txt")
+SRC_CSS_LEGACY = os.path.join(SRC_CSS_DIR, "styles.css")
 SRC_JS = os.path.join(BASE, "src", "js", "app.js")
 MANIFEST_PATH = os.path.join(BASE, "manifest.json")
 OUTPUT_DIR = os.path.join(BASE, "output")
@@ -324,8 +326,23 @@ def build():
                         print(f"[flow-{book_name}] {merged} verse translations{notes_str} merged")
 
     # \u2500\u2500 Read CSS \u2500\u2500
-    css = read_file(SRC_CSS)
-    print(f"[css] styles.css ({len(css):,} chars)")
+    if os.path.exists(SRC_CSS_ORDER):
+        css_parts = []
+        css_files = []
+        for line in read_file(SRC_CSS_ORDER).strip().splitlines():
+            line = line.strip()
+            if line and not line.startswith('#'):
+                fpath = os.path.join(SRC_CSS_DIR, line)
+                if os.path.exists(fpath):
+                    css_parts.append(open(fpath, 'r', encoding='utf-8').read())
+                    css_files.append(line)
+                else:
+                    print(f"  WARNING: CSS file not found: {line}")
+        css = ''.join(css_parts)
+        print(f"[css] {len(css_files)} component files ({len(css):,} chars)")
+    else:
+        css = read_file(SRC_CSS_LEGACY)
+        print(f"[css] styles.css ({len(css):,} chars)")
 
     # \u2500\u2500 Read JS and inject data \u2500\u2500
     js = read_file(SRC_JS)

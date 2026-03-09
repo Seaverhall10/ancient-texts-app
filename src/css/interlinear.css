@@ -1,0 +1,1017 @@
+/* ── Interlinear Reading Pane ────────────────── */
+
+/* Grammar color palette (Blue Letter Bible / Logos inspired) */
+:root {
+    --pos-verb: #6a9a78;
+    --pos-noun: #d4a574;
+    --pos-prep: #a3b18a;
+    --pos-conj: #7db4e0;
+    --pos-art: #8a8580;
+    --pos-adj: #b794d4;
+    --pos-pron: #5eaaa8;
+    --pos-adv: #d4a853;
+    --pos-part: #8a8a8a;
+    --pos-proper: #c9a84c;
+    --pos-default: #9a968e;
+
+    --il-hebrew-color: #e8d5b7;
+    --il-bg-verse-odd: rgba(255, 255, 255, 0.015);
+    --il-bg-verse-even: transparent;
+    --il-font-hebrew: 'SBL Hebrew', 'Ezra SIL', 'Times New Roman', 'David', 'Noto Sans Hebrew', serif;
+}
+
+.reading-pane-toggle {
+    position: fixed;
+    top: 14px;
+    right: 14px;
+    z-index: 60;
+    background: var(--bg-card);
+    border: 1px solid rgba(201, 168, 76, 0.25);
+    border-radius: var(--border-radius);
+    color: var(--gold);
+    padding: 7px 11px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: var(--il-font-hebrew);
+    transition: all var(--transition);
+    line-height: 1;
+    opacity: 0.7;
+}
+
+.reading-pane-toggle:hover { opacity: 1; border-color: var(--gold-border); }
+.reading-pane-toggle.active { opacity: 1; background: var(--gold-dim); border-color: var(--gold); }
+
+/* ── Pane Container ─────────────────────────── */
+.reading-pane {
+    height: 100vh;
+    background: #0e1018;
+    border-left: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-width: 0;
+}
+
+/* When pane is closed, hide it via grid (col-pane = 0) */
+body:not(.reading-pane-open) .reading-pane { display: none; }
+body:not(.reading-pane-open) #paneHandle { display: none; }
+
+/* ── Resize Handles ─────────────────────────── */
+.resize-handle {
+    cursor: col-resize;
+    background: var(--border-subtle);
+    transition: background 0.15s;
+    position: relative;
+    z-index: 5;
+    flex-shrink: 0;
+}
+.resize-handle:hover,
+.resize-handle.active {
+    background: var(--gold);
+}
+.resize-handle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -6px;
+    right: -6px;
+}
+
+/* ── Layout Presets ─────────────────────────── */
+.layout-presets {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    display: flex;
+    gap: 6px;
+    z-index: var(--z-tooltip);
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 4px 6px;
+    box-shadow: var(--shadow-lg);
+}
+body:not(.reading-pane-open) .layout-presets { display: none; }
+.preset-btn {
+    background: none;
+    border: 1px solid transparent;
+    border-radius: var(--radius-sm);
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: all 0.15s;
+}
+.preset-btn:hover {
+    color: var(--gold);
+    border-color: var(--gold-border);
+}
+.preset-btn.active {
+    color: var(--gold);
+    background: var(--gold-dim);
+    border-color: var(--gold-border);
+}
+
+/* ── Sync Buttons ──────────────────────────── */
+.sync-btn {
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-family: var(--font-body);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    transition: all var(--transition);
+    border: 1px solid rgba(201, 168, 76, 0.2);
+    background: rgba(201, 168, 76, 0.06);
+    color: var(--gold);
+    white-space: nowrap;
+}
+
+.sync-btn:hover {
+    background: rgba(201, 168, 76, 0.15);
+    border-color: var(--gold-border);
+}
+
+/* Left-side sync button: floats between main content and reading pane */
+.sync-btn-left {
+    position: fixed;
+    top: 14px;
+    right: 574px;
+    z-index: 55;
+    display: none;
+}
+
+body.reading-pane-open .sync-btn-left { display: block; }
+
+/* Right-side sync button: in reading pane header */
+.sync-btn-right {
+    /* styled by .sync-btn base */
+}
+
+/* ── Pane Header ────────────────────────────── */
+.reading-pane-header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 16px 8px;
+    border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+    background: rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
+    gap: 6px;
+}
+
+.reading-pane-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.reading-pane-title-row h3 {
+    font-size: 1.1rem;
+    font-family: var(--font-heading);
+    color: var(--gold);
+    letter-spacing: 0.5px;
+    flex: 1;
+    text-align: center;
+}
+
+.il-nav-btn {
+    background: none;
+    border: 1px solid rgba(201, 168, 76, 0.15);
+    border-radius: 4px;
+    color: var(--text-muted);
+    font-size: 0.65rem;
+    cursor: pointer;
+    padding: 4px 8px;
+    transition: all var(--transition);
+    line-height: 1;
+}
+
+.il-nav-btn:hover {
+    color: var(--gold);
+    border-color: var(--gold-border);
+    background: var(--gold-dim);
+}
+
+.il-nav-btn:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.il-book-select {
+    background: var(--bg-secondary);
+    border: 1px solid rgba(201, 168, 76, 0.25);
+    border-radius: 4px;
+    color: var(--gold);
+    font-size: 0.7rem;
+    font-family: 'Inter', sans-serif;
+    padding: 3px 6px;
+    cursor: pointer;
+    outline: none;
+    transition: all var(--transition);
+}
+.il-book-select:hover, .il-book-select:focus {
+    border-color: var(--gold);
+    background: var(--gold-dim);
+}
+.il-book-select option {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+.il-book-select optgroup {
+    color: var(--gold);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+}
+
+.il-lang-badge {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 2px 6px;
+    border-radius: 3px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.il-lang-hebrew {
+    background: rgba(201, 168, 76, 0.15);
+    color: var(--gold);
+    border: 1px solid rgba(201, 168, 76, 0.3);
+}
+.il-lang-greek {
+    background: rgba(91, 141, 191, 0.15);
+    color: #5b8dbf;
+    border: 1px solid rgba(91, 141, 191, 0.3);
+}
+
+.reading-pane-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.reading-pane-select {
+    background: var(--bg-secondary);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 4px;
+    color: var(--text-muted);
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.reading-pane-select:focus { border-color: var(--gold-border); }
+.reading-pane-select option { background: var(--bg-secondary); }
+
+.reading-pane-close {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+    transition: color var(--transition);
+}
+
+.reading-pane-close:hover { color: var(--text-primary); }
+
+/* ── Pane Scrollable Body ───────────────────── */
+.reading-pane-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0 0 80px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(201, 168, 76, 0.12) transparent;
+}
+
+.reading-pane-content::-webkit-scrollbar { width: 4px; }
+.reading-pane-content::-webkit-scrollbar-thumb {
+    background: rgba(201, 168, 76, 0.12);
+    border-radius: 2px;
+}
+
+/* ── Verse Block — Two Column ───────────────── */
+.il-verse {
+    display: grid;
+    grid-template-columns: var(--il-columns, 1fr 1.4fr);
+    gap: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+    transition: background 0.15s ease;
+}
+
+.il-verse:nth-child(odd) { background: var(--il-bg-verse-odd); }
+.il-verse:nth-child(even) { background: var(--il-bg-verse-even); }
+.il-verse:last-child { border-bottom: none; }
+
+/* Verse hover: subtle highlight across both columns */
+.il-verse:hover {
+    background: rgba(201, 168, 76, 0.025);
+}
+
+/* Left column: English translation */
+.il-verse-english {
+    padding: 18px 18px 18px 16px;
+    border-right: 1px solid rgba(201, 168, 76, 0.06);
+    display: flex;
+    align-items: baseline;
+    gap: 0;
+}
+
+.il-verse-num {
+    display: inline-block;
+    font-size: 0.62rem;
+    color: var(--gold);
+    font-weight: 700;
+    font-family: var(--font-body);
+    margin-right: 6px;
+    opacity: 0.6;
+    user-select: none;
+    vertical-align: super;
+    min-width: 16px;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: opacity var(--transition);
+}
+
+.il-verse-num:hover {
+    opacity: 1;
+}
+
+.il-verse-sentence {
+    font-size: 0.92rem;
+    color: var(--text-primary);
+    line-height: 1.7;
+    font-family: var(--font-heading);
+    font-style: italic;
+    opacity: 0.85;
+}
+
+/* Flow translation active — curated translation, not auto-gloss */
+.il-verse-sentence.il-flow-active {
+    font-style: normal;
+    opacity: 1;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    border-left: 3px solid var(--gold);
+    padding-left: 10px;
+    margin-left: -2px;
+}
+
+.il-verse-flow {
+    border-left: 2px solid rgba(201, 168, 76, 0.25);
+}
+
+.il-verse-note {
+    font-size: 0.78rem;
+    color: var(--gold);
+    opacity: 0.8;
+    line-height: 1.5;
+    margin-top: 4px;
+    padding: 4px 8px;
+    background: rgba(201, 168, 76, 0.06);
+    border-radius: 4px;
+    border-left: 2px solid rgba(201, 168, 76, 0.3);
+    /* Collapsed by default — toggled via .show-il-notes on reading pane */
+    display: none;
+}
+body.show-il-notes .il-verse-note {
+    display: block;
+}
+
+/* Right column: Hebrew words */
+.il-verse-words {
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+    gap: 1px 0;
+    align-items: flex-start;
+    padding: 14px 10px 14px 10px;
+    align-content: flex-start;
+}
+
+/* ── Word Card ──────────────────────────────── */
+.il-word {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px 5px 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    direction: ltr;
+    text-align: center;
+    position: relative;
+    border-left: 2px solid transparent;
+}
+
+.il-word:hover {
+    background: rgba(201, 168, 76, 0.08);
+    box-shadow: 0 0 12px rgba(201, 168, 76, 0.06);
+}
+
+.il-word:active {
+    background: rgba(201, 168, 76, 0.14);
+}
+
+/* Grammar color accent — left border shows POS */
+.il-word.pos-verb    { border-left-color: var(--pos-verb); }
+.il-word.pos-noun    { border-left-color: var(--pos-noun); }
+.il-word.pos-prep    { border-left-color: var(--pos-prep); }
+.il-word.pos-conj    { border-left-color: var(--pos-conj); }
+.il-word.pos-art     { border-left-color: var(--pos-art); }
+.il-word.pos-adj     { border-left-color: var(--pos-adj); }
+.il-word.pos-pron    { border-left-color: var(--pos-pron); }
+.il-word.pos-adv     { border-left-color: var(--pos-adv); }
+.il-word.pos-part    { border-left-color: var(--pos-part); }
+.il-word.pos-proper  { border-left-color: var(--pos-proper); }
+
+/* Hebrew text */
+.il-word .il-hebrew {
+    font-family: var(--il-font-hebrew);
+    font-size: 1.55rem;
+    color: var(--il-hebrew-color);
+    line-height: 1.9;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    letter-spacing: 0.02em;
+}
+
+/* English gloss below Hebrew */
+.il-word .il-gloss {
+    font-size: 0.6rem;
+    color: rgba(201, 168, 76, 0.55);
+    line-height: 1.15;
+    max-width: 90px;
+    text-align: center;
+    margin-top: 1px;
+    letter-spacing: -0.01em;
+}
+
+/* Grammar-colored glosses on hover */
+.il-word.pos-verb:hover .il-gloss    { color: var(--pos-verb); }
+.il-word.pos-noun:hover .il-gloss    { color: var(--pos-noun); }
+.il-word.pos-prep:hover .il-gloss    { color: var(--pos-prep); }
+.il-word.pos-conj:hover .il-gloss    { color: var(--pos-conj); }
+.il-word.pos-adj:hover .il-gloss     { color: var(--pos-adj); }
+.il-word.pos-pron:hover .il-gloss    { color: var(--pos-pron); }
+.il-word.pos-proper:hover .il-gloss  { color: var(--pos-proper); }
+
+/* ── Greek Text Override (NT books — LTR, no RTL) ───────── */
+body.il-greek .il-word .il-hebrew {
+    direction: ltr;
+    unicode-bidi: normal;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.01em;
+}
+body.il-greek .il-verse-words {
+    direction: ltr;
+}
+body.il-greek .reading-pane-header .il-script-label::after {
+    content: ' (Greek)';
+    color: var(--accent-secondary);
+}
+
+/* ── Display Modes ──────────────────────────── */
+body.il-mode-hebrew .il-gloss { display: none; }
+body.il-mode-hebrew .il-word .il-hebrew { font-size: 2.2rem; }
+body.il-mode-hebrew .il-word { padding: 5px 7px; border-left-color: transparent; }
+body.il-mode-hebrew .il-verse-english { display: none; }
+body.il-mode-hebrew .il-verse { grid-template-columns: 1fr; }
+
+body.il-mode-english .il-hebrew { display: none; }
+body.il-mode-english .il-word { direction: ltr; border-left-color: transparent; }
+body.il-mode-english .il-verse-words { direction: ltr; }
+body.il-mode-english .il-word .il-gloss {
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    white-space: normal;
+    max-width: none;
+    opacity: 0.9;
+}
+
+/* ── Word Popup ─────────────────────────────── */
+.word-popup {
+    position: fixed;
+    z-index: var(--z-tooltip);
+    background: linear-gradient(145deg, #1c2030, #161a28);
+    border: 1px solid rgba(201, 168, 76, 0.18);
+    border-radius: 14px;
+    padding: 24px 26px;
+    width: 300px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 1px rgba(201, 168, 76, 0.1);
+    display: none;
+    backdrop-filter: blur(12px);
+}
+
+.word-popup.visible { display: block; }
+
+.word-popup .wp-hebrew {
+    font-family: var(--il-font-hebrew);
+    font-size: 2.8rem;
+    color: var(--il-hebrew-color);
+    direction: rtl;
+    text-align: center;
+    line-height: 1.15;
+    margin-bottom: 6px;
+}
+.word-popup .wp-greek {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 2.4rem;
+    color: #5b8dbf;
+    direction: ltr;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 6px;
+}
+
+.word-popup .wp-translit {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--text-primary);
+    text-align: center;
+    opacity: 0.8;
+}
+
+.word-popup .wp-strongs {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    text-align: center;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+    font-family: monospace;
+}
+
+.word-popup .wp-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(201, 168, 76, 0.15), transparent);
+    margin: 12px 0;
+}
+
+.word-popup .wp-gloss {
+    font-size: 1.15rem;
+    color: var(--gold);
+    font-weight: 600;
+    text-align: center;
+    font-family: var(--font-heading);
+    line-height: 1.3;
+}
+
+.word-popup .wp-morph {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    text-align: center;
+    line-height: 1.4;
+}
+
+.word-popup .wp-morph-label {
+    font-size: 0.58rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--text-muted);
+    margin-bottom: 3px;
+}
+
+/* POS badge in popup */
+.word-popup .wp-pos-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    margin: 8px auto 0;
+    text-align: center;
+}
+
+.word-popup .wp-pos-badge.pos-verb    { color: var(--pos-verb); background: rgba(110, 231, 160, 0.1); border: 1px solid rgba(110, 231, 160, 0.2); }
+.word-popup .wp-pos-badge.pos-noun    { color: var(--pos-noun); background: rgba(212, 165, 116, 0.1); border: 1px solid rgba(212, 165, 116, 0.2); }
+.word-popup .wp-pos-badge.pos-prep    { color: var(--pos-prep); background: rgba(163, 177, 138, 0.1); border: 1px solid rgba(163, 177, 138, 0.2); }
+.word-popup .wp-pos-badge.pos-conj    { color: var(--pos-conj); background: rgba(125, 180, 224, 0.1); border: 1px solid rgba(125, 180, 224, 0.2); }
+.word-popup .wp-pos-badge.pos-adj     { color: var(--pos-adj); background: rgba(183, 148, 212, 0.1); border: 1px solid rgba(183, 148, 212, 0.2); }
+.word-popup .wp-pos-badge.pos-pron    { color: var(--pos-pron); background: rgba(94, 170, 168, 0.1); border: 1px solid rgba(94, 170, 168, 0.2); }
+.word-popup .wp-pos-badge.pos-proper  { color: var(--pos-proper); background: rgba(201, 168, 76, 0.1); border: 1px solid rgba(201, 168, 76, 0.2); }
+
+.word-popup .wp-glossary-link {
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+    padding: 7px 14px;
+    background: transparent;
+    border: 1px solid rgba(201, 168, 76, 0.2);
+    border-radius: 6px;
+    color: var(--gold);
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: all var(--transition);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.word-popup .wp-glossary-link:hover { background: var(--gold-dim); border-color: var(--gold-border); }
+
+/* ── No Data Message ────────────────────────── */
+.il-no-data {
+    text-align: center;
+    padding: 80px 28px;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    line-height: 1.7;
+}
+
+.il-no-data .il-no-data-icon {
+    font-size: 3rem;
+    margin-bottom: 18px;
+    opacity: 0.2;
+    font-family: var(--il-font-hebrew);
+    color: var(--gold);
+}
+
+/* ── Source Reading Pane (non-interlinear texts) ── */
+.source-reading {
+    padding: 20px 24px;
+    color: var(--text-primary);
+    font-size: 0.88rem;
+    line-height: 1.7;
+}
+.source-reading-ref {
+    color: var(--gold);
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.source-reading-title {
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    line-height: 1.4;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+}
+.source-reading-synopsis {
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    border-left: 3px solid var(--gold-dim);
+    background: var(--bg-tertiary);
+    border-radius: 0 6px 6px 0;
+}
+.source-reading-label {
+    color: var(--gold);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.source-reading-ref-small {
+    color: var(--text-muted);
+    font-size: 0.78rem;
+    margin-bottom: 6px;
+}
+.source-reading-quote {
+    margin: 0 0 20px 0;
+    padding: 14px 18px;
+    border-left: 3px solid var(--gold);
+    background: rgba(201, 168, 76, 0.05);
+    font-style: italic;
+    color: var(--text-primary);
+    line-height: 1.8;
+    border-radius: 0 6px 6px 0;
+}
+.source-reading-key-verse {
+    margin-bottom: 20px;
+}
+.source-reading-dc {
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    background: var(--bg-tertiary);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+.source-reading-dc p {
+    margin: 0 0 8px 0;
+    color: var(--text-secondary);
+}
+.source-reading-rating {
+    color: var(--gold);
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+.source-reading-connections {
+    margin: 8px 0 0 0;
+    padding-left: 18px;
+    color: var(--text-secondary);
+}
+.source-reading-connections li {
+    margin-bottom: 4px;
+}
+.source-reading-xrefs {
+    margin-bottom: 20px;
+}
+.source-reading-xref {
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border-subtle);
+    font-size: 0.84rem;
+}
+.source-reading-xref:last-child { border-bottom: none; }
+.source-reading-xref-ref {
+    color: var(--gold);
+    font-weight: 600;
+}
+.source-reading-xref-note {
+    color: var(--text-muted);
+}
+.source-reading-terms {
+    margin-bottom: 20px;
+}
+.source-reading-term-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.source-reading-term {
+    display: inline-block;
+    padding: 4px 10px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+}
+.source-reading-term em {
+    color: var(--gold);
+}
+.source-reading-backdrop,
+.source-reading-2t {
+    margin-bottom: 20px;
+}
+.source-reading-backdrop p,
+.source-reading-2t p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.84rem;
+}
+
+/* Hide interlinear controls in source reading mode */
+body.source-reading-active .il-nav-btn,
+body.source-reading-active .font-size-controls,
+body.source-reading-active .il-copy-menu,
+body.source-reading-active .reading-pane-select,
+body.source-reading-active .reading-pane-options-row,
+body.source-reading-active .il-legend,
+body.source-reading-active .sync-btn-right,
+body.source-reading-active .reading-progress {
+    display: none !important;
+}
+
+/* ── Copy Buttons ──────────────────────────── */
+/* Per-verse copy (reading pane) */
+.il-verse-copy {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: var(--text-muted);
+    font-size: 0.65rem;
+    cursor: pointer;
+    padding: 2px 5px;
+    opacity: 0;
+    transition: all 0.15s ease;
+    z-index: 2;
+    line-height: 1;
+}
+
+.il-verse { position: relative; }
+
+.il-verse:hover .il-verse-copy {
+    opacity: 0.5;
+}
+
+.il-verse-copy:hover {
+    opacity: 1 !important;
+    color: var(--gold);
+    border-color: rgba(201, 168, 76, 0.3);
+    background: rgba(201, 168, 76, 0.06);
+}
+
+/* Copy chapter button in header */
+.il-copy-menu {
+    position: relative;
+}
+
+.il-copy-btn {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.68rem;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: all var(--transition);
+    border: 1px solid rgba(201, 168, 76, 0.15);
+    background: none;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.il-copy-btn:hover {
+    color: var(--gold);
+    border-color: rgba(201, 168, 76, 0.3);
+    background: rgba(201, 168, 76, 0.06);
+}
+
+.il-copy-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 4px;
+    background: var(--bg-card);
+    border: 1px solid rgba(201, 168, 76, 0.15);
+    border-radius: 6px;
+    padding: 4px 0;
+    min-width: 160px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    z-index: 60;
+    display: none;
+}
+
+.il-copy-dropdown.open { display: block; }
+
+.il-copy-option {
+    display: block;
+    width: 100%;
+    padding: 7px 14px;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.il-copy-option:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+}
+
+/* Copy button on study content chapter cards */
+.chapter-copy-btn {
+    position: absolute;
+    top: 16px;
+    right: 48px;
+    background: none;
+    border: 1px solid rgba(201, 168, 76, 0.2);
+    border-radius: 4px;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 4px 8px;
+    font-size: 0.7rem;
+    transition: all var(--transition);
+    opacity: 0;
+}
+
+.chapter-card:hover .chapter-copy-btn { opacity: 1; }
+
+.chapter-copy-btn:hover {
+    color: var(--gold);
+    border-color: var(--gold-border);
+    background: var(--gold-dim);
+}
+
+/* Reading Progress */
+.read-check-label {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 2;
+    cursor: pointer;
+    line-height: 1;
+}
+.read-check {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid var(--border);
+    border-radius: 3px;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.15s;
+}
+.read-check:checked {
+    background: var(--gold);
+    border-color: var(--gold);
+}
+.read-check:checked::after {
+    content: '\2713';
+    position: absolute;
+    top: -1px;
+    left: 2px;
+    font-size: 11px;
+    color: var(--bg-primary);
+    font-weight: 700;
+}
+.chapter-read {
+    opacity: 0.75;
+}
+.chapter-read .chapter-ref::after {
+    content: ' \2713 Read';
+    color: var(--gold-dim);
+    font-size: 0.65rem;
+    margin-left: 6px;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+/* Sidebar read count */
+.sidebar-read-count {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+    text-align: center;
+}
+.sidebar-read-count.all-read {
+    color: var(--gold);
+}
+
+/* Sidebar chapter read indicator */
+.chapter-link.ch-read {
+    color: var(--text-muted);
+}
+.ch-read-dot {
+    color: var(--gold);
+    font-size: 0.65rem;
+    margin-right: 4px;
+}
+
+/* Copy toast notification */
+.copy-toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--bg-card);
+    border: 1px solid rgba(201, 168, 76, 0.25);
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: var(--gold);
+    font-size: 0.82rem;
+    font-family: var(--font-body);
+    box-shadow: var(--shadow-lg);
+    z-index: var(--z-toast);
+    opacity: 0;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.copy-toast.visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* ── Grammar Legend (bottom of pane) ─────────── */
+.il-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    padding: 10px 16px;
+    border-top: 1px solid rgba(255,255,255,0.04);
+    background: rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.il-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.58rem;
+    color: var(--text-muted);
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.il-legend-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+

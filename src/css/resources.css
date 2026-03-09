@@ -1,0 +1,195 @@
+/* ── Resources Overlay ──────────────────────────── */
+.resources-overlay {
+    position: fixed;
+    inset: 0;
+    background: var(--bg-overlay);
+    z-index: var(--z-modal);
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    padding: var(--space-2xl) var(--space-lg);
+    overflow-y: auto;
+}
+
+.resources-overlay.open {
+    display: flex;
+}
+
+.resources-modal {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-lg);
+    width: 100%;
+    max-width: var(--modal-width-lg);
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: var(--space-xl);
+    box-shadow: var(--shadow-xl);
+}
+
+.resources-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-lg);
+}
+
+.resources-modal-header h2 {
+    font-size: var(--text-2xl);
+}
+
+.resources-close {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+.resources-close:hover { color: var(--text-primary); }
+
+.resources-search {
+    width: 100%;
+    padding: 10px 16px;
+    background: var(--bg-primary);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: var(--border-radius);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.resources-search:focus {
+    border-color: var(--gold-border);
+}
+
+.resources-filters {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.resources-filter-btn {
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid rgba(201, 168, 76, 0.2);
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.resources-filter-btn:hover {
+    border-color: var(--gold);
+    color: var(--text-primary);
+}
+
+.resources-filter-btn.active {
+    background: var(--gold-dim);
+    border-color: var(--gold);
+    color: var(--gold);
+}
+
+.resources-section-title {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: var(--gold);
+    margin: 24px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+}
+
+.resources-section-title:first-of-type {
+    margin-top: 0;
+}
+
+.resource-card {
+    display: block;
+    padding: 16px;
+    margin-bottom: 10px;
+    background: var(--bg-card);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.resource-card:hover {
+    border-color: var(--gold-border);
+    background: var(--bg-hover);
+}
+
+.resource-card.featured {
+    border-left: 3px solid var(--gold);
+}
+
+.resource-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.resource-type-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.resource-type-badge.video { background: rgba(220,50,50,0.2); color: #e06060; }
+.resource-type-badge.book { background: rgba(90,155,200,0.2); color: #6ab0e0; }
+.resource-type-badge.podcast { background: rgba(160,100,220,0.2); color: #b080e0; }
+.resource-type-badge.academic { background: rgba(90,170,120,0.2); color: #70c090; }
+.resource-type-badge.website { background: rgba(200,168,76,0.2); color: var(--gold); }
+
+.resource-card-title {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    color: var(--text-primary);
+    line-height: 1.4;
+}
+
+.resource-card-author {
+    font-size: 0.82rem;
+    color: var(--gold);
+    margin-bottom: 4px;
+}
+
+.resource-card-meta {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+}
+
+.resource-card-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.resource-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.resource-tag {
+    padding: 2px 8px;
+    border-radius: 10px;
+    background: rgba(201, 168, 76, 0.08);
+    border: 1px solid rgba(201, 168, 76, 0.12);
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+

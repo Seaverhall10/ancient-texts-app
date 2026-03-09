@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallelujah AI — Hub</title>
+    <style>
+        :root {
+            --gold: #c9a84c;
+            --gold-dim: rgba(201, 168, 76, 0.3);
+            --bg-primary: #0a0c14;
+            --bg-card: #12141f;
+            --bg-card-hover: #1a1d2e;
+            --text-primary: #e8e6e3;
+            --text-muted: #8b8985;
+            --border: rgba(201, 168, 76, 0.12);
+            --border-strong: rgba(201, 168, 76, 0.25);
+            --font-heading: 'Georgia', 'Times New Roman', serif;
+            --font-body: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        /* Subtle background pattern */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 30% 20%, rgba(201,168,76,0.03) 0%, transparent 50%),
+                        radial-gradient(ellipse at 70% 80%, rgba(201,168,76,0.02) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hub-container {
+            text-align: center;
+            padding: 40px 20px;
+            max-width: 900px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hub-title {
+            font-family: var(--font-heading);
+            font-size: 2.8rem;
+            color: var(--gold);
+            letter-spacing: 0.08em;
+            margin-bottom: 8px;
+            text-shadow: 0 0 40px rgba(201,168,76,0.15);
+        }
+
+        .hub-verse {
+            font-family: var(--font-heading);
+            font-style: italic;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 50px;
+            opacity: 0.8;
+        }
+
+        .hub-cards {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+
+        .hub-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 48px 36px 40px;
+            width: 360px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hub-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .hub-card:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--border-strong);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 30px rgba(201,168,76,0.05);
+        }
+
+        .hub-card:hover::before {
+            opacity: 1;
+        }
+
+        .hub-card:active {
+            transform: translateY(-2px);
+        }
+
+        .card-icon {
+            font-size: 3.2rem;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .card-title {
+            font-family: var(--font-heading);
+            font-size: 1.35rem;
+            color: var(--text-primary);
+            margin-bottom: 10px;
+        }
+
+        .card-desc {
+            color: var(--text-muted);
+            font-size: 0.88rem;
+            line-height: 1.5;
+        }
+
+        /* Status bar */
+        .hub-status {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 12px 20px;
+            background: rgba(255,255,255,0.02);
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.04);
+        }
+
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #555;
+            transition: background 0.3s;
+        }
+
+        .status-dot.green { background: #4ade80; box-shadow: 0 0 6px rgba(74,222,128,0.4); }
+        .status-dot.yellow { background: #fbbf24; }
+        .status-dot.red { background: #f87171; }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .hub-title { font-size: 2rem; }
+            .hub-cards { flex-direction: column; align-items: center; }
+            .hub-card { width: 100%; max-width: 360px; padding: 36px 28px 32px; }
+            .hub-status { flex-direction: column; gap: 8px; }
+        }
+
+        /* Keyboard focus */
+        .hub-card:focus-visible {
+            outline: 2px solid var(--gold);
+            outline-offset: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hub-container">
+        <h1 class="hub-title">HALLELUJAH AI</h1>
+        <p class="hub-verse">"The fear of YHWH is the beginning of wisdom" &mdash; Proverbs 9:10</p>
+
+        <div class="hub-cards">
+            <div class="hub-card" id="chatBtn" tabindex="0" role="button" aria-label="Open chat">
+                <span class="card-icon" aria-hidden="true">&#x1F4AC;</span>
+                <div class="card-title">Chat About Something</div>
+                <div class="card-desc">Bible-bound AI conversation powered by local inference. Ask anything — Scripture, theology, history, analysis.</div>
+            </div>
+
+            <div class="hub-card" id="studyBtn" tabindex="0" role="button" aria-label="Open study app">
+                <span class="card-icon" aria-hidden="true">&#x1F4DC;</span>
+                <div class="card-title">Explore, Study, Research</div>
+                <div class="card-desc">Ancient texts library with interlinear Hebrew &amp; Greek, glossary, prophecy matrix, and cross-references.</div>
+            </div>
+        </div>
+
+        <div class="hub-status">
+            <div class="status-item">
+                <span class="status-dot" id="ollamaStatus"></span>
+                <span id="ollamaLabel">Checking Ollama...</span>
+            </div>
+            <div class="status-item">
+                <span class="status-dot" id="modelStatus"></span>
+                <span id="modelLabel">Loading model...</span>
+            </div>
+            <div class="status-item">
+                <span class="status-dot" id="ragStatus"></span>
+                <span id="ragLabel">Knowledge index...</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    (function() {
+        var API = window.location.origin;
+
+        // Navigation
+        document.getElementById('chatBtn').addEventListener('click', function() {
+            window.location.href = '/chat';
+        });
+
+        document.getElementById('studyBtn').addEventListener('click', function() {
+            if (window.pywebview && window.pywebview.api) {
+                window.pywebview.api.navigate('study');
+            } else {
+                // Fallback: try opening directly (won't work from http:// in most browsers)
+                alert('Study app requires the desktop launcher (LAUNCH_AI.bat).');
+            }
+        });
+
+        // Keyboard support
+        document.querySelectorAll('.hub-card').forEach(function(card) {
+            card.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    card.click();
+                }
+            });
+        });
+
+        // Health check
+        function checkHealth() {
+            fetch(API + '/health')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    // Ollama status
+                    var od = document.getElementById('ollamaStatus');
+                    var ol = document.getElementById('ollamaLabel');
+                    if (data.ollama && data.ollama.status === 'connected') {
+                        od.className = 'status-dot green';
+                        ol.textContent = 'Ollama connected';
+                    } else {
+                        od.className = 'status-dot red';
+                        ol.textContent = 'Ollama offline';
+                    }
+
+                    // Model status
+                    var md = document.getElementById('modelStatus');
+                    var ml = document.getElementById('modelLabel');
+                    if (data.ollama && data.ollama.models && data.ollama.models.length > 0) {
+                        md.className = 'status-dot green';
+                        ml.textContent = data.ollama.default_model || data.ollama.models[0];
+                    } else {
+                        md.className = 'status-dot yellow';
+                        ml.textContent = 'No model loaded';
+                    }
+                })
+                .catch(function() {
+                    document.getElementById('ollamaStatus').className = 'status-dot red';
+                    document.getElementById('ollamaLabel').textContent = 'Server offline';
+                });
+
+            // RAG status
+            fetch(API + '/search?q=test&limit=1')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    var rd = document.getElementById('ragStatus');
+                    var rl = document.getElementById('ragLabel');
+                    if (data.stats) {
+                        rd.className = 'status-dot green';
+                        rl.textContent = data.stats.chapters + ' chapters indexed';
+                    } else {
+                        rd.className = 'status-dot green';
+                        rl.textContent = 'Knowledge ready';
+                    }
+                })
+                .catch(function() {
+                    document.getElementById('ragStatus').className = 'status-dot yellow';
+                    document.getElementById('ragLabel').textContent = 'Index building...';
+                });
+        }
+
+        checkHealth();
+    })();
+    </script>
+</body>
+</html>

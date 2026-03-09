@@ -1,0 +1,40 @@
+   BREADCRUMB NAVIGATION
+   ════════════════════════════════════════════════════════════ */
+.breadcrumb-bar {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-sm) 0;
+    margin-bottom: var(--space-md);
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    max-width: var(--content-max);
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+.breadcrumb-bar a,
+.breadcrumb-bar .bc-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color var(--transition);
+    padding: 2px var(--space-xs);
+    border-radius: var(--radius-sm);
+}
+.breadcrumb-bar a:hover,
+.breadcrumb-bar .bc-link:hover {
+    color: var(--gold);
+    background: rgba(201, 168, 76, 0.06);
+}
+.breadcrumb-bar .bc-sep {
+    color: var(--text-muted);
+    opacity: 0.4;
+    font-size: 0.65rem;
+}
+.breadcrumb-bar .bc-current {
+    color: var(--gold);
+    font-weight: 600;
+}
+
+/* ════════════════════════════════════════════════════════════

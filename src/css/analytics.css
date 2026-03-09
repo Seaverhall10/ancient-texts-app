@@ -1,0 +1,13 @@
+   USAGE ANALYTICS PANEL
+   ═══════════════════════════════════════════════ */
+
+.analytics-panel { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+.analytics-panel h3 { font-size: 0.95rem; color: var(--text-primary); margin-bottom: 12px; }
+.analytics-panel h4 { font-size: 0.82rem; color: var(--text-secondary); margin: 12px 0 6px; }
+.analytics-stats { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
+.analytics-list { background: var(--surface); border-radius: 6px; border: 1px solid var(--border); overflow: hidden; }
+.analytics-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 12px; font-size: 0.78rem; color: var(--text-secondary); border-bottom: 1px solid rgba(255,255,255,0.04); }
+.analytics-row:last-child { border-bottom: none; }
+.analytics-count { font-weight: 700; color: var(--gold); font-family: var(--font-mono); font-size: 0.75rem; }
+
+/* ═══════════════════════════════════════════════

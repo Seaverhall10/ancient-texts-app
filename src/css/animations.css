@@ -1,0 +1,39 @@
+   VIEW TRANSITIONS & ANIMATIONS
+   ═══════════════════════════════════════════════ */
+
+/* Fade-in for content sections when switching views */
+@keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.view-enter {
+    animation: fadeSlideIn 0.25s ease-out;
+}
+
+/* Stagger chapter cards on load */
+.chapter-card.stagger-in {
+    animation: fadeSlideIn 0.3s ease-out both;
+}
+
+/* Era header entrance */
+.era-header.view-enter {
+    animation: fadeSlideIn 0.2s ease-out;
+}
+
+/* Library cards stagger on load */
+.library-card.stagger-in {
+    animation: fadeSlideIn 0.25s ease-out both;
+}
+
+/* Callout boxes subtle entrance */
+.scripture-block, .ane-callout, .second-temple-box, .council-note {
+    transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.scripture-block:hover, .ane-callout:hover, .second-temple-box:hover, .council-note:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+/* ═══════════════════════════════════════════════

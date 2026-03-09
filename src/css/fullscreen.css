@@ -1,0 +1,155 @@
+/* ── Reading Pane Fullscreen / Expanded Mode ─── */
+body.reading-pane-fullscreen .app-container {
+    grid-template-columns: 0px 0px 0px 0px 1fr !important;
+}
+body.reading-pane-fullscreen .sidebar,
+body.reading-pane-fullscreen .sidebar-toggle,
+body.reading-pane-fullscreen .sidebar-backdrop,
+body.reading-pane-fullscreen .main-content,
+body.reading-pane-fullscreen .sync-btn-left,
+body.reading-pane-fullscreen .reading-pane-toggle,
+body.reading-pane-fullscreen .resize-handle,
+body.reading-pane-fullscreen .layout-presets {
+    display: none !important;
+}
+
+body.reading-pane-fullscreen .reading-pane {
+    border-left: none;
+}
+
+body.reading-pane-fullscreen .reading-pane .il-verse {
+    grid-template-columns: 1fr 1.5fr;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+body.reading-pane-fullscreen .reading-pane .il-verse-english {
+    padding: 22px 28px 22px 24px;
+}
+
+body.reading-pane-fullscreen .reading-pane .il-verse-words {
+    padding: 18px 16px;
+}
+
+body.reading-pane-fullscreen .reading-pane .il-word .il-hebrew {
+    font-size: 1.85rem;
+}
+
+body.reading-pane-fullscreen .reading-pane .il-word .il-gloss {
+    font-size: 0.68rem;
+    max-width: 110px;
+}
+
+body.reading-pane-fullscreen .reading-pane .il-verse-sentence {
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+body.reading-pane-fullscreen .reading-pane-header {
+    padding: 14px 24px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body.reading-pane-fullscreen .reading-pane-title-row h3 {
+    font-size: 1.35rem;
+}
+
+/* Font size controls */
+.font-size-controls {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.font-size-btn {
+    background: none;
+    border: 1px solid rgba(201, 168, 76, 0.15);
+    border-radius: 3px;
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 2px 7px;
+    line-height: 1;
+    transition: all var(--transition);
+    font-family: var(--font-body);
+}
+
+.font-size-btn:hover {
+    color: var(--gold);
+    border-color: var(--gold-border);
+    background: var(--gold-dim);
+}
+
+.font-size-label {
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    letter-spacing: 0.3px;
+    min-width: 28px;
+    text-align: center;
+}
+
+/* Reading progress bar */
+.reading-progress {
+    height: 2px;
+    background: rgba(201, 168, 76, 0.08);
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.reading-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, var(--gold), rgba(201, 168, 76, 0.4));
+    width: 0%;
+    transition: width 0.15s ease;
+    border-radius: 0 1px 1px 0;
+}
+
+/* Chapter/verse indicator */
+.chapter-indicator {
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    letter-spacing: 0.3px;
+    padding: 0 4px;
+    white-space: nowrap;
+}
+
+/* Expand button in header */
+.reading-pane-expand {
+    background: none;
+    border: 1px solid rgba(201, 168, 76, 0.15);
+    border-radius: 4px;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 3px 8px;
+    line-height: 1;
+    transition: all var(--transition);
+}
+
+.reading-pane-expand:hover {
+    color: var(--gold);
+    border-color: var(--gold-border);
+    background: var(--gold-dim);
+}
+
+body.reading-pane-fullscreen .reading-pane-expand {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: var(--gold-dim);
+}
+
+/* Hebrew-only fullscreen — even larger text */
+body.reading-pane-fullscreen.il-mode-hebrew .il-word .il-hebrew {
+    font-size: 2.8rem;
+}
+
+body.reading-pane-fullscreen.il-mode-hebrew .il-verse-words {
+    padding: 20px 24px;
+    gap: 2px 4px;
+    justify-content: center;
+}
+

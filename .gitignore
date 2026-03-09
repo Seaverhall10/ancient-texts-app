@@ -25,6 +25,14 @@ agents/config.py
 *.key
 *.pem
 
+# ── HAI (Hallelujah AI) — dev-only, large DB ────────
+hai/server/rag/hallelujah.db
+
+# ── Agent Reports (generated, not source) ────────────
+agents/reports/
+agents/tasks/completed/
+agents/tasks/in_progress/
+
 # ── Claude Code ───────────────────────────────────────
 .claude/settings.local.json
 .claude/plans/
@@ -47,7 +55,6 @@ nul
 archive/
 
 # ── Stray mobile build files (if deploy fails) ──────
-# These should ONLY live in output/mobile/
 /index.html
 /sw.js
 /manifest.webmanifest

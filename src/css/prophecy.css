@@ -1,0 +1,141 @@
+/* ── Prophecy Tracker (Per-Book) ────────── */
+.prophecy-tracker-link {
+    background: transparent;
+    border: 1px solid var(--gold-border);
+    color: var(--gold);
+    padding: 6px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-top: 8px;
+    transition: all 0.15s;
+}
+.prophecy-tracker-link:hover { background: rgba(201,168,76,0.1); }
+
+.tracker-book-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 0 20px 16px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 20px;
+}
+.tracker-book-tab {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.tracker-book-tab:hover { border-color: var(--gold-border); color: var(--text-secondary); }
+.tracker-book-tab.active { border-color: var(--gold); color: var(--gold); background: rgba(201,168,76,0.08); }
+.tracker-count {
+    font-size: 0.65rem;
+    opacity: 0.6;
+    margin-left: 3px;
+}
+
+.tracker-book-content { padding: 0 20px 40px; max-width: var(--content-max); }
+.tracker-book-title {
+    font-family: var(--font-heading);
+    color: var(--text-primary);
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--gold-dim);
+}
+
+.tracker-prophecy {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: var(--space-md) var(--space-lg);
+    margin-bottom: var(--space-md);
+}
+.tracker-prophecy-header { margin-bottom: 10px; }
+.tracker-id {
+    font-size: 0.7rem;
+    color: var(--gold);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-right: 8px;
+}
+.tracker-ref {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+.tracker-title {
+    font-family: var(--font-heading);
+    font-size: 1.05rem;
+    color: var(--text-primary);
+    margin: 6px 0 0;
+}
+.tracker-snippet {
+    font-style: italic;
+    color: var(--text-secondary);
+    padding: 8px 14px;
+    border-left: 3px solid var(--gold-border);
+    margin-bottom: 12px;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+
+.tracker-views {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) { .tracker-views { grid-template-columns: 1fr; } }
+
+.tracker-view {
+    background: var(--bg-secondary);
+    border-radius: 6px;
+    padding: 12px;
+    border: 1px solid var(--border);
+}
+.tracker-christian { border-left: 3px solid #5a9a6a; }
+.tracker-jewish { border-left: 3px solid #5a7a9e; }
+
+.tracker-view-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.tracker-view-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+.tracker-status {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.tracker-fulfillment-ref, .tracker-date {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+}
+.tracker-explanation {
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    line-height: 1.55;
+}
+
+.tracker-scholarly {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    padding: 8px 12px;
+    background: rgba(201,168,76,0.04);
+    border-radius: 4px;
+    border: 1px solid var(--gold-dim);
+    line-height: 1.5;
+}
+

@@ -1,0 +1,37 @@
+# ============================================================
+#  HALLELUJAH AI — Custom Ollama Model Configuration
+#  Based on Qwen 2.5 7B (128K native context, 29 languages)
+#
+#  To build: ollama create hallelujah -f Modelfile
+#  To run:   ollama run hallelujah
+#
+#  "Buy truth, and do not sell it." — Proverbs 23:23
+# ============================================================
+
+FROM qwen2.5:7b
+
+# ── Sampling Parameters ──────────────────────────────────
+# Temperature: 0.7 balances creativity with consistency
+PARAMETER temperature 0.7
+
+# Top-K: Consider top 40 tokens at each step (reduces hallucination)
+PARAMETER top_k 40
+
+# Top-P (nucleus): Sample from tokens covering 90% probability mass
+PARAMETER top_p 0.9
+
+# Repeat penalty: Discourage repetitive text (1.0 = off, >1.0 = penalize)
+PARAMETER repeat_penalty 1.15
+
+# ── Context Window ───────────────────────────────────────
+# Qwen 2.5 supports 128K natively. We use 16K to balance
+# quality with speed on CPU inference (i7-9850H, 32GB RAM).
+PARAMETER num_ctx 16384
+
+# ── Stop Sequences ───────────────────────────────────────
+# Prevent model from generating past its intended end
+PARAMETER stop "<|im_end|>"
+PARAMETER stop "<|endoftext|>"
+
+# ── System Prompt (minimal — full prompt injected at runtime) ──
+SYSTEM """You are Hallelujah AI — a fearless warrior for truth and master of ancient languages. You are an expert in Hebrew, Greek, Aramaic, Akkadian, Ugaritic, and Sumerian. You understand that names in Scripture are compressed prophecy — every name carries meaning by root, by number (gematria), by pictographic Hebrew letter-pictures, and by divine intent. You speak with conviction and cite evidence for every claim."""

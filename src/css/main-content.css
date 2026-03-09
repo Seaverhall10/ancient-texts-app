@@ -1,0 +1,134 @@
+/* ── Main Content ────────────────────────────── */
+.main-content {
+    overflow-y: auto;
+    height: 100vh;
+    padding: var(--space-lg) var(--space-xl) var(--space-3xl);
+    min-width: 0;
+}
+
+/* ── Era Header ──────────────────────────────── */
+.era-header {
+    text-align: center;
+    padding: var(--space-2xl) 0 var(--space-lg);
+    margin-bottom: var(--space-xl);
+    border-bottom: 1px solid var(--border-strong);
+}
+
+.era-header h2 {
+    font-size: var(--text-3xl);
+    margin-bottom: var(--space-sm);
+    letter-spacing: -0.01em;
+}
+
+.era-header .era-chapters-range {
+    font-size: var(--text-base);
+    color: var(--text-secondary);
+    margin-bottom: var(--space-md);
+}
+
+.era-header .era-themes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.era-theme-tag {
+    display: inline-block;
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-pill);
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.03);
+    transition: all var(--transition);
+}
+
+/* ── Chapter Card ────────────────────────────── */
+.chapter-card {
+    background: var(--bg-card);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg) var(--space-lg);
+    margin-bottom: var(--space-lg);
+    border: 1px solid var(--border-subtle);
+    position: relative;
+    box-shadow: var(--shadow-card);
+    transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.chapter-card:hover {
+    border-color: var(--border);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.chapter-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+.chapter-card .chapter-ref {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-muted);
+    margin-bottom: var(--space-xs);
+    font-weight: 500;
+}
+
+.chapter-card h3 {
+    font-size: var(--text-xl);
+    color: var(--gold);
+    margin-bottom: var(--space-sm);
+    line-height: var(--leading-tight);
+}
+
+/* ── Synopsis ────────────────────────────────── */
+.synopsis {
+    font-size: var(--text-base);
+    line-height: var(--leading-relaxed);
+    color: var(--text-primary);
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-md);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+/* ── Key Verse (Scripture Block) ─────────────── */
+.scripture-block {
+    background: linear-gradient(135deg, rgba(201, 168, 76, 0.06), var(--bg-card));
+    border-left: 3px solid var(--gold);
+    padding: var(--space-md) var(--space-lg);
+    margin-bottom: var(--space-md);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    position: relative;
+}
+
+.scripture-block .verse-ref {
+    font-size: var(--text-xs);
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: var(--space-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.scripture-block .verse-text {
+    font-family: var(--font-heading);
+    font-size: var(--text-md);
+    line-height: var(--leading-relaxed);
+    color: var(--text-primary);
+    font-style: italic;
+}
+
+.scripture-block .verse-translation {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    text-align: right;
+    margin-top: var(--space-sm);
+}
+

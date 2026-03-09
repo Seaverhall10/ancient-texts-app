@@ -1,0 +1,136 @@
+/* ── Hebrew Terms Grid ───────────────────────── */
+.terms-section {
+    margin-bottom: var(--space-md);
+}
+
+.terms-section h4 {
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: var(--space-sm);
+    font-family: var(--font-body);
+    font-weight: 600;
+}
+
+.terms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+    gap: var(--space-sm);
+}
+
+.term-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    padding: var(--space-sm) var(--space-sm);
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.term-card:hover {
+    border-color: var(--gold-border);
+    background: var(--bg-hover);
+    box-shadow: var(--shadow-sm);
+}
+
+.term-card .term-hebrew {
+    font-size: var(--text-lg);
+    color: var(--gold);
+    margin-bottom: 1px;
+}
+
+.term-card .term-translit {
+    font-size: var(--text-sm);
+    color: var(--text-primary);
+    font-style: italic;
+}
+
+.term-card .term-strongs {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    margin-bottom: 2px;
+}
+
+.term-card .term-gloss {
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+    line-height: var(--leading-tight);
+}
+
+/* ── Shared Callout Base ─────────────────────── */
+.ane-callout,
+.second-temple-box,
+.council-note {
+    padding: var(--space-md) var(--space-lg);
+    margin-bottom: var(--space-md);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    border-left: 3px solid;
+}
+
+.ane-callout .callout-label,
+.second-temple-box .callout-label,
+.council-note .callout-label {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+}
+
+.ane-callout .callout-body,
+.council-note .callout-body {
+    font-size: var(--text-base);
+    line-height: var(--leading-relaxed);
+    color: var(--text-primary);
+}
+
+/* ── ANE Backdrop Callout ────────────────────── */
+.ane-callout {
+    background: linear-gradient(135deg, rgba(45, 154, 143, 0.06), var(--bg-card));
+    border-left-color: var(--teal);
+}
+
+.ane-callout .callout-label { color: var(--teal); }
+
+/* ── Second Temple Sources ───────────────────── */
+.second-temple-box {
+    background: linear-gradient(135deg, rgba(155, 126, 200, 0.06), var(--bg-card));
+    border-left-color: var(--purple);
+}
+
+.second-temple-box .callout-label { color: var(--purple); }
+
+.source-entry {
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-md);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.source-entry:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.source-entry .source-ref {
+    font-weight: 600;
+    color: var(--purple);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-xs);
+}
+
+.source-entry .source-summary {
+    font-size: var(--text-base);
+    color: var(--text-primary);
+    line-height: var(--leading-normal);
+    margin-bottom: var(--space-xs);
+}
+
+.source-entry .source-relevance {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: var(--leading-normal);
+}
+

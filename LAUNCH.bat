@@ -152,12 +152,12 @@ curl -s http://localhost:11434/api/tags 2>nul | findstr /i "hallelujah" >nul 2>&
 if errorlevel 1 (
     echo [setup] Pulling base model + creating Hallelujah model...
     "%OLLAMA_EXE%" pull qwen2.5:7b
-    "%OLLAMA_EXE%" create hallelujah -f "%~dp0Modelfile"
+    "%OLLAMA_EXE%" create hallelujah -f "%~dp0hai\Modelfile"
 )
 
 echo.
 echo [launch] Starting Ancient Texts + Hallelujah AI...
-"%PYTHON%" app.py
+"%PYTHON%" hai\app.py
 echo.
 echo [shutdown] App closed.
 pause

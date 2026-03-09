@@ -2,51 +2,56 @@
 
 ## WHO YOU'RE WORKING WITH
 - **User**: Seaver Hall (NOT Sean) — spiritual researcher, builder
-- **Project**: Ancient Texts Study App
+- **Project**: Ancient Texts Study App (v3.3.0)
 - **Purpose**: Deep scripture study with original languages, cross-references,
   divine council theology, Second Temple context
 
 ## FIRST THING TO DO
-1. Read `STATUS.md` — current completion state
-2. Read `CLAUDE_CONTEXT/ancient_texts_app_memory.md` — full session history & lessons
-3. Read `CONTENT_MAP.json` — complete content index (what exists, what's missing)
-
-## PROJECT LOCATION
-```
-E:\My Drive\ANCIENT_TEXTS Study App\     ← Work from here (OneDrive, always synced)
-```
-Old Desktop location: `C:\Users\SeaverHall\Desktop\ANCIENT_TEXTS_APP\` (may be deleted)
+1. Read `PROJECT.md` — full directory structure & architecture
+2. Read `STATUS.md` — current completion state & priorities
+3. Read `CLAUDE_CONTEXT/ancient_texts_app_memory.md` — session history & lessons
 
 ## WHAT THIS IS
-A single-file HTML study app built from Python data files. Contains:
-- **50 texts**: 15 OT books (with Hebrew/Greek interlinear) + all 27 NT books
-  (with Greek interlinear) + 8 Apocryphal/Second Temple texts
-- **147 study eras** (thematic chapters with cross-refs, divine council notes, ANE context)
-- **~21,500 verse-by-verse flow translations** (formal equivalence + notes)
-- **~320,000 interlinear words** (click any word → original language popup)
-- **4,685+ cross-references** indexed in CONTENT_MAP.json
+Two-target study app (Desktop + Mobile PWA) built from Python data files:
+- **74 texts** (39 OT + 27 NT + 8 Apocryphal/Second Temple)
+- **186 study eras**, 895 chapters
+- **444,339 interlinear words** (Hebrew + Greek, click-to-popup)
+- **31,101 flow verse translations**
+- **5,932 cross-references**, 553 glossary terms
+- **52+ world religions** in Bible Truth Matrix
 
 ## KEY COMMANDS
 ```bash
-python build.py                              # Rebuild app (always run after changes)
-python agents/reader.py --mode qa           # QA check
-python data/generate_nt_flow.py --book X    # Generate flow for a book
-LAUNCH.bat                                  # One-click run
-SYNC.bat                                    # Sync to Google Drive
+python build.py                    # Desktop dev build (with HAI)
+python build.py --release          # Desktop release build (no HAI)
+python build_mobile.py             # Mobile PWA build
+BUILD_ALL.bat                      # Build all 3 targets
+DEPLOY.bat                         # Build + commit + push + deploy gh-pages
+LAUNCH.bat                         # Interactive menu
+python agents/reader.py --mode qa  # QA check
 ```
 
-## BUILDER'S COUNCIL (5 AI Agents)
-- **ORACLE** — planning, priorities
-- **SCRIBE** — content generation (era files, flow translations)
-- **ARBITER** — theological accuracy
-- **LECTOR** — language, glossary, interlinear
-- **ARCHITECT** — build, status, infrastructure
+## PROJECT STRUCTURE (see PROJECT.md for full map)
+```
+src/css/         39 component CSS files + build-order.txt
+src/js/          app.js (main) + state.js (state management)
+data/            74 text folders + flow/ + shared era files
+agents/          5 AI council agents (Oracle, Scribe, Arbiter, Lector, Architect)
+hai/             Hallelujah AI (dev-only chat: app.py, server, pipeline, policy)
+docs/            Research notes, vision docs, handoffs, comms
+tools/           One-off utility scripts
+electron/        Desktop Electron app
+```
 
-All keys in `agents/config.py`.
+## BUILD SYSTEM
+- **CSS**: 39 component files concatenated via `src/css/build-order.txt`
+- **JS**: Currently monolithic `app.js` (Phase 2 will split into ~25 modules)
+- **Desktop**: `build.py` → single 65 MB HTML with all data embedded
+- **Mobile**: `build_mobile.py` → 0.6 MB shell + per-text JSON (on-demand loading)
+- **Deploy**: `DEPLOY.bat` uses temp-directory approach for gh-pages (NEVER `git checkout --orphan` in working dir)
 
 ## THEOLOGICAL LAWS (NEVER VIOLATE)
-1. Non-canonical texts (1 Enoch, Jubilees, etc.) = NEVER "the Bible says"
-   Use: "According to 1 Enoch..." or "The Enochic tradition holds..."
+1. Non-canonical texts = NEVER "the Bible says" → use "According to 1 Enoch..."
 2. Evidence tiers: [A] Direct Scripture / [B] Valid inference / [C] Ancient parallels
 3. Deut 32:8 — use DSS/LXX "sons of God" not MT "sons of Israel"
 4. Genesis 6:1-4 — sons of God = divine/angelic beings (argue against Sethite view)
@@ -54,17 +59,19 @@ All keys in `agents/config.py`.
 6. Scripture = ESV unless noted
 
 ## CRITICAL CODE PATTERNS
-- **Flow files**: named `data/flow/flow_{book_id}.py`, export `FLOW_{BOOK}` + `NOTES_{BOOK}` dicts
+- **Flow files**: `data/flow/flow_{book_id}.py`, export `FLOW_{BOOK}` + `NOTES_{BOOK}`
 - **Era files**: `data/{text_id}/era_*.py`, export `CHAPTERS` list
-- **Interlinear (OT)**: `data/interlinear_{book}.py` or `data/{book}/interlinear.py` (Genesis)
+- **Interlinear (OT)**: `data/interlinear_{book}.py` or `data/{book}/interlinear.py`
 - **Interlinear (NT)**: `data/interlinear_nt_{book}.py`
-- **1 Enoch special case**: manifest has `data_dir: "enoch1"`, so files are in `data/enoch1/`
-- **Build filter**: `flow_file.count("_") == 1` — only loads combined flow files, not partials
+- **1 Enoch special case**: manifest `data_dir: "enoch1"` → files in `data/enoch1/`
+- **Build filter**: `flow_file.count("_") == 1` — only loads combined flow files
 - **NT interlinear fallback**: build.py checks `INTERLINEAR_NT_{BOOK}` after `INTERLINEAR_{BOOK}`
 
-## WHAT'S STILL NEEDED
-See `STATUS.md` → "WHAT IS MISSING" section for prioritized backlog.
-Quick summary: 24 OT books need to be added, NT eras could use enrichment.
+## RESTRUCTURING PLAN (In Progress)
+Phase 1 ✅ CSS split + state module
+Phase 2 ⬜ JS module split (~25 files from app.js)
+Phase 3 ⬜ Build consolidation + data registry
+Phase 4 ⬜ Testing + CI/CD
 
 ## RULE: Research Before Inventing
 Always mine existing era files + flow files for patterns before writing new ones.

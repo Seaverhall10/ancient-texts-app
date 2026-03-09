@@ -1,0 +1,289 @@
+   UX / ACCESSIBILITY IMPROVEMENTS
+   ═══════════════════════════════════════════════ */
+
+/* ── 1. Skip-to-Content Link ───────────────────── */
+.skip-to-content {
+    position: fixed;
+    top: -50px;
+    left: var(--space-md);
+    z-index: var(--z-tooltip);
+    background: var(--gold);
+    color: var(--bg-primary);
+    padding: var(--space-sm) var(--space-lg);
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    text-decoration: none;
+    transition: top var(--transition);
+}
+.skip-to-content:focus {
+    top: 0;
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+}
+
+/* ── 2. Focus Ring System ──────────────────────── */
+:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+}
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px rgba(201, 168, 76, 0.15);
+}
+/* Remove outlines for mouse users */
+:focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+}
+
+/* ── 3. Reduced Motion ─────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    html { scroll-behavior: auto; }
+    .reading-pane { transition: none; }
+    .sidebar { transition: none; }
+}
+
+/* ── 4. User Mode Selector ─────────────────────── */
+.user-mode-selector {
+    display: flex;
+    gap: 2px;
+    padding: 2px;
+    background: rgba(0,0,0,0.25);
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.04);
+}
+.user-mode-btn {
+    padding: 3px 10px;
+    border: none;
+    border-radius: 4px;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 0.65rem;
+    font-family: var(--font-body);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.user-mode-btn:hover {
+    color: var(--text-primary);
+    background: rgba(255,255,255,0.04);
+}
+.user-mode-btn.active {
+    background: rgba(201, 168, 76, 0.15);
+    color: var(--gold);
+}
+
+/* ── 5. Interlinear Row Toggles ────────────────── */
+.il-row-toggles {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.il-row-toggle {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 4px;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 0.62rem;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+.il-row-toggle:hover {
+    border-color: rgba(201, 168, 76, 0.2);
+    color: var(--text-secondary);
+}
+.il-row-toggle.active {
+    border-color: rgba(201, 168, 76, 0.3);
+    background: rgba(201, 168, 76, 0.08);
+    color: var(--gold);
+}
+.il-row-toggle .toggle-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--text-muted);
+    transition: background 0.15s;
+}
+.il-row-toggle.active .toggle-dot {
+    background: var(--gold);
+}
+
+/* New interlinear row types */
+.il-translit {
+    font-size: 0.58rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.1;
+    margin-top: 1px;
+    opacity: 0.7;
+}
+.il-morph-tag {
+    font-size: 0.5rem;
+    color: var(--text-muted);
+    font-family: 'Cascadia Code', 'Fira Code', monospace;
+    line-height: 1;
+    margin-top: 2px;
+    opacity: 0.5;
+    letter-spacing: 0.02em;
+}
+.il-strongs-tag {
+    font-size: 0.48rem;
+    color: var(--text-muted);
+    font-family: monospace;
+    line-height: 1;
+    margin-top: 1px;
+    opacity: 0.4;
+}
+
+/* Hide rows based on state (toggled via JS body classes) */
+body.hide-il-translit .il-translit { display: none; }
+body.hide-il-morph .il-morph-tag { display: none; }
+body.hide-il-strongs .il-strongs-tag { display: none; }
+body.hide-il-gloss .il-gloss { display: none; }
+
+/* ── 6. Typography Improvements ────────────────── */
+/* Better verse number anchoring */
+.il-verse-num {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Improved interlinear word spacing */
+.il-verse-words {
+    gap: 2px 1px;
+}
+
+/* Verse separator enhancement */
+.il-verse {
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.il-verse:hover {
+    background: rgba(201, 168, 76, 0.03);
+}
+
+/* ── 7. High Contrast Mode ─────────────────────── */
+body.high-contrast {
+    --bg-primary: #000000;
+    --bg-secondary: #0a0a0a;
+    --bg-card: #111111;
+    --bg-sidebar: #050505;
+    --text-primary: #ffffff;
+    --text-secondary: #cccccc;
+    --text-muted: #999999;
+    --il-hebrew-color: #ffffff;
+}
+body.high-contrast .il-word .il-gloss {
+    color: rgba(201, 168, 76, 0.8);
+}
+body.high-contrast .il-verse-sentence {
+    opacity: 1;
+    color: #ffffff;
+}
+body.high-contrast .il-morph-tag {
+    opacity: 0.7;
+    color: #aaaaaa;
+}
+body.high-contrast .il-translit {
+    opacity: 0.9;
+    color: #cccccc;
+}
+
+/* High contrast toggle button */
+.hc-toggle {
+    padding: 3px 8px;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 4px;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 0.62rem;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    letter-spacing: 0.3px;
+}
+.hc-toggle:hover {
+    border-color: rgba(201, 168, 76, 0.2);
+    color: var(--text-secondary);
+}
+.hc-toggle.active {
+    border-color: var(--gold-border);
+    background: rgba(201, 168, 76, 0.08);
+    color: var(--gold);
+}
+
+/* ── 8. Toolbar Spacing Fix ────────────────────── */
+.reading-pane-controls {
+    flex-wrap: wrap;
+    gap: 6px;
+    row-gap: 4px;
+}
+
+/* New controls row between title and existing controls */
+.reading-pane-options-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+    padding: 2px 0;
+    border-top: 1px solid rgba(255,255,255,0.03);
+}
+
+/* ── 9. Sidebar Keyboard Nav Highlight ─────────── */
+.chapter-link:focus-visible,
+.era-toggle:focus-visible,
+.library-text-link:focus-visible,
+.library-card:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: -2px;
+    background: rgba(201, 168, 76, 0.06);
+}
+
+/* Sidebar sections collapse/expand */
+.library-category {
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+.library-cat-label {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.library-cat-label::after {
+    content: "\25BE";
+    font-size: 0.6rem;
+    opacity: 0.4;
+    transition: transform 0.15s;
+}
+.library-category.collapsed .library-cat-label::after {
+    transform: rotate(-90deg);
+}
+.library-category.collapsed .library-text-link {
+    display: none;
+}
+
+/* ══════════════════════════════════════════════════════════

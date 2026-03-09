@@ -1,0 +1,85 @@
+/* ── Cross-Reference Drawer ──────────────────── */
+.xref-drawer {
+    position: fixed;
+    top: 0;
+    right: calc(-1 * var(--xref-drawer-width));
+    width: var(--xref-drawer-width);
+    height: 100vh;
+    background: var(--bg-secondary);
+    border-left: 1px solid var(--border-strong);
+    z-index: var(--z-drawer);
+    transition: right var(--transition-slow);
+    overflow-y: auto;
+    padding: var(--space-lg);
+}
+
+.xref-drawer.open {
+    right: 0;
+}
+
+.xref-drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+}
+
+.xref-drawer-header h3 {
+    font-size: 1.1rem;
+}
+
+.xref-close {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.xref-close:hover { color: var(--text-primary); }
+
+.xref-content .xref-item {
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.xref-item .xref-ref {
+    font-weight: 600;
+    color: var(--gold);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+
+.xref-goto {
+    font-size: 0.72rem;
+    color: var(--gold-dim);
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+}
+.xref-goto:hover {
+    opacity: 1;
+    color: var(--gold);
+}
+
+.xref-item .xref-note {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.xref-item .xref-type {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+

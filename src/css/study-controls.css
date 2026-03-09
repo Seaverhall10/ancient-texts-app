@@ -1,0 +1,79 @@
+/* ── Study View Controls (callout toggles) ────────── */
+.study-controls {
+    position: fixed;
+    bottom: var(--space-lg);
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    gap: var(--space-xs);
+    background: rgba(12, 14, 20, 0.95);
+    border: 1px solid var(--gold-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-xs) var(--space-sm);
+    z-index: var(--z-drawer);
+    backdrop-filter: blur(8px);
+}
+body.text-selected .study-controls { display: flex; }
+.study-toggle {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+.study-toggle:hover { border-color: var(--gold-border); color: var(--text-secondary); }
+.study-toggle.active { border-color: var(--gold); color: var(--gold); background: rgba(201, 168, 76, 0.08); }
+
+/* Hide callout sections when toggled off */
+body.hide-hebrew-terms .terms-section { display: none !important; }
+body.hide-ane-callout .ane-callout { display: none !important; }
+body.hide-second-temple .second-temple-box { display: none !important; }
+body.hide-council-note .council-note { display: none !important; }
+body.hide-cross-refs .cross-refs-section { display: none !important; }
+
+/* ── Column Width Slider ────────── */
+.col-width-control {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 8px;
+}
+.col-label {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.col-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80px;
+    height: 4px;
+    background: var(--border-strong);
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+.col-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--gold);
+    cursor: pointer;
+    border: 2px solid var(--bg-primary);
+}
+.col-slider::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--gold);
+    cursor: pointer;
+    border: 2px solid var(--bg-primary);
+}
+

@@ -1,0 +1,1416 @@
+{
+    "title": "Ancient Texts Library",
+    "subtitle": "A Scholarly Study of Sacred & Ancient Writings",
+    "version": "3.0",
+    "build_date": null,
+    "categories": [
+        {"id": "canon", "name": "Canon", "color": "#c9a84c", "badge": "CANON"},
+        {"id": "dss", "name": "Dead Sea Scrolls", "color": "#9b7ec8", "badge": "DSS"},
+        {"id": "deuterocanonical", "name": "Deuterocanonical", "color": "#5b8dbf", "badge": "DEUTEROCANON"},
+        {"id": "pseudepigrapha", "name": "Pseudepigrapha", "color": "#2d9a8f", "badge": "PSEUDEPIGRAPHA"},
+        {"id": "historical", "name": "Historical", "color": "#9a968e", "badge": "HISTORICAL"},
+        {"id": "thematic", "name": "Thematic Studies", "color": "#c9a84c", "badge": "THEMATIC"}
+    ],
+    "texts": [
+        {
+            "id": "genesis",
+            "name": "Genesis",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 50,
+            "color": "#5b8dbf",
+            "data_dir": "genesis",
+            "interlinear": "INTERLINEAR_GENESIS",
+            "description": "Creation, patriarchs, and the origins of Israel"
+        },
+        {
+            "id": "exodus",
+            "name": "Exodus",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 40,
+            "color": "#dc2626",
+            "data_dir": "exodus",
+            "interlinear": "INTERLINEAR_EXODUS",
+            "description": "Liberation from Egypt, Sinai covenant, and the tabernacle"
+        },
+        {
+            "id": "leviticus",
+            "name": "Leviticus",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 27,
+            "color": "#8b5cf6",
+            "data_dir": "leviticus",
+            "interlinear": "INTERLINEAR_LEVITICUS",
+            "description": "Holiness, sacrifice, and the cosmic architecture of atonement"
+        },
+        {
+            "id": "numbers",
+            "name": "Numbers",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 36,
+            "color": "#d97706",
+            "data_dir": "numbers",
+            "interlinear": "INTERLINEAR_NUMBERS",
+            "description": "Wilderness journey — rebellion, Nephilim report, bronze serpent, and Balaam's prophecy"
+        },
+        {
+            "id": "deuteronomy",
+            "name": "Deuteronomy",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 34,
+            "color": "#059669",
+            "data_dir": "deuteronomy",
+            "interlinear": "INTERLINEAR_DEUTERONOMY",
+            "description": "Moses' final addresses — the Shema, the Song, and the divine council worldview"
+        },
+        {
+            "id": "joshua",
+            "name": "Joshua",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 24,
+            "color": "#b91c1c",
+            "data_dir": "joshua",
+            "interlinear": "INTERLINEAR_JOSHUA",
+            "description": "Conquest of Canaan — divine warfare, Jericho, the Anakim, and covenant renewal at Shechem"
+        },
+        {
+            "id": "judges",
+            "name": "Judges",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 21,
+            "color": "#e11d48",
+            "data_dir": "judges",
+            "interlinear": "INTERLINEAR_JUDGES",
+            "description": "Cycles of apostasy, oppression, and deliverance — the Nephilim question at Bashan, divine warfare, and Israel's descent"
+        },
+        {
+            "id": "ruth",
+            "name": "Ruth",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 4,
+            "color": "#ec4899",
+            "data_dir": "ruth",
+            "interlinear": "INTERLINEAR_RUTH",
+            "description": "The kinsman-redeemer — covenant loyalty, levirate law, and the Davidic lineage through a Moabite woman"
+        },
+        {
+            "id": "1samuel",
+            "name": "1 Samuel",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 31,
+            "color": "#2563eb",
+            "data_dir": "1samuel",
+            "interlinear": "INTERLINEAR_1SAMUEL",
+            "description": "From judges to kings — Samuel, Saul's rise and fall, David's anointing, and the Ark's journey"
+        },
+        {
+            "id": "2samuel",
+            "name": "2 Samuel",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 24,
+            "color": "#1d4ed8",
+            "data_dir": "2samuel",
+            "interlinear": "INTERLINEAR_2SAMUEL",
+            "description": "David's kingdom — the Davidic covenant, Bathsheba, Absalom's rebellion, and the threshing floor"
+        },
+        {
+            "id": "1kings",
+            "name": "1 Kings",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 22,
+            "color": "#7c3aed",
+            "data_dir": "1kings",
+            "interlinear": "INTERLINEAR_1KINGS",
+            "description": "Solomon's glory and the divided kingdom — the Temple, Elijah, and the contest at Carmel"
+        },
+        {
+            "id": "2kings",
+            "name": "2 Kings",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 25,
+            "color": "#6d28d9",
+            "data_dir": "2kings",
+            "interlinear": "INTERLINEAR_2KINGS",
+            "description": "Elisha, the fall of Israel, Josiah's reform, and the Babylonian exile"
+        },
+        {
+            "id": "psalms",
+            "name": "Psalms",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 150,
+            "color": "#059669",
+            "data_dir": "psalms",
+            "interlinear": "INTERLINEAR_PSALMS",
+            "description": "Israel's hymnbook — divine council enthronement psalms, messianic prophecy, lament, and praise"
+        },
+        {
+            "id": "isaiah",
+            "name": "Isaiah",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 66,
+            "color": "#dc2626",
+            "data_dir": "isaiah",
+            "interlinear": "INTERLINEAR_ISAIAH",
+            "description": "The Fifth Gospel — Servant Songs, cosmic judgment, new creation, and the most quoted OT prophet"
+        },
+        {
+            "id": "daniel",
+            "name": "Daniel",
+            "category": "canon",
+            "language": "hebrew",
+            "chapters": 12,
+            "color": "#0891b2",
+            "data_dir": "daniel",
+            "interlinear": "INTERLINEAR_DANIEL",
+            "description": "Apocalyptic visions — Son of Man, four kingdoms, 70 weeks, divine council, and territorial spirits"
+        },
+        {
+            "id": "1enoch",
+            "name": "1 Enoch",
+            "category": "dss",
+            "language": "geez",
+            "chapters": 108,
+            "color": "#9b7ec8",
+            "data_dir": "enoch1",
+            "interlinear": null,
+            "canon": false,
+            "description": "The Watchers, Son of Man, cosmic order, and apocalyptic visions"
+        },
+        {
+            "id": "giants",
+            "name": "Book of Giants",
+            "category": "dss",
+            "language": "aramaic",
+            "chapters": 0,
+            "color": "#b794d4",
+            "data_dir": "giants",
+            "interlinear": null,
+            "canon": false,
+            "description": "Fragments telling the story of the Nephilim giants from Qumran"
+        },
+        {
+            "id": "jubilees",
+            "name": "Jubilees",
+            "category": "pseudepigrapha",
+            "language": "hebrew",
+            "chapters": 50,
+            "color": "#2d9a8f",
+            "data_dir": "jubilees",
+            "interlinear": null,
+            "canon": false,
+            "description": "Retelling of Genesis-Exodus with Mastema, solar calendar, and Watcher traditions"
+        },
+        {
+            "id": "jasher",
+            "name": "Book of Jasher",
+            "category": "pseudepigrapha",
+            "language": "hebrew",
+            "chapters": 91,
+            "color": "#d4a853",
+            "data_dir": "jasher",
+            "interlinear": null,
+            "canon": false,
+            "description": "Extended patriarchal narratives referenced in Joshua 10:13 and 2 Samuel 1:18"
+        },
+        {
+            "id": "genesis_apocryphon",
+            "name": "Genesis Apocryphon",
+            "category": "dss",
+            "language": "aramaic",
+            "chapters": 0,
+            "color": "#7db4e0",
+            "data_dir": "genesis_apocryphon",
+            "interlinear": null,
+            "canon": false,
+            "description": "Expanded Genesis narratives from Qumran — Lamech, Noah, Abraham"
+        },
+        {
+            "id": "dss_sectarian",
+            "name": "DSS Sectarian Texts",
+            "category": "dss",
+            "language": "hebrew",
+            "chapters": 26,
+            "color": "#e0a0d0",
+            "data_dir": "dss_sectarian",
+            "interlinear": null,
+            "canon": false,
+            "description": "Community Rule, War Scroll, Temple Scroll, Damascus Document, Hodayot"
+        },
+        {
+            "id": "josephus",
+            "name": "Josephus",
+            "category": "historical",
+            "language": "greek",
+            "chapters": 0,
+            "color": "#9a968e",
+            "data_dir": "josephus",
+            "interlinear": null,
+            "canon": false,
+            "description": "Historical works of Titus Flavius Josephus — Jewish War, Antiquities, Against Apion"
+        },
+        {
+            "id": "heavenly_court",
+            "name": "The Heavenly Court",
+            "category": "thematic",
+            "language": "multi",
+            "chapters": 23,
+            "color": "#c9a84c",
+            "data_dir": "heavenly_court",
+            "content_type": "html_fragment",
+            "interlinear": null,
+            "description": "A grammatical & theological deep dive into the divine council worldview"
+        }
+    ],
+    "eras": [
+        {
+            "id": "creation",
+            "text": "genesis",
+            "name": "Creation Week",
+            "chapters": "Genesis 1\u20132",
+            "color": "#5b8dbf",
+            "icon": "I",
+            "data_file": "era_01_creation",
+            "themes": ["bara/asah distinction", "Day-by-day structure", "Enuma Elish polemic", "Divine Council creation"]
+        },
+        {
+            "id": "eden",
+            "text": "genesis",
+            "name": "Eden & The Fall",
+            "chapters": "Genesis 3\u20134",
+            "color": "#c45c5c",
+            "icon": "II",
+            "data_file": "era_02_eden",
+            "themes": ["The Nachash", "Genesis 3:15 Seed War", "Cain & Abel", "East of Eden"]
+        },
+        {
+            "id": "antediluvian",
+            "text": "genesis",
+            "name": "Antediluvian World",
+            "chapters": "Genesis 5\u20136:4",
+            "color": "#9b7ec8",
+            "icon": "III",
+            "data_file": "era_03_antediluvian",
+            "themes": ["Seth's line", "Watchers (1 Enoch 6\u201316)", "Nephilim", "Corruption of the earth"]
+        },
+        {
+            "id": "flood",
+            "text": "genesis",
+            "name": "The Flood",
+            "chapters": "Genesis 6:5\u20139:17",
+            "color": "#3b82f6",
+            "icon": "IV",
+            "data_file": "era_04_flood",
+            "themes": ["Divine judgment", "The Ark", "Noahic covenant", "Gilgamesh parallels"]
+        },
+        {
+            "id": "babel",
+            "text": "genesis",
+            "name": "Table of Nations & Babel",
+            "chapters": "Genesis 9:18\u201311:9",
+            "color": "#f59e0b",
+            "icon": "V",
+            "data_file": "era_05_babel",
+            "themes": ["Curse of Canaan", "Nimrod", "Tower of Babel", "Deuteronomy 32:8 allotment"]
+        },
+        {
+            "id": "abraham",
+            "text": "genesis",
+            "name": "Abraham",
+            "chapters": "Genesis 11:10\u201323:20",
+            "color": "#d4a853",
+            "icon": "VI",
+            "data_file": "era_06_abraham",
+            "themes": ["Call of Abram", "Covenant", "Melchizedek", "Sodom & Gomorrah", "Binding of Isaac"]
+        },
+        {
+            "id": "isaac_jacob",
+            "text": "genesis",
+            "name": "Isaac & Jacob",
+            "chapters": "Genesis 24\u201336",
+            "color": "#22c55e",
+            "icon": "VII",
+            "data_file": "era_07_isaac_jacob",
+            "themes": ["Rebekah", "Birthright & blessing", "Bethel ladder", "Wrestling at Peniel", "12 tribes"]
+        },
+        {
+            "id": "joseph",
+            "text": "genesis",
+            "name": "Joseph & Descent to Egypt",
+            "chapters": "Genesis 37\u201350",
+            "color": "#e8cc6e",
+            "icon": "VIII",
+            "data_file": "era_08_joseph",
+            "themes": ["Dreams", "Providence", "Reconciliation", "Israel enters Egypt", "Jacob's blessing"]
+        },
+        {
+            "id": "bondage",
+            "text": "exodus",
+            "name": "Bondage & Moses' Calling",
+            "chapters": "Exodus 1\u20134",
+            "color": "#b45c5c",
+            "icon": "IX",
+            "data_file": "era_09_bondage",
+            "themes": ["Oppression in Egypt", "Birth of Moses", "Burning bush", "I AM WHO I AM", "Bridegroom of blood"]
+        },
+        {
+            "id": "plagues",
+            "text": "exodus",
+            "name": "The Ten Plagues",
+            "chapters": "Exodus 5\u201312:36",
+            "color": "#dc2626",
+            "icon": "X",
+            "data_file": "era_10_plagues",
+            "themes": ["Let my people go", "Hardening of Pharaoh", "Judgment on Egypt's gods", "The Passover lamb"]
+        },
+        {
+            "id": "exodus_sea",
+            "text": "exodus",
+            "name": "Exodus & Red Sea",
+            "chapters": "Exodus 12:37\u201315:21",
+            "color": "#3b82f6",
+            "icon": "XI",
+            "data_file": "era_11_exodus_sea",
+            "themes": ["The departure", "Pillar of cloud/fire", "Splitting of the sea", "Song of Moses"]
+        },
+        {
+            "id": "wilderness_sinai",
+            "text": "exodus",
+            "name": "Wilderness to Sinai",
+            "chapters": "Exodus 15:22\u201318:27",
+            "color": "#f59e0b",
+            "icon": "XII",
+            "data_file": "era_12_wilderness_sinai",
+            "themes": ["Manna from heaven", "Water from the rock", "Battle with Amalek", "Jethro's counsel"]
+        },
+        {
+            "id": "sinai_covenant",
+            "text": "exodus",
+            "name": "The Sinai Covenant",
+            "chapters": "Exodus 19\u201324",
+            "color": "#8b5cf6",
+            "icon": "XIII",
+            "data_file": "era_13_sinai_covenant",
+            "themes": ["Theophany at Sinai", "Ten Commandments", "Book of the Covenant", "Blood of the covenant"]
+        },
+        {
+            "id": "tabernacle_instructions",
+            "text": "exodus",
+            "name": "Tabernacle Instructions",
+            "chapters": "Exodus 25\u201331",
+            "color": "#d4a853",
+            "icon": "XIV",
+            "data_file": "era_14_tabernacle_instructions",
+            "themes": ["Ark of the Covenant", "Priestly garments", "Tabernacle as cosmos", "Sabbath sign"]
+        },
+        {
+            "id": "golden_calf",
+            "text": "exodus",
+            "name": "Golden Calf & Renewal",
+            "chapters": "Exodus 32\u201334",
+            "color": "#ef4444",
+            "icon": "XV",
+            "data_file": "era_15_golden_calf",
+            "themes": ["Apostasy at Sinai", "Moses' intercession", "Thirteen Attributes", "Shining face"]
+        },
+        {
+            "id": "tabernacle_construction",
+            "text": "exodus",
+            "name": "Tabernacle & Glory",
+            "chapters": "Exodus 35\u201340",
+            "color": "#22c55e",
+            "icon": "XVI",
+            "data_file": "era_16_tabernacle_construction",
+            "themes": ["Generous offerings", "Bezalel's craftsmanship", "Glory fills the tabernacle", "God dwells with Israel"]
+        },
+        {
+            "id": "offerings",
+            "text": "leviticus",
+            "name": "Offerings & Sacrifices",
+            "chapters": "Leviticus 1\u20137",
+            "color": "#8b5cf6",
+            "icon": "XVII",
+            "data_file": "era_17_offerings",
+            "themes": ["Burnt offering", "Grain offering", "Peace offering", "Sin offering", "Guilt offering", "Priestly portions"]
+        },
+        {
+            "id": "priesthood",
+            "text": "leviticus",
+            "name": "Priestly Ordination",
+            "chapters": "Leviticus 8\u201310",
+            "color": "#7c3aed",
+            "icon": "XVIII",
+            "data_file": "era_18_priesthood",
+            "themes": ["Aaron's consecration", "First sacrifices", "Nadab & Abihu", "Holy fire"]
+        },
+        {
+            "id": "purity",
+            "text": "leviticus",
+            "name": "Clean & Unclean",
+            "chapters": "Leviticus 11\u201315",
+            "color": "#6d28d9",
+            "icon": "XIX",
+            "data_file": "era_19_purity",
+            "themes": ["Dietary laws", "Childbirth purification", "Skin diseases", "Bodily discharges", "Holy vs. profane"]
+        },
+        {
+            "id": "atonement",
+            "text": "leviticus",
+            "name": "Day of Atonement",
+            "chapters": "Leviticus 16\u201317",
+            "color": "#5b21b6",
+            "icon": "XX",
+            "data_file": "era_20_atonement",
+            "themes": ["Yom Kippur", "Azazel goat", "Blood atonement", "Holy of Holies", "1 Enoch 10 connection"]
+        },
+        {
+            "id": "holiness",
+            "text": "leviticus",
+            "name": "The Holiness Code",
+            "chapters": "Leviticus 18\u201322",
+            "color": "#4c1d95",
+            "icon": "XXI",
+            "data_file": "era_21_holiness",
+            "themes": ["Sexual ethics", "Love your neighbor", "Molech prohibition", "Priestly standards", "Holy calendar"]
+        },
+        {
+            "id": "calendar",
+            "text": "leviticus",
+            "name": "Sacred Calendar & Land",
+            "chapters": "Leviticus 23\u201327",
+            "color": "#7e22ce",
+            "icon": "XXII",
+            "data_file": "era_22_calendar",
+            "themes": ["Seven feasts", "Sabbatical year", "Jubilee", "Blessings & curses", "Prophetic timeline"]
+        },
+        {
+            "id": "first_address",
+            "text": "deuteronomy",
+            "name": "Moses' First Address",
+            "chapters": "Deuteronomy 1\u20134",
+            "color": "#059669",
+            "icon": "XXIII",
+            "data_file": "era_23_first_address",
+            "themes": ["Historical review", "Wilderness journey", "Og of Bashan", "No other god", "Cities of refuge"]
+        },
+        {
+            "id": "shema",
+            "text": "deuteronomy",
+            "name": "The Shema & Covenant Love",
+            "chapters": "Deuteronomy 5\u201311",
+            "color": "#047857",
+            "icon": "XXIV",
+            "data_file": "era_24_shema",
+            "themes": ["Ten Commandments", "Shema Yisrael", "YHWH echad", "Covenant loyalty", "Remember & obey"]
+        },
+        {
+            "id": "code",
+            "text": "deuteronomy",
+            "name": "The Deuteronomic Code",
+            "chapters": "Deuteronomy 12\u201318",
+            "color": "#065f46",
+            "icon": "XXV",
+            "data_file": "era_25_code",
+            "themes": ["Centralized worship", "False prophets", "Clean food", "Tithes", "Prophet like Moses"]
+        },
+        {
+            "id": "community",
+            "text": "deuteronomy",
+            "name": "Community Laws & Warfare",
+            "chapters": "Deuteronomy 19\u201326",
+            "color": "#064e3b",
+            "icon": "XXVI",
+            "data_file": "era_26_community",
+            "themes": ["Cities of refuge", "Warfare rules", "Marriage laws", "Firstfruits declaration"]
+        },
+        {
+            "id": "blessings_curses",
+            "text": "deuteronomy",
+            "name": "Blessings & Curses",
+            "chapters": "Deuteronomy 27\u201330",
+            "color": "#10b981",
+            "icon": "XXVII",
+            "data_file": "era_27_blessings_curses",
+            "themes": ["Gerizim & Ebal", "Covenant blessings", "Covenant curses", "Exile prophecy", "Return promise"]
+        },
+        {
+            "id": "song_death",
+            "text": "deuteronomy",
+            "name": "Song of Moses & Death of Moses",
+            "chapters": "Deuteronomy 31\u201334",
+            "color": "#34d399",
+            "icon": "XXVIII",
+            "data_file": "era_28_song_death",
+            "themes": ["Deut 32 Song", "Divine council allotment", "B'nei elohim", "Blessing of tribes", "Moses' death", "Jude 9"]
+        },
+        {
+            "id": "census_camp",
+            "text": "numbers",
+            "name": "Census & Camp Formation",
+            "chapters": "Numbers 1\u20136",
+            "color": "#d97706",
+            "icon": "XXIX",
+            "data_file": "era_29_census_camp",
+            "themes": ["Tribal census", "Camp arrangement", "Levitical service", "Nazirite vow", "Priestly blessing"]
+        },
+        {
+            "id": "tabernacle_march",
+            "text": "numbers",
+            "name": "Tabernacle Dedication & March",
+            "chapters": "Numbers 7\u201310",
+            "color": "#b45309",
+            "icon": "XXX",
+            "data_file": "era_30_tabernacle_march",
+            "themes": ["Tribal offerings", "Levite consecration", "Silver trumpets", "Cloud guidance", "Departure from Sinai"]
+        },
+        {
+            "id": "rebellion",
+            "text": "numbers",
+            "name": "Rebellion & the Spy Report",
+            "chapters": "Numbers 11\u201314",
+            "color": "#92400e",
+            "icon": "XXXI",
+            "data_file": "era_31_rebellion",
+            "themes": ["Complaints", "Miriam's tsara'at", "12 spies", "Nephilim sighting", "40-year sentence"]
+        },
+        {
+            "id": "korah",
+            "text": "numbers",
+            "name": "Korah's Rebellion & Priesthood",
+            "chapters": "Numbers 15\u201319",
+            "color": "#78350f",
+            "icon": "XXXII",
+            "data_file": "era_32_korah",
+            "themes": ["Korah's rebellion", "Earth swallows rebels", "Aaron's rod buds", "Priestly duties", "Red heifer"]
+        },
+        {
+            "id": "journey",
+            "text": "numbers",
+            "name": "Journey & Balaam",
+            "chapters": "Numbers 20\u201325",
+            "color": "#f59e0b",
+            "icon": "XXXIII",
+            "data_file": "era_33_journey",
+            "themes": ["Meribah", "Bronze serpent", "Balaam's donkey", "Star prophecy", "Baal-Peor"]
+        },
+        {
+            "id": "plains_moab",
+            "text": "numbers",
+            "name": "Plains of Moab",
+            "chapters": "Numbers 26\u201336",
+            "color": "#ea580c",
+            "icon": "XXXIV",
+            "data_file": "era_34_plains_moab",
+            "themes": ["Second census", "Zelophehad's daughters", "Festival calendar", "Cities of refuge", "Transjordan"]
+        },
+        {
+            "id": "commission",
+            "text": "joshua",
+            "name": "Joshua's Commission & Entry",
+            "chapters": "Joshua 1\u20135",
+            "color": "#b91c1c",
+            "icon": "XXXV",
+            "data_file": "era_35_commission",
+            "themes": ["Divine commission", "Rahab", "Jordan crossing", "Commander of YHWH's army", "Circumcision at Gilgal"]
+        },
+        {
+            "id": "jericho_ai",
+            "text": "joshua",
+            "name": "Jericho & Ai",
+            "chapters": "Joshua 6\u20138",
+            "color": "#b91c1c",
+            "icon": "XXXVI",
+            "data_file": "era_36_jericho_ai",
+            "themes": ["Fall of Jericho", "Herem warfare", "Achan's sin", "Covenant at Ebal"]
+        },
+        {
+            "id": "southern_campaign",
+            "text": "joshua",
+            "name": "Southern Campaign",
+            "chapters": "Joshua 9\u201310",
+            "color": "#b91c1c",
+            "icon": "XXXVII",
+            "data_file": "era_37_southern_campaign",
+            "themes": ["Gibeonite deception", "Sun stands still", "Divine warrior hailstones", "Five kings defeated"]
+        },
+        {
+            "id": "northern_conquest",
+            "text": "joshua",
+            "name": "Northern Conquest",
+            "chapters": "Joshua 11\u201312",
+            "color": "#b91c1c",
+            "icon": "XXXVIII",
+            "data_file": "era_38_northern_conquest",
+            "themes": ["Hazor coalition", "Anakim exterminated", "Thirty-one kings", "Conquest summary"]
+        },
+        {
+            "id": "allotment",
+            "text": "joshua",
+            "name": "Land Allotment",
+            "chapters": "Joshua 13\u201321",
+            "color": "#b91c1c",
+            "icon": "XXXIX",
+            "data_file": "era_39_allotment",
+            "themes": ["Caleb and Hebron", "Tribal boundaries", "Cities of refuge", "Levitical cities"]
+        },
+        {
+            "id": "covenant_farewell",
+            "text": "joshua",
+            "name": "Covenant & Farewell",
+            "chapters": "Joshua 22\u201324",
+            "color": "#b91c1c",
+            "icon": "XL",
+            "data_file": "era_40_covenant_farewell",
+            "themes": ["Altar controversy", "Joshua's farewell", "Shechem covenant", "Choose this day"]
+        },
+        {
+            "id": "judges_conquest",
+            "text": "judges",
+            "name": "Incomplete Conquest & First Judges",
+            "chapters": "Judges 1\u20135",
+            "color": "#e11d48",
+            "icon": "XLI",
+            "data_file": "era_41_judges_conquest",
+            "themes": ["Incomplete conquest", "Angel of YHWH", "Deborah & Barak", "Song of Deborah", "Territorial deities"]
+        },
+        {
+            "id": "judges_gideon",
+            "text": "judges",
+            "name": "Gideon & Abimelech",
+            "chapters": "Judges 6\u20139",
+            "color": "#e11d48",
+            "icon": "XLII",
+            "data_file": "era_42_judges_gideon",
+            "themes": ["Gideon's fleece", "300 warriors", "Baal worship", "Abimelech's tyranny", "Jotham's parable"]
+        },
+        {
+            "id": "judges_jephthah",
+            "text": "judges",
+            "name": "Jephthah & Minor Judges",
+            "chapters": "Judges 10\u201312",
+            "color": "#e11d48",
+            "icon": "XLIII",
+            "data_file": "era_43_judges_jephthah",
+            "themes": ["Jephthah's vow", "Chemosh vs YHWH", "Territorial spirits", "Shibboleth", "Minor judges"]
+        },
+        {
+            "id": "judges_samson",
+            "text": "judges",
+            "name": "Samson",
+            "chapters": "Judges 13\u201316",
+            "color": "#e11d48",
+            "icon": "XLIV",
+            "data_file": "era_44_judges_samson",
+            "themes": ["Angel of YHWH", "Nazirite", "Spirit of YHWH", "Philistine oppression", "Dagon's temple"]
+        },
+        {
+            "id": "judges_chaos",
+            "text": "judges",
+            "name": "Tribal Chaos",
+            "chapters": "Judges 17\u201321",
+            "color": "#e11d48",
+            "icon": "XLV",
+            "data_file": "era_45_judges_chaos",
+            "themes": ["Micah's idol", "Dan's apostasy", "Levite's concubine", "Civil war", "No king in Israel"]
+        },
+        {
+            "id": "ruth_redeemer",
+            "text": "ruth",
+            "name": "The Kinsman-Redeemer",
+            "chapters": "Ruth 1\u20134",
+            "color": "#ec4899",
+            "icon": "XLVI",
+            "data_file": "era_46_ruth",
+            "themes": ["Covenant loyalty", "Go'el typology", "Levirate law", "Moabite origins", "Davidic lineage", "Boaz at the gate"]
+        },
+        {
+            "id": "samuel_ark",
+            "text": "1samuel",
+            "name": "Samuel & the Ark",
+            "chapters": "1 Samuel 1\u20137",
+            "color": "#2563eb",
+            "icon": "XLVII",
+            "data_file": "era_47_samuel_ark",
+            "themes": ["Hannah's prayer", "Eli's sons", "Ark captured", "Dagon falls", "Ebenezer"]
+        },
+        {
+            "id": "saul_rise",
+            "text": "1samuel",
+            "name": "Saul's Rise & Rejection",
+            "chapters": "1 Samuel 8\u201315",
+            "color": "#2563eb",
+            "icon": "XLVIII",
+            "data_file": "era_48_saul_rise",
+            "themes": ["Demand for a king", "Saul anointed", "Spirit of YHWH", "Saul rejected", "Obedience vs sacrifice"]
+        },
+        {
+            "id": "david_rise",
+            "text": "1samuel",
+            "name": "David's Rise",
+            "chapters": "1 Samuel 16\u201320",
+            "color": "#2563eb",
+            "icon": "XLIX",
+            "data_file": "era_49_david_rise",
+            "themes": ["David anointed", "Goliath — Nephilim remnant", "Jonathan's covenant", "Evil spirit from YHWH", "David & Saul"]
+        },
+        {
+            "id": "david_fugitive",
+            "text": "1samuel",
+            "name": "David as Fugitive",
+            "chapters": "1 Samuel 21\u201331",
+            "color": "#2563eb",
+            "icon": "L",
+            "data_file": "era_50_david_fugitive",
+            "themes": ["Wilderness years", "Abigail", "Witch of Endor", "Samuel's ghost", "Saul's death"]
+        },
+        {
+            "id": "david_united",
+            "text": "2samuel",
+            "name": "David's Kingdom United",
+            "chapters": "2 Samuel 1\u201310",
+            "color": "#1d4ed8",
+            "icon": "LI",
+            "data_file": "era_51_david_united",
+            "themes": ["King over Judah", "King over Israel", "Jerusalem conquered", "Davidic covenant (2 Sam 7)", "Ark to Jerusalem"]
+        },
+        {
+            "id": "david_fall",
+            "text": "2samuel",
+            "name": "David's Fall & Consequences",
+            "chapters": "2 Samuel 11\u201318",
+            "color": "#1d4ed8",
+            "icon": "LII",
+            "data_file": "era_52_david_fall",
+            "themes": ["Bathsheba", "Nathan's parable", "Amnon & Tamar", "Absalom's rebellion", "Mahanaim"]
+        },
+        {
+            "id": "david_last",
+            "text": "2samuel",
+            "name": "Restoration & Last Words",
+            "chapters": "2 Samuel 19\u201324",
+            "color": "#1d4ed8",
+            "icon": "LIII",
+            "data_file": "era_53_david_last",
+            "themes": ["Return to Jerusalem", "David's psalm", "Last words", "Census & plague", "Threshing floor — Temple site"]
+        },
+        {
+            "id": "solomon_glory",
+            "text": "1kings",
+            "name": "Solomon's Glory",
+            "chapters": "1 Kings 1\u201311",
+            "color": "#7c3aed",
+            "icon": "LIV",
+            "data_file": "era_54_solomon_glory",
+            "themes": ["Solomon anointed", "Wisdom granted", "Temple built — cosmic mountain", "Queen of Sheba", "Solomon's apostasy"]
+        },
+        {
+            "id": "divided_kingdom",
+            "text": "1kings",
+            "name": "The Divided Kingdom",
+            "chapters": "1 Kings 12\u201316",
+            "color": "#7c3aed",
+            "icon": "LV",
+            "data_file": "era_55_divided_kingdom",
+            "themes": ["Rehoboam & Jeroboam", "Golden calves", "Man of God from Judah", "Omri dynasty", "Territorial worship"]
+        },
+        {
+            "id": "elijah",
+            "text": "1kings",
+            "name": "Elijah",
+            "chapters": "1 Kings 17\u201322",
+            "color": "#7c3aed",
+            "icon": "LVI",
+            "data_file": "era_56_elijah",
+            "themes": ["Drought", "Contest at Carmel — Baal vs YHWH", "Still small voice", "Naboth's vineyard", "Divine council scene (1 Kgs 22)"]
+        },
+        {
+            "id": "elisha",
+            "text": "2kings",
+            "name": "Elisha's Ministry",
+            "chapters": "2 Kings 1\u20138",
+            "color": "#6d28d9",
+            "icon": "LVII",
+            "data_file": "era_57_elisha",
+            "themes": ["Elijah's ascent", "Double portion", "Naaman healed", "Angelic army (6:16-17)", "Aramean wars"]
+        },
+        {
+            "id": "kings_decline",
+            "text": "2kings",
+            "name": "Decline & Fall of Israel",
+            "chapters": "2 Kings 9\u201317",
+            "color": "#6d28d9",
+            "icon": "LVIII",
+            "data_file": "era_58_kings_decline",
+            "themes": ["Jehu's purge", "Athaliah", "Joash repairs Temple", "Samaria falls (722 BC)", "Foreign gods imported"]
+        },
+        {
+            "id": "judah_alone",
+            "text": "2kings",
+            "name": "Judah Alone — Exile",
+            "chapters": "2 Kings 18\u201325",
+            "color": "#6d28d9",
+            "icon": "LIX",
+            "data_file": "era_59_judah_alone",
+            "themes": ["Hezekiah & angel (185,000 slain)", "Manasseh", "Josiah's reform", "Temple destroyed", "Babylonian exile"]
+        },
+        {
+            "id": "psalms_book1",
+            "text": "psalms",
+            "name": "Book I: Davidic Psalms",
+            "chapters": "Psalms 1\u201341",
+            "color": "#059669",
+            "icon": "I",
+            "data_file": "era_psalms_book1",
+            "themes": ["Psalm 2 — enthronement", "Psalm 8 — human dominion", "Psalm 16 — resurrection", "Psalm 22 — passion", "Messianic hope"]
+        },
+        {
+            "id": "psalms_book2",
+            "text": "psalms",
+            "name": "Book II: Korah & David",
+            "chapters": "Psalms 42\u201372",
+            "color": "#059669",
+            "icon": "II",
+            "data_file": "era_psalms_book2",
+            "themes": ["Psalm 45 — royal wedding", "Psalm 68 — divine warrior", "Psalm 72 — Solomonic king", "Lament psalms"]
+        },
+        {
+            "id": "psalms_book3",
+            "text": "psalms",
+            "name": "Book III: Asaph & Korah",
+            "chapters": "Psalms 73\u201389",
+            "color": "#059669",
+            "icon": "III",
+            "data_file": "era_psalms_book3",
+            "themes": ["Psalm 82 — judgment of the gods", "Psalm 89 — divine council", "Psalm 83 — enemy nations", "Theodicy"]
+        },
+        {
+            "id": "psalms_book4",
+            "text": "psalms",
+            "name": "Book IV: YHWH Reigns",
+            "chapters": "Psalms 90\u2013106",
+            "color": "#059669",
+            "icon": "IV",
+            "data_file": "era_psalms_book4",
+            "themes": ["Psalm 90 — Moses' prayer", "Enthronement psalms (93-99)", "YHWH reigns", "Historical recital"]
+        },
+        {
+            "id": "psalms_book5",
+            "text": "psalms",
+            "name": "Book V: Hallel & Ascent",
+            "chapters": "Psalms 107\u2013150",
+            "color": "#059669",
+            "icon": "V",
+            "data_file": "era_psalms_book5",
+            "themes": ["Psalm 110 — Melchizedek", "Psalm 119 — Torah", "Songs of Ascent", "Egyptian Hallel", "Final Hallel"]
+        },
+        {
+            "id": "isaiah_judgment",
+            "text": "isaiah",
+            "name": "Judgment on Judah & Immanuel",
+            "chapters": "Isaiah 1\u201312",
+            "color": "#dc2626",
+            "icon": "I",
+            "data_file": "era_isaiah_judgment",
+            "themes": ["Throne vision (Isa 6)", "Seraphim", "Divine council call", "Immanuel (7:14)", "Unto us a child (9:6-7)"]
+        },
+        {
+            "id": "isaiah_nations",
+            "text": "isaiah",
+            "name": "Oracles Against the Nations",
+            "chapters": "Isaiah 13\u201327",
+            "color": "#dc2626",
+            "icon": "II",
+            "data_file": "era_isaiah_nations",
+            "themes": ["Babylon oracle", "Helel ben Shachar (14:12)", "Day of the Lord", "Isaiah Apocalypse (24-27)", "Cosmic judgment"]
+        },
+        {
+            "id": "isaiah_woe",
+            "text": "isaiah",
+            "name": "Woe & Historical Narratives",
+            "chapters": "Isaiah 28\u201339",
+            "color": "#dc2626",
+            "icon": "III",
+            "data_file": "era_isaiah_woe",
+            "themes": ["Woe oracles", "Cornerstone (28:16)", "Hezekiah's crisis", "Sennacherib", "Sign of the sundial"]
+        },
+        {
+            "id": "isaiah_comfort",
+            "text": "isaiah",
+            "name": "Comfort & the Servant",
+            "chapters": "Isaiah 40\u201355",
+            "color": "#dc2626",
+            "icon": "IV",
+            "data_file": "era_isaiah_comfort",
+            "themes": ["Comfort ye", "Servant Songs", "Suffering Servant (52:13-53:12)", "New Exodus", "Cyrus as shepherd"]
+        },
+        {
+            "id": "isaiah_new",
+            "text": "isaiah",
+            "name": "New Creation & Final Glory",
+            "chapters": "Isaiah 56\u201366",
+            "color": "#dc2626",
+            "icon": "V",
+            "data_file": "era_isaiah_new",
+            "themes": ["Sabbath for all nations", "Divine warrior (63)", "New heavens & new earth (65:17)", "Final judgment (66)"]
+        },
+        {
+            "id": "daniel_court",
+            "text": "daniel",
+            "name": "Court Tales",
+            "chapters": "Daniel 1\u20136",
+            "color": "#0891b2",
+            "icon": "I",
+            "data_file": "era_daniel_court",
+            "themes": ["Exile faithfulness", "Nebuchadnezzar's dream", "Fiery furnace", "Writing on the wall", "Lions' den"]
+        },
+        {
+            "id": "daniel_visions",
+            "text": "daniel",
+            "name": "Apocalyptic Visions",
+            "chapters": "Daniel 7\u201312",
+            "color": "#0891b2",
+            "icon": "II",
+            "data_file": "era_daniel_visions",
+            "themes": ["Son of Man (7:13-14)", "Ancient of Days", "Divine council seated", "70 Weeks", "Prince of Persia — territorial spirits"]
+        },
+        {
+            "id": "watchers",
+            "text": "1enoch",
+            "name": "Book of the Watchers",
+            "chapters": "1 Enoch 1\u201336",
+            "color": "#9b7ec8",
+            "icon": "I",
+            "data_file": "era_watchers",
+            "themes": ["Theophany", "Watcher descent", "Nephilim", "Heavenly tour", "Judgment"]
+        },
+        {
+            "id": "parables",
+            "text": "1enoch",
+            "name": "Parables of Enoch",
+            "chapters": "1 Enoch 37\u201371",
+            "color": "#a88ad4",
+            "icon": "II",
+            "data_file": "era_parables",
+            "themes": ["Son of Man", "Elect One", "Messianic judgment", "Enoch's exaltation"]
+        },
+        {
+            "id": "astronomical",
+            "text": "1enoch",
+            "name": "Astronomical Book",
+            "chapters": "1 Enoch 72\u201382",
+            "color": "#8b6ec0",
+            "icon": "III",
+            "data_file": "era_astronomical",
+            "themes": ["Solar calendar", "Lunar cycles", "364-day year", "Cosmic order"]
+        },
+        {
+            "id": "dreams",
+            "text": "1enoch",
+            "name": "Dream Visions",
+            "chapters": "1 Enoch 83\u201390",
+            "color": "#7d5eaa",
+            "icon": "IV",
+            "data_file": "era_dreams",
+            "themes": ["Flood vision", "Animal Apocalypse", "History as allegory", "New Jerusalem"]
+        },
+        {
+            "id": "epistle",
+            "text": "1enoch",
+            "name": "Epistle of Enoch",
+            "chapters": "1 Enoch 91\u2013108",
+            "color": "#6f4e9c",
+            "icon": "V",
+            "data_file": "era_epistle",
+            "themes": ["Apocalypse of Weeks", "Woes to sinners", "Tablets of heaven", "Birth of Noah"]
+        },
+        {
+            "id": "giants_fragments",
+            "text": "giants",
+            "name": "The Book of Giants",
+            "chapters": "4Q530-533, 6Q8, 1Q23-24",
+            "color": "#b794d4",
+            "icon": "I",
+            "data_file": "era_fragments",
+            "themes": ["Nephilim giants", "Dreams and visions", "Gilgamesh", "Enoch as judge", "Watcher offspring"]
+        },
+        {
+            "id": "giants_cosmic",
+            "text": "giants",
+            "name": "Cosmic Warfare & Angelic Judgment",
+            "chapters": "4Q530-533, 1Q23-24",
+            "color": "#a682c0",
+            "icon": "II",
+            "data_file": "era_giants_cosmic",
+            "themes": ["Cosmic warfare", "Divine judgment", "Angelic hierarchy", "Flood typology"]
+        },
+        {
+            "id": "giants_reception",
+            "text": "giants",
+            "name": "Reception & Legacy",
+            "chapters": "Second Temple through Late Antiquity",
+            "color": "#9570ac",
+            "icon": "III",
+            "data_file": "era_giants_reception",
+            "themes": ["Manichaean reception", "Jewish reception", "Christian reception", "ANE parallels"]
+        },
+        {
+            "id": "apocryphon_columns",
+            "text": "genesis_apocryphon",
+            "name": "Genesis Apocryphon",
+            "chapters": "1QapGen cols. I-XXII",
+            "color": "#7db4e0",
+            "icon": "I",
+            "data_file": "era_columns",
+            "themes": ["Lamech's fear", "Noah's birth", "Sarah's beauty", "Abraham in Egypt", "Melchizedek"]
+        },
+        {
+            "id": "apocryphon_themes",
+            "text": "genesis_apocryphon",
+            "name": "Thematic Analysis",
+            "chapters": "Cross-textual Studies",
+            "color": "#6ca0cc",
+            "icon": "II",
+            "data_file": "era_apocryphon_themes",
+            "themes": ["Watcher anxiety", "Rewritten Bible", "Melchizedek traditions", "Aramaic literary techniques"]
+        },
+        {
+            "id": "community_rule",
+            "text": "dss_sectarian",
+            "name": "The Community Rule (1QS)",
+            "chapters": "1QS cols. I\u2013XI",
+            "color": "#e0a0d0",
+            "icon": "I",
+            "data_file": "era_community_rule",
+            "themes": ["Covenant renewal", "Two Spirits doctrine", "Community organization", "Wilderness theology", "Purity and initiation"]
+        },
+        {
+            "id": "war_scroll",
+            "text": "dss_sectarian",
+            "name": "The War Scroll (1QM)",
+            "chapters": "1QM cols. I\u2013XIX",
+            "color": "#d090c0",
+            "icon": "II",
+            "data_file": "era_war_scroll",
+            "themes": ["Sons of Light vs Darkness", "Michael and angels", "Battle formations", "Belial's defeat", "Eschatological warfare"]
+        },
+        {
+            "id": "hodayot",
+            "text": "dss_sectarian",
+            "name": "Thanksgiving Hymns (1QH)",
+            "chapters": "1QH cols. I\u2013XXVIII",
+            "color": "#c880b0",
+            "icon": "III",
+            "data_file": "era_hodayot",
+            "themes": ["Teacher of Righteousness", "Human frailty", "Divine grace", "Predestination", "Angelic fellowship"]
+        },
+        {
+            "id": "damascus",
+            "text": "dss_sectarian",
+            "name": "Damascus Document (CD)",
+            "chapters": "CD cols. I\u2013XX",
+            "color": "#b070a0",
+            "icon": "IV",
+            "data_file": "era_damascus",
+            "themes": ["Community origins", "Watchers tradition", "New Covenant", "Sabbath laws", "Messianic expectation"]
+        },
+        {
+            "id": "temple_scroll",
+            "text": "dss_sectarian",
+            "name": "The Temple Scroll (11QT)",
+            "chapters": "11QT 66+ columns",
+            "color": "#a06090",
+            "icon": "V",
+            "data_file": "era_temple_scroll",
+            "themes": ["Divine first person", "Ideal temple", "Festival calendar", "Purity laws", "King's law"]
+        },
+        {
+            "id": "jewish_war",
+            "text": "josephus",
+            "name": "The Jewish War",
+            "chapters": "War 1\u20137",
+            "color": "#9a968e",
+            "icon": "I",
+            "data_file": "era_jewish_war",
+            "themes": ["Revolt against Rome", "Jerusalem's fall", "Temple destruction", "Josephus as narrator"]
+        },
+        {
+            "id": "antiquities_early",
+            "text": "josephus",
+            "name": "Antiquities: Biblical History",
+            "chapters": "Antiquities 1\u201312",
+            "color": "#8a8680",
+            "icon": "II",
+            "data_file": "era_antiquities_early",
+            "themes": ["Biblical retelling", "Hellenistic apologetic", "Moses biography", "Patriarchal narratives"]
+        },
+        {
+            "id": "antiquities_late",
+            "text": "josephus",
+            "name": "Antiquities: Second Temple Period",
+            "chapters": "Antiquities 13\u201320",
+            "color": "#7a7672",
+            "icon": "III",
+            "data_file": "era_antiquities_late",
+            "themes": ["Hasmonean dynasty", "Herodian period", "Testimonium Flavianum", "Roman procurators"]
+        },
+        {
+            "id": "against_apion",
+            "text": "josephus",
+            "name": "Against Apion & Life",
+            "chapters": "Against Apion 1\u20132, Life",
+            "color": "#6a6664",
+            "icon": "IV",
+            "data_file": "era_against_apion",
+            "themes": ["Jewish apologetics", "Anti-Semitism in antiquity", "Jewish law", "Josephus's autobiography"]
+        },
+        {
+            "id": "jub_prologue",
+            "text": "jubilees",
+            "name": "Prologue & Creation",
+            "chapters": "Jubilees 1\u20132",
+            "color": "#2d9a8f",
+            "icon": "I",
+            "data_file": "era_jub_prologue",
+            "themes": ["Angel of the Presence", "Solar calendar", "Sabbath theology", "Mosaic revelation"]
+        },
+        {
+            "id": "jub_patriarchs_early",
+            "text": "jubilees",
+            "name": "Eden to Flood",
+            "chapters": "Jubilees 3\u201310",
+            "color": "#2d9a8f",
+            "icon": "II",
+            "data_file": "era_jub_patriarchs_early",
+            "themes": ["Watchers", "Mastema", "Flood", "Tower of Babel", "Demon retention"]
+        },
+        {
+            "id": "jub_patriarchs_mid",
+            "text": "jubilees",
+            "name": "Abraham to Jacob",
+            "chapters": "Jubilees 11\u201324",
+            "color": "#2d9a8f",
+            "icon": "III",
+            "data_file": "era_jub_patriarchs_mid",
+            "themes": ["Idol destruction", "Covenant", "Aqedah & Mastema", "Isaac", "Jacob & Esau"]
+        },
+        {
+            "id": "jub_patriarchs_late",
+            "text": "jubilees",
+            "name": "Jacob to Egypt",
+            "chapters": "Jubilees 25\u201345",
+            "color": "#2d9a8f",
+            "icon": "IV",
+            "data_file": "era_jub_patriarchs_late",
+            "themes": ["Jacob's marriages", "Dinah", "Joseph", "War against Esau", "Descent to Egypt"]
+        },
+        {
+            "id": "jub_moses",
+            "text": "jubilees",
+            "name": "Moses & Exodus",
+            "chapters": "Jubilees 46\u201350",
+            "color": "#2d9a8f",
+            "icon": "V",
+            "data_file": "era_jub_moses",
+            "themes": ["Slavery", "Mastema bound", "Passover", "Sabbath laws", "364-day calendar"]
+        },
+        {
+            "id": "jasher_primeval",
+            "text": "jasher",
+            "name": "Primeval History",
+            "chapters": "Jasher 1\u201313",
+            "color": "#d4a853",
+            "icon": "I",
+            "data_file": "era_jasher_primeval",
+            "themes": ["Adam's garments", "Enoch as king", "Nimrod", "Tower of Babel", "Noah's generation"]
+        },
+        {
+            "id": "jasher_abraham",
+            "text": "jasher",
+            "name": "Abraham Cycle",
+            "chapters": "Jasher 14\u201326",
+            "color": "#d4a853",
+            "icon": "II",
+            "data_file": "era_jasher_abraham",
+            "themes": ["Birth prophecy", "Idol smashing", "Nimrod's furnace", "War of Kings", "Binding of Isaac"]
+        },
+        {
+            "id": "jasher_jacob_joseph",
+            "text": "jasher",
+            "name": "Jacob & Joseph",
+            "chapters": "Jasher 27\u201357",
+            "color": "#d4a853",
+            "icon": "III",
+            "data_file": "era_jasher_jacob_joseph",
+            "themes": ["Jacob & Esau", "Joseph in Egypt", "Wars of Jacob's sons", "Zepho of Esau"]
+        },
+        {
+            "id": "jasher_moses",
+            "text": "jasher",
+            "name": "Moses & Exodus",
+            "chapters": "Jasher 58\u201381",
+            "color": "#d4a853",
+            "icon": "IV",
+            "data_file": "era_jasher_moses",
+            "themes": ["Moses' birth", "King of Cush", "Burning bush", "Plagues", "Red Sea", "Wilderness"]
+        },
+        {
+            "id": "jasher_egypt",
+            "text": "jasher",
+            "name": "Egypt & Exodus Expanded",
+            "chapters": "Jasher 48\u201382",
+            "color": "#d4a853",
+            "icon": "V",
+            "data_file": "era_jasher_egypt",
+            "themes": ["Joseph's reign", "Egyptian court", "Moses in Ethiopia", "Plagues expanded"]
+        },
+        {
+            "id": "jasher_conquest",
+            "text": "jasher",
+            "name": "Wilderness & Conquest",
+            "chapters": "Jasher 83\u201391",
+            "color": "#b3872f",
+            "icon": "VI",
+            "data_file": "era_jasher_conquest",
+            "themes": ["Wilderness battles", "Balaam", "Conquest of Canaan", "Sun stands still"]
+        },
+        {
+            "id": "hc_foundation",
+            "text": "heavenly_court",
+            "name": "Part I: Biblical Foundation",
+            "chapters": "Chapters 1\u20137",
+            "color": "#c9a84c",
+            "icon": "I",
+            "content_type": "html_fragment",
+            "fragments": [
+                {"id": "hc-ch01", "file": "ch01_throne_court.html", "title": "The Throne and the Court", "ref": "Chapter 1"},
+                {"id": "hc-ch02", "file": "ch02_genesis.html", "title": "Genesis \u2014 The Sons of God", "ref": "Chapter 2"},
+                {"id": "hc-ch03", "file": "ch03_nachash.html", "title": "Rebellion in the Heavens", "ref": "Chapter 3"},
+                {"id": "hc-ch04", "file": "ch04_deut32.html", "title": "The Deuteronomy 32 Worldview", "ref": "Chapter 4"},
+                {"id": "hc-ch05", "file": "ch05_psalm82.html", "title": "Psalm 82 \u2014 The Divine Courtroom", "ref": "Chapter 5"},
+                {"id": "hc-ch06", "file": "ch06_powers.html", "title": "Messiah in Enemy Territory", "ref": "Chapter 6"},
+                {"id": "hc-ch07", "file": "ch07_victory.html", "title": "Christ\u2019s Cosmic Victory", "ref": "Chapter 7"}
+            ],
+            "themes": ["Divine Council", "Psalm 82", "Deuteronomy 32", "Nachash", "Christus Victor"]
+        },
+        {
+            "id": "hc_echoes",
+            "text": "heavenly_court",
+            "name": "Part II: Corrupted Echoes",
+            "chapters": "Chapters 8\u201311",
+            "color": "#c9a84c",
+            "icon": "II",
+            "content_type": "html_fragment",
+            "fragments": [
+                {"id": "hc-ch08", "file": "ch08_cosmic_geo.html", "title": "Cosmic Geography & Mesopotamia", "ref": "Chapter 8"},
+                {"id": "hc-ch09", "file": "ch09_ugaritic.html", "title": "Ugaritic & Canaanite Texts", "ref": "Chapter 9"},
+                {"id": "hc-ch10", "file": "ch10_mythology.html", "title": "Wider Mythological Parallels", "ref": "Chapter 10"},
+                {"id": "hc-ch11", "file": "ch11_stoicheia.html", "title": "The Stoicheia Problem", "ref": "Chapter 11"}
+            ],
+            "themes": ["Cosmic geography", "Ugaritic parallels", "Mythology", "Stoicheia"]
+        },
+        {
+            "id": "hc_witnesses",
+            "text": "heavenly_court",
+            "name": "Part III: Ancient Witnesses",
+            "chapters": "Chapters 12\u201314",
+            "color": "#c9a84c",
+            "icon": "III",
+            "content_type": "html_fragment",
+            "fragments": [
+                {"id": "hc-ch12", "file": "ch12_dss.html", "title": "Dead Sea Scrolls", "ref": "Chapter 12"},
+                {"id": "hc-ch13", "file": "ch13_enoch.html", "title": "1 Enoch \u2014 Book of Watchers", "ref": "Chapter 13"},
+                {"id": "hc-ch14", "file": "ch14_giants_jubilees.html", "title": "Book of Giants & Jubilees", "ref": "Chapter 14"}
+            ],
+            "themes": ["Dead Sea Scrolls", "1 Enoch", "Book of Giants", "Jubilees"]
+        },
+        {
+            "id": "hc_consummation",
+            "text": "heavenly_court",
+            "name": "Part IV: Consummation",
+            "chapters": "Chapters 15\u201317",
+            "color": "#c9a84c",
+            "icon": "IV",
+            "content_type": "html_fragment",
+            "fragments": [
+                {"id": "hc-ch15", "file": "ch15_eschatology.html", "title": "Eschatological Warfare", "ref": "Chapter 15"},
+                {"id": "hc-ch16", "file": "ch16_prophecy_fulfilled.html", "title": "Prophecy Fulfilled & Awaited", "ref": "Chapter 16"},
+                {"id": "hc-ch17", "file": "ch17_new_creation.html", "title": "New Creation \u2014 The Destination", "ref": "Chapter 17"}
+            ],
+            "themes": ["Eschatology", "Prophecy", "New Creation", "Cosmic restoration"]
+        },
+        {
+            "id": "hc_evidence",
+            "text": "heavenly_court",
+            "name": "Part V: Evidence",
+            "chapters": "Chapters 18\u201319",
+            "color": "#c9a84c",
+            "icon": "V",
+            "content_type": "html_fragment",
+            "fragments": [
+                {"id": "hc-ch18", "file": "ch18_hebrew.html", "title": "Hebrew Deep Dive", "ref": "Chapter 18"},
+                {"id": "hc-ch19", "file": "ch19_megaliths.html", "title": "Megaliths & Ancient Sites", "ref": "Chapter 19"}
+            ],
+            "themes": ["Hebrew linguistics", "Megaliths", "Archaeological evidence"]
+        },
+        {
+            "id": "hc_counterfeit",
+            "text": "heavenly_court",
+            "name": "Part VI: Counterfeit",
+            "chapters": "Chapter 20",
+            "color": "#c9a84c",
+            "icon": "VI",
+            "content_type": "html_fragment",
+            "fragments": [
+                {"id": "hc-ch20", "file": "ch20_occult.html", "title": "The Occult Counterfeit", "ref": "Chapter 20"}
+            ],
+            "themes": ["Occultism", "Counterfeit spirituality", "Discernment"]
+        },
+        {
+            "id": "hc_appendices",
+            "text": "heavenly_court",
+            "name": "Appendices",
+            "chapters": "Appendices A\u2013C",
+            "color": "#c9a84c",
+            "icon": "\u2630",
+            "content_type": "html_fragment",
+            "fragments": [
+                {"id": "hc-app-a", "file": "app_a_pillars.html", "title": "Ten Foundational Pillars", "ref": "Appendix A"},
+                {"id": "hc-app-b", "file": "app_b_glossary.html", "title": "Master Glossary", "ref": "Appendix B"},
+                {"id": "hc-app-c", "file": "app_c_scripture.html", "title": "Scripture Index", "ref": "Appendix C"}
+            ],
+            "themes": ["Evidence summary", "Glossary", "Scripture index"]
+        },
+        {
+            "id": "evidence_gallery",
+            "text": "heavenly_court",
+            "name": "Part VII: Physical Evidence & Ancient Mysteries",
+            "chapters": "Evidence Gallery",
+            "color": "#c9a84c",
+            "icon": "VII",
+            "data_file": "era_evidence",
+            "themes": ["Baalbek", "Giza", "Gobekli Tepe", "Mount Hermon", "Shroud of Turin", "Underground cities", "Global pyramids"]
+        },
+        {
+            "id": "pop_culture",
+            "text": "heavenly_court",
+            "name": "Part VIII: Pop Culture & Modern Echoes",
+            "chapters": "Pop Culture Parallels",
+            "color": "#c9a84c",
+            "icon": "VIII",
+            "data_file": "era_pop_culture",
+            "themes": ["Tolkien", "Matrix", "Star Wars", "Narnia", "Marvel", "Nephilim in entertainment"]
+        }
+    ]
+}

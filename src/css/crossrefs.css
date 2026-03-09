@@ -1,0 +1,252 @@
+/* ── Cross References ────────────────────────── */
+.cross-refs-section {
+    margin-bottom: var(--space-md);
+}
+
+.cross-refs-section h4 {
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: var(--space-sm);
+    font-family: var(--font-body);
+    font-weight: 600;
+}
+
+.cross-refs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+}
+
+.cross-ref-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-pill);
+    font-size: var(--text-xs);
+    cursor: pointer;
+    transition: all var(--transition);
+    border: 1px solid;
+    font-weight: 500;
+}
+
+.cross-ref-pill.type-ot {
+    color: var(--blue);
+    border-color: rgba(91, 141, 191, 0.3);
+    background: rgba(91, 141, 191, 0.06);
+}
+.cross-ref-pill.type-ot:hover {
+    background: rgba(91, 141, 191, 0.15);
+    box-shadow: var(--shadow-sm);
+}
+
+.cross-ref-pill.type-nt {
+    color: var(--green);
+    border-color: rgba(34, 197, 94, 0.3);
+    background: rgba(34, 197, 94, 0.06);
+}
+.cross-ref-pill.type-nt:hover {
+    background: rgba(34, 197, 94, 0.15);
+    box-shadow: var(--shadow-sm);
+}
+
+.cross-ref-pill.type-ane {
+    color: var(--amber);
+    border-color: rgba(245, 158, 11, 0.3);
+    background: rgba(245, 158, 11, 0.06);
+}
+.cross-ref-pill.type-ane:hover {
+    background: rgba(245, 158, 11, 0.15);
+    box-shadow: var(--shadow-sm);
+}
+
+.cross-ref-pill.type-dss {
+    color: #8a7a9a;
+    border-color: rgba(138, 122, 154, 0.3);
+    background: rgba(138, 122, 154, 0.06);
+}
+.cross-ref-pill.type-dss:hover {
+    background: rgba(138, 122, 154, 0.15);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Non-canonical badge for Second Temple sources */
+.source-noncanon {
+    display: inline-block;
+    font-size: 0.6rem;
+    color: #8a7a9a;
+    background: rgba(138, 122, 154, 0.1);
+    border: 1px solid rgba(138, 122, 154, 0.25);
+    border-radius: var(--radius-sm);
+    padding: 1px 5px;
+    margin-left: var(--space-xs);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+/* ── Divine Council Note ─────────────────────── */
+.council-note {
+    background: linear-gradient(135deg, rgba(201, 168, 76, 0.08), var(--bg-card));
+    border-left-color: var(--gold);
+}
+
+.council-note .callout-label { color: var(--gold); }
+
+/* ── THC ↔ Library Cross-Reference Panels ────── */
+.thc-links-panel,
+.library-links-panel {
+    background: linear-gradient(135deg, rgba(201, 168, 76, 0.06), var(--bg-card));
+    border: 1px solid rgba(201, 168, 76, 0.2);
+    border-left: 3px solid var(--gold);
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-md) 0;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.library-links-panel {
+    background: linear-gradient(135deg, rgba(91, 141, 191, 0.06), var(--bg-card));
+    border-color: rgba(91, 141, 191, 0.2);
+    border-left-color: #5b8dbf;
+}
+
+.thc-links-panel .callout-label {
+    color: var(--gold);
+}
+
+.library-links-panel .callout-label {
+    color: #5b8dbf;
+}
+
+.thc-links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.thc-link-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.02);
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.thc-link-item:hover {
+    background: rgba(201, 168, 76, 0.1);
+}
+
+.library-links-panel .thc-link-item:hover {
+    background: rgba(91, 141, 191, 0.1);
+}
+
+.thc-link-icon {
+    color: var(--gold);
+    font-size: 0.85rem;
+    line-height: 1.4;
+    flex-shrink: 0;
+}
+
+.library-links-panel .thc-link-icon {
+    color: #5b8dbf;
+}
+
+.thc-link-content {
+    min-width: 0;
+}
+
+.thc-link-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.4;
+}
+
+.thc-link-note {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    margin-top: 2px;
+}
+
+/* Make transliterations in THC grammar boxes clickable */
+.hc-fragment .pw-translit {
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.hc-fragment .pw-translit:hover {
+    color: var(--gold);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+/* ── Chapter Sections ────────────────────────── */
+.chapter-sections {
+    margin-top: var(--space-lg);
+}
+
+.section-block {
+    margin-bottom: var(--space-lg);
+}
+
+.section-block h4 {
+    font-size: var(--text-md);
+    color: var(--gold);
+    margin-bottom: var(--space-sm);
+    font-family: var(--font-heading);
+}
+
+.section-block .section-body {
+    font-size: var(--text-base);
+    line-height: var(--leading-relaxed);
+    color: var(--text-primary);
+}
+
+/* ── Historical Insert ───────────────────────── */
+.historical-insert {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.04), rgba(24, 28, 40, 0.95));
+    border: 1px solid rgba(245, 158, 11, 0.15);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    position: relative;
+    box-shadow: var(--shadow-card);
+}
+
+.historical-insert::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 4px;
+    border-radius: var(--radius-md) 0 0 var(--radius-md);
+}
+
+.historical-badge {
+    display: inline-block;
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--amber);
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid rgba(245, 158, 11, 0.25);
+    margin-bottom: var(--space-md);
+}
+
+.historical-insert h3 {
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-md);
+}
+

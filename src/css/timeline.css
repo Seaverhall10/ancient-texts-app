@@ -1,0 +1,211 @@
+   BIBLICAL + WORLD HISTORY TIMELINE
+   ═══════════════════════════════════════════════ */
+
+.timeline-overlay .timeline-modal {
+    max-width: 900px;
+}
+
+.tl-filters {
+    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tl-filter-group,
+.tl-era-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.tl-filter-btn,
+.tl-era-btn {
+    background: var(--surface);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 0.72rem;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.tl-filter-btn:hover,
+.tl-era-btn:hover {
+    border-color: var(--gold);
+    color: var(--text-primary);
+}
+
+.tl-filter-btn.active {
+    background: var(--gold);
+    color: #000;
+    border-color: var(--gold);
+    font-weight: 600;
+}
+
+.tl-era-btn.active {
+    background: var(--era-color, var(--gold));
+    color: #000;
+    border-color: var(--era-color, var(--gold));
+    font-weight: 600;
+}
+
+.tl-stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+
+.tl-stat {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Timeline track */
+.tl-track {
+    position: relative;
+    padding: 0 20px;
+}
+
+.tl-track::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--gold) 0%, rgba(201,168,76,0.3) 100%);
+    transform: translateX(-50%);
+}
+
+.tl-era-divider {
+    position: relative;
+    text-align: center;
+    margin: 20px 0 12px;
+    border-top: 1px dashed;
+    padding-top: 0;
+}
+
+.tl-era-label {
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    padding: 2px 14px;
+    border-radius: 12px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.tl-event {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.tl-left {
+    flex-direction: row;
+    padding-right: 52%;
+}
+
+.tl-right {
+    flex-direction: row-reverse;
+    padding-left: 52%;
+}
+
+.tl-marker {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    z-index: 1;
+    box-shadow: 0 0 0 3px var(--bg);
+}
+
+.tl-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 14px;
+    width: 100%;
+    transition: all var(--transition);
+    position: relative;
+}
+
+.tl-card:hover {
+    border-color: var(--event-color, var(--gold));
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+.tl-bible .tl-card {
+    border-left: 3px solid var(--event-color, var(--gold));
+}
+
+.tl-world .tl-card {
+    border-left: 3px solid rgba(255,255,255,0.15);
+}
+
+.tl-year {
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: var(--event-color, var(--gold));
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+}
+
+.tl-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 3px;
+}
+
+.tl-desc {
+    font-size: 0.76rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.tl-ref {
+    font-size: 0.68rem;
+    color: var(--gold);
+    margin-top: 4px;
+    font-family: var(--font-mono);
+}
+
+/* Responsive timeline */
+@media (max-width: 768px) {
+    .tl-track::before {
+        left: 20px;
+    }
+    .tl-left,
+    .tl-right {
+        flex-direction: row;
+        padding-right: 0;
+        padding-left: 48px;
+    }
+    .tl-marker {
+        left: 20px;
+    }
+    .matrix-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ═══════════════════════════════════════════════

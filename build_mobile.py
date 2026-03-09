@@ -37,7 +37,10 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 SRC_DIR = os.path.join(BASE_DIR, "src")
 SRC_JS = os.path.join(SRC_DIR, "js", "app.js")
-SRC_CSS = os.path.join(SRC_DIR, "css", "styles.css")
+SRC_CSS_DIR = os.path.join(SRC_DIR, "css")
+SRC_CSS_ORDER = os.path.join(SRC_CSS_DIR, "build-order.txt")
+SRC_CSS_LEGACY = os.path.join(SRC_CSS_DIR, "styles.css")
+SRC_CSS_MOBILE = os.path.join(SRC_CSS_DIR, "mobile.css")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output", "mobile")
 DATA_OUT = os.path.join(OUTPUT_DIR, "data")
 
@@ -563,10 +566,35 @@ def main():
     # ══════════════════════════════════════════════════════════
     print("\n[4/6] Generating HTML shell...")
 
-    css = read_file(SRC_CSS)
+    # ── Read CSS (concatenation from build-order.txt, same as build.py) ──
+    if os.path.exists(SRC_CSS_ORDER):
+        css_parts = []
+        css_files = []
+        for line in read_file(SRC_CSS_ORDER).strip().splitlines():
+            line = line.strip()
+            if line and not line.startswith('#'):
+                fpath = os.path.join(SRC_CSS_DIR, line)
+                if os.path.exists(fpath):
+                    css_parts.append(open(fpath, 'r', encoding='utf-8').read())
+                    css_files.append(line)
+                else:
+                    print(f"  WARNING: CSS file not found: {line}")
+        css = ''.join(css_parts)
+        print(f"  [css] {len(css_files)} component files ({len(css):,} chars)")
+    else:
+        css = read_file(SRC_CSS_LEGACY)
+        print(f"  [css] styles.css ({len(css):,} chars)")
 
-    # Mobile-specific CSS additions
-    mobile_css = """
+    # Mobile-specific CSS additions (read from source file)
+    if os.path.exists(SRC_CSS_MOBILE):
+        mobile_css = read_file(SRC_CSS_MOBILE)
+        print(f"  [css] mobile.css ({len(mobile_css):,} chars)")
+    else:
+        print("  WARNING: mobile.css not found, using empty mobile CSS")
+        mobile_css = ""
+
+    # Legacy inline mobile CSS removed — now reads from src/css/mobile.css
+    _mobile_css_removed = """
 /* ── Mobile PWA Overrides ── */
 @supports (-webkit-touch-callout: none) {
     body { padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); }

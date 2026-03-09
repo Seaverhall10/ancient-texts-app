@@ -1,0 +1,66 @@
+/* ── Bookmarks ───────────────────────────────── */
+.bookmarks-section {
+    padding: 8px 16px;
+}
+
+.bookmarks-section h4 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+    font-family: var(--font-body);
+}
+
+.bookmark-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 8px;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.bookmark-item:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+}
+
+.bookmark-remove {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 0 4px;
+}
+
+.bookmark-remove:hover { color: var(--red); }
+
+.bookmark-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: 1px solid rgba(201, 168, 76, 0.2);
+    border-radius: 4px;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    transition: all var(--transition);
+}
+
+.bookmark-btn:hover {
+    color: var(--gold);
+    border-color: var(--gold-border);
+}
+
+.bookmark-btn.bookmarked {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: var(--gold-dim);
+}
+

@@ -1,0 +1,944 @@
+   THE HEAVENLY COURT — Component Classes (merged from THC)
+   Scoped under .hc-fragment to avoid conflicts with library
+   classes like .chapter-card and .scripture-block.
+   ============================================================ */
+
+/* ── THC Chapters (scoped) ────────────────────────────────── */
+.hc-fragment .chapter {
+    margin-bottom: 4.5rem;
+}
+.hc-fragment .chapter-header {
+    margin-bottom: 2rem; padding-bottom: 1.2rem;
+    border-bottom: 1px solid var(--border);
+}
+.hc-fragment .chapter-header .ch-label {
+    font-size: 0.65rem; color: var(--gold-dim);
+    text-transform: uppercase; letter-spacing: 0.2em;
+    margin-bottom: 0.3rem;
+}
+.hc-fragment .chapter-header h3 {
+    font-size: 1.35rem; color: var(--text-primary);
+    font-weight: 600; margin-bottom: 0.3rem;
+}
+.hc-fragment .chapter-header .ch-subtitle {
+    font-size: 0.88rem; color: var(--text-secondary);
+    font-style: italic;
+}
+.hc-fragment .chapter p {
+    margin-bottom: 1.4rem; text-align: justify; line-height: 1.9;
+}
+.hc-fragment .chapter h4 {
+    font-size: 1.05rem; color: var(--gold);
+    margin: 2.5rem 0 1rem; font-weight: 600;
+    letter-spacing: 0.02em;
+}
+.hc-fragment .chapter h5 {
+    font-size: 0.88rem; color: var(--text-secondary);
+    text-transform: uppercase; letter-spacing: 0.06em;
+    margin: 1.8rem 0 0.8rem; font-weight: 600;
+}
+
+/* ── THC Scripture Blocks (scoped) ────────────────────────── */
+.hc-fragment .scripture {
+    margin: 2rem 0; padding: 1.5rem 1.8rem;
+    background: var(--bg-card);
+    border-left: 3px solid var(--gold-dim);
+    border-radius: 0 6px 6px 0;
+}
+.hc-fragment .scripture-ref {
+    display: block; font-size: 0.78rem; color: var(--gold);
+    font-weight: 700; letter-spacing: 0.04em;
+    margin-bottom: 0.5rem; text-transform: uppercase;
+}
+.hc-fragment .scripture-text {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    font-style: normal; font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.9; font-size: 0.98rem;
+}
+.hc-fragment .scripture-text .vn {
+    color: var(--gold-dim); font-size: 0.68rem;
+    font-style: normal; vertical-align: super;
+    margin-right: 1px; font-weight: 700;
+}
+.hc-fragment .scripture-tag {
+    display: inline-block; margin-top: 0.6rem;
+    font-size: 0.65rem; color: var(--text-muted);
+    letter-spacing: 0.04em;
+    background: rgba(201,168,76,0.06);
+    padding: 0.15rem 0.5rem; border-radius: 3px;
+}
+
+/* ── THC Interlinear (scoped) ─────────────────────────────── */
+.hc-fragment .interlinear {
+    margin: 2rem 0; padding: 1.5rem 1.6rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+}
+.hc-fragment .il-title {
+    font-size: 0.68rem; color: var(--gold-dim);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    margin-bottom: 0.8rem; font-weight: 700;
+}
+.hc-fragment .il-row {
+    display: flex; flex-wrap: wrap; gap: 0.6rem 1rem;
+    margin-bottom: 0.5rem; align-items: flex-start;
+}
+.hc-fragment .il-word { text-align: center; min-width: 55px; }
+.hc-fragment .il-orig {
+    font-size: 1.25rem; color: var(--gold-light);
+    font-weight: 600; line-height: 1.4; direction: rtl;
+}
+.hc-fragment .il-word.greek .il-orig { direction: ltr; font-size: 1.1rem; }
+.hc-fragment .il-trans { font-size: 0.72rem; color: var(--text-muted); font-style: italic; }
+.hc-fragment .il-gloss { font-size: 0.75rem; color: var(--text-primary); font-weight: 600; }
+.hc-fragment .il-note {
+    margin-top: 0.8rem; padding-top: 0.7rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem; color: var(--text-secondary);
+    line-height: 1.7;
+}
+.hc-fragment .il-note strong { color: var(--text-primary); }
+
+/* ── THC Grammar Analysis Boxes ───────────────────────────── */
+.hc-fragment .grammar-box {
+    margin: 2rem 0; padding: 1.8rem 2rem;
+    background: linear-gradient(135deg, rgba(91,141,191,0.06) 0%, var(--bg-card) 100%);
+    border: 1px solid rgba(91,141,191,0.2);
+    border-radius: 6px;
+}
+.hc-fragment .grammar-box .grammar-title {
+    font-size: 0.72rem; color: var(--accent-blue);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    font-weight: 700; margin-bottom: 1.5rem;
+    display: flex; align-items: center; gap: 0.5rem;
+}
+.hc-fragment .grammar-box .grammar-title::before {
+    content: ''; width: 16px; height: 2px;
+    background: var(--accent-blue);
+}
+.hc-fragment .parse-item {
+    margin-bottom: 2rem; padding-bottom: 1.8rem;
+    border-bottom: 1px solid var(--border);
+}
+.hc-fragment .parse-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.hc-fragment .parse-word {
+    display: flex; align-items: baseline; gap: 0.8rem;
+    margin-bottom: 0.6rem;
+}
+.hc-fragment .parse-word .pw-heb {
+    font-size: 1.35rem; color: var(--gold-light);
+    direction: rtl; font-weight: 600;
+}
+.hc-fragment .parse-word .pw-heb.greek { direction: ltr; font-size: 1.15rem; }
+.hc-fragment .parse-word .pw-translit {
+    font-size: 0.88rem; color: var(--text-muted);
+    font-style: italic;
+}
+.hc-fragment .parse-tags {
+    display: flex; flex-wrap: wrap; gap: 0.35rem;
+    margin-bottom: 0.9rem;
+}
+.hc-fragment .parse-tag {
+    font-size: 0.65rem; padding: 0.15rem 0.5rem;
+    border-radius: 3px; font-weight: 600;
+    letter-spacing: 0.03em;
+}
+.hc-fragment .tag-stem,
+.hc-fragment .tag-form,
+.hc-fragment .tag-gender,
+.hc-fragment .tag-number,
+.hc-fragment .tag-root,
+.hc-fragment .tag-case {
+    font-size: 0.65rem; padding: 0.15rem 0.5rem;
+    border-radius: 3px; font-weight: 600;
+    letter-spacing: 0.03em; display: inline-block;
+}
+.hc-fragment .tag-stem { background: rgba(91,141,191,0.15); color: var(--accent-blue); }
+.hc-fragment .tag-form { background: rgba(155,126,200,0.15); color: var(--accent-purple); }
+.hc-fragment .tag-gender { background: rgba(106,171,115,0.15); color: var(--accent-green); }
+.hc-fragment .tag-number { background: rgba(201,168,76,0.15); color: var(--gold); }
+.hc-fragment .tag-root { background: rgba(196,92,92,0.15); color: var(--accent-red); }
+.hc-fragment .tag-case { background: rgba(91,163,163,0.15); color: var(--accent-teal); }
+.hc-fragment .parse-meaning {
+    font-size: 0.88rem; color: var(--text-secondary);
+    line-height: 1.85; margin-top: 0.3rem;
+}
+.hc-fragment .parse-meaning strong { color: var(--text-primary); }
+.hc-fragment .parse-meaning em { color: var(--gold); font-style: italic; }
+
+/* ── THC Argument Boxes ───────────────────────────────────── */
+.hc-fragment .argument-box {
+    margin: 2rem 0; padding: 1.8rem 2rem;
+    background: linear-gradient(135deg, rgba(106,171,115,0.06) 0%, var(--bg-card) 100%);
+    border: 1px solid rgba(106,171,115,0.2);
+    border-radius: 6px;
+}
+.hc-fragment .argument-box .argument-title {
+    font-size: 0.72rem; color: var(--accent-green);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    font-weight: 700; margin-bottom: 1.3rem;
+    display: flex; align-items: center; gap: 0.5rem;
+}
+.hc-fragment .argument-box .argument-title::before {
+    content: ''; width: 16px; height: 2px;
+    background: var(--accent-green);
+}
+.hc-fragment .arg-point {
+    margin-bottom: 1.3rem; padding-left: 1.2rem;
+    position: relative; font-size: 0.9rem;
+    line-height: 1.85;
+}
+.hc-fragment .arg-point::before {
+    content: ''; position: absolute; left: 0; top: 0.55rem;
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent-green);
+}
+.hc-fragment .arg-point strong { color: var(--text-primary); }
+.hc-fragment .arg-conclusion {
+    margin-top: 1.3rem; padding-top: 1rem;
+    border-top: 1px solid rgba(106,171,115,0.2);
+    font-weight: 600; color: var(--accent-green);
+    font-size: 0.92rem; line-height: 1.8;
+}
+
+/* ── THC Counter-Argument Boxes ───────────────────────────── */
+.hc-fragment .counter-box {
+    margin: 2rem 0; padding: 1.8rem 2rem;
+    background: linear-gradient(135deg, rgba(196,92,92,0.06) 0%, var(--bg-card) 100%);
+    border: 1px solid rgba(196,92,92,0.2);
+    border-radius: 6px;
+}
+.hc-fragment .counter-box .counter-title {
+    font-size: 0.72rem; color: var(--accent-red);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    font-weight: 700; margin-bottom: 1.3rem;
+    display: flex; align-items: center; gap: 0.5rem;
+}
+.hc-fragment .counter-box .counter-title::before {
+    content: ''; width: 16px; height: 2px;
+    background: var(--accent-red);
+}
+.hc-fragment .counter-item {
+    margin-bottom: 1.8rem;
+}
+.hc-fragment .counter-item:last-child { margin-bottom: 0; }
+.hc-fragment .counter-claim {
+    font-size: 0.9rem; font-weight: 600;
+    color: var(--accent-red); margin-bottom: 0.6rem;
+}
+.hc-fragment .counter-rebuttal {
+    font-size: 0.88rem; color: var(--text-secondary);
+    padding-left: 1.2rem; border-left: 2px solid rgba(196,92,92,0.3);
+    line-height: 1.85;
+}
+
+/* ── THC Textual Variant Boxes ────────────────────────────── */
+.hc-fragment .variant-box {
+    margin: 2rem 0; padding: 1.8rem 2rem;
+    background: linear-gradient(135deg, rgba(155,126,200,0.06) 0%, var(--bg-card) 100%);
+    border: 1px solid rgba(155,126,200,0.2);
+    border-radius: 6px;
+}
+.hc-fragment .variant-box .vb-title {
+    font-size: 0.72rem; color: var(--accent-purple);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    font-weight: 700; margin-bottom: 1.3rem;
+}
+.hc-fragment .variant-row {
+    display: grid; grid-template-columns: 140px 1fr 1fr;
+    gap: 0.8rem; margin-bottom: 1rem;
+    padding-bottom: 1rem; border-bottom: 1px solid var(--border);
+    align-items: center;
+}
+.hc-fragment .variant-row:last-child { border-bottom: none; margin-bottom: 0; }
+.hc-fragment .vr-label { font-size: 0.78rem; color: var(--accent-purple); font-weight: 600; }
+.hc-fragment .vr-orig { font-size: 1.05rem; color: var(--gold-light); direction: rtl; }
+.hc-fragment .vr-text { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; }
+
+/* ── THC Logic / Syllogism Boxes ──────────────────────────── */
+.hc-fragment .logic-box {
+    margin: 2rem 0; padding: 1.8rem 2rem;
+    background: linear-gradient(135deg, rgba(91,163,163,0.06) 0%, var(--bg-card) 100%);
+    border: 1px solid rgba(91,163,163,0.2);
+    border-radius: 6px;
+}
+.hc-fragment .logic-box .logic-title {
+    font-size: 0.72rem; color: var(--accent-teal);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    font-weight: 700; margin-bottom: 1.3rem;
+}
+.hc-fragment .premise {
+    margin: 0.7rem 0; padding-left: 1rem;
+    font-size: 0.9rem; line-height: 1.85;
+}
+.hc-fragment .prem-label { color: var(--accent-teal); font-weight: 700; margin-right: 0.4rem; }
+.hc-fragment .conclusion {
+    margin-top: 1.2rem; padding-top: 0.8rem;
+    border-top: 1px solid rgba(91,163,163,0.2);
+    font-weight: 600; color: var(--accent-teal);
+    font-size: 0.92rem; line-height: 1.8;
+}
+
+/* ── THC Key Terms Grid (scoped) ──────────────────────────── */
+.hc-fragment .term-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.8rem; margin: 1.2rem 0;
+}
+.hc-fragment .term-card {
+    padding: 0.8rem; background: var(--bg-card);
+    border: 1px solid var(--border); border-radius: 6px;
+    text-align: center;
+}
+.hc-fragment .term-card .tc-heb {
+    font-size: 1.3rem; color: var(--gold-light);
+    direction: rtl; font-weight: 600;
+}
+.hc-fragment .term-card .tc-heb.greek { direction: ltr; font-size: 1.1rem; }
+.hc-fragment .term-card .tc-translit {
+    font-size: 0.72rem; color: var(--text-muted); font-style: italic;
+}
+.hc-fragment .term-card .tc-meaning {
+    font-size: 0.78rem; color: var(--text-primary);
+    font-weight: 600; margin-top: 0.2rem;
+}
+.hc-fragment .term-card .tc-ref {
+    font-size: 0.62rem; color: var(--text-muted); margin-top: 0.2rem;
+}
+
+/* ── THC Tables (scoped) ──────────────────────────────────── */
+.hc-fragment table {
+    width: 100%; border-collapse: collapse;
+    margin: 1.2rem 0; font-size: 0.85rem;
+}
+.hc-fragment th {
+    background: var(--bg-elevated); color: var(--gold);
+    padding: 0.6rem 0.8rem; text-align: left;
+    font-weight: 600; font-size: 0.75rem;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    border-bottom: 2px solid var(--border-strong);
+}
+.hc-fragment td {
+    padding: 0.55rem 0.8rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top; color: var(--text-secondary);
+}
+.hc-fragment tr:hover td { background: var(--gold-glow); }
+
+/* ── THC Hierarchy Diagram ────────────────────────────────── */
+.hc-fragment .hierarchy { margin: 1.5rem 0; text-align: center; }
+.hc-fragment .h-tier {
+    margin: 0.4rem auto; padding: 0.7rem 1.2rem;
+    border-radius: 6px; max-width: 480px;
+}
+.hc-fragment .h-t1 { background: rgba(201,168,76,0.1); border: 1px solid var(--gold-dim); }
+.hc-fragment .h-t2 { background: var(--bg-card); border: 1px solid var(--border-strong); max-width: 400px; }
+.hc-fragment .h-t3 { background: var(--bg-secondary); border: 1px solid var(--border); max-width: 340px; }
+.hc-fragment .h-tier-label { font-size: 0.6rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; }
+.hc-fragment .h-tier-name { font-size: 1rem; color: var(--gold); font-weight: 600; }
+.hc-fragment .h-tier-desc { font-size: 0.78rem; color: var(--text-secondary); }
+.hc-fragment .h-arrow { color: var(--text-muted); font-size: 0.8rem; margin: 0.2rem 0; }
+
+/* ── THC Callout Boxes ────────────────────────────────────── */
+.hc-fragment .callout {
+    margin: 2.5rem 0; padding: 1.6rem 1.8rem;
+    border-radius: 6px; font-size: 0.9rem;
+    line-height: 1.85;
+}
+.hc-fragment .callout-gold {
+    background: var(--gold-glow);
+    border-left: 3px solid var(--gold-dim);
+}
+.hc-fragment .callout-blue {
+    background: rgba(91,141,191,0.06);
+    border-left: 3px solid rgba(91,141,191,0.4);
+}
+.hc-fragment .callout-red {
+    background: rgba(196,92,92,0.06);
+    border-left: 3px solid rgba(196,92,92,0.4);
+}
+.hc-fragment .callout-title {
+    font-weight: 700; font-size: 0.82rem;
+    margin-bottom: 0.4rem; color: var(--text-primary);
+}
+
+/* ── THC Timeline ─────────────────────────────────────────── */
+.hc-fragment .timeline { margin: 2rem 0; padding: 0 0 0 2rem; border-left: 2px solid var(--gold-dim); }
+.hc-fragment .timeline-item { position: relative; padding: 0 0 1.5rem 1.5rem; }
+.hc-fragment .timeline-item:last-child { padding-bottom: 0; }
+.hc-fragment .timeline-item::before {
+    content: ''; position: absolute; left: -2.44rem; top: 0.35rem;
+    width: 10px; height: 10px; background: var(--gold); border-radius: 50%;
+    border: 2px solid var(--bg-primary);
+}
+.hc-fragment .timeline-item.tl-victory::before { background: var(--accent-green); box-shadow: 0 0 8px rgba(106,171,115,0.4); }
+.hc-fragment .timeline-item.tl-judgment::before { background: var(--accent-red); }
+.hc-fragment .timeline-item.tl-future::before { background: var(--accent-blue); }
+.hc-fragment .tl-label { font-size: 0.68rem; color: var(--gold-dim); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; }
+.hc-fragment .tl-title { font-size: 0.92rem; color: var(--text-primary); font-weight: 600; margin: 0.1rem 0 0.15rem; }
+.hc-fragment .tl-ref { font-size: 0.72rem; color: var(--text-muted); font-style: italic; }
+
+/* ── THC Cosmic Geography ─────────────────────────────────── */
+.hc-fragment .geo-stack { margin: 2rem 0; display: flex; flex-direction: column; gap: 0; }
+.hc-fragment .geo-realm {
+    padding: 0.7rem 1.2rem; text-align: center;
+    border: 1px solid var(--border); font-size: 0.85rem;
+}
+.hc-fragment .geo-realm .gr-name { font-weight: 700; font-size: 0.88rem; }
+.hc-fragment .geo-realm .gr-desc { font-size: 0.75rem; color: var(--text-secondary); }
+.hc-fragment .geo-throne { background: linear-gradient(135deg, rgba(201,168,76,0.12), var(--bg-card)); border-color: var(--gold-dim); border-radius: 6px 6px 0 0; }
+.hc-fragment .geo-earth { background: var(--bg-card); }
+.hc-fragment .geo-under { background: linear-gradient(135deg, var(--bg-card), rgba(91,141,191,0.06)); }
+.hc-fragment .geo-prison { background: linear-gradient(135deg, var(--bg-card), rgba(196,92,92,0.08)); }
+.hc-fragment .geo-final { background: linear-gradient(135deg, var(--bg-card), rgba(196,92,92,0.15)); border-color: rgba(196,92,92,0.3); border-radius: 0 0 6px 6px; }
+
+/* ── THC Claim Labels ─────────────────────────────────────── */
+.hc-fragment .cl { display: inline-block; font-size: 0.6rem; font-weight: 700; padding: 0.08rem 0.3rem; border-radius: 2px; vertical-align: super; margin-left: 0.2rem; letter-spacing: 0.02em; }
+.hc-fragment .cl-a { background: rgba(106,171,115,0.15); color: var(--accent-green); }
+.hc-fragment .cl-b { background: rgba(91,141,191,0.15); color: var(--accent-blue); }
+.hc-fragment .cl-c { background: rgba(155,126,200,0.15); color: var(--accent-purple); }
+
+/* ── THC Part Dividers ────────────────────────────────────── */
+.hc-fragment .part-divider {
+    margin: 4rem 0 2.5rem;
+    padding: 2.5rem 0;
+    border-top: 1px solid var(--border-strong);
+    text-align: center;
+}
+.hc-fragment .part-divider .part-num {
+    font-size: 0.65rem; color: var(--gold-dim);
+    text-transform: uppercase; letter-spacing: 0.3em;
+}
+.hc-fragment .part-divider h2 {
+    font-size: 1.7rem; color: var(--gold);
+    font-weight: 400; margin: 0.5rem 0;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+.hc-fragment .part-divider p {
+    color: var(--text-muted); font-size: 0.9rem;
+    max-width: 550px; margin: 0 auto;
+}
+
+/* ── THC Hero ─────────────────────────────────────────────── */
+.hc-fragment .hero {
+    padding: 5rem 3rem 4rem;
+    max-width: 900px; margin: 0 auto;
+    text-align: center;
+}
+.hc-fragment .hero-label {
+    font-size: 0.7rem; color: var(--gold-dim);
+    text-transform: uppercase; letter-spacing: 0.25em;
+    margin-bottom: 1rem;
+}
+.hc-fragment .hero h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--gold); font-weight: 300;
+    letter-spacing: 0.04em; line-height: 1.3;
+    margin-bottom: 0.8rem;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+.hc-fragment .hero-subtitle {
+    font-size: 1.05rem; color: var(--text-secondary);
+    max-width: 600px; margin: 0 auto 2rem;
+    line-height: 1.7;
+}
+.hc-fragment .hero-verse {
+    font-style: italic; color: var(--text-muted);
+    font-size: 0.92rem; max-width: 550px; margin: 0 auto;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+}
+.hc-fragment .hero-meta {
+    margin-top: 2rem; font-size: 0.75rem; color: var(--text-muted);
+    letter-spacing: 0.04em;
+}
+
+/* ── THC Content Wrap ─────────────────────────────────────── */
+.hc-fragment .content-wrap {
+    max-width: var(--content-max);
+    margin: 0 auto; padding: 0 2.5rem 4rem;
+    width: 100%;
+}
+
+/* ── THC Standalone Title Selectors (scoped) ──────────────── */
+.hc-fragment .grammar-title {
+    font-size: 0.72rem; color: var(--accent-blue);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    font-weight: 700; margin-bottom: 1.5rem;
+    display: flex; align-items: center; gap: 0.5rem;
+}
+.hc-fragment .grammar-title::before {
+    content: ''; width: 16px; height: 2px;
+    background: var(--accent-blue);
+}
+.hc-fragment .argument-title {
+    font-size: 0.72rem; color: var(--accent-green);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    font-weight: 700; margin-bottom: 1rem;
+    display: flex; align-items: center; gap: 0.5rem;
+}
+.hc-fragment .argument-title::before {
+    content: ''; width: 16px; height: 2px;
+    background: var(--accent-green);
+}
+.hc-fragment .counter-title {
+    font-size: 0.72rem; color: var(--accent-red);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    font-weight: 700; margin-bottom: 1rem;
+    display: flex; align-items: center; gap: 0.5rem;
+}
+.hc-fragment .counter-title::before {
+    content: ''; width: 16px; height: 2px;
+    background: var(--accent-red);
+}
+.hc-fragment .variant-title {
+    font-size: 0.72rem; color: var(--accent-purple);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    font-weight: 700; margin-bottom: 1rem;
+}
+.hc-fragment .logic-title {
+    font-size: 0.72rem; color: var(--accent-teal);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    font-weight: 700; margin-bottom: 1rem;
+}
+
+/* ── THC Enhanced Spacing Between Boxes ───────────────────── */
+.hc-fragment .grammar-box + .argument-box,
+.hc-fragment .grammar-box + .counter-box,
+.hc-fragment .grammar-box + .logic-box,
+.hc-fragment .argument-box + .counter-box,
+.hc-fragment .argument-box + .logic-box,
+.hc-fragment .counter-box + .argument-box,
+.hc-fragment .scripture + .grammar-box,
+.hc-fragment .interlinear + .grammar-box,
+.hc-fragment .logic-box + .callout,
+.hc-fragment .counter-box + .callout,
+.hc-fragment .argument-box + .callout {
+    margin-top: 2.2rem;
+}
+.hc-fragment .chapter + .chapter {
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+}
+
+/* ── THC Reading Progress (scoped) ────────────────────────── */
+.hc-fragment .progress-bar {
+    position: fixed; top: 0; left: var(--sidebar-width);
+    right: 0; height: 2px; z-index: 50;
+    background: var(--bg-primary);
+}
+.hc-fragment .progress-fill {
+    height: 100%; width: 0%; background: var(--gold);
+    transition: width 0.1s linear;
+}
+
+/* ── THC Footer (scoped) ──────────────────────────────────── */
+.hc-fragment footer {
+    text-align: center; padding: 3rem 2rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted); font-size: 0.8rem;
+    margin-top: 3rem;
+}
+.hc-fragment footer .f-gold { color: var(--gold-dim); }
+
+/* ── THC Part Navigation Tabs (scoped) ────────────────────── */
+.hc-fragment .part-nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: linear-gradient(180deg, #111 85%, transparent);
+    padding: 0.8rem 0 1rem;
+    margin: 0 -1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem;
+}
+.hc-fragment .part-nav a {
+    display: inline-block;
+    padding: 0.45rem 1rem;
+    border: 1px solid rgba(212,175,55,0.25);
+    border-radius: 4px;
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.2s;
+    background: rgba(30,30,30,0.8);
+    backdrop-filter: blur(8px);
+}
+.hc-fragment .part-nav a:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: rgba(212,175,55,0.08);
+}
+.hc-fragment .part-nav a .part-nav-num {
+    color: var(--gold);
+    margin-right: 0.3rem;
+}
+
+/* ── THC Search (scoped) ──────────────────────────────────── */
+.hc-fragment .search-container {
+    padding: 0.6rem 1rem 0.5rem;
+    position: relative;
+}
+.hc-fragment .search-input {
+    width: 100%;
+    padding: 0.5rem 0.7rem 0.5rem 2rem;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-strong);
+    border-radius: 6px;
+    color: var(--text-primary);
+    font-size: 0.82rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s;
+}
+.hc-fragment .search-input:focus {
+    border-color: var(--gold);
+    box-shadow: 0 0 0 2px var(--gold-glow);
+}
+.hc-fragment .search-input::placeholder { color: var(--text-muted); }
+.hc-fragment .search-icon {
+    position: absolute;
+    left: 1.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    pointer-events: none;
+}
+.hc-fragment .search-results {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0.5rem;
+    right: 0.5rem;
+    max-height: 60vh;
+    overflow-y: auto;
+    background: var(--bg-card);
+    border: 1px solid var(--border-strong);
+    border-radius: 6px;
+    z-index: 200;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+.hc-fragment .search-results.visible { display: block; }
+.hc-fragment .search-result {
+    padding: 0.55rem 0.75rem;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.15s;
+}
+.hc-fragment .search-result:last-child { border-bottom: none; }
+.hc-fragment .search-result:hover { background: var(--bg-elevated); }
+.hc-fragment .search-result-title {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--gold);
+    margin-bottom: 0.15rem;
+}
+.hc-fragment .search-result-context {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    line-height: 1.45;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.hc-fragment .search-result-context mark {
+    background: rgba(201,168,76,0.3);
+    color: var(--gold-light);
+    border-radius: 2px;
+    padding: 0 1px;
+}
+.hc-fragment .search-no-results {
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+.hc-fragment .search-highlight {
+    animation: searchPulse 2s ease-out;
+}
+.hc-fragment .search-count {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+}
+
+/* ── THC Responsive (scoped) ──────────────────────────────── */
+@media (max-width: 900px) {
+    .hc-fragment .sidebar { transform: translateX(-100%); }
+    .hc-fragment .sidebar.open { transform: translateX(0); }
+    .hc-fragment .sidebar-toggle { display: block; }
+    .hc-fragment .main-content { margin-left: 0; }
+    .hc-fragment .progress-bar { left: 0; }
+    .hc-fragment .content-wrap { padding: 0 1.2rem 3rem; }
+    .hc-fragment .variant-row { grid-template-columns: 1fr; }
+    .hc-fragment .term-grid { grid-template-columns: repeat(2, 1fr); }
+
+    .hc-fragment table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .hc-fragment td, .hc-fragment th { padding: 0.4rem 0.55rem; font-size: 0.78rem; }
+    .hc-fragment th { font-size: 0.68rem; }
+    .hc-fragment table caption { font-size: 0.75rem; }
+
+    .hc-fragment .hero { padding: 2.5rem 1.2rem 2rem; }
+    .hc-fragment .hero h1 { font-size: 2rem; }
+    .hc-fragment .hero-subtitle { font-size: 0.85rem; }
+    .hc-fragment .hero-verse { font-size: 0.82rem; }
+
+    .hc-fragment .chapter-header h3 { font-size: 1.3rem; }
+    .hc-fragment .ch-subtitle { font-size: 0.82rem; }
+    .hc-fragment h4 { font-size: 1.05rem; }
+
+    .hc-fragment .grammar-box,
+    .hc-fragment .argument-box,
+    .hc-fragment .counter-box,
+    .hc-fragment .logic-box,
+    .hc-fragment .variant-box {
+        padding: 1rem 1rem;
+    }
+    .hc-fragment .grammar-title,
+    .hc-fragment .argument-title,
+    .hc-fragment .counter-title,
+    .hc-fragment .logic-title {
+        font-size: 0.82rem;
+    }
+    .hc-fragment .parse-gloss,
+    .hc-fragment .parse-meaning { font-size: 0.8rem; }
+    .hc-fragment .arg-point,
+    .hc-fragment .counter-rebuttal,
+    .hc-fragment .counter-claim { font-size: 0.84rem; }
+
+    .hc-fragment .scripture { padding: 0.8rem 1rem; }
+    .hc-fragment .scripture-text { font-size: 0.9rem; }
+
+    .hc-fragment .callout { padding: 0.8rem 1rem; font-size: 0.84rem; }
+
+    .hc-fragment .part-divider { padding: 2rem 1.2rem; }
+    .hc-fragment .part-divider h2 { font-size: 1.6rem; }
+    .hc-fragment .part-divider p { font-size: 0.85rem; }
+
+    .hc-fragment .part-nav { gap: 0.3rem; padding: 0.5rem 0 0.8rem; }
+    .hc-fragment .part-nav a { padding: 0.35rem 0.6rem; font-size: 0.65rem; }
+}
+
+@media (max-width: 500px) {
+    .hc-fragment .term-grid { grid-template-columns: 1fr; }
+    .hc-fragment .il-row { gap: 0.4rem 0.6rem; }
+
+    .hc-fragment td, .hc-fragment th { padding: 0.3rem 0.4rem; font-size: 0.72rem; min-width: 80px; }
+    .hc-fragment th { font-size: 0.64rem; }
+
+    .hc-fragment .content-wrap { padding: 0 0.8rem 2rem; }
+    .hc-fragment .hero h1 { font-size: 1.6rem; }
+    .hc-fragment .chapter-header h3 { font-size: 1.15rem; }
+    .hc-fragment h4 { font-size: 0.95rem; }
+
+    .hc-fragment .grammar-box,
+    .hc-fragment .argument-box,
+    .hc-fragment .counter-box,
+    .hc-fragment .logic-box,
+    .hc-fragment .variant-box {
+        padding: 0.8rem 0.8rem;
+    }
+    .hc-fragment .parse-word { font-size: 0.9rem; }
+    .hc-fragment .parse-tags { gap: 0.3rem; }
+    .hc-fragment .tag-stem,
+    .hc-fragment .tag-form,
+    .hc-fragment .tag-root,
+    .hc-fragment .tag-gender,
+    .hc-fragment .tag-number,
+    .hc-fragment .tag-case {
+        font-size: 0.6rem; padding: 0.15rem 0.35rem;
+    }
+}
+
+/* ── THC Print Styles (scoped) ────────────────────────────── */
+@media print {
+    .hc-fragment .sidebar,
+    .hc-fragment .sidebar-toggle,
+    .hc-fragment .progress-bar,
+    .hc-fragment .part-nav,
+    .hc-fragment .search-container { display: none !important; }
+    .hc-fragment .main-content { margin-left: 0 !important; }
+    .hc-fragment .content-wrap { max-width: 100% !important; padding: 0 0.5rem 2rem !important; }
+
+    .hc-fragment .chapter p { color: #1a1a1a !important; margin-bottom: 0.9rem !important; line-height: 1.7 !important; }
+    .hc-fragment .chapter h4 { color: #8a6d1b !important; margin-top: 1.8rem !important; }
+    .hc-fragment .chapter-header h3 { color: #1a1a1a !important; }
+    .hc-fragment .chapter-header .ch-label { color: #8a6d1b !important; }
+    .hc-fragment .chapter-header .ch-subtitle { color: #555 !important; }
+    .hc-fragment .chapter-header { border-bottom: 1px solid #ccc !important; break-inside: avoid; }
+    .hc-fragment .chapter { margin-bottom: 2rem !important; }
+
+    .hc-fragment .hero { padding: 3rem 2rem 2.5rem !important; page-break-after: always; }
+    .hc-fragment .hero h1 { color: #8a6d1b !important; font-size: 2.2rem !important; }
+    .hc-fragment .hero-label { color: #8a6d1b !important; }
+    .hc-fragment .hero-subtitle { color: #444 !important; }
+    .hc-fragment .hero-verse { color: #666 !important; border-top-color: #ccc !important; }
+    .hc-fragment .hero-meta { color: #888 !important; }
+
+    .hc-fragment .part-divider { page-break-before: always; margin-top: 0 !important; padding-top: 3rem !important; border-top: 1px solid #ccc !important; }
+    .hc-fragment .part-divider .part-num { color: #8a6d1b !important; }
+    .hc-fragment .part-divider h2 { color: #8a6d1b !important; }
+    .hc-fragment .part-divider p { color: #555 !important; }
+
+    .hc-fragment .scripture { background: #f7f5f0 !important; border-left: 3px solid #c9a84c !important; break-inside: avoid; }
+    .hc-fragment .scripture-ref { color: #8a6d1b !important; }
+    .hc-fragment .scripture-text { color: #1a1a1a !important; }
+    .hc-fragment .scripture-text .vn { color: #8a6d1b !important; }
+    .hc-fragment .scripture-tag { color: #888 !important; background: transparent !important; }
+
+    .hc-fragment .grammar-box { background: #f0f4f8 !important; border: 1px solid #b8cce0 !important; break-inside: avoid; }
+    .hc-fragment .grammar-box .grammar-title,
+    .hc-fragment .grammar-title { color: #3a6d9e !important; }
+    .hc-fragment .grammar-box .grammar-title::before,
+    .hc-fragment .grammar-title::before { background: #3a6d9e !important; }
+    .hc-fragment .parse-word .pw-heb { color: #8a6d1b !important; }
+    .hc-fragment .parse-word .pw-translit { color: #666 !important; }
+    .hc-fragment .parse-meaning { color: #333 !important; }
+    .hc-fragment .parse-meaning strong { color: #1a1a1a !important; }
+    .hc-fragment .parse-meaning em { color: #8a6d1b !important; }
+    .hc-fragment .parse-item { border-bottom-color: #ddd !important; break-inside: avoid; }
+    .hc-fragment .tag-stem { background: #dce8f3 !important; color: #3a6d9e !important; }
+    .hc-fragment .tag-form { background: #e8dff3 !important; color: #6b4d9e !important; }
+    .hc-fragment .tag-gender { background: #ddf0df !important; color: #3a7d42 !important; }
+    .hc-fragment .tag-number { background: #f3edda !important; color: #8a6d1b !important; }
+    .hc-fragment .tag-root { background: #f3dede !important; color: #9e3a3a !important; }
+    .hc-fragment .tag-case { background: #ddf0ef !important; color: #3a7d7d !important; }
+
+    .hc-fragment .argument-box { background: #f0f7f1 !important; border: 1px solid #a8d4ad !important; break-inside: avoid; }
+    .hc-fragment .argument-box .argument-title,
+    .hc-fragment .argument-title { color: #3a7d42 !important; }
+    .hc-fragment .argument-box .argument-title::before,
+    .hc-fragment .argument-title::before { background: #3a7d42 !important; }
+    .hc-fragment .arg-point { color: #333 !important; }
+    .hc-fragment .arg-point strong { color: #1a1a1a !important; }
+    .hc-fragment .arg-point::before { background: #3a7d42 !important; }
+    .hc-fragment .arg-conclusion { color: #3a7d42 !important; border-top-color: #a8d4ad !important; }
+
+    .hc-fragment .counter-box { background: #faf0f0 !important; border: 1px solid #dca8a8 !important; break-inside: avoid; }
+    .hc-fragment .counter-box .counter-title,
+    .hc-fragment .counter-title { color: #9e3a3a !important; }
+    .hc-fragment .counter-box .counter-title::before,
+    .hc-fragment .counter-title::before { background: #9e3a3a !important; }
+    .hc-fragment .counter-claim { color: #9e3a3a !important; }
+    .hc-fragment .counter-rebuttal { color: #333 !important; border-left-color: #dca8a8 !important; }
+
+    .hc-fragment .logic-box { background: #f0f7f7 !important; border: 1px solid #a8d4d4 !important; break-inside: avoid; }
+    .hc-fragment .logic-box .logic-title,
+    .hc-fragment .logic-title { color: #3a7d7d !important; }
+    .hc-fragment .premise { color: #333 !important; }
+    .hc-fragment .prem-label { color: #3a7d7d !important; }
+    .hc-fragment .conclusion { color: #3a7d7d !important; border-top-color: #a8d4d4 !important; }
+
+    .hc-fragment .variant-box { background: #f4f0f8 !important; border: 1px solid #c4b3dc !important; break-inside: avoid; }
+    .hc-fragment .vr-label { color: #6b4d9e !important; }
+    .hc-fragment .vr-orig { color: #8a6d1b !important; }
+    .hc-fragment .vr-text { color: #333 !important; }
+
+    .hc-fragment .callout { color: #333 !important; }
+    .hc-fragment .callout-title { color: #1a1a1a !important; }
+    .hc-fragment .callout-gold { background: #faf6e8 !important; border-left: 3px solid #c9a84c !important; }
+    .hc-fragment .callout-blue { background: #f0f4f8 !important; border-left: 3px solid #5b8dbf !important; }
+    .hc-fragment .callout-red { background: #faf0f0 !important; border-left: 3px solid #c45c5c !important; }
+
+    .hc-fragment .interlinear { background: #f5f5f5 !important; border: 1px solid #ddd !important; break-inside: avoid; }
+    .hc-fragment .il-title { color: #8a6d1b !important; }
+    .hc-fragment .il-orig { color: #8a6d1b !important; }
+    .hc-fragment .il-trans { color: #666 !important; }
+    .hc-fragment .il-gloss { color: #1a1a1a !important; }
+    .hc-fragment .il-note { color: #444 !important; border-top-color: #ddd !important; }
+    .hc-fragment .il-note strong { color: #1a1a1a !important; }
+
+    .hc-fragment table { break-inside: avoid; }
+    .hc-fragment th { background: #f0ead0 !important; color: #8a6d1b !important; border-bottom: 2px solid #c9a84c !important; }
+    .hc-fragment td { color: #333 !important; border-bottom: 1px solid #ddd !important; }
+    .hc-fragment tr:hover td { background: transparent !important; }
+
+    .hc-fragment .cl-a { background: #ddf0df !important; color: #2d6e35 !important; }
+    .hc-fragment .cl-b { background: #dce8f3 !important; color: #3a6d9e !important; }
+    .hc-fragment .cl-c { background: #e8dff3 !important; color: #6b4d9e !important; }
+
+    .hc-fragment .hierarchy { break-inside: avoid; }
+    .hc-fragment .h-t1 { background: #faf6e8 !important; border-color: #c9a84c !important; }
+    .hc-fragment .h-t2 { background: #f5f5f5 !important; border-color: #ccc !important; }
+    .hc-fragment .h-t3 { background: #fafafa !important; border-color: #ddd !important; }
+    .hc-fragment .h-tier-label { color: #888 !important; }
+    .hc-fragment .h-tier-name { color: #8a6d1b !important; }
+    .hc-fragment .h-tier-desc { color: #555 !important; }
+    .hc-fragment .h-arrow { color: #999 !important; }
+
+    .hc-fragment .timeline { border-left-color: #c9a84c !important; }
+    .hc-fragment .timeline-item::before { background: #c9a84c !important; border-color: #fff !important; }
+    .hc-fragment .tl-label { color: #8a6d1b !important; }
+    .hc-fragment .tl-title { color: #1a1a1a !important; }
+    .hc-fragment .tl-ref { color: #888 !important; }
+
+    .hc-fragment .geo-realm { border-color: #ccc !important; }
+    .hc-fragment .geo-throne { background: #faf6e8 !important; border-color: #c9a84c !important; }
+    .hc-fragment .geo-earth { background: #f5f5f5 !important; }
+    .hc-fragment .geo-under { background: #f0f4f8 !important; }
+    .hc-fragment .geo-prison { background: #faf0f0 !important; }
+    .hc-fragment .geo-final { background: #f5e8e8 !important; border-color: #dca8a8 !important; }
+    .hc-fragment .geo-realm .gr-name { color: #1a1a1a !important; }
+    .hc-fragment .geo-realm .gr-desc { color: #555 !important; }
+
+    .hc-fragment .term-card { background: #f5f5f5 !important; border-color: #ddd !important; }
+    .hc-fragment .term-card .tc-heb { color: #8a6d1b !important; }
+    .hc-fragment .term-card .tc-translit { color: #666 !important; }
+    .hc-fragment .term-card .tc-meaning { color: #1a1a1a !important; }
+    .hc-fragment .term-card .tc-ref { color: #888 !important; }
+
+    .hc-fragment #truth-spine { background: #faf6e8 !important; border-left: 3px solid #c9a84c !important; }
+    .hc-fragment #truth-spine p { color: #333 !important; }
+
+    .hc-fragment .grammar-box,
+    .hc-fragment .argument-box,
+    .hc-fragment .counter-box,
+    .hc-fragment .logic-box,
+    .hc-fragment .variant-box,
+    .hc-fragment .callout,
+    .hc-fragment .scripture,
+    .hc-fragment .interlinear { margin: 1.2rem 0 !important; }
+
+    .hc-fragment .grammar-box,
+    .hc-fragment .argument-box,
+    .hc-fragment .counter-box,
+    .hc-fragment .logic-box,
+    .hc-fragment .variant-box,
+    .hc-fragment .callout,
+    .hc-fragment .scripture,
+    .hc-fragment .interlinear,
+    .hc-fragment .hierarchy,
+    .hc-fragment table,
+    .hc-fragment .parse-item,
+    .hc-fragment .counter-item,
+    .hc-fragment .timeline,
+    .hc-fragment .geo-stack,
+    .hc-fragment .term-grid,
+    .hc-fragment .chapter-header,
+    .hc-fragment .il-row {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+    .hc-fragment .scripture + p { break-before: avoid !important; page-break-before: avoid !important; }
+    .hc-fragment .chapter h4 { break-after: avoid !important; page-break-after: avoid !important; }
+    .hc-fragment .part-divider { break-inside: avoid !important; page-break-inside: avoid !important; }
+    .hc-fragment .arg-conclusion { break-before: avoid !important; page-break-before: avoid !important; }
+    .hc-fragment p { orphans: 3 !important; widows: 3 !important; }
+
+    .hc-fragment footer { page-break-before: always; border-top-color: #ccc !important; color: #888 !important; }
+}
+
+/* ============================================================

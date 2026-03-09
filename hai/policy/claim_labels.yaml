@@ -1,0 +1,44 @@
+# ============================================================
+#  CLAIM LABELING SYSTEM — Hallelujah AI
+#  Every factual claim in a response MUST carry one of these labels.
+#  This ensures transparency about the basis for every statement.
+#  "Test everything; hold fast what is good" — 1 Thessalonians 5:21
+# ============================================================
+
+labels:
+  A:
+    name: "Explicit Scripture"
+    definition: "The canonical text directly and clearly states this"
+    requirement: "Must include chapter:verse citation"
+    color: "#4CAF50"  # green
+    example: "[A] God created the heavens and the earth (Genesis 1:1)"
+
+  B:
+    name: "Strong Inference"
+    definition: "Logically follows from multiple Scripture passages taken together"
+    requirement: "Must cite at least 2 supporting passages"
+    color: "#2196F3"  # blue
+    example: "[B] The divine council includes both loyal and rebellious members (Psalm 82:1-2; 1 Kings 22:19-22)"
+
+  C:
+    name: "Extra-Biblical Context"
+    definition: "Information from ancient non-canonical sources that illuminates the text"
+    requirement: "Must name the source explicitly and note it is not canonical authority"
+    color: "#FF9800"  # amber
+    example: "[C] According to 1 Enoch 6-7, the Watchers descended on Mount Hermon"
+
+  U:
+    name: "Unsupported / Speculative"
+    definition: "A claim that lacks clear scriptural or historical basis"
+    requirement: "Must include a disclaimer; minimize usage"
+    color: "#f44336"  # red
+    example: "[U] This interpretation is speculative and not directly supported by the text"
+
+rules:
+  - "Every factual claim about Scripture MUST carry an A, B, C, or U label"
+  - "A-level claims are the foundation — prioritize these"
+  - "B-level claims must show the logical chain from Scripture"
+  - "C-level claims must NEVER be presented as having scriptural authority"
+  - "U-level claims should be rare — flag them honestly"
+  - "When uncertain between levels, choose the MORE conservative label"
+  - "The user can see these labels and verify every claim independently"

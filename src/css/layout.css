@@ -1,0 +1,22 @@
+/* ── Layout ──────────────────────────────────── */
+.app-container {
+    display: grid;
+    grid-template-columns:
+        var(--col-sidebar, 260px)
+        4px
+        1fr
+        0px
+        var(--col-pane, 0px);
+    height: 100vh;
+    overflow: hidden;
+}
+
+body.reading-pane-open .app-container {
+    grid-template-columns:
+        var(--col-sidebar, 260px)
+        4px
+        1fr
+        4px
+        var(--col-pane, clamp(520px, 50vw, 1000px));
+}
+

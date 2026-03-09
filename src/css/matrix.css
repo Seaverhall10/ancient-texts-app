@@ -1,0 +1,248 @@
+   BIBLE TRUTH MATRIX
+   ═══════════════════════════════════════════════ */
+
+.matrix-overlay .matrix-modal {
+    max-width: 1100px;
+}
+
+.matrix-doctrine-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+.matrix-tab {
+    background: var(--surface);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.matrix-tab:hover {
+    border-color: var(--gold);
+    color: var(--text-primary);
+}
+
+.matrix-tab.active {
+    background: var(--gold);
+    color: #000;
+    border-color: var(--gold);
+    font-weight: 600;
+}
+
+.matrix-bible-teaches {
+    background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(201,168,76,0.04));
+    border: 1px solid rgba(201,168,76,0.3);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.matrix-bible-header {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--gold);
+    margin-bottom: 8px;
+}
+
+.matrix-bible-icon {
+    margin-right: 6px;
+}
+
+.matrix-bible-teaches p {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0 0 10px 0;
+}
+
+.matrix-bible-refs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.matrix-ref {
+    background: rgba(201,168,76,0.15);
+    color: var(--gold);
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-family: var(--font-mono);
+}
+
+.matrix-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    background: var(--surface);
+    border-radius: 6px;
+}
+
+.matrix-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+}
+
+.matrix-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.matrix-cat-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.matrix-cat-btn {
+    background: var(--surface);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 0.72rem;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.matrix-cat-btn:hover { border-color: var(--gold); color: var(--text-primary); }
+.matrix-cat-btn.active { background: var(--gold); color: #000; border-color: var(--gold); font-weight: 600; }
+
+.matrix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.matrix-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid;
+    border-radius: 6px;
+    padding: 12px;
+    transition: all var(--transition);
+}
+
+.matrix-card:hover {
+    border-color: var(--border-hover, var(--border));
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+.matrix-card-header {
+    margin-bottom: 8px;
+}
+
+.matrix-card-name {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+}
+
+.matrix-card-meta {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+}
+
+.matrix-alignment {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+/* Heatmap table */
+.matrix-heatmap-section {
+    margin-top: 8px;
+}
+
+.matrix-heatmap-section h3 {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+}
+
+.matrix-heatmap-scroll {
+    overflow-x: auto;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+}
+
+.matrix-heatmap {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.72rem;
+}
+
+.matrix-heatmap th {
+    padding: 6px 8px;
+    background: var(--surface);
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.matrix-heatmap td {
+    padding: 4px 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    text-align: center;
+}
+
+.matrix-hm-name {
+    text-align: left !important;
+    white-space: nowrap;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.matrix-hm-cell {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    opacity: 0.85;
+}
+
+.matrix-card-explore {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    margin-top: 6px;
+    opacity: 0.5;
+    transition: opacity var(--transition);
+}
+.matrix-card:hover .matrix-card-explore {
+    opacity: 1;
+    color: var(--gold);
+}
+
+.matrix-heatmap tbody tr:hover {
+    background: rgba(201, 168, 76, 0.06);
+}
+
+/* ═══════════════════════════════════════════════

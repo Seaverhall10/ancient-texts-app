@@ -1,0 +1,34 @@
+/* ── Print Styles ────────────────────────────── */
+@media print {
+    .sidebar, .sidebar-toggle, .sidebar-backdrop,
+    .xref-drawer, .glossary-overlay, .bookmark-btn,
+    .search-container, .reading-pane, .reading-pane-toggle,
+    .word-popup { display: none !important; }
+
+    .main-content {
+        margin-left: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    body {
+        background: white;
+        color: #1a1a1a;
+    }
+
+    .chapter-card, .historical-insert {
+        background: white;
+        border: 1px solid #ddd;
+        break-inside: avoid;
+    }
+
+    .scripture-block, .ane-callout, .second-temple-box, .council-note {
+        background: #f9f9f6;
+    }
+
+    h1, h2, h3, h4, .gold {
+        color: #8b7530 !important;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════
