@@ -1,0 +1,139 @@
+{
+  "suite": "navigation",
+  "description": "Text selection, era navigation, hash routing, breadcrumbs",
+  "tests": [
+    {
+      "id": "2.1",
+      "name": "Select Genesis",
+      "target": "desktop",
+      "steps": [
+        "From library view, find and click the Genesis text card",
+        "Wait for text view to load",
+        "Check sidebar shows Genesis eras (should be 16)",
+        "Verify main content header shows Genesis"
+      ],
+      "pass_criteria": "Genesis text view loads with 16 eras in sidebar, header visible"
+    },
+    {
+      "id": "2.2",
+      "name": "Select NT book (Romans)",
+      "target": "desktop",
+      "steps": [
+        "Return to library, find and click Romans card",
+        "Wait for text view to load",
+        "Check sidebar shows Romans eras",
+        "Verify content header shows Romans"
+      ],
+      "pass_criteria": "Romans loads with eras visible in sidebar"
+    },
+    {
+      "id": "2.3",
+      "name": "Select Apocryphal (1 Enoch)",
+      "target": "desktop",
+      "steps": [
+        "Return to library, find and click 1 Enoch card",
+        "Wait for text view to load",
+        "Check sidebar shows 1 Enoch eras",
+        "Verify content renders (eras only, no flow expected)"
+      ],
+      "pass_criteria": "1 Enoch loads with eras, no JS errors"
+    },
+    {
+      "id": "2.4",
+      "name": "Back to library",
+      "target": "desktop",
+      "steps": [
+        "From any text view, find and click 'Back to Library' or library breadcrumb",
+        "Verify library grid re-renders with all text cards"
+      ],
+      "pass_criteria": "Library grid visible again with text cards"
+    },
+    {
+      "id": "2.5",
+      "name": "Era navigation",
+      "target": "desktop",
+      "steps": [
+        "Navigate to Genesis, click an era name in sidebar",
+        "Verify main content scrolls to that era's chapters",
+        "Check era header is visible"
+      ],
+      "pass_criteria": "Main content scrolls to selected era, header visible"
+    },
+    {
+      "id": "2.6",
+      "name": "Chapter card interaction",
+      "target": "desktop",
+      "steps": [
+        "Click on a chapter card within an era",
+        "Verify chapter expands or shows content",
+        "Check for flow translation text or study content"
+      ],
+      "pass_criteria": "Chapter content displays with text/study material"
+    },
+    {
+      "id": "2.7",
+      "name": "Hash routing - genesis",
+      "target": "desktop",
+      "steps": [
+        "Navigate to URL with #genesis hash",
+        "Verify Genesis loads automatically",
+        "Check sidebar shows Genesis eras"
+      ],
+      "pass_criteria": "Genesis loads from URL hash without clicking"
+    },
+    {
+      "id": "2.8",
+      "name": "Hash routing - romans",
+      "target": "desktop",
+      "steps": [
+        "Navigate to URL with #romans hash",
+        "Verify Romans loads automatically"
+      ],
+      "pass_criteria": "Romans loads from URL hash"
+    },
+    {
+      "id": "2.9",
+      "name": "Breadcrumb navigation",
+      "target": "desktop",
+      "steps": [
+        "From a text view, look for breadcrumb links",
+        "Click the 'Library' breadcrumb",
+        "Verify returns to library view"
+      ],
+      "pass_criteria": "Breadcrumb click returns to library"
+    },
+    {
+      "id": "2.10",
+      "name": "Category filter in library",
+      "target": "desktop",
+      "steps": [
+        "In library view, find category filter tabs/buttons",
+        "Click a specific category (e.g., 'Old Testament', 'New Testament')",
+        "Verify library filters to show only that category's texts"
+      ],
+      "pass_criteria": "Library filters correctly, showing only selected category"
+    },
+    {
+      "id": "2.11",
+      "name": "Mobile bottom nav",
+      "target": "mobile",
+      "steps": [
+        "Check bottom navigation bar has buttons",
+        "Click each bottom nav button",
+        "Verify each navigates to the correct view"
+      ],
+      "pass_criteria": "All bottom nav buttons navigate to correct views"
+    },
+    {
+      "id": "2.12",
+      "name": "Mobile text selection",
+      "target": "mobile",
+      "steps": [
+        "From mobile library, tap a text card",
+        "Verify text view loads with eras",
+        "Check content renders properly in mobile layout"
+      ],
+      "pass_criteria": "Text view loads on mobile with proper layout"
+    }
+  ]
+}

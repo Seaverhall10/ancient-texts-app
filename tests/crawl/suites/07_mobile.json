@@ -1,0 +1,175 @@
+{
+  "suite": "mobile",
+  "description": "Mobile PWA — loading, bottom nav, tools, responsive layout, service worker",
+  "tests": [
+    {
+      "id": "7.1",
+      "name": "Loading overlay behavior",
+      "target": "mobile",
+      "steps": [
+        "Navigate to mobile app URL",
+        "Observe loading overlay appears",
+        "Wait for it to dismiss (should be within 15s)",
+        "Verify main content visible after dismiss"
+      ],
+      "pass_criteria": "Loading overlay shows then dismisses, content visible"
+    },
+    {
+      "id": "7.2",
+      "name": "Bottom nav renders",
+      "target": "mobile",
+      "steps": [
+        "After mobile loads, check for bottom navigation bar",
+        "Verify 5 nav buttons are visible",
+        "Check buttons have icons and labels"
+      ],
+      "pass_criteria": "Bottom nav bar with 5 labeled buttons"
+    },
+    {
+      "id": "7.3",
+      "name": "Tools popup",
+      "target": "mobile",
+      "steps": [
+        "Click the tools button in bottom nav",
+        "Verify tools popup/menu appears",
+        "Check that tool options are listed (glossary, map, etc.)"
+      ],
+      "pass_criteria": "Tools popup opens with tool options"
+    },
+    {
+      "id": "7.4",
+      "name": "Glossary on mobile",
+      "target": "mobile",
+      "steps": [
+        "Open glossary from tools popup",
+        "Verify glossary overlay renders full-screen on mobile",
+        "Check terms are visible and scrollable"
+      ],
+      "pass_criteria": "Glossary overlay works in mobile layout"
+    },
+    {
+      "id": "7.5",
+      "name": "Map on mobile",
+      "target": "mobile",
+      "steps": [
+        "Open map from tools popup",
+        "Verify map renders in mobile viewport",
+        "Check Leaflet map is interactive"
+      ],
+      "pass_criteria": "Map renders and is usable on mobile"
+    },
+    {
+      "id": "7.6",
+      "name": "Matrix on mobile",
+      "target": "mobile",
+      "steps": [
+        "Open matrix from tools popup",
+        "Verify grid renders responsively",
+        "Check religion cards are tappable"
+      ],
+      "pass_criteria": "Matrix grid renders in mobile layout"
+    },
+    {
+      "id": "7.7",
+      "name": "Timeline on mobile",
+      "target": "mobile",
+      "steps": [
+        "Open timeline from tools popup",
+        "Verify timeline events render",
+        "Check events are scrollable"
+      ],
+      "pass_criteria": "Timeline renders and scrolls on mobile"
+    },
+    {
+      "id": "7.8",
+      "name": "Hebrew on mobile",
+      "target": "mobile",
+      "steps": [
+        "Open Hebrew from tools popup",
+        "Verify letter grid renders responsively",
+        "Check letter cards are tappable"
+      ],
+      "pass_criteria": "Hebrew letter grid works on mobile"
+    },
+    {
+      "id": "7.9",
+      "name": "Text data loading",
+      "target": "mobile",
+      "steps": [
+        "Select Genesis from library",
+        "Check network requests for data JSON file",
+        "Verify content renders after data loads",
+        "Check no 404 errors"
+      ],
+      "pass_criteria": "Genesis data JSON fetched successfully, content renders"
+    },
+    {
+      "id": "7.10",
+      "name": "Interlinear on mobile",
+      "target": "mobile",
+      "steps": [
+        "With a text loaded, open reading pane",
+        "Verify interlinear words render",
+        "Click a word to check popup works"
+      ],
+      "pass_criteria": "Interlinear renders on mobile, word popup functional"
+    },
+    {
+      "id": "7.11",
+      "name": "Search on mobile",
+      "target": "mobile",
+      "steps": [
+        "Find and use search functionality",
+        "Type a query",
+        "Verify results appear",
+        "Click a result to navigate"
+      ],
+      "pass_criteria": "Search works on mobile, results navigable"
+    },
+    {
+      "id": "7.12",
+      "name": "Sidebar toggle",
+      "target": "mobile",
+      "steps": [
+        "Find and click the hamburger/sidebar toggle button",
+        "Verify sidebar slides in",
+        "Click toggle again or outside",
+        "Verify sidebar slides out"
+      ],
+      "pass_criteria": "Sidebar toggles in/out correctly"
+    },
+    {
+      "id": "7.13",
+      "name": "Service worker registration",
+      "target": "mobile",
+      "steps": [
+        "Use JS eval to check navigator.serviceWorker.controller",
+        "Verify a service worker is registered",
+        "Check SW scope covers the app"
+      ],
+      "pass_criteria": "Service worker registered and active"
+    },
+    {
+      "id": "7.14",
+      "name": "Offline handling",
+      "target": "mobile",
+      "steps": [
+        "Check if app has offline indicator or graceful degradation",
+        "Verify app doesn't crash if a data request fails",
+        "Check for error messages or fallback content"
+      ],
+      "pass_criteria": "App handles network issues gracefully"
+    },
+    {
+      "id": "7.15",
+      "name": "Viewport and meta tags",
+      "target": "mobile",
+      "steps": [
+        "Check viewport meta tag exists with proper mobile settings",
+        "Verify theme-color meta tag",
+        "Check manifest.webmanifest link exists"
+      ],
+      "pass_criteria": "Proper mobile meta tags present"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "suite": "content",
+  "description": "Data integrity — eras, flow, cross-refs, glossary, matrix, timeline, bookmarks",
+  "tests": [
+    {
+      "id": "6.1",
+      "name": "Genesis has 16 eras",
+      "target": "desktop",
+      "steps": [
+        "Navigate to Genesis",
+        "Count era entries in sidebar",
+        "Verify exactly 16 eras"
+      ],
+      "pass_criteria": "Genesis sidebar shows 16 eras"
+    },
+    {
+      "id": "6.2",
+      "name": "Genesis chapters render",
+      "target": "desktop",
+      "steps": [
+        "Open Genesis Era 1",
+        "Verify chapter cards render with content",
+        "Check at least one chapter has text body"
+      ],
+      "pass_criteria": "Chapter cards render with study content"
+    },
+    {
+      "id": "6.3",
+      "name": "Flow translations visible",
+      "target": "desktop",
+      "steps": [
+        "In a Genesis chapter, look for flow translation text",
+        "Verify verse-by-verse text is displayed",
+        "Check formatting (verse numbers, paragraph breaks)"
+      ],
+      "pass_criteria": "Flow translation text visible and formatted"
+    },
+    {
+      "id": "6.4",
+      "name": "Cross-references work",
+      "target": "desktop",
+      "steps": [
+        "Find a cross-reference indicator in a chapter",
+        "Click it to open the xref drawer",
+        "Verify drawer shows referenced passages"
+      ],
+      "pass_criteria": "Xref drawer opens with referenced passages listed"
+    },
+    {
+      "id": "6.5",
+      "name": "Xref navigation",
+      "target": "desktop",
+      "steps": [
+        "With xref drawer open, click a cross-reference link",
+        "Verify navigation to the target passage",
+        "Check that target text/chapter loads"
+      ],
+      "pass_criteria": "Clicking xref navigates to target passage"
+    },
+    {
+      "id": "6.6",
+      "name": "NT text loads (Matthew)",
+      "target": "desktop",
+      "steps": [
+        "Navigate to Matthew",
+        "Verify eras render in sidebar",
+        "Check chapter content renders with NT material"
+      ],
+      "pass_criteria": "Matthew loads with eras and chapter content"
+    },
+    {
+      "id": "6.7",
+      "name": "Apocryphal text loads (1 Enoch)",
+      "target": "desktop",
+      "steps": [
+        "Navigate to 1 Enoch",
+        "Verify eras render (no flow translations expected)",
+        "Check content renders without errors"
+      ],
+      "pass_criteria": "1 Enoch loads, eras visible, no JS errors"
+    },
+    {
+      "id": "6.8",
+      "name": "Glossary has 500+ terms",
+      "target": "desktop",
+      "steps": [
+        "Open glossary overlay",
+        "Count visible glossary entries or use JS to count",
+        "Verify 500+ terms present"
+      ],
+      "pass_criteria": "Glossary contains 500+ terms"
+    },
+    {
+      "id": "6.9",
+      "name": "Matrix has 50+ religions",
+      "target": "desktop",
+      "steps": [
+        "Open matrix overlay",
+        "Count religion/worldview entries",
+        "Verify 50+ entries in the grid"
+      ],
+      "pass_criteria": "Bible Truth Matrix shows 50+ religion entries"
+    },
+    {
+      "id": "6.10",
+      "name": "Timeline has events",
+      "target": "desktop",
+      "steps": [
+        "Open timeline overlay",
+        "Verify timeline events render chronologically",
+        "Check at least 20 events visible"
+      ],
+      "pass_criteria": "Timeline shows chronological events"
+    },
+    {
+      "id": "6.11",
+      "name": "Hebrew has 22 letters",
+      "target": "desktop",
+      "steps": [
+        "Open Hebrew overlay",
+        "Count Hebrew letter cards",
+        "Verify 22 letters with pictographic meanings"
+      ],
+      "pass_criteria": "22 Hebrew letter cards visible"
+    },
+    {
+      "id": "6.12",
+      "name": "Bookmarks persist",
+      "target": "desktop",
+      "steps": [
+        "Navigate to a chapter and add a bookmark",
+        "Reload the page",
+        "Verify the bookmark is still present"
+      ],
+      "pass_criteria": "Bookmark survives page reload (localStorage)"
+    },
+    {
+      "id": "6.13",
+      "name": "Reading progress tracking",
+      "target": "desktop",
+      "steps": [
+        "Mark a chapter as read",
+        "Open progress overlay",
+        "Verify progress counter reflects the marked chapter"
+      ],
+      "pass_criteria": "Progress counter updates after marking chapter read"
+    },
+    {
+      "id": "6.14",
+      "name": "Study trails render",
+      "target": "desktop",
+      "steps": [
+        "Find and open a study trail",
+        "Verify trail cards render with scripture references",
+        "Check trail has connected passages"
+      ],
+      "pass_criteria": "Study trail cards visible with scripture refs"
+    },
+    {
+      "id": "6.15",
+      "name": "Prophecy matrix",
+      "target": "desktop",
+      "steps": [
+        "Navigate to prophecy matrix view",
+        "Verify grid shows OT prophecy / NT fulfillment links",
+        "Check at least 10 prophecy entries"
+      ],
+      "pass_criteria": "Prophecy matrix grid renders with entries"
+    },
+    {
+      "id": "6.16",
+      "name": "Core beliefs",
+      "target": "desktop",
+      "steps": [
+        "Navigate to core beliefs (e.g., divine council topic)",
+        "Verify content renders with scripture references",
+        "Check theological content is present"
+      ],
+      "pass_criteria": "Core beliefs topic renders with scripture"
+    },
+    {
+      "id": "6.17",
+      "name": "Resources populate",
+      "target": "desktop",
+      "steps": [
+        "Open resources overlay",
+        "Verify resource cards render with titles and links",
+        "Check at least 5 resources visible"
+      ],
+      "pass_criteria": "Resource cards with links visible"
+    },
+    {
+      "id": "6.18",
+      "name": "Analytics tracking",
+      "target": "desktop",
+      "steps": [
+        "Navigate through a few texts/chapters",
+        "Open progress overlay",
+        "Check analytics data is being logged",
+        "Use JS eval to check localStorage for analytics events"
+      ],
+      "pass_criteria": "Usage events are being tracked"
+    }
+  ]
+}

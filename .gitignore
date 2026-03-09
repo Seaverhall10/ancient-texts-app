@@ -33,6 +33,9 @@ agents/reports/
 agents/tasks/completed/
 agents/tasks/in_progress/
 
+# ── Agent Crawl Results (generated) ─────────────────
+tests/crawl/results/
+
 # ── Claude Code ───────────────────────────────────────
 .claude/settings.local.json
 .claude/plans/

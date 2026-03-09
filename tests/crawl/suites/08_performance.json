@@ -1,0 +1,97 @@
+{
+  "suite": "performance",
+  "description": "Console errors, load times, memory, rapid navigation stress test",
+  "tests": [
+    {
+      "id": "8.1",
+      "name": "No console errors on load",
+      "target": "desktop",
+      "steps": [
+        "Fresh page load",
+        "Wait for full initialization",
+        "Read all console messages with error level",
+        "Count console.error entries"
+      ],
+      "pass_criteria": "Zero console.error entries on fresh load"
+    },
+    {
+      "id": "8.2",
+      "name": "No unexpected warnings",
+      "target": "desktop",
+      "steps": [
+        "After full load, read console warnings",
+        "Filter out expected warnings (e.g., deprecation notices from libs)",
+        "Count unexpected console.warn entries"
+      ],
+      "pass_criteria": "Zero unexpected console warnings"
+    },
+    {
+      "id": "8.3",
+      "name": "Page load time",
+      "target": "desktop",
+      "steps": [
+        "Use JS eval to measure performance.timing or PerformanceNavigationTiming",
+        "Calculate DOMContentLoaded time",
+        "Record the value"
+      ],
+      "pass_criteria": "DOMContentLoaded under 3 seconds on desktop"
+    },
+    {
+      "id": "8.4",
+      "name": "Memory baseline",
+      "target": "desktop",
+      "steps": [
+        "After full load, use JS eval to check performance.memory (if available)",
+        "Record usedJSHeapSize",
+        "Convert to MB"
+      ],
+      "pass_criteria": "JS heap under 200MB"
+    },
+    {
+      "id": "8.5",
+      "name": "Search index build time",
+      "target": "desktop",
+      "steps": [
+        "Use JS eval to check if search index was timed during init",
+        "Or measure by running buildSearchIndex() and timing it",
+        "Record time in milliseconds"
+      ],
+      "pass_criteria": "Search index builds in under 2 seconds"
+    },
+    {
+      "id": "8.6",
+      "name": "Large text render",
+      "target": "desktop",
+      "steps": [
+        "Navigate to Genesis (largest text with 16 eras)",
+        "Measure time from click to content visible",
+        "Check for rendering jank or freezing",
+        "Verify all eras render"
+      ],
+      "pass_criteria": "Genesis renders completely without visible lag"
+    },
+    {
+      "id": "8.7",
+      "name": "Rapid navigation stress",
+      "target": "desktop",
+      "steps": [
+        "Quickly navigate: Genesis -> Exodus -> Romans -> 1 Enoch -> Matthew",
+        "Click each within 1 second of the previous",
+        "Check final text (Matthew) renders correctly",
+        "Check console for errors"
+      ],
+      "pass_criteria": "No crashes, final text renders, no console errors"
+    },
+    {
+      "id": "8.8",
+      "name": "No failed network requests (mobile)",
+      "target": "mobile",
+      "steps": [
+        "After mobile loads and data fetching completes",
+        "Check network requests for any 404 or 500 status codes",
+        "List any failed requests"
+      ],
+      "pass_criteria": "Zero failed network requests"
+    }
+  ]
+}

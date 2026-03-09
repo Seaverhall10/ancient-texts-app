@@ -1,0 +1,173 @@
+{
+  "suite": "interlinear",
+  "description": "Reading pane, word popups, navigation, font scaling, row toggles",
+  "tests": [
+    {
+      "id": "4.1",
+      "name": "Reading pane opens",
+      "target": "desktop",
+      "steps": [
+        "Navigate to Genesis first",
+        "Find and click the reading pane toggle button",
+        "Verify reading pane becomes visible"
+      ],
+      "pass_criteria": "Reading pane element visible with interlinear content area"
+    },
+    {
+      "id": "4.2",
+      "name": "Hebrew interlinear renders",
+      "target": "desktop",
+      "steps": [
+        "With reading pane open on Genesis",
+        "Check that Hebrew words render in the pane",
+        "Verify word cards have Hebrew text, transliteration, glosses"
+      ],
+      "pass_criteria": "Hebrew word cards visible with original text + glosses"
+    },
+    {
+      "id": "4.3",
+      "name": "Word click popup",
+      "target": "desktop",
+      "steps": [
+        "Click on a Hebrew word card in the interlinear",
+        "Verify a popup/detail panel appears",
+        "Check popup shows morphology, Strong's number, definition"
+      ],
+      "pass_criteria": "Word popup appears with morphology + Strong's data"
+    },
+    {
+      "id": "4.4",
+      "name": "Word popup closes",
+      "target": "desktop",
+      "steps": [
+        "With word popup open, click elsewhere on the page",
+        "Verify the popup dismisses"
+      ],
+      "pass_criteria": "Word popup dismissed on outside click"
+    },
+    {
+      "id": "4.5",
+      "name": "Chapter nav - next",
+      "target": "desktop",
+      "steps": [
+        "Find and click the next chapter button in reading pane",
+        "Verify the chapter number increments",
+        "Check new chapter's words render"
+      ],
+      "pass_criteria": "Next chapter loads with new interlinear words"
+    },
+    {
+      "id": "4.6",
+      "name": "Chapter nav - previous",
+      "target": "desktop",
+      "steps": [
+        "Find and click the previous chapter button",
+        "Verify the chapter number decrements",
+        "Check previous chapter's words render"
+      ],
+      "pass_criteria": "Previous chapter loads correctly"
+    },
+    {
+      "id": "4.7",
+      "name": "Book selector dropdown",
+      "target": "desktop",
+      "steps": [
+        "Find the book selector dropdown in reading pane",
+        "Change selection to a different book (e.g., Exodus)",
+        "Verify new book's interlinear loads",
+        "Check language badge updates (Hebrew for OT)"
+      ],
+      "pass_criteria": "Book changes, new interlinear loads, language badge correct"
+    },
+    {
+      "id": "4.8",
+      "name": "NT Greek interlinear",
+      "target": "desktop",
+      "steps": [
+        "Change book selector to Romans (NT)",
+        "Verify Greek words render instead of Hebrew",
+        "Check language badge shows Greek indicator"
+      ],
+      "pass_criteria": "Greek word cards visible, language badge shows Greek"
+    },
+    {
+      "id": "4.9",
+      "name": "Font scale increase",
+      "target": "desktop",
+      "steps": [
+        "Find and click the font increase button",
+        "Verify the font scale label updates (e.g., from 1.0 to 1.1)",
+        "Check that word cards visually get larger"
+      ],
+      "pass_criteria": "Font scale increases, words visually larger"
+    },
+    {
+      "id": "4.10",
+      "name": "Font scale decrease",
+      "target": "desktop",
+      "steps": [
+        "Find and click the font decrease button",
+        "Verify the font scale label updates downward",
+        "Check that word cards visually get smaller"
+      ],
+      "pass_criteria": "Font scale decreases, words visually smaller"
+    },
+    {
+      "id": "4.11",
+      "name": "Toggle morphology row",
+      "target": "desktop",
+      "steps": [
+        "Find the morphology toggle in study controls",
+        "Uncheck/toggle morphology off",
+        "Verify morphology row disappears from word cards"
+      ],
+      "pass_criteria": "Morphology row hidden when toggled off"
+    },
+    {
+      "id": "4.12",
+      "name": "Toggle transliteration row",
+      "target": "desktop",
+      "steps": [
+        "Find the transliteration toggle",
+        "Uncheck/toggle transliteration off",
+        "Verify transliteration row disappears from word cards"
+      ],
+      "pass_criteria": "Transliteration row hidden when toggled off"
+    },
+    {
+      "id": "4.13",
+      "name": "User mode switch",
+      "target": "desktop",
+      "steps": [
+        "Find user mode selector (Reader/Student/Scholar)",
+        "Switch to 'Reader' mode",
+        "Verify interlinear simplifies (fewer rows visible)",
+        "Switch back to 'Scholar' mode",
+        "Verify all rows return"
+      ],
+      "pass_criteria": "Reader mode shows simplified view, Scholar shows all"
+    },
+    {
+      "id": "4.14",
+      "name": "Reading pane fullscreen",
+      "target": "desktop",
+      "steps": [
+        "Find and click the expand/fullscreen button for reading pane",
+        "Verify pane expands to full width",
+        "Check that interlinear content is still visible"
+      ],
+      "pass_criteria": "Pane expands, content visible, controls accessible"
+    },
+    {
+      "id": "4.15",
+      "name": "Reading pane close",
+      "target": "desktop",
+      "steps": [
+        "Find and click the close button for reading pane",
+        "Verify reading pane is hidden",
+        "Check that main content area fills the space"
+      ],
+      "pass_criteria": "Reading pane hidden, main content takes full width"
+    }
+  ]
+}

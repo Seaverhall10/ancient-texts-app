@@ -1,0 +1,93 @@
+{
+  "suite": "search",
+  "description": "Search functionality, keyboard shortcuts, result navigation",
+  "tests": [
+    {
+      "id": "5.1",
+      "name": "Search input accessible",
+      "target": "desktop",
+      "steps": [
+        "Find the search input element (#searchInput or similar)",
+        "Verify it accepts text input",
+        "Check it has placeholder text"
+      ],
+      "pass_criteria": "Search input exists and is focusable"
+    },
+    {
+      "id": "5.2",
+      "name": "Basic search - covenant",
+      "target": "desktop",
+      "steps": [
+        "Type 'covenant' into search input",
+        "Wait for results to appear",
+        "Verify results container shows matches",
+        "Count number of results (should be multiple)"
+      ],
+      "pass_criteria": "Search results appear with multiple matches for 'covenant'"
+    },
+    {
+      "id": "5.3",
+      "name": "Search result navigation",
+      "target": "desktop",
+      "steps": [
+        "With search results showing, click the first result",
+        "Verify navigation occurs (text view loads or chapter scrolls)",
+        "Check that the referenced passage is visible"
+      ],
+      "pass_criteria": "Clicking result navigates to the referenced chapter/verse"
+    },
+    {
+      "id": "5.4",
+      "name": "Clear search",
+      "target": "desktop",
+      "steps": [
+        "Clear the search input (select all + delete)",
+        "Verify search results container empties or hides"
+      ],
+      "pass_criteria": "Results clear when search input is emptied"
+    },
+    {
+      "id": "5.5",
+      "name": "No results search",
+      "target": "desktop",
+      "steps": [
+        "Type 'xyzzy999' into search input (gibberish)",
+        "Wait for search to process",
+        "Verify 'no results' message appears or empty state shown"
+      ],
+      "pass_criteria": "No results shown, no JS errors"
+    },
+    {
+      "id": "5.6",
+      "name": "Flow translation search",
+      "target": "desktop",
+      "steps": [
+        "Search for a known phrase from flow translations (e.g., 'In the beginning')",
+        "Verify flow translation matches appear in results"
+      ],
+      "pass_criteria": "Flow search returns verse-level matches"
+    },
+    {
+      "id": "5.7",
+      "name": "Special character search",
+      "target": "desktop",
+      "steps": [
+        "Search with special characters: quotes, ampersand, etc.",
+        "Check console for errors",
+        "Verify app doesn't crash"
+      ],
+      "pass_criteria": "No console errors, app remains stable"
+    },
+    {
+      "id": "5.8",
+      "name": "Keyboard shortcut Ctrl+K",
+      "target": "desktop",
+      "steps": [
+        "Press Ctrl+K (or Cmd+K)",
+        "Verify search input receives focus",
+        "Check cursor is in search field"
+      ],
+      "pass_criteria": "Ctrl+K focuses the search input"
+    }
+  ]
+}

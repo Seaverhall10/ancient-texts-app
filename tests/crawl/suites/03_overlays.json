@@ -1,0 +1,164 @@
+{
+  "suite": "overlays",
+  "description": "All overlay/modal open, interact, and close correctly",
+  "tests": [
+    {
+      "id": "3.1",
+      "name": "Glossary opens",
+      "target": "desktop",
+      "steps": [
+        "Find and click the glossary button in sidebar",
+        "Wait for glossary overlay to appear",
+        "Verify #glossaryOverlay is visible",
+        "Check that glossary terms are listed (500+ expected)"
+      ],
+      "pass_criteria": "#glossaryOverlay visible with 500+ glossary terms"
+    },
+    {
+      "id": "3.2",
+      "name": "Glossary search works",
+      "target": "desktop",
+      "steps": [
+        "With glossary open, find the search input",
+        "Type 'covenant' in glossary search",
+        "Verify results filter to show covenant-related terms"
+      ],
+      "pass_criteria": "Glossary filters to show matching terms"
+    },
+    {
+      "id": "3.3",
+      "name": "Glossary closes",
+      "target": "desktop",
+      "steps": [
+        "With glossary open, find and click close button",
+        "Verify #glossaryOverlay is hidden"
+      ],
+      "pass_criteria": "Glossary overlay dismissed, main content visible"
+    },
+    {
+      "id": "3.4",
+      "name": "Map opens",
+      "target": "desktop",
+      "steps": [
+        "Find and click the map button in sidebar",
+        "Wait for map overlay to appear",
+        "Verify #mapOverlay is visible",
+        "Check that Leaflet map renders with markers"
+      ],
+      "pass_criteria": "#mapOverlay visible with rendered map"
+    },
+    {
+      "id": "3.5",
+      "name": "Map closes",
+      "target": "desktop",
+      "steps": [
+        "With map open, click close button",
+        "Verify #mapOverlay is hidden"
+      ],
+      "pass_criteria": "Map overlay dismissed"
+    },
+    {
+      "id": "3.6",
+      "name": "Hebrew opens",
+      "target": "desktop",
+      "steps": [
+        "Find and click the Hebrew button in sidebar",
+        "Wait for Hebrew overlay to appear",
+        "Verify #hebrewOverlay is visible",
+        "Check for 22 Hebrew letter cards"
+      ],
+      "pass_criteria": "#hebrewOverlay visible with 22 letter cards"
+    },
+    {
+      "id": "3.7",
+      "name": "Hebrew closes",
+      "target": "desktop",
+      "steps": [
+        "With Hebrew open, click close button",
+        "Verify #hebrewOverlay is hidden"
+      ],
+      "pass_criteria": "Hebrew overlay dismissed"
+    },
+    {
+      "id": "3.8",
+      "name": "Resources opens",
+      "target": "desktop",
+      "steps": [
+        "Find and click the resources button in sidebar",
+        "Wait for resources overlay to appear",
+        "Verify #resourcesOverlay is visible",
+        "Check that resource cards are listed"
+      ],
+      "pass_criteria": "#resourcesOverlay visible with resource cards"
+    },
+    {
+      "id": "3.9",
+      "name": "Resources filter works",
+      "target": "desktop",
+      "steps": [
+        "With resources open, find category filter buttons",
+        "Click a specific category filter",
+        "Verify resources filter to show only that category"
+      ],
+      "pass_criteria": "Resources filter correctly by category"
+    },
+    {
+      "id": "3.10",
+      "name": "Matrix opens",
+      "target": "desktop",
+      "steps": [
+        "Find and click the matrix button in sidebar",
+        "Wait for matrix overlay to appear",
+        "Verify #matrixOverlay is visible",
+        "Check that religion/doctrine grid renders with 50+ entries"
+      ],
+      "pass_criteria": "#matrixOverlay visible with 50+ religion entries"
+    },
+    {
+      "id": "3.11",
+      "name": "Matrix religion detail",
+      "target": "desktop",
+      "steps": [
+        "With matrix open, click on a religion card",
+        "Verify #religionDetailOverlay appears",
+        "Check that detail content renders (beliefs, comparisons)"
+      ],
+      "pass_criteria": "Religion detail overlay opens with content"
+    },
+    {
+      "id": "3.12",
+      "name": "Timeline opens",
+      "target": "desktop",
+      "steps": [
+        "Find and click the timeline button in sidebar",
+        "Wait for timeline overlay to appear",
+        "Verify #timelineOverlay is visible",
+        "Check that timeline events render"
+      ],
+      "pass_criteria": "#timelineOverlay visible with chronological events"
+    },
+    {
+      "id": "3.13",
+      "name": "Progress opens",
+      "target": "desktop",
+      "steps": [
+        "Find and click the progress button in sidebar",
+        "Wait for progress overlay to appear",
+        "Verify #progressOverlay is visible",
+        "Check that progress stats render"
+      ],
+      "pass_criteria": "#progressOverlay visible with reading progress stats"
+    },
+    {
+      "id": "3.14",
+      "name": "ESC closes overlay",
+      "target": "desktop",
+      "steps": [
+        "Open the glossary overlay",
+        "Press the Escape key",
+        "Verify the overlay is dismissed"
+      ],
+      "pass_criteria": "Pressing ESC closes the active overlay"
+    }
+  ]
+}

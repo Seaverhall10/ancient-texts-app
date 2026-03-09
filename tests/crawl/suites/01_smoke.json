@@ -1,0 +1,63 @@
+{
+  "suite": "smoke",
+  "description": "Basic load and render verification",
+  "tests": [
+    {
+      "id": "1.1",
+      "name": "Desktop loads",
+      "target": "desktop",
+      "steps": [
+        "Navigate to the desktop app URL",
+        "Wait 3 seconds for full load",
+        "Take a snapshot of the page",
+        "Check console for errors"
+      ],
+      "pass_criteria": "Page title contains 'Ancient Texts', no console errors, main content area exists"
+    },
+    {
+      "id": "1.2",
+      "name": "Library grid renders",
+      "target": "desktop",
+      "steps": [
+        "Check for .library-grid or .library-main element",
+        "Count the number of text cards visible",
+        "Verify cards have titles and category badges"
+      ],
+      "pass_criteria": ".library-grid exists with 70+ text cards showing titles"
+    },
+    {
+      "id": "1.3",
+      "name": "Sidebar renders",
+      "target": "desktop",
+      "steps": [
+        "Check for #sidebarNav element",
+        "Verify sidebar has navigation items or tools section",
+        "Check sidebar buttons exist (glossary, map, etc.)"
+      ],
+      "pass_criteria": "#sidebarNav exists with tool buttons visible"
+    },
+    {
+      "id": "1.4",
+      "name": "Mobile loads",
+      "target": "mobile",
+      "steps": [
+        "Navigate to the mobile app URL",
+        "Wait up to 15 seconds for loading overlay to dismiss",
+        "Check that loading overlay is hidden",
+        "Check console for errors"
+      ],
+      "pass_criteria": "Loading overlay dismisses within 15s, no critical console errors"
+    },
+    {
+      "id": "1.5",
+      "name": "Mobile library renders",
+      "target": "mobile",
+      "steps": [
+        "After mobile loads, check for library content",
+        "Verify text cards or list items render",
+        "Check bottom navigation bar exists"
+      ],
+      "pass_criteria": "Library content visible, bottom nav bar with 5 buttons present"
+    }
+  ]
+}
