@@ -105,6 +105,17 @@ Build order: `build.py` → `build.py --release` → `build_mobile.py`
 4. LECTOR — languages  5. ARCHITECT — infrastructure
 Keys in `agents/config.py`. Runner: `python agents/run_council.py`
 
+## Agent Crawl System (`tests/crawl/`)
+Automated testing that uses MCP Preview tools to crawl the live app:
+- **8 suites, 95 tests**: smoke, navigation, overlays, interlinear, search, content, mobile, performance
+- **JSON definitions**: `tests/crawl/suites/*.json` — structured test steps and pass criteria
+- **Agent prompts**: `tests/crawl/prompts/agent_*.md` — instructions for each crawl agent
+- **Orchestrator**: `tests/crawl/run_crawl.py` — builds, lists suites, prints execution instructions
+- **Report generator**: `tests/crawl/report.py` — reads JSON results → Markdown + HTML reports
+- **Results**: `tests/crawl/results/` (gitignored) — timestamped JSON output from each crawl run
+- **Key insight**: Task agents can't access MCP Preview tools — crawl must be run from the main conversation context
+- **Run after every build change** — catches the kind of silent bugs that break mobile
+
 ## Lessons Learned
 1. NEVER use robocopy /MIR in Git Bash — use PowerShell
 2. NEVER create flow partials without combining after
@@ -118,6 +129,10 @@ Keys in `agents/config.py`. Runner: `python agents/run_council.py`
 10. **Overlay z-index on mobile**: Sidebar is z-index 100, overlay was 40 → tools opened behind sidebar. Fixed to 110.
 11. **const → var on mobile**: `const` interlinear vars can't be reassigned by `eval()` in mobile data loader
 12. **Mobile tools**: Bottom nav tools button opens popup sheet, which dispatches tool opens. Sidebar tools toggle still exists as fallback.
+13. **CRITICAL: build_mobile.py must replace ALL placeholders from app.js** — any `__*_DATA__` left unreplaced causes a ReferenceError that kills the entire IIFE silently (no console output, no error display, page stuck on "Loading..."). March 2026: `__RELIGIONS_DETAIL_DATA__` was missed → mobile completely broken.
+14. **Debugging mobile IIFE crashes**: Console won't show errors from IIFE-time ReferenceErrors because the error happens during script parse/execution before any error handlers attach. Fix: inject a `<script>` tag BEFORE the main script with `window.addEventListener('error', ...)` to catch the actual error line.
+15. **Service worker cache busting**: Cache name must include a build timestamp (not just a version string) to prevent stale caches serving old broken code between deploys.
+16. **After adding ANY new data placeholder to app.js**: MUST update BOTH `build.py` AND `build_mobile.py` — build.py replaces with real data, build_mobile.py replaces with `{}`.
 
 ## Protocol: Making Changes
 1. Edit source files in `src/js/app.js`, `src/css/styles.css`, `data/`, `build.py`, `build_mobile.py`
