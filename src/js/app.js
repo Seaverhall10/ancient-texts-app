@@ -298,6 +298,45 @@
                 { textId: 'matthew', label: 'Matthew 26 \u2014 "This Is My Blood"', why: 'Jesus inaugurates the New Covenant at Passover' },
                 { textId: 'hebrews', label: 'Hebrews 8\u201310 \u2014 Better Covenant', why: 'Christ as mediator of the superior covenant' }
             ]
+        },
+        {
+            id: 'adam-to-jesus',
+            name: 'Adam to Jesus: The Bloodline',
+            icon: '\uD83C\uDF33',
+            color: '#7a5c3a',
+            desc: 'Trace the genealogical line from Adam through Seth, Noah, Abraham, Judah, David, and the exile \u2014 all the way to Jesus of Nazareth.',
+            steps: [
+                { chId: 'gen-1', label: 'Genesis 1\u20132 \u2014 Adam Created', why: 'God creates Adam in His image \u2014 the line begins' },
+                { chId: 'gen-4', label: 'Genesis 4\u20135 \u2014 Seth: The Appointed Seed', why: 'After Abel\u2019s murder, God appoints Seth \u2014 the covenant line' },
+                { chId: 'gen-6b', label: 'Genesis 6\u20139 \u2014 Noah: The Line Preserved', why: 'Through the Flood, God preserves the Messianic bloodline' },
+                { chId: 'gen-11a', label: 'Genesis 11 \u2014 Shem to Abram', why: 'The genealogy narrows from Shem to Terah\u2019s son Abram' },
+                { chId: 'gen-12', label: 'Genesis 12\u201315 \u2014 Abraham: The Promise', why: 'Through your seed all nations will be blessed' },
+                { chId: 'gen-22', label: 'Genesis 22 \u2014 Isaac: The Son of Promise', why: 'God provides a ram \u2014 the only son offered and received back' },
+                { chId: 'gen-25', label: 'Genesis 25\u201328 \u2014 Jacob/Israel', why: 'The younger chosen over the elder \u2014 12 tribes spring from him' },
+                { chId: 'gen-38', label: 'Genesis 38 \u2014 Judah & Tamar', why: 'The royal line passes through Judah \u2014 by a Canaanite widow\u2019s faith' },
+                { textId: 'ruth', label: 'Ruth 4 \u2014 Boaz & Ruth', why: 'A Moabite woman grafted into the Messianic line \u2014 great-grandmother of David' },
+                { textId: '2samuel', label: '2 Samuel 7 \u2014 David: Eternal Throne', why: 'God promises David an everlasting dynasty' },
+                { textId: '1chronicles', label: '1 Chronicles 1\u20139 \u2014 The Full Genealogy', why: 'Adam to the post-exilic community \u2014 the complete record' },
+                { textId: 'matthew', label: 'Matthew 1:1\u201317 \u2014 Abraham to Christ', why: 'The legal genealogy through Joseph \u2014 14+14+14 generations' },
+                { textId: 'luke', label: 'Luke 3:23\u201338 \u2014 Jesus to Adam', why: 'The biological line traced back to Adam, the son of God' }
+            ]
+        },
+        {
+            id: 'cosmic-geography',
+            name: 'Cosmic Geography',
+            icon: '\uD83C\uDF0D',
+            color: '#2d9a8f',
+            desc: 'The Bible\u2019s three-tier cosmos: heaven above, earth in the middle, the underworld below \u2014 and how spiritual territory maps onto physical geography.',
+            steps: [
+                { chId: 'gen-1', label: 'Genesis 1 \u2014 The Three-Tier Cosmos', why: 'Waters above, firmament, waters below \u2014 the cosmic architecture' },
+                { chId: 'gen-11a', label: 'Genesis 11 \u2014 Babel & Territorial Allotment', why: 'God disinherits nations, assigns them to divine beings' },
+                { textId: 'deuteronomy', label: 'Deuteronomy 32:8\u20139 \u2014 Divine Allotment', why: 'Each nation under a son of God; Israel under YHWH' },
+                { textId: 'psalms', label: 'Psalm 82 \u2014 God Judges the Gods', why: 'Territorial rulers judged for corrupt governance' },
+                { textId: 'daniel', label: 'Daniel 10 \u2014 Prince of Persia', why: 'Angelic princes over nations \u2014 spiritual warfare behind geopolitics' },
+                { textId: '1enoch', label: '1 Enoch 6\u201316 \u2014 Watchers at Hermon', why: 'Mt. Hermon as the cosmic boundary breach point' },
+                { textId: 'ephesians', label: 'Ephesians 6:10\u201318 \u2014 Rulers & Powers', why: 'Spiritual forces in heavenly places \u2014 the armor of God' },
+                { textId: 'revelation', label: 'Revelation 21\u201322 \u2014 Heaven & Earth Reunited', why: 'The three-tier cosmos healed \u2014 God dwells with humanity' }
+            ]
         }
     ];
 

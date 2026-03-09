@@ -702,6 +702,7 @@ body.sidebar-open .main-content { overflow: hidden !important; }
         flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;
         max-width: calc(100vw - 16px); bottom: calc(64px + env(safe-area-inset-bottom, 0px));
         gap: 4px; padding: 6px 8px; scrollbar-width: none;
+        z-index: 9998 !important;
     }
     .study-controls::-webkit-scrollbar { display: none; }
     .reading-pane-header { padding: 4px 8px !important; }
@@ -1138,10 +1139,16 @@ body.sidebar-open .main-content { overflow: hidden !important; }
         "currentILBook = textId;\n                        renderInterlinear(chNum);\n                        if (!(typeof IS_MOBILE !== 'undefined' && IS_MOBILE)) { setReadingPane(true); }"
     )
 
-    # Fix glossary to load data before rendering
+    # Fix glossary to load data before rendering + auto-scroll to highlighted term
     js_patched = js_patched.replace(
         "function openGlossary(highlightTerm) {\n        renderGlossaryEntries(highlightTerm);",
         "async function openGlossary(highlightTerm) {\n        await loadGlossary();\n        renderGlossaryEntries(highlightTerm);"
+    )
+
+    # Fix: glossary should scroll to highlighted term after opening
+    js_patched = js_patched.replace(
+        "glossaryOverlay.classList.add('open');\n        if (highlightTerm) {\n            glossarySearch.value = highlightTerm;\n            filterGlossary(highlightTerm);",
+        "glossaryOverlay.classList.add('open');\n        if (highlightTerm) {\n            glossarySearch.value = highlightTerm;\n            filterGlossary(highlightTerm);\n            // Auto-scroll to highlighted entry\n            setTimeout(function() {\n                var highlighted = glossaryList.querySelector('[style*=\"gold-dim\"]');\n                if (highlighted) highlighted.scrollIntoView({ behavior: 'smooth', block: 'center' });\n            }, 100);"
     )
 
     # Fix resources to load data before rendering
