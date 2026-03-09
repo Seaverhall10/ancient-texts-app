@@ -1,0 +1,19 @@
+{
+  "id": "task_004",
+  "agent": "scribe",
+  "priority": 4,
+  "description": "Expand thin chapter 'The Noahic Fragment — God's Oath After the Flood' (id: 1en-55, era: parables). Currently has only 1 section(s). Add 3-5 more sections with detailed analysis, cross-references, ANE context, and Second Temple sources where relevant.",
+  "metadata": {
+    "chapter_id": "1en-55",
+    "era": "parables",
+    "text": "1enoch",
+    "type": "expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:52.928412",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_004.json",
+  "_name": "task_004.json",
+  "completed_at": "2026-02-19T09:05:24.064243",
+  "output_path": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\reports\\scribe_expansion_task_004.py"
+}

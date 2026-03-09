@@ -1,0 +1,265 @@
+
+{
+    "qedem": {
+        "hebrew": "קֶדֶם",
+        "transliteration": "qedem",
+        "strongs": "H6924",
+        "gloss": "east, ancient time, beforetime",
+        "definition": "A directional and temporal term meaning 'east' or 'ancient time.' Spatially, qedem designates the eastern direction, often associated with Eden (Gen 2:8, 'garden in Eden, in the east'). Temporally, it refers to primordial or ancient times (Deut 33:27, 'eternal God'). The east carries theological significance as the direction of divine presence and origin. In prophetic literature, qedem can indicate both geographical orientation and mythic-temporal priority. The term's dual semantic range connects spatial cosmology with temporal antiquity.",
+        "language": "hebrew",
+        "chapters_used": ["gen-2", "gen-3"]
+    },
+    "qerashim": {
+        "hebrew": "קְרָשִׁים",
+        "transliteration": "qĕrāšîm",
+        "strongs": "H7175",
+        "gloss": "frames, boards, planks",
+        "definition": "Plural of qeresh, referring to the wooden frames or boards that formed the structural framework of the Tabernacle. These acacia wood planks, overlaid with gold, created the walls of the mishkan (Exod 26:15-30). Each frame was ten cubits high and one and a half cubits wide, standing upright and fitted into silver bases. The qerashim system represented advanced ancient engineering, creating a portable yet stable sanctuary structure. The term emphasizes the Tabernacle's solid construction as opposed to mere tent fabric, symbolizing the permanence of God's dwelling among Israel despite its mobility.",
+        "language": "hebrew",
+        "chapters_used": ["exod-26", "exod-36"]
+    },
+    "qeren": {
+        "hebrew": "קֶרֶן",
+        "transliteration": "qeren",
+        "strongs": "H7161",
+        "gloss": "horn, strength, power",
+        "definition": "A multivalent term meaning 'horn' with extended meanings of strength, power, and dignity. Literally refers to animal horns (Gen 22:13, ram caught in thicket). The horns of the altar (qarnot ha-mizbeach) were projections at its four corners where sacrificial blood was applied (Exod 27:2), serving as places of asylum. Metaphorically, qeren represents power, military might, or royal authority (1 Sam 2:10, 'exalt the horn of his anointed'). In apocalyptic literature, horns symbolize kingdoms or rulers (Dan 7-8). The term connects physical objects with abstract concepts of strength and divine empowerment.",
+        "language": "hebrew",
+        "chapters_used": ["gen-22", "exod-27", "exod-30"]
+    },
+    "qeresh": {
+        "hebrew": "קֶרֶשׁ",
+        "transliteration": "qereš",
+        "strongs": "H7175",
+        "gloss": "board, plank, frame",
+        "definition": "Singular form of qerashim, denoting an individual wooden frame or board used in Tabernacle construction. Each qeresh was crafted from acacia wood (atzei shittim), overlaid with gold, and fitted with tenons for joining (Exod 26:15-17). The precise construction specifications indicate sophisticated joinery techniques. These frames were not mere planks but engineered structural elements that interlocked to form the Tabernacle's walls. The term appears in detailed architectural instructions, emphasizing the precision required in constructing God's earthly dwelling. The qeresh represents the intersection of human craftsmanship and divine design.",
+        "language": "hebrew",
+        "chapters_used": ["exod-26", "exod-36"]
+    },
+    "qetoret": {
+        "hebrew": "קְטֹרֶת",
+        "transliteration": "qĕṭōret",
+        "strongs": "H7004",
+        "gloss": "incense, fragrant smoke",
+        "definition": "The sacred incense burned in the Tabernacle and Temple, specifically on the golden altar of incense (mizbeach ha-qetoret). Composed of specific spices—stacte, onycha, galbanum, and pure frankincense in equal parts (Exod 30:34-38)—the qetoret was offered twice daily, morning and evening. Its formula was sacred, forbidden for common use under penalty of being 'cut off' from the people. The rising smoke symbolized prayers ascending to God (Ps 141:2, Rev 8:3-4). In priestly service, offering qetoret was a high privilege (Luke 1:9, Zechariah's lot). The term emphasizes the sensory dimension of worship and the mediating role of fragrant offerings.",
+        "language": "hebrew",
+        "chapters_used": ["exod-30", "exod-37"]
+    },
+    "qiddesh": {
+        "hebrew": "קִדֵּשׁ",
+        "transliteration": "qiddēš",
+        "strongs": "H6942",
+        "gloss": "to sanctify, consecrate, set apart",
+        "definition": "Piel stem verb meaning 'to sanctify,' 'to consecrate,' or 'to set apart as holy.' Derived from the root qdsh, this intensive form indicates active sanctification—making something or someone holy. God sanctifies the Sabbath (Gen 2:3), Israel sanctifies itself for covenant encounter (Exod 19:10), and priests are sanctified for service (Exod 29:1). The verb implies both separation from the common/profane and dedication to divine purpose. Sanctification involves ritual purification, moral transformation, and ontological change in status. The term is central to Levitical holiness theology, where boundaries between sacred and profane must be maintained through deliberate consecration acts.",
+        "language": "hebrew",
+        "chapters_used": ["gen-2", "exod-19", "exod-29"]
+    },
+    "qinah": {
+        "hebrew": "קִנְאָה",
+        "transliteration": "qinʾâ",
+        "strongs": "H7068",
+        "gloss": "jealousy, zeal, ardor",
+        "definition": "A term denoting intense emotional commitment, either as jealousy or zeal. When applied to God, qinah describes divine jealousy—God's passionate commitment to exclusive covenant relationship (Exod 20:5, 'jealous God'; Exod 34:14, 'whose name is Jealous'). This is not petty envy but zealous protection of covenant fidelity. Human qinah can be righteous zeal (Num 25:11, Phinehas's zeal) or destructive jealousy (Gen 37:11, brothers' jealousy of Joseph). The term appears in contexts of covenant violation, idolatry, and exclusive devotion. Theologically, divine qinah underscores God's passionate involvement in relationship, demanding undivided loyalty.",
+        "language": "hebrew",
+        "chapters_used": ["exod-20", "exod-34"]
+    },
+    "qodesh": {
+        "hebrew": "קֹדֶשׁ",
+        "transliteration": "qōdeš",
+        "strongs": "H6944",
+        "gloss": "holiness, sacred thing, sanctuary",
+        "definition": "The fundamental term for 'holiness' or 'sacredness,' denoting separation from the common and dedication to God. Qodesh can refer to: (1) the quality of holiness itself, (2) sacred objects or offerings (qodashim), (3) the sanctuary or holy place, (4) consecrated persons. The term establishes the sacred/profane binary central to Israelite religion. God is intrinsically qodesh (Lev 11:44-45), and Israel is called to be a 'holy nation' (goy qadosh, Exod 19:6). Holiness is both ontological (God's essential nature) and ethical (required human conduct). The root qdsh appears over 800 times in the Hebrew Bible, making it a cornerstone of biblical theology.",
+        "language": "hebrew",
+        "chapters_used": ["exod-19", "exod-26", "exod-28", "exod-29", "exod-30"]
+    },
+    "qodesh_haqqodashim": {
+        "hebrew": "קֹדֶשׁ הַקֳּדָשִׁים",
+        "transliteration": "qōdeš haqqŏdāšîm",
+        "strongs": "H6944",
+        "gloss": "Holy of Holies, Most Holy Place",
+        "definition": "The superlative construction meaning 'Holy of Holies' or 'Most Holy Place'—the innermost chamber of the Tabernacle and Temple. This cubic space (10x10x10 cubits in the Tabernacle, 20x20x20 in Solomon's Temple) housed the Ark of the Covenant and represented God's throne room on earth. Separated by the parokhet (veil), only the High Priest could enter, and only on Yom Kippur (Day of Atonement). The term uses Hebrew's superlative construction (noun + plural of same noun) to indicate ultimate holiness. This space represented the intersection of heaven and earth, the locus of divine presence (kavod), and the goal of Israel's cultic approach to God.",
+        "language": "hebrew",
+        "chapters_used": ["exod-26", "exod-30"]
+    },
+    "qodesh_layhwh": {
+        "hebrew": "קֹדֶשׁ לַיהוָה",
+        "transliteration": "qōdeš laYHWH",
+        "strongs": "H6944",
+        "gloss": "holy to YHWH, consecrated to the LORD",
+        "definition": "A dedicatory formula meaning 'holy to YHWH' or 'consecrated to the LORD,' indicating exclusive divine ownership. This phrase appears on the High Priest's golden headplate (tzitz, Exod 28:36), inscribed to declare his mediatorial role. The formula marks objects, offerings, and persons as belonging exclusively to YHWH, removed from common use. It appears in contexts of firstfruits, tithes, and consecrated items. The preposition 'to' (le-) indicates direction and belonging—holiness is not abstract but relational, oriented toward YHWH. This phrase encapsulates the theology of consecration: all that is qodesh exists for divine purposes and glory.",
+        "language": "hebrew",
+        "chapters_used": ["exod-28", "exod-30"]
+    },
+    "raav": {
+        "hebrew": "רָעָב",
+        "transliteration": "rāʿāḇ",
+        "strongs": "H7458",
+        "gloss": "famine, hunger, scarcity",
+        "definition": "A term for famine or severe food scarcity, often presented as divine judgment or testing. Famine drives the patriarchal narratives: Abraham to Egypt (Gen 12:10), Isaac to Gerar (Gen 26:1), Jacob's family to Egypt (Gen 41-47). The Joseph cycle centers on famine as both crisis and providential instrument. Prophetic literature presents raav as covenant curse for disobedience (Deut 28:48) and eschatological judgment. Amos speaks of a 'famine of hearing the words of YHWH' (Amos 8:11), spiritualizing the concept. Famine tests faith, reveals character, and demonstrates divine sovereignty over nature and nations. The term appears in contexts of migration, survival, and theological interpretation of natural disaster.",
+        "language": "hebrew",
+        "chapters_used": ["gen-12", "gen-26", "gen-41", "gen-42", "gen-43", "gen-47"]
+    },
+    "rabah": {
+        "hebrew": "רָבָה",
+        "transliteration": "rāḇâ",
+        "strongs": "H7235",
+        "gloss": "to multiply, increase, become many",
+        "definition": "A verb meaning 'to multiply,' 'to increase,' or 'to become numerous.' Central to the creation mandate: 'be fruitful and multiply' (peru u-revu, Gen 1:28). God promises to multiply Abraham's descendants (Gen 22:17), and Israel indeed multiplies in Egypt (Exod 1:7, 12, 20). The term appears in blessing contexts (multiplication of offspring, possessions) and judgment contexts (multiplication of sorrows, enemies). In Exodus, Israel's multiplication triggers Pharaoh's oppression, setting the liberation narrative in motion. The verb emphasizes quantitative increase as sign of divine blessing and covenant fulfillment. Theologically, multiplication demonstrates God's creative power continuing through human fertility.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-22", "exod-1"]
+    },
+    "rachel": {
+        "hebrew": "רָחֵל",
+        "transliteration": "rāḥēl",
+        "strongs": "H7354",
+        "gloss": "Rachel, ewe",
+        "definition": "The name of Jacob's beloved wife, meaning 'ewe' (female sheep). Rachel, daughter of Laban and younger sister of Leah, becomes Jacob's wife after fourteen years of service (Gen 29). Beautiful and beloved, Rachel initially suffers barrenness—a major narrative tension resolved with Joseph's birth (Gen 30:22-24). She later bears Benjamin and dies in childbirth near Bethlehem (Gen 35:16-20). Rachel represents the beloved but afflicted matriarch, contrasting with fertile but unloved Leah. Her tomb becomes a landmark and symbol of maternal grief (Jer 31:15, Matt 2:18). The name's pastoral imagery connects to Jacob's shepherding and the patriarchal economy. Rachel's sons, Joseph and Benjamin, form crucial tribal lines in Israel's history.",
+        "language": "hebrew",
+        "chapters_used": ["gen-29", "gen-30", "gen-31", "gen-35"]
+    },
+    "rachum_vechanun": {
+        "hebrew": "רַחוּם וְחַנּוּן",
+        "transliteration": "raḥûm wĕḥannûn",
+        "strongs": "H7349, H2587",
+        "gloss": "compassionate and gracious",
+        "definition": "A paired divine attribute formula meaning 'compassionate and gracious,' appearing in God's self-revelation after the golden calf incident (Exod 34:6). This hendiadys becomes a creedal statement repeated throughout Scripture (Num 14:18; Neh 9:17; Ps 86:15, 103:8, 145:8; Joel 2:13; Jonah 4:2). Rachum derives from rechem (womb), suggesting maternal compassion; chanun relates to chen (grace/favor), indicating unmerited kindness. Together they express God's merciful character—slow to anger, abounding in hesed. This formula functions as Israel's theological anchor, especially in contexts of sin, judgment, and restoration. The pairing emphasizes both emotional compassion and active grace, defining YHWH's covenant relationship with Israel.",
+        "language": "hebrew",
+        "chapters_used": ["exod-34"]
+    },
+    "raphah": {
+        "hebrew": "רָפָה",
+        "transliteration": "rāp̄â",
+        "strongs": "H7503",
+        "gloss": "to be weak, sink, relax",
+        "definition": "A verb meaning 'to be weak,' 'to sink down,' 'to relax,' or 'to let go.' Can indicate physical weakness, loss of strength, or deliberate release. In Exodus 4:26, Zipporah says 'you are a bridegroom of blood to me' and God 'let him alone' (wayyireph mimmennu)—a difficult passage suggesting divine relenting. The term appears in military contexts (hands growing weak in battle), emotional contexts (heart sinking), and theological contexts (God's anger abating). The hiphil stem means 'to let drop,' 'to abandon,' or 'to withdraw.' Theologically, raphah can describe both human weakness requiring divine strength and divine forbearance in judgment.",
+        "language": "hebrew",
+        "chapters_used": ["exod-4"]
+    },
+    "rasha": {
+        "hebrew": "רָשָׁע",
+        "transliteration": "rāšāʿ",
+        "strongs": "H7563",
+        "gloss": "wicked, guilty, criminal",
+        "definition": "An adjective and noun meaning 'wicked,' 'guilty,' or 'criminal'—the antithesis of tzaddiq (righteous). The rasha violates covenant, oppresses others, and rejects divine authority. Wisdom literature contrasts the way of the rasha with the way of the righteous (Ps 1; Prov 10-15). In legal contexts, rasha denotes the guilty party deserving punishment (Exod 23:7, 'do not justify the wicked'). Prophetic literature condemns the rasha for social injustice and idolatry. The term carries both legal (forensic guilt) and moral (ethical wickedness) dimensions. Theologically, the prosperity of the rasha poses a theodicy problem (Ps 73; Jer 12:1), resolved eschatologically through divine judgment.",
+        "language": "hebrew",
+        "chapters_used": ["gen-18", "exod-23"]
+    },
+    "reuven": {
+        "hebrew": "רְאוּבֵן",
+        "transliteration": "rĕʾûḇēn",
+        "strongs": "H7205",
+        "gloss": "Reuben, see, a son",
+        "definition": "The name of Jacob's firstborn son by Leah, meaning 'see, a son' or 'behold, a son' (Gen 29:32). The name reflects Leah's hope that bearing a son would win Jacob's love. As firstborn, Reuben held rights of primacy but forfeited them through sexual sin with Bilhah, Jacob's concubine (Gen 35:22, 49:3-4). Despite this, Reuben shows moral sensitivity: he attempts to save Joseph from his brothers (Gen 37:21-22) and offers his own sons as surety for Benjamin (Gen 42:37). The tribe of Reuben settles in Transjordan (Num 32). Reuben's narrative illustrates the tension between birthright status and moral failure, and the consequences of sin on inheritance and blessing.",
+        "language": "hebrew",
+        "chapters_used": ["gen-29", "gen-35", "gen-37", "gen-42", "gen-46"]
+    },
+    "riv": {
+        "hebrew": "רִיב",
+        "transliteration": "rîḇ",
+        "strongs": "H7379",
+        "gloss": "dispute, lawsuit, controversy",
+        "definition": "A legal term meaning 'dispute,' 'lawsuit,' or 'controversy,' often in covenant contexts. Riv denotes formal legal proceedings, whether human (civil disputes) or divine (covenant lawsuits). God brings a riv against Israel for covenant violation (Hos 4:1; Mic 6:2), using prophets as prosecuting attorneys. The term appears in place names: Meribah ('quarreling,' Exod 17:7) marks Israel's contention with God over water. In wisdom literature, riv describes interpersonal conflicts requiring adjudication. The verb form (riv) means 'to contend,' 'to strive,' or 'to conduct a lawsuit.' Theologically, riv represents the legal dimension of covenant relationship—God holds Israel accountable through juridical process, not arbitrary punishment.",
+        "language": "hebrew",
+        "chapters_used": ["exod-17", "exod-23"]
+    },
+    "rivqah": {
+        "hebrew": "רִבְקָה",
+        "transliteration": "riḇqâ",
+        "strongs": "H7259",
+        "gloss": "Rebekah, to bind, ensnare",
+        "definition": "The name of Isaac's wife, possibly meaning 'to bind' or 'ensnare,' though etymology is uncertain. Rebekah, daughter of Bethuel and sister of Laban, is chosen as Isaac's wife through Abraham's servant's divinely guided mission (Gen 24). She demonstrates initiative and faith in leaving her homeland. Rebekah receives a divine oracle about her twin sons (Gen 25:23) and later orchestrates Jacob's deception of Isaac to secure the blessing (Gen 27). Her character is complex: faithful yet manipulative, prophetically informed yet humanly scheming. Rebekah represents the matriarchal role in shaping Israel's destiny, sometimes through morally ambiguous means. Her favoritism toward Jacob drives family conflict but fulfills divine election.",
+        "language": "hebrew",
+        "chapters_used": ["gen-24", "gen-25", "gen-26", "gen-27"]
+    },
+    "rophe": {
+        "hebrew": "רֹפֵא",
+        "transliteration": "rōp̄ēʾ",
+        "strongs": "H7495",
+        "gloss": "healer, physician",
+        "definition": "A participle meaning 'healer' or 'physician,' derived from the verb rapha ('to heal'). God declares 'I am YHWH your healer' (ani YHWH rophekha, Exod 15:26) after making bitter water sweet at Marah. This divine title establishes God as Israel's physician, promising health for covenant obedience. The term appears in contexts of physical healing, spiritual restoration, and national recovery. Jeremiah asks, 'Is there no balm in Gilead? Is there no physician there?' (Jer 8:22), lamenting Judah's incurable wound. In Second Temple Judaism, God's healing power becomes increasingly emphasized. The term connects physical wellness with spiritual wholeness, both dependent on covenant relationship. Divine healing demonstrates God's power over creation and compassion for human suffering.",
+        "language": "hebrew",
+        "chapters_used": ["exod-15"]
+    },
+    "ruach_elohim": {
+        "hebrew": "רוּחַ אֱלֹהִים",
+        "transliteration": "rûaḥ ʾĕlōhîm",
+        "strongs": "H7307, H430",
+        "gloss": "Spirit of God, divine wind",
+        "definition": "A phrase meaning 'Spirit of God' or 'wind of God,' appearing in creation's opening scene (Gen 1:2). The term ruach carries multiple meanings: wind, breath, spirit. In Gen 1:2, ruach elohim 'hovers' (merachephet) over the primordial waters, suggesting either divine presence brooding over chaos or a mighty wind as God's instrument. This ambiguity is theologically rich: the Spirit is both God's personal presence and God's creative power. Throughout Scripture, ruach elohim empowers individuals for leadership (Judg 3:10), prophecy (Num 24:2), and craftsmanship (Exod 31:3). The phrase establishes pneumatology's foundation—God's Spirit as active agent in creation, revelation, and redemption.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-41", "exod-31"]
+    },
+    "ruach_qadim": {
+        "hebrew": "רוּחַ קָדִים",
+        "transliteration": "rûaḥ qādîm",
+        "strongs": "H7307, H6921",
+        "gloss": "east wind, scorching wind",
+        "definition": "A phrase meaning 'east wind,' often associated with divine judgment or natural disaster. The east wind (from the desert) is hot, dry, and destructive. God uses ruach qadim to part the Red Sea (Exod 14:21), demonstrating control over nature for redemptive purposes. The same wind brings locusts upon Egypt (Exod 10:13) and later removes them (Exod 10:19). In Jonah, an east wind causes the prophet's distress (Jonah 4:8). Prophetic literature uses east wind imagery for judgment (Jer 18:17; Ezek 17:10, 19:12). The term combines meteorological observation with theological interpretation—natural phenomena serve divine purposes. The east wind represents God's power to use creation's forces for both salvation and judgment.",
+        "language": "hebrew",
+        "chapters_used": ["exod-10", "exod-14"]
+    },
+    "saphah_ekhat": {
+        "hebrew": "שָׂפָה אֶחָת",
+        "transliteration": "śāp̄â ʾeḥāṯ",
+        "strongs": "H8193, H259",
+        "gloss": "one language, one speech",
+        "definition": "A phrase meaning 'one language' or 'one speech,' describing humanity's linguistic unity before Babel (Gen 11:1). The term saphah means 'lip' or 'language,' and ekhat means 'one.' This linguistic unity enables collective action—both for good and ill. At Babel, unified language facilitates human hubris and the tower project. God's response—confusing language (balal, Gen 11:7-9)—scatters humanity and creates linguistic diversity. The phrase raises questions about language's role in human community and divine-human relationship. Pentecost (Acts 2) reverses Babel through the Spirit's gift of tongues, suggesting eschatological restoration of communication. Theologically, saphah ekhat represents both human potential for unity and the danger of unified rebellion against God.",
+        "language": "hebrew",
+        "chapters_used": ["gen-11"]
+    },
+    "sar_ha_mastemah": {
+        "hebrew": "שַׂר הַמַּשְׂטֵמָה",
+        "transliteration": "śar hammaśṭēmâ",
+        "strongs": "H8269, H4960",
+        "gloss": "Prince of Enmity, chief accuser",
+        "definition": "A title meaning 'Prince of Enmity' or 'Chief Accuser,' appearing in Second Temple literature (especially Jubilees) as a designation for the chief adversarial angel. Mastemah (from satan, 'to oppose') leads hostile spiritual forces and tests humanity. In Jubilees, Mastemah requests permission to test Abraham (parallel to Satan in Job) and opposes Moses in Egypt. The title reflects developed angelology where Satan/Mastemah heads a hierarchy of opposing spirits. This figure combines prosecutorial functions (accuser in divine court) with adversarial actions (tempter, destroyer). The concept bridges biblical Satan traditions with later Jewish demonology. Sar ha-mastemah represents systematized opposition to God's purposes, requiring divine permission to act.",
+        "language": "hebrew",
+        "chapters_used": ["jub-17", "jub-48"]
+    },
+    "sedom": {
+        "hebrew": "סְדֹם",
+        "transliteration": "sĕḏōm",
+        "strongs": "H5467",
+        "gloss": "Sodom, burning",
+        "definition": "The name of the infamous city destroyed by divine judgment, possibly meaning 'burning' or 'scorched.' Sodom, located in the Jordan plain near the Dead Sea, epitomizes wickedness and divine judgment (Gen 18-19). Abraham intercedes for Sodom, negotiating with God over the number of righteous needed to spare the city (Gen 18:22-33). The city's destruction by 'sulfur and fire' (Gen 19:24) becomes a paradigmatic example of divine wrath throughout Scripture (Deut 29:23; Isa 1:9-10; Ezek 16:49-50; Matt 10:15; 2 Pet 2:6; Jude 7). Ezekiel identifies Sodom's sin as pride, excess, and neglect of the poor—not merely sexual immorality. The name functions as shorthand for extreme wickedness deserving ultimate judgment.",
+        "language": "hebrew",
+        "chapters_used": ["gen-13", "gen-14", "gen-18", "gen-19"]
+    },
+    "sefer": {
+        "hebrew": "סֵפֶר",
+        "transliteration": "sēp̄er",
+        "strongs": "H5612",
+        "gloss": "book, scroll, document",
+        "definition": "A term meaning 'book,' 'scroll,' or 'written document.' Sefer denotes any written text, from legal documents to sacred Scripture. The 'book of the covenant' (sefer ha-berit, Exod 24:7) contains laws read to Israel at Sinai. The 'book of the generations' (sefer toledot, Gen 5:1) introduces genealogical records. Moses writes 'in a book' (ba-sefer) the words of Torah (Exod 24:4, 7). The term emphasizes written preservation of divine revelation and covenant stipulations. In later Judaism, sefer becomes associated with Torah scrolls and sacred texts. The concept of 'the book' establishes textuality as central to covenant relationship—God's will is written, preserved, and transmitted through generations.",
+        "language": "hebrew",
+        "chapters_used": ["gen-5", "exod-17", "exod-24"]
+    },
+    "segullah": {
+        "hebrew": "סְגֻלָּה",
+        "transliteration": "sĕḡullâ",
+        "strongs": "H5459",
+        "gloss": "treasured possession, special property",
+        "definition": "A term meaning 'treasured possession,' 'special property,' or 'peculiar treasure,' describing Israel's unique status among nations. God declares Israel 'my treasured possession among all peoples' (segullah mi-kol ha-ammim, Exod 19:5). The term derives from royal contexts, denoting a king's personal treasure distinct from state property. Israel's segullah status is conditional ('if you obey my voice and keep my covenant') yet reflects divine election and love. The concept emphasizes both privilege and responsibility—Israel is chosen for covenant relationship and mission. Deuteronomy repeats this designation (Deut 7:6, 14:2, 26:18), linking it to holiness and obedience. Theologically, segullah expresses God's particular love for Israel without negating universal sovereignty.",
+        "language": "hebrew",
+        "chapters_used": ["exod-19"]
+    },
+    "seh": {
+        "hebrew": "שֶׂה",
+        "transliteration": "śeh",
+        "strongs": "H7716",
+        "gloss": "lamb, sheep, goat",
+        "definition": "A general term for a young sheep or goat, central to Passover instructions. Each household must take a seh—'a lamb for a household' (seh le-veit avot, Exod 12:3)—on the tenth of Nisan, keep it until the fourteenth, then slaughter it at twilight. The seh must be male, one year old, without blemish (tamim). Its blood marks doorposts for protection from the destroyer; its roasted flesh is eaten with matzot and bitter herbs. The seh becomes the Passover sacrifice (pesach), commemorating Israel's deliverance from Egypt. In prophetic and New Testament typology, the seh prefigures the suffering servant (Isa 53:7) and Christ as 'Lamb of God' (John 1:29). The term connects pastoral economy, sacrificial system, and redemptive theology.",
+        "language": "hebrew",
+        "chapters_used": ["exod-12"]
+    },
+    "seirim": {
+        "hebrew": "שְׂעִירִים",
+        "transliteration": "śĕʿîrîm",
+        "strongs": "H8163",
+        "gloss": "hairy ones, goat-demons, satyrs",
+        "definition": "A plural term meaning 'hairy ones,' referring either to goats or goat-demons/satyrs. In cultic contexts, seirim denotes demonic entities associated with wilderness and idolatry. Leviticus prohibits sacrificing to seirim (Lev 17:7), indicating Israelite attraction to these entities. The term appears in prophetic judgment oracles describing desolate places inhabited by seirim (Isa 13:21, 34:14). Some scholars connect seirim to ancient Near Eastern wilderness demons or Pan-like figures. The ambiguity between literal goats and demonic beings reflects ancient cosmology where natural and supernatural realms intersect. Theologically, seirim represent forbidden spiritual powers competing with YHWH worship, part of the 'other gods' Israel must reject.",
+        "language": "hebrew",
+        "chapters_used": ["lev-17"]
+    },
+    "selav": {
+        "hebrew

@@ -1,0 +1,329 @@
+
+{
+    "qehal": {
+        "hebrew": "קָהָל",
+        "transliteration": "qāhāl",
+        "strongs": "H6951",
+        "gloss": "assembly, congregation, council",
+        "definition": "A formal gathering or assembly, often used for Israel's congregation but also applied to divine assemblies. In divine council contexts, refers to the heavenly assembly of divine beings. Cognate with Aramaic קְהַל and related to the verb קהל 'to assemble.' In Psalm 82:1 and 89:5-7, denotes the council of holy ones where God presides. The term emphasizes the organized, deliberative nature of the heavenly court.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch01", "hc-ch02", "hc-ch03"]
+    },
+    "adat_el": {
+        "hebrew": "עֲדַת־אֵל",
+        "transliteration": "ʿădat-ʾēl",
+        "strongs": "H5712+H410",
+        "gloss": "assembly of God",
+        "definition": "The divine assembly or council of God. עֲדַת (ʿădat) means 'congregation, assembly, company' and is combined with אֵל (ʾēl) 'God.' This phrase appears in Psalm 82:1 describing the heavenly court where God judges among the divine beings. The term emphasizes the corporate, organized nature of the divine council as a formal assembly with judicial functions.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch01", "hc-ch02"]
+    },
+    "qedoshim": {
+        "hebrew": "קְדֹשִׁים",
+        "transliteration": "qĕdōšîm",
+        "strongs": "H6918",
+        "gloss": "holy ones, divine beings",
+        "definition": "Plural of קָדוֹשׁ (qādôš) 'holy one.' In divine council contexts, refers to the heavenly beings who comprise God's assembly. Used in Psalm 89:5-7, Job 5:1, 15:15, Daniel 4:13, 17, 23, and Zechariah 14:5. These are the sanctified members of the heavenly court, distinguished from earthly beings by their holiness and proximity to God. The term emphasizes their consecrated status and role in the divine realm.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch01", "hc-ch02", "hc-ch03", "hc-ch04"]
+    },
+    "bene_elim": {
+        "hebrew": "בְּנֵי אֵלִים",
+        "transliteration": "bĕnê ʾēlîm",
+        "strongs": "H1121+H410",
+        "gloss": "sons of gods, divine beings",
+        "definition": "Literally 'sons of gods' or 'sons of the mighty ones.' Plural form of אֵל (ʾēl) used in Psalm 29:1 and 89:6 to designate members of the divine council. The plural אֵלִים (ʾēlîm) indicates multiple divine beings, while בְּנֵי (bĕnê) 'sons of' denotes membership in the category or class. This term parallels בְּנֵי אֱלֹהִים (bĕnê ʾĕlōhîm) and emphasizes the plurality of divine beings in God's heavenly assembly.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch01", "hc-ch02"]
+    },
+    "shapat": {
+        "hebrew": "שָׁפַט",
+        "transliteration": "šāpaṭ",
+        "strongs": "H8199",
+        "gloss": "to judge, govern, vindicate",
+        "definition": "Primary Hebrew verb for judicial activity, meaning to judge, govern, or execute justice. In Psalm 82:1, God שֹׁפֵט (šōpēṭ) 'judges' in the midst of the divine council. The verb encompasses both judicial decision-making and executive governance. In divine council contexts, it describes God's sovereign judgment over both the heavenly beings and earthly nations. The participial form שֹׁפֵט can mean 'judge' as a title or office.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch01", "hc-ch02", "hc-ch03"]
+    },
+    "qerev": {
+        "hebrew": "קֶרֶב",
+        "transliteration": "qereb",
+        "strongs": "H7130",
+        "gloss": "midst, inner part, among",
+        "definition": "Noun meaning 'midst, inner part, interior.' In Psalm 82:1, God judges בְּקֶרֶב (bĕqereb) 'in the midst of' the divine assembly. The term indicates God's central, presiding position within the council, not external to it. Emphasizes divine immanence and active presence among the heavenly beings. The preposition בְּ (bĕ) 'in' combined with קֶרֶב stresses God's position at the center of the assembly.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch01", "hc-ch02"]
+    },
+    "ad_matay": {
+        "hebrew": "עַד־מָתַי",
+        "transliteration": "ʿad-mātay",
+        "strongs": "H5704+H4970",
+        "gloss": "how long, until when",
+        "definition": "Interrogative phrase meaning 'how long?' or 'until when?' Composed of עַד (ʿad) 'until' and מָתַי (mātay) 'when.' Used in Psalm 82:2 as God's rhetorical question to the unjust divine judges. This phrase appears frequently in lament psalms expressing urgency and impatience with injustice. In the divine council context, it introduces God's indictment of the failed divine administrators.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "avel": {
+        "hebrew": "עָוֶל",
+        "transliteration": "ʿāwel",
+        "strongs": "H5766",
+        "gloss": "injustice, unrighteousness, wrong",
+        "definition": "Noun denoting injustice, unrighteousness, or moral wrong. From the root עול meaning 'to be twisted, perverted.' In Psalm 82:2, the divine beings are accused of judging עָוֶל (ʿāwel), administering injustice rather than righteousness. The term emphasizes the perversion of justice, the twisting of what should be straight. Contrasts with צֶדֶק (ṣedeq) 'righteousness' and מִשְׁפָּט (mišpāṭ) 'justice.'",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "nasa_panim": {
+        "hebrew": "נָשָׂא פָנִים",
+        "transliteration": "nāśāʾ pānîm",
+        "strongs": "H5375+H6440",
+        "gloss": "show partiality, lift face",
+        "definition": "Idiomatic expression literally meaning 'to lift the face,' signifying showing partiality or favoritism in judgment. נָשָׂא (nāśāʾ) means 'to lift, carry, bear' and פָנִים (pānîm) means 'face.' In Psalm 82:2, the divine judges are accused of this judicial corruption. The phrase appears throughout the Hebrew Bible as a prohibition against biased judgment (Lev 19:15, Deut 10:17). In divine council context, it represents the fundamental failure of the appointed administrators.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "resha_im": {
+        "hebrew": "רְשָׁעִים",
+        "transliteration": "rĕšāʿîm",
+        "strongs": "H7563",
+        "gloss": "wicked ones, guilty",
+        "definition": "Plural of רָשָׁע (rāšāʿ) 'wicked, guilty, criminal.' Refers to those who are morally wrong, guilty of injustice, or in violation of covenant. In Psalm 82:2, the divine beings show partiality to the רְשָׁעִים (rĕšāʿîm). The term encompasses both moral wickedness and legal guilt. In divine council contexts, these are the oppressors whom the divine administrators wrongly favor instead of defending the vulnerable.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "dal": {
+        "hebrew": "דַּל",
+        "transliteration": "dal",
+        "strongs": "H1800",
+        "gloss": "poor, weak, helpless",
+        "definition": "Adjective meaning poor, weak, thin, or helpless. Describes those who are economically disadvantaged and socially vulnerable. In Psalm 82:3-4, the דַּל (dal) are among those whom the divine judges should defend. The term emphasizes physical and social weakness rather than moral character. Often paired with other terms for the vulnerable (orphan, widow, afflicted) in lists of those requiring justice and protection.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "yatom": {
+        "hebrew": "יָתוֹם",
+        "transliteration": "yātôm",
+        "strongs": "H3490",
+        "gloss": "orphan, fatherless",
+        "definition": "Noun meaning orphan or fatherless child. Refers specifically to one who has lost their father, the primary legal and economic protector in ancient Near Eastern society. In Psalm 82:3, the יָתוֹם (yātôm) is listed among the vulnerable whom divine judges must defend. Throughout the Hebrew Bible, care for orphans is a fundamental requirement of covenant justice (Exod 22:22, Deut 10:18, 24:17). The term represents the paradigmatic vulnerable person requiring divine and human protection.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "ani": {
+        "hebrew": "עָנִי",
+        "transliteration": "ʿānî",
+        "strongs": "H6041",
+        "gloss": "afflicted, poor, humble",
+        "definition": "Adjective/noun meaning afflicted, poor, humble, or oppressed. From the root ענה 'to be afflicted, humbled.' Describes those who are economically poor and socially oppressed. In Psalm 82:3, the עָנִי (ʿānî) are among those requiring justice from the divine administrators. The term emphasizes the condition of being afflicted or oppressed rather than mere poverty. Often appears in parallel with other terms for the vulnerable and marginalized.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "rash": {
+        "hebrew": "רָשׁ",
+        "transliteration": "rāš",
+        "strongs": "H7326",
+        "gloss": "poor, destitute, needy",
+        "definition": "Adjective meaning poor, destitute, or in need. Describes those lacking material resources and economic security. In Psalm 82:4, the רָשׁ (rāš) are to be delivered from the wicked. The term emphasizes economic poverty and material need. Related to the verb רוּשׁ (rûš) 'to be poor, become poor.' In divine council contexts, represents those whom the failed administrators have neglected to protect.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "palat": {
+        "hebrew": "פָּלַט",
+        "transliteration": "pālaṭ",
+        "strongs": "H6403",
+        "gloss": "to deliver, rescue, escape",
+        "definition": "Verb meaning to deliver, rescue, bring to safety, or escape. In Psalm 82:4, the divine judges are commanded to פַּלְּטוּ (pallĕṭû) 'deliver' the poor and needy. The verb emphasizes active intervention to bring someone out of danger or oppression. Often used in contexts of military deliverance or rescue from enemies. In divine council framework, represents the fundamental responsibility of divine administrators to actively intervene for the vulnerable.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "natsal": {
+        "hebrew": "נָצַל",
+        "transliteration": "nāṣal",
+        "strongs": "H5337",
+        "gloss": "to snatch away, deliver, rescue",
+        "definition": "Verb meaning to snatch away, deliver, rescue, or strip off. Implies forceful extraction from danger or oppression. In Psalm 82:4, paired with פָּלַט (pālaṭ) to emphasize the urgency of rescue: הַצִּילוּ (haṣṣîlû) 'rescue!' The verb suggests pulling someone out of the grasp of oppressors. Frequently used in military and legal contexts for deliverance from enemies or danger. In divine council context, describes the active intervention required of divine administrators.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "yad_resha_im": {
+        "hebrew": "יַד־רְשָׁעִים",
+        "transliteration": "yad-rĕšāʿîm",
+        "strongs": "H3027+H7563",
+        "gloss": "hand of the wicked",
+        "definition": "Phrase meaning 'hand of the wicked,' representing the power and control of oppressors. יַד (yad) 'hand' is a common metaphor for power, control, or authority. In Psalm 82:4, the vulnerable are to be rescued מִיַּד רְשָׁעִים (mîyad rĕšāʿîm) 'from the hand of the wicked.' The phrase emphasizes the active oppression and control exercised by the wicked over the vulnerable. Deliverance requires breaking this power relationship.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "yada": {
+        "hebrew": "יָדַע",
+        "transliteration": "yādaʿ",
+        "strongs": "H3045",
+        "gloss": "to know, understand, perceive",
+        "definition": "Primary Hebrew verb for knowing, understanding, or perceiving. Encompasses intellectual knowledge, experiential knowledge, and relational intimacy. In Psalm 82:5, the divine judges לֹא יָדְעוּ (lōʾ yādĕʿû) 'do not know' - they lack understanding and discernment. The verb can indicate both cognitive knowledge and practical wisdom. In divine council context, the failure to 'know' represents fundamental incompetence in understanding justice and righteousness.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "bin": {
+        "hebrew": "בִּין",
+        "transliteration": "bîn",
+        "strongs": "H995",
+        "gloss": "to understand, discern, perceive",
+        "definition": "Verb meaning to understand, discern, or perceive with insight. Implies deeper comprehension than mere knowledge. In Psalm 82:5, the divine judges וְלֹא יָבִינוּ (wĕlōʾ yābînû) 'and do not understand' - they lack discernment. The verb emphasizes the ability to distinguish between right and wrong, to perceive the true nature of situations. In divine council context, represents the failure of moral and judicial discernment required for righteous governance.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "halak_choshek": {
+        "hebrew": "הָלַךְ בַּחֲשֵׁכָה",
+        "transliteration": "hālak baḥăšēkâ",
+        "strongs": "H1980+H2825",
+        "gloss": "walk in darkness",
+        "definition": "Phrase meaning 'to walk in darkness,' indicating moral and spiritual blindness. הָלַךְ (hālak) 'to walk' represents one's conduct or way of life. חֲשֵׁכָה (ḥăšēkâ) 'darkness' symbolizes ignorance, evil, and absence of divine light. In Psalm 82:5, the failed divine judges בַּחֲשֵׁכָה יִתְהַלָּכוּ (baḥăšēkâ yithallākû) 'walk about in darkness.' The phrase indicates their fundamental moral disorientation and inability to perceive truth and justice.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "mot": {
+        "hebrew": "מוֹט",
+        "transliteration": "môṭ",
+        "strongs": "H4131",
+        "gloss": "to totter, shake, slip",
+        "definition": "Verb meaning to totter, shake, slip, or be moved from stability. In Psalm 82:5, the result of the divine judges' failure is that יִמּוֹטוּ כָּל־מוֹסְדֵי אָרֶץ (yimmôṭû kol-môsĕdê ʾāreṣ) 'all the foundations of the earth are shaken.' The verb indicates loss of stability, security, and order. When justice fails, the very foundations of cosmic and social order become unstable. The term emphasizes the cosmic consequences of failed divine administration.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "mosedei_aretz": {
+        "hebrew": "מוֹסְדֵי אָרֶץ",
+        "transliteration": "môsĕdê ʾāreṣ",
+        "strongs": "H4146+H776",
+        "gloss": "foundations of the earth",
+        "definition": "Phrase meaning 'foundations of the earth,' representing the fundamental order of creation. מוֹסָד (môsād) means 'foundation, base' and אֶרֶץ (ʾereṣ) means 'earth, land.' In Psalm 82:5, the failure of divine justice causes these foundations to shake. The phrase appears in various contexts indicating the basic structures of cosmic and moral order (2 Sam 22:8, Ps 18:7, Isa 24:18). In divine council framework, represents the divinely established order that divine administrators are responsible to maintain.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "amarti": {
+        "hebrew": "אָמַרְתִּי",
+        "transliteration": "ʾāmartî",
+        "strongs": "H559",
+        "gloss": "I said, I declared",
+        "definition": "First person singular perfect of אָמַר (ʾāmar) 'to say, speak, declare.' In Psalm 82:6, introduces God's original declaration or appointment: אֲנִי־אָמַרְתִּי (ʾănî-ʾāmartî) 'I said' or 'I declared.' The verb indicates authoritative speech, particularly divine decree or appointment. The perfect tense points to a past declaration with continuing significance. In divine council context, refers to God's original commissioning of the divine beings as administrators.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "kulkem": {
+        "hebrew": "כֻּלְּכֶם",
+        "transliteration": "kullĕkem",
+        "strongs": "H3605",
+        "gloss": "all of you",
+        "definition": "Phrase meaning 'all of you,' composed of כֹּל (kōl) 'all' with second masculine plural suffix. In Psalm 82:6, emphasizes that the entire divine council was appointed: וּבְנֵי עֶלְיוֹן כֻּלְּכֶם (ûbĕnê ʿelyôn kullĕkem) 'and sons of the Most High, all of you.' The term stresses the collective nature of the appointment and, by implication, the collective failure and judgment. All members of the divine council share in both privilege and responsibility.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "aken": {
+        "hebrew": "אָכֵן",
+        "transliteration": "ʾākēn",
+        "strongs": "H403",
+        "gloss": "surely, however, nevertheless",
+        "definition": "Adverb meaning 'surely, however, nevertheless, truly.' Often introduces a strong contrast or emphatic statement. In Psalm 82:7, introduces the reversal of the divine beings' status: אָכֵן כְּאָדָם תְּמוּתוּן (ʾākēn kĕʾādām tĕmûtûn) 'nevertheless, like humans you shall die.' The particle emphasizes the certainty and irony of the judgment - despite their divine status, they will experience mortality. Marks the dramatic turning point in the divine council scene.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "ke_adam": {
+        "hebrew": "כְּאָדָם",
+        "transliteration": "kĕʾādām",
+        "strongs": "H120",
+        "gloss": "like humans, as mortals",
+        "definition": "Prepositional phrase meaning 'like humans' or 'as mortals.' כְּ (kĕ) is the preposition 'like, as' and אָדָם (ʾādām) means 'human, mankind, mortal.' In Psalm 82:7, the divine beings are sentenced to die כְּאָדָם (kĕʾādām) 'like humans.' The phrase emphasizes the reduction from divine immortality to human mortality as punishment. The comparison highlights the ironic reversal - those appointed as gods will die as mere mortals.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "temutun": {
+        "hebrew": "תְּמוּתוּן",
+        "transliteration": "tĕmûtûn",
+        "strongs": "H4191",
+        "gloss": "you shall die",
+        "definition": "Second masculine plural imperfect of מוּת (mût) 'to die.' In Psalm 82:7, God's judgment on the divine beings: תְּמוּתוּן (tĕmûtûn) 'you shall die.' The imperfect tense indicates future certainty - death is their inevitable fate. The verb represents the ultimate reversal of divine status, the removal of immortality as punishment for failed stewardship. This mortality sentence is the climactic judgment in the divine council scene.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "ke_achad_hasarim": {
+        "hebrew": "כְּאַחַד הַשָּׂרִים",
+        "transliteration": "kĕʾaḥad haśśārîm",
+        "strongs": "H259+H8269",
+        "gloss": "like one of the princes",
+        "definition": "Phrase meaning 'like one of the princes' or 'as one of the rulers.' כְּאַחַד (kĕʾaḥad) means 'like one of' and שָׂרִים (śārîm) means 'princes, rulers, officials.' In Psalm 82:7, the divine beings will fall כְּאַחַד הַשָּׂרִים (kĕʾaḥad haśśārîm). The phrase likely refers to fallen human rulers or possibly to other fallen divine beings. Emphasizes the ignominious nature of their fall - they will fall like any failed earthly ruler, stripped of authority and power.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "nafal": {
+        "hebrew": "נָפַל",
+        "transliteration": "nāpal",
+        "strongs": "H5307",
+        "gloss": "to fall, fall down, collapse",
+        "definition": "Verb meaning to fall, fall down, collapse, or be overthrown. In Psalm 82:7, the divine beings will תִּפֹּלוּ (tippōlû) 'fall' like princes. The verb can indicate physical falling, military defeat, or loss of status and power. In divine council context, represents the complete overthrow and removal from position of the failed administrators. The fall is both literal (death) and metaphorical (loss of divine status and authority).",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "qumah": {
+        "hebrew": "קוּמָה",
+        "transliteration": "qûmâ",
+        "strongs": "H6965",
+        "gloss": "arise, stand up, take action",
+        "definition": "Imperative masculine singular of קוּם (qûm) 'to arise, stand, stand up.' In Psalm 82:8, the psalmist calls to God: קוּמָה אֱלֹהִים (qûmâ ʾĕlōhîm) 'Arise, O God!' The imperative expresses urgent petition for God to take action. The verb implies rising to intervene, to execute judgment, to take up one's role. In divine council context, calls for God to personally assume the role of judge over the nations that the lesser divine beings have failed to fulfill.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "shoftah": {
+        "hebrew": "שָׁפְטָה",
+        "transliteration": "šopĕṭâ",
+        "strongs": "H8199",
+        "gloss": "judge, govern",
+        "definition": "Imperative masculine singular of שָׁפַט (šāpaṭ) 'to judge, govern.' In Psalm 82:8, the call to God: שָׁפְטָה הָאָרֶץ (šopĕṭâ hāʾāreṣ) 'Judge the earth!' The imperative expresses urgent petition for God to exercise direct judgment. The verb encompasses both judicial decision and executive governance. In divine council framework, represents the call for God to replace the failed divine administrators and personally govern the nations.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "nachel": {
+        "hebrew": "נָחַל",
+        "transliteration": "nāḥal",
+        "strongs": "H5157",
+        "gloss": "to inherit, possess, take possession",
+        "definition": "Verb meaning to inherit, possess, or take as one's inheritance. In Psalm 82:8, God is called to judge because אַתָּה תִנְחַל בְּכָל־הַגּוֹיִם (ʾattâ tinḥal bĕkol-haggôyim) 'You shall inherit all the nations.' The verb indicates taking possession of an inheritance or allotted portion. In divine council context, represents God's ultimate ownership and right to rule over all nations, not just Israel. The failed divine administrators will be replaced by God's direct rule.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02"]
+    },
+    "goyim": {
+        "hebrew": "גּוֹיִם",
+        "transliteration": "gôyim",
+        "strongs": "H1471",
+        "gloss": "nations, peoples, Gentiles",
+        "definition": "Plural of גּוֹי (gôy) 'nation, people.' Refers to ethnic groups, peoples, or nations, often specifically non-Israelite nations (Gentiles). In Psalm 82:8 and throughout divine council texts, the גּוֹיִם (gôyim) are the nations allotted to the divine beings in Deuteronomy 32:8-9. These are the peoples placed under the administration of the בְּנֵי אֱלֹהִים (bĕnê ʾĕlōhîm), who failed in their governance. The term represents the scope of divine administration beyond Israel.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02", "hc-ch03", "hc-ch04"]
+    },
+    "benei_yisrael": {
+        "hebrew": "בְּנֵי יִשְׂרָאֵל",
+        "transliteration": "bĕnê yiśrāʾēl",
+        "strongs": "H1121+H3478",
+        "gloss": "sons of Israel, Israelites",
+        "definition": "Phrase meaning 'sons of Israel' or 'Israelites,' referring to the descendants of Jacob/Israel. In Deuteronomy 32:8-9, contrasted with the nations (גּוֹיִם): while the nations were allotted to divine beings, בְּנֵי יִשְׂרָאֵל (bĕnê yiśrāʾēl) became YHWH's own inheritance. The phrase emphasizes Israel's unique status as directly governed by YHWH rather than by subordinate divine administrators. Represents the one nation not placed under the failed divine council members.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch03"]
+    },
+    "hitsiv": {
+        "hebrew": "הִצִּיב",
+        "transliteration": "hiṣṣîb",
+        "strongs": "H5324",
+        "gloss": "to set, station, establish",
+        "definition": "Hiphil perfect of נָצַב (nāṣab) 'to stand, take one's stand.' The Hiphil means 'to set, station, establish, appoint.' In Deuteronomy 32:8, God הִצִּיב (hiṣṣîb) 'established' or 'set' the boundaries of the peoples. The verb indicates deliberate, authoritative placement or appointment. In divine council context, describes God's sovereign act of establishing both territorial boundaries and divine administrators for the nations.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch03"]
+    },
+    "gevulot": {
+        "hebrew": "גְּבֻלֹת",
+        "transliteration": "gĕbulōt",
+        "strongs": "H1367",
+        "gloss": "boundaries, borders, territories",
+        "definition": "Plural of גְּבוּל (gĕbûl) 'boundary, border, territory.' In Deuteronomy 32:8, God set גְּבֻלֹת עַמִּים (gĕbulōt ʿammîm) 'the boundaries of the peoples.' The term refers to territorial borders and allotted regions. In divine council framework, these boundaries correspond to the allocation of nations to divine administrators. The establishment of boundaries is an act of divine sovereignty, organizing the post-Babel world order.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch03"]
+    },
+    "ammim": {
+        "hebrew": "עַמִּים",
+        

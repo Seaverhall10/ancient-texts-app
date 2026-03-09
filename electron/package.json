@@ -1,0 +1,54 @@
+{
+  "name": "ancient-texts-study",
+  "version": "1.0.0",
+  "description": "Ancient Texts Study App — Deep scripture study with original languages, cross-references, and divine council theology",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "build:dir": "electron-builder --win --dir"
+  },
+  "author": "Seaver Hall",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.seaverhall.ancient-texts-study",
+    "productName": "Ancient Texts Study",
+    "directories": {
+      "output": "../dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "../output/AncientTextsStudy.html",
+        "to": "app/AncientTextsStudy.html"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "installerHeaderIcon": "icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Ancient Texts Study"
+    }
+  }
+}

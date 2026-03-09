@@ -1,0 +1,233 @@
+
+{
+    "marah": {
+        "hebrew": "מָרָה",
+        "transliteration": "mārâ",
+        "strongs": "H4784",
+        "gloss": "to rebel, be contentious",
+        "definition": "A verb meaning to rebel, be contentious, or disobey, particularly against divine authority. Derived from the root מרר (marar, 'to be bitter'), this term carries connotations of bitter rebellion and stubborn resistance. Used frequently in contexts of Israel's wilderness rebellions (Num 20:24, 27:14) and prophetic indictments of covenant unfaithfulness. The noun form מְרִי (mĕrî) denotes rebellion or contumacy. Theologically significant in describing human resistance to YHWH's commands and the consequences of covenant violation. Related to the place name Marah (Exod 15:23), where bitter waters symbolized Israel's complaining spirit.",
+        "language": "hebrew",
+        "chapters_used": ["exod-15", "num-20"]
+    },
+    "merkavah": {
+        "hebrew": "מֶרְכָּבָה",
+        "transliteration": "merkābâ",
+        "strongs": "H4818",
+        "gloss": "chariot, divine throne-chariot",
+        "definition": "A feminine noun meaning chariot, specifically referring to wheeled vehicles used in warfare and royal processions. Most significantly, merkavah denotes the divine throne-chariot in Ezekiel's inaugural vision (Ezek 1, 10), where YHWH's mobile throne appears with four living creatures (ḥayyôt), wheels within wheels (ʾôpannîm), and overwhelming glory. This vision became foundational for Jewish mystical tradition (Merkavah mysticism), exploring the heavenly realms and divine presence. The term appears in military contexts (Exod 14:25, 1 Kgs 22:35) and Solomon's royal splendor (Song 3:9). The merkavah imagery influenced apocalyptic literature and Second Temple period angelology, representing YHWH's sovereignty, mobility, and transcendent presence.",
+        "language": "hebrew",
+        "chapters_used": ["ezek-1", "exod-14"]
+    },
+    "mo_adim": {
+        "hebrew": "מוֹעֲדִים",
+        "transliteration": "môʿădîm",
+        "strongs": "H4150",
+        "gloss": "appointed times, festivals",
+        "definition": "Plural of מוֹעֵד (môʿēd), meaning appointed times, set feasts, or sacred assemblies. Refers to the divinely ordained festivals and holy convocations established in the Torah (Lev 23), including Passover, Unleavened Bread, Firstfruits, Weeks (Shavuot), Trumpets, Day of Atonement, and Tabernacles (Sukkot). These appointed times structure Israel's liturgical calendar and commemorate salvific events in redemptive history. The root יעד (yāʿad) means 'to appoint' or 'meet by appointment,' emphasizing that these are times when YHWH meets with His people. The term also appears in Gen 1:14, where celestial bodies mark 'seasons' (môʿădîm), linking cosmic order to cultic calendar. Central to covenant relationship and communal worship.",
+        "language": "hebrew",
+        "chapters_used": ["lev-23", "gen-1"]
+    },
+    "neviah": {
+        "hebrew": "נְבִיאָה",
+        "transliteration": "nĕbîʾâ",
+        "strongs": "H5031",
+        "gloss": "prophetess, female prophet",
+        "definition": "Feminine form of נָבִיא (nābîʾ, prophet), designating a woman who speaks divine oracles or exercises prophetic ministry. Biblical examples include Miriam (Exod 15:20), Deborah (Judg 4:4), Huldah (2 Kgs 22:14), and Isaiah's wife (Isa 8:3). These women received direct revelation from YHWH and functioned in leadership, judicial, and intercessory roles. The term indicates that prophetic gifting transcended gender boundaries in ancient Israel, though female prophets appear less frequently in the biblical record. Huldah's authentication of the discovered Torah scroll (2 Kgs 22) demonstrates the authoritative status of nĕbîʾôt. The phenomenon continued into Second Temple period (Luke 2:36, Anna) and early church (Acts 21:9, Philip's daughters).",
+        "language": "hebrew",
+        "chapters_used": ["exod-15", "judg-4"]
+    },
+    "nisayon": {
+        "hebrew": "נִסָּיוֹן",
+        "transliteration": "nissāyôn",
+        "strongs": "H5254",
+        "gloss": "test, trial, proving",
+        "definition": "A noun derived from the verb נָסָה (nāsâ), meaning to test, try, or prove. Refers to divinely ordained trials that reveal character, faith, and covenant loyalty. The paradigmatic example is the Aqedah (Gen 22:1), where God 'tested' (nissâ) Abraham. Such testing is not temptation to evil but probation to demonstrate faithfulness. Israel's wilderness experience constituted prolonged nissāyôn (Deut 8:2, 16), revealing heart attitudes and dependence on YHWH. The term appears in wisdom literature regarding the refining of the righteous (Ps 26:2). Theologically, nissāyôn serves pedagogical and revelatory purposes—teaching obedience and manifesting genuine faith. Distinct from temptation (pĕtî), which entices toward sin.",
+        "language": "hebrew",
+        "chapters_used": ["gen-22", "deut-8"]
+    },
+    "nogesim": {
+        "hebrew": "נֹגְשִׂים",
+        "transliteration": "nōgĕśîm",
+        "strongs": "H5065",
+        "gloss": "taskmasters, slave drivers, oppressors",
+        "definition": "Plural participle of נָגַשׂ (nāgaś), meaning to press, drive, or oppress. Specifically denotes taskmasters or slave drivers who exact forced labor. Most prominently used for Egyptian overseers who oppressed Israel with crushing labor (Exod 3:7, 5:6, 10, 13, 14). These officials enforced Pharaoh's genocidal policies and made Israel's bondage unbearable, precipitating the Exodus. The term carries connotations of ruthless exploitation and dehumanizing treatment. Also used metaphorically for oppressive rulers (Isa 3:12, 9:4) and creditors who exact payment harshly (Deut 15:2-3). The nōgĕśîm represent systemic injustice and tyranny, against which YHWH acts as deliverer and advocate for the oppressed.",
+        "language": "hebrew",
+        "chapters_used": ["exod-3", "exod-5"]
+    },
+    "nuach": {
+        "hebrew": "נוּחַ",
+        "transliteration": "nûaḥ",
+        "strongs": "H5117",
+        "gloss": "to rest, settle, remain",
+        "definition": "A verb meaning to rest, settle down, or come to rest. Semantically related to נֹחַ (Nōaḥ, Noah) and מְנוּחָה (mĕnûḥâ, rest/resting place). Describes physical settling (Gen 8:4, ark resting on Ararat), divine presence dwelling (Num 10:36, ark coming to rest), and the Spirit's descent (Num 11:25-26, Isa 11:2). Theologically significant in Sabbath theology—God 'rested' (nûaḥ) on the seventh day (Exod 20:11), establishing the pattern for human rest. The Promised Land is Israel's mĕnûḥâ (Deut 12:9, Ps 95:11), where they find rest from enemies. Eschatologically, points to ultimate rest in God's presence. The term conveys cessation from labor, security, and peaceful dwelling.",
+        "language": "hebrew",
+        "chapters_used": ["gen-8", "num-10"]
+    },
+    "ohel_moed": {
+        "hebrew": "אֹהֶל מוֹעֵד",
+        "transliteration": "ʾōhel môʿēd",
+        "strongs": "H168/H4150",
+        "gloss": "tent of meeting",
+        "definition": "Compound term meaning 'tent of meeting' or 'tent of appointed time,' designating the portable sanctuary where YHWH met with Moses and Israel during wilderness wanderings. Described extensively in Exodus 25-40, the ʾōhel môʿēd served as the locus of divine presence, revelation, and worship before Solomon's temple. The term emphasizes the covenantal meeting between God and His people at appointed times (môʿădîm). Distinguished from the earlier 'tent' outside the camp (Exod 33:7-11) where Moses sought YHWH. The completed tabernacle (miškān) is consistently called ʾōhel môʿēd, housing the ark, menorah, table of showbread, and altars. The cloud of glory (kābôd) filled it (Exod 40:34-35), signifying divine approval and presence. Central to Israel's cultic life and priestly ministry.",
+        "language": "hebrew",
+        "chapters_used": ["exod-27", "exod-33"]
+    },
+    "olah": {
+        "hebrew": "עֹלָה",
+        "transliteration": "ʿōlâ",
+        "strongs": "H5930",
+        "gloss": "burnt offering, whole offering",
+        "definition": "A feminine noun from the root עָלָה (ʿālâ, 'to go up'), meaning burnt offering or whole offering. The most frequent sacrifice in the Levitical system, entirely consumed by fire on the altar (Lev 1), with nothing retained by the offerer. Represents complete dedication and atonement, the ascending smoke symbolizing the offering 'going up' to God. Prescribed for daily tamîd offerings (Exod 29:38-42), festivals, and voluntary worship. The ʿōlâ appears from earliest times—Noah (Gen 8:20), Abraham's near-sacrifice of Isaac (Gen 22:2-13), and patriarchal worship. Requires unblemished male animals (cattle, sheep, goats, or birds for the poor). Theologically signifies total consecration, substitutionary atonement, and the worshiper's complete surrender to YHWH. The term's etymology emphasizes the vertical dimension of sacrifice.",
+        "language": "hebrew",
+        "chapters_used": ["lev-1", "gen-22"]
+    },
+    "olam": {
+        "hebrew": "עוֹלָם",
+        "transliteration": "ʿôlām",
+        "strongs": "H5769",
+        "gloss": "eternity, everlasting, perpetuity",
+        "definition": "A masculine noun meaning eternity, everlasting time, or perpetuity. Derived from עָלַם (ʿālam, 'to hide' or 'be concealed'), suggesting time beyond human perception or indefinite duration. Used to describe God's eternal nature (Gen 21:33, ʾēl ʿôlām, 'everlasting God'), perpetual covenants (Gen 17:7, bĕrît ʿôlām), and enduring statutes (Exod 12:14, ḥuqqat ʿôlām). The phrase לְעוֹלָם וָעֶד (lĕʿôlām wāʿed, 'forever and ever') intensifies the concept. While ʿôlām can denote indefinite past or future rather than philosophical eternity, it consistently points to permanence beyond temporal limitations. In eschatological contexts, refers to the age to come (ʿôlām habbāʾ). The term appears in doxologies, covenant formulas, and descriptions of divine attributes.",
+        "language": "hebrew",
+        "chapters_used": ["gen-17", "gen-21"]
+    },
+    "omer": {
+        "hebrew": "עֹמֶר",
+        "transliteration": "ʿōmer",
+        "strongs": "H6016",
+        "gloss": "sheaf, measure of grain",
+        "definition": "A masculine noun with dual meaning: (1) a sheaf of grain, particularly the firstfruits sheaf waved before YHWH on the day after Passover Sabbath (Lev 23:10-15), initiating the fifty-day count to Shavuot (Pentecost); (2) a dry measure equal to one-tenth of an ephah, approximately 2.2 liters or 2 quarts (Exod 16:16, 36). The ʿōmer offering consecrated the barley harvest and symbolized Israel's dependence on YHWH's provision. The manna in the wilderness was measured by the ʿōmer (Exod 16:16-36), with a preserved ʿōmer placed in the ark as memorial (Exod 16:33). The counting of the ʿōmer (Sĕfîrat HāʿÔmer) became a significant liturgical practice linking Passover redemption to Sinai revelation. Theologically connects agricultural blessing with covenant faithfulness.",
+        "language": "hebrew",
+        "chapters_used": ["lev-23", "exod-16"]
+    },
+    "or": {
+        "hebrew": "אוֹר",
+        "transliteration": "ʾôr",
+        "strongs": "H216",
+        "gloss": "light, illumination",
+        "definition": "A masculine noun meaning light, illumination, or brightness. First appears in creation narrative (Gen 1:3-4), where God creates light (ʾôr) before luminaries, suggesting light as primordial reality distinct from light-bearers. Symbolically represents divine presence (Ps 27:1, 'YHWH is my light'), truth, life, and salvation. Contrasted with darkness (ḥōšek) in moral and spiritual dualism (Isa 5:20). The righteous walk in light (Isa 2:5), while the wicked stumble in darkness. Messianic prophecies describe the coming one as 'light to the nations' (Isa 42:6, 49:6). The Aaronic blessing invokes YHWH's face shining (ʾôr) upon Israel (Num 6:25). Theologically, ʾôr represents God's self-revelation, holiness, and redemptive presence. Related verb אוֹר (ʾôr) means 'to be or become light.'",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "num-6"]
+    },
+    "orevim": {
+        "hebrew": "עֹרְבִים",
+        "transliteration": "ʿōrĕbîm",
+        "strongs": "H6158",
+        "gloss": "ravens, crows",
+        "definition": "Plural of עֹרֵב (ʿōrēb), meaning ravens or crows, members of the corvid family. Listed among unclean birds (Lev 11:15, Deut 14:14), yet paradoxically used by God to sustain Elijah at the brook Cherith (1 Kgs 17:4-6), demonstrating divine sovereignty over creation and provision through unexpected means. Ravens appear in poetic literature as examples of God's care for creation (Job 38:41, Ps 147:9, Luke 12:24). Their black plumage is proverbial (Song 5:11). The feeding of Elijah by ʿōrĕbîm constitutes a prophetic sign—God commands even ritually unclean creatures to serve His purposes. Some scholars suggest wordplay with עֲרָבִים (ʿărābîm, 'Arabs' or 'desert dwellers'), though the avian interpretation is traditional and contextually fitting.",
+        "language": "hebrew",
+        "chapters_used": ["1kgs-17", "lev-11"]
+    },
+    "oz": {
+        "hebrew": "עֹז",
+        "transliteration": "ʿōz",
+        "strongs": "H5797",
+        "gloss": "strength, might, power",
+        "definition": "A masculine noun meaning strength, might, power, or refuge. Frequently attributed to YHWH as the source of Israel's strength (Exod 15:2, Ps 28:7-8). The term appears in victory songs (Exod 15:13, Ps 21:13), psalms of confidence (Ps 46:1, 'God is our refuge and strength'), and descriptions of divine power in creation and redemption. Related to the verb עָזַז (ʿāzaz, 'to be strong'). The phrase 'YHWH is my strength (ʿōz) and song' (Exod 15:2, Ps 118:14) became a liturgical formula. Human strength is derivative and insufficient apart from God (Ps 33:16-17). The term also denotes fortified places or strongholds (2 Sam 22:33). Theologically emphasizes God's omnipotence and His empowering of the faithful for covenant obedience and spiritual warfare.",
+        "language": "hebrew",
+        "chapters_used": ["exod-15", "ps-46"]
+    },
+    "pa_amon": {
+        "hebrew": "פַּעֲמֹן",
+        "transliteration": "paʿămōn",
+        "strongs": "H6472",
+        "gloss": "bell, golden bell",
+        "definition": "A masculine noun meaning bell, specifically the golden bells attached to the hem of the high priest's robe (mĕʿîl). According to Exod 28:33-34 and 39:25-26, these bells alternated with pomegranates on the garment's border. The sound of the paʿămōnîm announced the high priest's movements in the holy place, ensuring he would 'not die' (Exod 28:35) when ministering before YHWH. The auditory signal served both practical and theological functions—alerting others to the priest's status and symbolizing the need for proper approach to divine holiness. The bells' ringing represented life and acceptable service. Some scholars connect the term to פַּעַם (paʿam, 'foot' or 'step'), suggesting the bells marked the priest's steps. The requirement underscores the gravity of mediatorial ministry.",
+        "language": "hebrew",
+        "chapters_used": ["exod-28", "exod-39"]
+    },
+    "palah": {
+        "hebrew": "פָּלָה",
+        "transliteration": "pālâ",
+        "strongs": "H6395",
+        "gloss": "to distinguish, make separate",
+        "definition": "A verb meaning to distinguish, separate, or make a distinction. Used primarily in Exodus plague narratives where YHWH 'makes a distinction' (hiplîʾ) between Israel and Egypt (Exod 8:22, 9:4, 11:7), demonstrating covenant election and divine sovereignty. The term emphasizes God's ability to discriminate and protect His people amid judgment on their oppressors. Related to the root פָּלָא (pālāʾ, 'to be wonderful' or 'extraordinary'), suggesting that such distinction is a marvelous act of divine power. The concept appears in Levitical holiness codes regarding separation from unclean things (Lev 20:25-26). Theologically significant for understanding election, sanctification, and God's particular relationship with Israel. The hiphil form intensifies the causative sense—God actively creates distinction.",
+        "language": "hebrew",
+        "chapters_used": ["exod-8", "exod-9"]
+    },
+    "panay": {
+        "hebrew": "פָּנַי",
+        "transliteration": "pānay",
+        "strongs": "H6440",
+        "gloss": "my face, my presence",
+        "definition": "First person singular possessive form of פָּנִים (pānîm, 'face'), meaning 'my face' or 'my presence.' Used almost exclusively of divine presence in theophanic contexts. The phrase 'my face' (pānay) appears in God's self-revelation to Moses (Exod 33:20, 23), where YHWH declares 'you cannot see my face, for no one may see me and live,' yet promises to show His 'back' (ʾăḥōray). This anthropomorphic language expresses the tension between divine accessibility and transcendence. The 'face of God' represents His immediate, unmediated presence—too overwhelming for mortal encounter. Yet God's face shining upon His people (Num 6:25) conveys blessing and favor. The term underscores the paradox of covenant relationship—intimacy with the Holy One who remains ultimately beyond full comprehension.",
+        "language": "hebrew",
+        "chapters_used": ["exod-33", "num-6"]
+    },
+    "panim_el_panim": {
+        "hebrew": "פָּנִים אֶל־פָּנִים",
+        "transliteration": "pānîm ʾel-pānîm",
+        "strongs": "H6440",
+        "gloss": "face to face",
+        "definition": "Idiomatic expression meaning 'face to face,' denoting direct, intimate encounter without intermediary. Most significantly describes Moses' unique relationship with YHWH: 'YHWH spoke to Moses face to face, as a man speaks to his friend' (Exod 33:11; cf. Num 12:8, Deut 34:10). This unparalleled intimacy distinguished Moses from all other prophets. Jacob named Peniel ('face of God') after wrestling with the divine figure, marveling 'I have seen God face to face, yet my life has been preserved' (Gen 32:30). The phrase appears in contexts of direct confrontation (Deut 5:4, at Sinai) and eschatological hope (1 Cor 13:12, seeing God directly in the age to come). Represents the highest form of revelation and covenant relationship, anticipating ultimate restoration of Edenic intimacy.",
+        "language": "hebrew",
+        "chapters_used": ["exod-33", "gen-32"]
+    },
+    "par_oh": {
+        "hebrew": "פַּרְעֹה",
+        "transliteration": "parʿō",
+        "strongs": "H6547",
+        "gloss": "Pharaoh, Egyptian king",
+        "definition": "Hebrew rendering of Egyptian pr-ʿ3 ('great house'), originally designating the royal palace but becoming the title for Egypt's king by the New Kingdom period. In biblical narrative, Pharaoh represents the archetypal oppressor and embodiment of human pride opposing YHWH's purposes. The Exodus Pharaoh (possibly Ramesses II or his successor) enslaved Israel and resisted divine demands for liberation, resulting in the ten plagues demonstrating YHWH's supremacy over Egyptian gods and royal power (Exod 5-14). Earlier, Joseph served under a favorable Pharaoh (Gen 41), illustrating Egypt's dual role as refuge and oppressor. Prophetic literature uses 'Pharaoh' symbolically for worldly power and false security (Ezek 29-32). The hardening of Pharaoh's heart (Exod 7-14) raises theological questions about divine sovereignty and human responsibility.",
+        "language": "hebrew",
+        "chapters_used": ["exod-5", "gen-41"]
+    },
+    "parah": {
+        "hebrew": "פָּרָה",
+        "transliteration": "pārâ",
+        "strongs": "H6510",
+        "gloss": "cow, heifer",
+        "definition": "A feminine noun meaning cow or heifer. Most significantly appears in the ritual of the red heifer (pārâ ʾădummâ, Num 19), an unblemished red cow burned outside the camp, its ashes mixed with water for purification from corpse contamination. This unique ritual, called a ḥuqqâ (statute without rational explanation), provided ceremonial cleansing for death-related impurity. The red heifer's rarity and the ritual's mysterious nature made it paradigmatic of incomprehensible divine commands requiring obedient faith. Pharaoh's dream featured fat and lean cows (pārôt, Gen 41:2-4), symbolizing years of plenty and famine. The term also appears in agricultural contexts (1 Sam 6:7, cows pulling the ark). The red heifer ritual influenced Second Temple purity practices and appears in rabbinic discussion of inexplicable commandments.",
+        "language": "hebrew",
+        "chapters_used": ["num-19", "gen-41"]
+    },
+    "parokhet": {
+        "hebrew": "פָּרֹכֶת",
+        "transliteration": "pārōket",
+        "strongs": "H6532",
+        "gloss": "veil, curtain, screen",
+        "definition": "A feminine noun meaning veil, curtain, or screen, specifically the inner curtain separating the Holy Place from the Holy of Holies (qōdeš haqqŏdāšîm) in the tabernacle and temple. Described in Exod 26:31-33, the pārōket was woven from blue, purple, and scarlet yarn with cherubim designs, hung on gold-overlaid acacia pillars. It concealed the ark of the covenant and divine presence, penetrable only by the high priest once annually on Yom Kippur (Lev 16:2, 12-15). The veil symbolized separation between holy God and sinful humanity, the barrier requiring blood atonement for access. At Jesus' death, the temple veil tore from top to bottom (Matt 27:51), signifying opened access to God's presence through Christ's sacrifice. Hebrews 10:19-20 interprets the veil christologically as Jesus' flesh.",
+        "language": "hebrew",
+        "chapters_used": ["exod-26", "lev-16"]
+    },
+    "pedut": {
+        "hebrew": "פְּדוּת",
+        "transliteration": "pĕdût",
+        "strongs": "H6304",
+        "gloss": "redemption, ransom",
+        "definition": "A feminine noun meaning redemption, ransom, or deliverance, derived from the verb פָּדָה (pādâ, 'to redeem' or 'ransom'). Refers to the act of securing release through payment or substitution. Used for redemption of firstborn sons (Exod 13:13, Num 18:15-16), requiring payment to priests in lieu of service. More broadly denotes YHWH's redemptive acts delivering Israel from bondage—'You in your mercy have led forth the people whom you have redeemed (pādîtā)' (Exod 15:13). Theologically, pĕdût emphasizes the costliness of redemption and God's initiative in securing freedom for His people. Related terms include גְּאֻלָּה (gĕʾullâ, kinsman-redemption) and כֹּפֶר (kōper, ransom price). The concept anticipates New Testament redemption theology (λύτρωσις, lytrōsis) through Christ's blood.",
+        "language": "hebrew",
+        "chapters_used": ["exod-13", "exod-15"]
+    },
+    "peh": {
+        "hebrew": "פֶּה",
+        "transliteration": "peh",
+        "strongs": "H6310",
+        "gloss": "mouth, opening, speech",
+        "definition": "A masculine noun meaning mouth, opening, or speech. Used literally for the physical mouth (Gen 45:12) and metaphorically for speech, words, or commands. The phrase 'according to the mouth of' (ʿal-pî) means 'according to the command of' (Num 3:16). Divine speech is frequently described as proceeding from God's 'mouth' (Deut 8:3, 'man does not live by bread alone, but by every word that comes from the mouth of YHWH'). Moses' reluctance to speak prompted God's assurance: 'Who has made man's mouth?' (Exod 4:11). The 'mouth of the sword' (pî-ḥereb) is an idiom for slaughter (Gen 34:26). Prophets speak what YHWH puts in their mouth (Jer 1:9). The term emphasizes the power of speech—creative (Gen 1), revelatory (Exod 4:12), and covenantal (Deut 30:14).",
+        "language": "hebrew",
+        "chapters_used": ["exod-4", "deut-8"]
+    },
+    "pesach": {
+        "hebrew": "פֶּסַח",
+        "transliteration": "pesaḥ",
+        "strongs": "H6453",
+        "gloss": "Passover, paschal lamb",
+        "definition": "A masculine noun meaning Passover or paschal lamb, derived from the verb פָּסַח (pāsaḥ, 'to pass over' or 'skip over'). Designates both the festival commemorating Israel's exodus from Egypt and the sacrificial lamb whose blood marked Israelite doorposts, causing the destroying angel to 'pass over' their homes during the tenth plague (Exod 12:1-28). Instituted as a perpetual ordinance (ḥuqqat ʿôlām), Pesach is celebrated on 14 Nisan, initiating the seven-day Feast of Unleavened Bread (ḥag hammatsôt). The ritual includes roasted lamb, unleavened bread, and bitter herbs, with detailed instructions for preparation and consumption. Theologically, Pesach represents redemption through substitutionary blood sacrifice, divine judgment on oppressors, and covenant formation. New Testament interprets Christ as the Passover lamb (1 Cor 5:7), fulfilling typological significance.",
+        "language": "hebrew",
+        "chapters_used": ["exod-12", "lev-23"]
+    },
+    "pesel": {
+        "hebrew": "פֶּסֶל",
+        "transliteration": "pesel",
+        "strongs": "H6459",
+        "gloss": "graven image, idol",
+        "definition": "A masculine noun meaning graven image, carved idol, or hewn statue, derived from the verb פָּסַל (pāsal, 'to hew' or 'carve'). Refers to physical representations of deities, explicitly forbidden in the Decalogue: 'You shall not make for yourself a pesel' (Exod 20:4, Deut 5:8). The term appears in prophetic polemics against idolatry (Isa 40:19-20, 44:9-20, Jer 10:14), emphasizing the absurdity of worshiping human-made objects. Micah's pesel (Judg 17-18) and Jeroboam's golden calves (1 Kgs 12:28-30) illustrate Israel's recurring apostasy. The prohibition extends beyond foreign gods to any visual representation of YHWH, preserving His transcendence and preventing reduction to creaturely form. Related terms include מַסֵּכָה (massēkâ, molten image) and אֱלִיל (ʾĕlîl, worthless idol). The pesel represents false worship and covenant violation.",
+        "language": "hebrew",
+        "chapters_used": ["exod-20", "judg-17"]
+    },
+    "pesha": {
+        "hebrew": "פֶּשַׁע",
+        "transliteration": "pešaʿ",
+        "strongs": "H6588",
+        "gloss": "transgression, rebellion, sin",
+        "definition": "A masculine noun meaning transgression, rebellion, or willful sin, derived from the verb פָּשַׁע (pāšaʿ, 'to rebel' or 'transgress'). Denotes deliberate violation of covenant obligations, rebellion against authority, or breach of relationship. Distinguished from חַטָּאת (ḥaṭṭāʾt, sin/missing the mark) and עָוֹן (ʿāwōn, iniquity/guilt), pešaʿ emphasizes the volitional, defiant nature

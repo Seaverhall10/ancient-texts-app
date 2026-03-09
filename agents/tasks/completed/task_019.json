@@ -1,0 +1,20 @@
+{
+  "id": "task_019",
+  "agent": "lector",
+  "priority": 19,
+  "description": "Review all chapters in 'Book of Jasher' and identify Hebrew/Aramaic/Greek terms that should be in the glossary but are not. Generate new glossary entries with proper transliteration, Strong's numbers, definitions, and chapters_used arrays.",
+  "metadata": {
+    "text": "jasher",
+    "type": "glossary_expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:53.039961",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_019.json",
+  "_name": "task_019.json",
+  "completed_at": "2026-02-19T08:36:18.388850",
+  "tokens": {
+    "input": 1049,
+    "output": 8192
+  }
+}

@@ -1,0 +1,206 @@
+
+{
+    "nes": {
+        "hebrew": "נֵס",
+        "transliteration": "nēs",
+        "strongs": "H5251",
+        "gloss": "sign, banner, standard",
+        "definition": "A visible sign, banner, or standard raised as a rallying point or signal. In Exodus 17:15, Moses builds an altar called 'YHWH-Nissi' (YHWH is my banner) after victory over Amalek. The term denotes both military standards and miraculous signs that demonstrate divine power and presence. Related to the root נסס (nāsas) meaning 'to lift up' or 'raise.' In prophetic literature, the nes serves as a signal to gather the nations or Israel's scattered remnant (Isa 11:12). Distinct from 'ôt (sign/covenant marker) and môphēt (wonder/portent), though semantic overlap exists in contexts of divine intervention.",
+        "language": "hebrew",
+        "chapters_used": ["ex-17"]
+    },
+    "neshekh": {
+        "hebrew": "נֶשֶׁךְ",
+        "transliteration": "nešeḵ",
+        "strongs": "H5392",
+        "gloss": "interest, usury",
+        "definition": "Interest charged on a loan, literally 'a bite.' Derived from the root נשך (nāšaḵ) 'to bite,' conveying the consuming nature of compound interest. Torah legislation strictly prohibits charging interest to fellow Israelites (Exod 22:25, Lev 25:36-37, Deut 23:19-20), though permitted in transactions with foreigners. This prohibition reflects covenant solidarity and the understanding that economic exploitation undermines community cohesion. The term appears in prophetic denunciations of social injustice (Ezek 18:8, 13, 17; 22:12) and wisdom literature's ethical instruction. Distinguished from tarbit (increase/profit), though often paired in legal texts. The prohibition aimed to prevent debt slavery and maintain economic equity within the covenant community.",
+        "language": "hebrew",
+        "chapters_used": ["ex-22", "lev-25"]
+    },
+    "neviah": {
+        "hebrew": "נְבִיאָה",
+        "transliteration": "nəḇîʾâ",
+        "strongs": "H5031",
+        "gloss": "prophetess, female prophet",
+        "definition": "A woman who speaks prophetically by divine inspiration, the feminine form of nāḇîʾ (prophet). Notable biblical prophetesses include Miriam (Exod 15:20), Deborah (Judg 4:4), Huldah (2 Kgs 22:14), and Isaiah's wife (Isa 8:3). The term indicates authentic prophetic authority regardless of gender, with these women functioning in leadership, judicial, and oracular roles. Miriam leads Israel in worship after the Red Sea crossing; Deborah judges Israel and delivers divine battle strategy; Huldah authenticates the discovered Torah scroll during Josiah's reform. The existence of female prophets demonstrates that prophetic gifting transcended gender boundaries in ancient Israel, though institutional priesthood remained male. False prophetesses are also mentioned (Ezek 13:17, Neh 6:14), indicating the term's application to both authentic and counterfeit claimants.",
+        "language": "hebrew",
+        "chapters_used": ["ex-15"]
+    },
+    "nisayon": {
+        "hebrew": "נִסָּיוֹן",
+        "transliteration": "nissāyôn",
+        "strongs": "H5254",
+        "gloss": "test, trial, proving",
+        "definition": "A test or trial that proves character and faithfulness, from the root נסה (nāsâ) 'to test, try, prove.' The term encompasses both divine testing of humans (Gen 22:1, Exod 15:25, 16:4, Deut 8:2) and human testing of God (Exod 17:2, 7; Num 14:22). When God tests, the purpose is pedagogical and revelatory—to demonstrate what is in the heart, refine faith, and develop dependence. The Aqedah (binding of Isaac) represents the paradigmatic test of Abraham's faith. Israel's wilderness experience constitutes an extended nisayon revealing their tendency toward rebellion despite miraculous provision. When humans test God, it manifests unbelief and presumption, demanding signs beyond what has been revealed. The term differs from yissûr (discipline/chastisement) in emphasizing proof rather than correction, though both may overlap in divine pedagogy.",
+        "language": "hebrew",
+        "chapters_used": ["gen-22", "ex-15", "ex-16", "ex-17"]
+    },
+    "nogesim": {
+        "hebrew": "נֹגְשִׂים",
+        "transliteration": "nōḡəśîm",
+        "strongs": "H5065",
+        "gloss": "taskmasters, slave drivers, oppressors",
+        "definition": "Taskmasters or slave drivers who exact forced labor through oppression, plural of nōḡēś. The term appears prominently in the Exodus narrative describing Egyptian overseers who afflict Israel with crushing labor (Exod 1:11, 3:7, 5:6, 10, 13, 14). Derived from the root נגש (nāḡaś) 'to press, drive, oppress,' conveying relentless pressure and exploitation. The nogesim implement Pharaoh's genocidal policy through economic oppression, making life bitter with hard service. Isaiah uses the term metaphorically for foreign oppressors and unjust rulers (Isa 3:12, 9:4, 14:2, 4, 60:17). The absence of nogesim characterizes the messianic age when oppression ceases. The term's harsh connotations make it a powerful descriptor of systemic injustice and the antithesis of covenant community where exploitation is forbidden.",
+        "language": "hebrew",
+        "chapters_used": ["ex-01", "ex-03", "ex-05"]
+    },
+    "nuach": {
+        "hebrew": "נוּחַ",
+        "transliteration": "nûaḥ",
+        "strongs": "H5117",
+        "gloss": "rest, settle, remain",
+        "definition": "To rest, settle down, or remain in a place, conveying cessation from labor or wandering and establishment in security. The root appears in Noah's name (Noaḥ), with the etymology 'this one will give us rest (yənaḥămēnû) from our work' (Gen 5:29). God causes the ark to rest (tānaḥ) on Ararat's mountains (Gen 8:4). The term describes the Spirit's resting upon individuals (Num 11:25-26, Isa 11:2) and God's presence dwelling among His people. Related to mənûḥâ (resting place) and the Sabbath concept of cessation. In Deuteronomy, nuach describes Israel's future rest in the Promised Land (Deut 12:9-10, 25:19), a rest from enemies enabling proper worship. The term carries theological weight regarding divine presence, covenant fulfillment, and eschatological rest. Distinct from šāḇat (cease, Sabbath) in emphasizing settlement and security rather than mere cessation.",
+        "language": "hebrew",
+        "chapters_used": ["gen-05", "gen-08"]
+    },
+    "ohel_moed": {
+        "hebrew": "אֹהֶל מוֹעֵד",
+        "transliteration": "ʾōhel môʿēḏ",
+        "strongs": "H168/H4150",
+        "gloss": "tent of meeting",
+        "definition": "The Tent of Meeting, literally 'tent of appointed meeting,' the portable sanctuary where YHWH met with Moses and Israel during wilderness wanderings. The term combines ʾōhel (tent) and môʿēḏ (appointed time/meeting place). Two distinct structures bear this name: (1) Moses' preliminary tent outside the camp where he met God face-to-face before the Tabernacle's construction (Exod 33:7-11), and (2) the completed Mishkan's designation emphasizing its function as the locus of divine-human encounter (Exod 27:21, 29:42-44). The ohel moed served as the meeting point for revelation, where God spoke to Moses 'as a man speaks to his friend' (Exod 33:11). The cloud of glory (ʿănān) descended upon it, signaling divine presence. It housed the Ark, altar of incense, menorah, and table of showbread. The term emphasizes accessibility and appointment—God meeting His people at designated times and places according to covenant stipulation.",
+        "language": "hebrew",
+        "chapters_used": ["ex-27", "ex-29", "ex-33"]
+    },
+    "olah": {
+        "hebrew": "עֹלָה",
+        "transliteration": "ʿōlâ",
+        "strongs": "H5930",
+        "gloss": "burnt offering, holocaust",
+        "definition": "The burnt offering, literally 'that which goes up,' referring to smoke ascending to God as the entire animal is consumed on the altar. Derived from ʿālâ (to go up, ascend). The olah represents total consecration to YHWH—unlike peace offerings where portions are eaten, the entire animal (except hide) is burned, symbolizing complete devotion. Instituted from earliest times (Gen 8:20, 22:2-13), the olah appears throughout Torah legislation (Lev 1, 6:8-13). It serves multiple functions: atonement (Lev 1:4), worship, consecration of priests (Exod 29:18), and daily tamid offerings maintaining covenant relationship (Exod 29:38-42). The Aqedah's ram substitutes as an olah for Isaac (Gen 22:13). The offering's complete consumption signifies the worshiper's total surrender and God's acceptance. Prophets critique olah divorced from justice and obedience (1 Sam 15:22, Isa 1:11, Hos 6:6), emphasizing that ritual must reflect heart devotion.",
+        "language": "hebrew",
+        "chapters_used": ["gen-08", "gen-22", "ex-29", "lev-01"]
+    },
+    "olam": {
+        "hebrew": "עוֹלָם",
+        "transliteration": "ʿôlām",
+        "strongs": "H5769",
+        "gloss": "eternity, everlasting, forever",
+        "definition": "Eternity, everlasting time, or indefinite futurity, from a root meaning 'hidden' or 'concealed.' The term's semantic range includes: (1) unlimited future duration ('forever'), (2) ancient past ('of old'), (3) the lifespan of an individual, and (4) cosmic/eschatological time beyond human reckoning. God is described as ʾĒl ʿôlām (eternal God, Gen 21:33) and melek ʿôlām (eternal king). Covenants are designated bərît ʿôlām (everlasting covenant, Gen 9:16, 17:7), indicating perpetual validity. Torah statutes are ḥuqqat ʿôlām (eternal statute, Exod 12:14, 27:21, 28:43). The term does not always denote absolute philosophical eternity but often 'as long as conditions exist' or 'to the vanishing point.' Context determines whether olam indicates perpetuity within the present age or transcendent eternity. The phrase ʿaḏ-ʿôlām (forever and ever) intensifies the duration. In eschatological contexts, olam describes the age to come (ʿôlām habbāʾ) contrasted with the present age.",
+        "language": "hebrew",
+        "chapters_used": ["gen-09", "gen-17", "gen-21", "ex-12", "ex-27", "ex-28"]
+    },
+    "omer": {
+        "hebrew": "עֹמֶר",
+        "transliteration": "ʿōmer",
+        "strongs": "H6016",
+        "gloss": "omer measure, sheaf",
+        "definition": "A dry measure equal to one-tenth of an ephah (approximately 2.2 liters or 2 quarts), used for measuring grain, particularly manna. The term also denotes a sheaf of grain. In Exodus 16:16-36, each Israelite gathers an omer of manna daily, with double portions on the sixth day for Sabbath observance. An omer of manna is preserved in a jar before the Testimony as a memorial for future generations (Exod 16:32-34). The omer measurement establishes equity in distribution—regardless of gathering capacity, each person ends with exactly one omer, demonstrating divine provision and preventing hoarding. Leviticus 23:10-15 prescribes offering an omer of firstfruits barley during Passover season, initiating the fifty-day count to Shavuot (Pentecost). This 'counting of the omer' links Passover's redemption with Sinai's revelation. The term thus connects daily sustenance, memorial, equity, and agricultural-liturgical cycles.",
+        "language": "hebrew",
+        "chapters_used": ["ex-16", "lev-23"]
+    },
+    "or": {
+        "hebrew": "אוֹר",
+        "transliteration": "ʾôr",
+        "strongs": "H216",
+        "gloss": "light, illumination",
+        "definition": "Light, illumination, or brightness, both physical and metaphorical. The first divine creative utterance is 'yəhî ʾôr' (let there be light, Gen 1:3), with light existing before luminaries' creation on Day Four, suggesting primordial light distinct from solar illumination. Light represents God's presence, glory, truth, and life, while darkness symbolizes chaos, evil, and death. God is described as wrapped in light (Ps 104:2) and dwelling in unapproachable light (1 Tim 6:16). The term appears in theophanic contexts—the pillar of fire (ʾôr) guides Israel (Exod 13:21), and God's face shining brings blessing (Num 6:25). Metaphorically, or denotes revelation, understanding, salvation, and righteousness. Torah is light (Ps 119:105), the righteous are light (Prov 4:18), and the Servant brings light to nations (Isa 42:6, 49:6). The menorah's perpetual light (ner tamid) symbolizes continuous divine presence. Eschatologically, God Himself becomes eternal light, replacing sun and moon (Isa 60:19-20, Rev 21:23).",
+        "language": "hebrew",
+        "chapters_used": ["gen-01", "ex-13", "ex-27"]
+    },
+    "orevim": {
+        "hebrew": "עֹרְבִים",
+        "transliteration": "ʿōrəḇîm",
+        "strongs": "H6158",
+        "gloss": "ravens, crows",
+        "definition": "Ravens or crows, plural of ʿōrēḇ, large black corvids considered unclean birds (Lev 11:15, Deut 14:14). Despite their unclean status, ravens serve as divine agents in Elijah's provision at the brook Cherith, bringing bread and meat morning and evening (1 Kgs 17:4-6). This paradox emphasizes God's sovereignty over creation and ability to use unexpected means for provision. Noah sends a raven (ʿōrēḇ) from the ark to test flood waters; unlike the dove, it does not return, suggesting it found carrion to sustain itself (Gen 8:7). Job 38:41 and Psalm 147:9 note God's care in feeding young ravens, illustrating divine providence extending even to creatures humans deem insignificant or repulsive. Luke 12:24 references ravens as examples of God's provision. The term's root ʿāraḇ may relate to 'evening' or 'mixture,' possibly referencing the bird's dark coloring or crepuscular activity.",
+        "language": "hebrew",
+        "chapters_used": ["gen-08", "lev-11"]
+    },
+    "oz": {
+        "hebrew": "עֹז",
+        "transliteration": "ʿōz",
+        "strongs": "H5797",
+        "gloss": "strength, might, power",
+        "definition": "Strength, might, power, or stronghold, denoting both physical force and protective refuge. The term frequently describes divine power—YHWH is Israel's oz (strength, Exod 15:2, Ps 28:7-8, 46:1), the source of victory and security. In the Song of the Sea, Moses declares 'ʿozzî wəzimrāt Yāh' (my strength and song is YAH, Exod 15:2), celebrating God's mighty deliverance at the Red Sea. The term appears in contexts of warfare, where God grants oz to His people or king (Ps 29:11, 68:35). Architecturally, oz can denote a fortress or stronghold (Ps 27:1, 31:4). The phrase ʿōz ûmāʿôz (strength and refuge) pairs power with protection. Wisdom literature associates oz with moral fortitude and dignity (Prov 31:25). Prophetically, the term describes messianic strength (Isa 40:10) and eschatological restoration when God becomes Israel's everlasting oz. Distinct from kōaḥ (capacity, ability) and gəḇûrâ (heroic might), oz emphasizes inherent strength and protective power.",
+        "language": "hebrew",
+        "chapters_used": ["ex-15"]
+    },
+    "pa'amon": {
+        "hebrew": "פַּעֲמֹן",
+        "transliteration": "paʿămōn",
+        "strongs": "H6472",
+        "gloss": "bell, golden bell",
+        "definition": "A small bell, specifically the golden bells attached to the hem of the high priest's robe (məʿîl). Exodus 28:33-35 and 39:25-26 prescribe alternating golden bells (paʿămōnê zāhāḇ) and pomegranates on the robe's lower edge. The bells' sound announces the high priest's movements as he ministers in the Holy Place, 'that he may not die' (Exod 28:35). The auditory signal serves multiple functions: (1) alerting to the priest's approach before God's presence, (2) providing evidence of life during Yom Kippur service when he enters alone, and (3) symbolizing proclamation and testimony. The pairing with pomegranates (rimmonîm) may symbolize fruitfulness and witness. The term derives from paʿam (foot, step, occurrence), suggesting the bells mark the priest's steps. Rabbinic tradition emphasizes the bells' protective function, ensuring proper protocol in approaching the Holy. The sound represents the voice of Torah and priestly intercession.",
+        "language": "hebrew",
+        "chapters_used": ["ex-28", "ex-39"]
+    },
+    "palah": {
+        "hebrew": "פָּלָה",
+        "transliteration": "pālâ",
+        "strongs": "H6395",
+        "gloss": "distinguish, make distinction, separate",
+        "definition": "To distinguish, make a distinction, or separate between categories, emphasizing discernment and differentiation. The Hiphil form (hiplâ) appears in Exodus 8:22 (8:18 Heb) and 9:4 where God makes a distinction between Egypt and Goshen, between Egyptian livestock and Israelite livestock, demonstrating sovereign discrimination in judgment. The term appears in Exodus 11:7 regarding the distinction between Egypt and Israel during the final plague. This divine palah demonstrates covenant faithfulness—God protects His people while judging their oppressors. The root relates to peleʾ (wonder, marvel), suggesting that divine distinction-making manifests His extraordinary power. Leviticus uses related terms for distinguishing clean from unclean (Lev 10:10, 11:47, 20:25). The concept underlies Israel's call to be a separated, holy nation. God's ability to palah reveals His intimate knowledge and sovereign control, executing justice while preserving the righteous.",
+        "language": "hebrew",
+        "chapters_used": ["ex-08", "ex-09", "ex-11"]
+    },
+    "panay": {
+        "hebrew": "פָּנַי",
+        "transliteration": "pānay",
+        "strongs": "H6440",
+        "gloss": "my face, my presence",
+        "definition": "My face or my presence, first-person possessive form of pānîm (face). The term carries profound theological significance when referring to God's face/presence. In Exodus 33:14, God promises 'pānay yēlēkû' (my presence will go with you), assuring Moses of continued divine accompaniment despite Israel's sin. The phrase 'seeing God's face' (rāʾâ pānay) can denote both dangerous direct encounter (Exod 33:20, 'no one can see my face and live') and covenant fellowship (Exod 33:11, Moses speaks with God 'face to face'). The bread of the Presence is literally 'bread of the face' (leḥem happānîm, Exod 25:30), symbolizing continual fellowship. God's face shining (ʾôr pānîm) brings blessing (Num 6:25), while His face hidden brings distress (Ps 27:9). The term encompasses presence, favor, attention, and personal encounter. Seeking God's face (bāqaš pānay) denotes earnest worship and relationship.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-33"]
+    },
+    "panim_el_panim": {
+        "hebrew": "פָּנִים אֶל־פָּנִים",
+        "transliteration": "pānîm ʾel-pānîm",
+        "strongs": "H6440",
+        "gloss": "face to face",
+        "definition": "Face to face, an idiom denoting direct, intimate, personal encounter without intermediary. The phrase describes Moses' unique relationship with YHWH: 'YHWH spoke to Moses face to face, as a man speaks to his friend' (Exod 33:11). Deuteronomy 34:10 declares no prophet arose in Israel like Moses, 'whom YHWH knew face to face.' This intimacy distinguishes Moses from other prophets who receive revelation through dreams and visions (Num 12:6-8). The expression appears in Genesis 32:30 when Jacob names Peniel ('face of God'), saying 'I have seen God face to face, yet my life has been preserved.' The phrase indicates unmediated communication, personal knowledge, and covenant intimacy. It contrasts with seeing God's 'back' (ʾāḥôr, Exod 33:23) or through a veil. Theologically, panim el panim represents the ideal of covenant relationship—direct access to God's presence, though fully realized only eschatologically (1 Cor 13:12, Rev 22:4).",
+        "language": "hebrew",
+        "chapters_used": ["gen-32", "ex-33"]
+    },
+    "par'oh": {
+        "hebrew": "פַּרְעֹה",
+        "transliteration": "parʿōh",
+        "strongs": "H6547",
+        "gloss": "Pharaoh, Egyptian king",
+        "definition": "Pharaoh, the title of Egyptian kings, derived from Egyptian pr-ʿ3 (per-aa) meaning 'great house,' originally referring to the royal palace but becoming the monarch's designation. In Genesis-Exodus, multiple pharaohs appear: the pharaoh of Abraham's time (Gen 12:15-20), Joseph's pharaoh who elevates him to vizier (Gen 41), the pharaoh 'who did not know Joseph' initiating oppression (Exod 1:8), and the Exodus pharaoh whose hardened heart leads to the plagues and Red Sea destruction (Exod 5-14). The Exodus pharaoh embodies opposition to YHWH's sovereignty, claiming 'Who is YHWH that I should obey his voice?' (Exod 5:2). The narrative emphasizes God's power over Egypt's god-king, with each plague demonstrating YHWH's supremacy over Egyptian deities and pharaoh's impotence. The hardening of pharaoh's heart (ḥāzaq/kāḇēḏ/qāšâ lēḇ) raises theological questions about divine sovereignty and human responsibility. Pharaoh becomes the archetypal oppressor and paradigm of pride judged by God.",
+        "language": "hebrew",
+        "chapters_used": ["gen-12", "gen-41", "ex-01", "ex-05", "ex-07", "ex-08", "ex-09", "ex-10", "ex-11", "ex-12", "ex-14"]
+    },
+    "parah": {
+        "hebrew": "פָּרָה",
+        "transliteration": "pārâ",
+        "strongs": "H6509",
+        "gloss": "be fruitful, bear fruit",
+        "definition": "To be fruitful, bear fruit, or multiply, appearing in God's blessing and command to humanity and animals. The term first appears in Genesis 1:22, 28 where God blesses sea creatures, birds, and humanity with 'pərû ûrəḇû' (be fruitful and multiply), establishing procreation as divine mandate and blessing. The command is repeated to Noah post-flood (Gen 9:1, 7), emphasizing continuity of the creation mandate. God promises Abraham that He will make him exceedingly fruitful (Gen 17:6), with the same promise to Jacob (Gen 35:11). The term describes Israel's multiplication in Egypt despite oppression (Exod 1:7), fulfilling patriarchal promises. Fruitfulness signifies covenant blessing, while barrenness indicates curse or divine withholding. The root relates to pərî (fruit), connecting human reproduction with agricultural abundance. Metaphorically, the righteous are described as fruitful trees (Ps 1:3). The term emphasizes not mere reproduction but abundant, blessed increase as divine gift.",
+        "language": "hebrew",
+        "chapters_used": ["gen-01", "gen-09", "gen-17", "gen-35", "ex-01"]
+    },
+    "parokhet": {
+        "hebrew": "פָּרֹכֶת",
+        "transliteration": "pārōḵeṯ",
+        "strongs": "H6532",
+        "gloss": "veil, curtain, screen",
+        "definition": "The veil or curtain separating the Holy Place from the Holy of Holies in the Tabernacle and Temple, creating a barrier between the divine presence and the people. Exodus 26:31-35 prescribes the parokhet's construction from blue, purple, and scarlet yarn with cherubim woven into fine linen, hung on gold-overlaid acacia pillars. The veil separates the Ark of the Testimony in the Most Holy Place from the outer sanctuary, symbolizing the separation between holy God and sinful humanity. Only the high priest may pass beyond the parokhet, and only on Yom Kippur after proper purification and blood sacrifice (Lev 16:2, 12-15). The term derives from a root meaning 'to separate' or 'screen off.' The parokhet's cherubim recall Eden's cherubim guarding access to the Tree of Life (Gen 3:24). At Jesus' death, the Temple veil tears from top to bottom (Matt 27:51), symbolizing opened access to God's presence through Christ's sacrifice. Hebrews 10:19-20 interprets Christ's flesh as the parokhet through which believers enter God's presence.",
+        "language": "hebrew",
+        "chapters_used": ["ex-26", "ex-36", "ex-40", "lev-16"]
+    },
+    "pedut": {
+        "hebrew": "פְּדוּת",
+        "transliteration": "pəḏûṯ",
+        "strongs": "H6304",
+        "gloss": "redemption, ransom",
+        "definition": "Redemption or ransom, from the root pādâ (to ransom, redeem, deliver). The term denotes liberation through payment of a price, particularly in contexts of slavery, debt, or legal obligation. Related to gəʾullâ (kinsman redemption) but emphasizing the ransom price rather than kinship obligation. The firstborn of Israel belong to YHWH due to the Passover deliverance, requiring redemption (pidyôn) through substitute payment (Exod 13:13-15, Num 18:15-16). The Levites serve as corporate redemption for Israel's firstborn (Num 3:12, 45-51). Theologically, pedut describes God's redemptive acts—delivering Israel from Egypt (Deut 7:8, 9:26, 13:5), from exile (Isa 50:2), and from sin (Ps 130:7-8). The term implies both the cost of redemption and the resulting freedom. Eschatologically, pedut describes messianic deliverance and final restoration. The concept underlies New Testament redemption theology (lytron, apolytrōsis), with Christ's blood as the ransom price (Mark 10:45, Eph 1:7).",
+        "language": "hebrew",
+        "chapters_used": ["ex-13"]
+    },
+    "peh": {
+        "hebrew": "פֶּה",
+        "transliteration": "peh",
+        "strongs": "H6310",
+        "gloss": "mouth, opening, edge",
+        "definition": "Mouth, opening, or edge, with extensive literal and metaphorical usage. Literally denotes the mouth of humans, animals, or anthropomorphically of God. The phrase 'according to the mouth of' (ʿal-pî) means 'according to the command/word of' (Exod 17:1, Num 3:16). God speaks 'mouth to mouth' (peh ʾel-peh) with Moses (Num 12:8), indicating direct communication. The 'mouth of the sword' (pî-ḥereḇ) is its edge (Gen 34:26, Exod 17:13). The 'mouth of the earth' (pî hāʾădāmâ) describes the ground opening to swallow Korah (Num 16:30). Theologically significant phrases include: 'from the mouth of YHWH' (mippî YHWH) indicating divine revelation (Deut 8:3), and 'the mouth of two or three witnesses' (pî šənayim ʿēḏîm) establishing legal testimony (Deut 19:15). The term appears in contexts of blessing, cursing, prophecy, testimony, and covenant stipulation. Proverbs emphasizes guarding one's mouth (Prov 13:3, 21:23). The mouth reveals the heart's content (Matt 12:34).",
+        "language": "hebrew",
+        "chapters_used": ["ex-17", "num-12"]
+    },
+    "pesach": {
+        "hebrew": "פֶּסַח",
+        "transliteration": "pesaḥ",
+        "strongs": "H6453",
+        "gloss": "Passover, paschal lamb",
+        "definition": "Passover, the festival commemorating Israel's exodus from Egypt, or the paschal lamb sacrificed for the occasion. The term derives from pāsaḥ (to pass over, spare), referencing YHWH's passing over Israelite homes marked with lamb's blood while striking Egyptian firstborn (Exod 12:13, 23, 27). Instituted on the night of the Exodus (Exod 12:1-28), Pesach becomes Israel's foundational redemptive memorial, observed annually on 14 Nisan. The pesach lamb must be unblemished, year-old male sheep or goat, slaughtered at twilight, with blood applied to doorposts and lintel. The meat is roasted and eaten with unleavened bread (matzot) and bitter herbs (merorim), consumed in haste with loins girded. No bone may be broken (Exod 12:46). The seven-day Feast of Unleavened Bread (Chag haMatzot) immediately follows. Pesach establishes the Exodus as the paradigmatic salvation event, prefiguring messianic redemption. New Testament identifies Jesus as the Pesach lamb (1 Cor 5

@@ -1,0 +1,260 @@
+
+{
+    "bekhor": {
+        "hebrew": "בְּכוֹר",
+        "transliteration": "bəḵôr",
+        "strongs": "H1060",
+        "gloss": "firstborn, eldest son",
+        "definition": "The firstborn son, holding special status in Israelite society with rights of inheritance (double portion) and religious significance. In Exodus, the tenth plague targets Egypt's firstborn (Exod 11:5, 12:29), establishing YHWH's claim over Israel as His firstborn (Exod 4:22). The term carries covenantal weight, as firstborn males and animals were consecrated to YHWH (Exod 13:2, 13:12-15). The bekhor represents priority, privilege, and divine election, extending metaphorically to Israel's status among nations.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "exod-11", "exod-12", "exod-13"]
+    },
+    "belial": {
+        "hebrew": "בְּלִיַּעַל",
+        "transliteration": "bəlîyaʿal",
+        "strongs": "H1100",
+        "gloss": "worthlessness, wickedness, destruction",
+        "definition": "A compound term (bəlî + yaʿal) meaning 'without profit' or 'worthless.' In biblical usage, it denotes moral wickedness, lawlessness, and opposition to divine order. The phrase 'sons of Belial' (bənê bəlîyaʿal) describes those who reject covenant obligations and divine authority. In Second Temple literature, Belial becomes personified as a chief adversary figure, leader of the forces of darkness opposing the 'sons of light' (Dead Sea Scrolls). The term bridges moral description and cosmic opposition within the divine council framework.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1"]
+    },
+    "bene_shemayin": {
+        "hebrew": "בְּנֵי שְׁמַיִן",
+        "transliteration": "bənê šəmayîn",
+        "strongs": "H1121/H8065",
+        "gloss": "sons of heaven",
+        "definition": "Aramaic phrase meaning 'sons of heaven,' a designation for divine beings in the heavenly court. This term appears in Aramaic portions of Daniel and related Second Temple texts, functioning as an equivalent to Hebrew bənê ʾĕlōhîm. The phrase emphasizes the celestial origin and dwelling place of these divine council members. In the Book of Giants and related Enochic literature, bene shemayin refers to the angelic watchers who descended to earth. The term maintains the divine council cosmology while using Aramaic linguistic conventions.",
+        "language": "aramaic",
+        "chapters_used": ["gen-1", "hc-ch02"]
+    },
+    "berakhah": {
+        "hebrew": "בְּרָכָה",
+        "transliteration": "bərāḵâ",
+        "strongs": "H1293",
+        "gloss": "blessing, benediction, prosperity",
+        "definition": "Divine favor and empowerment transmitted through spoken word or ritual act. In Genesis, berakhah carries generative power—God's blessing enables fruitfulness and multiplication (Gen 1:22, 28). The patriarchal blessings (Gen 27, 48-49) demonstrate berakhah as transferable divine favor with tangible effects on destiny and prosperity. Berakhah operates within covenant framework, contrasting with qəlālâ (curse). The term encompasses material prosperity, fertility, protection, and divine presence. In Exodus, priestly blessing (Num 6:24-26) channels berakhah to the community, establishing a conduit between divine realm and human recipients.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-27", "exod-1"]
+    },
+    "beriach": {
+        "hebrew": "בְּרִיחַ",
+        "transliteration": "bərîaḥ",
+        "strongs": "H1280",
+        "gloss": "bar, crossbar, bolt",
+        "definition": "A horizontal bar or bolt used to secure doors, gates, or structural elements. In the Tabernacle construction (Exod 26:26-29, 36:31-34), beriach refers to the crossbars that stabilized the qərāšîm (frames/boards) of the dwelling. Five bars per side, with the middle bar running the entire length, created structural integrity for the portable sanctuary. The term appears in contexts of fortification and security, symbolizing protection and stability. The beriach system ensured the Tabernacle could be assembled and disassembled while maintaining sacred architectural integrity during wilderness wanderings.",
+        "language": "hebrew",
+        "chapters_used": ["exod-26", "exod-36"]
+    },
+    "berit_bein_ha_betarim": {
+        "hebrew": "בְּרִית בֵּין הַבְּתָרִים",
+        "transliteration": "bərît bên habbətārîm",
+        "strongs": "H1285/H996/H1335",
+        "gloss": "covenant between the pieces",
+        "definition": "The covenant ceremony in Genesis 15:7-21 where YHWH establishes His promise to Abram through a ritual involving divided animal carcasses. The phrase literally means 'covenant between the cut pieces' (from bāṯar, 'to cut in two'). Abram prepares a heifer, goat, ram, turtledove, and pigeon, cutting the larger animals in half. After deep sleep and terrifying darkness fall upon Abram, a smoking fire pot and flaming torch (representing divine presence) pass between the pieces. This ancient Near Eastern treaty ritual typically bound both parties, but here YHWH alone passes through, making an unconditional oath. The ceremony establishes land boundaries and promises descendants, with the divine self-maledictory oath guaranteeing fulfillment.",
+        "language": "hebrew",
+        "chapters_used": ["gen-15"]
+    },
+    "bilhah": {
+        "hebrew": "בִּלְהָה",
+        "transliteration": "bilhâ",
+        "strongs": "H1090",
+        "gloss": "Rachel's maidservant, concubine",
+        "definition": "Rachel's šipḥâ (maidservant) given to Jacob as a surrogate wife to bear children on Rachel's behalf (Gen 29:29, 30:3-8). Bilhah bore Dan and Naphtali, who became tribal ancestors. Her status as pilegesh (concubine) placed her children in legitimate lineage while maintaining social distinction from primary wives. The name possibly derives from bālâ ('to wear out, become old') or relates to 'terror/confusion.' Bilhah's role illustrates ancient Near Eastern surrogacy practices where barren wives provided maidservants to produce heirs. Later, Reuben's violation of Bilhah (Gen 35:22) resulted in his loss of firstborn privileges, demonstrating the protected status of even secondary wives within patriarchal household structure.",
+        "language": "hebrew",
+        "chapters_used": ["gen-29", "gen-30", "gen-35"]
+    },
+    "brit_milah": {
+        "hebrew": "בְּרִית מִילָה",
+        "transliteration": "bərît mîlâ",
+        "strongs": "H1285/H4139",
+        "gloss": "covenant of circumcision",
+        "definition": "The covenant sign established in Genesis 17:9-14 requiring circumcision of all males on the eighth day. The rite involves removing the foreskin (ʿorlâ) as a permanent physical mark of covenant membership. YHWH designates circumcision as the ʾôṯ bərît (covenant sign) between Himself and Abraham's descendants. Failure to circumcise results in being 'cut off' (kāraṯ) from the people—a covenantal death sentence. The practice distinguishes Israel from surrounding nations and serves as embodied reminder of covenant obligations. In Exodus 4:24-26, the 'bridegroom of blood' incident demonstrates circumcision's protective power. The eighth-day timing connects to creation patterns and purification cycles, marking entry into covenant community.",
+        "language": "hebrew",
+        "chapters_used": ["gen-17", "exod-4", "exod-12"]
+    },
+    "chag": {
+        "hebrew": "חַג",
+        "transliteration": "ḥag",
+        "strongs": "H2282",
+        "gloss": "festival, pilgrimage feast",
+        "definition": "A sacred festival requiring pilgrimage and celebration before YHWH. The root ḥāgag suggests circular movement or dancing, indicating festive procession. Three annual pilgrim festivals (šālôš rəgālîm) structure Israel's liturgical calendar: Chag HaMatzot (Unleavened Bread), Chag Shavuot (Weeks), and Chag Sukkot (Booths). These appointed times (môʿădîm) commemorate salvation history while marking agricultural cycles. Exodus 23:14-17 and Deuteronomy 16:16 mandate male attendance at the central sanctuary. Chag differs from môʿēd (appointed time) by emphasizing joyful celebration and communal gathering. The festivals create rhythmic encounter between divine and human realms, with sacrificial meals facilitating covenant renewal.",
+        "language": "hebrew",
+        "chapters_used": ["exod-12", "exod-23"]
+    },
+    "chag_layhwh": {
+        "hebrew": "חַג לַיהוָה",
+        "transliteration": "ḥag laYHWH",
+        "strongs": "H2282/H3068",
+        "gloss": "festival to YHWH",
+        "definition": "A festival dedicated specifically to YHWH, emphasizing the theocentric nature of Israel's celebrations. The phrase appears in Moses' demand to Pharaoh: 'Let us go three days' journey into the wilderness to celebrate a chag laYHWH' (Exod 5:1). This designation distinguishes Israelite worship from Egyptian religious festivals, asserting YHWH's exclusive claim on His people's devotion. The Passover is explicitly called 'a chag laYHWH throughout your generations' (Exod 12:14). The prepositional phrase (la-) indicates dedication, belonging, and direction toward YHWH as the festival's recipient and focus. These celebrations are not merely cultural observances but covenant obligations performed in YHWH's presence.",
+        "language": "hebrew",
+        "chapters_used": ["exod-5", "exod-12"]
+    },
+    "chalomot": {
+        "hebrew": "חֲלֹמוֹת",
+        "transliteration": "ḥălōmôṯ",
+        "strongs": "H2472",
+        "gloss": "dreams (plural)",
+        "definition": "Plural of ḥălôm, referring to multiple dreams or a series of dream visions. In Genesis, chalomot serve as primary vehicles for divine communication and revelation. Joseph receives two dreams revealing his future elevation (Gen 37:5-10), while Pharaoh's two dreams (Gen 41:1-7) require interpretation to reveal divine warning. The plural form often indicates a pattern or sequence requiring interpretation (pēšer). Dreams in biblical tradition are not mere psychological phenomena but potential channels for divine council decisions to be communicated to humans. The ability to interpret chalomot marks one as possessing divine wisdom (ḥoḵmâ), as demonstrated by Joseph's elevation through dream interpretation.",
+        "language": "hebrew",
+        "chapters_used": ["gen-37", "gen-40", "gen-41"]
+    },
+    "chamad": {
+        "hebrew": "חָמַד",
+        "transliteration": "ḥāmaḏ",
+        "strongs": "H2530",
+        "gloss": "to desire, covet, delight in",
+        "definition": "To desire intensely, often with connotations of coveting what belongs to another. The verb appears in the tenth commandment: 'You shall not covet (ḥāmaḏ) your neighbor's house... wife... or anything that belongs to your neighbor' (Exod 20:17). In Genesis 3:6, Eve sees the forbidden fruit as 'desirable (neḥmāḏ) for gaining wisdom,' linking chamad to the origin of human transgression. The term encompasses both legitimate desire (Ps 19:10—God's laws are 'more desirable than gold') and prohibited coveting that violates covenant boundaries. Chamad represents the internal disposition that precedes external violation, making it a matter of heart orientation rather than merely outward action.",
+        "language": "hebrew",
+        "chapters_used": ["gen-3", "exod-20"]
+    },
+    "chamushim": {
+        "hebrew": "חֲמֻשִׁים",
+        "transliteration": "ḥămušîm",
+        "strongs": "H2571",
+        "gloss": "armed, organized by fifties",
+        "definition": "A term of uncertain etymology appearing in Exodus 13:18, describing how Israel went up from Egypt. Traditional interpretations include: (1) 'armed' or 'equipped for battle' (from ḥāmēš, 'five,' suggesting military divisions of fifty); (2) 'in battle array' or 'organized'; (3) 'one-fifth' of the population (suggesting only a portion left Egypt). The Septuagint translates as 'fifth generation,' while Targums support 'armed.' The context suggests military readiness—God leads Israel by a wilderness route to avoid immediate warfare (Exod 13:17), yet they depart chamushim, prepared for eventual conflict. The term indicates organizational structure and martial preparedness, contrasting with the disorganized slave rabble Egypt might have expected.",
+        "language": "hebrew",
+        "chapters_used": ["exod-13"]
+    },
+    "charavah": {
+        "hebrew": "חָרָבָה",
+        "transliteration": "ḥărāḇâ",
+        "strongs": "H2723",
+        "gloss": "waste, desolation, ruin",
+        "definition": "A state of desolation, waste, or ruin; land laid waste and uninhabitable. From the root ḥāraḇ ('to be dry, waste, desolate'), the term describes territory devastated by judgment, warfare, or divine action. In prophetic literature, charavah often depicts covenant curse consequences—the land becoming desolate due to Israel's unfaithfulness. The term connects to creation theology: just as God transforms tōhû wābōhû (formless waste) into ordered cosmos, so judgment can reverse creation, returning land to charavah. The concept appears in contexts of divine warfare where YHWH fights against nations, leaving their territories as charavah. Restoration prophecies promise transformation of charavah back to fertile land, demonstrating YHWH's power to reverse judgment.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1"]
+    },
+    "chartummim": {
+        "hebrew": "חַרְטֻמִּים",
+        "transliteration": "ḥarṭummîm",
+        "strongs": "H2748",
+        "gloss": "magicians, sacred scribes",
+        "definition": "Egyptian ritual specialists and sacred scribes skilled in magic, divination, and interpretation of omens. The term likely derives from Egyptian ḥry-tp ('chief lector priest') or ḥrty-ḥbt ('ritual specialist'). In Genesis 41:8, Pharaoh summons all the chartummim to interpret his dreams, but they fail—only Joseph succeeds through divine revelation. In Exodus 7-9, Pharaoh's chartummim initially replicate Moses' signs (turning staffs to serpents, water to blood, producing frogs) through their laṭîm (secret arts), but eventually acknowledge 'This is the finger of God' (Exod 8:19). The narrative demonstrates YHWH's superiority over Egyptian magical-religious systems and the impotence of rival spiritual powers before Israel's God.",
+        "language": "hebrew",
+        "chapters_used": ["gen-41", "exod-7", "exod-8", "exod-9"]
+    },
+    "chata": {
+        "hebrew": "חָטָא",
+        "transliteration": "ḥāṭāʾ",
+        "strongs": "H2398",
+        "gloss": "to sin, miss the mark",
+        "definition": "To miss the mark, fail, or sin against divine standard. The root meaning suggests deviation from the proper path or target. Chata encompasses both intentional rebellion and unintentional error, though sacrificial systems distinguish between them. The verb appears in various stems: Qal (to sin), Piel (to make a sin offering, purify), and Hithpael (to purify oneself). In Genesis 20:6, God prevents Abimelech from sinning (chata) against Him by touching Sarah. The term establishes moral accountability before God rather than merely social transgression. Sin creates ritual impurity requiring purification through ḥaṭṭāʾṯ (sin offering). The concept is foundational to covenant relationship—chata represents breach of covenant stipulations requiring atonement for restoration.",
+        "language": "hebrew",
+        "chapters_used": ["gen-20", "exod-32"]
+    },
+    "chatah": {
+        "hebrew": "חָטָה",
+        "transliteration": "ḥāṭâ",
+        "strongs": "H2403",
+        "gloss": "sin, sin offering",
+        "definition": "Both the act of sin and the offering made for sin (ḥaṭṭāʾṯ). As a noun, chatah denotes moral failure, transgression, or guilt. The term's dual meaning reflects the inseparable connection between sin and its required atonement. In sacrificial contexts, the chatah offering purifies the sanctuary from contamination caused by human sin (Lev 4-5). The blood ritual removes the defiling effects of transgression, restoring covenant relationship. Exodus 29:14, 36 prescribes chatah offerings during priestly consecration and altar purification. The offering addresses both intentional and unintentional sins, though different procedures apply. The concept establishes that sin has objective reality requiring ritual remedy, not merely subjective guilt requiring psychological relief.",
+        "language": "hebrew",
+        "chapters_used": ["exod-29", "exod-32"]
+    },
+    "chatan_damim": {
+        "hebrew": "חֲתַן דָּמִים",
+        "transliteration": "ḥăṯan dāmîm",
+        "strongs": "H2860/H1818",
+        "gloss": "bridegroom of blood",
+        "definition": "Zipporah's enigmatic declaration in Exodus 4:24-26 after circumcising her son to save Moses from YHWH's deadly attack. The phrase literally means 'bridegroom of blood' or 'blood-bridegroom.' Interpretive options include: (1) Moses becomes a 'blood-bridegroom' to Zipporah through their son's circumcision; (2) the son becomes a 'blood-bridegroom' to YHWH through covenant sign; (3) circumcision creates a blood-bond analogous to marriage covenant. The incident demonstrates circumcision's protective power and covenant necessity—Moses, commissioned to deliver Israel, had failed to circumcise his own son, violating the Abrahamic covenant sign. Zipporah's action, touching the foreskin to Moses' 'feet' (likely euphemism for genitals), effects apotropaic protection, turning away divine wrath through blood ritual.",
+        "language": "hebrew",
+        "chapters_used": ["exod-4"]
+    },
+    "chatser": {
+        "hebrew": "חָצֵר",
+        "transliteration": "ḥāṣēr",
+        "strongs": "H2691",
+        "gloss": "courtyard, enclosure, settlement",
+        "definition": "An enclosed courtyard or open area, particularly the outer court of the Tabernacle. In Exodus 27:9-19 and 38:9-20, the chatser surrounds the Tabernacle proper, measuring 100 cubits by 50 cubits, enclosed by linen hangings (qəlāʿîm) on bronze pillars. The courtyard contained the bronze altar (mizbaḥ hanəḥōšeṯ) and bronze laver (kîyôr). This outer sacred space was accessible to all Israelites bringing offerings, while the Tent of Meeting (ʾōhel môʿēḏ) within remained restricted. The chatser created graduated sacred space—less holy than the Tent but more sacred than the camp. The term also denotes settlements or villages (unwalled towns), reflecting the concept of enclosed, defined space.",
+        "language": "hebrew",
+        "chapters_used": ["exod-27", "exod-38"]
+    },
+    "chatsi_halailah": {
+        "hebrew": "חֲצִי הַלַּיְלָה",
+        "transliteration": "ḥăṣî hallaylâ",
+        "strongs": "H2677/H3915",
+        "gloss": "midnight, middle of the night",
+        "definition": "The middle of the night, specifically midnight—the temporal setting for YHWH's tenth plague against Egypt. Exodus 11:4 announces: 'About midnight (kaḥăṣōṯ hallaylâ) I will go out into the midst of Egypt,' and 12:29 records: 'At midnight (baḥăṣî hallaylâ) YHWH struck down all the firstborn in Egypt.' The timing is theologically significant: midnight represents the darkest hour, the moment of divine judgment when human power is most vulnerable. The precision emphasizes YHWH's sovereign control over time and events. Midnight also appears in Ruth 3:8 (Boaz awakens at midnight) and in Psalm 119:62 (rising at midnight to praise). The phrase marks moments of divine intervention occurring in darkness, when YHWH acts decisively in human history.",
+        "language": "hebrew",
+        "chapters_used": ["exod-11", "exod-12"]
+    },
+    "chattat": {
+        "hebrew": "חַטָּאת",
+        "transliteration": "ḥaṭṭāʾṯ",
+        "strongs": "H2403",
+        "gloss": "sin offering, purification offering",
+        "definition": "The purification or sin offering prescribed in Leviticus 4-5 for unintentional sins and ritual impurities. The chattat addresses contamination of the sanctuary caused by human sin, using blood ritual to purify sacred space. Different procedures apply based on the offender's status: anointed priest, whole congregation, leader, or common person. The blood is applied to altar horns or sprinkled before the veil, with remaining blood poured at the altar base. The fat portions are burned on the altar, while the flesh is either eaten by priests (lesser offenses) or burned outside the camp (greater offenses). The offering is not primarily about forgiveness but about purification—removing the defiling effects of sin from the sanctuary so YHWH can continue dwelling among His people.",
+        "language": "hebrew",
+        "chapters_used": ["exod-29", "exod-30"]
+    },
+    "chaval": {
+        "hebrew": "חָבַל",
+        "transliteration": "ḥāḇal",
+        "strongs": "H2254",
+        "gloss": "to bind, pledge, take in pledge",
+        "definition": "To bind, take as pledge or security, or to act corruptly. The verb has multiple semantic ranges: (1) taking something as collateral for a loan; (2) binding or pledging; (3) acting destructively or corruptly. In Exodus 22:26-27, the law prohibits keeping a neighbor's garment taken in pledge (ḥāḇal) overnight, as it may be his only covering. The root also appears in contexts of destruction or corruption (Qal and Piel stems). In prophetic literature, chaval can describe the land being ruined or corrupted. The term reflects ancient Near Eastern loan practices while establishing ethical boundaries—economic transactions must not violate human dignity or create unbearable hardship for the poor.",
+        "language": "hebrew",
+        "chapters_used": ["exod-22"]
+    },
+    "chazaq": {
+        "hebrew": "חָזַק",
+        "transliteration": "ḥāzaq",
+        "strongs": "H2388",
+        "gloss": "to be strong, strengthen, harden",
+        "definition": "To be strong, firm, or hard; to strengthen or make resolute. The verb appears in multiple stems with varying meanings: Qal (be strong), Piel (strengthen, make firm), Hiphil (make strong, harden), and Hithpael (show oneself strong). In Exodus, chazaq famously describes the hardening of Pharaoh's heart—sometimes Pharaoh hardens his own heart (Exod 8:15, 32), sometimes YHWH hardens it (Exod 9:12, 10:20, 27). This theological paradox demonstrates divine sovereignty working through human obstinacy. The term also appears in encouragement formulas: 'Be strong and courageous' (ḥăzaq weʾĕmāṣ). In construction contexts, chazaq means to repair or strengthen structures. The root encompasses physical strength, moral fortitude, and psychological determination.",
+        "language": "hebrew",
+        "chapters_used": ["exod-4", "exod-7", "exod-9", "exod-10"]
+    },
+    "chesed": {
+        "hebrew": "חֶסֶד",
+        "transliteration": "ḥeseḏ",
+        "strongs": "H2617",
+        "gloss": "steadfast love, covenant loyalty",
+        "definition": "Covenant faithfulness, loyal love, or steadfast mercy—a central attribute of YHWH's character. Chesed denotes committed loyalty within relationship, particularly covenant relationship. The term combines love, kindness, and faithfulness, often appearing with ʾĕmeṯ (truth/faithfulness). YHWH's chesed is 'from everlasting to everlasting' (Ps 103:17), demonstrated through covenant keeping despite human unfaithfulness. In Exodus 34:6-7, chesed appears in YHWH's self-revelation as 'abounding in steadfast love.' The concept is reciprocal—God shows chesed to His people, who are called to show chesed to one another and to God. Chesed transcends mere emotion, representing committed action on behalf of covenant partners. The term is untranslatable by any single English word, encompassing loyalty, kindness, mercy, and covenantal obligation.",
+        "language": "hebrew",
+        "chapters_used": ["gen-24", "exod-34"]
+    },
+    "chet_gedolah": {
+        "hebrew": "חֵטְא גְדֹלָה",
+        "transliteration": "ḥēṭʾ gəḏōlâ",
+        "strongs": "H2401/H1419",
+        "gloss": "great sin, grievous transgression",
+        "definition": "A great or grievous sin, representing particularly serious transgression against God. The phrase appears in Exodus 32:21, 30-31 regarding the golden calf incident: 'You have brought a great sin (ḥăṭāʾâ gəḏōlâ) upon them' and 'You have sinned a great sin (ḥăṭāṯem ḥăṭāʾâ gəḏōlâ).' The adjective gəḏōlâ intensifies the noun, indicating sin of exceptional magnitude. The golden calf violated the second commandment (no graven images) and constituted covenant apostasy—Israel worshiping another deity immediately after pledging exclusive loyalty to YHWH. Moses' intercession prevents immediate destruction, but the sin requires severe judgment (3,000 deaths) and ongoing consequences. The phrase establishes a category of sin so severe it threatens the entire covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": ["exod-32"]
+    },
+    "chofshi": {
+        "hebrew": "חָפְשִׁי",
+        "transliteration": "ḥopšî",
+        "strongs": "H2670",
+        "gloss": "free, freed person",
+        "definition": "A free person, particularly one released from slavery or servitude. The term appears in Exodus 21:2, 5, 26-27 within laws governing Hebrew servants: after six years of service, the servant 'shall go out free (ḥopšî) for nothing.' The root ḥāpaš suggests freedom of movement and self-determination. Chofshi status contrasts with ʿeḇeḏ (servant/slave), representing restoration of full social and economic autonomy. The law establishes limits on servitude, preventing permanent enslavement of fellow Israelites. If a master injures a servant's eye or tooth, the servant goes free (ḥopšî) as compensation. The concept reflects Israel's own experience—YHWH brought them out from Egypt to be His servants, not Pharaoh's slaves, establishing freedom as a covenantal value.",
+        "language": "hebrew",
+        "chapters_used": ["exod-21"]
+    },
+    "chokhmah_lev": {
+        "hebrew": "חָכְמַת־לֵב",
+        "transliteration": "ḥoḵmaṯ-lēḇ",
+        "strongs": "H2451/H3820",
+        "gloss": "wisdom of heart, skilled understanding",
+        "definition": "Wisdom of heart—practical skill, understanding, and craftsmanship inspired by divine spirit. The phrase appears in Exodus 28:3, 31:6, 35:10, 25, 35, 36:1-2, 8 describing artisans whom God has filled with 'wisdom of heart' to construct the Tabernacle. This is not merely intellectual knowledge but Spirit-enabled skill for sacred craftsmanship. The lēḇ (heart) represents the center of understanding, will, and skill—not just emotion. Those with chokhmah lev possess divinely granted ability to work with gold, silver, bronze, stones, wood, and fabrics according to precise specifications. The concept bridges spiritual gifting and practical expertise, demonstrating that all skill ultimately derives from God's creative wisdom imparted to humans.",
+        "language": "hebrew",
+        "chapters_used": ["exod-28", "exod-31", "exod-35", "exod-36"]
+    },
+    "chokmah": {
+        "hebrew": "חָכְמָה",
+        "transliteration": "ḥoḵmâ",
+        "strongs": "H2451",
+        "gloss": "wisdom, skill, shrewdness",
+        "definition": "Wisdom, skill, or practical expertise—both intellectual understanding and technical ability. Chokmah encompasses multiple domains: moral wisdom (Proverbs), technical skill (Exodus craftsmen), political shrewdness (Joseph's administration), and cosmic wisdom (God's creative design). In Genesis 41:33, 39, Joseph's interpretation of Pharaoh's dreams demonstrates chokmah, leading to his appointment as administrator. Exodus 31:3 describes Bezalel being filled with 'wisdom (ḥoḵmâ), understanding (təḇûnâ), and knowledge (daʿaṯ)' for Tabernacle construction. Chokmah is both divine attribute and divine gift—God possesses infinite wisdom and grants it to humans for specific purposes. The fear of YHWH is the beginning of chokmah (Prov 9:10), establishing wisdom's theological foundation.",
+        "language": "hebrew",
+        "chapters_used": ["gen-41", "exod-31", "exod-35"]
+    },
+    "choshekh": {
+        "hebrew": "חֹשֶׁךְ",
+        "transliteration": "ḥōšeḵ",
+        "strongs": "H2822",
+        "gloss": "darkness, obscurity",
+        "definition": "Darkness, absence of light, or obscurity. In Genesis 1:2, choshekh covers the təhôm (deep) before God creates light, representing the pre-creation state. God separates light from darkness (Gen 1:4), establishing the day-night cycle. Darkness is not inherently evil in creation theology but represents the unordered state requiring divine organization. However, choshekh also symbolizes judgment, chaos, and divine hiddenness. The ninth plague brings 'darkness (ḥōšeḵ) over the land of Egypt, a darkness to be felt' (Exod 10:21)

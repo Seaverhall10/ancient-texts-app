@@ -1,0 +1,1019 @@
+[
+  {
+    "cat": "biblical",
+    "name": "Garden of Eden (Traditional)",
+    "lat": 30.96,
+    "lng": 47.42,
+    "desc": "Confluence of Tigris and Euphrates. Genesis 2:10-14 describes four rivers flowing from Eden. Southern Iraq matches the geography.",
+    "refs": "Genesis 2:8-14",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Shatt_al-Arab.jpg/320px-Shatt_al-Arab.jpg"
+  },
+  {
+    "cat": "biblical",
+    "name": "Mount Ararat",
+    "lat": 39.7,
+    "lng": 44.3,
+    "desc": "Traditional landing site of Noah's Ark. The volcanic summit (5,137m) is permanently snow-capped. Multiple expeditions have searched for ark remains.",
+    "refs": "Genesis 8:4",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Agri_Dagi_or_Mount_Ararat.jpg/320px-Agri_Dagi_or_Mount_Ararat.jpg"
+  },
+  {
+    "cat": "biblical",
+    "name": "Babel / Babylon",
+    "lat": 32.54,
+    "lng": 44.42,
+    "desc": "Site of the Tower of Babel and later the Neo-Babylonian Empire. The ziggurat Etemenanki (\"Foundation of Heaven and Earth\") may be the tower's historical echo.",
+    "refs": "Genesis 11:1-9; Deuteronomy 32:8"
+  },
+  {
+    "cat": "biblical",
+    "name": "Ur of the Chaldeans",
+    "lat": 30.96,
+    "lng": 46.1,
+    "desc": "Abraham's birthplace. Excavated by Leonard Woolley (1922-34), revealing a sophisticated Sumerian city with the Royal Tombs and ziggurat of Nanna.",
+    "refs": "Genesis 11:31; Acts 7:2-4"
+  },
+  {
+    "cat": "biblical",
+    "name": "Haran",
+    "lat": 36.87,
+    "lng": 39.03,
+    "desc": "Abraham's stopping point before Canaan. A major city on ancient trade routes. Terah died here. Jacob fled here to Laban.",
+    "refs": "Genesis 11:31-12:1; Genesis 28:10"
+  },
+  {
+    "cat": "biblical",
+    "name": "Jerusalem / Temple Mount",
+    "lat": 31.7781,
+    "lng": 35.2354,
+    "desc": "City of David, Solomon's Temple, Second Temple. The Holy of Holies was the earthly seat of YHWH's divine council. Destroyed 586 BC and 70 AD.",
+    "refs": "2 Samuel 5:7; 1 Kings 6; Psalm 82; Ezekiel 10-11",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jerusalem_Dome_of_the_rock_BW_14.JPG/320px-Jerusalem_Dome_of_the_rock_BW_14.JPG"
+  },
+  {
+    "cat": "biblical",
+    "name": "Mount Sinai (Jebel Musa)",
+    "lat": 28.5394,
+    "lng": 33.9752,
+    "desc": "Traditional site where Moses received the Torah. The theophany of Exodus 19 describes the divine council descending with thunder, lightning, and trumpet blast.",
+    "refs": "Exodus 19-20; Deuteronomy 33:2",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Catherine%27s_monastery.jpg/320px-Catherine%27s_monastery.jpg"
+  },
+  {
+    "cat": "biblical",
+    "name": "Sodom & Gomorrah (Bab edh-Dhra)",
+    "lat": 31.25,
+    "lng": 35.53,
+    "desc": "Sites near the Dead Sea destroyed by \"fire and brimstone.\" Archaeological evidence at Tall el-Hammam shows a massive destruction event ~1650 BC consistent with a cosmic airburst.",
+    "refs": "Genesis 19; Jude 1:7"
+  },
+  {
+    "cat": "biblical",
+    "name": "Bethel",
+    "lat": 31.93,
+    "lng": 35.22,
+    "desc": "Where Jacob saw the ladder reaching to heaven with angels ascending and descending. A gateway between the human and divine realms.",
+    "refs": "Genesis 28:10-22"
+  },
+  {
+    "cat": "biblical",
+    "name": "Shechem",
+    "lat": 32.21,
+    "lng": 35.28,
+    "desc": "Where Abraham first received God's promise of the land. Between Mt. Ebal and Mt. Gerizim. The covenant renewal site.",
+    "refs": "Genesis 12:6; Joshua 24"
+  },
+  {
+    "cat": "biblical",
+    "name": "Peniel",
+    "lat": 32.19,
+    "lng": 35.62,
+    "desc": "Where Jacob wrestled with the divine being (\"a man\" who is also God) through the night and was renamed Israel.",
+    "refs": "Genesis 32:22-32"
+  },
+  {
+    "cat": "watcher",
+    "name": "Mount Hermon",
+    "lat": 33.4167,
+    "lng": 35.8571,
+    "desc": "Where the 200 Watchers descended and swore an oath (1 Enoch 6:6). Located at 33\u00b033'N from the Paris Meridian\u2014a coordinate loaded with esoteric significance. Today hosts a UN observation facility on its summit. The name means \"devoted to destruction\" (Hebrew: cherem).",
+    "refs": "1 Enoch 6:1-6; Deuteronomy 3:8-9; Psalm 133:3",
+    "note": "The 33.33\u00b0 latitude (Paris Meridian) connection: Before the 1884 Greenwich switch, Paris was the prime meridian. Mt. Hermon sits at exactly 33\u00b033' on that system. The number 33 recurs in esoteric traditions (33 degrees of Freemasonry, Jesus crucified at 33, 33 vertebrae in the spine). Coincidence or pattern?"
+  },
+  {
+    "cat": "watcher",
+    "name": "Azazel's Desert Prison",
+    "lat": 31.0,
+    "lng": 35.3,
+    "desc": "The wilderness of Dudael where Azazel was bound. The scapegoat ritual (Leviticus 16) sends a goat \"for Azazel\" into the desert\u2014a ritual acknowledgment of the imprisoned Watcher.",
+    "refs": "1 Enoch 10:4-6; Leviticus 16:8-10"
+  },
+  {
+    "cat": "watcher",
+    "name": "Dan / Caesarea Philippi",
+    "lat": 33.25,
+    "lng": 35.69,
+    "desc": "At the base of Mt. Hermon. The \"Gates of Hades\" cave where pagan worship occurred. Jesus deliberately chose THIS location to declare \"the gates of Hades shall not prevail.\"",
+    "refs": "Matthew 16:13-18; Judges 18"
+  },
+  {
+    "cat": "watcher",
+    "name": "Valley of Hinnom (Gehenna)",
+    "lat": 31.77,
+    "lng": 35.23,
+    "desc": "The valley of child sacrifice to Molech, later became the image of hell itself. Where rebellious divine beings received worship through human sacrifice.",
+    "refs": "2 Kings 23:10; Jeremiah 7:31; Mark 9:43"
+  },
+  {
+    "cat": "megalith",
+    "name": "Baalbek (Heliopolis)",
+    "lat": 34.0069,
+    "lng": 36.2039,
+    "desc": "The trilithon stones weigh 800-1,200 TONS each\u2014the largest cut stones in the ancient world. The \"Stone of the Pregnant Woman\" (1,242 tons) was never moved from its quarry. No modern crane can lift them. The Romans built ON TOP of a pre-existing megalithic platform. Giants in the Book of Giants operated in this region. The name \"Baalbek\" = \"Lord of the Beqaa Valley\" (Baal worship).",
+    "refs": "Book of Giants; 1 Enoch 7-8",
+    "note": "The Nephilim connection: If the Watchers taught forbidden construction arts (1 Enoch 8:1), and their giant offspring possessed superhuman strength, Baalbek's inexplicable engineering becomes less mysterious. The platform predates every known civilization that built there.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Baalbek_-_Pair_of_stones.jpg/320px-Baalbek_-_Pair_of_stones.jpg"
+  },
+  {
+    "cat": "megalith",
+    "name": "Gobekli Tepe",
+    "lat": 37.2231,
+    "lng": 38.9225,
+    "desc": "Built ~9,600 BC\u2014the oldest known temple complex. Massive T-shaped pillars (up to 20 tons) carved with animal reliefs. Built by \"hunter-gatherers\" with no known metalwork, agriculture, or writing. Deliberately BURIED around 8,000 BC. Why?",
+    "refs": "Genesis 4-6 (antediluvian civilization)",
+    "note": "Predates Stonehenge by 6,000 years. The deliberate burial echoes the flood narrative\u2014was antediluvian knowledge intentionally preserved or hidden?",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/G%C3%B6bekli_Tepe%2C_Urfa.jpg/320px-G%C3%B6bekli_Tepe%2C_Urfa.jpg"
+  },
+  {
+    "cat": "megalith",
+    "name": "Stonehenge",
+    "lat": 51.1789,
+    "lng": -1.8262,
+    "desc": "Built ~3000-2000 BC. Bluestones transported 150 miles from Wales. Sarsen stones weigh up to 25 tons. Precisely aligned to solstice. The Watchers taught astronomy and calendar systems (1 Enoch 8:3).",
+    "refs": "1 Enoch 8:3 (astronomical knowledge)"
+  },
+  {
+    "cat": "megalith",
+    "name": "Sacsayhuaman, Peru",
+    "lat": -13.5092,
+    "lng": -71.9822,
+    "desc": "Massive stones (up to 200 tons) fitted together with sub-millimeter precision\u2014no mortar. Zigzag walls of enormous blocks. The Inca said THEY didn't build it\u2014it was built by \"giants\" who came before.",
+    "refs": "Numbers 13:33 (Nephilim in the land)",
+    "note": "Local tradition attributes construction to giants or supernatural beings. The precision fitting exceeds modern engineering without laser-cut tools."
+  },
+  {
+    "cat": "megalith",
+    "name": "Puma Punku, Bolivia",
+    "lat": -16.5616,
+    "lng": -68.6795,
+    "desc": "H-shaped blocks weighing up to 130 tons, precision-cut from diorite (one of the hardest stones). Interlocking joints without mortar. At 12,800 ft altitude. The Aymara say it was built \"in a single night by the gods.\"",
+    "refs": "1 Enoch 7-8 (Watcher-taught arts)"
+  },
+  {
+    "cat": "megalith",
+    "name": "Easter Island (Rapa Nui)",
+    "lat": -27.1127,
+    "lng": -109.3497,
+    "desc": "The moai statues (up to 82 tons) carved and transported across the island. Local legends say they \"walked\" into place through mana (spiritual power). 887 statues on a remote Pacific island.",
+    "refs": "Genesis 6:4 (heroes of old, men of renown)"
+  },
+  {
+    "cat": "pyramid",
+    "name": "Great Pyramid of Giza",
+    "lat": 29.9792,
+    "lng": 31.1342,
+    "desc": "2.3 million blocks averaging 2.5 tons. Built in ~20 years = 1 block every 2-5 minutes, 24/7, no breaks. The math doesn't work with copper tools and ramps. Aligned to true north within 3/60th of a degree. Internal chambers contain granite transported 500 miles from Aswan.",
+    "refs": "Job 38:4-7 (foundations of the earth)",
+    "note": "Timeline problem: Mainstream = ~2560 BC by Khufu with 20,000-30,000 workers. But: 2.3M blocks \u00f7 20 years \u00f7 365 days = 315 blocks/day = 1 every 4.5 minutes. Including quarrying, transporting, and precision-placing multi-ton blocks. With copper tools. At altitude. With perfect astronomical alignment. Something doesn't add up.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/320px-Kheops-Pyramid.jpg"
+  },
+  {
+    "cat": "pyramid",
+    "name": "Pyramid of the Sun, Teotihuacan",
+    "lat": 19.6925,
+    "lng": -98.8431,
+    "desc": "Third-largest pyramid on Earth. Base perimeter nearly identical to the Great Pyramid. Built ~100 AD. Teotihuacan means \"the place where men became gods\"\u2014or more literally, \"birthplace of the gods.\" Builders unknown.",
+    "refs": "Genesis 6:4; Deuteronomy 32:8 (divine allotment of nations)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Teotihuac%C3%A1n_-_Sonnenpyramide.jpg/320px-Teotihuac%C3%A1n_-_Sonnenpyramide.jpg"
+  },
+  {
+    "cat": "pyramid",
+    "name": "Borobudur, Indonesia",
+    "lat": -7.6079,
+    "lng": 110.2038,
+    "desc": "Largest Buddhist temple in the world. 2 million stone blocks. 72 bell-shaped stupas. Built ~800 AD but on a much older foundation. Indonesia's Ring of Fire parallels other anomalous sites."
+  },
+  {
+    "cat": "pyramid",
+    "name": "White Pyramid of Xi'an, China",
+    "lat": 34.3381,
+    "lng": 108.5694,
+    "desc": "Over 40 pyramids in Shaanxi province. The largest rivals Giza in base area. Chinese government restricts access. Built 2000+ years ago. Aligned to cardinal directions like Giza and Teotihuacan."
+  },
+  {
+    "cat": "pyramid",
+    "name": "Gunung Padang, Indonesia",
+    "lat": -6.9944,
+    "lng": 107.0564,
+    "desc": "Controversial site. Core samples suggest construction may date to 20,000-27,000 BP, which would make it the oldest pyramid structure on Earth. If confirmed, this predates the end of the Ice Age and all known civilizations.",
+    "note": "Geological dating is disputed. But even conservative estimates put it at 5000+ BC\u2014older than Giza."
+  },
+  {
+    "cat": "pyramid",
+    "name": "Antarctica Ice Anomalies",
+    "lat": -79.98,
+    "lng": -81.96,
+    "desc": "Satellite imagery reveals symmetrical, pyramid-shaped mountains in the Ellsworth range. Natural formation or remnant of pre-Ice-Age construction? Antarctica was ice-free until ~34 million years ago\u2014but the Piri Reis map (1513) shows accurate Antarctic coastline.",
+    "note": "Speculative but persistent. The Piri Reis map, drawn from older source maps, depicts Antarctica without ice. Combined with the global pyramid distribution pattern, Antarctica remains an open question."
+  },
+  {
+    "cat": "dss",
+    "name": "Qumran",
+    "lat": 31.7414,
+    "lng": 35.4594,
+    "desc": "The settlement where the Dead Sea Scrolls community lived. 11 caves yielded ~900 manuscripts including the Community Rule, War Scroll, and copies of 1 Enoch and the Book of Giants.",
+    "refs": "1QS, 1QM, 4Q530-533",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Qumran.jpg/320px-Qumran.jpg"
+  },
+  {
+    "cat": "dss",
+    "name": "Masada",
+    "lat": 31.3159,
+    "lng": 35.3536,
+    "desc": "Herod's fortress where 960 Jewish rebels died rather than surrender to Rome (73 AD). Josephus's account of the mass suicide is among the most debated passages in his Jewish War.",
+    "refs": "Josephus, War 7.389-401"
+  },
+  {
+    "cat": "dss",
+    "name": "Wadi Murabba'at",
+    "lat": 31.63,
+    "lng": 35.42,
+    "desc": "Caves south of Qumran where Bar Kokhba letters and biblical manuscripts were found. The letters reveal the Second Jewish Revolt (132-135 AD) leader's correspondence."
+  },
+  {
+    "cat": "cultural",
+    "name": "Rosslyn Chapel, Scotland",
+    "lat": 55.8553,
+    "lng": -3.1601,
+    "desc": "Built 1446 AD. Covered in carvings mixing Christian and pagan/esoteric imagery. Features \"apprentice pillar\" (Tree of Life?), Green Men, Templar crosses, and plants from the Americas\u2014carved 50 years before Columbus.",
+    "note": "The Templar-Freemason-Solomon connection. Knights Templar excavated the Temple Mount (1119-1128 AD). What did they find? Solomon's Temple contained the Ark, the mercy seat\u2014the physical throne of God's council."
+  },
+  {
+    "cat": "cultural",
+    "name": "Giza-Orion Alignment",
+    "lat": 29.9773,
+    "lng": 31.1325,
+    "desc": "Robert Bauval's Orion Correlation Theory: the three Giza pyramids mirror the three stars of Orion's Belt. The shaft in the King's Chamber points directly to Orion (Osiris) and Sirius (Isis). Astronomical encoding in stone.",
+    "note": "If the Watchers \"taught the signs of the sun, moon, and stars\" (1 Enoch 8:3), astronomical encoding in megalithic architecture is exactly what we'd expect."
+  },
+  {
+    "cat": "cultural",
+    "name": "Derinkuyu Underground City, Turkey",
+    "lat": 38.3735,
+    "lng": 34.7348,
+    "desc": "Underground city for 20,000 people, extending 18 stories deep. Built by unknown civilization. Could be sealed from the inside. A place to hide from... what? The flood? The Nephilim?",
+    "note": "Multiple underground cities in Cappadocia suggest a civilization that needed to go underground for extended periods. The scale exceeds mere defense."
+  },
+  {
+    "cat": "cultural",
+    "name": "Shroud of Turin, Italy",
+    "lat": 45.0735,
+    "lng": 7.686,
+    "desc": "Cathedral of St. John the Baptist houses the most studied artifact in history. 14.3 x 3.6 ft linen cloth bearing the image of a crucified man. No pigment \u2014 image affects only outermost 200-600nm of fiber. 3D information encoded (VP8 analyzer, 1977). Blood type AB+, applied BEFORE image formed. 2019 WAXS dating: ~55 CE.",
+    "refs": "Matthew 27:59; Mark 15:46; John 19:40",
+    "note": "The 1988 C-14 dating (medieval) used a repaired corner. The 2019 Wide Angle X-ray Scattering method dates it to the 1st century. The Sudarium of Oviedo (Spain) has 124 matching blood stains and the same AB blood type."
+  },
+  {
+    "cat": "cultural",
+    "name": "Shroud Comparison: Sudarium of Oviedo",
+    "lat": 43.3614,
+    "lng": -5.8434,
+    "desc": "The Sudarium (face cloth) housed in the Cathedral of Oviedo since the 7th century. 124 blood and serum stains match the Shroud of Turin. Same AB blood type. Documented chain of custody back to 570 AD.",
+    "refs": "John 20:7"
+  },
+  {
+    "cat": "cultural",
+    "name": "Roswell, New Mexico",
+    "lat": 33.39,
+    "lng": -104.52,
+    "desc": "Site of the 1947 UFO incident. Located at 33.39\u00b0N. Whatever actually happened, the 33rd parallel connection persists in esoteric literature.",
+    "note": "On the 33rd parallel: Hermon, Babylon, Damascus, Roswell, Phoenix. The number 33 recurs: Jesus died at 33, David reigned 33 years, 33 Masonic degrees, 33 vertebrae."
+  },
+  {
+    "cat": "cultural",
+    "name": "Phoenix Lights, Arizona",
+    "lat": 33.45,
+    "lng": -112.07,
+    "desc": "March 13, 1997: thousands of witnesses reported a massive V-shaped craft over Phoenix (33.45\u00b0N). The most witnessed UFO event in US history. Governor Fife Symington later admitted he saw it.",
+    "note": "Another major 33rd parallel event. The ancient divine council framework offers a lens: if rebellious spiritual beings have territorial authority (Daniel 10, Ephesians 6:12), unexplained phenomena at significant coordinates become more interesting."
+  },
+  {
+    "cat": "cultural",
+    "name": "White Sands / Trinity Site, NM",
+    "lat": 33.68,
+    "lng": -106.47,
+    "desc": "First nuclear detonation, July 16, 1945. The 33rd President (Harry Truman) ordered the bombings of Hiroshima (34.4\u00b0N) and Nagasaki (32.8\u00b0N). The most destructive technology ever created, tested and deployed near the 33rd parallel.",
+    "note": "The name \"Trinity\" was chosen by Oppenheimer. He quoted the Bhagavad Gita: \"Now I am become Death, the destroyer of worlds.\" The forbidden knowledge the Watchers taught (1 Enoch 8:1) included weapons of war."
+  },
+  {
+    "cat": "biblical",
+    "name": "Hebron (Kiriath-Arba)",
+    "lat": 31.5326,
+    "lng": 35.0998,
+    "desc": "Ancient name Kiriath-Arba means \"City of Arba\" \u2014 Arba was \"the greatest man among the Anakim\" (Joshua 14:15). The Anakim were the post-flood Nephilim clan. Caleb drove them out (Joshua 15:13-14). Also the burial site of Abraham, Isaac, and Jacob.",
+    "refs": "Joshua 14:15; Numbers 13:22; Genesis 23:2"
+  },
+  {
+    "cat": "biblical",
+    "name": "Gath of the Philistines",
+    "lat": 31.6103,
+    "lng": 34.8489,
+    "desc": "Home of Goliath and his four giant relatives (2 Samuel 21:15-22). After Joshua cleared most Anakim, survivors remained in Gaza, Gath, and Ashdod (Joshua 11:22). Tell es-Safi excavations found a potsherd with names etymologically related to \"Goliath.\"",
+    "refs": "1 Samuel 17:4; 2 Samuel 21:15-22; Joshua 11:22"
+  },
+  {
+    "cat": "biblical",
+    "name": "Bashan / Golan Heights",
+    "lat": 32.95,
+    "lng": 35.8,
+    "desc": "Kingdom of Og, last of the Rephaim. His bed was 13.5 feet long (Deuteronomy 3:11). Bashan was considered a gateway to the underworld in Ugaritic and Israelite tradition. Psalm 22:12: \"Strong bulls of Bashan encircle me.\"",
+    "refs": "Deuteronomy 3:1-11; Psalm 22:12; Amos 4:1"
+  },
+  {
+    "cat": "watcher",
+    "name": "Raphael's Binding Site (Dudael)",
+    "lat": 31.7,
+    "lng": 35.4,
+    "desc": "1 Enoch 10:4-6: Raphael binds Azazel \"hand and foot, and cast him into the darkness: and make an opening in the desert \u2014 which is in Dudael \u2014 and cast him therein.\" Traditionally located in the Judean wilderness near the Dead Sea.",
+    "refs": "1 Enoch 10:4-6; Leviticus 16:10"
+  },
+  {
+    "cat": "megalith",
+    "name": "Carnac Stones, France",
+    "lat": 47.5916,
+    "lng": -3.0744,
+    "desc": "Over 3,000 standing stones arranged in parallel alignments stretching 4 kilometers. Erected ~4500-3300 BC. The largest stones (up to 350 tons, now fallen) are at the western end. Local Breton legend says they are Roman soldiers turned to stone by Merlin.",
+    "note": "Pre-Celtic, pre-Roman. Like Gobekli Tepe, this was built by people who shouldn't have had the organization or technology for monumental construction. The alignment patterns suggest astronomical knowledge."
+  },
+  {
+    "cat": "megalith",
+    "name": "Newgrange, Ireland",
+    "lat": 53.6947,
+    "lng": -6.4754,
+    "desc": "Built ~3200 BC \u2014 older than both Stonehenge and the Giza pyramids. The passage tomb is precisely aligned so that on the winter solstice, sunlight floods the inner chamber through a roof box. Engineering of this precision by \"primitive\" Neolithic Irish is unexplained.",
+    "refs": "1 Enoch 8:3 (astronomical knowledge taught by Watchers)"
+  },
+  {
+    "cat": "megalith",
+    "name": "Rujm el-Hiri (Gilgal Refaim)",
+    "lat": 32.9932,
+    "lng": 35.8175,
+    "desc": "A massive megalithic monument in the Golan Heights \u2014 five concentric stone circles with a central cairn. ~5000 BC. Hebrew name means \"Wheel of the Giants\" (Rephaim). Over 42,000 basalt rocks, weighing ~40,000 tons total. Visible only from the air. Connected to the Rephaim/Nephilim tradition \u2014 the giants of Bashan (Deut 3:11, Og's iron bed).",
+    "refs": "Deuteronomy 3:11,13; Joshua 12:4; 2 Samuel 5:18 (Valley of Rephaim)",
+    "note": "Located in biblical Bashan, territory of Og the giant king. The name \"Gilgal Refaim\" (Wheel of the Rephaim) directly connects this to the Nephilim tradition. No known builder civilization."
+  },
+  {
+    "cat": "megalith",
+    "name": "Dolmen Field, Golan Heights",
+    "lat": 32.85,
+    "lng": 35.78,
+    "desc": "The Golan Heights contain the highest concentration of dolmens in the Middle East \u2014 over 5,000 stone burial chambers. Many weigh 20-50 tons. Dated ~4500-3000 BC. Traditionally associated with the Rephaim/giants who inhabited Bashan.",
+    "refs": "Deuteronomy 3:13; Joshua 13:12"
+  },
+  {
+    "cat": "megalith",
+    "name": "Karnak Temple, Egypt",
+    "lat": 25.7188,
+    "lng": 32.6573,
+    "desc": "The largest ancient religious complex in the world. The Hypostyle Hall has 134 columns up to 24m tall, each weighing ~70 tons. The largest obelisk (by Hatshepsut) weighs 323 tons of solid granite. How these were quarried, transported, and erected remains debated.",
+    "refs": "Exodus 1:11 (built by forced labor)",
+    "note": "The scale of stone construction at Karnak exceeds anything achievable with the tools attributed to ancient Egyptians. The precision of the column placement suggests mathematical knowledge."
+  },
+  {
+    "cat": "megalith",
+    "name": "Aswan Unfinished Obelisk",
+    "lat": 24.0776,
+    "lng": 32.8977,
+    "desc": "A partially carved obelisk still lying in its quarry at Aswan. If completed, it would be 42m tall and weigh ~1,200 tons \u2014 the heaviest single stone ever attempted by ancient civilizations. Abandoned due to a crack. Provides unique evidence of quarrying methods.",
+    "note": "1,200 tons of solid granite. Modern cranes max out at ~300 tons. No satisfactory explanation for how ancient Egyptians planned to move this."
+  },
+  {
+    "cat": "megalith",
+    "name": "Ollantaytambo, Peru",
+    "lat": -13.2588,
+    "lng": -72.2636,
+    "desc": "Inca fortress with six massive rose-granite monoliths (each ~50 tons) fitted without mortar at the summit. The stone was quarried across a valley and up a mountain. The precision of the stonework rivals any ancient civilization. Local legend attributes it to giants.",
+    "note": "The \"tired stones\" (piedras cansadas) scattered along the route are explained by local tradition as stones abandoned by giants who grew weary."
+  },
+  {
+    "cat": "megalith",
+    "name": "Trilithon, Baalbek",
+    "lat": 34.0069,
+    "lng": 36.204,
+    "desc": "Three stones (the Trilithon) each weighing ~800 tons, precisely placed 7m above ground in the foundation of the Temple of Jupiter. The nearby \"Stone of the Pregnant Woman\" (~1,000 tons) and the even larger \"Stone of the South\" (~1,242 tons) remain in the quarry. These are the largest hewn stones in the world.",
+    "note": "Attributed to pre-Roman, possibly pre-Phoenician builders. Roman engineers used these existing megaliths as foundations. The logistics of quarrying, transporting, and placing 800-ton stones remain unexplained."
+  },
+  {
+    "cat": "megalith",
+    "name": "Jiroft / Konar Sandal, Iran",
+    "lat": 28.4977,
+    "lng": 57.7327,
+    "desc": "A Bronze Age civilization (~3000 BC) discovered in 2001 in southeastern Iran. Massive ziggurats, sophisticated chlorite vessels, and evidence of advanced metallurgy. Some scholars connect this to the \"Land of Aratta\" mentioned in Sumerian texts. Evidence of a \"lost\" advanced civilization.",
+    "refs": "Genesis 10:22 (Elam, sons of Shem)"
+  },
+  {
+    "cat": "megalith",
+    "name": "Adam's Calendar, South Africa",
+    "lat": -25.8842,
+    "lng": 30.5003,
+    "desc": "A stone circle in Mpumalanga, South Africa. Claims of extreme antiquity (75,000+ years) are controversial, but the site does show careful astronomical alignment. Some researchers connect it to ancient gold mining in the region.",
+    "note": "If the dating claims are accurate, this would be the oldest man-made structure. Mainstream archaeology disputes the extreme dates, but the stone arrangement is undeniably deliberate."
+  },
+  {
+    "cat": "megalith",
+    "name": "Yonaguni Monument, Japan",
+    "lat": 24.4351,
+    "lng": 122.9994,
+    "desc": "An underwater rock formation off Yonaguni Island that appears to show stepped pyramidal structures, channels, and right angles. Discovered 1987. Debate continues whether this is natural erosion or a submerged ancient monument (~10,000+ years old if man-made).",
+    "note": "If artificial, this predates all known civilizations and would have been built during the last Ice Age when sea levels were lower."
+  },
+  {
+    "cat": "megalith",
+    "name": "Gunung Padang, Indonesia",
+    "lat": -6.9946,
+    "lng": 107.0563,
+    "desc": "A megalithic site on a volcanic hill in Java. Core drilling in 2023 revealed buried construction layers potentially dating to 25,000+ BC, which would make it the oldest known pyramid. Five terraces of columnar basalt arranged with clear human purpose.",
+    "note": "If the deep-layer dating holds, this rewrites human history. Published in Archaeological Prospection (2023). Fierce academic debate ongoing."
+  },
+  {
+    "cat": "megalith",
+    "name": "Malta Temples (Ggantija)",
+    "lat": 36.0475,
+    "lng": 14.269,
+    "desc": "The Ggantija temples on Gozo (~3600 BC) are among the oldest free-standing structures on Earth \u2014 older than Stonehenge and the pyramids. Stones up to 50 tons. Built by a Neolithic island culture with no metal tools. Local Maltese legend says they were built by giants.",
+    "refs": "Genesis 6:4 (giants)",
+    "note": "\"Ggantija\" literally means \"Giant's Tower\" in Maltese. The temple builders vanished ~2500 BC with no clear successor."
+  },
+  {
+    "cat": "megalith",
+    "name": "Moai (Rano Raraku), Easter Island",
+    "lat": -27.1213,
+    "lng": -109.2863,
+    "desc": "The quarry where ~95% of the 887 moai statues were carved from compressed volcanic ash (tuff). The largest unfinished moai is 21m tall and would weigh ~270 tons. The Rapanui oral tradition says the moai \"walked\" to their platforms through mana (spiritual power).",
+    "note": "The islanders' own explanation is supernatural. Modern experiments show they CAN be moved by rocking/walking with ropes, but the logistics of the largest ones (80+ tons) remain impressive."
+  },
+  {
+    "cat": "megalith",
+    "name": "Karahan Tepe",
+    "lat": 37.41,
+    "lng": 39.05,
+    "desc": "Sister site to G\u00f6bekli Tepe in Turkey. Similar T-shaped pillars with phallic and animal carvings. Human head carved from bedrock. Possibly older than G\u00f6bekli. Suggests a widespread pre-agricultural temple-building culture in southeastern Turkey.",
+    "note": "If these sites are pre-agricultural, it means organized religion preceded farming \u2014 the opposite of what secular archaeology predicted. Pre-Flood knowledge (Gen 4:20-22) carried through Babel?"
+  },
+  {
+    "cat": "megalith",
+    "name": "Derinkuyu Underground City",
+    "lat": 38.375,
+    "lng": 34.734,
+    "desc": "18-level underground city carved from soft volcanic tuff in Cappadocia, Turkey. Could house 20,000 people with livestock. Massive stone doors, ventilation shafts, and wells. Connected to other underground cities by tunnels.",
+    "note": "Built to hide from what? Who needed to shelter 20,000 people underground? Local tradition says it was built to escape giants/enemies. The engineering implies advanced knowledge of geology and ventilation."
+  },
+  {
+    "cat": "megalith",
+    "name": "Nabta Playa Stone Circle",
+    "lat": 22.5,
+    "lng": 30.7,
+    "desc": "Ancient stone circle in the Nubian Desert of Egypt, ~7000-6500 BC. Aligned with summer solstice and several bright stars. Predates Stonehenge by ~2,000 years. Built when the Sahara was green.",
+    "refs": "1 Enoch 8:3 (Baraqiel taught astrology)",
+    "note": "Astronomical knowledge this early challenges the timeline of civilization. The builders understood stellar precession \u2014 knowledge attributed to the Watchers in 1 Enoch."
+  },
+  {
+    "cat": "megalith",
+    "name": "Senegambian Stone Circles",
+    "lat": 13.69,
+    "lng": -15.53,
+    "desc": "Over 1,000 stone circles and tumuli scattered across Gambia and Senegal, comprising 28,000+ individual stones. UNESCO World Heritage site. Erected ~300 BC to 1600 AD. Each circle contains 8-14 standing stones up to 2.5m tall.",
+    "note": "West Africa's most extensive megalithic landscape. Evidence that the impulse to build stone circles is truly global, not limited to Europe or the Near East."
+  },
+  {
+    "cat": "megalith",
+    "name": "Avebury Henge",
+    "lat": 51.4285,
+    "lng": -1.853,
+    "desc": "The largest stone circle in Europe, enclosing 28.5 acres. The outer circle has ~98 standing stones (originally), surrounded by a massive ditch 10m deep. Three times the diameter of Stonehenge. Much of it was deliberately destroyed in the Middle Ages by Christians.",
+    "note": "Medieval Christians smashed the stones because they believed them to be pagan \u2014 confirming that even in the 1300s, people associated these sites with spiritual power."
+  },
+  {
+    "cat": "megalith",
+    "name": "Hagar Qim & Mnajdra",
+    "lat": 35.827,
+    "lng": 14.442,
+    "desc": "Neolithic temple complex on Malta's southern coast, ~3600-3200 BC. Mnajdra has precise equinox/solstice alignments. Hagar Qim contains the largest single stone in Maltese temples (~20 tons). Female fertility figurines found throughout.",
+    "note": "Same culture as Ggantija (\"Giant's Tower\"). These tiny islands have the densest concentration of megalithic temples anywhere on Earth. Who were these island builders?"
+  },
+  {
+    "cat": "megalith",
+    "name": "Ring of Brodgar",
+    "lat": 59.001,
+    "lng": -3.23,
+    "desc": "A massive Neolithic henge and stone circle on Orkney, Scotland. Originally 60 stones in a perfect circle 104m in diameter, surrounded by a deep ditch cut from solid bedrock. ~2500-2000 BC.",
+    "note": "On a tiny subarctic island with brutal winters, someone cut a ditch through solid rock and erected 60 massive stones in a perfect circle. Why here?"
+  },
+  {
+    "cat": "megalith",
+    "name": "Callanish Stones",
+    "lat": 58.197,
+    "lng": -6.745,
+    "desc": "A cruciform stone setting on the Isle of Lewis, Scotland, ~2900-2600 BC. 13 stones in a circle with avenue and radiating stone rows forming a cross shape. Aligned with the lunar standstill cycle (every 18.6 years).",
+    "note": "Understanding the 18.6-year lunar standstill cycle requires generations of observation. This is advanced astronomical knowledge on a remote Scottish island."
+  },
+  {
+    "cat": "megalith",
+    "name": "Machu Picchu",
+    "lat": -13.1631,
+    "lng": -72.545,
+    "desc": "Inca citadel at 2,430m elevation, built ~1450 AD. Precision dry-stone walls with polygonal blocks fitted without mortar. The Intihuatana stone is an astronomical observatory. Built on earthquake-fault geology yet survives because of the precision engineering.",
+    "note": "Anti-seismic construction that outperforms modern buildings. Polygonal masonry defies simple tools. The two construction styles (rough upper, precision lower) may indicate different builders/periods."
+  },
+  {
+    "cat": "megalith",
+    "name": "Teotihuacan",
+    "lat": 19.6925,
+    "lng": -98.8438,
+    "desc": "Ancient Mesoamerican city in Mexico, peak ~100-450 AD, population 125,000+. Pyramid of the Sun (third largest pyramid on Earth) aligned to astronomical events. Street grid at 15.5\u00b0 east of north. Mica sheets found in construction (imported from 3,000 miles away).",
+    "note": "Mica has no decorative purpose \u2014 it is used in modern electronics as an insulator. Why import it 3,000 miles and embed it in a pyramid? The name means \"birthplace of the gods\" in Nahuatl, but the actual builders are UNKNOWN."
+  },
+  {
+    "cat": "megalith",
+    "name": "Nan Madol",
+    "lat": 6.85,
+    "lng": 158.33,
+    "desc": "A ruined city of 92 artificial islands in a lagoon in Pohnpei, Micronesia. Built from massive basalt \"logs\" (columnar basalt) weighing up to 50 tons each. The logistics of transporting these across open water are staggering.",
+    "refs": "Genesis 11:8-9 (dispersed to islands)",
+    "note": "Local legend says the city was built by twin sorcerers who made the stones fly using magic. \"Venice of the Pacific\" built by people with no metal tools, no pulleys, no wheels \u2014 on a tiny Pacific island."
+  },
+  {
+    "cat": "megalith",
+    "name": "Zorats Karer (Carahunge)",
+    "lat": 39.552,
+    "lng": 45.51,
+    "desc": "A stone circle in Armenia with ~223 stones, some with smooth holes drilled through them. Possibly aligned with astronomical events. Sometimes called \"Armenia's Stonehenge.\" Dated to ~5500 BC or earlier by some researchers.",
+    "note": "The drilled holes may be astronomical sighting tubes \u2014 telescope precursors. If the early dating holds, this predates Near Eastern urban civilization."
+  },
+  {
+    "cat": "megalith",
+    "name": "Almendres Cromlech",
+    "lat": 38.558,
+    "lng": -8.061,
+    "desc": "The largest cromlech (stone circle) on the Iberian Peninsula, with ~95 standing stones near \u00c9vora, Portugal. Dated to ~6000-4000 BC. The stones are arranged in an ellipse with clear astronomical alignments.",
+    "note": "One of the oldest megalithic sites in Western Europe. Evidence that megalith-building was already sophisticated before the major European stone ages."
+  },
+  {
+    "cat": "megalith",
+    "name": "Coral Castle",
+    "lat": 25.5003,
+    "lng": -80.4444,
+    "desc": "A structure in Florida built single-handedly by Latvian immigrant Edward Leedskalnin (~1923-1951). Over 1,100 tons of oolitic limestone, cut and moved by one man alone. Includes a 9-ton gate that opens with a finger push, perfectly balanced.",
+    "note": "Leedskalnin claimed to know the secrets of the pyramids. He worked only at night, refusing witnesses. When asked how, he said \"I understand the laws of weight and leverage.\" No one has definitively explained his methods."
+  },
+  {
+    "cat": "megalith",
+    "name": "Osirion (Abydos)",
+    "lat": 26.185,
+    "lng": 31.919,
+    "desc": "A mysterious subterranean structure behind the Temple of Seti I at Abydos, Egypt. Built from enormous red granite blocks in a style completely different from the temple. Some researchers argue it predates dynastic Egypt.",
+    "note": "The construction technique (massive megalithic blocks, no decoration) resembles the Valley Temple at Giza more than any New Kingdom work. If pre-dynastic, who built it?"
+  },
+  {
+    "cat": "megalith",
+    "name": "Sardinian Nuraghi",
+    "lat": 39.843,
+    "lng": 9.024,
+    "desc": "Over 7,000 stone towers (nuraghi) dot the island of Sardinia, built ~1900-730 BC. Some are massive multi-tower complexes. The Nuragic civilization also produced mysterious bronze statuettes of warriors, priests, and \"giant\" figures. Local tradition: \"the island of giants.\"",
+    "note": "7,000 towers on one island. The logistics suggest a highly organized civilization. Sardinian legends speak of giants. Giant bone discoveries (disputed) have been reported. The bronze figurines show supernatural beings."
+  },
+  {
+    "cat": "pyramid",
+    "name": "Cholula, Mexico",
+    "lat": 19.0578,
+    "lng": -98.3017,
+    "desc": "The Great Pyramid of Cholula is the LARGEST pyramid by volume in the world \u2014 bigger than Giza. 4.45 million cubic meters. Aztec name: Tlachihualtepetl (\"man-made mountain\"). Now has a church on top. Multiple construction phases spanning 2,000 years.",
+    "note": "The Spanish built a church directly on top of the pagan pyramid \u2014 the same pattern as Christianity building on top of pagan sacred sites across Europe. The largest pyramid on Earth, and most people have never heard of it."
+  },
+  {
+    "cat": "biblical",
+    "name": "Beer-sheba",
+    "lat": 31.2457,
+    "lng": 34.7925,
+    "desc": "Abraham dug a well here and swore an oath with Abimelech. Isaac built an altar. Jacob offered sacrifices before going to Egypt. The phrase \"from Dan to Beer-sheba\" defines Israel's full extent.",
+    "refs": "Genesis 21:31; 26:23; 46:1"
+  },
+  {
+    "cat": "biblical",
+    "name": "Mamre / Oaks of Mamre",
+    "lat": 31.5285,
+    "lng": 35.0963,
+    "desc": "Where Abraham hosted three visitors \u2014 one was YHWH himself (Gen 18:1). A divine council theophany: God appears with two angels who proceed to Sodom. The Aqedah's binding narrative also begins here.",
+    "refs": "Genesis 13:18; 18:1-15; 23:19"
+  },
+  {
+    "cat": "biblical",
+    "name": "Mount Moriah",
+    "lat": 31.7781,
+    "lng": 35.2354,
+    "desc": "Where Abraham bound Isaac (Gen 22). Later identified as the Temple Mount (2 Chr 3:1). The place of supreme sacrifice foreshadows Calvary. The divine council witnessed the test of faith.",
+    "refs": "Genesis 22:2; 2 Chronicles 3:1"
+  },
+  {
+    "cat": "biblical",
+    "name": "Dothan",
+    "lat": 32.4098,
+    "lng": 35.2281,
+    "desc": "Where Joseph was sold by his brothers (Gen 37:17). Later, Elisha's servant sees the heavenly army: \"the mountain was full of horses and chariots of fire\" \u2014 the divine council's military arm made visible.",
+    "refs": "Genesis 37:17; 2 Kings 6:13-17"
+  },
+  {
+    "cat": "biblical",
+    "name": "Mahanaim",
+    "lat": 32.3258,
+    "lng": 35.7342,
+    "desc": "Where Jacob met angels of God and said \"This is God's camp!\" The name means \"two camps\" \u2014 the earthly camp of Jacob and the heavenly camp of God's angels.",
+    "refs": "Genesis 32:1-2"
+  },
+  {
+    "cat": "biblical",
+    "name": "Zoar",
+    "lat": 31.08,
+    "lng": 35.45,
+    "desc": "The small city Lot fled to when Sodom was destroyed. Located at the southern end of the Dead Sea. \"The sun had risen on the earth when Lot came to Zoar.\"",
+    "refs": "Genesis 19:22-23"
+  },
+  {
+    "cat": "biblical",
+    "name": "Goshen (Land of)",
+    "lat": 30.78,
+    "lng": 31.77,
+    "desc": "The fertile delta region where Israel lived in Egypt. Joseph settled his family here (Gen 47:6). The Israelites multiplied from 70 to ~2 million during the 430-year sojourn.",
+    "refs": "Genesis 47:6; Exodus 8:22; 9:26"
+  },
+  {
+    "cat": "biblical",
+    "name": "Rameses / Pi-Ramesses",
+    "lat": 30.79,
+    "lng": 31.83,
+    "desc": "The store-city Israel built and the departure point of the Exodus. Located at modern Qantir in the eastern Nile Delta. \"The Israelites journeyed from Rameses to Succoth\" (Exod 12:37).",
+    "refs": "Exodus 1:11; 12:37"
+  },
+  {
+    "cat": "biblical",
+    "name": "Succoth (Egypt)",
+    "lat": 30.55,
+    "lng": 32.1,
+    "desc": "First encampment after leaving Rameses. The Hebrew means \"booths/shelters.\" This begins Israel's journey from slavery to Sinai.",
+    "refs": "Exodus 12:37; 13:20"
+  },
+  {
+    "cat": "biblical",
+    "name": "Pi-hahiroth / Red Sea Crossing",
+    "lat": 29.92,
+    "lng": 32.55,
+    "desc": "Where Israel was trapped between the sea and Pharaoh's army. YHWH split the waters. The Egyptian army was destroyed. \"The horse and his rider he has thrown into the sea\" (Exod 15:1).",
+    "refs": "Exodus 14:2-31"
+  },
+  {
+    "cat": "biblical",
+    "name": "Marah",
+    "lat": 29.27,
+    "lng": 33.08,
+    "desc": "First stop after the Red Sea. The water was bitter (marah). Moses threw in a tree and the water became sweet. God reveals himself as YHWH Rophe \u2014 \"the LORD who heals.\"",
+    "refs": "Exodus 15:23-26"
+  },
+  {
+    "cat": "biblical",
+    "name": "Elim",
+    "lat": 28.83,
+    "lng": 33.18,
+    "desc": "Oasis with 12 springs and 70 palm trees \u2014 matching Israel's 12 tribes and the 70 nations of Genesis 10 / Deuteronomy 32:8. Providential symbolism in geography.",
+    "refs": "Exodus 15:27"
+  },
+  {
+    "cat": "biblical",
+    "name": "Rephidim",
+    "lat": 28.68,
+    "lng": 33.68,
+    "desc": "Where Moses struck the rock for water and where Amalek attacked. Aaron and Hur held up Moses' hands. The rock at Horeb = Christ (1 Cor 10:4). First warfare after the Exodus.",
+    "refs": "Exodus 17:1-16"
+  },
+  {
+    "cat": "biblical",
+    "name": "Kadesh-barnea",
+    "lat": 30.63,
+    "lng": 34.4,
+    "desc": "The staging point for the spy mission into Canaan. Israel's refusal to enter triggered the 40-year wilderness sentence. Moses struck the rock here instead of speaking to it (Num 20).",
+    "refs": "Numbers 13:26; 20:1-13; Deuteronomy 1:19-46"
+  },
+  {
+    "cat": "biblical",
+    "name": "Jericho",
+    "lat": 31.8711,
+    "lng": 35.4444,
+    "desc": "First city conquered in Canaan. The walls \"fell flat\" after Israel marched 7 days. Rahab the prostitute was saved. Everything was cherem (devoted to destruction). The oldest known walled city (~8000 BC).",
+    "refs": "Joshua 6; Hebrews 11:30-31"
+  },
+  {
+    "cat": "biblical",
+    "name": "Ai",
+    "lat": 31.9155,
+    "lng": 35.2578,
+    "desc": "Second target after Jericho. Initial defeat due to Achan's cherem violation. After judgment, the city was taken by ambush. Archaeological identification debated (Khirbet el-Maqatir or et-Tell).",
+    "refs": "Joshua 7-8"
+  },
+  {
+    "cat": "biblical",
+    "name": "Gibeon",
+    "lat": 31.8497,
+    "lng": 35.1839,
+    "desc": "Where the sun stood still during Joshua's battle (Josh 10:12-13). The Gibeonites tricked Israel into a treaty. Later the site of the tabernacle and Solomon's dream.",
+    "refs": "Joshua 9-10; 1 Kings 3:4-5"
+  },
+  {
+    "cat": "biblical",
+    "name": "Hazor",
+    "lat": 33.0175,
+    "lng": 35.5683,
+    "desc": "Largest Canaanite city, called \"the head of all those kingdoms\" (Josh 11:10). King Jabin defeated by Joshua. Massive destruction layer confirms 13th century BC burning. Tel Hazor covers 200 acres.",
+    "refs": "Joshua 11:1-15; Judges 4"
+  },
+  {
+    "cat": "biblical",
+    "name": "Megiddo (Armageddon)",
+    "lat": 32.5847,
+    "lng": 35.1847,
+    "desc": "Strategic fortress controlling the Jezreel Valley. 26 destruction levels spanning 6,000 years. Hebrew \"Har Megiddo\" = Armageddon (Rev 16:16). The final eschatological battlefield where the divine council narrative concludes.",
+    "refs": "Revelation 16:16; Judges 5:19; 2 Kings 23:29"
+  },
+  {
+    "cat": "biblical",
+    "name": "Shiloh",
+    "lat": 32.0556,
+    "lng": 35.2897,
+    "desc": "Israel's first permanent sanctuary. The tabernacle stood here for ~300 years. Where Hannah prayed for Samuel. Destroyed by the Philistines ~1050 BC. Jeremiah cites its destruction as warning (Jer 7:12).",
+    "refs": "Joshua 18:1; 1 Samuel 1-3; Jeremiah 7:12"
+  },
+  {
+    "cat": "biblical",
+    "name": "Mount Ebal",
+    "lat": 32.2333,
+    "lng": 35.275,
+    "desc": "Mountain of curses where Joshua built an altar and read the Torah (Josh 8:30-35). Adam Zertal excavated a large stone structure here matching Exodus 20:25's altar specifications. Opposite Mount Gerizim.",
+    "refs": "Deuteronomy 27:4-8; Joshua 8:30-35"
+  },
+  {
+    "cat": "biblical",
+    "name": "Mount Gerizim",
+    "lat": 32.2,
+    "lng": 35.2722,
+    "desc": "Mountain of blessings. Sacred to the Samaritan community, who believe THIS is where Abraham bound Isaac and where God chose his Temple (Samaritan Pentateuch Deut 27). Jesus met the Samaritan woman nearby.",
+    "refs": "Deuteronomy 11:29; John 4:20"
+  },
+  {
+    "cat": "biblical",
+    "name": "Beersheba to Dan Route",
+    "lat": 33.2469,
+    "lng": 35.6519,
+    "desc": "Dan (modern Tell el-Qadi) at Israel's northern border. Jeroboam set up a golden calf here (1 Kgs 12:29). Previously called Laish until conquered by the tribe of Dan (Judges 18). Abraham pursued kings to this area (Gen 14:14).",
+    "refs": "Genesis 14:14; Judges 18:29; 1 Kings 12:29"
+  },
+  {
+    "cat": "cultural",
+    "name": "Ugarit (Ras Shamra), Syria",
+    "lat": 35.6005,
+    "lng": 35.7824,
+    "desc": "Canaanite city destroyed ~1185 BC. Thousands of cuneiform tablets reveal El's divine assembly, Baal's cosmic battles, the Rephaim traditions, and vocabulary cognate with Hebrew. The closest ANE parallel to the biblical divine council.",
+    "refs": "Psalm 82 (cf. KTU 1.2); Psalm 29 (cf. KTU 1.4)"
+  },
+  {
+    "cat": "cultural",
+    "name": "Mari, Syria",
+    "lat": 34.55,
+    "lng": 40.8886,
+    "desc": "20,000+ cuneiform tablets (18th century BC). Mari letters mention prophetic figures, treaty forms, and tribal customs closely paralleling the patriarchal narratives. Names like \"Abram\" and \"Jacob\" appear.",
+    "refs": "Genesis 12-50 (patriarchal customs)"
+  },
+  {
+    "cat": "cultural",
+    "name": "Nuzi, Iraq",
+    "lat": 35.37,
+    "lng": 44.28,
+    "desc": "Thousands of tablets (15th century BC) documenting adoption, inheritance, and marriage customs virtually identical to those in Genesis: surrogate motherhood (Sarah/Hagar), adoption of slaves as heirs, deathbed blessings.",
+    "refs": "Genesis 15-16 (Abraham customs); Genesis 27 (blessing customs)"
+  },
+  {
+    "cat": "cultural",
+    "name": "Ebla (Tell Mardikh), Syria",
+    "lat": 35.7981,
+    "lng": 36.7984,
+    "desc": "17,000 cuneiform tablets (2400 BC). Personal names and place names consistent with the Genesis patriarchal world. Some scholars initially claimed to find \"Sodom\" and \"Gomorrah\" in the texts (disputed).",
+    "refs": "Genesis 10-14 (Table of Nations parallels)"
+  },
+  {
+    "cat": "biblical",
+    "name": "Mount Nebo",
+    "lat": 31.7672,
+    "lng": 35.7261,
+    "desc": "Where Moses viewed the Promised Land before his death. God buried him in an unknown location. Jude 9: Michael the archangel disputed with the devil over Moses' body \u2014 a divine council event behind the scenes.",
+    "refs": "Deuteronomy 34:1-6; Jude 9"
+  },
+  {
+    "cat": "biblical",
+    "name": "Plains of Moab",
+    "lat": 31.86,
+    "lng": 35.56,
+    "desc": "Where Israel camped before crossing the Jordan. Balaam cursed/blessed from Mount Peor. The Baal-Peor apostasy occurred here. Moses delivered the book of Deuteronomy.",
+    "refs": "Numbers 22-25; Deuteronomy 1:1"
+  },
+  {
+    "cat": "biblical",
+    "name": "Pethor (Mesopotamia)",
+    "lat": 36.23,
+    "lng": 38.17,
+    "desc": "Balaam's hometown on the Euphrates in northern Mesopotamia. Balak king of Moab sent messengers here to summon the diviner Balaam to curse Israel.",
+    "refs": "Numbers 22:5; Deuteronomy 23:4"
+  },
+  {
+    "cat": "biblical",
+    "name": "Mount Pisgah",
+    "lat": 31.77,
+    "lng": 35.74,
+    "desc": "A peak in the Abarim range overlooking the Dead Sea and Jordan Valley. Balaam offered sacrifices here and blessed Israel instead of cursing them. Also where Moses viewed the Promised Land.",
+    "refs": "Numbers 23:14; Deuteronomy 3:27"
+  },
+  {
+    "cat": "biblical",
+    "name": "Valley of Eshcol",
+    "lat": 31.55,
+    "lng": 35.08,
+    "desc": "Where the 12 spies cut a cluster of grapes so large it had to be carried on a pole between two men. The name means \"cluster.\" Near Hebron in the hill country.",
+    "refs": "Numbers 13:23-24"
+  },
+  {
+    "cat": "biblical",
+    "name": "Ashdod",
+    "lat": 31.8,
+    "lng": 34.65,
+    "desc": "One of five Philistine cities. The Ark of the Covenant was brought here after capture at Ebenezer. The idol of Dagon fell before the Ark twice and was shattered.",
+    "refs": "1 Samuel 5:1-7; Joshua 11:22"
+  },
+  {
+    "cat": "biblical",
+    "name": "Ekron",
+    "lat": 31.78,
+    "lng": 34.85,
+    "desc": "Northernmost Philistine city. The Ark was sent here from Gath after plagues struck. The Ekronites cried out \"They have brought the ark of God to us to kill us!\" It was returned on a cart with gold tumors.",
+    "refs": "1 Samuel 5:10-12; 6:16"
+  },
+  {
+    "cat": "biblical",
+    "name": "Beth-shemesh",
+    "lat": 31.75,
+    "lng": 34.97,
+    "desc": "Israelite town on the border with Philistia. The Ark returned here on a cart pulled by cows. The people rejoiced but 70 men died for looking inside the Ark.",
+    "refs": "1 Samuel 6:12-19"
+  },
+  {
+    "cat": "biblical",
+    "name": "Kiriath-jearim",
+    "lat": 31.8,
+    "lng": 35.1,
+    "desc": "Where the Ark of the Covenant rested for 20 years in the house of Abinadab after returning from Philistia. David later brought it from here to Jerusalem with great celebration.",
+    "refs": "1 Samuel 7:1-2; 2 Samuel 6:2"
+  },
+  {
+    "cat": "biblical",
+    "name": "Zarephath",
+    "lat": 33.45,
+    "lng": 35.29,
+    "desc": "Phoenician town between Tyre and Sidon where Elijah stayed with a widow during the famine. The flour jar was never empty and the oil jug never ran dry. Elijah raised her dead son.",
+    "refs": "1 Kings 17:9-24; Luke 4:26"
+  },
+  {
+    "cat": "biblical",
+    "name": "Brook Cherith",
+    "lat": 32.0,
+    "lng": 35.55,
+    "desc": "Where Elijah hid east of the Jordan after declaring drought. Ravens brought him bread and meat morning and evening. When the brook dried up, God sent him to Zarephath.",
+    "refs": "1 Kings 17:3-7"
+  },
+  {
+    "cat": "biblical",
+    "name": "Mount Carmel",
+    "lat": 32.74,
+    "lng": 35.04,
+    "desc": "Where Elijah challenged 450 prophets of Baal and 400 of Asherah. Fire fell from heaven consuming the sacrifice. The people cried \"YHWH \u2014 He is God!\" The prophets of Baal were slaughtered at the Kishon brook.",
+    "refs": "1 Kings 18:19-40"
+  },
+  {
+    "cat": "biblical",
+    "name": "Gilead (Tishbe)",
+    "lat": 32.4,
+    "lng": 35.78,
+    "desc": "Elijah's homeland. \"Elijah the Tishbite, of the inhabitants of Gilead.\" The rugged Transjordanian highlands east of the Jordan River, known for its balm and fierce independence.",
+    "refs": "1 Kings 17:1; Jeremiah 8:22"
+  },
+  {
+    "cat": "biblical",
+    "name": "Gibeah of Saul",
+    "lat": 31.82,
+    "lng": 35.23,
+    "desc": "Saul's capital city, modern Tell el-Ful north of Jerusalem. Where Saul was made king and from where David later fled. Also the site of the horrific Judges 19 outrage that triggered civil war.",
+    "refs": "1 Samuel 10:26; 11:4; Judges 19-20"
+  },
+  {
+    "cat": "biblical",
+    "name": "Nob",
+    "lat": 31.79,
+    "lng": 35.24,
+    "desc": "The priestly city where David fled from Saul and received the showbread and Goliath's sword from Ahimelech the priest. Saul later massacred 85 priests here through Doeg the Edomite.",
+    "refs": "1 Samuel 21:1-9; 22:9-19"
+  },
+  {
+    "cat": "biblical",
+    "name": "Cave of Adullam",
+    "lat": 31.62,
+    "lng": 34.98,
+    "desc": "Stronghold where David gathered 400 discontented men who became his mighty warriors. Located in the Shephelah lowlands. \"Everyone who was in distress, in debt, or discontented gathered to him.\"",
+    "refs": "1 Samuel 22:1-2; 2 Samuel 23:13"
+  },
+  {
+    "cat": "biblical",
+    "name": "Keilah",
+    "lat": 31.62,
+    "lng": 35.05,
+    "desc": "Town David rescued from Philistine raiders, but then fled when God told him the townspeople would hand him over to Saul. Shows the desperate nature of David's fugitive years.",
+    "refs": "1 Samuel 23:1-13"
+  },
+  {
+    "cat": "biblical",
+    "name": "Wilderness of Ziph",
+    "lat": 31.43,
+    "lng": 35.12,
+    "desc": "Where the Ziphites twice betrayed David's location to Saul. David hid in the hill of Hachilah. Jonathan came here for their last meeting and \"strengthened David's hand in God.\"",
+    "refs": "1 Samuel 23:14-24; 26:1-3"
+  },
+  {
+    "cat": "biblical",
+    "name": "En-gedi",
+    "lat": 31.47,
+    "lng": 35.39,
+    "desc": "Oasis on the western Dead Sea shore. David hid here in the \"Strongholds.\" In a cave, David cut Saul's robe but refused to kill \"the LORD's anointed.\" Saul wept at David's mercy.",
+    "refs": "1 Samuel 24:1-22; Song of Solomon 1:14"
+  },
+  {
+    "cat": "biblical",
+    "name": "Ziklag",
+    "lat": 31.35,
+    "lng": 34.58,
+    "desc": "Philistine city given to David by Achish of Gath. David used it as a base for 16 months. Burned by Amalekites who took the women captive \u2014 David pursued, defeated them, and recovered everything.",
+    "refs": "1 Samuel 27:5-7; 30:1-20"
+  },
+  {
+    "cat": "biblical",
+    "name": "Midian",
+    "lat": 28.5,
+    "lng": 35.0,
+    "desc": "Region in northwest Arabia where Moses fled after killing the Egyptian. He married Zipporah, daughter of Jethro priest of Midian. Spent 40 years as a shepherd before the burning bush encounter.",
+    "refs": "Exodus 2:15-22; 3:1"
+  },
+  {
+    "cat": "biblical",
+    "name": "Nile Delta",
+    "lat": 30.45,
+    "lng": 31.2,
+    "desc": "The fertile triangle of the Nile where Pharaoh's daughter found baby Moses among the reeds. The ten plagues struck this region. Center of Egyptian civilization and Israel's oppression.",
+    "refs": "Exodus 2:3-6; 7-12"
+  },
+  {
+    "cat": "biblical",
+    "name": "Hobah (near Damascus)",
+    "lat": 33.55,
+    "lng": 36.25,
+    "desc": "North of Damascus, where Abraham pursued and defeated the four kings who had captured Lot. He divided his forces at night for a surprise attack, recovering all the people and goods.",
+    "refs": "Genesis 14:15"
+  },
+  {
+    "cat": "biblical",
+    "name": "Potiphar's House (Memphis)",
+    "lat": 29.85,
+    "lng": 31.25,
+    "desc": "Joseph was sold to Potiphar, captain of Pharaoh's guard. The LORD prospered everything Joseph touched. He was falsely accused by Potiphar's wife and thrown into prison.",
+    "refs": "Genesis 39:1-20"
+  },
+  {
+    "cat": "biblical",
+    "name": "Pharaoh's Court (Avaris/Memphis)",
+    "lat": 30.05,
+    "lng": 31.23,
+    "desc": "Joseph interpreted Pharaoh's dreams of seven fat and seven lean years. Made vizier of Egypt at age 30 \u2014 second only to Pharaoh. Oversaw the storage program that saved Egypt and the surrounding nations.",
+    "refs": "Genesis 41:1-45"
+  }
+]

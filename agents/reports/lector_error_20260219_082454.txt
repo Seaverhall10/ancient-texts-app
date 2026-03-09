@@ -1,0 +1,244 @@
+
+{
+    "qara": {
+        "hebrew": "קָרָא",
+        "transliteration": "qārāʾ",
+        "strongs": "H7121",
+        "gloss": "to call, name, proclaim",
+        "definition": "A fundamental verb meaning to call out, summon, proclaim, or name. In Genesis 1, God 'calls' (qārāʾ) the light 'day' and darkness 'night,' establishing divine authority over creation through naming. The act of naming in ancient Near Eastern thought conferred authority and defined essence. Used throughout Genesis for naming children (often with etymological wordplay), calling upon YHWH's name (invoking deity), and summoning individuals. The term carries covenantal significance when God 'calls' Abraham or when people 'call upon the name of YHWH.' In divine council contexts, the act of calling/naming reflects the sovereign's prerogative to define reality and assign roles.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-2", "gen-4", "gen-12", "gen-17", "gen-21"]
+    },
+    "badal": {
+        "hebrew": "בָּדַל",
+        "transliteration": "bāḏal",
+        "strongs": "H1961",
+        "gloss": "to separate, divide, distinguish",
+        "definition": "A verb denoting separation, division, or distinction. Central to Genesis 1's creation account where God separates (bāḏal) light from darkness, waters above from waters below, establishing cosmic order from primordial chaos. The term implies not mere physical separation but categorical distinction—creating boundaries and establishing different domains. Later used for Israel's separation from other nations (Leviticus), the Levites' separation for service, and ritual purity distinctions. The act of separation is fundamentally an ordering activity, establishing the categories and boundaries necessary for a functioning cosmos. In divine council theology, separation establishes distinct realms and jurisdictions.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1"]
+    },
+    "maor": {
+        "hebrew": "מָאוֹר",
+        "transliteration": "māʾôr",
+        "strongs": "H3974",
+        "gloss": "light-bearer, luminary, lamp",
+        "definition": "A noun referring to a light-giving body or luminary, derived from the root ʾôr (light). In Genesis 1:14-16, the mĕʾōrōṯ (plural) are the sun, moon, and stars, created on Day 4 to govern day and night, mark seasons, and serve as signs. Critically, these celestial bodies are demythologized—not deities to be worshiped (as in surrounding ANE cultures) but created objects serving YHWH's purposes. The term emphasizes function (light-giving) over identity. In Exodus, the menorah's lamps are called mĕʾōrōṯ. The deliberate avoidance of naming sun and moon in Genesis 1 (using instead 'greater light' and 'lesser light') further reinforces their status as created servants, not divine beings.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1"]
+    },
+    "mashal": {
+        "hebrew": "מָשַׁל",
+        "transliteration": "māšal",
+        "strongs": "H4910",
+        "gloss": "to rule, have dominion",
+        "definition": "A verb meaning to rule, govern, or exercise dominion. In Genesis 1:16-18, the sun and moon are appointed to 'rule' (māšal) over day and night respectively. This administrative language parallels ancient Near Eastern concepts of celestial bodies as governors of time and cosmic order, but stripped of divine status. The same verb describes human rule (Genesis 3:16; 4:7), Joseph's authority in Egypt, and ideal kingship. The term implies legitimate, ordained authority within an established hierarchy. In divine council framework, māšal describes delegated authority—the luminaries rule under YHWH's sovereignty, just as earthly kings ideally rule as YHWH's vice-regents. The verb's use for both celestial and terrestrial governance creates a cosmic-earthly parallel.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-3", "gen-4", "gen-37"]
+    },
+    "ot": {
+        "hebrew": "אוֹת",
+        "transliteration": "ʾôṯ",
+        "strongs": "H226",
+        "gloss": "sign, mark, token",
+        "definition": "A noun denoting a sign, mark, or token that serves as evidence, reminder, or distinguishing feature. In Genesis 1:14, celestial bodies serve as 'signs' (ʾōṯōṯ) for appointed times and seasons. The rainbow becomes an ʾôṯ of the Noahic covenant (Genesis 9:12-13). Circumcision is the ʾôṯ of the Abrahamic covenant (Genesis 17:11). Cain receives an ʾôṯ of divine protection (Genesis 4:15). Signs can be miraculous (Exodus plagues) or natural phenomena invested with covenantal meaning. The term bridges physical reality and theological significance—a visible marker pointing to invisible divine commitment or presence. In prophetic literature, signs often authenticate divine messages. The concept emphasizes God's use of creation itself as a communication medium.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-4", "gen-9", "gen-17"]
+    },
+    "moed": {
+        "hebrew": "מוֹעֵד",
+        "transliteration": "môʿēḏ",
+        "strongs": "H4150",
+        "gloss": "appointed time, festival, assembly",
+        "definition": "A noun meaning appointed time, set feast, or place of meeting. Derived from yāʿaḏ (to appoint, meet), it denotes times or places fixed by divine appointment. In Genesis 1:14, celestial bodies mark the môʿăḏîm—appointed times for sacred festivals and agricultural seasons. The term becomes technical for Israel's festival calendar (Leviticus 23). The Tent of Meeting is ʾōhel môʿēḏ—the appointed place where God meets His people. The concept emphasizes divine sovereignty over time itself—God establishes the sacred calendar, not human convention or natural cycles alone. Appointed times structure covenant relationship, creating rhythms of worship and remembrance. The term connects cosmic order (celestial markers) with cultic order (festival observance).",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-17", "gen-18"]
+    },
+    "shanah": {
+        "hebrew": "שָׁנָה",
+        "transliteration": "šānâ",
+        "strongs": "H8141",
+        "gloss": "year, cycle of seasons",
+        "definition": "A noun denoting a year, the complete cycle of seasons. In Genesis 1:14, celestial bodies mark years (šānîm), establishing temporal order. The term structures biblical chronology—ages of patriarchs, duration of slavery, sabbatical and jubilee cycles. A year represents completeness, the full circuit of agricultural and festival seasons. Genesis genealogies meticulously record years, emphasizing historical continuity and divine faithfulness across generations. The sabbatical year (every seventh) and jubilee (every fiftieth) invest temporal cycles with covenantal significance. In prophetic literature, years can be symbolic (seventy years of exile). The term grounds theological history in measurable time, affirming that God acts within human chronology, not mythic timelessness.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-5", "gen-7", "gen-11", "gen-17"]
+    },
+    "tannin": {
+        "hebrew": "תַּנִּין",
+        "transliteration": "tannîn",
+        "strongs": "H8577",
+        "gloss": "sea monster, dragon, serpent",
+        "definition": "A noun referring to large sea creatures, often translated 'sea monsters,' 'dragons,' or 'serpents.' In Genesis 1:21, God creates the great tannînîm, demythologizing the chaos monsters of ancient Near Eastern mythology (Tiamat, Leviathan, Rahab). What other cultures portrayed as primordial deities battling creator gods, Genesis presents as mere creatures made by YHWH on Day 5. The term appears in poetic texts describing YHWH's power over chaos waters (Psalm 74:13; Isaiah 27:1; 51:9). In Exodus 7:9-10, Aaron's staff becomes a tannîn before Pharaoh. The deliberate inclusion in Genesis 1 asserts YHWH's absolute sovereignty—even the symbols of chaos are His creations, subject to His command. No dualism, no cosmic conflict, only divine fiat.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1"]
+    },
+    "ramas": {
+        "hebrew": "רָמַשׂ",
+        "transliteration": "rāmaś",
+        "strongs": "H7430",
+        "gloss": "to creep, move, swarm",
+        "definition": "A verb meaning to creep, crawl, or move about (of small creatures). The related noun remeś refers to creeping things—reptiles, insects, small animals. In Genesis 1:21, 24-26, remeś designates a category of land animals, distinguished from behemoth (large land animals) and chayyâ (wild beasts). The term emphasizes movement type rather than taxonomy. Genesis 1:28 and 9:2 include creeping things under human dominion. Levitical law distinguishes clean from unclean among creeping things (Leviticus 11). The comprehensive inclusion of even small, seemingly insignificant creatures in creation accounts underscores that all life originates from divine command and falls under human stewardship.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-6", "gen-7", "gen-8", "gen-9"]
+    },
+    "behemah": {
+        "hebrew": "בְּהֵמָה",
+        "transliteration": "bĕhēmâ",
+        "strongs": "H929",
+        "gloss": "beast, cattle, livestock",
+        "definition": "A noun denoting large land animals, typically domesticated livestock but also wild beasts. In Genesis 1:24-25, bĕhēmâ is one category of land animals created on Day 6, alongside chayyâ (wild animals) and remeś (creeping things). The term often refers to animals suitable for human use—food, labor, sacrifice. Genesis 2:20 includes bĕhēmâ among creatures Adam names. Noah brings bĕhēmâ onto the ark (Genesis 7:2, 8). The Decalogue extends Sabbath rest to bĕhēmâ (Exodus 20:10). Levitical law regulates treatment of bĕhēmâ, prohibiting bestiality and requiring humane treatment. The term reflects the ancient agrarian context where livestock were essential to survival and economy, yet remained under human authority as part of the created order.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-2", "gen-3", "gen-6", "gen-7", "gen-8", "gen-9"]
+    },
+    "chayyah": {
+        "hebrew": "חַיָּה",
+        "transliteration": "ḥayyâ",
+        "strongs": "H2416",
+        "gloss": "living thing, wild animal",
+        "definition": "A noun meaning living thing or wild animal, from the root ḥāyâ (to live). In Genesis 1:24, chayyaṯ hāʾāreṣ (beasts of the earth) designates wild land animals, distinct from domesticated livestock (bĕhēmâ). The term emphasizes vitality and animation. Genesis 2:19 includes chayyaṯ haśśāḏeh (beasts of the field) among creatures Adam names. After the Fall, wild animals become potentially dangerous (Genesis 3:14; 9:2, 5). Levitical law addresses attacks by chayyâ (Leviticus 26:6, 22). Prophetic literature uses chayyâ symbolically for nations or forces. The term's semantic range from 'living thing' to 'wild beast' reflects the ambiguity of untamed creation—vital and good, yet potentially threatening in a fallen world.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-2", "gen-3", "gen-9"]
+    },
+    "parah": {
+        "hebrew": "פָּרָה",
+        "transliteration": "pārâ",
+        "strongs": "H6509",
+        "gloss": "to be fruitful, bear fruit",
+        "definition": "A verb meaning to be fruitful, bear fruit, or be productive. In Genesis 1:22, 28, God blesses sea creatures, birds, and humans with the command 'be fruitful' (pĕrû). The term emphasizes reproductive capacity and multiplication. Genesis 9:1, 7 repeats the blessing to Noah's family post-flood. The patriarchal narratives highlight fruitfulness as covenant blessing—Abraham's descendants will multiply (Genesis 17:6; 28:3; 35:11). Barrenness (the opposite) is portrayed as curse or divine withholding. The verb also applies to land productivity (Genesis 41:52). Fruitfulness connects to the image of God—humans fulfill their creative mandate through procreation and cultivation. The term's covenantal usage makes fertility a sign of divine favor and promise fulfillment.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-8", "gen-9", "gen-17", "gen-28", "gen-35", "gen-41", "gen-48"]
+    },
+    "ravah": {
+        "hebrew": "רָבָה",
+        "transliteration": "rāḇâ",
+        "strongs": "H7235",
+        "gloss": "to multiply, increase, become many",
+        "definition": "A verb meaning to multiply, increase, or become numerous. Paired with pārâ (be fruitful) in Genesis 1:22, 28, forming the blessing formula 'be fruitful and multiply' (pĕrû ûrĕḇû). The term emphasizes quantitative increase—population growth, abundance. God promises Abraham that his descendants will multiply (Genesis 16:10; 17:2; 22:17). The Israelites multiply in Egypt (Genesis 47:27; Exodus 1:7), fulfilling patriarchal promises. The verb also describes increase of possessions, sin, or divine attributes (mercy, faithfulness). In wisdom literature, multiplying words can be negative (empty talk). The creation mandate to multiply establishes human expansion as divinely ordained, contrasting with ancient Near Eastern myths where gods create humans to limit population. Multiplication is blessing, not threat.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-3", "gen-6", "gen-8", "gen-9", "gen-16", "gen-17", "gen-22", "gen-28", "gen-35", "gen-47", "gen-48"]
+    },
+    "male": {
+        "hebrew": "מָלֵא",
+        "transliteration": "mālēʾ",
+        "strongs": "H4390",
+        "gloss": "to fill, be full, fulfill",
+        "definition": "A verb meaning to fill, make full, or fulfill. In Genesis 1:22, 28, creatures are commanded to 'fill' (ûmilʾû) the waters and earth respectively. The term implies complete occupation, abundance, and fulfillment of purpose. God 'fills' creation with His glory (Numbers 14:21). Humans 'fill' the earth as part of the dominion mandate. The verb also means to fulfill (complete a task, keep a vow, satisfy requirements). In prophetic literature, filling can be positive (Spirit-filled) or negative (filled with violence). The creation command to fill the earth establishes human presence across the globe as divinely intended, not imperial overreach. Filling represents the completion of God's creative intention through creaturely participation.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-6", "gen-9", "gen-21", "gen-24", "gen-26", "gen-29"]
+    },
+    "kavash": {
+        "hebrew": "כָּבַשׁ",
+        "transliteration": "kāḇaš",
+        "strongs": "H3533",
+        "gloss": "to subdue, bring into bondage",
+        "definition": "A verb meaning to subdue, bring into subjection, or conquer. In Genesis 1:28, humans are commanded to 'subdue' (wĕḵiḇšuhā) the earth. The term implies forceful action—bringing something under control that may resist. Used elsewhere for military conquest (Numbers 32:22, 29; Joshua 18:1), subjugating peoples (2 Chronicles 28:10), or trampling (Micah 7:19). The creation mandate's use of kāḇaš suggests earth requires active management, not passive enjoyment. Post-Fall, subduing becomes more difficult (Genesis 3:17-19—cursed ground resists cultivation). The term does not imply exploitative domination but purposeful ordering—bringing creation's potential into actualization under human stewardship. The verb's intensity reflects the real work required to fulfill the cultural mandate.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1"]
+    },
+    "esev": {
+        "hebrew": "עֵשֶׂב",
+        "transliteration": "ʿēśeḇ",
+        "strongs": "H6212",
+        "gloss": "herb, grass, vegetation",
+        "definition": "A noun denoting grass, herbs, or green plants. In Genesis 1:11-12, the earth brings forth ʿēśeḇ—vegetation as the first category of plant life. Genesis 1:29-30 designates seed-bearing ʿēśeḇ as food for humans and animals, establishing an originally vegetarian diet. After the Flood, this changes (Genesis 9:3). The term appears in the curse of Genesis 3:18 ('thorns and thistles' alongside ʿēśeḇ haśśāḏeh). Deuteronomy uses ʿēśeḇ metaphorically for teaching (32:2). Psalms contrast human transience with grass that withers (Psalm 90:5; 103:15). The term represents basic sustenance, the foundation of the food chain, and divine provision. Its inclusion in creation accounts emphasizes God's care for creaturely needs from the beginning.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-2", "gen-3", "gen-9"]
+    },
+    "deshe": {
+        "hebrew": "דֶּשֶׁא",
+        "transliteration": "dešeʾ",
+        "strongs": "H1877",
+        "gloss": "tender grass, new vegetation",
+        "definition": "A noun meaning tender grass, young vegetation, or fresh sprouts. In Genesis 1:11-12, dešeʾ appears alongside ʿēśeḇ (herb) as the earth's initial vegetation. The term emphasizes freshness and vitality—the first green shoots. Deuteronomy 32:2 uses dešeʾ poetically for teaching falling like rain on tender grass. Job 38:27 describes dešeʾ sprouting in wilderness after rain. The term's connotation of newness and tenderness fits Day 3's creation of plant life—the earth's first living covering. Unlike mature plants, dešeʾ represents potential and beginning growth. Its use in Genesis 1 emphasizes the earth's immediate response to divine command, bringing forth life in its most delicate, nascent form.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1"]
+    },
+    "zara": {
+        "hebrew": "זָרַע",
+        "transliteration": "zāraʿ",
+        "strongs": "H2232",
+        "gloss": "to sow, scatter seed",
+        "definition": "A verb meaning to sow, plant, or scatter seed. Related to the noun zeraʿ (seed, offspring). In Genesis 1:11-12, plants are described as 'seed-bearing' (mazrîaʿ zeraʿ), emphasizing reproductive capacity. The verb describes agricultural activity—sowing fields (Genesis 26:12). Metaphorically, it describes sowing righteousness or wickedness (Proverbs 11:18; Hosea 10:12). The term connects literal agriculture with spiritual principles—reaping what one sows. In prophetic literature, sowing can represent Israel's dispersion or future restoration. The creation account's emphasis on seed-bearing plants establishes self-perpetuating life cycles as part of divine design. Seed contains both present reality and future potential, making it a powerful symbol of covenant promise and generational continuity.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-26", "gen-47"]
+    },
+    "ets": {
+        "hebrew": "עֵץ",
+        "transliteration": "ʿēṣ",
+        "strongs": "H6086",
+        "gloss": "tree, wood, timber",
+        "definition": "A noun meaning tree, wood, or timber. In Genesis 1:11-12, fruit trees (ʿēṣ pĕrî) are created on Day 3. Genesis 2-3 features two significant trees: ʿēṣ haḥayyîm (tree of life) and ʿēṣ haddaʿaṯ (tree of knowledge). Trees provide food (Genesis 1:29), shade, and timber. The term also denotes wooden objects—ark construction (Genesis 6:14), idols (Deuteronomy 4:28), gallows (Esther 5:14). Prophetically, trees symbolize nations, rulers, or righteous individuals (Psalm 1:3; Ezekiel 31). The tree of life reappears in Revelation 22:2, framing biblical narrative from Eden to New Jerusalem. Trees represent stability, fruitfulness, and life-giving provision. Their prominence in Genesis establishes vegetation as central to habitable creation.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-2", "gen-3", "gen-6", "gen-18", "gen-21", "gen-23", "gen-30", "gen-40"]
+    },
+    "peri": {
+        "hebrew": "פְּרִי",
+        "transliteration": "pĕrî",
+        "strongs": "H6529",
+        "gloss": "fruit, produce, offspring",
+        "definition": "A noun meaning fruit, produce, or offspring. In Genesis 1:11-12, fruit trees (ʿēṣ pĕrî) bear fruit according to their kinds. Genesis 1:29 designates tree fruit as human food. The term extends metaphorically to offspring (Genesis 30:2; Deuteronomy 7:13—'fruit of the womb') and consequences of actions (Proverbs 1:31—'fruit of their way'). Prophetic literature uses pĕrî for spiritual productivity or judgment results (Isaiah 3:10; Jeremiah 17:10). The term connects literal agricultural produce with broader concepts of productivity, results, and generational continuity. Fruitfulness is blessing; barrenness is curse. The creation mandate's emphasis on fruit-bearing establishes productivity as inherent to divine design, both agriculturally and reproductively.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-3", "gen-4", "gen-30"]
+    },
+    "min": {
+        "hebrew": "מִין",
+        "transliteration": "mîn",
+        "strongs": "H4327",
+        "gloss": "kind, species, type",
+        "definition": "A noun meaning kind, species, or type. Appears ten times in Genesis 1 (vv. 11-12, 21, 24-25), emphasizing that plants and animals reproduce 'according to their kinds' (lĕmînēhû, lĕmînāh). The term establishes taxonomic boundaries—creatures reproduce within their categories, maintaining created order. This is not modern biological classification but functional grouping. The repetition underscores stability and predictability in creation—no chaotic mixing or spontaneous generation. Each mîn has its proper place and function. The concept opposes ancient Near Eastern myths of hybrid monsters and divine-animal crossbreeding. It also establishes boundaries later important in Levitical law (forbidden mixtures—Leviticus 19:19). The term affirms both diversity (many kinds) and order (distinct kinds) as divine intention.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-6", "gen-7"]
+    },
+    "nephesh": {
+        "hebrew": "נֶפֶשׁ",
+        "transliteration": "nepeš",
+        "strongs": "H5315",
+        "gloss": "soul, life, living being",
+        "definition": "A noun with broad semantic range: soul, life, living being, person, appetite, emotion. In Genesis 1:20-21, 24, sea creatures and land animals are nepeš ḥayyâ (living creatures/souls). Genesis 2:7 describes Adam becoming nepeš ḥayyâ when God breathes into him—the same phrase used for animals, emphasizing shared creatureliness. However, only humans are created in God's image. Nepeš can mean the whole person (Genesis 12:5—'souls they had acquired'), life itself (Genesis 9:4-5—blood is nepeš), or inner self (Genesis 34:3—Shechem's nepeš clung to Dinah). The term is not Greek dualism's immaterial soul but Hebrew holism's living, breathing, desiring self. Nepeš connects physicality and vitality—life embodied.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "gen-2", "gen-9", "gen-12", "gen-17", "gen-23", "gen-27", "gen-34", "gen-35", "gen-36", "gen-37", "gen-42", "gen-46"]
+    },
+    "natah": {
+        "hebrew": "נָטָה",
+        "transliteration": "nāṭâ",
+        "strongs": "H5186",
+        "gloss": "to stretch out, extend, spread",
+        "definition": "A verb meaning to stretch out, extend, spread, or pitch (a tent). Used for spreading the heavens (Isaiah 40:22; 42:5; 44:24; 45:12; 51:13), pitching tents (Genesis 12:8; 26:25; 33:19), extending a hand or staff (Exodus 7:19; 8:5), or turning aside (Genesis 38:16). The term implies deliberate action and spatial extension. In creation contexts, God 'stretches out' the heavens like a tent or curtain, emphasizing both divine power and the heavens' tent-like structure (ancient cosmology). The verb's use for tent-pitching connects to Israel's nomadic heritage and tabernacle theology—God 'tents' with His people. Nāṭâ can also mean to turn or incline (heart, ear), showing semantic flexibility around extension and direction.",
+        "language": "hebrew",
+        "chapters_used": ["gen-12", "gen-26", "gen-33", "gen-35", "gen-38", "gen-39"]
+    },
+    "yatsar": {
+        "hebrew": "יָצַר",
+        "transliteration": "yāṣar",
+        "strongs": "H3335",
+        "gloss": "to form, fashion, shape",
+        "definition": "A verb meaning to form, fashion, or shape—particularly as a potter shapes clay. In Genesis 2:7-8, 19, YHWH Elohim 'forms' (wayyîṣer) Adam from dust, then forms animals and birds. The term emphasizes hands-on craftsmanship, contrasting with Genesis 1's creation by divine word (bārāʾ, ʿāśâ). Isaiah uses yāṣar extensively for God as potter, Israel as clay (Isaiah 29:16; 45:9; 64:8). Jeremiah 18 develops the potter metaphor for divine sovereignty. The verb implies intentionality, skill, and intimate involvement. Genesis 2's use of yāṣar presents a more anthropomorphic, relational creation account than Genesis 1's cosmic perspective. Both are true; the different verbs highlight different aspects of God's creative work—transcendent command and immanent craftsmanship.",
+        "language": "hebrew",
+        "chapters_used": ["gen-2"]
+    },
+    "neshamah": {
+        "hebrew": "נְשָׁמָה",
+        "transliteration": "nĕšāmâ",
+        "strongs": "H5397",
+        "gloss": "breath, spirit, life-breath",
+        "definition": "A noun meaning breath, spirit, or life-breath. In Genesis 2:7, God breathes into Adam's nostrils nišmaṯ ḥayyîm (breath of life), and he becomes a living being. The term emphasizes the divine origin of human life—breath directly from God. Genesis 7:22 uses nĕšāmâ for all land creatures that died in the flood. Job uses nĕšāmâ for human spirit/breath (Job 27:3; 32:8; 33:4). The term is closely related to rûaḥ (spirit/wind) but more specifically denotes breath as life-force. Nĕšāmâ connects humans to God in a unique way—our life-breath is His breath. The term underscores human dependence on God for every breath and the sacred nature of human life as divinely animated.",
+        "language": "hebrew",
+        "chapters_used": ["gen-2", "gen-7"]
+    },
+    "aphar": {
+        "hebrew": "עָפָר",
+        "transliteration": "ʿāp̄ār",
+        "strongs": "H6083",
+        "gloss": "dust, dry earth, powder",
+        "definition": "A noun meaning dust, dry earth, or fine powder. In Genesis 2:7, God forms Adam from ʿăp̄ar min-hāʾăḏāmâ (dust from the ground), establishing human materiality and connection to earth. Genesis 3:19 pronounces judgment: 'dust you are, and to dust you shall return.' The term emphasizes human mortality, frailty, and earthly origin. Abraham describes himself as 'dust and ashes' (Genesis 18:27), expressing humility. God promises Abraham descendants numerous as ʿăp̄ar hāʾāreṣ (dust of the earth—Genesis 13:16; 28:14). Dust represents both insignificance (Job 30:19; Psalm 22:15) and abundance (when used for innumerable multitude). The term grounds human identity in physical creation while pointing to mortality and dependence on God.",
+        "language": "hebrew",
+        "chapters_used": ["gen-2", "gen-3", "gen-13", "gen-18", "gen-28"]
+    },
+    "nuach": {
+        "hebrew": "נוּחַ",
+        "transliteration": "nûaḥ",
+        "strongs": "H5117",
+        "gloss": "to rest, settle, remain",
+        "definition": "A verb meaning to rest, settle, remain, or be quiet. In Genesis 2:15, God 'places' (wayyannîḥēhû—causative form) Adam in the garden. The term implies settling someone in a place of rest or security. Genesis 8:4 describes the ark 'resting' (wattānaḥ) on Ararat's mountains. The noun mĕnûḥâ means resting place or state of rest. Nûaḥ is related to Noah's name (Nōaḥ), with Genesis 5:29 providing folk etymology: 'he will comfort us' (yĕnaḥămēnû). The verb connects to Sabbath rest and the Promised Land as rest (Deuteronomy 12:9-10). Rest is not mere cessation but peace, security, and dwelling in proper place. God's placing Adam in Eden establishes humanity's original state as restful habitation in divine provision.",
+        "language": "hebrew",
+        "chapters_used": ["gen-2", "gen-

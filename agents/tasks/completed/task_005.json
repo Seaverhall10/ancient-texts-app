@@ -1,0 +1,19 @@
+{
+  "id": "task_005",
+  "agent": "scribe",
+  "priority": 5,
+  "description": "Expand thin chapter 'The Armies from the East — Parthian Invasion Imagery' (id: 1en-56, era: parables). Currently has only 1 section(s). Add 3-5 more sections with detailed analysis, cross-references, ANE context, and Second Temple sources where relevant.",
+  "metadata": {
+    "chapter_id": "1en-56",
+    "era": "parables",
+    "text": "1enoch",
+    "type": "expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:52.934927",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_005.json",
+  "_name": "task_005.json",
+  "completed_at": "2026-02-19T09:07:49.156878",
+  "output_path": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\reports\\scribe_expansion_task_005.py"
+}

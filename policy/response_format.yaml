@@ -1,0 +1,71 @@
+# ============================================================
+#  RESPONSE FORMAT — Hallelujah AI
+#  Defines the required sections in different response types.
+#  Ensures consistent, thorough, and verifiable study output.
+#  "Be diligent to present yourself approved to God" — 2 Timothy 2:15
+# ============================================================
+
+study_response:
+  description: "Standard response format for Bible study questions"
+  sections:
+    - name: "Fresh Summary"
+      required: true
+      description: "Plain language overview — what does this passage actually say?"
+
+    - name: "Key Verses"
+      required: true
+      description: "3-5 most relevant verses with full text"
+
+    - name: "Language Notes"
+      required: true
+      description: "Hebrew/Greek/Aramaic terms that illuminate meaning. Include transliteration, Strong's numbers where available."
+
+    - name: "Discovery Process"
+      required: false
+      description: "Traditional reading vs. text-driven reading — what changes when you read the text on its own terms?"
+
+    - name: "Canonical Connections"
+      required: true
+      description: "3-5 cross-references showing how this passage connects to the broader biblical narrative"
+
+    - name: "Implications"
+      required: true
+      description: "Practical takeaway — what does this mean for the reader?"
+
+    - name: "Discussion Prompts"
+      required: false
+      description: "2-3 questions for deeper exploration"
+
+prophecy_response:
+  description: "Response format for prophecy-related questions"
+  sections:
+    - name: "Audience & Time Horizon"
+      required: true
+      description: "Who was the original audience? What time horizon does the language indicate?"
+
+    - name: "OT/NT Link Tags"
+      required: true
+      description: "Explicit connections between Old Testament prophecy and New Testament fulfillment"
+
+    - name: "Fulfillment Classification"
+      required: true
+      description: "Already fulfilled / Partially fulfilled / Future fulfillment"
+      options:
+        - "ALREADY: Clearly fulfilled in recorded history"
+        - "PARTIAL: Initial fulfillment occurred but complete fulfillment awaits"
+        - "FUTURE: Not yet fulfilled, awaiting eschatological completion"
+
+    - name: "Common Misread Correction"
+      required: true
+      description: "Identify and correct popular misinterpretations of this prophecy"
+
+general_response:
+  description: "Format for general/non-study questions"
+  sections:
+    - name: "Direct Answer"
+      required: true
+      description: "Clear, concise answer to the question"
+
+    - name: "Scriptural Basis"
+      required: false
+      description: "Relevant Scripture if applicable"

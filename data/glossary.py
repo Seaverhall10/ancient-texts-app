@@ -1,0 +1,6694 @@
+"""
+glossary.py -- Multi-language term glossary for Ancient Texts Library.
+Each entry is keyed by a slug used in chapter data files.
+Supports Hebrew, Aramaic, Greek, and Ge'ez terms.
+The 'language' field enables filtering in the glossary UI.
+"""
+
+GLOSSARY = {
+    "bara": {
+        "hebrew": "בָּרָא",
+        "transliteration": "bārāʾ",
+        "strongs": "H1254",
+        "gloss": "to create (ex nihilo)",
+        "definition": "Used exclusively of God's creative activity. Unlike asah (to make/fashion), bara implies bringing something into existence without pre-existing material. Appears in Genesis 1:1, 1:21 (sea creatures), 1:27 (humanity), and 2:3.",
+        "chapters_used": [
+            "gen-1",
+            "gen-2"
+        ]
+    },
+    "asah": {
+        "hebrew": "עָשָׂה",
+        "transliteration": "ʿāśāh",
+        "strongs": "H6213",
+        "gloss": "to make, fashion, accomplish",
+        "definition": "General term for making or doing. In creation contexts, often implies shaping or arranging pre-existing material, distinct from bara. Used of both divine and human activity throughout Genesis.",
+        "chapters_used": [
+            "gen-1",
+            "gen-2"
+        ]
+    },
+    "elohim": {
+        "hebrew": "אֱלֹהִים",
+        "transliteration": "ʾĕlōhīm",
+        "strongs": "H430",
+        "gloss": "God; gods; divine beings",
+        "definition": "Grammatically plural form used with singular verbs when referring to the God of Israel. Can also denote members of the divine council (Psalm 82:1, 6). The plural form has been debated: plural of majesty, deliberative plural, or genuine plurality in the divine council.",
+        "chapters_used": [
+            "gen-1",
+            "gen-2",
+            "gen-3",
+            "hc-ch01",
+            "hc-ch02",
+            "hc-ch05"
+        ]
+    },
+    "elohim_plural": {
+        "hebrew": "אֱלֹהִים",
+        "transliteration": "ʾĕlōhīm (plural usage)",
+        "strongs": "H430",
+        "gloss": "divine beings, gods (council members)",
+        "definition": "When elohim takes plural verbs or appears in contexts like Psalm 82 or Deuteronomy 32:8 (LXX), it refers to members of the divine council — spiritual beings subordinate to Yahweh. Genesis 1:26 'Let us make' may address this council.",
+        "chapters_used": [
+            "gen-1",
+            "gen-3"
+        ]
+    },
+    "yom": {
+        "hebrew": "יוֹם",
+        "transliteration": "yōm",
+        "strongs": "H3117",
+        "gloss": "day; period of time",
+        "definition": "Can mean a literal 24-hour day, the daylight portion of a day, or an indefinite period. In Genesis 1, the refrain 'evening and morning' frames each yom. The word's semantic range has fueled centuries of debate about the creation timeline.",
+        "chapters_used": [
+            "gen-1",
+            "gen-2"
+        ]
+    },
+    "tohu_vavohu": {
+        "hebrew": "תֹהוּ וָבֹהוּ",
+        "transliteration": "tōhû wāḇōhû",
+        "strongs": "H8414 + H922",
+        "gloss": "formless and void; chaos",
+        "definition": "Describes the primordial state of earth before God's ordering work. Tohu = formlessness, emptiness, waste; bohu = void, emptiness. The pair appears only three times in the OT (Gen 1:2, Isa 34:11, Jer 4:23). Parallels Mesopotamian concepts of primordial chaos (Tiamat).",
+        "chapters_used": [
+            "gen-1"
+        ]
+    },
+    "ruach": {
+        "hebrew": "רוּחַ",
+        "transliteration": "rûaḥ",
+        "strongs": "H7307",
+        "gloss": "spirit; wind; breath",
+        "definition": "Semantic range covers wind, breath, and spirit. In Genesis 1:2, 'ruach elohim' can be translated 'Spirit of God,' 'wind of God,' or 'mighty wind.' The same word describes the breath of life (Gen 2:7, 6:17) and emotional states throughout Genesis.",
+        "chapters_used": [
+            "gen-1",
+            "gen-2",
+            "gen-6"
+        ]
+    },
+    "tselem": {
+        "hebrew": "צֶלֶם",
+        "transliteration": "ṣelem",
+        "strongs": "H6754",
+        "gloss": "image; likeness; statue",
+        "definition": "In ANE contexts, kings placed tselem (images/statues) of themselves in conquered territories to represent their authority. Genesis 1:26–27 democratizes this concept: every human is God's image-bearer, his representative on earth. Implies function (ruling) more than form (appearance).",
+        "chapters_used": [
+            "gen-1",
+            "gen-5",
+            "gen-9"
+        ]
+    },
+    "demut": {
+        "hebrew": "דְמוּת",
+        "transliteration": "dəmût",
+        "strongs": "H1823",
+        "gloss": "likeness; resemblance",
+        "definition": "Often paired with tselem. While tselem emphasizes representational function, demut emphasizes similarity or resemblance. Together they establish that humans are both like God (demut) and serve as his representatives (tselem).",
+        "chapters_used": [
+            "gen-1",
+            "gen-5"
+        ]
+    },
+    "adam": {
+        "hebrew": "אָדָם",
+        "transliteration": "ʾāḏām",
+        "strongs": "H120/H121",
+        "gloss": "man; humanity; Adam (proper name)",
+        "definition": "Wordplay with adamah (ground/earth). Functions as both a generic noun ('humanity,' 'the man') and eventually a proper name. The ambiguity is intentional — the first human is both an individual and a representative of the species. H120 = generic, H121 = proper name.",
+        "chapters_used": [
+            "gen-1",
+            "gen-2",
+            "gen-3",
+            "gen-4",
+            "gen-5"
+        ]
+    },
+    "adamah": {
+        "hebrew": "אֲדָמָה",
+        "transliteration": "ʾăḏāmāh",
+        "strongs": "H127",
+        "gloss": "ground; earth; soil",
+        "definition": "The fertile soil from which adam is formed (Gen 2:7). Wordplay ties humanity to the earth. After the Fall, the adamah is cursed (Gen 3:17). Cain is driven from the adamah (Gen 4:14). Noah's name is linked to comfort from the cursed adamah (Gen 5:29).",
+        "chapters_used": [
+            "gen-2",
+            "gen-3",
+            "gen-4",
+            "gen-5"
+        ]
+    },
+    "gan": {
+        "hebrew": "גַּן",
+        "transliteration": "gan",
+        "strongs": "H1588",
+        "gloss": "garden; enclosed space",
+        "definition": "The Garden of Eden (gan-Eden) serves as a sacred space where heaven and earth overlap — a divine council meeting place. The imagery of trees, rivers, and precious stones parallels temple architecture. Eden is presented as God's cosmic temple-garden.",
+        "chapters_used": [
+            "gen-2",
+            "gen-3"
+        ]
+    },
+    "nachash": {
+        "hebrew": "נָחָשׁ",
+        "transliteration": "nāḥāš",
+        "strongs": "H5175",
+        "gloss": "serpent; shining one",
+        "definition": "As a noun: serpent. As a verb (same root): to practice divination. As an adjective: shining, bronze-like. Michael Heiser argues the nachash of Genesis 3 is a divine throne-room guardian (cf. seraphim = 'burning/shining ones') who rebels. Not merely a talking snake but a supernatural being.",
+        "chapters_used": [
+            "gen-3",
+            "hc-ch03"
+        ]
+    },
+    "zera": {
+        "hebrew": "זֶרַע",
+        "transliteration": "zeraʿ",
+        "strongs": "H2233",
+        "gloss": "seed; offspring; descendant",
+        "definition": "Central to the Genesis narrative. The 'seed war' begins in Genesis 3:15 (seed of the woman vs. seed of the serpent) and drives the genealogical focus of the entire book. Promised to Abraham (Gen 12:7, 15:5, 22:17). Both individual and collective sense.",
+        "chapters_used": [
+            "gen-3",
+            "gen-4",
+            "gen-12",
+            "gen-15",
+            "gen-22"
+        ]
+    },
+    "berit": {
+        "hebrew": "בְּרִית",
+        "transliteration": "bərīt",
+        "strongs": "H1285",
+        "gloss": "covenant; pact; treaty",
+        "definition": "A solemn binding agreement. Genesis contains three major covenants: Noahic (Gen 9, universal), Abrahamic (Gen 15/17, particular), and anticipates Mosaic. The covenant-cutting ceremony of Genesis 15 (passing between animal halves) follows ANE suzerainty treaty forms.",
+        "chapters_used": [
+            "gen-6",
+            "gen-9",
+            "gen-15",
+            "gen-17"
+        ]
+    },
+    "nephilim": {
+        "hebrew": "נְפִילִים",
+        "transliteration": "nəp̄īlīm",
+        "strongs": "H5303",
+        "gloss": "Nephilim; fallen ones; giants",
+        "definition": "The offspring of the unions described in Genesis 6:1-4. The word may derive from naphal ('to fall'), making them 'fallen ones,' or from an Aramaic root meaning 'giants.' In Numbers 13:33, the spies report Nephilim in Canaan. 1 Enoch and the Book of Giants expand the tradition dramatically: the Nephilim are the monstrous offspring of the Watchers and human women, growing to 3,000 ells tall, consuming all human provisions, then turning to cannibalism and bloodshed. The Giants in the Book of Giants (Ohyah, Hahyah, Mahway) are named Nephilim individuals. Their destruction in the Flood is presented as divine judgment on the angelic transgression.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-6-1-4",
+            "1en-7",
+            "1en-15",
+            "giants-2",
+            "hc-ch02",
+            "hc-ch14"
+        ]
+    },
+    "bene_elohim": {
+        "hebrew": "בְּנֵי הָאֱלֹהִים",
+        "transliteration": "bənê hāʾĕlōhīm",
+        "strongs": "H1121 + H430",
+        "gloss": "sons of God; divine beings",
+        "definition": "In Job 1:6, 2:1, and 38:7, clearly refers to divine council members. In Genesis 6:1–4, debated: (1) fallen angels/Watchers (oldest interpretation, 1 Enoch, LXX, Jude), (2) Sethite line, (3) royal tyrants. The supernatural reading dominated until Augustine.",
+        "chapters_used": [
+            "gen-6",
+            "hc-ch01",
+            "hc-ch02",
+            "hc-ch13"
+        ]
+    },
+    "yhwh": {
+        "hebrew": "יהוה",
+        "transliteration": "YHWH (Yahweh)",
+        "strongs": "H3068",
+        "gloss": "the LORD; the covenant name of God",
+        "definition": "The personal, covenant name of Israel's God, revealed to Moses (Exodus 3:14) but used by the narrator throughout Genesis. Distinguished from Elohim: YHWH emphasizes relational, covenantal character while Elohim emphasizes sovereign power. Genesis 2 introduces YHWH Elohim.",
+        "chapters_used": [
+            "gen-2",
+            "gen-3",
+            "gen-4",
+            "gen-12",
+            "gen-15"
+        ]
+    },
+    "tebah": {
+        "hebrew": "תֵּבָה",
+        "transliteration": "têḇāh",
+        "strongs": "H8392",
+        "gloss": "ark; chest; box",
+        "definition": "Not a ship (oniyyah) but a sealed box/chest. Same word used for Moses' basket (Exodus 2:3). The ark is not for navigating but for preserving. God seals it shut (Gen 7:16). Dimensions given in cubits: 300×50×30.",
+        "chapters_used": [
+            "gen-6",
+            "gen-7",
+            "gen-8"
+        ]
+    },
+    "mabbul": {
+        "hebrew": "מַבּוּל",
+        "transliteration": "mabbûl",
+        "strongs": "H3999",
+        "gloss": "the Flood; deluge",
+        "definition": "Used exclusively for Noah's flood (except Psalm 29:10). Not the ordinary word for flood (shetseph). Implies a unique, cosmic-scale event. The mabbul reverses creation: the waters above and below (Gen 1:6–7) are released, returning earth to tohu vavohu.",
+        "chapters_used": [
+            "bog-ch01",
+            "bog-ch02",
+            "bog-ch03",
+            "bog-ch04",
+            "bog-ch05",
+            "gen-6",
+            "gen-7",
+            "gen-9"
+        ]
+    },
+    "babel": {
+        "hebrew": "בָּבֶל",
+        "transliteration": "Bāḇel",
+        "strongs": "H894",
+        "gloss": "Babel; Babylon; confusion",
+        "definition": "Hebrew wordplay: balal ('to confuse') sounds like Babel. But in Akkadian, bab-ili means 'gate of god.' The Babylonians saw their ziggurat as a portal to heaven; Genesis reinterprets it as an act of hubris that God confounds. Same word for Babylon throughout the OT.",
+        "chapters_used": [
+            "gen-10",
+            "gen-11"
+        ]
+    },
+    "migdal": {
+        "hebrew": "מִגְדָּל",
+        "transliteration": "miḡdāl",
+        "strongs": "H4026",
+        "gloss": "tower; fortified structure",
+        "definition": "The 'tower with its top in the heavens' (Gen 11:4) likely refers to a Mesopotamian ziggurat — a stepped temple-platform meant to provide a meeting point between heaven and earth. Archaeological parallels include the Etemenanki ziggurat in Babylon.",
+        "chapters_used": [
+            "gen-11"
+        ]
+    },
+    "goy": {
+        "hebrew": "גּוֹי",
+        "transliteration": "gōy",
+        "strongs": "H1471",
+        "gloss": "nation; people group",
+        "definition": "In Genesis 10 (Table of Nations), the 70 nations descended from Noah's sons. Later acquires the sense of 'gentile nations' distinct from Israel. In Deuteronomy 32:8, God allots the nations (goyim) to divine beings (b'nei 'elohim) and keeps Israel for himself.",
+        "chapters_used": [
+            "gen-10",
+            "gen-12",
+            "gen-18"
+        ]
+    },
+    "el_elyon": {
+        "hebrew": "אֵל עֶלְיוֹן",
+        "transliteration": "ʾēl ʿĕlyōn",
+        "strongs": "H410 + H5945",
+        "gloss": "God Most High",
+        "definition": "Title used by Melchizedek (Gen 14:18–22). El Elyon = 'the Highest God,' supreme over all divine beings. In Canaanite religion, El was the head of the pantheon. Genesis identifies El Elyon with YHWH, the God of Abraham (Gen 14:22). Reappears in Deut 32:8, Psalm 82:6.",
+        "chapters_used": [
+            "gen-14",
+            "hc-ch01",
+            "hc-ch02",
+            "hc-ch05"
+        ]
+    },
+    "malak_yhwh": {
+        "hebrew": "מַלְאַךְ יהוה",
+        "transliteration": "malʾāḵ YHWH",
+        "strongs": "H4397 + H3068",
+        "gloss": "angel/messenger of the LORD",
+        "definition": "A figure who appears throughout Genesis and speaks as God himself (Gen 16:7–13, 22:11–18). Sometimes identified with YHWH, sometimes distinct. In divine council theology, this is Yahweh's visible, embodied presence — the 'second Yahweh' or Word of God operating in the earthly realm.",
+        "chapters_used": [
+            "gen-16",
+            "gen-18",
+            "gen-22",
+            "gen-31",
+            "gen-48",
+            "hc-ch01"
+        ]
+    },
+    "hesed": {
+        "hebrew": "חֶסֶד",
+        "transliteration": "ḥesed",
+        "strongs": "H2617",
+        "gloss": "steadfast love; covenant loyalty; lovingkindness",
+        "definition": "One of the most theologically rich words in the OT. Combines loyalty, love, and faithfulness within a covenant relationship. In Genesis, seen in God's dealings with Abraham (Gen 24:12, 27) and in Joseph's story (Gen 39:21). Untranslatable by any single English word.",
+        "chapters_used": [
+            "gen-24",
+            "gen-39"
+        ]
+    },
+    "hinneh": {
+        "hebrew": "הִנֵּה",
+        "transliteration": "hinnêh",
+        "strongs": "H2009",
+        "gloss": "behold!; look!; here!",
+        "definition": "A narrative attention-marker. When the text says hinneh, it shifts the camera to a character's perspective — 'and he looked, and behold!' Used frequently in Genesis to mark dramatic moments: the ram caught in the thicket (Gen 22:13), Jacob's ladder (Gen 28:12).",
+        "chapters_used": [
+            "gen-1",
+            "gen-15",
+            "gen-22",
+            "gen-28",
+            "gen-37"
+        ]
+    },
+    "kohen": {
+        "hebrew": "כֹּהֵן",
+        "transliteration": "kōhên",
+        "strongs": "H3548",
+        "gloss": "priest",
+        "definition": "Melchizedek is the first person called kohen in the Bible (Gen 14:18). He is priest of El Elyon ('God Most High'). This pre-Levitical priesthood becomes theologically significant in Psalm 110:4 and Hebrews 5–7.",
+        "chapters_used": [
+            "gen-14"
+        ]
+    },
+    "aqedah": {
+        "hebrew": "עֲקֵדָה",
+        "transliteration": "ʿăqêḏāh",
+        "strongs": "N/A",
+        "gloss": "the Binding (of Isaac)",
+        "definition": "From aqad ('to bind'). Traditional Jewish term for Genesis 22. Abraham binds Isaac on the altar at Mount Moriah. A pivotal test of faith that foreshadows substitutionary sacrifice. The ram 'caught in the thicket' replaces Isaac, establishing the principle of divine provision (YHWH Yireh).",
+        "chapters_used": [
+            "gen-22"
+        ]
+    },
+    "bechor": {
+        "hebrew": "בְּכוֹר",
+        "transliteration": "bəḵōr",
+        "strongs": "H1060",
+        "gloss": "firstborn",
+        "definition": "The firstborn held double inheritance rights and family leadership. A major Genesis theme is God's inversion of firstborn privilege: Isaac over Ishmael, Jacob over Esau, Joseph/Judah over Reuben, Ephraim over Manasseh. The younger son pattern challenges human convention.",
+        "chapters_used": [
+            "gen-25",
+            "gen-27",
+            "gen-48"
+        ]
+    },
+    "berakah": {
+        "hebrew": "בְּרָכָה",
+        "transliteration": "bərāḵāh",
+        "strongs": "H1293",
+        "gloss": "blessing",
+        "definition": "A performative word — once spoken, a blessing carries real power and cannot be revoked (Gen 27:33–37). The blessing theme runs throughout Genesis: God blesses creation (1:22, 28), Noah (9:1), Abraham (12:2–3), Isaac (25:11), Jacob (32:29), and Joseph (49:22–26).",
+        "chapters_used": [
+            "gen-1",
+            "gen-9",
+            "gen-12",
+            "gen-27",
+            "gen-49"
+        ]
+    },
+    "shalom": {
+        "hebrew": "שָׁלוֹם",
+        "transliteration": "šālōm",
+        "strongs": "H7965",
+        "gloss": "peace; wholeness; completeness",
+        "definition": "More than absence of conflict — denotes completeness, harmony, and well-being. Related to shalem (Salem, Gen 14:18 = Jerusalem). Joseph asks about his brothers' shalom (Gen 43:27). The concept frames the reconciliation arc of Genesis 33 and 45.",
+        "chapters_used": [
+            "gen-14",
+            "gen-33",
+            "gen-43"
+        ]
+    },
+    "chalom": {
+        "hebrew": "חֲלוֹם",
+        "transliteration": "ḥălōm",
+        "strongs": "H2472",
+        "gloss": "dream",
+        "definition": "Dreams serve as a primary mode of divine communication in Genesis. Key dreamers: Abimelech (Gen 20:3), Jacob (28:12, 31:10–11), Laban (31:24), Joseph (37:5–9), Pharaoh's servants (40:5), Pharaoh (41:1–7). Joseph's gift of dream interpretation drives the entire Joseph cycle.",
+        "chapters_used": [
+            "gen-20",
+            "gen-28",
+            "gen-37",
+            "gen-40",
+            "gen-41"
+        ]
+    },
+    "ets_haddaat": {
+        "hebrew": "עֵץ הַדַּעַת",
+        "transliteration": "ʿêṣ haddaʿāṯ",
+        "strongs": "H6086 + H1847",
+        "gloss": "tree of knowledge",
+        "definition": "The tree of the knowledge of good and evil (tov vara). 'Knowledge of good and evil' is a merism — meaning complete knowledge, or the autonomous authority to determine right and wrong. Eating from it represents seizing divine prerogative, making moral judgments independent of God.",
+        "chapters_used": [
+            "gen-2",
+            "gen-3"
+        ]
+    },
+    "ets_hachayyim": {
+        "hebrew": "עֵץ הַחַיִּים",
+        "transliteration": "ʿêṣ haḥayyīm",
+        "strongs": "H6086 + H2416",
+        "gloss": "tree of life",
+        "definition": "Grants immortality or ongoing life. After the Fall, access is blocked by cherubim with a flaming sword (Gen 3:24). Reappears in Proverbs as a wisdom metaphor and in Revelation 22:2 in the New Jerusalem. The guardian cherubim parallel ANE throne-room guardians (lamassu).",
+        "chapters_used": [
+            "gen-2",
+            "gen-3"
+        ]
+    },
+    "keruvim": {
+        "hebrew": "כְּרוּבִים",
+        "transliteration": "kərûḇīm",
+        "strongs": "H3742",
+        "gloss": "cherubim; guardian beings",
+        "definition": "Divine throne-room guardians. In Genesis 3:24, they guard the way to the tree of life with a flaming sword. Parallels ANE lamassu (winged guardian figures). Later stationed atop the Ark of the Covenant (Exodus 25:18–22) and woven into the temple veil — the same guardians blocking Eden's entrance.",
+        "chapters_used": [
+            "gen-3",
+            "hc-ch01"
+        ]
+    },
+    "ezer_kenegdo": {
+        "hebrew": "עֵזֶר כְּנֶגְדּוֹ",
+        "transliteration": "ʿêẓer kəneḡdō",
+        "strongs": "H5828 + H5048",
+        "gloss": "helper corresponding to him",
+        "definition": "Often weakly translated 'help meet.' Ezer is used of God himself as Israel's helper (Psalm 121:1–2, Exodus 18:4). Kenegdo = 'corresponding to, opposite, counterpart.' Not a subordinate assistant but an equal partner who complements and corresponds to the man.",
+        "chapters_used": [
+            "gen-2"
+        ]
+    },
+    "nefesh": {
+        "hebrew": "נֶפֶשׁ",
+        "transliteration": "nepeš",
+        "strongs": "H5315",
+        "gloss": "soul; living being; life; self",
+        "definition": "Not a disembodied 'soul' in the Greek sense. Nefesh = the whole living being, the animating life-force. 'Nefesh chayyah' (living soul/creature) is used of both animals (Gen 1:20, 24) and humanity (Gen 2:7). Humans don't have a nefesh; they are a nefesh.",
+        "chapters_used": [
+            "gen-1",
+            "gen-2",
+            "gen-9"
+        ]
+    },
+    "radah": {
+        "hebrew": "רָדָה",
+        "transliteration": "rāḏāh",
+        "strongs": "H7287",
+        "gloss": "to rule; to have dominion",
+        "definition": "The dominion mandate (Gen 1:26, 28). In ANE contexts, this is royal language — the king exercises radah over his domain as God's representative. Humanity's role as image-bearers includes responsible stewardship over creation, not exploitation.",
+        "chapters_used": [
+            "gen-1"
+        ]
+    },
+    "kabash": {
+        "hebrew": "כָּבַשׁ",
+        "transliteration": "kāḇaš",
+        "strongs": "H3533",
+        "gloss": "to subdue; to bring under control",
+        "definition": "Paired with radah in the creation mandate (Gen 1:28). Implies effort and resistance — the earth must be 'subdued' or cultivated. This suggests the ordered garden-space of Eden was meant to be expanded outward into the uncultivated world.",
+        "chapters_used": [
+            "gen-1"
+        ]
+    },
+    "chen": {
+        "hebrew": "חֵן",
+        "transliteration": "ḥēn",
+        "strongs": "H2580",
+        "gloss": "grace; favor",
+        "definition": "Noah 'found grace (chen) in the eyes of YHWH' (Gen 6:8) — the first occurrence of grace in the Bible. The word implies unmerited favor, a gift freely given. Noah (Noach) spelled backward is chen — a deliberate wordplay linking rest/comfort with grace.",
+        "chapters_used": [
+            "gen-6"
+        ]
+    },
+    "toledot": {
+        "hebrew": "תּוֹלְדֹת",
+        "transliteration": "tōləḏōt",
+        "strongs": "H8435",
+        "gloss": "generations; account; genealogy",
+        "definition": "The structural backbone of Genesis. The formula 'these are the toledot of...' appears 11 times, dividing the book into sections (2:4, 5:1, 6:9, 10:1, 11:10, 11:27, 25:12, 25:19, 36:1, 36:9, 37:2). Each toledot introduces what comes from or happens to the named person.",
+        "chapters_used": [
+            "gen-2",
+            "gen-5",
+            "gen-6",
+            "gen-10",
+            "gen-11b",
+            "gen-25",
+            "gen-36",
+            "gen-37"
+        ]
+    },
+    "gibbor": {
+        "hebrew": "גִּבּוֹר",
+        "transliteration": "gibbōr",
+        "strongs": "H1368",
+        "gloss": "mighty one; warrior; hero",
+        "definition": "Used of the Nephilim offspring as 'mighty ones of old, men of renown' (Gen 6:4). Also describes Nimrod as 'a mighty hunter before YHWH' (Gen 10:9). The term carries overtones of exceptional, sometimes dangerous power. In the divine council context, the gibborim are the warrior-offspring of illicit divine-human unions.",
+        "chapters_used": [
+            "gen-6",
+            "gen-10",
+            "hc-ch02",
+            "hc-ch14"
+        ]
+    },
+    "abad": {
+        "hebrew": "עָבַד",
+        "transliteration": "ʿāḇaḏ",
+        "strongs": "H5647",
+        "gloss": "to serve; to work; to worship",
+        "definition": "Triple meaning: agricultural work (Gen 2:5, 3:23), servitude (Gen 14:4, 29:15), and worship/priestly service (Exodus 3:12). Adam's task to 'work' (abad) the garden is simultaneously agricultural and sacral. The same root gives us ebed (servant/slave) — Israel will 'serve' in Egypt.",
+        "chapters_used": [
+            "gen-2",
+            "gen-3",
+            "gen-29"
+        ]
+    },
+    "shamar": {
+        "hebrew": "שָׁמַר",
+        "transliteration": "šāmar",
+        "strongs": "H8104",
+        "gloss": "to keep; to guard; to watch over",
+        "definition": "Paired with abad in Genesis 2:15 for Adam's priestly duty. The Levites 'keep charge' (shamar) of the tabernacle (Num 3:7-8). After the Fall, cherubim shamar the way to the tree of life (Gen 3:24). Cain asks, 'Am I my brother's keeper (shomer)?' (Gen 4:9) — the answer is yes.",
+        "chapters_used": [
+            "gen-2",
+            "gen-3",
+            "gen-4"
+        ]
+    },
+    "arar": {
+        "hebrew": "אָרַר",
+        "transliteration": "ʾārar",
+        "strongs": "H779",
+        "gloss": "to curse",
+        "definition": "The opposite of barak (bless). God curses the serpent (Gen 3:14), the ground (Gen 3:17), and Cain (Gen 4:11). Notably, God never directly curses Adam or Eve — only the serpent and the ground. The Abrahamic covenant includes 'I will curse those who curse you' (Gen 12:3).",
+        "chapters_used": [
+            "gen-3",
+            "gen-4",
+            "gen-9",
+            "gen-12"
+        ]
+    },
+    "mot_tamut": {
+        "hebrew": "מוֹת תָּמוּת",
+        "transliteration": "mōt tāmût",
+        "strongs": "H4191",
+        "gloss": "dying you shall die",
+        "definition": "Emphatic Hebrew construction using the infinitive absolute + finite verb. God's warning about the tree of knowledge (Gen 2:17). The doubled verb intensifies: 'you will certainly die.' Debate exists over whether this means immediate spiritual death, the introduction of mortality, or eventual physical death.",
+        "chapters_used": [
+            "gen-2",
+            "gen-3"
+        ]
+    },
+    "qorban": {
+        "hebrew": "קָרְבָּן",
+        "transliteration": "qorbān",
+        "strongs": "H7133",
+        "gloss": "offering; sacrifice; that which is brought near",
+        "definition": "From qarab ('to draw near'). Sacrifice is about approaching God. Cain and Abel bring the first offerings (minchah, Gen 4:3-5). Abel's animal offering is accepted; Cain's grain offering is not. The text does not explain why, though attitude ('and its fat portions' suggests generosity vs. obligation) and later blood-sacrifice theology are relevant.",
+        "chapters_used": [
+            "gen-4",
+            "gen-8",
+            "gen-22"
+        ]
+    },
+    "galah": {
+        "hebrew": "גָּלָה",
+        "transliteration": "gālāh",
+        "strongs": "H1540",
+        "gloss": "to uncover; to reveal; to exile",
+        "definition": "Semantic range spans uncovering nakedness (sexual euphemism, Lev 18), revelation of secrets, and exile/deportation. In Genesis 9:21, Noah 'uncovered himself' (wayyitgal). The 'nakedness of his father' that Ham sees (Gen 9:22) uses a related euphemism that Leviticus 18 associates with sexual violation.",
+        "chapters_used": [
+            "gen-9"
+        ]
+    },
+    "el_shaddai": {
+        "hebrew": "אֵל שַׁדַּי",
+        "transliteration": "ʾēl šadday",
+        "strongs": "H410 + H7706",
+        "gloss": "God Almighty; God of the Mountain",
+        "definition": "The divine name used in the patriarchal period (Gen 17:1, 28:3, 35:11, 43:14, 48:3). Etymology debated: 'Almighty' (traditional), 'of the Mountain' (Akkadian shadu), or 'the Destroyer.' Exodus 6:3 says the patriarchs knew God by this name, not by YHWH. In Genesis 17, El Shaddai initiates the circumcision covenant.",
+        "chapters_used": [
+            "gen-17",
+            "gen-28",
+            "gen-35",
+            "gen-43",
+            "gen-48"
+        ]
+    },
+    "milah": {
+        "hebrew": "מִילָה",
+        "transliteration": "mīlāh",
+        "strongs": "H4139",
+        "gloss": "circumcision",
+        "definition": "The physical sign of the Abrahamic covenant (Gen 17:10-14). Every male circumcised on the 8th day. Cutting the flesh parallels cutting the covenant (karat berit). The sign is placed on the organ of procreation, linking covenant to the seed promise. An uncircumcised male is 'cut off' from the covenant people.",
+        "chapters_used": [
+            "gen-17",
+            "gen-34"
+        ]
+    },
+    "emunah": {
+        "hebrew": "אֱמוּנָה",
+        "transliteration": "ʾĕmûnāh",
+        "strongs": "H530",
+        "gloss": "faithfulness; steadfastness; faith",
+        "definition": "From the root aman ('to be firm, reliable'). Genesis 15:6: Abraham 'believed' (he'emin) God — same root. His faith is 'counted as righteousness' (tsedaqah). This is not mere mental assent but relational trust and commitment. Paul builds his theology of justification on this verse (Romans 4, Galatians 3).",
+        "chapters_used": [
+            "gen-15"
+        ]
+    },
+    "tsedaqah": {
+        "hebrew": "צְדָקָה",
+        "transliteration": "ṣəḏāqāh",
+        "strongs": "H6666",
+        "gloss": "righteousness; justice; right standing",
+        "definition": "Abraham's faith was 'counted to him as righteousness' (Gen 15:6). Tsedaqah is relational — being in right standing with God, fulfilling covenant obligations. Tamar is declared 'more righteous than I' by Judah (Gen 38:26) because she fulfilled her duty while he did not.",
+        "chapters_used": [
+            "gen-15",
+            "gen-18",
+            "gen-38"
+        ]
+    },
+    "el_roi": {
+        "hebrew": "אֵל רֳאִי",
+        "transliteration": "ʾēl roʾī",
+        "strongs": "H410 + H7210",
+        "gloss": "God who sees me",
+        "definition": "The name Hagar gives to YHWH after the angel finds her in the wilderness (Gen 16:13). She is the first person in Scripture to give God a name. A profound theological moment: a foreign slave woman, cast out and vulnerable, encounters God and names him. The well is called Beer-lahai-roi ('well of the Living One who sees me').",
+        "chapters_used": [
+            "gen-16"
+        ]
+    },
+    "ot": {
+        "hebrew": "אוֹת",
+        "transliteration": "ʾōt",
+        "strongs": "H226",
+        "gloss": "sign; token; marker",
+        "definition": "A visible marker of divine action or covenant. The rainbow is an ot of the Noahic covenant (Gen 9:12-13). Circumcision is an ot of the Abrahamic covenant (Gen 17:11). Cain receives an ot for protection (Gen 4:15). Signs are not proofs but pledges — visible reminders of invisible commitments.",
+        "chapters_used": [
+            "gen-4",
+            "gen-9",
+            "gen-17"
+        ]
+    },
+    "karat_berit": {
+        "hebrew": "כָּרַת בְּרִית",
+        "transliteration": "kāraṯ bərīt",
+        "strongs": "H3772 + H1285",
+        "gloss": "to cut a covenant",
+        "definition": "Covenants are 'cut' not 'made.' The cutting refers to the animal sacrifice that ratifies the covenant (Gen 15:9-17). Both parties pass between the severed halves, invoking the fate of the animals on themselves if they break the covenant. In Genesis 15, only God (as smoking fire pot) passes through — he bears the full covenant obligation.",
+        "chapters_used": [
+            "gen-15"
+        ]
+    },
+    "gur": {
+        "hebrew": "גּוּר",
+        "transliteration": "gûr",
+        "strongs": "H1481",
+        "gloss": "to sojourn; to dwell as a stranger",
+        "definition": "Abraham is a ger (sojourner) in Canaan (Gen 23:4), owning no land in the territory God promised him. The patriarchal experience of being resident aliens foreshadows Israel's sojourn in Egypt. The Torah later commands Israel to treat sojourners with justice because 'you were sojourners in Egypt' (Exod 22:21).",
+        "chapters_used": [
+            "gen-12",
+            "gen-15",
+            "gen-20",
+            "gen-23",
+            "gen-26"
+        ]
+    },
+    "tov_vara": {
+        "hebrew": "טוֹב וָרָע",
+        "transliteration": "ṭōḇ wārāʿ",
+        "strongs": "H2896 + H7451",
+        "gloss": "good and evil",
+        "definition": "The pair forms a merism (totality expressed by naming extremes): 'good and evil' = everything, all moral knowledge. The tree of knowledge of tov vara grants the ability to determine right and wrong autonomously. The same phrase appears when Laban is told 'speak neither good nor evil to Jacob' (Gen 31:24) = 'don't say anything at all.'",
+        "chapters_used": [
+            "gen-2",
+            "gen-3"
+        ]
+    },
+    "tehom": {
+        "hebrew": "תְהוֹם",
+        "transliteration": "təhōm",
+        "strongs": "H8415",
+        "gloss": "the deep; primordial waters; abyss",
+        "definition": "The watery chaos over which God's Spirit hovers (Gen 1:2). Cognate with Akkadian Tiamat (the chaos dragon in Enuma Elish), though Genesis strips tehom of any mythological personality. The deep is not a rival deity but raw material under God's sovereign command. The flood releases the tehom (Gen 7:11, 8:2).",
+        "chapters_used": [
+            "gen-1",
+            "gen-7",
+            "gen-8"
+        ]
+    },
+    "raqia": {
+        "hebrew": "רָקִיעַ",
+        "transliteration": "rāqīʿaʿ",
+        "strongs": "H7549",
+        "gloss": "expanse; firmament; dome",
+        "definition": "Created on Day 2 to separate waters above from waters below (Gen 1:6-8). From raqa ('to stamp, spread out'). In ANE cosmology, a solid dome holding back celestial waters. Modern interpreters debate whether Genesis uses this phenomenologically (describing appearances) or accommodates the cosmological vocabulary of its time.",
+        "chapters_used": [
+            "gen-1"
+        ]
+    },
+    "nephesh_chayyah": {
+        "hebrew": "נֶפֶשׁ חַיָּה",
+        "transliteration": "nepeš ḥayyāh",
+        "strongs": "H5315 + H2416",
+        "gloss": "living creature; living soul",
+        "definition": "Used of sea creatures (Gen 1:20), land animals (Gen 1:24), and the man after God breathes life into him (Gen 2:7). The shared terminology emphasizes that humans and animals are fellow creatures — both animated by God's breath. The distinction lies not in substance but in vocation (image-bearing).",
+        "chapters_used": [
+            "gen-1",
+            "gen-2"
+        ]
+    },
+    "sulam": {
+        "hebrew": "סֻלָּם",
+        "transliteration": "sullām",
+        "strongs": "H5551",
+        "gloss": "ladder; stairway; ramp",
+        "definition": "Appears only in Genesis 28:12 (Jacob's dream at Bethel). Often translated 'ladder' but more likely a stairway or ramp — paralleling the stairway of a Mesopotamian ziggurat. Angels ascend and descend on it, and YHWH stands above it. Jesus identifies himself with this vision (John 1:51): he is the true meeting-point of heaven and earth.",
+        "chapters_used": [
+            "gen-28"
+        ]
+    },
+    "peniel": {
+        "hebrew": "פְּנִיאֵל",
+        "transliteration": "pənīʾēl",
+        "strongs": "H6439",
+        "gloss": "face of God",
+        "definition": "The place where Jacob wrestles with a divine being and says 'I have seen God face to face (panim el panim) and my life has been preserved' (Gen 32:30). The name encapsulates the paradox of divine encounter: seeing God's face should be lethal (Exod 33:20), yet Jacob survives. Hosea 12:3-4 identifies Jacob's opponent as both 'God' and 'the angel.'",
+        "chapters_used": [
+            "gen-32"
+        ]
+    },
+    "yisrael": {
+        "hebrew": "יִשְׂרָאֵל",
+        "transliteration": "yiśrāʾēl",
+        "strongs": "H3478",
+        "gloss": "he struggles with God; God fights",
+        "definition": "The new name given to Jacob after wrestling at Peniel (Gen 32:28). Etymology: 'he strives with God' (sarah + el) or 'God strives/rules.' The name becomes the identity of the entire nation. A people defined not by military might but by their struggle with and dependence on God.",
+        "chapters_used": [
+            "gen-32",
+            "gen-35"
+        ]
+    },
+    "ketonet_passim": {
+        "hebrew": "כְּתֹנֶת פַּסִּים",
+        "transliteration": "kətōneṯ passīm",
+        "strongs": "H3801 + H6446",
+        "gloss": "ornate robe; coat of many colors",
+        "definition": "Jacob's gift to Joseph (Gen 37:3). Passim may mean 'many colors,' 'long-sleeved,' or 'reaching to the palms and soles.' The same phrase describes the robe of Tamar, a virgin princess (2 Sam 13:18-19), suggesting it marks royal status. The robe symbolizes Jacob's favoritism and provokes the brothers' murderous jealousy.",
+        "chapters_used": [
+            "gen-37"
+        ]
+    },
+    "patar": {
+        "hebrew": "פָּתַר",
+        "transliteration": "pāṯar",
+        "strongs": "H6622",
+        "gloss": "to interpret (dreams)",
+        "definition": "Joseph's unique gift. 'Do not interpretations belong to God?' (Gen 40:8). Dream interpretation in the ANE was a professional skill (cf. Daniel). Joseph credits God, not technique. The word appears only in Genesis (40-41) and carries the sense of solving or opening a mystery.",
+        "chapters_used": [
+            "gen-40",
+            "gen-41"
+        ]
+    },
+    "mashiach": {
+        "hebrew": "מָשִׁיחַ",
+        "transliteration": "māšīāḥ",
+        "strongs": "H4899",
+        "gloss": "anointed one; messiah",
+        "definition": "Though the word does not appear in Genesis, the concept is seeded throughout: the promised seed (3:15), the Shiloh prophecy ('the scepter shall not depart from Judah,' 49:10), and Melchizedek's priestly kingship (14:18). Genesis establishes the expectation of a coming deliverer who unites the roles of king, priest, and prophet.",
+        "chapters_used": [
+            "gen-3",
+            "gen-49"
+        ]
+    },
+    "shiloh": {
+        "hebrew": "שִׁילוֹה",
+        "transliteration": "šīlōh",
+        "strongs": "H7886",
+        "gloss": "he to whom it belongs; tranquil one",
+        "definition": "One of the most debated words in Genesis. In Jacob's blessing of Judah (Gen 49:10): 'The scepter shall not depart from Judah... until Shiloh comes.' Interpreted as: (1) a proper name/title for the Messiah, (2) 'he to whom [the scepter] belongs' (cf. Ezek 21:27), (3) the city of Shiloh. Jewish and Christian tradition heavily favor the messianic reading.",
+        "chapters_used": [
+            "gen-49"
+        ]
+    },
+    "teraphim": {
+        "hebrew": "תְּרָפִים",
+        "transliteration": "tərāp̀īm",
+        "strongs": "H8655",
+        "gloss": "household gods; idols",
+        "definition": "Small figurines representing ancestral or household deities. Rachel steals Laban's teraphim (Gen 31:19, 34-35). In Nuzi texts, possession of the household gods could confer inheritance rights, which may explain both Rachel's motive and Laban's desperate pursuit. Jacob later buries all foreign gods under the oak at Shechem (Gen 35:2-4).",
+        "chapters_used": [
+            "gen-31",
+            "gen-35"
+        ]
+    },
+    "pachad_yitschaq": {
+        "hebrew": "פַּחַד יִצְחָק",
+        "transliteration": "paḥaḏ yiṣḥāq",
+        "strongs": "H6343 + H3327",
+        "gloss": "the Fear of Isaac; the Kinsman of Isaac",
+        "definition": "A unique divine title used by Jacob (Gen 31:42, 53). Pachad can mean 'fear,' 'awe,' or (in some Semitic cognates) 'kinsman/relative.' If the latter, it's a relational title: 'the Kinsman of Isaac' = God as clan protector. Either way, it emphasizes the personal, familial nature of patriarchal religion.",
+        "chapters_used": [
+            "gen-31"
+        ]
+    },
+    "navi": {
+        "hebrew": "נָבִיא",
+        "transliteration": "nāḇīʾ",
+        "strongs": "H5030",
+        "gloss": "prophet; spokesman",
+        "definition": "God calls Abraham a navi (prophet) in Genesis 20:7 — the first use of the term in Scripture. A prophet intercedes and speaks on behalf of God. Abraham's prophetic role anticipates Moses and the prophetic tradition. The term likely derives from a root meaning 'to call' or 'to be called.'",
+        "chapters_used": [
+            "gen-20"
+        ]
+    },
+    "go_el": {
+        "hebrew": "גּוֹאֵל",
+        "transliteration": "gōʾēl",
+        "strongs": "H1350",
+        "gloss": "redeemer; kinsman-redeemer",
+        "definition": "In Genesis 48:16, Jacob calls upon 'the Angel who has redeemed (go'el) me from all evil.' The go'el is a family member who rescues, avenges, or restores. Applying this term to the malak (angel) elevates the divine messenger to the role of kinsman-redeemer — God as family, not just sovereign. This concept reaches full expression in Ruth and Isaiah 43:1.",
+        "chapters_used": [
+            "gen-48"
+        ]
+    },
+    "eretz": {
+        "hebrew": "אֶרֶץ",
+        "transliteration": "ʾĕreṣ",
+        "strongs": "H776",
+        "gloss": "land; earth; territory",
+        "definition": "Can mean the whole earth (Gen 1:1) or a specific territory (Gen 12:1, 'the land I will show you'). The promise of eretz to Abraham's seed (Gen 12:7, 15:18-21) defines the boundaries from the river of Egypt to the Euphrates. Land is not just real estate but theological space — the place of covenant relationship.",
+        "chapters_used": [
+            "gen-1",
+            "gen-12",
+            "gen-15",
+            "gen-26",
+            "gen-28"
+        ]
+    },
+    "berakhah_qelalah": {
+        "hebrew": "בְּרָכָה / קְלָלָה",
+        "transliteration": "bərāḵāh / qəlālāh",
+        "strongs": "H1293 / H7045",
+        "gloss": "blessing and curse",
+        "definition": "The paired categories that structure covenant relationship. In the Abrahamic covenant: 'I will bless those who bless you, and whoever curses you I will curse' (Gen 12:3). Blessings and curses are performative speech acts with real power in the ANE worldview — once spoken, they cannot be recalled (Gen 27:33-37).",
+        "chapters_used": [
+            "gen-12",
+            "gen-27"
+        ]
+    },
+    "shabat": {
+        "hebrew": "שָׁבַת",
+        "transliteration": "šāḇaṯ",
+        "strongs": "H7673",
+        "gloss": "to cease; to rest; to stop working",
+        "definition": "God 'rested' (shabat) on the seventh day (Gen 2:2-3). Not from exhaustion but from completion — the work is finished. Related to sheva (seven) and shevuah (oath), giving Sabbath a covenantal dimension. The verb means to cease activity, to desist. In ANE temple inauguration, the deity rests in the completed temple.",
+        "chapters_used": [
+            "gen-2"
+        ]
+    },
+    "magen": {
+        "hebrew": "מָגֵן",
+        "transliteration": "māḡēn",
+        "strongs": "H4043",
+        "gloss": "shield; protector",
+        "definition": "'Fear not, Abram, I am your shield (magen)' (Gen 15:1). The first divine self-description after the Abrahamic call. God as warrior-protector, the one who deflects threats. Becomes a common title in the Psalms ('the LORD is my shield,' Ps 3:3, 18:2). Paired with 'your very great reward' — God himself is the reward.",
+        "chapters_used": [
+            "gen-15"
+        ]
+    },
+    "lemin": {
+        "hebrew": "לְמִין",
+        "transliteration": "ləmīn",
+        "strongs": "H4327",
+        "gloss": "according to its kind",
+        "definition": "Repeated refrain in Genesis 1 (vv. 11, 12, 21, 24, 25). Plants and animals reproduce 'according to their kind.' Establishes categorical order in the biological world. The term classifies organisms into natural groups without defining the boundaries precisely — it's about ordered reproduction, not modern taxonomy.",
+        "chapters_used": [
+            "gen-1"
+        ]
+    },
+    "irim": {
+        "hebrew": "עִירִין",
+        "transliteration": "ʿirin",
+        "strongs": "",
+        "gloss": "Watchers; wakeful ones",
+        "definition": "Aramaic term for the angelic beings who 'watch' and do not sleep. In Daniel 4:13, 17, 23, an ʿir is a 'holy watcher' who descends from heaven. In 1 Enoch and the Book of Giants, the Watchers (irim) are the 200 angels who descended to Mount Hermon, took human wives, and fathered the Nephilim. The term emphasizes their ceaseless vigilance — they are beings who are always awake, always observing. In the Qumran scrolls, the term appears frequently in both positive (faithful angels) and negative (fallen Watchers) senses.",
+        "language": "aramaic",
+        "chapters_used": [
+            "1en-6",
+            "1en-12",
+            "giants-1",
+            "hc-ch13"
+        ]
+    },
+    "egregoroi": {
+        "hebrew": "Εγρήγοροι",
+        "transliteration": "Egrēgoroi",
+        "strongs": "",
+        "gloss": "Watchers (Greek)",
+        "definition": "Greek translation of the Aramaic ʿirin. Used in the Septuagint version of 1 Enoch and in early Christian literature. The word derives from egeiro ('to be awake, to rouse'). The Egrēgoroi are the 200 angels of 1 Enoch 6 who abandon their heavenly station to descend to earth. The term entered Christian angelology and demonology, appearing in Byzantine texts about fallen angels. In some traditions, 'Grigori' (from the same root) became a class of angels.",
+        "language": "greek",
+        "chapters_used": [
+            "1en-6",
+            "1en-10"
+        ]
+    },
+    "shemihazah": {
+        "hebrew": "שֶׁמִיחֲזָה",
+        "transliteration": "Shĕmīḥāzāh",
+        "strongs": "",
+        "gloss": "leader of the fallen Watchers",
+        "definition": "The chief of the 200 Watchers who descended to Mount Hermon in 1 Enoch 6:3. His name likely means 'My name has seen' or 'the name sees' (shem + chazah). He leads the conspiracy to take human wives but initially hesitates, fearing he alone will bear the punishment. The other Watchers swear a mutual oath (binding themselves with a curse) to proceed together. In 1 Enoch 8-10, Shemihazah's particular sin is teaching women sorcery and enchantments. He fathers giants including Ohyah and Hahyah, who appear as characters in the Book of Giants. He is bound and imprisoned until the final judgment.",
+        "language": "aramaic",
+        "chapters_used": [
+            "1en-6",
+            "1en-8",
+            "1en-10",
+            "giants-2"
+        ]
+    },
+    "asael": {
+        "hebrew": "עֲשָׂאֵל",
+        "transliteration": "ʿAśāʾēl",
+        "strongs": "",
+        "gloss": "a chief fallen Watcher; taught metalwork",
+        "definition": "Also written Azazel or Asaʾel. One of the leading fallen Watchers in 1 Enoch 8:1-3. His specific sin was teaching humans metalworking (swords, shields, breastplates) and cosmetics (eye-painting, beautifying). While Shemihazah leads the sexual transgression, Asaʾel leads the forbidden knowledge transmission. In 1 Enoch 10:4-8, Raphael is sent to bind Asaʾel and cast him into darkness in the wilderness of Dudael. The connection to the Yom Kippur scapegoat (Leviticus 16:8, 10, 26 — laʿazāʾzēl, 'for Azazel') is widely discussed: the scapegoat may be sent to the imprisoned Azazel.",
+        "language": "aramaic",
+        "chapters_used": [
+            "1en-8",
+            "1en-10",
+            "hc-ch13",
+            "hc-ch14"
+        ]
+    },
+    "mastema": {
+        "hebrew": "מַשְׂטֵמָה",
+        "transliteration": "Maśṭēmāh",
+        "strongs": "",
+        "gloss": "hostility; the Accuser (Satan figure in Jubilees)",
+        "definition": "From the root s-t-m ('to bear a grudge, to be hostile'). In Jubilees, Mastema is the prince of demons — the chief evil spirit who was allowed to retain one-tenth of the fallen spirits after the Flood to test humanity (Jub 10:8-9). He functions as the Satan figure throughout Jubilees: he instigates the Binding of Isaac (Jub 17:16), helps Egypt's magicians resist Moses (Jub 48:9-12), and is finally bound during the Exodus (Jub 48:15-18). The name is related to the Hebrew mastimāh ('animosity') and functions as both a title and a personal name.",
+        "language": "hebrew",
+        "chapters_used": [
+            "jub-10",
+            "jub-17",
+            "jub-48"
+        ]
+    },
+    "har_hermon": {
+        "hebrew": "הַר חֶרמוֹן",
+        "transliteration": "Har Ḥermōn",
+        "strongs": "H2768",
+        "gloss": "Mount Hermon; mountain of the oath",
+        "definition": "In 1 Enoch 6:6, the 200 Watchers descend to the summit of Mount Hermon, and the text provides a wordplay: 'they called it Mount Hermon because they swore and bound themselves by mutual curses (cherem) upon it.' The name Hermon is connected to cherem ('a thing devoted/banned/cursed'). This makes Hermon both the geographic location of the angelic descent and a monument to the Watchers' oath. In Deuteronomy 3:9, Hermon is called Sirion by the Sidonians and Senir by the Amorites. Psalm 89:12 celebrates it. The Hermon tradition persisted: Eusebius reports that the mountain was still considered a place of demonic worship in the 4th century CE.",
+        "language": "hebrew",
+        "chapters_used": [
+            "1en-6",
+            "gen-6-1-4"
+        ]
+    },
+    "ben_adam": {
+        "hebrew": "בֶּן־אָדָם",
+        "transliteration": "ben-ʾādām",
+        "strongs": "H1121 + H120",
+        "gloss": "son of man; human being",
+        "definition": "In Daniel 7:13, 'one like a son of man' (kəḇar ʾenaš in Aramaic) comes on the clouds of heaven to receive dominion from the Ancient of Days. In 1 Enoch 37-71 (the Parables), this figure becomes the 'Son of Man' / 'Elect One' / 'Righteous One' — a pre-existent messianic judge who sits on God's throne of glory. Jesus' self-designation as 'Son of Man' in the Gospels draws on both Daniel 7 and the Enochic tradition. The phrase itself simply means 'human being' in Hebrew (ben adam) and Aramaic (bar enash), but in apocalyptic contexts it becomes a title of exaltation.",
+        "language": "hebrew",
+        "chapters_used": [
+            "1en-46",
+            "1en-48",
+            "1en-62"
+        ]
+    },
+    "sar_hapanim": {
+        "hebrew": "שַׂר הַפָּנִים",
+        "transliteration": "śar happānīm",
+        "strongs": "",
+        "gloss": "Angel of the Presence; Prince of the Face",
+        "definition": "The angel who stands before God's face (panim). In Jubilees 1:27, God commands the Angel of the Presence to dictate the entire book to Moses on Sinai. This angel is the narrator of Jubilees — the one who reveals history from creation to Moses. He is among the highest order of angels, those who serve directly in God's presence. The concept appears in Isaiah 63:9 ('the angel of his presence saved them') and in later Jewish tradition becomes associated with Metatron. In Jubilees, this angel also participated in the creation and the circumcision of Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "jub-1",
+            "jub-2"
+        ]
+    },
+    "cherem": {
+        "hebrew": "חֵרֶם",
+        "transliteration": "ḥērem",
+        "strongs": "H2764",
+        "gloss": "a devoted/banned thing; a curse; destruction",
+        "definition": "Something set apart as irrevocably devoted to God, whether for sacred use or for destruction. In the Watcher tradition, the oath sworn on Mount Hermon involves a cherem — a mutual curse. The same root gives Mount Hermon its name in the 1 Enoch wordplay (6:6). In Joshua 6-7, the spoils of Jericho are cherem (devoted to destruction), and Achan's violation of the cherem brings disaster. The concept bridges the angelic oath (cosmic level) and holy war regulations (human level).",
+        "language": "hebrew",
+        "chapters_used": [
+            "1en-6",
+            "hc-ch13"
+        ]
+    },
+    "yovlim": {
+        "hebrew": "יוֹבְלִים",
+        "transliteration": "yōḇəlīm",
+        "strongs": "H3104",
+        "gloss": "jubilees; ram's horn periods",
+        "definition": "Plural of yovel ('ram's horn, jubilee'). The Book of Jubilees organizes all of history into periods of 49 years (7 x 7), each period being a 'jubilee.' This chronological framework gives the book its name. The 364-day solar calendar is essential to the system: exactly 52 weeks per year, with festivals always falling on the same day of the week. Jubilees argues this calendar was revealed to Enoch and Moses and is the only legitimate reckoning. The Qumran community adopted this solar calendar, putting them at odds with the Jerusalem temple's lunar calendar.",
+        "language": "hebrew",
+        "chapters_used": [
+            "jub-1",
+            "jub-4",
+            "jub-50"
+        ]
+    },
+    "gibborim": {
+        "hebrew": "גִּבּוֹרִים",
+        "transliteration": "gibbōrīm",
+        "strongs": "H1368",
+        "gloss": "mighty warriors; heroes of old",
+        "definition": "Genesis 6:4 describes the Nephilim as 'the mighty men (gibborim) who were of old, the men of renown.' The gibborim are warriors of extraordinary power. Nimrod is called a gibbor (Gen 10:8-9). In the Book of Giants and 1 Enoch, the gibborim are specifically the giant offspring of the Watchers — their superhuman strength is the result of their angelic parentage. The term carries both admiration (heroes) and menace (tyrants), reflecting the ambiguity of the ancient traditions about these figures.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-6-1-4",
+            "gen-10",
+            "1en-7",
+            "hc-ch02",
+            "hc-ch14"
+        ]
+    },
+    "sod_yhwh": {
+        "hebrew": "סוֹד יהוה",
+        "transliteration": "sōd YHWH",
+        "strongs": "H5475 + H3068",
+        "gloss": "the council/assembly of the LORD",
+        "definition": "The divine council over which Yahweh presides. Jeremiah 23:18 asks 'who has stood in the sod of the LORD?' Psalm 89:7 describes God as 'greatly feared in the sod of the holy ones.' Amos 3:7 says God does nothing without revealing his sod to his servants the prophets. In 1 Enoch, Enoch is the human who gains access to this council, receiving the commission to pronounce judgment on the Watchers. The sod is not merely a 'secret' but a deliberative assembly where divine decisions are made.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "1en-14",
+            "1en-15",
+            "hc-ch01"
+        ]
+    },
+    "kasday": {
+        "hebrew": "כַשְׂדָי",
+        "transliteration": "Kaśdāy",
+        "strongs": "H3778",
+        "gloss": "Chaldean; of Ur of the Chaldees",
+        "definition": "Abraham's homeland, 'Ur of the Chaldeans' (Ur Kasdim). In Jasher, the Chaldeans practice astrology and divination, and Abram's birth is foretold by a star that swallows four other stars. Nimrod, king of Shinar, attempts to kill the infant based on this omen. The conflict between Abram and the Chaldean/Nimrod system drives the early Jasher Abraham narrative. The term Kasday/Kasdim became synonymous with astrologers in later tradition (cf. Daniel 2:2).",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-11",
+            "jasher-8",
+            "jasher-12"
+        ]
+    },
+    "adah": {
+        "hebrew": "עֲדָה",
+        "transliteration": "‘adah",
+        "strongs": "",
+        "gloss": "assembly, congregation",
+        "definition": "An assembly or congregation. Used in the Hebrew Bible for both secular and sacred gatherings. In divine council contexts, the ‘adah can refer to the assembled host of heaven. Related to the concept of the sod (council) but emphasizes the gathered body rather than the deliberative function.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch01"
+        ]
+    },
+    "apekdyomai": {
+        "hebrew": "ἀπεκδύομαι",
+        "transliteration": "apekdyomai",
+        "strongs": "",
+        "gloss": "to strip off, divest",
+        "definition": "Greek term meaning to strip off or divest entirely. Used in Colossians 2:15 of Christ 'stripping' or 'disarming' the rulers and authorities (archai and exousiai) through the cross. The imagery is of a victor stripping a defeated enemy of weapons and insignia before leading them in triumphal procession.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch06"
+        ]
+    },
+    "arche": {
+        "hebrew": "ἀρχή",
+        "transliteration": "archē",
+        "strongs": "",
+        "gloss": "ruler, principality, beginning",
+        "definition": "Greek term denoting a ruler, principality, or cosmic power. In the Pauline corpus, archai (plural) are one class of supernatural beings in the hierarchy of cosmic powers (Romans 8:38, Ephesians 1:21, 3:10, 6:12, Colossians 1:16, 2:15). They are spiritual authorities that exercise dominion over territories or domains, now subject to Christ's supremacy.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch06"
+        ]
+    },
+    "arum": {
+        "hebrew": "עָרוּם",
+        "transliteration": "‘ārûm",
+        "strongs": "",
+        "gloss": "crafty, shrewd, prudent",
+        "definition": "Describes the nachash (serpent) in Genesis 3:1 as 'more crafty than any beast of the field.' The word carries both positive (prudent, Proverbs 12:16) and negative (cunning, crafty) connotations. A wordplay links ‘ārûm (crafty) with ‘ērûm/‘ērom (naked) in Genesis 2:25–3:1, connecting the serpent's cunning with the humans' vulnerability.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch03"
+        ]
+    },
+    "avel": {
+        "hebrew": "עָוֶל",
+        "transliteration": "’avel",
+        "strongs": "",
+        "gloss": "injustice, unrighteousness",
+        "definition": "Injustice or unrighteousness. In the context of divine council theology, the ‘avel of the subordinate elohim in Psalm 82:2 ('How long will you judge unjustly?') is the charge Yahweh brings against the gods of the nations for failing their stewardship mandate and ruling with partiality.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch05"
+        ]
+    },
+    "deigmatizo": {
+        "hebrew": "δειγματίζω",
+        "transliteration": "deigmatizô",
+        "strongs": "",
+        "gloss": "to make a public spectacle",
+        "definition": "Greek term meaning to expose publicly, to make a public example of. Used in Colossians 2:15 of Christ making a public spectacle of the defeated cosmic powers. The imagery draws on the Roman triumphal procession (triumphus) where conquered enemies were paraded in public humiliation.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch06"
+        ]
+    },
+    "diabolos": {
+        "hebrew": "διάβολος",
+        "transliteration": "diabolos",
+        "strongs": "",
+        "gloss": "slanderer, accuser, devil",
+        "definition": "Greek translation of the Hebrew satan. The LXX uses diabolos to render satan in Job and Zechariah. In the New Testament, diabolos becomes a proper title: the Devil, the chief adversary of God. Distinguished from daimonion (demon). Revelation 12:9 equates the diabolos with the ancient serpent (nachash) and Satan.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch03",
+            "hc-ch06"
+        ]
+    },
+    "dynamis": {
+        "hebrew": "δύναμις",
+        "transliteration": "dynamis",
+        "strongs": "",
+        "gloss": "power, might, miracle",
+        "definition": "Greek term for power or might. In the Pauline hierarchy of cosmic powers, dynameis (plural) are one class of supernatural beings (Romans 8:38, Ephesians 1:21). The term can refer to both the power itself and the beings that embody that power. Christ is seated 'far above all rule and authority and power (dynamis) and dominion' (Ephesians 1:21).",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch06"
+        ]
+    },
+    "elyon": {
+        "hebrew": "עֶלְיוֹן",
+        "transliteration": "‘Elyôn",
+        "strongs": "H5945",
+        "gloss": "Most High",
+        "definition": "A divine title meaning 'Most High,' used independently or in combination (El Elyon). In Deuteronomy 32:8 (LXX/DSS), Elyon is the one who divided the nations and set their boundaries 'according to the number of the sons of God.' Psalm 82:6 identifies the condemned elohim as 'sons of the Most High.' The title emphasizes Yahweh's supreme position over all other divine beings in the council.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch01",
+            "hc-ch02",
+            "hc-ch05"
+        ]
+    },
+    "etheroun": {
+        "hebrew": "ἐθεώρουν",
+        "transliteration": "etheōroun",
+        "strongs": "",
+        "gloss": "I was watching (imperfect of theoreo)",
+        "definition": "Greek imperfect form of theoreo ('to watch, observe, contemplate'). Used by Jesus in Luke 10:18: 'I was watching (etheroun) Satan fall like lightning from heaven.' The imperfect tense suggests ongoing or vivid past observation. The statement connects to Isaiah 14 (the fall of Helel) and the divine council backdrop of cosmic conflict.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch03"
+        ]
+    },
+    "exousia": {
+        "hebrew": "ἐξουσία",
+        "transliteration": "exousia",
+        "strongs": "",
+        "gloss": "authority, jurisdiction, power",
+        "definition": "Greek term for authority or jurisdiction. In the Pauline cosmic hierarchy, exousiai (plural) are supernatural authorities that exercise dominion (Ephesians 1:21, 3:10, 6:12, Colossians 1:16, 2:15). They represent delegated spiritual authority over territories or domains. Colossians 2:15 declares Christ has disarmed and triumphed over these authorities through the cross.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch06"
+        ]
+    },
+    "helel": {
+        "hebrew": "הֵילֵל",
+        "transliteration": "hēlēl",
+        "strongs": "",
+        "gloss": "shining one (= Lucifer in the Vulgate)",
+        "definition": "The 'shining one, son of the dawn' in Isaiah 14:12. The Vulgate translated helel as 'Lucifer' (light-bearer), which became a proper name for Satan in Christian tradition. In its original context, the taunt is directed at the king of Babylon, but divine council theology reads it as describing a rebellious member of the heavenly host who sought to ascend above the stars of God (= the council members) and 'make himself like the Most High.' Connected to the nachash tradition and Ezekiel 28.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch03"
+        ]
+    },
+    "hypotasso": {
+        "hebrew": "ὑποτάσσω",
+        "transliteration": "hypotassô",
+        "strongs": "",
+        "gloss": "to subject, place under authority",
+        "definition": "Greek term meaning to place under, to subject, to subordinate. Key term in the cosmic Christology of the New Testament. In 1 Corinthians 15:27–28, all things are 'subjected' (hypotasso) under Christ's feet. In Ephesians 1:22, God 'subjected' all things under Christ, including every cosmic power. The verb establishes the hierarchical relationship between Christ and all spiritual authorities.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch06"
+        ]
+    },
+    "kerysso": {
+        "hebrew": "κηρύσσω",
+        "transliteration": "kēryssô",
+        "strongs": "",
+        "gloss": "to proclaim as a herald",
+        "definition": "Greek term for making a formal, authoritative proclamation as a herald (keryx). In 1 Peter 3:19, Christ 'proclaimed' (ekeryxēn) to the spirits in prison — the imprisoned Watchers of 1 Enoch tradition. The proclamation is not an offer of salvation but a herald's announcement of victory and judgment to the defeated cosmic rebels.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch13"
+        ]
+    },
+    "kruv": {
+        "hebrew": "כְּרוּב",
+        "transliteration": "k’rûv",
+        "strongs": "H3742",
+        "gloss": "cherub (throne-guardian)",
+        "definition": "Singular form of keruvim. A throne-guardian being in the divine council hierarchy. In Ezekiel 28:14, the fallen being in Eden is called the 'anointed cherub who covers' — a guardian of God's throne who was cast out for pride. Cherubim guard the way to the tree of life (Genesis 3:24) and are stationed atop the Ark of the Covenant. They represent the highest order of throne-room guardians.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch01",
+            "hc-ch03"
+        ]
+    },
+    "kosmokrator": {
+        "hebrew": "κοσμοκράτωρ",
+        "transliteration": "kosmokratôr",
+        "strongs": "",
+        "gloss": "world-ruler",
+        "definition": "Greek compound: kosmos (world) + krator (ruler). Used in Ephesians 6:12: 'our struggle is not against flesh and blood, but against the rulers, against the authorities, against the world-rulers (kosmokratoras) of this darkness.' The term denotes supernatural beings who exercise governing authority over the present world-system. In astrological and magical texts, kosmokrator referred to planetary deities; Paul co-opts the term for hostile spiritual powers.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch06"
+        ]
+    },
+    "kyriotes": {
+        "hebrew": "κυριότης",
+        "transliteration": "kyriotēs",
+        "strongs": "",
+        "gloss": "dominion, lordship",
+        "definition": "Greek term for dominion or lordship. In the Pauline hierarchy, kyriotetes (plural) are one class of cosmic powers (Ephesians 1:21, Colossians 1:16). From kyrios (lord), the term denotes beings that exercise lordship or sovereign authority. Christ is exalted above every kyriotēs, establishing his supreme lordship over all competing claims to dominion.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch06"
+        ]
+    },
+    "nachal": {
+        "hebrew": "נָחַל",
+        "transliteration": "nachal",
+        "strongs": "",
+        "gloss": "to inherit, take possession",
+        "definition": "To inherit or take possession of an allotted territory. In divine council theology, the nations were 'inherited' or allotted to subordinate divine beings (Deuteronomy 32:8–9), while Yahweh's nachalah (inheritance/portion) is Israel. The concept of divine territorial inheritance underlies the biblical worldview of spiritual geography and national patron deities.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch05"
+        ]
+    },
+    "qdoshim": {
+        "hebrew": "קְדֹשִׁים",
+        "transliteration": "q’dôshîm",
+        "strongs": "",
+        "gloss": "holy ones",
+        "definition": "The 'holy ones' of the divine council. In Psalm 89:5,7, God is praised 'in the assembly of the holy ones' (q’doshim). In Deuteronomy 33:2–3, Yahweh comes from Sinai with 'myriads of holy ones.' In Daniel 4:13,17, the 'holy watcher' (ir qaddish) descends from heaven. The q’doshim are the faithful members of the heavenly host, distinct from the fallen Watchers. Zechariah 14:5 pictures Yahweh coming with 'all his holy ones' in eschatological judgment.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch01"
+        ]
+    },
+    "rphaim": {
+        "hebrew": "רְפָאִים",
+        "transliteration": "r’pha’im",
+        "strongs": "",
+        "gloss": "shades / Rephaim (giant clan)",
+        "definition": "A term with two distinct but related uses: (1) the Rephaim as a clan of giants in Canaan (Genesis 14:5, 15:20; Deuteronomy 2:11, 3:11), related to the Nephilim tradition; and (2) the r’pha’im as 'shades' or spirits of the dead in Sheol (Isaiah 14:9, 26:14,19; Proverbs 9:18). The connection may be that the dead Nephilim/giants became disembodied spirits — a tradition explicit in 1 Enoch 15:8–12, where the spirits of the dead giants become evil spirits on earth.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch02"
+        ]
+    },
+    "sar": {
+        "hebrew": "שַׂר",
+        "transliteration": "sār",
+        "strongs": "",
+        "gloss": "prince, ruler, commander",
+        "definition": "A prince or ruling commander. In Daniel 10:13,20–21, the heavenly beings over Persia and Greece are called sarim (princes), and Michael is 'your prince' (sar) over Israel. The sar concept establishes that nations have supernatural patrons — divine princes — who govern in the spiritual realm, corresponding to the Deuteronomy 32:8 allotment of nations to the sons of God.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch01",
+            "hc-ch05"
+        ]
+    },
+    "saraph": {
+        "hebrew": "שָׂרָף",
+        "transliteration": "sārāph",
+        "strongs": "",
+        "gloss": "burning/fiery one (seraph)",
+        "definition": "A 'burning one' or 'fiery one.' The seraphim appear in Isaiah 6:2–6, six-winged beings surrounding God's throne who cry 'Holy, holy, holy.' The same root describes the 'fiery serpents' (n’chashim s’raphim) of Numbers 21:6. This linguistic overlap connects seraphim to the nachash tradition: the serpent-like, fiery, shining throne-guardians of the divine council. The guardian cherub of Ezekiel 28 who walked among 'stones of fire' may be the same type of being.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch01"
+        ]
+    },
+    "satan": {
+        "hebrew": "שָׂטָן",
+        "transliteration": "sātān",
+        "strongs": "",
+        "gloss": "adversary, accuser",
+        "definition": "From the root s-t-n, meaning to oppose or accuse. In the Hebrew Bible, the satan is initially a role (the accuser/prosecutor) within the divine council, not a proper name. In Job 1–2, 'the satan' (with the definite article) is a member of the b’nei elohim who functions as a prosecuting attorney. In Zechariah 3:1–2, the satan accuses Joshua the high priest. The transition from a title to a proper name (Satan) occurs in the intertestamental period (1 Enoch, Jubilees) and is assumed in the New Testament.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch01",
+            "hc-ch03"
+        ]
+    },
+    "skene": {
+        "hebrew": "σκηνή",
+        "transliteration": "skēnē",
+        "strongs": "",
+        "gloss": "tent, tabernacle, dwelling place",
+        "definition": "Greek term for tent or tabernacle. In the divine council context, the skene represents the dwelling place of God among his people. The LXX uses skene for the Tabernacle (mishkan). In Revelation 21:3, God's skene is with humanity — the ultimate reunion of heaven and earth. The term carries overtones of the cosmic temple where God's council meets and his presence dwells.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch06"
+        ]
+    },
+    "stoicheia": {
+        "hebrew": "στοιχεῖα",
+        "transliteration": "stoicheia",
+        "strongs": "",
+        "gloss": "elemental spirits / principles",
+        "definition": "Greek term meaning fundamental elements or principles. In Galatians 4:3,9 and Colossians 2:8,20, the stoicheia tou kosmou ('elements/spirits of the world') are cosmic powers that held humanity in bondage before Christ. Debated whether they are (1) basic religious principles, (2) physical elements (earth, water, air, fire), (3) astral deities/angels, or (4) spiritual beings that enforce the old order. In divine council theology, they are best understood as the spiritual powers behind the world-system, now defeated by Christ.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch11"
+        ]
+    },
+    "tartaroo": {
+        "hebrew": "ταρταρόω",
+        "transliteration": "tartaróō",
+        "strongs": "",
+        "gloss": "to cast into Tartarus",
+        "definition": "Greek verb used only once in the New Testament (2 Peter 2:4): God did not spare the angels who sinned but 'cast them into Tartarus' (tartarosas). Tartarus in Greek mythology was the deepest pit of the underworld, below Hades, where the Titans were imprisoned. Peter uses this term for the prison of the fallen Watchers (1 Enoch tradition), equating their punishment with the Titans' imprisonment. This is a direct bridge between the Enochic Watcher tradition and Greco-Roman cosmology.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch13"
+        ]
+    },
+    "thriambeuo": {
+        "hebrew": "θριαμβεύω",
+        "transliteration": "thriambeuô",
+        "strongs": "",
+        "gloss": "to lead in triumphal procession",
+        "definition": "Greek term for leading captives in a Roman triumphal procession (triumphus). Used in Colossians 2:15: Christ 'triumphed over' (thriambeusas) the rulers and authorities. The Roman triumph was a public parade where a victorious general displayed conquered enemies and spoils. Paul applies this imagery to Christ's cosmic victory: the cross is his chariot, and the defeated spiritual powers are his captives on display.",
+        "language": "greek",
+        "chapters_used": [
+            "hc-ch06"
+        ]
+    },
+    "tsva": {
+        "hebrew": "צְבָא",
+        "transliteration": "ts’va’",
+        "strongs": "",
+        "gloss": "host, army",
+        "definition": "The heavenly host or army. The title YHWH Ts’va’ot ('LORD of Hosts') identifies Yahweh as the commander of the heavenly armies — the angelic forces of the divine council. The 'host of heaven' (ts’va hashamayim) can refer positively to the angelic armies (1 Kings 22:19) or negatively to the astral deities worshipped by the nations (Deuteronomy 4:19, 17:3). The concept establishes the military dimension of the divine council: God commands an army of supernatural beings.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch01"
+        ]
+    },
+    "qumran": {
+        "hebrew": "קֻמְרָן",
+        "transliteration": "qumrān",
+        "strongs": "N/A",
+        "gloss": "ruins near Dead Sea",
+        "definition": "Archaeological site near the Dead Sea where the Dead Sea Scrolls were discovered (1947-1956), including fragments of the Book of Giants. The Qumran community (likely Essenes) preserved apocalyptic and sectarian texts that provide crucial context for Second Temple Judaism and early Christian thought.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-intro",
+            "bog-ch01",
+            "bog-ch02",
+            "bog-ch03",
+            "bog-ch04",
+            "bog-ch05"
+        ]
+    },
+    "mahaway": {
+        "hebrew": "מהוי",
+        "transliteration": "māhaway",
+        "strongs": "N/A",
+        "gloss": "giant son of Baraq'el",
+        "definition": "One of the Nephilim giants, son of the Watcher Baraq'el. In the Book of Giants, Mahaway serves as a messenger between the giants and Enoch, flying through the air to deliver their petition for intercession. His name may derive from Aramaic roots meaning 'to strike' or 'smite.' He appears prominently in the dream sequences and apocalyptic visions warning of the giants' destruction.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch01",
+            "bog-ch02",
+            "bog-ch03",
+            "bog-ch04"
+        ]
+    },
+    "ohyah": {
+        "hebrew": "אוהיה",
+        "transliteration": "ʾōhyâ",
+        "strongs": "N/A",
+        "gloss": "giant son of Shemihazah",
+        "definition": "One of the principal Nephilim giants, son of the chief Watcher Shemihazah. Ohyah (also spelled 'Ahyah') experiences prophetic dreams of judgment and destruction. His name may mean 'Alas, Yah' or 'Where is Yah?' reflecting the theological crisis of beings born from the forbidden union of Watchers and human women. He and his brother Hahyah represent the doomed offspring of the divine rebellion.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch01",
+            "bog-ch02",
+            "bog-ch03",
+            "bog-ch04"
+        ]
+    },
+    "hahyah": {
+        "hebrew": "ההיה",
+        "transliteration": "hahyâ",
+        "strongs": "N/A",
+        "gloss": "giant brother of Ohyah",
+        "definition": "Nephilim giant, brother of Ohyah and son of Shemihazah. Hahyah shares in the apocalyptic dreams and visions that foretell the giants' destruction in the coming flood. His name may derive from roots meaning 'to be' or 'to live,' creating tragic irony given his doomed fate. The brothers' parallel experiences emphasize the collective judgment upon all Nephilim.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch01",
+            "bog-ch02",
+            "bog-ch03"
+        ]
+    },
+    "gilgamesh": {
+        "hebrew": "גלגמש",
+        "transliteration": "gilgāmeš",
+        "strongs": "N/A",
+        "gloss": "Mesopotamian hero-king giant",
+        "definition": "Legendary Sumerian king of Uruk, identified in the Book of Giants as one of the Nephilim. The text explicitly connects the biblical giant tradition with Mesopotamian mythology, where Gilgamesh was described as two-thirds divine and one-third human. This identification demonstrates Second Temple Jewish interpretation of ancient Near Eastern traditions through the lens of Genesis 6 and the Watcher mythology. The Gilgamesh Epic's flood narrative parallels are thus reinterpreted as evidence of the giants' historical reality.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch02",
+            "bog-ch03"
+        ]
+    },
+    "hobabish": {
+        "hebrew": "חובביש",
+        "transliteration": "ḥōbābîš",
+        "strongs": "N/A",
+        "gloss": "giant companion of Gilgamesh",
+        "definition": "Nephilim giant identified as companion to Gilgamesh, likely corresponding to Enkidu from the Mesopotamian epic tradition. The name appears in fragmentary Qumran texts of the Book of Giants. This figure represents the Jewish apocalyptic reinterpretation of Mesopotamian mythology, where legendary heroes are understood as the historical Nephilim whose violence necessitated the flood judgment.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch02",
+            "bog-ch03"
+        ]
+    },
+    "baraq_el": {
+        "hebrew": "ברק אל",
+        "transliteration": "bāraq ʾēl",
+        "strongs": "H1300 + H410",
+        "gloss": "lightning of God",
+        "definition": "One of the chief Watchers who descended to Mount Hermon, father of the giant Mahaway. His name means 'Lightning of God' (from bārāq 'lightning' + ʾēl 'God'), suggesting his original role as a divine being associated with storm theophany. Listed among the leaders who taught forbidden knowledge to humanity and took human wives, producing the Nephilim. His son's role as messenger in the Book of Giants highlights the tragic consequences of the Watchers' rebellion.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch01",
+            "bog-ch02",
+            "bog-ch04"
+        ]
+    },
+    "narkayal": {
+        "hebrew": "נרקיאל",
+        "transliteration": "narqîʾēl",
+        "strongs": "N/A",
+        "gloss": "Watcher who taught signs",
+        "definition": "One of the fallen Watchers mentioned in the Book of Giants tradition. The name may derive from Aramaic roots related to 'softness' or 'weakness,' possibly indicating his role in corrupting humanity. Listed among the angels who descended and taught forbidden arts, contributing to the corruption that necessitated the flood judgment.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch02"
+        ]
+    },
+    "sam_azaz": {
+        "hebrew": "שם עזז",
+        "transliteration": "šēm ʿāzāz",
+        "strongs": "N/A",
+        "gloss": "name of strength",
+        "definition": "Variant name or epithet for Shemihazah, the chief of the Watchers. The name combines šēm ('name') with ʿāzāz ('to be strong/fierce'), meaning 'Name of Strength' or 'Fierce Name.' This designation emphasizes his leadership role among the two hundred Watchers who swore the oath on Mount Hermon. The name variation appears in different manuscript traditions of the Enochic literature.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch01"
+        ]
+    },
+    "virag": {
+        "hebrew": "וירג",
+        "transliteration": "wîrag",
+        "strongs": "N/A",
+        "gloss": "giant in Book of Giants",
+        "definition": "One of the Nephilim giants mentioned in fragmentary Qumran texts. The name and specific role remain obscure due to the fragmentary nature of the manuscripts. Appears in contexts describing the giants' violence and their apocalyptic dreams of judgment.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch03"
+        ]
+    },
+    "chozaq": {
+        "hebrew": "חוזק",
+        "transliteration": "ḥôzaq",
+        "strongs": "N/A",
+        "gloss": "strength, giant name",
+        "definition": "Name of one of the Nephilim giants, derived from the Aramaic root ḥzq meaning 'to be strong, powerful.' The name itself embodies the characteristic violence and physical might of the giants. Appears in the fragmentary Qumran manuscripts describing the giants' activities before the flood.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch03"
+        ]
+    },
+    "qenan": {
+        "hebrew": "קינן",
+        "transliteration": "qênān",
+        "strongs": "H7018",
+        "gloss": "Cainan, antediluvian patriarch",
+        "definition": "Antediluvian patriarch, son of Enosh and father of Mahalalel (Genesis 5:9-14). In the Book of Giants tradition, Qenan is mentioned in connection with the transmission of knowledge about the Watchers and their deeds. Some traditions credit him with discovering the inscription left by the Watchers containing their forbidden teachings. His name may derive from qānâ ('to acquire, create') or qēn ('nest, dwelling').",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch04"
+        ]
+    },
+    "denanyal": {
+        "hebrew": "דננאל",
+        "transliteration": "dēnanyāʾl",
+        "strongs": "N/A",
+        "gloss": "God has judged",
+        "definition": "Name appearing in the Book of Giants fragments, possibly a variant of Daniel or a distinct figure. The name combines Aramaic dēn ('judgment') with ʾēl ('God'), meaning 'God has judged' or 'God's judgment.' May refer to a scribe or interpreter of the apocalyptic visions experienced by the giants, functioning similarly to Daniel's role in biblical tradition.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch04"
+        ]
+    },
+    "azaz_el": {
+        "hebrew": "עזאזל",
+        "transliteration": "ʿăzāzʾēl",
+        "strongs": "H5799",
+        "gloss": "scapegoat, fallen Watcher",
+        "definition": "One of the chief fallen Watchers, whose name appears in Leviticus 16:8-10 as the destination of the scapegoat on Yom Kippur. In Enochic tradition, Azazel taught humanity forbidden arts including weaponry, cosmetics, and sorcery. His name may mean 'God strengthens' or 'strong against God' (from ʿāzaz 'to be strong' + ʾēl 'God'), or possibly 'goat that departs' (from ʿēz 'goat' + ʾāzal 'to go away'). The Book of Giants tradition holds him responsible for teaching violence and vanity that corrupted the pre-flood world. He is bound in the desert until final judgment.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch01",
+            "bog-ch02",
+            "bog-ch05"
+        ]
+    },
+    "tablet": {
+        "hebrew": "לוח",
+        "transliteration": "lûaḥ",
+        "strongs": "H3871",
+        "gloss": "tablet, board, plank",
+        "definition": "Writing surface, typically of stone, wood, or clay. In the Book of Giants, tablets (Aramaic lûḥîn) contain the inscriptions and records of the Watchers' teachings and the giants' deeds. The term evokes the heavenly tablets mentioned throughout Enochic literature, which record all deeds and destinies. The discovery and reading of tablets becomes a key motif for revealing hidden knowledge and divine judgment. Related to the tablets of the Law (Exodus 24:12) and the heavenly books of remembrance.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch02",
+            "bog-ch04",
+            "bog-ch05"
+        ]
+    },
+    "chalam": {
+        "hebrew": "חלם",
+        "transliteration": "ḥālam",
+        "strongs": "H2492",
+        "gloss": "to dream",
+        "definition": "Verb meaning 'to dream, to be healthy/strong.' In the Book of Giants, dreams (ḥelmîn in Aramaic) serve as the primary vehicle for divine revelation and warning to the Nephilim. The giants' apocalyptic dreams of trees being cut down, gardens destroyed, and cosmic judgment parallel biblical dream narratives (Genesis 37, 40-41; Daniel 2, 4, 7). Dreams function as a liminal space where divine judgment penetrates even the consciousness of the condemned giants, offering them knowledge of their fate but no means of escape.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch01",
+            "bog-ch02",
+            "bog-ch03",
+            "bog-ch04"
+        ]
+    },
+    "peshar": {
+        "hebrew": "פשר",
+        "transliteration": "pešar",
+        "strongs": "H6591",
+        "gloss": "interpretation, solution",
+        "definition": "Aramaic/Hebrew term meaning 'interpretation' or 'solution,' especially of dreams, visions, and prophetic texts. Cognate with Akkadian pašāru ('to loosen, solve'). In the Book of Giants, the giants seek peshar for their apocalyptic dreams, sending Mahaway to Enoch for interpretation. The term is prominent in Daniel (2:4-7, 4:6-7) and in Qumran pesharim (interpretive commentaries on biblical texts). The pesher method assumes hidden meanings in texts/dreams that require inspired interpretation to reveal their true significance regarding eschatological events.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch02",
+            "bog-ch03",
+            "bog-ch04"
+        ]
+    },
+    "ilan": {
+        "hebrew": "אילן",
+        "transliteration": "ʾîlān",
+        "strongs": "H363",
+        "gloss": "tree",
+        "definition": "Aramaic word for 'tree,' cognate with Hebrew ʾēlôn. In the Book of Giants, trees (ʾîlānîn) appear prominently in the apocalyptic dream visions, where a great tree is cut down symbolizing the destruction of the Nephilim. This imagery parallels Daniel 4:10-14 (Nebuchadnezzar's dream) and Ezekiel 31 (Egypt as a great tree). The tree represents cosmic order, life, and dominion; its felling signifies divine judgment and the end of the giants' reign of violence. The root system being torn out emphasizes total annihilation.",
+        "language": "aramaic",
+        "chapters_used": [
+            "bog-ch02",
+            "bog-ch03",
+            "bog-ch04"
+        ]
+    },
+    "pardes": {
+        "hebrew": "פרדס",
+        "transliteration": "pardēs",
+        "strongs": "H6508",
+        "gloss": "garden, orchard, paradise",
+        "definition": "Persian loanword meaning 'enclosed garden, orchard, paradise.' Appears in the Book of Giants dream visions where gardens are destroyed, symbolizing the end of the pre-flood world's abundance and beauty. The term is used in Nehemiah 2:8, Ecclesiastes 2:5, and Song of Songs 4:13. In later Jewish mysticism, Pardes becomes an acronym for four levels of biblical interpretation (Peshat, Remez, Derash, Sod). The garden imagery connects to Eden and represents the created order that the Watchers and Nephilim corrupted through violence and forbidden knowledge.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch03",
+            "bog-ch04"
+        ]
+    },
+    "sheol": {
+        "hebrew": "שאול",
+        "transliteration": "šəʾôl",
+        "strongs": "H7585",
+        "gloss": "underworld, realm of dead",
+        "definition": "The underworld or realm of the dead in Hebrew cosmology. Etymology uncertain, possibly from šāʾal ('to ask, inquire') or šāʾâ ('to be desolate'). Sheol is portrayed as a shadowy place beneath the earth where all the dead go, regardless of righteousness (Genesis 37:35, Numbers 16:30, Job 7:9). In the Book of Giants and broader Enochic tradition, Sheol becomes more differentiated, with compartments for the righteous and wicked awaiting final judgment. The spirits of the slain Nephilim are said to become demons that roam the earth, while their bodies return to dust, creating a unique eschatological problem addressed in later apocalyptic texts.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch04",
+            "bog-ch05"
+        ]
+    },
+    "ruach_ra": {
+        "hebrew": "רוח רעה",
+        "transliteration": "rûaḥ rāʿâ",
+        "strongs": "H7307 + H7451",
+        "gloss": "evil spirit",
+        "definition": "Literally 'evil spirit' or 'bad spirit,' from rûaḥ ('spirit, wind, breath') and rāʿâ ('evil, bad, harmful'). In the Book of Giants and 1 Enoch, the disembodied spirits of the slain Nephilim become evil spirits (demons) that afflict humanity after the flood. This explains the origin of demons as distinct from fallen angels: demons are the spirits of the giants, while the Watchers themselves are bound in chains. These evil spirits lead humanity astray, cause illness, and promote violence until the final judgment. The concept bridges the gap between the pre-flood corruption and post-flood spiritual warfare.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch05"
+        ]
+    },
+    "sopher": {
+        "hebrew": "סופר",
+        "transliteration": "sôpēr",
+        "strongs": "H5608",
+        "gloss": "scribe, writer, recorder",
+        "definition": "One who writes, records, or counts; a scribe or secretary. From the root sāpar ('to count, recount, relate'). In the Book of Giants, scribes play a crucial role in recording the visions, interpreting dreams, and preserving the testimony of the antediluvian world. Enoch himself functions as the archetypal scribe of heaven, recording divine judgments and cosmic secrets. The scribal function connects earthly record-keeping with the heavenly tablets that record all deeds. The preservation of the Book of Giants itself reflects the scribal culture of Second Temple Judaism, particularly the Qumran community.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch02",
+            "bog-ch04",
+            "bog-ch05"
+        ]
+    },
+    "qol": {
+        "hebrew": "קול",
+        "transliteration": "qôl",
+        "strongs": "H6963",
+        "gloss": "voice, sound, thunder",
+        "definition": "Voice, sound, noise, or thunder. In the Book of Giants, the qôl represents divine communication, whether through direct speech, thunder accompanying theophany, or the voice of angels announcing judgment. The term appears in key biblical theophanies (Exodus 19:16, 1 Kings 19:12, Ezekiel 1:24). In apocalyptic literature, the divine voice often announces judgment and reveals hidden mysteries. The giants hear voices in their dreams warning of destruction, and Enoch's voice delivers the final verdict on their fate.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch03",
+            "bog-ch04"
+        ]
+    },
+    "mishpat": {
+        "hebrew": "משפט",
+        "transliteration": "mišpāṭ",
+        "strongs": "H4941",
+        "gloss": "judgment, justice, ordinance",
+        "definition": "Judgment, justice, legal decision, or ordinance. From šāpaṭ ('to judge, govern'). In the Book of Giants, mishpat refers to the divine judgment pronounced against the Watchers and Nephilim. The term encompasses both the legal verdict and its execution. God's mishpat is portrayed as inevitable, righteous, and comprehensive—addressing both the angelic rebellion and its monstrous offspring. The concept connects to the broader biblical theme of divine justice that maintains cosmic order. The giants' petition for mercy is denied because their violence has corrupted the earth beyond redemption, making the flood judgment necessary to restore creation.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch01",
+            "bog-ch04",
+            "bog-ch05"
+        ]
+    },
+    "edah": {
+        "hebrew": "עדה",
+        "transliteration": "ʿēdâ",
+        "strongs": "H5712",
+        "gloss": "congregation, assembly, council",
+        "definition": "Congregation, assembly, or appointed gathering. From yāʿad ('to appoint, meet, assemble'). In the Book of Giants, the term can refer to the assembly of the Watchers who gathered on Mount Hermon, the council of giants who meet to discuss their apocalyptic dreams, or the divine council that pronounces judgment. The concept of ʿēdâ is central to understanding ancient Near Eastern divine council theology, where decisions are made in assembly. The Watchers' rebellious assembly on Hermon parodies the legitimate divine council, while God's council decrees their destruction.",
+        "language": "hebrew",
+        "chapters_used": [
+            "bog-ch01",
+            "bog-ch02",
+            "bog-ch05"
+        ]
+    },
+    "lamech_ga": {
+        "hebrew": "לֶמֶךְ",
+        "transliteration": "lemek",
+        "strongs": "H3929",
+        "gloss": "Lamech, Noah's father",
+        "definition": "Lamech (לֶמֶךְ) - The father of Noah in the Genesis Apocryphon narrative. In this Aramaic text, Lamech expresses doubt about Noah's paternity due to the child's extraordinary appearance, suspecting Watcher involvement. The name may derive from a root meaning 'powerful' or 'to make low.' In the Genesis Apocryphon, Lamech's character is expanded beyond the biblical account to include his emotional turmoil and investigation into Noah's origins, highlighting Second Temple period concerns about angelic-human boundaries and the Watchers' corruption of humanity.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col02",
+            "ga-col05"
+        ]
+    },
+    "bitenah": {
+        "hebrew": "בִּטְנָה",
+        "transliteration": "biṭnāh",
+        "strongs": "H990",
+        "gloss": "womb, belly, interior",
+        "definition": "Bitenah (בִּטְנָה) - Aramaic cognate of Hebrew 'beten,' meaning womb, belly, or interior parts. In the Genesis Apocryphon, this term appears in Lamech's questioning of Bat-Enosh about Noah's conception, emphasizing the physical reality of pregnancy and birth. The term carries legal and testimonial weight in the narrative, as Lamech seeks assurance that the child came from his own seed (zera) and not from angelic beings (Watchers or Holy Ones). The use of this anatomical term reflects Second Temple period concerns about bodily purity and the boundaries between human and angelic reproduction.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col02"
+        ]
+    },
+    "bat_enosh": {
+        "hebrew": "בַּת־אֱנוֹשׁ",
+        "transliteration": "bat-ʾĕnôš",
+        "strongs": "H1323+H582",
+        "gloss": "daughter of man, human woman",
+        "definition": "Bat-Enosh (בַּת־אֱנוֹשׁ) - 'Daughter of man/humanity,' the name of Lamech's wife and Noah's mother in the Genesis Apocryphon. The name emphasizes her fully human nature, contrasting with the 'daughters of men' (benot ha-adam) who consorted with the Watchers. Enosh (אֱנוֹשׁ) denotes mortal humanity, often emphasizing human frailty. In the narrative, Bat-Enosh must defend her fidelity and Noah's human paternity against Lamech's suspicions. Her name serves as a theological marker of legitimate human lineage untainted by angelic corruption, crucial for establishing Noah's righteousness and suitability to preserve humanity through the flood.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col02",
+            "ga-col05"
+        ]
+    },
+    "qaddishin": {
+        "hebrew": "קַדִּישִׁין",
+        "transliteration": "qaddîšîn",
+        "strongs": "H6922",
+        "gloss": "holy ones, angels",
+        "definition": "Qaddishin (קַדִּישִׁין) - Aramaic plural of 'qaddish' (holy), referring to the holy angels or divine council members. This term appears frequently in Daniel and Qumran literature to designate the heavenly host who serve in God's presence. In the Genesis Apocryphon, Lamech fears Noah might be 'from the Watchers or Holy Ones,' using qaddishin to refer to legitimate angelic beings in contrast to the fallen Watchers (Egregoroi). The term emphasizes the sanctity and otherness of the angelic realm. In Second Temple theology, the qaddishin maintain cosmic order and execute divine judgments, forming part of the divine council (sod) that governs creation alongside God.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col02",
+            "ga-col05"
+        ]
+    },
+    "metushelach": {
+        "hebrew": "מְתוּשֶׁלַח",
+        "transliteration": "mĕtûšelaḥ",
+        "strongs": "H4968",
+        "gloss": "Methuselah, Enoch's son",
+        "definition": "Metushelach (מְתוּשֶׁלַח) - Methuselah, son of Enoch and grandfather of Noah. The name possibly means 'man of the dart/spear' or 'when he dies, it shall be sent' (referring to the flood). In the Genesis Apocryphon, Methuselah serves as an intermediary between Lamech and the departed Enoch, traveling to 'the ends of the earth' at Parvaim to consult his father about Noah's mysterious birth. This role emphasizes Methuselah's position as a bridge between the antediluvian patriarchs and the heavenly realm. His longevity (969 years in Genesis) and connection to Enoch make him a repository of pre-flood wisdom and a witness to both the Watchers' descent and God's judgment.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col05"
+        ]
+    },
+    "parvaim": {
+        "hebrew": "פַּרְוָיִם",
+        "transliteration": "parwāyim",
+        "strongs": "H6516",
+        "gloss": "Parvaim, distant eastern place",
+        "definition": "Parvaim (פַּרְוָיִם) - A distant, mysterious location mentioned in 2 Chronicles 3:6 as a source of gold for Solomon's temple, and in the Genesis Apocryphon as the place where Enoch dwells 'at the ends of the earth.' The name may derive from a root meaning 'eastern' or relate to Sanskrit 'purva' (east/former). In Second Temple literature, Parvaim represents a liminal space between earth and heaven, where Enoch resides after his translation. The Genesis Apocryphon uses this location to emphasize Enoch's removal from ordinary human geography while maintaining his accessibility for consultation on cosmic mysteries. It functions as a threshold location where heavenly knowledge can be transmitted to earth.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col05"
+        ]
+    },
+    "zera_qushta": {
+        "hebrew": "זֶרַע קֻשְׁטָא",
+        "transliteration": "zeraʿ qušṭāʾ",
+        "strongs": "H2233+H7187",
+        "gloss": "true seed, legitimate offspring",
+        "definition": "Zera Qushta (זֶרַע קֻשְׁטָא) - 'True seed' or 'legitimate offspring,' combining Hebrew 'zera' (seed/offspring) with Aramaic 'qushta' (truth/legitimacy). In the Genesis Apocryphon, Enoch assures Lamech that Noah is 'from your seed in truth' (min zeraak qushta), confirming legitimate human paternity untainted by Watcher corruption. This phrase carries legal, biological, and theological weight, establishing Noah's qualification to preserve humanity. The concept of 'true seed' becomes crucial in Second Temple theology for distinguishing the righteous line from those corrupted by angelic-human hybridization. It anticipates later Jewish and Christian discussions of legitimate descent, covenant continuity, and messianic lineage.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col05"
+        ]
+    },
+    "peleh": {
+        "hebrew": "פֶּלֶא",
+        "transliteration": "peleʾ",
+        "strongs": "H6382",
+        "gloss": "wonder, marvel, extraordinary thing",
+        "definition": "Peleh (פֶּלֶא) - A wonder, marvel, or extraordinary phenomenon that exceeds normal human experience. From the root p-l-ʾ meaning 'to be extraordinary, wonderful.' In the Genesis Apocryphon, Noah's unusual appearance at birth is described using this term, indicating his supernatural characteristics that caused Lamech's alarm. The term frequently appears in biblical texts for divine acts (Exodus 15:11, Psalm 77:14) and prophetic signs. In Second Temple literature, peleh can indicate both divine wonders and the disturbing anomalies produced by Watcher-human unions. The ambiguity of the term captures the theological tension: extraordinary features might signal either divine blessing or forbidden mixture.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col02",
+            "ga-col05"
+        ]
+    },
+    "raz": {
+        "hebrew": "רָז",
+        "transliteration": "rāz",
+        "strongs": "H7328",
+        "gloss": "mystery, secret, hidden thing",
+        "definition": "Raz (רָז) - A mystery or secret, particularly divine mysteries hidden from ordinary human knowledge. This Aramaic term appears in Daniel (2:18-19, 27-30, 47) for the mysteries God reveals to his servants. In the Genesis Apocryphon and Qumran literature, raz refers to eschatological secrets, cosmic knowledge, and the hidden plans of God. Enoch, as the revealer of mysteries, possesses knowledge of razin (plural) concerning the Watchers, the flood, and cosmic order. The term is central to Second Temple apocalyptic theology, where select individuals receive revelation of God's hidden purposes. The Genesis Apocryphon presents Noah's birth as connected to divine mysteries that only Enoch can interpret.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col05"
+        ]
+    },
+    "shemihazah_ga": {
+        "hebrew": "שְׁמִיחֲזָה",
+        "transliteration": "šĕmîḥăzâ",
+        "strongs": "H8070",
+        "gloss": "Shemihazah, leader of Watchers",
+        "definition": "Shemihazah (שְׁמִיחֲזָה) - The chief leader of the Watchers who descended to Mount Hermon and corrupted humanity. The name possibly means 'my name has seen' or 'the name sees.' In 1 Enoch and the Genesis Apocryphon, Shemihazah leads 200 Watchers in taking human wives and teaching forbidden knowledge. He represents the primary transgression of angelic boundaries and the corruption of the pre-flood world. The Genesis Apocryphon references him in the context of explaining Noah's unusual birth, distinguishing Noah's divine purpose from the Watchers' rebellion. Shemihazah's story serves as the archetypal account of cosmic rebellion and the mixing of heavenly and earthly realms, resulting in the Nephilim and necessitating the flood judgment.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col02"
+        ]
+    },
+    "abram_ga": {
+        "hebrew": "אַבְרָם",
+        "transliteration": "ʾabrām",
+        "strongs": "H87",
+        "gloss": "Abram, exalted father",
+        "definition": "Abram (אַבְרָם) - 'Exalted father,' the original name of Abraham before God changed it to Abraham ('father of multitudes') in Genesis 17:5. In the Genesis Apocryphon, extensive narrative focuses on Abram's journey to Egypt, Sarai's beauty, and Pharaoh's affliction. The Aramaic retelling expands the biblical account with additional details about Abram's dream-vision warning him of danger, his prayer for Pharaoh's healing, and the recognition of divine protection over the patriarch. The Genesis Apocryphon presents Abram as a righteous sage with prophetic gifts and healing powers, emphasizing his role as a mediator between God and foreign rulers, foreshadowing Israel's relationship with the nations.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col19",
+            "ga-col20",
+            "ga-col21",
+            "ga-col22"
+        ]
+    },
+    "sarai_ga": {
+        "hebrew": "שָׂרַי",
+        "transliteration": "śāray",
+        "strongs": "H8297",
+        "gloss": "Sarai, princess, Abraham's wife",
+        "definition": "Sarai (שָׂרַי) - 'My princess,' the original name of Sarah before God changed it to Sarah ('princess') in Genesis 17:15. In the Genesis Apocryphon, Sarai's extraordinary beauty is described in elaborate detail using the wasf (descriptive praise) literary form, cataloging her features from head to toe. The text emphasizes her beauty as both a blessing and a danger, necessitating Abram's deception in Egypt. The Genesis Apocryphon portrays Sarai as the ideal of feminine beauty while also highlighting the moral complexities of the wife-sister narratives. Her beauty becomes a test of faith and divine protection, demonstrating God's sovereignty over foreign powers and his covenant faithfulness to the patriarchs.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col19",
+            "ga-col20"
+        ]
+    },
+    "nega": {
+        "hebrew": "נֶגַע",
+        "transliteration": "negaʿ",
+        "strongs": "H5061",
+        "gloss": "plague, affliction, strike",
+        "definition": "Nega (נֶגַע) - A plague, affliction, or divine strike, from the root n-g-ʿ meaning 'to touch, strike, smite.' In the Genesis Apocryphon, this term describes the severe affliction God sends upon Pharaoh and his household when he takes Sarai. The term is used throughout Scripture for divine judgments, particularly the plagues of Egypt (Exodus) and skin diseases (Leviticus 13-14). In the Genesis Apocryphon, the nega is specifically described as preventing Pharaoh from approaching Sarai sexually, demonstrating God's protective intervention. The affliction serves as both punishment for violating the patriarch's wife and a sign of divine power, compelling Pharaoh to recognize God's sovereignty and return Sarai unharmed.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col20"
+        ]
+    },
+    "lot_ga": {
+        "hebrew": "לוֹט",
+        "transliteration": "lôṭ",
+        "strongs": "H3876",
+        "gloss": "Lot, Abraham's nephew",
+        "definition": "Lot (לוֹט) - Abraham's nephew, son of Haran. The name possibly means 'covering' or 'veil.' In the Genesis Apocryphon, Lot accompanies Abram to Egypt and later separates from him, choosing to dwell near Sodom. The Aramaic text expands on Lot's role in the Egyptian episode and his relationship with Abram. Lot represents the righteous person who dwells among the wicked (2 Peter 2:7-8), and his story illustrates the consequences of choosing worldly prosperity over spiritual wisdom. In the Genesis Apocryphon, Lot's presence emphasizes family loyalty and the extension of divine protection to Abraham's household, while also foreshadowing the judgment on Sodom and Gomorrah.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col19",
+            "ga-col21"
+        ]
+    },
+    "tselo": {
+        "hebrew": "צְלוֹ",
+        "transliteration": "ṣĕlô",
+        "strongs": "H6763",
+        "gloss": "side, rib, chamber",
+        "definition": "Tselo (צְלוֹ) - Side, rib, or chamber. Aramaic cognate of Hebrew 'tsela.' In the Genesis Apocryphon's description of Sarai's beauty, this term may refer to her sides or the graceful contours of her body. The term is most famous from Genesis 2:21-22, where God takes a tsela from Adam to create Eve. In architectural contexts, it refers to side chambers or wings of buildings. The use of this term in the wasf description of Sarai emphasizes the completeness and harmony of her physical form. In Second Temple literature, detailed physical descriptions served both aesthetic and theological purposes, presenting the matriarchs as embodiments of divine blessing and covenant promise.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col20"
+        ]
+    },
+    "yat": {
+        "hebrew": "יָת",
+        "transliteration": "yāt",
+        "strongs": "H3487",
+        "gloss": "accusative marker, 'with'",
+        "definition": "Yat (יָת) - Aramaic particle serving as the definite direct object marker, equivalent to Hebrew 'et' (אֶת). This grammatical particle appears frequently in the Genesis Apocryphon and other Aramaic texts to mark the definite direct object of a verb. While not carrying independent semantic meaning, yat is crucial for understanding Aramaic syntax and sentence structure. In the Genesis Apocryphon, yat appears in phrases like 'yat Sarai' (Sarai, as direct object) and 'yat kol' (all/everything, as direct object). Understanding this particle is essential for accurate translation and interpretation of Aramaic biblical and para-biblical texts, as it clarifies grammatical relationships that determine meaning.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col19",
+            "ga-col20",
+            "ga-col21",
+            "ga-col22"
+        ]
+    },
+    "chalom_ga": {
+        "hebrew": "חֲלוֹם",
+        "transliteration": "ḥălôm",
+        "strongs": "H2472",
+        "gloss": "dream, vision in sleep",
+        "definition": "Chalom (חֲלוֹם) - A dream or night vision, from the root ḥ-l-m. In the Genesis Apocryphon, Abram receives a prophetic dream warning him of danger in Egypt, prompting him to present Sarai as his sister. Dreams serve as a primary mode of divine communication in biblical and Second Temple literature, conveying warnings, promises, and revelations. The Genesis Apocryphon expands the biblical account by adding this dream sequence, emphasizing Abram's prophetic abilities and God's protective guidance. Dreams in ancient Near Eastern culture required interpretation and were considered windows into divine purposes. The chalom in the Genesis Apocryphon demonstrates God's active involvement in protecting the covenant promises through supernatural revelation.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col19"
+        ]
+    },
+    "anan": {
+        "hebrew": "עֲנָן",
+        "transliteration": "ʿănān",
+        "strongs": "H6051",
+        "gloss": "cloud, divine presence",
+        "definition": "Anan (עֲנָן) - Cloud, particularly the cloud of divine presence (theophanic cloud). In biblical theology, clouds frequently accompany divine manifestations: the pillar of cloud in the Exodus, the cloud filling the tabernacle and temple, and the cloud at Jesus' transfiguration. In the Genesis Apocryphon and related texts, clouds may indicate divine presence, protection, or judgment. The term connects to the broader ancient Near Eastern concept of storm-god theophanies, where deity appears in clouds and storm phenomena. In Second Temple literature, clouds also transport heavenly beings and serve as boundaries between earthly and heavenly realms. The cloud imagery emphasizes God's transcendence while indicating his active presence in human affairs.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col21"
+        ]
+    },
+    "asya": {
+        "hebrew": "אַסְיָא",
+        "transliteration": "ʾasyāʾ",
+        "strongs": "H0",
+        "gloss": "healer, physician",
+        "definition": "Asya (אַסְיָא) - Healer or physician, from the Aramaic root ʾ-s-y meaning 'to heal.' In the Genesis Apocryphon, Abram is called upon to heal Pharaoh from the divine plague (nega) that afflicted him. This portrayal of Abram as healer expands his biblical characterization, presenting him as a righteous sage with supernatural healing abilities granted through prayer and divine favor. The role of asya in Second Temple Judaism combined practical medicine with spiritual intercession. Abram's healing of Pharaoh demonstrates the power of the righteous to mediate divine blessing even to foreign rulers, foreshadowing Israel's role as a light to the nations. The healing also proves God's sovereignty over the Egyptian gods and establishes Abram's spiritual authority.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col20"
+        ]
+    },
+    "harqos": {
+        "hebrew": "הַרְקוֹס",
+        "transliteration": "harqôs",
+        "strongs": "H0",
+        "gloss": "Harqos, Egyptian official",
+        "definition": "Harqos (הַרְקוֹס) - An Egyptian official or prince mentioned in the Genesis Apocryphon who reports Sarai's beauty to Pharaoh. The name appears to be Egyptian in origin, possibly related to Egyptian royal or noble titles. In the Genesis Apocryphon's expanded narrative, Harqos serves as an intermediary who discovers Sarai and brings her to Pharaoh's attention, along with other Egyptian nobles. This character addition provides narrative detail absent from the biblical account, showing how Sarai came to Pharaoh's notice. The inclusion of named Egyptian officials adds historical verisimilitude to the account and emphasizes the danger Abram and Sarai faced in Egypt, where foreign beauty could be appropriated by royal power.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col19"
+        ]
+    },
+    "hyrcanos": {
+        "hebrew": "הִירְקָנוֹס",
+        "transliteration": "hîrqānôs",
+        "strongs": "H0",
+        "gloss": "Hyrcanos, Egyptian official",
+        "definition": "Hyrcanos (הִירְקָנוֹס) - An Egyptian official mentioned in the Genesis Apocryphon, one of three nobles who report Sarai's beauty to Pharaoh. The name may reflect Hellenistic influence on the text, as 'Hyrcanos' is a Greek name (Ὑρκανός) meaning 'from Hyrcania.' This anachronistic element suggests the Genesis Apocryphon was composed during the Hellenistic period when Greek names were common even in Aramaic texts. The presence of named officials creates a more detailed narrative framework than the biblical account, emphasizing the court intrigue and the systematic way Sarai was brought to Pharaoh's attention. These officials represent the foreign power structures that threatened the patriarchal family and tested God's covenant protection.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col19"
+        ]
+    },
+    "shetibaal": {
+        "hebrew": "שְׁתִיבַעַל",
+        "transliteration": "šĕtîbaʿal",
+        "strongs": "H0",
+        "gloss": "Shetibaal, Egyptian official",
+        "definition": "Shetibaal (שְׁתִיבַעַל) - An Egyptian official mentioned in the Genesis Apocryphon as one of three nobles who report Sarai's beauty to Pharaoh. The name appears to be Semitic, possibly meaning 'Baal has set/placed' or containing the divine name Baal. The inclusion of a Semitic name for an Egyptian official may reflect historical reality (Semitic peoples served in Egyptian administration) or literary convention. In the narrative, Shetibaal participates in the discovery and presentation of Sarai to Pharaoh, representing the foreign powers that endangered the covenant family. The detailed naming of officials adds narrative texture and emphasizes the real political dangers the patriarchs faced in their sojourns among foreign peoples.",
+        "language": "aramaic",
+        "chapters_used": [
+            "ga-col19"
+        ]
+    },
+    "marbim": {
+        "hebrew": "מַרְבִּים",
+        "transliteration": "marbîm",
+        "strongs": "H7235",
+        "gloss": "multiplying, increasing greatly",
+        "definition": "Hiphil participle plural of רָבָה (rabah), meaning 'those who multiply' or 'those who increase.' Used in contexts of population growth, abundance, and divine blessing. In Genesis 1:22, 28, God commands creatures and humanity to 'be fruitful and multiply' (פְּרוּ וּרְבוּ). The term emphasizes exponential increase and fulfillment of divine mandate for filling the earth. Related to demographic expansion and covenant blessing.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-1",
+            "gen-1",
+            "gen-22"
+        ]
+    },
+    "mareh": {
+        "hebrew": "מַרְאֶה",
+        "transliteration": "marʾeh",
+        "strongs": "H4758",
+        "gloss": "appearance, vision, sight",
+        "definition": "Noun from רָאָה (raʾah, 'to see'), denoting visual appearance, outward form, or visionary experience. Used for physical appearance (Gen 2:9, trees pleasing to the sight), theophanic visions (Exod 3:3, the burning bush), and prophetic revelations (Num 12:8, YHWH speaks to Moses 'mouth to mouth, clearly and not in riddles'). In divine council contexts, refers to the visible manifestation of heavenly beings. Semantic range includes both ordinary sight and supernatural vision.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-24",
+            "exod-3",
+            "gen-2",
+            "gen-29",
+            "num-12"
+        ]
+    },
+    "masakh": {
+        "hebrew": "מָסַךְ",
+        "transliteration": "māsak",
+        "strongs": "H4539",
+        "gloss": "covering, screen, veil",
+        "definition": "Noun denoting a woven screen or curtain, particularly in tabernacle contexts. Refers to the protective barrier separating holy spaces from common areas (Exod 26:36-37, screen for tent entrance; 27:16, screen for courtyard gate). Made of fine twisted linen with blue, purple, and scarlet yarn. Functions as threshold marker between sacred and profane realms. Related to מָסָךְ (masak, 'to mix, weave'). Symbolizes controlled access to divine presence.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-26",
+            "exod-27"
+        ]
+    },
+    "mashach": {
+        "hebrew": "מָשַׁח",
+        "transliteration": "māšaḥ",
+        "strongs": "H4886",
+        "gloss": "to anoint, consecrate",
+        "definition": "Verb meaning to smear or anoint with oil, establishing sacred status. Used for consecrating priests (Exod 29:7), kings (1 Sam 10:1), prophets (1 Kgs 19:16), and sacred objects (Exod 30:26). The anointed one (מָשִׁיחַ, mashiach) receives divine authorization and empowerment. Anointing oil (שֶׁמֶן הַמִּשְׁחָה) contains specific spices (Exod 30:23-25) and must not be replicated for common use. Establishes covenant relationship and divine calling. Root of 'Messiah' concept.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-29",
+            "exod-30"
+        ]
+    },
+    "mashah": {
+        "hebrew": "מָשָׁה",
+        "transliteration": "māšāh",
+        "strongs": "H4871",
+        "gloss": "to draw out, extract",
+        "definition": "Verb meaning to draw out or pull from water. Etymology of Moses' name (מֹשֶׁה, Mosheh): 'because I drew him out of the water' (Exod 2:10). Pharaoh's daughter uses wordplay connecting the Hebrew root with Egyptian mes ('son') and the act of rescue. The name foreshadows Moses' role in drawing Israel out of Egypt through the Reed Sea. Cognate with Akkadian mašû ('to forget'), suggesting dual meaning of extraction and new identity. Theologically significant as type of salvation and deliverance.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-2"
+        ]
+    },
+    "mashchit": {
+        "hebrew": "מַשְׁחִית",
+        "transliteration": "mašḥît",
+        "strongs": "H7843",
+        "gloss": "destroyer, destroying angel",
+        "definition": "Hiphil participle of שָׁחַת (shachat, 'to destroy, ruin'), meaning 'the destroyer.' Refers to the divine agent executing judgment, particularly in Exodus 12:23 during the tenth plague: 'YHWH will pass through to strike Egypt, and when he sees the blood... he will not permit the destroyer (הַמַּשְׁחִית) to enter your houses to strike you.' Identified with the Angel of Death in Jewish tradition. Functions as member of YHWH's heavenly host carrying out divine decree. Related to Abaddon/Apollyon (Rev 9:11). Represents divine judgment personified.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-12",
+            "gen-6"
+        ]
+    },
+    "mashqof": {
+        "hebrew": "מַשְׁקוֹף",
+        "transliteration": "mašqôp",
+        "strongs": "H4947",
+        "gloss": "lintel, doorpost top",
+        "definition": "Noun denoting the horizontal beam above a doorway. Critical in Passover narrative (Exod 12:7, 22-23): Israelites apply lamb's blood to doorposts (מְזוּזֹת) and lintel (מַשְׁקוֹף) as protective sign. The blood marks the threshold as covenant space, preventing the destroyer's entry. Architecturally, the lintel bears structural weight; symbolically, it bears covenantal significance. Related to שָׁקַף (shaqaph, 'to look down, overlook'). Represents boundary between death and life, judgment and mercy.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-12"
+        ]
+    },
+    "massah": {
+        "hebrew": "מַסָּה",
+        "transliteration": "massāh",
+        "strongs": "H4532",
+        "gloss": "testing, trial place",
+        "definition": "Noun from נָסָה (nasah, 'to test, try'), meaning 'testing' or 'trial.' Place name in Exodus 17:7 where Israel tested YHWH at Rephidim, demanding water: 'He called the place Massah and Meribah because the Israelites quarreled and tested YHWH, saying, \"Is YHWH among us or not?\"' Paired with Meribah ('quarreling'), represents Israel's wilderness rebellion and lack of faith. Becomes proverbial warning (Ps 95:8-9; Heb 3:8-9). Theological theme: testing God versus trusting God's provision.",
+        "language": "hebrew",
+        "chapters_used": [
+            "deut-6",
+            "exod-17"
+        ]
+    },
+    "massekah": {
+        "hebrew": "מַסֵּכָה",
+        "transliteration": "massēkāh",
+        "strongs": "H4541",
+        "gloss": "molten image, cast idol",
+        "definition": "Noun from נָסַךְ (nasak, 'to pour, cast metal'), meaning a cast or molten image. Refers to idols made by pouring molten metal into molds. Most infamous example: the golden calf (עֵגֶל מַסֵּכָה) in Exodus 32:4, 8. Explicitly forbidden in covenant law (Exod 34:17; Lev 19:4; Deut 27:15). Contrasts with carved images (פֶּסֶל). Represents human attempt to control or visualize deity, violating imageless worship of YHWH. Associated with apostasy and covenant violation. Jeroboam's golden calves (1 Kgs 12:28) repeat this sin.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-32",
+            "exod-34"
+        ]
+    },
+    "masveh": {
+        "hebrew": "מַסְוֶה",
+        "transliteration": "masweh",
+        "strongs": "H4533",
+        "gloss": "veil, covering",
+        "definition": "Noun denoting a veil or covering, specifically Moses' face covering in Exodus 34:33-35. After descending from Sinai with radiant face (קָרַן עוֹר פָּנָיו), Moses veils himself when not speaking YHWH's words. Paul interprets this (2 Cor 3:13-16) as concealing glory's fading and Israel's hardened hearts. The veil represents barrier to full revelation, removed only in Christ. Symbolizes mediated versus direct access to divine presence. Related to כָּסָה (kasah, 'to cover'). Theological significance: progressive revelation and transformation.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-34"
+        ]
+    },
+    "matkonet": {
+        "hebrew": "מַתְכֹּנֶת",
+        "transliteration": "matkōnet",
+        "strongs": "H4350",
+        "gloss": "fixed place, base, stand",
+        "definition": "Noun from כּוּן (kun, 'to establish, fix'), meaning a fixed base or stand. Used in tabernacle construction for the bases of pillars and structural supports (Exod 26:19, 21, 25). Denotes stability and permanence in sacred architecture. The term emphasizes that the mobile tabernacle, though portable, rests on firm foundations. Metaphorically applicable to God's established order and covenant faithfulness. Related to מְכוֹנָה (mekhonah, 'base, stand'). Represents divine order's stability amid wilderness wandering.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-26"
+        ]
+    },
+    "matteh": {
+        "hebrew": "מַטֶּה",
+        "transliteration": "maṭṭeh",
+        "strongs": "H4294",
+        "gloss": "staff, rod, tribe",
+        "definition": "Noun meaning staff, rod, or tribe. As staff: symbol of authority and power (Exod 4:2-4, Moses' staff performs signs; 7:9-12, Aaron's staff becomes serpent). As tribal designation: represents patriarchal lineage and tribal identity (Num 1:4, 'one man from each tribe'). The dual meaning connects leadership authority with tribal representation. Aaron's budding staff (Num 17:8) confirms Levitical priesthood. In divine council framework, the staff represents delegated authority from YHWH. Related to נָטָה (natah, 'to stretch out').",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-4",
+            "exod-7",
+            "num-17"
+        ]
+    },
+    "matzot": {
+        "hebrew": "מַצּוֹת",
+        "transliteration": "maṣṣôt",
+        "strongs": "H4682",
+        "gloss": "unleavened bread",
+        "definition": "Plural of מַצָּה (matzah), meaning unleavened bread—bread made without yeast (שְׂאֹר). Central to Passover observance (Exod 12:8, 15-20): Israel must eat unleavened bread for seven days, commemorating hasty exodus from Egypt. Leaven symbolizes sin and corruption (1 Cor 5:6-8); its removal represents purification and new beginning. The Feast of Unleavened Bread (חַג הַמַּצּוֹת) immediately follows Passover. Matzot represents affliction bread (Deut 16:3) and separation from Egypt's influence. Theological theme: purity and covenant renewal.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-12",
+            "exod-13"
+        ]
+    },
+    "me'il": {
+        "hebrew": "מְעִיל",
+        "transliteration": "meʿîl",
+        "strongs": "H4598",
+        "gloss": "robe, cloak, mantle",
+        "definition": "Noun denoting an outer garment or robe, often indicating status or office. High priestly garment: the blue robe (מְעִיל הָאֵפוֹד) worn under the ephod, with pomegranates and bells on its hem (Exod 28:31-35). The bells announce the high priest's movement in the Holy Place, ensuring he doesn't die. Also worn by Samuel (1 Sam 2:19), Jonathan (1 Sam 18:4), and as royal garment. Represents dignity, authority, and sacred office. Removal of robe signifies loss of status (1 Sam 15:27-28). Related to עָלָה (alah, 'to go up').",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-28",
+            "exod-39"
+        ]
+    },
+    "me_il": {
+        "hebrew": "מְעִיל",
+        "transliteration": "meʿîl",
+        "strongs": "H4598",
+        "gloss": "robe, cloak, mantle",
+        "definition": "Alternate transliteration of מְעִיל. Noun denoting an outer garment or robe, often indicating status or office. High priestly garment: the blue robe (מְעִיל הָאֵפוֹד) worn under the ephod, with pomegranates and bells on its hem (Exod 28:31-35). The bells announce the high priest's movement in the Holy Place, ensuring he doesn't die. Also worn by Samuel (1 Sam 2:19), Jonathan (1 Sam 18:4), and as royal garment. Represents dignity, authority, and sacred office. Removal of robe signifies loss of status (1 Sam 15:27-28). Related to עָלָה (alah, 'to go up').",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-28",
+            "exod-39"
+        ]
+    },
+    "mekhashephah": {
+        "hebrew": "מְכַשֵּׁפָה",
+        "transliteration": "mekaššēpāh",
+        "strongs": "H3784",
+        "gloss": "sorceress, female practitioner of magic",
+        "definition": "Feminine participle of כָּשַׁף (kashaph, 'to practice sorcery'), meaning a sorceress or female magic practitioner. Exodus 22:18 commands: 'You shall not permit a sorceress to live.' Represents forbidden occult practices involving manipulation of spiritual forces outside YHWH's authority. Related to Babylonian kashshapu (sorcerer) and Akkadian kišpu (sorcery). In ANE context, sorcery involved invoking foreign deities and spirits. Covenant law prohibits such practices as rebellion against YHWH's exclusive sovereignty. Male form: מְכַשֵּׁף (mekhashsheph). See also Deut 18:10-12.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-22"
+        ]
+    },
+    "melakhah": {
+        "hebrew": "מְלָאכָה",
+        "transliteration": "melāʾkāh",
+        "strongs": "H4399",
+        "gloss": "work, craftsmanship, occupation",
+        "definition": "Noun from the root לָאַךְ (laʾak, related to מַלְאָךְ, 'messenger'), meaning work, labor, or skilled craftsmanship. Used for tabernacle construction (Exod 31:3, Bezalel filled with Spirit for 'all kinds of craftsmanship'), forbidden Sabbath work (Exod 20:9-10, 'six days you shall labor and do all your work'), and general occupation. Semantic range includes both physical labor and artistic skill. Sabbath prohibition of melakhah establishes rhythm of work and rest, imitating Creator's pattern. Distinguishes creative/productive work from mere activity.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-20",
+            "exod-31"
+        ]
+    },
+    "menorah": {
+        "hebrew": "מְנוֹרָה",
+        "transliteration": "menôrāh",
+        "strongs": "H4501",
+        "gloss": "lampstand, seven-branched light",
+        "definition": "Noun from נוּר (nur, 'to shine, give light'), meaning lampstand. The golden menorah in the tabernacle (Exod 25:31-40) has seven branches with almond-blossom decorations, hammered from one talent of pure gold. Represents divine light, presence, and revelation. The seven lamps may symbolize completeness or the seven eyes of YHWH (Zech 4:2, 10). Tended daily by priests with pure olive oil. In Revelation 1:12-20, seven lampstands represent seven churches. Symbolizes Israel as light to nations and God's illuminating presence.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-25",
+            "exod-37"
+        ]
+    },
+    "menuchah": {
+        "hebrew": "מְנוּחָה",
+        "transliteration": "menûḥāh",
+        "strongs": "H4496",
+        "gloss": "rest, resting place",
+        "definition": "Noun from נוּחַ (nuach, 'to rest, settle'), meaning rest, resting place, or state of tranquility. Used for Sabbath rest (Exod 20:11, God 'rested' on seventh day), the Promised Land as resting place (Deut 12:9, 'you have not yet come to the resting place'), and the ark's resting (Num 10:33). Theologically significant as goal of redemption: entering God's rest (Ps 95:11; Heb 3:11, 18; 4:1-11). Represents cessation from enemies, completion of work, and dwelling in divine presence. Eschatological dimension: ultimate Sabbath rest.",
+        "language": "hebrew",
+        "chapters_used": [
+            "deut-12",
+            "exod-20",
+            "num-10"
+        ]
+    },
+    "meribah": {
+        "hebrew": "מְרִיבָה",
+        "transliteration": "merîbāh",
+        "strongs": "H4809",
+        "gloss": "quarreling, strife, contention",
+        "definition": "Noun from רִיב (rib, 'to strive, contend'), meaning quarreling or contention. Place name in Exodus 17:7 (paired with Massah) where Israel quarreled with Moses over water. Second incident at Kadesh (Num 20:13, 'waters of Meribah') where Moses struck the rock twice, failing to sanctify YHWH, resulting in his exclusion from Canaan. Represents Israel's pattern of rebellion and testing God's patience. Becomes proverbial for covenant unfaithfulness (Ps 81:7; 95:8; 106:32). Theological theme: human contentiousness versus divine faithfulness.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-17",
+            "num-20"
+        ]
+    },
+    "merorim": {
+        "hebrew": "מְרֹרִים",
+        "transliteration": "merōrîm",
+        "strongs": "H4844",
+        "gloss": "bitter herbs",
+        "definition": "Plural of מָרוֹר (maror), from מָרַר (marar, 'to be bitter'), meaning bitter herbs. Required element of Passover meal (Exod 12:8): 'They shall eat the flesh [of the lamb] that night, roasted over fire, with unleavened bread and bitter herbs.' Commemorates bitterness of Egyptian slavery. Traditional bitter herbs include horseradish, endive, and lettuce. Symbolizes affliction and suffering that precedes redemption. Rabbinic tradition identifies five specific plants. Theological significance: remembering bondage heightens appreciation of deliverance.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-12",
+            "num-9"
+        ]
+    },
+    "mezuzah": {
+        "hebrew": "מְזוּזָה",
+        "transliteration": "mezûzāh",
+        "strongs": "H4201",
+        "gloss": "doorpost, doorframe",
+        "definition": "Noun meaning doorpost or doorframe. Critical in Passover narrative (Exod 12:7, 22-23): blood applied to two doorposts (מְזוּזֹת) and lintel marks covenant protection. Later commanded in Deuteronomy 6:9; 11:20 to write Torah portions on doorposts as reminder of covenant obligations. Jewish practice: mezuzah scroll (containing Deut 6:4-9; 11:13-21) affixed to doorframes. Represents threshold between sacred and common space, marking covenant household. Symbolizes God's protection and constant awareness of His commands.",
+        "language": "hebrew",
+        "chapters_used": [
+            "deut-6",
+            "exod-12"
+        ]
+    },
+    "migdal_bavel": {
+        "hebrew": "מִגְדַּל בָּבֶל",
+        "transliteration": "migdal bāḇel",
+        "strongs": "H4026, H894",
+        "gloss": "Tower of Babel",
+        "definition": "Compound phrase: מִגְדָּל (migdal, 'tower') + בָּבֶל (Babel, 'Babylon'). Genesis 11:1-9 describes humanity's attempt to build a city and tower 'with its top in the heavens' to make a name for themselves and avoid scattering. YHWH confuses their language and scatters them. The tower represents human autonomy, technological pride, and rebellion against divine mandate to fill the earth (Gen 1:28; 9:1). Etymology: בָּבֶל from בָּלַל (balal, 'to confuse'), though Akkadian Bab-ilu means 'gate of god.' Reversal at Pentecost (Acts 2). Theological theme: divine sovereignty over human empire-building.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-11"
+        ]
+    },
+    "mikneh": {
+        "hebrew": "מִקְנֶה",
+        "transliteration": "miqneh",
+        "strongs": "H4735",
+        "gloss": "livestock, cattle, possessions",
+        "definition": "Noun from קָנָה (qanah, 'to acquire, possess'), meaning livestock, cattle, or acquired possessions. Refers to domesticated animals as wealth and property (Gen 4:20, Jabal 'father of those who dwell in tents and have livestock'; Gen 13:2, Abram 'very rich in livestock'). In patriarchal narratives, livestock represents economic status and divine blessing. Includes cattle, sheep, goats, and camels. Disputes over grazing rights cause conflict (Gen 13:7). Livestock also used for sacrifice and covenant meals. Represents tangible blessing and stewardship responsibility.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-9",
+            "gen-13",
+            "gen-4"
+        ]
+    },
+    "milchamah": {
+        "hebrew": "מִלְחָמָה",
+        "transliteration": "milḥāmāh",
+        "strongs": "H4421",
+        "gloss": "war, battle, warfare",
+        "definition": "Noun from לָחַם (lacham, 'to fight, do battle'), meaning war, battle, or military conflict. Used extensively for physical warfare (Gen 14:2, war of the kings; Exod 15:3, 'YHWH is a warrior [אִישׁ מִלְחָמָה]'). In divine council framework, represents cosmic conflict between YHWH and rebellious spiritual powers. Exodus 17:16: 'YHWH will have war with Amalek from generation to generation.' Eschatological dimension in prophetic literature (Joel 3:9, 'Prepare for war'). Spiritual warfare theme in NT (Eph 6:12). Represents both earthly and heavenly conflicts under divine sovereignty.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-14",
+            "exod-15",
+            "exod-17",
+            "gen-14"
+        ]
+    },
+    "milkha": {
+        "hebrew": "מִלְכָּה",
+        "transliteration": "milkāh",
+        "strongs": "H4435",
+        "gloss": "Milcah, queen",
+        "definition": "Proper name meaning 'queen' or 'counsel,' from מֶלֶךְ (melek, 'king'). Two notable bearers: (1) Daughter of Haran, wife of Nahor (Abraham's brother), grandmother of Rebekah (Gen 11:29; 22:20-23). Her lineage connects Abraham's family to Aramean relatives in Paddan-aram. (2) Daughter of Zelophehad (Num 26:33; 27:1), one of five sisters who successfully petitioned Moses for inheritance rights, establishing precedent for female inheritance when no male heirs exist. Both women represent significant roles in covenant lineage and legal development.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-11",
+            "gen-22"
+        ]
+    },
+    "milkhamah": {
+        "hebrew": "מִלְחָמָה",
+        "transliteration": "milḥāmāh",
+        "strongs": "H4421",
+        "gloss": "war, battle, warfare",
+        "definition": "Alternate transliteration of מִלְחָמָה. Noun from לָחַם (lacham, 'to fight, do battle'), meaning war, battle, or military conflict. Used extensively for physical warfare (Gen 14:2, war of the kings; Exod 15:3, 'YHWH is a warrior [אִישׁ מִלְחָמָה]'). In divine council framework, represents cosmic conflict between YHWH and rebellious spiritual powers. Exodus 17:16: 'YHWH will have war with Amalek from generation to generation.' Eschatological dimension in prophetic literature (Joel 3:9, 'Prepare for war'). Spiritual warfare theme in NT (Eph 6:12). Represents both earthly and heavenly conflicts under divine sovereignty.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-14",
+            "exod-15",
+            "exod-17",
+            "gen-14"
+        ]
+    },
+    "milluim": {
+        "hebrew": "מִלֻּאִים",
+        "transliteration": "milluʾîm",
+        "strongs": "H4394",
+        "gloss": "ordination, consecration, installation",
+        "definition": "Plural noun from מָלֵא (male, 'to fill, fulfill'), meaning ordination or consecration, literally 'fillings' or 'settings.' Refers specifically to priestly ordination ceremony (Exod 29:22-34; Lev 8:22-33): the 'ram of ordination' (אֵיל הַמִּלֻּאִים) and seven-day consecration ritual. The phrase 'to fill the hand' (מִלֵּא יָד) means to ordain or install in office. The ceremony involves anointing, investiture with sacred garments, and sacrificial offerings. Represents complete dedication and authorization for priestly service. Establishes mediatorial role between God and people.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-29",
+            "lev-8"
+        ]
+    },
+    "miqdash": {
+        "hebrew": "מִקְדָּשׁ",
+        "transliteration": "miqdāš",
+        "strongs": "H4720",
+        "gloss": "sanctuary, holy place",
+        "definition": "Noun from קָדַשׁ (qadash, 'to be holy, consecrated'), meaning sanctuary or holy place. Refers to the tabernacle (Exod 25:8, 'Let them make me a sanctuary [מִקְדָּשׁ] that I may dwell in their midst'), later the Jerusalem temple. Represents sacred space where heaven and earth intersect, where YHWH's presence dwells among His people. The sanctuary contains graduated zones of holiness: courtyard, Holy Place, and Most Holy Place. In divine council framework, earthly sanctuary mirrors heavenly temple. Ezekiel's vision (Ezek 37:26-28) promises eternal sanctuary. Represents God's desire to dwell with humanity.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-25"
+        ]
+    },
+    "miqtar": {
+        "hebrew": "מִקְטָר",
+        "transliteration": "miqṭār",
+        "strongs": "H4729",
+        "gloss": "incense altar, place of burning",
+        "definition": "Noun from קָטַר (qatar, 'to burn incense, make smoke'), meaning incense altar or place of burning incense. Refers to the golden altar of incense (מִזְבַּח הַקְּטֹרֶת) in the Holy Place (Exod 30:1-10), where priests burn fragrant incense twice daily. Made of acacia wood overlaid with gold, with horns at corners. Positioned before the veil separating Holy Place from Most Holy Place. Incense represents prayers ascending to God (Ps 141:2; Rev 5:8; 8:3-4). Aaron's sons Nadab and Abihu died offering 'strange fire' (Lev 10:1). Represents mediated access to divine presence through authorized priesthood.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-30"
+        ]
+    },
+    "mishkan": {
+        "hebrew": "מִשְׁכָּן",
+        "transliteration": "mishkan",
+        "strongs": "H4908",
+        "gloss": "dwelling place, tabernacle",
+        "definition": "From the root שָׁכַן (shakan, 'to dwell'), mishkan refers to the portable sanctuary constructed by Israel in the wilderness, serving as YHWH's earthly dwelling place among His people. The term emphasizes divine immanence—God's presence tabernacling with humanity. In divine council theology, the mishkan represents the earthly counterpart to the heavenly throne room, where YHWH meets with His people through the mediation of the priesthood. The structure's design mirrors cosmic temple imagery found throughout the ANE, with the Holy of Holies corresponding to the divine council chamber.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-25",
+            "exo-26",
+            "exo-40"
+        ]
+    },
+    "mishpatim": {
+        "hebrew": "מִשְׁפָּטִים",
+        "transliteration": "mishpatim",
+        "strongs": "H4941",
+        "gloss": "judgments, ordinances, legal decisions",
+        "definition": "Plural of מִשְׁפָּט (mishpat), referring to judicial decisions, case laws, and legal precedents. In Exodus 21-23, mishpatim constitute the covenant code—casuistic laws governing social, economic, and cultic life. These ordinances reflect YHWH's righteous character and establish Israel's distinctiveness among the nations. The term carries connotations of divine justice administered through human courts, with ultimate authority residing in YHWH as cosmic judge. In the divine council framework, mishpatim represent the earthly implementation of heavenly decrees.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-21",
+            "exo-24"
+        ]
+    },
+    "mitsrayim": {
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "mitsrayim",
+        "strongs": "H4714",
+        "gloss": "Egypt, the two straits",
+        "definition": "Dual form referring to Egypt, literally 'the two straits' or 'the two lands' (Upper and Lower Egypt). In biblical theology, Mitsrayim represents the archetypal house of bondage and the realm of foreign gods. The Exodus from Mitsrayim establishes the pattern of divine deliverance and serves as the foundational salvation event for Israel. In divine council terms, the plagues against Egypt constitute YHWH's judgment against the gods of Egypt (Exod 12:12), demonstrating His supremacy over the Egyptian pantheon and their territorial claims. The term appears in genealogical lists as a son of Ham (Gen 10:6), connecting geography with the Table of Nations' divine allotment theology.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-10",
+            "exo-1",
+            "exo-12"
+        ]
+    },
+    "mitznefet": {
+        "hebrew": "מִצְנֶפֶת",
+        "transliteration": "mitznefet",
+        "strongs": "H4701",
+        "gloss": "turban, priestly headdress",
+        "definition": "The distinctive turban worn by the high priest, distinguished from the common priestly headcovering (migba'ah). The mitznefet bore the golden plate (tsits) inscribed with 'Holy to YHWH' (qodesh la-YHWH), signifying the high priest's role as mediator between the divine council and Israel. This headdress symbolized the priest's authority to enter the divine presence and his consecration to sacred service. The term derives from a root meaning 'to wrap' or 'to wind,' indicating its construction method.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-28",
+            "exo-29",
+            "lev-8"
+        ]
+    },
+    "mitzrayim": {
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "mitzrayim",
+        "strongs": "H4714",
+        "gloss": "Egypt, land of oppression",
+        "definition": "Alternate transliteration of Mitsrayim. See mitsrayim entry for full definition. This dual-form noun designates Egypt as both geographical location and theological symbol of bondage. The exodus from Mitzrayim becomes the paradigmatic act of divine redemption, referenced throughout Scripture as the defining moment of Israel's identity. In prophetic literature, return to Mitzrayim symbolizes covenant unfaithfulness and rejection of YHWH's kingship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-12",
+            "exo-3",
+            "deu-26"
+        ]
+    },
+    "mizbeach": {
+        "hebrew": "מִזְבֵּחַ",
+        "transliteration": "mizbeach",
+        "strongs": "H4196",
+        "gloss": "altar, place of sacrifice",
+        "definition": "From the root זָבַח (zabach, 'to slaughter, sacrifice'), mizbeach designates the altar where offerings are presented to YHWH. The term encompasses both the bronze altar of burnt offering in the courtyard and the golden altar of incense in the Holy Place. Altars serve as meeting points between heaven and earth, where the divine and human realms intersect through sacrificial mediation. In patriarchal narratives, altar-building marks sites of theophany and covenant establishment. The mizbeach represents the earthly locus where YHWH's presence receives worship, corresponding to the heavenly altar before the divine throne (Rev 8:3-5).",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-8",
+            "gen-12",
+            "exo-27",
+            "exo-30"
+        ]
+    },
+    "mizbeach_haolah": {
+        "hebrew": "מִזְבַּח הָעֹלָה",
+        "transliteration": "mizbeach ha'olah",
+        "strongs": "H4196 + H5930",
+        "gloss": "altar of burnt offering",
+        "definition": "The bronze altar located in the tabernacle courtyard, specifically designated for burnt offerings ('olah) and other blood sacrifices. This altar stood at the entrance to the sacred space, signifying that approach to YHWH requires atonement. Measuring five cubits square and three cubits high, with horns at its four corners, the mizbeach ha'olah served as the primary locus for expiatory rituals. The horns provided refuge for those seeking asylum (1 Kgs 1:50), connecting the altar to divine mercy and justice. In cosmic temple theology, this altar corresponds to the threshold between the profane and sacred realms.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-27",
+            "exo-38",
+            "lev-1"
+        ]
+    },
+    "mizbeach_qetoret": {
+        "hebrew": "מִזְבַּח קְטֹרֶת",
+        "transliteration": "mizbeach qetoret",
+        "strongs": "H4196 + H7004",
+        "gloss": "altar of incense",
+        "definition": "The golden altar positioned before the veil in the Holy Place, used exclusively for burning incense (qetoret). This altar stood directly in front of the ark of the covenant, though separated by the veil, creating a vertical axis connecting earth to the divine throne. The twice-daily incense offering symbolized the prayers of Israel ascending to YHWH (Ps 141:2; Rev 5:8). Only the high priest could perform the annual atonement ritual on this altar (Lev 16:18-19). In divine council theology, the incense altar represents the mediatorial function of prayer reaching the heavenly court, with incense smoke symbolizing the ascent of petitions to the divine presence.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-30",
+            "exo-37",
+            "lev-16"
+        ]
+    },
+    "mizbeyach": {
+        "hebrew": "מִזְבֵּחַ",
+        "transliteration": "mizbeyach",
+        "strongs": "H4196",
+        "gloss": "altar, sacrificial platform",
+        "definition": "Alternate transliteration of mizbeach. See mizbeach entry for full definition. The term emphasizes the altar's function as the designated place where sacrificial slaughter occurs, establishing the covenant relationship between YHWH and His people through blood ritual. Early altars were constructed of earth or unhewn stones (Exod 20:24-25), while the tabernacle and temple altars followed precise divine specifications, indicating the increasing formalization of cultic practice.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-22",
+            "exo-20",
+            "jos-8"
+        ]
+    },
+    "mo_adim": {
+        "hebrew": "מוֹעֲדִים",
+        "transliteration": "mo'adim",
+        "strongs": "H4150",
+        "gloss": "appointed times, festivals",
+        "definition": "Plural of מוֹעֵד (mo'ed), referring to YHWH's appointed times and sacred festivals. These divinely ordained occasions structure Israel's liturgical calendar and commemorate key salvation events. The mo'adim include weekly Sabbath, Passover, Unleavened Bread, Firstfruits, Weeks (Shavuot), Trumpets, Day of Atonement, and Tabernacles. Leviticus 23 presents these as 'appointed times of YHWH,' emphasizing their divine origin rather than human institution. The term derives from יָעַד (ya'ad, 'to appoint, meet'), indicating these are designated meeting times between YHWH and His people. In cosmic terms, mo'adim align earthly worship with heavenly rhythms, as celestial bodies were created to mark 'seasons and days and years' (Gen 1:14).",
+        "language": "hebrew",
+        "chapters_used": [
+            "lev-23",
+            "num-28",
+            "deu-16"
+        ]
+    },
+    "mopheth": {
+        "hebrew": "מוֹפֵת",
+        "transliteration": "mopheth",
+        "strongs": "H4159",
+        "gloss": "wonder, sign, portent",
+        "definition": "A miraculous sign or wonder that demonstrates divine power and authenticates a prophetic message. Often paired with אוֹת ('ot, 'sign'), mopheth emphasizes the extraordinary, attention-grabbing nature of the phenomenon. The plagues against Egypt are called 'signs and wonders' (Exod 7:3), revealing YHWH's supremacy over Egyptian deities. In divine council theology, mophethim serve as visible manifestations of heavenly decrees executed in the earthly realm, compelling recognition of YHWH's sovereignty. The term can also refer to prophetic symbolic actions (Isa 20:3) or individuals who serve as living signs (Isa 8:18).",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-7",
+            "deu-6",
+            "isa-8"
+        ]
+    },
+    "moreh_ha_tzedeq": {
+        "hebrew": "מוֹרֶה הַצֶּדֶק",
+        "transliteration": "moreh ha-tzedeq",
+        "strongs": "H4175 + H6664",
+        "gloss": "Teacher of Righteousness",
+        "definition": "Title used in the Dead Sea Scrolls (particularly the Damascus Document and Pesharim) for the founding leader of the Qumran community, understood as an inspired interpreter of Torah and the prophets. The Moreh ha-Tzedeq opposed the 'Wicked Priest' in Jerusalem, leading his followers to the wilderness to establish a renewed covenant community. This figure claimed authoritative interpretation of Scripture through divine revelation, positioning himself as the legitimate teacher against corrupt temple leadership. The title combines מוֹרֶה (moreh, 'teacher') from יָרָה (yarah, 'to instruct') with צֶדֶק (tzedeq, 'righteousness'), emphasizing both pedagogical authority and moral-covenantal fidelity. In Qumran theology, the Teacher received special insight into the 'mysteries' (razim) of the prophetic writings.",
+        "language": "hebrew",
+        "chapters_used": [
+            "hc-ch02",
+            "hc-ch03"
+        ]
+    },
+    "moriyyah": {
+        "hebrew": "מֹרִיָּה",
+        "transliteration": "moriyyah",
+        "strongs": "H4179",
+        "gloss": "Moriah, place of seeing",
+        "definition": "The mountainous region where Abraham was commanded to offer Isaac (Gen 22:2), later identified with the temple mount in Jerusalem (2 Chr 3:1). The etymology is debated: possibly from רָאָה (ra'ah, 'to see'), yielding 'YHWH sees/provides' (cf. Gen 22:14, YHWH-yireh), or from יָרָה (yarah, 'to teach/instruct'). Moriyyah represents the paradigmatic site of sacrificial obedience and divine provision. The Aqedah (binding of Isaac) at Moriyyah establishes the theological foundation for substitutionary atonement. In temple theology, Moriyyah becomes the cosmic mountain where heaven and earth meet, the navel of the world (omphalos) in Jewish tradition, and the earthly location of YHWH's throne.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-22",
+            "2ch-3"
+        ]
+    },
+    "moshav": {
+        "hebrew": "מוֹשָׁב",
+        "transliteration": "moshav",
+        "strongs": "H4186",
+        "gloss": "dwelling place, seat",
+        "definition": "From the root יָשַׁב (yashav, 'to sit, dwell'), moshav refers to a place of habitation or a seat of authority. The term can designate physical dwelling places (Lev 3:17) or metaphorical seats of power and judgment. In divine council contexts, moshav may refer to the assembly's seating arrangement or the throne of YHWH as the place from which He governs. The term emphasizes permanence and established presence, contrasting with temporary sojourning (גּוּר, gur).",
+        "language": "hebrew",
+        "chapters_used": [
+            "lev-3",
+            "psa-1",
+            "psa-107"
+        ]
+    },
+    "mosheh": {
+        "hebrew": "מֹשֶׁה",
+        "transliteration": "mosheh",
+        "strongs": "H4872",
+        "gloss": "Moses, drawn out",
+        "definition": "The name of Israel's great prophet, lawgiver, and mediator of the Sinai covenant. The etymology provided in Exodus 2:10 derives the name from מָשָׁה (mashah, 'to draw out'), as Pharaoh's daughter drew him from the Nile. Some scholars note possible Egyptian origins (e.g., -mose meaning 'son of' as in Thutmose). Mosheh serves as the archetypal prophet (Deut 18:15-18) and the mediator par excellence who speaks with YHWH 'face to face' (Exod 33:11). In divine council theology, Moses functions as YHWH's authorized representative, ascending the mountain to receive heavenly decrees and descending to communicate them to Israel. His role bridges the divine and human realms, prefiguring the ultimate mediator. The Pentateuch's authorship is traditionally attributed to Mosheh, though modern scholarship debates the extent of Mosaic composition.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-2",
+            "exo-3",
+            "exo-19",
+            "deu-34"
+        ]
+    },
+    "na_aseh_venishma": {
+        "hebrew": "נַעֲשֶׂה וְנִשְׁמָע",
+        "transliteration": "na'aseh venishma'",
+        "strongs": "H6213 + H8085",
+        "gloss": "we will do and we will hear",
+        "definition": "Israel's covenant response at Sinai (Exod 24:7), expressing unconditional commitment to YHWH's commands. The phrase's word order—'do' before 'hear'—has generated extensive rabbinic commentary, interpreted as Israel's willingness to obey before fully understanding, demonstrating faith and trust. This declaration constitutes Israel's acceptance of covenant obligations, binding them to the stipulations of the Sinai treaty. In divine council terms, na'aseh venishma' represents the vassal's oath of allegiance to the suzerain, acknowledging YHWH's sovereignty and committing to covenant fidelity. The phrase encapsulates the proper response to divine revelation: immediate obedience coupled with attentive hearing.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-24"
+        ]
+    },
+    "nacham": {
+        "hebrew": "נָחַם",
+        "transliteration": "nacham",
+        "strongs": "H5162",
+        "gloss": "to comfort, repent, relent",
+        "definition": "A verb with dual semantic ranges: (1) to comfort, console (Niphal and Piel stems); (2) to repent, relent, change one's mind (Niphal). When applied to YHWH, nacham raises theological questions about divine immutability versus responsiveness. Key texts include Genesis 6:6 (YHWH 'regretted' making humanity) and Exodus 32:14 (YHWH 'relented' from destroying Israel). The term does not imply moral failure or error in God but rather His dynamic engagement with human actions within the covenant relationship. In prophetic literature, divine nacham often responds to human repentance or intercession, demonstrating YHWH's mercy. The comfort sense appears prominently in Isaiah 40:1 ('Comfort, comfort my people').",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-6",
+            "exo-32",
+            "isa-40"
+        ]
+    },
+    "nachar": {
+        "hebrew": "נָחַר",
+        "transliteration": "nachar",
+        "strongs": "H5170",
+        "gloss": "to snort, be angry",
+        "definition": "A verb describing the snorting of horses or the heavy breathing associated with anger. Used metaphorically for divine wrath, particularly in poetic texts where YHWH's anger is depicted through anthropomorphic imagery of flared nostrils and heated breath. The term appears in contexts of theophany and judgment, emphasizing the intensity of divine displeasure. Related to נַחַר (nachar, 'nostril'), the word connects physiological response with emotional state, creating vivid imagery of God's righteous indignation against covenant violation.",
+        "language": "hebrew",
+        "chapters_used": [
+            "job-39",
+            "jer-8"
+        ]
+    },
+    "nagash": {
+        "hebrew": "נָגַשׁ",
+        "transliteration": "nagash",
+        "strongs": "H5066",
+        "gloss": "to draw near, approach",
+        "definition": "A verb meaning to approach, draw near, or come forward, often in cultic or judicial contexts. In priestly texts, nagash describes the approach to the altar or the divine presence, requiring proper consecration and authorization. Moses and Aaron 'draw near' to YHWH (Exod 24:2), while unauthorized approach results in death (Num 17:13). The term also appears in military contexts (approaching for battle) and interpersonal encounters. In divine council theology, nagash indicates movement from the profane to the sacred realm, crossing the boundary between human and divine spheres. The verb emphasizes the privilege and danger of proximity to the holy.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-24",
+            "lev-9",
+            "num-17"
+        ]
+    },
+    "naqam": {
+        "hebrew": "נָקַם",
+        "transliteration": "naqam",
+        "strongs": "H5358",
+        "gloss": "to avenge, take vengeance",
+        "definition": "A verb meaning to avenge, take vengeance, or exact retribution. In biblical theology, naqam is primarily a divine prerogative (Deut 32:35; Rom 12:19), though YHWH may authorize human agents as instruments of His vengeance. The term carries connotations of justice restoration rather than personal vindictiveness—righting wrongs and maintaining covenant order. The go'el (kinsman-redeemer) exercises naqam on behalf of wronged family members. In divine council contexts, YHWH's vengeance demonstrates His role as cosmic judge who maintains moral order and vindicates the oppressed. Prophetic literature frequently depicts YHWH's naqam against covenant violators and Israel's enemies.",
+        "language": "hebrew",
+        "chapters_used": [
+            "deu-32",
+            "jer-51",
+            "nah-1"
+        ]
+    },
+    "naqqeh": {
+        "hebrew": "נָקָה",
+        "transliteration": "naqqeh",
+        "strongs": "H5352",
+        "gloss": "to be clean, innocent",
+        "definition": "A verb meaning to be clean, innocent, or free from guilt; in the Piel stem, to leave unpunished or hold guiltless. The term appears in legal and cultic contexts, describing both ritual purity and moral innocence. Critically, Exodus 34:7 states that YHWH 'will by no means leave unpunished' (lo yenaqqeh), affirming divine justice that does not overlook sin. The tension between divine mercy and justice finds expression in naqqeh terminology—YHWH forgives but does not treat sin as inconsequential. In covenant lawsuit (rib) contexts, naqqeh relates to acquittal or vindication of the innocent party.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-34",
+            "num-14",
+            "nah-1"
+        ]
+    },
+    "nasah": {
+        "hebrew": "נָסָה",
+        "transliteration": "nasah",
+        "strongs": "H5254",
+        "gloss": "to test, try, prove",
+        "definition": "A verb meaning to test, try, or prove, used of both divine testing of humans and human testing of God. YHWH tests (nasah) Abraham at Moriah (Gen 22:1), Israel in the wilderness (Exod 16:4), and individuals to refine their faith. Conversely, Israel 'tests' YHWH at Massah (Exod 17:7), demanding proof of His presence—an act of covenant rebellion. The term implies examination to reveal true character or commitment. In wisdom literature, testing serves pedagogical purposes, developing virtue and demonstrating faithfulness. Divine testing differs from temptation (which seeks to induce sin); nasah aims to strengthen and prove genuine devotion.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-22",
+            "exo-16",
+            "exo-17",
+            "deu-8"
+        ]
+    },
+    "nechoshet": {
+        "hebrew": "נְחֹשֶׁת",
+        "transliteration": "nechoshet",
+        "strongs": "H5178",
+        "gloss": "bronze, copper",
+        "definition": "Bronze or copper, a metal extensively used in tabernacle construction and cultic implements. The bronze altar, laver, and courtyard fixtures were made of nechoshet, distinguishing outer court furnishings from the gold used in the Holy Place and Holy of Holies. Bronze symbolizes judgment and strength in biblical imagery (cf. the bronze serpent, Num 21:9). The term may derive from נָחָשׁ (nachash, 'serpent'), possibly due to the metal's color or the serpentine appearance of molten bronze. In prophetic vision, bronze represents divine judgment and the glory of heavenly beings (Dan 10:6; Rev 1:15).",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-27",
+            "exo-38",
+            "num-21"
+        ]
+    },
+    "nedavah": {
+        "hebrew": "נְדָבָה",
+        "transliteration": "nedavah",
+        "strongs": "H5071",
+        "gloss": "freewill offering, voluntary gift",
+        "definition": "A voluntary offering given spontaneously from a willing heart, not required by law. The nedavah contrasts with mandatory offerings (e.g., sin, guilt, or regular burnt offerings), emphasizing the worshiper's generosity and devotion. During the tabernacle construction, the people brought nedavot so abundantly that Moses restrained them (Exod 36:5-6). The term derives from נָדַב (nadav, 'to volunteer, offer willingly'), highlighting the uncoerced nature of the gift. In covenant theology, nedavah reflects the proper heart attitude toward YHWH—joyful generosity rather than grudging obligation. Psalm 54:6 uses the term for voluntary praise offerings.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-35",
+            "exo-36",
+            "lev-7",
+            "psa-54"
+        ]
+    },
+    "nefilim": {
+        "hebrew": "נְפִילִים",
+        "transliteration": "nefilim",
+        "strongs": "H5303",
+        "gloss": "fallen ones, giants",
+        "definition": "Alternate spelling of nephilim. See nephilim entry for full definition. The term appears in Genesis 6:4 and Numbers 13:33, referring to the antediluvian offspring of the 'sons of God' (b'nei 'elohim) and human women, as well as later giant clans in Canaan. The etymology from נָפַל (naphal, 'to fall') yields 'fallen ones,' though the precise meaning remains debated—possibly 'those who cause others to fall' or 'those who have fallen from heaven.' In Second Temple literature (1 Enoch, Jubilees), the Nefilim are identified with the Gibborim and associated with violence, corruption, and forbidden knowledge that precipitated the Flood judgment.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-6",
+            "num-13"
+        ]
+    },
+    "negef": {
+        "hebrew": "נֶגֶף",
+        "transliteration": "negef",
+        "strongs": "H5063",
+        "gloss": "plague, blow, defeat",
+        "definition": "A noun meaning plague, pestilence, or striking blow, often describing divine judgment. The term derives from נָגַף (nagaph, 'to strike, smite'), emphasizing the violent, sudden nature of the affliction. Negef appears in contexts of military defeat (Jos 8:6), epidemic disease (Exod 12:13), and divine punishment for covenant violation (Num 17:11-13). The plague that struck Israel after David's census is called a negef (2 Sam 24:21). In divine council theology, negef represents the execution of heavenly decrees through destructive agents—whether the Destroyer (mashchit), pestilence, or military defeat—demonstrating YHWH's sovereignty over life and death.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-12",
+            "num-17",
+            "2sa-24"
+        ]
+    },
+    "nephilin": {
+        "hebrew": "נְפִילִין",
+        "transliteration": "nephilin",
+        "strongs": "H5303",
+        "gloss": "fallen ones, giants",
+        "definition": "Aramaic/alternate plural form of nephilim. See nephilim entry for full definition. This spelling appears in some Second Temple texts and reflects the term's transmission through Aramaic-speaking communities. The Nephilin are understood in Enochic tradition as the hybrid offspring whose violence and corruption necessitated the Flood. Their post-diluvian appearance (Num 13:33) raises interpretive questions about their survival or re-emergence, with some traditions suggesting multiple incursions of divine beings or the persistence of corrupted bloodlines through Noah's daughters-in-law.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-6",
+            "num-13"
+        ]
+    },
+    "ner_tamid": {
+        "hebrew": "נֵר תָּמִיד",
+        "transliteration": "ner tamid",
+        "strongs": "H5216 + H8548",
+        "gloss": "perpetual lamp, eternal light",
+        "definition": "The continually burning lamp in the tabernacle/temple, maintained by the priests with pure olive oil. The ner tamid burned before YHWH from evening to morning (Exod 27:20-21), symbolizing the perpetual presence of God among His people and Israel's unceasing devotion. The seven-branched menorah in the Holy Place embodied this principle, with at least one lamp always burning. In later Jewish tradition, the ner tamid becomes a fixture in synagogues, representing the eternal presence of the divine. The term tamid ('continual, perpetual') emphasizes the uninterrupted nature of this sacred duty, reflecting the constancy of covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-27",
+            "lev-24"
+        ]
+    },
+    "nes": {
+        "hebrew": "נֵס",
+        "transliteration": "nes",
+        "strongs": "H5251",
+        "gloss": "banner, standard, signal",
+        "definition": "A banner, standard, or rallying signal, typically a pole with an ensign raised high for visibility. In military contexts, the nes serves as a rallying point for troops (Isa 5:26). Metaphorically, YHWH Himself becomes a 'banner' (YHWH-nissi, Exod 17:15) under which Israel gathers for protection and victory. The bronze serpent lifted on a pole (Num 21:8-9) functions as a nes—a visible sign of divine healing. In eschatological texts, YHWH raises a nes to gather scattered Israel (Isa 11:12). The term emphasizes visibility, elevation, and the gathering of people around a central symbol of authority and deliverance.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-17",
+            "num-21",
+            "isa-11"
+        ]
+    },
+    "neshekh": {
+        "hebrew": "נֶשֶׁךְ",
+        "transliteration": "neshekh",
+        "strongs": "H5392",
+        "gloss": "interest, usury",
+        "definition": "Interest charged on a loan, literally 'a bite.' Torah law prohibits charging neshekh to fellow Israelites (Exod 22:25; Lev 25:36-37; Deut 23:19-20), though interest may be charged to foreigners. This prohibition protects the poor from exploitation and maintains covenant solidarity—economic relationships within Israel should reflect familial loyalty rather than commercial profit-seeking. The term derives from נָשַׁךְ (nashakh, 'to bite'), vividly depicting interest as something that 'bites' or devours the debtor's resources. Prophetic literature condemns neshekh as a violation of covenant justice (Ezek 18:8, 13, 17), while wisdom literature associates it with oppression of the poor (Prov 28:8).",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-22",
+            "lev-25",
+            "deu-23",
+            "eze-18"
+        ]
+    },
+    "neviah": {
+        "hebrew": "נְבִיאָה",
+        "transliteration": "nĕbîʾâ",
+        "strongs": "H5031",
+        "gloss": "prophetess, female prophet",
+        "definition": "Feminine form of navi (prophet), denoting a woman who speaks divine oracles or receives revelations from YHWH. Notable examples include Miriam (Exod 15:20), Deborah (Judg 4:4), Huldah (2 Kgs 22:14), and Isaiah's wife (Isa 8:3). The term indicates full prophetic authority and divine communication, not merely the wife of a prophet. In the divine council framework, the neviah serves as YHWH's spokesperson, mediating heavenly decrees to Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-15"
+        ]
+    },
+    "nisayon": {
+        "hebrew": "נִסָּיוֹן",
+        "transliteration": "nissāyôn",
+        "strongs": "H5254",
+        "gloss": "test, trial, proving",
+        "definition": "Derived from the root nasah (to test, prove, try), this term denotes divine testing that reveals character and faithfulness. The Aqedah (binding of Isaac) represents the paradigmatic nisayon, where God tests Abraham's devotion (Gen 22:1). Unlike temptation to evil (which comes from the adversary), nisayon is pedagogical—designed to refine faith and demonstrate covenant loyalty. Israel's wilderness experience is repeatedly framed as nisayon (Deut 8:2), revealing whether the people will keep YHWH's commandments.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-22"
+        ]
+    },
+    "nogesim": {
+        "hebrew": "נֹגְשִׂים",
+        "transliteration": "nōgĕśîm",
+        "strongs": "H5065",
+        "gloss": "taskmasters, slave drivers, oppressors",
+        "definition": "Plural of noges, referring to Egyptian overseers who enforced brutal labor quotas upon the Israelites (Exod 3:7, 5:6-14). These taskmasters implemented Pharaoh's oppression through physical coercion and impossible demands (making bricks without straw). The term carries connotations of cruel exploitation and dehumanization. The nogesim represent the systemic evil of empire that YHWH confronts in the Exodus narrative, demonstrating His role as divine liberator who hears the cry of the oppressed.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-1",
+            "exod-3",
+            "exod-5"
+        ]
+    },
+    "nuach": {
+        "hebrew": "נוּחַ",
+        "transliteration": "nûaḥ",
+        "strongs": "H5117",
+        "gloss": "to rest, settle, repose",
+        "definition": "Root verb meaning to rest, settle down, or come to repose. Theologically significant in multiple contexts: (1) Noah's name derives from this root, with the hope he would bring 'rest' from toil (Gen 5:29); (2) the Spirit of God 'rests' upon chosen individuals (Num 11:25-26, Isa 11:2); (3) the Ark 'rests' on Ararat (Gen 8:4); (4) YHWH seeks a resting place for His presence (Ps 132:8, 14). Related to menuchah (rest, resting place) and the Sabbath theology of divine and human rest. In divine council terms, nuach describes the settling of divine presence in sacred space.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-5",
+            "gen-8"
+        ]
+    },
+    "ohel_moed": {
+        "hebrew": "אֹהֶל מוֹעֵד",
+        "transliteration": "ʾōhel môʿēd",
+        "strongs": "H168, H4150",
+        "gloss": "tent of meeting, tabernacle",
+        "definition": "Literally 'tent of appointed meeting,' the portable sanctuary where YHWH met with Moses and Israel during the wilderness period (Exod 33:7-11, 40:34-38). The ohel moed served as the earthly counterpart to the heavenly divine council chamber, where YHWH's glory-cloud (kavod) descended to communicate with His mediator. Distinguished from the mishkan (dwelling place) in some texts, though often used synonymously. The tent represents the intersection of heaven and earth, where covenant stipulations are revealed and priestly service conducted. The pillar of cloud at its entrance signified YHWH's active presence in council with His people.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-33",
+            "exod-40"
+        ]
+    },
+    "olah": {
+        "hebrew": "עֹלָה",
+        "transliteration": "ʿōlâ",
+        "strongs": "H5930",
+        "gloss": "burnt offering, whole offering",
+        "definition": "From the root alah (to go up, ascend), denoting a sacrifice completely consumed by fire, ascending as smoke to YHWH. The olah represents total dedication and atonement, with the entire animal (except the hide) burned on the altar (Lev 1). This offering appears from earliest times (Gen 8:20, 22:2-13) and becomes central to tabernacle worship. The ascending smoke symbolizes the offering rising to the divine realm, accepted by YHWH as 'a pleasing aroma' (reach nichoach). In the Aqedah, Isaac is designated as an olah, though ultimately substituted by a ram, establishing the principle of substitutionary atonement.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-8",
+            "gen-22",
+            "exod-29"
+        ]
+    },
+    "omer": {
+        "hebrew": "עֹמֶר",
+        "transliteration": "ʿōmer",
+        "strongs": "H6016",
+        "gloss": "omer measure, sheaf offering",
+        "definition": "A dry measure equal to one-tenth of an ephah (approximately 2.3 liters), used for measuring manna in the wilderness (Exod 16:16-36). Each Israelite was to gather an omer of manna daily, with a double portion on the sixth day before Sabbath. An omer of manna was preserved in a jar before the Testimony as a memorial (Exod 16:33-34). The term also refers to the firstfruits sheaf offering waved during Passover week (Lev 23:10-15), initiating the count to Shavuot. The omer thus connects daily sustenance, Sabbath provision, and festival observance in Israel's sacred calendar.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-16"
+        ]
+    },
+    "or": {
+        "hebrew": "אוֹר",
+        "transliteration": "ʾôr",
+        "strongs": "H216",
+        "gloss": "light, illumination, daylight",
+        "definition": "Primordial light created on Day One (Gen 1:3-5), existing before the luminaries (sun, moon, stars) fashioned on Day Four. This sequence indicates or is not merely physical photons but represents divine order, revelation, and the presence of God Himself. YHWH 'wraps Himself in light as with a garment' (Ps 104:2). Light functions as a separating agent (distinguishing day from night, good from evil) and as a metaphor for divine instruction (Torah as light, Ps 119:105). In divine council theology, or represents the glory-realm of YHWH's presence, contrasted with the darkness (choshek) of chaos and the realm of rebellious powers.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1"
+        ]
+    },
+    "orevim": {
+        "hebrew": "עֹרְבִים",
+        "transliteration": "ʿōrĕbîm",
+        "strongs": "H6158",
+        "gloss": "ravens, crows",
+        "definition": "Plural of orev (raven), birds considered unclean in Levitical law (Lev 11:15, Deut 14:14) yet used by YHWH to sustain Elijah at the brook Cherith (1 Kgs 17:4-6). The ravens brought bread and meat twice daily, demonstrating YHWH's sovereignty over creation and His ability to provide through unexpected means. This divine provision through ritually unclean birds emphasizes that YHWH is not bound by purity categories and can command all creation for His purposes. The raven also appears in the flood narrative as Noah's first reconnaissance bird (Gen 8:7).",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-8"
+        ]
+    },
+    "oz": {
+        "hebrew": "עֹז",
+        "transliteration": "ʿōz",
+        "strongs": "H5797",
+        "gloss": "strength, might, power",
+        "definition": "Denotes strength, power, or might, frequently attributed to YHWH as the source of Israel's security and victory. The term appears in liturgical contexts ('YHWH is my strength and song,' Exod 15:2) and describes both divine power and the strength YHWH imparts to His people. Related to the verb azaz (to be strong). In the divine council framework, oz represents the overwhelming power of YHWH that surpasses all rival deities and spiritual forces. The phrase 'uzzi v'zimrat Yah' (my strength and song is Yah) from the Song of the Sea celebrates YHWH's warrior might demonstrated in Egypt's defeat.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-15"
+        ]
+    },
+    "pa'amon": {
+        "hebrew": "פַּעֲמֹן",
+        "transliteration": "paʿămōn",
+        "strongs": "H6472",
+        "gloss": "bell, golden bell",
+        "definition": "Small golden bells attached to the hem of the high priest's robe (me'il), alternating with pomegranates (Exod 28:33-35, 39:25-26). The bells served a crucial function: their sound announced the high priest's movements as he ministered before YHWH in the Holy Place, 'so that he will not die' (Exod 28:35). The auditory signal indicated the priest remained alive in the divine presence. Some traditions suggest the bells warded off demonic forces or announced the priest's approach to the heavenly court. The pa'amonim represent the dangerous intersection of human and divine realms, requiring proper protocol for survival.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-28",
+            "exod-39"
+        ]
+    },
+    "palah": {
+        "hebrew": "פָּלָה",
+        "transliteration": "pālâ",
+        "strongs": "H6395",
+        "gloss": "to distinguish, make separate",
+        "definition": "Verb meaning to separate, distinguish, or make a distinction between entities. Theologically significant in YHWH's declaration that He will 'make a distinction' (palah) between Egypt and Israel during the plagues (Exod 8:22, 9:4, 11:7). This divine differentiation demonstrates YHWH's sovereignty and His special relationship with Israel as His covenant people. The term emphasizes that YHWH's judgments are precise and purposeful, protecting His own while executing justice on oppressors. Related to the concept of holiness (qadosh) as separation unto God. In divine council terms, palah reflects YHWH's authority to allocate peoples and determine their destinies.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-8",
+            "exod-9",
+            "exod-11"
+        ]
+    },
+    "panay": {
+        "hebrew": "פָּנַי",
+        "transliteration": "pānay",
+        "strongs": "H6440",
+        "gloss": "my face, my presence",
+        "definition": "First-person possessive form of panim (face), meaning 'my face' or 'my presence.' Used by YHWH to indicate His personal presence or attention. In Exod 33:14-15, YHWH promises 'my presence (panay) will go with you,' assuring Moses of divine accompaniment. The phrase 'seek my face' (baqash panay) denotes pursuing intimate relationship with YHWH. Conversely, 'hiding my face' (haster panim) indicates divine judgment and withdrawal. The concept of YHWH's 'face' anthropomorphically represents His direct attention, favor, or disfavor. In priestly blessing, YHWH's face shining upon Israel conveys blessing and peace (Num 6:25-26).",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-33"
+        ]
+    },
+    "panim_el_panim": {
+        "hebrew": "פָּנִים אֶל־פָּנִים",
+        "transliteration": "pānîm ʾel-pānîm",
+        "strongs": "H6440, H413, H6440",
+        "gloss": "face to face, directly",
+        "definition": "Idiomatic expression meaning 'face to face,' denoting direct, unmediated encounter. Used of Moses' unique relationship with YHWH: 'YHWH spoke to Moses face to face, as a man speaks to his friend' (Exod 33:11). This phrase indicates unprecedented intimacy and directness in divine-human communication, distinguishing Moses from other prophets who received visions or dreams (Num 12:6-8). Jacob names Peniel ('face of God') after wrestling with the divine figure, marveling 'I have seen God face to face' (Gen 32:30). The expression emphasizes unmediated access to the divine council, though even Moses could not see YHWH's face fully and live (Exod 33:20).",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-32",
+            "exod-33"
+        ]
+    },
+    "par'oh": {
+        "hebrew": "פַּרְעֹה",
+        "transliteration": "parʿō",
+        "strongs": "H6547",
+        "gloss": "Pharaoh, Egyptian king",
+        "definition": "Hebrew rendering of Egyptian pr-ʿ3 ('great house'), the title for Egypt's divine king. In Exodus, Pharaoh functions as YHWH's primary antagonist, embodying imperial oppression and cosmic rebellion. The hardening of Pharaoh's heart (whether self-induced or divinely caused) demonstrates YHWH's sovereignty over even hostile rulers (Exod 4:21, 7:3, 9:12). Pharaoh's refusal to release Israel prompts the ten plagues, which systematically dismantle Egypt's pantheon and expose the impotence of its gods. In divine council theology, Pharaoh represents a human ruler who claims divine status, challenging YHWH's authority—a challenge decisively answered at the Red Sea.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-37",
+            "gen-39",
+            "gen-40",
+            "gen-41",
+            "exod-1",
+            "exod-5",
+            "exod-7",
+            "exod-14"
+        ]
+    },
+    "parah": {
+        "hebrew": "פָּרָה",
+        "transliteration": "pārâ",
+        "strongs": "H6509",
+        "gloss": "to be fruitful, bear fruit",
+        "definition": "Verb meaning to bear fruit, be fruitful, or multiply. Central to the creation mandate: 'Be fruitful (peru) and multiply' (Gen 1:22, 28), commanding both animals and humans to fill the earth. This blessing is reiterated to Noah (Gen 9:1, 7) and the patriarchs (Gen 17:6, 20; 28:3; 35:11). Fruitfulness represents divine blessing and covenant faithfulness, while barrenness often signals divine testing or judgment. The term extends beyond biological reproduction to include prosperity and success (Gen 49:22). In Egypt, Israel's fruitfulness despite oppression demonstrates YHWH's blessing overcoming Pharaoh's genocidal policies (Exod 1:7).",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "gen-9",
+            "exod-1"
+        ]
+    },
+    "parokhet": {
+        "hebrew": "פָּרֹכֶת",
+        "transliteration": "pārōket",
+        "strongs": "H6532",
+        "gloss": "veil, curtain, screen",
+        "definition": "The inner veil separating the Holy Place from the Holy of Holies (qodesh haqqodashim) in the tabernacle and temple (Exod 26:31-35, 40:21). Woven with cherubim designs in blue, purple, and scarlet yarn with fine linen, the parokhet symbolized the barrier between the earthly and heavenly realms, between human and divine presence. Only the high priest could pass beyond it, and only on Yom Kippur (Lev 16:2, 12-15). The veil represented both protection (sinful humans cannot approach God's holiness and live) and separation (sin creates distance from God). In divine council theology, the parokhet marks the threshold of YHWH's throne room, guarded by cherubim.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-26",
+            "exod-40"
+        ]
+    },
+    "pedut": {
+        "hebrew": "פְּדוּת",
+        "transliteration": "pĕdût",
+        "strongs": "H6304",
+        "gloss": "redemption, ransom, deliverance",
+        "definition": "Noun from the root padah (to ransom, redeem), denoting the act of redemption or deliverance through payment of a price. Theologically, pedut describes YHWH's redemption of Israel from Egypt (Exod 8:23) and His ongoing role as go'el (kinsman-redeemer). The concept includes both liberation from bondage and the payment required to effect release. Related to the redemption of the firstborn (pidyon haben) and the kinsman-redeemer's obligation to buy back family members or property. In divine council framework, pedut demonstrates YHWH's covenant loyalty (hesed) in rescuing His people from the domain of hostile powers.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-8"
+        ]
+    },
+    "peh": {
+        "hebrew": "פֶּה",
+        "transliteration": "peh",
+        "strongs": "H6310",
+        "gloss": "mouth, opening, speech",
+        "definition": "Noun meaning mouth, opening, or speech. Used literally for the physical mouth and metaphorically for speech, command, or testimony. Theologically significant in phrases like 'from the mouth of YHWH' (mi-pi YHWH), indicating direct divine speech (Deut 8:3). Moses' objection about being 'slow of speech and tongue' uses peh (Exod 4:10), to which YHWH responds 'Who makes the mouth (peh)?' (Exod 4:11). Aaron serves as Moses' 'mouth' (peh) to Pharaoh (Exod 4:16). The term emphasizes the power of spoken word in creation, covenant-making, and prophetic proclamation. In divine council contexts, peh represents authorized speech from the heavenly throne.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-4"
+        ]
+    },
+    "pesach": {
+        "hebrew": "פֶּסַח",
+        "transliteration": "pesaḥ",
+        "strongs": "H6453",
+        "gloss": "Passover, paschal lamb",
+        "definition": "From the verb pasach (to pass over, skip), denoting both the festival commemorating Israel's exodus from Egypt and the sacrificial lamb slaughtered on the 14th of Nisan (Exod 12:1-28). The blood of the pesach lamb, applied to doorposts and lintel, protected Israelite households from the destroyer (mashchit) during the tenth plague. The pesach ritual combines elements of apotropaic protection, covenant meal, and memorial observance. Instructions specify an unblemished male lamb, roasted whole, eaten with unleavened bread and bitter herbs. The festival establishes Israel's sacred calendar and identity as YHWH's redeemed people. In divine council theology, pesach demonstrates YHWH's power over death and His ability to distinguish His people from the nations.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-12"
+        ]
+    },
+    "pesel": {
+        "hebrew": "פֶּסֶל",
+        "transliteration": "pesel",
+        "strongs": "H6459",
+        "gloss": "graven image, carved idol",
+        "definition": "Carved or graven image, typically of wood or stone, representing a deity. Explicitly prohibited in the second commandment: 'You shall not make for yourself a pesel' (Exod 20:4, Deut 5:8). The term emphasizes the carved, manufactured nature of idols—human-made objects falsely representing divine reality. Pesel is often paired with massekah (molten image) to comprehensively prohibit all forms of idolatry. The prohibition reflects YHWH's transcendence and incomparability—He cannot be reduced to material form. In divine council theology, pesel represents the illegitimate worship of created beings (whether physical objects or spiritual entities) rather than the Creator, violating the exclusive loyalty demanded by covenant.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-20"
+        ]
+    },
+    "pesha": {
+        "hebrew": "פֶּשַׁע",
+        "transliteration": "pešaʿ",
+        "strongs": "H6588",
+        "gloss": "transgression, rebellion, trespass",
+        "definition": "Noun denoting transgression, rebellion, or willful violation of covenant. More severe than chet (sin, missing the mark), pesha implies deliberate defiance of authority—whether human or divine. The term often describes Israel's covenant violations (Exod 23:21, 34:7) and requires atonement through sacrifice. In the Day of Atonement ritual, the high priest confesses 'all the iniquities of the people of Israel, and all their transgressions (pish'eihem), all their sins' (Lev 16:21). Pesha represents not mere failure but active rebellion against YHWH's rightful rule. In divine council framework, pesha aligns with the cosmic rebellion of spiritual powers who refuse submission to YHWH's sovereignty.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-23",
+            "exod-34"
+        ]
+    },
+    "potifar": {
+        "hebrew": "פּוֹטִיפַר",
+        "transliteration": "pôṭîpar",
+        "strongs": "H6318",
+        "gloss": "Potiphar, Egyptian official",
+        "definition": "Egyptian name meaning 'he whom Ra has given,' the captain of Pharaoh's guard who purchased Joseph as a slave (Gen 37:36, 39:1). Potiphar recognized YHWH's blessing upon Joseph and elevated him to overseer of his household (Gen 39:2-6). After his wife's false accusation, Potiphar imprisoned Joseph rather than executing him—possibly indicating doubt about the charges (Gen 39:19-20). Distinguished from Potiphera, priest of On and Joseph's father-in-law (Gen 41:45). Potiphar's account demonstrates YHWH's sovereignty in using even pagan officials to preserve and position His chosen servant for future deliverance of Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-37",
+            "gen-39"
+        ]
+    },
+    "qadash": {
+        "hebrew": "קָדַשׁ",
+        "transliteration": "qādaš",
+        "strongs": "H6942",
+        "gloss": "to be holy, consecrate, sanctify",
+        "definition": "Root verb meaning to be holy, set apart, consecrated, or sanctified. In the Qal stem, denotes the state of holiness; in Piel, means to consecrate or sanctify something/someone for sacred use; in Hithpael, to consecrate oneself. Central to tabernacle theology: priests, vessels, and the sanctuary itself must be consecrated (Exod 29:1, 36-37, 40:9-11). The Sabbath is 'sanctified' by YHWH (Gen 2:3, Exod 20:11). Israel is called to 'be holy' (qedoshim tihyu) because YHWH is holy (Lev 19:2). Qadash implies separation from the common/profane (chol) unto divine service. In divine council theology, qadash describes the process of making earthly realities correspond to heavenly patterns, enabling divine presence among humans.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-2",
+            "exod-20",
+            "exod-29",
+            "exod-40"
+        ]
+    },
+    "qadosh": {
+        "hebrew": "קָדוֹשׁ",
+        "transliteration": "qādôš",
+        "strongs": "H6918",
+        "gloss": "holy, sacred, set apart",
+        "definition": "Adjective meaning holy, sacred, or set apart. Fundamentally describes YHWH's essential nature—His transcendent otherness and moral perfection (Lev 19:2, Isa 6:3). Applied to people, places, objects, and times consecrated to YHWH's service. Israel is called a 'holy nation' (goy qadosh, Exod 19:6), set apart from other peoples for covenant relationship. The qadosh concept creates binary categories: holy/common (qodesh/chol) and clean/unclean (tahor/tame). In divine council theology, qadosh also describes the heavenly beings (qedoshim) who serve in YHWH's council (Ps 89:5, 7; Dan 4:13, 17). Holiness requires separation from defilement and dedication to YHWH's purposes.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-19"
+        ]
+    },
+    "qaran": {
+        "hebrew": "קָרַן",
+        "transliteration": "qāran",
+        "strongs": "H7160",
+        "gloss": "to shine, send out rays",
+        "definition": "Verb meaning to send out rays, shine, or emit beams of light. Most famously describes Moses' face after encountering YHWH on Sinai: 'the skin of his face shone (qaran)' (Exod 34:29-30, 35). The term derives from qeren (horn, ray), suggesting horn-like rays of light emanating from Moses' face—a visible manifestation of reflected divine glory. The radiance frightened the Israelites, requiring Moses to veil his face except when speaking with YHWH or delivering His words. This transformation indicates Moses' unique proximity to divine presence and his role as mediator between the heavenly council and earthly Israel. The Vulgate's translation as 'horned' led to artistic depictions of Moses with horns.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-34"
+        ]
+    },
+    "qayin": {
+        "hebrew": "קַיִן",
+        "transliteration": "qayin",
+        "strongs": "H7014",
+        "gloss": "Cain, firstborn of Adam",
+        "definition": "Name of Adam and Eve's firstborn son, meaning 'acquired' or 'forged' (from qanah, to acquire, Gen 4:1). Cain, a tiller of the ground (oved adamah), murdered his brother Abel after YHWH rejected his offering but accepted Abel's (Gen 4:3-8). YHWH's curse made Cain a 'wanderer and fugitive' (na vanad), yet marked him with a protective sign (ot) to prevent his murder (Gen 4:11-15). Cain built the first city, named Enoch after his son (Gen 4:17). His lineage includes Lamech, who boasted of violence (Gen 4:23-24). Cain represents the trajectory of human rebellion, violence, and civilization apart from covenant relationship with YHWH. In later tradition, Cain becomes archetypal of the 'way of Cain' (Jude 11)—self-willed religion and murderous jealousy.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-4"
+        ]
+    },
+    "qerashim": {
+        "hebrew": "קְרָשִׁים",
+        "transliteration": "qĕrāšîm",
+        "strongs": "H7175",
+        "gloss": "frames, boards, planks",
+        "definition": "Plural of qeresh, denoting the upright frames or boards forming the tabernacle's structure (Exod 26:15-30, 36:20-34). Made of acacia wood (atsay shittim) overlaid with gold, each frame measured ten cubits high and one and a half cubits wide. The qerashim stood in silver sockets (adanim) and were held together by crossbars (berichim). Forty-eight frames total formed the north, south, and west walls of the mishkan. These frames created the sacred space where YHWH's presence would dwell among Israel, supporting the curtains and veil that demarcated holy zones. The qerashim represent the structural foundation enabling divine-human encounter in the wilderness.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-26",
+            "exod-36"
+        ]
+    },
+    "qeren": {
+        "hebrew": "קֶרֶן",
+        "transliteration": "qeren",
+        "strongs": "H7161",
+        "gloss": "horn, ray, corner",
+        "definition": "Noun with multiple meanings: (1) animal horn; (2) horn-shaped projection on altar corners; (3) ray of light; (4) metaphorical strength or power. The four horns (qarnot) on the altar's corners (Exod 27:2, 29:12, 30:2-3) served as points for applying sacrificial blood and provided asylum for those grasping them (1 Kgs 1:50). Horns symbolize power and authority in biblical imagery (Dan 7:7-8, 24; Rev 13:1). The shofar (ram's horn) summons Israel to assembly and warfare. Related to qaran (to shine), as in Moses' radiant face (Exod 34:29-30). In divine council theology, qeren represents delegated authority and the visible manifestation of power—whether divine, human, or bestial.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-27",
+            "exod-29",
+            "exod-30",
+            "exod-34"
+        ]
+    },
+    "qeresh": {
+        "hebrew": "קֶרֶשׁ",
+        "transliteration": "qereš",
+        "strongs": "H7175",
+        "gloss": "frame, board, plank",
+        "definition": "Singular form of qerashim, denoting an individual upright frame or board of the tabernacle structure (Exod 26:15-29, 36:20-34). Each qeresh of acacia wood overlaid with gold formed part of the mishkan's walls, standing in silver sockets and connected by crossbars. The precise construction details emphasize that the tabernacle must conform exactly to the heavenly pattern (tavnit) shown to Moses on Sinai (Exod 25:9, 40). The qeresh represents the intersection of divine design and human craftsmanship, creating sacred architecture that mirrors celestial realities. The term's singular use highlights the importance of each component in the larger structure housing YHWH's presence.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-26",
+            "exod-36"
+        ]
+    },
+    "marah": {
+        "hebrew": "מָרָה",
+        "transliteration": "mārâ",
+        "strongs": "H4785",
+        "gloss": "bitterness, bitter water",
+        "definition": "From the root מרר (marar, 'to be bitter'), Marah designates the location where Israel encountered bitter waters after crossing the Red Sea (Exod 15:23). The term carries both geographical and theological significance, representing a test of faith where YHWH transforms the undrinkable into potable water through Moses' intervention. The narrative establishes a pattern of divine provision in wilderness contexts and introduces the concept of YHWH as healer (rophe). The name also appears in Ruth 1:20 where Naomi renames herself Mara, identifying with bitterness after loss.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-15"
+        ]
+    },
+    "merkavah": {
+        "hebrew": "מֶרְכָּבָה",
+        "transliteration": "merkāḇâ",
+        "strongs": "H4818",
+        "gloss": "chariot, riding vehicle",
+        "definition": "From רכב (rakav, 'to ride'), merkavah denotes a wheeled vehicle, particularly war chariots or royal conveyances. In military contexts, chariots represent technological superiority—Egypt's chariots pursue Israel at the sea (Exod 14:6-7, 23), but YHWH throws horse and rider into the sea. The term gains profound mystical significance in Ezekiel's vision (Ezek 1, 10) of the divine throne-chariot, giving rise to merkavah mysticism in Second Temple Judaism. This tradition interprets the chariot as a vehicle for heavenly ascent and vision of God's throne. The juxtaposition of military and mystical uses reflects the term's range from earthly power to divine majesty.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-14"
+        ]
+    },
+    "achoray": {
+        "hebrew": "אַחֲרֵי",
+        "transliteration": "ʾaḥărê",
+        "strongs": "H310",
+        "gloss": "after, behind, following",
+        "definition": "Preposition meaning 'after' or 'behind' in spatial or temporal sense. Used in Exodus for Israel following the pillar of cloud/fire and pursuing enemies. Theologically significant in covenant contexts where Israel follows YHWH.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-13",
+            "ex-14"
+        ]
+    },
+    "afeilah": {
+        "hebrew": "אֲפֵלָה",
+        "transliteration": "ʾăpēlâ",
+        "strongs": "H653",
+        "gloss": "thick darkness, gloom",
+        "definition": "Noun denoting deep, impenetrable darkness. Appears in the ninth plague (Exodus 10:22) as supernatural darkness over Egypt. Related to divine theophany contexts where YHWH's presence manifests in thick darkness (Exodus 20:21).",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-10",
+            "ex-20"
+        ]
+    },
+    "almanah": {
+        "hebrew": "אַלְמָנָה",
+        "transliteration": "ʾalmānâ",
+        "strongs": "H490",
+        "gloss": "widow, bereaved woman",
+        "definition": "Noun for widow, representing vulnerable members of society. Covenant law repeatedly protects widows alongside orphans and foreigners (Exodus 22:22). YHWH's justice includes special concern for the socially marginalized.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-22"
+        ]
+    },
+    "am": {
+        "hebrew": "עַם",
+        "transliteration": "ʿam",
+        "strongs": "H5971",
+        "gloss": "people, nation, kinship group",
+        "definition": "Noun denoting a people bound by kinship, covenant, or political unity. Frequently used for Israel as YHWH's covenant people (ʿam YHWH). Distinguished from gôy (foreign nation) in emphasizing relational identity rather than political entity.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-01",
+            "ex-03",
+            "ex-05",
+            "ex-06"
+        ]
+    },
+    "amalek": {
+        "hebrew": "עֲמָלֵק",
+        "transliteration": "ʿămālēq",
+        "strongs": "H6002",
+        "gloss": "Amalek, desert tribal enemy",
+        "definition": "Proper noun for nomadic tribal group descended from Esau's grandson. First attacked Israel at Rephidim (Exodus 17:8-16), establishing perpetual enmity. YHWH declares war against Amalek across generations, symbolizing opposition to divine redemption.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-17"
+        ]
+    },
+    "amram": {
+        "hebrew": "עַמְרָם",
+        "transliteration": "ʿamrām",
+        "strongs": "H6019",
+        "gloss": "Amram, Moses' father",
+        "definition": "Proper noun meaning 'exalted people.' Levite who married Jochebed and fathered Moses, Aaron, and Miriam (Exodus 6:20). His lineage establishes the priestly genealogy crucial for Aaronic priesthood legitimacy.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-06"
+        ]
+    },
+    "amud": {
+        "hebrew": "עַמּוּד",
+        "transliteration": "ʿammûd",
+        "strongs": "H5982",
+        "gloss": "pillar, column, standing structure",
+        "definition": "Noun for pillar or column, both architectural and theophanic. Used for tabernacle pillars and the divine pillars of cloud/fire guiding Israel. Represents YHWH's visible presence and guidance through wilderness.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-13",
+            "ex-14",
+            "ex-26",
+            "ex-27"
+        ]
+    },
+    "amud_anan": {
+        "hebrew": "עַמּוּד עָנָן",
+        "transliteration": "ʿammûd ʿānān",
+        "strongs": "H5982/H6051",
+        "gloss": "pillar of cloud",
+        "definition": "Compound phrase for the cloud pillar manifesting YHWH's presence. Led Israel by day through wilderness (Exodus 13:21-22), providing guidance and protection. Represents divine immanence and covenant faithfulness.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-13",
+            "ex-14",
+            "ex-33"
+        ]
+    },
+    "amud_esh": {
+        "hebrew": "עַמּוּד אֵשׁ",
+        "transliteration": "ʿammûd ʾēš",
+        "strongs": "H5982/H784",
+        "gloss": "pillar of fire",
+        "definition": "Compound phrase for the fire pillar manifesting YHWH's presence. Provided light and guidance by night (Exodus 13:21-22). Paired with cloud pillar as dual theophanic manifestation of divine protection and direction.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-13",
+            "ex-14"
+        ]
+    },
+    "anshei_chayil": {
+        "hebrew": "אַנְשֵׁי חַיִל",
+        "transliteration": "ʾanšê ḥayil",
+        "strongs": "H376/H2428",
+        "gloss": "men of valor, capable leaders",
+        "definition": "Compound phrase meaning 'men of ability/valor.' Jethro advises Moses to appoint such men as judges (Exodus 18:21). Denotes moral integrity, capability, and trustworthiness for leadership roles.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-18"
+        ]
+    },
+    "arbeh": {
+        "hebrew": "אַרְבֶּה",
+        "transliteration": "ʾarbeh",
+        "strongs": "H697",
+        "gloss": "locust, swarming insect",
+        "definition": "Noun for locust, agent of the eighth plague (Exodus 10:4-19). Represents devastating divine judgment consuming all vegetation. Ancient Near Eastern texts frequently cite locusts as covenant curses for disobedience.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-10"
+        ]
+    },
+    "argaman": {
+        "hebrew": "אַרְגָּמָן",
+        "transliteration": "ʾargāmān",
+        "strongs": "H713",
+        "gloss": "purple, royal dye",
+        "definition": "Noun for purple dye extracted from murex shellfish, extremely valuable in ancient world. Used extensively in tabernacle fabrics (Exodus 25-28), signifying royalty, wealth, and sacred status. Indicates YHWH's kingship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-25",
+            "ex-26",
+            "ex-27",
+            "ex-28"
+        ]
+    },
+    "aron": {
+        "hebrew": "אָרוֹן",
+        "transliteration": "ʾārôn",
+        "strongs": "H727",
+        "gloss": "ark, chest, coffin",
+        "definition": "A chest or box, most notably the Ark of the Covenant (ʾărôn habbĕrît) which housed the tablets of the law. Constructed of acacia wood and overlaid with gold, it served as YHWH's throne-footstool in the tabernacle.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-25",
+            "ex-37"
+        ]
+    },
+    "arov": {
+        "hebrew": "עָרֹב",
+        "transliteration": "ʿārōḇ",
+        "strongs": "H6157",
+        "gloss": "swarm, mixture, flies",
+        "definition": "A swarm or mixture, traditionally understood as the fourth Egyptian plague of biting insects or flies. The term suggests a chaotic mixture that invades and corrupts ordered space.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-08"
+        ]
+    },
+    "aseret_hadevarim": {
+        "hebrew": "עֲשֶׂרֶת הַדְּבָרִים",
+        "transliteration": "ʿăśeret haddĕḇārîm",
+        "strongs": "H6235+H1697",
+        "gloss": "the Ten Words/Commandments",
+        "definition": "Literally 'the Ten Words,' referring to the Decalogue given at Sinai. This phrase emphasizes their nature as divine speech acts rather than mere legal stipulations, establishing covenant relationship between YHWH and Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-20",
+            "ex-34",
+            "dt-04"
+        ]
+    },
+    "asif": {
+        "hebrew": "אָסִיף",
+        "transliteration": "ʾāsîp",
+        "strongs": "H614",
+        "gloss": "ingathering, harvest festival",
+        "definition": "The autumn harvest festival, also called Sukkot or Feast of Booths. Marks the final agricultural ingathering and commemorates Israel's wilderness wandering in temporary shelters.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-23",
+            "ex-34"
+        ]
+    },
+    "atar": {
+        "hebrew": "עָתַר",
+        "transliteration": "ʿāṯar",
+        "strongs": "H6279",
+        "gloss": "to pray, entreat, supplicate",
+        "definition": "To intercede or make supplication, often in contexts of plague removal or divine favor. Moses uses this verb when interceding with YHWH on behalf of Pharaoh during the plagues.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-08",
+            "ex-09",
+            "ex-10"
+        ]
+    },
+    "atsam": {
+        "hebrew": "עָצַם",
+        "transliteration": "ʿāṣam",
+        "strongs": "H6105",
+        "gloss": "to be strong, numerous, mighty",
+        "definition": "To become numerous, powerful, or mighty. Describes Israel's population growth in Egypt that alarmed Pharaoh, fulfilling the Abrahamic promise of multiplication despite oppression.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-01",
+            "gen-47"
+        ]
+    },
+    "avdut": {
+        "hebrew": "עַבְדוּת",
+        "transliteration": "ʿaḇdûṯ",
+        "strongs": "H5659",
+        "gloss": "slavery, bondage, servitude",
+        "definition": "The state of slavery or servitude, particularly Israel's bondage in Egypt. The Exodus narrative frames redemption as liberation from ʿaḇdûṯ to covenant service of YHWH alone.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-01",
+            "ex-13",
+            "dt-05"
+        ]
+    },
+    "avodah": {
+        "hebrew": "עֲבֹדָה",
+        "transliteration": "ʿăḇōdâ",
+        "strongs": "H5656",
+        "gloss": "service, work, worship",
+        "definition": "Service or labor, with semantic range from slave labor to cultic worship. The Exodus transforms Israel from ʿăḇōdâ to Pharaoh into ʿăḇōdâ to YHWH, redefining servitude as covenant worship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-01",
+            "ex-12",
+            "ex-13"
+        ]
+    },
+    "avodah_zarah": {
+        "hebrew": "עֲבוֹדָה זָרָה",
+        "transliteration": "ʿăḇôdâ zārâ",
+        "strongs": "H5656+H2114",
+        "gloss": "foreign worship, idolatry",
+        "definition": "Literally 'strange service,' referring to worship of foreign gods or idolatry. Represents covenant violation through allegiance to deities outside YHWH's exclusive claim on Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-20",
+            "ex-23",
+            "dt-04"
+        ]
+    },
+    "avon": {
+        "hebrew": "עָוֹן",
+        "transliteration": "ʿāwōn",
+        "strongs": "H5771",
+        "gloss": "iniquity, guilt, punishment",
+        "definition": "Iniquity or guilt, often with connotations of twisted or perverted behavior. Carries both the sense of moral crookedness and its consequent guilt or punishment requiring atonement.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-20",
+            "ex-28",
+            "ex-34"
+        ]
+    },
+    "avraham": {
+        "hebrew": "אַבְרָהָם",
+        "transliteration": "ʾaḇrāhām",
+        "strongs": "H85",
+        "gloss": "Abraham, father of multitudes",
+        "definition": "The covenant name given to Abram meaning 'father of a multitude.' Marks the transformation from Abram ('exalted father') to the patriarch of many nations through divine promise.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-17",
+            "gen-18",
+            "ex-02"
+        ]
+    },
+    "avram": {
+        "hebrew": "אַבְרָם",
+        "transliteration": "ʾaḇrām",
+        "strongs": "H87",
+        "gloss": "Abram, exalted father",
+        "definition": "The original name of Abraham meaning 'exalted father.' Used until the covenant of circumcision when YHWH renamed him Abraham, signaling his role in the divine plan.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-11",
+            "gen-12",
+            "gen-15",
+            "gen-17"
+        ]
+    },
+    "ayin_tachat_ayin": {
+        "hebrew": "עַיִן תַּחַת עַיִן",
+        "transliteration": "ʿayin taḥat ʿayin",
+        "strongs": "H5869+H8478",
+        "gloss": "eye for an eye",
+        "definition": "Lex talionis principle of proportional justice in covenant law (Exod 21:24). Establishes equity in restitution, limiting vengeance to match the offense. Foundational to mishpatim (judgments) governing Israelite society.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-21"
+        ]
+    },
+    "baqah": {
+        "hebrew": "בָּקַע",
+        "transliteration": "bāqaʿ",
+        "strongs": "H1234",
+        "gloss": "to split, cleave open",
+        "definition": "Verb denoting violent splitting or breaking through (Gen 7:11, Exod 14:16). Used of waters dividing at the Reed Sea and the breaking open of the deep's fountains. Connotes divine power over creation's boundaries.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-7",
+            "ex-14"
+        ]
+    },
+    "barad": {
+        "hebrew": "בָּרָד",
+        "transliteration": "bārād",
+        "strongs": "H1259",
+        "gloss": "hail, hailstones",
+        "definition": "Destructive precipitation used as divine judgment (Exod 9:18-34). Seventh plague against Egypt demonstrates YHWH's sovereignty over weather and agricultural cycles. Associated with theophanic warfare in later prophetic texts.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-09"
+        ]
+    },
+    "bein_ha_arbayim": {
+        "hebrew": "בֵּין הָעַרְבָּיִם",
+        "transliteration": "bên hāʿarbayim",
+        "strongs": "H996+H6153",
+        "gloss": "between the two evenings",
+        "definition": "Temporal designation for twilight period when Passover lamb is slaughtered (Exod 12:6). Debated whether afternoon (3-5 PM) or sunset-to-dark transition. Critical for cultic timing of tamid offerings and festival observances.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-12",
+            "ex-29"
+        ]
+    },
+    "beit_el": {
+        "hebrew": "בֵּית־אֵל",
+        "transliteration": "bêt-ʾēl",
+        "strongs": "H1008",
+        "gloss": "house of God",
+        "definition": "Sacred site where Jacob encountered the divine council via ladder vision (Gen 28:19). Renamed from Luz, becomes cultic center marking threshold between earthly and heavenly realms. Later associated with northern kingdom apostasy.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-28",
+            "gen-35"
+        ]
+    },
+    "bekah": {
+        "hebrew": "בֶּקַע",
+        "transliteration": "beqaʿ",
+        "strongs": "H1235",
+        "gloss": "half-shekel weight",
+        "definition": "Weight measure equaling half-shekel (approximately 5.7 grams), used for sanctuary tax (Exod 38:26). Each Israelite male contributes this amount for tabernacle construction, establishing covenantal participation through standardized offering.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-38"
+        ]
+    },
+    "bekhor": {
+        "hebrew": "בְּכוֹר",
+        "transliteration": "bᵉkôr",
+        "strongs": "H1060",
+        "gloss": "firstborn, preeminent one",
+        "definition": "Firstborn son holding special status and inheritance rights (Gen 25:31-34). YHWH claims Israel's firstborn after Passover (Exod 13:2), establishing redemption theology. Term applied to Messiah as preeminent over creation (Ps 89:27).",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-25",
+            "ex-04",
+            "ex-13"
+        ]
+    },
+    "belial": {
+        "hebrew": "בְּלִיַּעַל",
+        "transliteration": "bᵉlîyaʿal",
+        "strongs": "H1100",
+        "gloss": "worthlessness, wickedness",
+        "definition": "Compound term (beli + yaʿal) meaning 'without profit/worth,' denoting moral corruption. Used of lawless persons opposing covenant order. In Second Temple texts, personified as demonic adversary opposing divine council's purposes.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-19"
+        ]
+    },
+    "bene_shemayin": {
+        "hebrew": "בְּנֵי שְׁמַיָּא",
+        "transliteration": "bᵉnê šᵉmayyāʾ",
+        "strongs": "H1123+H8065",
+        "gloss": "sons of heaven",
+        "definition": "Aramaic equivalent of b'nei 'elohim, designating divine council members (Dan 3:25). Appears in Aramaic sections of Daniel and Enochic literature. Denotes angelic beings serving in YHWH's heavenly court.",
+        "language": "aramaic",
+        "chapters_used": [
+            "hc-ch06",
+            "hc-ch13"
+        ]
+    },
+    "berakhah": {
+        "hebrew": "בְּרָכָה",
+        "transliteration": "bᵉrākâ",
+        "strongs": "H1293",
+        "gloss": "blessing, benediction",
+        "definition": "Divine favor and empowerment transmitted through covenantal pronouncement (Gen 12:2-3). Contrasts with qelalah (curse); mediates fertility, prosperity, and protection. Patriarchal blessings establish inheritance and destiny for descendants.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-12",
+            "gen-27",
+            "gen-49"
+        ]
+    },
+    "beriach": {
+        "hebrew": "בְּרִיחַ",
+        "transliteration": "bᵉrîaḥ",
+        "strongs": "H1280",
+        "gloss": "bar, crossbar",
+        "definition": "Structural bars securing tabernacle frames (Exod 26:26-29). Five bars per side, with middle bar running full length through rings. Symbolizes unity and stability of divine dwelling among Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-26",
+            "ex-36"
+        ]
+    },
+    "berit_bein_ha_betarim": {
+        "hebrew": "בְּרִית בֵּין הַבְּתָרִים",
+        "transliteration": "bᵉrît bên habbᵉtārîm",
+        "strongs": "H1285+H996+H1335",
+        "gloss": "covenant between the pieces",
+        "definition": "Abrahamic covenant ratification ceremony involving bisected animals (Gen 15:9-21). YHWH alone passes between pieces as smoking fire-pot, assuming full covenant obligation. Establishes unconditional land promise and prophesies Egyptian bondage.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-15"
+        ]
+    },
+    "bilhah": {
+        "hebrew": "בִּלְהָה",
+        "transliteration": "bilhāh",
+        "strongs": "H1090",
+        "gloss": "Rachel's handmaid, Dan's mother",
+        "definition": "Personal name meaning 'troubled' or 'timid.' Bilhah was Rachel's maidservant given to Jacob as a concubine, bearing Dan and Naphtali. Her sons became tribal ancestors in Israel's twelve-tribe structure.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-29",
+            "gen-30",
+            "gen-35"
+        ]
+    },
+    "brit_milah": {
+        "hebrew": "בְּרִית מִילָה",
+        "transliteration": "bərît mîlâ",
+        "strongs": "H1285+H4139",
+        "gloss": "covenant of circumcision",
+        "definition": "The covenant sign established with Abraham requiring circumcision of all males on the eighth day. This physical mark distinguished Abraham's descendants and symbolized the cutting of covenant with YHWH, carrying both ethnic and theological significance.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-17",
+            "gen-21",
+            "exo-04"
+        ]
+    },
+    "chag": {
+        "hebrew": "חַג",
+        "transliteration": "ḥag",
+        "strongs": "H2282",
+        "gloss": "pilgrimage festival, feast",
+        "definition": "A sacred festival or pilgrimage celebration, typically involving processions and sacrifices. The term designates Israel's three major pilgrimage feasts (Passover, Weeks, Tabernacles) when males appeared before YHWH at the sanctuary.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-05",
+            "exo-10",
+            "exo-12",
+            "exo-23"
+        ]
+    },
+    "chag_layhwh": {
+        "hebrew": "חַג לַיהוָה",
+        "transliteration": "ḥag layhwh",
+        "strongs": "H2282+H3068",
+        "gloss": "feast to YHWH",
+        "definition": "A festival dedicated specifically to YHWH, emphasizing covenant worship. Moses' demand for a 'feast to YHWH' in the wilderness became the theological basis for the Exodus, establishing Israel's identity as YHWH's worshiping community.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-05",
+            "exo-10"
+        ]
+    },
+    "chalomot": {
+        "hebrew": "חֲלֹמוֹת",
+        "transliteration": "ḥălōmôt",
+        "strongs": "H2472",
+        "gloss": "dreams (plural)",
+        "definition": "Plural of chalom, referring to multiple dreams as vehicles of divine revelation. In Genesis, dreams communicate God's plans through symbolic imagery requiring interpretation, particularly in Joseph's narrative where paired dreams confirm divine intent.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-37",
+            "gen-40",
+            "gen-41"
+        ]
+    },
+    "chamad": {
+        "hebrew": "חָמַד",
+        "transliteration": "ḥāmaḏ",
+        "strongs": "H2530",
+        "gloss": "covet, desire, delight in",
+        "definition": "To desire intensely or covet, often with negative connotations of inappropriate longing. Used in the tenth commandment prohibiting coveting a neighbor's possessions, highlighting the heart attitude behind theft and adultery.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-02",
+            "gen-03",
+            "exo-20",
+            "exo-34"
+        ]
+    },
+    "chamushim": {
+        "hebrew": "חֲמֻשִׁים",
+        "transliteration": "ḥămušîm",
+        "strongs": "H2571",
+        "gloss": "armed, organized by fifties",
+        "definition": "Disputed term possibly meaning 'armed for battle' or 'organized in military divisions of five.' Describes Israel's departure from Egypt as an organized force rather than fleeing refugees, suggesting military readiness and divine ordering.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-13"
+        ]
+    },
+    "charavah": {
+        "hebrew": "חָרָבָה",
+        "transliteration": "ḥārāḇâ",
+        "strongs": "H2723",
+        "gloss": "waste, desolation, ruin",
+        "definition": "A desolate or ruined place, often describing land laid waste by judgment or abandonment. Related to cherev (sword), suggesting devastation through warfare or divine punishment resulting in uninhabitable wilderness.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-47",
+            "exo-23"
+        ]
+    },
+    "chartummim": {
+        "hebrew": "חַרְטֻמִּים",
+        "transliteration": "ḥarṭummîm",
+        "strongs": "H2748",
+        "gloss": "magicians, sacred scribes",
+        "definition": "Egyptian ritual specialists and dream interpreters, likely priest-scribes trained in sacred texts and magic. Pharaoh's chartummim replicated Moses' early signs but failed before YHWH's greater power, demonstrating the impotence of Egyptian gods.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-41",
+            "exo-07",
+            "exo-08",
+            "exo-09"
+        ]
+    },
+    "chata": {
+        "hebrew": "חָטָא",
+        "transliteration": "ḥāṭāʾ",
+        "strongs": "H2398",
+        "gloss": "sin, miss the mark",
+        "definition": "To miss the target or deviate from the right path, encompassing both intentional rebellion and unintentional error. The root concept involves failing to meet God's standard, requiring atonement through sacrifice in the cult system.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-04",
+            "gen-20",
+            "gen-39",
+            "exo-09",
+            "exo-10",
+            "exo-32"
+        ]
+    },
+    "chatah": {
+        "hebrew": "חַטָּאָה",
+        "transliteration": "ḥaṭṭāʾâ",
+        "strongs": "H2403",
+        "gloss": "sin offering, purification",
+        "definition": "The sin or purification offering designed to cleanse ritual impurity and atone for unintentional sins. This sacrifice purified the sanctuary from contamination caused by human sin, maintaining YHWH's holy presence among Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-29",
+            "exo-30"
+        ]
+    },
+    "chatan_damim": {
+        "hebrew": "חֲתַן דָּמִים",
+        "transliteration": "ḥăṯan dāmîm",
+        "strongs": "H2860+H1818",
+        "gloss": "bridegroom of blood",
+        "definition": "Zipporah's cryptic declaration after circumcising her son to save Moses from YHWH's deadly encounter. The phrase connects covenant blood-ritual with marriage imagery, suggesting circumcision as a life-preserving covenant sign binding Moses' family to YHWH.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-04"
+        ]
+    },
+    "chatser": {
+        "hebrew": "חָצֵר",
+        "transliteration": "ḥāṣēr",
+        "strongs": "H2691",
+        "gloss": "courtyard, enclosure",
+        "definition": "An enclosed area or courtyard, typically surrounding a dwelling or sanctuary. In the Tabernacle context, refers to the outer court where the altar and laver stood, accessible to all Israelites.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-27",
+            "ex-38",
+            "ex-40"
+        ]
+    },
+    "chatsi_halailah": {
+        "hebrew": "חֲצִי הַלַּיְלָה",
+        "transliteration": "ḥăṣî hallaylâ",
+        "strongs": "H2677+H3915",
+        "gloss": "midnight, middle of night",
+        "definition": "Literally 'half the night,' denoting the midpoint of darkness. Significant in Exodus as the time YHWH struck Egypt's firstborn, emphasizing divine timing and judgment's precision.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-11",
+            "ex-12"
+        ]
+    },
+    "chattat": {
+        "hebrew": "חַטָּאת",
+        "transliteration": "ḥaṭṭā't",
+        "strongs": "H2403",
+        "gloss": "sin offering, purification",
+        "definition": "A sacrifice for unintentional sin or ritual impurity, purifying the sanctuary from contamination. Distinct from guilt offerings, it addresses pollution rather than restitution, restoring covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-29",
+            "lev-4",
+            "lev-16"
+        ]
+    },
+    "chaval": {
+        "hebrew": "חָבַל",
+        "transliteration": "ḥāval",
+        "strongs": "H2254",
+        "gloss": "to bind, pledge",
+        "definition": "To take as pledge or security, often in debt contexts. Exodus regulations protect the poor by requiring return of essential pledged items, reflecting covenant justice and compassion.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-22"
+        ]
+    },
+    "chazaq": {
+        "hebrew": "חָזַק",
+        "transliteration": "ḥāzaq",
+        "strongs": "H2388",
+        "gloss": "to strengthen, harden",
+        "definition": "To make strong, firm, or obstinate. Critically used of Pharaoh's hardened heart—both divine hardening and self-hardening—demonstrating sovereignty and human responsibility in judgment narratives.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-04",
+            "ex-07",
+            "ex-09",
+            "ex-10",
+            "ex-14"
+        ]
+    },
+    "chesed": {
+        "hebrew": "חֶסֶד",
+        "transliteration": "ḥesed",
+        "strongs": "H2617",
+        "gloss": "covenant loyalty, steadfast love",
+        "definition": "Loyal love within covenant relationships, combining faithfulness, mercy, and commitment. Central to YHWH's character, it denotes unbreakable devotion transcending legal obligation, foundational to Israel's election and preservation.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-15",
+            "ex-20",
+            "ex-34"
+        ]
+    },
+    "chet_gedolah": {
+        "hebrew": "חֵטְא גְּדֹלָה",
+        "transliteration": "ḥēṭ' gĕḏōlâ",
+        "strongs": "H2401+H1419",
+        "gloss": "great sin, grievous transgression",
+        "definition": "A grave or heinous sin, particularly covenant violation. Used of the golden calf apostasy, emphasizing the severity of idolatry as fundamental breach of the first commandment.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-32"
+        ]
+    },
+    "chofshi": {
+        "hebrew": "חָפְשִׁי",
+        "transliteration": "ḥofšî",
+        "strongs": "H2670",
+        "gloss": "free, released",
+        "definition": "One who is free or liberated, especially from slavery or servitude. Applied to Hebrew slaves released in the seventh year, reflecting Exodus theology of liberation and Sabbath rest.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-21"
+        ]
+    },
+    "chokhmah_lev": {
+        "hebrew": "חָכְמַת־לֵב",
+        "transliteration": "ḥoḵmat-lēv",
+        "strongs": "H2451+H3820",
+        "gloss": "wisdom of heart, skill",
+        "definition": "Heart-wisdom or skilled intelligence, denoting divinely inspired craftsmanship. Describes artisans filled with God's Spirit to construct the Tabernacle, merging technical skill with spiritual insight.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-28",
+            "ex-31",
+            "ex-35",
+            "ex-36"
+        ]
+    },
+    "chokmah": {
+        "hebrew": "חָכְמָה",
+        "transliteration": "ḥoḵmâ",
+        "strongs": "H2451",
+        "gloss": "wisdom, skill",
+        "definition": "Practical wisdom, technical skill, or divine insight for living rightly. In Exodus, particularly denotes Spirit-endowed craftsmanship for sacred construction, linking human artistry with divine purpose.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-28",
+            "ex-31",
+            "ex-35"
+        ]
+    },
+    "choshekh": {
+        "hebrew": "חֹשֶׁךְ",
+        "transliteration": "ḥōšeḵ",
+        "strongs": "H2822",
+        "gloss": "darkness, obscurity",
+        "definition": "Darkness or gloom, both literal and symbolic. The ninth plague's tangible darkness reverses creation, demonstrating YHWH's power over Egypt's sun-god Ra and foreshadowing judgment's cosmic scope.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "ex-10",
+            "ex-20"
+        ]
+    },
+    "choshen": {
+        "hebrew": "חֹשֶׁן",
+        "transliteration": "ḥōšen",
+        "strongs": "H2833",
+        "gloss": "breastpiece, breastplate",
+        "definition": "The high priest's ornate breastpiece bearing twelve tribal stones and housing the Urim and Thummim. Symbolizes Israel's representation before YHWH and the priest's mediatorial role in divine-human communication.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-28",
+            "ex-39"
+        ]
+    },
+    "chuqqah": {
+        "hebrew": "חֻקָּה",
+        "transliteration": "ḥuqqâ",
+        "strongs": "H2708",
+        "gloss": "statute, ordinance, decree",
+        "definition": "A prescribed ritual or legal statute, often referring to permanent divine ordinances that transcend rational explanation. Distinguished from mishpat (judgment) by its non-negotiable, decreed nature, particularly in cultic contexts like the red heifer ritual.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-12",
+            "ex-13",
+            "ex-15"
+        ]
+    },
+    "cohen_midyan": {
+        "hebrew": "כֹּהֵן מִדְיָן",
+        "transliteration": "kōhēn midyān",
+        "strongs": "H3548+H4080",
+        "gloss": "priest of Midian",
+        "definition": "Title of Jethro (Reuel), Moses' father-in-law, indicating his role as a Midianite priest. Suggests pre-Sinaitic Yahwistic or El-worship traditions outside Israel, as Jethro offers sacrifices and counsels Moses on judicial administration.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-02",
+            "ex-03",
+            "ex-18"
+        ]
+    },
+    "daat": {
+        "hebrew": "דַּעַת",
+        "transliteration": "daʿat",
+        "strongs": "H1847",
+        "gloss": "knowledge, discernment, understanding",
+        "definition": "Experiential knowledge or intimate awareness, not merely intellectual cognition. In Eden narrative, represents divine prerogative to determine moral boundaries; elsewhere denotes covenant knowledge of YHWH or skilled craftsmanship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-02",
+            "gen-03",
+            "ex-31"
+        ]
+    },
+    "dai": {
+        "hebrew": "דַּי",
+        "transliteration": "day",
+        "strongs": "H1767",
+        "gloss": "sufficiency, enough, adequate",
+        "definition": "Indicates sufficiency or adequacy, often in contexts of provision or judgment. Used in Exodus for adequate supplies; later rabbinic tradition applies it to divine names (Shaddai as 'the Sufficient One').",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-36"
+        ]
+    },
+    "dam": {
+        "hebrew": "דָּם",
+        "transliteration": "dām",
+        "strongs": "H1818",
+        "gloss": "blood, lifeblood, bloodguilt",
+        "definition": "Blood as the physical seat of life (nephesh). Central to atonement theology, covenant ratification, and homicide law. Forbidden for consumption; required for altar rituals as life-for-life substitution.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-04",
+            "gen-09",
+            "ex-12",
+            "ex-24"
+        ]
+    },
+    "dam_habberit": {
+        "hebrew": "דַּם הַבְּרִית",
+        "transliteration": "dam habbĕrît",
+        "strongs": "H1818+H1285",
+        "gloss": "blood of the covenant",
+        "definition": "Blood sprinkled on altar and people at Sinai, sealing the covenant between YHWH and Israel. Establishes ritual bond through shared life-substance, prefiguring later atonement theology and New Testament eucharistic language.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-24"
+        ]
+    },
+    "dever": {
+        "hebrew": "דֶּבֶר",
+        "transliteration": "deber",
+        "strongs": "H1698",
+        "gloss": "pestilence, plague, disease",
+        "definition": "Deadly epidemic or plague, often as divine judgment. Fifth Egyptian plague targets livestock; term also appears in covenant curses and prophetic judgment oracles as YHWH's direct intervention.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-09"
+        ]
+    },
+    "dinah": {
+        "hebrew": "דִּינָה",
+        "transliteration": "dînâ",
+        "strongs": "H1783",
+        "gloss": "judgment, Dinah",
+        "definition": "Jacob's daughter by Leah, whose violation by Shechem triggers violent retribution by Simeon and Levi. Her name ('judgment') ironically frames the narrative's moral ambiguity regarding honor, vengeance, and covenant boundaries.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-34"
+        ]
+    },
+    "edom": {
+        "hebrew": "אֱדוֹם",
+        "transliteration": "ʾĕdôm",
+        "strongs": "H123",
+        "gloss": "Edom, red",
+        "definition": "Name given to Esau after selling his birthright for red stew; also designates his descendants and their territory southeast of the Dead Sea. Represents Israel's fraternal rival with complex theological implications regarding election and blessing.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-25",
+            "gen-36"
+        ]
+    },
+    "edut": {
+        "hebrew": "עֵדוּת",
+        "transliteration": "ʿēdût",
+        "strongs": "H5715",
+        "gloss": "testimony, witness, decree",
+        "definition": "The tablets of covenant law as divine testimony or witness. Stored in the Ark (aron ha-edut), they serve as permanent evidence of YHWH's covenant stipulations and Israel's obligations.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-25",
+            "ex-31",
+            "ex-32"
+        ]
+    },
+    "egel": {
+        "hebrew": "עֵגֶל",
+        "transliteration": "ʿēgel",
+        "strongs": "H5695",
+        "gloss": "calf, young bull",
+        "definition": "Young bull or calf, most infamously the golden calf (egel massekah) fashioned at Sinai. Represents illicit iconography conflating YHWH with ancient Near Eastern bull deities, violating the second commandment.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-32"
+        ]
+    },
+    "ehyeh": {
+        "hebrew": "אֶהְיֶה",
+        "transliteration": "ʾehyeh",
+        "strongs": "H1961",
+        "gloss": "I am, I will be",
+        "definition": "First-person form of the verb 'to be,' revealed at the burning bush as YHWH's self-designation ('I AM WHO I AM'). Emphasizes divine presence, covenant faithfulness, and dynamic existence rather than static being.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-03"
+        ]
+    },
+    "eleph": {
+        "hebrew": "אֶלֶף",
+        "transliteration": "ʾelep̄",
+        "strongs": "H505",
+        "gloss": "thousand, clan, cattle",
+        "definition": "Numerical term for 'thousand' or military/tribal unit. Can denote a clan subdivision or large livestock count. Context determines whether literal number or social grouping.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-12",
+            "exo-32",
+            "num-1"
+        ]
+    },
+    "elim": {
+        "hebrew": "אֵילִם",
+        "transliteration": "ʾêlîm",
+        "strongs": "H352",
+        "gloss": "rams, mighty ones, terebinths",
+        "definition": "Plural of ʾayil: rams (sacrificial animals), mighty leaders, or large trees (terebinths). In Exodus 15:27, refers to oasis with twelve springs. Semantic range includes strength and prominence.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-15",
+            "gen-14"
+        ]
+    },
+    "emet": {
+        "hebrew": "אֱמֶת",
+        "transliteration": "ʾĕmet",
+        "strongs": "H571",
+        "gloss": "truth, faithfulness, reliability",
+        "definition": "Foundational covenant term denoting truth, stability, and trustworthiness. Often paired with ḥesed (loyal love). Describes YHWH's character and expected human conduct in covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-34",
+            "gen-24",
+            "exo-18"
+        ]
+    },
+    "ephod": {
+        "hebrew": "אֵפוֹד",
+        "transliteration": "ʾēp̄ôd",
+        "strongs": "H646",
+        "gloss": "priestly vestment, oracle device",
+        "definition": "Sacred garment worn by high priest, featuring shoulder stones with tribal names and breastplate (ḥošen). Associated with Urim and Thummim for divine inquiry. Symbolizes mediatorial role between YHWH and Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-28",
+            "exo-39"
+        ]
+    },
+    "erekh_appayim": {
+        "hebrew": "אֶרֶךְ אַפַּיִם",
+        "transliteration": "ʾerek̄ ʾappayim",
+        "strongs": "H750/H639",
+        "gloss": "slow to anger, long-suffering",
+        "definition": "Literally 'long of nostrils/face,' idiom for patience and restraint of wrath. Key attribute in YHWH's self-revelation (Exod 34:6). Cognate with divine forbearance in covenant administration.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-34",
+            "num-14"
+        ]
+    },
+    "erev_rav": {
+        "hebrew": "עֵרֶב רַב",
+        "transliteration": "ʿērep̄ rap̄",
+        "strongs": "H6154/H7227",
+        "gloss": "mixed multitude, diverse peoples",
+        "definition": "Non-Israelite group departing Egypt with Israel (Exod 12:38). Traditionally blamed for golden calf incident. Represents challenge of maintaining covenant identity amid cultural diversity.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-12",
+            "exo-32"
+        ]
+    },
+    "esav": {
+        "hebrew": "עֵשָׂו",
+        "transliteration": "ʿēśāw",
+        "strongs": "H6215",
+        "gloss": "Esau, hairy one",
+        "definition": "Isaac's firstborn, Jacob's twin, ancestor of Edom. Name associated with ʿāśāh ('made/done') and śēʿār ('hairy'). Sold birthright for stew; represents fleshly priorities over covenant blessing.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-25",
+            "gen-27",
+            "gen-33"
+        ]
+    },
+    "esh": {
+        "hebrew": "אֵשׁ",
+        "transliteration": "ʾēš",
+        "strongs": "H784",
+        "gloss": "fire, divine presence",
+        "definition": "Fire as theophanic manifestation (burning bush, Sinai) and cultic element (altar flames). Symbolizes YHWH's holiness, judgment, and consuming presence. Cognate with Ugaritic ʾišt.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-3",
+            "exo-19",
+            "exo-24"
+        ]
+    },
+    "ets": {
+        "hebrew": "עֵץ",
+        "transliteration": "ʿēṣ",
+        "strongs": "H6086",
+        "gloss": "tree, wood, timber",
+        "definition": "Generic term for tree or wooden material. Significant in Eden narrative (trees of knowledge/life) and tabernacle construction (acacia wood). Represents created order and sacred craftsmanship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-2",
+            "gen-3",
+            "exo-25"
+        ]
+    },
+    "etsba_elohim": {
+        "hebrew": "אֶצְבַּע אֱלֹהִים",
+        "transliteration": "ʾeṣbaʿ ʾĕlōhîm",
+        "strongs": "H676/H430",
+        "gloss": "finger of God",
+        "definition": "Divine agency in miraculous acts. Egyptian magicians recognize this power (Exod 8:19). Also describes writing of Decalogue tablets (Exod 31:18). Anthropomorphism emphasizing direct divine action.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-8",
+            "exo-31"
+        ]
+    },
+    "etzba_elohim": {
+        "hebrew": "אֶצְבַּע אֱלֹהִים",
+        "transliteration": "ʾeṣbaʿ ʾĕlōhîm",
+        "strongs": "H676/H430",
+        "gloss": "finger of God",
+        "definition": "Alternate spelling of ʾeṣbaʿ ʾĕlōhîm. Divine agency in miraculous acts and covenant inscription. Emphasizes unmediated divine power beyond human or magical manipulation.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-8",
+            "exo-31"
+        ]
+    },
+    "eved_ivri": {
+        "hebrew": "עֶבֶד עִבְרִי",
+        "transliteration": "ʿep̄ed ʿip̄rî",
+        "strongs": "H5650/H5680",
+        "gloss": "Hebrew servant, debt-slave",
+        "definition": "Israelite in temporary servitude due to debt or poverty. Covenant law mandates release in seventh year (Exod 21:2). Distinct from foreign slaves; protections reflect covenant kinship obligations.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-21",
+            "deu-15"
+        ]
+    },
+    "ezov": {
+        "hebrew": "אֵזוֹב",
+        "transliteration": "ʾēzôḇ",
+        "strongs": "H231",
+        "gloss": "hyssop plant",
+        "definition": "A small bushy plant (possibly marjoram or oregano) used in purification rituals. Applied with blood to doorposts during Passover (Exod 12:22) and in cleansing ceremonies for skin diseases and corpse contamination. Symbolizes ritual purification and covenant protection.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-12"
+        ]
+    },
+    "gaal": {
+        "hebrew": "גָּאַל",
+        "transliteration": "gāʾal",
+        "strongs": "H1350",
+        "gloss": "redeem, act as kinsman",
+        "definition": "To redeem or buy back property, persons, or rights through kinship obligation. The goʾel (kinsman-redeemer) restores family inheritance and avenges blood. YHWH acts as Israel's goʾel in the Exodus, redeeming them from slavery through covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-06",
+            "exod-15"
+        ]
+    },
+    "gadol": {
+        "hebrew": "גָּדוֹל",
+        "transliteration": "gāḏôl",
+        "strongs": "H1419",
+        "gloss": "great, large, mighty",
+        "definition": "Adjective denoting greatness in size, importance, or intensity. Used of YHWH's mighty acts (Exod 14:31), great nations (Gen 12:2), and significant events. In divine council contexts, distinguishes rank among elohim and describes cosmic-scale interventions.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-01",
+            "gen-12",
+            "exod-14"
+        ]
+    },
+    "gan_eden": {
+        "hebrew": "גַּן־עֵדֶן",
+        "transliteration": "gan-ʿēḏen",
+        "strongs": "H1588/H5731",
+        "gloss": "Garden of Eden",
+        "definition": "The primordial sanctuary-garden where YHWH placed humanity, located in Eden (meaning 'delight' or 'abundance'). Functioned as cosmic temple with cherubim guardians, sacred trees, and rivers flowing to four lands. Site of humanity's priestly commission and subsequent exile after rebellion.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-02",
+            "gen-03"
+        ]
+    },
+    "ganav": {
+        "hebrew": "גָּנַב",
+        "transliteration": "gānaḇ",
+        "strongs": "H1589",
+        "gloss": "steal, kidnap",
+        "definition": "To take property or persons secretly and unlawfully. Prohibited in the Decalogue (Exod 20:15), covering theft of possessions and kidnapping. Rachel's theft of Laban's household gods (Gen 31:19) represents both property crime and religious transgression.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-31",
+            "exod-20"
+        ]
+    },
+    "ger": {
+        "hebrew": "גֵּר",
+        "transliteration": "gēr",
+        "strongs": "H1616",
+        "gloss": "sojourner, resident alien",
+        "definition": "A foreigner residing temporarily or permanently in Israel without full citizenship rights. Torah mandates protection and fair treatment of the ger, grounded in Israel's own experience as gerim in Egypt. The ger could participate in covenant worship and receive legal protection.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-15",
+            "exod-12",
+            "exod-22",
+            "exod-23"
+        ]
+    },
+    "gerar": {
+        "hebrew": "גְּרָר",
+        "transliteration": "gǝrār",
+        "strongs": "H1642",
+        "gloss": "Gerar (city)",
+        "definition": "A Philistine city in the Negev ruled by Abimelech, located between Kadesh and Shur. Site where both Abraham and Isaac claimed their wives were sisters (Gen 20, 26), testing covenant promises. Represents contested territory between patriarchs and Philistine kings.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-20",
+            "gen-26"
+        ]
+    },
+    "geulah": {
+        "hebrew": "גְּאֻלָּה",
+        "transliteration": "gǝʾullâ",
+        "strongs": "H1353",
+        "gloss": "redemption, right of redemption",
+        "definition": "The act or right of redemption by a kinsman-redeemer (goʾel). Applies to land, persons, and covenant obligations. YHWH's geulah of Israel from Egypt establishes the paradigm for divine redemption through kinship covenant, restoring relationship and inheritance rights.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-06",
+            "exod-15"
+        ]
+    },
+    "gevarim": {
+        "hebrew": "גְּבָרִים",
+        "transliteration": "gǝḇārîm",
+        "strongs": "H1368",
+        "gloss": "mighty men, warriors",
+        "definition": "Plural of gibbor; mighty warriors or men of strength and valor. In Gen 6:4 context, offspring of divine-human unions who became renowned warriors of old. Represents hybrid figures of extraordinary power in the antediluvian world.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-06"
+        ]
+    },
+    "gilulim": {
+        "hebrew": "גִּלֻּלִים",
+        "transliteration": "gillulîm",
+        "strongs": "H1544",
+        "gloss": "idols, dung-gods",
+        "definition": "Derogatory term for idols, possibly derived from 'dung pellets' (gālāl). Used prophetically to express contempt for foreign gods and their worthlessness. Emphasizes the pollution and abomination of idolatry versus worship of the living YHWH.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-20"
+        ]
+    },
+    "goy_qadosh": {
+        "hebrew": "גּוֹי קָדוֹשׁ",
+        "transliteration": "gôy qāḏôš",
+        "strongs": "H1471/H6918",
+        "gloss": "holy nation",
+        "definition": "Israel's covenant identity as a nation set apart for YHWH (Exod 19:6). Designates Israel's unique status among the nations (goyim) as YHWH's treasured possession, called to priestly service and holiness. Establishes Israel's mediatorial role in divine council administration.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-19"
+        ]
+    },
+    "hanokh": {
+        "hebrew": "חֲנוֹךְ",
+        "transliteration": "ḥănôḵ",
+        "strongs": "H2585",
+        "gloss": "Enoch (person)",
+        "definition": "Seventh-generation descendant of Adam who 'walked with God' and was taken without dying (Gen 5:24). In Second Temple tradition, becomes recipient of heavenly visions and scribe of divine mysteries. His translation establishes precedent for human access to divine council realms.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-05"
+        ]
+    },
+    "har_sinai": {
+        "hebrew": "הַר סִינַי",
+        "transliteration": "har sînay",
+        "strongs": "H2022/H5514",
+        "gloss": "Mount Sinai, mountain of God",
+        "definition": "The sacred mountain in the wilderness where YHWH revealed Himself to Moses and gave the Torah to Israel. Also called Horeb, it serves as the cosmic meeting point between heaven and earth where the divine council's decrees are transmitted to humanity.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-3",
+            "exo-19",
+            "exo-24"
+        ]
+    },
+    "havvah": {
+        "hebrew": "חַוָּה",
+        "transliteration": "ḥawwâ",
+        "strongs": "H2332",
+        "gloss": "Eve, mother of all living",
+        "definition": "The first woman, created as ezer kenegdo to Adam. Her name means 'living' or 'life-giver,' given after the fall because she would become the mother of all humanity and bearer of the promised seed (zera) who would crush the serpent.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-3",
+            "gen-4"
+        ]
+    },
+    "herem": {
+        "hebrew": "חֵרֶם",
+        "transliteration": "ḥērem",
+        "strongs": "H2764",
+        "gloss": "devoted thing, ban, destruction",
+        "definition": "Something irrevocably dedicated to YHWH, often requiring complete destruction. In divine council framework, herem represents the execution of divine judgment against corrupted entities (nephilim, Canaanites) who threaten the holy seed line.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-6",
+            "exo-22"
+        ]
+    },
+    "hevel": {
+        "hebrew": "הֶבֶל",
+        "transliteration": "heḇel",
+        "strongs": "H1893",
+        "gloss": "Abel, breath, vapor",
+        "definition": "Second son of Adam and Eve, righteous shepherd whose acceptable sacrifice provoked Cain's murderous jealousy. His name means 'breath' or 'vapor,' foreshadowing his brief life and the transience of human existence under the curse.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-4"
+        ]
+    },
+    "irin": {
+        "hebrew": "עִירִין",
+        "transliteration": "ʿîrîn",
+        "strongs": "H5894",
+        "gloss": "watchers, wakeful ones",
+        "definition": "Aramaic term for angelic beings in the divine council who observe and execute divine decrees. Cognate with Hebrew 'ir, these 'wakeful ones' appear in Daniel's visions as holy sentinels who announce YHWH's judgments from the heavenly court.",
+        "language": "aramaic",
+        "chapters_used": [
+            "gen-6",
+            "hc-ch02"
+        ]
+    },
+    "ish_milchamah": {
+        "hebrew": "אִישׁ מִלְחָמָה",
+        "transliteration": "ʾîš milḥāmâ",
+        "strongs": "H376/H4421",
+        "gloss": "man of war, warrior",
+        "definition": "Title describing YHWH as divine warrior who fights for Israel against earthly and cosmic enemies. This epithet emphasizes God's role as commander of the heavenly armies (tsva) who defeats chaos powers and rebellious divine beings.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-15"
+        ]
+    },
+    "kabed": {
+        "hebrew": "כָּבֵד",
+        "transliteration": "kāḇēḏ",
+        "strongs": "H3513",
+        "gloss": "to be heavy, honor, glorify",
+        "definition": "Verb meaning to make heavy, weighty, or glorious; to honor or give weight to someone's reputation. Used of honoring parents and especially of manifesting YHWH's kavod (glory), which carries substantial, visible weight in the created order.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-20",
+            "exo-14"
+        ]
+    },
+    "kapporet": {
+        "hebrew": "כַּפֹּרֶת",
+        "transliteration": "kappōreṯ",
+        "strongs": "H3727",
+        "gloss": "mercy seat, atonement cover",
+        "definition": "The golden cover of the ark of the covenant, flanked by cherubim, where YHWH's presence dwelt and blood was sprinkled on Yom Kippur. It represents the throne of God's earthly presence and the locus of atonement between the divine and human realms.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-25",
+            "exo-26"
+        ]
+    },
+    "kavod": {
+        "hebrew": "כָּבוֹד",
+        "transliteration": "kāḇôḏ",
+        "strongs": "H3519",
+        "gloss": "glory, weight, honor",
+        "definition": "The weighty, substantial presence and reputation of a person, especially the visible manifestation of YHWH's presence. God's kavod appears as fire, cloud, and radiant light, representing His authority and the tangible reality of His divine council rule.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-16",
+            "exo-24",
+            "exo-33"
+        ]
+    },
+    "kavod_yhwh": {
+        "hebrew": "כְּבוֹד יהוה",
+        "transliteration": "kəḇôḏ yhwh",
+        "strongs": "H3519/H3068",
+        "gloss": "glory of YHWH",
+        "definition": "The visible, weighty manifestation of YHWH's presence, often appearing as consuming fire surrounded by cloud. This theophanic glory reveals God's holiness and marks His dwelling place, whether on Sinai, in the tabernacle, or leading Israel through the wilderness.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-16",
+            "exo-24",
+            "exo-40"
+        ]
+    },
+    "kehunnah": {
+        "hebrew": "כְּהֻנָּה",
+        "transliteration": "kəhunnâ",
+        "strongs": "H3550",
+        "gloss": "priesthood, priestly office",
+        "definition": "The office and function of the priesthood, mediating between YHWH and Israel through sacrifice, teaching, and maintaining the sanctuary. Aaron's kehunnah establishes the authorized human representatives who serve in the earthly counterpart to the heavenly temple.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-29",
+            "exo-40"
+        ]
+    },
+    "kelev": {
+        "hebrew": "כָּלֵב",
+        "transliteration": "kālēḇ",
+        "strongs": "H3612",
+        "gloss": "Caleb, dog",
+        "definition": "Name meaning 'dog' or possibly 'whole-hearted,' belonging to the faithful spy who, with Joshua, trusted YHWH's promise to give Israel the land despite the nephilim descendants (Anakim). His faith contrasts with the fearful majority who saw only giants.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-14"
+        ]
+    },
+    "seneh": {
+        "hebrew": "סְנֶה",
+        "transliteration": "seneh",
+        "strongs": "H5572",
+        "gloss": "thornbush, bramble",
+        "definition": "A thorny bush or bramble, most famously the burning bush from which YHWH spoke to Moses at Horeb (Exodus 3:2-4). The term appears in contexts describing wilderness vegetation and divine theophany. The seneh at Horeb became a locus of revelation where Moses received his commission to deliver Israel. Some scholars connect this term etymologically to Mount Sinai itself. The burning yet unconsumed bush symbolizes divine presence that sanctifies without destroying.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-3"
+        ]
+    },
+    "shabbat": {
+        "hebrew": "שַׁבָּת",
+        "transliteration": "shabbat",
+        "strongs": "H7676",
+        "gloss": "Sabbath, cessation, rest",
+        "definition": "The seventh day of rest, established at creation (Genesis 2:2-3) and codified in the Decalogue (Exodus 20:8-11). Derived from the verb shavat ('to cease, rest'), shabbat marks the completion of the creation week and serves as a covenant sign between YHWH and Israel (Exodus 31:13-17). The Sabbath rest reflects divine rest and anticipates eschatological rest. Violation carried capital punishment (Exodus 31:14-15). The institution encompasses both cessation from labor and sacred assembly, distinguishing Israel's temporal rhythm from surrounding nations.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-2",
+            "ex-16",
+            "ex-20",
+            "ex-31"
+        ]
+    },
+    "shakan": {
+        "hebrew": "שָׁכַן",
+        "transliteration": "shakan",
+        "strongs": "H7931",
+        "gloss": "to dwell, tabernacle, abide",
+        "definition": "To settle, dwell, or take up residence, particularly used of divine presence dwelling among Israel. The verb forms the root of mishkan (tabernacle) and shekinah (divine presence). YHWH promises to 'dwell' (shakan) among his people (Exodus 25:8, 29:45-46), establishing the tabernacle as the locus of divine-human encounter. The term emphasizes permanence and intimate proximity, distinguishing covenantal dwelling from temporary visitation. In divine council theology, shakan describes YHWH's enthronement in the heavenly assembly and his condescension to dwell with Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-25",
+            "ex-29"
+        ]
+    },
+    "shalach": {
+        "hebrew": "שָׁלַח",
+        "transliteration": "shalach",
+        "strongs": "H7971",
+        "gloss": "to send, stretch out",
+        "definition": "To send forth, dispatch, or commission with authority. Used extensively of YHWH sending Moses (Exodus 3:10-15), sending plagues upon Egypt (Exodus 7-12), and sending his angel before Israel (Exodus 23:20). The term carries connotations of delegated authority and purposeful mission. In prophetic contexts, shalach describes divine commissioning of messengers. The Piel form intensifies the action ('send away, dismiss'). Moses' repeated question 'Who am I that you should send me?' (Exodus 3:11) highlights the weight of divine sending.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-3",
+            "gen-8",
+            "ex-3",
+            "ex-7",
+            "ex-23"
+        ]
+    },
+    "shamayim": {
+        "hebrew": "שָׁמַיִם",
+        "transliteration": "shamayim",
+        "strongs": "H8064",
+        "gloss": "heavens, sky, firmament",
+        "definition": "The heavens or sky, always appearing in dual form, possibly indicating the visible sky and the invisible divine realm. In Genesis 1:1, shamayim represents the cosmic realm created alongside earth. The term encompasses both the physical atmosphere (birds fly in shamayim) and the divine dwelling place (YHWH's throne is in shamayim). Ancient Near Eastern cosmology understood multiple heavens, with the highest as the divine council chamber. Shamayim serves as the location of celestial bodies (Genesis 1:14-17) and the source of rain and blessing (Genesis 8:2; Deuteronomy 28:12).",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "gen-7",
+            "gen-8",
+            "ex-20"
+        ]
+    },
+    "shanah": {
+        "hebrew": "שָׁנָה",
+        "transliteration": "shanah",
+        "strongs": "H8141",
+        "gloss": "year, cycle of seasons",
+        "definition": "A year, the complete cycle of seasons and agricultural periods. Used in chronological frameworks (Genesis 5, 11), covenant stipulations (Exodus 23:14-17), and sabbatical cycles (Exodus 21:2; Leviticus 25). The Hebrew year followed lunar-solar reckoning with intercalation. Shanah structures Israel's sacred calendar: three pilgrimage festivals per year, sabbatical years every seven years, and jubilee every fifty years. The term appears in lifespan calculations of antediluvian patriarchs and in dating the Exodus events.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "gen-5",
+            "ex-12",
+            "ex-21",
+            "ex-23"
+        ]
+    },
+    "shav": {
+        "hebrew": "שָׁוְא",
+        "transliteration": "shav",
+        "strongs": "H7723",
+        "gloss": "emptiness, vanity, falsehood",
+        "definition": "Emptiness, worthlessness, or deception; that which lacks substance or truth. In the third commandment (Exodus 20:7), 'taking YHWH's name in vain' (lashav) prohibits invoking the divine name for empty, false, or manipulative purposes—including false oaths, magical incantations, or treating the covenant name casually. The term appears in contexts of false prophecy, worthless idols, and deceptive speech. Shav represents the antithesis of truth and substance, describing both moral emptiness and ontological unreality.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-20",
+            "ex-23"
+        ]
+    },
+    "shavar": {
+        "hebrew": "שָׁבַר",
+        "transliteration": "shavar",
+        "strongs": "H7665",
+        "gloss": "to break, shatter, destroy",
+        "definition": "To break in pieces, shatter, or destroy, used of physical breaking (bones, tablets, vessels) and metaphorical breaking (hearts, covenants, power). Moses shatters (shavar) the tablets at Sinai upon witnessing the golden calf (Exodus 32:19), symbolizing covenant rupture. YHWH breaks the power of Egypt (Exodus 9:35 context) and promises to break the yoke of bondage (Leviticus 26:13). The term appears in judgment oracles describing the breaking of nations and in laments describing broken spirits. Shavar emphasizes violent, irreparable destruction.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-9",
+            "ex-32"
+        ]
+    },
+    "shavuot": {
+        "hebrew": "שָׁבֻעוֹת",
+        "transliteration": "shavuot",
+        "strongs": "H7620",
+        "gloss": "weeks, Feast of Weeks",
+        "definition": "Weeks or sevens; the Feast of Weeks (Chag Shavuot), celebrated seven weeks after Passover (Exodus 34:22; Leviticus 23:15-21). Also called the Feast of Harvest (Chag HaQatsir) and Day of Firstfruits (Yom HaBikkurim). Shavuot marks the wheat harvest and requires bringing two leavened loaves as a wave offering. Rabbinic tradition associates Shavuot with the giving of Torah at Sinai, though this connection is post-biblical. The fifty-day count (Pentecost in Greek) structures the agricultural and liturgical calendar between barley and wheat harvests.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-34"
+        ]
+    },
+    "shechin": {
+        "hebrew": "שְׁחִין",
+        "transliteration": "shechin",
+        "strongs": "H7822",
+        "gloss": "boil, inflamed sore",
+        "definition": "An inflamed eruption, boil, or skin disease, appearing as the sixth plague upon Egypt (Exodus 9:9-11). The shechin afflicted both humans and animals, breaking out in festering boils (avabu'ot) throughout Egypt. The Egyptian magicians could not stand before Moses due to the shechin (Exodus 9:11), demonstrating YHWH's power over Egyptian deities associated with healing (Sekhmet, Imhotep). The term also describes Hezekiah's illness (2 Kings 20:7) and Job's affliction. Shechin represents divine judgment through bodily affliction.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-9"
+        ]
+    },
+    "shed": {
+        "hebrew": "שֵׁד",
+        "transliteration": "shed",
+        "strongs": "H7700",
+        "gloss": "demon, destroyer",
+        "definition": "A demon or destructive spirit, appearing only in poetic texts (Deuteronomy 32:17; Psalm 106:37). The term likely derives from Akkadian shedu (protective spirit) but in Hebrew contexts refers to malevolent entities. Israel is condemned for sacrificing to shedim, 'not God' (lo eloah), equating idolatry with demon worship. In divine council framework, shedim represent rebellious spiritual beings or the spiritual reality behind idols. The LXX translates shedim as daimonia. These entities stand in opposition to YHWH's authority and deceive nations into false worship.",
+        "language": "hebrew",
+        "chapters_used": []
+    },
+    "shedim": {
+        "hebrew": "שֵׁדִים",
+        "transliteration": "shedim",
+        "strongs": "H7700",
+        "gloss": "demons, evil spirits",
+        "definition": "Plural of shed; demons or evil spirits associated with idolatry and false worship. Deuteronomy 32:17 declares Israel 'sacrificed to shedim, not to God (Eloah), to gods (elohim) they had not known.' Psalm 106:37 describes Israelites sacrificing their children to shedim. In Second Temple literature, shedim are identified with fallen watchers or their offspring. The term represents the spiritual powers behind pagan cult systems, territorial spirits allotted to the nations at Babel (Deuteronomy 32:8-9 context). Shedim operate in rebellion against YHWH's cosmic authority.",
+        "language": "hebrew",
+        "chapters_used": []
+    },
+    "shefatim": {
+        "hebrew": "שְׁפָתִים",
+        "transliteration": "shefatim",
+        "strongs": "H8193",
+        "gloss": "lips, speech, language",
+        "definition": "Lips, used literally and metaphorically for speech, language, or edge/border. At Babel, 'the whole earth had one language (safah echat) and one speech' (Genesis 11:1), which YHWH confused (balal) into many languages (safot). The term appears in contexts of prayer ('fruit of lips'), false speech, and covenant language. Exodus 6:12, 30 describes Moses as having 'uncircumcised lips' (aral sefatayim), indicating speech impediment or inadequacy. Shefatim can denote the shore or edge of seas and rivers.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-11",
+            "ex-6"
+        ]
+    },
+    "shekhem": {
+        "hebrew": "שְׁכֶם",
+        "transliteration": "shekhem",
+        "strongs": "H7927",
+        "gloss": "Shechem, shoulder",
+        "definition": "Shechem, a significant Canaanite city between Mount Gerizim and Mount Ebal, and the personal name of its Hivite prince (Genesis 34). Abraham built an altar at Shechem upon entering Canaan (Genesis 12:6-7). Jacob purchased land there (Genesis 33:18-20) and later buried foreign gods under the oak at Shechem (Genesis 35:4). The city became a covenant renewal site (Joshua 24) and later the first capital of the northern kingdom. The root meaning 'shoulder' suggests the city's location on the shoulder/ridge between mountains. Shechem represents both promise and peril in Israel's relationship with Canaan.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-12",
+            "gen-33",
+            "gen-34",
+            "gen-35"
+        ]
+    },
+    "shem": {
+        "hebrew": "שֵׁם",
+        "transliteration": "shem",
+        "strongs": "H8034",
+        "gloss": "name, reputation, memorial",
+        "definition": "Name, reputation, or memorial; representing identity, character, and authority. In Hebrew thought, the name embodies the essence of the person or thing named. YHWH's name represents his character and covenant presence (Exodus 3:13-15; 6:3). 'Making a name' (Genesis 11:4) at Babel represents autonomous reputation-building in rebellion. God promises Abram 'I will make your name great' (Genesis 12:2). The third commandment protects YHWH's name from misuse (Exodus 20:7). Shem also designates Noah's eldest son, ancestor of Semitic peoples, through whom the messianic line continues.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-4",
+            "gen-6",
+            "gen-11",
+            "gen-12",
+            "ex-3",
+            "ex-20"
+        ]
+    },
+    "shemen_hamishchah": {
+        "hebrew": "שֶׁמֶן הַמִּשְׁחָה",
+        "transliteration": "shemen hamishchah",
+        "strongs": "H8081 H4888",
+        "gloss": "anointing oil, consecration oil",
+        "definition": "The sacred anointing oil, a specially compounded mixture of myrrh, cinnamon, calamus, cassia, and olive oil (Exodus 30:22-33). Used exclusively for consecrating the tabernacle, its furnishings, and the Aaronic priesthood. The formula was prohibited for common use under penalty of excommunication (karet). Shemen hamishchah sanctified objects and persons for divine service, transferring them from common to holy status. The anointing symbolized the Spirit's empowerment and divine authorization. The term mashiach (messiah, 'anointed one') derives from this practice.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-25",
+            "ex-29",
+            "ex-30"
+        ]
+    },
+    "shemen_zayit": {
+        "hebrew": "שֶׁמֶן זַיִת",
+        "transliteration": "shemen zayit",
+        "strongs": "H8081 H2132",
+        "gloss": "olive oil, pure oil",
+        "definition": "Olive oil, the primary oil of ancient Israel used for cooking, lighting, anointing, and offerings. Pure beaten olive oil (shemen zayit zakh katit) fueled the menorah in perpetual light (Exodus 27:20; Leviticus 24:2). Olive oil served as the base for the sacred anointing oil and accompanied grain offerings. The olive tree symbolized blessing, prosperity, and covenant faithfulness. First-pressed oil was considered purest. Olive oil represented the Spirit's presence and illumination in tabernacle worship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-27",
+            "ex-29",
+            "ex-30"
+        ]
+    },
+    "shemesh": {
+        "hebrew": "שֶׁמֶשׁ",
+        "transliteration": "shemesh",
+        "strongs": "H8121",
+        "gloss": "sun, solar orb",
+        "definition": "The sun, created on the fourth day to govern the day and mark seasons (Genesis 1:14-18). Unlike surrounding cultures that deified the sun (Egyptian Ra, Mesopotamian Shamash), Genesis deliberately demotes celestial bodies to 'lights' (me'orot) serving humanity's temporal needs. The sun's rising and setting structure daily life and covenant observance. YHWH's control over the sun demonstrates his supremacy over nature deities (Joshua's long day, Hezekiah's sign). The sun serves as a witness to covenant (Psalm 89:36-37) and symbol of divine glory.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "ex-16"
+        ]
+    },
+    "shemittah": {
+        "hebrew": "שְׁמִטָּה",
+        "transliteration": "shemittah",
+        "strongs": "H8059",
+        "gloss": "release, remission, sabbatical year",
+        "definition": "Release or remission, specifically the sabbatical year occurring every seventh year (Exodus 23:10-11; Leviticus 25:1-7; Deuteronomy 15:1-18). During shemittah, agricultural land lies fallow, debts are released, and Hebrew servants go free. The practice acknowledges YHWH's ownership of the land and prevents permanent economic stratification. Shemittah demonstrates covenant trust—Israel must depend on God's provision during the rest year. Failure to observe shemittah contributed to exile (2 Chronicles 36:21). The institution anticipates jubilee and eschatological restoration.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-21",
+            "ex-23"
+        ]
+    },
+    "sheqel_haqodesh": {
+        "hebrew": "שֶׁקֶל הַקֹּדֶשׁ",
+        "transliteration": "sheqel haqodesh",
+        "strongs": "H8255 H6944",
+        "gloss": "sanctuary shekel, sacred standard",
+        "definition": "The sanctuary shekel, the standard weight used for tabernacle offerings and sacred transactions (Exodus 30:13, 24; 38:24-26). Valued at twenty gerahs, the sheqel haqodesh served as the fixed standard against which other weights were measured. Every Israelite male twenty years and older paid a half-shekel as atonement money (Exodus 30:11-16). The sanctuary standard prevented commercial fraud in sacred contexts and ensured equity in covenant obligations. The term emphasizes the holy standard governing God's economy.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-30",
+            "ex-38"
+        ]
+    },
+    "shirah": {
+        "hebrew": "שִׁירָה",
+        "transliteration": "shirah",
+        "strongs": "H7892",
+        "gloss": "song, singing, poem",
+        "definition": "A song or poem, particularly songs of praise, victory, or lament. The Song of the Sea (Shirat HaYam, Exodus 15:1-18) celebrates YHWH's triumph over Egypt and is considered one of the oldest Hebrew poems. Moses and the Israelites sing this shirah after crossing the Red Sea, establishing a pattern of liturgical response to divine deliverance. Miriam leads the women in antiphonal singing (Exodus 15:20-21). Shirah serves as covenant witness (Deuteronomy 31:19-22) and theological instruction, embedding doctrine in memorable form.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-15"
+        ]
+    },
+    "shofar": {
+        "hebrew": "שׁוֹפָר",
+        "transliteration": "shofar",
+        "strongs": "H7782",
+        "gloss": "ram's horn, trumpet",
+        "definition": "A ram's horn trumpet used for signaling, warfare, and liturgical purposes. The shofar sounded at Mount Sinai during theophany (Exodus 19:16, 19; 20:18), marking divine presence and covenant inauguration. Blown during jubilee to proclaim liberty (Leviticus 25:9), at new moon festivals, and in battle. The shofar's blast summons assembly, announces danger, and heralds divine intervention. Its sound evokes the Aqedah (ram substituted for Isaac) and anticipates eschatological gathering. The shofar represents divine voice penetrating human consciousness.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-19",
+            "ex-20"
+        ]
+    },
+    "shophet": {
+        "hebrew": "שֹׁפֵט",
+        "transliteration": "shophet",
+        "strongs": "H8199",
+        "gloss": "judge, ruler, deliverer",
+        "definition": "A judge or magistrate who renders legal decisions and executes justice. Moses initially judged Israel alone until Jethro advised appointing subordinate judges (Exodus 18:13-26). Judges (shofetim) decided disputes according to Torah and represented YHWH's justice. The term later designated charismatic military deliverers in the pre-monarchic period. YHWH himself is the ultimate shophet (Genesis 18:25; Judges 11:27), and all human judges derive authority from him. The role combines judicial, executive, and sometimes military functions.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-18"
+        ]
+    },
+    "shor": {
+        "hebrew": "שׁוֹר",
+        "transliteration": "shor",
+        "strongs": "H7794",
+        "gloss": "ox, bull, cattle",
+        "definition": "An ox or bull, the primary draft animal and valuable livestock in ancient Israel. Oxen plowed fields, threshed grain, and served as sacrificial animals. The golden calf (egel) at Sinai may have been modeled after bull iconography associated with divine power in Canaanite religion (Exodus 32). Apodictic law protects oxen (Exodus 21:28-36; 23:4-5) and prohibits muzzling them while threshing (Deuteronomy 25:4). The ox symbolizes strength and agricultural prosperity. Cherubim in Ezekiel's vision have ox faces, representing creation's power.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-20",
+            "ex-21",
+            "ex-22",
+            "ex-23"
+        ]
+    },
+    "shoterim": {
+        "hebrew": "שֹׁטְרִים",
+        "transliteration": "shoterim",
+        "strongs": "H7860",
+        "gloss": "officers, foremen, officials",
+        "definition": "Officers, foremen, or officials who supervised labor and maintained order. In Egypt, Israelite shoterim served as intermediaries between Hebrew slaves and Egyptian taskmasters (Exodus 5:6-19), suffering beatings when quotas weren't met. After the Exodus, shoterim functioned as tribal officers assisting judges (Exodus 18:25 context; Deuteronomy 16:18). They organized military camps, enforced judicial decisions, and managed administrative affairs. The role combined supervisory, administrative, and enforcement functions, representing structured governance in Israel's covenant community.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-5"
+        ]
+    },
+    "shulchan": {
+        "hebrew": "שֻׁלְחָן",
+        "transliteration": "shulchan",
+        "strongs": "H7979",
+        "gloss": "table, dining table",
+        "definition": "A table, specifically the Table of the Bread of the Presence (Shulchan Lechem HaPanim) in the tabernacle (Exodus 25:23-30). Constructed of acacia wood overlaid with pure gold, the table held twelve loaves representing the twelve tribes in perpetual covenant fellowship with YHWH. The table stood in the Holy Place opposite the menorah. Fresh bread was placed each Sabbath, with the old bread eaten by priests. The shulchan symbolized God's provision and Israel's sustained communion with the divine presence.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-25",
+            "ex-37"
+        ]
+    },
+    "sinai": {
+        "hebrew": "סִינַי",
+        "transliteration": "sinai",
+        "strongs": "H5514",
+        "gloss": "Sinai, mountain of God",
+        "definition": "Mount Sinai, the mountain of divine revelation where YHWH gave Torah to Israel (Exodus 19-24, 31-34). Also called Horeb, particularly in Deuteronomy. Sinai served as the locus of covenant inauguration, theophany, and the establishment of Israel as YHWH's kingdom of priests. The mountain was sanctified, with boundaries preventing unauthorized approach (Exodus 19:12-13, 21-24). Moses ascended Sinai multiple times, receiving tablets, tabernacle instructions, and covenant renewal. Sinai represents the intersection of heaven and earth, where divine council decisions are communicated to humanity.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-19",
+            "ex-24",
+            "ex-31",
+            "ex-34"
+        ]
+    },
+    "sneh": {
+        "hebrew": "סְנֶה",
+        "transliteration": "sneh",
+        "strongs": "H5572",
+        "gloss": "thornbush, burning bush",
+        "definition": "Alternate spelling of seneh; the thornbush from which YHWH appeared to Moses (Exodus 3:2-4). The bush burned with fire yet was not consumed, manifesting divine presence without destruction. This theophany at Horeb initiated Moses' prophetic commission and revealed the divine name YHWH. The sneh symbolizes Israel—afflicted but not destroyed, bearing divine presence in humble form. Some traditions identify the location as Jebel Musa in the Sinai Peninsula. The burning bush represents God's immanent presence in creation without pantheistic identification.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-3"
+        ]
+    },
+    "succoth": {
+        "hebrew": "סֻכֹּת",
+        "transliteration": "succoth",
+        "strongs": "H5523",
+        "gloss": "Succoth, booths, shelters",
+        "definition": "Succoth (booths or shelters), both a place name and the plural of sukkah. As a location, Succoth was Israel's first encampment after leaving Rameses (Exodus 12:37; 13:20), marking the beginning of the wilderness journey. The site lay in the eastern Nile Delta. The name derives from temporary shelters (sukkot) used by travelers and shepherds. Later, Succoth designated a Transjordanian city (Genesis 33:17). The term connects to the Feast of Tabernacles (Chag HaSukkot), commemorating wilderness wandering.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-12",
+            "ex-13"
+        ]
+    },
+    "sukkot": {
+        "hebrew": "סֻכּוֹת",
+        "transliteration": "sukkot",
+        "strongs": "H5521",
+        "gloss": "booths, tabernacles, shelters",
+        "definition": "Booths or temporary shelters; the Feast of Tabernacles (Chag HaSukkot), the third pilgrimage festival celebrated in the seventh month (Tishrei) after the fall harvest (Exodus 23:16; 34:22; Leviticus 23:33-43). Israel dwells in sukkot for seven days, commemorating wilderness wandering when YHWH sheltered them in temporary dwellings. The festival celebrates agricultural bounty and divine provision. Sukkot emphasizes Israel's dependence on YHWH and the transient nature of earthly dwelling compared to God's eternal presence. The festival anticipates eschatological ingathering of nations.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-23",
+            "ex-34"
+        ]
+    },
+    "kena'an": {
+        "hebrew": "כְּנַעַן",
+        "transliteration": "kenaʿan",
+        "strongs": "H3667",
+        "gloss": "Canaan, land of promise",
+        "definition": "The land promised to Abraham's descendants, bounded by the Mediterranean and Jordan River. Named after Noah's grandson through Ham, representing both a geographical region and its pre-Israelite inhabitants who practiced idolatry.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-9",
+            "gen-12",
+            "gen-15",
+            "gen-17",
+            "exo-3",
+            "exo-6"
+        ]
+    },
+    "keritut": {
+        "hebrew": "כְּרִיתֻת",
+        "transliteration": "kerîtut",
+        "strongs": "H3748",
+        "gloss": "divorce, cutting off",
+        "definition": "A certificate of divorce, literally 'cutting off.' Derived from karat (to cut), indicating the severing of covenant bonds. Used metaphorically for YHWH's relationship with unfaithful Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-2",
+            "gen-3"
+        ]
+    },
+    "kinnim": {
+        "hebrew": "כִּנִּים",
+        "transliteration": "kinnîm",
+        "strongs": "H3654",
+        "gloss": "gnats, lice plague",
+        "definition": "The third plague upon Egypt, possibly gnats or lice produced from dust. Demonstrated YHWH's power over the earth itself, which Egyptian magicians could not replicate, forcing their acknowledgment of 'the finger of God.'",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-8"
+        ]
+    },
+    "kisse": {
+        "hebrew": "כִּסֵּא",
+        "transliteration": "kissēʾ",
+        "strongs": "H3678",
+        "gloss": "throne, seat of authority",
+        "definition": "A throne or seat of royal/divine authority. Represents sovereignty and judgment, used of both earthly kings and YHWH's heavenly throne. Central to divine council imagery and messianic prophecy.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-41",
+            "exo-11",
+            "exo-12",
+            "exo-17"
+        ]
+    },
+    "kiyor": {
+        "hebrew": "כִּיּוֹר",
+        "transliteration": "kiyyôr",
+        "strongs": "H3595",
+        "gloss": "bronze laver, washing basin",
+        "definition": "The bronze basin placed between the Tent of Meeting and altar for priestly washing. Symbolized ritual purification required before approaching YHWH, made from mirrors of serving women.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-30",
+            "exo-38",
+            "exo-40"
+        ]
+    },
+    "kopher_nefesh": {
+        "hebrew": "כֹּפֶר נֶפֶשׁ",
+        "transliteration": "kōper nepeš",
+        "strongs": "H3724/H5315",
+        "gloss": "ransom for life",
+        "definition": "A ransom payment to atone for or redeem a life. Used in census contexts where each person paid half-shekel to prevent plague, acknowledging that life belongs to YHWH and requires redemption.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-30"
+        ]
+    },
+    "lacham": {
+        "hebrew": "לָחַם",
+        "transliteration": "lāḥam",
+        "strongs": "H3898",
+        "gloss": "to fight, wage war",
+        "definition": "To engage in battle or warfare. Used of both physical combat and YHWH fighting on behalf of Israel, as in 'YHWH will fight for you.'",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-1",
+            "exo-14",
+            "exo-17"
+        ]
+    },
+    "lahat": {
+        "hebrew": "לַהַט",
+        "transliteration": "lahaṭ",
+        "strongs": "H3858",
+        "gloss": "flame, flashing blade",
+        "definition": "A flame or flashing sword blade. Describes the revolving sword guarding Eden's entrance, emphasizing its supernatural, consuming nature that prevents human return to the tree of life.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-3"
+        ]
+    },
+    "laqach": {
+        "hebrew": "לָקַח",
+        "transliteration": "lāqaḥ",
+        "strongs": "H3947",
+        "gloss": "to take, receive",
+        "definition": "To take, receive, or acquire. Used in marriage contexts ('took a wife'), covenant making, and YHWH's taking of Enoch. Implies active appropriation or acceptance.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-2",
+            "gen-3",
+            "gen-4",
+            "gen-5",
+            "gen-6",
+            "gen-12",
+            "gen-24",
+            "exo-6",
+            "exo-12",
+            "exo-25"
+        ]
+    },
+    "lavan": {
+        "hebrew": "לָבָן",
+        "transliteration": "lāḇān",
+        "strongs": "H3837",
+        "gloss": "Laban, white",
+        "definition": "Rebekah's brother and Jacob's father-in-law, whose name means 'white.' Known for deception in substituting Leah for Rachel and changing Jacob's wages, yet bound by covenant at Mizpah.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-24",
+            "gen-29",
+            "gen-30",
+            "gen-31"
+        ]
+    },
+    "leah": {
+        "hebrew": "לֵאָה",
+        "transliteration": "lēʾâ",
+        "strongs": "H3812",
+        "gloss": "Leah, weary",
+        "definition": "Jacob's first wife through Laban's deception, mother of six sons including Judah and Levi. Her name possibly means 'weary,' reflecting her unloved status, yet YHWH opened her womb.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-29",
+            "gen-30",
+            "gen-31",
+            "gen-35"
+        ]
+    },
+    "lechem": {
+        "hebrew": "לֶחֶם",
+        "transliteration": "leḥem",
+        "strongs": "H3899",
+        "gloss": "bread, food",
+        "definition": "Bread or food in general, representing sustenance and covenant hospitality. Central to manna provision, Passover unleavened bread, and showbread in the Tabernacle. Bethlehem means 'house of bread.'",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-3",
+            "gen-14",
+            "gen-18",
+            "exo-12",
+            "exo-16",
+            "exo-25"
+        ]
+    },
+    "lechem_hapanim": {
+        "hebrew": "לֶחֶם הַפָּנִים",
+        "transliteration": "leḥem happānîm",
+        "strongs": "H3899+H6440",
+        "gloss": "bread of the Presence",
+        "definition": "The twelve loaves of bread placed weekly on the golden table in the Tabernacle's Holy Place, representing the twelve tribes before YHWH. Consumed only by priests, this perpetual offering symbolized covenant fellowship and divine provision.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-25",
+            "exo-35",
+            "lev-24"
+        ]
+    },
+    "lekhavod_uletifaret": {
+        "hebrew": "לְכָבוֹד וּלְתִפְאָרֶת",
+        "transliteration": "lekhāvôd ûletip'āret",
+        "strongs": "H3519+H8597",
+        "gloss": "for glory and beauty",
+        "definition": "Phrase describing the purpose of the priestly garments, emphasizing both the weightiness (kavod) of sacred office and the splendor (tiferet) befitting service before YHWH. These qualities reflect divine attributes manifested through human mediators.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-28"
+        ]
+    },
+    "lel_shimmurim": {
+        "hebrew": "לֵיל שִׁמֻּרִים",
+        "transliteration": "lêl šimmurîm",
+        "strongs": "H3915+H8107",
+        "gloss": "night of watching",
+        "definition": "The Passover night when YHWH kept vigil over Israel during the Exodus, establishing perpetual commemoration. This term emphasizes divine watchfulness and Israel's reciprocal obligation to observe the festival throughout generations.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-12"
+        ]
+    },
+    "lev_nadav": {
+        "hebrew": "לֵב נָדָב",
+        "transliteration": "lēv nādāv",
+        "strongs": "H3820+H5068",
+        "gloss": "willing heart",
+        "definition": "A heart moved to voluntary generosity, particularly regarding Tabernacle offerings. This phrase emphasizes spontaneous devotion rather than coerced compliance, reflecting the ideal posture for sacred service and covenant loyalty.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-25",
+            "exo-35"
+        ]
+    },
+    "levenim": {
+        "hebrew": "לְבֵנִים",
+        "transliteration": "levēnîm",
+        "strongs": "H3843",
+        "gloss": "bricks",
+        "definition": "Sun-dried or kiln-fired clay blocks used in Egyptian construction, symbolizing Israel's forced labor. The demand for bricks without straw epitomizes Pharaoh's oppression and sets the stage for YHWH's deliverance.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-1",
+            "exo-5"
+        ]
+    },
+    "levi": {
+        "hebrew": "לֵוִי",
+        "transliteration": "lēwî",
+        "strongs": "H3878",
+        "gloss": "joined, attached",
+        "definition": "Third son of Jacob and Leah, ancestor of the priestly tribe. The name derives from lavah (to join), reflecting Leah's hope for attachment to Jacob. Levi's descendants became mediators between YHWH and Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-29",
+            "gen-34",
+            "exo-32"
+        ]
+    },
+    "livnat_hassappir": {
+        "hebrew": "לִבְנַת הַסַּפִּיר",
+        "transliteration": "livnat hassappîr",
+        "strongs": "H3840+H5601",
+        "gloss": "pavement of sapphire",
+        "definition": "The brilliant blue stone surface beneath YHWH's throne seen by Moses and the elders at Sinai, suggesting the heavenly realm's crystalline purity. This theophanic vision connects earthly covenant-making with celestial reality.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-24"
+        ]
+    },
+    "lo_tinaf": {
+        "hebrew": "לֹא תִנְאָף",
+        "transliteration": "lō' tin'āp",
+        "strongs": "H3808+H5003",
+        "gloss": "you shall not commit adultery",
+        "definition": "The seventh commandment prohibiting sexual relations with another's spouse, protecting covenant fidelity within marriage. This command reflects the exclusive loyalty required in Israel's relationship with YHWH.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-20",
+            "deu-5"
+        ]
+    },
+    "lo_tirtsach": {
+        "hebrew": "לֹא תִרְצָח",
+        "transliteration": "lō' tirṣāḥ",
+        "strongs": "H3808+H7523",
+        "gloss": "you shall not murder",
+        "definition": "The sixth commandment prohibiting unlawful killing, specifically murder rather than all taking of life. This preserves the sanctity of human life as bearing the divine image.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-20",
+            "deu-5"
+        ]
+    },
+    "luchot": {
+        "hebrew": "לֻחֹת",
+        "transliteration": "luḥōt",
+        "strongs": "H3871",
+        "gloss": "tablets",
+        "definition": "Stone tablets inscribed by divine finger containing the Ten Commandments, serving as covenant documentation. The breaking and replacement of these tablets dramatizes covenant violation and renewal.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-24",
+            "exo-31",
+            "exo-32",
+            "exo-34"
+        ]
+    },
+    "lukhot": {
+        "hebrew": "לֻחֹת",
+        "transliteration": "luḥōt",
+        "strongs": "H3871",
+        "gloss": "tablets",
+        "definition": "Alternate spelling of luchot. Stone tablets inscribed by divine finger containing the Ten Commandments, serving as covenant documentation. The breaking and replacement of these tablets dramatizes covenant violation and renewal.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-24",
+            "exo-31",
+            "exo-32",
+            "exo-34"
+        ]
+    },
+    "lukhot_shamayim": {
+        "hebrew": "לֻחוֹת שָׁמַיִם",
+        "transliteration": "luḥôt šāmayim",
+        "strongs": "H3871+H8064",
+        "gloss": "heavenly tablets",
+        "definition": "Celestial tablets containing divine decrees and cosmic law, referenced in Second Temple literature (Jubilees, Enoch). These represent the eternal, archetypal law from which earthly Torah derives, emphasizing heaven's authority over earthly covenant.",
+        "language": "hebrew",
+        "chapters_used": [
+            "jub-01",
+            "jub-03",
+            "jub-06"
+        ]
+    },
+    "lun": {
+        "hebrew": "לוּן",
+        "transliteration": "lûn",
+        "strongs": "H3885",
+        "gloss": "to lodge, remain overnight",
+        "definition": "To spend the night, lodge, or remain in a place. Often used in contexts of hospitality or temporary dwelling. Can also carry negative connotations of lingering in complaint or murmuring against authority.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-19",
+            "gen-24",
+            "exo-15",
+            "exo-16"
+        ]
+    },
+    "ma'aser": {
+        "hebrew": "מַעֲשֵׂר",
+        "transliteration": "maʿăśēr",
+        "strongs": "H4643",
+        "gloss": "tithe, tenth part",
+        "definition": "A tenth portion given as an offering to God or for sacred purposes. Established in patriarchal practice and later codified in Torah law. Represents acknowledgment of divine ownership and provision.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-14",
+            "gen-28"
+        ]
+    },
+    "maaseh_bereshit": {
+        "hebrew": "מַעֲשֵׂה בְרֵאשִׁית",
+        "transliteration": "maʿăśēh bərēʾšît",
+        "strongs": "H4639+H7225",
+        "gloss": "work of creation",
+        "definition": "The work or account of creation, referring to Genesis 1-2. In later Jewish mystical tradition, became a technical term for cosmological speculation. Encompasses both the creative acts and the narrative describing them.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "gen-2"
+        ]
+    },
+    "maaser": {
+        "hebrew": "מַעֲשֵׂר",
+        "transliteration": "maʿăśēr",
+        "strongs": "H4643",
+        "gloss": "tithe, tenth part",
+        "definition": "Alternate spelling of ma'aser. A tenth portion given as an offering to God or for sacred purposes. Established in patriarchal practice and later codified in Torah law.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-14",
+            "gen-28"
+        ]
+    },
+    "machah": {
+        "hebrew": "מָחָה",
+        "transliteration": "māḥâ",
+        "strongs": "H4229",
+        "gloss": "to wipe out, blot out",
+        "definition": "To erase, obliterate, or destroy completely. Used of divine judgment in wiping out humanity in the flood and blotting out names or memory. Implies thorough removal or annihilation.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-6",
+            "gen-7",
+            "exo-17",
+            "exo-32"
+        ]
+    },
+    "machatsit_hasheqel": {
+        "hebrew": "מַחֲצִית הַשֶּׁקֶל",
+        "transliteration": "maḥăṣît haššeqel",
+        "strongs": "H4276+H8255",
+        "gloss": "half-shekel offering",
+        "definition": "The half-shekel temple tax required of every Israelite male for sanctuary maintenance. Served as both census mechanism and atonement offering. Symbolized equal standing before God regardless of wealth.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-30",
+            "exo-38"
+        ]
+    },
+    "maggephah": {
+        "hebrew": "מַגֵּפָה",
+        "transliteration": "maggēpâ",
+        "strongs": "H4046",
+        "gloss": "plague, pestilence, blow",
+        "definition": "A divine plague or striking blow, often as judgment. Used of the Egyptian plagues and later pestilences. Implies supernatural causation and collective punishment for covenant violation.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-9",
+            "exo-12",
+            "exo-30"
+        ]
+    },
+    "makhpelah": {
+        "hebrew": "מַכְפֵּלָה",
+        "transliteration": "maḵpēlâ",
+        "strongs": "H4375",
+        "gloss": "cave of Machpelah",
+        "definition": "The cave and field purchased by Abraham as a burial site for Sarah, becoming the patriarchal tomb. Located near Hebron. Name possibly means 'double cave' or refers to the field's doubled price.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-23",
+            "gen-25",
+            "gen-49",
+            "gen-50"
+        ]
+    },
+    "makkeh": {
+        "hebrew": "מַכֶּה",
+        "transliteration": "makkeh",
+        "strongs": "H5221",
+        "gloss": "one who strikes, smites",
+        "definition": "Participle form meaning 'one who strikes' or 'smiter.' Used of God as the one who strikes Egypt with plagues. Emphasizes divine agency in judgment and deliverance.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-12"
+        ]
+    },
+    "makkot": {
+        "hebrew": "מַכּוֹת",
+        "transliteration": "makkôt",
+        "strongs": "H4347",
+        "gloss": "plagues, blows, strikes",
+        "definition": "Plural of makkah, referring to the ten plagues upon Egypt. Represents divine judgment against Egyptian gods and Pharaoh's hardened heart. Demonstrates YHWH's sovereignty over creation and nations.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-7",
+            "exo-8",
+            "exo-9",
+            "exo-10",
+            "exo-11",
+            "exo-12"
+        ]
+    },
+    "mal'akh ha-panim": {
+        "hebrew": "מַלְאַךְ הַפָּנִים",
+        "transliteration": "malʾaḵ happānîm",
+        "strongs": "H4397+H6440",
+        "gloss": "angel of the presence",
+        "definition": "The angel of the (divine) presence or face, representing God's immediate presence with Israel. In Second Temple literature, a high-ranking angel in the divine council. Mediates God's glory and guidance.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-23",
+            "exo-32",
+            "exo-33",
+            "hc-ch02"
+        ]
+    },
+    "mal'akhim": {
+        "hebrew": "מַלְאָכִים",
+        "transliteration": "malʾāḵîm",
+        "strongs": "H4397",
+        "gloss": "messengers, angels",
+        "definition": "Plural of mal'akh, meaning messengers or angels. Members of the divine council who execute God's will. Can refer to human messengers or heavenly beings depending on context.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-19",
+            "gen-28",
+            "gen-32",
+            "exo-23",
+            "hc-ch02"
+        ]
+    },
+    "malaakhim": {
+        "hebrew": "מַלְאָכִים",
+        "transliteration": "mal'āḵîm",
+        "strongs": "H4397",
+        "gloss": "messengers, angels",
+        "definition": "Plural of mal'āḵ; divine messengers or agents of YHWH who execute His will in heaven and earth. In divine council theology, these beings form part of the heavenly host and serve various functions including worship, warfare, and mediation between divine and human realms.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "gen-19",
+            "gen-28",
+            "ex-23"
+        ]
+    },
+    "malakh": {
+        "hebrew": "מַלְאָךְ",
+        "transliteration": "mal'āḵ",
+        "strongs": "H4397",
+        "gloss": "messenger, angel",
+        "definition": "A sent one or messenger, used for both human envoys and divine beings. When referring to heavenly beings, denotes members of YHWH's council who carry out specific missions. The term emphasizes function (messenger) rather than ontology.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-16",
+            "gen-22",
+            "ex-3",
+            "ex-14"
+        ]
+    },
+    "malakh_elohim": {
+        "hebrew": "מַלְאַךְ אֱלֹהִים",
+        "transliteration": "mal'aḵ 'ĕlōhîm",
+        "strongs": "H4397/H430",
+        "gloss": "angel of God",
+        "definition": "Messenger of Elohim; a divine agent sent by God to interact with humans. Distinct from mal'aḵ YHWH in some contexts, though both represent divine presence and authority. Appears in patriarchal narratives and Exodus as guide and protector.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-21",
+            "gen-28",
+            "gen-31",
+            "ex-14"
+        ]
+    },
+    "male": {
+        "hebrew": "מָלֵא",
+        "transliteration": "mālē'",
+        "strongs": "H4390",
+        "gloss": "to fill, be full",
+        "definition": "To fill, fulfill, or complete; used of filling the tabernacle with divine glory, completing ordination rites (lit. 'filling the hand'), and fulfilling time periods. Theologically significant for describing divine presence filling sacred space.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "ex-28",
+            "ex-29",
+            "ex-40"
+        ]
+    },
+    "mamlekhet_kohanim": {
+        "hebrew": "מַמְלֶכֶת כֹּהֲנִים",
+        "transliteration": "mamleket kōhănîm",
+        "strongs": "H4467/H3548",
+        "gloss": "kingdom of priests",
+        "definition": "Israel's covenantal identity at Sinai as a priestly kingdom mediating between YHWH and nations. Combines royal (mamleket) and sacerdotal (kohanim) functions, positioning Israel as YHWH's representative people with both authority and cultic responsibility.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-19"
+        ]
+    },
+    "man_hu": {
+        "hebrew": "מָן הוּא",
+        "transliteration": "mān hû'",
+        "strongs": "H4478",
+        "gloss": "what is it, manna",
+        "definition": "Israelite question 'What is it?' upon seeing the wilderness bread, becoming the name for the miraculous food. Etymology debated; possibly from Egyptian mennu or Aramaic man. Represents divine provision and test of obedience regarding Sabbath.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-16"
+        ]
+    },
+    "mo'adim": {
+        "hebrew": "מוֹעֲדִים",
+        "transliteration": "mô'ădîm",
+        "strongs": "H4150",
+        "gloss": "appointed times, festivals",
+        "definition": "Appointed times or sacred assemblies; YHWH's designated festivals and holy days. Plural of mo'ed, emphasizing divine appointment rather than human calculation. Includes weekly Sabbath and annual pilgrimage feasts marking agricultural and redemptive-historical events.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "ex-23"
+        ]
+    },
+    "olam": {
+        "hebrew": "עוֹלָם",
+        "transliteration": "'ôlām",
+        "strongs": "H5769",
+        "gloss": "eternity, everlasting, ancient time",
+        "definition": "Duration extending beyond normal human perception, either into distant past or indefinite future. Not abstract philosophical eternity but covenantal permanence. Used of eternal covenant (berit olam) and ancient boundaries.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-9",
+            "gen-17",
+            "ex-12",
+            "ex-31"
+        ]
+    },
+    "qedem": {
+        "hebrew": "קֶדֶם",
+        "transliteration": "qedem",
+        "strongs": "H6924",
+        "gloss": "east, ancient time, before",
+        "definition": "The east or ancient time; spatial term for eastward direction (Eden's location) and temporal term for primordial past. Cognate with Akkadian qadmu. In Genesis, the east carries theological significance as direction of exile and origin.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-2",
+            "gen-3",
+            "gen-11"
+        ]
+    },
+    "qetoret": {
+        "hebrew": "קְטֹרֶת",
+        "transliteration": "qeṭōret",
+        "strongs": "H7004",
+        "gloss": "incense, smoke offering",
+        "definition": "Sacred incense burned on the golden altar; specific recipe commanded for tabernacle worship. Represents prayers ascending to YHWH and creates fragrant cloud mediating divine presence. Unauthorized use (qetoret zarah) results in death.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-30",
+            "ex-37"
+        ]
+    },
+    "qiddesh": {
+        "hebrew": "קִדֵּשׁ",
+        "transliteration": "qiddēš",
+        "strongs": "H6942",
+        "gloss": "to consecrate, sanctify, set apart",
+        "definition": "Piel form: to make holy, consecrate, or set apart for sacred use. Applied to people (priests, firstborn), objects (altar, vessels), and time (Sabbath). Denotes transfer from common to sacred status through ritual or divine declaration.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-2",
+            "ex-13",
+            "ex-19",
+            "ex-29"
+        ]
+    },
+    "qinah": {
+        "hebrew": "קִנְאָה",
+        "transliteration": "qin'â",
+        "strongs": "H7068",
+        "gloss": "jealousy, zeal, envy",
+        "definition": "Intense emotion of jealousy or zeal; when attributed to YHWH (el qanna), describes His exclusive covenant loyalty demanding undivided worship. Not petty envy but passionate commitment to relationship. Human qinah can be righteous zeal or sinful jealousy.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-20",
+            "ex-34"
+        ]
+    },
+    "qodesh": {
+        "hebrew": "קֹדֶשׁ",
+        "transliteration": "qōḏeš",
+        "strongs": "H6944",
+        "gloss": "holiness, sacred space",
+        "definition": "Fundamental term for holiness denoting separation from the profane (ḥōl). Designates sacred space, time, or objects consecrated to YHWH. Root q-d-š conveys the concept of being set apart for divine purposes.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-25",
+            "ex-26",
+            "lev-19"
+        ]
+    },
+    "qodesh_haqqodashim": {
+        "hebrew": "קֹדֶשׁ הַקֳּדָשִׁים",
+        "transliteration": "qōḏeš haqqŏḏāšîm",
+        "strongs": "H6944",
+        "gloss": "Holy of Holies",
+        "definition": "Superlative construction meaning 'most holy place,' the innermost sanctuary of the Tabernacle/Temple where the Ark resided. Accessible only to the high priest on Yom Kippur, representing YHWH's throne room on earth.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-26",
+            "lev-16"
+        ]
+    },
+    "qodesh_layhwh": {
+        "hebrew": "קֹדֶשׁ לַיהוָה",
+        "transliteration": "qōḏeš laYHWH",
+        "strongs": "H6944",
+        "gloss": "holy to YHWH",
+        "definition": "Dedicatory formula inscribed on the high priest's turban and used for consecrated objects. Indicates exclusive ownership and devotion to YHWH, marking items as withdrawn from common use.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-28",
+            "ex-39"
+        ]
+    },
+    "raav": {
+        "hebrew": "רָעָב",
+        "transliteration": "rāʿāḇ",
+        "strongs": "H7458",
+        "gloss": "famine, hunger",
+        "definition": "Severe food scarcity often presented as divine judgment or testing. Drives patriarchal migrations (Gen 12:10, 26:1) and Joseph narrative. Can signal covenant curse or prompt dependence on YHWH's provision.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-12",
+            "gen-26",
+            "gen-41"
+        ]
+    },
+    "rabah": {
+        "hebrew": "רָבָה",
+        "transliteration": "rāḇâ",
+        "strongs": "H7235",
+        "gloss": "multiply, increase greatly",
+        "definition": "Verb expressing numerical increase, central to creation mandate (Gen 1:28) and Abrahamic promises. Used for human reproduction, animal proliferation, and Israel's growth in Egypt despite oppression.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "gen-17",
+            "ex-1"
+        ]
+    },
+    "rachel": {
+        "hebrew": "רָחֵל",
+        "transliteration": "rāḥēl",
+        "strongs": "H7354",
+        "gloss": "Rachel, ewe",
+        "definition": "Jacob's beloved wife, mother of Joseph and Benjamin. Name means 'ewe,' reflecting pastoral context. Her barrenness and eventual fertility parallel Sarah's narrative, establishing tribal legitimacy through divine intervention.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-29",
+            "gen-30",
+            "gen-35"
+        ]
+    },
+    "rachum_vechanun": {
+        "hebrew": "רַחוּם וְחַנּוּן",
+        "transliteration": "raḥûm wəḥannûn",
+        "strongs": "H7349, H2587",
+        "gloss": "compassionate and gracious",
+        "definition": "Paired divine attributes from YHWH's self-revelation (Ex 34:6). Raḥûm derives from reḥem (womb), suggesting maternal compassion; ḥannûn indicates unmerited favor. Forms core of Israel's covenant theology.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-34"
+        ]
+    },
+    "raphah": {
+        "hebrew": "רָפָה",
+        "transliteration": "rāp̄â",
+        "strongs": "H7503",
+        "gloss": "sink down, relax",
+        "definition": "Verb meaning to become weak, slack, or discouraged. Used for failing hands in battle (Ex 17:12) and losing courage. Opposite of ḥāzaq (strengthen). Can indicate physical or spiritual weakening.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-17"
+        ]
+    },
+    "rasha": {
+        "hebrew": "רָשָׁע",
+        "transliteration": "rāšāʿ",
+        "strongs": "H7563",
+        "gloss": "wicked, guilty one",
+        "definition": "Adjective/noun for the morally guilty who violate covenant standards. Contrasts with ṣaddîq (righteous). Denotes active wrongdoing rather than mere error, meriting divine judgment and exclusion from covenant community.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-18",
+            "ex-23"
+        ]
+    },
+    "reuven": {
+        "hebrew": "רְאוּבֵן",
+        "transliteration": "rəʾûḇēn",
+        "strongs": "H7205",
+        "gloss": "Reuben, see-a-son",
+        "definition": "Jacob's firstborn by Leah, named 'see, a son' (Gen 29:32). Lost birthright privileges through sexual transgression (Gen 35:22). Tribe settled east of Jordan, showing ambiguous loyalty in Israel's history.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-29",
+            "gen-35",
+            "gen-37"
+        ]
+    },
+    "riv": {
+        "hebrew": "רִיב",
+        "transliteration": "rîḇ",
+        "strongs": "H7379",
+        "gloss": "legal dispute, controversy",
+        "definition": "Noun for covenant lawsuit or formal accusation. Used in prophetic judgment oracles where YHWH brings charges against Israel. Implies legal proceedings with witnesses, evidence, and verdict within covenant framework.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-17",
+            "ex-23"
+        ]
+    },
+    "rivqah": {
+        "hebrew": "רִבְקָה",
+        "transliteration": "riḇqâ",
+        "strongs": "H7259",
+        "gloss": "Rebekah, ensnarer",
+        "definition": "Isaac's wife, mother of Esau and Jacob. Chosen through divine providence (Gen 24), she actively shapes covenant succession by orchestrating Jacob's blessing. Name possibly from rbq (tie/bind), reflecting her decisive role.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-24",
+            "gen-25",
+            "gen-27"
+        ]
+    },
+    "rophe": {
+        "hebrew": "רֹפֵא",
+        "transliteration": "rōpēʾ",
+        "strongs": "H7495",
+        "gloss": "healer, physician",
+        "definition": "Participle of rāpāʾ meaning 'to heal.' YHWH identifies as 'YHWH your healer' (Exod 15:26), establishing divine authority over health and restoration. The term encompasses physical healing, spiritual restoration, and covenant faithfulness.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-15"
+        ]
+    },
+    "ruach_elohim": {
+        "hebrew": "רוּחַ אֱלֹהִים",
+        "transliteration": "rûaḥ ʾĕlōhîm",
+        "strongs": "H7307+H430",
+        "gloss": "Spirit of God",
+        "definition": "The divine wind/breath/spirit hovering over primordial waters (Gen 1:2). In divine council theology, represents God's active presence and creative power. Can denote prophetic inspiration (Num 24:2) or empowerment for leadership (Judg 3:10).",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "exo-31"
+        ]
+    },
+    "ruach_qadim": {
+        "hebrew": "רוּחַ קָדִים",
+        "transliteration": "rûaḥ qādîm",
+        "strongs": "H7307+H6921",
+        "gloss": "east wind",
+        "definition": "The scorching wind from the east, often instrument of divine judgment. Drives back the sea at the Exodus (Exod 14:21) and brings locusts (Exod 10:13). Represents God's sovereign control over natural forces for covenant purposes.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-41",
+            "exo-10",
+            "exo-14"
+        ]
+    },
+    "saphah_ekhat": {
+        "hebrew": "שָׂפָה אֶחָת",
+        "transliteration": "śāpâ ʾeḥāṯ",
+        "strongs": "H8193+H259",
+        "gloss": "one language",
+        "definition": "The unified speech of humanity before Babel (Gen 11:1). Represents human solidarity that enabled collective rebellion against divine authority. YHWH's confusion of language (Gen 11:7-9) fragments this unity, dispersing nations under assigned divine sons.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-11"
+        ]
+    },
+    "sar_ha_mastemah": {
+        "hebrew": "שַׂר הַמַּשְׂטֵמָה",
+        "transliteration": "śar ham-maśṭēmâ",
+        "strongs": "H8269+H4960",
+        "gloss": "prince of enmity",
+        "definition": "Title in Jubilees for the chief accusing angel, identified with Satan/Belial. Functions as divine prosecutor and tempter, permitted to test Israel. Represents the hostile spiritual authority opposing God's covenant people within the heavenly court framework.",
+        "language": "hebrew",
+        "chapters_used": [
+            "jub-10",
+            "jub-17",
+            "jub-48"
+        ]
+    },
+    "sedom": {
+        "hebrew": "סְדֹם",
+        "transliteration": "səḏōm",
+        "strongs": "H5467",
+        "gloss": "Sodom",
+        "definition": "City destroyed by divine fire for wickedness (Gen 19). Its sin involved injustice, pride, and violation of hospitality (Ezek 16:49). Becomes paradigmatic example of divine judgment against covenant-breaking communities.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-13",
+            "gen-18",
+            "gen-19"
+        ]
+    },
+    "sefer": {
+        "hebrew": "סֵפֶר",
+        "transliteration": "sēper",
+        "strongs": "H5612",
+        "gloss": "book, scroll, document",
+        "definition": "Written document or scroll. Used for covenant texts (Exod 24:7), genealogies (Gen 5:1), and legal records. Emphasizes permanence and authority of written revelation, distinguishing Israel's textual covenant from oral traditions.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-5",
+            "exo-17",
+            "exo-24"
+        ]
+    },
+    "segullah": {
+        "hebrew": "סְגֻלָּה",
+        "transliteration": "səḡullâ",
+        "strongs": "H5459",
+        "gloss": "treasured possession",
+        "definition": "Royal treasure or prized possession. Israel designated as YHWH's segullah among all peoples (Exod 19:5), indicating special covenant status. Implies both privilege and responsibility as God's chosen nation within the divine council's administration.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-19"
+        ]
+    },
+    "seh": {
+        "hebrew": "שֶׂה",
+        "transliteration": "śeh",
+        "strongs": "H7716",
+        "gloss": "lamb, sheep, goat",
+        "definition": "Small livestock used for Passover sacrifice (Exod 12:3-5). Must be unblemished male, symbolizing purity and substitutionary atonement. The Passover seh's blood marks Israelite households for protection from divine judgment.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-22",
+            "exo-12"
+        ]
+    },
+    "seirim": {
+        "hebrew": "שְׂעִירִים",
+        "transliteration": "śəʿîrîm",
+        "strongs": "H8163",
+        "gloss": "goat-demons, satyrs",
+        "definition": "Hairy demons or goat-idols worshiped in wilderness (Lev 17:7). Represents illicit spiritual powers Israel encountered in Egypt. Prohibition against sacrificing to seirim establishes YHWH's exclusive claim over Israel's worship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "lev-17"
+        ]
+    },
+    "selav": {
+        "hebrew": "שְׂלָו",
+        "transliteration": "səlāw",
+        "strongs": "H7958",
+        "gloss": "quail",
+        "definition": "Migratory birds provided as meat in wilderness (Exod 16:13, Num 11:31-32). Divine provision testing Israel's contentment with God's sustenance. The abundance becomes judgment when consumed in greed (Num 11:33).",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-16",
+            "num-11"
+        ]
+    },
+    "sullam": {
+        "hebrew": "סֻלָּם",
+        "transliteration": "sullām",
+        "strongs": "H5551",
+        "gloss": "ladder, stairway",
+        "definition": "Jacob's ladder at Bethel (Gen 28:12) connecting heaven and earth, with angels ascending/descending. Represents the axis mundi where divine and human realms intersect. Establishes Bethel as sacred space where the divine council's messengers access earth.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-28"
+        ]
+    },
+    "tamar": {
+        "hebrew": "תָּמָר",
+        "transliteration": "tāmār",
+        "strongs": "H8559",
+        "gloss": "palm tree, date palm",
+        "definition": "A palm tree, especially the date palm, symbolizing righteousness and fertility in biblical imagery. Also used as a proper name for Judah's daughter-in-law who secured her levirate rights through deception (Gen 38).",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-38"
+        ]
+    },
+    "tamid": {
+        "hebrew": "תָּמִיד",
+        "transliteration": "tāmîd",
+        "strongs": "H8548",
+        "gloss": "continual, perpetual offering",
+        "definition": "The daily burnt offering presented morning and evening in the tabernacle/temple, representing Israel's perpetual covenant relationship with YHWH. Extended to mean 'continually' or 'regularly' in ritual contexts.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-29"
+        ]
+    },
+    "tannin": {
+        "hebrew": "תַּנִּין",
+        "transliteration": "tannîn",
+        "strongs": "H8577",
+        "gloss": "sea monster, dragon, serpent",
+        "definition": "Large aquatic creatures or serpents, often associated with chaos waters in creation accounts. In divine council theology, represents cosmic forces subdued by YHWH's creative power (Gen 1:21; Ps 74:13).",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1"
+        ]
+    },
+    "tavnit": {
+        "hebrew": "תַּבְנִית",
+        "transliteration": "taḇnît",
+        "strongs": "H8403",
+        "gloss": "pattern, model, structure",
+        "definition": "The heavenly pattern or blueprint shown to Moses on Sinai for constructing the tabernacle (Exod 25:9). Implies earthly sanctuary mirrors divine cosmic temple, linking terrestrial worship to heavenly reality.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-25"
+        ]
+    },
+    "teben": {
+        "hebrew": "תֶּבֶן",
+        "transliteration": "teḇen",
+        "strongs": "H8401",
+        "gloss": "straw, chaff",
+        "definition": "Straw used in brick-making or as animal fodder. Pharaoh's demand that Israelites gather their own straw while maintaining brick quotas exemplifies oppressive labor intensification (Exod 5:7-18).",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-5"
+        ]
+    },
+    "techiyyat_ha_metim": {
+        "hebrew": "תְּחִיַּת הַמֵּתִים",
+        "transliteration": "tᵉḥiyyaṯ ham-mēṯîm",
+        "strongs": "H8454/H4191",
+        "gloss": "resurrection of the dead",
+        "definition": "The eschatological restoration of the dead to bodily life, developed in Second Temple Judaism and reflected in Daniel 12:2. Became central to Pharisaic theology and early Christian proclamation.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1"
+        ]
+    },
+    "tekhelet": {
+        "hebrew": "תְּכֵלֶת",
+        "transliteration": "tᵉḵēleṯ",
+        "strongs": "H8504",
+        "gloss": "blue-violet dye, azure",
+        "definition": "Precious blue-purple dye from murex snails, used extensively in tabernacle textiles and priestly garments. Its heavenly color symbolized divine presence and royal authority (Exod 25-28).",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-25",
+            "exo-26",
+            "exo-28"
+        ]
+    },
+    "tequfah": {
+        "hebrew": "תְּקוּפָה",
+        "transliteration": "tᵉqûp̄â",
+        "strongs": "H8622",
+        "gloss": "circuit, season, cycle",
+        "definition": "A complete cycle or appointed time, particularly the solar year's circuit. Used for seasonal transitions and calendrical reckonings in Israel's agricultural-liturgical calendar.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1"
+        ]
+    },
+    "terafim": {
+        "hebrew": "תְּרָפִים",
+        "transliteration": "tᵉrāp̄îm",
+        "strongs": "H8655",
+        "gloss": "household gods, idols",
+        "definition": "Household idols or figurines used for divination and representing ancestral claims to inheritance. Rachel's theft of Laban's teraphim (Gen 31:19) may have involved property rights disputes.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-31"
+        ]
+    },
+    "terumah": {
+        "hebrew": "תְּרוּמָה",
+        "transliteration": "tᵉrûmâ",
+        "strongs": "H8641",
+        "gloss": "contribution, offering, heave-offering",
+        "definition": "A voluntary contribution lifted up or set apart for sacred use, especially materials for tabernacle construction (Exod 25:2). Denotes both the act of giving and the consecrated gift itself.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-25"
+        ]
+    },
+    "tevunah": {
+        "hebrew": "תְּבוּנָה",
+        "transliteration": "tᵉḇûnâ",
+        "strongs": "H8394",
+        "gloss": "understanding, discernment, intelligence",
+        "definition": "Practical wisdom and discernment, often paired with chokmah (wisdom). Bezalel received divine tevunah for crafting the tabernacle (Exod 36:1), showing skill as Spirit-endowed gift.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-31",
+            "exo-36"
+        ]
+    },
+    "tolaat_shani": {
+        "hebrew": "תּוֹלַעַת שָׁנִי",
+        "transliteration": "tôlaʿaṯ šānî",
+        "strongs": "H8438/H8144",
+        "gloss": "scarlet worm, crimson dye",
+        "definition": "Crimson dye derived from the coccus worm, used in tabernacle textiles and purification rituals. The worm's life-death cycle producing red dye carried symbolic associations with sacrifice and atonement.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-25",
+            "exo-26"
+        ]
+    },
+    "totafot": {
+        "hebrew": "טֹטָפֹת",
+        "transliteration": "ṭōṭāp̄ōṯ",
+        "strongs": "H2903",
+        "gloss": "frontlets, phylacteries",
+        "definition": "Bound objects worn on the forehead containing Torah passages (Exod 13:16, Deut 6:8). Etymology uncertain, possibly Egyptian loan-word. Later developed into tefillin practice in Second Temple Judaism.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-13",
+            "deut-06"
+        ]
+    },
+    "tsaddiq": {
+        "hebrew": "צַדִּיק",
+        "transliteration": "ṣaddîq",
+        "strongs": "H6662",
+        "gloss": "righteous one, just",
+        "definition": "One who is righteous, just, or in right standing with God and community. Root ṣ-d-q denotes conformity to divine standard. Key term in Wisdom literature and prophetic judgment oracles (Gen 18:23-26, Ezek 18).",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-18",
+            "ezek-18"
+        ]
+    },
+    "tsaraat": {
+        "hebrew": "צָרַעַת",
+        "transliteration": "ṣāraʿaṯ",
+        "strongs": "H6883",
+        "gloss": "skin disease, scale-disease",
+        "definition": "Ritually defiling skin condition (Lev 13-14), traditionally mistranslated 'leprosy.' Includes various dermatological conditions requiring priestly diagnosis. Symbolizes impurity requiring isolation and purification rituals.",
+        "language": "hebrew",
+        "chapters_used": [
+            "lev-13",
+            "lev-14"
+        ]
+    },
+    "tseaqah": {
+        "hebrew": "צְעָקָה",
+        "transliteration": "ṣəʿāqâ",
+        "strongs": "H6818",
+        "gloss": "outcry, cry for help",
+        "definition": "Loud cry of distress or appeal for justice (Gen 18:21, Exod 3:7). Often denotes oppressed crying to YHWH for deliverance. Root ṣ-ʿ-q implies urgent, desperate vocalization demanding divine response.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-18",
+            "exod-03"
+        ]
+    },
+    "tsefardea": {
+        "hebrew": "צְפַרְדֵּעַ",
+        "transliteration": "ṣəp̄ardēaʿ",
+        "strongs": "H6854",
+        "gloss": "frog",
+        "definition": "Amphibian featured in second Egyptian plague (Exod 8:2-14). Frogs were associated with Egyptian fertility goddess Heqet, making plague a direct challenge to Egyptian pantheon. Symbol of unclean spirits in Revelation 16:13.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-08"
+        ]
+    },
+    "tseva": {
+        "hebrew": "צָבָא",
+        "transliteration": "ṣāḇāʾ",
+        "strongs": "H6633",
+        "gloss": "to wage war, serve",
+        "definition": "Verb meaning to serve in organized capacity, especially military service or cultic duty (Num 4:23, 8:24). Root of ṣəḇāʾôṯ (hosts). Denotes structured, disciplined service under authority.",
+        "language": "hebrew",
+        "chapters_used": [
+            "num-04",
+            "num-08"
+        ]
+    },
+    "tsits": {
+        "hebrew": "צִיץ",
+        "transliteration": "ṣîṣ",
+        "strongs": "H6731",
+        "gloss": "flower, plate, diadem",
+        "definition": "Gold plate worn on high priest's turban inscribed 'Holy to YHWH' (Exod 28:36-38). Also means blossom or flower. Symbolizes consecration and Aaron's bearing Israel's guilt regarding holy things.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-28",
+            "exod-39"
+        ]
+    },
+    "tsur": {
+        "hebrew": "צוּר",
+        "transliteration": "ṣûr",
+        "strongs": "H6697",
+        "gloss": "rock, cliff, refuge",
+        "definition": "Rock or boulder, frequently metaphor for God as immovable refuge and strength (Deut 32:4, Ps 18:2). Cognate with Ugaritic ṣr. Emphasizes divine stability, protection, and permanence versus human frailty.",
+        "language": "hebrew",
+        "chapters_used": [
+            "deut-32",
+            "ps-18"
+        ]
+    },
+    "tzadoq": {
+        "hebrew": "צָדוֹק",
+        "transliteration": "ṣāḏôq",
+        "strongs": "H6659",
+        "gloss": "Zadok, righteous",
+        "definition": "High priest under David and Solomon (2 Sam 15:24-29, 1 Kgs 1:8). Name means 'righteous.' Zadokite priesthood became dominant line in Jerusalem temple. Qumran community claimed Zadokite legitimacy.",
+        "language": "hebrew",
+        "chapters_used": [
+            "2sam-15",
+            "1kgs-01"
+        ]
+    },
+    "tzavvaah": {
+        "hebrew": "צַוָּאָה",
+        "transliteration": "ṣawwāʾâ",
+        "strongs": "H6673",
+        "gloss": "command, charge, precept",
+        "definition": "Authoritative command or instruction, especially divine commandment (Gen 49:29, Deut 33:4). Related to ṣiwwâ (to command). Denotes binding directive requiring obedience, often in covenantal or testamentary contexts.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-49",
+            "deut-33"
+        ]
+    },
+    "tzedaqah": {
+        "hebrew": "צְדָקָה",
+        "transliteration": "ṣəḏāqâ",
+        "strongs": "H6666",
+        "gloss": "righteousness, justice, charity",
+        "definition": "Righteousness or right action conforming to divine standard (Gen 15:6, Deut 6:25). Later developed meaning of charitable giving. Root ṣ-d-q encompasses both forensic justification and ethical conduct in covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-15",
+            "deut-06"
+        ]
+    },
+    "tzevaot": {
+        "hebrew": "צְבָאוֹת",
+        "transliteration": "ṣəḇāʾôṯ",
+        "strongs": "H6635",
+        "gloss": "hosts, armies",
+        "definition": "Plural of ṣāḇāʾ meaning armies or hosts. In 'YHWH Ṣəḇāʾôṯ' (LORD of Hosts), refers to divine council, angelic armies, and/or celestial bodies under God's command (1 Sam 17:45). Emphasizes cosmic sovereignty.",
+        "language": "hebrew",
+        "chapters_used": [
+            "1sam-17",
+            "isa-06"
+        ]
+    },
+    "tzitz": {
+        "hebrew": "צִיץ",
+        "transliteration": "ṣîṣ",
+        "strongs": "H6731",
+        "gloss": "flower, plate, diadem",
+        "definition": "The golden plate worn on the high priest's turban inscribed with 'Holy to YHWH' (Exod 28:36-38). Symbolizes the priest's role in bearing Israel's iniquity and consecrating offerings before God.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-28",
+            "exod-39"
+        ]
+    },
+    "ur_kasdim": {
+        "hebrew": "אוּר כַּשְׂדִּים",
+        "transliteration": "ʾûr kaśdîm",
+        "strongs": "H218, H3778",
+        "gloss": "Ur of the Chaldeans",
+        "definition": "Abraham's ancestral city in southern Mesopotamia (Gen 11:28-31). Archaeological site identified with Tell el-Muqayyar in modern Iraq, a major Sumerian urban center devoted to the moon god Sin.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-11",
+            "gen-15"
+        ]
+    },
+    "urim_vetummim": {
+        "hebrew": "אוּרִים וְתֻמִּים",
+        "transliteration": "ʾûrîm wǝtummîm",
+        "strongs": "H224, H8550",
+        "gloss": "lights and perfections",
+        "definition": "Sacred lots placed in the high priest's breastplate for discerning divine will (Exod 28:30). Mechanism unknown; likely binary oracle system providing yes/no answers to covenant questions.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-28",
+            "lev-8"
+        ]
+    },
+    "ya'akov": {
+        "hebrew": "יַעֲקֹב",
+        "transliteration": "yaʿăqōḇ",
+        "strongs": "H3290",
+        "gloss": "Jacob, heel-grabber",
+        "definition": "Third patriarch, son of Isaac, renamed Israel after wrestling with the divine being at Peniel (Gen 32:28). Name derives from ʿāqēḇ (heel), referencing his birth grasping Esau's heel and his cunning character.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-25",
+            "gen-27",
+            "gen-28",
+            "gen-32",
+            "gen-35"
+        ]
+    },
+    "yaaqov": {
+        "hebrew": "יַעֲקֹב",
+        "transliteration": "yaʿăqōḇ",
+        "strongs": "H3290",
+        "gloss": "Jacob, supplanter",
+        "definition": "Alternate transliteration of Jacob. The name connects to both ʿāqēḇ (heel) and ʿāqaḇ (to supplant), reflecting his acquisition of Esau's birthright and blessing through deception.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-25",
+            "gen-27",
+            "gen-32"
+        ]
+    },
+    "yada": {
+        "hebrew": "יָדַע",
+        "transliteration": "yāḏaʿ",
+        "strongs": "H3045",
+        "gloss": "to know intimately",
+        "definition": "Verb encompassing experiential knowledge, sexual intimacy, and covenant relationship. Used for Adam 'knowing' Eve (Gen 4:1) and Israel 'knowing' YHWH through covenant experience, not mere intellectual awareness.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-3",
+            "gen-4",
+            "exod-6"
+        ]
+    },
+    "yam_suf": {
+        "hebrew": "יַם־סוּף",
+        "transliteration": "yam-sûp̄",
+        "strongs": "H3220, H5488",
+        "gloss": "Sea of Reeds",
+        "definition": "Body of water YHWH divided for Israel's exodus (Exod 13-15). Traditionally 'Red Sea,' but sûp̄ means 'reeds,' suggesting marshy region near Egypt's eastern border, possibly Lake Timsah or Bitter Lakes.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-13",
+            "exod-14",
+            "exod-15"
+        ]
+    },
+    "yare": {
+        "hebrew": "יָרֵא",
+        "transliteration": "yārēʾ",
+        "strongs": "H3372",
+        "gloss": "to fear, revere",
+        "definition": "Verb expressing fear, awe, and reverence. Ranges from terror before enemies to covenant reverence before God. 'Fear of YHWH' denotes proper worship posture combining awe, obedience, and trust.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-15",
+            "gen-22",
+            "exod-1",
+            "exod-14"
+        ]
+    },
+    "yare_elohim": {
+        "hebrew": "יְרֵא אֱלֹהִים",
+        "transliteration": "yǝrēʾ ʾĕlōhîm",
+        "strongs": "H3373, H430",
+        "gloss": "God-fearer, reverent one",
+        "definition": "One who fears/reveres God, demonstrating covenant loyalty through obedience. Applied to midwives who defied Pharaoh (Exod 1:17) and Abraham at the Akedah (Gen 22:12), indicating ethical action rooted in divine reverence.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-22",
+            "exod-1"
+        ]
+    },
+    "yareakh": {
+        "hebrew": "יָרֵחַ",
+        "transliteration": "yārēaḥ",
+        "strongs": "H3394",
+        "gloss": "moon, month",
+        "definition": "The moon, created as lesser light to govern night (Gen 1:16). Determines Israel's liturgical calendar and festivals. Ancient Near Eastern cultures deified the moon (Sin, Yarikh), but Genesis demotes it to created timekeeper.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "exod-12"
+        ]
+    },
+    "yasha": {
+        "hebrew": "יָשַׁע",
+        "transliteration": "yāšaʿ",
+        "strongs": "H3467",
+        "gloss": "to save, deliver",
+        "definition": "Verb meaning to save, deliver, or grant victory. Root of Yeshua (Jesus). YHWH as Savior delivers Israel from Egypt (Exod 14:30), establishing pattern of divine rescue from oppression and enemies.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-14",
+            "exod-15"
+        ]
+    },
+    "yatom": {
+        "hebrew": "יָתוֹם",
+        "transliteration": "yāṯôm",
+        "strongs": "H3490",
+        "gloss": "orphan, fatherless",
+        "definition": "Fatherless child, member of vulnerable triad (orphan-widow-stranger) requiring covenant protection. Torah legislation mandates justice and provision for orphans, reflecting YHWH's character as defender of the powerless.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exod-22"
+        ]
+    },
+    "ye_or": {
+        "hebrew": "יְאֹר",
+        "transliteration": "yᵉʾōr",
+        "strongs": "H2975",
+        "gloss": "Nile river, stream",
+        "definition": "Egyptian loanword referring to the Nile River or its canals. In Exodus, the site of Moses' rescue and the first plague turning water to blood. Represents Egypt's life source and divine power.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-01",
+            "ex-02",
+            "ex-07"
+        ]
+    },
+    "yehudah": {
+        "hebrew": "יְהוּדָה",
+        "transliteration": "yᵉhûdâ",
+        "strongs": "H3063",
+        "gloss": "Judah, praised one",
+        "definition": "Fourth son of Jacob and Leah, meaning 'praised.' Ancestor of the royal Davidic line and the Messiah. His intercession for Benjamin (Gen 44) demonstrates transformation from selling Joseph to self-sacrifice.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-29",
+            "gen-37",
+            "gen-38",
+            "gen-44",
+            "gen-49"
+        ]
+    },
+    "yeled": {
+        "hebrew": "יֶלֶד",
+        "transliteration": "yeled",
+        "strongs": "H3206",
+        "gloss": "child, boy, son",
+        "definition": "Male child or young boy. Used of Moses at birth (Ex 2:3) and Isaac as the promised 'child' (Gen 21:8). Emphasizes vulnerability and covenant promise through offspring.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-21",
+            "ex-01",
+            "ex-02"
+        ]
+    },
+    "yeri'ot": {
+        "hebrew": "יְרִיעֹת",
+        "transliteration": "yᵉrîʿōṯ",
+        "strongs": "H3407",
+        "gloss": "curtains, tent cloths",
+        "definition": "Curtains or tent panels forming the Tabernacle covering. Made of fine linen with cherubim designs (Ex 26:1), representing the heavenly dwelling place made visible on earth.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-26",
+            "ex-36"
+        ]
+    },
+    "yeriot": {
+        "hebrew": "יְרִיעֹת",
+        "transliteration": "yᵉrîʿōṯ",
+        "strongs": "H3407",
+        "gloss": "curtains, tent cloths",
+        "definition": "Alternate spelling. Curtains or tent panels forming the Tabernacle covering. Made of fine linen with cherubim designs (Ex 26:1), representing the heavenly dwelling place made visible on earth.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-26",
+            "ex-36"
+        ]
+    },
+    "yeshuah": {
+        "hebrew": "יְשׁוּעָה",
+        "transliteration": "yᵉšûʿâ",
+        "strongs": "H3444",
+        "gloss": "salvation, deliverance, victory",
+        "definition": "Divine deliverance or salvation, especially military victory. Root of the name Joshua/Jesus. Celebrated at the Red Sea (Ex 15:2) as YHWH's saving act from Egyptian bondage.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-14",
+            "ex-15"
+        ]
+    },
+    "yhwh_nissi": {
+        "hebrew": "יְהוָה נִסִּי",
+        "transliteration": "yhwh nissî",
+        "strongs": "H3071",
+        "gloss": "YHWH is my banner",
+        "definition": "Name of the altar Moses built after defeating Amalek (Ex 17:15). Declares YHWH as the rallying standard and source of victory in holy war against those who oppose His people.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-17"
+        ]
+    },
+    "yishmael": {
+        "hebrew": "יִשְׁמָעֵאל",
+        "transliteration": "yišmāʿēʾl",
+        "strongs": "H3458",
+        "gloss": "God hears",
+        "definition": "Son of Abraham and Hagar, meaning 'God hears.' Though not the covenant heir, God promises to make him a great nation (Gen 21:13). Represents divine compassion beyond covenant boundaries.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-16",
+            "gen-17",
+            "gen-21",
+            "gen-25"
+        ]
+    },
+    "yitro": {
+        "hebrew": "יִתְרוֹ",
+        "transliteration": "yiṯrô",
+        "strongs": "H3503",
+        "gloss": "Jethro, excellence",
+        "definition": "Priest of Midian and Moses' father-in-law, meaning 'his excellence.' Recognizes YHWH's supremacy (Ex 18:11) and advises Moses on judicial delegation, showing wisdom from outside Israel.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-02",
+            "ex-03",
+            "ex-18"
+        ]
+    },
+    "yitschaq": {
+        "hebrew": "יִצְחָק",
+        "transliteration": "yiṣḥāq",
+        "strongs": "H3327",
+        "gloss": "Isaac, he laughs",
+        "definition": "Son of Abraham and Sarah, meaning 'he laughs,' recalling Sarah's laughter at the promise. The covenant heir whose near-sacrifice (Aqedah) tests Abraham's faith and prefigures substitutionary atonement.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-17",
+            "gen-21",
+            "gen-22",
+            "gen-24",
+            "gen-26"
+        ]
+    },
+    "yitzhaq": {
+        "hebrew": "יִצְחָק",
+        "transliteration": "yiṣḥāq",
+        "strongs": "H3327",
+        "gloss": "Isaac, he laughs",
+        "definition": "Alternate spelling. Son of Abraham and Sarah, meaning 'he laughs.' The covenant heir whose near-sacrifice (Aqedah) tests Abraham's faith and prefigures substitutionary atonement.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-17",
+            "gen-21",
+            "gen-22",
+            "gen-24",
+            "gen-26"
+        ]
+    },
+    "yokheved": {
+        "hebrew": "יוֹכֶבֶד",
+        "transliteration": "yôḵeḇeḏ",
+        "strongs": "H3115",
+        "gloss": "YHWH is glory",
+        "definition": "Mother of Moses, Aaron, and Miriam, meaning 'YHWH is glory.' Her faith in hiding Moses (Ex 2:2) preserves Israel's deliverer. First biblical name compounded with YHWH.",
+        "language": "hebrew",
+        "chapters_used": [
+            "ex-02",
+            "ex-06"
+        ]
+    },
+    "yom_yhwh": {
+        "hebrew": "יוֹם יְהוָה",
+        "transliteration": "yôm yhwh",
+        "strongs": "H3117+H3068",
+        "gloss": "Day of the LORD",
+        "definition": "Eschatological day of divine judgment and intervention when YHWH acts decisively in history. Prophetic literature depicts it as a time of cosmic upheaval, darkness, and the establishment of divine justice, often associated with theophanic warfare imagery.",
+        "language": "hebrew",
+        "chapters_used": []
+    },
+    "yomei_ha_olam": {
+        "hebrew": "יְמֵי הָעוֹלָם",
+        "transliteration": "yəmê hāʿôlām",
+        "strongs": "H3117+H5769",
+        "gloss": "days of old/eternity",
+        "definition": "Temporal phrase referring to ancient times or primordial ages. Used in Deuteronomy 32:7 to invoke ancestral memory and divine acts in Israel's distant past, emphasizing continuity of covenant relationship across generations.",
+        "language": "hebrew",
+        "chapters_used": []
+    },
+    "yosef": {
+        "hebrew": "יוֹסֵף",
+        "transliteration": "yôsēp̄",
+        "strongs": "H3130",
+        "gloss": "Joseph, he adds",
+        "definition": "Son of Jacob and Rachel, sold into Egyptian slavery, later elevated to vizier. His name means 'he adds/increases,' reflecting Rachel's hope for another son (Gen 30:24). Joseph's narrative demonstrates divine providence through suffering and foreshadows Israel's Egyptian sojourn.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-37",
+            "gen-39",
+            "gen-41",
+            "gen-50"
+        ]
+    },
+    "yovel": {
+        "hebrew": "יוֹבֵל",
+        "transliteration": "yôḇēl",
+        "strongs": "H3104",
+        "gloss": "jubilee, ram's horn",
+        "definition": "Fiftieth year of release when land returns to original owners and Hebrew slaves are freed (Lev 25). Announced by ram's horn blast, the jubilee embodies economic justice, covenant restoration, and divine ownership of the land.",
+        "language": "hebrew",
+        "chapters_used": []
+    },
+    "zahav_tahor": {
+        "hebrew": "זָהָב טָהוֹר",
+        "transliteration": "zāhāḇ ṭāhôr",
+        "strongs": "H2091+H2889",
+        "gloss": "pure gold",
+        "definition": "Refined gold used exclusively for sacred tabernacle furnishings including the menorah, mercy seat, and altar of incense. Its purity symbolizes holiness and the unblemished nature of objects in YHWH's presence.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-25",
+            "exo-37"
+        ]
+    },
+    "zakar": {
+        "hebrew": "זָכָר",
+        "transliteration": "zāḵār",
+        "strongs": "H2145",
+        "gloss": "male, remembered one",
+        "definition": "Biological male, often in ritual contexts requiring male animals for sacrifice or male children for consecration. Etymologically related to 'remember' (H2142), suggesting males as covenant bearers and memorial representatives of family lines.",
+        "language": "hebrew",
+        "chapters_used": [
+            "gen-1",
+            "exo-12",
+            "exo-13"
+        ]
+    },
+    "zaqen": {
+        "hebrew": "זָקֵן",
+        "transliteration": "zāqēn",
+        "strongs": "H2205",
+        "gloss": "elder, old one",
+        "definition": "Tribal or community leader possessing authority through age and wisdom. The seventy elders of Israel formed a judicial council assisting Moses (Exod 24:1), representing the people in covenant ceremonies and administrative functions.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-3",
+            "exo-24"
+        ]
+    },
+    "zeroa_netuyah": {
+        "hebrew": "זְרוֹעַ נְטוּיָה",
+        "transliteration": "zərôaʿ nəṭûyâ",
+        "strongs": "H2220+H5186",
+        "gloss": "outstretched arm",
+        "definition": "Divine warrior imagery depicting YHWH's powerful intervention in Exodus deliverance. The extended arm represents active military engagement and irresistible force, frequently paired with 'mighty hand' to emphasize God's sovereign power over Egypt.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-6",
+            "deu-4"
+        ]
+    },
+    "zevach": {
+        "hebrew": "זֶבַח",
+        "transliteration": "zeḇaḥ",
+        "strongs": "H2077",
+        "gloss": "sacrifice, slaughter",
+        "definition": "General term for animal sacrifice involving ritual slaughter, distinct from burnt offerings (ʿolah). Zebachim often included communal meals where worshipers consumed portions, establishing fellowship between deity, priests, and offerers.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-12",
+            "exo-23"
+        ]
+    },
+    "zimrah": {
+        "hebrew": "זִמְרָה",
+        "transliteration": "zimrâ",
+        "strongs": "H2176",
+        "gloss": "song, melody",
+        "definition": "Musical praise or psalm, particularly in liturgical contexts. Related to the verb 'to sing' (H2167), zimrah appears in victory songs like Exodus 15:2 celebrating YHWH's triumph at the Sea of Reeds.",
+        "language": "hebrew",
+        "chapters_used": [
+            "exo-15"
+        ]
+    },
+
+    # ══════════════════════════════════════════════════════════════
+    # LEVITICUS & DEUTERONOMY TERMS
+    # ══════════════════════════════════════════════════════════════
+
+    "korban": {
+        "transliteration": "korban",
+        "hebrew": "\u05e7\u05b8\u05e8\u05b0\u05d1\u05bc\u05b8\u05df",
+        "strongs": "H7133",
+        "gloss": "offering, sacrifice, that which is brought near",
+        "definition": "From the root qarav ('to draw near, approach'). A korban is not merely a gift to God but the means by which a worshiper draws near to the divine presence. This etymology is theologically critical: sacrifice is about proximity to God, not appeasement of anger. The term covers all categories of Levitical offerings (burnt, grain, peace, sin, guilt). Jesus uses the Aramaic form 'corban' in Mark 7:11, critiquing its misuse. In the divine council framework, the sacrificial system maintains the bridge between the earthly realm and the heavenly throne room — the tabernacle being a copy of the heavenly original (Heb 8:5).",
+        "language": "hebrew",
+        "chapters_used": ["lev-1", "lev-2", "lev-3"]
+    },
+    "kaphar": {
+        "transliteration": "kaphar",
+        "hebrew": "\u05db\u05b8\u05bc\u05e4\u05b7\u05e8",
+        "strongs": "H3722",
+        "gloss": "to cover, atone, make atonement",
+        "definition": "The root meaning is debated: either 'to cover/conceal' (cognate with Akkadian kaparu, 'to wipe clean') or 'to ransom/pay a price' (related to kopher, 'ransom'). Both meanings illuminate the theology: sin is covered AND a price is paid. The noun form kippur gives us Yom Kippur (Day of Atonement). In Leviticus 16, the high priest performs kapharah on the mercy seat (kapporet) — the golden lid of the ark where God's presence dwells between the cherubim. The atonement ritual addresses both sin against God and the cosmic contamination sin causes in the sacred space. Paul uses the Greek equivalent hilasterion in Romans 3:25, identifying Jesus as the true kapporet.",
+        "language": "hebrew",
+        "chapters_used": ["lev-16", "lev-17", "lev-4", "lev-5"]
+    },
+    "azazel": {
+        "transliteration": "azazel",
+        "hebrew": "\u05e2\u05b2\u05d6\u05b8\u05d0\u05d6\u05b5\u05dc",
+        "strongs": "H5799",
+        "gloss": "Azazel, scapegoat",
+        "definition": "One of the most disputed terms in Leviticus. In Lev 16:8-10, two goats are selected: one 'for YHWH' and one 'for Azazel.' Four interpretations exist: (1) 'scapegoat' (from ez + azal, 'goat that departs'); (2) 'place of removal' (a rough wilderness cliff); (3) a proper name — a demonic entity or fallen angel; (4) an abstract noun meaning 'complete removal.' The divine council interpretation identifies Azazel as the Watcher leader from 1 Enoch 8:1-2, 10:4-8, where God commands Raphael to 'bind Azazel hand and foot, and cast him into the darkness... in the desert which is in Dudael.' The Leviticus 16 ritual symbolically returns sin to the being who introduced forbidden knowledge (weapons, cosmetics, sorcery) to humanity. The goat sent to Azazel does not atone — only the goat 'for YHWH' provides atonement. The Azazel goat removes sin to the realm of the one responsible for its proliferation. This reading was standard in Second Temple Judaism.",
+        "language": "hebrew",
+        "chapters_used": ["lev-16"]
+    },
+    "chattath": {
+        "transliteration": "chattath",
+        "hebrew": "\u05d7\u05b7\u05d8\u05b8\u05bc\u05d0\u05ea",
+        "strongs": "H2403",
+        "gloss": "sin offering, purification offering",
+        "definition": "From chata ('to miss the mark, sin'). The chattath is better understood as a 'purification offering' than a 'sin offering' — its primary function is to decontaminate the sacred space from the pollution caused by sin. When Israelites sin, the impurity migrates toward the tabernacle, contaminating God's dwelling. If left uncleansed, the accumulation drives God's presence away. The chattath reverses this by applying sacrificial blood to the altar (for common sins) or to the inner sanctuary (for priestly sins or communal sins). On Yom Kippur, the high priest applies blood to the mercy seat itself — the most contaminated spot, being closest to God's presence. This is cosmic maintenance: keeping the bridge between heaven and earth operational.",
+        "language": "hebrew",
+        "chapters_used": ["lev-4", "lev-5", "lev-16"]
+    },
+    "asham": {
+        "transliteration": "asham",
+        "hebrew": "\u05d0\u05b8\u05e9\u05b8\u05c1\u05dd",
+        "strongs": "H817",
+        "gloss": "guilt offering, reparation offering",
+        "definition": "From a root meaning 'to be guilty, bear liability.' The asham addresses cases where sancta (holy things) have been misappropriated or where another person has been defrauded — it requires restitution plus a 20% penalty (Lev 5:16, 6:5). Isaiah 53:10 strikingly identifies the Suffering Servant's death as an asham: 'when his soul makes an offering for guilt (asham), he shall see his offspring.' This transforms the legal-financial metaphor into a substitutionary theology: someone pays the debt plus the penalty on behalf of the guilty.",
+        "language": "hebrew",
+        "chapters_used": ["lev-5", "lev-6", "lev-7"]
+    },
+    "shelamim": {
+        "transliteration": "shelamim",
+        "hebrew": "\u05e9\u05c1\u05b0\u05dc\u05b8\u05de\u05b4\u05d9\u05dd",
+        "strongs": "H8002",
+        "gloss": "peace offering, fellowship offering",
+        "definition": "From shalom ('peace, wholeness, well-being'). The shelamim is the only offering where the worshiper eats a portion — God receives the fat (burned on the altar), the priests receive the breast and right thigh, and the offerer feasts on the rest with family and friends. This is a covenant meal: God and humans eating together, celebrating restored relationship. The eucharistic/communion overtones are deliberate — Jesus institutes the Lord's Supper in the context of a Passover shelamim (Luke 22:19-20). Three sub-types: thanksgiving (todah), vow (neder), and freewill (nedavah).",
+        "language": "hebrew",
+        "chapters_used": ["lev-3", "lev-7"]
+    },
+    "minchah": {
+        "transliteration": "minchah",
+        "hebrew": "\u05de\u05b4\u05e0\u05b0\u05d7\u05b8\u05d4",
+        "strongs": "H4503",
+        "gloss": "grain offering, tribute, gift",
+        "definition": "Originally meant 'tribute' or 'gift' to a superior (cf. Gen 32:13, Jacob's minchah to Esau). In the Levitical system, it becomes the bloodless offering of fine flour, oil, and frankincense (Lev 2). The grain offering accompanies the burnt and peace offerings, representing the fruit of human labor dedicated to God. No leaven or honey is permitted (Lev 2:11), but every minchah must include salt — the 'salt of the covenant' (Lev 2:13). Salt preserves and purifies; its presence signals the eternal, incorruptible nature of God's covenant.",
+        "language": "hebrew",
+        "chapters_used": ["lev-2", "lev-6"]
+    },
+    "tahor": {
+        "transliteration": "tahor",
+        "hebrew": "\u05d8\u05b8\u05d4\u05d5\u05b9\u05e8",
+        "strongs": "H2889",
+        "gloss": "clean, pure, ritually fit",
+        "definition": "The opposite of tame (unclean). Tahor describes the normal, default state of a person or object that is fit to approach the sacred. Ritual purity is NOT moral purity — becoming tame (unclean) is often unavoidable (childbirth, menstruation, touching a corpse to bury a relative). The system teaches that contact with death, disease, and bodily decay — all consequences of the Fall — creates a barrier between humanity and the holy God. The purification rituals (water, time, sacrifice) restore tahor status. In the divine council framework, the clean/unclean system mirrors the cosmic binary: the realm of God (order, life, holiness) vs. the realm of death and chaos (disorder, corruption, the demonic).",
+        "language": "hebrew",
+        "chapters_used": ["lev-11", "lev-13", "lev-14", "lev-15"]
+    },
+    "tame": {
+        "transliteration": "tame",
+        "hebrew": "\u05d8\u05b8\u05de\u05b5\u05d0",
+        "strongs": "H2931",
+        "gloss": "unclean, ritually impure, defiled",
+        "definition": "The state of being ritually unfit to enter sacred space or participate in worship. Causes include: contact with death (corpses, carcasses), certain skin diseases (tsara'at), bodily discharges (blood, semen), and specific animals. Three levels of severity exist: (1) minor impurity (lasts until evening, requires washing); (2) major impurity (lasts 7 days, requires purification water); (3) permanent exclusion (tsara'at until healed). The concept is not arbitrary hygiene but theological symbolism: everything associated with death and the dissolution of the body's boundaries represents the anti-creation forces that the holy God opposes. The Watchers' corruption (1 Enoch 7-8) introduced enhanced contact with death through violence and bloodshed, amplifying the impurity problem to a cosmic scale.",
+        "language": "hebrew",
+        "chapters_used": ["lev-11", "lev-12", "lev-13", "lev-15"]
+    },
+    "kohen_gadol": {
+        "transliteration": "kohen gadol",
+        "hebrew": "\u05db\u05bc\u05b9\u05d4\u05b5\u05df \u05d2\u05b8\u05bc\u05d3\u05d5\u05b9\u05dc",
+        "strongs": "H3548+H1419",
+        "gloss": "high priest, great priest",
+        "definition": "The supreme mediator between God and Israel, the only person permitted to enter the Holy of Holies (and only once per year, on Yom Kippur). Aaron is the first kohen gadol. His vestments encode cosmic symbolism: the breastpiece with 12 tribal stones represents all Israel; the ephod's onyx shoulder stones bear the tribal names; the gold plate on the turban reads 'Holy to YHWH.' The high priest functions as the earthly counterpart to the divine council's chief intercessor — he carries Israel's sins into the heavenly throne room (the Holy of Holies) and emerges alive, signifying divine acceptance. Hebrews 4:14-5:10 identifies Jesus as the ultimate kohen gadol who entered the true heavenly sanctuary.",
+        "language": "hebrew",
+        "chapters_used": ["lev-8", "lev-9", "lev-16", "lev-21"]
+    },
+    "tsaraath": {
+        "transliteration": "tsara'at",
+        "hebrew": "\u05e6\u05b8\u05e8\u05b7\u05e2\u05b7\u05ea",
+        "strongs": "H6883",
+        "gloss": "skin disease, 'leprosy' (not Hansen's disease)",
+        "definition": "A broad category of visible skin conditions (NOT modern leprosy/Hansen's disease). Tsara'at also affected clothing (Lev 13:47-59) and house walls (Lev 14:33-53), suggesting it represents a visible manifestation of corruption/decay. The person with tsara'at must live outside the camp, tear their clothing, and cry 'Unclean!' — they are treated as socially dead. Miriam receives tsara'at as divine judgment for challenging Moses (Num 12:10). When Jesus heals lepers, he reverses the exile-from-community that tsara'at represents — the outcasts are restored to God's people.",
+        "language": "hebrew",
+        "chapters_used": ["lev-13", "lev-14"]
+    },
+    "shema": {
+        "transliteration": "shema",
+        "hebrew": "\u05e9\u05c1\u05b0\u05de\u05b7\u05e2",
+        "strongs": "H8085",
+        "gloss": "hear, listen, obey",
+        "definition": "The imperative 'Hear!' that opens Israel's central confession: 'Shema Yisrael, YHWH Eloheinu, YHWH echad' (Deut 6:4). Shema means far more than auditory reception — it implies understanding, internalizing, and OBEYING. When God says 'hear,' he means 'do.' The Shema is recited twice daily in Jewish practice and is considered the most important prayer in Judaism. Jesus identifies it as the greatest commandment (Mark 12:29). In the divine council context, the Shema is a LOYALTY OATH: in a cosmos where other 'elohim exist and rule other nations (Deut 32:8), Israel declares exclusive allegiance to YHWH. It is not a philosophical statement about monotheism but a covenantal declaration of fealty to Israel's suzerain.",
+        "language": "hebrew",
+        "chapters_used": ["deut-6", "deut-5", "deut-11"]
+    },
+    "echad": {
+        "transliteration": "echad",
+        "hebrew": "\u05d0\u05b6\u05d7\u05b8\u05d3",
+        "strongs": "H259",
+        "gloss": "one, unique, alone",
+        "definition": "The word translated 'one' in the Shema (Deut 6:4). Echad can mean numerically one (Gen 1:5, 'one day'), a unified composite (Gen 2:24, man and woman become 'one flesh'), or unique/alone (Song 6:9, 'my perfect one is echad'). In the Shema, echad does NOT deny the existence of other 'elohim — Deuteronomy itself acknowledges them (Deut 4:19, 32:8, 32:17). Rather, it declares YHWH's incomparability and Israel's exclusive covenant loyalty. The Shema says: 'Among all the 'elohim in the cosmos, YHWH — and YHWH alone — is our God.' This is henotheistic monotheism: one supreme God among lesser divine beings, not philosophical monotheism that denies other 'elohim exist.",
+        "language": "hebrew",
+        "chapters_used": ["deut-6"]
+    },
+    "nachalah": {
+        "transliteration": "nachalah",
+        "hebrew": "\u05e0\u05b7\u05d7\u05b2\u05dc\u05b8\u05d4",
+        "strongs": "H5159",
+        "gloss": "inheritance, allotted portion, heritage",
+        "definition": "Property received as a permanent inheritance, especially land allotted by God. Critically in Deut 32:9, 'the LORD's nachalah is his people, Jacob his allotted heritage.' While the other nations were distributed as nachalah to subordinate 'elohim (Deut 32:8), YHWH kept Israel as HIS nachalah. This creates a two-tier cosmic geography: the nations under their territorial gods, and Israel under YHWH directly. The word appears over 200 times in the OT, always carrying covenantal weight — land is not merely real estate but a sign of God's relationship with his people. In Ephesians 1:11, 14, 18, Paul extends the nachalah concept to all believers in Christ.",
+        "language": "hebrew",
+        "chapters_used": ["deut-32", "deut-4", "deut-29"]
+    },
+    "berith": {
+        "transliteration": "berith",
+        "hebrew": "\u05d1\u05bc\u05b0\u05e8\u05b4\u05d9\u05ea",
+        "strongs": "H1285",
+        "gloss": "covenant, treaty, pact",
+        "definition": "The binding agreement between two parties, often ratified with blood sacrifice (the phrase 'cut a covenant,' karath berith, reflects the ritual of cutting animals in half, Gen 15:9-18). Deuteronomy follows the structure of a Hittite suzerainty treaty: preamble identifying the great king, historical prologue of his acts of favor, stipulations (laws), blessings for obedience, curses for rebellion, and witnesses. In the divine council framework, the covenant witnesses include heaven and earth (Deut 30:19) and potentially the 'elohim themselves — the cosmic court ratifies the agreement. The Mosaic berith is the specific covenant between YHWH and his nachalah (Israel), distinct from the Noahic (universal) and Abrahamic (promissory) covenants.",
+        "language": "hebrew",
+        "chapters_used": ["deut-5", "deut-29", "deut-30", "deut-31"]
+    },
+    "yom_hakippurim": {
+        "transliteration": "yom hakippurim",
+        "hebrew": "\u05d9\u05d5\u05b9\u05dd \u05d4\u05b7\u05db\u05b4\u05bc\u05e4\u05bc\u05bb\u05e8\u05b4\u05d9\u05dd",
+        "strongs": "H3117+H3725",
+        "gloss": "Day of Atonement, Day of Coverings",
+        "definition": "The most solemn day in the Israelite calendar (Lev 16, 23:26-32), observed on the 10th of Tishri. The kohen gadol performs a unique sequence: entering the Holy of Holies with incense smoke (to avoid seeing God's glory and dying), sprinkling blood on the kapporet, then sending the Azazel goat into the wilderness. This annual ritual cleanses the entire tabernacle system from accumulated impurity. The writer of Hebrews argues that Yom Kippur was a shadow of Christ's once-for-all atonement: Jesus entered the true heavenly Holy of Holies with his own blood, not the blood of goats (Heb 9:11-14, 24-28). The Azazel goat connection to 1 Enoch's imprisoned Watcher adds a divine council dimension: sin is returned to its supernatural source.",
+        "language": "hebrew",
+        "chapters_used": ["lev-16", "lev-23"]
+    },
+    "reach_nichoach": {
+        "transliteration": "reach nichoach",
+        "hebrew": "\u05e8\u05b5\u05d9\u05d7\u05b7 \u05e0\u05b4\u05d9\u05d7\u05d5\u05b9\u05d7\u05b7",
+        "strongs": "H7381+H5207",
+        "gloss": "pleasing aroma, soothing fragrance",
+        "definition": "The technical phrase for God's acceptance of a sacrifice (Lev 1:9, 13, 17; Gen 8:21). NOT meant literally (God does not 'smell' — this is anthropomorphic language). The reach nichoach signals that the offering has been received and the worshiper's approach accepted. The same phrase appears in the flood narrative when Noah sacrifices (Gen 8:21), creating continuity between pre-Sinai and Levitical worship. Paul applies it to Christ in Ephesians 5:2: 'Christ loved us and gave himself up for us, a fragrant offering and sacrifice to God.' In ANE parallels, the Gilgamesh epic describes the gods gathering 'like flies over the sacrifice' — a stark contrast to the biblical portrayal of the sovereign God graciously choosing to accept.",
+        "language": "hebrew",
+        "chapters_used": ["lev-1", "lev-2", "lev-3", "lev-4"]
+    },
+
+    # ══════════════════════════════════════════════════════════════
+    # NUMBERS TERMS
+    # ══════════════════════════════════════════════════════════════
+
+    "nachash_nechoshet": {
+        "transliteration": "nachash nechoshet",
+        "hebrew": "\u05e0\u05b0\u05d7\u05b7\u05e9\u05c1 \u05e0\u05b0\u05d7\u05b9\u05e9\u05c1\u05b6\u05ea",
+        "strongs": "H5175+H5178",
+        "gloss": "bronze serpent, serpent of brass",
+        "definition": "The bronze serpent Moses made at God's command (Num 21:8-9) after YHWH sent seraphim (nachashim seraphim — 'fiery serpents') among the people. The wordplay is extraordinary: nachash ('serpent/shining one') made of nechoshet ('bronze/copper') — both from the same root n-ch-sh. The serpent on the pole is a deliberate callback to Genesis 3: the creature that brought death is now the instrument of healing. Jesus explicitly identifies this as a type of his crucifixion: 'As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up' (John 3:14). In divine council theology, the nachash of Eden was a shining divine being; here, a bronze representation of that being becomes the means of salvation — foreshadowing how Christ takes on the form of sinful flesh to destroy sin's power (Rom 8:3). King Hezekiah later destroyed it when Israel began worshiping it as 'Nehushtan' (2 Kings 18:4).",
+        "language": "hebrew",
+        "chapters_used": ["num-21"]
+    },
+    "nazir": {
+        "transliteration": "nazir",
+        "hebrew": "\u05e0\u05b8\u05d6\u05b4\u05d9\u05e8",
+        "strongs": "H5139",
+        "gloss": "one set apart, Nazirite, consecrated one",
+        "definition": "From nazar ('to separate, consecrate'). The Nazirite vow (Num 6:1-21) involves three abstentions: no grape products (wine, vinegar, grapes, raisins), no haircuts, and no contact with the dead. This triple separation mirrors the holiness of the high priest, making the Nazirite a temporary 'layperson's priesthood.' Samson (Judges 13-16), Samuel (1 Sam 1:11), and John the Baptist (Luke 1:15) were lifelong Nazirites. The growing hair symbolizes consecrated strength; the grape prohibition symbolizes self-control and alertness before God. In the Qumran community, some scholars believe the sectarians lived under quasi-Nazirite regulations permanently.",
+        "language": "hebrew",
+        "chapters_used": ["num-6"]
+    },
+    "birkat_kohanim": {
+        "transliteration": "birkat kohanim",
+        "hebrew": "\u05d1\u05b4\u05bc\u05e8\u05b0\u05db\u05b7\u05bc\u05ea \u05db\u05bc\u05b9\u05d4\u05b2\u05e0\u05b4\u05d9\u05dd",
+        "strongs": "H1293+H3548",
+        "gloss": "priestly blessing, Aaronic benediction",
+        "definition": "The three-line blessing of Numbers 6:24-26: 'YHWH bless you and keep you; YHWH make his face shine upon you and be gracious to you; YHWH lift up his face upon you and give you peace.' This is the oldest biblical text found archaeologically — the Ketef Hinnom silver scrolls (c. 600 BC) bear this blessing, predating the Dead Sea Scrolls by 400 years. The three lines form an ascending pattern of intimacy: protection → illumination → presence. The 'shining face' invokes the kavod (glory-presence) that fills the divine throne room. Still recited in synagogues today, this blessing carries the weight of 3,000 years of continuous liturgical use.",
+        "language": "hebrew",
+        "chapters_used": ["num-6"]
+    },
+    "anak": {
+        "transliteration": "'anak / 'anaqim",
+        "hebrew": "\u05e2\u05b2\u05e0\u05b8\u05e7 / \u05e2\u05b2\u05e0\u05b8\u05e7\u05b4\u05d9\u05dd",
+        "strongs": "H6061/H6062",
+        "gloss": "Anak, the Anakim (giant clan)",
+        "definition": "A clan of giants descended from Anak, dwelling in Hebron and the hill country of Canaan. The 10 spies report: 'We saw the Nephilim — the sons of Anak, from the Nephilim — and we seemed like grasshoppers' (Num 13:33). This is the critical link between pre-flood Nephilim (Gen 6:4) and post-flood giant clans. The Anakim are connected to the Rephaim (Deut 2:11) and appear alongside other giant peoples: Emim in Moab (Deut 2:10), Zamzummim in Ammon (Deut 2:20). Joshua later drives them from Hebron but they survive in Gaza, Gath, and Ashdod (Josh 11:22) — explaining why Goliath of Gath appears centuries later (1 Sam 17). The root 'anak may mean 'long-necked' or 'necklace-wearer.'",
+        "language": "hebrew",
+        "chapters_used": ["num-13", "num-14"]
+    },
+    "meraggelim": {
+        "transliteration": "meraggelim",
+        "hebrew": "\u05de\u05b0\u05e8\u05b7\u05d2\u05bc\u05b0\u05dc\u05b4\u05d9\u05dd",
+        "strongs": "H7270",
+        "gloss": "spies, scouts",
+        "definition": "From ragal ('to walk about, spy out'). The 12 tribal leaders sent to reconnoiter Canaan (Num 13). Ten returned with a 'bad report' (dibbah ra'ah) — they saw the Nephilim-descended Anakim and concluded Israel could not conquer the land. Only Joshua and Caleb dissented. The meraggelim's sin was not in reporting facts but in interpreting them without faith: they judged by military capacity rather than by God's promise. Their punishment — 40 years of wandering, one year for each day of the 40-day mission — became paradigmatic for divine judgment on unbelief (Heb 3:7-19, 1 Cor 10:1-12). The episode reveals that the giant clans remain a spiritual threat, not merely a military one.",
+        "language": "hebrew",
+        "chapters_used": ["num-13", "num-14"]
+    },
+    "kokhav": {
+        "transliteration": "kokhav",
+        "hebrew": "\u05db\u05bc\u05d5\u05b9\u05db\u05b8\u05d1",
+        "strongs": "H3556",
+        "gloss": "star",
+        "definition": "In Balaam's oracle (Num 24:17): 'A star (kokhav) shall come out of Jacob, and a scepter (shevet) shall rise out of Israel.' This became one of the most important messianic texts in Second Temple Judaism. The Qumran community cited it in CD VII.18-21 and 4Q175. Simon bar Kokhba ('son of the star') took his name from this verse during the second Jewish revolt (132-135 AD). In the divine council framework, the 'star' imagery connects to the heavenly realm — stars are associated with divine beings (Job 38:7, 'the morning stars sang together and all the b'nei elohim shouted for joy'; Isa 14:12-13, the helel ben-shachar aspires to set his throne above the stars of God). The messianic star is thus a divine figure descending from the heavenly court.",
+        "language": "hebrew",
+        "chapters_used": ["num-24"]
+    },
+    "parah_adummah": {
+        "transliteration": "parah adummah",
+        "hebrew": "\u05e4\u05b8\u05e8\u05b8\u05d4 \u05d0\u05b2\u05d3\u05bb\u05de\u05b8\u05bc\u05d4",
+        "strongs": "H6510+H122",
+        "gloss": "red heifer",
+        "definition": "A completely red cow without blemish, never yoked, sacrificed outside the camp and burned entirely to ash (Num 19). The ashes mixed with water create the 'water of purification' (mei niddah) for cleansing corpse contamination — the most severe form of ritual impurity. This is the most mysterious ritual in the Torah: the person who prepares it becomes unclean, while the unclean person it purifies becomes clean. The rabbis called it the quintessential chok (statute beyond human reason). Hebrews 9:13-14 argues that if the ashes of a heifer sanctify the flesh, 'how much more will the blood of Christ purify our conscience.' In modern Israel, the search for a qualifying red heifer generates intense eschatological speculation, as the ashes are required for purifying a future Temple.",
+        "language": "hebrew",
+        "chapters_used": ["num-19"]
+    },
+    "baal_peor": {
+        "transliteration": "ba'al pe'or",
+        "hebrew": "\u05d1\u05b7\u05bc\u05e2\u05b7\u05dc \u05e4\u05b0\u05bc\u05e2\u05d5\u05b9\u05e8",
+        "strongs": "H1187",
+        "gloss": "Baal of Peor, lord of the opening",
+        "definition": "The territorial deity of Moab worshiped at Mount Peor (Num 25:1-9). Israel 'yoked itself' (tzamad) to Baal-Peor through sexual rites with Moabite women — a deliberate violation of the covenant. This is the Deuteronomy 32:8 worldview in action: a territorial 'elohim seducing YHWH's portion away from him. Balaam, unable to curse Israel directly, apparently advised Balak to use Moabite women to lure Israel into apostasy (Num 31:16; Rev 2:14). The plague killed 24,000 and was stopped only by Phinehas's zealous act. Hosea 9:10 remembers this as Israel's deepest shame: 'They came to Baal-Peor and consecrated themselves to the thing of shame.' The incident becomes a permanent warning against syncretism with the allotted nations' gods.",
+        "language": "hebrew",
+        "chapters_used": ["num-25"]
+    },
+
+    # ── Joshua Terms ──
+    "herem": {
+        "transliteration": "cherem",
+        "hebrew": "\u05d7\u05b5\u05e8\u05b6\u05dd",
+        "strongs": "H2764",
+        "gloss": "devoted thing, ban, utter destruction",
+        "definition": "The 'ban' or 'devotion to destruction' — a total consecration of conquered peoples and property to YHWH (Josh 6:17-21). In the divine council worldview, herem is not mere genocide but cosmic warfare: the Canaanite nations are under the governance of corrupt territorial 'elohim (Deut 32:8-9), and their destruction represents YHWH reclaiming land from rebel divine beings. The Akkadian cognate 'haramu' means 'to separate, set apart.' Jericho was placed under herem as the 'firstfruits' of the conquest — everything belonged to YHWH. Achan's violation (Josh 7) brought corporate guilt because herem property was holy/dangerous. The concept bridges to Paul's 'anathema' (Gal 1:8-9) — total devotion to divine judgment.",
+        "language": "hebrew",
+        "chapters_used": ["josh-6", "josh-7"]
+    },
+    "sar_tseva": {
+        "transliteration": "sar tseva' YHWH",
+        "hebrew": "\u05e9\u05b7\u05c2\u05e8 \u05e6\u05b0\u05d1\u05b8\u05d0 \u05d9\u05d4\u05d5\u05d4",
+        "strongs": "H8269+H6635",
+        "gloss": "commander of YHWH's army",
+        "definition": "The divine warrior who appears to Joshua near Jericho with a drawn sword (Josh 5:13-15). Joshua asks 'Are you for us or for our enemies?' and receives the stunning answer: 'No — I am the commander of the army of YHWH.' He commands Joshua to remove his sandals (echoing Moses at the burning bush, Exod 3:5), marking this as a theophany. The title 'sar tseva' YHWH' parallels Daniel's 'Michael, one of the chief princes (sarim)' (Dan 10:13). This figure leads the heavenly host — the divine council's military wing — into battle alongside Israel. The conquest is fought simultaneously on earth and in the heavenly realm.",
+        "language": "hebrew",
+        "chapters_used": ["josh-5"]
+    },
+    "rahab_name": {
+        "transliteration": "rachav",
+        "hebrew": "\u05e8\u05b8\u05d7\u05b8\u05d1",
+        "strongs": "H7343",
+        "gloss": "Rahab (the woman), broad/wide",
+        "definition": "The Canaanite woman of Jericho who hid the Israelite spies (Josh 2). Her name rachav means 'broad/wide' and is distinct from (but resonant with) the chaos monster Rahab (rahab, H7294) — the primordial sea dragon of Psalm 89:10 and Isaiah 51:9. This wordplay may be intentional: a woman named after cosmic chaos becomes an agent of YHWH's cosmic order. She confesses YHWH as 'God in heaven above and on earth beneath' (Josh 2:11) — a divine council confession. She is saved by the scarlet cord (Passover blood typology), enters Israel's genealogy, and becomes an ancestor of David and Jesus (Matt 1:5). James 2:25 and Hebrews 11:31 both celebrate her faith.",
+        "language": "hebrew",
+        "chapters_used": ["josh-2", "josh-6"]
+    },
+    "nachalah": {
+        "transliteration": "nachalah",
+        "hebrew": "\u05e0\u05b7\u05d7\u05b2\u05dc\u05b8\u05d4",
+        "strongs": "H5159",
+        "gloss": "inheritance, allotted portion, patrimony",
+        "definition": "The 'inheritance' or 'allotted portion' — the primary term for Israel's land in Joshua 13-21. Each tribe receives its nachalah by sacred lot (goral), divinely determined. This directly connects to Deuteronomy 32:8-9: just as YHWH allotted nations to the sons of God, he allotted Canaan to Israel's tribes. The same term describes YHWH's relationship to Israel: 'YHWH's portion (cheleq) is his people, Jacob his allotted inheritance (nachalah)' (Deut 32:9). The allotment system means the land belongs to YHWH and is distributed by his sovereign decision — it cannot be permanently sold (Lev 25:23). This makes the conquest not territorial expansion but YHWH reclaiming his own property from corrupt divine administrators.",
+        "language": "hebrew",
+        "chapters_used": ["josh-13", "josh-14", "josh-19"]
+    },
+    "goral": {
+        "transliteration": "goral",
+        "hebrew": "\u05d2\u05bc\u05d5\u05b9\u05e8\u05b8\u05dc",
+        "strongs": "H1486",
+        "gloss": "lot, portion, destiny",
+        "definition": "The 'lot' cast to determine divine will — used extensively in Joshua's land allotment (Josh 14:2, 18:6-10). 'The lot is cast into the lap, but its every decision is from YHWH' (Prov 16:33). Casting lots was a recognized means of accessing divine council decisions. The Urim and Thummim were sacred lots carried by the high priest. In Joshua, the goral distributes land at Shiloh before YHWH — making the allotment a divine council decree, not a human negotiation. The concept carries into the NT: the soldiers cast lots for Jesus' garments (Ps 22:18/Matt 27:35), and Matthias is chosen by lot (Acts 1:26). The Qumran community called themselves 'sons of the lot of God' (goral 'El).",
+        "language": "hebrew",
+        "chapters_used": ["josh-14", "josh-18"]
+    },
+    "gibbor": {
+        "transliteration": "gibbor",
+        "hebrew": "\u05d2\u05b4\u05bc\u05d1\u05bc\u05d5\u05b9\u05e8",
+        "strongs": "H1368",
+        "gloss": "mighty one, warrior, champion",
+        "definition": "Title meaning 'mighty one' or 'champion' — applied both to human warriors and to supernatural beings. Genesis 6:4 calls the Nephilim 'gibborim of old, men of renown.' In Joshua, the term appears in the defeat of the Anakim (Josh 11:21-22) — the remnant of the Nephilim race. Caleb, at age 85, still has the strength to drive out the Anakim from Hebron (Josh 14:11-12), making him a human gibbor who defeats the gibbore olam. YHWH himself is called 'el gibbor' — the Mighty God (Isa 9:6, 10:21). The conquest narrative thus pits YHWH the ultimate Gibbor against the Nephilim gibborim — cosmic champion versus counterfeit champions.",
+        "language": "hebrew",
+        "chapters_used": ["josh-11", "josh-14"]
+    }
+}

@@ -1,0 +1,287 @@
+
+{
+    "yashar": {
+        "hebrew": "יָשָׁר",
+        "transliteration": "yāšār",
+        "strongs": "H3477",
+        "gloss": "upright, straight, righteous",
+        "definition": "From the root yšr, meaning 'to be straight, level, right.' In biblical literature, yashar denotes moral uprightness, integrity, and righteousness. The Book of Jasher (Sefer HaYashar) is literally 'The Book of the Upright,' a lost ancient text referenced in Joshua 10:13 and 2 Samuel 1:18. The term encompasses both physical straightness and ethical rectitude, often used to describe those who walk in covenant faithfulness with YHWH.",
+        "language": "hebrew",
+        "chapters_used": ["jas-intro", "jas-ch01", "jas-ch02", "jas-ch03", "jas-ch04", "jas-ch05", "jas-ch06"]
+    },
+    "enosh": {
+        "hebrew": "אֱנוֹשׁ",
+        "transliteration": "ʾĕnôš",
+        "strongs": "H583",
+        "gloss": "mortal man, humanity",
+        "definition": "Personal name meaning 'mortal man' or 'humanity,' from the root ʾnš denoting human frailty and mortality. Enosh was the son of Seth and grandson of Adam (Genesis 4:26). According to Genesis 4:26, 'Then men began to call upon the name of YHWH' during his lifetime, marking a significant development in early worship. In Jasher, Enosh's era is portrayed as a time when humanity began to err in idolatry, contrasting with the biblical account. The name emphasizes human weakness in contrast to divine strength.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch02", "jas-ch03"]
+    },
+    "qeynan": {
+        "hebrew": "קֵינָן",
+        "transliteration": "qênān",
+        "strongs": "H7018",
+        "gloss": "possession, acquisition",
+        "definition": "Personal name meaning 'possession' or 'acquisition,' from the root qnh (to acquire, possess). Kenan (also spelled Cainan) was the son of Enosh in the Sethite genealogy (Genesis 5:9-14). The name may reflect the idea of acquiring or possessing something of value, possibly wisdom or divine knowledge. In Second Temple literature, Kenan is sometimes associated with the transmission of antediluvian wisdom. The LXX rendering is Kainan (Καϊνάν).",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch02"]
+    },
+    "mahalalel": {
+        "hebrew": "מַהֲלַלְאֵל",
+        "transliteration": "mahălalʾēl",
+        "strongs": "H4111",
+        "gloss": "praise of God",
+        "definition": "Personal name meaning 'praise of God' or 'God shines forth,' compound of hillel (to praise) and El (God). Mahalalel was the son of Kenan in the Sethite line (Genesis 5:12-17). The name reflects the antediluvian tradition of theophoric names incorporating the divine name El. In Jasher and other Second Temple texts, Mahalalel represents the righteous line that preserved true worship before the Flood. The name's structure (verb + divine name) is characteristic of early Hebrew nomenclature.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch02"]
+    },
+    "yered": {
+        "hebrew": "יֶרֶד",
+        "transliteration": "yereḏ",
+        "strongs": "H3382",
+        "gloss": "descent, going down",
+        "definition": "Personal name meaning 'descent' or 'going down,' from the root yrd (to descend, go down). Jared was the father of Enoch in the Sethite genealogy (Genesis 5:15-20). Significantly, 1 Enoch 6:6 states that the Watchers descended to earth on Mount Hermon in the days of Jared, creating a wordplay between his name and the 'descent' (yrd) of the rebellious angels. This connection made Jared's era pivotal in divine council theology as the time when the boundary between heaven and earth was transgressed by the bene elohim.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch02", "jas-ch03"]
+    },
+    "chanok": {
+        "hebrew": "חֲנוֹךְ",
+        "transliteration": "ḥănôḵ",
+        "strongs": "H2585",
+        "gloss": "dedicated, initiated",
+        "definition": "Personal name meaning 'dedicated' or 'initiated,' from the root ḥnk (to dedicate, train, initiate). Enoch was the son of Jared who 'walked with God' and was taken up without experiencing death (Genesis 5:21-24). The name suggests consecration or initiation into divine mysteries. In Second Temple literature, Enoch became the paradigmatic visionary and scribe of heaven, recipient of astronomical, calendrical, and eschatological revelations. The phrase 'walked with God' (hithallek et-ha-elohim) indicates intimate covenant relationship. Enoch's translation established him as a mediator figure between heaven and earth.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch02", "jas-ch03", "jas-ch04"]
+    },
+    "metushelach": {
+        "hebrew": "מְתוּשֶׁלַח",
+        "transliteration": "mĕtûšelaḥ",
+        "strongs": "H4968",
+        "gloss": "man of the javelin/dart",
+        "definition": "Personal name of uncertain etymology, possibly meaning 'man of the javelin' (met + šelaḥ) or 'when he dies it shall come' (mût + šālaḥ). Methuselah was the son of Enoch and grandfather of Noah, famous for his 969-year lifespan, the longest recorded in Scripture (Genesis 5:25-27). Jewish tradition connects his name prophetically to the Flood: he died in the year the deluge came. In Jasher and Enochic literature, Methuselah serves as a link between the antediluvian patriarchs and Noah, sometimes portrayed as a righteous elder who warned his generation.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch02", "jas-ch04", "jas-ch05"]
+    },
+    "lemek": {
+        "hebrew": "לֶמֶךְ",
+        "transliteration": "lemeḵ",
+        "strongs": "H3929",
+        "gloss": "powerful, conqueror",
+        "definition": "Personal name of uncertain etymology, possibly related to an Akkadian root meaning 'powerful' or 'conqueror.' Two men named Lemech appear in Genesis: the Cainite Lamech (Genesis 4:18-24), father of Jabal, Jubal, and Tubal-Cain, who boasted of violence; and the Sethite Lamech (Genesis 5:25-31), father of Noah, who prophesied comfort from the curse. The Sethite Lamech's statement in Genesis 5:29 connects Noah's name to relief (nḥm) from toil. In Jasher, Lamech's role in the righteous line is emphasized as he witnesses the increasing corruption before the Flood.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch02", "jas-ch04", "jas-ch05"]
+    },
+    "noach": {
+        "hebrew": "נֹחַ",
+        "transliteration": "nōaḥ",
+        "strongs": "H5146",
+        "gloss": "rest, comfort",
+        "definition": "Personal name meaning 'rest' or 'comfort,' from the root nwḥ (to rest, settle down). Noah was the son of Lamech, the tenth generation from Adam through Seth, who found favor (chen) in YHWH's eyes and was chosen to preserve humanity and animal life through the Flood (Genesis 6-9). His name is explained in Genesis 5:29 as bringing 'comfort' (nḥm) from the cursed ground. Noah is presented as 'righteous' (tsaddiq) and 'blameless' (tamim) in his generation, one who 'walked with God' like Enoch. In Jasher, Noah's righteousness is contrasted with the corruption of his contemporaries, and his preaching ministry is emphasized.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch02", "jas-ch04", "jas-ch05", "jas-ch06"]
+    },
+    "shem": {
+        "hebrew": "שֵׁם",
+        "transliteration": "šēm",
+        "strongs": "H8035",
+        "gloss": "name, reputation",
+        "definition": "Personal name meaning 'name' or 'reputation,' from the root šm (name, renown). Shem was the eldest son of Noah, ancestor of the Semitic peoples including the Hebrews (Genesis 5:32; 6:10). After the Flood, Shem received Noah's blessing as the line through which YHWH would be specially known (Genesis 9:26). The Table of Nations (Genesis 10) traces Shem's descendants, including Eber (ancestor of the Hebrews) and ultimately Abraham. In Jewish tradition, Shem is sometimes identified with Melchizedek. The name 'Shem' became synonymous with 'the Name' (ha-Shem) as a reverential substitute for YHWH.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch05", "jas-ch06"]
+    },
+    "cham": {
+        "hebrew": "חָם",
+        "transliteration": "ḥām",
+        "strongs": "H2526",
+        "gloss": "hot, warm",
+        "definition": "Personal name meaning 'hot' or 'warm,' possibly related to Egypt (Mitsrayim) being called 'the land of Ham' (Psalm 105:23). Ham was the second son of Noah, father of Canaan, Cush, Mizraim, and Put (Genesis 10:6). Ham's transgression in viewing his father's nakedness and the subsequent curse on Canaan (Genesis 9:20-27) became a pivotal narrative in understanding the origins of the Canaanite peoples whom Israel would later dispossess. In Jasher and other traditions, Ham's line is associated with practices that violated divine order, though the text emphasizes that the curse fell specifically on Canaan, not all Ham's descendants.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch05", "jas-ch06"]
+    },
+    "yefet": {
+        "hebrew": "יֶפֶת",
+        "transliteration": "yep̄eṯ",
+        "strongs": "H3315",
+        "gloss": "expansion, enlargement",
+        "definition": "Personal name meaning 'expansion' or 'enlargement,' from the root pth (to open wide, enlarge). Japheth was the youngest son of Noah (Genesis 10:21), ancestor of peoples who settled in the coastlands and islands (Genesis 10:2-5), including the Greeks, Medes, and various Indo-European groups. Noah's blessing in Genesis 9:27 plays on his name: 'May God enlarge (yapt) Japheth.' This expansion is understood both geographically and spiritually, with some Jewish and Christian interpreters seeing it as prophetic of Gentile inclusion in covenant blessing. In Jasher, Japheth receives his portion of the earth in the post-Flood division.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch05", "jas-ch06"]
+    },
+    "kenaan": {
+        "hebrew": "כְּנַעַן",
+        "transliteration": "kĕnaʿan",
+        "strongs": "H3667",
+        "gloss": "lowland, merchant",
+        "definition": "Personal and geographical name meaning 'lowland' or possibly 'merchant/trader,' from a root related to kn' (to be low, humbled). Canaan was the son of Ham who received Noah's curse (Genesis 9:25-27), and his descendants occupied the land that would become Israel's inheritance. The Canaanites included various peoples (Jebusites, Amorites, Hivites, etc.) whose religious practices—including child sacrifice, sacred prostitution, and divination—were abominations to YHWH. The curse on Canaan and the later conquest of Canaan by Israel became central to understanding divine judgment on corrupted bloodlines and practices. In Jasher, Canaan's transgression in taking land allotted to Shem is emphasized.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "arpakshad": {
+        "hebrew": "אַרְפַּכְשַׁד",
+        "transliteration": "ʾarp̄aḵšaḏ",
+        "strongs": "H775",
+        "gloss": "boundary of Chaldea",
+        "definition": "Personal name of uncertain etymology, possibly meaning 'boundary of Chaldea' or related to Akkadian Arraphu. Arphaxad was the son of Shem, born two years after the Flood (Genesis 11:10), and ancestor of Abraham through Eber, Peleg, and Terah. His position in the Shemite genealogy makes him crucial to the line leading to Israel. The LXX and some manuscripts include an additional generation (Cainan) between Arphaxad and Shelah, reflected in Luke 3:36. In Jasher, Arphaxad represents the continuation of the righteous Shemite line in the post-Flood world.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "shelach": {
+        "hebrew": "שֶׁלַח",
+        "transliteration": "šelaḥ",
+        "strongs": "H7974",
+        "gloss": "sprout, shoot",
+        "definition": "Personal name meaning 'sprout' or 'shoot,' from the root šlḥ (to send forth, sprout). Shelah was the son of Arphaxad in the Shemite genealogy (Genesis 11:12-15), continuing the line to Abraham. The name suggests growth or sending forth, appropriate for a genealogical link in the expanding post-Flood population. Not to be confused with Shelah son of Judah (Genesis 38:5). In the context of Jasher and the Table of Nations, Shelah's generation represents the period when the earth was being repopulated and languages were still unified before Babel.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "ever": {
+        "hebrew": "עֵבֶר",
+        "transliteration": "ʿēḇer",
+        "strongs": "H5677",
+        "gloss": "region beyond, other side",
+        "definition": "Personal name meaning 'region beyond' or 'other side,' from the root ʿbr (to pass over, cross). Eber was the great-grandson of Shem, ancestor of the Hebrews (ʿIvrim), whose name derives from him (Genesis 10:21, 24-25; 11:14-17). Significantly, Eber's son Peleg lived when 'the earth was divided' (Genesis 10:25), likely referring to the Babel dispersion. Jewish tradition sometimes portrays Eber as refusing to participate in the Tower of Babel, thus preserving the original language (Hebrew). The term 'Hebrew' (ʿIvri) first appears with Abraham (Genesis 14:13), identifying him as a descendant of Eber or as one 'from beyond' the Euphrates.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "peleg": {
+        "hebrew": "פֶּלֶג",
+        "transliteration": "peleḡ",
+        "strongs": "H6389",
+        "gloss": "division, channel",
+        "definition": "Personal name meaning 'division' or 'channel,' from the root plg (to divide, split). Peleg was the son of Eber, named because 'in his days the earth was divided' (niplĕgâ hā-ʾāreṣ) (Genesis 10:25). This division is understood as either the linguistic/geographical dispersion at Babel or a physical division of continents. The wordplay between his name and the verb 'was divided' is intentional. Peleg's era marks a crucial transition in human history from unified humanity to scattered nations. In Jasher, this division is explicitly connected to the Babel incident and the subsequent allocation of territories to Noah's descendants.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "nimrod": {
+        "hebrew": "נִמְרֹד",
+        "transliteration": "nimrōḏ",
+        "strongs": "H5248",
+        "gloss": "rebel, we will rebel",
+        "definition": "Personal name possibly meaning 'rebel' or 'let us rebel,' from the root mrd (to rebel). Nimrod was the son of Cush (Ham's line), described as 'a mighty hunter before YHWH' and the founder of Babel, Erech, Akkad, and other cities (Genesis 10:8-12). The phrase 'mighty hunter' (gibbor tsayid) may carry negative connotations of tyranny and predation on humans. Jewish and Christian tradition identifies Nimrod as the instigator of the Tower of Babel rebellion, attempting to make a name for humanity independent of God. In Jasher, Nimrod is portrayed as a tyrant who opposed Abraham and sought to establish a unified kingdom in defiance of divine order.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "terach": {
+        "hebrew": "תֶּרַח",
+        "transliteration": "teraḥ",
+        "strongs": "H8646",
+        "gloss": "delay, wanderer",
+        "definition": "Personal name of uncertain etymology, possibly meaning 'delay' or related to an Akkadian word for 'ibex' or 'wild goat.' Terah was the father of Abraham, Nahor, and Haran, who lived in Ur of the Chaldeans and later migrated to Haran (Genesis 11:24-32). According to Joshua 24:2, Terah 'served other gods,' indicating he was an idolater. Jewish tradition elaborates on Terah's idolatry, with Jasher providing extensive narratives of Abraham's conflict with his father over idol worship. Terah's death in Haran (Genesis 11:32) preceded Abraham's call to Canaan, symbolizing a break from the pagan past.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "avram": {
+        "hebrew": "אַבְרָם",
+        "transliteration": "ʾaḇrām",
+        "strongs": "H87",
+        "gloss": "exalted father",
+        "definition": "Personal name meaning 'exalted father' or 'father is exalted,' from ʾaḇ (father) and rûm (to be high, exalted). Abram was the original name of Abraham before God changed it to Abraham ('father of a multitude') in Genesis 17:5. Born in Ur of the Chaldeans, Abram received the divine call to leave his country and kindred (Genesis 12:1-3), becoming the father of the Hebrew nation and recipient of the covenant promises. In Jasher, Abram's early life includes dramatic confrontations with Nimrod and his father Terah over idolatry, his miraculous preservation from fire, and his growing recognition of the one true God.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "saray": {
+        "hebrew": "שָׂרַי",
+        "transliteration": "śāray",
+        "strongs": "H8297",
+        "gloss": "my princess",
+        "definition": "Personal name meaning 'my princess,' from śar (prince, ruler) with the first-person possessive suffix. Sarai was the original name of Sarah, Abraham's wife and half-sister (Genesis 11:29; 20:12). God changed her name to Sarah ('princess') in Genesis 17:15, removing the possessive suffix to indicate she would be princess/mother of nations, not just Abraham's princess. Sarai was barren until age 90, when she miraculously bore Isaac. Her beauty caused Abraham to present her as his sister in Egypt and Gerar (Genesis 12, 20). In Jasher, Sarai's beauty and righteousness are emphasized, along with her role in Abraham's household.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "lot": {
+        "hebrew": "לוֹט",
+        "transliteration": "lôṭ",
+        "strongs": "H3876",
+        "gloss": "covering, veil",
+        "definition": "Personal name meaning 'covering' or 'veil,' from the root lûṭ (to wrap, cover). Lot was the son of Haran (Abraham's brother) and nephew of Abraham, who accompanied him from Ur to Canaan (Genesis 11:27-31; 12:4-5). After separating from Abraham, Lot chose to dwell in Sodom (Genesis 13:10-13), where he was later rescued from destruction by angels (Genesis 19). Lot's rescue from Sodom and his daughters' subsequent incestuous conception of Moab and Ammon (Genesis 19:30-38) established the origins of Israel's eastern neighbors. In Jasher, Lot's relationship with Abraham and his residence in Sodom are developed with additional details.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "ur_kasdim": {
+        "hebrew": "אוּר כַּשְׂדִּים",
+        "transliteration": "ʾûr kaśdîm",
+        "strongs": "H218, H3778",
+        "gloss": "Ur of the Chaldeans",
+        "definition": "Geographical name meaning 'Ur of the Chaldeans,' Abraham's birthplace (Genesis 11:28, 31; 15:7). Ur was a major Sumerian city-state in southern Mesopotamia (modern Tell el-Muqayyar, Iraq), famous for its ziggurat and moon-god worship. The designation 'of the Chaldeans' (kaśdîm) is anachronistic, as the Chaldeans rose to prominence much later, but identifies the location for later readers. Archaeological evidence reveals Ur as a sophisticated urban center during the Early Bronze Age. In Jasher, Ur is portrayed as a center of idolatry where Abraham's monotheistic convictions brought him into conflict with the established religious order under Nimrod.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "charan": {
+        "hebrew": "חָרָן",
+        "transliteration": "ḥārān",
+        "strongs": "H2771",
+        "gloss": "crossroads, parched",
+        "definition": "Geographical and personal name meaning 'crossroads' or 'parched.' As a place, Haran was a city in northern Mesopotamia (modern southeastern Turkey) where Terah settled after leaving Ur and where he died (Genesis 11:31-32). Abraham lived in Haran until receiving God's call to Canaan at age 75 (Genesis 12:4). As a person, Haran was Abraham's brother, father of Lot, who died in Ur (Genesis 11:27-28). The city was a major trade center and cult site for the moon-god Sin. In Jasher, Haran (the person) plays a role in the idolatry narratives, and Haran (the place) serves as a transitional location between Mesopotamian paganism and Canaanite promise.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "sedom": {
+        "hebrew": "סְדֹם",
+        "transliteration": "sĕḏōm",
+        "strongs": "H5467",
+        "gloss": "burning, scorched",
+        "definition": "Geographical name possibly meaning 'burning' or 'scorched,' from a root related to śdd (to scorch). Sodom was one of the five Cities of the Plain in the Jordan Valley, destroyed by YHWH with fire and brimstone for its wickedness (Genesis 19:24-25). The sin of Sodom included sexual immorality, particularly the attempted gang rape of angelic visitors (Genesis 19:4-11), but also pride, excess, and neglect of the poor (Ezekiel 16:49-50). Sodom became the paradigmatic example of divine judgment on moral corruption. In Jasher, Sodom's wickedness is detailed extensively, including its corrupt legal system and violent treatment of strangers.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "amorah": {
+        "hebrew": "עֲמֹרָה",
+        "transliteration": "ʿămōrâ",
+        "strongs": "H6017",
+        "gloss": "heap, sheaf",
+        "definition": "Geographical name possibly meaning 'heap' or 'sheaf,' from the root ʿmr (to bind sheaves). Gomorrah was Sodom's sister city, destroyed simultaneously for similar wickedness (Genesis 19:24-25). The two cities are consistently paired in Scripture as examples of divine judgment (Deuteronomy 29:23; Isaiah 1:9-10; Jeremiah 23:14). Archaeological evidence suggests the Cities of the Plain were located in the southern Dead Sea region, possibly now submerged. The phrase 'Sodom and Gomorrah' became proverbial for complete destruction and moral depravity. In Jasher, Gomorrah shares Sodom's corrupt practices and judicial system.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "admah": {
+        "hebrew": "אַדְמָה",
+        "transliteration": "ʾaḏmâ",
+        "strongs": "H126",
+        "gloss": "red earth, ground",
+        "definition": "Geographical name meaning 'red earth' or 'ground,' from the same root as adam and adamah. Admah was one of the five Cities of the Plain destroyed with Sodom and Gomorrah (Genesis 10:19; 14:2, 8; Deuteronomy 29:23; Hosea 11:8). Less prominent in biblical narrative than Sodom and Gomorrah, Admah is nevertheless included in the comprehensive judgment on the valley's wickedness. The name's connection to 'ground' (adamah) may be ironic, as the fertile ground became a wasteland. In Jasher, Admah is mentioned as part of the confederation of wicked cities.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "tsevoyim": {
+        "hebrew": "צְבֹיִים",
+        "transliteration": "ṣĕḇōyim",
+        "strongs": "H6636",
+        "gloss": "gazelles, hyenas",
+        "definition": "Geographical name meaning 'gazelles' or possibly 'hyenas,' from the root ṣby (gazelle) or a related Semitic root. Zeboiim was another of the five Cities of the Plain destroyed with Sodom (Genesis 10:19; 14:2, 8; Deuteronomy 29:23; Hosea 11:8). The name may refer to wildlife in the region or have symbolic significance. Like Admah, Zeboiim is less prominent in biblical narrative but shares the fate of the more famous cities. The transformation from a place of gazelles to a desolate waste illustrates the totality of divine judgment.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "tsoar": {
+        "hebrew": "צֹעַר",
+        "transliteration": "ṣōʿar",
+        "strongs": "H6820",
+        "gloss": "small, insignificant",
+        "definition": "Geographical name meaning 'small' or 'insignificant,' from the root ṣʿr (to be small). Zoar was originally called Bela, one of the five Cities of the Plain, but was spared destruction at Lot's request as a refuge (Genesis 19:20-23). The name Zoar reflects Lot's description of it as 'a little one' (mitsʿar). Located at the southern end of the Dead Sea, Zoar served as Lot's temporary refuge before he fled to the mountains. The city's preservation demonstrates divine mercy even in judgment. In Jasher, Zoar's sparing is attributed to its relative lack of wickedness compared to the other cities.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "kedorlaomer": {
+        "hebrew": "כְּדָרְלָעֹמֶר",
+        "transliteration": "kĕḏārlāʿōmer",
+        "strongs": "H3540",
+        "gloss": "servant of Lagamar",
+        "definition": "Personal name meaning 'servant of Lagamar' (an Elamite deity), from Elamite kudur (servant) and Lagamar (a goddess). Chedorlaomer was king of Elam who led a coalition of four kings against five Canaanite kings, including those of Sodom and Gomorrah (Genesis 14:1-17). After defeating the Cities of the Plain and taking Lot captive, Chedorlaomer was pursued and defeated by Abraham with 318 trained men. This narrative establishes Abraham as a military leader and introduces Melchizedek. In Jasher, the war of the kings is expanded with additional details about the political situation and Abraham's strategic victory.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "malki_tsedeq": {
+        "hebrew": "מַלְכִּי־צֶדֶק",
+        "transliteration": "malkî-ṣeḏeq",
+        "strongs": "H4442",
+        "gloss": "king of righteousness",
+        "definition": "Personal name meaning 'king of righteousness,' compound of melek (king) and tsedeq (righteousness). Melchizedek was king of Salem (Jerusalem) and 'priest of God Most High' (El Elyon) who blessed Abraham after his victory over Chedorlaomer and received tithes from him (Genesis 14:18-20). This mysterious figure, who appears without genealogy, became a type of Christ's eternal priesthood in Psalm 110:4 and Hebrews 5-7. Jewish tradition sometimes identifies Melchizedek with Shem. In Jasher, Melchizedek's role is expanded, emphasizing his legitimate priesthood and his recognition of Abraham's divine calling.",
+        "language": "hebrew",
+        "chapters_used": ["jas-ch06"]
+    },
+    "shalem": {
+        "hebrew": "שָׁלֵם",
+        "transliteration": "šālēm",
+        "strongs": "H8004",
+        "gloss": "peace, complete",
+        "definition": "Geographical name meaning 'peace' or 'complete,' from the root šlm (to be complete, at peace). Salem was the city ruled by Melchizedek (Genesis 14:18), traditionally identified with Jerusalem (Psalm 76:2). The name anticipates Jerusalem's role as the city of peace and the location of God's temple. The connection between Salem and shalom (peace) is significant, as Jerusalem means 'foundation of peace' or 'possession of peace.' In Jasher, Salem is portrayed as a center of true worship of El

@@ -1,0 +1,20 @@
+{
+  "id": "task_018",
+  "agent": "lector",
+  "priority": 18,
+  "description": "Review all chapters in 'Jubilees' and identify Hebrew/Aramaic/Greek terms that should be in the glossary but are not. Generate new glossary entries with proper transliteration, Strong's numbers, definitions, and chapters_used arrays.",
+  "metadata": {
+    "text": "jubilees",
+    "type": "glossary_expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:53.030346",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_018.json",
+  "_name": "task_018.json",
+  "completed_at": "2026-02-19T08:33:52.521145",
+  "tokens": {
+    "input": 1048,
+    "output": 8192
+  }
+}

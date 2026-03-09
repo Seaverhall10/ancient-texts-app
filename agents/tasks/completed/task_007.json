@@ -1,0 +1,18 @@
+{
+  "id": "task_007",
+  "agent": "scribe",
+  "priority": 7,
+  "description": "Expand thin chapter 'The Third Parable — The Light of the Righteous' (id: 1en-58, era: parables). Currently has only 1 section(s). Add 3-5 more sections with detailed analysis, cross-references, ANE context, and Second Temple sources where relevant.",
+  "metadata": {
+    "chapter_id": "1en-58",
+    "era": "parables",
+    "text": "1enoch",
+    "type": "expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:52.946447",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_007.json",
+  "_name": "task_007.json",
+  "completed_at": "2026-02-19T08:08:25.947376"
+}

@@ -1,0 +1,303 @@
+
+{
+    "qadosh": {
+        "hebrew": "קָדוֹשׁ",
+        "transliteration": "qādôš",
+        "strongs": "H6918",
+        "gloss": "holy one, saint",
+        "definition": "Adjective meaning 'holy, sacred, set apart.' In 1 Enoch, frequently refers to the angelic beings in God's presence, the 'holy ones' who constitute the divine council. The term emphasizes their consecrated status and separation from the profane. Related to the root qdš (to be holy), it describes both God's essential nature and those beings who share His presence. In the Enochic tradition, the qedoshim form the heavenly court and serve as witnesses to divine decrees.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02", "hc-ch03", "hc-ch04", "hc-ch05", "hc-ch06", "hc-ch07", "hc-ch08", "hc-ch09", "hc-ch10"]
+    },
+    "ir": {
+        "hebrew": "עִיר",
+        "transliteration": "ʿîr",
+        "strongs": "H5894",
+        "gloss": "watcher, wakeful one",
+        "definition": "Aramaic term meaning 'watcher' or 'wakeful one,' used in Daniel 4:13, 17, 23 and extensively in 1 Enoch to designate a class of angels assigned to watch over humanity. The irim are celestial guardians who descended to earth in the antediluvian period. In Enochic literature, this term becomes technical vocabulary for the rebellious angels who violated their divine mandate by taking human wives. The root ʿwr means 'to wake, be awake,' emphasizing their role as vigilant observers of the earthly realm.",
+        "language": "aramaic",
+        "chapters_used": ["hc-ch02", "hc-ch03", "hc-ch04", "hc-ch05", "hc-ch06"]
+    },
+    "azaz_el": {
+        "hebrew": "עֲזָאזֵל",
+        "transliteration": "ʿăzāzʾēl",
+        "strongs": "H5799",
+        "gloss": "Azazel, scapegoat leader",
+        "definition": "Proper name of the chief watcher who taught humanity forbidden arts including weaponry, cosmetics, and sorcery. Etymology debated: possibly 'God strengthens,' 'strong against God,' or 'goat that departs' (connecting to Leviticus 16 scapegoat ritual). In 1 Enoch, Azazel is distinguished from Shemihazah as the primary corrupter of humanity through illicit knowledge. He is bound in the desert of Dudael until the final judgment. The Levitical scapegoat bearing Israel's sins 'for Azazel' may reflect ancient tradition of this figure as recipient of impurity.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02", "hc-ch03", "hc-ch04", "hc-ch05", "hc-ch06", "hc-ch07", "hc-ch08", "hc-ch09", "hc-ch10"]
+    },
+    "dudael": {
+        "hebrew": "דּוּדָאֵל",
+        "transliteration": "dûdāʾēl",
+        "strongs": "N/A",
+        "gloss": "place of Azazel's binding",
+        "definition": "Geographical location in the wilderness where Azazel is imprisoned according to 1 Enoch 10:4-6. The name possibly means 'cauldron of God' or 'God's kettle,' suggesting a place of confinement and judgment. Raphael is commanded to bind Azazel hand and foot and cast him into the darkness of Dudael, covering him with rough and jagged rocks. This location serves as a temporary prison until the final judgment when Azazel will be cast into the fire. The imagery connects to ancient Near Eastern concepts of the desert as realm of chaos and demons.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch05", "hc-ch09"]
+    },
+    "rapha_el": {
+        "hebrew": "רְפָאֵל",
+        "transliteration": "rəp̄āʾēl",
+        "strongs": "N/A",
+        "gloss": "God heals, archangel",
+        "definition": "Proper name meaning 'God heals' or 'God has healed,' one of the four archangels in 1 Enoch's angelology. Raphael is assigned to bind Azazel and heal the earth from the corruption caused by the watchers' teaching of forbidden knowledge. His role emphasizes restoration and medical/healing functions within the divine council. In Tobit, Raphael appears as healer and guide. The name combines rp' (to heal) with 'el (God), indicating his function as divine physician who remedies the cosmic damage inflicted by rebellious angels.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch05", "hc-ch09", "hc-ch10"]
+    },
+    "mikha_el": {
+        "hebrew": "מִיכָאֵל",
+        "transliteration": "mîḵāʾēl",
+        "strongs": "H4317",
+        "gloss": "who is like God",
+        "definition": "Proper name meaning 'Who is like God?' (rhetorical question affirming God's uniqueness), one of the four chief archangels in 1 Enoch. Michael serves as heavenly prince of Israel (Daniel 10:13, 21; 12:1) and executor of divine judgment against the watchers and their offspring. In Enochic tradition, he binds Shemihazah and the rebellious watchers, casting them into darkness. His name functions as a polemic against any being claiming divine status. Michael represents God's sovereignty and military might within the divine council structure.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch05", "hc-ch09", "hc-ch10"]
+    },
+    "gavri_el": {
+        "hebrew": "גַּבְרִיאֵל",
+        "transliteration": "gaḇrîʾēl",
+        "strongs": "H1403",
+        "gloss": "God is my strength",
+        "definition": "Proper name meaning 'God is my warrior/strength' or 'mighty one of God,' one of the four archangels in 1 Enoch's hierarchy. Gabriel is commissioned to destroy the nephilim by inciting them to mutual destruction and to announce judgment to the watchers' human consorts. In biblical tradition (Daniel, Luke), Gabriel serves as divine messenger of eschatological revelation. The name combines geber (mighty man, warrior) with 'el (God), emphasizing his role as God's champion executing judgment against the hybrid offspring of the watcher rebellion.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch05", "hc-ch09", "hc-ch10"]
+    },
+    "uri_el": {
+        "hebrew": "אוּרִיאֵל",
+        "transliteration": "ʾûrîʾēl",
+        "strongs": "N/A",
+        "gloss": "God is my light",
+        "definition": "Proper name meaning 'God is my light' or 'flame of God,' one of the four archangels in 1 Enoch. Uriel serves as guide to Enoch in his heavenly journeys, revealing cosmological secrets, astronomical knowledge, and eschatological mysteries. He is particularly associated with wisdom, illumination, and interpretation of divine mysteries. The name combines 'ur (light, fire) with 'el (God). In 1 Enoch, Uriel explains the movements of heavenly bodies, the calendar, and the geography of the spiritual realms, functioning as revealer of hidden knowledge.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch07", "hc-ch08"]
+    },
+    "sheol": {
+        "hebrew": "שְׁאוֹל",
+        "transliteration": "šəʾôl",
+        "strongs": "H7585",
+        "gloss": "underworld, realm of dead",
+        "definition": "The underworld or realm of the dead in Hebrew cosmology. Etymology uncertain, possibly from š'l (to ask, inquire) or šʿl (to be hollow). In 1 Enoch, Sheol is depicted with multiple compartments separating the righteous dead from the wicked, anticipating final judgment. Unlike the undifferentiated grave of earlier biblical texts, Enochic Sheol shows development toward concepts of intermediate state and differentiated afterlife. The term represents the cosmic holding place for human souls awaiting resurrection and judgment.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch07", "hc-ch08"]
+    },
+    "pardes": {
+        "hebrew": "פַּרְדֵּס",
+        "transliteration": "pardēs",
+        "strongs": "H6508",
+        "gloss": "paradise, garden enclosure",
+        "definition": "Loanword from Persian meaning 'enclosed garden' or 'paradise.' In 1 Enoch, refers to the eschatological dwelling place of the righteous, often identified with the original Garden of Eden. The term appears in late biblical Hebrew (Nehemiah, Ecclesiastes, Song of Songs) and becomes technical vocabulary in Second Temple Judaism for the heavenly realm or future blessed state. In Enochic cosmology, paradise is a specific location in the heavenly geography where the tree of life grows and where the righteous will dwell after judgment.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch07", "hc-ch08"]
+    },
+    "gehenna": {
+        "hebrew": "גֵּיהִנֹּם",
+        "transliteration": "gêhinnōm",
+        "strongs": "H1516",
+        "gloss": "valley of Hinnom, hell",
+        "definition": "Originally 'Valley of (the son of) Hinnom,' a geographical location south of Jerusalem associated with child sacrifice to Molech (2 Kings 23:10; Jeremiah 7:31). By the Second Temple period, the term became synonymous with the place of eschatological punishment for the wicked. In 1 Enoch, Gehenna is depicted as a fiery abyss where fallen angels and unrighteous humans face eternal torment. The transformation from geographical valley to cosmic punishment realm reflects developing Jewish eschatology. The Greek transliteration geenna appears in New Testament texts.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch08", "hc-ch09"]
+    },
+    "anakim": {
+        "hebrew": "עֲנָקִים",
+        "transliteration": "ʿănāqîm",
+        "strongs": "H6062",
+        "gloss": "giants, long-necked ones",
+        "definition": "Plural of ʿanaq, referring to a race of giants inhabiting Canaan before the Israelite conquest (Numbers 13:33; Deuteronomy 2:10-11). Etymology possibly from ʿnq (neck, collar), suggesting 'long-necked' or 'those who wear necklaces.' In biblical tradition, the Anakim are descendants of the nephilim, connecting them to the antediluvian giant offspring of the watchers. The spies' report that they felt like grasshoppers before the Anakim emphasizes their extraordinary stature. In 1 Enoch's framework, they represent the post-flood continuation of the nephilim bloodline.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch06"]
+    },
+    "rephaim": {
+        "hebrew": "רְפָאִים",
+        "transliteration": "rəp̄āʾîm",
+        "strongs": "H7497",
+        "gloss": "shades, giant spirits",
+        "definition": "Plural term with dual meaning: (1) pre-Israelite giant inhabitants of Canaan and Transjordan (Genesis 14:5; Deuteronomy 2:11, 20); (2) shades or spirits of the dead in Sheol (Job 26:5; Psalm 88:10; Proverbs 2:18; Isaiah 14:9). Etymology debated, possibly from rp' (to heal, sink down, be weak). In Ugaritic texts, the rpʾum are deified ancestors or warrior spirits. In 1 Enoch's cosmology, the rephaim represent the disembodied spirits of the nephilim who continue to afflict humanity after their physical bodies are destroyed in the flood. This connects giant traditions with demonology.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch06", "hc-ch09"]
+    },
+    "emim": {
+        "hebrew": "אֵימִים",
+        "transliteration": "ʾêmîm",
+        "strongs": "H368",
+        "gloss": "terrors, fearsome giants",
+        "definition": "Name meaning 'terrors' or 'fearsome ones,' referring to a race of giants who inhabited Moab before being displaced by the Moabites (Deuteronomy 2:10-11). The Moabites called them Emim, but they were considered Rephaim like the Anakim. The name derives from ʾym (to be terrible, dreadful), emphasizing the fear they inspired. In the biblical giant traditions connected to 1 Enoch's watcher narrative, the Emim represent another manifestation of the nephilim bloodline that survived the flood through various lineages.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch06"]
+    },
+    "zamzummim": {
+        "hebrew": "זַמְזֻמִּים",
+        "transliteration": "zamzummîm",
+        "strongs": "H2157",
+        "gloss": "plotters, murmuring giants",
+        "definition": "Name meaning 'plotters' or 'murmurers,' referring to a race of giants who inhabited the territory later occupied by the Ammonites (Deuteronomy 2:20-21). The Ammonites called them Zamzummim, but like the Emim, they were classified as Rephaim. Etymology from zmm (to plan, devise, consider), possibly referring to their scheming nature or the sound of their speech. In the context of 1 Enoch's giant traditions, they represent another post-flood manifestation of the nephilim genetic legacy through Canaan's descendants.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch06"]
+    },
+    "og": {
+        "hebrew": "עוֹג",
+        "transliteration": "ʿôḡ",
+        "strongs": "H5747",
+        "gloss": "Og, giant king",
+        "definition": "Proper name of the king of Bashan, described as 'the last of the Rephaim' (Deuteronomy 3:11). His iron bedstead measured nine cubits by four cubits (approximately 13.5 x 6 feet), emphasizing his gigantic stature. Og ruled sixty fortified cities in Bashan and was defeated by Israel under Moses. In later Jewish tradition (including Enochic literature), Og becomes a legendary figure who survived the flood by clinging to Noah's ark, representing the continuation of the nephilim bloodline into the post-diluvian world. His defeat symbolizes God's judgment on the giant races.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch06"]
+    },
+    "sihon": {
+        "hebrew": "סִיחוֹן",
+        "transliteration": "sîḥôn",
+        "strongs": "H5511",
+        "gloss": "Sihon, Amorite king",
+        "definition": "Proper name of the Amorite king who ruled from Heshbon and was defeated by Israel (Numbers 21:21-31; Deuteronomy 2:24-37). While not explicitly called a giant, Sihon is associated with the Amorite population that included giant clans. His defeat alongside Og of Bashan represents Israel's conquest of the Transjordan territories inhabited by descendants of the nephilim. In the framework of 1 Enoch's narrative, these victories demonstrate God's judgment on the corrupted bloodlines stemming from the watcher rebellion.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch06"]
+    },
+    "anak": {
+        "hebrew": "עֲנָק",
+        "transliteration": "ʿănāq",
+        "strongs": "H6061",
+        "gloss": "Anak, progenitor of giants",
+        "definition": "Proper name of the eponymous ancestor of the Anakim, the giant inhabitants of Canaan. Numbers 13:33 explicitly connects the Anakim to the nephilim: 'We saw the Nephilim there (the descendants of Anak come from the Nephilim).' This genealogical link establishes the Anakim as post-flood continuation of the antediluvian giant race. The name possibly means 'long-necked' or 'necklace.' In 1 Enoch's framework, Anak represents a key figure in the transmission of the corrupted nephilim genetics through the flood via Ham's wife or other mechanisms proposed in Second Temple literature.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch06"]
+    },
+    "arba": {
+        "hebrew": "אַרְבַּע",
+        "transliteration": "ʾarbaʿ",
+        "strongs": "H704",
+        "gloss": "Arba, greatest Anakim",
+        "definition": "Proper name meaning 'four,' referring to the father of Anak and greatest man among the Anakim (Joshua 14:15). The city of Hebron was formerly called Kiriath-arba ('city of Arba') in his honor. As progenitor of the Anakim, Arba represents a key link in the giant genealogies connecting the antediluvian nephilim to the post-flood Canaanite populations. His designation as 'the greatest man among the Anakim' emphasizes his legendary stature. In the context of 1 Enoch's cosmic history, Arba embodies the persistence of the corrupted bloodline that Israel must eradicate.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch06"]
+    },
+    "ahiman": {
+        "hebrew": "אֲחִימָן",
+        "transliteration": "ʾăḥîmān",
+        "strongs": "H289",
+        "gloss": "Ahiman, Anakim warrior",
+        "definition": "Proper name meaning 'brother of a gift' or 'my brother is a gift,' one of the three sons of Anak who inhabited Hebron when the Israelite spies explored Canaan (Numbers 13:22). Along with his brothers Sheshai and Talmai, Ahiman represented the formidable Anakim presence that terrified ten of the twelve spies. Caleb later drove them out when he conquered Hebron (Joshua 15:14; Judges 1:10). In 1 Enoch's framework, these named Anakim warriors represent specific individuals from the nephilim bloodline who posed existential threats to God's covenant people.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch06"]
+    },
+    "sheshai": {
+        "hebrew": "שֵׁשַׁי",
+        "transliteration": "šēšay",
+        "strongs": "H8344",
+        "gloss": "Sheshai, Anakim warrior",
+        "definition": "Proper name of uncertain etymology, possibly meaning 'whitish' or 'noble,' one of the three sons of Anak dwelling in Hebron (Numbers 13:22). Sheshai, along with Ahiman and Talmai, constituted the Anakim leadership that controlled the strategic city of Hebron. Their presence caused the majority of Israelite spies to deliver a fearful report, leading to forty years of wilderness wandering. Caleb's eventual defeat of Sheshai and his brothers demonstrated that God's power overcomes even the nephilim descendants. The name may indicate Egyptian or Hurrian origin, suggesting international connections of the giant clans.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch06"]
+    },
+    "talmai": {
+        "hebrew": "תַּלְמַי",
+        "transliteration": "talmay",
+        "strongs": "H8526",
+        "gloss": "Talmai, Anakim warrior",
+        "definition": "Proper name meaning 'furrowed' or 'bold,' one of the three sons of Anak who ruled Hebron (Numbers 13:22; Joshua 15:14). Talmai, with his brothers Ahiman and Sheshai, represented the Anakim aristocracy controlling key Canaanite territory. The name appears elsewhere as a Geshurite king whose daughter Maacah married David (2 Samuel 3:3), suggesting it was used among various populations. In the context of 1 Enoch's giant traditions, Talmai exemplifies the named nephilim descendants who held political and military power in Canaan, requiring divine intervention for Israel's conquest to succeed.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch06"]
+    },
+    "azazyel": {
+        "hebrew": "עֲזַזְיֵאל",
+        "transliteration": "ʿăzazyēʾl",
+        "strongs": "N/A",
+        "gloss": "variant of Azazel",
+        "definition": "Variant spelling of Azazel found in some manuscripts of 1 Enoch. The name combines ʿzz (to be strong) with ʾl (God), possibly meaning 'God strengthens' or 'strength of God.' This variant emphasizes the ironic contrast between the angel's name suggesting divine empowerment and his role as arch-rebel who corrupts humanity. In 1 Enoch 8:1, Azazyel teaches men to make swords, knives, shields, and breastplates, introducing warfare technology. The variant spelling may reflect different textual traditions or dialectical variations in the transmission of Enochic literature.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch03", "hc-ch04"]
+    },
+    "semyaza": {
+        "hebrew": "שֶׁמְיָזָה",
+        "transliteration": "šemyāzâ",
+        "strongs": "N/A",
+        "gloss": "variant of Shemihazah",
+        "definition": "Variant spelling of Shemihazah, the leader of the watchers who organized the rebellion. The name possibly means 'my name has seen' or 'the name sees,' from šm (name) and ḥzh (to see, perceive). This variant appears in different manuscript traditions of 1 Enoch. Semyaza leads the group of two hundred watchers who descend to Mount Hermon and swear an oath to take human wives. Unlike Azazel who focuses on teaching forbidden knowledge, Semyaza's primary transgression is the sexual violation of the divine-human boundary. The variant spellings reflect the complex textual transmission through Aramaic, Greek, and Ethiopic versions.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02", "hc-ch03"]
+    },
+    "kokabel": {
+        "hebrew": "כּוֹכָבֵאל",
+        "transliteration": "kôḵāḇēʾl",
+        "strongs": "N/A",
+        "gloss": "star of God, watcher",
+        "definition": "Proper name meaning 'star of God,' one of the chiefs of the two hundred watchers who descended to Mount Hermon. The name combines kôḵāḇ (star) with ʾēl (God), suggesting celestial origin and divine association. According to 1 Enoch 8:3, Kokabel taught humanity the signs of the stars and constellations, imparting forbidden astrological knowledge. This teaching represents the corruption of divine wisdom, as astronomical knowledge was meant to remain in the heavenly realm. The association of angels with stars is common in biblical literature (Job 38:7; Revelation 1:20), and Kokabel's name emphasizes his stellar nature.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch03", "hc-ch04"]
+    },
+    "araqiel": {
+        "hebrew": "אֲרַקִיאֵל",
+        "transliteration": "ʾăraqîʾēl",
+        "strongs": "N/A",
+        "gloss": "earth of God, watcher",
+        "definition": "Proper name meaning 'earth of God,' one of the watcher chiefs who descended to take human wives. The name combines ʾereṣ (earth, land) with ʾēl (God). According to 1 Enoch 8:3, Araqiel taught humanity the signs of the earth, likely referring to geomancy, divination through earth patterns, or geological knowledge. This forbidden teaching allowed humans to manipulate earthly forces in ways reserved for divine prerogative. The irony of his name—'earth of God'—highlights the transgression: a heavenly being abandoning his celestial station to corrupt the earthly realm.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch03", "hc-ch04"]
+    },
+    "ramiel": {
+        "hebrew": "רָמִיאֵל",
+        "transliteration": "rāmîʾēl",
+        "strongs": "N/A",
+        "gloss": "thunder of God, watcher",
+        "definition": "Proper name meaning 'thunder of God' or 'God has raised,' one of the watcher leaders. The name possibly derives from rʿm (thunder) or rwm (to be high, exalted) combined with ʾēl (God). In 1 Enoch's list of watcher chiefs, Ramiel is among those who led the descent to Mount Hermon and participated in the oath-bound conspiracy to take human wives. Some manuscript traditions associate him with teaching forbidden knowledge related to visions or atmospheric phenomena. The theophoric name ironically invokes God's power while describing a rebel against divine order.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02", "hc-ch03"]
+    },
+    "tamiel": {
+        "hebrew": "תָּמִיאֵל",
+        "transliteration": "tāmîʾēl",
+        "strongs": "N/A",
+        "gloss": "perfection of God, watcher",
+        "definition": "Proper name meaning 'perfection of God' or 'God is perfect,' one of the chiefs of the watchers. The name combines tām (complete, perfect, blameless) with ʾēl (God). According to 1 Enoch 69:2, Tamiel taught humanity the art of astrology and the interpretation of celestial signs. The ironic contrast between his name suggesting divine perfection and his role as corrupter of humanity emphasizes the tragedy of the watcher rebellion. These beings, created perfect and stationed as guardians, chose to violate their mandate and introduce forbidden knowledge that led to human corruption.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch03", "hc-ch10"]
+    },
+    "asradel": {
+        "hebrew": "אַסְרָדֵאל",
+        "transliteration": "ʾasrādēʾl",
+        "strongs": "N/A",
+        "gloss": "God has bound, watcher",
+        "definition": "Proper name possibly meaning 'God has bound' or 'bound by God,' one of the watcher chiefs. The name may derive from ʾsr (to bind, imprison) combined with ʾēl (God), creating a prophetic irony: the angel whose name means 'bound by God' participates in rebellion and is ultimately bound in judgment. According to 1 Enoch 69:2, Asradel taught the course of the moon, imparting lunar calendar knowledge to humanity. This astronomical teaching disrupted the divinely ordained calendar system, leading to confusion in sacred times and festivals.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch10"]
+    },
+    "baraqel": {
+        "hebrew": "בָּרָקֵאל",
+        "transliteration": "bārāqēʾl",
+        "strongs": "N/A",
+        "gloss": "lightning of God, watcher",
+        "definition": "Proper name meaning 'lightning of God,' one of the watcher chiefs who descended to Mount Hermon. The name combines bārāq (lightning) with ʾēl (God), emphasizing celestial power and divine association. According to 1 Enoch 8:3, Baraqel taught humanity astrology and the observation of stars. This forbidden knowledge allowed humans to practice divination and attempt to discern future events through celestial patterns, usurping divine prerogative. Lightning imagery connects to theophany and divine judgment (Exodus 19:16; Psalm 18:14), making the name particularly ironic for a rebel angel.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch03", "hc-ch04"]
+    },
+    "sariel": {
+        "hebrew": "שָׂרִיאֵל",
+        "transliteration": "śārîʾēl",
+        "strongs": "N/A",
+        "gloss": "prince of God, watcher",
+        "definition": "Proper name meaning 'prince of God' or 'God is my prince,' one of the watcher chiefs. The name combines śar (prince, ruler, chief) with ʾēl (God). In 1 Enoch 20:6, Sariel appears as one of the holy angels set over the spirits who sin in the spirit realm, suggesting a complex role. Some traditions associate him with teaching the course of the moon (1 Enoch 8:3). The title 'prince' indicates high rank within the angelic hierarchy, making his participation in the watcher rebellion particularly significant as a fall from elevated status.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch04", "hc-ch09"]
+    },
+    "turel": {
+        "hebrew": "תּוּרֵאל",
+        "transliteration": "tûrēʾl",
+        "strongs": "N/A",
+        "gloss": "rock of God, watcher",
+        "definition": "Proper name meaning 'rock of God' or 'mountain of God,' one of the watcher chiefs. The name possibly derives from ṣûr (rock, cliff) or ṭûr (mountain) combined with ʾēl (God). In 1 Enoch's lists of fallen watchers, Turel is among the leaders who descended to Mount Hermon. The name's imagery of rock or mountain suggests stability and permanence, creating irony in his role as rebel who abandoned his fixed station. Some manuscript traditions associate him with teaching forbidden knowledge related to signs and omens.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02", "hc-ch03"]
+    },
+    "yomiel": {
+        "hebrew": "יוֹמִיאֵל",
+        "transliteration": "yômîʾēl",
+        "strongs": "N/A",
+        "gloss": "day of God, watcher",
+        "definition": "Proper name meaning 'day of God,' one of the watcher chiefs who participated in the descent to Mount Hermon. The name combines yôm (day) with ʾēl (God), possibly suggesting 'God's appointed time' or 'divine day.' In the context of 1 Enoch's narrative, the irony is profound: an angel whose name invokes God's temporal order violates the boundaries of time by abandoning his eternal station for temporal, fleshly desires. The name may also carry eschatological overtones, as 'day of God' often refers to judgment day in prophetic literature.",
+        "language": "hebrew",
+        "chapters_used": ["hc-ch02", "hc-ch03"]
+    },
+    "penemue": {
+        "hebrew": "פְּנֵמוּא",
+        "transliteration": "pənēmûʾ",
+        "strongs":

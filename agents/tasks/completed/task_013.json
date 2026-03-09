@@ -1,0 +1,19 @@
+{
+  "id": "task_013",
+  "agent": "scribe",
+  "priority": 13,
+  "description": "Expand thin chapter 'Enoch's Name Raised Aloft — The Translation Begins' (id: 1en-70, era: parables). Currently has only 1 section(s). Add 3-5 more sections with detailed analysis, cross-references, ANE context, and Second Temple sources where relevant.",
+  "metadata": {
+    "chapter_id": "1en-70",
+    "era": "parables",
+    "text": "1enoch",
+    "type": "expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:52.992561",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_013.json",
+  "_name": "task_013.json",
+  "completed_at": "2026-02-19T09:20:28.897531",
+  "output_path": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\reports\\scribe_expansion_task_013.py"
+}

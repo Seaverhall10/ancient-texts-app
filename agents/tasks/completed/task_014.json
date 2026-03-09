@@ -1,0 +1,20 @@
+{
+  "id": "task_014",
+  "agent": "lector",
+  "priority": 14,
+  "description": "Review all chapters in 'Genesis' and identify Hebrew/Aramaic/Greek terms that should be in the glossary but are not. Generate new glossary entries with proper transliteration, Strong's numbers, definitions, and chapters_used arrays.",
+  "metadata": {
+    "text": "genesis",
+    "type": "glossary_expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:52.999112",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_014.json",
+  "_name": "task_014.json",
+  "completed_at": "2026-02-19T08:24:54.379751",
+  "tokens": {
+    "input": 951,
+    "output": 8192
+  }
+}

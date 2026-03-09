@@ -1,0 +1,19 @@
+{
+  "mapCategories": {
+    "biblical": { "color": "#c9a84c", "label": "Biblical Sites", "icon": "\u2721" },
+    "watcher": { "color": "#9b7ec8", "label": "Watcher Geography", "icon": "\u2604" },
+    "megalith": { "color": "#e07050", "label": "Megaliths & Anomalies", "icon": "\u25B2" },
+    "pyramid": { "color": "#d4a853", "label": "Global Pyramids", "icon": "\u25B3" },
+    "dss": { "color": "#5b8dbf", "label": "Dead Sea Scroll Sites", "icon": "\u2720" },
+    "cultural": { "color": "#2d9a8f", "label": "Cultural Parallels", "icon": "\u2735" }
+  },
+  "parallelLines": {
+    "greenwich_33E": { "lat": null, "lng": 33.0, "label": "33\u00b0E Greenwich", "color": "#00ff88", "dash": "8 4" },
+    "paris_33E": { "lat": null, "lng": 35.3372, "label": "33\u00b0E Paris Meridian", "color": "#ff6633", "dash": "12 6" },
+    "greenwich_meridian": { "lat": null, "lng": 0, "label": "Greenwich Meridian (0\u00b0)", "color": "#00ff88", "dash": "4 8" },
+    "paris_meridian": { "lat": null, "lng": 2.3372, "label": "Paris Meridian (2.34\u00b0E)", "color": "#ff6633", "dash": "4 8" },
+    "lat_33": { "lat": 33.0, "lng": null, "label": "33\u00b0N Parallel", "color": "#ffcc00", "dash": "8 4" },
+    "lat_33_33": { "lat": 33.33, "lng": null, "label": "33.33\u00b0N Parallel", "color": "#ff3366", "dash": "12 4 4 4" },
+    "paris_33_33E": { "lat": null, "lng": 35.6672, "label": "33.33\u00b0E Paris Meridian", "color": "#ff3366", "dash": "12 4 4 4" }
+  }
+}

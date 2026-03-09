@@ -1,0 +1,20 @@
+{
+  "id": "task_016",
+  "agent": "lector",
+  "priority": 16,
+  "description": "Review all chapters in '1 Enoch' and identify Hebrew/Aramaic/Greek terms that should be in the glossary but are not. Generate new glossary entries with proper transliteration, Strong's numbers, definitions, and chapters_used arrays.",
+  "metadata": {
+    "text": "1enoch",
+    "type": "glossary_expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:53.013162",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_016.json",
+  "_name": "task_016.json",
+  "completed_at": "2026-02-19T08:29:54.886081",
+  "tokens": {
+    "input": 954,
+    "output": 8192
+  }
+}

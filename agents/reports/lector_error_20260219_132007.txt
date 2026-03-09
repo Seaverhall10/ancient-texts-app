@@ -1,0 +1,269 @@
+
+{
+    "achoray": {
+        "hebrew": "אַחֲרֵי",
+        "transliteration": "ʾaḥărê",
+        "strongs": "H310",
+        "gloss": "after, behind, following",
+        "definition": "Preposition and adverb meaning 'after,' 'behind,' or 'following.' Used spatially (behind someone) and temporally (after an event). In Exodus, frequently appears in the phrase 'achoray ha-midbar' (behind/beyond the wilderness) describing Moses' journey to Horeb. The term carries theological significance in contexts of following YHWH versus following other gods. Related to 'achar' (H309), sharing the root meaning of posteriority or sequence.",
+        "language": "hebrew",
+        "chapters_used": ["ex-3"]
+    },
+    "afeilah": {
+        "hebrew": "אֲפֵלָה",
+        "transliteration": "ʾăpēlâ",
+        "strongs": "H653",
+        "gloss": "darkness, thick darkness, gloom",
+        "definition": "Noun denoting deep, oppressive darkness or gloom. Distinguished from ordinary darkness (choshek, H2822) by its intensity and often supernatural character. In Exodus, describes the ninth plague—a darkness that could be felt (choshek afeilah). Associated with divine judgment and theophanic manifestations. The term appears in contexts of cosmic disorder and divine presence, echoing the primordial darkness of Genesis 1:2. Cognate with Aramaic and Arabic roots meaning 'to be dark' or 'obscure.'",
+        "language": "hebrew",
+        "chapters_used": ["ex-10"]
+    },
+    "almanah": {
+        "hebrew": "אַלְמָנָה",
+        "transliteration": "ʾalmānâ",
+        "strongs": "H490",
+        "gloss": "widow, bereaved woman",
+        "definition": "Noun designating a woman whose husband has died. In ancient Near Eastern society, widows were among the most vulnerable members of the community, lacking male protection and economic support. Torah legislation repeatedly commands protection and justice for widows (along with orphans and foreigners), reflecting YHWH's special concern for the marginalized. The term appears in covenant stipulations (Exodus 22:22-24) where oppression of widows invokes divine wrath. Related to Akkadian 'almattu' and Ugaritic 'almnt,' indicating common Semitic legal-social terminology.",
+        "language": "hebrew",
+        "chapters_used": ["ex-22"]
+    },
+    "am": {
+        "hebrew": "עַם",
+        "transliteration": "ʿam",
+        "strongs": "H5971",
+        "gloss": "people, nation, kinship group",
+        "definition": "Noun denoting a people, nation, or kinship group united by common ancestry, culture, or covenant relationship. Distinguished from 'goy' (nation) by emphasizing relational and covenantal bonds rather than political organization. In Exodus, 'am' frequently designates Israel as YHWH's covenant people ('ammi'—'my people'), establishing their special relationship. The phrase 'am segullah' (treasured people) in Exodus 19:5 defines Israel's unique status among nations. The term can also refer to troops or fighting men in military contexts. Cognate with Ugaritic 'ʿm' and Akkadian 'ummānu.'",
+        "language": "hebrew",
+        "chapters_used": ["ex-1", "ex-3", "ex-5", "ex-19"]
+    },
+    "amalek": {
+        "hebrew": "עֲמָלֵק",
+        "transliteration": "ʿămālēq",
+        "strongs": "H6002",
+        "gloss": "Amalek, Amalekite people",
+        "definition": "Proper noun designating both the eponymous ancestor and the nomadic people descended from him, traditionally identified as Esau's grandson (Genesis 36:12). The Amalekites inhabited the Negev and Sinai regions, becoming Israel's archetypal enemy after their unprovoked attack on the Israelites at Rephidim (Exodus 17:8-16). YHWH declares perpetual war against Amalek, commanding their remembrance and eventual obliteration (Deuteronomy 25:17-19). In later tradition, Amalek represents opposition to divine purposes and attacks on the vulnerable. The etymology remains uncertain, possibly related to a root meaning 'to lick up' or 'dweller in the valley.'",
+        "language": "hebrew",
+        "chapters_used": ["ex-17"]
+    },
+    "amram": {
+        "hebrew": "עַמְרָם",
+        "transliteration": "ʿamrām",
+        "strongs": "H6019",
+        "gloss": "Amram, Moses' father",
+        "definition": "Proper noun meaning 'exalted people' or 'people are exalted,' from 'am' (people) and 'ram' (high/exalted). Amram was a Levite, son of Kohath, who married his aunt Jochebed and fathered Moses, Aaron, and Miriam (Exodus 6:20). His genealogy establishes the priestly lineage and legitimacy of Moses and Aaron's leadership. The marriage to an aunt, later prohibited in Levitical law (Leviticus 18:12), reflects pre-Sinai practices. Amram lived 137 years according to Exodus 6:20, though chronological difficulties exist in reconciling genealogical data with the 430-year Egyptian sojourn.",
+        "language": "hebrew",
+        "chapters_used": ["ex-6"]
+    },
+    "amud": {
+        "hebrew": "עַמּוּד",
+        "transliteration": "ʿammûḏ",
+        "strongs": "H5982",
+        "gloss": "pillar, column, standing structure",
+        "definition": "Noun meaning pillar, column, or standing structure. Used architecturally for supporting pillars in buildings (Judges 16:25-29) and metaphorically for stability or permanence. In Exodus, most significantly appears in the divine manifestations as 'amud anan' (pillar of cloud) and 'amud esh' (pillar of fire), representing YHWH's guiding and protective presence during the wilderness journey. These pillars mediate divine presence while maintaining separation, functioning as visible signs of the invisible God's accompaniment. The term also describes the pillars of the Tabernacle structure. Root meaning suggests 'to stand' or 'stand firm.'",
+        "language": "hebrew",
+        "chapters_used": ["ex-13", "ex-14", "ex-33"]
+    },
+    "amud_anan": {
+        "hebrew": "עַמּוּד עָנָן",
+        "transliteration": "ʿammûḏ ʿānān",
+        "strongs": "H5982 + H6051",
+        "gloss": "pillar of cloud",
+        "definition": "Compound phrase meaning 'pillar of cloud,' describing the visible manifestation of YHWH's presence that guided Israel by day during the Exodus and wilderness wanderings. The cloud pillar provided direction, protection from enemies (Exodus 14:19-20), and mediated divine presence at the Tent of Meeting (Exodus 33:9-10). It represents the shekinah glory in portable, guiding form—distinct from the static cloud that filled the Tabernacle. The pillar's movement indicated when Israel should journey or encamp (Numbers 9:15-23). This theophanic phenomenon combines transcendence (cloud obscuring direct vision) with immanence (tangible guidance), functioning as a visible sign of the covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": ["ex-13", "ex-14", "ex-33"]
+    },
+    "amud_esh": {
+        "hebrew": "עַמּוּד אֵשׁ",
+        "transliteration": "ʿammûḏ ʾēš",
+        "strongs": "H5982 + H784",
+        "gloss": "pillar of fire",
+        "definition": "Compound phrase meaning 'pillar of fire,' describing the nocturnal manifestation of YHWH's guiding presence during the Exodus. Complementing the cloud pillar by day, the fire pillar provided light and protection by night (Exodus 13:21-22). Fire consistently represents divine presence in theophanies (burning bush, Sinai, etc.), signifying holiness, judgment, and purification. The pillar's dual cloud-fire nature reflects the paradox of divine presence—both concealing and revealing, comforting and fearsome. Psalm 78:14 and Nehemiah 9:12 recall this phenomenon as evidence of YHWH's faithful guidance. The imagery influenced later Jewish mysticism regarding the shekinah and divine glory.",
+        "language": "hebrew",
+        "chapters_used": ["ex-13", "ex-14"]
+    },
+    "anshei_chayil": {
+        "hebrew": "אַנְשֵׁי חַיִל",
+        "transliteration": "ʾanšê ḥayil",
+        "strongs": "H376 + H2428",
+        "gloss": "men of valor, capable men",
+        "definition": "Compound phrase meaning 'men of valor,' 'capable men,' or 'men of substance.' The term 'chayil' encompasses strength, wealth, virtue, and capability. In Exodus 18:21, Jethro advises Moses to appoint 'anshei chayil' as judges—men who are capable, God-fearing, trustworthy, and hate dishonest gain. The phrase appears throughout Scripture designating military warriors (2 Samuel 2:7), wealthy landowners (Ruth 2:1), and virtuous individuals (Proverbs 31:10, 'eshet chayil'). The semantic range includes moral, economic, and physical strength, reflecting the Hebrew holistic view of human excellence. These qualities make such men suitable for leadership and judicial responsibilities.",
+        "language": "hebrew",
+        "chapters_used": ["ex-18"]
+    },
+    "arbeh": {
+        "hebrew": "אַרְבֶּה",
+        "transliteration": "ʾarbeh",
+        "strongs": "H697",
+        "gloss": "locust, swarming locust",
+        "definition": "Noun designating the locust, specifically the swarming or migratory locust (likely Schistocerca gregaria). The eighth plague in Exodus 10:4-19 involved an unprecedented locust swarm that devoured all remaining vegetation after the hail. Locusts were both feared agricultural destroyers and, ironically, permitted food under dietary laws (Leviticus 11:22). The term derives from a root meaning 'to multiply' or 'be numerous,' reflecting the locust's devastating reproductive capacity. Ancient Near Eastern texts frequently mention locust plagues as divine judgment. Joel 1-2 uses locust imagery apocalyptically. The arbeh represents one of several Hebrew terms for locusts, possibly distinguishing developmental stages or species.",
+        "language": "hebrew",
+        "chapters_used": ["ex-10"]
+    },
+    "argaman": {
+        "hebrew": "אַרְגָּמָן",
+        "transliteration": "ʾargāmān",
+        "strongs": "H713",
+        "gloss": "purple, purple cloth",
+        "definition": "Noun denoting purple dye or purple-dyed cloth, one of the most valuable commodities in the ancient world. Extracted from murex shellfish (primarily Murex brandaris and Murex trunculus) along the Phoenician coast, requiring thousands of mollusks for small amounts of dye. In Exodus, purple appears repeatedly in Tabernacle construction—curtains, priestly garments, and furnishings—signifying royalty, wealth, and holiness. The term is a loanword, possibly from Akkadian 'argamannu' or related to Sanskrit 'rajaman' (reddish). Purple's association with royalty stems from its expense and the labor-intensive production process. The color ranges from reddish-purple to bluish-purple depending on species and processing.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-26", "ex-28"]
+    },
+    "aron": {
+        "hebrew": "אָרוֹן",
+        "transliteration": "ʾārôn",
+        "strongs": "H727",
+        "gloss": "ark, chest, box",
+        "definition": "Noun meaning ark, chest, or box. Most significantly designates the Ark of the Covenant (aron ha-berit or aron ha-edut), the gold-covered acacia wood chest containing the tablets of the Ten Commandments. Described in Exodus 25:10-22, the Ark served as YHWH's throne-footstool, with the mercy seat (kapporet) and cherubim above it marking the locus of divine presence and the meeting place between God and Moses. The Ark represented the covenant relationship, divine presence among Israel, and YHWH's kingship. Also used for Joseph's coffin (Genesis 50:26, 'aron'). The term appears in other Semitic languages with similar meanings, suggesting common ancient Near Eastern chest/box terminology.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-37", "ex-40"]
+    },
+    "arov": {
+        "hebrew": "עָרֹב",
+        "transliteration": "ʿārōḇ",
+        "strongs": "H6157",
+        "gloss": "swarm, mixture, flies",
+        "definition": "Noun traditionally translated 'swarm of flies' or 'mixture,' designating the fourth Egyptian plague (Exodus 8:20-32). The precise identification remains debated—possibly various biting insects, flies, wild animals, or a 'mixture' of creatures. The root 'arab' means 'to mix' or 'mingle,' suggesting either mixed swarms of insects or the mixing/mingling of destructive creatures throughout Egypt. Significantly, the plague distinguished between Egyptian and Israelite territories (Goshen remained unaffected), demonstrating YHWH's sovereignty and protection of His people. The LXX translates as 'kynomyia' (dog-fly), suggesting biting flies. The ambiguity may be intentional, emphasizing the plague's chaotic, invasive nature.",
+        "language": "hebrew",
+        "chapters_used": ["ex-8"]
+    },
+    "aseret_hadevarim": {
+        "hebrew": "עֲשֶׂרֶת הַדְּבָרִים",
+        "transliteration": "ʿăśereṯ haddəḇārîm",
+        "strongs": "H6235 + H1697",
+        "gloss": "Ten Words, Ten Commandments",
+        "definition": "Phrase meaning 'the Ten Words' or 'Ten Commandments,' referring to the foundational covenant stipulations given at Sinai. The Hebrew literally says 'ten words' (Exodus 34:28, Deuteronomy 4:13, 10:4), not 'commandments'—'devarim' encompasses words, matters, or things. These represent the covenant constitution, written by God's finger on stone tablets and placed in the Ark. The division into 'ten' varies among Jewish, Catholic/Lutheran, and Reformed traditions. The Decalogue establishes both vertical (God-human) and horizontal (human-human) covenant obligations, forming the core of Torah ethics. The term emphasizes these as divine speech acts—performative utterances establishing covenant relationship rather than merely legal prohibitions.",
+        "language": "hebrew",
+        "chapters_used": ["ex-20", "ex-34"]
+    },
+    "asif": {
+        "hebrew": "אָסִיף",
+        "transliteration": "ʾāsîp",
+        "strongs": "H614",
+        "gloss": "ingathering, harvest festival",
+        "definition": "Noun meaning 'ingathering' or 'gathering in,' specifically designating the autumn harvest festival (Chag ha-Asif, Feast of Ingathering). Mentioned in Exodus 23:16 and 34:22, this festival occurs at year's end when agricultural produce is gathered from fields and vineyards. Later known as Sukkot (Feast of Tabernacles), it celebrates the completion of the agricultural cycle and commemorates wilderness wanderings. The term derives from the root 'asaf' (H622), meaning 'to gather' or 'collect.' The festival required pilgrimage to the sanctuary and offerings of firstfruits, expressing gratitude for YHWH's provision and acknowledging His ownership of the land and its produce.",
+        "language": "hebrew",
+        "chapters_used": ["ex-23", "ex-34"]
+    },
+    "atar": {
+        "hebrew": "עָתַר",
+        "transliteration": "ʿāṯar",
+        "strongs": "H6279",
+        "gloss": "to pray, entreat, supplicate",
+        "definition": "Verb meaning to pray, entreat, or supplicate, often with intensive or repeated action. In Exodus, Moses repeatedly 'atars' (entreats) YHWH on Pharaoh's behalf to remove plagues (Exodus 8:8-9, 8:28-29, 9:28, 10:17-18). The term suggests earnest, persistent intercession rather than casual petition. The root may be related to Akkadian 'atāru' (to be abundant) or Arabic 'ʿatara' (to sacrifice), possibly indicating abundant or repeated supplication. The Hiphil form emphasizes the causative aspect—making supplication or causing oneself to be heard. Moses' intercessory role prefigures later prophetic intercession and ultimately messianic mediation.",
+        "language": "hebrew",
+        "chapters_used": ["ex-8", "ex-9", "ex-10"]
+    },
+    "atsam": {
+        "hebrew": "עָצַם",
+        "transliteration": "ʿāṣam",
+        "strongs": "H6105",
+        "gloss": "to be strong, numerous, mighty",
+        "definition": "Verb meaning to be strong, numerous, mighty, or to multiply greatly. In Exodus 1:7, 20, describes Israel's dramatic population increase in Egypt—they 'multiplied and became exceedingly mighty' (va-yirbu va-ya'atsmu bi-me'od me'od). The term emphasizes both numerical growth and strength/power, alarming the Egyptians and prompting oppression. The root also yields 'etsem' (bone), suggesting strength and substantiality. The verb appears in various stems: Qal (be strong/numerous), Piel (make strong), Hiphil (show strength). Israel's 'atsam' fulfills the Abrahamic promise of numerous descendants and sets the stage for the Exodus narrative—a people too strong to be contained by human oppression.",
+        "language": "hebrew",
+        "chapters_used": ["ex-1"]
+    },
+    "avdut": {
+        "hebrew": "עַבְדוּת",
+        "transliteration": "ʿaḇḏûṯ",
+        "strongs": "H5659",
+        "gloss": "slavery, bondage, servitude",
+        "definition": "Noun meaning slavery, bondage, or servitude. Derived from 'eved' (slave/servant, H5650), the term describes the condition of forced labor and oppression. In Exodus, 'avdut' characterizes Israel's experience in Egypt—harsh bondage involving brick-making, field labor, and systematic oppression (Exodus 1:13-14, 2:23, 6:5-6). The Exodus from 'avdut' becomes the paradigmatic redemption event in Israel's theology, repeatedly recalled in Torah, prophets, and liturgy. The term contrasts with voluntary service to YHWH—Israel is freed from Egyptian bondage to serve God (Exodus 3:12). Deuteronomy calls Egypt 'beit avadim' (house of slavery), establishing the Exodus as liberation from dehumanizing oppression to covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": ["ex-1", "ex-2", "ex-6"]
+    },
+    "avodah": {
+        "hebrew": "עֲבֹדָה",
+        "transliteration": "ʿăḇōḏâ",
+        "strongs": "H5656",
+        "gloss": "work, service, worship",
+        "definition": "Noun meaning work, service, labor, or worship. The semantic range encompasses physical labor, cultic service, and worship—reflecting the Hebrew integration of work and worship. In Exodus, 'avodah' describes both oppressive Egyptian labor (Exodus 1:14, 2:23, 5:9-11) and Israel's service/worship of YHWH (Exodus 3:12, 12:25-26). The wordplay is intentional: Israel is freed from 'avodah' to Pharaoh to perform 'avodah' to YHWH. The term also designates Levitical service in the Tabernacle (Numbers 4:47). This dual meaning establishes that true human flourishing involves service to the Creator rather than oppressive human masters. Related to 'eved' (servant/slave, H5650).",
+        "language": "hebrew",
+        "chapters_used": ["ex-1", "ex-3", "ex-12", "ex-13"]
+    },
+    "avodah_zarah": {
+        "hebrew": "עֲבוֹדָה זָרָה",
+        "transliteration": "ʿăḇôḏâ zārâ",
+        "strongs": "H5656 + H2114",
+        "gloss": "foreign worship, idolatry",
+        "definition": "Compound phrase meaning 'foreign worship' or 'strange service,' the standard rabbinic term for idolatry. Combines 'avodah' (service/worship) with 'zarah' (strange/foreign), designating worship of deities other than YHWH. While the exact phrase appears later in rabbinic literature, the concept pervades Exodus—the prohibition against other gods (Exodus 20:3-5, 23:13, 23:24, 34:14-17), warnings against Canaanite worship practices, and the golden calf incident (Exodus 32). The term emphasizes that idolatry is fundamentally misdirected worship—offering to created things or foreign gods the service due only to the Creator. The phrase became the technical term in Mishnaic and Talmudic literature for the tractate dealing with idolatry.",
+        "language": "hebrew",
+        "chapters_used": ["ex-20", "ex-23", "ex-32", "ex-34"]
+    },
+    "avon": {
+        "hebrew": "עָוֹן",
+        "transliteration": "ʿāwōn",
+        "strongs": "H5771",
+        "gloss": "iniquity, guilt, punishment",
+        "definition": "Noun meaning iniquity, guilt, or punishment for sin. One of three primary Hebrew sin terms (along with 'chata't'—sin/sin offering, and 'pesha'—transgression/rebellion), 'avon' emphasizes the guilt incurred and consequences resulting from wrongdoing. The root suggests 'to bend' or 'twist,' indicating moral perversion or deviation from righteousness. In Exodus, appears in YHWH's self-revelation (Exodus 34:7, 9)—He forgives 'avon' but also visits it upon subsequent generations, establishing both divine mercy and justice. The term can denote the sinful act, the guilt it produces, or the punishment it deserves. Levitical sacrifices address 'avon' through atonement rituals, acknowledging that guilt requires expiation.",
+        "language": "hebrew",
+        "chapters_used": ["ex-20", "ex-28", "ex-34"]
+    },
+    "avraham": {
+        "hebrew": "אַבְרָהָם",
+        "transliteration": "ʾaḇrāhām",
+        "strongs": "H85",
+        "gloss": "Abraham, father of multitudes",
+        "definition": "Proper noun meaning 'father of a multitude' or 'father of many nations,' the covenant name given to Abram (Genesis 17:5). In Exodus, Abraham represents the patriarchal covenant foundation—YHWH repeatedly identifies Himself as 'the God of Abraham' (Exodus 3:6, 15-16, 4:5, 6:3, 8, 32:13, 33:1), establishing continuity between patriarchal promises and Exodus fulfillment. The Abrahamic covenant promises land, descendants, and blessing to all nations—themes realized through the Exodus and Sinai covenant. Abraham's name change from 'Abram' (exalted father) to 'Abraham' added the letter 'he' (ה), possibly representing divine breath or presence, signifying his role in divine purposes. His faith and obedience model covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": ["ex-2", "ex-3", "ex-4", "ex-6", "ex-32", "ex-33"]
+    },
+    "avram": {
+        "hebrew": "אַבְרָם",
+        "transliteration": "ʾaḇrām",
+        "strongs": "H87",
+        "gloss": "Abram, exalted father",
+        "definition": "Proper noun meaning 'exalted father' or 'the father is exalted,' the original name of Abraham before the covenant name change (Genesis 17:5). Composed of 'ab' (father, H1) and 'ram' (exalted, H7311). While 'Abram' appears primarily in Genesis, the name establishes the patriarch's identity before the covenant transformation. The name reflects Mesopotamian naming patterns and may indicate noble lineage or aspirations. The change to 'Abraham' marks the covenant establishment and expanded mission—from 'exalted father' to 'father of multitudes.' In Exodus, 'Abraham' (not 'Abram') is consistently used, emphasizing the covenant identity and promises being fulfilled through the Exodus generation.",
+        "language": "hebrew",
+        "chapters_used": ["ex-2"]
+    },
+    "ayin_tachat_ayin": {
+        "hebrew": "עַיִן תַּחַת עַיִן",
+        "transliteration": "ʿayin taḥaṯ ʿayin",
+        "strongs": "H5869 + H8478 + H5869",
+        "gloss": "eye for eye, proportional justice",
+        "definition": "Legal formula meaning 'eye for eye,' establishing the lex talionis (law of retaliation) principle in biblical jurisprudence. Appears in Exodus 21:24 within the Covenant Code, followed by 'tooth for tooth, hand for hand, foot for foot.' Rather than promoting vengeance, this principle limits retaliation to proportional justice—punishment must not exceed the offense. In ancient Near Eastern context, this represented progressive legislation preventing blood feuds and excessive revenge. The formula applies to both physical injury and property damage, ensuring equitable compensation. Rabbinic interpretation understood this as monetary compensation rather than literal mutilation. The principle establishes justice as measured equivalence, protecting both victim and perpetrator from disproportionate outcomes.",
+        "language": "hebrew",
+        "chapters_used": ["ex-21"]
+    },
+    "baqah": {
+        "hebrew": "בָּקַע",
+        "transliteration": "bāqaʿ",
+        "strongs": "H1234",
+        "gloss": "to split, cleave, break through",
+        "definition": "Verb meaning to split, cleave, break through, or divide. In Exodus 14:16, 21, describes YHWH's splitting of the Red Sea (Yam Suph)—Moses stretches his staff and the waters are 'split' (nivqe'u), creating dry ground for Israel's passage. The term emphasizes violent division or breaking apart, used for splitting wood (Ecclesiastes 10:9), breaking through walls (2 Kings 25:4), and hatching eggs (Isaiah 59:5). The root appears in various stems with intensive meanings. The sea-splitting demonstrates YHWH's sovereignty over creation, reversing the waters' natural state and recalling creation's ordering of chaos. This act becomes paradigmatic for divine deliverance and power over nature.",
+        "language": "hebrew",
+        "chapters_used": ["ex-14"]
+    },
+    "barad": {
+        "hebrew": "בָּרָד",
+        "transliteration": "bārāḏ",
+        "strongs": "H1259",
+        "gloss": "hail, hailstones",
+        "definition": "Noun meaning hail or hailstones, designating the seventh Egyptian plague (Exodus 9:18-34). The plague involved unprecedented hail mixed with fire (lightning), destroying crops, livestock, and people caught outside. The term appears primarily in plague narratives and poetic descriptions of divine judgment (Psalms 18:12-13, 78:47-48, 105:32, Isaiah 28:2). Hail represents divine power over weather and agricultural fertility—domains claimed by Egyptian deities like Seth and Nut. The plague's severity is emphasized: the worst hail in Egypt's history (Exodus 9:18, 24). Goshen again remained unaffected, demonstrating YHWH's discriminating judgment. Hail becomes a standard image for divine wrath in prophetic and apocalyptic literature.",
+        "language": "hebrew",
+        "chapters_used": ["ex-9"]
+    },
+    "bein_ha_arbayim": {
+        "hebrew": "בֵּין הָעַרְבָּיִם",
+        "transliteration": "bên hāʿarbayim",
+        "strongs": "H996 + H6153",
+        "gloss": "between the evenings, twilight",
+        "definition": "Temporal phrase meaning 'between the two evenings' or 'at twilight,' designating the time for Passover lamb sacrifice and daily offerings. The precise timing is debated: Pharisees understood it as between noon and sunset (approximately 3-5 PM), while Sadducees interpreted it as between sunset and darkness (approximately 6-7 PM). The phrase appears in Passover instructions (Exodus 12:6), daily tamid offerings (Exodus 29:39, 41, 30:8), and other ritual contexts. The dual 'arbayim' (two evenings) may refer to the sun's declining and its setting, or to the period when shadows lengthen and darkness approaches. The timing emphasizes the liminal, transitional nature of these sacred moments—boundaries between day and night, slavery and freedom.",
+        "language": "hebrew",
+        "chapters_used": ["ex-12", "ex-16", "ex-29", "ex-30"]
+    },
+    "beit_el": {
+        "hebrew": "בֵּית־אֵל",
+        "transliteration": "bêṯ-ʾēl",
+        "strongs": "H1008",
+        "gloss": "Bethel, house of God",
+        "definition": "Proper noun meaning 'house of God,' designating the sacred site where Jacob encountered YHWH in a dream (Genesis 28:10-22). Originally called Luz, Jacob renamed it Bethel after his vision of the heavenly ladder and divine promise. Located approximately 12 miles north of Jerusalem, Bethel became a significant cultic site throughout Israel's history. In Exodus, Bethel appears in geographical references establishing continuity with patriarchal narratives and covenant promises. The name combines 'bayit' (house, H1004) and 'El' (God, H410), emphasizing the location as a dwelling place or meeting point with the divine. Later, Bethel's association with Jeroboam's golden calf cult (1 Kings 12:28-33) complicated its legacy, though prophets recalled its patriarchal sanctity.",
+        "language": "hebrew",
+        "chapters_used": ["ex-13"]
+    },
+    "bekah": {
+        "hebrew": "בֶּקַע",
+        "transliteration": "beqaʿ",
+        "strongs": "H1235",
+        "gloss": "half-shekel, split piece",
+        "definition": "Noun meaning half-shekel or split piece, a weight and monetary unit equal to half a shekel (approximately 5.7 grams or 0.2 ounces). In Exodus 38:26, the bekah represents the census tax—each Israelite male twenty years and older contributed one bekah (half-shekel) for Tabernacle construction. The term derives from 'baqa' (to split, H1234), indicating its nature as a divided or split unit. This half-shekel tax established precedent

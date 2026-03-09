@@ -1,0 +1,233 @@
+
+{
+    "yaaqov": {
+        "hebrew": "יַעֲקֹב",
+        "transliteration": "yaʿăqōḇ",
+        "strongs": "H3290",
+        "gloss": "Jacob, heel-holder, supplanter",
+        "definition": "The third patriarch of Israel, son of Isaac and Rebekah, twin brother of Esau. The name derives from ʿāqēḇ (heel), referencing his birth grasping Esau's heel (Gen 25:26). Later renamed Israel after wrestling with the divine being at Peniel (Gen 32:28). The name carries connotations of 'supplanter' or 'one who follows at the heel,' reflecting his acquisition of Esau's birthright and blessing. Father of the twelve tribes through four wives: Leah, Rachel, Bilhah, and Zilpah. His life narrative spans Genesis 25-50, establishing the covenant lineage through divine election rather than primogeniture. The name became synonymous with the nation of Israel in prophetic literature.",
+        "language": "hebrew",
+        "chapters_used": ["gen-25", "gen-27", "gen-28", "gen-32", "gen-35"]
+    },
+    "yada": {
+        "hebrew": "יָדַע",
+        "transliteration": "yāḏaʿ",
+        "strongs": "H3045",
+        "gloss": "to know, perceive, understand",
+        "definition": "A verb denoting knowledge in its fullest sense: cognitive awareness, experiential understanding, intimate relationship, and covenantal recognition. The semantic range includes intellectual knowledge, sexual intimacy (Gen 4:1), relational knowing (Amos 3:2), and acknowledgment of divine authority. In covenant contexts, yāḏaʿ signifies the mutual recognition between YHWH and Israel (Jer 31:34). The term appears in the divine council framework when YHWH 'knows' His servants (Exod 33:12) and when humans are called to 'know' YHWH (Hos 6:3). Distinguished from mere information by its relational and experiential dimensions. The negation (not knowing YHWH) characterizes covenant rebellion and judgment.",
+        "language": "hebrew",
+        "chapters_used": ["gen-4", "exod-33", "deut-34"]
+    },
+    "yam_suf": {
+        "hebrew": "יַם־סוּף",
+        "transliteration": "yam-sûp̄",
+        "strongs": "H3220, H5488",
+        "gloss": "Sea of Reeds, Red Sea",
+        "definition": "Literally 'Sea of Reeds,' the body of water YHWH divided for Israel's exodus from Egypt (Exod 13-15). The term sûp̄ refers to reeds or rushes, suggesting a marshy region rather than deep ocean. Traditional identification with the Red Sea (Greek: Erythra Thalassa) may reflect broader geographic understanding. The crossing represents YHWH's supreme act of deliverance, demonstrating His power over creation and the gods of Egypt. The event establishes the pattern of salvation through water, echoed in prophetic literature (Isa 43:16) and typologically in Christian baptismal theology. Archaeological debate continues regarding precise location—possibilities include Gulf of Suez, Gulf of Aqaba, or lakes in the Isthmus of Suez region.",
+        "language": "hebrew",
+        "chapters_used": ["exod-13", "exod-14", "exod-15"]
+    },
+    "yare": {
+        "hebrew": "יָרֵא",
+        "transliteration": "yārēʾ",
+        "strongs": "H3372",
+        "gloss": "to fear, revere, be afraid",
+        "definition": "A verb expressing both terror and reverential awe, depending on context. The semantic range spans from natural fear of danger to the covenantal 'fear of YHWH' (yirʾat yhwh), which constitutes the beginning of wisdom (Prov 9:10). In divine encounters, yārēʾ describes the appropriate human response to theophany or angelic visitation (Gen 28:17, Judg 6:22-23). The fear of YHWH is not servile terror but covenant loyalty, obedience, and worship grounded in recognition of divine holiness and power. Distinguished from pachad (dread) by its covenantal and ethical dimensions. The term appears frequently in Deuteronomic theology as the proper disposition toward YHWH, motivating obedience to Torah.",
+        "language": "hebrew",
+        "chapters_used": ["gen-22", "gen-28", "exod-1", "exod-20"]
+    },
+    "yare_elohim": {
+        "hebrew": "יְרֵא אֱלֹהִים",
+        "transliteration": "yərēʾ ʾĕlōhîm",
+        "strongs": "H3373, H430",
+        "gloss": "God-fearer, one who fears God",
+        "definition": "A designation for those who demonstrate reverential fear and covenant loyalty toward Elohim. The phrase characterizes individuals who act righteously due to their recognition of divine authority and judgment. Applied to the Hebrew midwives who defied Pharaoh (Exod 1:17, 21), to Abraham in the Aqedah (Gen 22:12), and as a general ethical category in wisdom literature. In Second Temple Judaism, the term evolved to describe Gentile sympathizers who worshiped the God of Israel without full conversion. The concept emphasizes that true fear of God manifests in ethical action and covenant obedience, not merely cultic participation. Foundational to biblical ethics as the motivation for righteous behavior.",
+        "language": "hebrew",
+        "chapters_used": ["gen-22", "exod-1"]
+    },
+    "yareakh": {
+        "hebrew": "יָרֵחַ",
+        "transliteration": "yārēaḥ",
+        "strongs": "H3394",
+        "gloss": "moon, month",
+        "definition": "The moon, created on the fourth day to govern the night and mark seasons, days, and years (Gen 1:16). The term also denotes a lunar month in the Hebrew calendar system. Unlike surrounding ANE cultures that deified lunar bodies, Genesis deliberately subordinates the moon to YHWH's creative authority—it is a 'lesser light' (māʾôr haqqāṭōn), a timekeeper rather than a deity. The moon's phases regulate Israel's festival calendar (Ps 104:19). Prophetic literature uses lunar imagery for cosmic judgment (Joel 2:31, Isa 13:10). The deliberate avoidance of the moon's common Semitic name (Yarikh, a Canaanite deity) in favor of the generic yārēaḥ reflects Israelite anti-idolatry polemic. The moon serves YHWH's purposes in the created order.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1"]
+    },
+    "yasha": {
+        "hebrew": "יָשַׁע",
+        "transliteration": "yāšaʿ",
+        "strongs": "H3467",
+        "gloss": "to save, deliver, rescue",
+        "definition": "A verb meaning to save, deliver, or bring to safety, often in military or judicial contexts. The root conveys spaciousness, freedom from constraint, and victory over enemies. YHWH is consistently portrayed as the ultimate yôšîaʿ (savior) who delivers Israel from Egypt, enemies, and covenant curses (Exod 14:30, Judg 2:16). The term carries both physical and spiritual dimensions—deliverance from temporal danger and from sin's consequences. The noun forms yešûʿâ and yəšûʿâ denote salvation or deliverance. The name Yeshua (Jesus) derives from this root, meaning 'YHWH saves.' In prophetic literature, yāšaʿ describes eschatological deliverance and the coming of YHWH's kingdom. The concept is central to Israel's understanding of divine intervention in history.",
+        "language": "hebrew",
+        "chapters_used": ["exod-14", "exod-15"]
+    },
+    "yatom": {
+        "hebrew": "יָתוֹם",
+        "transliteration": "yāṯôm",
+        "strongs": "H3490",
+        "gloss": "orphan, fatherless child",
+        "definition": "A fatherless child or orphan, representing the vulnerable and powerless in Israelite society. Torah legislation repeatedly commands protection and justice for the yāṯôm, often grouped with widows (ʾalmānâ) and resident aliens (gēr) as those lacking patriarchal protection (Exod 22:22, Deut 24:17). YHWH identifies Himself as 'father of the fatherless' (Ps 68:5), making their oppression a covenant violation warranting divine judgment. Prophetic literature condemns Israel's leaders for exploiting orphans (Isa 1:23, Jer 5:28). The concern for yəṯômîm reflects covenant ethics rooted in Israel's own experience of vulnerability in Egypt. Job's self-defense includes his treatment of orphans as evidence of righteousness (Job 29:12). Care for orphans demonstrates covenant faithfulness and imitatio dei.",
+        "language": "hebrew",
+        "chapters_used": ["exod-22"]
+    },
+    "ye_or": {
+        "hebrew": "יְאֹר",
+        "transliteration": "yəʾōr",
+        "strongs": "H2975",
+        "gloss": "Nile River, river, stream",
+        "definition": "The Nile River, Egypt's lifeline and source of agricultural prosperity. The term is a loanword from Egyptian (itrw), used almost exclusively for the Nile in biblical texts. In the Exodus narrative, the Nile becomes the site of YHWH's judgment—turned to blood in the first plague (Exod 7:17-21), source of frogs in the second plague, and ironically the place where Moses was hidden and preserved (Exod 2:3). The Nile's transformation demonstrates YHWH's power over Egypt's most vital resource and challenges the divine status of Hapi, the Nile god. Prophetic literature uses the Nile as a symbol of Egypt's pride and power, subject to YHWH's judgment (Ezek 29:3). The term occasionally appears in plural (yəʾōrîm) for the Nile's branches and canals.",
+        "language": "hebrew",
+        "chapters_used": ["gen-41", "exod-1", "exod-2", "exod-7"]
+    },
+    "yehudah": {
+        "hebrew": "יְהוּדָה",
+        "transliteration": "yəhûḏâ",
+        "strongs": "H3063",
+        "gloss": "Judah, praise",
+        "definition": "The fourth son of Jacob and Leah, whose name means 'praise' (from yāḏâ, 'to praise'). Leah names him saying, 'This time I will praise YHWH' (Gen 29:35). Judah emerges as a leader among the brothers, proposing to sell Joseph rather than kill him (Gen 37:26-27) and offering himself as surety for Benjamin (Gen 44:18-34). Jacob's blessing designates Judah as the royal tribe: 'The scepter shall not depart from Judah' (Gen 49:10), establishing the Davidic lineage. The tribe of Judah receives prominent territory in Canaan, and David's kingship fulfills the patriarchal prophecy. After the divided monarchy, Judah becomes the southern kingdom, preserving Davidic succession and Jerusalem temple worship. The term 'Jew' (yəhûḏî) derives from this tribal name.",
+        "language": "hebrew",
+        "chapters_used": ["gen-29", "gen-37", "gen-38", "gen-44", "gen-49"]
+    },
+    "yeled": {
+        "hebrew": "יֶלֶד",
+        "transliteration": "yeleḏ",
+        "strongs": "H3206",
+        "gloss": "child, boy, youth",
+        "definition": "A male child, boy, or youth, from infancy through adolescence. The term derives from yālaḏ (to bear, give birth) and emphasizes the child's relationship to parents. Used for Isaac as a weaned child (Gen 21:8), for Moses as an infant (Exod 2:3), and for young men of military age (Gen 14:24). The plural yəlāḏîm can denote children generally or specifically male children. In covenant contexts, children represent the promise of continuity and blessing—Abraham's descendants, Israel's future generations. The vulnerability of children (especially in Pharaoh's genocide decree, Exod 1:22) heightens the narrative tension and demonstrates divine protection. Wisdom literature addresses the proper training of yəlāḏîm (Prov 22:6), emphasizing parental responsibility in covenant transmission.",
+        "language": "hebrew",
+        "chapters_used": ["gen-21", "exod-1", "exod-2"]
+    },
+    "yeri'ot": {
+        "hebrew": "יְרִיעוֹת",
+        "transliteration": "yərîʿôṯ",
+        "strongs": "H3407",
+        "gloss": "curtains, tent cloths",
+        "definition": "Curtains or tent cloths, specifically the fabric panels forming the tabernacle structure. The mishkan required two sets: inner curtains (yərîʿōṯ) of fine twisted linen with cherubim designs in blue, purple, and scarlet (Exod 26:1-6), and outer curtains of goat hair (yərîʿōṯ ʿizzîm) for the tent covering (Exod 26:7-13). Each set consisted of multiple panels joined by loops and clasps to form a unified structure. The inner curtains were visible only to ministering priests, displaying the heavenly pattern shown to Moses on Sinai. The term derives from yərîʿâ (curtain, tent cloth), related to the root meaning 'to spread out.' The curtains' construction details emphasize the tabernacle as YHWH's royal tent-palace, combining nomadic tent imagery with cosmic temple symbolism.",
+        "language": "hebrew",
+        "chapters_used": ["exod-26", "exod-36"]
+    },
+    "yeriot": {
+        "hebrew": "יְרִיעֹת",
+        "transliteration": "yərîʿōṯ",
+        "strongs": "H3407",
+        "gloss": "curtains, tent panels",
+        "definition": "Alternate spelling of yərîʿôṯ. The curtains or fabric panels of the tabernacle, essential to its construction as YHWH's dwelling place among Israel. The term emphasizes the tent-like nature of the mishkan, connecting it to Israel's nomadic heritage and the patriarchal tent-shrines. The inner curtains (ten panels of fine linen) bore cherubim imagery, representing the heavenly throne room, while the outer goat-hair curtains (eleven panels) provided weather protection. The joining of separate panels into one unified structure symbolizes Israel's tribal unity under YHWH's presence. Prophetic literature uses tent/curtain imagery for the cosmos itself (Isa 40:22), suggesting the tabernacle as microcosm. The careful specifications for yərîʿōṯ reflect the importance of following the heavenly tavnit (pattern) revealed to Moses.",
+        "language": "hebrew",
+        "chapters_used": ["exod-26", "exod-36"]
+    },
+    "yeshuah": {
+        "hebrew": "יְשׁוּעָה",
+        "transliteration": "yəšûʿâ",
+        "strongs": "H3444",
+        "gloss": "salvation, deliverance, victory",
+        "definition": "Salvation, deliverance, or victory, derived from yāšaʿ (to save). The term denotes YHWH's saving acts in history, particularly the exodus deliverance (Exod 14:13, 'See the yəšûʿâ of YHWH'). Unlike abstract theological concepts, yəšûʿâ refers to concrete acts of rescue from enemies, danger, or oppression. The Song of the Sea celebrates YHWH as 'my strength and song, and He has become my yəšûʿâ' (Exod 15:2). In prophetic literature, the term expands to include eschatological deliverance and restoration (Isa 12:2-3, 52:7). The name Yeshua (Jesus) embodies this concept—'He will save His people from their sins.' The term appears frequently in Psalms as both petition and praise, acknowledging YHWH as the sole source of deliverance. Salvation is always YHWH's initiative and gift, not human achievement.",
+        "language": "hebrew",
+        "chapters_used": ["exod-14", "exod-15"]
+    },
+    "yhwh_nissi": {
+        "hebrew": "יְהוָה נִסִּי",
+        "transliteration": "yhwh nissî",
+        "strongs": "H3068, H5251",
+        "gloss": "YHWH is my banner",
+        "definition": "A memorial name meaning 'YHWH is my banner,' given to the altar Moses built after Israel's victory over Amalek at Rephidim (Exod 17:15). The term nēs (banner, standard) refers to a rallying point in battle, a pole or ensign around which troops gather. By naming the altar yhwh nissî, Moses declares that YHWH Himself is Israel's rallying point and source of victory, not military might or strategy. The context emphasizes divine warfare—Moses' raised hands (holding the staff of God) ensure victory, while lowered hands bring defeat. This demonstrates Israel's complete dependence on YHWH in covenant warfare. The name anticipates YHWH's ongoing conflict with Amalek 'from generation to generation' (Exod 17:16). The banner imagery appears in prophetic literature for messianic gathering (Isa 11:10, 49:22).",
+        "language": "hebrew",
+        "chapters_used": ["exod-17"]
+    },
+    "yishmael": {
+        "hebrew": "יִשְׁמָעֵאל",
+        "transliteration": "yišmāʿēʾl",
+        "strongs": "H3458",
+        "gloss": "God hears, Ishmael",
+        "definition": "The son of Abraham and Hagar, whose name means 'God hears' or 'El hears.' The name commemorates YHWH's hearing of Hagar's affliction in the wilderness (Gen 16:11). Though not the covenant heir, Ishmael receives divine blessing and promise of becoming a great nation (Gen 17:20, 21:13, 18). He is circumcised at age thirteen (Gen 17:25) and expelled with Hagar after Isaac's weaning (Gen 21:9-21). The divine messenger assures Hagar of Ishmael's future: twelve princes and a great nation (Gen 17:20, 25:12-16). Ishmael represents the tension between divine promise and human initiative—conceived through Sarah's plan rather than patient faith. He reconciles with Isaac to bury Abraham (Gen 25:9). Islamic tradition identifies Ishmael as ancestor of Arab peoples and co-builder of the Kaaba with Abraham.",
+        "language": "hebrew",
+        "chapters_used": ["gen-16", "gen-17", "gen-21", "gen-25"]
+    },
+    "yitro": {
+        "hebrew": "יִתְרוֹ",
+        "transliteration": "yiṯrô",
+        "strongs": "H3503",
+        "gloss": "Jethro, excellence",
+        "definition": "Moses' father-in-law, priest of Midian, also called Reuel (Gen 2:18) and Hobab (Num 10:29). The name means 'his excellence' or 'abundance.' Jethro provides refuge for Moses after his flight from Egypt, giving him his daughter Zipporah in marriage (Exod 2:21). After the exodus, Jethro visits Moses at Sinai, bringing Zipporah and Moses' sons (Exod 18:1-5). Upon hearing of YHWH's deliverance, Jethro blesses YHWH and offers sacrifice, participating in a covenant meal with Israel's elders (Exod 18:10-12). His declaration 'Now I know that YHWH is greater than all gods' (Exod 18:11) represents Gentile recognition of YHWH's supremacy. Jethro's counsel regarding judicial delegation (Exod 18:13-27) establishes Israel's administrative structure. His role demonstrates that wisdom and true worship exist beyond Israel's ethnic boundaries.",
+        "language": "hebrew",
+        "chapters_used": ["exod-2", "exod-3", "exod-18"]
+    },
+    "yitschaq": {
+        "hebrew": "יִצְחָק",
+        "transliteration": "yiṣḥāq",
+        "strongs": "H3327",
+        "gloss": "Isaac, he laughs",
+        "definition": "The son of Abraham and Sarah, second patriarch of Israel, whose name means 'he laughs' or 'laughter.' The name commemorates both Sarah's laughter of disbelief (Gen 18:12-15) and joy at his birth (Gen 21:6). Born when Abraham was 100 and Sarah 90, Isaac embodies the miraculous fulfillment of divine promise. The Aqedah (binding of Isaac, Gen 22) tests Abraham's faith and establishes the principle of substitutionary sacrifice. Isaac marries Rebekah (Gen 24), fathers twins Esau and Jacob (Gen 25:19-26), and experiences covenant renewal at Beersheba (Gen 26:23-25). His life is less dramatic than Abraham's or Jacob's, characterized by passive reception of blessing rather than active striving. The covenant passes through Isaac by divine election, not human merit. He dies at 180 and is buried by his sons in the cave of Machpelah (Gen 35:27-29).",
+        "language": "hebrew",
+        "chapters_used": ["gen-17", "gen-18", "gen-21", "gen-22", "gen-24", "gen-25", "gen-26"]
+    },
+    "yitzhaq": {
+        "hebrew": "יִצְחָק",
+        "transliteration": "yiṣḥāq",
+        "strongs": "H3327",
+        "gloss": "Isaac, laughter",
+        "definition": "Alternate transliteration of yiṣḥāq. The promised son of Abraham and Sarah, whose birth fulfilled the covenant promise despite biological impossibility. The name's etymology connects to ṣāḥaq (to laugh), appearing in multiple contexts: Abraham's laughter (Gen 17:17), Sarah's laughter of disbelief (Gen 18:12), and her laughter of joy (Gen 21:6). Isaac represents the principle that covenant fulfillment depends on divine power, not human capability. His near-sacrifice (Gen 22) prefigures substitutionary atonement and demonstrates that even the promised seed belongs to YHWH. Isaac's blessing of Jacob (Gen 27) perpetuates the covenant line despite human deception, showing divine sovereignty over human schemes. His passive character contrasts with Abraham's active faith and Jacob's striving, yet the covenant passes through him by divine election. The three patriarchs—Abraham, Isaac, and Jacob—form the foundational covenant formula.",
+        "language": "hebrew",
+        "chapters_used": ["gen-17", "gen-18", "gen-21", "gen-22", "gen-26", "gen-27"]
+    },
+    "yokheved": {
+        "hebrew": "יוֹכֶבֶד",
+        "transliteration": "yôḵeḇeḏ",
+        "strongs": "H3115",
+        "gloss": "Jochebed, YHWH is glory",
+        "definition": "The mother of Moses, Aaron, and Miriam, daughter of Levi and wife of Amram (Exod 6:20, Num 26:59). Her name means 'YHWH is glory' or 'YHWH is honored,' notably containing the divine name YHWH in a pre-Sinai context. Jochebed's faith-driven defiance of Pharaoh's genocide decree preserves Moses' life—she hides him for three months, then places him in a waterproofed basket among the Nile reeds (Exod 2:2-3). Her strategic placement and Miriam's intervention result in Jochebed being hired as Moses' wet nurse, allowing her to raise him during his formative years (Exod 2:7-9). Hebrews 11:23 commends the faith of Moses' parents in defying the king's edict. Jochebed exemplifies the 'fear of God' that supersedes fear of human authority (Exod 1:17, 21), making her instrumental in Israel's deliverance.",
+        "language": "hebrew",
+        "chapters_used": ["exod-2", "exod-6"]
+    },
+    "yom_yhwh": {
+        "hebrew": "יוֹם יְהוָה",
+        "transliteration": "yôm yhwh",
+        "strongs": "H3117, H3068",
+        "gloss": "Day of YHWH, divine judgment day",
+        "definition": "The 'Day of YHWH,' a prophetic concept denoting divine intervention in history for judgment and salvation. While the phrase appears primarily in prophetic literature (Joel, Amos, Zephaniah, Isaiah), its conceptual roots lie in the exodus and conquest narratives where YHWH acts decisively in history. The yôm yhwh is characterized by cosmic upheaval, darkness, theophany, and the defeat of YHWH's enemies (Joel 2:1-11, 30-31). Contrary to popular expectation, Amos declares it will be 'darkness and not light' for unfaithful Israel (Amos 5:18-20). The day involves both judgment on the nations and purification of Israel, leading to restoration. Eschatological dimensions include the final defeat of evil, establishment of YHWH's universal reign, and cosmic renewal. The concept influences New Testament 'Day of the Lord' theology.",
+        "language": "hebrew",
+        "chapters_used": ["exod-14"]
+    },
+    "yomei_ha_olam": {
+        "hebrew": "יְמֵי הָעוֹלָם",
+        "transliteration": "yəmê hāʿôlām",
+        "strongs": "H3117, H5769",
+        "gloss": "days of old, ancient times",
+        "definition": "The 'days of old' or 'ancient times,' referring to primordial or ancestral eras. The phrase appears in Deuteronomy 32:7: 'Remember the days of old (yəmôṯ ʿôlām), consider the years of many generations.' It summons Israel to recall YHWH's historical acts—creation, the patriarchs, exodus, and wilderness wanderings—as the foundation for covenant faithfulness. The term ʿôlām denotes indefinite time, either past or future, often translated 'everlasting' or 'ancient.' In prophetic literature, yəmê ʿôlām can refer to the primordial past (Isa 63:9, Mic 7:14) or the eschatological future when YHWH's original purposes are restored. The phrase emphasizes continuity between past divine acts and present covenant obligations. Remembering yəmê hāʿôlām prevents Israel from forgetting their identity and YHWH's faithfulness across generations.",
+        "language": "hebrew",
+        "chapters_used": ["deut-32"]
+    },
+    "yosef": {
+        "hebrew": "יוֹסֵף",
+        "transliteration": "yôsēp̄",
+        "strongs": "H3130",
+        "gloss": "Joseph, he will add",
+        "definition": "The eleventh son of Jacob, firstborn of Rachel, whose name means 'he will add' or 'may he add' (from yāsap̄, 'to add'). Rachel names him expressing hope for another son: 'May YHWH add to me another son' (Gen 30:24). Joseph's narrative (Gen 37-50) dominates the final section of Genesis. Favored by Jacob and given the ketonet passim (ornate robe), Joseph incurs his brothers' jealousy, leading to his sale into Egyptian slavery (Gen 37). Through divine providence, Joseph rises from slavery and imprisonment to become Pharaoh's vizier (Gen 41), interpreting dreams and administering Egypt during famine. His reconciliation with his brothers demonstrates forgiveness and divine sovereignty: 'You meant evil against me, but God meant it for good' (Gen 50:20). Joseph's bones are carried from Egypt in the exodus (Exod 13:19), fulfilling his deathbed request. His sons Ephraim and Manasseh become tribes of Israel.",
+        "language": "hebrew",
+        "chapters_used": ["gen-30", "gen-37", "gen-39", "gen-40", "gen-41", "gen-42", "gen-45", "gen-50"]
+    },
+    "yovel": {
+        "hebrew": "יוֹבֵל",
+        "transliteration": "yôḇēl",
+        "strongs": "H3104",
+        "gloss": "jubilee, ram's horn",
+        "definition": "The Jubilee year, occurring every fiftieth year (after seven sabbatical cycles of seven years), announced by the ram's horn (šôp̄ar) on Yom Kippur (Lev 25:8-55). The term yôḇēl originally denoted the ram's horn used to proclaim the year. During the Jubilee, all land returns to original family ownership, Hebrew slaves are freed, debts are canceled, and the land lies fallow. The institution prevents permanent economic stratification and affirms YHWH's ownership of the land: 'The land is Mine; you are but strangers and sojourners with Me' (Lev 25:23). The Jubilee embodies covenant justice, ensuring that no Israelite family permanently loses its inheritance. The year of release demonstrates that Israel's socioeconomic order must reflect YHWH's character and covenant purposes. Jesus' Nazareth sermon (Luke 4:18-19) applies Jubilee imagery to His messianic mission.",
+        "language": "hebrew",
+        "chapters_used": ["lev-25"]
+    },
+    "zahav_tahor": {
+        "hebrew": "זָהָב טָהוֹר",
+        "transliteration": "zāhāḇ ṭāhôr",
+        "strongs": "H2091, H2889",
+        "gloss": "pure gold, refined gold",
+        "definition": "Pure or refined gold, used extensively in tabernacle construction for sacred objects. The term ṭāhôr (pure, clean) emphasizes the gold's quality—unmixed with alloys, ritually clean, and suitable for holy use. The ark of the covenant, mercy seat, cherubim, table of showbread, lampstand, incense altar, and various utensils were made of or overlaid with zāhāḇ ṭāhôr (Exod 25:11, 17, 24, 31, 36, 38-39). The purity requirement reflects the holiness of YHWH's dwelling place—only the finest materials are appropriate for His sanctuary. The abundance of gold (contributed willingly by Israel, Exod 35:22) demonstrates the people's devotion and YHWH's provision. Gold's incorruptibility symbolizes divine permanence and glory. The high priest's turban bore a plate of pure gold inscribed 'Holy to YHWH' (Exod 28:36), signifying consecration.",
+        "language": "hebrew",
+        "chapters_used": ["exod-25", "exod-28", "exod-37", "exod-39"]
+    },
+    "zakar": {
+        "hebrew": "זָכַר",
+        "transliteration": "zāḵar",
+        "strongs": "H2142",
+        "gloss": "to remember, recall, mention",
+        "definition": "A verb meaning to remember, recall, or mention, with profound covenantal significance. Biblical 'remembering' is not mere mental recollection but active engagement—YHWH's remembering leads to intervention (Gen 

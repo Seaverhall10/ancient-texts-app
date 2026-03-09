@@ -1,0 +1,2953 @@
+"""
+era_parables.py — The Parables of Enoch (1 Enoch 37-71)
+
+The Book of Parables (also called the Similitudes of Enoch) is the second
+major division of 1 Enoch, comprising chapters 37-71. It is the ONLY section
+of 1 Enoch not attested among the Dead Sea Scrolls — no Aramaic fragments
+have been found at Qumran. At Qumran, the position occupied by the Parables
+in the Ethiopic canon was filled by the Book of Giants (4Q530-532).
+
+The Parables are structured as three "parables" or "similitudes" (meshalim):
+  37      — Superscription and introduction
+  38-44   — First Parable: the coming judgment, the Elect One, heavenly secrets
+  45-57   — Second Parable: the Son of Man, the Head of Days, the fate of kings
+  58-69   — Third Parable: blessedness of the saints, Noahic appendix, final judgment
+  70-71   — Epilogue: Enoch's assumption and identification as the Son of Man
+
+The central theological contribution is the figure of the "Son of Man" /
+"Elect One" / "Righteous One" — a pre-existent, enthroned messianic judge
+who sits on the throne of glory and executes judgment over kings and the
+mighty. This figure draws heavily on Daniel 7:13-14 but develops the
+Danielic vision in revolutionary directions: the Son of Man is named before
+creation, hidden in God's presence, and ultimately revealed as Enoch himself.
+
+Date: Scholarly consensus places the Parables in the late 1st century BC to
+early 1st century AD (ca. 40 BC - 70 AD). The absence from Qumran sets
+a terminus post quem of roughly the mid-1st century BC. The absence of any
+clear reference to the destruction of the Temple (70 AD) suggests a date
+before that event. J.T. Milik's proposal of a late Christian date (270 AD)
+has been almost universally rejected. Key arguments for a pre-Christian or
+early 1st century date include: (1) no distinctively Christian theology,
+(2) the Parthian invasion references in ch. 56 fit 40 BC, (3) the "Son of
+Man" usage differs from the Gospels in significant ways.
+
+The Parables survive only in Ethiopic (Ge'ez). No Greek version is extant.
+The underlying Semitic original was likely composed in Hebrew or Aramaic.
+
+Translation references: R.H. Charles (1912), E. Isaac (OTP, 1983),
+G.W.E. Nickelsburg & J.C. VanderKam (2012), M.A. Knibb (1978),
+D.W. Suter (1979), J.J. Collins (1998).
+"""
+
+CHAPTERS = [
+    # =========================================================================
+    # SUPERSCRIPTION (1 Enoch 37)
+    # =========================================================================
+    {
+        "id": "1en-37",
+        "ref": "1 Enoch 37",
+        "chapter_num": 37,
+        "title": "The Superscription — The Second Vision of Wisdom",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Chapter 37 serves as the title page and introduction to the "
+                    "entire Book of Parables. Enoch announces a 'second vision' — "
+                    "a vision of wisdom that he will relate to those who dwell on "
+                    "dry land. He declares that such things were never before "
+                    "revealed, that he received this wisdom from the Lord of "
+                    "Spirits through the angels, and that it concerns the final "
+                    "lot of the righteous and the wicked. The chapter frames the "
+                    "Parables as an escalation beyond the Book of the Watchers: "
+                    "where the first vision disclosed the past (angelic rebellion), "
+                    "this second vision discloses the eschatological future.",
+
+        "key_verse": {
+            "ref": "1 Enoch 37:1-2",
+            "text": "The second vision which he saw, the vision of wisdom — which "
+                    "Enoch the son of Jared, the son of Mahalalel, the son of "
+                    "Cainan, the son of Enos, the son of Seth, the son of Adam, "
+                    "saw. And this is the beginning of the words of wisdom which "
+                    "I lifted up my voice to speak and say to those which dwell "
+                    "on the earth.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The framing of a visionary text as a 'second vision' has "
+                        "parallels in Mesopotamian apocalyptic literature, where "
+                        "sequential visions build upon one another in escalating "
+                        "revelatory intensity. The genealogy tracing Enoch to Adam "
+                        "through seven generations (the 'seventh from Adam' motif) "
+                        "connects to Mesopotamian traditions about the seventh "
+                        "antediluvian king (apkallu) who received divine wisdom. "
+                        "In the Sumerian King List, the seventh sage Utuabzu is "
+                        "the one who ascended to heaven. The claim that this wisdom "
+                        "was 'never before given' echoes the Akkadian tradition of "
+                        "secret knowledge (nisirti) reserved for the chosen sage.",
+
+        "second_temple": [
+            {
+                "source": "Wisdom of Solomon 7:17-22",
+                "summary": "Solomon claims to have received knowledge of cosmological "
+                           "secrets — the structure of the world, the powers of spirits, "
+                           "the courses of the stars — through divine Wisdom.",
+                "relevance": "Both texts assert that cosmological knowledge comes by "
+                             "divine revelation, not human investigation. The Parables "
+                             "and Wisdom of Solomon represent competing traditions of "
+                             "revealed knowledge — Enochic and Solomonic.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "Jude 14", "note": "Jude identifies Enoch as 'the seventh from Adam,' the same genealogical marker used in 1 Enoch 37:1 to establish Enoch's authority", "type": "nt"},
+            {"ref": "Genesis 5:18-24", "note": "The genealogy of Enoch — Jared, Mahalalel, Cainan, Enos, Seth, Adam — reproduced in 37:1 to anchor the visionary in antediluvian history", "type": "ot"},
+            {"ref": "Daniel 2:19-23", "note": "Daniel praises God for revealing mysteries in a 'night vision' — the same revelatory mode claimed by Enoch for the Parables", "type": "ot"},
+            {"ref": "Proverbs 8:22-31", "note": "Wisdom as pre-existent and present at creation — the Parables will develop this into the pre-existence of the Elect One", "type": "ot"}
+        ],
+
+        "divine_council_note": "The superscription establishes that the Parables "
+                               "originate from the 'Lord of Spirits' — a title for "
+                               "God unique to this section of 1 Enoch (occurring over "
+                               "100 times in chs. 37-71 but nowhere else in Enochic "
+                               "literature). The title emphasizes God's sovereignty "
+                               "over the spiritual realm — over angels, spirits, and "
+                               "the heavenly court. The mediating angels who transmit "
+                               "the vision to Enoch are members of the divine council "
+                               "functioning as revelation brokers, a role attested in "
+                               "Daniel (Gabriel in Dan 8:16, 9:21) and Zechariah "
+                               "(the interpreting angel). The Parables will develop "
+                               "the council theology further than any previous Enochic "
+                               "text by introducing a pre-existent figure who sits on "
+                               "God's own throne of glory.",
+
+        "sections": [
+            {
+                "heading": "The 'Second Vision' and Literary Framework (37:1)",
+                "body": "The designation 'second vision' positions the Parables in "
+                        "relation to the Book of the Watchers (the 'first vision'). "
+                        "This editorial framing assumes the reader already knows the "
+                        "Watcher narrative and its revelations about angelic rebellion "
+                        "and cosmic geography. The Parables will build on that "
+                        "foundation but shift the focus from the past (what the "
+                        "Watchers did) to the future (what God will do through the "
+                        "Son of Man). The genealogy — 'Enoch the son of Jared, the "
+                        "son of Mahalalel, the son of Cainan, the son of Enos, the "
+                        "son of Seth, the son of Adam' — is not merely decorative. "
+                        "It establishes Enoch's credentials as a pre-Mosaic, pre-"
+                        "Abrahamic patriarch whose revelation is universal in scope, "
+                        "not confined to Israel. This universalism is a hallmark of "
+                        "the Parables: the Son of Man will judge 'all who dwell on "
+                        "the earth,' not just Israel's enemies."
+            },
+            {
+                "heading": "The Claim to Unprecedented Revelation (37:2-5)",
+                "body": "Enoch declares that 'such wisdom has never been given by the "
+                        "Lord of Spirits' before. This is a bold claim, especially "
+                        "within a literary tradition that already contains the Book "
+                        "of the Watchers and the Astronomical Book. The claim serves "
+                        "to elevate the Parables above prior Enochic revelation: the "
+                        "heavenly secrets disclosed here — particularly the identity "
+                        "and role of the Son of Man — represent the ultimate revelation. "
+                        "The three 'parables' (Ge'ez: mesalat; Hebrew: meshalim) are "
+                        "not parables in the NT sense of illustrative stories. They "
+                        "are extended visionary discourses — apocalyptic revelations "
+                        "structured as speeches. The term meshel in Hebrew can mean "
+                        "parable, proverb, prophetic oracle, or visionary discourse "
+                        "(cf. Numbers 23:7, 24:3 where Balaam's oracles are meshalim). "
+                        "The Parables stand in this prophetic-oracular tradition."
+            }
+        ]
+    },
+
+    # =========================================================================
+    # FIRST PARABLE (1 Enoch 38-44)
+    # =========================================================================
+    {
+        "id": "1en-38",
+        "ref": "1 Enoch 38",
+        "chapter_num": 38,
+        "title": "The Coming Judgment — When the Righteous One Appears",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The first Parable opens with the announcement of coming judgment. "
+                    "When the congregation of the righteous appears and sinners are "
+                    "judged for their deeds, the 'Righteous One' will appear before "
+                    "the eyes of the elect. Kings and the mighty who possess the earth "
+                    "will be humiliated. Sinners will be driven from the face of the "
+                    "earth. The chapter introduces the eschatological reversal that "
+                    "pervades the Parables: the powerful of this world will be "
+                    "overthrown, while the righteous who have been persecuted will "
+                    "be vindicated.",
+
+        "key_verse": {
+            "ref": "1 Enoch 38:2",
+            "text": "When the Righteous One shall appear before the eyes of the "
+                    "righteous, whose elect works hang upon the Lord of Spirits, "
+                    "and light shall appear to the righteous and the elect who "
+                    "dwell on the earth — where then will be the dwelling of the "
+                    "sinners, and where the resting-place of those who have denied "
+                    "the Lord of Spirits?",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The motif of eschatological reversal — the mighty brought "
+                        "low, the oppressed exalted — has deep roots in both "
+                        "Israelite and broader ANE traditions. The Egyptian 'Admonitions "
+                        "of Ipuwer' describes social inversion, though in a different "
+                        "register. More directly, the Israelite prophetic tradition "
+                        "of the 'Day of the LORD' (Amos 5:18-20, Isaiah 2:12-17) "
+                        "envisions the humiliation of the proud. The Parables draw "
+                        "this tradition forward into a fully eschatological framework "
+                        "where the reversal is permanent and cosmic in scope.",
+
+        "second_temple": [
+            {
+                "source": "Wisdom of Solomon 5:1-5",
+                "summary": "The righteous person stands before those who oppressed him; "
+                           "the oppressors are astonished and confess their error. 'This "
+                           "is the one we once held in derision... we fools!'",
+                "relevance": "Strikingly parallel to 1 Enoch 38's reversal theme. Both "
+                             "texts envision the righteous confronting their former "
+                             "oppressors at the eschatological judgment, producing "
+                             "astonishment and shame in the wicked.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "Matthew 25:31-46", "note": "The Son of Man sits on the throne of glory and separates nations — the most fully developed NT parallel to the Parables' judgment scenario", "type": "nt"},
+            {"ref": "Isaiah 11:1-5", "note": "The branch of Jesse judges with righteousness and decides with equity for the meek — the OT messianic judge tradition that feeds the Parables' 'Righteous One'", "type": "ot"},
+            {"ref": "Psalm 1:5-6", "note": "'The wicked will not stand in the judgment, nor sinners in the congregation of the righteous' — the two-ways theology underlying 1 Enoch 38", "type": "ot"},
+            {"ref": "Luke 6:20-26", "note": "The Lukan Beatitudes with their woe oracles mirror the reversal pattern: blessed are the poor/hungry, woe to the rich/full", "type": "nt"},
+            {"ref": "James 5:1-6", "note": "James's denunciation of the rich who have oppressed the righteous echoes the Parables' judgment on 'kings and the mighty'", "type": "nt"}
+        ],
+
+        "divine_council_note": "The 'appearance' of the Righteous One is a council "
+                               "event — the heavenly court's hidden agent is now "
+                               "publicly revealed. The language of appearing (Ge'ez: "
+                               "yasteraey) implies prior concealment: the Righteous "
+                               "One has been present in heaven but hidden from earthly "
+                               "view. This pattern — concealment followed by revelation — "
+                               "is the hallmark of the Parables' messianic theology "
+                               "and will be developed extensively in chapters 46-62.",
+
+        "sections": [
+            {
+                "heading": "The Righteous One and the Elect (38:1-3)",
+                "body": "Chapter 38 introduces the first of several messianic titles "
+                        "that will define the Parables: the 'Righteous One' (Ge'ez: "
+                        "tsaddiq). This figure is not merely a righteous human being "
+                        "but a transcendent agent of divine judgment who 'appears' "
+                        "(is revealed) at the eschatological moment. The title draws "
+                        "on Isaiah's Servant Songs, particularly Isaiah 53:11 where "
+                        "the servant is called 'the righteous one' (tsaddiq) who "
+                        "'shall make many to be accounted righteous.' The appearance "
+                        "of the Righteous One is correlated with the appearance of "
+                        "the 'congregation of the righteous' — suggesting that the "
+                        "messianic figure and his community are revealed together. "
+                        "This corporate-individual dialectic (the one who represents "
+                        "the many) is fundamental to the Parables' christology and "
+                        "deeply influenced NT thinking about Christ and the church."
+            },
+            {
+                "heading": "The Fate of Kings and the Mighty (38:4-6)",
+                "body": "The chapter introduces the Parables' signature antagonists: "
+                        "'kings and the mighty' (Ge'ez: negast wa-mahtot). These are "
+                        "not foreign rulers alone but all who wield power unjustly "
+                        "and deny the Lord of Spirits. The polemic is directed at "
+                        "earthly power structures as such — a remarkable theological "
+                        "move that anticipates the Magnificat's declaration that God "
+                        "'has brought down the powerful from their thrones and lifted "
+                        "up the lowly' (Luke 1:52). The chapter declares that the "
+                        "mighty will have to witness the vindication of those they "
+                        "oppressed: the elect will 'dwell upon the earth' while "
+                        "sinners 'shall be driven from the face of the earth.' The "
+                        "language echoes Psalm 37:9-11: 'The wicked shall be cut off, "
+                        "but those who wait for the LORD shall inherit the land.' "
+                        "This is the Parables' version of the Beatitude: the meek "
+                        "shall inherit the earth (Matt 5:5)."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-39",
+        "ref": "1 Enoch 39",
+        "chapter_num": 39,
+        "title": "The Dwelling of the Righteous and the Elect One",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Enoch is caught up in a whirlwind and taken to the ends of "
+                    "heaven. He sees the dwellings of the righteous and the resting "
+                    "places of the holy — places prepared for them under the wings "
+                    "of the Lord of Spirits. He sees the Elect One of righteousness "
+                    "and faithfulness, and righteousness prevailing in those "
+                    "days. Innumerable righteous and elect ones stand before the "
+                    "Lord of Spirits forever. The chapter provides the first extended "
+                    "description of the heavenly habitation that awaits the righteous "
+                    "and introduces the title 'Elect One.'",
+
+        "key_verse": {
+            "ref": "1 Enoch 39:6-7",
+            "text": "And in that place mine eyes saw the Elect One of righteousness "
+                    "and of faith, and I saw his dwelling-place under the wings of "
+                    "the Lord of Spirits; and righteousness shall prevail in his "
+                    "days, and the righteous and elect shall be without number "
+                    "before Him for ever and ever.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The concept of heavenly dwelling places prepared for the "
+                        "righteous has parallels in Egyptian funerary literature, "
+                        "where the 'Field of Reeds' (Sekhet-Aaru) awaits the "
+                        "justified dead. More directly relevant is the Mesopotamian "
+                        "motif of the divine garden or abode where favored humans "
+                        "are taken (cf. Utnapishtim's translation in Gilgamesh XI). "
+                        "The Israelite tradition of heavenly habitations appears in "
+                        "Psalm 23:6 ('I shall dwell in the house of the LORD') and "
+                        "develops into the NT's 'many mansions' (John 14:2).",
+
+        "second_temple": [
+            {
+                "source": "2 Enoch 61:2-3 (Slavonic Enoch)",
+                "summary": "Describes prepared places in the heavens for the righteous — "
+                           "clothing of glory, food from paradise, eternal light.",
+                "relevance": "Shows the development of the heavenly-dwelling tradition "
+                             "within the broader Enochic literary tradition.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "John 14:2-3", "note": "'In my Father's house are many rooms... I go to prepare a place for you' — Jesus uses language strikingly parallel to 1 Enoch 39's prepared heavenly dwellings", "type": "nt"},
+            {"ref": "Daniel 7:13-14", "note": "The 'one like a son of man' who receives dominion — the Danielic source for the Parables' Elect One", "type": "ot"},
+            {"ref": "Isaiah 42:1", "note": "'Here is my servant, whom I uphold, my chosen one (bechiri) in whom I delight' — the Isaianic 'chosen/elect one' is the direct OT antecedent of the Parables' Elect One", "type": "ot"},
+            {"ref": "2 Corinthians 12:2-4", "note": "Paul caught up to the 'third heaven' / 'paradise' — the same ascent pattern as Enoch's whirlwind translation", "type": "nt"},
+            {"ref": "Revelation 7:9-17", "note": "An innumerable multitude stands before the throne — the same vision as 1 Enoch 39's 'righteous and elect without number before Him'", "type": "nt"}
+        ],
+
+        "divine_council_note": "The Elect One stands in the presence of the Lord of "
+                               "Spirits — this is a council position. The title 'Elect "
+                               "One' (Ge'ez: xeruy) translates Hebrew bachir, the term "
+                               "used for the Servant in Isaiah 42:1 and for Israel as "
+                               "God's chosen. But in the Parables, the Elect One is an "
+                               "individual heavenly figure who occupies a unique place "
+                               "in the divine council — 'under the wings of the Lord "
+                               "of Spirits.' The imagery of wings (kenafot) recalls "
+                               "Psalm 91:4 and Ruth 2:12, suggesting protection, "
+                               "intimacy, and favor. The Elect One is not merely a "
+                               "council member but the council's favored agent.",
+
+        "sections": [
+            {
+                "heading": "Enoch's Heavenly Translation (39:1-2)",
+                "body": "Enoch is taken up 'in a whirlwind' (cf. 2 Kings 2:11, where "
+                        "Elijah ascends in a whirlwind) to the heavenly realm. The "
+                        "whirlwind translation positions Enoch in the tradition of "
+                        "Elijah and anticipates Paul's third-heaven ascent (2 Cor "
+                        "12:2-4). The destination is 'the ends of the heavens' — "
+                        "the cosmic periphery where the human and divine realms "
+                        "intersect. This is the liminal space of revelation, the "
+                        "threshold between creation and the Creator's domain."
+            },
+            {
+                "heading": "The Heavenly Dwellings (39:3-5)",
+                "body": "Enoch sees dwellings and resting places prepared for the "
+                        "righteous. The language of 'prepared' implies intentional "
+                        "divine provision — these habitations are not accidental "
+                        "but have been made ready in advance. This concept is "
+                        "foundational for Jesus' statement in John 14:2: 'I go to "
+                        "prepare a place for you.' The Parables establish that the "
+                        "eschatological destiny of the righteous is not earthly but "
+                        "heavenly — a significant development from the more "
+                        "earthly-focused eschatology of the Book of the Watchers."
+            },
+            {
+                "heading": "The Elect One Revealed (39:6-7)",
+                "body": "The first appearance of the title 'Elect One' (Ge'ez: "
+                        "xeruy) in the Parables. The Elect One is characterized "
+                        "by 'righteousness and faith' — he embodies these qualities "
+                        "perfectly. The vision of 'righteous and elect without "
+                        "number' standing before the Lord of Spirits resonates "
+                        "with Daniel 7:10 ('a thousand thousands served him, and "
+                        "ten thousand times ten thousand stood before him') and "
+                        "anticipates Revelation 7:9 ('a great multitude that no "
+                        "one could count')."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-40",
+        "ref": "1 Enoch 40",
+        "chapter_num": 40,
+        "title": "The Four Presences and the Angelic Liturgy",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Enoch sees four 'presences' (faces/beings) on the four sides "
+                    "of the Lord of Spirits. An interpreting angel identifies them: "
+                    "Michael (mercy and long-suffering), Raphael (diseases and wounds "
+                    "of humanity), Gabriel (all powers), and Phanuel (repentance and "
+                    "hope of the inheritors of eternal life). Enoch hears them "
+                    "blessing and praising the Lord of Spirits. The chapter also "
+                    "mentions the Satans who are forbidden to accuse before the "
+                    "Lord of Spirits.",
+
+        "key_verse": {
+            "ref": "1 Enoch 40:9-10",
+            "text": "And he said to me: 'The first is Michael, the merciful and "
+                    "long-suffering; and the second, who is set over all the "
+                    "diseases and all the wounds of the children of men, is "
+                    "Raphael; and the third, who is set over all the powers, "
+                    "is Gabriel; and the fourth, who is set over the repentance "
+                    "unto hope of those who inherit eternal life, is named Phanuel.'",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The four-directional guardian figure schema is deeply rooted "
+                        "in Mesopotamian religion. The Babylonian lamassu (winged "
+                        "human-headed bulls) guarded the four cardinal points of "
+                        "temples and palaces. The concept of four divine beings "
+                        "surrounding the supreme deity's throne appears in multiple "
+                        "ANE contexts. In Israel, the four-cherubim throne of "
+                        "Ezekiel 1 and 10 directly informs this passage, while the "
+                        "four-archangel schema (Michael, Gabriel, Raphael, Uriel/ "
+                        "Phanuel) became standard in Second Temple Judaism.",
+
+        "second_temple": [
+            {
+                "source": "Tobit 12:15",
+                "summary": "Raphael reveals himself: 'I am Raphael, one of the seven "
+                           "holy angels who present the prayers of the saints.'",
+                "relevance": "The earliest named-archangel tradition in Jewish literature. "
+                             "Tobit's Raphael and the Parables' Raphael share the same "
+                             "domain: healing and human suffering.",
+                "canon": False
+            },
+            {
+                "source": "4Q403-405 (Songs of the Sabbath Sacrifice)",
+                "summary": "Qumran angelic liturgy texts describe elaborate angelic "
+                           "worship around the divine throne with named angelic chiefs.",
+                "relevance": "The closest DSS parallel to the Parables' angelic liturgy. "
+                             "Both traditions envision structured angelic worship with "
+                             "named beings occupying fixed positions around the throne.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "Ezekiel 1:5-14", "note": "The four living creatures around the throne — the direct OT source for the four presences of 1 Enoch 40", "type": "ot"},
+            {"ref": "Revelation 4:6-8", "note": "Four living creatures around the throne — John draws on both Ezekiel and the Enochic four-presences tradition", "type": "nt"},
+            {"ref": "Daniel 10:13, 21", "note": "Michael as one of the 'chief princes' — the OT background for Michael's position in the angelic hierarchy", "type": "ot"},
+            {"ref": "Zechariah 3:1-2", "note": "The Satan standing to accuse Joshua before the angel of the LORD — the accusatory function that 1 Enoch 40:7 says is now forbidden", "type": "ot"},
+            {"ref": "Revelation 12:7-10", "note": "Michael wars against the dragon, and the 'accuser of our brothers' is thrown down — combining Michaelic and anti-Satan themes from 1 Enoch 40", "type": "nt"}
+        ],
+
+        "divine_council_note": "Chapter 40 provides the most explicit council structure "
+                               "in the Parables. The four archangels occupy the four "
+                               "sides of God's throne — the inner cabinet of the divine "
+                               "council. Each has a specific portfolio: Michael oversees "
+                               "mercy, Raphael healing, Gabriel power, Phanuel repentance. "
+                               "The mention that 'the Satans' (plural) cannot accuse "
+                               "before the Lord of Spirits is theologically momentous: "
+                               "the prosecutorial function of the Satan figure (cf. Job "
+                               "1-2, Zechariah 3:1) has been revoked. This anticipates "
+                               "Revelation 12:10: 'the accuser of our brothers has been "
+                               "thrown down.'",
+
+        "sections": [
+            {
+                "heading": "The Four Presences (40:1-7)",
+                "body": "The four 'presences' (Ge'ez: gassat, literally 'faces') "
+                        "surrounding the Lord of Spirits adapt Ezekiel's cherubim "
+                        "vision into an archangelic framework. In Ezekiel 1, the four "
+                        "living creatures have four faces each (human, lion, ox, eagle); "
+                        "in the Parables, they are four named archangels with distinct "
+                        "functions. This transformation from anonymous cherubim to named "
+                        "archangels reflects the broader Second Temple development of "
+                        "angelology — the shift from symbolic throne-guardians to "
+                        "personalized heavenly agents."
+            },
+            {
+                "heading": "Phanuel and the Fourth Archangel Tradition (40:9)",
+                "body": "The inclusion of Phanuel in the fourth position is distinctive "
+                        "to the Parables. In the Book of the Watchers (1 Enoch 20), "
+                        "the fourth archangel is Uriel. The substitution of Phanuel "
+                        "(whose name means 'Face of God,' cf. Genesis 32:30 'Peniel') "
+                        "may reflect a different strand of angelic tradition. Phanuel's "
+                        "domain — 'repentance unto hope of those who inherit eternal "
+                        "life' — is uniquely eschatological. The name Phanuel/Peniel "
+                        "connects this figure to Jacob's encounter with God 'face to "
+                        "face' at the Jabbok (Genesis 32:30)."
+            },
+            {
+                "heading": "The Exclusion of the Satans (40:7)",
+                "body": "The note that the Satans cannot accuse before the Lord of "
+                        "Spirits marks a major development in the Satan concept. In "
+                        "Job 1-2, the Satan is a member of the divine council who "
+                        "functions as a prosecuting attorney. In Zechariah 3:1, the "
+                        "Satan accuses the high priest. In the Parables, this function "
+                        "is explicitly prohibited. The plural 'Satans' indicates the "
+                        "accuser has fragmented from a single council role into a class "
+                        "of hostile beings. This represents the transitional stage "
+                        "between the OT Satan (a council functionary) and the NT Satan "
+                        "(the cosmic adversary expelled from heaven in Rev 12:7-10)."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-41",
+        "ref": "1 Enoch 41",
+        "chapter_num": 41,
+        "title": "Astronomical Secrets — The Divisions of the Luminaries",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Enoch sees the secrets of the luminaries — the divisions of "
+                    "the stars, the storehouses of lightning, thunder, and wind. "
+                    "He sees how the sun and moon follow their appointed courses "
+                    "and do not deviate from their ordinances. The faithfulness "
+                    "of the luminaries to their courses guarantees the "
+                    "faithfulness of God to his promises of judgment.",
+
+        "key_verse": {
+            "ref": "1 Enoch 41:5",
+            "text": "And I saw the chambers of the sun and moon, whence they "
+                    "proceed and whither they come again, and their glorious "
+                    "return, and how one is superior to the other, and their "
+                    "stately orbit, and how they do not leave their orbit, "
+                    "and they add nothing to their orbit and they take nothing "
+                    "from it.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The cosmological content draws on the same astronomical "
+                        "traditions that underlie the Astronomical Book (1 Enoch "
+                        "72-82). Babylonian astronomy — with its elaborate tracking "
+                        "of lunar and solar courses, its MUL.APIN star catalogues, "
+                        "and its concept of cosmic regularity — provides the distant "
+                        "background. The theological argument (celestial regularity "
+                        "proves divine faithfulness) is distinctly Israelite, rooted "
+                        "in Jeremiah 31:35-36 and Psalm 19:1-6.",
+
+        "second_temple": [
+            {
+                "source": "1 Enoch 72-82 (Astronomical Book)",
+                "summary": "The earlier Enochic astronomical treatise provides detailed "
+                           "accounts of solar and lunar gates and the 364-day calendar.",
+                "relevance": "Chapter 41 abbreviates the Astronomical Book's cosmology "
+                             "for the Parables' eschatological argument: if the stars "
+                             "obey God, how much more certain is his judgment.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "Jeremiah 31:35-36", "note": "'If these ordinances of sun, moon, and stars depart from before me, then the offspring of Israel also shall cease' — cosmic regularity as divine guarantee", "type": "ot"},
+            {"ref": "Psalm 19:1-6", "note": "The heavens declare the glory of God; the sun follows its circuit — cosmic order as theological testimony", "type": "ot"},
+            {"ref": "Job 38:31-33", "note": "God challenges Job about the ordinances of the heavens — the astronomical secrets Enoch claims to have received", "type": "ot"},
+            {"ref": "Romans 1:19-20", "note": "God's invisible attributes are understood through what has been made — the natural theology argument connecting 1 Enoch's cosmology to Paul", "type": "nt"}
+        ],
+
+        "divine_council_note": "The astronomical secrets are council knowledge — the "
+                               "operational details of creation that only council "
+                               "members know. The luminaries themselves are depicted as "
+                               "obedient council servants who 'do not leave their orbit' "
+                               "— in contrast to the Watchers who left their proper "
+                               "station.",
+
+        "sections": [
+            {
+                "heading": "Secrets of Lightning and Cosmological Storehouses (41:1-4)",
+                "body": "Enoch sees 'all the secrets of the heavens' — lightning, "
+                        "thunder, and wind stored in cosmic storehouses. This "
+                        "storehouse cosmology appears throughout the OT (Job 38:22, "
+                        "Psalm 135:7, Jeremiah 10:13). The emphasis on 'weighing' — "
+                        "measuring the precise quantities of light and darkness — "
+                        "reflects the wisdom tradition's theology of divine precision "
+                        "(Proverbs 8:27-29, Job 28:25-27). Nothing in creation is "
+                        "arbitrary; everything operates according to measured ordinance."
+            },
+            {
+                "heading": "The Solar and Lunar Courses (41:5-8)",
+                "body": "The description of sun and moon following 'stately orbits' "
+                        "from which they never deviate serves a dual purpose. "
+                        "Cosmologically, it presents the ordered universe. "
+                        "Theologically, it grounds the certainty of eschatological "
+                        "judgment in the reliability of cosmic order. The same logic "
+                        "appears in Jeremiah 33:25-26: 'If I have not established my "
+                        "covenant with day and night and the ordinances of heaven and "
+                        "earth, then I will reject the offspring of Jacob.'"
+            }
+        ]
+    },
+
+    {
+        "id": "1en-42",
+        "ref": "1 Enoch 42",
+        "chapter_num": 42,
+        "title": "Wisdom Finds No Dwelling — The Rejected Wisdom Poem",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "In one of the most remarkable passages in Enochic literature, "
+                    "Wisdom goes forth to find a dwelling among humanity but finds "
+                    "no place. She returns to the heavens and takes her seat among "
+                    "the angels. Unrighteousness, by contrast, goes forth and finds "
+                    "a ready reception, 'like rain in a desert.' This brief chapter "
+                    "is a complete wisdom poem embedded in the apocalyptic framework, "
+                    "drawing on the personified Wisdom tradition of Proverbs 1, 8, "
+                    "and 9, and Ben Sira 24.",
+
+        "key_verse": {
+            "ref": "1 Enoch 42:1-2",
+            "text": "Wisdom found no place where she might dwell; then a dwelling-"
+                    "place was assigned her in the heavens. Wisdom went forth to "
+                    "make her dwelling among the children of men, and found no "
+                    "dwelling-place. Wisdom returned to her place, and took her "
+                    "seat among the angels.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The personified Wisdom tradition has deep ANE roots. The "
+                        "Egyptian goddess Ma'at embodies cosmic order and right "
+                        "dealing. Within Israel, personified Wisdom (chokmah) calls "
+                        "out in the streets (Proverbs 1:20-33), was present at "
+                        "creation (Proverbs 8:22-31), and builds her house (Proverbs "
+                        "9:1-6). Ben Sira 24 tells of Wisdom seeking a resting place "
+                        "among the nations and being assigned to Israel. 1 Enoch 42 "
+                        "inverts Ben Sira's optimism: Wisdom finds NO place at all "
+                        "among humanity.",
+
+        "second_temple": [
+            {
+                "source": "Ben Sira (Sirach) 24:3-12",
+                "summary": "Wisdom searches for a resting place and the Creator assigns "
+                           "her to Israel: 'In the beloved city he gave me a resting "
+                           "place, and in Jerusalem was my domain.'",
+                "relevance": "1 Enoch 42 deliberately reverses Ben Sira 24. Where Ben "
+                             "Sira says Wisdom found a home in Israel, 1 Enoch says "
+                             "Wisdom found no home at all. This pessimistic counter-"
+                             "tradition is closer to the Johannine prologue's 'the "
+                             "world did not know him' (John 1:10).",
+                "canon": False
+            },
+            {
+                "source": "Baruch 3:29 - 4:1",
+                "summary": "God alone knows where Wisdom dwells; he gave her to Israel "
+                           "as Torah.",
+                "relevance": "Another voice in the 'where is Wisdom?' tradition that "
+                             "1 Enoch 42 both invokes and subverts.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "Proverbs 1:20-33", "note": "Wisdom cries aloud in the street but is rejected — the OT prototype for 1 Enoch 42's rejected Wisdom", "type": "ot"},
+            {"ref": "John 1:10-11", "note": "'He was in the world... yet the world did not know him. He came to what was his own, and his own people did not accept him' — mirrors 1 Enoch 42's rejected-Wisdom pattern exactly", "type": "nt"},
+            {"ref": "1 Corinthians 1:21-24", "note": "'The world did not know God through wisdom... we proclaim Christ crucified... Christ the wisdom of God' — Paul's identification of Christ with rejected-then-revealed Wisdom", "type": "nt"},
+            {"ref": "Matthew 23:34-37", "note": "Jesus as Wisdom sending prophets who are rejected — the rejected-Wisdom Christology", "type": "nt"}
+        ],
+
+        "divine_council_note": "Wisdom's return to 'her seat among the angels' places "
+                               "her within the divine council. She is not merely an "
+                               "abstraction but a figure who occupies a council position. "
+                               "If Wisdom has withdrawn from earth and resides only in "
+                               "heaven, then only those with access to the divine council "
+                               "(like Enoch) can mediate that wisdom to humanity.",
+
+        "sections": [
+            {
+                "heading": "The Wisdom Poem: Rejection and Return (42:1-2)",
+                "body": "This compressed poem carries enormous theological weight. "
+                        "Wisdom is personified as a female figure (following the "
+                        "Hebrew grammatical gender of chokmah) who actively seeks a "
+                        "dwelling among 'the children of men.' She is not passive but "
+                        "missionary. Yet she 'found no dwelling-place.' This is more "
+                        "pessimistic than Proverbs (where Wisdom is rejected by fools "
+                        "but embraced by the wise) and more pessimistic than Ben Sira "
+                        "(where Wisdom finds a home in Israel). Many scholars (Ashton, "
+                        "Dunn, Hurtado) identify the Parables' rejected-Wisdom "
+                        "tradition as one of the sources for the Fourth Gospel's "
+                        "incarnation theology."
+            },
+            {
+                "heading": "Unrighteousness Welcomed (42:3)",
+                "body": "Where Wisdom found no reception, Unrighteousness 'went forth "
+                        "from her chambers' and found a ready welcome — 'like rain "
+                        "in a desert, and like dew on a thirsty land.' The simile is "
+                        "deliberately ironic: rain and dew are images of blessing "
+                        "throughout the OT (Deuteronomy 32:2, Psalm 72:6), but here "
+                        "they describe the eagerness with which humanity receives "
+                        "evil. The point is devastating: humanity thirsts not for "
+                        "wisdom but for wickedness. This anthropological pessimism "
+                        "aligns with the Parables' overall worldview, which requires "
+                        "a transcendent intervention (the Son of Man) to set things "
+                        "right."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-43",
+        "ref": "1 Enoch 43",
+        "chapter_num": 43,
+        "title": "The Stars and Lightning — Cosmic Order and Identity",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Enoch sees lightning flashes and stars of heaven. He learns "
+                    "that each star is called by name and that they faithfully "
+                    "appear in their appointed seasons. The stars are 'reckoned "
+                    "as righteous' because of their obedience. The chapter "
+                    "continues the cosmological section of the first Parable.",
+
+        "key_verse": {
+            "ref": "1 Enoch 43:1-2",
+            "text": "And I saw other lightnings and the stars of heaven, and I "
+                    "saw how He called them all by their names, and they hearkened "
+                    "unto Him. And I saw how they are weighed in a righteous "
+                    "balance according to their proportions of light.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "Star naming and cataloguing was central to Mesopotamian "
+                        "astronomy. The MUL.APIN series catalogues stars and "
+                        "constellations with their rising dates and associated "
+                        "deities. The Israelite tradition transforms this into "
+                        "monotheistic praise: YHWH alone names and summons each "
+                        "star (Isaiah 40:26).",
+
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Isaiah 40:26", "note": "'He who brings out their host by number, calling them all by name' — the direct OT source for 1 Enoch 43's star-naming theology", "type": "ot"},
+            {"ref": "Psalm 147:4", "note": "'He determines the number of the stars; he gives to all of them their names' — the same tradition of divine naming", "type": "ot"},
+            {"ref": "Daniel 12:3", "note": "'Those who are wise shall shine like the stars' — stars as metaphor for the righteous, as in 1 Enoch 43", "type": "ot"},
+            {"ref": "1 Corinthians 15:41", "note": "'Star differs from star in glory' — Paul's astronomical metaphor echoes Enochic tradition of differentiated stellar glory", "type": "nt"}
+        ],
+
+        "divine_council_note": "The stars being 'called by name' and 'hearkening' to "
+                               "God portrays them as obedient members of the cosmic "
+                               "hierarchy. In the OT, stars are sometimes identified "
+                               "with divine beings (Job 38:7, Judges 5:20). The Parables "
+                               "emphasize the stars' obedient response — contrasting with "
+                               "the disobedient stars of 1 Enoch 18:14-16 (wandering "
+                               "stars = fallen angels).",
+
+        "sections": [
+            {
+                "heading": "Named Stars and Divine Knowledge (43:1-2)",
+                "body": "The theology of divine naming is significant. To name a "
+                        "being is to know it fully and exercise authority over it "
+                        "(cf. Genesis 2:19-20, Isaiah 43:1). God's naming of the "
+                        "stars demonstrates both omniscience and sovereignty. Each "
+                        "star is 'weighed in a righteous balance' — the imagery of "
+                        "weighing connects to the judgment scenes throughout the "
+                        "Parables and to the broader ANE motif of divine scales."
+            },
+            {
+                "heading": "Stars as Righteous Exemplars (43:3-4)",
+                "body": "The stars are 'reckoned as righteous' because they maintain "
+                        "their courses faithfully. This is the same argument as "
+                        "1 Enoch 2-5: cosmic order is moral order. The identification "
+                        "of stars with righteous beings becomes explicit in Daniel "
+                        "12:3, where the wise 'shine like the stars,' and in "
+                        "Philippians 2:15, where believers 'shine like stars in the "
+                        "world.'"
+            }
+        ]
+    },
+
+    {
+        "id": "1en-44",
+        "ref": "1 Enoch 44",
+        "chapter_num": 44,
+        "title": "The Diminishing Stars — Apostasy in the Cosmos",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Enoch sees how some stars have diminished and no longer appear "
+                    "in their proper seasons. This brief chapter uses astronomical "
+                    "imagery to describe apostasy — the failure of luminaries to "
+                    "maintain their appointed courses symbolizes the failure of "
+                    "beings to maintain faithfulness. The chapter concludes the "
+                    "first Parable on a cautionary note.",
+
+        "key_verse": {
+            "ref": "1 Enoch 44:1",
+            "text": "And I saw other stars which had diminished themselves, and "
+                    "which appeared not in their appointed times, and which had "
+                    "transgressed the command of the Lord of their beginning, "
+                    "for they came not forth at their appointed times.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The concept of celestial disobedience — stars failing to "
+                        "appear at their appointed times — inverts the Mesopotamian "
+                        "omen tradition where irregular celestial phenomena were "
+                        "interpreted as divine messages. In 1 Enoch, irregular "
+                        "celestial behavior is not a sign but a sin.",
+
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "1 Enoch 18:14-16", "note": "The Book of the Watchers describes seven stars 'bound together' for 'transgressing the commandment of the Lord' — the same cosmic apostasy motif", "type": "ot"},
+            {"ref": "Jude 13", "note": "'Wandering stars, for whom the gloom of utter darkness has been reserved' — Jude's use of Enochic fallen-star imagery for false teachers", "type": "nt"},
+            {"ref": "Revelation 8:10-12", "note": "Stars falling from heaven and luminaries darkened — the Apocalypse draws on the Enochic tradition of celestial judgment", "type": "nt"},
+            {"ref": "Isaiah 14:12-15", "note": "The 'Day Star, son of Dawn' cast down from heaven — the OT prototype for celestial apostasy", "type": "ot"}
+        ],
+
+        "divine_council_note": "The diminished stars represent divine council members "
+                               "who have failed in their duties. The language of "
+                               "'transgressing the command' directly parallels the "
+                               "Watcher rebellion: both stars and Watchers were given "
+                               "stations by their Creator and chose to violate them.",
+
+        "sections": [
+            {
+                "heading": "Cosmic Apostasy (44:1)",
+                "body": "This brief chapter carries disproportionate theological "
+                        "weight. The stars that 'diminished themselves' have not "
+                        "merely failed physically but morally: they 'transgressed "
+                        "the command' of the Lord. The language is legal and "
+                        "covenantal — willful violations of divine decree. The "
+                        "implication for the Parables' audience is clear: if even "
+                        "stars can apostatize, how much more must humans guard "
+                        "against unfaithfulness. This cautionary conclusion to the "
+                        "first Parable sets up the second Parable's introduction "
+                        "of the Son of Man."
+            },
+            {
+                "heading": "Stars as Angels in Enochic Tradition",
+                "body": "The identification of stars with angelic beings is one of "
+                        "the most consistent features of the Enochic corpus. In the "
+                        "Book of the Watchers (1 Enoch 18:13-16, 21:3-6), seven "
+                        "stars are bound and punished for transgressing God's command "
+                        "— they are explicitly called 'stars which transgressed the "
+                        "commandment of the Lord.' In chapter 86:1-4 of the Animal "
+                        "Apocalypse, the Watchers descend as stars from heaven. This "
+                        "star-angel equation draws on ancient Near Eastern tradition "
+                        "where celestial bodies were understood as divine beings. In "
+                        "the Hebrew Bible, the 'host of heaven' (tseba ha-shamayim) "
+                        "can refer both to stars and to the divine council (cf. "
+                        "1 Kings 22:19; Nehemiah 9:6; Job 38:7 where 'morning stars' "
+                        "parallel 'sons of God'). The Parables continue this tradition, "
+                        "using celestial irregularity as a cipher for angelic rebellion."
+            },
+            {
+                "heading": "Conclusion of the First Parable",
+                "body": "Chapter 44 serves as the quiet coda to the first Parable "
+                        "(chapters 38-44). Where the Parable opened with the grand "
+                        "theme of the coming judgment when the Righteous One appears "
+                        "(ch. 38), it closes with the intimate observation that some "
+                        "luminaries have already begun to fail. The movement is from "
+                        "eschatological future to present-tense reality: judgment is "
+                        "coming (ch. 38), the righteous already dwell with the angels "
+                        "(ch. 39), the four archangels praise God (ch. 40), cosmic "
+                        "secrets are revealed (chs. 41-43), and yet even within this "
+                        "ordered cosmos, defection is underway (ch. 44). This sets "
+                        "the theological stage for the second Parable's revelation "
+                        "of the Son of Man — the figure who will finally set right "
+                        "what has gone wrong in both heaven and earth."
+            }
+        ]
+    },
+
+    # =========================================================================
+    # SECOND PARABLE (1 Enoch 45-57)
+    # =========================================================================
+    {
+        "id": "1en-45",
+        "ref": "1 Enoch 45",
+        "chapter_num": 45,
+        "title": "The Second Parable — The Lot of Those Who Deny the Lord of Spirits",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The second Parable opens with a vision of those who 'deny the "
+                    "name of the Lord of Spirits.' They will have no place in heaven "
+                    "when 'the Elect One shall sit on the throne of glory and shall "
+                    "try their works.' The heaven and earth will be transformed on "
+                    "the day of judgment. The chapter introduces the enthronement "
+                    "of the Elect One on the throne of glory — the central image "
+                    "of the second Parable — and establishes the criterion of "
+                    "judgment: acknowledgment or denial of the Lord of Spirits.",
+
+        "key_verse": {
+            "ref": "1 Enoch 45:3",
+            "text": "On that day Mine Elect One shall sit on the throne of glory "
+                    "and shall try their works, and their places of rest shall be "
+                    "innumerable. And their souls shall grow strong within them "
+                    "when they see Mine Elect One, and those who have called upon "
+                    "My glorious name.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The enthronement of a divine agent on a judgment throne "
+                        "draws on the Canaanite motif of the divine council's "
+                        "judicial session. At Ugarit, El presides over the divine "
+                        "assembly, but it is the younger deity (Baal or Yamm) who "
+                        "often executes judgment. The Parables adapt this two-tier "
+                        "authority structure within strict monotheism: the Lord of "
+                        "Spirits is supreme but delegates judgment to the Elect One.",
+
+        "second_temple": [
+            {
+                "source": "Psalms of Solomon 17:26-32",
+                "summary": "The Davidic messiah 'will judge peoples and nations in the "
+                           "wisdom of his righteousness' and 'will purge Jerusalem.'",
+                "relevance": "A roughly contemporary messianic expectation involving "
+                             "a messianic judge. The Parables' Elect One combines this "
+                             "Davidic royal judgment with the Danielic heavenly Son of Man.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "Matthew 25:31", "note": "'When the Son of Man comes in his glory and sits on his glorious throne' — the direct NT echo of 1 Enoch 45:3's enthronement language", "type": "nt"},
+            {"ref": "Matthew 10:32-33", "note": "'Everyone who acknowledges me before others, I also will acknowledge... whoever denies me, I also will deny' — the acknowledgment/denial criterion matches 1 Enoch 45's judgment standard", "type": "nt"},
+            {"ref": "2 Peter 3:13", "note": "'New heavens and a new earth in which righteousness dwells' — the cosmic transformation that 1 Enoch 45:4-5 anticipates", "type": "nt"},
+            {"ref": "Revelation 21:1", "note": "'A new heaven and a new earth, for the first heaven and the first earth had passed away' — the transformed cosmos that 1 Enoch 45 envisions", "type": "nt"},
+            {"ref": "Isaiah 65:17", "note": "'I am about to create new heavens and a new earth' — the OT source for the cosmic renewal theme", "type": "ot"}
+        ],
+
+        "divine_council_note": "The phrase 'Mine Elect One shall sit on the throne of "
+                               "glory' is spoken by the Lord of Spirits himself — God "
+                               "declaring the enthronement of his chosen agent. The "
+                               "possessive 'Mine' emphasizes the relationship: the Elect "
+                               "One is the Lord of Spirits' own representative. This is "
+                               "delegated authority within the council, not autonomous "
+                               "power. The 'throne of glory' (Ge'ez: manbar sebhat) is "
+                               "the same throne that God sits on — the Elect One shares "
+                               "God's seat. This shared-throne theology is the most "
+                               "direct precursor to the NT's 'seated at the right hand "
+                               "of God' (Mark 16:19, Heb 1:3).",
+
+        "sections": [
+            {
+                "heading": "The Denial of the Lord of Spirits (45:1-2)",
+                "body": "The second Parable opens with the fate of 'those who deny "
+                        "the name of the Lord of Spirits.' The specific sin named "
+                        "here is not moral failure in general but denial — the "
+                        "refusal to acknowledge God's sovereignty. This is the "
+                        "Parables' defining sin, repeated throughout the judgment "
+                        "scenes. The kings and mighty deny the Lord of Spirits not "
+                        "through ignorance but through arrogance: they trust in "
+                        "their own power rather than God's authority. This criterion "
+                        "maps directly onto Jesus' warning: 'Whoever denies me "
+                        "before others, I also will deny before my Father in heaven' "
+                        "(Matt 10:33). The sin of denial is relational and covenantal "
+                        "— it is the rejection of a personal claim."
+            },
+            {
+                "heading": "The Enthronement and Cosmic Transformation (45:3-6)",
+                "body": "The Elect One 'shall sit on the throne of glory and shall "
+                        "try their works' — the first explicit enthronement statement "
+                        "in the Parables. The judgment is based on 'works' (Ge'ez: "
+                        "tegbaromu), meaning actions and their consequences, not "
+                        "merely beliefs. This parallels Matthew 25:35-40 where the "
+                        "Son of Man judges based on concrete deeds of mercy. Verses "
+                        "4-5 then describe cosmic transformation: heaven and earth "
+                        "will be changed on the day of the Elect One's judgment. "
+                        "This is not merely political regime change but a renewal "
+                        "of the entire created order — the 'new heavens and new "
+                        "earth' of Isaiah 65:17 and Revelation 21:1. The Parables "
+                        "integrate individual judgment (works tried) with cosmic "
+                        "renewal (heaven and earth transformed), exactly as the "
+                        "NT does in Romans 8:19-23 and Revelation 20-21."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-46",
+        "ref": "1 Enoch 46",
+        "chapter_num": 46,
+        "title": "The Head of Days and the Son of Man — The Two-Figure Vision",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Enoch sees a figure whose head is 'white like wool' — the 'Head "
+                    "of Days' (Ancient of Days) — and walking with him, another being "
+                    "whose countenance 'had the appearance of a man,' full of "
+                    "graciousness, 'like one of the holy angels.' Enoch asks the "
+                    "interpreting angel who this figure is. The angel identifies him "
+                    "as 'the Son of Man who hath righteousness,' who will overthrow "
+                    "kings from their thrones and crush the teeth of sinners. This "
+                    "is the most developed pre-Christian portrait of the Danielic "
+                    "Son of Man outside the book of Daniel itself.",
+
+        "key_verse": {
+            "ref": "1 Enoch 46:1-3",
+            "text": "And there I saw One who had a head of days, and His head was "
+                    "white like wool, and with Him was another being whose "
+                    "countenance had the appearance of a man, and his face was full "
+                    "of graciousness, like one of the holy angels. And I asked the "
+                    "angel who went with me... concerning that Son of Man, who he "
+                    "was, and whence he was, and why he went with the Head of Days.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The two-throne concept — a supreme aged deity alongside a "
+                        "younger warrior/judge figure — has direct parallels in "
+                        "Canaanite religion. At Ugarit, the aged El presides over "
+                        "the divine assembly while the younger Baal executes power. "
+                        "The phrase 'Head of Days' translates the Aramaic 'Attiq "
+                        "Yomin' from Daniel 7:9, while 'Son of Man' translates "
+                        "'bar enash' of Daniel 7:13. The Parables develop Daniel's "
+                        "brief scene into an extended character portrait, giving the "
+                        "Son of Man attributes, history, and a name.",
+
+        "second_temple": [
+            {
+                "source": "4 Ezra 13:1-13",
+                "summary": "A man rises from the sea, flies on the clouds of heaven, "
+                           "and destroys the nations with fire from his mouth. He is "
+                           "God's pre-existent Son 'kept for many ages.'",
+                "relevance": "An independent development of Daniel 7:13 that parallels "
+                             "the Parables' Son of Man: both are pre-existent, both "
+                             "execute judgment, both are distinct from God yet divinely "
+                             "authorized. This shows Son of Man speculation was "
+                             "widespread in late Second Temple Judaism.",
+                "canon": False
+            },
+            {
+                "source": "11Q13 (Melchizedek Scroll)",
+                "summary": "Melchizedek is an exalted divine figure (called elohim) "
+                           "who presides over judgment in the heavenly assembly, "
+                           "executing Psalm 82 against Belial.",
+                "relevance": "Like the Son of Man in the Parables, Melchizedek in "
+                             "11Q13 is a second divine figure executing judgment on "
+                             "behalf of the Most High. Both develop the 'two powers "
+                             "in heaven' motif from Daniel 7.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "Daniel 7:9-14", "note": "The Ancient of Days with hair 'white like wool' and the one 'like a son of man' coming on clouds — the direct source for 1 Enoch 46", "type": "ot"},
+            {"ref": "Matthew 26:63-64", "note": "Jesus tells the high priest he will see 'the Son of Man seated at the right hand of Power and coming on the clouds' — combining Daniel 7 with the enthroned figure of the Parables", "type": "nt"},
+            {"ref": "Revelation 1:13-16", "note": "One like a son of man with hair white as wool — Revelation combines the Ancient of Days and Son of Man descriptions", "type": "nt"},
+            {"ref": "Psalm 110:1", "note": "The LORD says to my lord: Sit at my right hand — the two-throne theology underlying both the Parables and NT christology", "type": "ot"},
+            {"ref": "Philippians 2:9-11", "note": "God gave him the name above every name — the Son of Man's pre-eminence before the Lord of Spirits in 1 Enoch 46:3 anticipates this", "type": "nt"}
+        ],
+
+        "divine_council_note": "The Son of Man in chapter 46 occupies a unique position "
+                               "in the divine council: he is neither the Most High (the "
+                               "Lord of Spirits / Head of Days) nor a mere angel. He is "
+                               "a second enthroned figure who shares the divine prerogatives "
+                               "of judgment and sovereignty. This 'two powers in heaven' "
+                               "theology was deeply controversial in Judaism. The rabbis "
+                               "eventually rejected it as heresy (b. Sanhedrin 38b, "
+                               "b. Hagigah 15a), but the concept was foundational for "
+                               "early Christian christology.",
+
+        "sections": [
+            {
+                "heading": "The Vision of the Head of Days (46:1)",
+                "body": "Enoch sees 'One who had a head of days, and His head was "
+                        "white like wool' — unmistakable language from Daniel 7:9 "
+                        "('the Ancient of Days took his seat; his clothing was white "
+                        "as snow, and the hair of his head like pure wool'). The "
+                        "Parables use 'Head of Days' (Ge'ez: re'sa mawael) rather "
+                        "than 'Ancient of Days' — a slight variation that emphasizes "
+                        "primacy rather than mere antiquity. The white-wool imagery "
+                        "signifies wisdom, purity, and eternal age. Notably, "
+                        "Revelation 1:14 applies the 'white as wool' description "
+                        "to the risen Christ, conflating the Ancient of Days and "
+                        "Son of Man descriptions into a single figure."
+            },
+            {
+                "heading": "The Son of Man Identified (46:2-4)",
+                "body": "Walking with the Head of Days is 'another being whose "
+                        "countenance had the appearance of a man, and his face was "
+                        "full of graciousness, like one of the holy angels' (46:1). "
+                        "The Son of Man's face is 'like one of the holy angels' — "
+                        "he has an angelic appearance yet is specifically 'like a "
+                        "man.' This ambiguity (human-like yet angel-like) mirrors "
+                        "Daniel 7:13 where the figure is 'like a son of man' — "
+                        "the comparison preserves mystery about the figure's exact "
+                        "nature. Enoch asks three questions: who is he, where does "
+                        "he come from, and why does he accompany the Head of Days? "
+                        "The angel answers: 'This is the Son of Man who hath "
+                        "righteousness, with whom dwelleth righteousness, and who "
+                        "revealeth all the treasures of that which is hidden, "
+                        "because the Lord of Spirits hath chosen him' (46:3). Four "
+                        "traits define the Son of Man: inherent righteousness, "
+                        "hidden knowledge, divine election, and eternal pre-eminence."
+            },
+            {
+                "heading": "The Overthrow of Kings (46:4-8)",
+                "body": "The Son of Man will 'put down the kings and the mighty from "
+                        "their seats, and the strong from their thrones' (46:4). He "
+                        "will 'loosen the reins of the strong, and crush the teeth "
+                        "of the sinners' (46:4). The language is violent and total — "
+                        "this is not reform but overthrow. The kings' specific sin is "
+                        "identified: they 'deny the Lord of Spirits and His Anointed' "
+                        "(46:8, some manuscripts). This pairing — Lord of Spirits and "
+                        "His Anointed — echoes Psalm 2:2: 'The kings of the earth "
+                        "set themselves... against the LORD and against his anointed.' "
+                        "The Parables apply the Psalm 2 rebellion scenario to their "
+                        "eschatological framework: the kings who oppose God and his "
+                        "agent will be destroyed."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-47",
+        "ref": "1 Enoch 47",
+        "chapter_num": 47,
+        "title": "The Prayer of the Righteous and the Blood of the Saints",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The righteous cry out and their prayers ascend from the earth, "
+                    "petitioning the Lord of Spirits for justice. The 'blood of the "
+                    "righteous' is required from the earth. The holy ones in heaven "
+                    "unite in supplication on behalf of the blood that has been shed. "
+                    "The Head of Days sits on the throne, and the books of the living "
+                    "are opened before him.",
+
+        "key_verse": {
+            "ref": "1 Enoch 47:1-2",
+            "text": "And in those days shall have ascended the prayer of the "
+                    "righteous, and the blood of the righteous from the earth "
+                    "before the Lord of Spirits.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": "The motif of shed blood crying out from the earth originates "
+                        "in Genesis 4:10. The concept that innocent blood pollutes the "
+                        "land and demands vindication is deeply embedded in ANE "
+                        "jurisprudence and Israelite law (Numbers 35:33).",
+
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Revelation 6:9-11", "note": "Souls under the altar cry 'How long, O Lord, until you judge and avenge our blood?' — the closest NT parallel to 1 Enoch 47", "type": "nt"},
+            {"ref": "Genesis 4:10", "note": "'Your brother's blood cries out to me from the ground' — the prototype for blood demanding justice", "type": "ot"},
+            {"ref": "Daniel 7:10", "note": "The court sat in judgment and the books were opened — 1 Enoch 47:3's opened books parallel the Danielic scene", "type": "ot"},
+            {"ref": "Revelation 20:12", "note": "Books were opened, and the dead were judged by what was written — combining 1 Enoch 47 and Daniel 7", "type": "nt"}
+        ],
+
+        "divine_council_note": "The prayers of the righteous ascend to the divine court "
+                               "as a formal petition. The 'holy ones in heaven' join the "
+                               "petition, creating a united appeal from both earth and "
+                               "heaven. The opening of books is a judicial act: the "
+                               "council convenes and the evidence is presented.",
+
+        "sections": [
+            {
+                "heading": "The Cry of the Righteous (47:1-2)",
+                "body": "Prayer and martyrdom are linked as a single appeal to heaven. "
+                        "The blood functions as a witness (cf. Hebrews 12:24). The "
+                        "angels join the petition, creating liturgical solidarity "
+                        "between earthly martyrs and the heavenly court. This pattern "
+                        "appears in Revelation 5:8 where elders hold 'bowls of "
+                        "incense, which are the prayers of the saints.'"
+            },
+            {
+                "heading": "The Books Opened (47:3-4)",
+                "body": "The Head of Days sits on the throne and the books are opened "
+                        "— the judicial metaphor from Daniel 7:10. The 'books of the "
+                        "living' record the deeds of all humanity and serve as "
+                        "evidence in the cosmic trial. This motif develops through "
+                        "Revelation 20:12 into the Christian Book of Life tradition."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-48",
+        "ref": "1 Enoch 48",
+        "chapter_num": 48,
+        "title": "The Pre-Existence of the Son of Man — Named Before Creation",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The Son of Man was 'named in the presence of the Lord of Spirits "
+                    "before the sun and stars were created.' He is 'the light of the "
+                    "Gentiles' and 'the hope of those who are troubled of heart.' "
+                    "The kings who deny the Lord of Spirits and His Anointed will "
+                    "face inescapable anguish. This chapter contains the Parables' "
+                    "most radical christological claim: the pre-cosmic existence of "
+                    "the messianic Son of Man.",
+
+        "key_verse": {
+            "ref": "1 Enoch 48:2-3",
+            "text": "And at that hour that Son of Man was named in the presence "
+                    "of the Lord of Spirits, and his name before the Head of Days. "
+                    "Yea, before the sun and the signs were created, before the "
+                    "stars of the heaven were made, his name was named before the "
+                    "Lord of Spirits.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "In the Enuma Elish, naming IS creating: 'When on high the "
+                        "heaven had not been named, firm ground below had not been "
+                        "called by name.' The Parables use this convention to assert "
+                        "the Son of Man's identity was established before the cosmos. "
+                        "Rabbinic tradition (b. Pesachim 54a) lists the 'Name of the "
+                        "Messiah' among seven things conceived before the world.",
+
+        "second_temple": [
+            {
+                "source": "b. Pesachim 54a / b. Nedarim 39b",
+                "summary": "Seven things created before the world: Torah, Repentance, "
+                           "Garden of Eden, Gehenna, Throne of Glory, Temple, and the "
+                           "Name of the Messiah.",
+                "relevance": "The 'Name of the Messiah' as pre-existent parallels "
+                             "1 Enoch 48:3 directly, showing this was a broader Jewish "
+                             "tradition, not unique to the Parables.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "John 1:1-3", "note": "'In the beginning was the Word, and the Word was with God' — Johannine pre-existence parallels 1 Enoch 48", "type": "nt"},
+            {"ref": "John 17:5", "note": "'Glorify me with the glory I had with you before the world existed' — Jesus claims the pre-cosmic existence attributed to the Son of Man", "type": "nt"},
+            {"ref": "Colossians 1:15-17", "note": "'He is before all things' — Pauline pre-existence christology mapping onto the Parables", "type": "nt"},
+            {"ref": "Isaiah 42:6; 49:6", "note": "'A light for the nations' — 1 Enoch 48:4 applies this Servant language to the Son of Man", "type": "ot"},
+            {"ref": "1 Peter 1:20", "note": "Christ 'foreknown before the foundation of the world' — pre-existence through divine foreknowledge", "type": "nt"}
+        ],
+
+        "divine_council_note": "The 'naming' of the Son of Man before creation is a "
+                               "council act: the Lord of Spirits designates his agent "
+                               "before the cosmos exists. This is the most radical form "
+                               "of pre-existence in Second Temple Judaism.",
+
+        "sections": [
+            {
+                "heading": "The Fountain of Righteousness (48:1)",
+                "body": "Enoch sees an 'inexhaustible fountain of righteousness' "
+                        "surrounded by 'many fountains of wisdom' (48:1). The imagery "
+                        "draws on Proverbs 13:14 and Jeremiah 2:13. Righteousness "
+                        "is the inexhaustible source; wisdom flows from it."
+            },
+            {
+                "heading": "Named Before Creation (48:2-3)",
+                "body": "The claim that the Son of Man was 'named before the Lord of "
+                        "Spirits before the creation of the sun and stars' asserts "
+                        "pre-cosmic existence. Scholars debate whether this is 'ideal' "
+                        "pre-existence (a plan in God's mind) or 'real' pre-existence "
+                        "(actual being). The language supports the latter: the Son of "
+                        "Man is 'named in the presence of' God — he is there, present. "
+                        "This surpasses Daniel 7, where the Son of Man appears at "
+                        "judgment but is not said to pre-exist."
+            },
+            {
+                "heading": "Light of the Gentiles (48:4-7)",
+                "body": "The Son of Man is 'the light of the Gentiles, and the hope "
+                        "of those who are troubled of heart' (48:4). This language "
+                        "comes directly from Isaiah 42:6 and 49:6. The Parables merge "
+                        "three OT traditions: (1) the Danielic Son of Man, (2) the "
+                        "Isaianic Servant, and (3) the Davidic Messiah. This threefold "
+                        "merger is precisely what Christianity claimed about Jesus."
+            },
+            {
+                "heading": "The Denial of the Lord of Spirits and His Anointed (48:8-10)",
+                "body": "The kings 'have denied the Lord of Spirits and His Anointed' "
+                        "(48:10). The pairing echoes Psalm 2:2 and provides one of the "
+                        "Parables' uses of the mashiach title. Their reliance on 'the "
+                        "works of their hands' will prove futile on the day of anguish."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-49",
+        "ref": "1 Enoch 49",
+        "chapter_num": 49,
+        "title": "The Wisdom of the Elect One — The Spirit Rests Upon Him",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "In the Elect One dwells 'the spirit of wisdom, and the spirit "
+                    "which gives insight, and the spirit of understanding and of "
+                    "might.' He judges hidden things, and no one can utter a lying "
+                    "word before him. This chapter directly applies Isaiah 11:2's "
+                    "messianic endowment to the Elect One.",
+
+        "key_verse": {
+            "ref": "1 Enoch 49:3",
+            "text": "In him dwells the spirit of wisdom, and the spirit which "
+                    "gives insight, and the spirit of understanding and of might, "
+                    "and the spirit of those who have fallen asleep in "
+                    "righteousness.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Isaiah 11:2", "note": "'The Spirit of the LORD shall rest upon him, the Spirit of wisdom and understanding, the Spirit of counsel and might' — the direct source for 1 Enoch 49:3", "type": "ot"},
+            {"ref": "Colossians 2:3", "note": "'In whom are hidden all the treasures of wisdom and knowledge' — Paul's description parallels the Parables' Spirit-endowed Elect One", "type": "nt"},
+            {"ref": "Revelation 5:12", "note": "The Lamb receives 'power and wealth and wisdom and might' — the same endowment categories", "type": "nt"}
+        ],
+
+        "divine_council_note": "The fourfold Spirit endowment establishes the Elect One "
+                               "as the supreme council agent. The unique addition of 'the "
+                               "spirit of those who have fallen asleep in righteousness' "
+                               "means he carries the legacy of all the righteous dead.",
+
+        "sections": [
+            {
+                "heading": "The Isaiah 11 Endowment (49:1-3)",
+                "body": "The four-spirit list — wisdom, insight, understanding, might — "
+                        "deliberately echoes Isaiah 11:2. The Parables identify the "
+                        "Elect One as the Isaianic messianic king. The addition of "
+                        "'the spirit of those who have fallen asleep in righteousness' "
+                        "is unique — a corporate dimension where the Elect One is the "
+                        "culmination of the entire righteous tradition."
+            },
+            {
+                "heading": "Judgment of Hidden Things (49:4)",
+                "body": "The Elect One judges 'secret things, and none shall utter a "
+                        "lying word before him' (49:4). This echoes Isaiah 11:3-4: "
+                        "'He shall not judge by what his eyes see.' His judgment "
+                        "penetrates to hidden reality. Applied to Christ in Hebrews "
+                        "4:13: 'Nothing in all creation is hidden from God's sight.'"
+            }
+        ]
+    },
+
+    {
+        "id": "1en-50",
+        "ref": "1 Enoch 50",
+        "chapter_num": 50,
+        "title": "The Glorification of the Righteous and Repentance of the Gentiles",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "In those days a transformation shall take place for the holy: "
+                    "'the light of days shall abide upon them, and glory and honour "
+                    "shall turn to the holy.' Some who had gone astray will repent "
+                    "and not be destroyed — a brief note of mercy within the "
+                    "Parables' judgment framework.",
+
+        "key_verse": {
+            "ref": "1 Enoch 50:1",
+            "text": "And in those days a change shall take place for the holy and "
+                    "elect, and the light of days shall abide upon them, and glory "
+                    "and honour shall turn to the holy.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Daniel 12:3", "note": "'Those who are wise shall shine like the brightness of the sky' — the transformation the Parables develop", "type": "ot"},
+            {"ref": "Matthew 13:43", "note": "'The righteous will shine like the sun in the kingdom of their Father' — Jesus echoes this tradition", "type": "nt"},
+            {"ref": "Philippians 3:21", "note": "Christ 'will transform our lowly body to be like his glorious body'", "type": "nt"},
+            {"ref": "Isaiah 2:2-4", "note": "Nations streaming to Zion — the OT background for Gentile inclusion", "type": "ot"}
+        ],
+
+        "divine_council_note": "The transformation of the righteous into glorious "
+                               "beings parallels Enoch's own transformation in ch. 71. "
+                               "The boundary between human and divine becomes permeable "
+                               "for the righteous at the eschaton.",
+
+        "sections": [
+            {
+                "heading": "Transformation and Glory (50:1-3)",
+                "body": "The righteous undergo a 'change' — transformation into "
+                        "glorified beings with the 'light of days' upon them. This "
+                        "connects to Daniel 12:3 and anticipates Matthew 13:43. The "
+                        "'garments of glory' motif recurs in 2 Enoch 22:8, Revelation "
+                        "3:4-5, and Galatians 3:27 ('clothed yourselves with Christ')."
+            },
+            {
+                "heading": "Gentile Repentance (50:2-5)",
+                "body": "The note that some will 'repent and not be destroyed' opens "
+                        "a window of mercy. This is consistent with Isaiah 2:2-4 and "
+                        "Zechariah 8:23, and anticipates the NT inclusion of Gentiles. "
+                        "However, the Parables do not develop this theme extensively."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-51",
+        "ref": "1 Enoch 51",
+        "chapter_num": 51,
+        "title": "The Resurrection of the Dead — Sheol Gives Back Its Charge",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The earth, Sheol, and hell give back the dead entrusted to them. "
+                    "The Elect One arises and chooses the righteous from among the "
+                    "resurrected dead. This is the most detailed pre-Christian "
+                    "description of a general resurrection followed by messianic "
+                    "judgment.",
+
+        "key_verse": {
+            "ref": "1 Enoch 51:1-2",
+            "text": "And in those days shall the earth also give back that which "
+                    "has been entrusted to it, and Sheol also shall give back that "
+                    "which it has received, and hell shall give back that which it "
+                    "owes.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "Bodily resurrection first appears clearly in Daniel 12:2 and "
+                        "Isaiah 26:19. Zoroastrian eschatology included a general "
+                        "resurrection (Frashokereti). The Parables' form — the Elect "
+                        "One choosing the righteous — is distinctly Jewish.",
+
+        "second_temple": [
+            {
+                "source": "4 Ezra 7:28-44",
+                "summary": "After the messianic age, the earth gives up the dead, "
+                           "the Most High appears on the judgment seat.",
+                "relevance": "An independent parallel to 1 Enoch 51, showing broad "
+                             "Jewish consensus on eschatological resurrection.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "Revelation 20:13", "note": "'The sea gave up the dead, Death and Hades gave up the dead' — directly paralleling 1 Enoch 51:1", "type": "nt"},
+            {"ref": "Daniel 12:2", "note": "'Many who sleep in the dust shall awake' — the canonical seed text", "type": "ot"},
+            {"ref": "John 5:28-29", "note": "'All who are in the tombs will hear his voice and come out' — echoes 1 Enoch 51", "type": "nt"},
+            {"ref": "Matthew 25:32", "note": "The Son of Man separates sheep from goats — the same function as the Elect One's choosing", "type": "nt"}
+        ],
+
+        "divine_council_note": "The language of 'entrusting' the dead to Sheol treats "
+                               "death as a temporary custodial arrangement. The Elect "
+                               "One exercises the council's judicial function — sorting "
+                               "all the dead at the resurrection.",
+
+        "sections": [
+            {
+                "heading": "The Threefold Giving Back (51:1)",
+                "body": "Earth, Sheol, and hell each 'give back' their dead. The "
+                        "threefold formula emphasizes totality. The language of "
+                        "'entrusting' and 'giving back' treats death as temporary "
+                        "custody, not a final state. This directly parallels "
+                        "Revelation 20:13."
+            },
+            {
+                "heading": "The Elect One's Sorting (51:2-5)",
+                "body": "The Elect One 'shall choose the righteous and holy from "
+                        "among them.' He who was chosen now chooses. The result: "
+                        "'the righteous shall dwell upon the earth, and the elect "
+                        "shall walk thereon' (51:5) — inheritance of a transformed "
+                        "earth, not escape from it."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-52",
+        "ref": "1 Enoch 52",
+        "chapter_num": 52,
+        "title": "The Mountains of Metal — The Dissolution of Earthly Power",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Enoch sees six mountains of different metals (iron, copper, "
+                    "silver, gold, tin, lead) that will melt before the Elect One "
+                    "'like wax before fire.' The chapter contains the Parables' "
+                    "only use of 'Anointed' (mashiach) for the Son of Man figure.",
+
+        "key_verse": {
+            "ref": "1 Enoch 52:4",
+            "text": "All these things which thou hast seen shall serve the "
+                    "dominion of His Anointed that he may be potent and mighty "
+                    "on the earth.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The metal vision echoes Daniel 2:31-45 (the statue of gold, "
+                        "silver, bronze, iron). The Parables extend Daniel 2: not "
+                        "just empires but the metals themselves will dissolve.",
+
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Daniel 2:31-45", "note": "The statue of metals representing world empires shattered by God's kingdom — the canonical source", "type": "ot"},
+            {"ref": "Psalm 2:2, 6-9", "note": "The LORD and His Anointed — 1 Enoch 52:4 echoes Psalm 2's enthronement", "type": "ot"},
+            {"ref": "Micah 1:4", "note": "'Mountains will melt like wax before the fire' — the theophanic imagery the Parables apply", "type": "ot"},
+            {"ref": "2 Peter 3:10-12", "note": "'The elements will be dissolved with fire' — NT cosmic dissolution paralleling 1 Enoch 52", "type": "nt"}
+        ],
+
+        "divine_council_note": "The title 'His Anointed' (mashiach) in 52:4 explicitly "
+                               "merges the Danielic Son of Man with the Davidic Messiah "
+                               "of Psalm 2 — fusing three traditions into one figure.",
+
+        "sections": [
+            {
+                "heading": "The Metal Mountains and Mashiach (52:1-9)",
+                "body": "The six mountains represent the material basis of earthly "
+                        "power. Each will melt 'like wax before the fire' (cf. Psalm "
+                        "97:5, Micah 1:4) when the Elect One appears. 'All these "
+                        "things shall serve the dominion of His Anointed' (52:4) — "
+                        "the only Parables verse using mashiach. This demonstrates "
+                        "the author identifies Son of Man / Elect One with the "
+                        "Davidic Messiah. The threefold christological merger "
+                        "(Danielic Son of Man, Isaianic Servant, anointed king) is "
+                        "what early Christianity would claim about Jesus."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-53",
+        "ref": "1 Enoch 53",
+        "chapter_num": 53,
+        "title": "The Valley of Judgment and Chains for Azazel",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Enoch sees a deep valley and iron chains being prepared for the "
+                    "hosts of Azazel. Angels of punishment carry scourges and chains "
+                    "of iron and bronze. The chapter reconnects the Parables to the "
+                    "Watcher tradition of chapters 6-16.",
+
+        "key_verse": {
+            "ref": "1 Enoch 53:3-5",
+            "text": "And I saw there the hosts of the angels of punishment going, "
+                    "and they held scourges and chains of iron and bronze.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Jude 6", "note": "'Angels kept in eternal chains under gloomy darkness' — the same chains prepared for Azazel's hosts", "type": "nt"},
+            {"ref": "2 Peter 2:4", "note": "'God cast them into Tartarus and committed them to chains' — Enochic Watcher judgment language", "type": "nt"},
+            {"ref": "Revelation 20:1-3", "note": "An angel with a chain binds the dragon and casts him into the abyss — the Apocalypse's Azazel binding", "type": "nt"},
+            {"ref": "1 Enoch 10:4-6", "note": "Raphael binds Azazel — the Book of the Watchers' judgment that chapter 53 consummates", "type": "ot"}
+        ],
+
+        "divine_council_note": "The 'angels of punishment' are the council's enforcement "
+                               "arm, distinct from the worshipping archangels of chapter "
+                               "40. The chains connect to the Watcher judgment of 10:4-6.",
+
+        "sections": [
+            {
+                "heading": "The Valley and Chains (53:1-5)",
+                "body": "The deep valley is the abyss of final judgment. The chains "
+                        "'without weight' (innumerable) are prepared for Azazel's "
+                        "hosts. The language connects to Jude 6, 2 Peter 2:4, and "
+                        "Revelation 20:1-2. The Parables bridge the Watcher judgment "
+                        "of the Book of the Watchers to the cosmic warfare of the "
+                        "NT Apocalypse."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-54",
+        "ref": "1 Enoch 54",
+        "chapter_num": 54,
+        "title": "The Final Watcher Judgment — Fire for the Host of Azazel",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The chains are for 'the hosts of Azazel, so that they may be "
+                    "cast into the abyss of complete condemnation.' On the great day "
+                    "of judgment they will be cast into fire. The four archangels "
+                    "execute the sentence.",
+
+        "key_verse": {
+            "ref": "1 Enoch 54:4-6",
+            "text": "These are being prepared for the hosts of Azazel, so that "
+                    "they may take them and cast them into the abyss of complete "
+                    "condemnation, and they shall cover their jaws with rough "
+                    "stones... on the great day of judgement they shall be cast "
+                    "into the fire.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Revelation 20:10", "note": "'The devil was thrown into the lake of fire' — the final punishment corresponding to 1 Enoch 54", "type": "nt"},
+            {"ref": "Matthew 25:41", "note": "'The eternal fire prepared for the devil and his angels' — fire 'prepared' for spiritual rebels, as in 1 Enoch 54", "type": "nt"},
+            {"ref": "1 Enoch 10:4-6", "note": "The original Azazel judgment — binding, darkness, fire — which chapter 54 brings to completion", "type": "ot"}
+        ],
+
+        "divine_council_note": "The four archangels (Michael, Gabriel, Raphael, Phanuel) "
+                               "execute the final sentence on Azazel — the council acting "
+                               "in enforcement capacity. The same archangels who worship "
+                               "also punish.",
+
+        "sections": [
+            {
+                "heading": "The Fiery Consummation (54:1-6)",
+                "body": "Azazel's hosts are cast into 'the abyss of complete "
+                        "condemnation' and 'covered with rough stones' — echoing "
+                        "1 Enoch 10:4-5. The fire on the 'great day of judgement' "
+                        "anticipates Matthew 25:41 and Revelation 20:10. Jesus' "
+                        "statement that eternal fire was 'prepared' for the devil "
+                        "echoes the Parables' language of advance preparation."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-55",
+        "ref": "1 Enoch 55",
+        "chapter_num": 55,
+        "title": "The Noahic Fragment — God's Oath After the Flood",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The Head of Days repents of the flood's destruction and swears "
+                    "not to repeat it. The angels of punishment are restrained. The "
+                    "Noahic flood serves as a type of the eschatological judgment.",
+
+        "key_verse": {
+            "ref": "1 Enoch 55:1-2",
+            "text": "And after that the Head of Days repented and said: 'In vain "
+                    "have I destroyed all who dwell on the earth.' And He swore "
+                    "by His great name.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Genesis 8:21-22", "note": "'I will never again curse the ground because of man' — the post-flood oath", "type": "ot"},
+            {"ref": "Matthew 24:37-39", "note": "'As were the days of Noah, so will be the coming of the Son of Man' — the Noahic type for eschatological judgment", "type": "nt"},
+            {"ref": "2 Peter 3:5-7", "note": "The world destroyed by water is now reserved for fire — the flood/fire typology", "type": "nt"}
+        ],
+
+        "divine_council_note": "The 'repentance' of the Head of Days — God expressing "
+                               "regret (cf. Genesis 6:6) — shows the council under "
+                               "divine self-limitation. Judgment is real but restrained.",
+
+        "sections": [
+            {
+                "heading": "The Noahic Oath (55:1-4)",
+                "body": "This Noahic interpolation treats the flood as the paradigmatic "
+                        "judgment. What God did to the antediluvian world, he will do "
+                        "again at the eschaton — but differently (fire, not water). "
+                        "The restraint of punishment angels parallels Revelation 7:1-3."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-56",
+        "ref": "1 Enoch 56",
+        "chapter_num": 56,
+        "title": "The Armies from the East — Parthian Invasion Imagery",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Angels stir up the Parthians and Medes to invade 'the land of "
+                    "the elect.' The invaders are swallowed up. This chapter is the "
+                    "key dating criterion for the Parables, as the Parthian imagery "
+                    "most likely refers to the invasion of 40 BC.",
+
+        "key_verse": {
+            "ref": "1 Enoch 56:5-7",
+            "text": "And in those days the angels shall return and hurl themselves "
+                    "to the east upon the Parthians and Medes; they shall stir up "
+                    "the kings, so that a spirit of unrest shall come upon them.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The 'armies from the east' draws on Israelite experience "
+                        "with Mesopotamian invasion. The Parthian invasion of 40 BC "
+                        "under Pacorus I — capturing Jerusalem and installing "
+                        "Antigonus as puppet king — is the most likely reference.",
+
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Isaiah 13:17-19", "note": "'I am stirring up the Medes against them' — God using eastern armies as instruments of judgment", "type": "ot"},
+            {"ref": "Revelation 9:13-16", "note": "Angels at the Euphrates released — the Apocalypse's eastern invasion motif", "type": "nt"},
+            {"ref": "Revelation 16:12", "note": "'The kings from the east' — Revelation drawing on the Enochic tradition", "type": "nt"},
+            {"ref": "Ezekiel 38-39", "note": "Gog and Magog invasion — OT apocalyptic invasion background", "type": "ot"}
+        ],
+
+        "divine_council_note": "The angels 'stir up' the kings — the invasion is "
+                               "divinely orchestrated. The council uses human armies "
+                               "as instruments of judgment (cf. Isaiah 10:5-6).",
+
+        "sections": [
+            {
+                "heading": "The Parthian Reference (56:5-7)",
+                "body": "The mention of 'Parthians and Medes' is the most important "
+                        "datum for dating the Parables. The Parthian invasion of "
+                        "40 BC best explains this imagery. The invaders being "
+                        "'swallowed up' may reflect Herod's Roman-backed reconquest "
+                        "of 37 BC. Scholars dating the Parables to ca. 40-30 BC "
+                        "rely heavily on this passage."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-57",
+        "ref": "1 Enoch 57",
+        "chapter_num": 57,
+        "title": "The Return of the Diaspora — The Second Parable's Conclusion",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Angels with measuring cords prepare the land for the return of "
+                    "the dispersed righteous. The second Parable concludes with a "
+                    "vision of eschatological regathering from the four winds.",
+
+        "key_verse": {
+            "ref": "1 Enoch 57:1-2",
+            "text": "And I saw in those days how long cords were given to those "
+                    "angels, and they took to themselves wings and flew, and they "
+                    "went towards the north.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Isaiah 11:11-12", "note": "'He will gather the dispersed of Judah from the four corners of the earth'", "type": "ot"},
+            {"ref": "Matthew 24:31", "note": "'He will gather his elect from the four winds' — the Son of Man's eschatological gathering", "type": "nt"},
+            {"ref": "Zechariah 2:1-5", "note": "A man with a measuring line measures Jerusalem — the same motif", "type": "ot"}
+        ],
+
+        "divine_council_note": "The measuring-angels prepare the eschatological "
+                               "geography for the returning diaspora — the council's "
+                               "restoration function.",
+
+        "sections": [
+            {
+                "heading": "Angels with Measuring Cords (57:1-3)",
+                "body": "The measuring-angel motif (Zechariah 2:1-5, Revelation "
+                        "21:15-17) represents divine preparation: God marks the "
+                        "boundaries of the restored land. The flight 'towards the "
+                        "north' may connect to the Mesopotamian direction of exile."
+            }
+        ]
+    },
+
+    # =========================================================================
+    # THIRD PARABLE (1 Enoch 58-69)
+    # =========================================================================
+    {
+        "id": "1en-58",
+        "ref": "1 Enoch 58",
+        "chapter_num": 58,
+        "title": "The Third Parable — The Light of the Righteous",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The third Parable opens with a vision of blessedness. The "
+                    "righteous will be 'in the light of the sun, and the elect in "
+                    "the light of eternal life.' Their days shall be without number "
+                    "and the days of the holy without limit. They shall seek the "
+                    "light and find righteousness with the Lord of Spirits. Peace "
+                    "shall be to the righteous in the name of the Eternal Lord.",
+
+        "key_verse": {
+            "ref": "1 Enoch 58:3",
+            "text": "The righteous shall be in the light of the sun, and the "
+                    "elect in the light of eternal life, the days of their life "
+                    "shall be unending, and the days of the holy without number.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Revelation 21:23-25", "note": "'The city has no need of sun or moon to shine on it, for the glory of God gives it light' — eternal light replacing created luminaries", "type": "nt"},
+            {"ref": "Revelation 22:5", "note": "'They will need no light of lamp or sun, for the Lord God will be their light' — the same Enochic motif", "type": "nt"},
+            {"ref": "Isaiah 60:19-20", "note": "'The LORD will be your everlasting light' — the OT source for eternal divine light replacing sun and moon", "type": "ot"},
+            {"ref": "John 8:12", "note": "'I am the light of the world' — Jesus as the embodiment of the Parables' 'light of eternal life'", "type": "nt"}
+        ],
+
+        "divine_council_note": "The third Parable opens with the reward of the righteous "
+                               "rather than the judgment of the wicked. The 'light of "
+                               "eternal life' is council light — the radiance of the "
+                               "divine presence that fills the heavenly throne room.",
+
+        "sections": [
+            {
+                "heading": "Blessedness of the Righteous (58:1-6)",
+                "body": "The opening of the third Parable shifts to positive vision: "
+                        "the eternal blessedness of the righteous. The 'light of the "
+                        "sun' and 'light of eternal life' represent two grades of "
+                        "glory — natural and supernatural. The righteous transcend "
+                        "created light into the uncreated light of God's own "
+                        "presence. This tradition develops through John 1:4 ('in "
+                        "him was life, and the life was the light of all people') "
+                        "and Revelation 21:23 ('the glory of God is its light')."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-59",
+        "ref": "1 Enoch 59",
+        "chapter_num": 59,
+        "title": "Lightning and the Secrets of the Luminaries",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "A brief cosmological interlude describing lightning, the "
+                    "luminaries, and the secrets of thunder. The chapter continues "
+                    "the pattern of interspersing astronomical revelation with "
+                    "eschatological vision.",
+
+        "key_verse": {
+            "ref": "1 Enoch 59:1-2",
+            "text": "And in those days mine eyes saw the secrets of the lightnings "
+                    "and of the lights, and the judgement they execute.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Job 38:35", "note": "'Can you send forth lightnings, that they may go and say to you, Here we are?' — divine control over lightning as in 1 Enoch 59", "type": "ot"},
+            {"ref": "Psalm 97:4", "note": "'His lightnings light up the world' — theophanic lightning", "type": "ot"}
+        ],
+
+        "divine_council_note": "The 'judgment' that lightnings execute refers to their "
+                               "theophanic function: lightning accompanies divine "
+                               "judgment. The secrets of the luminaries are council "
+                               "knowledge that Enoch receives as a privileged insider.",
+
+        "sections": [
+            {
+                "heading": "Lightning and Lights (59:1-3)",
+                "body": "This brief chapter links natural phenomena (lightning, thunder) "
+                        "to divine judgment. The 'judgment they execute' treats "
+                        "meteorological events as agents of God's will, consistent "
+                        "with the Enochic view that all natural phenomena serve the "
+                        "divine purpose."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-60",
+        "ref": "1 Enoch 60",
+        "chapter_num": 60,
+        "title": "The Noahic Fragment — Leviathan and Behemoth",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "A major Noahic interpolation. Enoch (speaking as Noah in this "
+                    "passage) sees the Head of Days seated on his throne and trembles. "
+                    "Michael explains the secrets of creation. The chapter describes "
+                    "Leviathan (the female monster of the sea) and Behemoth (the "
+                    "male monster of the dry land) separated on the fifth day of "
+                    "creation — one to the sea, one to the desert of Dundain. "
+                    "Cosmological secrets about thunder, winds, and the deep "
+                    "are revealed.",
+
+        "key_verse": {
+            "ref": "1 Enoch 60:7-8",
+            "text": "And on that day were two monsters parted, a female monster "
+                    "named Leviathan, to dwell in the abysses of the ocean over "
+                    "the fountains of the waters. But the male is named Behemoth, "
+                    "who occupied with his breast a waste wilderness named "
+                    "Duidain.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "Leviathan and Behemoth draw on deep ANE mythology. The "
+                        "Ugaritic Lotan (= Leviathan) is the seven-headed sea "
+                        "serpent defeated by Baal. Behemoth appears as a primordial "
+                        "land creature in Job 40:15-24. The separation of the two "
+                        "cosmic monsters — one to sea, one to land — reflects the "
+                        "ANE cosmogonic tradition of taming chaos at creation.",
+
+        "second_temple": [
+            {
+                "source": "4 Ezra 6:49-52",
+                "summary": "On the fifth day, God separated Behemoth and Leviathan "
+                           "because the waters could not hold both together.",
+                "relevance": "An independent attestation of the same tradition, "
+                             "confirming it was widespread in Second Temple Judaism.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "Job 40:15-24", "note": "The description of Behemoth — the canonical source for the Parables' land monster", "type": "ot"},
+            {"ref": "Job 41:1-34", "note": "The description of Leviathan — the canonical source for the sea monster", "type": "ot"},
+            {"ref": "Isaiah 27:1", "note": "'In that day the LORD will punish Leviathan' — the eschatological destruction of the chaos monster", "type": "ot"},
+            {"ref": "Revelation 13:1, 11", "note": "A beast from the sea and a beast from the earth — the Apocalypse's two monsters reflecting the Leviathan/Behemoth pair", "type": "nt"},
+            {"ref": "Psalm 74:13-14", "note": "'You broke the heads of Leviathan' — the creation-battle tradition", "type": "ot"}
+        ],
+
+        "divine_council_note": "The separation of Leviathan and Behemoth is a council "
+                               "act — God assigns each monster to its domain, imposing "
+                               "order on primordial chaos. The throne-vision framework "
+                               "(the Head of Days seated) places these cosmological "
+                               "secrets within the context of divine governance.",
+
+        "sections": [
+            {
+                "heading": "The Noahic Voice (60:1-6)",
+                "body": "This chapter shifts to Noah as the speaker (or Enoch "
+                        "speaking as Noah — the textual tradition is confused). "
+                        "The shift is part of a broader pattern of Noahic "
+                        "interpolations in 1 Enoch (cf. chapters 65-68). The "
+                        "Head of Days on the throne causes trembling — the "
+                        "theophanic fear response present throughout the Enochic "
+                        "tradition."
+            },
+            {
+                "heading": "Leviathan and Behemoth Separated (60:7-10)",
+                "body": "The female sea monster Leviathan and the male land monster "
+                        "Behemoth are separated at creation because no single realm "
+                        "could contain both. Leviathan occupies 'the abysses of "
+                        "the ocean' while Behemoth is in 'the waste wilderness named "
+                        "Duidain' (location uncertain). 4 Ezra 6:49-52 preserves "
+                        "the same tradition. The two monsters in Revelation 13 "
+                        "(beast from the sea, beast from the earth) likely draw on "
+                        "this tradition."
+            },
+            {
+                "heading": "Cosmological Secrets (60:11-25)",
+                "body": "The chapter concludes with a catalogue of meteorological "
+                        "and cosmological secrets: the spirits of thunder, the "
+                        "treasury of hail, the spirit of mist, the spirit of dew, "
+                        "the secrets of the deep. This is wisdom literature in "
+                        "apocalyptic dress — the same knowledge celebrated in Job "
+                        "38-41 and Proverbs 8 is here presented as revealed "
+                        "through Enochic vision."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-61",
+        "ref": "1 Enoch 61",
+        "chapter_num": 61,
+        "title": "The Measuring of the Righteous — Preparation for Judgment",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Angels go forth to 'measure' — surveying the faithful and "
+                    "their deeds before the great judgment. The righteous and "
+                    "elect shall be preserved, and all the angels 'shall bless "
+                    "and glorify and extol' the name of the Lord of Spirits. "
+                    "This chapter is the prelude to the great enthronement scene "
+                    "of chapter 62.",
+
+        "key_verse": {
+            "ref": "1 Enoch 61:5",
+            "text": "And one head shall not be higher than another, and kings "
+                    "shall not deny the Lord of Spirits; they shall bless and "
+                    "glorify and extol the name of the Lord of Spirits.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Zechariah 2:1-5", "note": "A man with a measuring line measures Jerusalem — the OT prototype for angelic measuring", "type": "ot"},
+            {"ref": "Revelation 11:1", "note": "'Rise and measure the temple of God' — the measuring-for-protection motif", "type": "nt"},
+            {"ref": "Revelation 21:15-17", "note": "An angel measures the New Jerusalem — the eschatological measuring tradition", "type": "nt"}
+        ],
+
+        "divine_council_note": "The measuring angels take a census of the faithful — "
+                               "a preparation for the separation that follows in ch. 62. "
+                               "God has taken precise account of every righteous act.",
+
+        "sections": [
+            {
+                "heading": "The Angelic Census (61:1-5)",
+                "body": "The 'measuring' is a census of the faithful — preparation "
+                        "for the eschatological sorting. The image recalls Ezekiel "
+                        "40-42 (measuring the eschatological temple) and Revelation "
+                        "11:1. Nothing is lost or overlooked in God's accounting."
+            },
+            {
+                "heading": "Universal Praise (61:6-13)",
+                "body": "All the angels 'bless and glorify and extol' the Lord of "
+                        "Spirits in a liturgical crescendo. The language anticipates "
+                        "the heavenly worship of Revelation 5:11-14, where 'every "
+                        "creature in heaven and on earth' praises the Lamb."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-62",
+        "ref": "1 Enoch 62",
+        "chapter_num": 62,
+        "title": "The Son of Man on the Throne of Glory — The Great Assize",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The climactic enthronement: the Son of Man sits on the 'throne "
+                    "of his glory' and the spirit of righteousness is poured out "
+                    "upon him. The kings and mighty see him enthroned and are seized "
+                    "with pain. They fall on their faces and beg for mercy, but it "
+                    "is too late. The righteous are clothed in 'garments of glory' "
+                    "and shall eat, lie down, and rise with the Son of Man forever. "
+                    "This is the Parables' most fully realized judgment scene and "
+                    "the closest pre-Christian parallel to Matthew 25:31-46.",
+
+        "key_verse": {
+            "ref": "1 Enoch 62:5",
+            "text": "And pain shall seize them when they see that Son of Man "
+                    "sitting on the throne of his glory.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "Royal judgment scenes — a divine or divinely appointed figure "
+                        "on a throne rendering verdicts — are among the oldest ANE "
+                        "literary motifs. Egyptian Osiris presides over the Hall of "
+                        "Maat. The Parables' innovation is placing a second figure "
+                        "(not the Most High) on the judgment throne.",
+
+        "second_temple": [
+            {
+                "source": "Psalms of Solomon 17:21-46",
+                "summary": "The Lord's anointed purges Jerusalem, judges nations, and "
+                           "establishes a righteous kingdom.",
+                "relevance": "A contemporary messianic expectation focused on a Davidic "
+                             "warrior-king. The Parables combine this with the Danielic "
+                             "Son of Man.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "Matthew 25:31-46", "note": "'When the Son of Man comes in his glory and sits on his glorious throne' — the most direct NT parallel, shared vocabulary (throne of glory, separation, punishment)", "type": "nt"},
+            {"ref": "Daniel 7:13-14", "note": "One like a son of man given dominion — the source the Parables develop into a full enthronement narrative", "type": "ot"},
+            {"ref": "Psalm 110:1-2", "note": "'Sit at my right hand until I make your enemies your footstool' — the enthronement psalm", "type": "ot"},
+            {"ref": "Philippians 2:10-11", "note": "'Every knee should bow' — the universal acknowledgment that 1 Enoch 62 describes when kings prostrate themselves", "type": "nt"},
+            {"ref": "Revelation 19:11-16", "note": "The rider who judges and makes war in righteousness — the Apocalypse's enthroned Judge", "type": "nt"},
+            {"ref": "Acts 7:55-56", "note": "Stephen sees the Son of Man standing at the right hand of God — the enthroned figure visible to a dying witness", "type": "nt"}
+        ],
+
+        "divine_council_note": "1 Enoch 62 represents the fullest realization of "
+                               "delegated judgment in the divine council. The Lord of "
+                               "Spirits places the Elect One on the throne, and the "
+                               "Elect One exercises the judicial function that in the "
+                               "OT belongs to YHWH alone (Psalm 96:13). The same logic "
+                               "underlies John 5:22 ('The Father has given all judgment "
+                               "to the Son') and Acts 17:31.",
+
+        "sections": [
+            {
+                "heading": "The Enthronement (62:1-4)",
+                "body": "The Lord of Spirits commands the Elect One to sit on the "
+                        "throne of glory. 'The spirit of righteousness was poured "
+                        "out upon him, and the word of his mouth slays all sinners' "
+                        "(62:2) — echoing Isaiah 11:4 and anticipating Revelation "
+                        "19:15. The judgment word is a performative utterance that "
+                        "accomplishes what it declares."
+            },
+            {
+                "heading": "The Agony of the Kings (62:5-12)",
+                "body": "When kings see the Son of Man enthroned, 'pain shall seize "
+                        "them' (62:5). They prostrate themselves and 'beg and "
+                        "petition for mercy' (62:9). But mercy is unavailable: "
+                        "recognition comes too late. This directly anticipates "
+                        "Jesus' warning in Matthew 7:22-23: 'Lord, Lord!' — 'I "
+                        "never knew you.' The kings' confession: 'We have not "
+                        "believed before Him nor glorified the name of the Lord "
+                        "of Spirits, but our hope was in the sceptre of our "
+                        "kingdom, and in our glory' (63:7)."
+            },
+            {
+                "heading": "The Joy of the Righteous (62:13-16)",
+                "body": "The righteous 'shall never thenceforward see the face of "
+                        "the sinners' (62:13). They eat, lie down, and rise with "
+                        "the Son of Man forever. They are clothed in 'garments of "
+                        "glory' — the 'white robes' of Revelation 6:11 and 7:9. "
+                        "The contrast is total: the mighty who trusted in power "
+                        "are destroyed; the righteous are glorified. This great "
+                        "reversal is the Parables' central ethical message."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-63",
+        "ref": "1 Enoch 63",
+        "chapter_num": 63,
+        "title": "The Confession of the Kings — Too Late for Mercy",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The kings and mighty ones make their confession before the Son "
+                    "of Man. They acknowledge their sins: they glorified themselves, "
+                    "denied the Lord of Spirits, and trusted in their own scepter "
+                    "and glory. They beg for a brief respite to offer worship. "
+                    "But they are delivered to the angels of punishment. The "
+                    "confession comes too late.",
+
+        "key_verse": {
+            "ref": "1 Enoch 63:7",
+            "text": "We have not believed before Him nor glorified the name of "
+                    "the Lord of Spirits, nor glorified our Lord, but our hope "
+                    "was in the sceptre of our kingdom, and in our glory.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Philippians 2:10-11", "note": "Every knee bows and every tongue confesses — but in the Parables, as in Philippians, the confession of hostile powers is forced, not voluntary", "type": "nt"},
+            {"ref": "James 2:19", "note": "'Even the demons believe — and shudder' — belief under compulsion is not saving faith", "type": "nt"},
+            {"ref": "Revelation 6:15-17", "note": "Kings and the mighty hide in caves and cry to the mountains to fall on them — the same futile response as the Parables' kings", "type": "nt"},
+            {"ref": "Luke 13:25-28", "note": "'Lord, open to us' — 'I do not know where you come from. Depart from me' — the same pattern of belated recognition and denied entry", "type": "nt"}
+        ],
+
+        "divine_council_note": "The kings' confession is a courtroom admission of "
+                               "guilt, not a genuine repentance. The council accepts "
+                               "the confession as evidence but grants no clemency. "
+                               "The 'angels of punishment' execute the sentence.",
+
+        "sections": [
+            {
+                "heading": "The Confession (63:1-7)",
+                "body": "The kings and mighty confess three specific sins: (1) they "
+                        "'glorified ourselves' — self-exaltation in place of "
+                        "worshipping God; (2) they 'denied the Lord of Spirits' "
+                        "— the defining sin of the Parables; (3) they placed their "
+                        "'hope in the sceptre of our kingdom' — reliance on human "
+                        "power. This three-part confession perfectly inverts what "
+                        "the righteous do: the righteous glorify God, acknowledge "
+                        "the Lord of Spirits, and place hope in him."
+            },
+            {
+                "heading": "No Mercy — The Irrevocable Verdict (63:8-12)",
+                "body": "The kings beg for 'a little breathing-space' but are "
+                        "denied. The verdict is irrevocable. This theological "
+                        "position — that there comes a point beyond which "
+                        "repentance is no longer accepted — appears in Hebrews "
+                        "6:4-6 ('impossible to restore again to repentance') and "
+                        "the blasphemy against the Holy Spirit (Mark 3:29). The "
+                        "Parables present the eschatological judgment as final: "
+                        "once the Son of Man is enthroned and the verdict rendered, "
+                        "there is no appeal."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-64",
+        "ref": "1 Enoch 64",
+        "chapter_num": 64,
+        "title": "The Noahic Fragment — Angels of Destruction",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Another Noahic interpolation in which Enoch (as Noah) sees "
+                    "the angels of punishment going forth to unleash destruction. "
+                    "The violence of the Watchers' offspring fills the earth, and "
+                    "the coming flood is forewarned. The chapter links the Watcher "
+                    "narrative to the flood judgment.",
+
+        "key_verse": {
+            "ref": "1 Enoch 64:1-2",
+            "text": "And other forms I saw hidden in that place. I heard the "
+                    "voice of the angel saying: 'These are the angels who "
+                    "descended to the earth, and revealed what was hidden to "
+                    "the children of men and seduced the children of men.'",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "1 Enoch 6-11", "note": "The Watcher descent and its consequences — the narrative that chapters 64-68 reprise in Noahic voice", "type": "ot"},
+            {"ref": "Genesis 6:5-7", "note": "'The earth was corrupt in God's sight, and the earth was filled with violence' — the flood motivation", "type": "ot"},
+            {"ref": "2 Peter 2:4-5", "note": "God 'did not spare angels... did not spare the ancient world' — linking angel judgment and flood as the Parables do", "type": "nt"}
+        ],
+
+        "divine_council_note": "The Watchers 'revealed what was hidden' — they divulged "
+                               "council secrets to humanity. The forbidden knowledge "
+                               "theme (metalwork, sorcery, astrology) connects to the "
+                               "Azazel tradition in 1 Enoch 8.",
+
+        "sections": [
+            {
+                "heading": "The Watcher Recap (64:1-2)",
+                "body": "This brief Noahic fragment recapitulates the Watcher "
+                        "narrative in compressed form: the angels descended, revealed "
+                        "hidden knowledge, and seduced humanity. The 'hidden things' "
+                        "they revealed are the forbidden arts of 1 Enoch 8: "
+                        "metalworking, cosmetics, enchantments, astrology."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-65",
+        "ref": "1 Enoch 65",
+        "chapter_num": 65,
+        "title": "Noah's Vision — The Coming Flood",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Noah sees the earth tilting and destruction approaching. He goes "
+                    "to his grandfather Enoch at 'the ends of the earth' and cries "
+                    "out three times: 'Hear me, hear me, hear me.' Enoch explains "
+                    "that an irrevocable decree has gone forth from the Lord of "
+                    "Spirits against those who dwell on earth because they have "
+                    "learned the forbidden secrets of the angels — sorcery, spells, "
+                    "and the making of molten images.",
+
+        "key_verse": {
+            "ref": "1 Enoch 65:6-7",
+            "text": "And a command has gone forth from the presence of the Lord "
+                    "concerning those who dwell on the earth that their ruin is "
+                    "accomplished. And He has seen that the earth has taught them "
+                    "the work of Azazel — all the injustice on earth.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Genesis 6:11-13", "note": "'The earth was filled with violence... I am going to bring floodwaters on the earth' — the canonical flood announcement", "type": "ot"},
+            {"ref": "2 Peter 2:5", "note": "God 'did not spare the ancient world... when he brought a flood on the world of the ungodly'", "type": "nt"},
+            {"ref": "1 Enoch 8:1-3", "note": "Azazel's forbidden teachings — metalwork, cosmetics, enchantments — which chapter 65 cites as the reason for the flood", "type": "ot"}
+        ],
+
+        "divine_council_note": "The 'command from the presence of the Lord' is a council "
+                               "decree — an irrevocable judicial verdict. Noah appeals "
+                               "to Enoch (who has council access) for information. The "
+                               "council has rendered its judgment; the flood will come.",
+
+        "sections": [
+            {
+                "heading": "Noah's Appeal to Enoch (65:1-7)",
+                "body": "Noah sees the earth 'tilting' — a physical sign of cosmic "
+                        "destabilization. He travels to Enoch 'at the ends of the "
+                        "earth' (Enoch's post-translation heavenly location) and "
+                        "cries out in desperation. Enoch explains that the flood is "
+                        "God's response to the Azazel tradition: humanity has learned "
+                        "the forbidden arts and must face judgment. The 'work of "
+                        "Azazel' encompasses all the illicit knowledge revealed in "
+                        "1 Enoch 8."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-66",
+        "ref": "1 Enoch 66",
+        "chapter_num": 66,
+        "title": "Noah's Preservation — The Ark and the Angels",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "God has prepared for Noah a way of preservation. The angels are "
+                    "at work — some preparing the flood, others building the means "
+                    "of salvation. The hot-water springs that will power the flood "
+                    "are described. Noah will be preserved because the Lord of "
+                    "Spirits knows his purity.",
+
+        "key_verse": {
+            "ref": "1 Enoch 66:1-2",
+            "text": "And after that he showed me the angels of punishment who are "
+                    "prepared to come and let loose all the powers of the waters "
+                    "which are beneath in the earth in order to bring judgement "
+                    "and destruction on all who abide and dwell on the earth.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Genesis 7:11", "note": "'All the fountains of the great deep burst forth, and the windows of the heavens were opened' — the flood mechanism", "type": "ot"},
+            {"ref": "1 Peter 3:20", "note": "In the days of Noah 'a few, that is, eight persons, were brought safely through water' — Noah's preservation", "type": "nt"},
+            {"ref": "2 Peter 2:5", "note": "God 'preserved Noah, a herald of righteousness, with seven others'", "type": "nt"}
+        ],
+
+        "divine_council_note": "The angels of punishment and the angels of preservation "
+                               "work simultaneously — judgment and salvation proceed "
+                               "together, administered by different divisions of the "
+                               "heavenly court.",
+
+        "sections": [
+            {
+                "heading": "The Dual Angelic Mission (66:1-3)",
+                "body": "Some angels prepare destruction (the flood waters), while "
+                        "others ensure Noah's salvation. This dual operation reflects "
+                        "the divine council's comprehensive governance: judgment and "
+                        "mercy are not contradictory but coordinated activities. The "
+                        "same pattern appears in Revelation 7:1-3, where destroying "
+                        "angels are held back until the righteous are sealed."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-67",
+        "ref": "1 Enoch 67",
+        "chapter_num": 67,
+        "title": "The Punishment of the Fallen Angels — Waters of Judgment",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The fallen angels are imprisoned in a burning valley where hot "
+                    "springs of fire serve as instruments of punishment. The kings "
+                    "and mighty bathe in these hot springs hoping for healing, but "
+                    "the waters become instruments of judgment for the angels. The "
+                    "chapter presents an elaborate geography of punishment using "
+                    "volcanic and geothermal imagery.",
+
+        "key_verse": {
+            "ref": "1 Enoch 67:4-5",
+            "text": "And Michael and Gabriel and Raphael and Phanuel shall take "
+                    "hold of them on that great day, and cast them on that day "
+                    "into the burning furnace, that the Lord of Spirits may take "
+                    "vengeance on them for their unrighteousness.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Revelation 19:20", "note": "'The beast and the false prophet were thrown into the lake of fire' — the fiery furnace of final judgment", "type": "nt"},
+            {"ref": "Matthew 13:42, 50", "note": "'They will throw them into the furnace of fire' — Jesus' furnace-judgment language echoing the Enochic tradition", "type": "nt"},
+            {"ref": "Daniel 3:6", "note": "Nebuchadnezzar's fiery furnace — the furnace as instrument of judgment", "type": "ot"}
+        ],
+
+        "divine_council_note": "The four archangels again serve as executioners of the "
+                               "council's sentence. The 'burning furnace' is the "
+                               "council's instrument of punishment — the same furnace "
+                               "language Jesus uses in Matthew 13:42, 50.",
+
+        "sections": [
+            {
+                "heading": "The Valley of Fire (67:1-7)",
+                "body": "The punishment of fallen angels in a valley of fire draws "
+                        "on the Hinnom Valley (Ge-Hinnom / Gehenna) tradition — the "
+                        "valley south of Jerusalem associated with child sacrifice "
+                        "(Jeremiah 7:31) and eschatological judgment (Isaiah 66:24). "
+                        "The hot springs imagery may reflect knowledge of actual "
+                        "geothermal activity in the Jordan Rift Valley."
+            },
+            {
+                "heading": "The Kings Who Bathe (67:8-13)",
+                "body": "The kings and mighty bathe in the hot springs hoping for "
+                        "physical healing, not realizing these waters are instruments "
+                        "of judgment for the fallen angels. The irony is that the "
+                        "kings seek bodily comfort in the very element of divine "
+                        "punishment — a metaphor for their spiritual blindness."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-68",
+        "ref": "1 Enoch 68",
+        "chapter_num": 68,
+        "title": "The Names of the Fallen Angels and Their Teachings",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Michael tells Raphael about the severity of the judgment and "
+                    "the names of the leading fallen angels: their chief is "
+                    "Shemihazah (also called Satanail in some manuscripts). The "
+                    "chapter lists the specific forbidden teachings each angel "
+                    "brought to humanity: root-cuttings, enchantments, astrology, "
+                    "the knowledge of the clouds. The passage reinforces the "
+                    "connection between forbidden knowledge and divine judgment.",
+
+        "key_verse": {
+            "ref": "1 Enoch 68:1-2",
+            "text": "And after that judgment they shall frighten and make them to "
+                    "tremble because they have shown this to those who dwell on "
+                    "the earth. And behold the names of those angels: the first "
+                    "of them is Semjaza.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "1 Enoch 6:3-8", "note": "The original list of Watcher names in the Book of the Watchers — which chapter 68 expands", "type": "ot"},
+            {"ref": "1 Enoch 8:1-3", "note": "The forbidden teachings of the Watchers — metalwork, cosmetics, sorcery, astrology — recapitulated here", "type": "ot"},
+            {"ref": "Genesis 6:4", "note": "The Nephilim — the offspring of the union that the Watcher names represent", "type": "ot"}
+        ],
+
+        "divine_council_note": "The inter-angelic dialogue (Michael to Raphael) reveals "
+                               "the council's internal deliberation about the severity "
+                               "of judgment. Even the archangels are awed by the "
+                               "magnitude of the sentence against their former colleagues.",
+
+        "sections": [
+            {
+                "heading": "The Angel Names and Teachings (68:1-5)",
+                "body": "The list of fallen angel names and their associated "
+                        "teachings connects the Parables to the Book of the Watchers' "
+                        "tradition (1 Enoch 6-8). Shemihazah leads the oath; other "
+                        "angels bring specific forbidden arts to humanity. The "
+                        "'Satanail' variant for Shemihazah in some manuscripts "
+                        "shows the developing identification of the Watcher chief "
+                        "with Satan — a trajectory that would be completed in "
+                        "Christian demonology."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-69",
+        "ref": "1 Enoch 69",
+        "chapter_num": 69,
+        "title": "The Name and the Oath — The Creative Power of the Divine Word",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Chapter 69 contains a remarkable passage about the creative "
+                    "power of the divine name. By a great oath (shevuah), the "
+                    "heavens were suspended, the earth founded, the luminaries "
+                    "set in their courses, and the sea contained. This oath-name "
+                    "is the creative word by which reality was spoken into being. "
+                    "The Son of Man then sits on the throne of glory, and judgment "
+                    "is given to him. Sinners pass away; those who led the world "
+                    "astray are imprisoned.",
+
+        "key_verse": {
+            "ref": "1 Enoch 69:27-29",
+            "text": "And he sat on the throne of his glory, and the sum of "
+                    "judgement was given unto the Son of Man, and he caused the "
+                    "sinners to pass away and be destroyed from off the face of "
+                    "the earth, and those who have led the world astray. With "
+                    "chains shall they be bound, and in their assemblage-place "
+                    "of destruction shall they be imprisoned.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The creative power of the divine name/word resonates with "
+                        "Egyptian theology (Ptah creates through speech — the "
+                        "Memphite Theology) and with Mesopotamian traditions where "
+                        "divine utterance establishes cosmic order. The Hebrew "
+                        "tradition of creation by speech (Genesis 1: 'Let there "
+                        "be...') is the immediate background. The 'oath' by which "
+                        "creation is sustained is a unique Enochic concept that "
+                        "the cosmos is maintained by a covenantal word.",
+
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "John 1:1-3", "note": "'In the beginning was the Word... all things were made through him' — the Logos as creative agent parallels the Parables' oath-name", "type": "nt"},
+            {"ref": "Hebrews 1:3", "note": "Christ 'upholds the universe by the word of his power' — the sustaining divine word that parallels the oath holding creation together", "type": "nt"},
+            {"ref": "Colossians 1:17", "note": "'In him all things hold together' — the cosmic-sustaining function of the divine word/name", "type": "nt"},
+            {"ref": "Genesis 1:3-26", "note": "Creation by divine speech: 'Let there be...' — the background for the oath-name's creative power", "type": "ot"},
+            {"ref": "Psalm 33:6, 9", "note": "'By the word of the LORD the heavens were made... he spoke, and it came to be' — the creative word tradition", "type": "ot"}
+        ],
+
+        "divine_council_note": "The oath-name by which creation was established and is "
+                               "sustained is the ultimate council secret. The Son of "
+                               "Man's enthronement and judgment authority derive from "
+                               "the same creative word: the one who sustains the cosmos "
+                               "has the authority to judge it.",
+
+        "sections": [
+            {
+                "heading": "The Oath of Creation (69:13-25)",
+                "body": "By a 'great oath,' the heavens were 'suspended before the "
+                        "world was created,' the earth founded on water, the "
+                        "luminaries set in their courses, and the sea contained "
+                        "(69:16-25). This oath-name is the creative word itself — "
+                        "the power by which reality coheres. The concept parallels "
+                        "John 1:1-3 (the Logos through whom all things were made) "
+                        "and Hebrews 1:3 (the Son who 'upholds the universe by the "
+                        "word of his power'). The Parables present a cosmos held "
+                        "together by a divine covenantal word — a theological "
+                        "concept that influenced both Jewish mysticism (the "
+                        "creative power of divine names) and Christian Logos "
+                        "theology."
+            },
+            {
+                "heading": "The Son of Man Enthroned (69:26-29)",
+                "body": "The chapter's climax: the Son of Man sits on the throne of "
+                        "glory, and 'the sum of judgement was given unto' him "
+                        "(69:27). He causes sinners to 'pass away and be destroyed "
+                        "from off the face of the earth' and imprisons those who "
+                        "'led the world astray' (69:28). The connection between "
+                        "creation and judgment is deliberate: the same authority "
+                        "that established the world will dissolve the wicked. This "
+                        "is the theological link between the oath-name and the "
+                        "enthronement — both are expressions of the same divine power."
+            }
+        ]
+    },
+
+    # =========================================================================
+    # EPILOGUE (1 Enoch 70-71)
+    # =========================================================================
+    {
+        "id": "1en-70",
+        "ref": "1 Enoch 70",
+        "chapter_num": 70,
+        "title": "Enoch's Name Raised Aloft — The Translation Begins",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "Enoch's name is 'raised aloft to that Son of Man and to the "
+                    "Lord of Spirits from amongst those who dwell on the earth.' "
+                    "He is taken up in chariots of the spirit and his name 'vanishes "
+                    "among them.' This brief chapter narrates the beginning of "
+                    "Enoch's final translation — his departure from the earthly "
+                    "realm and ascent to the heavenly court.",
+
+        "key_verse": {
+            "ref": "1 Enoch 70:1-2",
+            "text": "And it came to pass after this that his name during his "
+                    "lifetime was raised aloft to that Son of Man and to the "
+                    "Lord of Spirits from amongst those who dwell on the earth. "
+                    "And he was raised aloft on the chariots of the spirit.",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Genesis 5:24", "note": "'Enoch walked with God, and he was not, for God took him' — the seed text for all Enochic translation traditions", "type": "ot"},
+            {"ref": "2 Kings 2:11", "note": "Elijah goes up by a whirlwind into heaven — the chariot-translation that parallels Enoch's", "type": "ot"},
+            {"ref": "Hebrews 11:5", "note": "'By faith Enoch was taken up so that he should not see death' — the NT acknowledgment of Enoch's translation", "type": "nt"},
+            {"ref": "Acts 1:9-11", "note": "Jesus 'was lifted up, and a cloud took him out of their sight' — the ascension pattern", "type": "nt"}
+        ],
+
+        "divine_council_note": "Enoch's name is raised 'to that Son of Man' — at this "
+                               "point, the narrative still distinguishes between Enoch "
+                               "and the Son of Man. The dramatic identification will "
+                               "come in chapter 71. Enoch ascends as a petitioner; "
+                               "he will arrive as the one to whom petitions are addressed.",
+
+        "sections": [
+            {
+                "heading": "The Translation (70:1-4)",
+                "body": "The phrase 'his name vanished among them' echoes Genesis "
+                        "5:24's 'he was not.' Enoch disappears from the earthly "
+                        "realm. The chariots of the spirit recall 2 Kings 2:11 "
+                        "(Elijah's chariot of fire) and Psalm 68:17 ('the chariots "
+                        "of God are twice ten thousand'). The ascent is both "
+                        "departure from earth and arrival at the divine court."
+            }
+        ]
+    },
+
+    {
+        "id": "1en-71",
+        "ref": "1 Enoch 71",
+        "chapter_num": 71,
+        "title": "You Are the Son of Man — Enoch's Identification and Exaltation",
+        "era": "parables",
+        "type": "chapter",
+
+        "synopsis": "The climactic conclusion of the Book of Parables. Enoch's "
+                    "spirit is translated into the heaven of heavens. He falls on "
+                    "his face before the Head of Days, whose head is 'white and "
+                    "pure as wool.' His whole body melts and his spirit is "
+                    "transfigured. The Head of Days comes to him and greets him "
+                    "with the words: 'Thou art the Son of Man who is born unto "
+                    "righteousness, and righteousness abides over thee.' This "
+                    "identification of Enoch as the Son of Man is the most "
+                    "debated verse in all of Second Temple literature.",
+
+        "key_verse": {
+            "ref": "1 Enoch 71:14",
+            "text": "And he came to me and greeted me with His voice, and said "
+                    "unto me: 'Thou art the Son of Man who is born unto "
+                    "righteousness, and righteousness abides over thee, and the "
+                    "righteousness of the Head of Days forsakes thee not.'",
+            "translation": "Charles"
+        },
+
+        "hebrew_terms": [],
+
+        "ane_backdrop": "The concept of a human elevated to divine status has deep "
+                        "ANE precedent. Utnapishtim receives immortality after the "
+                        "flood. Adapa is brought before the gods. Enmeduranki is "
+                        "taken into the divine assembly. Egyptian pharaohs become "
+                        "Osiris after death. The Greek apotheosis tradition describes "
+                        "humans becoming divine. 1 Enoch 71 is the Jewish version "
+                        "filtered through divine council theology.",
+
+        "second_temple": [
+            {
+                "source": "3 Enoch (Sefer Hekhalot)",
+                "summary": "Enoch is transformed into Metatron, 'the lesser YHWH,' "
+                           "given a throne and authority over all the angels.",
+                "relevance": "The full development of 1 Enoch 71's tradition: from "
+                             "Son of Man to Lesser YHWH. The trajectory from Gen 5:24 "
+                             "to 1 En 71 to 3 Enoch shows increasing divinization.",
+                "canon": False
+            },
+            {
+                "source": "2 Enoch 22:8-10 (Slavonic Enoch)",
+                "summary": "God instructs Michael to anoint Enoch and clothe him in "
+                           "'garments of My glory.' Enoch becomes 'like one of His "
+                           "glorious ones, and there was no difference.'",
+                "relevance": "Independent witness to Enoch's glorification tradition.",
+                "canon": False
+            }
+        ],
+
+        "cross_refs": [
+            {"ref": "Genesis 5:24", "note": "'Enoch walked with God, and he was not, for God took him' — the seed text from which 1 Enoch 71 ultimately grows", "type": "ot"},
+            {"ref": "Daniel 7:13-14", "note": "'One like a son of man' given dominion — the figure whom chapter 71 identifies as Enoch", "type": "ot"},
+            {"ref": "Matthew 17:2", "note": "Jesus' transfiguration — 'his face shone like the sun' — parallels Enoch's 'my spirit was transfigured' (71:11)", "type": "nt"},
+            {"ref": "Philippians 2:9-11", "note": "'God highly exalted him and gave him the name above every name' — the NT's version of human exaltation to divine status", "type": "nt"},
+            {"ref": "Philippians 3:20-21", "note": "Christ 'will transform our lowly body to be like his glorious body' — the pattern of transformation 1 Enoch 71 anticipates", "type": "nt"},
+            {"ref": "Revelation 3:21", "note": "'I will grant him to sit with me on my throne' — a human sharing the divine throne, as Enoch/Son of Man does", "type": "nt"},
+            {"ref": "Hebrews 1:3", "note": "'He sat down at the right hand of the Majesty on high' — the exalted human on the divine throne", "type": "nt"},
+            {"ref": "Acts 2:33", "note": "'Being therefore exalted at the right hand of God' — the human Jesus raised to the divine council position", "type": "nt"}
+        ],
+
+        "divine_council_note": "1 Enoch 71 is the most radical divine council text in "
+                               "all of Second Temple literature. A human being is not "
+                               "merely admitted to the council but identified AS the "
+                               "enthroned second figure. The Son of Man who sits on the "
+                               "throne of glory and judges all creation IS the translated "
+                               "patriarch of Genesis 5:24. The theological implications "
+                               "are staggering: the boundary between divine and human, "
+                               "which the Watchers transgressed downward, can also be "
+                               "crossed upward — by divine invitation. This provides the "
+                               "template for the NT's claim that Jesus, fully human, sits "
+                               "at the right hand of God (Acts 2:33, Heb 1:3).",
+
+        "sections": [
+            {
+                "heading": "The Throne Vision (71:1-10)",
+                "body": "Enoch's spirit is 'translated into the heaven of heavens' "
+                        "(71:1). He sees walls of crystal, tongues of fire, and the "
+                        "seraphim, cherubim, and ophanim — the full complement of "
+                        "throne-room beings from Isaiah 6, Ezekiel 1, and the "
+                        "Enochic tradition. He falls on his face before the Head of "
+                        "Days. 'My whole body melted, and my spirit was transfigured' "
+                        "(71:11) — the language of transformation in the divine "
+                        "presence parallels Moses' shining face (Exodus 34:29-35), "
+                        "Jesus' transfiguration (Matthew 17:2), and Paul's 'we are "
+                        "being transformed into the same image from one degree of "
+                        "glory to another' (2 Corinthians 3:18)."
+            },
+            {
+                "heading": "The Identification — 'Thou Art the Son of Man' (71:14-17)",
+                "body": "The Head of Days himself addresses Enoch: 'Thou art the Son "
+                        "of Man who is born unto righteousness' (71:14). This is one "
+                        "of the most debated verses in all of Second Temple literature. "
+                        "On the surface, it identifies Enoch — a human patriarch — as "
+                        "the pre-existent, enthroned Son of Man who has been the "
+                        "subject of the entire Book of Parables. Some scholars "
+                        "(Charles, Black) argue chapter 71 is a later addition that "
+                        "contradicts the earlier chapters where the Son of Man appears "
+                        "to be a distinct pre-existent being. Others (VanderKam, "
+                        "Nickelsburg) accept it as original and invoke the concept of "
+                        "a 'heavenly double' — a pre-existent celestial identity that "
+                        "Enoch 'becomes' at his translation. This concept appears in "
+                        "other Jewish texts (the angel Israel in the Prayer of Joseph, "
+                        "Abel as heavenly judge in the Testament of Abraham). If "
+                        "correct, Enoch's translation (Gen 5:24) is his reunion with "
+                        "his pre-existent heavenly self."
+            },
+            {
+                "heading": "Implications for Christology (71:14-17)",
+                "body": "Whatever the original authorial intent, the theological "
+                        "implication of 71:14 is clear: a human being can be exalted "
+                        "to the highest position in the divine hierarchy, sharing the "
+                        "throne with the Head of Days. This is the template for the "
+                        "early Christian claim that Jesus of Nazareth was exalted to "
+                        "God's right hand and given 'the name above every name' "
+                        "(Philippians 2:9-11). The Parables show that such a claim "
+                        "was intelligible — indeed, already being made — within "
+                        "pre-Christian Judaism. The pattern of thought (a human who "
+                        "'is' a pre-existent heavenly being) was available in Jewish "
+                        "theology before Christianity articulated it about Jesus. "
+                        "The later development in 3 Enoch, where Enoch becomes "
+                        "Metatron, the 'Lesser YHWH' seated on a throne in heaven, "
+                        "shows this trajectory carried forward. The rabbis would "
+                        "eventually reject this 'two thrones' theology as heretical "
+                        "(b. Hagigah 15a: 'Perhaps there are two powers in heaven?'), "
+                        "but the Parables demonstrate it was once a live option "
+                        "within mainstream Jewish angelology."
+            }
+        ]
+    },
+
+    # =========================================================================
+    # HISTORICAL INSERT: THE SON OF MAN TITLE
+    # =========================================================================
+    {
+        "id": "insert-son-of-man",
+        "ref": "Historical Context",
+        "chapter_num": None,
+        "title": "The 'Son of Man' Title — From Daniel 7 to Enoch's Identification",
+        "era": "parables",
+        "type": "historical_insert",
+
+        "synopsis": "The 'Son of Man' (Ge'ez: walda sab'e; Aramaic: bar enash) is "
+                    "the Parables' most important christological title. Its origin "
+                    "lies in Daniel 7:13-14, where 'one like a son of man' receives "
+                    "everlasting dominion. The Parables develop this figure beyond "
+                    "anything in Daniel: pre-existent, enthroned, Spirit-endowed, "
+                    "and identified as Enoch. Understanding this development is "
+                    "essential for grasping both the Parables' theology and Jesus' "
+                    "use of the title.",
+
+        "key_verse": None,
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Daniel 7:13-14", "note": "The origin: 'one like a son of man' given dominion by the Ancient of Days", "type": "ot"},
+            {"ref": "Psalm 8:4", "note": "'What is man that you are mindful of him, and the son of man that you care for him?' — the paradox of human exaltation", "type": "ot"},
+            {"ref": "Ezekiel 2:1", "note": "God addresses Ezekiel as 'son of man' over 90 times — the prophetic usage emphasizing human frailty", "type": "ot"},
+            {"ref": "Mark 14:62", "note": "'You will see the Son of Man seated at the right hand of Power' — the Danielic/Enochic combination", "type": "nt"},
+            {"ref": "John 3:13", "note": "'No one has ascended into heaven except the Son of Man who descended' — Johannine pre-existence", "type": "nt"},
+            {"ref": "Acts 7:56", "note": "'I see the Son of Man standing at the right hand of God' — the enthroned figure visible to a martyr", "type": "nt"}
+        ],
+
+        "divine_council_note": "The Son of Man represents the most radical development "
+                               "in divine council theology: a figure sharing God's "
+                               "throne and exercising universal judgment. The trajectory "
+                               "from Daniel's 'one like a son of man' to the Parables' "
+                               "pre-existent judge to Enoch's identification to the "
+                               "incarnate deity of John 1:14 traces one of the most "
+                               "consequential theological developments in Western "
+                               "religious history.",
+
+        "sections": [
+            {
+                "heading": "Daniel 7:13-14 — The Origin",
+                "body": "'Son of man' (Aramaic: bar enash; Hebrew: ben-adam) simply "
+                        "means 'human being.' In Ezekiel, God addresses the prophet "
+                        "as 'son of man' over 90 times, emphasizing mortal humanity "
+                        "before divine presence. Daniel 7:13 transforms this ordinary "
+                        "phrase: 'one like a son of man' comes 'with the clouds of "
+                        "heaven' — transport elsewhere reserved for deity (Psalm "
+                        "104:3, Isaiah 19:1) — and receives 'dominion and glory and "
+                        "a kingdom.' The identity in Daniel is debated: Collins and "
+                        "Di Lella identify him as Michael; Goldingay sees the 'saints "
+                        "of the Most High' (Dan 7:18, 27); Casey emphasizes the "
+                        "generic sense ('a human figure'). Whatever Daniel's intent, "
+                        "the Parables interpreted the figure as an individual, "
+                        "pre-existent, enthroned agent — and built their christology "
+                        "around that interpretation."
+            },
+            {
+                "heading": "The Parables' Seven Innovations Beyond Daniel",
+                "body": "The Parables introduce seven key developments: "
+                        "(1) PRE-EXISTENCE: named 'before the creation of the sun "
+                        "and stars' (48:2-3). Daniel says nothing about pre-existence. "
+                        "(2) ENTHRONEMENT: sits on the 'throne of glory' (62:5, "
+                        "69:27). In Daniel, only the Ancient of Days is seated. "
+                        "(3) JUDGMENT: actively judges kings and the mighty (62:1-12). "
+                        "In Daniel, judgment belongs to the court/Ancient of Days. "
+                        "(4) ISAIANIC MERGER: 'the light of the Gentiles' (48:4, "
+                        "from Isaiah 42:6). Daniel makes no connection to the Servant. "
+                        "(5) MESSIANIC IDENTIFICATION: called 'His Anointed' (52:4). "
+                        "Daniel does not use mashiach for the Son of Man. "
+                        "(6) SPIRIT ENDOWMENT: 'in him dwells the spirit of wisdom' "
+                        "(49:3, from Isaiah 11:2). Daniel does not describe attributes. "
+                        "(7) HUMAN IDENTIFICATION: identified as Enoch (71:14). "
+                        "In Daniel, the identity remains unresolved. Together these "
+                        "create a fully realized christological portrait far beyond "
+                        "Daniel's brief visionary scene."
+            },
+            {
+                "heading": "The Heavenly Double — Enoch as the Son of Man",
+                "body": "Chapter 71:14's identification of Enoch as the Son of Man "
+                        "has generated intense scholarly debate. Charles and Black "
+                        "argue chapter 71 is a later addition contradicting the "
+                        "earlier Parables. VanderKam and Nickelsburg accept it as "
+                        "original, invoking the 'heavenly double' concept — a "
+                        "pre-existent celestial identity that Enoch 'becomes' at "
+                        "translation. This concept appears in the Testament of "
+                        "Abraham (Abel as heavenly judge) and the Prayer of Joseph "
+                        "(the angel Israel as Jacob's heavenly self). If correct, "
+                        "Genesis 5:24 describes Enoch's reunion with his pre-existent "
+                        "celestial self. This provides a remarkable parallel to "
+                        "incarnation christology: as the Son of Man was always "
+                        "Enoch's heavenly identity, so the Logos was always Christ's "
+                        "heavenly identity (John 1:1-14). The Parables demonstrate "
+                        "that the pattern of thought — a human who 'is' a pre-"
+                        "existent heavenly being — was available in Jewish theology "
+                        "before Christianity applied it to Jesus."
+            }
+        ]
+    },
+
+    # =========================================================================
+    # HISTORICAL INSERT: THE PARABLES AND CHRISTIAN ORIGINS
+    # =========================================================================
+    {
+        "id": "insert-parables-christology",
+        "ref": "Historical Context",
+        "chapter_num": None,
+        "title": "The Book of Parables and New Testament Christology",
+        "era": "parables",
+        "type": "historical_insert",
+
+        "synopsis": "The relationship between the Parables and the NT's Son of Man "
+                    "sayings is one of the most important questions in NT scholarship. "
+                    "Jesus' self-designation as 'the Son of Man' (over 80 times in "
+                    "the Gospels) draws on Daniel 7:13, but the Parables' development "
+                    "— pre-existent, enthroned, judging, messianic — provides the "
+                    "fullest background for understanding what Jesus meant. Whether "
+                    "Jesus knew the Parables directly, or both drew on a common "
+                    "tradition, the conceptual overlap is unmistakable.",
+
+        "key_verse": None,
+        "hebrew_terms": [],
+        "ane_backdrop": None,
+        "second_temple": [],
+
+        "cross_refs": [
+            {"ref": "Daniel 7:13-14", "note": "The common source for both the Parables and the NT Son of Man sayings", "type": "ot"},
+            {"ref": "Mark 14:62", "note": "Jesus: 'You will see the Son of Man seated at the right hand of Power and coming with the clouds' — combining Daniel 7 with Psalm 110, exactly as the Parables do", "type": "nt"},
+            {"ref": "Matthew 25:31-46", "note": "The Son of Man on his throne of glory separating nations — the closest NT passage to 1 Enoch 62", "type": "nt"},
+            {"ref": "Luke 12:8-9", "note": "The Son of Man will acknowledge before the angels of God — the council advocate", "type": "nt"},
+            {"ref": "John 5:27", "note": "The Father has given the Son authority to judge because he is the Son of Man — delegated-judgment theology matching the Parables", "type": "nt"},
+            {"ref": "Acts 7:55-56", "note": "Stephen sees the Son of Man standing at God's right hand", "type": "nt"}
+        ],
+
+        "divine_council_note": "The Son of Man christology shared between the Parables "
+                               "and the NT represents the most developed divine council "
+                               "tradition in Jewish-Christian history. The claim is that "
+                               "a second figure shares God's throne and exercises judgment. "
+                               "The rabbis called this 'two powers in heaven' (shtei "
+                               "reshuyot). The Parables show this theology was an "
+                               "established Jewish option before Christianity adopted it. "
+                               "The NT's claim about Jesus is not a pagan innovation but "
+                               "the application of an existing Jewish category to a "
+                               "specific historical person.",
+
+        "sections": [
+            {
+                "heading": "Points of Contact — What the Parables and the NT Share",
+                "body": "The shared vocabulary goes well beyond what Daniel 7 alone "
+                        "provides. Both use 'throne of glory' (1 En 62:5; Matt 25:31). "
+                        "Both describe the Son of Man as pre-existent (1 En 48:2-3; "
+                        "John 1:1, 17:5). Both portray him as eschatological judge "
+                        "(1 En 62:1-12; Matt 25:31-46). Both apply Isaianic Servant "
+                        "language (1 En 48:4; Luke 2:32). Both merge the Danielic Son "
+                        "of Man with the Davidic Messiah (1 En 52:4; the Gospels). "
+                        "Both describe kings falling before the Son of Man (1 En "
+                        "62:9-10; Phil 2:10-11). The overlap is too extensive to be "
+                        "coincidental, yet too diffuse to prove direct literary "
+                        "dependence. The most likely explanation is a shared tradition "
+                        "of Son of Man speculation that both independently developed — "
+                        "or that the Parables represent a branch the historical Jesus "
+                        "knew and drew upon."
+            },
+            {
+                "heading": "The Dating Question — Why It Matters",
+                "body": "If the Parables are pre-Christian (late 1st century BC), they "
+                        "provide direct evidence that the enthroned, pre-existent Son "
+                        "of Man was a Jewish concept before Jesus. If post-Christian, "
+                        "they might reflect Christian influence. Milik's proposal of "
+                        "a 3rd century AD date is now almost universally rejected. "
+                        "The Parables contain no distinctively Christian elements: no "
+                        "crucifixion, no resurrection of the Son of Man, no incarnation, "
+                        "no Gentile mission, no church. The consensus among specialists "
+                        "(Nickelsburg, VanderKam, Boccaccini, Charlesworth) dates the "
+                        "Parables to the late 1st century BC or early 1st century AD "
+                        "— roughly contemporary with Jesus. Suter, Knibb, and others "
+                        "have argued for the early-to-mid 1st century BC based on the "
+                        "absence of clear references to Roman occupation. If correct, "
+                        "the Parables represent independent evidence that the Son of "
+                        "Man theology Jesus claimed was already circulating in Jewish "
+                        "circles."
+            },
+            {
+                "heading": "Key Differences — What Separates the Parables from the NT",
+                "body": "Despite the extensive overlap, critical differences exist. "
+                        "(1) The Parables' Son of Man does not suffer and die — "
+                        "there is no 'suffering Son of Man' sayings tradition (cf. "
+                        "Mark 8:31, 9:31, 10:33-34). The merger of the Son of Man "
+                        "with the Suffering Servant's death (Isaiah 53) is a "
+                        "distinctively Christian innovation. (2) The Parables' Son "
+                        "of Man is identified as Enoch; in the NT, he is identified "
+                        "as Jesus. (3) The Parables describe no incarnation — the "
+                        "Son of Man descends to judge, not to live a human life. "
+                        "(4) The Parables contain no resurrection of the Son of Man "
+                        "himself — only a general resurrection of the dead. "
+                        "(5) The Parables' Son of Man receives authority at the "
+                        "eschaton; the NT claims Jesus already possesses it (Matt "
+                        "28:18, 'All authority in heaven and on earth has been given "
+                        "to me'). These differences show that while the Parables "
+                        "and the NT share a common theological DNA, Christianity "
+                        "transformed the tradition in radical new directions — "
+                        "above all by linking the Son of Man to a crucified Messiah."
+            }
+        ]
+    },
+]

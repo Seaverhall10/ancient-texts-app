@@ -1,0 +1,24 @@
+{
+  "id": "task_020",
+  "agent": "lector",
+  "priority": 20,
+  "description": "Review all chapters in 'Genesis Apocryphon' and identify Hebrew/Aramaic/Greek terms that should be in the glossary but are not. Generate new glossary entries with proper transliteration, Strong's numbers, definitions, and chapters_used arrays.",
+  "metadata": {
+    "text": "genesis_apocryphon",
+    "type": "glossary_expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:53.046961",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_020.json",
+  "_name": "task_020.json",
+  "result": {
+    "added": 22,
+    "skipped": 0
+  },
+  "completed_at": "2026-02-19T08:38:15.683843",
+  "tokens": {
+    "input": 1050,
+    "output": 6085
+  }
+}

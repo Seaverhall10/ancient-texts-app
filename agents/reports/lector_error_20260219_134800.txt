@@ -1,0 +1,203 @@
+
+{
+    "miqdash": {
+        "hebrew": "מִקְדָּשׁ",
+        "transliteration": "miqdāš",
+        "strongs": "H4720",
+        "gloss": "sanctuary, holy place",
+        "definition": "From the root QDŠ (to be holy, set apart), miqdash denotes a consecrated space where the divine presence dwells. In Exodus 25:8, God commands Israel to construct a miqdash so He may dwell among them. The term encompasses both the Tabernacle (mishkan) and later the Temple in Jerusalem. It signifies not merely physical architecture but theological reality—a meeting point between heaven and earth where YHWH's kabod (glory) resides. The miqdash required ritual purity, priestly mediation, and sacrificial atonement. In divine council theology, the miqdash functions as the earthly counterpart to the heavenly throne room, where the bene elohim serve. Ezekiel's vision (Ezek 40-48) presents an eschatological miqdash, suggesting ongoing cosmic significance.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-26", "lev-19", "ezek-40"]
+    },
+    "miqtar": {
+        "hebrew": "מִקְטָר",
+        "transliteration": "miqṭār",
+        "strongs": "H4729",
+        "gloss": "incense altar, place of burning",
+        "definition": "Derived from QTR (to make smoke, burn incense), miqtar refers specifically to the altar of incense or the act of burning aromatic offerings. Distinct from the bronze altar of burnt offering (mizbeach ha'olah), the golden altar of incense stood within the Holy Place before the veil separating it from the Holy of Holies. Incense symbolized prayers ascending to heaven (Ps 141:2, Rev 5:8). The miqtar's placement and function emphasize mediation—the kohen's intercessory role bridging human petition and divine presence. The twice-daily incense offering (Ex 30:7-8) structured temple liturgy around perpetual communion with YHWH. In Second Temple Judaism, the incense service became highly ritualized, with specific families assigned this sacred duty.",
+        "language": "hebrew",
+        "chapters_used": ["ex-30", "lev-16", "num-16"]
+    },
+    "mishkan": {
+        "hebrew": "מִשְׁכָּן",
+        "transliteration": "miškān",
+        "strongs": "H4908",
+        "gloss": "tabernacle, dwelling place",
+        "definition": "From the root ŠKN (to dwell, settle, abide), mishkan designates the portable sanctuary constructed in the wilderness according to the divine pattern shown to Moses on Sinai (Ex 25:9). The term emphasizes God's dwelling presence among His people—YHWH condescending to tabernacle with Israel. The mishkan's tripartite structure (outer court, Holy Place, Holy of Holies) mirrors ancient Near Eastern temple cosmology and reflects the heavenly archetype. Its construction involved divinely-gifted artisans (Bezalel, Oholiab) working with materials donated willingly by the people. The mishkan housed the ark of the covenant, the table of showbread, the menorah, and the incense altar. When completed, the glory-cloud (kabod) filled it (Ex 40:34-35), validating it as YHWH's earthly throne room. The mishkan traveled with Israel, signifying God's mobile presence until Solomon's Temple provided a permanent structure. Theologically, it prefigures the incarnation—God dwelling (Gk. skēnoō, 'tabernacling') among humanity (John 1:14).",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-26", "ex-40", "num-1"]
+    },
+    "mishpatim": {
+        "hebrew": "מִשְׁפָּטִים",
+        "transliteration": "mišpāṭîm",
+        "strongs": "H4941",
+        "gloss": "judgments, ordinances, legal decisions",
+        "definition": "Plural of mishpat (from ŠPṬ, to judge, govern), mishpatim denotes case laws, judicial precedents, and covenant stipulations. Exodus 21-23, known as the 'Book of the Covenant' (Sefer HaBerit), contains mishpatim regulating social justice, property rights, cultic practice, and ethical conduct. These laws distinguish Israel's covenantal jurisprudence from surrounding ANE legal codes (Hammurabi, Lipit-Ishtar) by grounding justice in YHWH's character rather than royal decree. Mishpatim address concrete situations (casuistic law) as opposed to apodictic commands. They reveal God's concern for the vulnerable (widow, orphan, stranger) and establish lex talionis (proportional justice). In divine council theology, YHWH as supreme Judge delegates judicial authority to human judges who must render mishpat with impartiality (Deut 1:17). The prophets frequently indict Israel for perverting mishpat (Isa 1:17, Amos 5:24), linking covenant fidelity to just governance.",
+        "language": "hebrew",
+        "chapters_used": ["ex-21", "ex-22", "ex-23", "deut-1"]
+    },
+    "mitsrayim": {
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "miṣrayim",
+        "strongs": "H4714",
+        "gloss": "Egypt, the two straits",
+        "definition": "Dual form possibly referring to Upper and Lower Egypt or the two banks of the Nile, Mitsrayim is the Hebrew designation for Egypt. Etymologically related to Akkadian Muṣur and Egyptian Miṣr, the name carries theological significance beyond geography. Egypt functions as the archetypal house of bondage ('eretz mitsrayim, 'land of Egypt'), the place of Israel's enslavement and the backdrop for YHWH's redemptive power displayed in the Exodus. The ten plagues systematically dismantled Egypt's pantheon, demonstrating YHWH's supremacy over Egyptian deities (Ex 12:12). Prophetically, Egypt represents worldly power and false security (Isa 30:1-3, 31:1). Yet Egypt also provided refuge (Abraham, Jacob's family, the infant Jesus) and will ultimately worship YHWH alongside Israel and Assyria in eschatological vision (Isa 19:23-25). The Exodus from Mitsrayim becomes the paradigmatic salvation event, repeatedly invoked as the foundation of Israel's identity and YHWH's covenant faithfulness.",
+        "language": "hebrew",
+        "chapters_used": ["gen-12", "gen-46", "ex-1", "ex-12"]
+    },
+    "mitznefet": {
+        "hebrew": "מִצְנֶפֶת",
+        "transliteration": "miṣnep̄eṯ",
+        "strongs": "H4701",
+        "gloss": "turban, priestly headdress",
+        "definition": "From the root ṢNP (to wrap, wind around), mitznefet designates the distinctive turban worn by the high priest (kohen gadol). Exodus 28:4, 37-39 describes it as part of the sacred vestments, with a golden plate (tsits) inscribed 'Holy to YHWH' (qodesh la-YHWH) affixed to its front. This headdress symbolized the high priest's consecration and his role as mediator bearing Israel's iniquities before God (Ex 28:38). The mitznefet distinguished the high priest from ordinary priests, who wore simpler head coverings (migba'ot). In Zechariah's vision (Zech 3:5), the prophet sees Joshua the high priest receive a clean mitznefet, symbolizing purification and restoration. The turban's wrapping motion suggests completeness and the encompassing nature of priestly holiness. Ezekiel applies mitznefet imagery to royal figures (Ezek 21:26), indicating the fusion of priestly and kingly roles in Israel's ideal leadership.",
+        "language": "hebrew",
+        "chapters_used": ["ex-28", "ex-29", "lev-8", "zech-3"]
+    },
+    "mitzrayim": {
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "miṣrayim",
+        "strongs": "H4714",
+        "gloss": "Egypt, land of oppression",
+        "definition": "Alternate transliteration of Mitsrayim. The dual form likely references Upper and Lower Egypt or the Nile's two banks. In biblical theology, Mitzrayim transcends mere geography to embody the realm of slavery, idolatry, and opposition to YHWH's purposes. The Exodus narrative establishes Mitzrayim as the antithesis of the Promised Land—a place of 'iron furnace' (kur habarzel, Deut 4:20) where Israel was refined through suffering. Pharaoh's hardened heart and Egypt's magicians (chartummim) represent demonic resistance to divine liberation. Yet Mitzrayim also preserves life (Joseph's administration during famine) and provides wealth (the plundered Egyptian gold used for the mishkan). Prophetically, Egypt oscillates between enemy and ally, ultimately joining Israel in worshiping YHWH (Isa 19:19-25). The Exodus from Mitzrayim becomes the template for all subsequent redemptions, including the eschatological 'new exodus' envisioned by Isaiah and enacted in Christ's work.",
+        "language": "hebrew",
+        "chapters_used": ["gen-41", "ex-1", "ex-12", "deut-4"]
+    },
+    "mizbeach": {
+        "hebrew": "מִזְבֵּחַ",
+        "transliteration": "mizbēaḥ",
+        "strongs": "H4196",
+        "gloss": "altar, place of sacrifice",
+        "definition": "From the root ZBḤ (to slaughter, sacrifice), mizbeach denotes the altar where offerings were presented to YHWH. The Tabernacle featured two primary altars: the bronze altar of burnt offering (mizbeach ha'olah) in the outer court and the golden altar of incense (mizbeach qetoret) in the Holy Place. The mizbeach served as the locus of atonement, where blood was applied to effect reconciliation between God and humanity. Patriarchal narratives record altar-building as acts of worship and covenant commemoration (Gen 12:7-8, 22:9). The altar's horns (qarnot) provided asylum for those seeking refuge (1 Kgs 1:50). Prophetic critique targeted illegitimate altars (bamot) erected to foreign deities, violating covenant exclusivity. In divine council theology, the mizbeach represents the earthly counterpart to the heavenly altar (Rev 6:9, 8:3), where angelic priests minister. The altar's centrality underscores the necessity of substitutionary sacrifice for approaching the holy God.",
+        "language": "hebrew",
+        "chapters_used": ["gen-12", "gen-22", "ex-27", "ex-30"]
+    },
+    "mizbeach_haolah": {
+        "hebrew": "מִזְבַּח הָעֹלָה",
+        "transliteration": "mizbaḥ hā'ōlâ",
+        "strongs": "H4196",
+        "gloss": "altar of burnt offering",
+        "definition": "The bronze altar located in the Tabernacle's outer court, specifically designated for burnt offerings ('olah) and other blood sacrifices. Constructed of acacia wood overlaid with bronze (Ex 27:1-8), it measured five cubits square and three cubits high, with horns at each corner. This altar was the first station for worshipers entering the sacred precinct, emphasizing that access to God required atoning sacrifice. The perpetual fire (esh tamid) burned continuously upon it (Lev 6:12-13), symbolizing Israel's ongoing need for atonement and YHWH's acceptance of worship. The mizbeach ha'olah's prominence in the courtyard made it visible to all Israel, a constant reminder of sin's cost and God's provision. Blood from sacrificial animals was applied to the altar's horns and poured at its base, ritually cleansing both altar and people. In typological interpretation, this altar prefigures Calvary, where the ultimate 'olah (Christ) was offered once for all.",
+        "language": "hebrew",
+        "chapters_used": ["ex-27", "ex-38", "lev-1", "lev-6"]
+    },
+    "mizbeach_qetoret": {
+        "hebrew": "מִזְבַּח קְטֹרֶת",
+        "transliteration": "mizbaḥ qəṭōreṯ",
+        "strongs": "H4196",
+        "gloss": "altar of incense",
+        "definition": "The golden altar positioned in the Holy Place before the veil (parokhet) separating it from the Holy of Holies. Constructed of acacia wood overlaid with pure gold (Ex 30:1-10), it measured one cubit square and two cubits high, with horns at its corners. The high priest burned specially compounded incense (qetoret sammim) upon it twice daily—morning and evening—creating a perpetual fragrant cloud before YHWH's presence. This altar received atoning blood only once annually on Yom Kippur (Lev 16:18-19). The incense symbolized prayers ascending to heaven (Ps 141:2, Rev 5:8, 8:3-4), mediating between human petition and divine response. Its placement immediately before the ark emphasized its intercessory function. Unauthorized incense offerings (Nadab and Abihu, Lev 10; Korah's rebellion, Num 16) resulted in divine judgment, underscoring the altar's holiness. In Revelation's heavenly temple, the golden altar continues its mediatorial role, with angelic priests offering the prayers of the saints.",
+        "language": "hebrew",
+        "chapters_used": ["ex-30", "lev-10", "lev-16", "num-16"]
+    },
+    "mizbeyach": {
+        "hebrew": "מִזְבֵּחַ",
+        "transliteration": "mizbēaḥ",
+        "strongs": "H4196",
+        "gloss": "altar, sacrificial platform",
+        "definition": "Variant transliteration of mizbeach. The term encompasses all altars used for sacrifice and worship in Israelite religion. Beyond the Tabernacle/Temple altars, the Hebrew Bible records numerous altars built by patriarchs, judges, kings, and prophets at significant locations. Noah built a mizbeach after the flood (Gen 8:20); Abraham erected altars at Shechem, Bethel, and Moriah (Gen 12:7-8, 22:9); Moses constructed an altar at Rephidim after defeating Amalek, naming it 'YHWH-Nissi' (Ex 17:15). Altar-building marked covenant renewals, divine appearances, and territorial claims. The altar's construction followed specific regulations: unhewn stones for field altars (Ex 20:25), no steps to prevent exposure (Ex 20:26). Illegitimate altars (bamot) erected for Baal and Asherah worship provoked prophetic condemnation and royal reforms (Hezekiah, Josiah). The altar's theological significance lies in its function as the meeting point where divine holiness and human sinfulness intersect through substitutionary sacrifice.",
+        "language": "hebrew",
+        "chapters_used": ["gen-8", "gen-22", "ex-17", "ex-20"]
+    },
+    "mo_adim": {
+        "hebrew": "מוֹעֲדִים",
+        "transliteration": "mô'ăḏîm",
+        "strongs": "H4150",
+        "gloss": "appointed times, sacred festivals",
+        "definition": "Plural of mo'ed (from Y'D, to appoint, meet), mo'adim designates the divinely appointed times for Israel's sacred assemblies and festivals. Leviticus 23 catalogs the mo'adim: Sabbath, Passover, Unleavened Bread, Firstfruits, Weeks (Shavuot), Trumpets (Rosh Hashanah), Day of Atonement (Yom Kippur), and Tabernacles (Sukkot). These festivals structure Israel's liturgical calendar, commemorating historical redemption (Exodus) and agricultural cycles (harvest), while anticipating eschatological fulfillment. The mo'adim are 'rehearsals' (miqra'ei qodesh, 'holy convocations') of divine-human encounter, times when heaven and earth intersect. Genesis 1:14 establishes celestial bodies as markers for mo'adim, linking creation order to worship rhythm. In divine council theology, the mo'adim reflect the heavenly court's assembly times, when YHWH convenes His council. Prophetically, the mo'adim foreshadow Messiah's work: Passover (crucifixion), Firstfruits (resurrection), Weeks (Spirit's outpouring), with fall festivals awaiting final fulfillment.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "lev-23", "num-28", "deut-16"]
+    },
+    "mopheth": {
+        "hebrew": "מוֹפֵת",
+        "transliteration": "môp̄ēṯ",
+        "strongs": "H4159",
+        "gloss": "wonder, sign, portent",
+        "definition": "Often paired with 'ot (sign), mopheth denotes a miraculous event or prodigy that demonstrates divine power and authenticates prophetic authority. The term emphasizes the wonder-inducing, attention-arresting nature of the phenomenon. Exodus frequently uses 'otot u-mophetim (signs and wonders) to describe the plagues against Egypt (Ex 7:3, 11:9-10), which functioned as both judgment and revelation of YHWH's supremacy. Moses' staff transforming into a serpent served as a mopheth validating his commission (Ex 4:21). Deuteronomy warns against false prophets who perform mophetim to lead Israel astray (Deut 13:1-3), indicating that supernatural phenomena alone don't guarantee divine origin. Isaiah and his children became living mophetim—embodied prophetic signs (Isa 8:18). In divine council theology, mophetim reveal heavenly realities breaking into earthly experience, demonstrating YHWH's sovereignty over both spiritual and material realms. The term anticipates eschatological 'signs and wonders' accompanying the Day of YHWH (Joel 2:30).",
+        "language": "hebrew",
+        "chapters_used": ["ex-4", "ex-7", "deut-13", "isa-8"]
+    },
+    "moreh_ha_tzedeq": {
+        "hebrew": "מוֹרֶה הַצֶּדֶק",
+        "transliteration": "môreh haṣṣeḏeq",
+        "strongs": "H4175",
+        "gloss": "Teacher of Righteousness",
+        "definition": "A title found in the Dead Sea Scrolls (particularly the Damascus Document and Pesharim) referring to the founding leader or authoritative interpreter of the Qumran community. The phrase combines moreh (teacher, from YRH, to instruct) with tzedeq (righteousness, from ṢDQ). This figure, possibly a dissident priest from Jerusalem's temple establishment, led the yahad (community) into wilderness exile around the mid-2nd century BCE. The Teacher received divine revelation to interpret Scripture's mysteries (razim) for the end times, particularly prophetic texts. He opposed the 'Wicked Priest' (kohen rasha) and 'Man of Lies' (ish ha-kazav), representing Jerusalem's corrupt priesthood. The Teacher's interpretations (pesharim) applied biblical prophecy to contemporary events, viewing the community as the faithful remnant. His death was mourned, with expectations of his eschatological return or vindication. The title echoes Joel 2:23's 'teacher of righteousness' (moreh li-tzedaqah), suggesting messianic or prophetic self-understanding. The Teacher's authority shaped Qumran's strict halakhic observance and apocalyptic worldview.",
+        "language": "hebrew",
+        "chapters_used": ["dss-cd", "dss-1qphab", "joel-2"]
+    },
+    "moriyyah": {
+        "hebrew": "מֹרִיָּה",
+        "transliteration": "mōriyyâ",
+        "strongs": "H4179",
+        "gloss": "Moriah, place of seeing/provision",
+        "definition": "The mountainous region where Abraham was commanded to sacrifice Isaac (Gen 22:2) and later the site of Solomon's Temple (2 Chr 3:1). The etymology is debated: possibly from R'H (to see), yielding 'YHWH sees/provides' (YHWH yir'eh, Gen 22:14), or from YRH (to teach/instruct). Genesis 22 identifies it as 'the land of Moriah' ('eretz ha-moriyyah), while Chronicles specifies Mount Moriah as the threshing floor of Ornan (Araunah) the Jebusite, where David built an altar after the plague (2 Sam 24). This geographical and theological convergence links the Aqedah (binding of Isaac) with the Temple's sacrificial system—both sites of substitutionary atonement. Jewish tradition identifies Moriah with the Foundation Stone (even shetiyyah) in the Temple's Holy of Holies, the cosmic center from which creation emanated. The mountain's elevation symbolizes proximity to heaven, a meeting place between divine and human realms. Moriah's significance extends typologically to Calvary, where God provided the ultimate sacrifice.",
+        "language": "hebrew",
+        "chapters_used": ["gen-22", "2sam-24", "2chr-3"]
+    },
+    "moshav": {
+        "hebrew": "מוֹשָׁב",
+        "transliteration": "môšāḇ",
+        "strongs": "H4186",
+        "gloss": "dwelling place, seat, habitation",
+        "definition": "From the root YŠB (to sit, dwell, inhabit), moshav denotes a place of residence or settlement. The term appears in various contexts: geographical (dwelling places of nations, Gen 10:30), cultic (God's dwelling, Ps 33:14), and social (assembly seats, Ps 1:1). Leviticus 23:3 uses moshav to describe ordinary dwellings in contrast to sacred assemblies. The term emphasizes permanence and stability, contrasting with nomadic existence. In divine council theology, moshav can refer to the heavenly throne room where YHWH sits enthroned (Ps 33:14, 'from His dwelling place He looks out'). The concept of God's moshav among His people finds fulfillment in the Tabernacle/Temple and ultimately in the incarnation and eschatological New Jerusalem. Ezekiel's vision includes the moshav of the prince in the restored temple complex (Ezek 45:7). The term's semantic range encompasses both physical location and the relational reality of dwelling together, central to covenant theology.",
+        "language": "hebrew",
+        "chapters_used": ["gen-10", "lev-23", "ps-1", "ps-33"]
+    },
+    "mosheh": {
+        "hebrew": "מֹשֶׁה",
+        "transliteration": "mōšeh",
+        "strongs": "H4872",
+        "gloss": "Moses, drawn out",
+        "definition": "The name of Israel's greatest prophet, lawgiver, and mediator of the Sinai covenant. Exodus 2:10 provides a folk etymology: Pharaoh's daughter named him Mosheh 'because I drew him (mašitihu) out of the water,' connecting it to the root MŠH (to draw out). Alternatively, the name may derive from Egyptian ms/mose (son, born of), common in names like Thutmose, Rameses. Moses' life divides into three forty-year periods: Egyptian prince, Midianite shepherd, and Israel's deliverer. His unique relationship with YHWH—speaking 'face to face' (panim el panim, Ex 33:11)—established his unparalleled prophetic authority (Deut 34:10). Moses mediated the covenant at Sinai, interceded for rebellious Israel, and authored the Torah (traditional attribution). His shining face after encountering God's glory (Ex 34:29-35) manifested his mediatorial role. Numbers 12:3 describes him as 'very humble, more than anyone on earth,' yet he led with authority. Moses' death outside the Promised Land (Deut 34) and his appearance at the Transfiguration (Matt 17:3) underscore his ongoing significance. He typologically prefigures the greater Prophet-Mediator, Messiah.",
+        "language": "hebrew",
+        "chapters_used": ["ex-2", "ex-33", "num-12", "deut-34"]
+    },
+    "na_aseh_venishma": {
+        "hebrew": "נַעֲשֶׂה וְנִשְׁמָע",
+        "transliteration": "na'ăśeh wənišmā'",
+        "strongs": "H6213, H8085",
+        "gloss": "we will do and we will hear",
+        "definition": "Israel's covenantal response at Sinai (Ex 24:7), pledging obedience to YHWH's commands. The phrase's word order—'do' before 'hear/understand'—has generated extensive rabbinic commentary. Literally: 'we will do and we will hear/obey.' The construction suggests commitment preceding full comprehension, an act of faith-trust ('emunah) in God's goodness. The Talmud (Shabbat 88a) interprets this as Israel's unique devotion, contrasting them with angels who first seek understanding. The phrase encapsulates covenant relationship: Israel accepts the Torah's obligations based on trust in the covenant-making God, not contingent on complete understanding. This response follows the reading of the 'Book of the Covenant' (sefer ha-berit) and precedes the covenant ratification ceremony involving blood application. The dual verbs emphasize both action (na'aseh, from 'ŚH, to do/make) and attentive obedience (nishma, from ŠM', to hear/obey). The phrase became paradigmatic for Jewish covenant fidelity and appears in liturgical contexts.",
+        "language": "hebrew",
+        "chapters_used": ["ex-24"]
+    },
+    "nacham": {
+        "hebrew": "נָחַם",
+        "transliteration": "nāḥam",
+        "strongs": "H5162",
+        "gloss": "to comfort, relent, repent",
+        "definition": "A theologically complex verb with semantic range including: to comfort/console (Niphal), to repent/relent/change course (Niphal), and to comfort oneself (Hithpael). When applied to God, nacham raises interpretive challenges regarding divine immutability. Genesis 6:6-7 states YHWH 'regretted' (wayyinnachem) making humanity, leading to the flood decision. Exodus 32:14 reports YHWH 'relented' (wayyinnachem) concerning judgment after Moses' intercession. 1 Samuel 15:11, 35 records God's 'regret' over making Saul king, yet verse 29 asserts God 'does not lie or change His mind' (lo yenachem). This apparent contradiction resolves by understanding nacham as anthropopathic language describing God's responsive relationship with human choices, not ontological change. When humans repent, God's response changes from judgment to mercy (Jonah 3:10). The term also describes human comfort: Isaiah's prophecy begins 'Comfort, comfort My people' (nachamu nachamu, Isa 40:1). The Comforter (Menahem) became a messianic title. Nacham reflects covenant relationship's dynamic nature—God's faithfulness expressed through appropriate responses to human action.",
+        "language": "hebrew",
+        "chapters_used": ["gen-6", "ex-32", "1sam-15", "isa-40"]
+    },
+    "nachar": {
+        "hebrew": "נָחַר",
+        "transliteration": "nāḥar",
+        "strongs": "H5170",
+        "gloss": "to snort, be angry",
+        "definition": "A verb describing the snorting of horses or the heavy breathing associated with anger and agitation. The root appears infrequently but vividly conveys intense emotion or physical exertion. Job 39:20 uses nachar to describe the war horse's terrifying snort: 'Do you make him leap like the locust? His majestic snorting (nachar) is terrifying.' The term captures both the sound and the emotional intensity—the horse's eagerness for battle. Jeremiah 8:16 employs similar imagery: 'From Dan is heard the snorting (nachrat) of his horses; at the sound of the neighing of his stallions the whole land quakes.' Here nachar signals approaching military threat, the Babylonian invasion. The verb's onomatopoetic quality makes it effective for conveying raw power and aggression. In contexts of divine judgment, such imagery anthropomorphically depicts YHWH's anger as a warrior preparing for battle. The term's rarity enhances its dramatic impact when deployed in prophetic or poetic literature.",
+        "language": "hebrew",
+        "chapters_used": ["job-39", "jer-8"]
+    },
+    "nagash": {
+        "hebrew": "נָגַשׁ",
+        "transliteration": "nāḡaš",
+        "strongs": "H5066",
+        "gloss": "to draw near, approach",
+        "definition": "A verb indicating movement toward someone or something, with nuanced meanings depending on context: to approach (spatially), to present oneself (formally), to draw near (relationally), or to attack (militarily). In cultic contexts, nagash describes priestly approach to the altar or God's presence, requiring ritual purity and proper authorization (Ex 19:22, Lev 21:17-23). Unauthorized approach results in death (Num 18:3-4). The term emphasizes the privilege and danger of proximity to holiness. In covenant contexts, nagash describes Israel's approach to Sinai (Ex 19:15) or Moses' unique access to God's presence (Ex 24:2). Military usage appears in battle narratives where armies 'draw near' for combat (Judg 20:23). Interpersonal contexts include Joseph's brothers approaching him in Egypt (Gen 44:18) or supplicants approaching kings. The verb's theological significance lies in its depiction of access to the divine—who may approach, under what conditions, and with what consequences. The concept anticipates New Covenant access through Christ's mediation (Heb 10:22).",
+        "language": "hebrew",
+        "chapters_used": ["gen-44", "ex-19", "lev-21", "num-18"]
+    },
+    "naqam": {
+        "hebrew": "נָקַם",
+        "transliteration": "nāqam",
+        "strongs": "H5358",
+        "gloss": "to avenge, take vengeance",
+        "definition": "A verb denoting retributive justice, vengeance, or the restoration of honor through punishment of wrongdoing. Unlike modern connotations of personal revenge, biblical naqam often describes legitimate judicial action or divine judgment restoring moral order. YHWH frequently appears as the subject: 'Vengeance is Mine, I will repay' (Deut 32:35, Rom 12:19), asserting His exclusive right to ultimate justice. The go'el ha-dam (blood avenger) had legal responsibility to execute naqam for murdered kin (Num 35:19-27), though cities of refuge limited blood feuds. Prophetic literature depicts YHWH's naqam against Israel's enemies (Isa 34:8, Jer 46:10) and against Israel itself for covenant violation (Lev 26:25). The term appears in divine council contexts where YHWH executes judgment on rebellious spiritual powers (Ps 149:7). Naqam differs from personal vindictiveness; it represents the restoration of justice, the vindication of the oppressed, and the maintenance of covenant order. Eschatological naqam involves final judgment when all wrongs are righted.",
+        "language": "hebrew",
+        "chapters_used": ["num-35", "deut-32", "isa-34", "jer-46"]
+    },
+    "naqqeh": {
+        "hebrew": "נָקָה",
+        "transliteration": "

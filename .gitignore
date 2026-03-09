@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+
+# Build output (large files - mobile deploy is on gh-pages branch)
+output/
+
+# Releases (packaged builds)
+releases/
+
+# Electron dist
+dist/
+electron/node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+nul
+
+# IDE
+.vscode/
+.idea/
+
+# Archive
+archive/
+
+# Secrets / API keys
+agents/config.py
+.claude/settings.local.json

@@ -1,0 +1,298 @@
+
+{
+    "pesach": {
+        "hebrew": "פֶּסַח",
+        "transliteration": "pesaḥ",
+        "strongs": "H6453",
+        "gloss": "Passover, passing over",
+        "definition": "The festival commemorating Israel's deliverance from Egypt, derived from the verb pāsaḥ ('to pass over, skip over'). Refers both to the sacrificial lamb and the festival itself. In Exodus 12, the blood of the pesach lamb marked Israelite homes so the destroyer would 'pass over' them during the tenth plague. The term establishes a perpetual memorial of YHWH's redemptive act and becomes central to Israel's liturgical calendar and messianic typology.",
+        "language": "hebrew",
+        "chapters_used": ["ex-12", "ex-34"]
+    },
+    "matzah": {
+        "hebrew": "מַצָּה",
+        "transliteration": "maṣṣâ",
+        "strongs": "H4682",
+        "gloss": "unleavened bread",
+        "definition": "Bread made without leaven (yeast), symbolizing both the haste of the Exodus departure and purity. The seven-day Feast of Unleavened Bread (Chag HaMatzot) immediately follows Passover. Matzah represents bread of affliction and also bread of freedom. The removal of chametz (leaven) from households symbolizes purging corruption and sin. This becomes a powerful metaphor in both Jewish and Christian theology for spiritual purity and separation from evil.",
+        "language": "hebrew",
+        "chapters_used": ["ex-12", "ex-13", "ex-23", "ex-34"]
+    },
+    "dam": {
+        "hebrew": "דָּם",
+        "transliteration": "dām",
+        "strongs": "H1818",
+        "gloss": "blood, bloodshed",
+        "definition": "Blood, representing life force and vitality (Lev 17:11). In Exodus, dam functions as both judgment (Nile turned to blood, Ex 7) and protection (blood on doorposts, Ex 12). Blood establishes covenant relationship (Ex 24:8, 'blood of the covenant') and effects atonement. The term carries legal, cultic, and theological weight—bloodshed defiles the land, while ritual blood application consecrates and purifies. Central to understanding substitutionary atonement and covenant ratification.",
+        "language": "hebrew",
+        "chapters_used": ["ex-4", "ex-7", "ex-12", "ex-24", "ex-29", "ex-30"]
+    },
+    "makkah": {
+        "hebrew": "מַכָּה",
+        "transliteration": "makkâ",
+        "strongs": "H4347",
+        "gloss": "plague, blow, strike",
+        "definition": "A blow, wound, or plague—specifically the ten judgments YHWH brought upon Egypt. Each makkah targets Egyptian deities and demonstrates YHWH's sovereignty over creation and false gods. The plagues follow an intensifying pattern, revealing Pharaoh's hardened heart and YHWH's power to judge and deliver. The term emphasizes divine agency in judgment and the cosmic conflict between YHWH and the gods of Egypt. The plagues serve both punitive and pedagogical purposes.",
+        "language": "hebrew",
+        "chapters_used": ["ex-7", "ex-8", "ex-9", "ex-11", "ex-12"]
+    },
+    "yatsa": {
+        "hebrew": "יָצָא",
+        "transliteration": "yāṣāʾ",
+        "strongs": "H3318",
+        "gloss": "to go out, exit",
+        "definition": "To go out, come forth, depart—the fundamental verb of the Exodus event. Yatsa describes Israel's departure from Egypt (yetzi'at mitzrayim) and becomes paradigmatic for all divine deliverance. The term appears in the Decalogue's preamble ('I am YHWH who brought you out...') establishing redemption as the basis for covenant obligation. Theologically, it represents liberation from bondage, transition from slavery to freedom, and movement from death to life. The Exodus becomes the archetypal salvation event in Scripture.",
+        "language": "hebrew",
+        "chapters_used": ["ex-3", "ex-6", "ex-12", "ex-13", "ex-14", "ex-16", "ex-19", "ex-20", "ex-23", "ex-32", "ex-33"]
+    },
+    "mishkan": {
+        "hebrew": "מִשְׁכָּן",
+        "transliteration": "miškān",
+        "strongs": "H4908",
+        "gloss": "tabernacle, dwelling place",
+        "definition": "The portable sanctuary where YHWH's presence dwelt among Israel, from the root šākan ('to dwell, settle'). The mishkan represents YHWH's condescension to dwell with His people despite His transcendence. Detailed instructions in Exodus 25-40 emphasize divine design and human obedience. The structure mirrors cosmic patterns (heaven and earth) and Edenic themes (cherubim, menorah as tree of life). The mishkan theology bridges divine holiness and human sinfulness, anticipating incarnational theology. It serves as mobile Sinai, making covenant relationship portable.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-26", "ex-27", "ex-35", "ex-36", "ex-38", "ex-39", "ex-40"]
+    },
+    "kavod": {
+        "hebrew": "כָּבוֹד",
+        "transliteration": "kāḇôḏ",
+        "strongs": "H3519",
+        "gloss": "glory, weight, honor",
+        "definition": "Glory, honor, or weightiness—the visible manifestation of YHWH's presence. In Exodus, kavod appears as cloud and fire, filling the mishkan and guiding Israel. The term conveys both YHWH's transcendent majesty and His immanent presence. Moses' request to see YHWH's kavod (Ex 33:18) results in the revelation of divine character (Ex 34:6-7). The glory represents YHWH's self-disclosure, His 'weight' or substance in contrast to the 'lightness' of idols. Kavod theology connects creation, tabernacle, and eschatological hope.",
+        "language": "hebrew",
+        "chapters_used": ["ex-16", "ex-24", "ex-29", "ex-33", "ex-40"]
+    },
+    "anan": {
+        "hebrew": "עָנָן",
+        "transliteration": "ʿānān",
+        "strongs": "H6051",
+        "gloss": "cloud, cloud cover",
+        "definition": "Cloud—the visible manifestation of YHWH's presence that guides and protects Israel. The pillar of cloud (ʿammud he-ʿanan) leads by day while fire leads by night. The cloud represents both revelation and concealment—YHWH is present yet remains mysterious. At Sinai, the cloud signifies divine approach and theophany. The cloud settling on the mishkan indicates YHWH's acceptance and indwelling. This imagery connects to ancient Near Eastern divine warrior motifs while emphasizing YHWH's unique covenant relationship with Israel.",
+        "language": "hebrew",
+        "chapters_used": ["ex-13", "ex-14", "ex-16", "ex-19", "ex-24", "ex-33", "ex-34", "ex-40"]
+    },
+    "kapporet": {
+        "hebrew": "כַּפֹּרֶת",
+        "transliteration": "kappōreṯ",
+        "strongs": "H3727",
+        "gloss": "mercy seat, atonement cover",
+        "definition": "The golden cover of the ark of the covenant, from kāpar ('to cover, atone'). Flanked by two cherubim, the kapporet serves as YHWH's throne and the locus of His presence in the Holy of Holies. On Yom Kippur, blood is sprinkled on the kapporet to effect national atonement. The term emphasizes both covering (of sin) and meeting place (between God and humanity). The kapporet represents the intersection of divine justice and mercy, where propitiation occurs and covenant relationship is maintained.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-26", "ex-30", "ex-31", "ex-35", "ex-37", "ex-39", "ex-40"]
+    },
+    "aron": {
+        "hebrew": "אֲרוֹן",
+        "transliteration": "ʾărôn",
+        "strongs": "H727",
+        "gloss": "ark, chest, box",
+        "definition": "The ark of the covenant (aron ha-berit), the most sacred object in the mishkan. Contains the tablets of testimony, Aaron's rod, and manna. Represents YHWH's throne on earth and His covenant presence. Made of acacia wood overlaid with gold, carried by poles through rings—never to touch the ground. The aron symbolizes divine law, covenant faithfulness, and YHWH's kingship. Its presence brings blessing or judgment depending on proper approach. Central to Israel's worship and military campaigns, representing YHWH's active presence among His people.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-26", "ex-30", "ex-31", "ex-37", "ex-39", "ex-40"]
+    },
+    "edut": {
+        "hebrew": "עֵדוּת",
+        "transliteration": "ʿēḏûṯ",
+        "strongs": "H5715",
+        "gloss": "testimony, witness, covenant",
+        "definition": "Testimony or witness—specifically the tablets of the law (luchot ha-edut) placed in the ark. From ʿûḏ ('to bear witness, testify'), the term emphasizes the covenant stipulations as divine testimony and legal witness. The edut serves as permanent record of covenant obligations and YHWH's character. The ark is called 'ark of the testimony' and the tabernacle 'tent of testimony.' This legal terminology underscores covenant as binding treaty with stipulations, blessings, and curses. The testimony remains as perpetual witness to Israel's covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": ["ex-16", "ex-25", "ex-26", "ex-27", "ex-30", "ex-31", "ex-32", "ex-34", "ex-38", "ex-40"]
+    },
+    "menorah": {
+        "hebrew": "מְנוֹרָה",
+        "transliteration": "mənôrâ",
+        "strongs": "H4501",
+        "gloss": "lampstand, light bearer",
+        "definition": "The seven-branched golden lampstand in the Holy Place, from nûr ('to give light'). Hammered from one talent of pure gold with almond blossom design, the menorah provides perpetual light before YHWH. Symbolically represents the tree of life, divine wisdom, and Israel as light to nations. The seven lamps may represent completeness or the seven-fold Spirit. Tended daily by priests with pure olive oil, the menorah emphasizes continuous worship and YHWH as source of light and life. Becomes powerful symbol of Jewish identity and divine presence.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-26", "ex-27", "ex-30", "ex-31", "ex-35", "ex-37", "ex-39", "ex-40"]
+    },
+    "shulchan": {
+        "hebrew": "שֻׁלְחָן",
+        "transliteration": "šulḥān",
+        "strongs": "H7979",
+        "gloss": "table, dining table",
+        "definition": "The table of showbread (lechem panim) in the Holy Place, made of acacia wood overlaid with gold. Holds twelve loaves representing the twelve tribes in perpetual covenant meal before YHWH. The shulchan symbolizes divine provision, covenant fellowship, and Israel's consecration to YHWH. The bread is replaced weekly and eaten by priests—a sacred meal in God's presence. This table imagery evokes hospitality, covenant loyalty, and the concept of eating before deity as sign of peace and relationship.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-26", "ex-30", "ex-31", "ex-35", "ex-37", "ex-39", "ex-40"]
+    },
+    "mizbeach": {
+        "hebrew": "מִזְבֵּחַ",
+        "transliteration": "mizbēaḥ",
+        "strongs": "H4196",
+        "gloss": "altar, place of sacrifice",
+        "definition": "Altar, from zāḇaḥ ('to slaughter, sacrifice'). Exodus describes two altars: the bronze altar of burnt offering in the courtyard and the golden altar of incense in the Holy Place. The bronze mizbeach is where blood sacrifice occurs, effecting atonement and consecration. The golden mizbeach is where fragrant incense rises as prayers before YHWH. Both altars mediate between holy God and sinful humanity. The altar represents meeting place, substitutionary atonement, and acceptable worship. Horns on corners provide refuge and emphasize altar's sanctity.",
+        "language": "hebrew",
+        "chapters_used": ["ex-20", "ex-21", "ex-24", "ex-27", "ex-29", "ex-30", "ex-32", "ex-34", "ex-38", "ex-40"]
+    },
+    "qetoret": {
+        "hebrew": "קְטֹרֶת",
+        "transliteration": "qəṭōreṯ",
+        "strongs": "H7004",
+        "gloss": "incense, fragrant smoke",
+        "definition": "Incense—a sacred blend of spices burned on the golden altar. From qāṭar ('to burn incense, make smoke'), the qetoret represents prayers ascending to YHWH (Ps 141:2). The specific recipe (Ex 30:34-38) is holy and not to be duplicated for common use. Offered morning and evening by priests, the incense creates fragrant cloud in the Holy Place. Symbolizes mediation, acceptable worship, and the sweet aroma of obedience. Unauthorized incense (Nadab and Abihu, Korah's rebellion) brings judgment, emphasizing proper approach to holy God.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-30", "ex-31", "ex-35", "ex-37", "ex-39", "ex-40"]
+    },
+    "ephod": {
+        "hebrew": "אֵפוֹד",
+        "transliteration": "ʾēp̄ôḏ",
+        "strongs": "H646",
+        "gloss": "priestly garment, vestment",
+        "definition": "The high priest's ornate vestment, made of gold, blue, purple, and scarlet yarn with fine linen. The ephod holds the breastpiece (choshen) with twelve stones representing Israel's tribes. Two onyx stones on shoulders bear tribal names—the high priest literally carries Israel before YHWH. The ephod associates with seeking divine guidance (Urim and Thummim). Represents priestly mediation, intercession, and the high priest bearing Israel's identity and needs into God's presence. The garment's splendor reflects the glory of the One served.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-28", "ex-29", "ex-35", "ex-39"]
+    },
+    "choshen": {
+        "hebrew": "חֹשֶׁן",
+        "transliteration": "ḥōšen",
+        "strongs": "H2833",
+        "gloss": "breastpiece, breastplate of judgment",
+        "definition": "The high priest's breastpiece, called choshen mishpat ('breastpiece of judgment/decision'). Square pouch worn over the heart, set with twelve precious stones engraved with tribal names. Contains the Urim and Thummim for divine guidance. The choshen emphasizes the high priest's role in bearing Israel's tribes before YHWH and seeking His will. The term connects to decision-making, judgment, and intercession. Worn 'over the heart' signifies love and constant remembrance. The precious stones reflect Israel's value and the high priest's mediatorial function.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-28", "ex-29", "ex-35", "ex-39"]
+    },
+    "urim_thummim": {
+        "hebrew": "אוּרִים וְתֻמִּים",
+        "transliteration": "ʾûrîm wəṯummîm",
+        "strongs": "H224_H8550",
+        "gloss": "lights and perfections, sacred lots",
+        "definition": "Sacred objects placed in the high priest's breastpiece for determining divine will. Urim possibly from ʾôr ('light') and Thummim from tāmam ('to be complete, perfect'). Exact nature uncertain—possibly stones or lots used for yes/no questions. Represents divine guidance, revelation, and theocratic decision-making. Used in critical moments requiring God's direct input. The pairing suggests illumination and integrity, light and truth. Emphasizes Israel's dependence on YHWH's wisdom rather than human reasoning or pagan divination. Mediates divine will through priestly office.",
+        "language": "hebrew",
+        "chapters_used": ["ex-28"]
+    },
+    "tzitz": {
+        "hebrew": "צִיץ",
+        "transliteration": "ṣîṣ",
+        "strongs": "H6731",
+        "gloss": "plate, flower, diadem",
+        "definition": "The golden plate worn on the high priest's turban, engraved with 'Holy to YHWH' (qodesh la-YHWH). From ṣûṣ ('to blossom, shine'), suggesting radiance and flourishing. The tzitz rests on the forehead, bearing Israel's guilt regarding holy things (Ex 28:38). Represents consecration, holiness, and the priest's role in making Israel's worship acceptable. The inscription declares total devotion to YHWH. Positioned on the forehead—seat of will and identity—emphasizes complete dedication. The golden plate reflects divine glory and priestly mediation.",
+        "language": "hebrew",
+        "chapters_used": ["ex-28", "ex-29", "ex-39"]
+    },
+    "qodesh": {
+        "hebrew": "קֹדֶשׁ",
+        "transliteration": "qōḏeš",
+        "strongs": "H6944",
+        "gloss": "holiness, sacred, set apart",
+        "definition": "Holiness, sacredness, or that which is set apart for divine purposes. From qāḏaš ('to be holy, consecrated'), the term describes YHWH's essential nature and what belongs to Him. Exodus develops holiness theology: YHWH is holy, demands holiness, and makes holy. The mishkan has gradations of holiness (courtyard, Holy Place, Holy of Holies). Objects, times, and people are made holy through consecration. Qodesh implies separation from common use, purity, and danger—improper contact brings death. Holiness is both gift and demand, requiring reverence and obedience.",
+        "language": "hebrew",
+        "chapters_used": ["ex-3", "ex-12", "ex-15", "ex-16", "ex-19", "ex-20", "ex-22", "ex-26", "ex-28", "ex-29", "ex-30", "ex-31", "ex-35", "ex-36", "ex-37", "ex-39", "ex-40"]
+    },
+    "qadash": {
+        "hebrew": "קָדַשׁ",
+        "transliteration": "qāḏaš",
+        "strongs": "H6942",
+        "gloss": "to consecrate, sanctify, hallow",
+        "definition": "To make holy, consecrate, or set apart for sacred use. The verb form of qodesh, describing the process of sanctification. In Exodus, YHWH sanctifies the Sabbath, firstborn, priests, and tabernacle. Consecration involves ritual acts (washing, anointing, blood application) and separation from profane use. The term emphasizes divine action—YHWH makes holy—and human response—maintaining holiness. Sanctification creates boundaries between sacred and common, clean and unclean. The concept is foundational to covenant relationship: 'Be holy, for I am holy.'",
+        "language": "hebrew",
+        "chapters_used": ["ex-13", "ex-19", "ex-20", "ex-28", "ex-29", "ex-30", "ex-31", "ex-40"]
+    },
+    "mashach": {
+        "hebrew": "מָשַׁח",
+        "transliteration": "māšaḥ",
+        "strongs": "H4886",
+        "gloss": "to anoint, smear",
+        "definition": "To anoint with oil, consecrating for sacred office or purpose. Root of mashiach ('anointed one, messiah'). In Exodus, anointing consecrates priests, tabernacle, and sacred objects. The anointing oil (shemen ha-mishchah) is holy, not to be duplicated for common use. Anointing symbolizes Spirit empowerment, divine selection, and consecration. The act transfers holiness and sets apart for service. Anointing theology connects priesthood, kingship, and messianic expectation. The oil represents the Spirit's presence and power for appointed tasks.",
+        "language": "hebrew",
+        "chapters_used": ["ex-28", "ex-29", "ex-30", "ex-40"]
+    },
+    "shemen": {
+        "hebrew": "שֶׁמֶן",
+        "transliteration": "šemen",
+        "strongs": "H8081",
+        "gloss": "oil, olive oil, ointment",
+        "definition": "Oil, particularly olive oil used for anointing, lighting, and offerings. The sacred anointing oil (shemen ha-mishchah) contains myrrh, cinnamon, calamus, cassia, and olive oil. Used to consecrate priests and tabernacle, the oil symbolizes the Holy Spirit, joy, healing, and divine favor. Pure olive oil fuels the menorah, providing perpetual light. Oil in offerings represents richness and blessing. The prohibition against common use of sacred oil emphasizes holiness. Shemen theology connects consecration, illumination, and Spirit empowerment.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-27", "ex-29", "ex-30", "ex-35", "ex-37", "ex-39", "ex-40"]
+    },
+    "paroket": {
+        "hebrew": "פָּרֹכֶת",
+        "transliteration": "pārōḵeṯ",
+        "strongs": "H6532",
+        "gloss": "veil, curtain, screen",
+        "definition": "The veil separating the Holy Place from the Holy of Holies, from pāraḵ ('to separate, divide'). Made of blue, purple, and scarlet yarn with cherubim design, the paroket guards access to YHWH's immediate presence. Only the high priest enters once yearly on Yom Kippur. The veil represents the barrier between holy God and sinful humanity, the separation caused by sin. Its eventual tearing (at Messiah's death) symbolizes access to God's presence through atonement. The cherubim design recalls Eden's guardians, emphasizing restricted access to divine presence.",
+        "language": "hebrew",
+        "chapters_used": ["ex-26", "ex-27", "ex-35", "ex-36", "ex-38", "ex-39", "ex-40"]
+    },
+    "masak": {
+        "hebrew": "מָסָךְ",
+        "transliteration": "māsāḵ",
+        "strongs": "H4539",
+        "gloss": "screen, covering, curtain",
+        "definition": "A screen or curtain, particularly the entrance covering to the Holy Place and the courtyard gate. From sāḵaḵ ('to cover, screen'), the masak provides both access and boundary. Less restrictive than the paroket, the masak still marks transition from common to sacred space. The graduated coverings (courtyard screen, Holy Place screen, Holy of Holies veil) create zones of increasing holiness. The screens emphasize intentional approach to God—worship requires crossing thresholds and respecting boundaries. The coverings protect divine holiness while permitting regulated access.",
+        "language": "hebrew",
+        "chapters_used": ["ex-26", "ex-27", "ex-35", "ex-36", "ex-38", "ex-39", "ex-40"]
+    },
+    "chattat": {
+        "hebrew": "חַטָּאת",
+        "transliteration": "ḥaṭṭāʾṯ",
+        "strongs": "H2403",
+        "gloss": "sin offering, purification offering",
+        "definition": "Sin or purification offering, from chata ('to miss the mark, sin'). The chattat atones for unintentional sins and purifies from ritual impurity. Blood manipulation is central—applied to altar horns and sprinkled before the veil. The offering purges defilement from sanctuary and people. Different animals required based on offender's status (priest, ruler, common person). The chattat emphasizes sin's contaminating effect and need for blood purification. Represents both sin itself and its remedy, highlighting substitutionary atonement and divine provision for cleansing.",
+        "language": "hebrew",
+        "chapters_used": ["ex-29", "ex-30"]
+    },
+    "olah": {
+        "hebrew": "עֹלָה",
+        "transliteration": "ʿōlâ",
+        "strongs": "H5930",
+        "gloss": "burnt offering, whole offering",
+        "definition": "Burnt offering, from ʿālâ ('to go up, ascend'). The entire animal (except hide) is consumed on the altar, ascending as smoke to YHWH. The olah represents total consecration, devotion, and atonement. Offered daily (tamid) and on special occasions, it maintains covenant relationship. The complete burning symbolizes wholehearted dedication—nothing held back. The ascending smoke represents prayers and worship rising to God. The olah is the most frequent offering, emphasizing continual need for atonement and ongoing consecration to YHWH.",
+        "language": "hebrew",
+        "chapters_used": ["ex-10", "ex-18", "ex-20", "ex-24", "ex-29", "ex-30", "ex-32", "ex-40"]
+    },
+    "shelamim": {
+        "hebrew": "שְׁלָמִים",
+        "transliteration": "šəlāmîm",
+        "strongs": "H8002",
+        "gloss": "peace offering, fellowship offering",
+        "definition": "Peace or fellowship offering, from shalom ('peace, wholeness, well-being'). Unlike burnt offerings, portions are eaten by offerer and priests in communal meal. The shelamim celebrates covenant relationship, thanksgiving, and fellowship with YHWH. Blood and fat go to altar, breast and thigh to priests, remainder to offerer and family. This shared meal symbolizes peace between God and humanity, reconciliation, and covenant communion. The offering expresses gratitude, fulfills vows, or celebrates freewill devotion. Emphasizes relational aspect of worship and joy in God's presence.",
+        "language": "hebrew",
+        "chapters_used": ["ex-20", "ex-24", "ex-29", "ex-32"]
+    },
+    "minchah": {
+        "hebrew": "מִנְחָה",
+        "transliteration": "minḥâ",
+        "strongs": "H4503",
+        "gloss": "grain offering, tribute, gift",
+        "definition": "Grain or tribute offering, from an unused root meaning 'to apportion'. Consists of fine flour, oil, and frankincense—products of human labor. The minchah accompanies animal sacrifices or stands alone. A memorial portion burns on the altar while priests eat the remainder. Represents dedication of daily work, thanksgiving for provision, and acknowledgment of YHWH as provider. The grain offering emphasizes covenant loyalty and tribute to the divine King. Unleavened and salted, it symbolizes purity and covenant permanence. The minchah connects worship to ordinary life and labor.",
+        "language": "hebrew",
+        "chapters_used": ["ex-29", "ex-30", "ex-40"]
+    },
+    "tamid": {
+        "hebrew": "תָּמִיד",
+        "transliteration": "tāmîḏ",
+        "strongs": "H8548",
+        "gloss": "continual, perpetual, regular",
+        "definition": "Continual, perpetual, or regular—describing offerings and rituals performed daily without ceasing. The tamid offering (two lambs daily, morning and evening) maintains perpetual atonement and worship. The term emphasizes constancy, faithfulness, and uninterrupted devotion. Applied to the menorah's light, incense, showbread, and burnt offerings. Tamid worship reflects YHWH's unchanging nature and Israel's ongoing covenant obligations. The perpetual nature anticipates eternal worship and continuous access to God through perfect sacrifice. Regularity creates rhythm of devotion and constant awareness of divine presence.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-27", "ex-28", "ex-29", "ex-30"]
+    },
+    "kipper": {
+        "hebrew": "כִּפֶּר",
+        "transliteration": "kipper",
+        "strongs": "H3722",
+        "gloss": "to atone, cover, purge",
+        "definition": "To make atonement, cover, or purge sin. Root of kippur and kapporet. The verb describes the process by which sin is covered, wrath is averted, and relationship is restored. In Exodus, blood effects kipper—life for life, substitutionary atonement. The term can mean 'to cover' (sin hidden from God's sight) or 'to wipe away' (sin removed). Atonement involves both propitiation (satisfying divine justice) and expiation (removing sin's defilement). Kipper theology is central to sacrificial system and anticipates ultimate atonement through Messiah's blood.",
+        "language": "hebrew",
+        "chapters_used": ["ex-29", "ex-30", "ex-32"]
+    },
+    "terumah": {
+        "hebrew": "תְּרוּמָה",
+        "transliteration": "tərûmâ",
+        "strongs": "H8641",
+        "gloss": "contribution, offering, heave offering",
+        "definition": "A contribution or offering lifted up to YHWH, from rûm ('to be high, exalted'). The terumah for the tabernacle consists of voluntary gifts from willing hearts—gold, silver, bronze, fabrics, skins, wood, oil, spices, and gems. The term emphasizes freewill giving, generosity, and participation in sacred work. Offerings are 'lifted' or 'set apart' for holy use. The terumah principle establishes that worship requires sacrifice and that God's house is built through His people's devotion. The generous response demonstrates transformed hearts and covenant loyalty.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-29", "ex-30", "ex-35", "ex-36"]
+    },
+    "nedavah": {
+        "hebrew": "נְדָבָה",
+        "transliteration": "nəḏāḇâ",
+        "strongs": "H5071",
+        "gloss": "freewill offering, voluntary gift",
+        "definition": "Freewill or voluntary offering, from nāḏaḇ ('to volunteer, offer freely'). Unlike mandatory offerings, the nedavah springs from willing heart and generous spirit. In Exodus 35-36, the people bring nedavah offerings for the tabernacle until Moses must restrain them. The term emphasizes joyful giving, spontaneous devotion, and heart-level worship. Freewill offerings demonstrate love for YHWH beyond mere obligation. The concept anticipates New Covenant worship 'in spirit and truth' where external compulsion gives way to internal motivation. Generosity reflects transformed hearts.",
+        "language": "hebrew",
+        "chapters_used": ["ex

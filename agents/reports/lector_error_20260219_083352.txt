@@ -1,0 +1,377 @@
+
+{
+    "shavuot": {
+        "hebrew": "שָׁבֻעוֹת",
+        "transliteration": "shavuʿot",
+        "strongs": "H7620",
+        "gloss": "weeks, feast of weeks",
+        "definition": "Plural of shavua (week); the Feast of Weeks celebrated seven weeks after Passover. In Jubilees, this feast commemorates the covenant renewal and is central to the book's calendrical theology. The term connects to the jubilee cycle of seven-times-seven years, emphasizing the sacred septenary pattern in creation and covenant history.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-6", "jub-15", "jub-22", "jub-44"]
+    },
+    "yovel": {
+        "hebrew": "יוֹבֵל",
+        "transliteration": "yovel",
+        "strongs": "H3104",
+        "gloss": "jubilee, ram's horn",
+        "definition": "The jubilee year occurring every 49 years (7x7), marked by release, restoration, and covenant renewal. From the root meaning 'ram' or 'ram's horn' used to announce the jubilee. In Jubilees, this term structures all of salvation history into jubilee periods, with major events aligned to jubilee cycles. The book itself is named after this concept, presenting history as divinely ordered jubilee periods.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-4", "jub-23", "jub-50"]
+    },
+    "luchot": {
+        "hebrew": "לֻחוֹת",
+        "transliteration": "luḥot",
+        "strongs": "H3871",
+        "gloss": "tablets, tables",
+        "definition": "Plural of luach (tablet, board); specifically the tablets of stone containing the covenant law. In Jubilees, the heavenly tablets are a central concept—pre-existent divine records containing all of history, law, and destiny written before creation. These tablets represent divine foreknowledge and the predetermined nature of covenant history.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-3", "jub-4", "jub-6", "jub-16", "jub-30", "jub-32"]
+    },
+    "luchot_hashamayim": {
+        "hebrew": "לֻחוֹת הַשָּׁמַיִם",
+        "transliteration": "luḥot hashamayim",
+        "strongs": "H3871+H8064",
+        "gloss": "heavenly tablets",
+        "definition": "The tablets of heaven—a unique concept in Jubilees referring to pre-existent divine records containing all decrees, laws, and predetermined history. These tablets exist in God's presence and are consulted by angels. They contain the names of the righteous, the calendar, festival laws, and the entire course of history from creation to eschaton. This concept emphasizes divine sovereignty and the predetermined nature of salvation history.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-3", "jub-4", "jub-5", "jub-6", "jub-15", "jub-16", "jub-23", "jub-28", "jub-30", "jub-31", "jub-32", "jub-36", "jub-49"]
+    },
+    "moed": {
+        "hebrew": "מוֹעֵד",
+        "transliteration": "moʿed",
+        "strongs": "H4150",
+        "gloss": "appointed time, festival",
+        "definition": "An appointed time, season, or festival; from the root ya'ad (to appoint, meet). In Jubilees, this term is crucial for the book's calendrical polemic—the moedim must be observed according to the solar calendar of 364 days, not the lunar calendar. The proper observance of appointed times is essential for covenant faithfulness and separates the righteous from those who follow erroneous calendars.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-2", "jub-6", "jub-15", "jub-16", "jub-23", "jub-49", "jub-50"]
+    },
+    "moedim": {
+        "hebrew": "מוֹעֲדִים",
+        "transliteration": "moʿadim",
+        "strongs": "H4150",
+        "gloss": "appointed times, festivals",
+        "definition": "Plural of moed; the appointed festivals and sacred times. In Jubilees, the correct observance of the moedim according to the 364-day solar calendar is a major theological concern. The book presents these festivals as written on the heavenly tablets and established at creation, making their proper observance a matter of cosmic order and covenant loyalty.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-2", "jub-6", "jub-16", "jub-23", "jub-49", "jub-50"]
+    },
+    "shabbat": {
+        "hebrew": "שַׁבָּת",
+        "transliteration": "shabbat",
+        "strongs": "H7676",
+        "gloss": "sabbath, rest",
+        "definition": "The seventh day of rest; from shavat (to cease, rest). In Jubilees, the Sabbath is established at creation and written on the heavenly tablets. The book emphasizes strict Sabbath observance with detailed prohibitions, presenting it as a sign of the covenant and a practice observed by angels in heaven. Violation of Sabbath is a capital offense that threatens covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": ["jub-2", "jub-50"]
+    },
+    "milah": {
+        "hebrew": "מִילָה",
+        "transliteration": "milah",
+        "strongs": "H4139",
+        "gloss": "circumcision",
+        "definition": "Circumcision; from mul (to circumcise, cut short). In Jubilees, circumcision on the eighth day is a non-negotiable covenant sign written on the heavenly tablets. The book presents it as a creation ordinance and emphasizes that failure to circumcise makes one's children 'sons of Beliar' rather than sons of the covenant. This reflects the book's concern for boundary maintenance and covenant identity.",
+        "language": "hebrew",
+        "chapters_used": ["jub-15", "jub-16", "jub-20"]
+    },
+    "beliar": {
+        "hebrew": "בְּלִיַּעַל",
+        "transliteration": "beliyaʿal",
+        "strongs": "H1100",
+        "gloss": "worthlessness, wickedness, Belial",
+        "definition": "Worthlessness, wickedness; in Second Temple literature, personified as Beliar/Belial, the chief of evil spirits and opponent of God. In Jubilees, Beliar is the prince of demons who leads the spirits of error (Mastema's forces). He represents the cosmic force of evil opposing God's covenant people. The term appears in contexts of apostasy, idolatry, and covenant violation.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-15", "jub-20", "jub-23"]
+    },
+    "ruach_hattu": {
+        "hebrew": "רוּחַ הַטָּעוּת",
+        "transliteration": "ruaḥ hattaʿut",
+        "strongs": "H7307+H8595",
+        "gloss": "spirit of error",
+        "definition": "The spirit(s) of error or deception; malevolent spiritual beings under Mastema/Beliar who lead humanity into sin, idolatry, and covenant violation. In Jubilees' dualistic framework, these spirits actively oppose God's purposes and deceive humanity. They are bound after the flood but Mastema requests that one-tenth remain to test and accuse humanity.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-10", "jub-11", "jub-12", "jub-15", "jub-19", "jub-20", "jub-23"]
+    },
+    "ruach_raah": {
+        "hebrew": "רוּחַ רָעָה",
+        "transliteration": "ruaḥ raʿah",
+        "strongs": "H7307+H7451",
+        "gloss": "evil spirit",
+        "definition": "Evil spirit; malevolent spiritual entity causing harm, disease, and leading to sin. In Jubilees, these spirits are the disembodied spirits of the Nephilim/giants who died in the flood. They continue to afflict humanity under the leadership of Mastema. Noah prays for protection from these spirits, and God binds most of them, leaving only one-tenth to continue their work of testing.",
+        "language": "hebrew",
+        "chapters_used": ["jub-7", "jub-10", "jub-11", "jub-12", "jub-19", "jub-48"]
+    },
+    "sar_mastema": {
+        "hebrew": "שַׂר מַשְׂטֵמָה",
+        "transliteration": "sar mastemah",
+        "strongs": "H8269+H4960",
+        "gloss": "prince Mastema, chief adversary",
+        "definition": "The prince/chief of enmity or hostility; in Jubilees, Mastema is the leader of evil spirits, functionally equivalent to Satan. He is the accuser who tests humanity and leads them into sin. Mastema requests that one-tenth of the evil spirits remain unbound to continue their work. He opposes Moses in Egypt and attempts to kill him, paralleling Satan's role in other Second Temple texts.",
+        "language": "hebrew",
+        "chapters_used": ["jub-10", "jub-11", "jub-17", "jub-18", "jub-48", "jub-49"]
+    },
+    "qedoshim": {
+        "hebrew": "קְדוֹשִׁים",
+        "transliteration": "qedoshim",
+        "strongs": "H6918",
+        "gloss": "holy ones, angels",
+        "definition": "Holy ones; plural of qadosh. In Jubilees, this term frequently refers to angels who dwell in God's presence, observe the Sabbath and festivals, and are circumcised from creation. The righteous are called to imitate the qedoshim in their observance of covenant law. The term emphasizes the heavenly pattern that earthly worship must follow.",
+        "language": "hebrew",
+        "chapters_used": ["jub-2", "jub-15", "jub-30", "jub-31"]
+    },
+    "malakhei_panim": {
+        "hebrew": "מַלְאֲכֵי פָנִים",
+        "transliteration": "malʾakhei panim",
+        "strongs": "H4397+H6440",
+        "gloss": "angels of the presence",
+        "definition": "Angels of the face/presence; the highest order of angels who stand in God's immediate presence. In Jubilees, these angels are distinguished from the angels of sanctification as the two highest angelic orders. They observe Sabbath and festivals from creation and are circumcised. The narrator of Jubilees is identified as one of the angels of the presence, giving the book divine authority.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-2", "jub-6", "jub-15", "jub-30", "jub-31"]
+    },
+    "malakhei_qodesh": {
+        "hebrew": "מַלְאֲכֵי קֹדֶשׁ",
+        "transliteration": "malʾakhei qodesh",
+        "strongs": "H4397+H6944",
+        "gloss": "angels of sanctification",
+        "definition": "Angels of holiness/sanctification; the second highest order of angels in Jubilees' angelology. Along with the angels of the presence, they observe Sabbath and festivals from creation and are circumcised. These two orders represent the heavenly pattern that Israel is called to follow in covenant observance.",
+        "language": "hebrew",
+        "chapters_used": ["jub-2", "jub-15", "jub-30", "jub-31"]
+    },
+    "torat_mosheh": {
+        "hebrew": "תּוֹרַת מֹשֶׁה",
+        "transliteration": "torat mosheh",
+        "strongs": "H8451+H4872",
+        "gloss": "law of Moses",
+        "definition": "The law/teaching of Moses; the Torah. In Jubilees, the law given to Moses is presented as a revelation of what was already written on the heavenly tablets from creation. This gives Mosaic law eternal, pre-existent status and makes it the cosmic order established at creation. The book presents itself as an expansion and interpretation of the Torah.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-2", "jub-6", "jub-50"]
+    },
+    "edut": {
+        "hebrew": "עֵדוּת",
+        "transliteration": "ʿedut",
+        "strongs": "H5715",
+        "gloss": "testimony, witness",
+        "definition": "Testimony, witness; from ʿud (to bear witness). In Jubilees, this term refers to the covenant law as divine testimony. The book presents itself as 'the division of days according to the law and testimony,' emphasizing that its chronological framework and legal interpretations are authoritative witness to God's covenant requirements.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-6", "jub-23"]
+    },
+    "chalaq_hayamim": {
+        "hebrew": "חֵלֶק הַיָּמִים",
+        "transliteration": "ḥeleq hayyamim",
+        "strongs": "H2506+H3117",
+        "gloss": "division of days",
+        "definition": "The division or apportionment of days; refers to the chronological framework and calendar system. Jubilees presents itself as 'the book of the division of days' according to the law and testimony. This phrase emphasizes the book's concern with proper chronology, the correct calendar (364-day solar), and the division of history into jubilee periods.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-6", "jub-23", "jub-50"]
+    },
+    "sefer_hayashar": {
+        "hebrew": "סֵפֶר הַיָּשָׁר",
+        "transliteration": "sefer hayyashar",
+        "strongs": "H5612+H3477",
+        "gloss": "book of the upright",
+        "definition": "The book of the upright/righteous; an ancient text mentioned in Joshua 10:13 and 2 Samuel 1:18. In Jubilees, this book is referenced as an authoritative source, suggesting it was part of the author's scriptural tradition. The reference indicates Jubilees' awareness of a broader textual tradition beyond the canonical Torah.",
+        "language": "hebrew",
+        "chapters_used": ["jub-2"]
+    },
+    "qorban": {
+        "hebrew": "קָרְבָּן",
+        "transliteration": "qorban",
+        "strongs": "H7133",
+        "gloss": "offering, sacrifice",
+        "definition": "An offering or sacrifice brought near to God; from qarav (to draw near). In Jubilees, proper sacrifice according to the correct calendar and ritual law is essential for covenant relationship. The book details sacrificial practices from the earliest periods, presenting them as established on the heavenly tablets and practiced by the patriarchs.",
+        "language": "hebrew",
+        "chapters_used": ["jub-3", "jub-4", "jub-6", "jub-7", "jub-16", "jub-21", "jub-32", "jub-49"]
+    },
+    "dam": {
+        "hebrew": "דָּם",
+        "transliteration": "dam",
+        "strongs": "H1818",
+        "gloss": "blood",
+        "definition": "Blood; the life-force in living creatures. In Jubilees, blood has profound significance: it must not be consumed (written on heavenly tablets), it cries out for justice when shed, and it is central to sacrificial atonement. The book emphasizes blood prohibitions and proper blood ritual as essential covenant requirements from Noah onward.",
+        "language": "hebrew",
+        "chapters_used": ["jub-3", "jub-4", "jub-6", "jub-7", "jub-21", "jub-49"]
+    },
+    "ervah": {
+        "hebrew": "עֶרְוָה",
+        "transliteration": "ʿerwah",
+        "strongs": "H6172",
+        "gloss": "nakedness, sexual impropriety",
+        "definition": "Nakedness, shame, sexual impropriety; refers to forbidden sexual relations. In Jubilees, laws against uncovering nakedness are written on the heavenly tablets and violations bring divine judgment. The book emphasizes sexual purity as essential for covenant faithfulness and presents detailed laws regarding proper and improper unions.",
+        "language": "hebrew",
+        "chapters_used": ["jub-3", "jub-7", "jub-16", "jub-20", "jub-30", "jub-33", "jub-41"]
+    },
+    "tumah": {
+        "hebrew": "טֻמְאָה",
+        "transliteration": "tumʾah",
+        "strongs": "H2932",
+        "gloss": "uncleanness, impurity",
+        "definition": "Ritual impurity or uncleanness; from tame (to be unclean). In Jubilees, laws of purity are written on the heavenly tablets and strictly enforced. The book details purification periods after childbirth, contact with the dead, and other sources of impurity. Maintaining purity is essential for approaching God and participating in covenant worship.",
+        "language": "hebrew",
+        "chapters_used": ["jub-3", "jub-7", "jub-21", "jub-30", "jub-33", "jub-50"]
+    },
+    "tahor": {
+        "hebrew": "טָהוֹר",
+        "transliteration": "tahor",
+        "strongs": "H2889",
+        "gloss": "clean, pure",
+        "definition": "Ritually clean or pure; the opposite of tame (unclean). In Jubilees, maintaining ritual purity is essential for covenant relationship and worship. The book presents detailed purity laws as written on the heavenly tablets from creation, making them part of the cosmic order rather than merely Mosaic innovations.",
+        "language": "hebrew",
+        "chapters_used": ["jub-3", "jub-4", "jub-7", "jub-21", "jub-50"]
+    },
+    "niddah": {
+        "hebrew": "נִדָּה",
+        "transliteration": "niddah",
+        "strongs": "H5079",
+        "gloss": "menstrual impurity, separation",
+        "definition": "Menstrual impurity or the state of separation due to menstruation; from nadad (to flee, wander). In Jubilees, laws regarding niddah are detailed and strict, with specific purification periods required. The book presents these laws as written on the heavenly tablets and essential for maintaining covenant purity.",
+        "language": "hebrew",
+        "chapters_used": ["jub-3", "jub-50"]
+    },
+    "karet": {
+        "hebrew": "כָּרֵת",
+        "transliteration": "karet",
+        "strongs": "H3772",
+        "gloss": "cut off, excommunication",
+        "definition": "To be cut off; the penalty of excommunication or divine extirpation for serious covenant violations. In Jubilees, karet is the punishment for Sabbath violation, failure to circumcise, eating blood, and other serious transgressions. The term implies being cut off from the covenant community and possibly premature death by divine judgment.",
+        "language": "hebrew",
+        "chapters_used": ["jub-2", "jub-6", "jub-7", "jub-15", "jub-21", "jub-30", "jub-33", "jub-50"]
+    },
+    "avodah_zarah": {
+        "hebrew": "עֲבוֹדָה זָרָה",
+        "transliteration": "ʿavodah zarah",
+        "strongs": "H5656+H2114",
+        "gloss": "foreign worship, idolatry",
+        "definition": "Foreign or strange worship; idolatry. In Jubilees, idolatry is the primary sin that brings divine judgment. The book traces idolatry's origin to demonic deception and presents it as the fundamental covenant violation. Abraham's rejection of idolatry and his father's idol-making business is a central narrative in the book's presentation of covenant faithfulness.",
+        "language": "hebrew",
+        "chapters_used": ["jub-11", "jub-12", "jub-20", "jub-21", "jub-22", "jub-23"]
+    },
+    "pesel": {
+        "hebrew": "פֶּסֶל",
+        "transliteration": "pesel",
+        "strongs": "H6459",
+        "gloss": "graven image, idol",
+        "definition": "A carved or graven image; an idol. From pasal (to hew, carve). In Jubilees, the making and worship of peselim is strictly forbidden and brings divine judgment. The book presents Abraham's father Terah as an idol-maker and details Abraham's rejection of idolatry, establishing the patriarch as the model of covenant faithfulness in opposition to idolatry.",
+        "language": "hebrew",
+        "chapters_used": ["jub-11", "jub-12", "jub-20", "jub-21", "jub-22"]
+    },
+    "shedim": {
+        "hebrew": "שֵׁדִים",
+        "transliteration": "shedim",
+        "strongs": "H7700",
+        "gloss": "demons, evil spirits",
+        "definition": "Demons or evil spirits; malevolent supernatural beings. In Jubilees, the shedim are the disembodied spirits of the Nephilim who died in the flood. They continue to afflict humanity with disease, deception, and sin under Mastema's leadership. The book presents a developed demonology where these spirits actively oppose God's covenant purposes.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-7", "jub-10", "jub-11", "jub-12", "jub-19", "jub-22", "jub-48"]
+    },
+    "asham": {
+        "hebrew": "אָשָׁם",
+        "transliteration": "ʾasham",
+        "strongs": "H817",
+        "gloss": "guilt offering, trespass",
+        "definition": "Guilt or trespass offering; a sacrifice for specific sins requiring restitution. From asham (to be guilty). In Jubilees, proper sacrifice according to the heavenly tablets is essential for atonement. The book details sacrificial practices from the earliest periods, presenting them as established patterns that must be followed precisely.",
+        "language": "hebrew",
+        "chapters_used": ["jub-6", "jub-7", "jub-21", "jub-32"]
+    },
+    "kapparah": {
+        "hebrew": "כַּפָּרָה",
+        "transliteration": "kapparah",
+        "strongs": "H3725",
+        "gloss": "atonement, expiation",
+        "definition": "Atonement or expiation; from kapar (to cover, atone). In Jubilees, atonement is achieved through proper sacrifice according to the laws written on the heavenly tablets. The book emphasizes that atonement requires correct ritual, proper calendar observance, and covenant faithfulness. Blood plays a central role in the atonement process.",
+        "language": "hebrew",
+        "chapters_used": ["jub-5", "jub-6", "jub-34", "jub-41", "jub-50"]
+    },
+    "yom_kippurim": {
+        "hebrew": "יוֹם כִּפֻּרִים",
+        "transliteration": "yom kippurim",
+        "strongs": "H3117+H3725",
+        "gloss": "day of atonement",
+        "definition": "The Day of Atonement; the most solemn day in the Jewish calendar when national atonement is made. In Jubilees, this day is written on the heavenly tablets and must be observed according to the correct solar calendar. The book connects Yom Kippur to key narrative events, giving it historical grounding in the patriarchal period.",
+        "language": "hebrew",
+        "chapters_used": ["jub-5", "jub-34"]
+    },
+    "pesach": {
+        "hebrew": "פֶּסַח",
+        "transliteration": "pesaḥ",
+        "strongs": "H6453",
+        "gloss": "Passover",
+        "definition": "Passover; the festival commemorating Israel's exodus from Egypt. From pasach (to pass over, skip). In Jubilees, Passover is written on the heavenly tablets and must be observed on the correct date according to the solar calendar. The book provides detailed regulations for Passover observance and connects it to the broader pattern of covenant festivals.",
+        "language": "hebrew",
+        "chapters_used": ["jub-49"]
+    },
+    "matzot": {
+        "hebrew": "מַצּוֹת",
+        "transliteration": "matstsot",
+        "strongs": "H4682",
+        "gloss": "unleavened bread",
+        "definition": "Unleavened bread; plural of matstsah. Bread made without leaven, eaten during Passover and the Feast of Unleavened Bread. In Jubilees, the eating of matzot is commanded as part of Passover observance according to the laws written on the heavenly tablets. The book provides specific regulations for the seven-day festival.",
+        "language": "hebrew",
+        "chapters_used": ["jub-49"]
+    },
+    "sukkot": {
+        "hebrew": "סֻכּוֹת",
+        "transliteration": "sukkot",
+        "strongs": "H5521",
+        "gloss": "booths, tabernacles",
+        "definition": "Booths or tabernacles; plural of sukkah. The Feast of Tabernacles celebrated in the seventh month. In Jubilees, this festival is written on the heavenly tablets and observed by the patriarchs. The book emphasizes its proper observance according to the solar calendar and connects it to covenant renewal and the dwelling of God with his people.",
+        "language": "hebrew",
+        "chapters_used": ["jub-16", "jub-32"]
+    },
+    "rosh_hashanah": {
+        "hebrew": "רֹאשׁ הַשָּׁנָה",
+        "transliteration": "roʾsh hashanah",
+        "strongs": "H7218+H8141",
+        "gloss": "head of the year",
+        "definition": "The head or beginning of the year; the new year festival. In Jubilees, the year begins in the first month (spring) according to the solar calendar, not in the seventh month as in later rabbinic tradition. The book's calendar system places the new year at the spring equinox, aligning with the creation account where the year begins in the first month.",
+        "language": "hebrew",
+        "chapters_used": ["jub-6"]
+    },
+    "chodesh": {
+        "hebrew": "חֹדֶשׁ",
+        "transliteration": "ḥodesh",
+        "strongs": "H2320",
+        "gloss": "month, new moon",
+        "definition": "Month or new moon; from chadash (to be new). In Jubilees, the months are solar, not lunar—each month has exactly 30 days (except for four intercalary days), creating a 364-day year. This solar calendar is presented as the true calendar written on the heavenly tablets, in contrast to the lunar calendar which the book implicitly rejects.",
+        "language": "hebrew",
+        "chapters_used": ["jub-2", "jub-6", "jub-49", "jub-50"]
+    },
+    "shanah": {
+        "hebrew": "שָׁנָה",
+        "transliteration": "shanah",
+        "strongs": "H8141",
+        "gloss": "year",
+        "definition": "Year; a complete cycle of seasons. In Jubilees, the year consists of exactly 364 days (52 weeks), divided into four seasons of 91 days each. This solar calendar ensures that festivals always fall on the same day of the week each year. The book presents this as the divinely ordained calendar written on the heavenly tablets from creation.",
+        "language": "hebrew",
+        "chapters_used": ["jub-1", "jub-2", "jub-4", "jub-5", "jub-6", "jub-23", "jub-50"]
+    },
+    "tekufah": {
+        "hebrew": "תְּקוּפָה",
+        "transliteration": "tequfah",
+        "strongs": "H8622",
+        "gloss": "season, circuit",
+        "definition": "Season, circuit, or turning point; from naqaf (to go around). In Jubilees, the year is divided into four tekufot (seasons) of exactly 91 days each, marked by the equinoxes and solstices. This creates a perfectly symmetrical solar calendar of 364 days. The four seasons are fundamental to the book's calendrical system.",
+        "language": "hebrew",
+        "chapters_used": ["jub-2", "jub-6"]
+    },
+    "mishmar": {
+        "hebrew": "מִשְׁמָר",
+        "transliteration": "mishmar",
+        "strongs": "H4931",
+        "gloss": "watch, guard, division",
+        "definition": "Watch, guard, or division; from shamar (to keep, guard). In Jubilees, this term can refer to priestly divisions or to the keeping/observance of commandments. The book emphasizes that Israel must 'keep the mishmar' of God's covenant requirements as written on the heavenly tablets.",
+        "language": "hebrew",
+        "chapters_used": ["jub-2", "jub-6", "jub-15", "jub-21", "jub-50"]
+    },
+    "mishpachah": {
+        "hebrew": "מִשְׁפָּחָה",
+        "transliteration": "mishpaḥah",
+        "strongs": "H4940",
+        "gloss": "family, clan",
+        "definition": "Family, clan, or extended kinship group; from the root meaning 'to join.' In Jubilees, genealogies and family lines are carefully traced to establish covenant identity and inheritance. The book emphasizes endogamy (marrying within the covenant community) and presents detailed genealogies showing the separation of the righteous line from the nations.",
+        "language": "hebrew",
+        "chapters_used": ["jub-8", "jub-10", "jub-20", "jub-22", "jub-25", "jub-30"]
+    },
+    "nachalah": {
+        "hebrew": "נַחֲלָה",
+        "transliteration": "naḥalah",
+        "strongs": "H5159",
+        "gloss": "inheritance, possession",
+        "definition": "Inheritance or possession; from nachal (to inherit). In Jubilees, the division of the earth among Noah's sons establishes territorial inheritances that must not be violated. The book presents detailed geographical boundaries and emphasizes that each nation has its divinely appointed inheritance. Israel's inheritance is particularly

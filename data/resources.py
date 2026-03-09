@@ -1,0 +1,264 @@
+"""
+resources.py — Curated study resources: videos, books, podcasts, academic papers.
+Categorized and tagged for the Ancient Texts Study App.
+"""
+
+RESOURCES = [
+    # ── VIDEO LECTURES & INTERVIEWS ──────────────────────────
+    {
+        "id": "muddamalle-unseen-battle-mcdowell",
+        "type": "video",
+        "title": "The Unseen Realm Explained: Spiritual Warfare, Nephilim and Judgment of the Gods",
+        "author": "Joel Muddamalle (on Sean McDowell)",
+        "url": "https://www.youtube.com/watch?v=EUdJ0lmrWTM",
+        "date": "2026-02-20",
+        "duration": "1:29:19",
+        "description": "Joel Muddamalle unpacks the worldview behind The Unseen Battle, building on Heiser's Unseen Realm. Covers the three rebellions (Gen 3, Gen 6, Gen 11), Deuteronomy 32 worldview, divine council, Psalm 82, Christ's cosmic victory, and the church as God's renewed household.",
+        "tags": ["divine_council", "spiritual_warfare", "nephilim", "deut32", "psalm82", "three_rebellions", "christology"],
+        "featured": True
+    },
+    {
+        "id": "muddamalle-qa-unseen-realm",
+        "type": "video",
+        "title": "Answering YOUR Questions on the Unseen Realm | Live Q&A",
+        "author": "Joel Muddamalle (on Sean McDowell)",
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "date": "2026-02-24",
+        "duration": "1:05:54",
+        "description": "Live Q&A follow-up with Joel Muddamalle on divine council theology, spiritual warfare, and questions from viewers engaging Heiser's work for the first time.",
+        "tags": ["divine_council", "spiritual_warfare", "qa"],
+        "featured": False
+    },
+    {
+        "id": "mcdowell-unseen-realm-revisited",
+        "type": "video",
+        "title": "The Unseen Realm Revisited 10 Years Later",
+        "author": "Sean McDowell",
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "date": "2025-04",
+        "duration": "1:07:50",
+        "description": "A decade after The Unseen Realm, Sean McDowell revisits the book's impact, the divine council worldview, and how scholarship has developed. 370K+ views.",
+        "tags": ["divine_council", "unseen_realm", "heiser"],
+        "featured": False
+    },
+    {
+        "id": "heiser-unseen-realm-seminar",
+        "type": "video",
+        "title": "The Unseen Realm Full Seminar",
+        "author": "Michael S. Heiser",
+        "url": "https://www.youtube.com/results?search_query=michael+heiser+unseen+realm+seminar",
+        "date": "2016",
+        "duration": "~5 hours",
+        "description": "Heiser's comprehensive seminar covering the entire Unseen Realm framework: divine council, Psalm 82, Deuteronomy 32 worldview, Genesis 6, the Watchers, Nephilim, and Christ as the ultimate divine council member.",
+        "tags": ["divine_council", "psalm82", "deut32", "nephilim", "watchers", "heiser"],
+        "featured": True
+    },
+    {
+        "id": "heiser-two-powers",
+        "type": "video",
+        "title": "Two Powers in Heaven",
+        "author": "Michael S. Heiser",
+        "url": "https://www.youtube.com/results?search_query=michael+heiser+two+powers+in+heaven",
+        "date": "2015",
+        "duration": "~1.5 hours",
+        "description": "Heiser presents Judaism's ancient doctrine of two powers in heaven — the visible and invisible YHWH — and how this Second Temple Jewish belief forms the backdrop for New Testament Christology.",
+        "tags": ["two_powers", "christology", "second_temple", "heiser", "godhead"],
+        "featured": True
+    },
+    {
+        "id": "heiser-divine-council-lecture",
+        "type": "video",
+        "title": "The Divine Council in the Hebrew Bible",
+        "author": "Michael S. Heiser",
+        "url": "https://www.youtube.com/results?search_query=michael+heiser+divine+council+lecture",
+        "date": "2014",
+        "duration": "~1.5 hours",
+        "description": "Academic lecture on the divine council as described in the Hebrew Bible. Covers Psalm 82, Psalm 89, 1 Kings 22, Job 1-2, Isaiah 6, and Daniel 7. The foundational talk for understanding the heavenly administration.",
+        "tags": ["divine_council", "psalm82", "psalm89", "job", "isaiah6", "daniel7", "heiser"],
+        "featured": True
+    },
+    {
+        "id": "heiser-genesis6-sons-of-god",
+        "type": "video",
+        "title": "Genesis 6 — The Sons of God and the Nephilim",
+        "author": "Michael S. Heiser",
+        "url": "https://www.youtube.com/results?search_query=michael+heiser+genesis+6+sons+of+god+nephilim",
+        "date": "2016",
+        "duration": "~1 hour",
+        "description": "Detailed study of Genesis 6:1-4 — why the sons of God are divine beings, not Sethites. Covers the Watcher tradition in 1 Enoch, the Nephilim, and the Second Temple Jewish understanding of the pre-flood rebellion.",
+        "tags": ["nephilim", "genesis6", "watchers", "sons_of_god", "1enoch", "heiser"],
+        "featured": True
+    },
+    {
+        "id": "heiser-deuteronomy32-worldview",
+        "type": "video",
+        "title": "Deuteronomy 32 Worldview — God's Allotment of the Nations",
+        "author": "Michael S. Heiser",
+        "url": "https://www.youtube.com/results?search_query=michael+heiser+deuteronomy+32+worldview",
+        "date": "2015",
+        "duration": "~1 hour",
+        "description": "The key passage that frames the entire biblical story: Deuteronomy 32:8-9 and God's disinheritance of the nations at Babel. Covers the Dead Sea Scrolls reading (sons of God vs. sons of Israel), the 70 nations tradition, and Israel as YHWH's own inheritance.",
+        "tags": ["deut32", "divine_council", "babel", "nations", "dss", "heiser"],
+        "featured": True
+    },
+    {
+        "id": "heiser-reversing-hermon",
+        "type": "video",
+        "title": "Reversing Hermon — How 1 Enoch Influenced the New Testament",
+        "author": "Michael S. Heiser",
+        "url": "https://www.youtube.com/results?search_query=michael+heiser+reversing+hermon",
+        "date": "2017",
+        "duration": "~1.5 hours",
+        "description": "Heiser demonstrates how 1 Enoch's Watcher story influenced NT authors — from Jesus' ministry to Paul's head covering instructions to Peter's 'spirits in prison.' The Watchers descend on Mount Hermon; Christ's ministry reverses every consequence.",
+        "tags": ["1enoch", "watchers", "nephilim", "mount_hermon", "second_temple", "heiser"],
+        "featured": True
+    },
+    {
+        "id": "naked-bible-podcast-playlist",
+        "type": "podcast",
+        "title": "Naked Bible Podcast (Full Archive)",
+        "author": "Michael S. Heiser",
+        "url": "https://nakedbiblepodcast.com/",
+        "date": "2012-2023",
+        "duration": "400+ episodes",
+        "description": "Heiser's long-running podcast covering the entire Bible through the lens of the divine council worldview. Episode-by-episode verse studies, Q&A sessions, and deep dives into Hebrew, Greek, and Second Temple literature.",
+        "tags": ["divine_council", "heiser", "podcast", "comprehensive"],
+        "featured": True
+    },
+
+    # ── BOOKS ────────────────────────────────────────────────
+    {
+        "id": "muddamalle-unseen-battle",
+        "type": "book",
+        "title": "The Unseen Battle: Spiritual Warfare, the Three Rebellions, and Christ's Victory Over Dark Powers",
+        "author": "Joel Muddamalle",
+        "url": "https://www.amazon.com/Unseen-Battle-Spiritual-Warfare-Rebellions/dp/0310177626",
+        "date": "2026-01-27",
+        "description": "Building on Heiser's framework, Muddamalle organizes spiritual warfare around Paul's two-household model (supernatural + human family). Traces the three rebellions (Gen 3, Gen 6, Gen 11), the Deuteronomy 32 disinheritance, and Christ's cosmic victory through the cross and resurrection. Foreword by Drenna Heiser-Hollander.",
+        "tags": ["spiritual_warfare", "three_rebellions", "divine_council", "deut32", "christology", "household"],
+        "featured": True
+    },
+    {
+        "id": "heiser-unseen-realm",
+        "type": "book",
+        "title": "The Unseen Realm: Recovering the Supernatural Worldview of the Bible",
+        "author": "Michael S. Heiser",
+        "url": "https://www.amazon.com/dp/1577995562",
+        "date": "2015",
+        "description": "The foundational work. Heiser recovers the biblical authors' supernatural worldview — divine council, Psalm 82 judgment, Deuteronomy 32 allotment, Genesis 6 rebellion, Watchers, cosmic geography, and the Messiah as ultimate divine council member. Every serious student of the unseen realm starts here.",
+        "tags": ["divine_council", "psalm82", "deut32", "nephilim", "watchers", "heiser", "foundational"],
+        "featured": True
+    },
+    {
+        "id": "heiser-supernatural",
+        "type": "book",
+        "title": "Supernatural: What the Bible Teaches About the Unseen World — And Why It Matters",
+        "author": "Michael S. Heiser",
+        "url": "https://www.amazon.com/dp/1577996828",
+        "date": "2015",
+        "description": "The accessible companion to The Unseen Realm. Same framework, shorter and more readable. Ideal entry point for those new to divine council theology.",
+        "tags": ["divine_council", "heiser", "introductory"],
+        "featured": False
+    },
+    {
+        "id": "heiser-reversing-hermon-book",
+        "type": "book",
+        "title": "Reversing Hermon: Enoch, the Watchers, and the Forgotten Mission of Jesus Christ",
+        "author": "Michael S. Heiser",
+        "url": "https://www.amazon.com/dp/1577996275",
+        "date": "2017",
+        "description": "How the sin of the Watchers (1 Enoch 6-16) and their descent on Mount Hermon shaped New Testament theology. Jesus' mission systematically reverses every consequence of the Watcher rebellion — from his baptism at the Jordan to the Great Commission.",
+        "tags": ["1enoch", "watchers", "nephilim", "mount_hermon", "christology", "heiser"],
+        "featured": True
+    },
+    {
+        "id": "heiser-demons",
+        "type": "book",
+        "title": "Demons: What the Bible Really Says About the Powers of Darkness",
+        "author": "Michael S. Heiser",
+        "url": "https://www.amazon.com/dp/1683592891",
+        "date": "2020",
+        "description": "A comprehensive biblical demonology. Heiser distinguishes between the different types of evil spiritual beings: the original rebel (nachash/Satan), the Watchers/sons of God, the spirits of dead Nephilim (the demons of the Gospels), and the territorial princes of Daniel 10.",
+        "tags": ["demonology", "nachash", "watchers", "nephilim", "daniel10", "heiser"],
+        "featured": True
+    },
+    {
+        "id": "heiser-angels",
+        "type": "book",
+        "title": "Angels: What the Bible Really Says About God's Heavenly Host",
+        "author": "Michael S. Heiser",
+        "url": "https://www.amazon.com/dp/1683592964",
+        "date": "2018",
+        "description": "Biblical angelology through the divine council lens. Covers cherubim, seraphim, the Angel of YHWH, the sons of God, the heavenly host as warriors and administrators, and the council assembly in Psalm 89 and Isaiah 6.",
+        "tags": ["angels", "divine_council", "cherubim", "seraphim", "angel_of_yhwh", "heiser"],
+        "featured": False
+    },
+    {
+        "id": "heiser-two-powers-book",
+        "type": "book",
+        "title": "Two Powers in Heaven: Early Rabbinic Reports About Christianity and Gnosticism",
+        "author": "Alan F. Segal (foundational for Heiser)",
+        "url": "https://www.amazon.com/dp/1481307010",
+        "date": "1977 (repr. 2012)",
+        "description": "The academic work that Heiser built on. Segal demonstrates that ancient Judaism held a 'two powers in heaven' theology — a visible YHWH and an invisible YHWH — and that the rabbis later suppressed this teaching because Christians used it to support the deity of Christ.",
+        "tags": ["two_powers", "christology", "second_temple", "rabbinic", "academic"],
+        "featured": False
+    },
+
+    # ── ACADEMIC / REFERENCE ─────────────────────────────────
+    {
+        "id": "heiser-deut32-bibsac",
+        "type": "academic",
+        "title": "Deuteronomy 32:8 and the Sons of God",
+        "author": "Michael S. Heiser",
+        "url": "https://thedivinecouncil.com/DT32BibSac.pdf",
+        "date": "2001",
+        "description": "Heiser's Bibliotheca Sacra article making the textual case for the Dead Sea Scrolls reading of Deuteronomy 32:8 — 'sons of God' (b'nei elohim) over the Masoretic 'sons of Israel.' The foundational academic argument.",
+        "tags": ["deut32", "dss", "textual_criticism", "heiser", "academic"],
+        "featured": True
+    },
+    {
+        "id": "heiser-divine-council-site",
+        "type": "website",
+        "title": "The Divine Council — Dr. Michael S. Heiser",
+        "author": "Michael S. Heiser",
+        "url": "https://www.thedivinecouncil.com/",
+        "date": "Ongoing",
+        "description": "Heiser's academic website with published papers, lecture notes, and resources on the divine council, Psalm 82, Deuteronomy 32, the two powers tradition, and Israelite religion in its ANE context.",
+        "tags": ["divine_council", "heiser", "academic", "reference"],
+        "featured": False
+    },
+    {
+        "id": "drmsh-site",
+        "type": "website",
+        "title": "DrMSH.com — Michael Heiser's Archive",
+        "author": "Michael S. Heiser",
+        "url": "https://drmsh.com/",
+        "date": "Ongoing",
+        "description": "Heiser's personal site with blog posts, podcast archives, book links, and a wealth of divine council resources organized by topic.",
+        "tags": ["heiser", "reference", "comprehensive"],
+        "featured": False
+    },
+    {
+        "id": "muddamalle-divine-assembly",
+        "type": "academic",
+        "title": "Who Are the 'gods' in the Divine Assembly?",
+        "author": "Joel Muddamalle",
+        "url": "https://humbletheology.muddamalle.com/p/who-are-the-gods-in-the-divine-assembly",
+        "date": "2025",
+        "description": "Muddamalle examines the identity of the elohim in Psalm 82's divine assembly — arguing they are real spiritual beings, not human judges. Builds on Heiser's framework with fresh pastoral application.",
+        "tags": ["psalm82", "divine_council", "elohim"],
+        "featured": False
+    },
+    {
+        "id": "sons-of-god-rooted-truth",
+        "type": "podcast",
+        "title": "The Sons of God & The Divine Council Worldview",
+        "author": "Joel Muddamalle (on The Rooted Truth)",
+        "url": "https://www.therootedtruth.com/blog/the-sons-of-god-the-divine-council-worldview-with-dr-joel-muddamalle",
+        "date": "2025",
+        "description": "Joel Muddamalle discusses the sons of God, the divine council worldview, and how Deuteronomy 32:8-9 frames the entire biblical narrative from Babel to Revelation.",
+        "tags": ["divine_council", "sons_of_god", "deut32"],
+        "featured": False
+    },
+]

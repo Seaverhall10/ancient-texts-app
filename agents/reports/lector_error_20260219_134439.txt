@@ -1,0 +1,260 @@
+
+{
+    "shav": {
+        "hebrew": "שָׁוְא",
+        "transliteration": "shāwʾ",
+        "strongs": "H7723",
+        "gloss": "emptiness, vanity, falsehood",
+        "definition": "A term denoting emptiness, worthlessness, or deception. In the Decalogue (Exod 20:7), it appears in the prohibition against taking YHWH's name 'in vain' (lashshāwʾ), indicating misuse through false oaths or empty invocations. The term encompasses both ontological emptiness and ethical falsehood, appearing in contexts of idolatry (worthless gods), false testimony, and deceptive speech. Cognate with Akkadian šūʾu (emptiness). In divine council theology, shav represents the antithesis of divine truth and the realm of deceptive spirits.",
+        "language": "hebrew",
+        "chapters_used": ["ex-20"]
+    },
+    "shavar": {
+        "hebrew": "שָׁבַר",
+        "transliteration": "šāḇar",
+        "strongs": "H7665",
+        "gloss": "to break, shatter, destroy",
+        "definition": "A verb meaning to break, shatter, or destroy, used both literally (breaking objects, bones) and metaphorically (breaking covenant, spirit, power). Appears in contexts of divine judgment where YHWH breaks the power of enemies or shatters idols. In Exodus, Pharaoh's heart is 'broken' through the plagues. The term also describes covenant violation and the breaking of tablets (Exod 32:19). In prophetic literature, it depicts the shattering of nations and the breaking of oppressive yokes. The intensive form (piel) emphasizes complete destruction.",
+        "language": "hebrew",
+        "chapters_used": ["ex-32"]
+    },
+    "shavuot": {
+        "hebrew": "שָׁבֻעוֹת",
+        "transliteration": "šāḇuʿôṯ",
+        "strongs": "H7620",
+        "gloss": "weeks, Feast of Weeks",
+        "definition": "Plural of shavua (week), designating both units of seven days and the pilgrimage festival occurring seven weeks after Passover (Exod 34:22; Deut 16:10). Also called Chag HaKatzir (Feast of Harvest) and Chag HaBikkurim (Feast of Firstfruits). Celebrated fifty days after the barley harvest begins, marking the wheat harvest. Later tradition associates Shavuot with the giving of Torah at Sinai, though this connection is post-biblical. The festival involves bringing firstfruits offerings and celebrates YHWH's provision. The seven-week count emphasizes completion and covenant renewal.",
+        "language": "hebrew",
+        "chapters_used": ["ex-34"]
+    },
+    "shechin": {
+        "hebrew": "שְׁחִין",
+        "transliteration": "šəḥîn",
+        "strongs": "H7822",
+        "gloss": "boil, inflamed sore",
+        "definition": "A term for inflammatory skin disease, boils, or ulcerous sores. Appears prominently in the sixth plague against Egypt (Exod 9:9-11), where shechin breaks out in boils on humans and animals, afflicting even Pharaoh's magicians. Also used in Levitical purity laws (Lev 13:18-23) to describe skin conditions requiring priestly examination. The term may derive from a root meaning 'to be hot' or 'inflamed.' In Job 2:7, Satan afflicts Job with shechin from head to foot. The plague context suggests divine judgment manifesting through physical affliction, demonstrating YHWH's power over Egyptian deities associated with healing.",
+        "language": "hebrew",
+        "chapters_used": ["ex-9"]
+    },
+    "shedim": {
+        "hebrew": "שֵׁדִים",
+        "transliteration": "šēḏîm",
+        "strongs": "H7700",
+        "gloss": "demons, destructive spirits",
+        "definition": "Plural term for demonic entities or destructive spirits, appearing only twice in the Hebrew Bible (Deut 32:17; Ps 106:37). In Deuteronomy's Song of Moses, Israel is condemned for sacrificing to shedim, 'not God' (lo eloah), described as 'new gods recently arrived' whom the ancestors did not fear. The parallel with Psalm 106:37 links shedim to child sacrifice. Etymology uncertain; possibly related to Akkadian šēdu (protective spirit, later demonic) or Hebrew shadad (to destroy). In Second Temple literature and Jubilees, shedim are offspring of the Watchers or unclean spirits. Represents illegitimate divine beings receiving worship due only to YHWH, part of the rebellious divine council.",
+        "language": "hebrew",
+        "chapters_used": ["deut-32"]
+    },
+    "shefatim": {
+        "hebrew": "שְׁפָתִים",
+        "transliteration": "śəp̄āṯîm",
+        "strongs": "H8193",
+        "gloss": "lips, speech, language",
+        "definition": "Dual form of safah (lip), meaning lips, speech, or language. In Genesis 11:1, 'the whole earth had one language (safah echat) and one speech (devarim achadim),' referring to pre-Babel linguistic unity. The term encompasses both the physical organ and its function in communication. Used metaphorically for speech quality: pure lips (Zeph 3:9), lying lips, eloquent speech. In covenant contexts, lips that confess or praise YHWH. The dual form reflects the paired nature of lips. At Babel, YHWH confuses their safah, creating multiple languages to limit human autonomy and prevent unified rebellion.",
+        "language": "hebrew",
+        "chapters_used": ["gen-11"]
+    },
+    "shekhem": {
+        "hebrew": "שְׁכֶם",
+        "transliteration": "šəḵem",
+        "strongs": "H7927",
+        "gloss": "shoulder, Shechem (city)",
+        "definition": "Literally 'shoulder' or 'back,' also the name of a crucial Canaanite city in central hill country between Mt. Gerizim and Mt. Ebal. As a geographical term, Shechem is Abraham's first stop in Canaan where YHWH appears and promises the land (Gen 12:6-7). Jacob purchases land there (Gen 33:18-20), and it becomes the site of Dinah's violation and the brothers' violent revenge (Gen 34). Joseph's bones are later buried at Shechem (Josh 24:32). The city serves as a covenant renewal site (Josh 24) and briefly as Israel's capital under Jeroboam I. Archaeologically significant with Middle Bronze Age fortifications. The name may derive from the ridge location.",
+        "language": "hebrew",
+        "chapters_used": ["gen-12", "gen-33", "gen-34"]
+    },
+    "shem": {
+        "hebrew": "שֵׁם",
+        "transliteration": "šēm",
+        "strongs": "H8034",
+        "gloss": "name, reputation, memorial",
+        "definition": "A term meaning name, reputation, or memorial, carrying profound theological significance. In ancient Near Eastern thought, the name embodies the essence and authority of the person. YHWH's name represents His character, presence, and covenant identity. 'Taking the name in vain' (Exod 20:7) violates divine honor. 'Calling on the name of YHWH' (Gen 4:26) initiates worship. At Babel, humanity seeks to 'make a name' for themselves (Gen 11:4), usurping divine prerogative. YHWH promises Abram a 'great name' (Gen 12:2) as covenant blessing. The Tabernacle is where YHWH 'places His name' (Deut 12:5), indicating divine presence. Also the proper name of Noah's eldest son, ancestor of Semitic peoples.",
+        "language": "hebrew",
+        "chapters_used": ["gen-4", "gen-11", "gen-12", "ex-20"]
+    },
+    "shemen_hamishchah": {
+        "hebrew": "שֶׁמֶן הַמִּשְׁחָה",
+        "transliteration": "šemen hammišḥâ",
+        "strongs": "H8081 + H4888",
+        "gloss": "anointing oil, consecration oil",
+        "definition": "The sacred anointing oil used for consecrating priests, kings, and sacred objects. Prescribed in Exodus 30:22-33 with specific ingredients: myrrh (500 shekels), cinnamon (250 shekels), fragrant cane (250 shekels), cassia (500 shekels), and olive oil (one hin). The formula is declared holy, forbidden for common use under penalty of being 'cut off' from the people. Used to anoint the Tabernacle, its furnishings, Aaron and his sons, establishing them as qodesh (holy). The anointing transfers sanctity and divine authorization. The term mishchah derives from mashach (to anoint), related to mashiach (messiah/anointed one). Represents the visible sign of divine election and empowerment by the Spirit.",
+        "language": "hebrew",
+        "chapters_used": ["ex-30", "ex-40"]
+    },
+    "shemen_zayit": {
+        "hebrew": "שֶׁמֶן זַיִת",
+        "transliteration": "šemen zayiṯ",
+        "strongs": "H8081 + H2132",
+        "gloss": "olive oil, pure oil",
+        "definition": "Olive oil, a fundamental commodity in ancient Israel used for food, light, anointing, and offerings. In the Tabernacle, pure beaten olive oil (shemen zayit zakh kathith) fuels the menorah for continual light (Exod 27:20). Olive oil serves as the base for the sacred anointing oil and accompanies grain offerings. The olive tree (zayit) symbolizes blessing, prosperity, and divine favor. Oil production involved crushing or pressing olives; 'beaten oil' (kathith) was highest quality from first pressing. In prophetic imagery, olive trees represent Israel (Jer 11:16) and divine witnesses (Zech 4:3). The abundance of oil indicates covenant blessing, while its absence signals judgment.",
+        "language": "hebrew",
+        "chapters_used": ["ex-27", "ex-30"]
+    },
+    "shemesh": {
+        "hebrew": "שֶׁמֶשׁ",
+        "transliteration": "šemeš",
+        "strongs": "H8121",
+        "gloss": "sun, solar deity",
+        "definition": "The sun, created on the fourth day (Gen 1:16) as the 'greater light' (hammaor haggadol) to govern day. Notably, Genesis avoids using shemesh in the creation account, employing instead 'greater light' to demythologize the sun, which was worshiped throughout the ancient Near East (Egyptian Ra, Mesopotamian Shamash). The sun serves as a timekeeper for 'signs, seasons, days, and years' but is explicitly created, not divine. Israel is warned against sun worship (Deut 4:19; 17:3). The term appears in place names (Beth-shemesh, 'house of the sun') indicating Canaanite solar cult sites. In poetic texts, the sun's circuit demonstrates YHWH's creative order (Ps 19:4-6). Joshua's command for the sun to stand still (Josh 10:12-13) demonstrates YHWH's sovereignty over celestial bodies.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1"]
+    },
+    "shemittah": {
+        "hebrew": "שְׁמִטָּה",
+        "transliteration": "šəmiṭṭâ",
+        "strongs": "H8059",
+        "gloss": "release, sabbatical year",
+        "definition": "The sabbatical year occurring every seventh year, when agricultural land lies fallow and debts are released. Derived from shamat (to release, let drop). Leviticus 25:1-7 prescribes the land sabbath: no sowing, pruning, or harvesting; the land rests to YHWH. Deuteronomy 15:1-11 adds debt release (shemittat kesafim), forgiving loans to fellow Israelites. The institution acknowledges YHWH's ownership of the land and prevents permanent poverty. Violation of shemittah is cited as reason for exile (2 Chr 36:21; Lev 26:34-35)—the land receives its sabbaths during captivity. The practice requires radical trust in divine provision and challenges economic systems based on accumulation. Seven shemittah cycles lead to the Jubilee year.",
+        "language": "hebrew",
+        "chapters_used": ["lev-25"]
+    },
+    "sheqel_haqodesh": {
+        "hebrew": "שֶׁקֶל הַקֹּדֶשׁ",
+        "transliteration": "šeqel haqqōḏeš",
+        "strongs": "H8255 + H6944",
+        "gloss": "sanctuary shekel, sacred standard",
+        "definition": "The sanctuary shekel, a standardized weight used for sacred transactions and offerings. Mentioned frequently in Exodus (30:13, 24; 38:24-26) as the measure for the half-shekel temple tax, precious metals for the Tabernacle, and the anointing oil ingredients. The sheqel haqodesh equals twenty gerahs (Exod 30:13). Distinct from commercial weights, it represents an absolute, divinely ordained standard preventing fraud in sacred contexts. All adult males paid a half-shekel as 'ransom' (kopher) during census, rich and poor alike, emphasizing equality before YHWH. The standardized sacred weight ensures integrity in worship and prevents the sanctuary from being defiled by dishonest measures. Weighing approximately 11.4 grams, though exact weight debated.",
+        "language": "hebrew",
+        "chapters_used": ["ex-30", "ex-38"]
+    },
+    "shirah": {
+        "hebrew": "שִׁירָה",
+        "transliteration": "šîrâ",
+        "strongs": "H7892",
+        "gloss": "song, singing, poem",
+        "definition": "A song or poem, particularly one of praise or celebration. The term appears in the title of the Song of the Sea (Shirat HaYam, Exod 15:1), Moses and Israel's victory hymn after the Red Sea crossing. This ancient poem celebrates YHWH as divine warrior who defeats Pharaoh's army, establishing His incomparability among the gods: 'Who is like You among the gods, O YHWH?' (mi kamokhah ba'elim YHWH). The Song of Moses (Deut 32) is also called shirah, serving as covenant witness. Shirah encompasses both the literary form and the act of singing. In divine council theology, songs often celebrate YHWH's victories over rebellious cosmic powers and His enthronement as supreme sovereign.",
+        "language": "hebrew",
+        "chapters_used": ["ex-15", "deut-32"]
+    },
+    "shofar": {
+        "hebrew": "שׁוֹפָר",
+        "transliteration": "šôp̄ār",
+        "strongs": "H7782",
+        "gloss": "ram's horn, trumpet",
+        "definition": "A ram's horn trumpet used for signaling, warfare, and religious ceremonies. At Sinai, the shofar blast announces YHWH's descent and grows increasingly loud (Exod 19:16, 19), creating terror and marking the theophany. The shofar sounds at Jubilee to proclaim liberty (Lev 25:9), at new moon festivals, and in battle (Josh 6:4-20, Jericho). Distinguished from the silver trumpets (chatsotsrot) used by priests, the shofar is more ancient and primal. Its sound summons assembly, warns of danger, and announces divine presence. In eschatological texts, the shofar heralds the Day of YHWH. The instrument connects to the ram substituted for Isaac (Aqedah), symbolizing redemption. Typically made from a ram's horn, bent and hollowed.",
+        "language": "hebrew",
+        "chapters_used": ["ex-19", "lev-25"]
+    },
+    "shophet": {
+        "hebrew": "שֹׁפֵט",
+        "transliteration": "šōp̄ēṭ",
+        "strongs": "H8199",
+        "gloss": "judge, ruler, deliverer",
+        "definition": "A judge or ruler, one who exercises judicial authority and governance. The participle of shaphat (to judge, govern). In the pre-monarchic period, shophetim were charismatic leaders raised by YHWH to deliver Israel from oppression (Book of Judges). Moses appoints shophetim to handle disputes (Exod 18:13-26), establishing a judicial hierarchy. The role combines legal adjudication, military leadership, and administrative governance. YHWH is the ultimate Shophet (Gen 18:25, 'Judge of all the earth'), establishing justice and righteousness. The term implies both forensic judgment and executive action to restore order. In divine council theology, YHWH judges among the gods (Ps 82:1), condemning unjust elohim who fail to execute justice.",
+        "language": "hebrew",
+        "chapters_used": ["ex-18", "gen-18"]
+    },
+    "shor": {
+        "hebrew": "שׁוֹר",
+        "transliteration": "šôr",
+        "strongs": "H7794",
+        "gloss": "ox, bull, cattle",
+        "definition": "An ox or bull, the primary draft animal and valuable livestock in ancient Israel. The shor appears in legal texts governing property damage (Exod 21:28-36): a goring ox must be stoned, and its owner held liable if the animal was known to be dangerous. The ox that gores a person to death is executed, but its flesh cannot be eaten, suggesting the animal bears guilt. The Decalogue includes the neighbor's shor in the prohibition against coveting (Exod 20:17). Oxen pull plows, thresh grain, and serve as sacrificial animals. The law forbids muzzling an ox while it treads grain (Deut 25:4), ensuring humane treatment. In Canaanite religion, the bull symbolizes El and Baal; Israel's golden calf incident (Exod 32) may represent YHWH via bull iconography, though condemned as idolatry.",
+        "language": "hebrew",
+        "chapters_used": ["ex-20", "ex-21", "ex-32"]
+    },
+    "shoterim": {
+        "hebrew": "שֹׁטְרִים",
+        "transliteration": "šōṭərîm",
+        "strongs": "H7860",
+        "gloss": "officers, foremen, officials",
+        "definition": "Officers, officials, or foremen who execute administrative and supervisory functions. In Egypt, Israelite shoterim serve as foremen under Egyptian taskmasters, beaten when brick quotas aren't met (Exod 5:6-19). These officers mediate between oppressors and oppressed, suffering for the people's inability to meet demands. Moses later appoints shoterim as tribal officials to assist judges (Deut 1:15; 16:18), handling administrative matters and maintaining order. The term derives from a root meaning 'to write' or 'inscribe,' suggesting scribal or record-keeping functions. Shoterim represent an administrative class distinct from military commanders (sarim) and judges (shophetim), though roles overlap. They ensure legal decisions are implemented and maintain civil order.",
+        "language": "hebrew",
+        "chapters_used": ["ex-5"]
+    },
+    "shulchan": {
+        "hebrew": "שֻׁלְחָן",
+        "transliteration": "šulḥān",
+        "strongs": "H7979",
+        "gloss": "table, especially sacred table",
+        "definition": "A table, particularly the Table of the Bread of the Presence (Shulchan Lechem HaPanim) in the Tabernacle. Constructed of acacia wood overlaid with pure gold, measuring two cubits long, one cubit wide, one and a half cubits high, with a gold molding and carrying poles (Exod 25:23-30). Placed on the north side of the Holy Place, it holds twelve loaves of showbread arranged in two rows, representing the twelve tribes continually before YHWH. The table and its utensils (plates, dishes, bowls, jars for drink offerings) are anointed with sacred oil. The shulchan symbolizes YHWH's provision and covenant relationship with Israel. In divine council imagery, it represents the heavenly banquet table where YHWH hosts His people.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-40"]
+    },
+    "sinai": {
+        "hebrew": "סִינַי",
+        "transliteration": "sînay",
+        "strongs": "H5514",
+        "gloss": "Sinai, mountain of covenant",
+        "definition": "The mountain where YHWH reveals Himself to Moses and Israel, giving the Torah and establishing covenant. Also called Horeb (especially in Deuteronomy). Located in the wilderness between Egypt and Canaan, exact location debated (traditional site: Jebel Musa in southern Sinai Peninsula). The mountain becomes the locus of theophany: fire, smoke, thunder, lightning, trumpet blast, and YHWH's descent (Exod 19). The people must not touch the mountain under penalty of death, establishing boundaries between holy and common. At Sinai, Israel becomes YHWH's treasured possession, a kingdom of priests and holy nation (Exod 19:5-6). Moses ascends multiple times, receiving Torah, Tabernacle instructions, and renewed covenant after the golden calf. Sinai represents the cosmic mountain where heaven and earth meet, YHWH's divine council convenes, and covenant is mediated.",
+        "language": "hebrew",
+        "chapters_used": ["ex-3", "ex-19", "ex-24", "ex-34"]
+    },
+    "sneh": {
+        "hebrew": "סְנֶה",
+        "transliteration": "səneh",
+        "strongs": "H5572",
+        "gloss": "bush, thornbush, bramble",
+        "definition": "A bush or thornbush, specifically the burning bush from which YHWH speaks to Moses (Exod 3:2-4). The sneh burns with fire but is not consumed, a paradoxical sign of divine presence. YHWH identifies Himself as the God of Abraham, Isaac, and Jacob, revealing the divine name YHWH and commissioning Moses to deliver Israel. The bush's location becomes holy ground requiring removal of sandals. The term may refer to a thorny acacia or bramble common in Sinai wilderness. The burning-but-not-consumed bush symbolizes Israel's preservation through affliction and YHWH's transcendent presence dwelling in humble form. Later tradition identifies the site as Jebel Musa. The sneh theophany establishes Moses' prophetic authority and initiates the Exodus.",
+        "language": "hebrew",
+        "chapters_used": ["ex-3"]
+    },
+    "succoth": {
+        "hebrew": "סֻכֹּת",
+        "transliteration": "sukkōṯ",
+        "strongs": "H5523",
+        "gloss": "Succoth (place), booths",
+        "definition": "A place name meaning 'booths' or 'shelters,' referring to multiple locations. Most significantly, Succoth is Israel's first encampment after leaving Rameses during the Exodus (Exod 12:37; 13:20), marking the beginning of wilderness journey. Located in the eastern Nile Delta region. Also a Transjordanian city in the Jordan Valley where Jacob builds shelters for his livestock after reconciling with Esau (Gen 33:17), explaining the name's etymology. A third Succoth appears in Gideon's narrative (Judg 8:5-16). The term is the plural of sukkah (booth, temporary shelter), later giving name to the Feast of Tabernacles (Chag HaSukkot). The Exodus Succoth represents transition from slavery to freedom, from Egypt to wilderness, from bondage to covenant.",
+        "language": "hebrew",
+        "chapters_used": ["ex-12", "ex-13", "gen-33"]
+    },
+    "sukkot": {
+        "hebrew": "סֻכּוֹת",
+        "transliteration": "sukkôṯ",
+        "strongs": "H5521",
+        "gloss": "Feast of Booths, Tabernacles",
+        "definition": "The Feast of Booths or Tabernacles, one of three pilgrimage festivals. Celebrated in the seventh month (Tishrei) for seven days, beginning on the fifteenth day (Lev 23:33-43). Israel dwells in temporary shelters (sukkot) commemorating wilderness wandering when YHWH brought them from Egypt and sheltered them in booths. Also called Chag HaAsif (Feast of Ingathering), marking autumn harvest completion. The festival involves rejoicing, bringing offerings, and dwelling in booths made from branches. The eighth day (Shemini Atzeret) is a sacred assembly. Sukkot emphasizes divine provision, protection during wilderness journey, and dependence on YHWH rather than permanent structures. The temporary dwellings contrast with Egypt's permanence and Canaan's cities, teaching that security comes from YHWH alone. Zechariah 14 envisions eschatological Sukkot celebration by all nations.",
+        "language": "hebrew",
+        "chapters_used": ["lev-23"]
+    },
+    "sullam": {
+        "hebrew": "סֻלָּם",
+        "transliteration": "sullām",
+        "strongs": "H5551",
+        "gloss": "ladder, stairway, ramp",
+        "definition": "A ladder, stairway, or ramp, appearing only in Jacob's dream at Bethel (Gen 28:12). The sullam is 'set on the earth with its top reaching heaven,' with angels of God ascending and descending on it. The image represents the connection between heaven and earth, the point where divine and human realms intersect. YHWH stands above it, reaffirming the Abrahamic covenant to Jacob. The sullam may evoke Mesopotamian ziggurats (temple towers connecting earth and heaven), but here YHWH initiates contact, not human construction. Jacob recognizes the place as 'the gate of heaven' (sha'ar hashamayim) and 'house of God' (beth el). In divine council theology, the sullam represents the cosmic axis where the heavenly court accesses earth. Jesus later applies this imagery to Himself (John 1:51), identifying as the locus of heaven-earth connection.",
+        "language": "hebrew",
+        "chapters_used": ["gen-28"]
+    },
+    "tamar": {
+        "hebrew": "תָּמָר",
+        "transliteration": "tāmār",
+        "strongs": "H8559",
+        "gloss": "Tamar, palm tree",
+        "definition": "A proper name meaning 'palm tree' or 'date palm,' borne by multiple biblical women. Most prominently, Tamar is Judah's daughter-in-law who, after being widowed twice and denied levirate marriage to Judah's third son, disguises herself as a prostitute to secure offspring from Judah himself (Gen 38). When discovered pregnant, she produces Judah's seal and staff as evidence, leading Judah to declare 'she is more righteous than I' (tsadqah mimmenni). Tamar bears twins Perez and Zerah; Perez becomes ancestor of David and Jesus. The narrative interrupts the Joseph story, highlighting Judah's character development and establishing the Davidic line. Another Tamar is David's daughter, violated by her half-brother Amnon (2 Sam 13). The palm tree symbolizes beauty, fruitfulness, and righteousness in biblical imagery.",
+        "language": "hebrew",
+        "chapters_used": ["gen-38"]
+    },
+    "tamid": {
+        "hebrew": "תָּמִיד",
+        "transliteration": "tāmîḏ",
+        "strongs": "H8548",
+        "gloss": "continual, regular, perpetual",
+        "definition": "An adverb or adjective meaning continual, regular, or perpetual, describing ongoing cultic practices. The olat tamid (continual burnt offering) consists of two lambs offered daily, one in morning and one at twilight (Exod 29:38-42), establishing perpetual atonement and divine presence. The ner tamid (continual lamp) burns in the Holy Place, tended morning and evening (Exod 27:20). The lechem tamid (continual bread) remains on the Table of Presence. These tamid elements ensure uninterrupted worship and symbolize Israel's perpetual covenant relationship with YHWH. The term emphasizes regularity and constancy rather than mere repetition. In prophetic literature, cessation of the tamid offering signals covenant violation and judgment. The continual nature reflects YHWH's unchanging faithfulness and the people's ongoing dependence.",
+        "language": "hebrew",
+        "chapters_used": ["ex-27", "ex-29"]
+    },
+    "tannin": {
+        "hebrew": "תַּנִּין",
+        "transliteration": "tannîn",
+        "strongs": "H8577",
+        "gloss": "sea monster, dragon, serpent",
+        "definition": "A sea monster, dragon, or large serpent, often representing chaos forces in creation and cosmic conflict. In Genesis 1:21, God creates the tanninim haggedolim (great sea monsters) on the fifth day, demonstrating sovereignty over creatures other cultures deified (Tiamat, Leviathan). The term appears in Exodus when Aaron's staff becomes a tannin before Pharaoh (Exod 7:9-10), though nachash (serpent) is used interchangeably. In prophetic literature, tannin symbolizes Egypt (Ezek 29:3; 32:2) and Babylon (Jer 51:34) as chaos powers opposing YHWH. Psalm 74:13 depicts YHWH crushing tanninim heads in the sea, echoing ancient Near Eastern combat myths but affirming YHWH's supremacy. The tannin represents rebellious cosmic forces subdued by divine power, part of the defeated chaos realm.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "ex-7"]
+    },
+    "tavnit": {
+        "hebrew": "תַּבְנִית",
+        "transliteration": "taḇnîṯ",
+        "strongs": "H8403",
+        "gloss": "pattern, model, blueprint",
+        "definition": "A pattern, model, or blueprint, particularly the heavenly design shown to Moses for the Tabernacle. In Exodus 25:9, 40, YHWH commands Moses to construct the sanctuary 'according to all that I show you—the pattern (tavnit) of the Tabernacle and the pattern of all its furnishings.' The term implies a pre-existing heavenly archetype that the earthly sanctuary replicates. This concept appears in ancient Near Eastern temple ideology where earthly temples mirror cosmic/heavenly prototypes. The tavnit ensures the Tabernacle accurately represents YHWH's dwelling and facilitates proper divine-human encounter. Hebrews 8:5 later interprets this as the earthly sanctuary being a 'copy and shadow' of heavenly realities. The pattern encompasses structure, furnishings, and ritual procedures, all divinely ordained.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25"]
+    },
+    "teben": {
+        "hebrew": "תֶּבֶן",
+        "transliteration": "teḇen",
+        "strongs": "H8401",
+        "gloss": "straw, chaff, stubble",
+        "definition": "Straw, chaff, or stubble, the dried stalks and refuse from grain threshing. In Exodus 5:7-18, Pharaoh cruelly withholds teben from Israelite slaves while maintaining brick quotas, forcing them to gather stubble (qash) themselves. This intensifies oppression and demonstrates Pharaoh's hardening heart. Straw mixed with clay produces stronger, more durable bricks. The withdrawal of straw represents economic exploitation and deliberate cruelty designed to break the slaves' spirit and discre

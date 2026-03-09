@@ -1,0 +1,215 @@
+
+{
+    "chuqqah": {
+        "hebrew": "חֻקָּה",
+        "transliteration": "ḥuqqâ",
+        "strongs": "H2708",
+        "gloss": "statute, ordinance, decree",
+        "definition": "A feminine noun denoting a statute, ordinance, or prescribed ritual. Derived from the root חקק (ḥqq, 'to engrave, inscribe'), chuqqah refers to divinely established regulations, particularly cultic laws whose rationale may not be immediately apparent to human reason. Distinguished from mishpat (judicial ordinance) and mitzvah (commandment), chuqqah often designates ritual prescriptions like the red heifer ceremony (Num 19:2) or Passover regulations (Exod 12:14). In divine council theology, chuqqot represent the cosmic order established by YHWH's sovereign decree, binding both earthly and heavenly realms. The term emphasizes the non-negotiable, inscribed nature of divine law.",
+        "language": "hebrew",
+        "chapters_used": ["exod-12", "exod-13", "num-19"]
+    },
+    "cohen_midyan": {
+        "hebrew": "כֹּהֵן מִדְיָן",
+        "transliteration": "kōhēn midyān",
+        "strongs": "H3548+H4080",
+        "gloss": "priest of Midian",
+        "definition": "A compound designation referring to Jethro (Reuel), Moses' father-in-law, who served as priest among the Midianites. The term raises significant theological questions about pre-Sinaitic priesthood and the worship of El/YHWH outside Israel. Jethro's priestly status and his recognition of YHWH's supremacy (Exod 18:10-11) suggest a broader ancient Near Eastern context where El Elyon worship existed among non-Israelite peoples. Some scholars connect Midianite priesthood to the Kenite hypothesis, proposing Midianite origins for Yahwistic worship. In the narrative, Jethro's counsel to Moses regarding judicial administration (Exod 18:13-27) demonstrates the legitimacy of wisdom from non-Israelite religious authorities, complicating simplistic insider/outsider boundaries.",
+        "language": "hebrew",
+        "chapters_used": ["exod-2", "exod-3", "exod-18"]
+    },
+    "daat": {
+        "hebrew": "דַּעַת",
+        "transliteration": "daʿat",
+        "strongs": "H1847",
+        "gloss": "knowledge, perception, discernment",
+        "definition": "A feminine noun meaning knowledge, understanding, or discernment. From the root ידע (ydʿ, 'to know'), daat encompasses experiential, relational, and cognitive knowledge. In Genesis 2:9, 17, the 'tree of the knowledge (daat) of good and evil' represents not merely intellectual awareness but the divine prerogative to determine moral categories and exercise sovereign judgment. This knowledge is portrayed as belonging properly to the divine council ('like one of us,' Gen 3:22). The term appears in wisdom literature as the goal of instruction (Prov 1:4) and is associated with the fear of YHWH (Prov 1:7). In prophetic texts, daat YHWH (knowledge of YHWH) denotes covenant relationship and ethical obedience (Hos 4:1, 6:6). The semantic range includes judicial discernment, intimate knowledge, and the wisdom that distinguishes divine from human realms.",
+        "language": "hebrew",
+        "chapters_used": ["gen-2", "gen-3", "exod-31"]
+    },
+    "dai": {
+        "hebrew": "דַּי",
+        "transliteration": "day",
+        "strongs": "H1767",
+        "gloss": "sufficiency, enough, adequate",
+        "definition": "A noun meaning sufficiency, adequacy, or 'enough.' Used in the phrase 'dai lo' (sufficient for him/it), the term appears in Deuteronomy 25:2 regarding punishment and in the divine name 'El Shaddai,' which some scholars etymologically connect to 'the God who is sufficient' (though this derivation is disputed). The term emphasizes divine provision that meets needs without excess or deficiency. In Exodus 36:5, the people bring more than dai (enough) for the tabernacle construction, demonstrating willing abundance. The concept relates to manna provision (Exod 16:18), where each gathered according to their need—a sufficiency principle. In later Hebrew, dai functions as a particle meaning 'enough!' or 'sufficient!' The term underscores divine economy and the adequacy of God's provision within covenant relationship.",
+        "language": "hebrew",
+        "chapters_used": ["exod-16", "exod-36"]
+    },
+    "dam": {
+        "hebrew": "דָּם",
+        "transliteration": "dām",
+        "strongs": "H1818",
+        "gloss": "blood, bloodshed, lifeblood",
+        "definition": "A masculine noun meaning blood, the life-fluid that carries nephesh (life-force). Theologically, dam represents life itself (Lev 17:11, 14: 'the life of the flesh is in the blood'). Blood has expiatory function in sacrificial ritual, making atonement (kippurim) through substitutionary death. The prohibition against consuming blood (Gen 9:4; Lev 17:10-14) reflects the sacred status of life belonging to God alone. Dam also denotes bloodguilt or murder (Gen 4:10, where Abel's blood 'cries out' from the ground). In Exodus, dam serves as the first plague (Exod 7:17-21) and as the Passover sign (Exod 12:13, 22-23), marking Israelite households for protection. The 'blood of the covenant' (dam habberit, Exod 24:8) ritually binds Israel to YHWH. In divine council theology, blood manipulation demonstrates power over life and death, a prerogative of divine authority.",
+        "language": "hebrew",
+        "chapters_used": ["gen-4", "gen-9", "exod-7", "exod-12", "exod-24", "lev-17"]
+    },
+    "dam_habberit": {
+        "hebrew": "דַּם הַבְּרִית",
+        "transliteration": "dam habbĕrît",
+        "strongs": "H1818+H1285",
+        "gloss": "blood of the covenant",
+        "definition": "A compound phrase meaning 'blood of the covenant,' appearing in Exodus 24:8 during the Sinai covenant ratification ceremony. Moses sprinkles blood on the altar (representing YHWH) and on the people, declaring 'Behold the blood of the covenant which YHWH has cut with you.' This ritual enacts the covenant bond through blood manipulation, symbolizing shared life between deity and people. The ceremony follows the ancient Near Eastern treaty pattern where blood rituals sealed vassal agreements. Half the blood on the altar and half on the people creates a unified life-sphere, binding both parties under oath. The phrase is echoed in Jesus' Last Supper words (Matt 26:28; Mark 14:24), reinterpreting covenant blood through his death. In Zechariah 9:11, 'blood of your covenant' refers to liberation of prisoners. The concept emphasizes covenant as life-and-death commitment, not mere contractual agreement.",
+        "language": "hebrew",
+        "chapters_used": ["exod-24"]
+    },
+    "dever": {
+        "hebrew": "דֶּבֶר",
+        "transliteration": "deber",
+        "strongs": "H1698",
+        "gloss": "pestilence, plague, disease",
+        "definition": "A masculine noun meaning pestilence, plague, or epidemic disease. Dever appears as the fifth plague against Egypt (Exod 9:3), striking livestock with severe pestilence. The term frequently occurs in prophetic judgment oracles as part of the triad 'sword, famine, and pestilence' (Jer 14:12; Ezek 6:11), representing comprehensive divine judgment. In Deuteronomy 28:21, dever is threatened as covenant curse for disobedience. Psalm 91:3, 6 personifies dever as a demonic force ('the pestilence that stalks in darkness'), suggesting ancient Israelite conception of disease as caused by malevolent spiritual agents under YHWH's sovereign control. In Habakkuk 3:5, Dever walks before YHWH as a personified attendant in theophanic procession, alongside Resheph (plague-god). This imagery reflects divine council theology where YHWH commands disease-spirits as instruments of judgment. The term emphasizes disease as divine weapon, not random natural occurrence.",
+        "language": "hebrew",
+        "chapters_used": ["exod-9", "hab-3"]
+    },
+    "dinah": {
+        "hebrew": "דִּינָה",
+        "transliteration": "dînâ",
+        "strongs": "H1783",
+        "gloss": "judgment, Dinah (Jacob's daughter)",
+        "definition": "A proper name meaning 'judgment' or 'vindicated,' borne by Jacob's daughter with Leah (Gen 30:21). Dinah's narrative (Gen 34) involves her violation by Shechem son of Hamor, followed by her brothers' violent retribution through deception and massacre. The account raises complex issues of honor, justice, and tribal violence. Jacob's sons justify their actions as defending family honor (Gen 34:31), while Jacob fears political repercussions (Gen 34:30). The name's etymology from דין (dyn, 'to judge') may be ironic, as the story explores competing claims of justice. Dinah remains silent throughout the narrative, her perspective unrecorded—a textual gap that has generated extensive interpretive discussion. The episode demonstrates the dangerous intersection of intermarriage, covenant boundaries, and tribal honor in patriarchal society. Later tradition (Jubilees, Testament of Levi) expands Dinah's story, emphasizing endogamy and condemning intermarriage with Canaanites.",
+        "language": "hebrew",
+        "chapters_used": ["gen-30", "gen-34"]
+    },
+    "edom": {
+        "hebrew": "אֱדוֹם",
+        "transliteration": "ʾĕdôm",
+        "strongs": "H123",
+        "gloss": "Edom, red, Esau's descendants",
+        "definition": "A proper name meaning 'red,' designating both Esau (Gen 25:30) and his descendants who inhabited the region southeast of the Dead Sea. The name derives from Esau's request for 'red, red stuff' (ha-adom ha-adom, Gen 25:30), the lentil stew for which he sold his birthright. Edom becomes Esau's alternate name and the designation for the Edomite nation. The Edomites were considered Israel's brother-nation (Deut 23:7), yet relations were often hostile (Num 20:14-21; Obadiah). Edom's territory included Mount Seir, associated with the divine warrior tradition (Deut 33:2; Judg 5:4). Prophetic oracles frequently target Edom for judgment (Isa 34; Jer 49:7-22; Ezek 25:12-14; Obadiah), particularly for gloating over Jerusalem's destruction (Ps 137:7; Obad 10-14). In divine council theology, Edom represents the paradigmatic enemy nation, yet one bound by kinship ties that complicate simple friend/foe categories. Herod the Great's Idumean (Edomite) ancestry adds New Testament significance.",
+        "language": "hebrew",
+        "chapters_used": ["gen-25", "gen-36"]
+    },
+    "edut": {
+        "hebrew": "עֵדוּת",
+        "transliteration": "ʿēdût",
+        "strongs": "H5715",
+        "gloss": "testimony, witness, decree",
+        "definition": "A feminine noun meaning testimony, witness, or decree. Derived from עוד (ʿwd, 'to bear witness'), edut designates the tablets of the law (luchot ha-edut, Exod 31:18; 32:15) and the ark containing them (aron ha-edut, Exod 25:22). The term emphasizes the covenant stipulations as divine testimony or witness against Israel should they violate the agreement. The tabernacle is called mishkan ha-edut (tabernacle of the testimony, Exod 38:21; Num 1:50), housing the authoritative witness to YHWH's covenant requirements. In Psalm 119, edut appears repeatedly as a synonym for torah, emphasizing law as divine testimony. The concept parallels ancient Near Eastern treaty documents that served as witnesses to vassal obligations. In divine council theology, the edut represents heaven's legal testimony, establishing the terms by which Israel will be judged. The term underscores covenant as juridical relationship with evidentiary documentation.",
+        "language": "hebrew",
+        "chapters_used": ["exod-25", "exod-31", "exod-32"]
+    },
+    "egel": {
+        "hebrew": "עֵגֶל",
+        "transliteration": "ʿēgel",
+        "strongs": "H5695",
+        "gloss": "calf, young bull",
+        "definition": "A masculine noun meaning calf or young bull. Most infamously, egel appears in the golden calf incident (egel massekah, Exod 32:4, 8), where Aaron fashions a calf-idol during Moses' absence on Sinai. The people proclaim, 'These are your gods, O Israel, who brought you up from Egypt' (Exod 32:4), suggesting the calf represented YHWH or served as his pedestal-throne. Bull imagery was common in ancient Near Eastern iconography for deity representation (Baal, El, Hadad). Jeroboam later establishes golden calves at Dan and Bethel (1 Kgs 12:28-29), using identical language, creating rival worship centers. The calf symbolism may reflect Canaanite influence or represent an attempt at aniconic representation (the calf as throne rather than deity itself). Prophetic texts condemn calf worship as apostasy (Hos 8:5-6; 10:5). The egel incident becomes paradigmatic for Israel's rebellion and YHWH's mercy, as Moses intercedes to prevent total destruction (Exod 32:11-14).",
+        "language": "hebrew",
+        "chapters_used": ["exod-32"]
+    },
+    "ehyeh": {
+        "hebrew": "אֶהְיֶה",
+        "transliteration": "ʾehyeh",
+        "strongs": "H1961",
+        "gloss": "I am, I will be",
+        "definition": "A first-person singular imperfect form of the verb היה (hyh, 'to be'), meaning 'I am' or 'I will be.' This term appears in YHWH's self-revelation to Moses at the burning bush: 'I AM WHO I AM' (ehyeh asher ehyeh, Exod 3:14). The phrase has generated extensive theological interpretation. The imperfect aspect suggests ongoing, dynamic presence rather than static being—'I will be who I will be' or 'I am the one who is present.' Some scholars see wordplay with the divine name YHWH (likely derived from the same root), suggesting YHWH means 'he causes to be' or 'he is present.' The phrase emphasizes God's self-determined identity, refusing to be bound by human categories or manipulated through name-magic. In context, ehyeh functions as assurance of divine presence with Moses ('I will be with you,' Exod 3:12). The term has influenced philosophical theology (Aquinas' 'ipsum esse subsistens') and existential interpretation (Buber, Heschel).",
+        "language": "hebrew",
+        "chapters_used": ["exod-3"]
+    },
+    "eleph": {
+        "hebrew": "אֶלֶף",
+        "transliteration": "ʾelep̄",
+        "strongs": "H505",
+        "gloss": "thousand, clan, military unit",
+        "definition": "A masculine noun with multiple meanings: thousand (numerical), clan or tribal subdivision, or military unit. The term's semantic range creates interpretive challenges for census and military figures in the Hebrew Bible. In Numbers 1-2, the census totals use eleph, yielding implausibly large numbers (603,550 fighting men) if understood as literal thousands. Some scholars propose eleph means 'clan' or 'military unit' (perhaps 5-14 men), producing more realistic population estimates. In Judges 6:15, Gideon refers to his eleph as the weakest in Manasseh, clearly meaning clan. The term appears in the phrase 'thousands of Israel' (alphei yisrael, 1 Sam 10:19), designating tribal subdivisions. Micah 5:2 uses eleph for Bethlehem's clan status. The ambiguity reflects ancient Israel's social organization where military, kinship, and numerical categories overlapped. Understanding eleph as flexible designation rather than fixed number resolves many textual difficulties regarding population and army sizes.",
+        "language": "hebrew",
+        "chapters_used": ["exod-12", "num-1", "num-2"]
+    },
+    "elim": {
+        "hebrew": "אֵילִם",
+        "transliteration": "ʾêlim",
+        "strongs": "H362",
+        "gloss": "Elim (oasis), terebinths, mighty ones",
+        "definition": "A plural noun with multiple meanings: (1) Elim, the oasis where Israel camped after Marah (Exod 15:27; 16:1; Num 33:9-10), featuring twelve springs and seventy palm trees; (2) terebinth or oak trees; (3) mighty ones or leaders. As a place name, Elim (possibly meaning 'terebinths' or 'mighty trees') provided welcome relief after the bitter waters of Marah. The specific numbers—twelve springs (matching Israel's tribes) and seventy palms (matching the nations in Gen 10 or the elders in Exod 24:1)—suggest symbolic significance, possibly indicating divine provision structured according to Israel's tribal organization. Some scholars see typological connection between the seventy palms and the seventy elders or seventy nations. The location is traditionally identified with Wadi Gharandel in Sinai. As a common noun, elim can mean 'mighty ones,' related to el (god, mighty one), appearing in Psalm 29:1 ('sons of the mighty,' bene elim) and Ezekiel 17:13 ('mighty of the land').",
+        "language": "hebrew",
+        "chapters_used": ["exod-15", "exod-16"]
+    },
+    "emet": {
+        "hebrew": "אֱמֶת",
+        "transliteration": "ʾĕmet",
+        "strongs": "H571",
+        "gloss": "truth, faithfulness, reliability",
+        "definition": "A feminine noun meaning truth, faithfulness, reliability, or stability. Derived from the root אמן (ʾmn, 'to be firm, trustworthy'), emet denotes not merely factual accuracy but covenantal faithfulness and dependability. The term frequently pairs with chesed (loyal love) to describe YHWH's character (Exod 34:6; Ps 25:10; 89:14). Emet represents divine reliability in keeping promises and maintaining covenant commitments. In Genesis 24:27, Abraham's servant praises YHWH who 'has not forsaken his chesed and emet' toward Abraham. The term appears in the phrase 'God of emet' (Ps 31:5), emphasizing divine trustworthiness. In wisdom literature, emet designates truthful speech and reliable conduct (Prov 12:19). The concept contrasts with sheqer (falsehood, deception). In John's Gospel, Jesus is identified as 'full of grace and truth' (charis kai aletheia, John 1:14), echoing the Exodus 34:6 formula. Emet emphasizes that truth is relational and covenantal, not merely propositional.",
+        "language": "hebrew",
+        "chapters_used": ["gen-24", "exod-34"]
+    },
+    "ephod": {
+        "hebrew": "אֵפוֹד",
+        "transliteration": "ʾēp̄ôd",
+        "strongs": "H646",
+        "gloss": "ephod, priestly garment, cultic object",
+        "definition": "A masculine noun designating a priestly garment or cultic object used for divination. The high priest's ephod (Exod 28:6-14) was an elaborate vestment of gold, blue, purple, and scarlet yarn, with two onyx stones bearing the names of Israel's twelve tribes. The ephod held the breastpiece (choshen) containing the Urim and Thummim for divine inquiry. A simpler linen ephod (ephod bad) was worn by priests and occasionally by David (2 Sam 6:14). The term also designates a cultic object used for divination, as in Gideon's ephod (Judg 8:27) which became an idolatrous snare, or the ephod consulted by David through Abiathar the priest (1 Sam 23:9-12; 30:7-8). The ephod's divinatory function connects it to legitimate inquiry of YHWH, distinguishing it from prohibited divination practices. In divine council theology, the ephod represents authorized access to heavenly counsel through priestly mediation.",
+        "language": "hebrew",
+        "chapters_used": ["exod-28", "exod-39"]
+    },
+    "erekh_appayim": {
+        "hebrew": "אֶרֶךְ אַפַּיִם",
+        "transliteration": "ʾerek̄ ʾappayim",
+        "strongs": "H750+H639",
+        "gloss": "slow to anger, long-suffering",
+        "definition": "A compound phrase literally meaning 'long of nostrils/face,' idiomatically translated 'slow to anger' or 'patient.' The phrase appears in the divine self-revelation formula (Exod 34:6; Num 14:18; Ps 86:15; 103:8), describing YHWH's character as 'compassionate and gracious, slow to anger (erekh appayim), abounding in chesed and emet.' The idiom derives from the ancient physiological understanding that anger manifests through flared nostrils and heated breath; thus 'long nostrils' suggests delayed or restrained anger. The term emphasizes divine patience and forbearance despite Israel's repeated rebellion. In Numbers 14:18, Moses appeals to YHWH's erekh appayim when interceding after the spies' negative report. Proverbs applies the virtue to human conduct (Prov 14:29; 15:18; 16:32), commending patience as wisdom. The phrase contrasts with 'quick-tempered' (qetsar ruach, lit. 'short of spirit'). In divine council theology, erekh appayim demonstrates YHWH's sovereign restraint in executing judgment, allowing space for repentance.",
+        "language": "hebrew",
+        "chapters_used": ["exod-34", "num-14"]
+    },
+    "erev_rav": {
+        "hebrew": "עֵרֶב רַב",
+        "transliteration": "ʿērep̄ rap̄",
+        "strongs": "H6154+H7227",
+        "gloss": "mixed multitude, diverse crowd",
+        "definition": "A compound phrase meaning 'mixed multitude' or 'diverse crowd,' referring to non-Israelites who joined the Exodus (Exod 12:38). The term erev suggests mixture or mingling, while rav means 'many' or 'great.' This group accompanied Israel out of Egypt, participating in the covenant community yet maintaining distinct identity. Numbers 11:4 refers to the 'rabble' (ha-asafsuf, possibly the same group) who instigated complaints about manna, craving meat. Later Jewish tradition (Targums, Midrash) often blames the erev rav for Israel's wilderness rebellions, including the golden calf incident. The phrase raises questions about covenant boundaries, ethnic identity, and the inclusion of foreigners in Israel's religious community. Exodus 12:48-49 provides for foreigners to celebrate Passover through circumcision, suggesting permeable boundaries. The erev rav represents the complex reality of Israel as a mixed community from its origins, complicating simplistic ethnic definitions of covenant membership.",
+        "language": "hebrew",
+        "chapters_used": ["exod-12", "num-11"]
+    },
+    "esav": {
+        "hebrew": "עֵשָׂו",
+        "transliteration": "ʿēśāw",
+        "strongs": "H6215",
+        "gloss": "Esau, hairy, Jacob's twin",
+        "definition": "A proper name meaning 'hairy,' borne by Isaac's firstborn son and Jacob's twin brother (Gen 25:25). The name derives from the description of Esau's appearance at birth: 'red, all over like a hairy garment' (admoni kulo ke-aderet se'ar). Esau becomes the eponymous ancestor of Edom. The Esau-Jacob narrative explores themes of birthright, blessing, deception, and divine election. Esau sells his birthright for lentil stew (Gen 25:29-34), demonstrating contempt for his inheritance (Gen 25:34). Jacob later deceives Isaac to receive Esau's blessing (Gen 27), creating lasting enmity. Yet the brothers eventually reconcile (Gen 33), with Esau showing unexpected magnanimity. Malachi 1:2-3 ('Jacob I loved, but Esau I hated') and Romans 9:13 use the brothers to illustrate divine election. Hebrews 12:16 warns against being 'godless like Esau.' The narrative presents Esau sympathetically at times (Gen 33:4), complicating simple villain/hero categories and reflecting the complex Israel-Edom relationship.",
+        "language": "hebrew",
+        "chapters_used": ["gen-25", "gen-27", "gen-33"]
+    },
+    "esh": {
+        "hebrew": "אֵשׁ",
+        "transliteration": "ʾēš",
+        "strongs": "H784",
+        "gloss": "fire, flame, burning",
+        "definition": "A feminine noun meaning fire or flame. Esh appears in numerous theophanic contexts as a manifestation of divine presence: the burning bush (Exod 3:2), the pillar of fire (Exod 13:21-22), Sinai ablaze (Exod 19:18), and the fire consuming sacrifices (Lev 9:24). Fire represents both divine holiness (consuming what is profane) and divine presence (illuminating and guiding). The phrase 'YHWH your God is a consuming fire' (esh oklah, Deut 4:24; 9:3) emphasizes divine jealousy and judgment. Fire also appears in divine council imagery: seraphim (lit. 'burning ones'), the fiery stream before the Ancient of Days (Dan 7:10), and the angel whose appearance is like lightning (Dan 10:6). In judgment contexts, esh represents destruction (Gen 19:24; Lev 10:2). The perpetual fire on the altar (Lev 6:12-13) symbolizes continual worship. In prophetic vision, fire purifies (Isa 6:6-7; Mal 3:2-3). The term emphasizes fire as divine attribute and instrument.",
+        "language": "hebrew",
+        "chapters_used": ["gen-19", "exod-3", "exod-13", "exod-19", "lev-9"]
+    },
+    "ets": {
+        "hebrew": "עֵץ",
+        "transliteration": "ʿēṣ",
+        "strongs": "H6086",
+        "gloss": "tree, wood, timber",
+        "definition": "A masculine noun meaning tree, wood, or timber. Ets appears in significant theological contexts: the tree of life (ets hachayyim, Gen 2:9; 3:22, 24) and the tree of knowledge of good and evil (ets haddaat tov vara, Gen 2:9, 17). Trees serve as sacred sites (Gen 12:6; 13:18; 18:1), covenant markers (Josh 24:26), and places of divine encounter. The term also designates wood as building material (Gen 6:14; Exod 25-27) and fuel (Gen 22:3, 6). In prophetic imagery, trees represent nations (Ezek 31) or righteous individuals (Ps 1:3; Jer 17:8). The 'tree' (ets) on which Jesus was crucified (Acts 5:30; 10:39; 13:29; Gal 3:13; 1 Pet 2:24) connects to Deuteronomy 21:23 ('cursed is everyone who hangs on a tree'). In divine council theology, the trees in Eden represent access to divine attributes (life, moral knowledge) guarded after the fall by keruvim. The term emphasizes trees as mediating sacred space and divine blessing.",
+        "language": "hebrew",
+        "chapters_used": ["gen-2", "gen-3", "gen-6", "gen-22"]
+    },
+    "etsba_elohim": {
+        "hebrew": "אֶצְבַּע אֱלֹהִים",
+        "transliteration": "ʾeṣbaʿ ʾĕlōhîm",
+        "strongs": "H676+H430",
+        "gloss": "finger of God, divine power",
+        "definition": "A compound phrase meaning 'finger of God,' denoting direct divine action or power. The phrase appears when Pharaoh's magicians, unable to replicate the plague of gnats, declare 'This is the finger of God' (Exod 8:19), acknowledging power beyond human or demonic capability. In Exodus 31:18, the tablets of testimony are 'written with the finger of God,' emphasizing divine authorship. Deuteronomy 9:10 repeats this description. The anthropomorphic imagery suggests direct, personal divine action rather than mediated agency. In Luke 11:20, Jesus claims to cast out demons 'by the finger of God' (Matthew 12:28 has 'Spirit of God'), indicating divine power at work. Psalm 8:3 uses 'your fingers' poetically for God's creative work in the heavens. The phrase emphasizes unmediated divine intervention, distinguishing YHWH's acts from human magic or lesser spiritual powers. In divine council theology, etsba elohim represents the sovereign's direct executive action.",
+        "language": "hebrew",
+        "chapters_used": ["exod-8", "exod-31", "deut-9"]
+    },
+    "eved_ivri": {
+        "hebrew": "עֶבֶד עִבְרִי",
+        "transliteration": "ʿep̄ed ʿip̄rî",
+        "strongs": "H5650+H5680",
+        "gloss": "Hebrew servant, Israelite slave",
+        "definition": "A compound phrase meaning 'Hebrew servant' or 'Hebrew slave,' designating an Israelite in debt-servitude to a fellow Israelite. The laws in Exodus 21:2-6 and Deuteronomy 15:12-18 regulate treatment of the eved ivri, requiring release in the seventh year unless the servant chooses permanent servitude. The term distinguishes Israelite servants from foreign slaves, who were subject to different regulations (Lev 25:44-46). The seventh-year release reflects sabbatical principles and prevents permanent enslavement of covenant members. If the servant chooses to remain, an ear-piercing ceremony at the doorpost marks permanent servitude (Exod 21:6). Deuteronomy 15:12 extends the provision to female servants. The institution reflects ancient Near Eastern debt-slavery practices while imposing humanitarian limits. The eved ivri laws emphasize Israel's identity as YHWH's servants, redeemed from Egyptian slavery (Lev 25:42, 55), thus preventing perpetual servitude of one Israelite to another.",
+        "language": "hebrew",
+        "chapters_used": ["exod-21", "deut-15"]
+    },
+    "ezov": {
+        "hebrew": "אֵזוֹב",
+        "transliteration": "ʾēzôp̄",
+        "strongs": "H231",
+        "gloss": "hyssop, purification plant",
+        "definition": "A masculine noun designating hyssop, a plant used in purification rituals. Ezov appears in the

@@ -1,0 +1,20 @@
+{
+  "id": "task_015",
+  "agent": "lector",
+  "priority": 15,
+  "description": "Review all chapters in 'Exodus' and identify Hebrew/Aramaic/Greek terms that should be in the glossary but are not. Generate new glossary entries with proper transliteration, Strong's numbers, definitions, and chapters_used arrays.",
+  "metadata": {
+    "text": "exodus",
+    "type": "glossary_expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:53.006115",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_015.json",
+  "_name": "task_015.json",
+  "completed_at": "2026-02-19T08:27:29.309195",
+  "tokens": {
+    "input": 952,
+    "output": 8192
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "task_011",
+  "agent": "scribe",
+  "priority": 11,
+  "description": "Expand thin chapter 'Noah's Preservation — The Ark and the Angels' (id: 1en-66, era: parables). Currently has only 1 section(s). Add 3-5 more sections with detailed analysis, cross-references, ANE context, and Second Temple sources where relevant.",
+  "metadata": {
+    "chapter_id": "1en-66",
+    "era": "parables",
+    "text": "1enoch",
+    "type": "expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:52.976534",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_011.json",
+  "_name": "task_011.json",
+  "completed_at": "2026-02-19T08:17:11.440303"
+}

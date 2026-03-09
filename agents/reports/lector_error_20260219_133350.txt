@@ -1,0 +1,237 @@
+
+{
+    "bekhor": {
+        "hebrew": "בְּכוֹר",
+        "transliteration": "bəḵôr",
+        "strongs": "H1060",
+        "gloss": "firstborn, eldest son",
+        "definition": "The firstborn son, holding special legal and cultic status in ancient Israel. The bekhor received a double portion of inheritance (Deut 21:17) and was consecrated to YHWH (Ex 13:2). In the Exodus narrative, the death of Egypt's firstborn (Ex 11-12) demonstrates YHWH's supremacy over Pharaoh and Egyptian deities. The term extends metaphorically to Israel as YHWH's firstborn among nations (Ex 4:22) and to the Davidic king (Ps 89:27). The bekhor's privileged status could be transferred (as with Jacob and Esau) or redeemed through ritual substitution (Num 3:40-51).",
+        "language": "hebrew",
+        "chapters_used": ["gen-25", "gen-27", "ex-4", "ex-11", "ex-12", "ex-13"]
+    },
+    "belial": {
+        "hebrew": "בְּלִיַּעַל",
+        "transliteration": "bəlîyaʿal",
+        "strongs": "H1100",
+        "gloss": "worthlessness, wickedness, destruction",
+        "definition": "A term denoting worthlessness, wickedness, or destruction, often personified as an opposing spiritual force. Etymologically derived from בְּלִי (bəlî, 'without') and יַעַל (yaʿal, 'profit/value'), thus 'without worth.' In biblical usage, 'sons of Belial' (bənê bəlîyaʿal) refers to wicked, lawless persons (Deut 13:13, Judg 19:22, 1 Sam 2:12). In Second Temple literature, Belial becomes a proper name for the chief of demons or Satan's lieutenant, leading the forces of darkness against the Sons of Light (Dead Sea Scrolls, 1QS, 1QM). Paul uses the Greek form Beliar as antithetical to Christ (2 Cor 6:15).",
+        "language": "hebrew",
+        "chapters_used": ["gen-19", "jub-15", "jub-16"]
+    },
+    "bene_shemayin": {
+        "hebrew": "בְּנֵי שְׁמַיִן",
+        "transliteration": "bənê šəmayîn",
+        "strongs": "H1121+H8064",
+        "gloss": "sons of heaven",
+        "definition": "Aramaic phrase meaning 'sons of heaven,' equivalent to Hebrew bənê hā-ʾĕlōhîm ('sons of God'). Used in Jewish Aramaic texts including Targumim and the Genesis Apocryphon to refer to the divine beings who descended in Gen 6:1-4. The term emphasizes their celestial origin and heavenly court membership. In 1 Enoch and Jubilees, these are the Watchers (ʿîrîn) who transgressed by taking human wives and teaching forbidden knowledge. The Aramaic formulation reflects the linguistic context of Second Temple Judaism and the development of angelology in the intertestamental period.",
+        "language": "aramaic",
+        "chapters_used": ["1en-6", "1en-7", "ga-2"]
+    },
+    "berakhah": {
+        "hebrew": "בְּרָכָה",
+        "transliteration": "bərāḵâ",
+        "strongs": "H1293",
+        "gloss": "blessing, benediction, prosperity",
+        "definition": "A blessing or benediction conveying divine favor, prosperity, and life-force. Derived from the root ברך (brk), related to 'knee' (suggesting submission or reverence). Berakhah encompasses both the spoken formula of blessing and the tangible benefits that flow from divine favor—fertility, abundance, protection, and success. In patriarchal narratives, the berakhah is a transferable power that can be bestowed through ritual speech-acts (Gen 27). YHWH's berakhah to Abraham (Gen 12:2-3) establishes Israel's covenantal identity. Berakhah stands in binary opposition to qəlālâ (curse) in covenant theology (Deut 11:26-29, 28:1-68). The priestly blessing (Num 6:24-26) exemplifies the cultic transmission of berakhah.",
+        "language": "hebrew",
+        "chapters_used": ["gen-12", "gen-27", "gen-28", "ex-12"]
+    },
+    "beriach": {
+        "hebrew": "בְּרִיחַ",
+        "transliteration": "bərîaḥ",
+        "strongs": "H1280",
+        "gloss": "bar, bolt, crossbar",
+        "definition": "A bar or bolt used to secure gates, doors, or structural elements. In the Tabernacle construction (Ex 26:26-29, 36:31-34), beriach refers to the crossbars that connected and stabilized the frames (qərāšîm) of the dwelling. The middle bar (beriach ha-tikhon) ran the entire length through the center of the frames. Metaphorically, beriach represents security and fortification (Deut 3:5, Judg 16:3, Neh 3:3). In prophetic literature, breaking the beriach symbolizes conquest and the removal of defensive protection (Amos 1:5, Jer 51:30). The term derives from the root ברח (brḥ), 'to flee,' suggesting the bar's function in preventing escape or entry.",
+        "language": "hebrew",
+        "chapters_used": ["ex-26", "ex-36"]
+    },
+    "berit_bein_ha_betarim": {
+        "hebrew": "בְּרִית בֵּין הַבְּתָרִים",
+        "transliteration": "bərît bên ha-bətārîm",
+        "strongs": "H1285+H996+H1335",
+        "gloss": "covenant between the pieces",
+        "definition": "The covenant ceremony between YHWH and Abram in Gen 15:7-21, literally 'covenant between the pieces.' The ritual involved cutting animals in half (btr, 'to cut, divide') and arranging the pieces in two rows, creating a pathway. In ancient Near Eastern treaty-making, the superior party would walk between the pieces, invoking a self-curse: 'May I become like these animals if I break this covenant.' Remarkably, in Gen 15:17, only the divine fire-pot and torch pass between the pieces while Abram sleeps, indicating YHWH's unilateral oath and unconditional commitment. This covenant promises land to Abram's descendants and establishes the boundaries of the promised territory. The ceremony's solemnity underscores the binding nature of divine promises.",
+        "language": "hebrew",
+        "chapters_used": ["gen-15"]
+    },
+    "bilhah": {
+        "hebrew": "בִּלְהָה",
+        "transliteration": "bilhâ",
+        "strongs": "H1090",
+        "gloss": "Rachel's maidservant, Jacob's concubine",
+        "definition": "Rachel's maidservant (šipḥâ) given to Jacob as a concubine to bear children on Rachel's behalf (Gen 29:29, 30:3-8). Through the ancient Near Eastern practice of surrogate motherhood, Bilhah bore Dan and Naphtali, who were legally counted as Rachel's sons. Her status as šipḥâ placed her in a subordinate position, yet her sons were full tribal ancestors in Israel. The incident of Reuben's violation of Bilhah (Gen 35:22) resulted in Reuben's loss of firstborn privileges (Gen 49:3-4). Bilhah's name may derive from בלה (blh), 'to wear out' or 'to be troubled,' possibly reflecting her vulnerable social position. Her story illustrates the complex household dynamics and legal mechanisms of patriarchal family structures.",
+        "language": "hebrew",
+        "chapters_used": ["gen-29", "gen-30", "gen-35"]
+    },
+    "brit_milah": {
+        "hebrew": "בְּרִית מִילָה",
+        "transliteration": "bərît mîlâ",
+        "strongs": "H1285+H4139",
+        "gloss": "covenant of circumcision",
+        "definition": "The covenant of circumcision established between YHWH and Abraham in Gen 17:9-14, serving as the physical sign (ʾôt) of the Abrahamic covenant. The removal of the foreskin (ʿorlâ) on the eighth day marks male inclusion in the covenant community and signifies consecration to YHWH. Failure to perform brit milah results in being 'cut off' (kārēt) from the people (Gen 17:14). The practice distinguished Israel from surrounding nations and became a central identity marker, especially during periods of persecution (1 Macc 1:60-61). Moses' near-death experience (Ex 4:24-26) and Zipporah's intervention with their son's circumcision demonstrates the ritual's life-or-death significance. Paul later theologizes circumcision as a sign pointing to circumcision of the heart (Rom 2:28-29).",
+        "language": "hebrew",
+        "chapters_used": ["gen-17", "ex-4", "ex-12"]
+    },
+    "chag": {
+        "hebrew": "חַג",
+        "transliteration": "ḥag",
+        "strongs": "H2282",
+        "gloss": "festival, pilgrimage feast",
+        "definition": "A pilgrimage festival or sacred celebration, derived from the root חגג (ḥgg), 'to make a pilgrimage, celebrate.' The term specifically refers to the three major pilgrimage festivals when Israelite males were required to appear before YHWH: Passover/Unleavened Bread (ḥag ha-maṣṣôt), Weeks/Pentecost (ḥag šāḇuʿôt), and Tabernacles/Booths (ḥag ha-sukkôt) (Ex 23:14-17, Deut 16:16). These festivals combined agricultural thanksgiving with commemoration of salvation history. The chag involved processions, sacrifices, communal meals, and joyful celebration (Ps 42:4). The term emphasizes the movement toward the sanctuary and the festive, celebratory nature of worship, distinguishing it from more solemn observances like Yom Kippur.",
+        "language": "hebrew",
+        "chapters_used": ["ex-5", "ex-10", "ex-12", "ex-23"]
+    },
+    "chag_layhwh": {
+        "hebrew": "חַג לַיהוָה",
+        "transliteration": "ḥag layhwh",
+        "strongs": "H2282+H3068",
+        "gloss": "festival to YHWH",
+        "definition": "A festival dedicated to YHWH, emphasizing the theocentric nature of Israel's celebrations. The phrase appears in Moses' demand to Pharaoh: 'Let us go a three days' journey into the wilderness to celebrate a festival to YHWH our God' (Ex 5:1). This formulation stresses that the festival's purpose is worship of YHWH, not merely ethnic celebration or agricultural observance. The preposition ל (lə, 'to/for') indicates dedication and direction toward YHWH as the recipient of worship. Pharaoh's refusal to permit this chag layhwh precipitates the plague sequence. The Passover becomes the paradigmatic chag layhwh, commemorating YHWH's deliverance and establishing Israel's cultic calendar around divine acts of salvation.",
+        "language": "hebrew",
+        "chapters_used": ["ex-5", "ex-10", "ex-12"]
+    },
+    "chalomot": {
+        "hebrew": "חֲלֹמוֹת",
+        "transliteration": "ḥălōmôt",
+        "strongs": "H2472",
+        "gloss": "dreams (plural)",
+        "definition": "Plural of ḥălôm, referring to multiple dreams or a series of dream-visions. In biblical theology, dreams serve as a primary mode of divine communication, especially in the patriarchal and Joseph narratives. Joseph's two dreams (Gen 37:5-11) form a parallel pair, with the second reinforcing and expanding the first—a common pattern in biblical dream reports. Dreams require interpretation (pēšer in Aramaic, pitrôn in Hebrew), a skill associated with divine wisdom. The doubling of Pharaoh's dreams (Gen 41:1-7, 25-32) indicates divine certainty and imminent fulfillment. Unlike pagan divination, biblical dream interpretation is attributed to God's revelation (Gen 40:8, 41:16, Dan 2:28), not human technique or demonic intermediaries.",
+        "language": "hebrew",
+        "chapters_used": ["gen-37", "gen-40", "gen-41"]
+    },
+    "chamad": {
+        "hebrew": "חָמַד",
+        "transliteration": "ḥāmaḏ",
+        "strongs": "H2530",
+        "gloss": "to desire, covet, delight in",
+        "definition": "To desire intensely, covet, or take pleasure in something, often with the connotation of inappropriate desire leading to action. The verb appears in the tenth commandment prohibiting coveting a neighbor's possessions (Ex 20:17, Deut 5:21). In Gen 2:9, the trees of Eden are 'desirable' (neḥmāḏ) to the sight, and in Gen 3:6, Eve sees the forbidden tree as 'desirable' (neḥmāḏ) for gaining wisdom—desire that leads to transgression. The term encompasses both the internal disposition of desire and the external act of seizing what is desired. Chamad can be neutral (desiring good things, Ps 19:10) or sinful (coveting what belongs to another). The root connects to Akkadian ḫamādu, 'to desire,' and reflects the psychological-ethical dimension of human motivation.",
+        "language": "hebrew",
+        "chapters_used": ["gen-2", "gen-3", "ex-20", "ex-34"]
+    },
+    "chamushim": {
+        "hebrew": "חֲמֻשִׁים",
+        "transliteration": "ḥămušîm",
+        "strongs": "H2571",
+        "gloss": "armed, organized by fifties",
+        "definition": "A term of uncertain etymology describing the Israelites' departure from Egypt (Ex 13:18). Traditional interpretations include: (1) 'armed' or 'equipped for battle' (from ḥāmēš, 'five,' suggesting military divisions of fifty); (2) 'in battle array' or 'marshaled' (organized militarily); (3) 'one-fifth' (only a fifth of Israel left Egypt, while four-fifths died in the plague of darkness—rabbinic tradition). The LXX translates as 'fifth generation' (pemptē genea), while Targumim support 'armed.' The context of Ex 13:17-18 suggests military readiness: God avoided the coastal route lest Israel face immediate warfare, yet they went up chamushim, prepared for eventual conflict. The term emphasizes Israel's organized, purposeful departure rather than a panicked flight.",
+        "language": "hebrew",
+        "chapters_used": ["ex-13"]
+    },
+    "charavah": {
+        "hebrew": "חָרָבָה",
+        "transliteration": "ḥărāḇâ",
+        "strongs": "H2723",
+        "gloss": "waste, desolation, ruin",
+        "definition": "A waste place, desolation, or ruin, derived from the root חרב (ḥrb), 'to be dry, waste, desolate.' The term describes uninhabited, devastated land resulting from divine judgment, warfare, or abandonment. In prophetic literature, charavah characterizes the consequences of covenant violation—cities become ruins, land returns to wilderness (Isa 61:4, Jer 49:13, Ezek 33:24). The word shares semantic range with šəmāmâ (desolation) and ḥorbâ (ruin). In creation theology, God transforms charavah into inhabited land (Isa 58:12), reversing the curse. The term's root connection to 'dryness' links physical desolation with the absence of life-giving water, both literal and metaphorical (divine presence). Charavah represents the anti-creation state, the reversal of Eden's fertility.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "ex-23"]
+    },
+    "chartummim": {
+        "hebrew": "חַרְטֻמִּים",
+        "transliteration": "ḥarṭummîm",
+        "strongs": "H2748",
+        "gloss": "magicians, sacred scribes",
+        "definition": "Egyptian magicians or sacred scribes, likely a loanword from Egyptian ḥry-tp, 'chief of the temple scribes' or ḥr-tp, 'ritual priest.' These were court officials skilled in magic, divination, and dream interpretation, serving as intermediaries with the divine realm. In the Joseph narrative (Gen 41:8, 24), Pharaoh's chartummim cannot interpret his dreams, demonstrating the superiority of YHWH's revelation through Joseph. In the Exodus confrontation (Ex 7:11, 22; 8:7, 18-19), the chartummim initially replicate Moses' signs through 'secret arts' (laṭ), but ultimately fail and acknowledge 'the finger of God' (Ex 8:19). Their presence represents the spiritual-political power structure of Egypt that YHWH systematically defeats. The term appears with 'wise men' (ḥăḵāmîm) and 'sorcerers' (məḵaššəpîm), forming Egypt's spiritual elite.",
+        "language": "hebrew",
+        "chapters_used": ["gen-41", "ex-7", "ex-8", "ex-9"]
+    },
+    "chata": {
+        "hebrew": "חָטָא",
+        "transliteration": "ḥāṭāʾ",
+        "strongs": "H2398",
+        "gloss": "to sin, miss the mark",
+        "definition": "To sin, miss the mark, or fall short of a standard. The root meaning involves missing a target or way (Judg 20:16, Prov 19:2), extended metaphorically to moral and religious failure. Chata encompasses both unintentional errors (Lev 4:2, 22, 27) and deliberate rebellion. The verb takes various objects: sinning 'against' (lə) YHWH or another person, sinning 'in/with' (bə) something, or absolute usage. Sin disrupts the covenant relationship, requiring atonement (kippēr) through sacrifice. The noun ḥaṭṭāʾt refers both to the sin itself and to the sin offering that addresses it. Joseph's question 'How can I do this great wickedness and sin against God?' (Gen 39:9) exemplifies the theocentric understanding of sin as primarily offense against YHWH, even when harming humans.",
+        "language": "hebrew",
+        "chapters_used": ["gen-4", "gen-20", "gen-39", "gen-42", "ex-5", "ex-9", "ex-10"]
+    },
+    "chatah": {
+        "hebrew": "חָטָה",
+        "transliteration": "ḥāṭâ",
+        "strongs": "H2403",
+        "gloss": "sin, sin offering",
+        "definition": "Sin or sin offering, the nominal form of ḥāṭāʾ. The term carries dual meaning: (1) the sin itself—the act of missing the mark or transgressing divine command; (2) the sin offering (ḥaṭṭāʾt) prescribed for atonement (Lev 4-5). This semantic overlap reflects the biblical understanding that sin requires ritual remedy. The sin offering addressed unintentional sins and ritual impurities, involving specific procedures based on the offender's status (priest, community, leader, common person). The blood manipulation and disposal of the carcass varied by circumstance. On Yom Kippur, the high priest offered a special chatah for himself and the people (Lev 16). The term's dual reference to both problem and solution emphasizes that sin is not merely moral failure but a condition requiring divine provision for restoration.",
+        "language": "hebrew",
+        "chapters_used": ["gen-4", "ex-29", "ex-30"]
+    },
+    "chatan_damim": {
+        "hebrew": "חֲתַן דָּמִים",
+        "transliteration": "ḥăṯan dāmîm",
+        "strongs": "H2860+H1818",
+        "gloss": "bridegroom of blood",
+        "definition": "A cryptic phrase spoken by Zipporah in Ex 4:25-26 after circumcising her son to save Moses from YHWH's deadly attack. The phrase literally means 'bridegroom of blood' or 'blood-bridegroom.' Interpretations vary: (1) Zipporah addresses Moses, declaring him a 'bridegroom of blood' through the circumcision that saved him; (2) she addresses the child, now a 'bridegroom' through the blood-covenant of circumcision; (3) the phrase reflects an ancient apotropaic ritual where blood contact creates protective kinship. The plural dāmîm ('bloods') may refer to both circumcision blood and the averted death-threat. The incident emphasizes circumcision's life-or-death importance and suggests Moses' neglect of this covenant sign nearly cost him his mission and life. The phrase connects marriage, blood, and covenant in a dense theological moment.",
+        "language": "hebrew",
+        "chapters_used": ["ex-4"]
+    },
+    "chatser": {
+        "hebrew": "חָצֵר",
+        "transliteration": "ḥāṣēr",
+        "strongs": "H2691",
+        "gloss": "court, courtyard, enclosure",
+        "definition": "A court, courtyard, or enclosed area, particularly the outer court of the Tabernacle or Temple. The Tabernacle's chatser (Ex 27:9-19, 38:9-20) was a rectangular enclosure (100 x 50 cubits) surrounded by linen hangings on bronze pillars, containing the bronze altar and laver. This outer court separated sacred space from the common camp, creating gradations of holiness: camp, court, Holy Place, Most Holy Place. Only Israelites could enter the chatser, while the tent interior was restricted to priests. The term also refers to residential courtyards (2 Sam 17:18), palace courts (Esth 4:11), and temple courts (Ps 84:2, 10; 92:13). The chatser represents the threshold between profane and sacred, the accessible outer zone of divine presence where sacrificial worship occurs.",
+        "language": "hebrew",
+        "chapters_used": ["ex-27", "ex-35", "ex-38", "ex-39", "ex-40"]
+    },
+    "chatsi_halailah": {
+        "hebrew": "חֲצִי הַלַּיְלָה",
+        "transliteration": "ḥăṣî hallaylâ",
+        "strongs": "H2677+H3915",
+        "gloss": "midnight, middle of the night",
+        "definition": "Midnight, literally 'half of the night,' the temporal midpoint of darkness. In Ex 11:4 and 12:29, chatsi halailah marks the precise moment when YHWH strikes Egypt's firstborn, demonstrating divine sovereignty over time and life. Midnight represents the deepest darkness, the hour of vulnerability and divine visitation. The specificity of timing emphasizes that the plague was not natural disaster but purposeful divine judgment executed at the appointed moment. In ancient Near Eastern thought, night was associated with chaos and danger; YHWH's action at midnight shows His mastery over the forces of darkness. The Passover liturgy preserves this timing, with the seder extending into night and the original command to remain indoors until morning (Ex 12:22). Midnight becomes the hour of deliverance and judgment.",
+        "language": "hebrew",
+        "chapters_used": ["ex-11", "ex-12"]
+    },
+    "chattat": {
+        "hebrew": "חַטָּאת",
+        "transliteration": "ḥaṭṭāʾṯ",
+        "strongs": "H2403",
+        "gloss": "sin, sin offering",
+        "definition": "Sin or sin offering, feminine form of ḥaṭṭāʾ. The term functions identically to chatah, referring both to the sinful act and the sacrificial remedy. The sin offering (qorbān ḥaṭṭāʾṯ) was required for unintentional violations of prohibitive commands (Lev 4:2, 13, 22, 27) and certain ritual impurities. The offering varied by the offender's status: a bull for the anointed priest or whole community, a male goat for a leader, a female goat or lamb for a common person, or birds/grain for the poor (Lev 4-5). The blood was applied to the altar horns, and the fat was burned; disposal of the carcass depended on whose sin was being addressed. The chattat purified the sanctuary from pollution caused by sin, maintaining the holy space where YHWH dwelt among His people.",
+        "language": "hebrew",
+        "chapters_used": ["ex-29", "ex-30"]
+    },
+    "chaval": {
+        "hebrew": "חָבַל",
+        "transliteration": "ḥāḇal",
+        "strongs": "H2254",
+        "gloss": "to bind, pledge, take in pledge",
+        "definition": "To bind, take as a pledge, or act corruptly. The verb has multiple semantic ranges: (1) to bind or tie (Ezek 27:24); (2) to take something as security for a loan (Ex 22:26, Deut 24:6); (3) to destroy or act corruptly (Mic 2:10). In covenant contexts, chaval relates to binding agreements and the securities that guarantee them. The noun ḥăḇōl refers to a pledge or security item. Israelite law protected the poor from exploitative pledging—a cloak taken as pledge must be returned by sunset (Ex 22:26-27), and essential items like millstones could not be pledged (Deut 24:6). The term reflects the economic realities of ancient Israel and the Torah's concern for justice in lending practices, preventing debt from becoming oppressive bondage.",
+        "language": "hebrew",
+        "chapters_used": ["ex-22"]
+    },
+    "chazaq": {
+        "hebrew": "חָזַק",
+        "transliteration": "ḥāzaq",
+        "strongs": "H2388",
+        "gloss": "to be strong, strengthen, harden",
+        "definition": "To be strong, make strong, strengthen, or harden. The verb appears in multiple stems with varying nuances: Qal (be strong), Piel (strengthen, make firm), Hiphil (make strong, harden, encourage). In the Exodus narrative, chazaq describes both Pharaoh's self-hardening (Ex 7:13, 22; 8:19; 9:35) and YHWH's hardening of Pharaoh's heart (Ex 4:21; 9:12; 10:20, 27; 11:10; 14:4, 8, 17). This dual agency raises theological questions about divine sovereignty and human responsibility. The hardening demonstrates YHWH's power over Egypt's king and creates the context for maximal display of divine glory through the plagues and sea-crossing. Elsewhere, chazaq appears in encouragement formulas: 'Be strong and courageous' (Deut 31:6-7, Josh 1:6-9). The root conveys physical strength, emotional courage, and moral resolve.",
+        "language": "hebrew",
+        "chapters_used": ["gen-41", "ex-4", "ex-7", "ex-9", "ex-10", "ex-12", "ex-14"]
+    },
+    "chesed": {
+        "hebrew": "חֶסֶד",
+        "transliteration": "ḥeseḏ",
+        "strongs": "H2617",
+        "gloss": "steadfast love, covenant loyalty",
+        "definition": "Steadfast love, loyal love, covenant faithfulness, or loving-kindness. Chesed is a central theological term describing YHWH's covenant loyalty and the reciprocal loyalty expected within covenant relationships. The term combines affection, commitment, and action—it is love that acts faithfully. YHWH's chesed is 'everlasting' (Ps 136), 'great' (Num 14:18), and 'abundant' (Ex 34:6). It motivates divine patience, forgiveness, and redemption despite Israel's unfaithfulness. Chesed also characterizes ideal human relationships: Ruth's loyalty to Naomi (Ruth 1:8, 3:10), Jonathan's covenant with David (1 Sam 20:8), and the kindness shown to Abraham's servant (Gen 24:12). The term appears frequently in Psalms as the basis for appeals to divine mercy. Chesed is often paired with ʾĕmeṯ (truth/faithfulness), forming a hendiadys expressing reliable covenant love.",
+        "language": "hebrew",
+        "chapters_used": ["gen-24", "gen-32", "gen-39", "ex-15", "ex-20", "ex-34"]
+    },
+    "chet_gedolah": {
+        "hebrew": "חֵטְא גְדֹלָה",
+        "transliteration": "ḥēṭʾ gəḏōlâ",
+        "strongs": "H2401+H1419",
+        "gloss": "great sin, grievous sin",
+        "definition": "A great or grievous sin, emphasizing the magnitude of transgression. The phrase appears in contexts of particularly serious violations: the golden calf apostasy (Ex 32:21, 30, 31), Jeroboam's idolatry (2 Kgs 17:21), and sexual immorality (Gen 20:9, 39:9). Joseph's rhetorical question to Potiphar's wife—'How can I do this great wickedness (hārāʿâ haggədōlâ) and sin against God?'—identifies sexual sin as both social betrayal and theological offense. The adjective gəḏōlâ (great, large) intensifies the noun, distinguishing capital offenses or covenant-breaking acts from lesser infractions. The golden calf incident is paradigmatic: Moses calls it a 'great sin' requiring intercession and atonement (Ex 32:30-31). The phrase reflects a graduated understanding of sin, where certain acts constitute fundamental rebellion against YHWH's character and covenant.",
+        "language": "hebrew",
+        "chapters_used": ["gen-20", "gen-39", "ex-32"]
+    },
+    "chofshi": {
+        "hebrew": "חָפְשִׁי",
+        "transliteration": "ḥopšî",
+        "strongs": "H2670",
+        "gloss": "free, freed person",
+        "definition": "Free, freed, or liberated, particularly describing a slave who has been released from bondage. The term appears in manumission laws (Ex 21:2, 5, 26-27; Deut 15:12-13, 18) regulating Hebrew debt-slavery. After six years of service, a Hebrew slave goes free (chofshi) in the seventh year without payment. If the slave chooses permanent servitude (loving his master, wife, and children), he forfeits chofshi status through an ear-piercing ritual (Ex 21:5-6). The term also describes freedom from obligation or liability (1 Sam 17:25). In Job 3:19, the slave is chofshi from his master in death, suggesting freedom as release from earthly constraints. The root חפשׁ (ḥpš) relates to searching or seeking, possibly implying freedom as the ability to move and act without restriction. Chofshi represents the opposite of ʿeḇeḏ (slave/servant).",
+        "language": "hebrew",
+        "chapters_used": ["ex-21"]
+    },
+    "chok

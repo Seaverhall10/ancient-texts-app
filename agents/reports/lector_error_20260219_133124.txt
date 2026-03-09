@@ -1,0 +1,260 @@
+
+{
+    "lechem_hapanim": {
+        "hebrew": "לֶחֶם הַפָּנִים",
+        "transliteration": "leḥem happānîm",
+        "strongs": "H3899+H6440",
+        "gloss": "bread of the Presence",
+        "definition": "Literally 'bread of the faces,' the twelve loaves of bread placed weekly on the golden table in the Holy Place of the Tabernacle (Exod 25:30; Lev 24:5-9). Each loaf represented one of the twelve tribes of Israel, arranged in two rows of six. Only the Aaronide priests could eat this bread after its weekly replacement on the Sabbath. The term 'faces' (panim) suggests the bread stood perpetually before YHWH's presence, symbolizing Israel's covenant relationship and divine provision. In divine council theology, this represents the earthly reflection of the heavenly table where the divine assembly meets.",
+        "language": "hebrew",
+        "chapters_used": ["exod-25", "lev-24"]
+    },
+    "lekhavod_uletifaret": {
+        "hebrew": "לְכָבוֹד וּלְתִפְאָרֶת",
+        "transliteration": "lekhāvôd ûletip'āret",
+        "strongs": "H3519+H8597",
+        "gloss": "for glory and beauty",
+        "definition": "A hendiadys describing the dual purpose of the high priestly garments (Exod 28:2, 40). Kavod (glory/weight/honor) emphasizes the dignity and authority of the priestly office, while tiferet (beauty/splendor) highlights the aesthetic magnificence befitting one who serves in YHWH's earthly palace-temple. Together they indicate that the priest represents both divine majesty and cosmic order. The phrase connects to ancient Near Eastern concepts where temple personnel wore garments reflecting divine radiance, marking them as mediators between heaven and earth.",
+        "language": "hebrew",
+        "chapters_used": ["exod-28"]
+    },
+    "lel_shimmurim": {
+        "hebrew": "לֵיל שִׁמֻּרִים",
+        "transliteration": "lêl šimmurîm",
+        "strongs": "H3915+H8107",
+        "gloss": "night of watching",
+        "definition": "The 'night of vigil' or 'night of watching' (Exod 12:42), referring to the Passover night when YHWH 'kept watch' to bring Israel out of Egypt. The term shimmurim (plural intensive) suggests mutual watching: YHWH watched over Israel, and Israel is commanded to observe this night perpetually. In Second Temple tradition, this became one of four nights inscribed on the heavenly tablets (Creation, Binding of Isaac, Exodus, Messianic redemption). The term emphasizes divine vigilance and the expectation that Israel reciprocate through liturgical remembrance.",
+        "language": "hebrew",
+        "chapters_used": ["exod-12"]
+    },
+    "lev_nadav": {
+        "hebrew": "לֵב נָדָב",
+        "transliteration": "lēv nādāv",
+        "strongs": "H3820+H5068",
+        "gloss": "willing heart",
+        "definition": "A 'generous heart' or 'willing spirit' (Exod 35:5, 21-22, 29), describing those who voluntarily contributed materials for the Tabernacle construction. The root nadav means to volunteer, be generous, or offer freely without compulsion. This phrase emphasizes that sacred space must be built through voluntary devotion rather than coercion, reflecting the covenant relationship where Israel freely chooses to participate in YHWH's dwelling among them. The concept contrasts with forced labor (mas) and establishes a pattern for temple contributions throughout biblical tradition.",
+        "language": "hebrew",
+        "chapters_used": ["exod-35"]
+    },
+    "levenim": {
+        "hebrew": "לְבֵנִים",
+        "transliteration": "levēnîm",
+        "strongs": "H3843",
+        "gloss": "bricks",
+        "definition": "Sun-dried or kiln-fired clay bricks, the primary building material in Mesopotamia and Egypt. In Exodus 1:14 and 5:7-19, levenim symbolize Israel's oppression under Pharaoh, who demanded brick quotas without providing straw (teven). The contrast between brick construction (human achievement, as at Babel, Gen 11:3) and stone construction (divine permanence, as in the Tabernacle's altar) carries theological significance. Bricks represent human autonomy and imperial power structures, while unhewn stone represents submission to divine design. The term derives from lavan (white), referring to the pale color of dried clay.",
+        "language": "hebrew",
+        "chapters_used": ["gen-11", "exod-1", "exod-5"]
+    },
+    "levi": {
+        "hebrew": "לֵוִי",
+        "transliteration": "lēwî",
+        "strongs": "H3878",
+        "gloss": "joined, attached",
+        "definition": "The third son of Jacob and Leah, whose name derives from lavah (to join, attach). Leah named him hoping 'now my husband will be joined to me' (Gen 29:34). Despite his violent actions at Shechem (Gen 34), his descendants became the priestly tribe, set apart for sacred service (Exod 32:26-29; Num 3:5-13). The Levites' role as mediators between YHWH and Israel fulfills the etymological meaning—they are 'joined' to divine service. In divine council theology, Levites function as earthly counterparts to the heavenly host, maintaining cosmic order through ritual. The tribe received no territorial inheritance, as YHWH himself was their portion (Num 18:20).",
+        "language": "hebrew",
+        "chapters_used": ["gen-29", "gen-34", "exod-32", "num-3"]
+    },
+    "livnat_hassappir": {
+        "hebrew": "לִבְנַת הַסַּפִּיר",
+        "transliteration": "livnat hassappîr",
+        "strongs": "H3840+H5601",
+        "gloss": "pavement of sapphire",
+        "definition": "The 'brick/tile of sapphire' or 'sapphire pavement' seen beneath YHWH's feet during the Sinai theophany (Exod 24:10). The term livnah (brick/tile) connects to levenim (bricks), but here describes the crystalline floor of the heavenly throne room. Sappir likely refers to lapis lazuli, a deep blue stone associated with divine realms in ancient Near Eastern cosmology. This vision grants the elders of Israel a glimpse into the divine council chamber, where the heavenly court convenes. The sapphire pavement represents the firmament (raqia) separating earthly and heavenly realms, described as 'clear as the heavens themselves' (ke-etsem hashamayim latohar).",
+        "language": "hebrew",
+        "chapters_used": ["exod-24"]
+    },
+    "lo_tinaf": {
+        "hebrew": "לֹא תִנְאָף",
+        "transliteration": "lō' tin'āp",
+        "strongs": "H3808+H5003",
+        "gloss": "you shall not commit adultery",
+        "definition": "The seventh commandment (Exod 20:14; Deut 5:18), prohibiting sexual relations with another man's wife. The root na'ap specifically denotes adultery (violation of marriage covenant), distinct from general sexual immorality (zanah). This command protects the integrity of the family unit and the certainty of lineage, crucial in patriarchal covenant theology where inheritance passes through legitimate offspring. Prophetic literature extends the metaphor to Israel's covenant faithfulness, where idolatry constitutes spiritual adultery against YHWH (Jer 3:8-9; Ezek 16:32). The command appears in apodictic form (absolute prohibition) without stated penalty, though Levitical law prescribes death for both parties (Lev 20:10).",
+        "language": "hebrew",
+        "chapters_used": ["exod-20", "deut-5", "lev-20"]
+    },
+    "lo_tirtsach": {
+        "hebrew": "לֹא תִרְצָח",
+        "transliteration": "lō' tirṣaḥ",
+        "strongs": "H3808+H7523",
+        "gloss": "you shall not murder",
+        "definition": "The sixth commandment (Exod 20:13; Deut 5:17), prohibiting unlawful killing. The verb ratsach denotes murder, manslaughter, or killing with malice, distinct from harag (general killing) or mut (causing death). This specificity indicates the command prohibits unauthorized taking of human life, not all killing (warfare, capital punishment, and accidental death are addressed separately in Torah). The prohibition reflects the imago Dei theology: humans bear the divine image (Gen 1:26-27; 9:6), making murder an assault on God's representative. The term appears 47 times in the Hebrew Bible, often in contexts of blood vengeance and cities of refuge (Num 35:6-34).",
+        "language": "hebrew",
+        "chapters_used": ["exod-20", "deut-5", "num-35"]
+    },
+    "luchot": {
+        "hebrew": "לֻחֹת",
+        "transliteration": "luḥōt",
+        "strongs": "H3871",
+        "gloss": "tablets",
+        "definition": "Stone tablets, specifically the two tablets of the covenant (luchot ha-berit) inscribed with the Decalogue. The term appears in Exodus 24:12, 31:18, 32:15-19, and 34:1-4. These tablets were written by 'the finger of God' (etsba elohim), indicating direct divine authorship. Moses shattered the first set upon witnessing the golden calf (Exod 32:19), and YHWH provided a second set (Exod 34:1). The tablets were deposited in the Ark of the Covenant (Deut 10:2-5), making them the most sacred objects in Israelite religion. Ancient Near Eastern treaty documents were similarly preserved in temples, and the tablets represent YHWH's suzerainty treaty with Israel. Variant spelling of lukhot.",
+        "language": "hebrew",
+        "chapters_used": ["exod-24", "exod-31", "exod-32", "exod-34", "deut-10"]
+    },
+    "lukhot": {
+        "hebrew": "לֻחֹת",
+        "transliteration": "luḥōt",
+        "strongs": "H3871",
+        "gloss": "tablets",
+        "definition": "Alternate spelling of luchot. Stone tablets, specifically the two tablets of the covenant (luchot ha-berit) inscribed with the Decalogue. The term appears in Exodus 24:12, 31:18, 32:15-19, and 34:1-4. These tablets were written by 'the finger of God' (etsba elohim), indicating direct divine authorship. Moses shattered the first set upon witnessing the golden calf (Exod 32:19), and YHWH provided a second set (Exod 34:1). The tablets were deposited in the Ark of the Covenant (Deut 10:2-5), making them the most sacred objects in Israelite religion. Ancient Near Eastern treaty documents were similarly preserved in temples, and the tablets represent YHWH's suzerainty treaty with Israel.",
+        "language": "hebrew",
+        "chapters_used": ["exod-24", "exod-31", "exod-32", "exod-34", "deut-10"]
+    },
+    "lukhot_shamayim": {
+        "hebrew": "לֻחוֹת שָׁמַיִם",
+        "transliteration": "luḥôt šāmayim",
+        "strongs": "H3871+H8064",
+        "gloss": "heavenly tablets",
+        "definition": "The 'tablets of heaven,' a concept prominent in Second Temple literature (Jubilees, 1 Enoch) referring to celestial records containing divine decrees, cosmic laws, and predetermined history. While not explicitly named in the Pentateuch, the concept develops from references to divine writing (Exod 32:32-33; Ps 139:16; Dan 7:10). In Jubilees, the Angel of the Presence dictates from these tablets, which contain creation accounts, patriarchal history, and eschatological events. The heavenly tablets represent the divine council's administrative records, parallel to ancient Near Eastern concepts of tablets of destiny. They establish that earthly Torah reflects eternal heavenly law.",
+        "language": "hebrew",
+        "chapters_used": ["exod-32", "jub-1"]
+    },
+    "lun": {
+        "hebrew": "לוּן",
+        "transliteration": "lûn",
+        "strongs": "H3885",
+        "gloss": "lodge, spend the night",
+        "definition": "To lodge, spend the night, or remain overnight. The verb appears in various contexts: hospitality (Gen 19:2, Lot hosting angels), danger (Exod 23:18, sacrificial fat not remaining overnight), and complaint (Exod 15:24, 16:2, Israel 'murmuring' against Moses). The semantic range includes both neutral lodging and the negative sense of 'grumbling' or 'murmuring' (overlapping with lun's homonym). In Exodus, the wilderness generation's 'lodging' of complaints becomes paradigmatic of covenant unfaithfulness. The term also appears in wisdom literature regarding the lodging of wisdom or folly in the heart (Prov 15:31).",
+        "language": "hebrew",
+        "chapters_used": ["gen-19", "exod-15", "exod-16", "exod-23"]
+    },
+    "ma'aser": {
+        "hebrew": "מַעֲשֵׂר",
+        "transliteration": "ma'ăśēr",
+        "strongs": "H4643",
+        "gloss": "tithe, tenth part",
+        "definition": "A tenth part, tithe. From the root asar (ten), ma'aser denotes the tenth portion of produce, livestock, or income dedicated to YHWH. The practice predates Sinai (Gen 14:20, Abraham to Melchizedek; Gen 28:22, Jacob's vow). Levitical law systematizes tithing: the first tithe goes to Levites (Num 18:21-24), who then tithe to priests (Num 18:26-28); a second tithe supports pilgrimage festivals (Deut 14:22-27); a third-year tithe aids the poor (Deut 14:28-29). Tithing acknowledges YHWH's ownership of the land and its produce, with Israel as tenant-stewards. Malachi 3:8-10 condemns withholding tithes as 'robbing God.'",
+        "language": "hebrew",
+        "chapters_used": ["gen-14", "gen-28", "num-18", "deut-14", "mal-3"]
+    },
+    "maaser": {
+        "hebrew": "מַעֲשֵׂר",
+        "transliteration": "ma'ăśēr",
+        "strongs": "H4643",
+        "gloss": "tithe, tenth part",
+        "definition": "Alternate spelling of ma'aser. A tenth part, tithe. From the root asar (ten), ma'aser denotes the tenth portion of produce, livestock, or income dedicated to YHWH. The practice predates Sinai (Gen 14:20, Abraham to Melchizedek; Gen 28:22, Jacob's vow). Levitical law systematizes tithing: the first tithe goes to Levites (Num 18:21-24), who then tithe to priests (Num 18:26-28); a second tithe supports pilgrimage festivals (Deut 14:22-27); a third-year tithe aids the poor (Deut 14:28-29). Tithing acknowledges YHWH's ownership of the land and its produce, with Israel as tenant-stewards.",
+        "language": "hebrew",
+        "chapters_used": ["gen-14", "gen-28", "num-18", "deut-14"]
+    },
+    "machah": {
+        "hebrew": "מָחָה",
+        "transliteration": "māḥâ",
+        "strongs": "H4229",
+        "gloss": "wipe out, blot out",
+        "definition": "To wipe out, blot out, erase, or obliterate. The verb carries both physical (wiping clean) and metaphorical (destroying, removing from memory) senses. YHWH threatens to 'blot out' humanity in the Flood (Gen 6:7, 7:4) and to erase Amalek's memory (Exod 17:14; Deut 25:19). Moses pleads for YHWH to blot him from the divine book rather than destroy Israel (Exod 32:32-33). The term appears in contexts of divine judgment, covenant curses, and the removal of sin (Ps 51:1, 9; Isa 43:25). In divine council theology, machah relates to the heavenly records (sefer) where names and deeds are inscribed, with erasure signifying ultimate judgment.",
+        "language": "hebrew",
+        "chapters_used": ["gen-6", "gen-7", "exod-17", "exod-32", "deut-25"]
+    },
+    "machatsit_hasheqel": {
+        "hebrew": "מַחֲצִית הַשֶּׁקֶל",
+        "transliteration": "maḥăṣît haššeqel",
+        "strongs": "H4276+H8255",
+        "gloss": "half shekel",
+        "definition": "The 'half shekel,' a mandatory annual temple tax required of every Israelite male twenty years and older (Exod 30:11-16). This atonement money (kesef kippurim) served as ransom (koper) for each person during census-taking, preventing plague. The amount was fixed regardless of wealth—'the rich shall not give more, and the poor shall not give less' (Exod 30:15)—emphasizing equal standing before YHWH. The half shekel funded Tabernacle maintenance and later temple operations. In Second Temple Judaism, this became an annual obligation. The term reflects ancient Near Eastern weight standards, with the shekel (approximately 11.4 grams of silver) as the basic unit.",
+        "language": "hebrew",
+        "chapters_used": ["exod-30"]
+    },
+    "maggephah": {
+        "hebrew": "מַגֵּפָה",
+        "transliteration": "maggēpâ",
+        "strongs": "H4046",
+        "gloss": "plague, pestilence",
+        "definition": "A plague, pestilence, or divine blow. From the root nagap (to strike, smite), maggephah denotes catastrophic judgment, often through disease or sudden death. The term appears in contexts of divine punishment: the Egyptian plagues (Exod 9:14), plague after the golden calf (Exod 32:35), plague following Korah's rebellion (Num 17:11-15), and plague from David's census (2 Sam 24:21, 25). Plague functions as the divine council's executive judgment, sometimes mediated through the Destroyer (mashchit) or destroying angel. Aaron's intercession with incense halts the plague (Num 16:46-48), demonstrating priestly mediation between divine wrath and the people.",
+        "language": "hebrew",
+        "chapters_used": ["exod-9", "exod-32", "num-16", "num-17", "2sam-24"]
+    },
+    "makhpelah": {
+        "hebrew": "מַכְפֵּלָה",
+        "transliteration": "maḵpēlâ",
+        "strongs": "H4375",
+        "gloss": "double cave",
+        "definition": "The cave of Machpelah, Abraham's burial site purchased from Ephron the Hittite (Gen 23:9, 17, 19). Located near Mamre/Hebron, the name likely derives from kapal (to double), possibly indicating a double cave or field with a cave. This became the patriarchal burial ground: Abraham and Sarah (Gen 23:19, 25:9), Isaac and Rebekah (Gen 49:31), Jacob and Leah (Gen 49:30, 50:13). The detailed purchase narrative (Gen 23) establishes legal ownership of land in Canaan, providing a foothold in the Promised Land even before conquest. The site represents covenant continuity across generations and Israel's legitimate claim to the land.",
+        "language": "hebrew",
+        "chapters_used": ["gen-23", "gen-25", "gen-49", "gen-50"]
+    },
+    "makkeh": {
+        "hebrew": "מַכֶּה",
+        "transliteration": "makkê",
+        "strongs": "H5221",
+        "gloss": "striker, one who strikes",
+        "definition": "A striker, smiter, or one who strikes. Participial form of nakah (to strike, smite, kill). The term appears in legal contexts distinguishing intentional from accidental killing (Exod 21:12-14; Num 35:16-21). A makkeh ish (one who strikes a man) causing death faces capital punishment, unless the killing was unintentional (Exod 21:12-13). The term also describes YHWH as the one who strikes Egypt (Exod 12:13) and strikes down enemies. In divine council theology, YHWH or his agents function as the ultimate makkeh executing judgment. The root nakah appears over 500 times, making it a central term for divine and human violence.",
+        "language": "hebrew",
+        "chapters_used": ["exod-12", "exod-21", "num-35"]
+    },
+    "makkot": {
+        "hebrew": "מַכּוֹת",
+        "transliteration": "makkôt",
+        "strongs": "H4347",
+        "gloss": "plagues, blows",
+        "definition": "Plagues, blows, or strikes (plural of makkah). The term specifically denotes the ten plagues against Egypt (Exod 7-12), demonstrating YHWH's supremacy over Pharaoh and Egyptian deities. Each plague targets specific aspects of Egyptian religion and economy: the Nile (Hapi), frogs (Heqet), livestock (Hathor, Apis), sun (Ra), culminating in the death of the firstborn (Pharaoh's divine status). The plagues function as divine council warfare, with YHWH executing judgment (shephatim, Exod 12:12) against Egypt's gods. The term also appears in covenant curses (Deut 28:59-61) and prophetic judgment oracles. Makkot reveals YHWH's incomparability (ein kamoni, Exod 9:14).",
+        "language": "hebrew",
+        "chapters_used": ["exod-7", "exod-8", "exod-9", "exod-10", "exod-11", "exod-12", "deut-28"]
+    },
+    "mal'akh ha-panim": {
+        "hebrew": "מַלְאַךְ הַפָּנִים",
+        "transliteration": "mal'aḵ happānîm",
+        "strongs": "H4397+H6440",
+        "gloss": "angel of the Presence",
+        "definition": "The 'angel of the Presence/Face,' a high-ranking member of the divine council who stands in YHWH's immediate presence. While not explicitly named in the Pentateuch, the concept develops from references to YHWH's panim (face/presence) going with Israel (Exod 33:14-15) and the angel who bears YHWH's name (Exod 23:20-21). In Second Temple literature (Jubilees, Testament of the Twelve Patriarchs), the Angel of the Presence serves as chief mediator, dictating heavenly tablets and guiding Israel. Isaiah 63:9 references 'the angel of his presence' who saved Israel. This figure represents YHWH's hypostatic presence, distinct yet bearing divine authority, functioning as vizier of the heavenly court.",
+        "language": "hebrew",
+        "chapters_used": ["exod-23", "exod-33", "isa-63", "jub-1"]
+    },
+    "mal'akhim": {
+        "hebrew": "מַלְאָכִים",
+        "transliteration": "mal'āḵîm",
+        "strongs": "H4397",
+        "gloss": "messengers, angels",
+        "definition": "Messengers or angels (plural of malakh). The term denotes both human messengers and divine beings who serve in YHWH's heavenly court. Context determines whether mal'akhim are earthly envoys (Gen 32:3, Jacob's messengers to Esau) or heavenly beings (Gen 19:1, angels visiting Lot; Gen 28:12, angels ascending/descending Jacob's ladder). Divine mal'akhim execute YHWH's will, deliver messages, protect the faithful, and execute judgment. They constitute the lower ranks of the divine council (sod), distinct from higher beings like seraphim or cherubim. The term emphasizes function (messenger/agent) rather than ontology, though Second Temple Judaism increasingly developed angelology with named angels and hierarchies.",
+        "language": "hebrew",
+        "chapters_used": ["gen-19", "gen-28", "gen-32", "exod-23", "exod-33"]
+    },
+    "malaakhim": {
+        "hebrew": "מַלְאָכִים",
+        "transliteration": "mal'āḵîm",
+        "strongs": "H4397",
+        "gloss": "messengers, angels",
+        "definition": "Alternate spelling of mal'akhim. Messengers or angels (plural of malakh). The term denotes both human messengers and divine beings who serve in YHWH's heavenly court. Context determines whether mal'akhim are earthly envoys (Gen 32:3, Jacob's messengers to Esau) or heavenly beings (Gen 19:1, angels visiting Lot; Gen 28:12, angels ascending/descending Jacob's ladder). Divine mal'akhim execute YHWH's will, deliver messages, protect the faithful, and execute judgment. They constitute the lower ranks of the divine council (sod), distinct from higher beings like seraphim or cherubim.",
+        "language": "hebrew",
+        "chapters_used": ["gen-19", "gen-28", "gen-32", "exod-23"]
+    },
+    "malakh": {
+        "hebrew": "מַלְאָךְ",
+        "transliteration": "mal'āḵ",
+        "strongs": "H4397",
+        "gloss": "messenger, angel",
+        "definition": "A messenger or angel. The root l'k means 'to send,' making malakh 'one who is sent.' The term applies to human messengers (1 Sam 11:3), prophets (Hag 1:13, 'YHWH's messenger'), and divine beings. The malakh YHWH (angel of YHWH) appears frequently in the Pentateuch and Former Prophets, sometimes identified with YHWH himself (Gen 16:7-13, Hagar; Exod 3:2-6, burning bush; Judg 6:11-24, Gideon), other times as a distinct agent (Exod 23:20-23, angel guiding Israel). This ambiguity reflects ancient Israelite theology where YHWH's presence could be mediated through an agent bearing his name and authority. In divine council theology, the malakh functions as YHWH's plenipotentiary representative.",
+        "language": "hebrew",
+        "chapters_used": ["gen-16", "exod-3", "exod-23", "judg-6"]
+    },
+    "malakh_elohim": {
+        "hebrew": "מַלְאַךְ אֱלֹהִים",
+        "transliteration": "mal'aḵ 'ĕlōhîm",
+        "strongs": "H4397+H430",
+        "gloss": "angel of God",
+        "definition": "The 'angel of God,' a variant of malakh YHWH (angel of YHWH). The term appears in contexts where Elohim (rather than the covenant name YHWH) is used: Jacob's dream at Bethel (Gen 28:12, angels of God ascending/descending), the angel who blessed Jacob (Gen 48:15-16), and the angel guiding Israel (Exod 14:19). Some scholars see malakh elohim as a more generic term for divine messengers, while malakh YHWH specifically represents YHWH's hypostatic presence. However, the terms often overlap functionally. In Genesis 31:11-13, the 'angel of God' identifies himself as 'the God of Bethel,' demonstrating the fluidity between divine agent and divine presence.",
+        "language": "hebrew",
+        "chapters_used": ["gen-28", "gen-31", "gen-48", "exod-14"]
+    },
+    "male": {
+        "hebrew": "מָלֵא",
+        "transliteration": "mālē'",
+        "strongs": "H4390",
+        "gloss": "fill, fulfill, consecrate",
+        "definition": "To fill, be full, fulfill, or consecrate. The verb carries multiple theological meanings: filling the Tabernacle with YHWH's glory (Exod 40:34-35), filling the hands (idiom for priestly ordination, Exod 28:41, 29:9), fulfilling time periods (Gen 25:24, Rebekah's time to give birth), and completing tasks. The phrase 'fill the hand' (mille yad) denotes priestly consecration, literally 'filling the hand' with sacrificial portions, symbolizing authorization to handle sacred things. YHWH's glory 'filling' (male) the Tabernacle indicates divine presence permeating sacred space, making it the earthly footstool of the heavenly throne. The root appears over 250 times, emphasizing completion, fullness, and divine presence.",
+        "language": "hebrew",
+        "chapters_used": ["gen-25", "exod-28", "exod-29", "exod-40"]
+    },
+    "mamlekhet_kohanim": {
+        "hebrew": "מַמְלֶכֶת כֹּהֲנִים",
+        "transliteration": "mamleket kōhănîm",
+        "strongs": "H4467+H3548",
+        "gloss": "kingdom of priests",
+        "definition": "A 'kingdom of priests' or 'priestly kingdom' (Exod 19:6), describing Israel's covenant identity. The phrase appears in YHWH's Sinai covenant proposal: if Israel obeys, they will be 'a kingdom of priests and a holy nation' (goy qadosh). This designates Israel as a nation whose corporate function is priestly—mediating between YHWH and the nations, representing divine rule on earth. The term mamlekhet (kingdom/realm) emphasizes political-territorial identity, while kohanim (priests) emphasizes sacred function. This establishes Israel as YHWH's vice-regents, reflecting the divine council structure where Israel serves as YHWH's earthly administrative body among the nations. The concept influences New Testament ecclesiology (1 Pet 2:9; Rev 1:6, 5:10).",
+        "language": "hebrew",
+        "chapters_used": ["exod-19"]
+    },
+    "man_hu": {
+        "hebrew": "מָן הוּא",
+        "transliteration": "mān hû'",
+        "strongs": "H4478+H1931",
+        "gloss": "what is it",
+        "definition": "The phrase 'what is it?' spoken by Israel upon first seeing the wilderness bread (Exod 16:15). This question becomes the etymology for man (manna), the miraculous food YHWH provided for forty years. The phrase reflects Israel's bewilderment at the unknown substance appearing with the dew. Moses explains, 'It is the bread (lechem) which YHWH has given you

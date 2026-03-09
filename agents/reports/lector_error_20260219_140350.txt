@@ -1,0 +1,242 @@
+
+{
+    "sukkot": {
+        "hebrew": "סֻכּוֹת",
+        "transliteration": "sukkôt",
+        "strongs": "H5521",
+        "gloss": "booths, tabernacles, temporary shelters",
+        "definition": "Plural of sukkah (סֻכָּה), meaning temporary shelters or booths. Refers both to the physical structures used during the Feast of Tabernacles and to the festival itself (Chag HaSukkot). The term evokes Israel's wilderness wandering when they dwelt in temporary shelters, commemorated annually in the seventh month. Also the name of the first encampment after the Exodus (Exod 12:37, 13:20). The festival celebrates divine protection and provision, with eschatological significance in Zechariah 14:16-19 where all nations will come to celebrate Sukkot. The sukkah represents both vulnerability and divine covering, a liminal space between permanence and transience.",
+        "language": "hebrew",
+        "chapters_used": ["ex-12", "ex-13"]
+    },
+    "sullam": {
+        "hebrew": "סֻלָּם",
+        "transliteration": "sullām",
+        "strongs": "H5551",
+        "gloss": "ladder, stairway, ramp",
+        "definition": "A ladder, stairway, or ramp, appearing only in Genesis 28:12 in Jacob's vision at Bethel. The sullam connects earth and heaven, with angels ascending and descending upon it, establishing a vertical axis mundi linking the divine and human realms. Ancient Near Eastern parallels include Mesopotamian ziggurats with their ascending staircases to temple platforms. The term may derive from the root s-l-l (to heap up, cast up). In Second Temple literature and rabbinic interpretation, the sullam becomes a symbol of Torah, prayer, and the intermediary function of Israel. The vision establishes Bethel as a 'gate of heaven' (sha'ar hashamayim), a portal between realms where divine-human communication occurs.",
+        "language": "hebrew",
+        "chapters_used": ["gen-28"]
+    },
+    "tamar": {
+        "hebrew": "תָּמָר",
+        "transliteration": "tāmār",
+        "strongs": "H8559",
+        "gloss": "palm tree, date palm",
+        "definition": "The date palm tree (Phoenix dactylifera), a symbol of righteousness, fertility, and victory in biblical literature. As a proper name, Tamar appears as Judah's daughter-in-law (Gen 38) who secures her levirate rights through deception, becoming an ancestress of David and the Messiah. Also David's daughter violated by Amnon (2 Sam 13), and Absalom's daughter (2 Sam 14:27). The palm tree imagery appears in temple decoration (1 Kgs 6:29, 32), representing life and flourishing. Psalm 92:12 states 'the righteous flourish like the palm tree.' The palm's ability to thrive in harsh desert conditions, its upward growth, and valuable fruit made it a natural symbol of endurance and blessing. Jericho was known as 'the city of palms' (Deut 34:3).",
+        "language": "hebrew",
+        "chapters_used": ["gen-38"]
+    },
+    "tamid": {
+        "hebrew": "תָּמִיד",
+        "transliteration": "tāmîd",
+        "strongs": "H8548",
+        "gloss": "continual, perpetual, regular offering",
+        "definition": "An adverb and noun meaning 'continually,' 'perpetually,' or 'regularly,' from the root meaning 'to stand' or 'endure.' In cultic contexts, tamid refers to the daily burnt offerings (olat tamid) offered morning and evening in the Tabernacle and Temple (Exod 29:38-42, Num 28:3-8). The tamid also applies to the continually burning lamp (ner tamid) in the sanctuary (Exod 27:20), the showbread (lechem tamid), and the incense offering. The term emphasizes uninterrupted worship and the perpetual presence of YHWH among His people. In Daniel 8:11-13 and 11:31, the cessation of the tamid represents the ultimate desecration of the sanctuary. The concept establishes rhythm in sacred time, marking the boundaries of each day with sacrifice and maintaining continuous divine-human relationship.",
+        "language": "hebrew",
+        "chapters_used": ["ex-27", "ex-29"]
+    },
+    "tannin": {
+        "hebrew": "תַּנִּין",
+        "transliteration": "tannîn",
+        "strongs": "H8577",
+        "gloss": "sea monster, dragon, serpent",
+        "definition": "A large aquatic creature, sea monster, or dragon, often associated with chaos waters in ancient Near Eastern cosmology. In Genesis 1:21, God creates the tanninim gedolim (great sea monsters), demonstrating divine sovereignty over creatures that represented chaos in other mythologies. The term appears in Exodus 7:9-10 for the serpent into which Aaron's staff transforms. In prophetic literature, tannin symbolizes Egypt (Ezek 29:3, 32:2) and other enemies of God's people. Psalm 74:13 and Isaiah 51:9 use tannin in creation-combat imagery, where YHWH defeats the sea monsters. Related to Ugaritic tnn and the Canaanite chaos monster Lotan/Leviathan. The biblical use demythologizes these creatures, presenting them as created beings under divine control rather than rival deities.",
+        "language": "hebrew",
+        "chapters_used": ["gen-1", "ex-7"]
+    },
+    "tavnit": {
+        "hebrew": "תַּבְנִית",
+        "transliteration": "taḇnît",
+        "strongs": "H8403",
+        "gloss": "pattern, model, blueprint",
+        "definition": "A pattern, model, form, or blueprint, from the root b-n-h (to build). Critically important in Exodus 25:9, 40 where Moses is commanded to construct the Tabernacle according to the tavnit shown him on the mountain. This establishes the earthly sanctuary as a copy of a heavenly original, a concept developed in Hebrews 8:5 and 9:23. The term appears in Joshua 22:28 for a replica of the altar, in 2 Kings 16:10 for Ahaz's altar pattern from Damascus, and in 1 Chronicles 28:11-19 where David gives Solomon the tavnit for the Temple received 'by the Spirit.' The concept implies that sacred space must conform to divine specifications, not human innovation. The heavenly pattern ensures that earthly worship aligns with celestial realities, making the sanctuary a meeting point between realms.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25"]
+    },
+    "teben": {
+        "hebrew": "תֶּבֶן",
+        "transliteration": "teḇen",
+        "strongs": "H8401",
+        "gloss": "straw, chaff, stubble",
+        "definition": "Straw or chaff, the dried stalks and stems of grain after threshing, used for animal fodder, brick-making, and fuel. In Exodus 5:7-18, Pharaoh cruelly requires the Israelites to gather their own teben while maintaining the same brick quota, intensifying their oppression. This detail reflects authentic Egyptian brick-making practices where chopped straw was mixed with mud to provide tensile strength and prevent cracking. The withholding of straw represents economic exploitation and the arbitrary exercise of power. Isaiah 11:7 and 65:25 use teben in idealized images of the peaceable kingdom where carnivores eat straw like cattle. Job 21:18 and Psalm 83:13 employ teben as a metaphor for worthlessness and vulnerability to divine judgment, easily scattered by wind.",
+        "language": "hebrew",
+        "chapters_used": ["ex-5"]
+    },
+    "techiyyat_ha_metim": {
+        "hebrew": "תְּחִיַּת הַמֵּתִים",
+        "transliteration": "teḥiyyat hammētîm",
+        "strongs": "H8454/H4191",
+        "gloss": "resurrection of the dead",
+        "definition": "The resurrection of the dead, a compound phrase combining techiyyah (revival, restoration to life) from the root ch-y-h (to live) and metim (dead ones). While not appearing as a fixed phrase in the Hebrew Bible, the concept emerges in Isaiah 26:19, Ezekiel 37, and explicitly in Daniel 12:2: 'Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.' This doctrine developed significantly in Second Temple Judaism, becoming a defining belief of the Pharisees (against the Sadducees). The Book of Jubilees, 1 Enoch, and other intertestamental texts elaborate on resurrection theology. The phrase became central to Jewish liturgy (Amidah) and rabbinic theology, affirming God's power over death and ultimate justice beyond this life.",
+        "language": "hebrew",
+        "chapters_used": []
+    },
+    "tekhelet": {
+        "hebrew": "תְּכֵלֶת",
+        "transliteration": "teḵēlet",
+        "strongs": "H8504",
+        "gloss": "blue-violet dye, blue thread",
+        "definition": "A blue or blue-violet dye and the thread or fabric colored with it, derived from a Mediterranean sea snail (likely Murex trunculus). Tekhelet was extremely valuable in the ancient world, requiring thousands of mollusks for small amounts of dye. In the Tabernacle instructions (Exod 25-26), tekhelet appears with purple (argaman) and scarlet (tolaat shani) as the sacred colors for curtains, veils, and priestly garments. Numbers 15:38 commands Israel to attach tekhelet fringes (tzitzit) to their garments as a reminder of God's commandments. The color symbolizes royalty, divinity, and heaven. Ezekiel 23:6 associates tekhelet with Assyrian nobility. The exact shade and production method were lost after the Talmudic period, leading to ongoing debates about authentic tekhelet for ritual fringes.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-26"]
+    },
+    "tequfah": {
+        "hebrew": "תְּקוּפָה",
+        "transliteration": "teqûp̄â",
+        "strongs": "H8622",
+        "gloss": "circuit, cycle, season",
+        "definition": "A circuit, cycle, or turning point, from the root q-p-h (to go around, encircle). The term refers to the completion of a solar or seasonal cycle. In Exodus 34:22, the Feast of Ingathering occurs at 'the turn of the year' (tequfat hashanah). 1 Samuel 1:20 uses the phrase 'when the time had cycled around' (litequfot hayamim) for Hannah's conception. 2 Chronicles 24:23 marks the turn of the year for military campaigns. In later Jewish tradition, the four tequfot mark the solstices and equinoxes, dividing the solar year into quarters. The concept emphasizes cyclical time, the regularity of seasons, and divine ordering of temporal rhythms. The tequfah represents completion and renewal, the ending of one cycle and beginning of another in the divinely established calendar.",
+        "language": "hebrew",
+        "chapters_used": ["ex-34"]
+    },
+    "terafim": {
+        "hebrew": "תְּרָפִים",
+        "transliteration": "terāp̄îm",
+        "strongs": "H8655",
+        "gloss": "household idols, figurines",
+        "definition": "Household idols or figurines, possibly representing ancestral spirits or household deities, used for divination and protection. The etymology is uncertain, possibly related to Hittite tarpis (spirit, demon). Rachel steals her father Laban's terafim when leaving Haran (Gen 31:19, 34), suggesting they conveyed inheritance rights or family authority. Michal uses terafim to deceive Saul's men (1 Sam 19:13, 16), indicating they were human-sized or at least large enough to simulate a person in bed. Judges 17-18 describes Micah's terafim as part of an illegitimate shrine. The prophets consistently condemn terafim as incompatible with YHWH worship (1 Sam 15:23, 2 Kgs 23:24, Ezek 21:21, Hos 3:4, Zech 10:2). Their presence in Israelite households reflects the persistent influence of household religion and ancestor veneration.",
+        "language": "hebrew",
+        "chapters_used": ["gen-31"]
+    },
+    "terumah": {
+        "hebrew": "תְּרוּמָה",
+        "transliteration": "terûmâ",
+        "strongs": "H8641",
+        "gloss": "contribution, offering, heave offering",
+        "definition": "A contribution, offering, or gift lifted up and set apart for sacred use, from the root r-w-m (to be high, lift up). Exodus 25:2-3 introduces the terumah as the voluntary contributions of materials for constructing the Tabernacle: gold, silver, bronze, colored yarns, fine linen, skins, acacia wood, oil, spices, and precious stones. The term emphasizes the offering's elevation from common to sacred status. Numbers 18:8-32 establishes terumah as the priests' portion from sacrifices and tithes. Ezekiel 45:1-8 describes the terumah as the sacred district set apart for the Temple, priests, and Levites in the restored land. The concept combines voluntary generosity with obligatory support for the sanctuary and its ministers. The terumah represents the people's participation in sacred space through material contribution.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25"]
+    },
+    "tevunah": {
+        "hebrew": "תְּבוּנָה",
+        "transliteration": "teḇûnâ",
+        "strongs": "H8394",
+        "gloss": "understanding, discernment, insight",
+        "definition": "Understanding, discernment, or insight, from the root b-y-n (to discern, understand, distinguish). Tevunah represents the ability to perceive relationships, make distinctions, and grasp underlying principles. In Exodus 31:3 and 35:31, Bezalel is filled with the Spirit of God in wisdom (chokmah), understanding (tevunah), and knowledge (daat) to craft the Tabernacle. This triad represents comprehensive intellectual and practical ability. Proverbs frequently pairs tevunah with chokmah, presenting understanding as essential for righteous living (Prov 2:2-3, 3:13, 8:1). Job 12:12-13 attributes tevunah to God and the aged. Isaiah 11:2 includes tevunah among the spirits resting on the Messianic Branch. The term emphasizes analytical and synthetic thinking, the capacity to integrate knowledge into coherent understanding and apply it wisely.",
+        "language": "hebrew",
+        "chapters_used": ["ex-31", "ex-35"]
+    },
+    "tolaat_shani": {
+        "hebrew": "תּוֹלַעַת שָׁנִי",
+        "transliteration": "tôlaʿat šānî",
+        "strongs": "H8438/H8144",
+        "gloss": "scarlet thread, crimson yarn",
+        "definition": "Scarlet or crimson thread/yarn, literally 'worm of scarlet.' The term combines tolaat (worm, specifically the scale insect Kermes vermilio) and shani (scarlet, crimson). The dye was extracted from the dried bodies of female scale insects that attach to oak trees, producing a brilliant red color. In Tabernacle construction (Exod 25:4, 26:1, 36), tolaat shani appears with tekhelet (blue) and argaman (purple) as sacred colors for curtains, veils, and priestly garments. The scarlet thread marks Rahab's house in Jericho (Josh 2:18, 21), ensuring her family's safety. Genesis 38:28, 30 describes the scarlet thread tied on Zerah's hand during Tamar's difficult birth. Isaiah 1:18 uses scarlet as a metaphor for sin's stain. The color symbolizes blood, life, sacrifice, and atonement.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-26"]
+    },
+    "totafot": {
+        "hebrew": "טוֹטָפֹת",
+        "transliteration": "ṭôṭāp̄ōt",
+        "strongs": "H2903",
+        "gloss": "frontlet bands, phylacteries",
+        "definition": "Frontlet bands or phylacteries worn on the forehead, etymology uncertain, possibly from an Egyptian or Akkadian loanword meaning 'to encircle' or 'go around.' The term appears in Deuteronomy 6:8 and 11:18, commanding Israel to bind God's words 'as a sign on your hand' and 'as totafot between your eyes.' Exodus 13:16 uses the parallel term totafot in connection with the Passover redemption of the firstborn. These passages became the basis for the Jewish practice of wearing tefillin (phylacteries)—small leather boxes containing Scripture passages bound to the arm and forehead during prayer. The totafot symbolize the dedication of thought and action to God, making His word visible and central. The practice ensures that Torah remains literally before one's eyes and guides one's deeds.",
+        "language": "hebrew",
+        "chapters_used": ["ex-13"]
+    },
+    "tsaddiq": {
+        "hebrew": "צַדִּיק",
+        "transliteration": "ṣaddîq",
+        "strongs": "H6662",
+        "gloss": "righteous one, just person",
+        "definition": "A righteous or just person, from the root ṣ-d-q (to be just, righteous). The tsaddiq lives in conformity with God's standards, maintaining right relationships with God and community. Genesis 6:9 describes Noah as 'a righteous man (ish tsaddiq), blameless in his generation.' Genesis 18:23-32 records Abraham's intercession for Sodom based on the presence of tsaddiqim in the city, establishing the principle that the righteous can avert communal judgment. Proverbs contrasts the tsaddiq with the rasha (wicked one) throughout, showing different destinies and divine responses. Habakkuk 2:4 declares 'the righteous shall live by his faith' (tsaddiq be'emunato yichyeh), a text central to Pauline theology. Ezekiel 18 explores individual righteousness and responsibility. The tsaddiq embodies covenant faithfulness, ethical integrity, and alignment with divine justice.",
+        "language": "hebrew",
+        "chapters_used": ["gen-6", "gen-18"]
+    },
+    "tsaraat": {
+        "hebrew": "צָרַעַת",
+        "transliteration": "ṣāraʿat",
+        "strongs": "H6883",
+        "gloss": "skin disease, scale disease",
+        "definition": "A term traditionally translated 'leprosy' but referring to various skin diseases, fabric molds, and house fungus, from the root ṣ-r-ʿ (to strike down, be stricken). Leviticus 13-14 provides extensive diagnostic and purification procedures for tsaraat affecting skin, clothing, and buildings. The condition rendered one ritually impure, requiring isolation outside the camp and specific purification rituals involving birds, cedar wood, scarlet yarn, and hyssop. Modern scholarship recognizes tsaraat does not correspond to Hansen's disease (modern leprosy) but encompasses various conditions causing discoloration, scaling, or spreading lesions. Miriam's temporary tsaraat (Num 12:10) and Naaman's healing (2 Kgs 5) demonstrate its theological significance as divine discipline and the power of prophetic intercession. Tsaraat symbolizes sin's contaminating effect and the need for priestly mediation and divine cleansing.",
+        "language": "hebrew",
+        "chapters_used": []
+    },
+    "tseaqah": {
+        "hebrew": "צְעָקָה",
+        "transliteration": "ṣeʿāqâ",
+        "strongs": "H6818",
+        "gloss": "outcry, cry for help",
+        "definition": "An outcry, cry of distress, or appeal for help, from the root ṣ-ʿ-q (to cry out, call for help). The term often describes the cry of the oppressed that reaches God's ears and moves Him to action. Genesis 18:20-21 mentions the tseaqah of Sodom and Gomorrah reaching YHWH, prompting investigation. Exodus 3:7, 9 records God hearing the tseaqah of Israel in Egyptian bondage, the catalyst for the Exodus. Exodus 11:6 and 12:30 describe the great tseaqah in Egypt at the death of the firstborn. The term emphasizes not mere noise but the cry of injustice, suffering, or desperate need that demands divine response. Prophetic literature uses tseaqah for the cry against social injustice (Isa 5:7, Jer 18:22). The tseaqah represents the voice of the voiceless reaching heaven and activating divine justice.",
+        "language": "hebrew",
+        "chapters_used": ["gen-18", "ex-3", "ex-11", "ex-12"]
+    },
+    "tsefardea": {
+        "hebrew": "צְפַרְדֵּעַ",
+        "transliteration": "ṣep̄ardēaʿ",
+        "strongs": "H6854",
+        "gloss": "frog",
+        "definition": "Frog, etymology uncertain, possibly onomatopoetic or a loanword. The tsefardea appears prominently in the second plague against Egypt (Exod 8:2-14), where frogs swarm from the Nile, covering the land, entering houses, bedrooms, beds, ovens, and kneading bowls. The plague demonstrates YHWH's power over Heqet, the Egyptian frog-headed goddess of fertility and childbirth. Pharaoh's magicians replicate the plague but cannot remove it, showing the limitation of Egyptian magic. The frogs die en masse, creating a stench throughout Egypt. Psalm 78:45 and 105:30 recall this plague in Israel's salvation history. Revelation 16:13 uses frog imagery for unclean spirits. The frog plague represents the inversion of fertility blessing into curse, the penetration of divine judgment into the most intimate spaces, and the inability of rival powers to provide relief.",
+        "language": "hebrew",
+        "chapters_used": ["ex-8"]
+    },
+    "tseva": {
+        "hebrew": "צָבָא",
+        "transliteration": "ṣāḇāʾ",
+        "strongs": "H6635",
+        "gloss": "army, host, service",
+        "definition": "An army, host, organized body, or service, from the root ṣ-b-ʾ (to wage war, serve). The term has both military and cultic applications. Genesis 2:1 describes the completion of 'the heavens and the earth and all their host (tseva),' referring to the celestial bodies and possibly angelic beings. Exodus 6:26, 7:4, and 12:17, 41, 51 repeatedly describe Israel leaving Egypt as 'hosts' (tsivot) organized by divisions, emphasizing their military-like organization. The phrase 'YHWH of hosts' (YHWH Tsevaot) presents God as commander of heavenly and earthly armies. Numbers 4 and 8 use tseva for the Levites' cultic service in the Tabernacle. The term bridges military and liturgical spheres, presenting worship as organized service and Israel as God's army. Tseva emphasizes order, discipline, and mobilization for divine purposes.",
+        "language": "hebrew",
+        "chapters_used": ["gen-2", "ex-6", "ex-7", "ex-12"]
+    },
+    "tsits": {
+        "hebrew": "צִיץ",
+        "transliteration": "ṣîṣ",
+        "strongs": "H6731",
+        "gloss": "flower, blossom, plate",
+        "definition": "A flower, blossom, or shining plate, from the root ṣ-w-ṣ (to blossom, shine). In Exodus 28:36 and 39:30, the tsits refers to the golden plate (tsits zahav) attached to the high priest's turban, engraved with 'Holy to YHWH' (Qodesh LaYHWH). This sacred diadem symbolizes the priest's consecration and his role in bearing Israel's guilt regarding holy things. The term also appears in descriptions of the menorah's decorative almond blossoms (Exod 25:31, 33-34, 37:17, 19-20). Isaiah 28:1, 4 uses tsits for a fading flower, symbolizing ephemeral glory. The dual meaning of flower and shining plate connects natural beauty with crafted splendor, both reflecting divine glory. The high priest's tsits makes visible his mediatorial role, bearing the divine name on his forehead as he enters God's presence on behalf of the people.",
+        "language": "hebrew",
+        "chapters_used": ["ex-25", "ex-28", "ex-37", "ex-39"]
+    },
+    "tsur": {
+        "hebrew": "צוּר",
+        "transliteration": "ṣûr",
+        "strongs": "H6697",
+        "gloss": "rock, cliff, boulder",
+        "definition": "A rock, cliff, or boulder, often used metaphorically for God as Israel's rock, refuge, and foundation. Genesis 49:24 describes 'the Stone of Israel' (even Yisrael) in parallel with 'the Shepherd' in Jacob's blessing of Joseph. Exodus 17:6 records Moses striking the tsur at Horeb to provide water for Israel, an event recalled in Psalm 78:15-16, 20 and 1 Corinthians 10:4 where Paul identifies the rock as Christ. Exodus 33:21-22 describes the tsur where Moses stands while God's glory passes by, with God covering Moses in the cleft of the rock. Deuteronomy 32:4, 15, 18, 30-31 repeatedly uses tsur as a divine title, contrasting YHWH as Israel's Rock with the false rocks of the nations. The imagery emphasizes permanence, stability, protection, and life-giving provision in harsh wilderness conditions.",
+        "language": "hebrew",
+        "chapters_used": ["ex-17", "ex-33"]
+    },
+    "tzadoq": {
+        "hebrew": "צָדוֹק",
+        "transliteration": "ṣāḏôq",
+        "strongs": "H6659",
+        "gloss": "Zadok, righteous one",
+        "definition": "A proper name meaning 'righteous' or 'just,' from the root ṣ-d-q. Zadok was the high priest during David and Solomon's reigns, descended from Eleazar son of Aaron. He remained loyal to David during Absalom's rebellion (2 Sam 15:24-29) and supported Solomon against Adonijah (1 Kgs 1:8, 32-45), securing his line's priestly supremacy. The Zadokite priesthood controlled the Jerusalem Temple until the Maccabean period. Ezekiel 40:46, 43:19, 44:15, and 48:11 grant exclusive priestly privileges to the 'sons of Zadok' in the restored Temple, excluding other Levites due to their idolatry. The Qumran community identified themselves as the true 'sons of Zadok,' claiming legitimate priestly authority against the corrupt Jerusalem priesthood. The name symbolizes priestly righteousness, legitimate succession, and faithful service in God's sanctuary.",
+        "language": "hebrew",
+        "chapters_used": []
+    },
+    "tzavvaah": {
+        "hebrew": "צַוָּאָה",
+        "transliteration": "ṣawwāʾâ",
+        "strongs": "H6673",
+        "gloss": "command, charge, precept",
+        "definition": "A command, charge, or precept, from the root ṣ-w-h (to command, charge, appoint). The term emphasizes authoritative instruction, particularly divine commands or the final instructions of a dying patriarch. Genesis 49:29, 33 uses tzavvaah for Jacob's final charge to his sons regarding his burial in the cave of Machpelah with his fathers. The term appears in contexts of covenant obligation, testamentary instruction, and authoritative commissioning. Related to mitzvah (commandment), tzavvaah emphasizes the binding nature of the instruction and the authority of the one giving it. In later Jewish usage, tzavvaah can refer to an ethical will or testament, a father's final moral and spiritual instructions to his children. The term bridges legal, familial, and covenantal spheres, presenting commands as relational obligations within covenant community.",
+        "language": "hebrew",
+        "chapters_used": ["gen-49"]
+    },
+    "tzedaqah": {
+        "hebrew": "צְדָקָה",
+        "transliteration": "ṣeḏāqâ",
+        "strongs": "H6666",
+        "gloss": "righteousness, justice, righteous deed",
+        "definition": "Righteousness, justice, or a righteous deed, from the root ṣ-d-q (to be just, righteous). Tzedaqah encompasses both right standing before God and right action toward others, particularly acts of justice and charity. Genesis 15:6 declares that Abram's faith was 'counted to him as righteousness' (tzedaqah), a foundational text for biblical theology of justification. The term appears frequently in legal contexts (Deut 16:20: 'Justice, justice you shall pursue'), prophetic oracles demanding social justice (Isa 1:27, 5:7, Amos 5:24), and wisdom literature contrasting the righteous and wicked. In later Judaism, tzedaqah became the primary term for charitable giving, reflecting the understanding that caring for the poor is not optional benevolence but obligatory righteousness. Tzedaqah represents covenant faithfulness expressed in just relationships and generous action.",
+        "language": "hebrew",
+        "chapters_used": ["gen-15"]
+    },
+    "tzevaot": {
+        "hebrew": "צְבָאוֹת",
+        "transliteration": "ṣeḇāʾôt",
+        "strongs": "H6635",
+        "gloss": "hosts, armies, heavenly forces",
+        "definition": "Hosts or armies, the plural of tseva, appearing primarily in the divine title 'YHWH Tzevaot' (YHWH of Hosts or LORD of Armies). This title emphasizes God's sovereignty over heavenly and earthly armies, both angelic hosts and Israel's military forces. The phrase first appears in 1 Samuel 1:3, 11 at the Shiloh sanctuary, becoming prominent in the prophets (Isaiah uses it over 60 times). The title presents YHWH as the divine warrior-king commanding celestial armies, the stars (Isa 40:26), and angelic beings. Psalm 24:10 identifies 'YHWH Tzevaot' as 'the King of glory.' The term bridges the divine council concept with military imagery, presenting heaven as organized for cosmic warfare against chaos, evil, and God's enemies. Tzevaot emphasizes divine power, cosmic order, and the mobilization of all creation for God's purposes.",
+        "language": "hebrew",
+        "chapters_used": []
+    },
+    "tzitz": {
+        "hebrew": "צִיץ",
+        "transliteration": "ṣîṣ",
+        "strongs": "H6731",
+        "gloss": "flower, plate, diadem",
+        "definition": "A flower, shining plate, or diadem, from the root ṣ-w-ṣ (to blossom, shine). Identical to tsits, this term refers specifically to the golden plate worn on the high priest's turban, engraved with 'Qodesh LaYHWH' (Holy to YHWH). Exodus 28:36-38 and 39:30-31

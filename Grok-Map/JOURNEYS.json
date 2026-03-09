@@ -1,0 +1,304 @@
+[
+  {
+    "id": "abraham",
+    "name": "Abraham's Journey",
+    "color": "#c9a84c",
+    "weight": 3,
+    "dash": "10 6",
+    "desc": "From Ur of the Chaldeans through Haran to the Promised Land. God called Abram to leave everything and go to a land \"I will show you\" (Gen 12:1).",
+    "refs": "Genesis 11:31 \u2013 23:19",
+    "waypoints": [
+      {"lat": 30.96, "lng": 46.10, "label": "Ur of the Chaldeans", "ref": "Gen 11:31"},
+      {"lat": 36.87, "lng": 39.03, "label": "Haran", "ref": "Gen 11:31-12:4"},
+      {"lat": 32.21, "lng": 35.28, "label": "Shechem", "ref": "Gen 12:6"},
+      {"lat": 31.93, "lng": 35.22, "label": "Bethel", "ref": "Gen 12:8"},
+      {"lat": 30.05, "lng": 31.23, "label": "Egypt (famine)", "ref": "Gen 12:10"},
+      {"lat": 31.93, "lng": 35.22, "label": "Return to Bethel", "ref": "Gen 13:3"},
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron / Mamre", "ref": "Gen 13:18"},
+      {"lat": 33.25, "lng": 35.69, "label": "Dan (pursuit of kings)", "ref": "Gen 14:14"},
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron", "ref": "Gen 14:13"},
+      {"lat": 31.25, "lng": 34.79, "label": "Beer-sheba", "ref": "Gen 21:31"},
+      {"lat": 31.78, "lng": 35.24, "label": "Mount Moriah (Aqedah)", "ref": "Gen 22:2"},
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron (Sarah's burial)", "ref": "Gen 23:19"}
+    ]
+  },
+  {
+    "id": "jacob",
+    "name": "Jacob's Journey",
+    "color": "#22c55e",
+    "weight": 3,
+    "dash": "8 4",
+    "desc": "From Beer-sheba to Haran (fleeing Esau), back through Peniel (wrestling God), to Shechem and finally Hebron and Egypt.",
+    "refs": "Genesis 28 \u2013 46",
+    "waypoints": [
+      {"lat": 31.25, "lng": 34.79, "label": "Beer-sheba", "ref": "Gen 28:10"},
+      {"lat": 31.93, "lng": 35.22, "label": "Bethel (ladder vision)", "ref": "Gen 28:19"},
+      {"lat": 36.87, "lng": 39.03, "label": "Haran (Laban, 20 years)", "ref": "Gen 29:4"},
+      {"lat": 32.33, "lng": 35.73, "label": "Mahanaim (angels)", "ref": "Gen 32:1-2"},
+      {"lat": 32.19, "lng": 35.62, "label": "Peniel (wrestles God)", "ref": "Gen 32:30"},
+      {"lat": 32.21, "lng": 35.28, "label": "Shechem (Dinah)", "ref": "Gen 33:18"},
+      {"lat": 31.93, "lng": 35.22, "label": "Bethel (return)", "ref": "Gen 35:1"},
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron (reunites with Isaac)", "ref": "Gen 35:27"},
+      {"lat": 30.78, "lng": 31.77, "label": "Goshen, Egypt", "ref": "Gen 46:28-29"}
+    ]
+  },
+  {
+    "id": "exodus",
+    "name": "The Exodus",
+    "color": "#dc2626",
+    "weight": 4,
+    "dash": null,
+    "desc": "Israel's liberation from Egypt through the Red Sea to Mount Sinai. The greatest act of divine intervention in the Old Testament.",
+    "refs": "Exodus 12 \u2013 19",
+    "waypoints": [
+      {"lat": 30.79, "lng": 31.83, "label": "Rameses (departure)", "ref": "Exod 12:37"},
+      {"lat": 30.55, "lng": 32.10, "label": "Succoth", "ref": "Exod 12:37"},
+      {"lat": 30.30, "lng": 32.35, "label": "Etham", "ref": "Exod 13:20"},
+      {"lat": 29.92, "lng": 32.55, "label": "Pi-hahiroth (Red Sea)", "ref": "Exod 14:2"},
+      {"lat": 29.27, "lng": 33.08, "label": "Marah (bitter water)", "ref": "Exod 15:23"},
+      {"lat": 28.83, "lng": 33.18, "label": "Elim (12 springs, 70 palms)", "ref": "Exod 15:27"},
+      {"lat": 28.68, "lng": 33.68, "label": "Rephidim (rock, Amalek)", "ref": "Exod 17:1"},
+      {"lat": 28.54, "lng": 33.98, "label": "Mount Sinai", "ref": "Exod 19:1"}
+    ]
+  },
+  {
+    "id": "wilderness",
+    "name": "Wilderness Wandering",
+    "color": "#f59e0b",
+    "weight": 3,
+    "dash": "6 4",
+    "desc": "The 40-year journey from Sinai through the wilderness to the Plains of Moab. A generation died because they refused to enter the land.",
+    "refs": "Numbers 10 \u2013 36",
+    "waypoints": [
+      {"lat": 28.54, "lng": 33.98, "label": "Mount Sinai (departure)", "ref": "Num 10:11"},
+      {"lat": 30.63, "lng": 34.40, "label": "Kadesh-barnea (spies)", "ref": "Num 13:26"},
+      {"lat": 30.63, "lng": 34.40, "label": "40 years near Kadesh", "ref": "Num 14:33-34"},
+      {"lat": 30.32, "lng": 35.40, "label": "Edom border (refused passage)", "ref": "Num 20:14-21"},
+      {"lat": 29.83, "lng": 35.23, "label": "Punon (bronze serpent)", "ref": "Num 21:4-9"},
+      {"lat": 31.38, "lng": 35.70, "label": "Arnon crossing", "ref": "Num 21:13"},
+      {"lat": 31.86, "lng": 35.56, "label": "Plains of Moab", "ref": "Num 22:1"},
+      {"lat": 31.77, "lng": 35.73, "label": "Mount Nebo (Moses' death)", "ref": "Deut 34:1"}
+    ]
+  },
+  {
+    "id": "conquest",
+    "name": "Conquest of Canaan",
+    "color": "#8b5cf6",
+    "weight": 3,
+    "dash": "4 4",
+    "desc": "Joshua leads Israel across the Jordan to take the Promised Land. The giant clans (Anakim, Rephaim) are driven out.",
+    "refs": "Joshua 1 \u2013 12",
+    "waypoints": [
+      {"lat": 31.86, "lng": 35.56, "label": "Plains of Moab (staging)", "ref": "Josh 1:1"},
+      {"lat": 31.87, "lng": 35.44, "label": "Jericho (walls fall)", "ref": "Josh 6"},
+      {"lat": 31.92, "lng": 35.26, "label": "Ai (second assault)", "ref": "Josh 8"},
+      {"lat": 31.85, "lng": 35.18, "label": "Gibeon (sun stands still)", "ref": "Josh 10:12"},
+      {"lat": 31.61, "lng": 34.85, "label": "Gath (Anakim remnant)", "ref": "Josh 11:22"},
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron (Caleb takes it)", "ref": "Josh 14:12-15"},
+      {"lat": 33.02, "lng": 35.57, "label": "Hazor (head of kingdoms)", "ref": "Josh 11:10"},
+      {"lat": 32.21, "lng": 35.28, "label": "Shechem (covenant renewal)", "ref": "Josh 24"}
+    ]
+  },
+  {
+    "id": "watcher_descent",
+    "name": "Watcher Descent & Nephilim Spread",
+    "color": "#9b7ec8",
+    "weight": 3,
+    "dash": "12 4 4 4",
+    "desc": "The 200 Watchers descend on Mount Hermon and their giant offspring spread across the ancient world. After the Flood, remnant Nephilim clans appear in Canaan.",
+    "refs": "1 Enoch 6\u201316; Genesis 6:1-4; Numbers 13:33",
+    "waypoints": [
+      {"lat": 33.42, "lng": 35.86, "label": "Mount Hermon (descent)", "ref": "1 Enoch 6:6"},
+      {"lat": 34.01, "lng": 36.20, "label": "Baalbek (giant construction)", "ref": "Book of Giants"},
+      {"lat": 32.95, "lng": 35.80, "label": "Bashan (Og's kingdom)", "ref": "Deut 3:11"},
+      {"lat": 33.25, "lng": 35.69, "label": "Dan / Gates of Hades", "ref": "Matt 16:18"},
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron (Anakim)", "ref": "Num 13:22"},
+      {"lat": 31.61, "lng": 34.85, "label": "Gath (Goliath)", "ref": "1 Sam 17:4"},
+      {"lat": 31.10, "lng": 34.40, "label": "Gaza (Anakim survivors)", "ref": "Josh 11:22"}
+    ]
+  },
+  {
+    "id": "joseph",
+    "name": "Joseph's Journey",
+    "color": "#f59e0b",
+    "weight": 2,
+    "dash": "8 6",
+    "desc": "Sold by his brothers, carried to Egypt by Ishmaelite traders. From slave to prisoner to vizier of all Egypt. Joseph's journey is the prototype of suffering producing salvation for many (Gen 50:20).",
+    "refs": "Genesis 37 \u2013 50",
+    "waypoints": [
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron (father's home)", "ref": "Gen 37:14"},
+      {"lat": 32.21, "lng": 35.28, "label": "Shechem (sent to brothers)", "ref": "Gen 37:12-14"},
+      {"lat": 32.41, "lng": 35.23, "label": "Dothan (sold to traders)", "ref": "Gen 37:17-28"},
+      {"lat": 30.60, "lng": 32.30, "label": "Trade route through Sinai", "ref": "Gen 37:25"},
+      {"lat": 29.85, "lng": 31.25, "label": "Potiphar's house (Memphis)", "ref": "Gen 39:1"},
+      {"lat": 29.85, "lng": 31.28, "label": "Prison", "ref": "Gen 39:20"},
+      {"lat": 30.05, "lng": 31.23, "label": "Pharaoh's court (vizier)", "ref": "Gen 41:39-45"},
+      {"lat": 30.78, "lng": 31.77, "label": "Goshen (family settled)", "ref": "Gen 47:6"}
+    ]
+  },
+  {
+    "id": "moses_life",
+    "name": "Moses' Life Journey",
+    "color": "#ef4444",
+    "weight": 3,
+    "dash": "12 4",
+    "desc": "Born under a death sentence in Egypt, raised in Pharaoh's palace, exiled to Midian, called at the burning bush, led Israel through the Red Sea and wilderness to the edge of the Promised Land.",
+    "refs": "Exodus 2 \u2013 Deuteronomy 34",
+    "waypoints": [
+      {"lat": 30.78, "lng": 31.77, "label": "Goshen (born in slavery)", "ref": "Exod 2:1-2"},
+      {"lat": 30.45, "lng": 31.20, "label": "Nile (basket in reeds)", "ref": "Exod 2:3"},
+      {"lat": 30.05, "lng": 31.23, "label": "Pharaoh's Palace (raised)", "ref": "Exod 2:10"},
+      {"lat": 28.50, "lng": 35.00, "label": "Midian (40 years exile)", "ref": "Exod 2:15"},
+      {"lat": 28.54, "lng": 33.98, "label": "Mount Horeb (burning bush)", "ref": "Exod 3:1-4"},
+      {"lat": 30.79, "lng": 31.83, "label": "Egypt (plagues & Exodus)", "ref": "Exod 7-12"},
+      {"lat": 29.92, "lng": 32.55, "label": "Red Sea crossing", "ref": "Exod 14:21-22"},
+      {"lat": 28.54, "lng": 33.98, "label": "Mount Sinai (Torah given)", "ref": "Exod 19-20"},
+      {"lat": 30.63, "lng": 34.40, "label": "Kadesh-barnea", "ref": "Num 13:26"},
+      {"lat": 31.77, "lng": 35.73, "label": "Mount Nebo (death)", "ref": "Deut 34:1-5"}
+    ]
+  },
+  {
+    "id": "balaam",
+    "name": "Balaam's Journey",
+    "color": "#8b5cf6",
+    "weight": 2,
+    "dash": null,
+    "desc": "The pagan diviner Balaam, summoned by Balak to curse Israel, found himself compelled by God to bless them instead. His donkey saw the angel of the LORD blocking the road before Balaam did.",
+    "refs": "Numbers 22 \u2013 24",
+    "waypoints": [
+      {"lat": 36.23, "lng": 38.17, "label": "Pethor (Mesopotamia)", "ref": "Num 22:5"},
+      {"lat": 34.00, "lng": 37.00, "label": "En route through Syria", "ref": "Num 22:21"},
+      {"lat": 32.50, "lng": 36.20, "label": "Donkey sees angel", "ref": "Num 22:22-35"},
+      {"lat": 31.86, "lng": 35.56, "label": "Plains of Moab (Balak)", "ref": "Num 22:36"},
+      {"lat": 31.77, "lng": 35.74, "label": "Mount Pisgah (blesses Israel)", "ref": "Num 23:14"}
+    ]
+  },
+  {
+    "id": "spies_route",
+    "name": "Spies' Route",
+    "color": "#06b6d4",
+    "weight": 2,
+    "dash": "4 4",
+    "desc": "The 12 spies sent from Kadesh-barnea to scout the Promised Land. They went through the Negev to Hebron, cut grapes at Eshcol, and returned after 40 days. Ten gave a bad report; only Caleb and Joshua trusted God.",
+    "refs": "Numbers 13 \u2013 14",
+    "waypoints": [
+      {"lat": 30.63, "lng": 34.40, "label": "Kadesh-barnea (sent out)", "ref": "Num 13:3"},
+      {"lat": 30.85, "lng": 34.60, "label": "Negev (entered from south)", "ref": "Num 13:17"},
+      {"lat": 31.25, "lng": 34.79, "label": "Beer-sheba region", "ref": "Num 13:17"},
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron (saw the Anakim)", "ref": "Num 13:22"},
+      {"lat": 31.55, "lng": 35.08, "label": "Valley of Eshcol (grapes)", "ref": "Num 13:23"},
+      {"lat": 33.02, "lng": 35.57, "label": "Lebo-hamath (northern extent)", "ref": "Num 13:21"},
+      {"lat": 31.55, "lng": 35.08, "label": "Return via Eshcol", "ref": "Num 13:24-25"},
+      {"lat": 30.63, "lng": 34.40, "label": "Kadesh-barnea (report)", "ref": "Num 13:26"}
+    ]
+  },
+  {
+    "id": "ark_journey",
+    "name": "Ark of the Covenant",
+    "color": "#c9a84c",
+    "weight": 3,
+    "dash": null,
+    "desc": "The Ark's journey from Sinai through the wilderness, into Canaan, captured by the Philistines, and finally brought to Jerusalem by David. The physical throne of God among men.",
+    "refs": "Exodus 25 \u2013 2 Samuel 6",
+    "waypoints": [
+      {"lat": 28.54, "lng": 33.98, "label": "Sinai (Ark constructed)", "ref": "Exod 25:10-22"},
+      {"lat": 30.63, "lng": 34.40, "label": "Wilderness (Kadesh)", "ref": "Num 10:33"},
+      {"lat": 31.87, "lng": 35.44, "label": "Jordan crossing (Jericho)", "ref": "Josh 3:14-17"},
+      {"lat": 31.87, "lng": 35.44, "label": "Jericho (walls fall)", "ref": "Josh 6:6-20"},
+      {"lat": 32.06, "lng": 35.29, "label": "Shiloh (tabernacle)", "ref": "Josh 18:1"},
+      {"lat": 31.85, "lng": 35.18, "label": "Ebenezer (captured!)", "ref": "1 Sam 4:11"},
+      {"lat": 31.80, "lng": 34.65, "label": "Ashdod (Dagon falls)", "ref": "1 Sam 5:1-5"},
+      {"lat": 31.61, "lng": 34.85, "label": "Gath (plagues)", "ref": "1 Sam 5:8-9"},
+      {"lat": 31.78, "lng": 34.85, "label": "Ekron (cries of terror)", "ref": "1 Sam 5:10"},
+      {"lat": 31.75, "lng": 34.97, "label": "Beth-shemesh (returned)", "ref": "1 Sam 6:12-19"},
+      {"lat": 31.80, "lng": 35.10, "label": "Kiriath-jearim (20 years)", "ref": "1 Sam 7:1-2"},
+      {"lat": 31.78, "lng": 35.24, "label": "Jerusalem (David's city)", "ref": "2 Sam 6:12-17"}
+    ]
+  },
+  {
+    "id": "abrahams_war",
+    "name": "Abraham's War (Rescue of Lot)",
+    "color": "#10b981",
+    "weight": 2,
+    "dash": null,
+    "desc": "When four Mesopotamian kings captured Lot at Sodom, Abraham armed 318 trained servants, pursued them north past Dan to Hobah near Damascus, defeated them at night, and recovered everything. Met Melchizedek on return.",
+    "refs": "Genesis 14",
+    "waypoints": [
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron (Mamre, news arrives)", "ref": "Gen 14:13"},
+      {"lat": 31.25, "lng": 35.53, "label": "Sodom region (Lot captured)", "ref": "Gen 14:11-12"},
+      {"lat": 32.21, "lng": 35.28, "label": "Shechem (northward pursuit)", "ref": "Gen 14:14"},
+      {"lat": 33.25, "lng": 35.69, "label": "Dan (caught up to kings)", "ref": "Gen 14:14"},
+      {"lat": 33.55, "lng": 36.25, "label": "Hobah near Damascus (victory)", "ref": "Gen 14:15"},
+      {"lat": 31.78, "lng": 35.24, "label": "Salem (meets Melchizedek)", "ref": "Gen 14:18"},
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron (returns home)", "ref": "Gen 14:13"}
+    ]
+  },
+  {
+    "id": "elijah",
+    "name": "Elijah's Journey",
+    "color": "#f97316",
+    "weight": 2,
+    "dash": "6 4",
+    "desc": "From Gilead to Mount Carmel's dramatic showdown with Baal's prophets, then fleeing Jezebel to Beer-sheba and onward 40 days to Horeb/Sinai where God spoke in the still small voice.",
+    "refs": "1 Kings 17 \u2013 19",
+    "waypoints": [
+      {"lat": 32.40, "lng": 35.78, "label": "Gilead (Tishbe, home)", "ref": "1 Kgs 17:1"},
+      {"lat": 32.00, "lng": 35.55, "label": "Brook Cherith (ravens)", "ref": "1 Kgs 17:3-6"},
+      {"lat": 33.45, "lng": 35.29, "label": "Zarephath (widow)", "ref": "1 Kgs 17:9"},
+      {"lat": 32.74, "lng": 35.04, "label": "Mount Carmel (fire falls)", "ref": "1 Kgs 18:19-40"},
+      {"lat": 31.25, "lng": 34.79, "label": "Beer-sheba (fled Jezebel)", "ref": "1 Kgs 19:3"},
+      {"lat": 28.54, "lng": 33.98, "label": "Horeb/Sinai (still small voice)", "ref": "1 Kgs 19:8-12"}
+    ]
+  },
+  {
+    "id": "david_flight",
+    "name": "David's Flight from Saul",
+    "color": "#3b82f6",
+    "weight": 2,
+    "dash": null,
+    "desc": "Anointed king but hunted like an animal. David fled from Saul across the Judean wilderness for years, gathering a band of outcasts who became his mighty men. He refused to kill God's anointed.",
+    "refs": "1 Samuel 19 \u2013 30",
+    "waypoints": [
+      {"lat": 31.82, "lng": 35.23, "label": "Gibeah (flees Saul's spear)", "ref": "1 Sam 19:10"},
+      {"lat": 31.79, "lng": 35.24, "label": "Nob (gets Goliath's sword)", "ref": "1 Sam 21:1-9"},
+      {"lat": 31.61, "lng": 34.85, "label": "Gath (feigns madness)", "ref": "1 Sam 21:10-15"},
+      {"lat": 31.62, "lng": 34.98, "label": "Cave of Adullam (400 men)", "ref": "1 Sam 22:1"},
+      {"lat": 31.62, "lng": 35.05, "label": "Keilah (rescues from Philistines)", "ref": "1 Sam 23:1-5"},
+      {"lat": 31.43, "lng": 35.12, "label": "Wilderness of Ziph (betrayed)", "ref": "1 Sam 23:14-15"},
+      {"lat": 31.47, "lng": 35.39, "label": "En-gedi (spares Saul)", "ref": "1 Sam 24:1-22"},
+      {"lat": 31.35, "lng": 34.58, "label": "Ziklag (Philistine base)", "ref": "1 Sam 27:5-7"}
+    ]
+  },
+  {
+    "id": "spies_route_v2",
+    "name": "The 12 Spies' Route",
+    "color": "#06b6d4",
+    "weight": 2,
+    "dash": "4,4",
+    "desc": "The twelve spies sent from Kadesh-barnea to survey Canaan",
+    "refs": "Numbers 13-14",
+    "waypoints": [
+      {"lat": 30.62, "lng": 34.40, "label": "Kadesh-barnea (departure)", "ref": "Num 13:26"},
+      {"lat": 31.23, "lng": 34.39, "label": "Negev (entered from south)", "ref": "Num 13:22"},
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron (saw Anakim/giants)", "ref": "Num 13:22"},
+      {"lat": 31.64, "lng": 35.08, "label": "Valley of Eshcol (giant grape cluster)", "ref": "Num 13:23-24"},
+      {"lat": 33.27, "lng": 35.20, "label": "Rehob near Lebo-hamath (northern limit)", "ref": "Num 13:21"},
+      {"lat": 30.62, "lng": 34.40, "label": "Return to Kadesh-barnea (evil report)", "ref": "Num 13:25-26"}
+    ]
+  },
+  {
+    "id": "abraham_war_v2",
+    "name": "Abraham's War of the Kings",
+    "color": "#10b981",
+    "weight": 2,
+    "dash": "6,3",
+    "desc": "Abraham pursues the four kings to rescue Lot",
+    "refs": "Genesis 14",
+    "waypoints": [
+      {"lat": 31.53, "lng": 35.10, "label": "Hebron (news of Lot's capture)", "ref": "Gen 14:13"},
+      {"lat": 33.25, "lng": 35.65, "label": "Dan (pursued to Dan)", "ref": "Gen 14:14"},
+      {"lat": 33.51, "lng": 36.30, "label": "Hobah (north of Damascus, defeated kings)", "ref": "Gen 14:15"},
+      {"lat": 31.77, "lng": 35.23, "label": "Valley of Shaveh/Salem (met Melchizedek)", "ref": "Gen 14:17-18"}
+    ]
+  }
+]

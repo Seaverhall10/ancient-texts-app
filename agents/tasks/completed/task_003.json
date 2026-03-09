@@ -1,0 +1,18 @@
+{
+  "id": "task_003",
+  "agent": "scribe",
+  "priority": 3,
+  "description": "Expand thin chapter 'The Final Watcher Judgment — Fire for the Host of Azazel' (id: 1en-54, era: parables). Currently has only 1 section(s). Add 3-5 more sections with detailed analysis, cross-references, ANE context, and Second Temple sources where relevant.",
+  "metadata": {
+    "chapter_id": "1en-54",
+    "era": "parables",
+    "text": "1enoch",
+    "type": "expansion"
+  },
+  "status": "completed",
+  "created_at": "2026-02-19T07:53:52.923308",
+  "created_by": "oracle",
+  "_file": "E:\\My Drive\\ANCIENT_TEXTS Study App\\agents\\tasks\\in_progress\\task_003.json",
+  "_name": "task_003.json",
+  "completed_at": "2026-02-19T08:00:42.764982"
+}
