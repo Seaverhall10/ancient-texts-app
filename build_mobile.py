@@ -380,6 +380,17 @@ def main():
     # Change all INTERLINEAR consts to var
     js = re.sub(r'    const (INTERLINEAR\w*) = \{\};', r'    var \1 = {};', js)
 
+    # ── SAFETY CHECK: fail build if any __*_DATA__ placeholders remain ──
+    remaining = re.findall(r'__[A-Z_]+_DATA__', js)
+    if remaining:
+        unique = list(set(remaining))
+        print(f"\n  *** BUILD ERROR: {len(unique)} unreplaced placeholder(s) found! ***")
+        for p in sorted(unique):
+            print(f"      {p}")
+        print("  Add replacements to build_mobile.py before the safety check.")
+        print("  This WILL crash the mobile app with a silent ReferenceError.\n")
+        sys.exit(1)
+
     # Add IS_RELEASE and IS_MOBILE flags INSIDE the existing IIFE (after 'use strict')
     js = js.replace(
         "    'use strict';",
