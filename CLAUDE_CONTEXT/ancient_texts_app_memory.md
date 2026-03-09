@@ -1,5 +1,5 @@
 # Ancient Texts Study App — Project Memory
-*Updated: March 7, 2026*
+*Updated: March 9, 2026*
 
 ## Location
 - **Working dir**: `C:\Users\User\Desktop\ANCIENT_TEXTS Study App\`
@@ -26,8 +26,18 @@ Two-version study app for deep scripture research with original languages:
 | `BUILD_ALL.bat` | One-click: desktop → release → mobile |
 | `python release.py` | Package versioned ZIP with `PC/` + `Mobile/` folders |
 | `LAUNCH.bat` | Main menu (8 options: browser, Electron, AI, build, build all, sync, council, exit) |
+| `DEPLOY.bat` | **One-click**: build all → commit → push main → deploy gh-pages |
 
 Build order: `build.py` → `build.py --release` → `build_mobile.py`
+
+## GitHub Deployment
+- **Repo**: `Seaverhall10/ancient-texts-app`
+- **main branch**: Source code (Python data, JS, CSS, build scripts)
+- **gh-pages branch**: Mobile PWA only (deployed from `output/mobile/`)
+- **Live URL**: https://seaverhall10.github.io/ancient-texts-app/
+- **Deploy method**: `DEPLOY.bat` (or manually: temp dir → `git init` → copy `output/mobile/*` → orphan push)
+- **NEVER** use `git subtree` or `git checkout --orphan` in the working directory — it will try to add ALL files
+- **ALWAYS** deploy gh-pages from a temp directory to avoid polluting the source tree
 
 ## Mobile PWA Architecture
 - `build_mobile.py` generates `output/mobile/` from the release HTML
@@ -63,9 +73,12 @@ Build order: `build.py` → `build.py --release` → `build_mobile.py`
 - All 27 NT: flow + Greek interlinear + eras
 - 8 Apocryphal: eras only
 - Full-text search, cross-ref navigation, reading progress, bookmarks
-- Bible Truth Matrix, Timeline, Study Trails, Analytics, Map, Learn Hebrew
+- **Bible Truth Matrix** — 52+ religions with clickable detail overlays (expanded March 9)
+- Timeline, Study Trails (6 trails), Analytics, Map, Learn Hebrew
 - Electron desktop app with Windows installer
 - CSS design system, responsive breakpoints, keyboard shortcuts
+- **Mobile bottom nav**: Home | Search | Tools | Glossary | Saved
+- **Mobile tools popup**: 8 tools accessible from bottom nav (Matrix, Timeline, Map, Hebrew, Resources, Progress, Prophecy Tracker, Core Beliefs)
 
 ## What's Missing
 1. **NT era depth** — 38 texts with <2 eras (most NT books have only 1)
@@ -81,6 +94,11 @@ Build order: `build.py` → `build.py --release` → `build_mobile.py`
 - **1 Enoch**: manifest `data_dir: "enoch1"` → files in `data/enoch1/`
 - **Genesis interlinear**: `data/genesis/interlinear.py` (subdirectory)
 - **OT flow generator**: `data/generate_ot_flow.py` (Claude Sonnet, formal equivalence)
+- **Religions data**: `data/religions_data.py` → `RELIGIONS_DETAIL` dict (52 religions × 13 doctrines)
+  - Injected by `build.py` as `var RELIGIONS_DETAIL = {...}` via placeholder `__RELIGIONS_DETAIL_DATA__`
+- **Mobile tool overlays**: z-index 110 on mobile (sidebar is 100, bottom nav is 9999)
+- **Mobile bottom nav**: dispatches `CustomEvent('mobile-nav')` → handled by listener in mobile_js_patches
+- **Mobile tools popup**: `#mobileToolsPopup` div, opened/closed by `openMobileTools()`/`closeMobileTools()`
 
 ## Builder's Council (5 Agents)
 1. ORACLE — planning  2. SCRIBE — content  3. ARBITER — theology
@@ -96,6 +114,21 @@ Keys in `agents/config.py`. Runner: `python agents/run_council.py`
 6. `key_verse` can be None — use `(ch.get('key_verse') or {}).get('ref', '')`
 7. Mobile IIFE scope: inject code inside existing IIFE, not wrap in new one
 8. Mobile bootstrap: must re-assign `texts` and `categories` after MANIFEST loads
+9. **gh-pages deploy**: ALWAYS use a temp directory. NEVER `git checkout --orphan` in the working tree — it tries to add everything (electron/node_modules, etc.)
+10. **Overlay z-index on mobile**: Sidebar is z-index 100, overlay was 40 → tools opened behind sidebar. Fixed to 110.
+11. **const → var on mobile**: `const` interlinear vars can't be reassigned by `eval()` in mobile data loader
+12. **Mobile tools**: Bottom nav tools button opens popup sheet, which dispatches tool opens. Sidebar tools toggle still exists as fallback.
+
+## Protocol: Making Changes
+1. Edit source files in `src/js/app.js`, `src/css/styles.css`, `data/`, `build.py`, `build_mobile.py`
+2. Run `python build.py` to test desktop
+3. Run `python build.py --release && python build_mobile.py` to build mobile
+4. Commit: `git add <specific files> && git commit -m "message"`
+5. Push: `git push origin main`
+6. Deploy mobile: use `DEPLOY.bat` or manual temp-dir method (see GitHub Deployment section)
+7. **NEVER** `git add -A` or `git add .` — always add specific files
+8. **NEVER** modify git config or use `--force` on main
+9. Keep `.gitignore` updated when adding new file types
 
 ## Theological Stance (NON-NEGOTIABLE)
 - Christ IS the promised Messiah and King
