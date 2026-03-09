@@ -6776,6 +6776,173 @@ body.hide-cross-refs .cross-refs-section { display: none !important; }
     opacity: 0.85;
 }
 
+.matrix-card-explore {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    margin-top: 6px;
+    opacity: 0.5;
+    transition: opacity var(--transition);
+}
+.matrix-card:hover .matrix-card-explore {
+    opacity: 1;
+    color: var(--gold);
+}
+
+.matrix-heatmap tbody tr:hover {
+    background: rgba(201, 168, 76, 0.06);
+}
+
+/* ═══════════════════════════════════════════════
+   RELIGION DETAIL OVERLAY
+   ═══════════════════════════════════════════════ */
+
+.religion-detail-overlay {
+    z-index: var(--z-modal, 1000);
+}
+
+.religion-detail-modal {
+    max-width: 900px;
+    max-height: 92vh;
+    overflow-y: auto;
+}
+
+.religion-detail-header h2 {
+    font-size: 1.3rem;
+    color: var(--gold);
+    margin: 0;
+}
+
+.religion-detail-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 6px;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+}
+
+.religion-meta-item strong {
+    color: var(--text-primary);
+}
+
+.religion-alignment-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 16px;
+}
+
+.religion-summary-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.religion-doctrines-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 20px;
+}
+
+.religion-doctrine-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px;
+    transition: all var(--transition);
+}
+
+.religion-doctrine-card:hover {
+    border-color: var(--border-hover, var(--border));
+    box-shadow: var(--shadow-sm);
+}
+
+.religion-doctrine-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.religion-doctrine-label {
+    font-weight: 700;
+    font-size: 0.88rem;
+    color: var(--gold);
+}
+
+.religion-doctrine-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.religion-doctrine-bible {
+    padding: 10px 12px;
+    background: rgba(201, 168, 76, 0.06);
+    border-radius: 6px;
+    margin-bottom: 8px;
+    border-left: 3px solid var(--gold);
+}
+
+.religion-doctrine-position {
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 6px;
+    border-left: 3px solid;
+}
+
+.religion-doctrine-source {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+}
+
+.religion-doctrine-bible p,
+.religion-doctrine-position p {
+    margin: 0;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+}
+
+.religion-doctrine-bible p {
+    color: var(--text-primary);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .religion-detail-modal {
+        max-height: 95vh;
+        margin: 8px;
+    }
+    .religion-detail-header h2 {
+        font-size: 1.1rem;
+    }
+    .religion-detail-meta {
+        flex-direction: column;
+        gap: 4px;
+    }
+    .religion-doctrine-card {
+        padding: 10px;
+    }
+}
+
 /* ═══════════════════════════════════════════════
    USAGE ANALYTICS PANEL
    ═══════════════════════════════════════════════ */

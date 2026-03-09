@@ -378,6 +378,15 @@ def build():
             print(f"[core-beliefs] {len(cats)} categories, {topics} topics loaded")
     js = js.replace("__CORE_BELIEFS_DATA__", json.dumps(beliefs_data, ensure_ascii=False))
 
+    # Inject Religions Detail data (for Bible Truth Matrix click-through views)
+    religions_path = os.path.join(DATA_DIR, "religions_data.py")
+    religions_detail = {}
+    if os.path.exists(religions_path):
+        rel_mod = load_module("religions_data", religions_path)
+        religions_detail = getattr(rel_mod, "RELIGIONS_DETAIL", {})
+        print(f"[religions] {len(religions_detail)} religion profiles loaded")
+    js = js.replace("__RELIGIONS_DETAIL_DATA__", json.dumps(religions_detail, ensure_ascii=False))
+
     # Inject interlinear data per text (OT Hebrew + NT Greek)
     il_books = [
         ("GENESIS", "__INTERLINEAR_DATA__"),
@@ -672,10 +681,21 @@ def build():
         <div class="progress-modal matrix-modal">
             <div class="progress-modal-header">
                 <h2>&#x2727; Bible Truth Matrix</h2>
-                <p style="margin:0;font-size:0.82rem;color:var(--text-secondary)">How 30+ worldviews compare to biblical teaching across 13 doctrines</p>
+                <p style="margin:0;font-size:0.82rem;color:var(--text-secondary)">How 52+ worldviews compare to biblical teaching across 13 doctrines &mdash; click any card to explore</p>
                 <button class="progress-close" id="matrixClose">&times;</button>
             </div>
             <div id="matrixContent"></div>
+        </div>
+    </div>
+
+    <!-- Religion Detail Overlay -->
+    <div class="progress-overlay religion-detail-overlay" id="religionDetailOverlay">
+        <div class="progress-modal religion-detail-modal">
+            <div class="progress-modal-header religion-detail-header">
+                <div id="religionDetailTitle"></div>
+                <button class="progress-close" id="religionDetailClose">&times;</button>
+            </div>
+            <div id="religionDetailContent"></div>
         </div>
     </div>
 

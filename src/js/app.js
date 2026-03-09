@@ -369,6 +369,11 @@
         {id:'methodist',name:'Methodist',cat:'christian',founded:'1738',adherents:'~80M',d:{god:'full',jesus:'full',salvation:'mostly',scripture:'mostly',afterlife:'full',creation:'mostly',angels:'full',nephilim:'mostly',flood:'mostly',mary:'full',baptism:'partial',communion:'mostly',holyspirit:'full'}},
         {id:'pentecostal',name:'Pentecostal',cat:'christian',founded:'1901',adherents:'~280M',d:{god:'mostly',jesus:'full',salvation:'mostly',scripture:'mostly',afterlife:'full',creation:'full',angels:'full',nephilim:'full',flood:'full',mary:'full',baptism:'full',communion:'full',holyspirit:'full'}},
         {id:'sda',name:'Seventh-day Adventist',cat:'christian',founded:'1863',adherents:'~22M',d:{god:'full',jesus:'mostly',salvation:'partial',scripture:'partial',afterlife:'partial',creation:'full',angels:'full',nephilim:'partial',flood:'full',mary:'full',baptism:'full',communion:'mostly',holyspirit:'full'}},
+        {id:'anglican',name:'Anglican / Episcopalian',cat:'christian',founded:'1534',adherents:'~85M',d:{god:'full',jesus:'full',salvation:'mostly',scripture:'mostly',afterlife:'mostly',creation:'mostly',angels:'full',nephilim:'mostly',flood:'mostly',mary:'mostly',baptism:'partial',communion:'mostly',holyspirit:'full'}},
+        {id:'assemblies',name:'Assemblies of God',cat:'christian',founded:'1914',adherents:'~70M',d:{god:'full',jesus:'full',salvation:'mostly',scripture:'full',afterlife:'full',creation:'full',angels:'full',nephilim:'full',flood:'full',mary:'full',baptism:'full',communion:'full',holyspirit:'full'}},
+        {id:'churchofchrist',name:'Church of Christ',cat:'christian',founded:'1800s',adherents:'~3M',d:{god:'full',jesus:'full',salvation:'partial',scripture:'full',afterlife:'full',creation:'full',angels:'full',nephilim:'mostly',flood:'full',mary:'full',baptism:'partial',communion:'mostly',holyspirit:'mostly'}},
+        {id:'nondenominational',name:'Non-Denominational Evangelical',cat:'christian',founded:'20th c.',adherents:'~20M',d:{god:'full',jesus:'full',salvation:'full',scripture:'full',afterlife:'full',creation:'mostly',angels:'full',nephilim:'mostly',flood:'full',mary:'full',baptism:'full',communion:'full',holyspirit:'full'}},
+        {id:'reformed_baptist',name:'Reformed Baptist',cat:'christian',founded:'1630s',adherents:'~5M',d:{god:'full',jesus:'full',salvation:'full',scripture:'full',afterlife:'full',creation:'full',angels:'full',nephilim:'mostly',flood:'full',mary:'full',baptism:'full',communion:'mostly',holyspirit:'full'}},
         // World religions
         {id:'islam',name:'Islam',cat:'world',founded:'622 AD',adherents:'~2B',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'partial',creation:'mostly',angels:'partial',nephilim:'divergent',flood:'mostly',mary:'partial',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
         {id:'judaism',name:'Judaism (Rabbinic)',cat:'world',founded:'~6th c. BC',adherents:'~15M',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'partial',afterlife:'partial',creation:'mostly',angels:'mostly',nephilim:'mostly',flood:'full',mary:'divergent',baptism:'partial',communion:'divergent',holyspirit:'partial'}},
@@ -379,11 +384,22 @@
         {id:'sikhism',name:'Sikhism',cat:'world',founded:'1469',adherents:'~30M',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'partial',angels:'partial',nephilim:'divergent',flood:'divergent',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
         {id:'bahai',name:"Baha'i Faith",cat:'world',founded:'1863',adherents:'~8M',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'partial',angels:'divergent',nephilim:'divergent',flood:'divergent',mary:'partial',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
         {id:'new_age',name:'New Age',cat:'world',founded:'1960s',adherents:'Millions',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'partial',nephilim:'divergent',flood:'divergent',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
+        {id:'scientology',name:'Scientology',cat:'world',founded:'1954',adherents:'~20-50K',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'divergent',nephilim:'divergent',flood:'divergent',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
+        {id:'nation_of_islam',name:'Nation of Islam',cat:'world',founded:'1930',adherents:'~50K',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'divergent',nephilim:'divergent',flood:'divergent',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
+        {id:'christian_science',name:'Christian Science',cat:'world',founded:'1879',adherents:'~100K',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'divergent',nephilim:'divergent',flood:'divergent',mary:'partial',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
+        {id:'unitarian',name:'Unitarian Universalism',cat:'world',founded:'1961',adherents:'~200K',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'divergent',nephilim:'divergent',flood:'divergent',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
+        {id:'taoism',name:'Taoism',cat:'world',founded:'~4th c. BC',adherents:'~20M',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'divergent',nephilim:'divergent',flood:'parallel',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
+        {id:'shinto',name:'Shinto',cat:'world',founded:'Prehistoric',adherents:'~80M',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'divergent',nephilim:'divergent',flood:'divergent',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
+        {id:'rastafari',name:'Rastafari',cat:'world',founded:'1930s',adherents:'~1M',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'partial',afterlife:'divergent',creation:'partial',angels:'partial',nephilim:'divergent',flood:'mostly',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'partial'}},
+        {id:'black_hebrew_israelites',name:'Black Hebrew Israelites',cat:'world',founded:'Late 1800s',adherents:'~200K',d:{god:'partial',jesus:'partial',salvation:'partial',scripture:'partial',afterlife:'partial',creation:'full',angels:'full',nephilim:'full',flood:'full',mary:'mostly',baptism:'mostly',communion:'partial',holyspirit:'partial'}},
         // Esoteric
         {id:'freemasonry',name:'Freemasonry',cat:'esoteric',founded:'1717',adherents:'~2-6M',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'partial',angels:'divergent',nephilim:'divergent',flood:'partial',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
         {id:'gnosticism',name:'Gnosticism',cat:'esoteric',founded:'1st-2nd c.',adherents:'~100K',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'partial',nephilim:'partial',flood:'divergent',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
         {id:'kabbalah',name:'Kabbalah',cat:'esoteric',founded:'12th c.',adherents:'~3M',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'partial',afterlife:'partial',creation:'partial',angels:'mostly',nephilim:'mostly',flood:'partial',mary:'divergent',baptism:'partial',communion:'partial',holyspirit:'partial'}},
         {id:'satanism',name:'Satanism (LaVeyan)',cat:'esoteric',founded:'1966',adherents:'~20-100K',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'divergent',nephilim:'divergent',flood:'divergent',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
+        {id:'hermeticism',name:'Hermeticism',cat:'esoteric',founded:'~2nd c. AD',adherents:'~100K',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'partial',nephilim:'divergent',flood:'divergent',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
+        {id:'rosicrucianism',name:'Rosicrucianism',cat:'esoteric',founded:'1614',adherents:'~250K',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'partial',nephilim:'partial',flood:'partial',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
+        {id:'theosophy',name:'Theosophy',cat:'esoteric',founded:'1875',adherents:'~50K',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'partial',nephilim:'partial',flood:'partial',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
         // Ancient mythology
         {id:'mystery_babylon',name:'Mystery Babylon',cat:'mythology',founded:'~3000 BC',adherents:'Historical',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'partial',creation:'divergent',angels:'partial',nephilim:'parallel',flood:'parallel',mary:'divergent',baptism:'partial',communion:'partial',holyspirit:'divergent'}},
         {id:'greek',name:'Greek Mythology',cat:'mythology',founded:'~2000 BC',adherents:'Historical',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'partial',creation:'divergent',angels:'partial',nephilim:'parallel',flood:'parallel',mary:'divergent',baptism:'partial',communion:'partial',holyspirit:'divergent'}},
@@ -391,11 +407,20 @@
         {id:'egyptian',name:'Egyptian Religion',cat:'mythology',founded:'~3100 BC',adherents:'Historical',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'partial',creation:'partial',angels:'partial',nephilim:'partial',flood:'partial',mary:'divergent',baptism:'partial',communion:'partial',holyspirit:'divergent'}},
         {id:'sumerian',name:'Sumerian / Mesopotamian',cat:'mythology',founded:'~4000 BC',adherents:'Historical',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'partial',creation:'partial',angels:'parallel',nephilim:'parallel',flood:'parallel',mary:'divergent',baptism:'partial',communion:'partial',holyspirit:'divergent'}},
         {id:'zoroastrianism',name:'Zoroastrianism',cat:'mythology',founded:'~1500 BC',adherents:'~100-200K',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'partial',creation:'partial',angels:'parallel',nephilim:'partial',flood:'parallel',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'parallel'}},
+        {id:'chinese',name:'Chinese Traditional / Folk',cat:'mythology',founded:'Prehistoric',adherents:'~400M',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'partial',nephilim:'partial',flood:'parallel',mary:'divergent',baptism:'divergent',communion:'divergent',holyspirit:'divergent'}},
+        {id:'hindu_myth',name:'Hindu Mythology',cat:'mythology',founded:'~1500 BC+',adherents:'Part of Hinduism',d:{god:'divergent',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'partial',nephilim:'parallel',flood:'parallel',mary:'divergent',baptism:'partial',communion:'partial',holyspirit:'divergent'}},
+        {id:'biblical_angels',name:'Biblical Angelology (Reference)',cat:'mythology',founded:'Biblical',adherents:'All Bible-believing',d:{god:'full',jesus:'full',salvation:'full',scripture:'full',afterlife:'full',creation:'full',angels:'full',nephilim:'full',flood:'full',mary:'full',baptism:'full',communion:'full',holyspirit:'full'}},
         // Native / Indigenous
         {id:'cherokee',name:'Cherokee Traditional',cat:'native',founded:'Pre-Columbian',adherents:'Cultural',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'partial',nephilim:'parallel',flood:'parallel',mary:'divergent',baptism:'partial',communion:'partial',holyspirit:'partial'}},
         {id:'hopi',name:'Hopi Traditional',cat:'native',founded:'Pre-Columbian',adherents:'Cultural',d:{god:'partial',jesus:'partial',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'partial',angels:'partial',nephilim:'parallel',flood:'parallel',mary:'divergent',baptism:'partial',communion:'partial',holyspirit:'partial'}},
-        {id:'lakota',name:'Lakota / Sioux',cat:'native',founded:'Pre-Columbian',adherents:'Cultural',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'partial',nephilim:'partial',flood:'parallel',mary:'divergent',baptism:'partial',communion:'partial',holyspirit:'partial'}}
+        {id:'lakota',name:'Lakota / Sioux',cat:'native',founded:'Pre-Columbian',adherents:'Cultural',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'divergent',angels:'partial',nephilim:'partial',flood:'parallel',mary:'divergent',baptism:'partial',communion:'partial',holyspirit:'partial'}},
+        {id:'iroquois',name:'Iroquois (Haudenosaunee)',cat:'native',founded:'Pre-Columbian',adherents:'Cultural',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'partial',creation:'divergent',angels:'partial',nephilim:'parallel',flood:'parallel',mary:'divergent',baptism:'divergent',communion:'partial',holyspirit:'partial'}},
+        {id:'algonquin',name:'Algonquin',cat:'native',founded:'Pre-Columbian',adherents:'Cultural',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'divergent',creation:'partial',angels:'partial',nephilim:'parallel',flood:'parallel',mary:'divergent',baptism:'divergent',communion:'partial',holyspirit:'partial'}},
+        {id:'lenape',name:'Lenape (Delaware)',cat:'native',founded:'Pre-Columbian',adherents:'Cultural',d:{god:'partial',jesus:'divergent',salvation:'divergent',scripture:'divergent',afterlife:'partial',creation:'divergent',angels:'partial',nephilim:'parallel',flood:'parallel',mary:'divergent',baptism:'divergent',communion:'partial',holyspirit:'partial'}}
     ];
+
+    // Religions detail data (injected by build.py — full doctrinal position text)
+    var RELIGIONS_DETAIL = __RELIGIONS_DETAIL_DATA__;
 
     var ALIGNMENT_INFO = {
         full:      { label: 'Full Match',  color: '#22c55e' },
@@ -5437,7 +5462,7 @@
             var alignment = r.d[matrixSelectedDoctrine] || 'divergent';
             var ai = ALIGNMENT_INFO[alignment];
             var catInfo = RELIGION_CATEGORIES[r.cat] || {};
-            html += '<div class="matrix-card" style="border-left-color:' + ai.color + '">';
+            html += '<div class="matrix-card" style="border-left-color:' + ai.color + ';cursor:pointer" data-religion="' + r.id + '" title="Click to explore ' + esc(r.name) + '">';
             html += '<div class="matrix-card-header">';
             html += '<div class="matrix-card-name">' + esc(r.name) + '</div>';
             html += '<div class="matrix-card-meta">' + (catInfo.icon || '') + ' ' + esc(r.founded) + ' \u00B7 ' + esc(r.adherents) + '</div>';
@@ -5445,6 +5470,7 @@
             html += '<div class="matrix-alignment" style="color:' + ai.color + '">';
             html += '<span class="matrix-dot" style="background:' + ai.color + '"></span>' + ai.label;
             html += '</div>';
+            html += '<div class="matrix-card-explore">Tap to explore \u2192</div>';
             html += '</div>';
         });
         html += '</div>';
@@ -5457,7 +5483,8 @@
         });
         html += '</tr></thead><tbody>';
         filtered.forEach(function(r) {
-            html += '<tr><td class="matrix-hm-name">' + esc(r.name) + '</td>';
+            html += '<tr style="cursor:pointer" data-religion="' + r.id + '">';
+            html += '<td class="matrix-hm-name">' + esc(r.name) + '</td>';
             DOCTRINE_KEYS.forEach(function(k) {
                 var al = r.d[k] || 'divergent';
                 var ai = ALIGNMENT_INFO[al];
@@ -5481,6 +5508,105 @@
                 matrixSelectedCat = this.dataset.cat;
                 renderMatrix();
             });
+        });
+        // Click handlers for religion cards
+        content.querySelectorAll('.matrix-card[data-religion]').forEach(function(card) {
+            card.addEventListener('click', function() {
+                showReligionDetail(this.dataset.religion);
+            });
+        });
+        // Click handlers for heatmap rows
+        content.querySelectorAll('.matrix-heatmap tbody tr[data-religion]').forEach(function(row) {
+            row.addEventListener('click', function() {
+                showReligionDetail(this.dataset.religion);
+            });
+        });
+    }
+
+    // ── Religion Detail Overlay ────────────────────────────────
+    var religionDetailOverlay = document.getElementById('religionDetailOverlay');
+
+    function showReligionDetail(religionId) {
+        logEvent('feature', 'religion_detail_' + religionId);
+        var detail = RELIGIONS_DETAIL[religionId];
+        if (!detail) { return; }
+
+        var catInfo = RELIGION_CATEGORIES[detail.category] || {};
+        var titleEl = document.getElementById('religionDetailTitle');
+        var contentEl = document.getElementById('religionDetailContent');
+
+        // Count alignments
+        var counts = { full: 0, mostly: 0, parallel: 0, partial: 0, divergent: 0 };
+        DOCTRINE_KEYS.forEach(function(k) {
+            var al = detail.doctrines[k] ? detail.doctrines[k].alignment : 'divergent';
+            counts[al] = (counts[al] || 0) + 1;
+        });
+
+        // Title
+        titleEl.innerHTML = '<h2>' + (catInfo.icon || '') + ' ' + esc(detail.name) + '</h2>' +
+            '<div class="religion-detail-meta">' +
+            '<span class="religion-meta-item"><strong>Founded:</strong> ' + esc(detail.founded) + '</span>' +
+            (detail.founder ? '<span class="religion-meta-item"><strong>Founder:</strong> ' + esc(detail.founder) + '</span>' : '') +
+            '<span class="religion-meta-item"><strong>Adherents:</strong> ' + esc(detail.adherents) + '</span>' +
+            '</div>';
+
+        var html = '';
+
+        // Alignment summary bar
+        html += '<div class="religion-alignment-summary">';
+        Object.keys(ALIGNMENT_INFO).forEach(function(k) {
+            if (counts[k] > 0) {
+                var ai = ALIGNMENT_INFO[k];
+                html += '<span class="religion-summary-badge" style="background:' + ai.color + '20;color:' + ai.color + ';border:1px solid ' + ai.color + '40">';
+                html += counts[k] + ' ' + ai.label;
+                html += '</span>';
+            }
+        });
+        html += '</div>';
+
+        // Doctrine comparison cards
+        html += '<div class="religion-doctrines-grid">';
+        DOCTRINE_KEYS.forEach(function(k) {
+            var bt = BIBLE_TEACHES[k];
+            var rd = detail.doctrines[k] || { position: 'No information available.', alignment: 'divergent' };
+            var ai = ALIGNMENT_INFO[rd.alignment] || ALIGNMENT_INFO.divergent;
+
+            html += '<div class="religion-doctrine-card">';
+            html += '<div class="religion-doctrine-header">';
+            html += '<span class="religion-doctrine-label">' + esc(bt.label) + '</span>';
+            html += '<span class="religion-doctrine-badge" style="background:' + ai.color + '20;color:' + ai.color + ';border:1px solid ' + ai.color + '40">' + ai.label + '</span>';
+            html += '</div>';
+
+            // Bible teaches
+            html += '<div class="religion-doctrine-bible">';
+            html += '<div class="religion-doctrine-source">\u2727 Bible Teaches</div>';
+            html += '<p>' + esc(bt.teaching) + '</p>';
+            html += '</div>';
+
+            // Religion's position
+            html += '<div class="religion-doctrine-position" style="border-left-color:' + ai.color + '">';
+            html += '<div class="religion-doctrine-source">' + (catInfo.icon || '') + ' ' + esc(detail.name) + '</div>';
+            html += '<p>' + esc(rd.position) + '</p>';
+            html += '</div>';
+
+            html += '</div>';
+        });
+        html += '</div>';
+
+        contentEl.innerHTML = html;
+        religionDetailOverlay.classList.add('open');
+    }
+
+    function closeReligionDetail() {
+        religionDetailOverlay.classList.remove('open');
+    }
+
+    if (document.getElementById('religionDetailClose')) {
+        document.getElementById('religionDetailClose').addEventListener('click', closeReligionDetail);
+    }
+    if (religionDetailOverlay) {
+        religionDetailOverlay.addEventListener('click', function(e) {
+            if (e.target === religionDetailOverlay) closeReligionDetail();
         });
     }
 

@@ -640,9 +640,61 @@ body.sidebar-open .main-content { overflow: hidden !important; }
     font-size: 0.625rem; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase;
 }
 
+/* Mobile Tools Popup Sheet */
+.mobile-tools-popup {
+    display: none; position: fixed; inset: 0; z-index: 10000;
+}
+.mobile-tools-popup.open { display: block; }
+.mobile-tools-backdrop {
+    position: absolute; inset: 0; background: rgba(0,0,0,0.6);
+}
+.mobile-tools-sheet {
+    position: absolute; bottom: 60px; left: 0; right: 0;
+    background: #1a1e2e; border-top: 2px solid #c9a84c;
+    border-radius: 16px 16px 0 0; padding: 16px 12px 20px;
+    max-height: 70vh; overflow-y: auto;
+    box-shadow: 0 -8px 32px rgba(0,0,0,0.5);
+    animation: toolsSlideUp 0.25s ease-out;
+}
+@keyframes toolsSlideUp {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+.mobile-tools-header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 0 4px 12px; border-bottom: 1px solid rgba(201,168,76,0.2);
+    margin-bottom: 12px; color: #c9a84c; font-size: 1rem; font-weight: 600;
+}
+.mobile-tools-close {
+    background: none; border: 1px solid rgba(201,168,76,0.3); color: #c9a84c;
+    font-size: 1.4rem; width: 36px; height: 36px; border-radius: 6px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; line-height: 1;
+}
+.mobile-tools-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px;
+}
+.mobile-tool-item {
+    display: flex; align-items: center; gap: 10px;
+    background: rgba(201,168,76,0.06); border: 1px solid rgba(201,168,76,0.15);
+    border-radius: 10px; padding: 14px 12px; color: #e0dcd4;
+    font-size: 0.88rem; font-family: inherit; cursor: pointer; min-height: 52px;
+    transition: background 0.15s, border-color 0.15s;
+}
+.mobile-tool-item:active {
+    background: rgba(201,168,76,0.18); border-color: #c9a84c;
+}
+.mobile-tool-icon { font-size: 1.3rem; flex-shrink: 0; }
+
 @media (max-width: 768px) {
     .mobile-bottom-nav { display: flex; }
     .sidebar-close-btn { display: flex; align-items: center; justify-content: center; }
+    /* Fix z-index: overlays must appear above sidebar (z-index 100) */
+    .progress-overlay { z-index: 110 !important; }
+    .glossary-overlay { z-index: 110 !important; }
+    .map-overlay { z-index: 110 !important; }
+    .hebrew-overlay { z-index: 110 !important; }
+    .resources-overlay { z-index: 110 !important; }
+    .religion-detail-overlay { z-index: 110 !important; }
     .main-content { padding-bottom: 80px !important; }
 
     .sidebar {
@@ -879,19 +931,56 @@ body.sidebar-open .main-content { overflow: hidden !important; }
 
     # Close body with our mobile JS + bottom nav + SW registration
     bottom_nav_html = """
+    <!-- Mobile Tools Popup Sheet -->
+    <div class="mobile-tools-popup" id="mobileToolsPopup">
+        <div class="mobile-tools-backdrop" id="mobileToolsBackdrop"></div>
+        <div class="mobile-tools-sheet">
+            <div class="mobile-tools-header">
+                <span>Study Tools</span>
+                <button class="mobile-tools-close" id="mobileToolsClose">&times;</button>
+            </div>
+            <div class="mobile-tools-grid">
+                <button class="mobile-tool-item" data-tool="matrix">
+                    <span class="mobile-tool-icon">&#x1F4CA;</span><span>Prophecy Matrix</span>
+                </button>
+                <button class="mobile-tool-item" data-tool="timeline">
+                    <span class="mobile-tool-icon">&#x23F3;</span><span>Timeline</span>
+                </button>
+                <button class="mobile-tool-item" data-tool="map">
+                    <span class="mobile-tool-icon">&#x1F5FA;</span><span>Ancient Map</span>
+                </button>
+                <button class="mobile-tool-item" data-tool="hebrew">
+                    <span class="mobile-tool-icon">&#x1F4DC;</span><span>Learn Hebrew</span>
+                </button>
+                <button class="mobile-tool-item" data-tool="resources">
+                    <span class="mobile-tool-icon">&#x1F4DA;</span><span>Resources</span>
+                </button>
+                <button class="mobile-tool-item" data-tool="progress">
+                    <span class="mobile-tool-icon">&#x1F4C8;</span><span>My Progress</span>
+                </button>
+                <button class="mobile-tool-item" data-tool="prophecy">
+                    <span class="mobile-tool-icon">&#x1F52E;</span><span>Prophecy Tracker</span>
+                </button>
+                <button class="mobile-tool-item" data-tool="beliefs">
+                    <span class="mobile-tool-icon">&#x2696;</span><span>Core Beliefs</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
     <!-- Mobile Bottom Navigation Bar -->
     <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Quick navigation">
-        <button class="bottom-nav-btn" data-nav="home" aria-label="Library Home">
-            <span class="bottom-nav-icon">&#x1F4DA;</span>
-            <span class="bottom-nav-label">Library</span>
+        <button class="bottom-nav-btn" data-nav="home" aria-label="Home">
+            <span class="bottom-nav-icon">&#x1F3E0;</span>
+            <span class="bottom-nav-label">Home</span>
         </button>
         <button class="bottom-nav-btn" data-nav="search" aria-label="Search">
             <span class="bottom-nav-icon">&#x1F50D;</span>
             <span class="bottom-nav-label">Search</span>
         </button>
-        <button class="bottom-nav-btn" data-nav="interlinear" aria-label="Interlinear Reader">
-            <span class="bottom-nav-icon">&#x1F4D6;</span>
-            <span class="bottom-nav-label">Reader</span>
+        <button class="bottom-nav-btn" data-nav="tools" aria-label="Study Tools">
+            <span class="bottom-nav-icon">&#x2699;</span>
+            <span class="bottom-nav-label">Tools</span>
         </button>
         <button class="bottom-nav-btn" data-nav="glossary" aria-label="Glossary">
             <span class="bottom-nav-icon">&#x1F4D3;</span>
@@ -951,9 +1040,42 @@ body.sidebar-open .main-content { overflow: hidden !important; }
         return null;
     }
 
+    // ── Mobile Tools Popup ─────────────────────────────────
+    var mobileToolsPopup = document.getElementById('mobileToolsPopup');
+    var mobileToolsBackdrop = document.getElementById('mobileToolsBackdrop');
+    var mobileToolsClose = document.getElementById('mobileToolsClose');
+
+    function openMobileTools() {
+        if (mobileToolsPopup) mobileToolsPopup.classList.add('open');
+    }
+    function closeMobileTools() {
+        if (mobileToolsPopup) mobileToolsPopup.classList.remove('open');
+    }
+    if (mobileToolsBackdrop) mobileToolsBackdrop.addEventListener('click', closeMobileTools);
+    if (mobileToolsClose) mobileToolsClose.addEventListener('click', closeMobileTools);
+
+    // Handle tool item clicks in popup
+    var toolItems = document.querySelectorAll('.mobile-tool-item');
+    toolItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+            var tool = this.dataset.tool;
+            closeMobileTools();
+            closeSidebarMobile();
+            if (tool === 'matrix') openMatrix();
+            else if (tool === 'timeline') openTimeline();
+            else if (tool === 'map') openMap();
+            else if (tool === 'hebrew') openHebrew();
+            else if (tool === 'resources') openResources();
+            else if (tool === 'progress') openProgress();
+            else if (tool === 'prophecy') showProphecyTracker();
+            else if (tool === 'beliefs') showCoreBeliefs();
+        });
+    });
+
     // ── Mobile Bottom Nav Integration ─────────────────────
     document.addEventListener('mobile-nav', function(e) {
         var action = e.detail;
+        closeMobileTools();
         if (action === 'home') {
             showLibrary();
             closeSidebarMobile();
@@ -962,9 +1084,9 @@ body.sidebar-open .main-content { overflow: hidden !important; }
             sidebarBackdrop.classList.add('visible');
             document.body.classList.add('sidebar-open');
             setTimeout(function() { searchInput.focus(); }, 300);
-        } else if (action === 'interlinear') {
-            if (!readingPaneOpen) setReadingPane(true);
+        } else if (action === 'tools') {
             closeSidebarMobile();
+            openMobileTools();
         } else if (action === 'glossary') {
             openGlossary();
             closeSidebarMobile();
