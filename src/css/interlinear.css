@@ -348,9 +348,9 @@ body.reading-pane-open .sync-btn-left { display: block; }
 }
 
 .il-verse-sentence {
-    font-size: 0.92rem;
+    font-size: 0.95rem;
     color: var(--text-primary);
-    line-height: 1.7;
+    line-height: 1.85;
     font-family: var(--font-heading);
     font-style: italic;
     opacity: 0.85;

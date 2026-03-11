@@ -244,6 +244,104 @@
     margin-left: auto;
 }
 
+/* ── Continue Reading (Recent Texts) ────────── */
+.library-recent-section {
+    max-width: 900px;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+}
+
+.library-recent-heading {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 0 0 12px;
+}
+
+.library-recent-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+}
+
+.library-recent-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.library-recent-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--card-color);
+}
+
+.library-recent-card:hover {
+    border-color: var(--border-strong);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.library-recent-title {
+    font-size: 0.9rem;
+    color: var(--gold);
+    margin: 4px 0 6px;
+    font-family: var(--font-heading);
+}
+
+.library-recent-progress {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+}
+
+/* ── Progress Bars (Release Mode) ───────────── */
+.progress-bar-row {
+    margin-bottom: 10px;
+}
+
+.progress-bar-label {
+    font-size: 0.82rem;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar-count {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+}
+
+.progress-bar-track {
+    height: 6px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: var(--gold);
+    border-radius: 3px;
+    transition: width 0.3s ease;
+    min-width: 2px;
+}
+
+.progress-bar-fill.bar-complete {
+    background: #2ea043;
+}
+
 /* Prophecy Matrix View */
 .prophecy-view { max-width: 900px; margin: 0 auto; padding: 0 20px 60px; }
 .prophecy-header { text-align: center; padding: 40px 0 24px; }

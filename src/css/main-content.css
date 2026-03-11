@@ -48,8 +48,8 @@
 .chapter-card {
     background: var(--bg-card);
     border-radius: var(--radius-md);
-    padding: var(--space-lg) var(--space-lg);
-    margin-bottom: var(--space-lg);
+    padding: var(--space-xl) var(--space-xl);
+    margin-bottom: var(--space-xl);
     border: 1px solid var(--border-subtle);
     position: relative;
     box-shadow: var(--shadow-card);
@@ -91,10 +91,10 @@
 /* ── Synopsis ────────────────────────────────── */
 .synopsis {
     font-size: var(--text-base);
-    line-height: var(--leading-relaxed);
+    line-height: 1.8;
     color: var(--text-primary);
-    margin-bottom: var(--space-md);
-    padding-bottom: var(--space-md);
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-lg);
     border-bottom: 1px solid var(--border-subtle);
 }
 
@@ -102,8 +102,8 @@
 .scripture-block {
     background: linear-gradient(135deg, rgba(201, 168, 76, 0.06), var(--bg-card));
     border-left: 3px solid var(--gold);
-    padding: var(--space-md) var(--space-lg);
-    margin-bottom: var(--space-md);
+    padding: var(--space-lg) var(--space-xl);
+    margin-bottom: var(--space-lg);
     border-radius: 0 var(--radius-md) var(--radius-md) 0;
     position: relative;
 }
@@ -130,5 +130,43 @@
     color: var(--text-muted);
     text-align: right;
     margin-top: var(--space-sm);
+}
+
+/* ── Chapter Action Bar (mobile-friendly) ──── */
+.chapter-action-bar {
+    display: flex;
+    gap: 8px;
+    margin-top: var(--space-lg);
+    padding-top: var(--space-md);
+    border-top: 1px solid var(--border-subtle);
+}
+
+.chapter-action-bar button {
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: var(--radius-sm);
+    font-size: 0.82rem;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: all 0.15s;
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+}
+
+.chapter-action-bar button:active {
+    transform: scale(0.97);
+}
+
+.chapter-action-read.is-read {
+    background: rgba(46, 160, 67, 0.12);
+    color: #2ea043;
+    border-color: rgba(46, 160, 67, 0.3);
+}
+
+.chapter-action-bookmark.is-bookmarked {
+    background: rgba(201, 168, 76, 0.12);
+    color: var(--gold);
+    border-color: var(--gold-border);
 }
 

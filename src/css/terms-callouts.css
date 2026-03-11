@@ -62,8 +62,8 @@
 .ane-callout,
 .second-temple-box,
 .council-note {
-    padding: var(--space-md) var(--space-lg);
-    margin-bottom: var(--space-md);
+    padding: var(--space-lg) var(--space-xl);
+    margin-bottom: var(--space-lg);
     border-radius: 0 var(--radius-md) var(--radius-md) 0;
     border-left: 3px solid;
 }
@@ -81,7 +81,7 @@
 .ane-callout .callout-body,
 .council-note .callout-body {
     font-size: var(--text-base);
-    line-height: var(--leading-relaxed);
+    line-height: 1.8;
     color: var(--text-primary);
 }
 

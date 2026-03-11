@@ -1116,11 +1116,26 @@
         setReadingPane(false);
         buildLibrarySidebar();
 
-        var cats = CORE_BELIEFS.categories || [];
-        if (cats.length === 0) {
+        // Handle both flat list [{id, category, ...}] and object {categories: [...]} formats
+        var allTopics = [];
+        if (Array.isArray(CORE_BELIEFS)) {
+            allTopics = CORE_BELIEFS;
+        } else if (CORE_BELIEFS.categories) {
+            CORE_BELIEFS.categories.forEach(function(cat) { (cat.topics || []).forEach(function(t) { t._cat = cat.name; t._catColor = cat.color; allTopics.push(t); }); });
+        }
+        if (allTopics.length === 0) {
             mainContent.innerHTML = '<div style="padding:2rem;color:var(--text-secondary)"><h2>Governance Architecture</h2><p>Content is being compiled. Check back soon.</p></div>';
             return;
         }
+
+        // Group by category
+        var catOrder = [], catMap = {};
+        var catColors = { 'ONTOLOGY':'#c9a84c','REBELLION':'#e05540','COVENANT':'#2ea043','ESCHATOLOGY':'#5a7a9e','SOTERIOLOGY':'#7a5a96','ECCLESIOLOGY':'#b09050','PNEUMATOLOGY':'#2d9a8f','ANTHROPOLOGY':'#d29922' };
+        allTopics.forEach(function(t) {
+            var ck = t.category || t._cat || 'General';
+            if (!catMap[ck]) { catMap[ck] = []; catOrder.push(ck); }
+            catMap[ck].push(t);
+        });
 
         var html = '<div class="beliefs-view">' +
             '<div class="prophecy-header">' +
@@ -1129,32 +1144,35 @@
             '<p class="prophecy-subtitle">' + (CORE_BELIEFS.subtitle || 'Not systematic theology &mdash; the actual framework the biblical authors wrote within') + '</p>' +
             '</div>';
 
-        if (CORE_BELIEFS.thesis) {
-            html += '<div class="beliefs-thesis"><p>' + CORE_BELIEFS.thesis + '</p></div>';
-        }
+        catOrder.forEach(function(catKey, ci) {
+            var catTopics = catMap[catKey];
+            var color = catColors[catKey] || (catTopics[0] && catTopics[0]._catColor) || 'var(--gold)';
+            var label = catKey.charAt(0).toUpperCase() + catKey.slice(1).toLowerCase();
 
-        cats.forEach(function(cat) {
             html += '<div class="beliefs-category">' +
-                '<h2 class="beliefs-cat-title" style="border-left-color:' + (cat.color || 'var(--gold)') + '">' +
-                '<span class="beliefs-cat-num">' + (cat.number || '') + '</span>' +
-                cat.name + '</h2>';
-            if (cat.description) {
-                html += '<p class="beliefs-cat-desc">' + cat.description + '</p>';
-            }
+                '<h2 class="beliefs-cat-title" style="border-left-color:' + color + '">' +
+                '<span class="beliefs-cat-num">' + (ci + 1) + '</span>' +
+                label + '</h2>';
 
-            (cat.topics || []).forEach(function(topic) {
-                var isExpanded = topic.id === topicId;
-                html += '<div class="beliefs-topic' + (isExpanded ? ' expanded' : '') + '" data-topic="' + topic.id + '">' +
-                    '<div class="beliefs-topic-header" data-toggle-topic="' + topic.id + '">' +
+            catTopics.forEach(function(topic) {
+                var tid = topic.id || '';
+                var isExpanded = tid === topicId;
+                html += '<div class="beliefs-topic' + (isExpanded ? ' expanded' : '') + '" data-topic="' + tid + '">' +
+                    '<div class="beliefs-topic-header" data-toggle-topic="' + tid + '">' +
                     '<span class="beliefs-topic-chevron">' + (isExpanded ? '\u25BC' : '\u25B6') + '</span>' +
-                    '<span class="beliefs-topic-title">' + topic.title + '</span>' +
+                    '<span class="beliefs-topic-title">' + (topic.title || '') + '</span>' +
                     '</div>';
 
                 html += '<div class="beliefs-topic-body" style="' + (isExpanded ? '' : 'display:none') + '">';
+                if (topic.subtitle) html += '<p class="beliefs-summary" style="font-style:italic;color:var(--text-secondary)">' + topic.subtitle + '</p>';
+                if (topic.council_relevance) html += '<div class="beliefs-view-box beliefs-governance"><div class="beliefs-view-label">Divine Council Relevance:</div><p>' + topic.council_relevance + '</p></div>';
                 if (topic.summary) html += '<p class="beliefs-summary">' + topic.summary + '</p>';
                 if (topic.systematic_view) html += '<div class="beliefs-view-box beliefs-systematic"><div class="beliefs-view-label">Systematic Theology Says:</div><p>' + topic.systematic_view + '</p></div>';
                 if (topic.governance_view) html += '<div class="beliefs-view-box beliefs-governance"><div class="beliefs-view-label">The Governance Architecture Reveals:</div><p>' + topic.governance_view + '</p></div>';
-                if (topic.key_texts) html += '<div class="beliefs-texts"><strong>Key Texts:</strong> ' + topic.key_texts + '</div>';
+                if (topic.key_texts) {
+                    var kt = Array.isArray(topic.key_texts) ? topic.key_texts.join(', ') : topic.key_texts;
+                    html += '<div class="beliefs-texts"><strong>Key Texts:</strong> ' + kt + '</div>';
+                }
                 if (topic.implications) html += '<div class="beliefs-implications"><strong>So What?</strong> ' + topic.implications + '</div>';
                 html += '</div></div>';
             });
@@ -1281,18 +1299,35 @@
     function renderLibraryMain() {
         var html = '<div class="library-hero">' +
             '<h1 class="library-title">Ancient Texts Library</h1>' +
-            '<p class="library-subtitle">A Scholarly Study of Sacred &amp; Ancient Writings</p>' +
-            '<p class="library-thesis">This app reveals the governance architecture of Scripture &mdash; not systematic theology, ' +
-            'but the actual framework the biblical authors wrote within: divine council, cosmic geography, covenant structure, ' +
-            'and the supernatural worldview that shaped every page from Genesis 1 to Revelation 22. ' +
-            'Alongside the canon, this library includes the Second Temple texts that the biblical authors knew, quoted, and assumed their audience had read.</p>' +
-            '</div>' +
-            '<div class="library-featured">' +
+            '<p class="library-subtitle">Divine council, cosmic geography &amp; covenant structure &mdash; the framework the biblical authors wrote within.</p>' +
+            '</div>';
+
+        // Recent texts section (continue reading)
+        var recentTexts = JSON.parse(localStorage.getItem('atl-recent-texts') || '[]');
+        if (recentTexts.length > 0) {
+            html += '<div class="library-recent-section">' +
+                '<h2 class="library-recent-heading">Continue Reading</h2>' +
+                '<div class="library-recent-grid">';
+            recentTexts.slice(0, 4).forEach(function(rid) {
+                var rt = getTextDef(rid);
+                if (!rt) return;
+                var rcat = getCategoryDef(rt.category);
+                var rcounts = getTextReadCount(rid);
+                html += '<div class="library-recent-card" data-text="' + rid + '" style="--card-color:' + (rt.color || rcat.color) + '">' +
+                    '<span class="canon-badge badge-small" style="background:' + rcat.color + '20;color:' + rcat.color + ';border-color:' + rcat.color + '40">' + rcat.badge + '</span>' +
+                    '<h3 class="library-recent-title">' + rt.name + '</h3>' +
+                    '<span class="library-recent-progress">' + rcounts.read + '/' + rcounts.total + ' read</span>' +
+                    '</div>';
+            });
+            html += '</div></div>';
+        }
+
+        // Featured study card
+        html += '<div class="library-featured">' +
             '<div class="library-featured-card" data-text="heavenly_court">' +
             '<div class="library-featured-label">FEATURED STUDY</div>' +
             '<h3 class="library-featured-title">The Heavenly Court</h3>' +
-            '<p class="library-featured-desc">A grammatical &amp; theological deep dive into the divine council worldview &mdash; ' +
-            'the framework that unifies the entire biblical narrative from Genesis 1 to Revelation 22.</p>' +
+            '<p class="library-featured-desc">Deep dive into the divine council worldview that unifies the entire biblical narrative.</p>' +
             '<span class="library-featured-cta">Begin the Study &rarr;</span>' +
             '</div>' +
             '</div>';
@@ -1300,7 +1335,6 @@
         // Study Trails section
         html += '<div class="study-trails-section">' +
             '<h2 class="study-trails-heading">Study Trails</h2>' +
-            '<p class="study-trails-desc">Curated paths through the library — each trail connects chapters across multiple texts around a central theme.</p>' +
             '<div class="study-trails-grid">';
         STUDY_TRAILS.forEach(function(trail) {
             html += '<div class="study-trail-card" data-trail="' + trail.id + '" style="--trail-color:' + trail.color + '">' +
@@ -1407,6 +1441,13 @@
             currentText = textId;
             document.body.classList.add('text-selected');
             localStorage.setItem('atl-current-text', textId);
+
+            // Track recent texts for "Continue Reading" section
+            var recent = JSON.parse(localStorage.getItem('atl-recent-texts') || '[]');
+            recent = recent.filter(function(id) { return id !== textId; });
+            recent.unshift(textId);
+            if (recent.length > 6) recent = recent.slice(0, 6);
+            localStorage.setItem('atl-recent-texts', JSON.stringify(recent));
 
             // Update interlinear book
             currentILBook = textId;
@@ -1558,11 +1599,16 @@
         var statusClass = cs.status === 'canonical' ? 'intro-canonical' : 'intro-noncanonical';
         var statusIcon = cs.status === 'canonical' ? '\u2714' : '\u26A0';
 
-        var html = '<div class="text-intro-panel" id="textIntro">';
+        var introCollapsed = localStorage.getItem('atl-intro-collapsed') === '1';
+        var html = '<div class="text-intro-panel' + (introCollapsed ? ' intro-collapsed' : '') + '" id="textIntro">';
 
-        // Header with canonical badge
+        // Header with canonical badge + collapse toggle
         html += '<div class="intro-header">' +
+            '<div class="intro-header-top">' +
             '<h1 class="intro-title">' + (info.display_name || textDef.name) + '</h1>' +
+            '<button class="intro-collapse-btn" id="introCollapseBtn" title="Toggle info panel">' +
+            (introCollapsed ? '\u25BC' : '\u25B2') + '</button>' +
+            '</div>' +
             '<div class="intro-status ' + statusClass + '">' +
             '<span class="intro-status-icon">' + statusIcon + '</span> ' +
             (cs.label || cs.status) + '</div>';
@@ -1898,6 +1944,14 @@
             }
         }
 
+        // Mobile-friendly action bar at bottom of card
+        html += '<div class="chapter-action-bar">' +
+            '<button class="chapter-action-read' + (isRead ? ' is-read' : '') + '" data-id="' + ch.id + '">' +
+            (isRead ? '\u2714 Read' : '\u25CB Mark as Read') + '</button>' +
+            '<button class="chapter-action-bookmark' + (isBookmarked ? ' is-bookmarked' : '') + '" data-id="' + ch.id + '">' +
+            (isBookmarked ? '\u2605 Saved' : '\u2606 Save') + '</button>' +
+            '</div>';
+
         html += '</div>';
         return html;
     }
@@ -2048,9 +2102,28 @@
                 return;
             }
 
+            // Recent text card — open text
+            var recentCard = e.target.closest('.library-recent-card');
+            if (recentCard && recentCard.dataset.text) {
+                selectText(recentCard.dataset.text);
+                return;
+            }
+
             var featured = e.target.closest('.library-featured-card');
             if (featured && featured.dataset.text) {
                 selectText(featured.dataset.text);
+                return;
+            }
+
+            // Text intro collapse toggle
+            var collapseBtn = e.target.closest('.intro-collapse-btn');
+            if (collapseBtn) {
+                var panel = document.getElementById('textIntro');
+                if (panel) {
+                    var collapsed = panel.classList.toggle('intro-collapsed');
+                    localStorage.setItem('atl-intro-collapsed', collapsed ? '1' : '0');
+                    collapseBtn.textContent = collapsed ? '\u25BC' : '\u25B2';
+                }
                 return;
             }
 
@@ -2084,6 +2157,24 @@
             var btn = e.target.closest('.bookmark-btn');
             if (btn) {
                 toggleBookmark(btn.dataset.id);
+                return;
+            }
+
+            // Mobile action bar — Mark as Read
+            var actionRead = e.target.closest('.chapter-action-read');
+            if (actionRead) {
+                toggleChapterRead(actionRead.dataset.id);
+                var wasRead = actionRead.classList.toggle('is-read');
+                actionRead.textContent = wasRead ? '\u2714 Read' : '\u25CB Mark as Read';
+                return;
+            }
+
+            // Mobile action bar — Bookmark
+            var actionBookmark = e.target.closest('.chapter-action-bookmark');
+            if (actionBookmark) {
+                toggleBookmark(actionBookmark.dataset.id);
+                var wasSaved = actionBookmark.classList.toggle('is-bookmarked');
+                actionBookmark.textContent = wasSaved ? '\u2605 Saved' : '\u2606 Save';
                 return;
             }
 
@@ -2636,8 +2727,8 @@
     // ── Search ──────────────────────────────────────────────
     var flowSearchIndex = null;
 
-    function buildSearchIndex() {
-        if (searchIndex) return;
+    function buildSearchIndex(force) {
+        if (searchIndex && !force) return;
         searchIndex = [];
 
         MANIFEST.eras.forEach(function(era) {
@@ -5727,26 +5818,51 @@
     function renderProgress() {
         var content = document.getElementById('progressContent');
 
-        // Release mode: show clean "About" page for end users
+        // Release mode: show reading progress + about for end users
         if (typeof IS_RELEASE !== 'undefined' && IS_RELEASE) {
             var ilWords = countInterlinearWords();
+
+            // Calculate overall reading progress
+            var totalRead = 0, totalChAll = 0;
+            texts.forEach(function(t) {
+                var rc = getTextReadCount(t.id);
+                totalRead += rc.read;
+                totalChAll += rc.total;
+            });
+            var pctRead = totalChAll > 0 ? Math.round((totalRead / totalChAll) * 100) : 0;
+
             var html = '<div class="progress-stats">' +
+                '<div class="progress-stat"><div class="stat-value">' + totalRead + '/' + totalChAll + '</div><div class="stat-label">Chapters Read</div></div>' +
+                '<div class="progress-stat"><div class="stat-value">' + pctRead + '%</div><div class="stat-label">Overall Progress</div></div>' +
                 '<div class="progress-stat"><div class="stat-value">' + texts.length + '</div><div class="stat-label">Sacred Texts</div></div>' +
-                '<div class="progress-stat"><div class="stat-value">' + MANIFEST.eras.length + '</div><div class="stat-label">Study Eras</div></div>' +
-                '<div class="progress-stat"><div class="stat-value">' + ilWords + '</div><div class="stat-label">Interlinear Words</div></div>' +
                 '<div class="progress-stat"><div class="stat-value">' + Object.keys(GLOSSARY).length + '</div><div class="stat-label">Glossary Terms</div></div>' +
                 '</div>';
+
+            // Per-text reading progress bars
+            html += '<div class="progress-section"><h3>Reading Progress</h3>';
+            var hasProgress = false;
+            texts.forEach(function(t) {
+                var rc = getTextReadCount(t.id);
+                if (rc.total === 0) return;
+                var pct = Math.round((rc.read / rc.total) * 100);
+                if (rc.read > 0) hasProgress = true;
+                if (rc.read === 0) return; // Only show texts with some progress
+                html += '<div class="progress-bar-row">' +
+                    '<div class="progress-bar-label">' + t.name + ' <span class="progress-bar-count">' + rc.read + '/' + rc.total + '</span></div>' +
+                    '<div class="progress-bar-track"><div class="progress-bar-fill' + (pct === 100 ? ' bar-complete' : '') + '" style="width:' + pct + '%"></div></div>' +
+                    '</div>';
+            });
+            if (!hasProgress) {
+                html += '<p style="color:var(--text-muted);font-size:0.85rem;font-style:italic">No chapters read yet. Open a text and check the box on any chapter to start tracking.</p>';
+            }
+            html += '</div>';
+
+            // About section (condensed)
             html += '<div class="progress-section">' +
-                '<h3>About This App</h3>' +
-                '<p style="color:var(--text-secondary);line-height:1.7;margin-bottom:1rem">' +
-                'Ancient Texts Library is a scholarly study tool for deep Scripture research. ' +
-                'It includes verse-by-verse translations, word-by-word original language interlinear ' +
-                '(Hebrew &amp; Greek), cross-references, a glossary of ancient terms, and study chapters ' +
-                'covering divine council theology, Second Temple context, and ANE parallels.</p>' +
+                '<h3>About</h3>' +
                 '<p style="color:var(--text-secondary);line-height:1.7">' +
-                '<strong style="color:var(--gold)">Texts:</strong> 39 Old Testament + 27 New Testament + 8 Second Temple / Apocryphal<br>' +
-                '<strong style="color:var(--gold)">Interlinear:</strong> All 66 biblical books with original language word-by-word data<br>' +
-                '<strong style="color:var(--gold)">Flow Translations:</strong> Formal equivalence verse-by-verse English for all 66 books<br>' +
+                '<strong style="color:var(--gold)">Texts:</strong> 39 OT + 27 NT + 8 Second Temple<br>' +
+                '<strong style="color:var(--gold)">Interlinear:</strong> ' + ilWords + ' original language words<br>' +
                 '<strong style="color:var(--gold)">Version:</strong> ' + (MANIFEST.version || '3.1') +
                 '</p></div>';
             html += renderAnalyticsPanel();

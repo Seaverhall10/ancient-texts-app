@@ -323,6 +323,18 @@ def main():
         write_json(os.path.join(DATA_OUT, "core_beliefs.json"), core_beliefs)
     if resources:
         write_json(os.path.join(DATA_OUT, "resources.json"), resources)
+    # Religions detail (for Matrix explore cards)
+    religions_detail = {}
+    rdpath = os.path.join(DATA_DIR, "religions_data.py")
+    if os.path.exists(rdpath):
+        try:
+            rdmod = load_module("religions_data", rdpath)
+            religions_detail = getattr(rdmod, "RELIGIONS_DETAIL", {})
+        except Exception:
+            pass
+    if religions_detail:
+        write_json(os.path.join(DATA_OUT, "religions_detail.json"), religions_detail)
+        print(f"  Religions detail: {len(religions_detail)} entries")
 
     # Split era data per text
     eras_by_text = {}
@@ -491,6 +503,8 @@ def main():
 
                 _loadedTexts[textId] = true;
                 _hideLoading();
+                // Rebuild search index to include newly loaded text data
+                if (typeof buildSearchIndex === 'function') buildSearchIndex(true);
                 return true;
             } catch(e) {
                 _hideLoading();
@@ -524,6 +538,13 @@ def main():
         if (Object.keys(CORE_BELIEFS).length > 0) return;
         try {
             CORE_BELIEFS = await _fetchJSON('core_beliefs.json');
+        } catch(e) {}
+    }
+
+    async function loadReligionsDetail() {
+        if (Object.keys(RELIGIONS_DETAIL).length > 0) return;
+        try {
+            RELIGIONS_DETAIL = await _fetchJSON('religions_detail.json');
         } catch(e) {}
     }
 
@@ -1346,7 +1367,25 @@ body.sidebar-open .main-content { overflow: hidden !important; }
     # Fix matrix to load data before rendering
     js_patched = js_patched.replace(
         "function openMatrix() {\n        logEvent('feature', 'bible_truth_matrix');\n        renderMatrix();",
-        "async function openMatrix() {\n        logEvent('feature', 'bible_truth_matrix');\n        await loadCoreBeliefs();\n        renderMatrix();"
+        "async function openMatrix() {\n        logEvent('feature', 'bible_truth_matrix');\n        await loadCoreBeliefs();\n        await loadReligionsDetail();\n        renderMatrix();"
+    )
+
+    # Fix religion detail to load data before showing
+    js_patched = js_patched.replace(
+        "function showReligionDetail(religionId) {\n        logEvent('feature', 'religion_detail_' + religionId);",
+        "async function showReligionDetail(religionId) {\n        await loadReligionsDetail();\n        logEvent('feature', 'religion_detail_' + religionId);"
+    )
+
+    # Fix prophecy tracker to load data before rendering
+    js_patched = js_patched.replace(
+        "function showProphecyTracker(bookFilter) {\n        libraryMode = true;",
+        "async function showProphecyTracker(bookFilter) {\n        await loadProphecy();\n        libraryMode = true;"
+    )
+
+    # Fix core beliefs to load data before rendering
+    js_patched = js_patched.replace(
+        "function showCoreBeliefs(topicId) {\n        libraryMode = true;",
+        "async function showCoreBeliefs(topicId) {\n        await loadCoreBeliefs();\n        libraryMode = true;"
     )
 
     # Fix search results to close sidebar
@@ -1356,10 +1395,10 @@ body.sidebar-open .main-content { overflow: hidden !important; }
     )
 
     html += f"""
+{bottom_nav_html}
     <script>
 {js_patched}
     </script>
-{bottom_nav_html}
 {bottom_nav_js}
 </body>
 </html>"""

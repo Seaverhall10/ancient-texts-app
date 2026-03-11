@@ -248,7 +248,8 @@ body.sidebar-open .main-content { overflow: hidden !important; }
     .library-featured-card { padding: 14px; }
     .library-subtitle { font-size: 0.85rem; }
     .terms-grid { grid-template-columns: 1fr; }
-    .chapter-card { padding: 8px; }
+    .chapter-card { padding: 12px; }
+    .library-recent-grid { grid-template-columns: 1fr 1fr; }
     .intro-facts-grid { grid-template-columns: 1fr; }
 }
 
