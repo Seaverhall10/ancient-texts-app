@@ -1,8 +1,12 @@
 """
-era_84_habakkuk.py -- Habakkuk 1-3: Theodicy, Faith, and the Divine Warrior
+era_84_habakkuk.py -- Habakkuk 1-2: Theodicy, Faith, and the Five Woes
 
 The prophet who dared to question God's justice -- and received the answer that
-changed history. "The righteous shall live by his faith."
+changed history. Habakkuk lodges two complaints against YHWH: why does injustice
+go unchecked in Judah, and why would a holy God use a more wicked nation as his
+instrument? From the watchtower, YHWH gives the pivotal answer: 'The righteous
+shall live by his faith.' Five woes against the tyrant follow, then cosmic
+silence: 'YHWH is in his holy temple; let all the earth keep silence before him.'
 """
 
 CHAPTERS = [
@@ -189,96 +193,6 @@ CHAPTERS = [
                 "body": "'YHWH is in his holy temple; let all the earth keep silence before him.' After "
                         "the five woes, a single verse of cosmic silence. YHWH is enthroned. The debate "
                         "is over. The earth must be still before the divine sovereign."
-            }
-        ]
-    },
-
-    {
-        "id": "habakkuk-3",
-        "ref": "Habakkuk 3",
-        "chapter_num": 3,
-        "title": "The Prayer of Habakkuk -- The Divine Warrior's March",
-        "era": "habakkuk",
-        "type": "chapter",
-
-        "synopsis": "Chapter 3 is one of the most magnificent theophanic poems in the Old Testament. "
-                    "Habakkuk prays: 'O YHWH, I have heard the report of you, and your work, O YHWH, do I "
-                    "fear. In the midst of the years revive it; in the midst of the years make it known; in "
-                    "wrath remember mercy' (3:2). Then the vision: God comes from Teman, the Holy One from "
-                    "Mount Paran. His glory covers the heavens, brightness fills the earth. Pestilence goes "
-                    "before him, plague follows. He stands and shakes the earth, he looks and makes nations "
-                    "tremble. Mountains scatter, eternal hills bow. He rides horses and chariots of salvation. "
-                    "Sun and moon stand still. He treads the earth in fury, tramples nations, shatters the "
-                    "head of the house of the wicked. After this terrifying vision, Habakkuk's response is "
-                    "one of the most beautiful statements of faith in the Bible: 'Though the fig tree should "
-                    "not blossom, nor fruit be on the vines... yet I will rejoice in YHWH; I will take joy "
-                    "in the God of my salvation' (3:17-18).",
-
-        "key_verse": {
-            "ref": "Habakkuk 3:17-18",
-            "text": "Though the fig tree should not blossom, nor fruit be on the vines, the produce of the olive fail and the fields yield no food, the flock be cut off from the fold and there be no herd in the stalls, yet I will rejoice in the LORD; I will take joy in the God of my salvation.",
-            "translation": "ESV"
-        },
-
-        "hebrew_terms": [
-            "Teman/Paran (southern mountain regions -- the Sinai theophany traditions)",
-            "hod (splendor/majesty -- YHWH's visible glory covering the heavens)",
-            "yeshuah (salvation -- 'the God of my salvation'; Habakkuk's final declaration)"
-        ],
-
-        "ane_backdrop": "The divine warrior march from the south (Teman, Paran, Sinai) follows the oldest "
-                        "theophanic tradition in Israel: YHWH comes from the desert south to fight for his "
-                        "people (Deut 33:2; Judg 5:4-5; Ps 68:7-8). The cosmic phenomena (darkened sun, "
-                        "standing moon, scattering mountains) represent creation responding to the divine "
-                        "warrior's approach.",
-
-        "second_temple": [
-            {
-                "source": "Deuteronomy 33:2",
-                "summary": "'YHWH came from Sinai and dawned from Seir upon them; he shone forth from Mount "
-                           "Paran.' The same theophanic tradition.",
-                "relevance": "Habakkuk 3 and Deuteronomy 33 share the same divine warrior march from the south."
-            }
-        ],
-
-        "cross_refs": [
-            {"ref": "Deuteronomy 33:2", "note": "YHWH comes from Sinai/Seir/Paran -- the same theophanic tradition", "type": "ot"},
-            {"ref": "Judges 5:4-5", "note": "Deborah's Song: YHWH marched from Seir, the earth trembled", "type": "ot"},
-            {"ref": "Psalm 18:7-15", "note": "David's divine warrior theophany", "type": "ot"},
-            {"ref": "Revelation 19:11-16", "note": "Christ on a white horse -- the divine warrior's ultimate march", "type": "nt"}
-        ],
-
-        "divine_council_note": "Habakkuk 3 is the divine council sovereign going to war. YHWH marches from "
-                               "the south (the Sinai theophanic tradition) with cosmic accompaniment: "
-                               "pestilence, plague, mountains scattering, sun and moon standing still. He "
-                               "rides horses and chariots -- the divine warrior's war chariot (cf. Ps 68:17; "
-                               "2 Kings 6:17). He tramples nations and 'shatters the head of the house of "
-                               "the wicked, laying him bare from thigh to neck' (3:13). This is YHWH executing "
-                               "the divine council's judgment against rebellious nations and their spiritual "
-                               "patrons. Habakkuk's final confession of faith (3:17-18) is the human response "
-                               "to the divine warrior's sovereignty: even when circumstances are devastating, "
-                               "trust in YHWH endures.",
-
-        "sections": [
-            {
-                "heading": "The Plea: In Wrath, Remember Mercy (3:1-2)",
-                "body": "Habakkuk has heard YHWH's report -- the vision of judgment -- and he trembles. "
-                        "His prayer: revive your work, make it known, and in wrath remember mercy."
-            },
-            {
-                "heading": "The Theophanic March (3:3-15)",
-                "body": "God comes from Teman, Mount Paran. Glory covers the heavens. Pestilence precedes "
-                        "him. Mountains scatter, rivers split, the deep roars. Sun and moon stand still "
-                        "at the light of his arrows. YHWH marches through the earth in fury, crushes the "
-                        "head of the wicked, saves his anointed."
-            },
-            {
-                "heading": "Faith in the Ruins (3:16-19)",
-                "body": "Habakkuk's body trembles. He waits quietly for the day of distress. Then the "
-                        "magnificent confession: even if every source of provision fails -- fig tree, vine, "
-                        "olive, field, flock, herd -- 'yet I will rejoice in YHWH.' Faith triumphs over "
-                        "circumstance. 'YHWH God is my strength; he makes my feet like the deer's; he "
-                        "makes me tread on my high places.'"
             }
         ]
     }

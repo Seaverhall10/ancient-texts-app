@@ -1,11 +1,11 @@
 """
-era_78_joel_day.py -- Joel 1-3: The Day of YHWH -- Locusts, Spirit, Judgment
+era_78_joel_day.py -- Joel 1-2: The Day of YHWH -- Locusts, Repentance, and YHWH's Army
 
 A devastating locust plague becomes the lens through which Joel reveals the Day
-of YHWH: cosmic judgment, the outpouring of the Spirit on all flesh, and the
-final reckoning of the nations in the Valley of Jehoshaphat. Peter cites Joel
-at Pentecost. Paul cites Joel in Romans. John draws on Joel in Revelation.
-This small book punches far above its weight in the biblical canon.
+of YHWH: cosmic judgment, the call to repentance, and YHWH's promise to restore
+the years the locusts have eaten. The locust army marches as YHWH's own host,
+yet even now, the door of mercy stands open: 'Rend your hearts and not your
+garments.' Joel 2 pivots from terror to restoration.
 """
 
 CHAPTERS = [
@@ -106,35 +106,34 @@ CHAPTERS = [
         "id": "joel-2",
         "ref": "Joel 2",
         "chapter_num": 2,
-        "title": "The Locust Army, Repentance, and the Spirit Outpouring",
+        "title": "The Locust Army, Repentance, and Restoration",
         "era": "joel_day",
         "type": "chapter",
 
-        "synopsis": "Chapter 2 is the theological center of Joel. It opens with the alarm trumpet: 'Blow "
-                    "the trumpet in Zion; sound the alarm on my holy mountain!' (2:1). The locust army is "
-                    "described in terrifying military terms: 'a great and powerful people; their like has "
-                    "never been nor will be again' (2:2). They march in formation, scale walls, and cannot "
-                    "be stopped. 'The earth quakes before them; the heavens tremble. The sun and the moon are "
-                    "darkened, and the stars withdraw their shining' (2:10). This is 'his army' -- YHWH "
-                    "commands the locust host. Then the pivot: 'Yet even now, return to me with all your "
-                    "heart, with fasting, with weeping, and with mourning; and rend your hearts and not your "
-                    "garments' (2:12-13). YHWH responds to repentance with restoration: 'I will restore to "
-                    "you the years that the swarming locust has eaten' (2:25). Then the climactic promise: "
-                    "'I will pour out my Spirit on all flesh; your sons and your daughters shall prophesy' "
-                    "(2:28). 'And everyone who calls on the name of YHWH shall be saved' (2:32).",
+        "synopsis": "Chapter 2 is the theological center of the locust plague narrative. It opens with the "
+                    "alarm trumpet: 'Blow the trumpet in Zion; sound the alarm on my holy mountain!' (2:1). "
+                    "The locust army is described in terrifying military terms: 'a great and powerful people; "
+                    "their like has never been nor will be again' (2:2). They march in formation, scale walls, "
+                    "and cannot be stopped. 'The earth quakes before them; the heavens tremble. The sun and "
+                    "the moon are darkened, and the stars withdraw their shining' (2:10). This is 'his army' "
+                    "-- YHWH commands the locust host. Then the pivot: 'Yet even now, return to me with all "
+                    "your heart, with fasting, with weeping, and with mourning; and rend your hearts and not "
+                    "your garments' (2:12-13). YHWH responds to repentance with restoration: 'I will restore "
+                    "to you the years that the swarming locust has eaten' (2:25). 'You shall know that I am "
+                    "in the midst of Israel, and that I am YHWH your God and there is none else' (2:27).",
 
         "key_verse": {
-            "ref": "Joel 2:28-29",
-            "text": "And it shall come to pass afterward, that I will pour out my Spirit on all flesh; your sons and your daughters shall prophesy, your old men shall dream dreams, and your young men shall see visions. Even on the male and female servants in those days I will pour out my Spirit.",
+            "ref": "Joel 2:12-13",
+            "text": "\"Yet even now,\" declares the LORD, \"return to me with all your heart, with fasting, with weeping, and with mourning; and rend your hearts and not your garments.\" Return to the LORD your God, for he is gracious and merciful, slow to anger, and abounding in steadfast love; and he relents over disaster.",
             "translation": "ESV"
         },
 
         "hebrew_terms": [
             "shofar (trumpet/ram's horn -- the alarm call, eschatological signal)",
-            "ruach (Spirit/wind -- the divine presence poured out on all flesh)",
-            "kol basar (all flesh -- the universality of the Spirit promise)",
-            "naba (to prophesy -- sons and daughters will prophesy; prophetic access for all)",
-            "qara beshem YHWH (to call on the name of YHWH -- the salvation condition)"
+            "shuv (return/repent -- the central call: 'return to me with all your heart')",
+            "channun verachum (gracious and merciful -- YHWH's character, echoing Exod 34:6-7)",
+            "nacham (relent -- 'he relents over disaster'; YHWH's response to genuine repentance)",
+            "qara (to call/assemble -- 'consecrate a fast, call a solemn assembly')"
         ],
 
         "ane_backdrop": "The Day of YHWH concept has roots in ancient Near Eastern divine warrior mythology. "
@@ -145,20 +144,6 @@ CHAPTERS = [
 
         "second_temple": [
             {
-                "source": "Acts 2:16-21",
-                "summary": "Peter at Pentecost: 'This is what was uttered through the prophet Joel: \"In the "
-                           "last days... I will pour out my Spirit on all flesh.\"'",
-                "relevance": "The foundational New Testament text for Pentecost theology. Peter identifies "
-                             "the descent of the Spirit as the fulfillment of Joel 2:28-32, inaugurating "
-                             "the 'last days' in which all believers have prophetic access to God."
-            },
-            {
-                "source": "Romans 10:13",
-                "summary": "Paul quotes Joel 2:32: 'Everyone who calls on the name of the Lord will be saved.'",
-                "relevance": "Paul applies Joel's salvation promise universally -- Jew and Gentile alike. "
-                             "The 'name of the Lord' now includes Jesus (Phil 2:9-11)."
-            },
-            {
                 "source": "Matthew 24:29",
                 "summary": "Jesus in the Olivet Discourse: 'The sun will be darkened, and the moon will not "
                            "give its light, and the stars will fall from heaven.'",
@@ -168,23 +153,21 @@ CHAPTERS = [
         ],
 
         "cross_refs": [
-            {"ref": "Numbers 11:29", "note": "Moses: 'Would that all YHWH's people were prophets!' -- Joel 2:28 fulfills this wish", "type": "ot"},
-            {"ref": "Acts 2:16-21", "note": "Peter quotes Joel 2:28-32 at Pentecost -- the Spirit on all flesh", "type": "nt"},
-            {"ref": "Romans 10:13", "note": "Paul quotes Joel 2:32 -- universal salvation for all who call", "type": "nt"},
+            {"ref": "Exodus 34:6-7", "note": "YHWH's self-revelation: 'gracious and merciful, slow to anger' -- Joel 2:13 quotes this directly", "type": "ot"},
+            {"ref": "Numbers 11:29", "note": "Moses: 'Would that all YHWH's people were prophets!' -- anticipates Joel's Spirit promise", "type": "ot"},
+            {"ref": "Jonah 4:2", "note": "Jonah cites the same Exod 34:6 formula -- the character of YHWH that grounds repentance", "type": "ot"},
             {"ref": "Matthew 24:29", "note": "Cosmic signs from Joel -- sun darkened, moon to blood, stars falling", "type": "nt"},
             {"ref": "Revelation 6:12", "note": "Sixth seal: 'the sun became black... the full moon became like blood' -- Joel imagery", "type": "nt"}
         ],
 
-        "divine_council_note": "The Spirit outpouring of Joel 2:28-29 is a divine council democratization. "
-                               "In the Old Testament, the Spirit empowered specific individuals to participate "
-                               "in YHWH's purposes -- prophets who stood in the divine council (Jer 23:18, 22), "
-                               "kings anointed for rule, judges empowered for deliverance. Joel promises that "
-                               "this access will extend to 'all flesh' -- sons, daughters, old, young, servants. "
-                               "At Pentecost, this promise is fulfilled: every believer receives the Spirit and "
-                               "thus has prophetic access to YHWH's council deliberations. The cosmic signs "
-                               "(darkened sun, blood moon) represent the host of heaven responding to YHWH's "
-                               "theophanic approach -- the divine council members dim before the glory of the "
-                               "Most High.",
+        "divine_council_note": "YHWH 'utters his voice before his army' (2:11) -- the divine warrior leading "
+                               "his host in battle. The cosmic signs (darkened sun, trembling heavens) represent "
+                               "the host of heaven responding to YHWH's theophanic approach. Yet the same "
+                               "sovereign who commands the locust army offers restoration to those who repent. "
+                               "In the divine council framework, YHWH's judgment is never arbitrary: it serves "
+                               "the purpose of turning his people back to covenant faithfulness. The call to "
+                               "'rend your hearts' is a call to genuine alignment with YHWH's purposes, not "
+                               "mere ritual performance.",
 
         "sections": [
             {
@@ -209,126 +192,6 @@ CHAPTERS = [
                         "invading force). 'I will restore to you the years that the swarming locust has "
                         "eaten' (2:25). 'You shall know that I am in the midst of Israel, and that I am "
                         "YHWH your God and there is none else' (2:27)."
-            },
-            {
-                "heading": "The Spirit on All Flesh (2:28-32)",
-                "body": "The climactic promise: 'afterward' -- after the locust judgment and restoration -- "
-                        "YHWH will pour out his Spirit on all flesh. Sons and daughters, old and young, "
-                        "male and female servants will all prophesy. Before the Day of YHWH come cosmic "
-                        "signs: blood, fire, smoke, darkened sun, blood moon. But 'everyone who calls on "
-                        "the name of YHWH shall be saved.' Peter identifies Pentecost as this fulfillment."
-            }
-        ]
-    },
-
-    {
-        "id": "joel-3",
-        "ref": "Joel 3",
-        "chapter_num": 3,
-        "title": "The Valley of Jehoshaphat -- YHWH Judges the Nations",
-        "era": "joel_day",
-        "type": "chapter",
-
-        "synopsis": "Joel's final chapter is a full-scale divine council judgment scene. YHWH declares: 'I "
-                    "will gather all the nations and bring them down to the Valley of Jehoshaphat. And I will "
-                    "enter into judgment with them there, on behalf of my people and my heritage Israel, "
-                    "because they have scattered them among the nations and have divided up my land' (3:2). "
-                    "The specific charges: Tyre, Sidon, and Philistia sold Judah's children to the Greeks as "
-                    "slaves. The verdict: 'I will return your payment on your own head' (3:4). The nations are "
-                    "summoned to war: 'Beat your plowshares into swords, and your pruning hooks into spears' "
-                    "(3:10 -- the deliberate reversal of Isaiah 2:4 and Micah 4:3). This is not peace but "
-                    "final conflict. The harvest imagery of judgment: 'Put in the sickle, for the harvest is "
-                    "ripe. Go in, tread, for the winepress is full. The vats overflow, for their evil is "
-                    "great' (3:13). YHWH roars from Zion, heaven and earth shake, but 'YHWH is a refuge to "
-                    "his people' (3:16). The book closes with an Edenic vision: 'The mountains shall drip "
-                    "sweet wine, and the hills shall flow with milk... a fountain shall come forth from the "
-                    "house of YHWH' (3:18).",
-
-        "key_verse": {
-            "ref": "Joel 3:16",
-            "text": "The LORD roars from Zion, and utters his voice from Jerusalem, and the heavens and the earth quake. But the LORD is a refuge to his people, a stronghold to the people of Israel.",
-            "translation": "ESV"
-        },
-
-        "hebrew_terms": [
-            "emeq Yehoshaphat (Valley of Jehoshaphat, 'YHWH judges' -- the site of eschatological judgment)",
-            "shaphat (to judge -- YHWH as cosmic judge; the root embedded in 'Jehoshaphat')",
-            "qatsir (harvest -- judgment as harvest; the grain is ripe, the winepress full)",
-            "ma'on (refuge -- YHWH as refuge for his people amidst cosmic upheaval)"
-        ],
-
-        "ane_backdrop": "The Valley of Jehoshaphat may be the Kidron Valley between Jerusalem and the Mount "
-                        "of Olives, or it may be a symbolic name meaning 'YHWH judges.' The harvest-as-judgment "
-                        "imagery draws on ancient Near Eastern threshing-floor symbolism, where grain was "
-                        "separated from chaff -- a natural metaphor for divine sorting of righteous and wicked. "
-                        "The slave trade in Jewish captives by Tyre, Sidon, and Philistia is attested in "
-                        "Amos 1:6-10 and Ezekiel 27.",
-
-        "second_temple": [
-            {
-                "source": "Revelation 14:14-20",
-                "summary": "John's vision of the grain harvest and the winepress of God's wrath, drawn "
-                           "directly from Joel 3:13.",
-                "relevance": "John transforms Joel's harvest imagery into the final eschatological judgment: "
-                             "the Son of Man reaps the earth, and blood flows from the winepress."
-            },
-            {
-                "source": "Matthew 25:31-46",
-                "summary": "The sheep-and-goats judgment: 'When the Son of Man comes in his glory... he will "
-                           "separate the nations.'",
-                "relevance": "Jesus' judgment of the nations echoes Joel 3's gathering of nations for judgment "
-                             "based on how they treated YHWH's people."
-            }
-        ],
-
-        "cross_refs": [
-            {"ref": "Isaiah 2:4", "note": "'They shall beat their swords into plowshares' -- Joel 3:10 deliberately reverses this", "type": "ot"},
-            {"ref": "Micah 4:3", "note": "Micah's plowshares vision -- Joel's reversal signals final war, not peace", "type": "ot"},
-            {"ref": "Ezekiel 47:1-12", "note": "The river flowing from the Temple -- echoed in Joel 3:18's fountain from YHWH's house", "type": "ot"},
-            {"ref": "Revelation 14:14-20", "note": "The harvest of judgment and the winepress of God's wrath", "type": "nt"},
-            {"ref": "Matthew 25:31-46", "note": "The Son of Man judges the nations -- Joel's vision developed christologically", "type": "nt"},
-            {"ref": "Revelation 19:15", "note": "'He will tread the winepress of the fury of the wrath of God' -- Joel 3:13", "type": "nt"}
-        ],
-
-        "divine_council_note": "Joel 3 is an explicit divine council judgment scene. YHWH gathers the nations "
-                               "to the Valley of Jehoshaphat ('YHWH judges') and enters into judgment (shaphat) "
-                               "with them. The charges are specific: the nations have scattered YHWH's people, "
-                               "divided YHWH's land, and sold YHWH's children into slavery. In the divine "
-                               "council framework, this is the eschatological reversal of the Deuteronomy 32 "
-                               "allotment: the nations allotted to the sons of God are now judged for their "
-                               "mistreatment of YHWH's inheritance (Israel). YHWH roars from Zion -- the "
-                               "divine warrior acts from his earthly throne, and heaven and earth respond. "
-                               "The judgment imagery (harvest, winepress) represents the divine council's "
-                               "final verdict on the rebellious nations and their spiritual patrons.",
-
-        "sections": [
-            {
-                "heading": "The Nations Gathered for Judgment (3:1-8)",
-                "body": "YHWH will restore Judah and Jerusalem and simultaneously gather the nations for "
-                        "judgment. The charges: scattering Israel, dividing YHWH's land, selling children "
-                        "into slavery. Tyre, Sidon, and Philistia are specifically indicted. The sentence "
-                        "is measure for measure: their own children will be sold to distant nations."
-            },
-            {
-                "heading": "Plowshares into Swords -- The Final Battle (3:9-13)",
-                "body": "Joel reverses Isaiah's and Micah's peace vision: 'Beat your plowshares into "
-                        "swords!' The nations are summoned to war against YHWH -- but it is a trap. 'Let "
-                        "the nations stir themselves up and come to the Valley of Jehoshaphat; for there "
-                        "I will sit to judge all the surrounding nations' (3:12). The harvest is ripe, "
-                        "the winepress full -- YHWH treads the grapes of wrath."
-            },
-            {
-                "heading": "YHWH Roars from Zion (3:14-16)",
-                "body": "Multitudes in the valley of decision. Sun and moon darkened, stars dim. YHWH "
-                        "roars from Zion -- the divine warrior's battle cry. Heaven and earth quake. "
-                        "But for his people, YHWH is a refuge and stronghold."
-            },
-            {
-                "heading": "Edenic Restoration (3:17-21)",
-                "body": "After judgment: 'Jerusalem shall be holy, and strangers shall never again pass "
-                        "through it.' The mountains drip wine, hills flow with milk, a fountain comes "
-                        "from YHWH's house. Egypt and Edom become desolate, but Judah endures forever. "
-                        "'YHWH dwells in Zion' -- the final word is divine presence restored."
             }
         ]
     }

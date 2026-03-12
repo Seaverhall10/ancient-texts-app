@@ -1,9 +1,9 @@
 """
-era_83_nahum.py -- Nahum 1-3: The Fall of Nineveh -- Divine Warrior's Vengeance
+era_83_nahum.py -- Nahum 1-2: The Divine Warrior's Theophany and the Siege of Nineveh
 
 Where Jonah showed mercy offered, Nahum shows judgment executed. The divine warrior
-rides the storm against the greatest empire of the ancient world. Nineveh -- with
-its massive walls, libraries, and palaces -- will become a ruin.
+rides the storm against the greatest empire of the ancient world. YHWH's cosmic
+theophany gives way to the cinematic destruction of Nineveh's walls and armies.
 """
 
 CHAPTERS = [
@@ -150,90 +150,6 @@ CHAPTERS = [
                 "body": "Where is the lions' den now? The lion that tore prey for its cubs is destroyed. "
                         "YHWH's declaration: 'I am against you.' The chariots will burn, the young lions "
                         "will fall, the prey will cease. Nineveh's imperial voice is silenced."
-            }
-        ]
-    },
-
-    {
-        "id": "nahum-3",
-        "ref": "Nahum 3",
-        "chapter_num": 3,
-        "title": "Woe to the Bloody City -- Nineveh's Shame Exposed",
-        "era": "nahum",
-        "type": "chapter",
-
-        "synopsis": "The final chapter delivers Nineveh's obituary. 'Woe to the bloody city, all full of "
-                    "lies and plunder -- no end to the prey!' (3:1). The battle sounds: crack of whip, "
-                    "rumble of wheel, galloping horse, bounding chariot, flashing sword, gleaming spear -- "
-                    "'hosts of slain, heaps of corpses, dead bodies without end' (3:3). Nineveh is compared "
-                    "to a prostitute who enslaved nations 'by her whoring' and peoples 'by her charms' (3:4). "
-                    "YHWH will expose her nakedness before the nations (3:5). The comparison with Thebes "
-                    "(No-Amon, 3:8-10) -- the great Egyptian city that fell to Assyria in 663 BC -- is "
-                    "devastating: if Thebes could fall, so can Nineveh. The book's final image is a funeral "
-                    "taunt: 'All who hear the news about you clap their hands over you. For upon whom has "
-                    "not come your unceasing evil?' (3:19).",
-
-        "key_verse": {
-            "ref": "Nahum 3:19",
-            "text": "There is no easing your hurt; your wound is grievous. All who hear the news about you clap their hands over you. For upon whom has not come your unceasing evil?",
-            "translation": "ESV"
-        },
-
-        "hebrew_terms": [
-            "ir damim (city of blood -- Nineveh defined by violence)",
-            "zonah (prostitute -- Nineveh as the seductive enchantress who enslaved nations)",
-            "No-Amon (Thebes -- the Egyptian capital conquered by Ashurbanipal in 663 BC)"
-        ],
-
-        "ane_backdrop": "The fall of Thebes (No-Amon) in 663 BC was a traumatic event for the ancient world. "
-                        "Thebes was one of the oldest and most revered cities, with massive temples and "
-                        "millennia of history. Ashurbanipal's sack of Thebes demonstrated that no city was "
-                        "invincible. Nahum turns this argument against Nineveh: you who destroyed Thebes "
-                        "will suffer the same fate.",
-
-        "second_temple": [
-            {
-                "source": "Revelation 17-18",
-                "summary": "The fall of 'Babylon the Great' as a prostitute who 'made all nations drink the "
-                           "wine of the passion of her sexual immorality.'",
-                "relevance": "John's Babylon echoes Nahum's Nineveh: an imperial power described as a "
-                             "prostitute whose fall brings universal rejoicing."
-            }
-        ],
-
-        "cross_refs": [
-            {"ref": "Isaiah 47:1-15", "note": "Isaiah's oracle against Babylon -- similar exposure/shame imagery", "type": "ot"},
-            {"ref": "Revelation 17:1-6", "note": "The great prostitute sitting on many waters -- echoing Nahum's Nineveh", "type": "nt"},
-            {"ref": "Revelation 18:20", "note": "'Rejoice over her!' -- echoing Nahum 3:19's universal celebration", "type": "nt"}
-        ],
-
-        "divine_council_note": "YHWH's exposure of Nineveh (3:5-7) -- lifting her skirts before the nations -- "
-                               "is a covenant-curse action that reveals the true nature of the empire's power. "
-                               "Nineveh's 'sorceries' (3:4) connect to the spiritual dimension: the empire "
-                               "operated under the patronage of Ishtar, Ashur, and other deities. YHWH's "
-                               "judgment exposes these spiritual patrons as powerless -- the divine beings "
-                               "behind Assyria cannot protect their capital from the Most High.",
-
-        "sections": [
-            {
-                "heading": "The Bloody City (3:1-4)",
-                "body": "Woe to the city of blood! The sounds of battle crash through the verses: whip, "
-                        "wheel, horse, chariot, sword, spear. Heaps of corpses without end. The cause: "
-                        "Nineveh's seductive power that enslaved nations through sorcery and violence."
-            },
-            {
-                "heading": "YHWH Exposes Nineveh (3:5-7)",
-                "body": "'Behold, I am against you,' declares YHWH again. He will lift Nineveh's skirts "
-                        "over her face -- exposing the empire's shame to all nations. 'Everyone who looks "
-                        "at you will shrink from you.' No one will mourn."
-            },
-            {
-                "heading": "The Thebes Comparison and Final Taunt (3:8-19)",
-                "body": "Are you better than Thebes? Thebes fell despite its river defenses, allies, and "
-                        "power. Nineveh will fall likewise. Fortresses will collapse like ripe figs into "
-                        "an open mouth. Troops become women, gates open wide to the enemy. The final taunt: "
-                        "your wound is mortal, everyone applauds your destruction, because your evil was "
-                        "universal and unceasing."
             }
         ]
     }

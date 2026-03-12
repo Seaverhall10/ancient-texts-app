@@ -1573,17 +1573,34 @@
       "id": "ruth_redeemer",
       "text": "ruth",
       "name": "The Kinsman-Redeemer",
-      "chapters": "Ruth 1–4",
+      "chapters": "Ruth 1–2",
       "color": "#a07088",
       "icon": "XLVI",
       "data_file": "era_46_ruth",
       "themes": [
         "Covenant loyalty",
-        "Go'el typology",
-        "Levirate law",
+        "Hesed theology",
         "Moabite origins",
+        "Ruth's oath",
+        "Gleaning providence",
+        "Divine council defection"
+      ]
+    },
+    {
+      "id": "kinsman_redeemer",
+      "text": "ruth",
+      "name": "The Kinsman-Redeemer",
+      "chapters": "Ruth 3–4",
+      "color": "#a07088",
+      "icon": "XLVIb",
+      "data_file": "era_46b_kinsman",
+      "themes": [
+        "Go'el typology",
+        "Threshing floor",
+        "Levirate law",
+        "Gate proceedings",
         "Davidic lineage",
-        "Boaz at the gate"
+        "Boaz as Christ-type"
       ]
     },
     {
@@ -3929,7 +3946,7 @@
       "id": "lam_weeping",
       "text": "lamentations",
       "name": "Weeping Over Zion",
-      "chapters": "Lamentations 1–5",
+      "chapters": "Lamentations 1–3",
       "color": "#7a4a5a",
       "icon": "I",
       "data_file": "era_75",
@@ -3938,6 +3955,23 @@
         "Daughter Zion personified",
         "Covenant curses fulfilled",
         "Hope in YHWH's faithfulness"
+      ]
+    },
+    {
+      "id": "lam_prayer",
+      "text": "lamentations",
+      "name": "From Ashes to Prayer",
+      "chapters": "Lamentations 4–5",
+      "color": "#7a4a5a",
+      "icon": "II",
+      "data_file": "era_75b_prayer",
+      "themes": [
+        "Siege horrors",
+        "Anointed king captured",
+        "Edom's judgment",
+        "Communal lament prayer",
+        "Unresolved ending",
+        "Eternal throne"
       ]
     },
     {
@@ -3974,15 +4008,30 @@
       "id": "joel_day",
       "text": "joel",
       "name": "The Day of YHWH",
-      "chapters": "Joel 1–3",
+      "chapters": "Joel 1–2",
       "color": "#5a6a8a",
       "icon": "I",
       "data_file": "era_78_joel_day",
       "themes": [
         "Locust plague",
+        "YHWH's army",
         "Call to repentance",
-        "Spirit outpouring",
-        "Valley of decision"
+        "Restoration of the years"
+      ]
+    },
+    {
+      "id": "joel_spirit",
+      "text": "joel",
+      "name": "The Spirit Poured Out",
+      "chapters": "Joel 2:28–3:21",
+      "color": "#5a6a8a",
+      "icon": "II",
+      "data_file": "era_78b_spirit",
+      "themes": [
+        "Spirit on all flesh",
+        "Pentecost promised",
+        "Valley of Jehoshaphat",
+        "Edenic restoration"
       ]
     },
     {
@@ -4034,14 +4083,29 @@
       "id": "jonah_mercy",
       "text": "jonah",
       "name": "The Reluctant Prophet",
-      "chapters": "Jonah 1–4",
+      "chapters": "Jonah 1–2",
       "color": "#4a7a7a",
       "icon": "I",
       "data_file": "era_81_jonah",
       "themes": [
         "Flight from YHWH",
+        "Descent pattern (yarad)",
         "Great fish",
+        "Psalm from Sheol"
+      ]
+    },
+    {
+      "id": "jonah_mercy_nations",
+      "text": "jonah",
+      "name": "God's Mercy to the Nations",
+      "chapters": "Jonah 3–4",
+      "color": "#4a7a7a",
+      "icon": "II",
+      "data_file": "era_81b_nineveh",
+      "themes": [
         "Nineveh repents",
+        "Shortest sermon, greatest revival",
+        "Angry prophet",
         "Divine mercy to nations"
       ]
     },
@@ -4079,45 +4143,90 @@
       "id": "nahum_nineveh",
       "text": "nahum",
       "name": "Fall of Nineveh",
-      "chapters": "Nahum 1–3",
+      "chapters": "Nahum 1–2",
       "color": "#7a4a3a",
       "icon": "I",
       "data_file": "era_83_nahum",
       "themes": [
         "Divine warrior hymn",
         "YHWH's jealousy",
-        "Nineveh's destruction",
-        "Cosmic judgment"
+        "Storm-theophany",
+        "Siege of Nineveh"
+      ]
+    },
+    {
+      "id": "nahum_ruin",
+      "text": "nahum",
+      "name": "Nineveh's Ruin",
+      "chapters": "Nahum 3",
+      "color": "#7a4a3a",
+      "icon": "I",
+      "data_file": "era_83b_fall",
+      "themes": [
+        "Bloody city obituary",
+        "Nineveh as prostitute",
+        "Thebes comparison",
+        "Universal celebration of fall"
       ]
     },
     {
       "id": "hab_dialogue",
       "text": "habakkuk",
       "name": "Faith in Crisis",
-      "chapters": "Habakkuk 1–3",
+      "chapters": "Habakkuk 1–2",
       "color": "#5a7a5a",
       "icon": "I",
       "data_file": "era_84_habakkuk",
       "themes": [
         "Theodicy dialogue",
         "Righteous shall live by faith",
-        "Woe oracles",
-        "Divine warrior theophany"
+        "Five woe oracles",
+        "Cosmic silence"
+      ]
+    },
+    {
+      "id": "hab_prayer",
+      "text": "habakkuk",
+      "name": "The Warrior's Prayer",
+      "chapters": "Habakkuk 3",
+      "color": "#5a7a5a",
+      "icon": "II",
+      "data_file": "era_84b_theophany",
+      "themes": [
+        "Divine warrior theophany",
+        "Sinai march tradition",
+        "Cosmic battle",
+        "Faith in the ruins"
       ]
     },
     {
       "id": "zeph_day",
       "text": "zephaniah",
       "name": "The Great Day",
-      "chapters": "Zephaniah 1–3",
+      "chapters": "Zephaniah 1–2",
       "color": "#6a5a7a",
       "icon": "I",
       "data_file": "era_85_zephaniah",
       "themes": [
         "Cosmic de-creation",
         "Day of YHWH's wrath",
+        "Oracles against nations",
+        "Famishing the gods"
+      ]
+    },
+    {
+      "id": "zeph_singing",
+      "text": "zephaniah",
+      "name": "The Singing God",
+      "chapters": "Zephaniah 3",
+      "color": "#6a5a7a",
+      "icon": "I",
+      "data_file": "era_85b_remnant",
+      "themes": [
+        "Jerusalem indicted",
+        "Pure speech reverses Babel",
         "Humble remnant",
-        "YHWH rejoices over Zion"
+        "YHWH sings over his people"
       ]
     },
     {
@@ -4169,14 +4278,29 @@
       "id": "mal_covenant",
       "text": "malachi",
       "name": "Covenant Faithfulness",
-      "chapters": "Malachi 1–4",
+      "chapters": "Malachi 1–2",
       "color": "#7a5a4a",
       "icon": "I",
       "data_file": "era_89_malachi",
       "themes": [
         "Polluted offerings",
-        "Covenant of marriage",
+        "Covenant of Levi",
+        "Intermarriage",
+        "Covenant of marriage"
+      ]
+    },
+    {
+      "id": "mal_messenger",
+      "text": "malachi",
+      "name": "The Messenger of the Covenant",
+      "chapters": "Malachi 3–4",
+      "color": "#7a5a4a",
+      "icon": "II",
+      "data_file": "era_89b_messenger",
+      "themes": [
         "Messenger of the covenant",
+        "Refiner's fire",
+        "Sun of righteousness",
         "Elijah before the Day"
       ]
     },

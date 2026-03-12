@@ -1,21 +1,21 @@
 {
-  "generated": "2026-03-12T02:42:28.822862",
+  "generated": "2026-03-12T03:07:45.487931",
   "version": "1.0",
   "summary": {
     "total_texts": 74,
-    "total_eras": 213,
-    "total_study_chapters": 955,
+    "total_eras": 221,
+    "total_study_chapters": 956,
     "total_flow_verses": 31101,
     "total_il_words": 444339,
-    "total_cross_refs": 6392,
-    "unique_passages_cited": 3992,
+    "total_cross_refs": 6409,
+    "unique_passages_cited": 4000,
     "glossary_terms": 563,
     "texts_with_flow": 66,
     "texts_with_interlinear": 66,
     "gap_count": {
       "no_flow": 0,
       "no_interlinear": 0,
-      "thin_eras": 14,
+      "thin_eras": 6,
       "missing_files": 0
     }
   },
@@ -160,14 +160,15 @@
       "name": "Ruth",
       "category": "ot",
       "chapters": 4,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 85,
       "il_words": 1306,
       "il_language": "greek",
       "era_ids": [
-        "ruth_redeemer"
+        "ruth_redeemer",
+        "kinsman_redeemer"
       ]
     },
     "1samuel": {
@@ -937,14 +938,15 @@
       "name": "Lamentations",
       "category": "ot",
       "chapters": 5,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 154,
       "il_words": 1564,
       "il_language": "greek",
       "era_ids": [
-        "lam_weeping"
+        "lam_weeping",
+        "lam_prayer"
       ]
     },
     "1chronicles": {
@@ -1042,14 +1044,15 @@
       "name": "Joel",
       "category": "ot",
       "chapters": 3,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 73,
       "il_words": 958,
       "il_language": "greek",
       "era_ids": [
-        "joel_day"
+        "joel_day",
+        "joel_spirit"
       ]
     },
     "amos": {
@@ -1085,14 +1088,15 @@
       "name": "Jonah",
       "category": "ot",
       "chapters": 4,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 48,
       "il_words": 688,
       "il_language": "greek",
       "era_ids": [
-        "jonah_mercy"
+        "jonah_mercy",
+        "jonah_mercy_nations"
       ]
     },
     "micah": {
@@ -1114,42 +1118,45 @@
       "name": "Nahum",
       "category": "ot",
       "chapters": 3,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 47,
       "il_words": 562,
       "il_language": "greek",
       "era_ids": [
-        "nahum_nineveh"
+        "nahum_nineveh",
+        "nahum_ruin"
       ]
     },
     "habakkuk": {
       "name": "Habakkuk",
       "category": "ot",
       "chapters": 3,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 56,
       "il_words": 672,
       "il_language": "greek",
       "era_ids": [
-        "hab_dialogue"
+        "hab_dialogue",
+        "hab_prayer"
       ]
     },
     "zephaniah": {
       "name": "Zephaniah",
       "category": "ot",
       "chapters": 3,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 53,
       "il_words": 769,
       "il_language": "greek",
       "era_ids": [
-        "zeph_day"
+        "zeph_day",
+        "zeph_singing"
       ]
     },
     "haggai": {
@@ -1185,14 +1192,15 @@
       "name": "Malachi",
       "category": "ot",
       "chapters": 4,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 55,
       "il_words": 876,
       "il_language": "greek",
       "era_ids": [
-        "mal_covenant"
+        "mal_covenant",
+        "mal_messenger"
       ]
     }
   },
@@ -6269,15 +6277,15 @@
     "ruth_redeemer": {
       "text_id": "ruth",
       "name": "The Kinsman-Redeemer",
-      "chapters_ref": "Ruth 1–4",
-      "chapter_count": 4,
+      "chapters_ref": "Ruth 1–2",
+      "chapter_count": 2,
       "themes": [
         "Covenant loyalty",
-        "Go'el typology",
-        "Levirate law",
+        "Hesed theology",
         "Moabite origins",
-        "Davidic lineage",
-        "Boaz at the gate"
+        "Ruth's oath",
+        "Gleaning providence",
+        "Divine council defection"
       ],
       "chapters": [
         {
@@ -6315,7 +6323,25 @@
             "ephah (a dry measure, ~22 liters / ~30 lbs -- an extraordinary amount for one day's gleaning)",
             "na'arot (young women -- Boaz's female servants among whom Ruth should stay for safety)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 13,
+      "has_data_file": true
+    },
+    "kinsman_redeemer": {
+      "text_id": "ruth",
+      "name": "The Kinsman-Redeemer",
+      "chapters_ref": "Ruth 3–4",
+      "chapter_count": 2,
+      "themes": [
+        "Go'el typology",
+        "Threshing floor",
+        "Levirate law",
+        "Gate proceedings",
+        "Davidic lineage",
+        "Boaz as Christ-type"
+      ],
+      "chapters": [
         {
           "id": "ruth-3",
           "ref": "Ruth 3",
@@ -6352,7 +6378,7 @@
           ]
         }
       ],
-      "cross_ref_count": 26,
+      "cross_ref_count": 13,
       "has_data_file": true
     },
     "samuel_ark": {
@@ -18548,8 +18574,8 @@
     "lam_weeping": {
       "text_id": "lamentations",
       "name": "Weeping Over Zion",
-      "chapters_ref": "Lamentations 1–5",
-      "chapter_count": 5,
+      "chapters_ref": "Lamentations 1–3",
+      "chapter_count": 3,
       "themes": [
         "Acrostic poetry",
         "Daughter Zion personified",
@@ -18604,14 +18630,32 @@
             "chelqi (my portion -- YHWH himself is the sufferer's inheritance and sustenance, 3:24)",
             "gever (man/strong man -- the individual sufferer who has 'seen affliction,' 3:1)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 13,
+      "has_data_file": true
+    },
+    "lam_prayer": {
+      "text_id": "lamentations",
+      "name": "From Ashes to Prayer",
+      "chapters_ref": "Lamentations 4–5",
+      "chapter_count": 2,
+      "themes": [
+        "Siege horrors",
+        "Anointed king captured",
+        "Edom's judgment",
+        "Communal lament prayer",
+        "Unresolved ending",
+        "Eternal throne"
+      ],
+      "chapters": [
         {
           "id": "lam-4",
           "ref": "Lamentations 4",
           "title": "Gold Grows Dim -- The Horrors of Siege and Judgment",
           "synopsis": "Chapter 4 returns to third-person description of the siege's horrors, with particular focus on the reversal of the social order and the fulfillment of covenant curses. The opening image sets the tone:",
           "key_verse": "Lamentations 4:6",
-          "cross_ref_count": 4,
+          "cross_ref_count": 6,
           "has_divine_council_note": true,
           "hebrew_terms": [
             "ketem (fine gold -- now 'grown dim,' symbolizing the degradation of all that was precious, 4:1)",
@@ -18638,7 +18682,7 @@
           ]
         }
       ],
-      "cross_ref_count": 22,
+      "cross_ref_count": 11,
       "has_data_file": true
     },
     "hosea_marriage": {
@@ -18886,13 +18930,13 @@
     "joel_day": {
       "text_id": "joel",
       "name": "The Day of YHWH",
-      "chapters_ref": "Joel 1–3",
-      "chapter_count": 3,
+      "chapters_ref": "Joel 1–2",
+      "chapter_count": 2,
       "themes": [
         "Locust plague",
+        "YHWH's army",
         "Call to repentance",
-        "Spirit outpouring",
-        "Valley of decision"
+        "Restoration of the years"
       ],
       "chapters": [
         {
@@ -18915,17 +18959,50 @@
         {
           "id": "joel-2",
           "ref": "Joel 2",
-          "title": "The Locust Army, Repentance, and the Spirit Outpouring",
-          "synopsis": "Chapter 2 is the theological center of Joel. It opens with the alarm trumpet: 'Blow the trumpet in Zion; sound the alarm on my holy mountain!' (2:1). The locust army is described in terrifying militar",
-          "key_verse": "Joel 2:28-29",
+          "title": "The Locust Army, Repentance, and Restoration",
+          "synopsis": "Chapter 2 is the theological center of the locust plague narrative. It opens with the alarm trumpet: 'Blow the trumpet in Zion; sound the alarm on my holy mountain!' (2:1). The locust army is describe",
+          "key_verse": "Joel 2:12-13",
           "cross_ref_count": 5,
           "has_divine_council_note": true,
           "hebrew_terms": [
             "shofar (trumpet/ram's horn -- the alarm call, eschatological signal)",
+            "shuv (return/repent -- the central call: 'return to me with all your heart')",
+            "channun verachum (gracious and merciful -- YHWH's character, echoing Exod 34:6-7)",
+            "nacham (relent -- 'he relents over disaster'; YHWH's response to genuine repentance)",
+            "qara (to call/assemble -- 'consecrate a fast, call a solemn assembly')"
+          ]
+        }
+      ],
+      "cross_ref_count": 9,
+      "has_data_file": true
+    },
+    "joel_spirit": {
+      "text_id": "joel",
+      "name": "The Spirit Poured Out",
+      "chapters_ref": "Joel 2:28–3:21",
+      "chapter_count": 2,
+      "themes": [
+        "Spirit on all flesh",
+        "Pentecost promised",
+        "Valley of Jehoshaphat",
+        "Edenic restoration"
+      ],
+      "chapters": [
+        {
+          "id": "joel-2b",
+          "ref": "Joel 2:28-32",
+          "title": "The Spirit on All Flesh -- Pentecost Promised",
+          "synopsis": "After the locust judgment and restoration of Joel 2:1-27, the prophet pivots to the climactic promise: 'And it shall come to pass afterward, that I will pour out my Spirit on all flesh; your sons and ",
+          "key_verse": "Joel 2:28-29",
+          "cross_ref_count": 6,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
             "ruach (Spirit/wind -- the divine presence poured out on all flesh)",
-            "kol basar (all flesh -- the universality of the Spirit promise)",
+            "kol basar (all flesh -- the universality of the Spirit promise, transcending all social boundaries)",
             "naba (to prophesy -- sons and daughters will prophesy; prophetic access for all)",
-            "qara beshem YHWH (to call on the name of YHWH -- the salvation condition)"
+            "chalomot (dreams -- old men dream dreams; a mode of divine revelation, cf. Num 12:6)",
+            "chezyonot (visions -- young men see visions; prophetic sight given to the next generation)",
+            "qara beshem YHWH (to call on the name of YHWH -- the salvation condition; quoted by Paul in Rom 10:13)"
           ]
         },
         {
@@ -18934,17 +19011,19 @@
           "title": "The Valley of Jehoshaphat -- YHWH Judges the Nations",
           "synopsis": "Joel's final chapter is a full-scale divine council judgment scene. YHWH declares: 'I will gather all the nations and bring them down to the Valley of Jehoshaphat. And I will enter into judgment with ",
           "key_verse": "Joel 3:16",
-          "cross_ref_count": 6,
+          "cross_ref_count": 7,
           "has_divine_council_note": true,
           "hebrew_terms": [
             "emeq Yehoshaphat (Valley of Jehoshaphat, 'YHWH judges' -- the site of eschatological judgment)",
             "shaphat (to judge -- YHWH as cosmic judge; the root embedded in 'Jehoshaphat')",
             "qatsir (harvest -- judgment as harvest; the grain is ripe, the winepress full)",
+            "gath (winepress -- 'the winepress is full'; blood imagery of final judgment)",
+            "sha'ag (to roar -- 'YHWH roars from Zion'; the divine warrior's battle cry)",
             "ma'on (refuge -- YHWH as refuge for his people amidst cosmic upheaval)"
           ]
         }
       ],
-      "cross_ref_count": 15,
+      "cross_ref_count": 13,
       "has_data_file": true
     },
     "amos_justice": {
@@ -19072,13 +19151,13 @@
     "jonah_mercy": {
       "text_id": "jonah",
       "name": "The Reluctant Prophet",
-      "chapters_ref": "Jonah 1–4",
-      "chapter_count": 4,
+      "chapters_ref": "Jonah 1–2",
+      "chapter_count": 2,
       "themes": [
         "Flight from YHWH",
+        "Descent pattern (yarad)",
         "Great fish",
-        "Nineveh repents",
-        "Divine mercy to nations"
+        "Psalm from Sheol"
       ],
       "chapters": [
         {
@@ -19101,7 +19180,7 @@
           "ref": "Jonah 2",
           "title": "The Psalm from the Depths -- Thanksgiving from Sheol",
           "synopsis": "From inside the fish, Jonah prays a psalm of thanksgiving -- not petition but gratitude for deliverance already granted. 'Out of the belly of Sheol I cried, and you heard my voice' (2:2). Jonah descri",
-          "key_verse": "Hosea 2:9",
+          "key_verse": "Jonah 2:9",
           "cross_ref_count": 3,
           "has_divine_council_note": true,
           "hebrew_terms": [
@@ -19109,7 +19188,23 @@
             "tehom (the deep -- the cosmic abyss of chaos waters)",
             "yeshuah (salvation -- 'Salvation belongs to YHWH!'; the theological summary of the entire book)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 6,
+      "has_data_file": true
+    },
+    "jonah_mercy_nations": {
+      "text_id": "jonah",
+      "name": "God's Mercy to the Nations",
+      "chapters_ref": "Jonah 3–4",
+      "chapter_count": 2,
+      "themes": [
+        "Nineveh repents",
+        "Shortest sermon, greatest revival",
+        "Angry prophet",
+        "Divine mercy to nations"
+      ],
+      "chapters": [
         {
           "id": "jonah-3",
           "ref": "Jonah 3",
@@ -19139,7 +19234,7 @@
           ]
         }
       ],
-      "cross_ref_count": 14,
+      "cross_ref_count": 8,
       "has_data_file": true
     },
     "micah_justice": {
@@ -19222,13 +19317,13 @@
     "nahum_nineveh": {
       "text_id": "nahum",
       "name": "Fall of Nineveh",
-      "chapters_ref": "Nahum 1–3",
-      "chapter_count": 3,
+      "chapters_ref": "Nahum 1–2",
+      "chapter_count": 2,
       "themes": [
         "Divine warrior hymn",
         "YHWH's jealousy",
-        "Nineveh's destruction",
-        "Cosmic judgment"
+        "Storm-theophany",
+        "Siege of Nineveh"
       ],
       "chapters": [
         {
@@ -19257,35 +19352,53 @@
             "mephis (the scatterer -- the attacking army YHWH sends against Nineveh)",
             "aryeh (lion -- Nineveh as a lions' den, now destroyed by the divine warrior)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 7,
+      "has_data_file": true
+    },
+    "nahum_ruin": {
+      "text_id": "nahum",
+      "name": "Nineveh's Ruin",
+      "chapters_ref": "Nahum 3",
+      "chapter_count": 1,
+      "themes": [
+        "Bloody city obituary",
+        "Nineveh as prostitute",
+        "Thebes comparison",
+        "Universal celebration of fall"
+      ],
+      "chapters": [
         {
           "id": "nahum-3",
           "ref": "Nahum 3",
           "title": "Woe to the Bloody City -- Nineveh's Shame Exposed",
           "synopsis": "The final chapter delivers Nineveh's obituary. 'Woe to the bloody city, all full of lies and plunder -- no end to the prey!' (3:1). The battle sounds: crack of whip, rumble of wheel, galloping horse, ",
           "key_verse": "Nahum 3:19",
-          "cross_ref_count": 3,
+          "cross_ref_count": 6,
           "has_divine_council_note": true,
           "hebrew_terms": [
             "ir damim (city of blood -- Nineveh defined by violence)",
             "zonah (prostitute -- Nineveh as the seductive enchantress who enslaved nations)",
-            "No-Amon (Thebes -- the Egyptian capital conquered by Ashurbanipal in 663 BC)"
+            "No-Amon (Thebes -- the Egyptian capital conquered by Ashurbanipal in 663 BC)",
+            "keshaphim (sorceries -- the spiritual dimension of Nineveh's imperial power)",
+            "ro'im (shepherds -- Nineveh's leaders who 'slumber,' unable to rally defense)"
           ]
         }
       ],
-      "cross_ref_count": 10,
+      "cross_ref_count": 6,
       "has_data_file": true
     },
     "hab_dialogue": {
       "text_id": "habakkuk",
       "name": "Faith in Crisis",
-      "chapters_ref": "Habakkuk 1–3",
-      "chapter_count": 3,
+      "chapters_ref": "Habakkuk 1–2",
+      "chapter_count": 2,
       "themes": [
         "Theodicy dialogue",
         "Righteous shall live by faith",
-        "Woe oracles",
-        "Divine warrior theophany"
+        "Five woe oracles",
+        "Cosmic silence"
       ],
       "chapters": [
         {
@@ -19316,35 +19429,56 @@
             "hoi (woe -- the prophetic judgment cry, repeated five times against Babylon)",
             "kavod YHWH (glory of YHWH -- the knowledge that will fill the earth like water covers the sea)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 8,
+      "has_data_file": true
+    },
+    "hab_prayer": {
+      "text_id": "habakkuk",
+      "name": "The Warrior's Prayer",
+      "chapters_ref": "Habakkuk 3",
+      "chapter_count": 1,
+      "themes": [
+        "Divine warrior theophany",
+        "Sinai march tradition",
+        "Cosmic battle",
+        "Faith in the ruins"
+      ],
+      "chapters": [
         {
           "id": "habakkuk-3",
           "ref": "Habakkuk 3",
           "title": "The Prayer of Habakkuk -- The Divine Warrior's March",
           "synopsis": "Chapter 3 is one of the most magnificent theophanic poems in the Old Testament. Habakkuk prays: 'O YHWH, I have heard the report of you, and your work, O YHWH, do I fear. In the midst of the years rev",
           "key_verse": "Habakkuk 3:17-18",
-          "cross_ref_count": 4,
+          "cross_ref_count": 8,
           "has_divine_council_note": true,
           "hebrew_terms": [
-            "Teman/Paran (southern mountain regions -- the Sinai theophany traditions)",
+            "Teman (a region south of Israel, possibly in Edom -- the direction of YHWH's theophanic march)",
+            "Paran (the mountainous wilderness south of Judah -- associated with the Sinai theophany tradition)",
             "hod (splendor/majesty -- YHWH's visible glory covering the heavens)",
-            "yeshuah (salvation -- 'the God of my salvation'; Habakkuk's final declaration)"
+            "nogah (brightness/radiance -- rays of light flashing from YHWH's hand, where his power is hidden)",
+            "deber (pestilence -- goes before YHWH; a member of his retinue, possibly personified as an agent)",
+            "resheph (plague/burning -- follows at YHWH's feet; in Canaanite texts, Resheph is a plague deity subjugated by YHWH)",
+            "yeshuah (salvation -- 'the God of my salvation'; Habakkuk's final declaration of trust)",
+            "emunah (faith/faithfulness -- the thread connecting 2:4 to 3:17-18; faith that endures total loss)"
           ]
         }
       ],
-      "cross_ref_count": 12,
+      "cross_ref_count": 8,
       "has_data_file": true
     },
     "zeph_day": {
       "text_id": "zephaniah",
       "name": "The Great Day",
-      "chapters_ref": "Zephaniah 1–3",
-      "chapter_count": 3,
+      "chapters_ref": "Zephaniah 1–2",
+      "chapter_count": 2,
       "themes": [
         "Cosmic de-creation",
         "Day of YHWH's wrath",
-        "Humble remnant",
-        "YHWH rejoices over Zion"
+        "Oracles against nations",
+        "Famishing the gods"
       ],
       "chapters": [
         {
@@ -19374,14 +19508,30 @@
             "razah (to famish/make lean -- YHWH will 'famish' the gods of the earth; starve them of worship)",
             "sater (to hide/shelter -- 'perhaps you may be hidden'; the prophet's name means 'YHWH hides')"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 8,
+      "has_data_file": true
+    },
+    "zeph_singing": {
+      "text_id": "zephaniah",
+      "name": "The Singing God",
+      "chapters_ref": "Zephaniah 3",
+      "chapter_count": 1,
+      "themes": [
+        "Jerusalem indicted",
+        "Pure speech reverses Babel",
+        "Humble remnant",
+        "YHWH sings over his people"
+      ],
+      "chapters": [
         {
           "id": "zephaniah-3",
           "ref": "Zephaniah 3",
           "title": "Jerusalem Indicted, Then YHWH Sings Over His People",
           "synopsis": "Chapter 3 turns the lens on Jerusalem itself: 'Woe to her who is rebellious and defiled, the oppressing city! She listens to no voice; she accepts no correction' (3:1-2). Officials are roaring lions, ",
           "key_verse": "Zephaniah 3:17",
-          "cross_ref_count": 5,
+          "cross_ref_count": 6,
           "has_divine_council_note": true,
           "hebrew_terms": [
             "gibbor yoshia (mighty one who saves -- the divine warrior, now as savior-lover)",
@@ -19392,7 +19542,7 @@
           ]
         }
       ],
-      "cross_ref_count": 13,
+      "cross_ref_count": 6,
       "has_data_file": true
     },
     "haggai_temple": {
@@ -19622,13 +19772,13 @@
     "mal_covenant": {
       "text_id": "malachi",
       "name": "Covenant Faithfulness",
-      "chapters_ref": "Malachi 1–4",
-      "chapter_count": 4,
+      "chapters_ref": "Malachi 1–2",
+      "chapter_count": 2,
       "themes": [
         "Polluted offerings",
-        "Covenant of marriage",
-        "Messenger of the covenant",
-        "Elijah before the Day"
+        "Covenant of Levi",
+        "Intermarriage",
+        "Covenant of marriage"
       ],
       "chapters": [
         {
@@ -19660,7 +19810,23 @@
             "bat el nekhar (daughter of a foreign god -- the woman devoted to a foreign deity; the theological issue behind intermarriage)",
             "ki sane shallach (for he hates divorce -- YHWH's covenantal view of marriage)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 10,
+      "has_data_file": true
+    },
+    "mal_messenger": {
+      "text_id": "malachi",
+      "name": "The Messenger of the Covenant",
+      "chapters_ref": "Malachi 3–4",
+      "chapter_count": 2,
+      "themes": [
+        "Messenger of the covenant",
+        "Refiner's fire",
+        "Sun of righteousness",
+        "Elijah before the Day"
+      ],
+      "chapters": [
         {
           "id": "malachi-3",
           "ref": "Malachi 3",
@@ -19693,7 +19859,7 @@
           ]
         }
       ],
-      "cross_ref_count": 22,
+      "cross_ref_count": 12,
       "has_data_file": true
     },
     "1chr_genealogies": {
@@ -21203,7 +21369,7 @@
       {
         "chapter_id": "malachi-4",
         "chapter_ref": "Malachi 4",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "Elijah taken up in a chariot of fire -- the background for his expected return"
       }
@@ -25616,7 +25782,7 @@
       {
         "chapter_id": "zephaniah-3",
         "chapter_ref": "Zephaniah 3",
-        "era_id": "zeph_day",
+        "era_id": "zeph_singing",
         "text_id": "zephaniah",
         "note": "Babel's confused languages -- Zephaniah 3:9 reverses this with 'pure speech'"
       },
@@ -26124,14 +26290,14 @@
       {
         "chapter_id": "ruth-3",
         "chapter_ref": "Ruth 3",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "The levirate marriage law -- the legal background for the go'el obligation"
       },
       {
         "chapter_id": "ruth-4",
         "chapter_ref": "Ruth 4",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "The levirate marriage law and the halitsah (sandal-removal) ceremony -- the lega"
       }
@@ -28387,7 +28553,7 @@
       {
         "chapter_id": "ruth-4",
         "chapter_ref": "Ruth 4",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "'You were ransomed... with the precious blood of Christ' -- Christ as the kinsma"
       },
@@ -29356,7 +29522,7 @@
       {
         "chapter_id": "habakkuk-3",
         "chapter_ref": "Habakkuk 3",
-        "era_id": "hab_dialogue",
+        "era_id": "hab_prayer",
         "text_id": "habakkuk",
         "note": "YHWH comes from Sinai/Seir/Paran -- the same theophanic tradition"
       }
@@ -29414,6 +29580,13 @@
         "era_id": "judges_conquest",
         "text_id": "judges",
         "note": "'O God, when you went out before your people, when you marched through the wilde"
+      },
+      {
+        "chapter_id": "habakkuk-3",
+        "chapter_ref": "Habakkuk 3",
+        "era_id": "hab_prayer",
+        "text_id": "habakkuk",
+        "note": "'O God, when you went out before your people, when you marched through the wilde"
       }
     ],
     "Judges 5:4-5": [
@@ -29448,7 +29621,7 @@
       {
         "chapter_id": "habakkuk-3",
         "chapter_ref": "Habakkuk 3",
-        "era_id": "hab_dialogue",
+        "era_id": "hab_prayer",
         "text_id": "habakkuk",
         "note": "Deborah's Song: YHWH marched from Seir, the earth trembled"
       }
@@ -30956,6 +31129,13 @@
         "era_id": "jer_new_covenant",
         "text_id": "jeremiah",
         "note": "'A new heart and a new spirit' -- Ezekiel's parallel to the New Covenant"
+      },
+      {
+        "chapter_id": "joel-2b",
+        "chapter_ref": "Joel 2:28-32",
+        "era_id": "joel_spirit",
+        "text_id": "joel",
+        "note": "'I will put my Spirit within you' -- the new covenant promise of inward transfor"
       }
     ],
     "Acts 7:39-41": [
@@ -31242,6 +31422,13 @@
         "era_id": "golden_calf",
         "text_id": "exodus",
         "note": "Jonah quotes the Thirteen Attributes as his reason for fleeing: 'I knew that you"
+      },
+      {
+        "chapter_id": "joel-2",
+        "chapter_ref": "Joel 2",
+        "era_id": "joel_day",
+        "text_id": "joel",
+        "note": "Jonah cites the same Exod 34:6 formula -- the character of YHWH that grounds rep"
       }
     ],
     "Joel 2:13": [
@@ -31255,7 +31442,7 @@
       {
         "chapter_id": "jonah-4",
         "chapter_ref": "Jonah 4",
-        "era_id": "jonah_mercy",
+        "era_id": "jonah_mercy_nations",
         "text_id": "jonah",
         "note": "Joel also quotes the creedal formula -- as motivation for repentance"
       }
@@ -36147,7 +36334,7 @@
       {
         "chapter_id": "joel-3",
         "chapter_ref": "Joel 3",
-        "era_id": "joel_day",
+        "era_id": "joel_spirit",
         "text_id": "joel",
         "note": "'They shall beat their swords into plowshares' -- Joel 3:10 deliberately reverse"
       }
@@ -36850,7 +37037,7 @@
       {
         "chapter_id": "zephaniah-3",
         "chapter_ref": "Zephaniah 3",
-        "era_id": "zeph_day",
+        "era_id": "zeph_singing",
         "text_id": "zephaniah",
         "note": "Pentecost -- the reversal of Babel that Zephaniah 3:9 anticipates"
       }
@@ -38253,9 +38440,16 @@
         "note": "The foundational revelation of YHWH's character: 'merciful and gracious, slow to"
       },
       {
+        "chapter_id": "joel-2",
+        "chapter_ref": "Joel 2",
+        "era_id": "joel_day",
+        "text_id": "joel",
+        "note": "YHWH's self-revelation: 'gracious and merciful, slow to anger' -- Joel 2:13 quot"
+      },
+      {
         "chapter_id": "jonah-4",
         "chapter_ref": "Jonah 4",
-        "era_id": "jonah_mercy",
+        "era_id": "jonah_mercy_nations",
         "text_id": "jonah",
         "note": "The creedal formula Jonah quotes as a complaint"
       },
@@ -38641,7 +38835,7 @@
       {
         "chapter_id": "lam-4",
         "chapter_ref": "Lamentations 4",
-        "era_id": "lam_weeping",
+        "era_id": "lam_prayer",
         "text_id": "lamentations",
         "note": "Edom's gloating over Jerusalem's fall draws prophetic judgment. Lam 4:21-22 prom"
       }
@@ -39776,7 +39970,7 @@
       {
         "chapter_id": "habakkuk-3",
         "chapter_ref": "Habakkuk 3",
-        "era_id": "hab_dialogue",
+        "era_id": "hab_prayer",
         "text_id": "habakkuk",
         "note": "Christ on a white horse -- the divine warrior's ultimate march"
       }
@@ -41283,6 +41477,13 @@
         "era_id": "judges_conquest",
         "text_id": "judges",
         "note": "'My power is made perfect in weakness' -- Ehud's left-handedness and unconventio"
+      },
+      {
+        "chapter_id": "habakkuk-3",
+        "chapter_ref": "Habakkuk 3",
+        "era_id": "hab_prayer",
+        "text_id": "habakkuk",
+        "note": "'When I am weak, then I am strong' -- Paul's echo of Habakkuk's faith in the rui"
       }
     ],
     "Psalm 44:3": [
@@ -41515,9 +41716,9 @@
       {
         "chapter_id": "habakkuk-3",
         "chapter_ref": "Habakkuk 3",
-        "era_id": "hab_dialogue",
+        "era_id": "hab_prayer",
         "text_id": "habakkuk",
-        "note": "David's divine warrior theophany"
+        "note": "David's divine warrior theophany -- earth shakes, heavens bow, smoke from his no"
       }
     ],
     "1 Enoch 18:13-16; 21:1-6": [
@@ -43118,7 +43319,7 @@
       {
         "chapter_id": "ruth-3",
         "chapter_ref": "Ruth 3",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "'I spread my wing (kanaf) over you' -- YHWH's covenant marriage with Israel, sam"
       }
@@ -43127,7 +43328,7 @@
       {
         "chapter_id": "ruth-3",
         "chapter_ref": "Ruth 3",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "Boaz prayed YHWH would shelter Ruth under his 'wings' (kenafayim) -- now Ruth as"
       }
@@ -43136,7 +43337,7 @@
       {
         "chapter_id": "ruth-3",
         "chapter_ref": "Ruth 3",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "The go'el institution: redeeming a relative's sold land"
       },
@@ -43152,7 +43353,7 @@
       {
         "chapter_id": "ruth-3",
         "chapter_ref": "Ruth 3",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "'God sent forth his Son... to redeem those under the law' -- Christ as the ultim"
       }
@@ -43161,7 +43362,7 @@
       {
         "chapter_id": "ruth-3",
         "chapter_ref": "Ruth 3",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "'I will betroth you to me forever; I will betroth you to me in righteousness and"
       },
@@ -43191,7 +43392,7 @@
       {
         "chapter_id": "ruth-4",
         "chapter_ref": "Ruth 4",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "Tamar and Judah -- the Perez birth through a levirate-like arrangement, explicit"
       },
@@ -43207,7 +43408,7 @@
       {
         "chapter_id": "ruth-4",
         "chapter_ref": "Ruth 4",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "Abraham's gate-purchase of Machpelah -- the same legal setting as Boaz's redempt"
       }
@@ -43216,7 +43417,7 @@
       {
         "chapter_id": "ruth-4",
         "chapter_ref": "Ruth 4",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "YHWH as Israel's go'el (Redeemer) -- the divine kinsman who buys back his people"
       }
@@ -43225,7 +43426,7 @@
       {
         "chapter_id": "ruth-4",
         "chapter_ref": "Ruth 4",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "'Boaz the father of Obed by Ruth... Jesse the father of David the king' -- the g"
       }
@@ -43234,7 +43435,7 @@
       {
         "chapter_id": "ruth-4",
         "chapter_ref": "Ruth 4",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "text_id": "ruth",
         "note": "'You ransomed (redeemed) people for God from every tribe and language and people"
       }
@@ -46935,7 +47136,7 @@
       {
         "chapter_id": "joel-3",
         "chapter_ref": "Joel 3",
-        "era_id": "joel_day",
+        "era_id": "joel_spirit",
         "text_id": "joel",
         "note": "The river flowing from the Temple -- echoed in Joel 3:18's fountain from YHWH's "
       },
@@ -48025,6 +48226,13 @@
         "era_id": "rev_new_creation",
         "text_id": "revelation",
         "note": "YHWH the divine warrior with blood-stained garments -- Christ's robe dipped in b"
+      },
+      {
+        "chapter_id": "habakkuk-3",
+        "chapter_ref": "Habakkuk 3",
+        "era_id": "hab_prayer",
+        "text_id": "habakkuk",
+        "note": "YHWH marching from Edom/Bozrah with garments stained red -- the divine warrior t"
       }
     ],
     "Matthew 26:30": [
@@ -49222,7 +49430,7 @@
       {
         "chapter_id": "malachi-3",
         "chapter_ref": "Malachi 3",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "Mark combines Malachi 3:1 and Isaiah 40:3 to introduce John the Baptist"
       }
@@ -50020,7 +50228,7 @@
       {
         "chapter_id": "lam-5",
         "chapter_ref": "Lamentations 5",
-        "era_id": "lam_weeping",
+        "era_id": "lam_prayer",
         "text_id": "lamentations",
         "note": "'Awake! Why do you sleep, O Lord? Rouse yourself! Do not reject us forever!' -- "
       }
@@ -50813,6 +51021,13 @@
         "era_id": "lam_weeping",
         "text_id": "lamentations",
         "note": "Jesus weeps over Jerusalem, echoing Daughter Zion's weeping. The destruction of "
+      },
+      {
+        "chapter_id": "lam-4",
+        "chapter_ref": "Lamentations 4",
+        "era_id": "lam_prayer",
+        "text_id": "lamentations",
+        "note": "Jesus weeps over Jerusalem knowing the horrors of 586 BC will be replicated in 7"
       }
     ],
     "Isaiah 53:8": [
@@ -51894,7 +52109,7 @@
       {
         "chapter_id": "joel-3",
         "chapter_ref": "Joel 3",
-        "era_id": "joel_day",
+        "era_id": "joel_spirit",
         "text_id": "joel",
         "note": "The Son of Man judges the nations -- Joel's vision developed christologically"
       }
@@ -52378,7 +52593,7 @@
       {
         "chapter_id": "malachi-3",
         "chapter_ref": "Malachi 3",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "'The court sat in judgment, and the books were opened' -- the heavenly book trad"
       }
@@ -52422,7 +52637,7 @@
       {
         "chapter_id": "malachi-3",
         "chapter_ref": "Malachi 3",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "'Books were opened... the book of life' -- the heavenly record of Malachi 3:16"
       }
@@ -54810,7 +55025,7 @@
       {
         "chapter_id": "lam-5",
         "chapter_ref": "Lamentations 5",
-        "era_id": "lam_weeping",
+        "era_id": "lam_prayer",
         "text_id": "lamentations",
         "note": "The prayer for renewal in Lam 5:21 finds its eschatological answer: 'Behold, I a"
       }
@@ -56624,7 +56839,7 @@
       {
         "chapter_id": "malachi-3",
         "chapter_ref": "Malachi 3",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "'A voice cries: In the wilderness prepare the way of YHWH' -- paired with Malach"
       }
@@ -69227,7 +69442,7 @@
       {
         "chapter_id": "lam-4",
         "chapter_ref": "Lamentations 4",
-        "era_id": "lam_weeping",
+        "era_id": "lam_prayer",
         "text_id": "lamentations",
         "note": "The destruction of Sodom -- the benchmark for divine judgment -- is surpassed by"
       },
@@ -70797,7 +71012,7 @@
       {
         "chapter_id": "lam-4",
         "chapter_ref": "Lamentations 4",
-        "era_id": "lam_weeping",
+        "era_id": "lam_prayer",
         "text_id": "lamentations",
         "note": "The capture of King Zedekiah fulfills Lam 4:20: 'The breath of our nostrils, the"
       }
@@ -71103,16 +71318,25 @@
       {
         "chapter_id": "lam-4",
         "chapter_ref": "Lamentations 4",
-        "era_id": "lam_weeping",
+        "era_id": "lam_prayer",
         "text_id": "lamentations",
         "note": "The siege cannibalism of Lam 4:10 fulfills the covenant curse of Deut 28:53: 'Yo"
+      }
+    ],
+    "Revelation 18:4-8": [
+      {
+        "chapter_id": "lam-4",
+        "chapter_ref": "Lamentations 4",
+        "era_id": "lam_prayer",
+        "text_id": "lamentations",
+        "note": "The call to 'come out of Babylon' and the declaration that her plagues will come"
       }
     ],
     "Psalm 80:3, 7, 19": [
       {
         "chapter_id": "lam-5",
         "chapter_ref": "Lamentations 5",
-        "era_id": "lam_weeping",
+        "era_id": "lam_prayer",
         "text_id": "lamentations",
         "note": "'Restore us, O God!' -- the same hashivenu prayer using the same root as Lam 5:2"
       }
@@ -71121,7 +71345,7 @@
       {
         "chapter_id": "lam-5",
         "chapter_ref": "Lamentations 5",
-        "era_id": "lam_weeping",
+        "era_id": "lam_prayer",
         "text_id": "lamentations",
         "note": "Another post-destruction prayer: 'Will you restrain yourself at these things, O "
       }
@@ -71130,7 +71354,7 @@
       {
         "chapter_id": "lam-5",
         "chapter_ref": "Lamentations 5",
-        "era_id": "lam_weeping",
+        "era_id": "lam_prayer",
         "text_id": "lamentations",
         "note": "Paul asks, 'Has God rejected his people?' and answers: 'By no means!' -- the NT "
       }
@@ -71454,25 +71678,14 @@
         "chapter_ref": "Joel 2",
         "era_id": "joel_day",
         "text_id": "joel",
+        "note": "Moses: 'Would that all YHWH's people were prophets!' -- anticipates Joel's Spiri"
+      },
+      {
+        "chapter_id": "joel-2b",
+        "chapter_ref": "Joel 2:28-32",
+        "era_id": "joel_spirit",
+        "text_id": "joel",
         "note": "Moses: 'Would that all YHWH's people were prophets!' -- Joel 2:28 fulfills this "
-      }
-    ],
-    "Acts 2:16-21": [
-      {
-        "chapter_id": "joel-2",
-        "chapter_ref": "Joel 2",
-        "era_id": "joel_day",
-        "text_id": "joel",
-        "note": "Peter quotes Joel 2:28-32 at Pentecost -- the Spirit on all flesh"
-      }
-    ],
-    "Romans 10:13": [
-      {
-        "chapter_id": "joel-2",
-        "chapter_ref": "Joel 2",
-        "era_id": "joel_day",
-        "text_id": "joel",
-        "note": "Paul quotes Joel 2:32 -- universal salvation for all who call"
       }
     ],
     "Revelation 6:12": [
@@ -71482,22 +71695,65 @@
         "era_id": "joel_day",
         "text_id": "joel",
         "note": "Sixth seal: 'the sun became black... the full moon became like blood' -- Joel im"
+      },
+      {
+        "chapter_id": "joel-2b",
+        "chapter_ref": "Joel 2:28-32",
+        "era_id": "joel_spirit",
+        "text_id": "joel",
+        "note": "Sixth seal: sun darkened, moon to blood -- Joel's cosmic signs in the apocalypti"
+      }
+    ],
+    "Isaiah 32:15": [
+      {
+        "chapter_id": "joel-2b",
+        "chapter_ref": "Joel 2:28-32",
+        "era_id": "joel_spirit",
+        "text_id": "joel",
+        "note": "'Until the Spirit is poured upon us from on high' -- the same eschatological Spi"
+      }
+    ],
+    "Acts 2:16-21": [
+      {
+        "chapter_id": "joel-2b",
+        "chapter_ref": "Joel 2:28-32",
+        "era_id": "joel_spirit",
+        "text_id": "joel",
+        "note": "Peter quotes Joel 2:28-32 at Pentecost -- the Spirit on all flesh fulfilled"
+      }
+    ],
+    "Romans 10:13": [
+      {
+        "chapter_id": "joel-2b",
+        "chapter_ref": "Joel 2:28-32",
+        "era_id": "joel_spirit",
+        "text_id": "joel",
+        "note": "Paul quotes Joel 2:32 -- universal salvation for all who call on the name of the"
       }
     ],
     "Micah 4:3": [
       {
         "chapter_id": "joel-3",
         "chapter_ref": "Joel 3",
-        "era_id": "joel_day",
+        "era_id": "joel_spirit",
         "text_id": "joel",
         "note": "Micah's plowshares vision -- Joel's reversal signals final war, not peace"
+      }
+    ],
+    "Amos 1:6-10": [
+      {
+        "chapter_id": "joel-3",
+        "chapter_ref": "Joel 3",
+        "era_id": "joel_spirit",
+        "text_id": "joel",
+        "note": "Amos indicts Gaza and Tyre for the same slave trade Joel condemns"
       }
     ],
     "Revelation 14:14-20": [
       {
         "chapter_id": "joel-3",
         "chapter_ref": "Joel 3",
-        "era_id": "joel_day",
+        "era_id": "joel_spirit",
         "text_id": "joel",
         "note": "The harvest of judgment and the winepress of God's wrath"
       }
@@ -71506,7 +71762,7 @@
       {
         "chapter_id": "joel-3",
         "chapter_ref": "Joel 3",
-        "era_id": "joel_day",
+        "era_id": "joel_spirit",
         "text_id": "joel",
         "note": "'He will tread the winepress of the fury of the wrath of God' -- Joel 3:13"
       }
@@ -71653,7 +71909,7 @@
       {
         "chapter_id": "jonah-3",
         "chapter_ref": "Jonah 3",
-        "era_id": "jonah_mercy",
+        "era_id": "jonah_mercy_nations",
         "text_id": "jonah",
         "note": "Sodom 'overthrown' (hafakh) by fire -- Nineveh 'overthrown' by repentance"
       }
@@ -71662,7 +71918,7 @@
       {
         "chapter_id": "jonah-3",
         "chapter_ref": "Jonah 3",
-        "era_id": "jonah_mercy",
+        "era_id": "jonah_mercy_nations",
         "text_id": "jonah",
         "note": "If a nation repents, YHWH will relent -- the principle demonstrated in Jonah 3"
       }
@@ -71671,7 +71927,7 @@
       {
         "chapter_id": "jonah-3",
         "chapter_ref": "Jonah 3",
-        "era_id": "jonah_mercy",
+        "era_id": "jonah_mercy_nations",
         "text_id": "jonah",
         "note": "Nineveh's repentance condemns the unbelieving generation"
       }
@@ -71680,7 +71936,7 @@
       {
         "chapter_id": "jonah-3",
         "chapter_ref": "Jonah 3",
-        "era_id": "jonah_mercy",
+        "era_id": "jonah_mercy_nations",
         "text_id": "jonah",
         "note": "Luke's parallel: 'something greater than Jonah is here'"
       }
@@ -71689,7 +71945,7 @@
       {
         "chapter_id": "jonah-4",
         "chapter_ref": "Jonah 4",
-        "era_id": "jonah_mercy",
+        "era_id": "jonah_mercy_nations",
         "text_id": "jonah",
         "note": "Nahum also cites the formula -- Nineveh's later unrepentance leads to judgment"
       }
@@ -71698,7 +71954,7 @@
       {
         "chapter_id": "jonah-4",
         "chapter_ref": "Jonah 4",
-        "era_id": "jonah_mercy",
+        "era_id": "jonah_mercy_nations",
         "text_id": "jonah",
         "note": "The elder brother's anger parallels Jonah's: resenting the father's mercy toward"
       }
@@ -71806,16 +72062,43 @@
       {
         "chapter_id": "nahum-3",
         "chapter_ref": "Nahum 3",
-        "era_id": "nahum_nineveh",
+        "era_id": "nahum_ruin",
         "text_id": "nahum",
         "note": "Isaiah's oracle against Babylon -- similar exposure/shame imagery"
+      }
+    ],
+    "Nahum 2:13": [
+      {
+        "chapter_id": "nahum-3",
+        "chapter_ref": "Nahum 3",
+        "era_id": "nahum_ruin",
+        "text_id": "nahum",
+        "note": "'Behold, I am against you' -- the same declaration repeated in 3:5"
+      }
+    ],
+    "Jonah 3:1-10": [
+      {
+        "chapter_id": "nahum-3",
+        "chapter_ref": "Nahum 3",
+        "era_id": "nahum_ruin",
+        "text_id": "nahum",
+        "note": "Nineveh repented under Jonah but returned to wickedness -- Nahum's judgment is t"
+      }
+    ],
+    "Ezekiel 32:22-23": [
+      {
+        "chapter_id": "nahum-3",
+        "chapter_ref": "Nahum 3",
+        "era_id": "nahum_ruin",
+        "text_id": "nahum",
+        "note": "Assyria among the fallen empires in Sheol -- the aftermath of Nahum's prophecy"
       }
     ],
     "Revelation 17:1-6": [
       {
         "chapter_id": "nahum-3",
         "chapter_ref": "Nahum 3",
-        "era_id": "nahum_nineveh",
+        "era_id": "nahum_ruin",
         "text_id": "nahum",
         "note": "The great prostitute sitting on many waters -- echoing Nahum's Nineveh"
       }
@@ -71824,7 +72107,7 @@
       {
         "chapter_id": "nahum-3",
         "chapter_ref": "Nahum 3",
-        "era_id": "nahum_nineveh",
+        "era_id": "nahum_ruin",
         "text_id": "nahum",
         "note": "'Rejoice over her!' -- echoing Nahum 3:19's universal celebration"
       }
@@ -71883,6 +72166,15 @@
         "note": "'All the earth shall be filled with the glory of YHWH' -- the promise behind Hab"
       }
     ],
+    "Nahum 1:3-6": [
+      {
+        "chapter_id": "habakkuk-3",
+        "chapter_ref": "Habakkuk 3",
+        "era_id": "hab_prayer",
+        "text_id": "habakkuk",
+        "note": "YHWH's theophanic march: whirlwind, storm, rebuking the sea, shaking mountains"
+      }
+    ],
     "Genesis 1:20-27": [
       {
         "chapter_id": "zephaniah-1",
@@ -71914,7 +72206,7 @@
       {
         "chapter_id": "zephaniah-3",
         "chapter_ref": "Zephaniah 3",
-        "era_id": "zeph_day",
+        "era_id": "zeph_singing",
         "text_id": "zephaniah",
         "note": "'Shout and sing for joy... for great in your midst is the Holy One of Israel'"
       }
@@ -71923,16 +72215,25 @@
       {
         "chapter_id": "zephaniah-3",
         "chapter_ref": "Zephaniah 3",
-        "era_id": "zeph_day",
+        "era_id": "zeph_singing",
         "text_id": "zephaniah",
         "note": "'As the bridegroom rejoices over the bride, so shall your God rejoice over you'"
+      }
+    ],
+    "Micah 4:6-7": [
+      {
+        "chapter_id": "zephaniah-3",
+        "chapter_ref": "Zephaniah 3",
+        "era_id": "zeph_singing",
+        "text_id": "zephaniah",
+        "note": "'I will assemble the lame and gather those who have been driven away' -- paralle"
       }
     ],
     "Revelation 21:3-4": [
       {
         "chapter_id": "zephaniah-3",
         "chapter_ref": "Zephaniah 3",
-        "era_id": "zeph_day",
+        "era_id": "zeph_singing",
         "text_id": "zephaniah",
         "note": "God dwelling with his people -- the ultimate fulfillment"
       }
@@ -72261,7 +72562,7 @@
       {
         "chapter_id": "malachi-3",
         "chapter_ref": "Malachi 3",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "'I send an angel before you to guard you on the way' -- the sending of the messe"
       }
@@ -72270,7 +72571,7 @@
       {
         "chapter_id": "malachi-3",
         "chapter_ref": "Malachi 3",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "Jesus identifies John as the messenger of Malachi 3:1"
       }
@@ -72279,7 +72580,7 @@
       {
         "chapter_id": "malachi-4",
         "chapter_ref": "Malachi 4",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "'Keep the statutes... that I command you' -- the Mosaic law Malachi recalls"
       }
@@ -72288,7 +72589,7 @@
       {
         "chapter_id": "malachi-4",
         "chapter_ref": "Malachi 4",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "'Arise, shine, for your light has come' -- the dawn/light imagery paralleling th"
       }
@@ -72297,7 +72598,7 @@
       {
         "chapter_id": "malachi-4",
         "chapter_ref": "Malachi 4",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "Jesus identifies John the Baptist as the Elijah of Malachi 4:5"
       }
@@ -72306,7 +72607,7 @@
       {
         "chapter_id": "malachi-4",
         "chapter_ref": "Malachi 4",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "After the Transfiguration, Jesus confirms Elijah 'has already come' -- John the "
       }
@@ -72315,7 +72616,7 @@
       {
         "chapter_id": "malachi-4",
         "chapter_ref": "Malachi 4",
-        "era_id": "mal_covenant",
+        "era_id": "mal_messenger",
         "text_id": "malachi",
         "note": "Gabriel quotes Malachi 4:6 to Zechariah, applying it to John the Baptist"
       }
@@ -73408,6 +73709,20 @@
       ]
     },
     {
+      "ref": "Ezekiel 36:26-27",
+      "cited_count": 9,
+      "cited_in": [
+        "exodus",
+        "deuteronomy",
+        "deuteronomy",
+        "jubilees",
+        "2corinthians",
+        "galatians",
+        "galatians",
+        "jeremiah"
+      ]
+    },
+    {
       "ref": "Genesis 10:1-32",
       "cited_count": 9,
       "cited_in": [
@@ -73517,20 +73832,6 @@
         "revelation",
         "ezekiel",
         "2chronicles"
-      ]
-    },
-    {
-      "ref": "Ezekiel 36:26-27",
-      "cited_count": 8,
-      "cited_in": [
-        "exodus",
-        "deuteronomy",
-        "deuteronomy",
-        "jubilees",
-        "2corinthians",
-        "galatians",
-        "galatians",
-        "jeremiah"
       ]
     },
     {
@@ -74538,10 +74839,6 @@
     "no_interlinear": [],
     "thin_eras": [
       {
-        "text_id": "ruth",
-        "era_count": 1
-      },
-      {
         "text_id": "philemon",
         "era_count": 1
       },
@@ -74558,39 +74855,11 @@
         "era_count": 1
       },
       {
-        "text_id": "lamentations",
-        "era_count": 1
-      },
-      {
-        "text_id": "joel",
-        "era_count": 1
-      },
-      {
         "text_id": "obadiah",
         "era_count": 1
       },
       {
-        "text_id": "jonah",
-        "era_count": 1
-      },
-      {
-        "text_id": "nahum",
-        "era_count": 1
-      },
-      {
-        "text_id": "habakkuk",
-        "era_count": 1
-      },
-      {
-        "text_id": "zephaniah",
-        "era_count": 1
-      },
-      {
         "text_id": "haggai",
-        "era_count": 1
-      },
-      {
-        "text_id": "malachi",
         "era_count": 1
       }
     ],
@@ -75851,7 +76120,7 @@
       },
       {
         "text_id": "ruth",
-        "era_id": "ruth_redeemer",
+        "era_id": "kinsman_redeemer",
         "era_name": "The Kinsman-Redeemer",
         "score": 2
       },
@@ -76090,15 +76359,9 @@
         "score": 2
       },
       {
-        "text_id": "lamentations",
-        "era_id": "lam_weeping",
-        "era_name": "Weeping Over Zion",
-        "score": 2
-      },
-      {
-        "text_id": "joel",
-        "era_id": "joel_day",
-        "era_name": "The Day of YHWH",
+        "text_id": "habakkuk",
+        "era_id": "hab_prayer",
+        "era_name": "The Warrior's Prayer",
         "score": 2
       },
       {
@@ -76384,21 +76647,33 @@
         "score": 1
       },
       {
+        "text_id": "lamentations",
+        "era_id": "lam_weeping",
+        "era_name": "Weeping Over Zion",
+        "score": 1
+      },
+      {
+        "text_id": "lamentations",
+        "era_id": "lam_prayer",
+        "era_name": "From Ashes to Prayer",
+        "score": 1
+      },
+      {
         "text_id": "hosea",
         "era_id": "hosea_marriage",
         "era_name": "Marriage & Judgment",
         "score": 1
       },
       {
-        "text_id": "micah",
-        "era_id": "micah_justice",
-        "era_name": "Judgment & Hope",
+        "text_id": "joel",
+        "era_id": "joel_spirit",
+        "era_name": "The Spirit Poured Out",
         "score": 1
       },
       {
-        "text_id": "habakkuk",
-        "era_id": "hab_dialogue",
-        "era_name": "Faith in Crisis",
+        "text_id": "micah",
+        "era_id": "micah_justice",
+        "era_name": "Judgment & Hope",
         "score": 1
       },
       {
@@ -76417,6 +76692,12 @@
         "text_id": "malachi",
         "era_id": "mal_covenant",
         "era_name": "Covenant Faithfulness",
+        "score": 1
+      },
+      {
+        "text_id": "malachi",
+        "era_id": "mal_messenger",
+        "era_name": "The Messenger of the Covenant",
         "score": 1
       },
       {
@@ -77352,6 +77633,12 @@
         "score": 1
       },
       {
+        "text_id": "habakkuk",
+        "era_id": "hab_prayer",
+        "era_name": "The Warrior's Prayer",
+        "score": 1
+      },
+      {
         "text_id": "zechariah",
         "era_id": "zech_visions",
         "era_name": "Night Visions",
@@ -77894,12 +78181,6 @@
         "score": 3
       },
       {
-        "text_id": "malachi",
-        "era_id": "mal_covenant",
-        "era_name": "Covenant Faithfulness",
-        "score": 3
-      },
-      {
         "text_id": "2chronicles",
         "era_id": "2chr_divided",
         "era_name": "Divided Kingdom",
@@ -77975,6 +78256,12 @@
         "text_id": "judges",
         "era_id": "judges_jephthah",
         "era_name": "Jephthah & Minor Judges",
+        "score": 2
+      },
+      {
+        "text_id": "ruth",
+        "era_id": "kinsman_redeemer",
+        "era_name": "The Kinsman-Redeemer",
         "score": 2
       },
       {
@@ -78122,6 +78409,12 @@
         "score": 2
       },
       {
+        "text_id": "lamentations",
+        "era_id": "lam_prayer",
+        "era_name": "From Ashes to Prayer",
+        "score": 2
+      },
+      {
         "text_id": "haggai",
         "era_id": "haggai_temple",
         "era_name": "Rebuild the Temple",
@@ -78131,6 +78424,18 @@
         "text_id": "zechariah",
         "era_id": "zech_visions",
         "era_name": "Night Visions",
+        "score": 2
+      },
+      {
+        "text_id": "malachi",
+        "era_id": "mal_covenant",
+        "era_name": "Covenant Faithfulness",
+        "score": 2
+      },
+      {
+        "text_id": "malachi",
+        "era_id": "mal_messenger",
+        "era_name": "The Messenger of the Covenant",
         "score": 2
       },
       {
@@ -78387,8 +78692,8 @@
       },
       {
         "text_id": "joel",
-        "era_id": "joel_day",
-        "era_name": "The Day of YHWH",
+        "era_id": "joel_spirit",
+        "era_name": "The Spirit Poured Out",
         "score": 1
       },
       {
@@ -78803,8 +79108,8 @@
       },
       {
         "text_id": "lamentations",
-        "era_id": "lam_weeping",
-        "era_name": "Weeping Over Zion",
+        "era_id": "lam_prayer",
+        "era_name": "From Ashes to Prayer",
         "score": 2
       },
       {
@@ -79240,6 +79545,12 @@
         "score": 1
       },
       {
+        "text_id": "lamentations",
+        "era_id": "lam_weeping",
+        "era_name": "Weeping Over Zion",
+        "score": 1
+      },
+      {
         "text_id": "hosea",
         "era_id": "hosea_marriage",
         "era_name": "Marriage & Judgment",
@@ -79255,6 +79566,12 @@
         "text_id": "joel",
         "era_id": "joel_day",
         "era_name": "The Day of YHWH",
+        "score": 1
+      },
+      {
+        "text_id": "joel",
+        "era_id": "joel_spirit",
+        "era_name": "The Spirit Poured Out",
         "score": 1
       },
       {
@@ -79282,21 +79599,27 @@
         "score": 1
       },
       {
+        "text_id": "jonah",
+        "era_id": "jonah_mercy_nations",
+        "era_name": "God's Mercy to the Nations",
+        "score": 1
+      },
+      {
         "text_id": "micah",
         "era_id": "micah_justice",
         "era_name": "Judgment & Hope",
         "score": 1
       },
       {
-        "text_id": "habakkuk",
-        "era_id": "hab_dialogue",
-        "era_name": "Faith in Crisis",
+        "text_id": "zephaniah",
+        "era_id": "zeph_day",
+        "era_name": "The Great Day",
         "score": 1
       },
       {
         "text_id": "zephaniah",
-        "era_id": "zeph_day",
-        "era_name": "The Great Day",
+        "era_id": "zeph_singing",
+        "era_name": "The Singing God",
         "score": 1
       },
       {
@@ -79471,8 +79794,8 @@
       },
       {
         "text_id": "lamentations",
-        "era_id": "lam_weeping",
-        "era_name": "Weeping Over Zion",
+        "era_id": "lam_prayer",
+        "era_name": "From Ashes to Prayer",
         "score": 4
       },
       {
@@ -79854,12 +80177,6 @@
         "score": 2
       },
       {
-        "text_id": "joel",
-        "era_id": "joel_day",
-        "era_name": "The Day of YHWH",
-        "score": 2
-      },
-      {
         "text_id": "amos",
         "era_id": "amos_visions",
         "era_name": "Visions & Hope",
@@ -79869,6 +80186,18 @@
         "text_id": "micah",
         "era_id": "micah_justice",
         "era_name": "Judgment & Hope",
+        "score": 2
+      },
+      {
+        "text_id": "nahum",
+        "era_id": "nahum_ruin",
+        "era_name": "Nineveh's Ruin",
+        "score": 2
+      },
+      {
+        "text_id": "habakkuk",
+        "era_id": "hab_prayer",
+        "era_name": "The Warrior's Prayer",
         "score": 2
       },
       {
@@ -79988,6 +80317,12 @@
       {
         "text_id": "ruth",
         "era_id": "ruth_redeemer",
+        "era_name": "The Kinsman-Redeemer",
+        "score": 1
+      },
+      {
+        "text_id": "ruth",
+        "era_id": "kinsman_redeemer",
         "era_name": "The Kinsman-Redeemer",
         "score": 1
       },
@@ -80268,6 +80603,24 @@
         "score": 1
       },
       {
+        "text_id": "lamentations",
+        "era_id": "lam_weeping",
+        "era_name": "Weeping Over Zion",
+        "score": 1
+      },
+      {
+        "text_id": "joel",
+        "era_id": "joel_day",
+        "era_name": "The Day of YHWH",
+        "score": 1
+      },
+      {
+        "text_id": "joel",
+        "era_id": "joel_spirit",
+        "era_name": "The Spirit Poured Out",
+        "score": 1
+      },
+      {
         "text_id": "amos",
         "era_id": "amos_justice",
         "era_name": "Justice & Judgment",
@@ -80281,14 +80634,14 @@
       },
       {
         "text_id": "zephaniah",
-        "era_id": "zeph_day",
-        "era_name": "The Great Day",
+        "era_id": "zeph_singing",
+        "era_name": "The Singing God",
         "score": 1
       },
       {
         "text_id": "malachi",
-        "era_id": "mal_covenant",
-        "era_name": "Covenant Faithfulness",
+        "era_id": "mal_messenger",
+        "era_name": "The Messenger of the Covenant",
         "score": 1
       },
       {
@@ -80924,12 +81277,6 @@
         "score": 2
       },
       {
-        "text_id": "joel",
-        "era_id": "joel_day",
-        "era_name": "The Day of YHWH",
-        "score": 2
-      },
-      {
         "text_id": "jonah",
         "era_id": "jonah_mercy",
         "era_name": "The Reluctant Prophet",
@@ -81206,6 +81553,24 @@
         "score": 1
       },
       {
+        "text_id": "lamentations",
+        "era_id": "lam_prayer",
+        "era_name": "From Ashes to Prayer",
+        "score": 1
+      },
+      {
+        "text_id": "joel",
+        "era_id": "joel_day",
+        "era_name": "The Day of YHWH",
+        "score": 1
+      },
+      {
+        "text_id": "joel",
+        "era_id": "joel_spirit",
+        "era_name": "The Spirit Poured Out",
+        "score": 1
+      },
+      {
         "text_id": "amos",
         "era_id": "amos_visions",
         "era_name": "Visions & Hope",
@@ -81233,6 +81598,12 @@
         "text_id": "malachi",
         "era_id": "mal_covenant",
         "era_name": "Covenant Faithfulness",
+        "score": 1
+      },
+      {
+        "text_id": "malachi",
+        "era_id": "mal_messenger",
+        "era_name": "The Messenger of the Covenant",
         "score": 1
       },
       {
@@ -81665,8 +82036,8 @@
       },
       {
         "text_id": "malachi",
-        "era_id": "mal_covenant",
-        "era_name": "Covenant Faithfulness",
+        "era_id": "mal_messenger",
+        "era_name": "The Messenger of the Covenant",
         "score": 4
       },
       {
@@ -81871,12 +82242,6 @@
         "text_id": "jeremiah",
         "era_id": "jer_new_covenant",
         "era_name": "New Covenant & Fall",
-        "score": 3
-      },
-      {
-        "text_id": "lamentations",
-        "era_id": "lam_weeping",
-        "era_name": "Weeping Over Zion",
         "score": 3
       },
       {
@@ -82150,6 +82515,18 @@
         "score": 2
       },
       {
+        "text_id": "lamentations",
+        "era_id": "lam_weeping",
+        "era_name": "Weeping Over Zion",
+        "score": 2
+      },
+      {
+        "text_id": "lamentations",
+        "era_id": "lam_prayer",
+        "era_name": "From Ashes to Prayer",
+        "score": 2
+      },
+      {
         "text_id": "habakkuk",
         "era_id": "hab_dialogue",
         "era_name": "Faith in Crisis",
@@ -82189,6 +82566,12 @@
         "text_id": "judges",
         "era_id": "judges_samson",
         "era_name": "Samson",
+        "score": 1
+      },
+      {
+        "text_id": "ruth",
+        "era_id": "kinsman_redeemer",
+        "era_name": "The Kinsman-Redeemer",
         "score": 1
       },
       {
@@ -82277,14 +82660,26 @@
       },
       {
         "text_id": "jonah",
-        "era_id": "jonah_mercy",
-        "era_name": "The Reluctant Prophet",
+        "era_id": "jonah_mercy_nations",
+        "era_name": "God's Mercy to the Nations",
         "score": 1
       },
       {
         "text_id": "micah",
         "era_id": "micah_mercy",
         "era_name": "Covenant & Mercy",
+        "score": 1
+      },
+      {
+        "text_id": "nahum",
+        "era_id": "nahum_ruin",
+        "era_name": "Nineveh's Ruin",
+        "score": 1
+      },
+      {
+        "text_id": "habakkuk",
+        "era_id": "hab_prayer",
+        "era_name": "The Warrior's Prayer",
         "score": 1
       },
       {
@@ -82297,6 +82692,12 @@
         "text_id": "zechariah",
         "era_id": "zech_oracle",
         "era_name": "Messianic Oracles",
+        "score": 1
+      },
+      {
+        "text_id": "malachi",
+        "era_id": "mal_covenant",
+        "era_name": "Covenant Faithfulness",
         "score": 1
       },
       {
@@ -82819,8 +83220,8 @@
       },
       {
         "text_id": "lamentations",
-        "era_id": "lam_weeping",
-        "era_name": "Weeping Over Zion",
+        "era_id": "lam_prayer",
+        "era_name": "From Ashes to Prayer",
         "score": 1
       },
       {
