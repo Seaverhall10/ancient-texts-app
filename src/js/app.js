@@ -100,6 +100,7 @@
     let sourceReadingMode = false; // true when showing source passages instead of interlinear
     var singleChapterMode = false; // true on mobile — show one chapter at a time
     var currentChapterIndex = 0;   // index in flatChapters for single-chapter view
+    var readingMode = localStorage.getItem('atl-reading-mode') || 'study'; // scripture | study | interlinear
 
     // ── User Mode & Row Visibility State ──────────────────
     var USER_MODES = {
@@ -1941,7 +1942,8 @@
         var textDef = getTextDef(era.text);
         var cat = textDef ? getCategoryDef(textDef.category) : null;
 
-        var html = '<div class="chapter-card' + (isRead ? ' chapter-read' : '') + '" id="' + ch.id + '" style="--era-color:' + era.color + '">' +
+        var modeClass = readingMode !== 'study' ? ' mode-' + readingMode : '';
+        var html = '<div class="chapter-card' + (isRead ? ' chapter-read' : '') + modeClass + '" id="' + ch.id + '" style="--era-color:' + era.color + '">' +
             '<div style="position:absolute;top:0;left:0;right:0;height:3px;background:' + era.color + ';border-radius:6px 6px 0 0"></div>' +
             '<label class="read-check-label" title="Mark as read"><input type="checkbox" class="read-check" data-id="' + ch.id + '"' + (isRead ? ' checked' : '') + '></label>' +
             '<button class="chapter-copy-btn" data-id="' + ch.id + '" title="Copy study content">&#x1F4CB;</button>' +
@@ -1956,7 +1958,12 @@
 
         html += '<div class="chapter-ref">' + ch.ref + '</div>' +
             '<h3>' + ch.title + '</h3>' +
-            '<div class="synopsis">' + ch.synopsis + '</div>';
+            '<div class="synopsis">' + ch.synopsis + '</div>' +
+            '<div class="reading-mode-toggle">' +
+            '<button class="rmt-btn' + (readingMode === 'scripture' ? ' active' : '') + '" data-mode="scripture">Scripture</button>' +
+            '<button class="rmt-btn' + (readingMode === 'study' ? ' active' : '') + '" data-mode="study">Study</button>' +
+            '<button class="rmt-btn' + (readingMode === 'interlinear' ? ' active' : '') + '" data-mode="interlinear">Interlinear</button>' +
+            '</div>';
 
         // Key verse
         if (ch.key_verse) {
@@ -2015,6 +2022,12 @@
 
         // THC deep-dive links (if this chapter has a related Heavenly Court analysis)
         html += renderThcLinks(ch.id);
+
+        // Inline interlinear placeholder (lazy-loaded when user switches to interlinear mode)
+        var ilTextId = era.text || '';
+        var ilChMatch = ch.ref ? ch.ref.match(/\s(\d+)(?:\s*:|$)/) : null;
+        var ilChNum = ilChMatch ? ilChMatch[1] : '';
+        html += '<div class="inline-interlinear" data-text="' + ilTextId + '" data-ch="' + ilChNum + '"></div>';
 
         // Sections
         if (ch.sections && ch.sections.length > 0) {
@@ -2268,6 +2281,41 @@
             var card = e.target.closest('.library-card');
             if (card && !card.classList.contains('library-card-empty')) {
                 selectText(card.dataset.text);
+                return;
+            }
+
+            var rmtBtn = e.target.closest('.rmt-btn');
+            if (rmtBtn) {
+                var mode = rmtBtn.dataset.mode;
+                var card = rmtBtn.closest('.chapter-card');
+                if (card) {
+                    card.querySelectorAll('.rmt-btn').forEach(function(b) { b.classList.toggle('active', b === rmtBtn); });
+                    card.className = card.className.replace(/\bmode-\w+/g, '').trim();
+                    if (mode !== 'study') card.classList.add('mode-' + mode);
+                    // Lazy-load interlinear content
+                    if (mode === 'interlinear') {
+                        var ilDiv = card.querySelector('.inline-interlinear');
+                        if (ilDiv && !ilDiv.innerHTML.trim()) {
+                            ilDiv.innerHTML = renderInlineInterlinear(ilDiv.dataset.text, ilDiv.dataset.ch);
+                        }
+                    }
+                }
+                // Apply to ALL chapter cards on page (global mode switch)
+                document.querySelectorAll('.chapter-card').forEach(function(c) {
+                    if (c === card) return;
+                    c.className = c.className.replace(/\bmode-\w+/g, '').trim();
+                    if (mode !== 'study') c.classList.add('mode-' + mode);
+                    c.querySelectorAll('.rmt-btn').forEach(function(b) { b.classList.toggle('active', b.dataset.mode === mode); });
+                    if (mode === 'interlinear') {
+                        var il2 = c.querySelector('.inline-interlinear');
+                        if (il2 && !il2.innerHTML.trim()) {
+                            il2.innerHTML = renderInlineInterlinear(il2.dataset.text, il2.dataset.ch);
+                        }
+                    }
+                });
+                readingMode = mode;
+                localStorage.setItem('atl-reading-mode', mode);
+                syncAfterChange();
                 return;
             }
 
@@ -3492,6 +3540,64 @@
         var nextBtn = document.getElementById('ilNext');
         if (prevBtn) prevBtn.disabled = (chapterNum <= 1);
         if (nextBtn) nextBtn.disabled = (chapterNum >= maxCh);
+    }
+
+    // ── Inline Interlinear (for reading mode toggle) ──────────
+    function renderInlineInterlinear(textId, chapterNum) {
+        if (!textId || !chapterNum) return '<div class="il-no-data">No interlinear data available.</div>';
+        var ilData = getTextInterlinear(textId);
+        if (!ilData || typeof ilData !== 'object') return '<div class="il-no-data">No interlinear data for this text.</div>';
+        var data = ilData[String(chapterNum)];
+        if (!data || !data.verses || data.verses.length === 0) {
+            var greek = isGreekText(textId);
+            var noIcon = greek ? '\u03A9' : '\u05E2';
+            return '<div class="il-no-data"><div class="il-no-data-icon">' + noIcon + '</div>' +
+                '<p>Interlinear text for chapter ' + chapterNum + ' has not been loaded yet.</p></div>';
+        }
+
+        var greek = isGreekText(textId);
+        var html = '<div class="' + (greek ? 'il-inline-greek' : '') + '">';
+        data.verses.forEach(function(verse) {
+            var sentence;
+            var hasFlow = verse.flow && ilRows.flow !== false;
+            if (hasFlow) {
+                sentence = verse.flow;
+            } else {
+                var glosses = verse.words.slice().reverse()
+                    .map(function(w) { return w.g || ''; })
+                    .filter(function(g) { return g && g !== 'properly' && g !== 'untranslatable'; });
+                sentence = glosses.join(' ').replace(/\s*\+\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
+            }
+
+            html += '<div class="il-verse' + (hasFlow ? ' il-verse-flow' : '') + '">' +
+                '<div class="il-verse-english">' +
+                '<span class="il-verse-num">' + verse.num + '</span>' +
+                '<span class="il-verse-sentence' + (hasFlow ? ' il-flow-active' : '') + '">' + esc(sentence) + '</span>' +
+                (verse.note ? '<div class="il-verse-note" title="Study note">\ud83d\udca1 ' + esc(verse.note) + '</div>' : '') +
+                '</div>' +
+                '<div class="il-verse-words">';
+
+            verse.words.forEach(function(w) {
+                var posClass = getPosClass(w.m);
+                html += '<div class="il-word' + (posClass ? ' ' + posClass : '') + '"' +
+                    ' data-h="' + escAttr(w.h || '') + '"' +
+                    ' data-t="' + escAttr(w.t || '') + '"' +
+                    ' data-s="' + escAttr(w.s || '') + '"' +
+                    ' data-g="' + escAttr(w.g || '') + '"' +
+                    ' data-m="' + escAttr(w.m || '') + '"' +
+                    ' role="button" tabindex="0">' +
+                    '<span class="il-hebrew">' + esc(w.h || '') + '</span>' +
+                    (w.t ? '<span class="il-translit">' + esc(w.t) + '</span>' : '') +
+                    '<span class="il-gloss">' + esc(w.g || '\u00A0') + '</span>' +
+                    (w.m ? '<span class="il-morph-tag">' + esc(w.m.split('/')[0] || '') + '</span>' : '') +
+                    (w.s ? '<span class="il-strongs-tag">' + esc(w.s) + '</span>' : '') +
+                    '</div>';
+            });
+
+            html += '</div></div>';
+        });
+        html += '</div>';
+        return html;
     }
 
     // ── Source Reading Pane (for texts without interlinear) ──────
@@ -6967,7 +7073,7 @@
     var authCurrentUser = null;
     var firestoreDb = null;
     var authReady = false;
-    var SYNC_KEYS = ['genesis-study-bookmarks', 'atl-read-chapters', 'atl-user-mode', 'atl-il-rows'];
+    var SYNC_KEYS = ['genesis-study-bookmarks', 'atl-read-chapters', 'atl-user-mode', 'atl-il-rows', 'atl-reading-mode'];
 
     function initFirebaseAuth() {
         if (typeof firebase === 'undefined' || !firebase.apps) return;

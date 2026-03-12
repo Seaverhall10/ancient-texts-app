@@ -1,0 +1,166 @@
+/* ── Reading Mode Toggle ──────────────────────────────── */
+.reading-mode-toggle {
+    display: flex;
+    gap: 4px;
+    margin: 0.75rem 0;
+}
+.rmt-btn {
+    flex: 1;
+    padding: 6px 0;
+    border: 1px solid rgba(201, 168, 76, 0.3);
+    background: transparent;
+    color: var(--color-muted, #8a8f98);
+    border-radius: 6px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+.rmt-btn:hover {
+    background: rgba(201, 168, 76, 0.1);
+    color: var(--color-text, #e0e0e0);
+}
+.rmt-btn.active {
+    background: var(--color-gold, #c9a84c);
+    color: var(--color-bg, #0c0e14);
+    font-weight: 600;
+    border-color: var(--color-gold, #c9a84c);
+}
+
+/* ── Scripture Mode — clean reading ────────────────────── */
+.chapter-card.mode-scripture .terms-grid,
+.chapter-card.mode-scripture .ane-callout,
+.chapter-card.mode-scripture .second-temple-box,
+.chapter-card.mode-scripture .cross-refs-section,
+.chapter-card.mode-scripture .council-note,
+.chapter-card.mode-scripture .chapter-sections,
+.chapter-card.mode-scripture .related-studies-section,
+.chapter-card.mode-scripture .thc-links,
+.chapter-card.mode-scripture .thc-links-panel,
+.chapter-card.mode-scripture .inline-interlinear { display: none !important; }
+
+/* ── Interlinear Mode — word-by-word ───────────────────── */
+.chapter-card.mode-interlinear .terms-grid,
+.chapter-card.mode-interlinear .ane-callout,
+.chapter-card.mode-interlinear .second-temple-box,
+.chapter-card.mode-interlinear .cross-refs-section,
+.chapter-card.mode-interlinear .council-note,
+.chapter-card.mode-interlinear .chapter-sections,
+.chapter-card.mode-interlinear .related-studies-section,
+.chapter-card.mode-interlinear .thc-links,
+.chapter-card.mode-interlinear .thc-links-panel,
+.chapter-card.mode-interlinear .scripture-block,
+.chapter-card.mode-interlinear .synopsis { display: none !important; }
+
+/* Inline interlinear — hidden by default, shown in interlinear mode */
+.inline-interlinear { display: none; }
+.chapter-card.mode-interlinear .inline-interlinear { display: block; }
+
+/* ── Inline Interlinear Styles ─────────────────────────── */
+.inline-interlinear {
+    margin: 1rem 0;
+}
+.inline-interlinear .il-no-data {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--color-muted, #8a8f98);
+}
+.inline-interlinear .il-no-data-icon {
+    font-size: 2rem;
+    opacity: 0.4;
+    margin-bottom: 0.5rem;
+}
+.inline-interlinear .il-verse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+}
+.inline-interlinear .il-verse-english {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem;
+    padding-right: 0.5rem;
+}
+.inline-interlinear .il-verse-num {
+    font-weight: 700;
+    color: var(--color-gold, #c9a84c);
+    font-size: 0.75rem;
+    margin-right: 0.25rem;
+}
+.inline-interlinear .il-verse-sentence {
+    font-size: 0.85rem;
+    color: var(--color-text, #e0e0e0);
+    line-height: 1.5;
+}
+.inline-interlinear .il-verse-sentence.il-flow-active {
+    color: var(--color-gold, #c9a84c);
+    font-style: italic;
+}
+.inline-interlinear .il-verse-note {
+    font-size: 0.75rem;
+    color: var(--color-muted, #8a8f98);
+    margin-top: 0.25rem;
+    width: 100%;
+}
+.inline-interlinear .il-verse-words {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    direction: rtl;
+    justify-content: flex-start;
+}
+.inline-interlinear .il-word {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px 6px;
+    border-radius: 4px;
+    background: rgba(201, 168, 76, 0.05);
+    border: 1px solid rgba(201, 168, 76, 0.12);
+    cursor: pointer;
+    transition: background 0.15s;
+    direction: ltr;
+    min-width: 36px;
+}
+.inline-interlinear .il-word:hover {
+    background: rgba(201, 168, 76, 0.15);
+}
+.inline-interlinear .il-hebrew {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    color: var(--color-text, #e0e0e0);
+}
+.inline-interlinear .il-translit {
+    font-size: 0.55rem;
+    color: var(--color-muted, #8a8f98);
+    font-style: italic;
+}
+.inline-interlinear .il-gloss {
+    font-size: 0.6rem;
+    color: var(--color-gold, #c9a84c);
+    text-align: center;
+}
+.inline-interlinear .il-morph-tag,
+.inline-interlinear .il-strongs-tag {
+    font-size: 0.5rem;
+    color: var(--color-muted, #8a8f98);
+    opacity: 0.7;
+}
+
+/* Greek text direction override */
+.inline-interlinear.il-inline-greek .il-verse-words {
+    direction: ltr;
+}
+
+/* Responsive — stack on narrow screens */
+@media (max-width: 600px) {
+    .inline-interlinear .il-verse {
+        grid-template-columns: 1fr;
+    }
+    .inline-interlinear .il-verse-words {
+        margin-top: 0.25rem;
+    }
+}
