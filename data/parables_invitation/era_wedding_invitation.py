@@ -15,7 +15,7 @@ CHAPTERS = [
         "id": "parables-wisdoms-feast",
         "ref": "Proverbs 9:1-6; Isaiah 25:6-8",
         "chapter_num": 4,
-        "heading": "Wisdom's Feast \u2014 The Invitation Before the Invitation",
+        "title": "Wisdom's Feast \u2014 The Invitation Before the Invitation",
         "era": "wedding_invitation",
         "type": "chapter",
 
