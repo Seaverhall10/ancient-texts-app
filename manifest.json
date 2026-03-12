@@ -625,6 +625,18 @@
       "description": "Track the giant bloodlines from Genesis 6 through conquest, David's battles, and Second Temple traditions"
     },
     {
+      "id": "parables_invitation",
+      "name": "Jesus & the Gentiles",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 9,
+      "color": "#d4a856",
+      "data_dir": "parables_invitation",
+      "content_type": "html_fragment",
+      "interlinear": null,
+      "description": "Why Jesus spoke in parables, His radical engagement with Gentiles, the wedding invitation theme, and the tension between simple faith and theological systems"
+    },
+    {
       "id": "job",
       "name": "Job",
       "category": "ot",
@@ -2867,6 +2879,51 @@
         "David's mighty men",
         "Second Temple traditions",
         "Book of Giants"
+      ]
+    },
+    {
+      "id": "parables_mystery",
+      "text": "parables_invitation",
+      "name": "Part I: Why Did Jesus Speak in Parables?",
+      "chapters": "Chapters 1\u20133",
+      "color": "#d4a856",
+      "icon": "I",
+      "data_file": "era_parables_mystery",
+      "themes": [
+        "Parable discourse",
+        "Gentile faith",
+        "Pharisee blindness",
+        "Mysteries of the kingdom"
+      ]
+    },
+    {
+      "id": "wedding_invitation",
+      "text": "parables_invitation",
+      "name": "Part II: The Wedding Invitation",
+      "chapters": "Chapters 4\u20136",
+      "color": "#d4a856",
+      "icon": "II",
+      "data_file": "era_wedding_invitation",
+      "themes": [
+        "Wisdom's feast",
+        "Wedding banquet parable",
+        "Ten virgins",
+        "Marriage Supper of the Lamb"
+      ]
+    },
+    {
+      "id": "faith_vs_theology",
+      "text": "parables_invitation",
+      "name": "Part III: Simple Faith vs. Theological Steps",
+      "chapters": "Chapters 7\u20139",
+      "color": "#d4a856",
+      "icon": "III",
+      "data_file": "era_faith_vs_theology",
+      "themes": [
+        "Sermon on the Mount",
+        "Thief on the cross",
+        "Apostolic theology",
+        "Gate vs. path"
       ]
     },
     {
