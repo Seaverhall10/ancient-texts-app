@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-12T01:29:11.557758",
+  "generated": "2026-03-12T01:48:13.844545",
   "version": "1.0",
   "summary": {
     "total_texts": 74,
@@ -696,7 +696,7 @@
     },
     "1enoch": {
       "name": "1 Enoch",
-      "category": "pseudepigrapha",
+      "category": "dss",
       "chapters": 108,
       "era_count": 5,
       "has_flow": false,
@@ -714,7 +714,7 @@
     },
     "giants": {
       "name": "Book of Giants",
-      "category": "pseudepigrapha",
+      "category": "dss",
       "chapters": 0,
       "era_count": 3,
       "has_flow": false,
@@ -730,7 +730,7 @@
     },
     "jubilees": {
       "name": "Jubilees",
-      "category": "pseudepigrapha",
+      "category": "dss",
       "chapters": 50,
       "era_count": 5,
       "has_flow": false,

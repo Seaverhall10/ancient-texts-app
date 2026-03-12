@@ -39,6 +39,10 @@
 .chapter-card.mode-scripture .thc-links-panel,
 .chapter-card.mode-scripture .inline-interlinear { display: none !important; }
 
+/* Inline scripture — hidden by default, shown in scripture mode */
+.inline-scripture { display: none; }
+.chapter-card.mode-scripture .inline-scripture { display: block; }
+
 /* ── Interlinear Mode — word-by-word ───────────────────── */
 .chapter-card.mode-interlinear .terms-grid,
 .chapter-card.mode-interlinear .ane-callout,
@@ -50,11 +54,63 @@
 .chapter-card.mode-interlinear .thc-links,
 .chapter-card.mode-interlinear .thc-links-panel,
 .chapter-card.mode-interlinear .scripture-block,
+.chapter-card.mode-interlinear .inline-scripture,
 .chapter-card.mode-interlinear .synopsis { display: none !important; }
 
 /* Inline interlinear — hidden by default, shown in interlinear mode */
 .inline-interlinear { display: none; }
 .chapter-card.mode-interlinear .inline-interlinear { display: block; }
+
+/* ── Inline Scripture Styles ─────────────────────────── */
+.inline-scripture {
+    margin: 1rem 0;
+}
+.scripture-reading {
+    font-family: var(--font-body, 'Georgia', serif);
+    font-size: 1rem;
+    line-height: 1.85;
+    color: var(--color-text, #e8e1d3);
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0.5rem 0;
+}
+.scripture-chapter-heading {
+    font-family: var(--font-heading, 'Cinzel', serif);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-gold, #c9a84c);
+    margin: 1.5rem 0 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid rgba(201, 168, 76, 0.2);
+}
+.scripture-verse-num {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--color-gold, #c9a84c);
+    margin-right: 2px;
+    vertical-align: super;
+    line-height: 0;
+    opacity: 0.8;
+}
+.scripture-verse-text {
+    /* inherits from .scripture-reading */
+}
+.scripture-verse-note {
+    font-size: 0.7rem;
+    cursor: help;
+    opacity: 0.6;
+    vertical-align: super;
+}
+.scripture-no-data {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--color-muted, #8a8f98);
+}
+.scripture-no-data-icon {
+    font-size: 2.5rem;
+    opacity: 0.3;
+    margin-bottom: 0.5rem;
+}
 
 /* ── Inline Interlinear Styles ─────────────────────────── */
 .inline-interlinear {
@@ -162,5 +218,10 @@
     }
     .inline-interlinear .il-verse-words {
         margin-top: 0.25rem;
+    }
+    .scripture-reading {
+        font-size: 0.95rem;
+        line-height: 1.75;
+        text-align: left;
     }
 }

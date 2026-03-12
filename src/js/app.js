@@ -1737,6 +1737,11 @@
             card.style.animationDelay = Math.min(i * 25, 500) + 'ms';
         });
 
+        // Lazy-load inline content if reading mode is already scripture or interlinear
+        if (readingMode === 'scripture' || readingMode === 'interlinear') {
+            lazyLoadReadingModeContent(readingMode);
+        }
+
         // Eras start collapsed — user expands what they want
         setupIntersectionObserver();
     }
@@ -1852,6 +1857,11 @@
 
         // Sync reading pane if open
         syncReadingPane(ch.id);
+
+        // Lazy-load inline content if reading mode is already scripture or interlinear
+        if (readingMode === 'scripture' || readingMode === 'interlinear') {
+            lazyLoadReadingModeContent(readingMode);
+        }
     }
 
     function navigateChapter(delta) {
@@ -2182,10 +2192,14 @@
         // THC deep-dive links (if this chapter has a related Heavenly Court analysis)
         html += renderThcLinks(ch.id);
 
-        // Inline interlinear placeholder (lazy-loaded when user switches to interlinear mode)
+        // Inline scripture placeholder (lazy-loaded when user switches to scripture mode)
         var ilTextId = era.text || '';
-        var ilChMatch = ch.ref ? ch.ref.match(/\s(\d+)(?:\s*:|$)/) : null;
+        var ilChMatch = ch.ref ? ch.ref.match(/(\d+)(?:\s*[-\u2013]\s*(\d+))?(?:\s*:|$)/) : null;
         var ilChNum = ilChMatch ? ilChMatch[1] : '';
+        var ilChEnd = ilChMatch && ilChMatch[2] ? ilChMatch[2] : ilChNum;
+        html += '<div class="inline-scripture" data-text="' + ilTextId + '" data-ch="' + ilChNum + '" data-ch-end="' + ilChEnd + '"></div>';
+
+        // Inline interlinear placeholder (lazy-loaded when user switches to interlinear mode)
         html += '<div class="inline-interlinear" data-text="' + ilTextId + '" data-ch="' + ilChNum + '"></div>';
 
         // Sections
@@ -2454,17 +2468,25 @@
             if (rmtBtn) {
                 var mode = rmtBtn.dataset.mode;
                 var card = rmtBtn.closest('.chapter-card');
-                if (card) {
-                    card.querySelectorAll('.rmt-btn').forEach(function(b) { b.classList.toggle('active', b === rmtBtn); });
-                    card.className = card.className.replace(/\bmode-\w+/g, '').trim();
-                    if (mode !== 'study') card.classList.add('mode-' + mode);
-                    // Lazy-load interlinear content
+                var lazyLoadCard = function(c) {
                     if (mode === 'interlinear') {
-                        var ilDiv = card.querySelector('.inline-interlinear');
+                        var ilDiv = c.querySelector('.inline-interlinear');
                         if (ilDiv && !ilDiv.innerHTML.trim()) {
                             ilDiv.innerHTML = renderInlineInterlinear(ilDiv.dataset.text, ilDiv.dataset.ch);
                         }
                     }
+                    if (mode === 'scripture') {
+                        var scDiv = c.querySelector('.inline-scripture');
+                        if (scDiv && !scDiv.innerHTML.trim()) {
+                            scDiv.innerHTML = renderInlineScripture(scDiv.dataset.text, scDiv.dataset.ch, scDiv.dataset.chEnd);
+                        }
+                    }
+                };
+                if (card) {
+                    card.querySelectorAll('.rmt-btn').forEach(function(b) { b.classList.toggle('active', b === rmtBtn); });
+                    card.className = card.className.replace(/\bmode-\w+/g, '').trim();
+                    if (mode !== 'study') card.classList.add('mode-' + mode);
+                    lazyLoadCard(card);
                 }
                 // Apply to ALL chapter cards on page (global mode switch)
                 document.querySelectorAll('.chapter-card').forEach(function(c) {
@@ -2472,12 +2494,7 @@
                     c.className = c.className.replace(/\bmode-\w+/g, '').trim();
                     if (mode !== 'study') c.classList.add('mode-' + mode);
                     c.querySelectorAll('.rmt-btn').forEach(function(b) { b.classList.toggle('active', b.dataset.mode === mode); });
-                    if (mode === 'interlinear') {
-                        var il2 = c.querySelector('.inline-interlinear');
-                        if (il2 && !il2.innerHTML.trim()) {
-                            il2.innerHTML = renderInlineInterlinear(il2.dataset.text, il2.dataset.ch);
-                        }
-                    }
+                    lazyLoadCard(c);
                 });
                 readingMode = mode;
                 localStorage.setItem('atl-reading-mode', mode);
@@ -3822,6 +3839,79 @@
         });
         html += '</div>';
         return html;
+    }
+
+    // ── Inline Scripture (full flow translation for Scripture reading mode) ──────
+    function renderInlineScripture(textId, startCh, endCh) {
+        if (!textId || !startCh) return '<div class="scripture-no-data">No scripture text available for this chapter.</div>';
+        var ilData = getTextInterlinear(textId);
+        if (!ilData || typeof ilData !== 'object') return '<div class="scripture-no-data">Scripture text not available for this text.</div>';
+
+        var start = parseInt(startCh, 10);
+        var end = endCh ? parseInt(endCh, 10) : start;
+        if (isNaN(start)) return '<div class="scripture-no-data">Could not determine chapter range.</div>';
+
+        var textDef = getTextDef(textId);
+        var textName = textDef ? textDef.name : textId;
+        var html = '<div class="scripture-reading">';
+        var hasAnyVerse = false;
+
+        for (var chNum = start; chNum <= end; chNum++) {
+            var data = ilData[String(chNum)];
+            if (!data || !data.verses || data.verses.length === 0) continue;
+
+            if (start !== end) {
+                html += '<div class="scripture-chapter-heading">' + textName + ' ' + chNum + '</div>';
+            }
+
+            data.verses.forEach(function(verse) {
+                hasAnyVerse = true;
+                var text = '';
+                if (verse.flow) {
+                    text = verse.flow;
+                } else {
+                    var glosses = verse.words.slice().reverse()
+                        .map(function(w) { return w.g || ''; })
+                        .filter(function(g) { return g && g !== 'properly' && g !== 'untranslatable'; });
+                    text = glosses.join(' ').replace(/\s*\+\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
+                }
+                html += '<span class="scripture-verse">' +
+                    '<sup class="scripture-verse-num">' + verse.num + '</sup>' +
+                    '<span class="scripture-verse-text">' + esc(text) + '</span>' +
+                    '</span> ';
+                // Show study note if present
+                if (verse.note) {
+                    html += '<span class="scripture-verse-note" title="Study note">\uD83D\uDCA1</span> ';
+                }
+            });
+        }
+
+        if (!hasAnyVerse) {
+            return '<div class="scripture-no-data"><div class="scripture-no-data-icon">\uD83D\uDCDC</div>' +
+                '<p>Flow translation for this chapter has not been loaded yet.</p></div>';
+        }
+
+        html += '</div>';
+        return html;
+    }
+
+    // ── Lazy-load inline content for reading modes on page load ──────
+    function lazyLoadReadingModeContent(mode) {
+        var cards = mainContent.querySelectorAll('.chapter-card');
+        cards.forEach(function(c) {
+            if (mode === 'scripture') {
+                var scDiv = c.querySelector('.inline-scripture');
+                if (scDiv && !scDiv.innerHTML.trim()) {
+                    scDiv.innerHTML = renderInlineScripture(scDiv.dataset.text, scDiv.dataset.ch, scDiv.dataset.chEnd);
+                }
+            }
+            if (mode === 'interlinear') {
+                var ilDiv = c.querySelector('.inline-interlinear');
+                if (ilDiv && !ilDiv.innerHTML.trim()) {
+                    ilDiv.innerHTML = renderInlineInterlinear(ilDiv.dataset.text, ilDiv.dataset.ch);
+                }
+            }
+        });
     }
 
     // ── Source Reading Pane (for texts without interlinear) ──────

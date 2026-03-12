@@ -24,7 +24,7 @@
     },
     {
       "id": "dss",
-      "name": "Dead Sea Scrolls",
+      "name": "Dead Sea Scrolls & Qumran Texts",
       "color": "#2d9a8f",
       "badge": "DSS"
     },
@@ -507,22 +507,22 @@
     {
       "id": "1enoch",
       "name": "1 Enoch",
-      "category": "pseudepigrapha",
+      "category": "dss",
       "language": "geez",
       "chapters": 108,
-      "color": "#9b7ec8",
+      "color": "#2d9a8f",
       "data_dir": "enoch1",
       "interlinear": null,
       "canon": false,
-      "description": "The Watchers, Son of Man, cosmic order, and apocalyptic visions"
+      "description": "The Watchers, Son of Man, cosmic order, and apocalyptic visions — 4Q201-212 (Aramaic fragments)"
     },
     {
       "id": "giants",
       "name": "Book of Giants",
-      "category": "pseudepigrapha",
+      "category": "dss",
       "language": "aramaic",
       "chapters": 0,
-      "color": "#b794d4",
+      "color": "#2d9a8f",
       "data_dir": "giants",
       "interlinear": null,
       "canon": false,
@@ -531,7 +531,7 @@
     {
       "id": "jubilees",
       "name": "Jubilees",
-      "category": "pseudepigrapha",
+      "category": "dss",
       "language": "hebrew",
       "chapters": 50,
       "color": "#2d9a8f",
