@@ -1026,7 +1026,7 @@ body.sidebar-open .main-content { overflow: hidden !important; }
             </div>
             <div class="mobile-tools-grid">
                 <button class="mobile-tool-item" data-tool="matrix">
-                    <span class="mobile-tool-icon">&#x1F4CA;</span><span>Prophecy Matrix</span>
+                    <span class="mobile-tool-icon">&#x1F4CA;</span><span>Truth Matrix</span>
                 </button>
                 <button class="mobile-tool-item" data-tool="timeline">
                     <span class="mobile-tool-icon">&#x23F3;</span><span>Timeline</span>
@@ -1157,6 +1157,112 @@ body.sidebar-open .main-content { overflow: hidden !important; }
         });
     });
 
+    // ── Mobile Bookmarks Overlay ─────────────────────────
+    function openBookmarksOverlay() {
+        var old = document.getElementById('bookmarksOverlay');
+        if (old) old.remove();
+        var ov = document.createElement('div');
+        ov.className = 'bookmarks-full-overlay';
+        ov.id = 'bookmarksOverlay';
+        var h = '<div class="bookmarks-full-modal">' +
+            '<div class="bm-full-header"><h2>\u2B50 Saved Chapters</h2>' +
+            '<button class="bm-full-close" id="bmFullClose">&times;</button></div>' +
+            '<div class="bm-full-content">';
+        if (bookmarks.length === 0) {
+            h += '<div class="bm-empty">No saved chapters yet.<br><span style="color:#9a968e;font-size:0.85rem">Tap the \u2606 Save button on any chapter to bookmark it.</span></div>';
+        } else {
+            bookmarks.forEach(function(id) {
+                var ref = id, chTitle = '', textId = '';
+                for (var i = 0; i < MANIFEST.eras.length; i++) {
+                    var chapters = ERA_DATA[MANIFEST.eras[i].id] || [];
+                    for (var c = 0; c < chapters.length; c++) {
+                        if (chapters[c].id === id) {
+                            ref = chapters[c].ref || chapters[c].title;
+                            chTitle = chapters[c].title || '';
+                            textId = MANIFEST.eras[i].text;
+                            break;
+                        }
+                    }
+                    if (textId) break;
+                }
+                h += '<div class="bm-full-item" data-id="' + id + '" data-text="' + textId + '">' +
+                    '<div class="bm-full-info"><div class="bm-full-ref">' + ref + '</div>' +
+                    (chTitle && chTitle !== ref ? '<div class="bm-full-title">' + chTitle + '</div>' : '') +
+                    '</div><button class="bm-full-remove" data-id="' + id + '">&times;</button></div>';
+            });
+        }
+        h += '</div></div>';
+        ov.innerHTML = h;
+        document.body.appendChild(ov);
+        document.getElementById('bmFullClose').addEventListener('click', function() { ov.remove(); });
+        ov.addEventListener('click', function(e) {
+            if (e.target === ov) { ov.remove(); return; }
+            var rm = e.target.closest('.bm-full-remove');
+            if (rm) { toggleBookmark(rm.dataset.id); openBookmarksOverlay(); return; }
+            var item = e.target.closest('.bm-full-item');
+            if (item) {
+                ov.remove();
+                var t = item.dataset.text || detectTextFromHash(item.dataset.id);
+                if (t && t !== currentText) selectText(t, true);
+                setTimeout(function() { scrollToChapter(item.dataset.id); }, 200);
+            }
+        });
+    }
+
+    // ── Mobile Search Overlay ─────────────────────────────
+    function openSearchOverlay() {
+        var old = document.getElementById('searchOverlay');
+        if (old) old.remove();
+        var ov = document.createElement('div');
+        ov.className = 'search-full-overlay';
+        ov.id = 'searchOverlay';
+        var h = '<div class="search-full-modal">' +
+            '<div class="search-full-header"><h2>&#x1F50D; Search</h2>' +
+            '<button class="search-full-close" id="searchFullClose">&times;</button></div>' +
+            '<input type="text" class="search-full-input" id="searchFullInput" placeholder="Search chapters, verses, terms..." autocomplete="off" />' +
+            '<div class="search-full-results" id="searchFullResults"></div>' +
+            '</div>';
+        ov.innerHTML = h;
+        document.body.appendChild(ov);
+        var input = document.getElementById('searchFullInput');
+        var results = document.getElementById('searchFullResults');
+        setTimeout(function() { input.focus(); }, 200);
+        document.getElementById('searchFullClose').addEventListener('click', function() { ov.remove(); });
+        ov.addEventListener('click', function(e) { if (e.target === ov) ov.remove(); });
+        var timer = null;
+        input.addEventListener('input', function() {
+            clearTimeout(timer);
+            timer = setTimeout(function() {
+                var q = input.value.trim();
+                if (q.length < 2) { results.innerHTML = ''; return; }
+                if (!searchIndex) buildSearchIndex(true);
+                var matches = searchIndex ? searchIndex.filter(function(item) {
+                    return item.t.indexOf(q.toLowerCase()) !== -1;
+                }).slice(0, 30) : [];
+                if (matches.length === 0) {
+                    results.innerHTML = '<div class="search-full-empty">No results for "' + q.replace(/</g,'&lt;') + '"</div>';
+                    return;
+                }
+                var rh = '';
+                matches.forEach(function(m) {
+                    rh += '<div class="search-full-item" data-id="' + m.id + '" data-text="' + (m.text || '') + '">' +
+                        '<div class="search-full-ref">' + (m.ref || m.id) + '</div>' +
+                        '<div class="search-full-snippet">' + m.title + '</div></div>';
+                });
+                results.innerHTML = rh;
+            }, 250);
+        });
+        results.addEventListener('click', function(e) {
+            var item = e.target.closest('.search-full-item');
+            if (item) {
+                ov.remove();
+                var t = item.dataset.text || detectTextFromHash(item.dataset.id);
+                if (t && t !== currentText) selectText(t, true);
+                setTimeout(function() { scrollToChapter(item.dataset.id); }, 200);
+            }
+        });
+    }
+
     // ── Mobile Bottom Nav Integration ─────────────────────
     document.addEventListener('mobile-nav', function(e) {
         var action = e.detail;
@@ -1165,10 +1271,8 @@ body.sidebar-open .main-content { overflow: hidden !important; }
             showLibrary();
             closeSidebarMobile();
         } else if (action === 'search') {
-            sidebar.classList.add('open');
-            sidebarBackdrop.classList.add('visible');
-            document.body.classList.add('sidebar-open');
-            setTimeout(function() { searchInput.focus(); }, 300);
+            closeSidebarMobile();
+            openSearchOverlay();
         } else if (action === 'tools') {
             closeSidebarMobile();
             openMobileTools();
@@ -1176,11 +1280,8 @@ body.sidebar-open .main-content { overflow: hidden !important; }
             openGlossary();
             closeSidebarMobile();
         } else if (action === 'bookmarks') {
-            sidebar.classList.add('open');
-            sidebarBackdrop.classList.add('visible');
-            document.body.classList.add('sidebar-open');
-            var bmSection = document.getElementById('bookmarkSection');
-            if (bmSection) bmSection.scrollIntoView({ behavior: 'smooth' });
+            closeSidebarMobile();
+            openBookmarksOverlay();
         }
     });
 
@@ -1271,6 +1372,12 @@ body.sidebar-open .main-content { overflow: hidden !important; }
     js_patched = js_patched.replace("const INTERLINEAR_ZECHARIAH", "var INTERLINEAR_ZECHARIAH")
     js_patched = js_patched.replace("const INTERLINEAR_MALACHI", "var INTERLINEAR_MALACHI")
 
+    # Enable single-chapter view on mobile
+    js_patched = js_patched.replace(
+        "var singleChapterMode = false;",
+        "var singleChapterMode = true;"
+    )
+
     # Fix Home button to navigate to library
     js_patched = js_patched.replace(
         "// Scroll to top / reset view\\n                window.scrollTo(0, 0);",
@@ -1324,8 +1431,8 @@ body.sidebar-open .main-content { overflow: hidden !important; }
     # Fix: scrollToChapter should always close reading pane on mobile
     # This ensures study content is visible after any navigation (trail stops, sidebar, etc.)
     js_patched = js_patched.replace(
-        "function scrollToChapter(id) {\n        logEvent('chapter_view', id);\n        var el = document.getElementById(id);",
-        "function scrollToChapter(id) {\n        if (typeof IS_MOBILE !== 'undefined' && IS_MOBILE) { setReadingPane(false); }\n        logEvent('chapter_view', id);\n        var el = document.getElementById(id);"
+        "function scrollToChapter(id) {\n        logEvent('chapter_view', id);",
+        "function scrollToChapter(id) {\n        if (typeof IS_MOBILE !== 'undefined' && IS_MOBILE) { setReadingPane(false); }\n        logEvent('chapter_view', id);"
     )
 
     # Fix: on mobile, always regenerate content (data loads on demand, cache may be stale)

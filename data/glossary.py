@@ -6690,5 +6690,32 @@ GLOSSARY = {
         "definition": "Title meaning 'mighty one' or 'champion' — applied both to human warriors and to supernatural beings. Genesis 6:4 calls the Nephilim 'gibborim of old, men of renown.' In Joshua, the term appears in the defeat of the Anakim (Josh 11:21-22) — the remnant of the Nephilim race. Caleb, at age 85, still has the strength to drive out the Anakim from Hebron (Josh 14:11-12), making him a human gibbor who defeats the gibbore olam. YHWH himself is called 'el gibbor' — the Mighty God (Isa 9:6, 10:21). The conquest narrative thus pits YHWH the ultimate Gibbor against the Nephilim gibborim — cosmic champion versus counterfeit champions.",
         "language": "hebrew",
         "chapters_used": ["josh-11", "josh-14"]
+    },
+    "selah": {
+        "transliteration": "selah",
+        "hebrew": "\u05e1\u05b6\u05dc\u05b8\u05d4",
+        "strongs": "H5542",
+        "gloss": "pause, reflect (liturgical marker)",
+        "definition": "A liturgical or musical notation appearing 71 times in the Psalms and 3 times in Habakkuk (3:3, 9, 13). Its exact meaning is debated, but the most widely accepted interpretations include: (1) A musical interlude or instrumental break, from the root salal ('to lift up') — perhaps lifting up voices or instruments; (2) A call for the congregation to pause and reflect on what was just sung or read; (3) A marker for a change in musical dynamics or key. The LXX renders it diapsalma ('interlude'). The Targum translates it as 'forever' (le-almin). Its consistent placement at moments of theological weight — after declarations of God's sovereignty, cries for deliverance, or statements of trust — suggests it functioned as an invitation to contemplative silence, allowing the hearer to absorb the gravity of the words. Selah may be one of the oldest performance instructions in human history, predating Greek theatrical notation by centuries.",
+        "language": "hebrew",
+        "chapters_used": ["psa-3", "psa-4", "psa-7", "psa-9", "psa-24", "psa-46", "psa-48", "psa-50"]
+    },
+    "tehillah": {
+        "transliteration": "tehillah",
+        "hebrew": "\u05ea\u05b0\u05bc\u05d4\u05b4\u05dc\u05b8\u05bc\u05d4",
+        "strongs": "H8416",
+        "gloss": "praise, song of praise",
+        "definition": "From the root halal ('to praise, to shine'). Tehillah is the Hebrew title of the Book of Psalms (Sefer Tehillim, 'Book of Praises'). Distinct from other praise words: todah is thanksgiving for what God has done; zamar is musical praise; halal is exuberant, even reckless praise; tehillah is the formal hymn of praise — the composed, deliberate declaration of God's character and deeds. Psalm 22:3 says God is 'enthroned upon the praises (tehillot) of Israel' — the praise of God's people creates the very throne room of the divine council on earth.",
+        "language": "hebrew",
+        "chapters_used": ["psa-22", "psa-33", "psa-34"]
+    },
+    "mizmor": {
+        "transliteration": "mizmor",
+        "hebrew": "\u05de\u05b4\u05d6\u05b0\u05de\u05d5\u05b9\u05e8",
+        "strongs": "H4210",
+        "gloss": "psalm, song with instrumental accompaniment",
+        "definition": "From zamar ('to sing, to make music with instruments'). A mizmor is specifically a song meant to be accompanied by stringed instruments (kinnor/lyre, nevel/harp). It appears in the superscriptions of 57 psalms. Distinct from shir (a general song) and maskil (a contemplative or skillful composition). The mizmor tradition reflects the Levitical worship system established by David (1 Chr 25:1-7), where trained musicians led the congregation in praise before the ark — a deliberate earthly mirror of the heavenly worship before God's throne (Rev 4-5).",
+        "language": "hebrew",
+        "chapters_used": ["psa-3", "psa-4", "psa-23"]
     }
 }

@@ -98,6 +98,8 @@
     let currentILBook = 'genesis';
     let ilFontScale = parseFloat(localStorage.getItem('genesis-il-font-scale') || '1');
     let sourceReadingMode = false; // true when showing source passages instead of interlinear
+    var singleChapterMode = false; // true on mobile — show one chapter at a time
+    var currentChapterIndex = 0;   // index in flatChapters for single-chapter view
 
     // ── User Mode & Row Visibility State ──────────────────
     var USER_MODES = {
@@ -1529,7 +1531,13 @@
         }
     }
 
-    function loadTextContent(textId) {
+    function loadTextContent(textId, startChapterIdx) {
+        // Single-chapter mode — render one chapter at a time
+        if (singleChapterMode) {
+            renderSingleChapterView(textId, startChapterIdx || 0);
+            return;
+        }
+
         // Cache generated HTML but always update the DOM
         if (!textContentCache[textId]) {
             var eras = getTextEras(textId);
@@ -1576,6 +1584,128 @@
 
         // Eras start collapsed — user expands what they want
         setupIntersectionObserver();
+    }
+
+    // ── Single-Chapter View (Mobile) ────────────────────────────────
+    function renderSingleChapterView(textId, chIdx) {
+        var flatChapters = getFlatChapterList(textId);
+        if (!flatChapters || flatChapters.length === 0) return;
+
+        // Clamp index
+        if (chIdx < 0) chIdx = 0;
+        if (chIdx >= flatChapters.length) chIdx = flatChapters.length - 1;
+        currentChapterIndex = chIdx;
+
+        var target = flatChapters[chIdx];
+        var textDef = getTextDef(textId);
+        var cat = textDef ? getCategoryDef(textDef.category) : null;
+        var eras = getTextEras(textId);
+
+        // Find which era this chapter belongs to + full chapter object
+        var chEra = null, ch = null, isFirstInEra = false;
+        for (var e = 0; e < eras.length; e++) {
+            var eraChapters = ERA_DATA[eras[e].id] || [];
+            for (var c = 0; c < eraChapters.length; c++) {
+                if (eraChapters[c].id === target.id) {
+                    chEra = eras[e];
+                    ch = eraChapters[c];
+                    isFirstInEra = (c === 0);
+                    break;
+                }
+            }
+            if (ch) break;
+        }
+        if (!ch) return;
+
+        var html = '';
+
+        // Breadcrumb
+        html += '<div class="breadcrumb-bar">' +
+            '<span class="bc-link" data-action="go-library">Library</span>' +
+            '<span class="bc-sep">\u203A</span>' +
+            (cat ? '<span class="bc-link" style="color:' + cat.color + '">' + cat.name + '</span><span class="bc-sep">\u203A</span>' : '') +
+            '<span class="bc-current">' + (textDef ? textDef.name : textId) + '</span>' +
+            '</div>';
+
+        // Sticky chapter indicator
+        html += '<div class="single-chapter-indicator" id="chapterIndicator">' +
+            '<button class="sch-nav-btn sch-prev" data-sch-delta="-1"' + (chIdx === 0 ? ' disabled' : '') + '>\u25C0</button>' +
+            '<span class="sch-position">' + (chIdx + 1) + ' of ' + flatChapters.length + '</span>' +
+            '<button class="sch-nav-btn sch-next" data-sch-delta="1"' + (chIdx >= flatChapters.length - 1 ? ' disabled' : '') + '>\u25B6</button>' +
+            '</div>';
+
+        // Text intro on first chapter only
+        if (chIdx === 0) {
+            html += renderTextIntro(textId);
+        }
+
+        // Era header if first chapter in its era
+        if (chEra && isFirstInEra) {
+            html += renderEraHeader(chEra);
+        }
+
+        // Render the single chapter
+        var chapterHtml = '';
+        if (ch.type === 'html_fragment') {
+            chapterHtml = '<div class="hc-fragment" id="' + ch.id + '">' + ch.html + renderLibraryLinks(ch.id) + '</div>';
+        } else if (ch.type === 'historical_insert') {
+            chapterHtml = renderHistoricalInsert(ch, chEra);
+        } else {
+            chapterHtml = renderChapter(ch, chEra, flatChapters);
+        }
+
+        html += '<div class="single-chapter-container" id="singleChapterContainer">' +
+            chapterHtml + '</div>';
+
+        // Bottom prev/next with titles
+        html += '<div class="sch-bottom-nav">';
+        if (chIdx > 0) {
+            var prevCh = flatChapters[chIdx - 1];
+            html += '<button class="sch-bottom-btn sch-bottom-prev" data-sch-delta="-1">' +
+                '<span class="sch-btn-arrow">\u2190</span>' +
+                '<span class="sch-btn-title">' + esc(prevCh.ref || prevCh.title) + '</span></button>';
+        } else {
+            html += '<div></div>';
+        }
+        if (chIdx < flatChapters.length - 1) {
+            var nextCh = flatChapters[chIdx + 1];
+            html += '<button class="sch-bottom-btn sch-bottom-next" data-sch-delta="1">' +
+                '<span class="sch-btn-title">' + esc(nextCh.ref || nextCh.title) + '</span>' +
+                '<span class="sch-btn-arrow">\u2192</span></button>';
+        } else {
+            html += '<div></div>';
+        }
+        html += '</div>';
+
+        // "Show All" toggle
+        html += '<div class="sch-show-all">' +
+            '<button class="sch-show-all-btn" id="schShowAll">\u2630 Show All Chapters</button>' +
+            '</div>';
+
+        mainContent.innerHTML = html;
+        mainContent.scrollTop = 0;
+
+        // Update hash
+        if (ch.id) {
+            history.replaceState(null, '', '#' + ch.id);
+        }
+
+        // Sync sidebar active state
+        document.querySelectorAll('.chapter-link').forEach(function(link) {
+            link.classList.toggle('active', link.dataset.id === ch.id);
+        });
+
+        // Sync reading pane if open
+        syncReadingPane(ch.id);
+    }
+
+    function navigateChapter(delta) {
+        if (!currentText) return;
+        var flatChapters = getFlatChapterList(currentText);
+        if (!flatChapters) return;
+        var newIdx = currentChapterIndex + delta;
+        if (newIdx < 0 || newIdx >= flatChapters.length) return;
+        renderSingleChapterView(currentText, newIdx);
     }
 
     // ── Text Introduction Panel ────────────────────────────────────
@@ -2232,6 +2362,23 @@
                 return;
             }
 
+            // Single-chapter nav buttons (indicator + bottom nav)
+            var schBtn = e.target.closest('[data-sch-delta]');
+            if (schBtn && singleChapterMode) {
+                navigateChapter(parseInt(schBtn.dataset.schDelta));
+                return;
+            }
+
+            // "Show All Chapters" button
+            var showAllBtn = e.target.closest('#schShowAll');
+            if (showAllBtn && singleChapterMode) {
+                singleChapterMode = false;
+                delete textContentCache[currentText];
+                loadTextContent(currentText);
+                singleChapterMode = true; // re-enable for next text
+                return;
+            }
+
             // Prev/Next chapter navigation
             var navBtn = e.target.closest('.chapter-nav-btn');
             if (navBtn && navBtn.dataset.navTo) {
@@ -2247,6 +2394,27 @@
                 return;
             }
         });
+
+        // Swipe gesture for single-chapter navigation
+        (function() {
+            var swStartX = 0, swStartY = 0, swTracking = false;
+            mainContent.addEventListener('touchstart', function(e) {
+                if (!singleChapterMode) return;
+                swStartX = e.touches[0].clientX;
+                swStartY = e.touches[0].clientY;
+                swTracking = true;
+            }, { passive: true });
+            mainContent.addEventListener('touchend', function(e) {
+                if (!singleChapterMode || !swTracking) return;
+                swTracking = false;
+                var dx = e.changedTouches[0].clientX - swStartX;
+                var dy = e.changedTouches[0].clientY - swStartY;
+                // Horizontal swipe must be dominant and > 60px
+                if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.8) {
+                    navigateChapter(dx > 0 ? -1 : 1);
+                }
+            }, { passive: true });
+        })();
 
         // Search
         var searchTimer = null;
@@ -2557,6 +2725,18 @@
     // ── Navigation ──────────────────────────────────────────
     function scrollToChapter(id) {
         logEvent('chapter_view', id);
+
+        // Single-chapter mode — navigate to chapter by index
+        if (singleChapterMode && currentText) {
+            var flatChapters = getFlatChapterList(currentText);
+            for (var i = 0; i < flatChapters.length; i++) {
+                if (flatChapters[i].id === id) {
+                    renderSingleChapterView(currentText, i);
+                    return;
+                }
+            }
+        }
+
         var el = document.getElementById(id);
         if (el) {
             el.scrollIntoView({ behavior: 'smooth', block: 'start' });

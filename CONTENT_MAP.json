@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-11T10:11:05.555414",
+  "generated": "2026-03-11T21:32:28.253562",
   "version": "1.0",
   "summary": {
     "total_texts": 74,
@@ -9,7 +9,7 @@
     "total_il_words": 444339,
     "total_cross_refs": 5932,
     "unique_passages_cited": 3843,
-    "glossary_terms": 553,
+    "glossary_terms": 556,
     "texts_with_flow": 66,
     "texts_with_interlinear": 66,
     "gap_count": {
@@ -82169,6 +82169,41 @@
       "chapters_used": [
         "josh-14",
         "josh-18"
+      ],
+      "language": "hebrew"
+    },
+    "selah": {
+      "gloss": "pause, reflect (liturgical marker)",
+      "strongs": "H5542",
+      "chapters_used": [
+        "psa-3",
+        "psa-4",
+        "psa-7",
+        "psa-9",
+        "psa-24",
+        "psa-46",
+        "psa-48",
+        "psa-50"
+      ],
+      "language": "hebrew"
+    },
+    "tehillah": {
+      "gloss": "praise, song of praise",
+      "strongs": "H8416",
+      "chapters_used": [
+        "psa-22",
+        "psa-33",
+        "psa-34"
+      ],
+      "language": "hebrew"
+    },
+    "mizmor": {
+      "gloss": "psalm, song with instrumental accompaniment",
+      "strongs": "H4210",
+      "chapters_used": [
+        "psa-3",
+        "psa-4",
+        "psa-23"
       ],
       "language": "hebrew"
     }
