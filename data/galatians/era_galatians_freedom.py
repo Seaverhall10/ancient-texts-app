@@ -10,6 +10,38 @@ CHAPTERS = [
         'title': 'No Other Gospel \u2014 Paul\'s Apostolic Authority',
         'ref': 'Galatians 1:1\u20132:10',
         'period': 'ca. AD 48\u201355',
+
+        'synopsis': (
+            'Paul opens Galatians with an explosive defense of his apostolic credentials, '
+            'asserting that his commission came directly from the risen Christ and God the Father '
+            'rather than through any human chain of authority. He pronounces a double anathema on '
+            'anyone who distorts the gospel, then recounts his conversion, his years in Arabia, and '
+            'his eventual recognition by the Jerusalem pillars. The autobiographical narrative is '
+            'not self-promotion but a theological argument: the gospel Paul preaches to the Gentile '
+            'nations was revealed by God himself, not mediated through human tradition or angelic '
+            'intermediaries. The divine council has authorized a two-front mission -- Peter to the '
+            'circumcised, Paul to the nations -- as the mechanism for reversing the Deuteronomy 32 '
+            'disinheritance.'
+        ),
+
+        'key_verse': {
+            'ref': 'Galatians 1:11-12',
+            'text': 'For I would have you know, brothers, that the gospel that was preached by me is not man\'s gospel. For I did not receive it from any man, nor was I taught it, but I received it through a revelation of Jesus Christ.',
+            'translation': 'ESV'
+        },
+
+        'ane_backdrop': (
+            'In the Greco-Roman world, philosophical schools and religious movements depended on '
+            'chains of transmission (diadoche) from master to student to establish legitimacy. The '
+            'Stoics traced their lineage through Zeno; the Epicureans through Epicurus. Paul '
+            'deliberately breaks this pattern: his authority comes not from apostolic succession '
+            'but from direct divine encounter, mirroring the OT prophetic model where YHWH '
+            'commissioned individuals independently of institutional structures. The Roman imperial '
+            'cult proclaimed the emperor\'s decrees as euangelia (good news); Paul\'s double anathema '
+            'against any rival gospel -- even from "an angel from heaven" -- is a counter-claim that '
+            'places Christ\'s message above both earthly and celestial authorities.'
+        ),
+
         'summary': (
             'Paul defends his apostleship as coming directly from Christ, not from human '
             'appointment. He recounts his calling, his years in Arabia, and the Jerusalem '
@@ -66,6 +98,42 @@ CHAPTERS = [
                     'King has been enthroned, and all rival powers \u2014 earthly and cosmic \u2014 '
                     'are now under his authority.'
                 )
+            },
+            {
+                'term': '\u1f00\u03c0\u03bf\u03ba\u03ac\u03bb\u03c5\u03c8\u03b9\u03c2',
+                'transliteration': 'apokalypsis',
+                'meaning': (
+                    '"Revelation" or "unveiling" (1:12). Paul says the gospel came to him '
+                    'through an apokalypsis of Jesus Christ \u2014 not through human teaching or '
+                    'apostolic tradition. The word implies a pulling-back of the curtain on '
+                    'heavenly reality. In the divine council framework, this is a prophet '
+                    'gaining access to the deliberations of the heavenly assembly, the same '
+                    'pattern as Isaiah 6, 1 Kings 22, and Ezekiel 1.'
+                )
+            },
+            {
+                'term': '\u03ba\u03bb\u03b7\u03c4\u03cc\u03c2',
+                'transliteration': 'kletos',
+                'meaning': (
+                    '"Called" \u2014 from kaleo, "to summon." Paul describes himself as "called" '
+                    'by God\'s grace (1:15). The verb implies a sovereign summons from a superior '
+                    'to an inferior, not a voluntary career decision. In the LXX, this language '
+                    'marks prophetic commissioning: God calls (kaleo) individuals into his service '
+                    'by direct intervention. Paul stands in the prophetic line from Moses to '
+                    'Jeremiah to the Twelve.'
+                )
+            },
+            {
+                'term': '\u03b4\u03b5\u03be\u03b9\u03ac\u03c2',
+                'transliteration': 'dexias',
+                'meaning': (
+                    '"Right hands" (2:9) \u2014 James, Cephas, and John gave Paul "the right hand '
+                    'of fellowship" (dexias koinonias). In the ancient Near East and Greco-Roman '
+                    'world, the right-hand clasp was a solemn covenant gesture sealing an '
+                    'agreement between parties. This was not a casual handshake but a binding '
+                    'ratification of the two-track mission: the Jerusalem pillars formally '
+                    'recognized Paul\'s apostleship to the nations.'
+                )
             }
         ],
         'sections': [
@@ -90,6 +158,23 @@ CHAPTERS = [
                     'inferior to the Abrahamic promise, may have spent time at the very '
                     'mountain where Torah was given \u2014 receiving a new revelation that '
                     'supersedes it.</p>'
+                )
+            },
+            {
+                'heading': 'The Jerusalem Pillars and the Two-Track Mission (2:1-10)',
+                'body': (
+                    '<p>Paul\'s account of the Jerusalem meeting (2:1-10) reveals a critical '
+                    'moment in salvation history. He went up "by revelation" (2:2) \u2014 again, '
+                    'divine initiative, not human planning \u2014 and laid before the Jerusalem '
+                    'leaders the gospel he preached to the Gentiles. The result: James, '
+                    'Cephas, and John, who were "reputed to be pillars" (styloi, 2:9), '
+                    '"added nothing" to his message (2:6). The word styloi (pillars) carries '
+                    'temple imagery: these leaders are the supporting columns of the new '
+                    'temple community. Their recognition of Paul\'s Gentile mission was not '
+                    'a concession but an acknowledgment that the divine council had '
+                    'authorized two complementary fronts in the cosmic reclamation project: '
+                    'one to Israel (under Peter), one to the disinherited nations (under '
+                    'Paul). The Deuteronomy 32 reversal was now formally underway.</p>'
                 )
             }
         ],
@@ -143,6 +228,36 @@ CHAPTERS = [
         'title': 'Justified by Faith \u2014 The Abrahamic Argument',
         'ref': 'Galatians 2:11\u20133:29',
         'period': 'ca. AD 48\u201355',
+
+        'synopsis': (
+            'Paul recounts his public confrontation with Peter at Antioch over table fellowship '
+            'with Gentiles, then launches the theological core of the letter: justification by '
+            'faith, not by works of the law. His argument is built on chronological priority -- '
+            'Abraham was declared righteous by faith 430 years before the Torah existed. The law '
+            'was a temporary paidagogos (guardian) ordained through angels until the promised Seed '
+            'arrived. The climactic declaration of Galatians 3:28 demolishes every ethnic, social, '
+            'and gender barrier that the old cosmic order enforced: in Christ, all believers are '
+            'Abraham\'s seed and heirs of the promise that was always meant for all nations.'
+        ),
+
+        'key_verse': {
+            'ref': 'Galatians 3:28-29',
+            'text': 'There is neither Jew nor Greek, there is neither slave nor free, there is no male and female, for you are all one in Christ Jesus. And if you are Christ\'s, then you are Abraham\'s offspring, heirs according to promise.',
+            'translation': 'ESV'
+        },
+
+        'ane_backdrop': (
+            'Paul\'s argument hinges on ancient Near Eastern covenant law. In both Mesopotamian and '
+            'Roman jurisprudence, a ratified covenant (diatheke/berit) could not be annulled or '
+            'amended by a later party. Paul applies this principle to the Abrahamic covenant: God '
+            'ratified his promise to Abraham with a self-maledictory oath ceremony (Genesis 15), '
+            'passing between the cut animals as a one-sided guarantor. The Sinai Torah, arriving '
+            '430 years later and mediated through angels and a human intermediary (Moses), cannot '
+            'override or add conditions to this prior ratified agreement. The legal metaphor of the '
+            'paidagogos draws directly from Greco-Roman household management, where enslaved '
+            'attendants supervised children until the age of majority set by the father.'
+        ),
+
         'summary': (
             'Paul confronts Peter at Antioch and then makes his central theological case: '
             'Abraham was justified by faith 430 years before Torah existed. The law was a '
@@ -205,6 +320,42 @@ CHAPTERS = [
                     'The entire biblical narrative traces one Seed through whom all nations '
                     'are blessed and all cosmic enemies defeated.'
                 )
+            },
+            {
+                'term': '\u1f14\u03c1\u03b3\u03b1 \u03bd\u03cc\u03bc\u03bf\u03c5',
+                'transliteration': 'erga nomou',
+                'meaning': (
+                    '"Works of the law" (2:16) \u2014 the specific Torah observances (circumcision, '
+                    'dietary laws, Sabbath, festivals) that functioned as ethnic identity markers '
+                    'separating Jews from Gentiles. The phrase appears in the Dead Sea Scrolls '
+                    'document 4QMMT, listing boundary-marking practices. Paul\'s argument: these '
+                    'works were never the basis of right standing with God. Abraham was justified '
+                    'before any of them existed.'
+                )
+            },
+            {
+                'term': '\u1f10\u03c0\u03b1\u03b3\u03b3\u03b5\u03bb\u03af\u03b1',
+                'transliteration': 'epangelia',
+                'meaning': (
+                    '"Promise" \u2014 Paul contrasts the epangelia (God\'s unconditional promise to '
+                    'Abraham) with the nomos (Torah as conditional covenant). The promise came '
+                    'directly from God with no intermediaries; the law came through angels and a '
+                    'mediator (3:19-20). Paul\'s hierarchy of covenants: the direct, unconditional '
+                    'promise outranks the mediated, conditional law. Promise is God\'s primary mode '
+                    'of relating to his people.'
+                )
+            },
+            {
+                'term': '\u03bc\u03b5\u03c3\u03af\u03c4\u03b7\u03c2',
+                'transliteration': 'mesites',
+                'meaning': (
+                    '"Mediator" (3:19-20) \u2014 Paul notes that the law was given through a mesites '
+                    '(Moses), but "a mediator implies more than one party, yet God is one." The '
+                    'argument: the Abrahamic promise was a unilateral divine guarantee needing no '
+                    'intermediary. Torah required TWO layers of mediation (angels + Moses), marking '
+                    'it as inferior to the direct promise. In the divine council framework, this '
+                    'signals that Torah belonged to the era of delegated governance.'
+                )
             }
         ],
         'sections': [
@@ -231,6 +382,24 @@ CHAPTERS = [
                     'intermediaries. The law, mediated by angels AND Moses (two layers of '
                     'intermediaries), is therefore subordinate to the direct promise. This '
                     'is NOT anti-Torah \u2014 it\'s a hierarchy of covenants.</p>'
+                )
+            },
+            {
+                'heading': 'The Baptismal Formula: "All One in Christ Jesus" (3:26-29)',
+                'body': (
+                    '<p>Galatians 3:26-29 is widely regarded as an early Christian baptismal '
+                    'confession. The threefold "neither/nor" structure (Jew/Greek, slave/free, '
+                    'male/female) dismantles the three fundamental divisions of the ancient '
+                    'world: ethnic (the Jew-Gentile divide rooted in Deuteronomy 32), social '
+                    '(the master-slave hierarchy that structured every ancient economy), and '
+                    'gender (the patriarchal ordering of household and society). Paul is not '
+                    'abolishing these distinctions at the sociological level but declaring '
+                    'that they no longer determine one\'s standing before God or membership '
+                    'in the covenant community. In the old cosmic order, your identity was '
+                    'fixed by birth, nationality, and status. In the new creation inaugurated '
+                    'by Christ, there is one identity: "you are all one in Christ Jesus." '
+                    'This is the Deuteronomy 32 reversal made personal \u2014 the nations, once '
+                    'disinherited, are now co-heirs of the Abrahamic promise.</p>'
                 )
             }
         ],
@@ -283,6 +452,39 @@ CHAPTERS = [
         'title': 'Sons, Not Slaves \u2014 Freedom from the Stoicheia',
         'ref': 'Galatians 4:1\u20135:1',
         'period': 'ca. AD 48\u201355',
+
+        'synopsis': (
+            'Paul\'s cosmic argument reaches its zenith as he introduces the stoicheia tou kosmou '
+            '-- the elemental cosmic powers that held both Jews and Gentiles in bondage before '
+            'Christ. Using the legal metaphor of a minor heir under guardians, Paul argues that '
+            'humanity\'s entire pre-Christ existence was a period of spiritual childhood governed '
+            'by intermediary powers. The incarnation at "the fullness of time" was God\'s appointed '
+            'moment to end this era of delegated governance, sending his Son to redeem those under '
+            'the law and grant huiothesia (adoption as sons) with full inheritance rights. The '
+            'Hagar-Sarah allegory reinforces the contrast between the Sinai covenant (bondage, '
+            'angelic mediation, the present Jerusalem) and the Abrahamic promise (freedom, direct '
+            'access, the Jerusalem above).'
+        ),
+
+        'key_verse': {
+            'ref': 'Galatians 4:4-5',
+            'text': 'But when the fullness of time had come, God sent forth his Son, born of woman, born under the law, to redeem those who were under the law, so that we might receive adoption as sons.',
+            'translation': 'ESV'
+        },
+
+        'ane_backdrop': (
+            'The stoicheia tou kosmou had deep resonance in the Hellenistic world. Greek philosophy '
+            'since Empedocles identified the stoicheia as the four elemental building blocks of '
+            'the cosmos (earth, water, air, fire), which in popular religion were associated with '
+            'governing deities. Hellenistic astrology further linked the stoicheia to celestial '
+            'bodies (planets, stars) believed to control human destiny through cosmic determinism. '
+            'Paul\'s Galatian audience, raised in this Greco-Roman milieu, would have understood '
+            'the stoicheia as real spiritual forces governing their lives. Paul\'s adoption metaphor '
+            'draws on Roman law, where the patria potestas gave the father absolute authority to '
+            'set the date of a son\'s legal maturity and to adopt outsiders into the family with '
+            'full inheritance rights -- severing all previous legal bonds.'
+        ),
+
         'summary': (
             'Paul\'s cosmic argument reaches its peak: before Christ, both Jews and Gentiles '
             'were enslaved to the stoicheia tou kosmou (elemental cosmic powers). God sent '
@@ -349,6 +551,40 @@ CHAPTERS = [
                     'The Spirit of the Son enables believers to address the Most High with the same '
                     'intimacy Jesus did \u2014 an extraordinary claim of direct access to the divine throne.'
                 )
+            },
+            {
+                'term': '\u03c0\u03bb\u03ae\u03c1\u03c9\u03bc\u03b1 \u03c4\u03bf\u1fe6 \u03c7\u03c1\u03cc\u03bd\u03bf\u03c5',
+                'transliteration': 'pleroma tou chronou',
+                'meaning': (
+                    '"Fullness of time" (4:4) \u2014 the divinely appointed moment when the period '
+                    'of cosmic guardianship reached its end. This is not merely historical timing '
+                    '(Roman roads, Greek language, Pax Romana) but a theological statement: God\'s '
+                    'cosmic calendar had an appointed moment for the transition from the governance '
+                    'of the stoicheia to the direct rule of the Son. The incarnation was the execution '
+                    'of a decree determined in the divine council before creation.'
+                )
+            },
+            {
+                'term': '\u1f10\u03c0\u03af\u03c4\u03c1\u03bf\u03c0\u03bf\u03c2',
+                'transliteration': 'epitropos',
+                'meaning': (
+                    '"Guardian" or "trustee" (4:2) \u2014 in Greco-Roman law, an epitropos managed '
+                    'a minor\'s estate and person until the age set by the father. Paul uses this '
+                    'to describe the stoicheia\'s role: they were legitimate guardians during '
+                    'humanity\'s spiritual minority, but their authority had a built-in expiration '
+                    'date. When the Son came, the guardians\' custodial role ended.'
+                )
+            },
+            {
+                'term': '\u1f04\u03bd\u03c9 \u1f39\u03b5\u03c1\u03bf\u03c5\u03c3\u03b1\u03bb\u03ae\u03bc',
+                'transliteration': 'ano Ierousalem',
+                'meaning': (
+                    '"The Jerusalem above" (4:26) \u2014 Paul contrasts the earthly Jerusalem (aligned '
+                    'with Hagar/Sinai/slavery) with the heavenly Jerusalem (aligned with Sarah/promise/'
+                    'freedom). This "city above" is the true capital of God\'s people, the dwelling place '
+                    'of the divine council. It anticipates Hebrews 12:22 ("the city of the living God, '
+                    'the heavenly Jerusalem") and Revelation 21 (the new Jerusalem descending from heaven).'
+                )
             }
         ],
         'sections': [
@@ -375,6 +611,22 @@ CHAPTERS = [
                     'the precise moment in cosmic history when the transition from old governance '
                     'to new governance was to occur. The incarnation is not a reaction to failure \u2014 '
                     'it is the execution of a plan determined in the divine council before creation.</p>'
+                )
+            },
+            {
+                'heading': '"For Freedom Christ Has Set Us Free" (5:1) \u2014 The Thesis Restated',
+                'body': (
+                    '<p>Galatians 5:1 functions as both the conclusion of the stoicheia argument '
+                    'and the bridge to the ethical section. "For freedom Christ has set us free; '
+                    'stand firm therefore, and do not submit again to a yoke of slavery." The '
+                    '"yoke of slavery" is not Torah in the abstract but Torah as a system of '
+                    'cosmic governance administered by the stoicheia. Paul\'s concern is not '
+                    'moral laxity but cosmic regression: to adopt Torah-keeping for justification '
+                    'is to voluntarily return to the guardianship of spiritual powers whose '
+                    'custodial authority has expired. Freedom in Christ is not the absence of '
+                    'authority but the presence of a new, direct, and unmediated relationship '
+                    'with God through the Spirit of the Son. The old system of intermediaries '
+                    'has been replaced by the cry "Abba, Father" rising from within.</p>'
                 )
             }
         ],
@@ -431,6 +683,39 @@ CHAPTERS = [
         'title': 'Walking by the Spirit \u2014 The New Governance',
         'ref': 'Galatians 5:2\u20136:18',
         'period': 'ca. AD 48\u201355',
+
+        'synopsis': (
+            'Paul transitions from cosmic theology to lived ethics, demonstrating that freedom '
+            'from the stoicheia is not moral anarchy but a new mode of governance by the Spirit. '
+            'The "works of the flesh" catalog the fruit of life under the old cosmic order -- '
+            'idolatry, pharmakeia (sorcery), division, and rivalry. The singular "fruit of the '
+            'Spirit" -- love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, '
+            'self-control -- represents the unified character that the Spirit produces where Torah '
+            'could not. Paul closes with "the law of Christ" (mutual burden-bearing) as the '
+            'governance principle of the new creation, and his final declaration that the cross '
+            'has crucified the kosmos itself -- the old order governed by the stoicheia is dead, '
+            'and a kaine ktisis (new creation) has begun.'
+        ),
+
+        'key_verse': {
+            'ref': 'Galatians 6:14-15',
+            'text': 'But far be it from me to boast except in the cross of our Lord Jesus Christ, by which the world has been crucified to me, and I to the world. For neither circumcision counts for anything, nor uncircumcision, but a new creation.',
+            'translation': 'ESV'
+        },
+
+        'ane_backdrop': (
+            'Paul\'s vice and virtue lists parallel a well-established Greco-Roman literary '
+            'convention. Stoic philosophers like Seneca and Epictetus cataloged vices and virtues '
+            'in similar formats. However, Paul\'s lists differ in their source of transformation: '
+            'where Stoics attributed virtue to rational self-mastery (autarkeia), Paul attributes '
+            'the fruit of the Spirit to divine indwelling. The inclusion of pharmakeia (sorcery/'
+            'drug-based magic) in the vice list targets a specific Hellenistic practice -- the use '
+            'of potions, incantations, and ritual substances to manipulate spiritual forces. In the '
+            'ancient world, pharmakeia was a means of accessing and bargaining with the stoicheia '
+            'through illicit channels, a practice widespread in Asia Minor where the Galatian '
+            'churches were located.'
+        ),
+
         'summary': (
             'Paul moves from theology to ethics: freedom from the stoicheia means walking '
             'by the Spirit. The fruit of the Spirit replaces the works of the law as the '
@@ -490,6 +775,41 @@ CHAPTERS = [
                     'of this new creation, living under new governance (the Spirit) in a world '
                     'where the old authorities are being displaced.'
                 )
+            },
+            {
+                'term': '\u03c0\u03bd\u03b5\u1fe6\u03bc\u03b1',
+                'transliteration': 'pneuma',
+                'meaning': (
+                    '"Spirit" \u2014 Paul uses pneuma 18 times in Galatians 5-6, contrasting the '
+                    'Spirit with sarx (flesh). The Spirit is not a vague force but the personal '
+                    'presence of God directing the believer\'s life from within. In the divine '
+                    'council framework, the Spirit replaces the stoicheia as the governing '
+                    'authority over believers: instead of external cosmic powers regulating '
+                    'behavior through law, God\'s own Spirit produces character from the inside.'
+                )
+            },
+            {
+                'term': '\u03c3\u03c4\u03af\u03b3\u03bc\u03b1\u03c4\u03b1',
+                'transliteration': 'stigmata',
+                'meaning': (
+                    '"Marks" or "brands" (6:17) \u2014 Paul says he bears on his body "the marks '
+                    'of Jesus." In the ancient world, stigmata were brands burned into the skin '
+                    'of slaves, soldiers, or devotees of a deity, marking ownership. Against the '
+                    'agitators who boast in circumcision (a flesh-mark for Torah), Paul points to '
+                    'his scars from beatings and stonings as the true marks of belonging to Christ. '
+                    'His body bears the brand of the crucified Lord, not the mark of the old covenant.'
+                )
+            },
+            {
+                'term': '\u03bd\u03cc\u03bc\u03bf\u03c2 \u03c4\u03bf\u1fe6 \u03a7\u03c1\u03b9\u03c3\u03c4\u03bf\u1fe6',
+                'transliteration': 'nomos tou Christou',
+                'meaning': (
+                    '"The law of Christ" (6:2) \u2014 after arguing against Torah-based justification, '
+                    'Paul introduces a new "law." This is not a legal code but a relational '
+                    'principle: mutual burden-bearing rooted in love (5:14). The "law of Christ" '
+                    'is the governance ethic of the new creation, where the Spirit internally '
+                    'produces what external regulations never could.'
+                )
             }
         ],
         'sections': [
@@ -514,6 +834,24 @@ CHAPTERS = [
                     'This is the governance principle of the new creation: not external '
                     'regulations enforced by cosmic mediators, but internal transformation '
                     'producing love as the natural expression of the Spirit\'s presence.</p>'
+                )
+            },
+            {
+                'heading': 'The Cross and the Crucified Kosmos (6:14-15)',
+                'body': (
+                    '<p>Paul\'s closing theological statement is among the most sweeping in the '
+                    'NT: "The world has been crucified to me, and I to the world" (6:14). The '
+                    'word <i>kosmos</i> here is not the physical planet but the entire system '
+                    'of cosmic governance \u2014 the world as organized and administered by the '
+                    'stoicheia. The cross did not merely save individuals; it executed the old '
+                    'cosmic order. The "new creation" (6:15) that has replaced it operates on '
+                    'entirely different principles: not ethnicity (circumcision/uncircumcision), '
+                    'not law (Torah observance), not cosmic intermediaries (the stoicheia), '
+                    'but the direct presence of the Spirit producing the character of God in '
+                    'human beings. Paul\'s final benediction invokes peace on "the Israel of '
+                    'God" (6:16) \u2014 a controversial phrase that most likely refers to the '
+                    'entire believing community, Jew and Gentile alike, who walk by this new '
+                    'creation principle.</p>'
                 )
             }
         ],

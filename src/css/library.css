@@ -327,6 +327,54 @@
     color: var(--text-muted);
 }
 
+/* Continue Reading — header with clear all */
+.library-recent-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.library-recent-header .library-recent-heading {
+    margin: 0;
+}
+.recent-clear-all {
+    background: none;
+    border: 1px solid rgba(201,168,76,0.25);
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.recent-clear-all:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+}
+
+/* Continue Reading — remove button on cards */
+.recent-remove-btn {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.15s, color 0.15s;
+    padding: 2px 6px;
+    z-index: 2;
+}
+.library-recent-card:hover .recent-remove-btn {
+    opacity: 1;
+}
+.recent-remove-btn:hover {
+    color: #e74c3c;
+}
+
 /* ── Progress Bars (Release Mode) ───────────── */
 .progress-bar-row {
     margin-bottom: 10px;

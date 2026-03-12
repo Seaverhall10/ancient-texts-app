@@ -590,7 +590,7 @@
     },
     {
       "id": "heavenly_court",
-      "name": "The Heavenly Court",
+      "name": "Divine Council & Heavenly Court",
       "category": "thematic",
       "language": "multi",
       "chapters": 23,
@@ -598,7 +598,31 @@
       "data_dir": "heavenly_court",
       "content_type": "html_fragment",
       "interlinear": null,
-      "description": "A grammatical & theological deep dive into the divine council worldview"
+      "description": "The complete deep-dive study — the divine council worldview from Genesis to Revelation"
+    },
+    {
+      "id": "messianic_thread",
+      "name": "The Messianic Thread",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 12,
+      "color": "#5a9a6a",
+      "data_dir": "messianic_thread",
+      "content_type": "html_fragment",
+      "interlinear": null,
+      "description": "Follow the Seed promise from Genesis 3:15 through every major prophecy to its fulfillment in Christ"
+    },
+    {
+      "id": "nephilim_giants",
+      "name": "Nephilim & Giants",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 10,
+      "color": "#a05a54",
+      "data_dir": "nephilim_giants",
+      "content_type": "html_fragment",
+      "interlinear": null,
+      "description": "Track the giant bloodlines from Genesis 6 through conquest, David's battles, and Second Temple traditions"
     },
     {
       "id": "job",
@@ -2753,6 +2777,96 @@
         "Narnia",
         "Marvel",
         "Nephilim in entertainment"
+      ]
+    },
+    {
+      "id": "messianic_protoevangelium",
+      "text": "messianic_thread",
+      "name": "Part I: The Seed Promise",
+      "chapters": "Chapters 1–4",
+      "color": "#5a9a6a",
+      "icon": "I",
+      "data_file": "era_messianic_seed",
+      "themes": [
+        "Protoevangelium",
+        "Abrahamic covenant",
+        "Binding of Isaac",
+        "Judah's scepter"
+      ]
+    },
+    {
+      "id": "messianic_prophets",
+      "text": "messianic_thread",
+      "name": "Part II: The Prophetic Voice",
+      "chapters": "Chapters 5–8",
+      "color": "#5a9a6a",
+      "icon": "II",
+      "data_file": "era_messianic_prophets",
+      "themes": [
+        "Prophet like Moses",
+        "Psalm 22",
+        "Suffering Servant",
+        "Seventy Weeks"
+      ]
+    },
+    {
+      "id": "messianic_fulfillment",
+      "text": "messianic_thread",
+      "name": "Part III: Fulfillment",
+      "chapters": "Chapters 9–12",
+      "color": "#5a9a6a",
+      "icon": "III",
+      "data_file": "era_messianic_fulfillment",
+      "themes": [
+        "Virgin birth",
+        "Word made flesh",
+        "Crucifixion",
+        "King of Kings"
+      ]
+    },
+    {
+      "id": "nephilim_origin",
+      "text": "nephilim_giants",
+      "name": "Part I: Origins & The Flood",
+      "chapters": "Chapters 1–4",
+      "color": "#a05a54",
+      "icon": "I",
+      "data_file": "era_nephilim_origin",
+      "themes": [
+        "Sons of God",
+        "Nephilim origin",
+        "Watcher rebellion",
+        "Flood judgment"
+      ]
+    },
+    {
+      "id": "nephilim_conquest",
+      "text": "nephilim_giants",
+      "name": "Part II: Giant Clans & Conquest",
+      "chapters": "Chapters 5–7",
+      "color": "#a05a54",
+      "icon": "II",
+      "data_file": "era_nephilim_conquest",
+      "themes": [
+        "Anakim",
+        "Rephaim",
+        "Og of Bashan",
+        "Joshua's campaign"
+      ]
+    },
+    {
+      "id": "nephilim_david",
+      "text": "nephilim_giants",
+      "name": "Part III: David's Giant Slayers & Legacy",
+      "chapters": "Chapters 8–10",
+      "color": "#a05a54",
+      "icon": "III",
+      "data_file": "era_nephilim_david",
+      "themes": [
+        "Goliath",
+        "David's mighty men",
+        "Second Temple traditions",
+        "Book of Giants"
       ]
     },
     {

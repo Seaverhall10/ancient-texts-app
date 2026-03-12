@@ -15,6 +15,40 @@ CHAPTERS = [
             'a hostile world. He calls them to holiness, describes their redemption through '
             'Christ\'s blood, and declares them a "royal priesthood, a holy nation."'
         ),
+
+        'synopsis': (
+            "Peter opens his letter to the scattered churches of Asia Minor with a profound "
+            "double identity: they are 'elect exiles' (eklektoi parepidemos) \u2014 chosen by "
+            "God's sovereign decision yet living as foreigners in territory still governed by "
+            "hostile cosmic powers. Their redemption is described in cosmic terms: ransomed not "
+            "with silver or gold but with Christ's blood from the 'futile ways inherited from "
+            "your forefathers' \u2014 the pagan worship systems rooted in the Deuteronomy 32 "
+            "allotment. The climactic declaration of 2:9 applies Israel's Sinai identity to "
+            "Gentile believers: 'a chosen race, a royal priesthood, a holy nation, a people "
+            "for his own possession.' This is the Deuteronomy 32 reversal made ecclesial \u2014 the "
+            "nations once allotted to lesser gods are now reconstituted as YHWH's own people."
+        ),
+
+        'key_verse': {
+            'ref': '1 Peter 2:9',
+            'text': 'But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light.',
+            'translation': 'ESV'
+        },
+
+        'ane_backdrop': (
+            "The provinces listed in 1:1 (Pontus, Galatia, Cappadocia, Asia, Bithynia) cover "
+            "most of Asia Minor, a region with extraordinarily diverse religious landscapes. "
+            "Artemis worship dominated Ephesus and the province of Asia. The imperial cult was "
+            "pervasive everywhere: the first provincial temple to Roma and Augustus was built in "
+            "Pergamum in 29 BC. Local Anatolian mother-goddess cults (Cybele, Ma) persisted "
+            "alongside Greco-Roman imports. Jewish diaspora communities existed in most major "
+            "cities. The concept of 'sojourners and exiles' (paroikoi kai parepidemos, 2:11) "
+            "had legal weight in the Roman world: paroikoi were resident aliens without citizenship "
+            "rights, vulnerable to exploitation and suspicion. Peter transforms this social "
+            "disadvantage into a theological identity: believers are aliens not because they lack "
+            "Roman citizenship but because their true citizenship is in the heavenly kingdom."
+        ),
+
         'body': (
             '<p>Peter opens by addressing the "elect exiles of the Dispersion in Pontus, '
             'Galatia, Cappadocia, Asia, and Bithynia" (1:1). Every word is loaded with '
@@ -70,6 +104,43 @@ CHAPTERS = [
                     'the community of believers IS the new temple. Christ is the "cornerstone" '
                     '(akrogoniaios, 2:6); believers are the living stones built upon him.'
                 )
+            },
+            {
+                'term': '\u03b4\u03b9\u03b1\u03c3\u03c0\u03bf\u03c1\u1fb6\u03c2',
+                'transliteration': 'diasporas',
+                'meaning': (
+                    '"Dispersion/diaspora" (1:1) \u2014 the technical term for Jews scattered '
+                    'among the nations after the Babylonian exile. Peter applies it to Gentile '
+                    'Christians: they are a new diaspora, God\'s people scattered in territory '
+                    'governed by other powers. Just as Israel in exile maintained allegiance to '
+                    'YHWH while surrounded by foreign gods, these believers maintain their '
+                    'heavenly citizenship while living in the provinces of pagan Asia Minor.'
+                )
+            },
+            {
+                'term': '\u03c0\u03b1\u03c1\u03b1\u03ba\u03cd\u03c8\u03b1\u03b9',
+                'transliteration': 'parakypsai',
+                'meaning': (
+                    '"To stoop down and peer into" (1:12) \u2014 used of angels who "long to look '
+                    'into" the gospel. The verb describes someone bending over to see inside '
+                    'a container or through a window. Angels \u2014 members of the divine council \u2014 '
+                    'are fascinated by the gospel of salvation. The mystery of incarnation, '
+                    'crucifixion, and resurrection for fallen humans was something even the '
+                    'heavenly beings did not fully comprehend. This is one of the most remarkable '
+                    'statements about angels in the NT.'
+                )
+            },
+            {
+                'term': '\u03bc\u03b1\u03c4\u03b1\u03af\u03b1\u03c2 \u1f00\u03bd\u03b1\u03c3\u03c4\u03c1\u03bf\u03c6\u1fc6\u03c2',
+                'transliteration': 'mataias anastrophes',
+                'meaning': (
+                    '"Futile ways of life" (1:18) \u2014 mataios means "empty, vain, worthless." '
+                    'Peter says believers were ransomed from the "futile ways inherited from '
+                    'your forefathers" \u2014 the ancestral pagan religious practices. In the LXX, '
+                    'mataia often describes idol worship (Jer 2:5, 10:15). The "futile ways" are '
+                    'not just bad habits but the entire religious system of the nations under the '
+                    'governance of the lesser gods allotted in Deuteronomy 32:8.'
+                )
             }
         ],
         'sections': [
@@ -84,6 +155,46 @@ CHAPTERS = [
                     'but the mystery of incarnation, crucifixion, and resurrection for fallen '
                     'humans was something even they didn\'t fully comprehend. This is one of '
                     'the most remarkable statements about angels in the NT.</p>'
+                )
+            },
+            {
+                'heading': 'The Ransom from Futile Ways (1:17-21)',
+                'body': (
+                    '<p>Peter describes the believer\'s redemption using marketplace and temple '
+                    'language: "You were ransomed (<i>elytroothete</i>) from the futile ways '
+                    'inherited from your forefathers, not with perishable things such as silver '
+                    'or gold, but with the precious blood of Christ, like that of a lamb without '
+                    'blemish or spot" (1:18-19). The word <i>lytroo</i> ("to ransom, to redeem") '
+                    'comes from the slave market: paying a price to free someone from bondage. '
+                    'The "futile ways" (<i>mataias anastrophes</i>) are the ancestral pagan '
+                    'practices \u2014 not merely bad habits but the entire religious system of the '
+                    'nations under the governance of the lesser gods. The ransom price is not '
+                    'perishable currency but the blood of the ultimate Passover lamb. Christ was '
+                    '"foreknown before the foundation of the world" (1:20) \u2014 this is a divine '
+                    'council decision made before creation, now revealed at the climax of history. '
+                    'The transfer from one cosmic jurisdiction to another required a price that '
+                    'transcended the material world: only the blood of the divine Son could '
+                    'purchase freedom from the powers that held the nations in bondage.</p>'
+                )
+            },
+            {
+                'heading': 'The Deuteronomy 32 Reversal: "Once Not a People" (2:9-10)',
+                'body': (
+                    '<p>Peter\'s declaration in 2:9-10 is among the most theologically dense '
+                    'statements in the NT. He quotes Exodus 19:5-6 ("a kingdom of priests, a '
+                    'holy nation") and Hosea 2:23 ("not my people" becomes "my people") and '
+                    'applies both to Gentile believers. The significance in the divine council '
+                    'framework is immense: at Sinai, YHWH constituted Israel as his own priestly '
+                    'nation while the other nations were allotted to the sons of God (Deut '
+                    '32:8-9). Israel was YHWH\'s special portion (<i>merida</i>). Now, through '
+                    'Christ, people FROM those very nations \u2014 the ones who were "not a people" '
+                    '(<i>ou laos</i>), who "had not received mercy" \u2014 are being reconstituted '
+                    'as YHWH\'s own people. This is not replacement theology but expansion: the '
+                    'boundaries of YHWH\'s portion are being pushed outward to encompass what was '
+                    'previously under the jurisdiction of lesser gods. The old Babel-division is '
+                    'being undone. The Gentile believers are called "out of darkness into his '
+                    'marvelous light" (2:9) \u2014 out of the domain of the powers and into the '
+                    'luminous presence of YHWH himself.</p>'
                 )
             }
         ],
@@ -143,6 +254,41 @@ CHAPTERS = [
             'the spirits in prison" \u2014 the imprisoned Watchers of Genesis 6. He now sits at '
             'God\'s right hand with all cosmic powers subjected to him.'
         ),
+
+        'synopsis': (
+            "This central section of 1 Peter contains perhaps the single most comprehensive "
+            "divine council christology passage in the entire NT: 3:18-22. After practical "
+            "instructions on submission to governing authorities and household relationships, "
+            "Peter drops a theological bombshell: Christ, after his death, 'went and proclaimed "
+            "(ekerryxen) to the spirits (pneumasin) in prison (phylake)' \u2014 the imprisoned "
+            "Watchers of Genesis 6:1-4 who are detained in chains of darkness awaiting judgment "
+            "(1 Enoch 10-16; Jude 6; 2 Peter 2:4). Christ's proclamation was not an offer of "
+            "salvation but a victory announcement: the plan they tried to corrupt through the "
+            "Nephilim has succeeded. The passage climaxes with Christ enthroned at God's right "
+            "hand, with 'angels, authorities, and powers having been subjected to him' (3:22)."
+        ),
+
+        'key_verse': {
+            'ref': '1 Peter 3:18-19',
+            'text': 'For Christ also suffered once for sins, the righteous for the unrighteous, that he might bring us to God, being put to death in the flesh but made alive in the spirit, in which he went and proclaimed to the spirits in prison.',
+            'translation': 'ESV'
+        },
+
+        'ane_backdrop': (
+            "The concept of a victorious deity descending to the underworld to confront "
+            "imprisoned enemies appears across Ancient Near Eastern mythology. In the Sumerian "
+            "Descent of Inanna, the goddess descends through seven gates to the underworld to "
+            "confront her sister Ereshkigal. In the Baal Cycle from Ugarit, Baal descends to "
+            "the realm of Mot (Death) and ultimately triumphs. In Greco-Roman tradition, the "
+            "katabasis (descent to the underworld) was a heroic motif: Odysseus, Aeneas, and "
+            "Heracles all journey to Hades. Peter fills this widespread mythological pattern with "
+            "specifically biblical content: Christ descends not to be tested or to rescue human "
+            "souls but to announce victory over the rebellious divine beings imprisoned since "
+            "before the Flood. The baptism typology (3:20-21) connects the waters of judgment "
+            "(the Flood that destroyed the Nephilim world) with the waters of salvation "
+            "(baptism as passage through cosmic judgment into new creation)."
+        ),
+
         'body': (
             '<p>After practical instructions on submission to governing authorities (2:13-17), '
             'household relationships (2:18-3:7), and suffering for doing good (3:8-17), Peter '
@@ -205,6 +351,45 @@ CHAPTERS = [
                     'of spiritual being is under his authority. The verb hypotasso means "to place '
                     'under" or "to subordinate" \u2014 a military/administrative term for chain of command.'
                 )
+            },
+            {
+                'term': '\u1f51\u03c0\u03bf\u03c4\u03b1\u03b3\u03ad\u03bd\u03c4\u03c9\u03bd',
+                'transliteration': 'hypotagenton',
+                'meaning': (
+                    '"Having been subjected" (3:22) \u2014 aorist passive participle of hypotasso, '
+                    '"to arrange under, to place in subordination." The passive voice is critical: '
+                    'the powers did not voluntarily submit. They were PLACED under Christ\'s authority '
+                    'by God\'s sovereign action. This is forced pacification, not willing allegiance. '
+                    'The military overtone is unmistakable: these are defeated forces placed under '
+                    'the command structure of the victor. The same verb is used in 1 Cor 15:27-28 '
+                    'for the subjection of all things under Christ\'s feet.'
+                )
+            },
+            {
+                'term': '\u1f00\u03bd\u03c4\u03af\u03c4\u03c5\u03c0\u03bf\u03bd',
+                'transliteration': 'antitypon',
+                'meaning': (
+                    '"Antitype/corresponding type" (3:21) \u2014 Peter says baptism "corresponds to" '
+                    '(antitypon) the Flood as a means of salvation. The typos/antitypos framework '
+                    'means the Flood was the original pattern (type) and baptism is its fulfillment '
+                    '(antitype). Both involve passing through waters of judgment to emerge on the '
+                    'other side: Noah through the Flood into a cleansed world, believers through '
+                    'baptism into new life in Christ. The typology binds the cosmic judgment of '
+                    'Genesis 6-8 to the individual believer\'s entrance into the community.'
+                )
+            },
+            {
+                'term': '\u03c3\u03c5\u03bd\u03b5\u03af\u03b4\u03b7\u03c3\u03b9\u03c2 \u1f00\u03b3\u03b1\u03b8\u03ae',
+                'transliteration': 'syneidesis agathe',
+                'meaning': (
+                    '"Good conscience" (3:16, 21) \u2014 syneidesis means "consciousness, moral '
+                    'awareness." Peter defines baptism not as physical washing but as "an appeal '
+                    'to God for a good conscience, through the resurrection of Jesus Christ" (3:21). '
+                    'The conscience is cleansed not by the water itself but by participation in '
+                    'Christ\'s resurrection \u2014 the same event that gave him authority to proclaim '
+                    'victory to the imprisoned spirits. The believer\'s baptismal "appeal" is a '
+                    'pledge of allegiance to the victorious King.'
+                )
             }
         ],
         'sections': [
@@ -236,6 +421,25 @@ CHAPTERS = [
                     'while preserving Noah), believers are saved THROUGH the waters of baptism '
                     '(which represents death to the old order and resurrection to the new). '
                     'Both involve passing through cosmic judgment to emerge on the other side.</p>'
+                )
+            },
+            {
+                'heading': 'Suffering for Righteousness and the Example of Christ (2:18\u20133:17)',
+                'body': (
+                    '<p>Before the "spirits in prison" passage, Peter establishes a crucial '
+                    'pattern: unjust suffering borne with faithfulness follows the example of '
+                    'Christ himself. "For to this you have been called, because Christ also '
+                    'suffered for you, leaving you an example, so that you might follow in his '
+                    'steps" (2:21). Peter draws heavily on Isaiah 53: Christ "committed no sin, '
+                    'neither was deceit found in his mouth" (2:22; cf. Isa 53:9). "He himself '
+                    'bore our sins in his body on the tree" (2:24; cf. Isa 53:4, 12). This '
+                    'Suffering Servant christology sets up the cosmic victory of 3:18-22: the '
+                    'same Christ who suffered unjustly and bore sins is the one who descended '
+                    'to proclaim victory over the imprisoned spirits and ascended to God\'s right '
+                    'hand. The suffering is not meaningless; it is the path to cosmic triumph. '
+                    'Peter tells his persecuted readers: your suffering follows the same pattern. '
+                    'The one who suffered unjustly is now enthroned above every power. Your '
+                    'suffering, endured in faith, participates in that same victory.</p>'
                 )
             }
         ],
@@ -302,6 +506,42 @@ CHAPTERS = [
             'instructs elders to shepherd the flock, warns against the devil who "prowls '
             'like a roaring lion," and promises the "crown of glory" at Christ\'s appearing.'
         ),
+
+        'synopsis': (
+            "The final section of 1 Peter brings the cosmic theology of the earlier chapters "
+            "into the furnace of lived experience. The 'fiery trial' (pyrosis) facing these "
+            "believers may refer to the early stages of Nero's persecution, which included the "
+            "literal burning of Christians as human torches. Peter's pastoral response weaves "
+            "together three threads: (1) suffering is participation in Christ's sufferings, not "
+            "evidence of divine abandonment; (2) the community must be shepherded by elders who "
+            "serve under Christ, the 'Chief Shepherd' (archipoimen); and (3) the devil \u2014 the "
+            "antidikos (legal adversary) of God's court \u2014 prowls like a roaring lion seeking to "
+            "devour, but he is a defeated accuser whose legal standing has been revoked by the "
+            "cross. The letter closes with the promise of the 'unfading crown of glory' when "
+            "the Chief Shepherd appears."
+        ),
+
+        'key_verse': {
+            'ref': '1 Peter 5:8-9',
+            'text': 'Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour. Resist him, firm in your faith, knowing that the same kinds of suffering are being experienced by your brotherhood throughout the world.',
+            'translation': 'ESV'
+        },
+
+        'ane_backdrop': (
+            "Lions were the supreme symbol of destructive royal power throughout the Ancient "
+            "Near East. Assyrian kings like Ashurbanipal depicted themselves hunting lions in "
+            "elaborate palace reliefs as proof of their dominion over chaos and wild nature. "
+            "In Mesopotamian iconography, the lion represented both royal authority and terrifying "
+            "destruction. In the Roman arena, Christians were literally thrown to lions as public "
+            "spectacle \u2014 Ignatius of Antioch would later describe his own anticipated martyrdom "
+            "as being 'ground by the teeth of beasts.' Peter's image of the devil as a prowling, "
+            "roaring lion would have been grimly concrete for his audience. Yet the greater "
+            "irony stands: the Lion of Judah (Rev 5:5) has already conquered. The devil prowls "
+            "as a predator, but his prey has a defender. The accuser who once held legal standing "
+            "in God's court (Job 1-2; Zech 3:1) now operates as a rogue agent outside the "
+            "council's authorization, seeking by force what he can no longer achieve by law."
+        ),
+
         'body': (
             '<p>"Beloved, do not be surprised at the fiery trial when it comes upon you to '
             'test you, as though something strange were happening to you. But rejoice insofar '
@@ -347,6 +587,58 @@ CHAPTERS = [
                     'to the church: Christ rules as King-Shepherd; human leaders serve as '
                     'under-shepherds accountable to him.'
                 )
+            },
+            {
+                'term': '\u03c0\u03cd\u03c1\u03c9\u03c3\u03b9\u03c2',
+                'transliteration': 'pyrosis',
+                'meaning': (
+                    '"Fiery trial/burning" (4:12) \u2014 from pyr, "fire." Peter says: "do not be '
+                    'surprised at the fiery trial when it comes upon you to test you." The word '
+                    'can mean a literal burning or a metaphorical refining fire. Given the historical '
+                    'context of Nero\'s persecution \u2014 Tacitus reports Christians being coated in pitch '
+                    'and set ablaze as garden torches \u2014 the term may be tragically literal. In the OT, '
+                    'fire is the instrument of divine testing and purification (Mal 3:2-3; Isa 48:10). '
+                    'Peter reframes persecution as the divine refiner\'s fire.'
+                )
+            },
+            {
+                'term': '\u03c3\u03c4\u03ad\u03c6\u03b1\u03bd\u03bf\u03c2 \u03c4\u1fc6\u03c2 \u03b4\u03cc\u03be\u03b7\u03c2',
+                'transliteration': 'stephanos tes doxes',
+                'meaning': (
+                    '"Crown of glory" (5:4) \u2014 the stephanos was the wreath awarded to victors '
+                    'in athletic games and military triumphs. Peter calls it "unfading" '
+                    '(amarantinos), contrasting it with the perishable laurel wreaths of Greco-Roman '
+                    'awards. The crown imagery connects to royal investiture: faithful elders who '
+                    'shepherd through persecution will receive the royal wreath when the Chief '
+                    'Shepherd appears. This is divine council reward \u2014 the enthroned King honoring '
+                    'his faithful servants.'
+                )
+            },
+            {
+                'term': '\u03b4\u03b9\u03ac\u03b2\u03bf\u03bb\u03bf\u03c2',
+                'transliteration': 'diabolos',
+                'meaning': (
+                    '"Devil/slanderer" (5:8) \u2014 from diaballein, "to throw across, to slander, '
+                    'to accuse falsely." The Greek diabolos translates the Hebrew ha-satan ("the '
+                    'accuser/adversary"). In the divine council framework, the satan served as '
+                    'the authorized prosecutor in YHWH\'s heavenly court (Job 1-2; Zech 3:1). '
+                    'After Christ\'s victory (3:22), his legal standing has been revoked. He is '
+                    'now a rogue agent \u2014 still dangerous ("roaring lion") but legally defeated. '
+                    'He seeks by intimidation and force what he can no longer achieve by accusation.'
+                )
+            },
+            {
+                'term': '\u1f00\u03bd\u03c4\u03af\u03c3\u03c4\u03b7\u03c4\u03b5',
+                'transliteration': 'antistete',
+                'meaning': (
+                    '"Resist" (5:9) \u2014 from anthistemi, "to set against, to stand firm against." '
+                    'A military term for holding one\'s ground against an advancing enemy. Peter '
+                    'does not tell believers to attack the devil or to flee from him but to STAND '
+                    'FIRM. The defense is faith \u2014 not mystical technique or ritual power but '
+                    'unwavering trust in the God who has already subjected the cosmic powers to '
+                    'Christ (3:22). James 4:7 uses the same verb: "Resist the devil, and he will '
+                    'flee from you."'
+                )
             }
         ],
         'sections': [
@@ -372,6 +664,27 @@ CHAPTERS = [
                     'image may have been grimly literal for his audience. But the key verb '
                     'is "seeking" (<i>zetei</i>) \u2014 the lion is looking for prey but does NOT '
                     'automatically succeed. Resistance through faith is the defense.</p>'
+                )
+            },
+            {
+                'heading': '"The God of All Grace" \u2014 Cosmic Restoration (5:10-11)',
+                'body': (
+                    '<p>Peter closes with one of the most reassuring promises in the NT: '
+                    '"And after you have suffered a little while, the God of all grace, who '
+                    'has called you to his eternal glory in Christ, will himself restore, '
+                    'confirm, strengthen, and establish you" (5:10). Four verbs of divine '
+                    'action: <i>katartisei</i> (restore \u2014 to mend what is broken, used for '
+                    'setting fractured bones and mending torn nets), <i>sterixei</i> (confirm '
+                    '\u2014 to make firm, immovable), <i>sthenoosei</i> (strengthen \u2014 to fill with '
+                    'inner power), and <i>themelioosei</i> (establish \u2014 to lay a foundation). '
+                    'The suffering is "a little while" (<i>oligon</i>) compared to the "eternal '
+                    'glory" (<i>aionion doxan</i>) that awaits. This is not minimizing their '
+                    'pain but placing it in the cosmic timeline: the fiery trial is a moment; '
+                    'the glory is forever. The "God of all grace" is the divine council sovereign '
+                    'who personally intervenes to rebuild what persecution has damaged. The '
+                    'doxology that follows \u2014 "To him be the dominion (<i>kratos</i>) forever and '
+                    'ever. Amen" (5:11) \u2014 affirms that ultimate power belongs not to Caesar, '
+                    'not to the prowling lion, but to the God who restores his suffering people.</p>'
                 )
             }
         ],

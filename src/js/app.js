@@ -235,10 +235,10 @@
     var STUDY_TRAILS = [
         {
             id: 'divine-council',
-            name: 'The Divine Council',
+            name: 'Divine Council & Heavenly Court',
             icon: '\u2727',
             color: '#c9a84c',
-            desc: 'Trace the heavenly court from creation through the New Testament \u2014 how God governs through a council of divine beings.',
+            desc: 'The complete deep-dive study \u2014 trace how God governs through a council of divine beings, from creation through the New Testament.',
             steps: [
                 { chId: 'gen-1', label: 'Genesis 1 \u2014 "Let Us Make"', why: 'The plural of divine deliberation' },
                 { chId: 'gen-6-1-4', label: 'Genesis 6:1\u20134 \u2014 Sons of God', why: 'Divine beings cross the boundary' },
@@ -1487,7 +1487,10 @@
         var recentTexts = JSON.parse(localStorage.getItem('atl-recent-texts') || '[]');
         if (recentTexts.length > 0) {
             html += '<div class="library-recent-section">' +
+                '<div class="library-recent-header">' +
                 '<h2 class="library-recent-heading">Continue Reading</h2>' +
+                '<button class="recent-clear-all" data-action="clear-recent">Clear All</button>' +
+                '</div>' +
                 '<div class="library-recent-grid">';
             recentTexts.slice(0, 4).forEach(function(rid) {
                 var rt = getTextDef(rid);
@@ -1495,6 +1498,7 @@
                 var rcat = getCategoryDef(rt.category);
                 var rcounts = getTextReadCount(rid);
                 html += '<div class="library-recent-card" data-text="' + rid + '" style="--card-color:' + (rt.color || rcat.color) + '">' +
+                    '<button class="recent-remove-btn" data-remove-text="' + rid + '" title="Remove">&times;</button>' +
                     '<span class="canon-badge badge-small" style="background:' + rcat.color + '20;color:' + rcat.color + ';border-color:' + rcat.color + '40">' + rcat.badge + '</span>' +
                     '<h3 class="library-recent-title">' + rt.name + '</h3>' +
                     '<span class="library-recent-progress">' + rcounts.read + '/' + rcounts.total + ' read</span>' +
@@ -1507,8 +1511,8 @@
         html += '<div class="library-featured">' +
             '<div class="library-featured-card" data-text="heavenly_court">' +
             '<div class="library-featured-label">FEATURED STUDY</div>' +
-            '<h3 class="library-featured-title">The Heavenly Court</h3>' +
-            '<p class="library-featured-desc">Deep dive into the divine council worldview that unifies the entire biblical narrative.</p>' +
+            '<h3 class="library-featured-title">Divine Council &amp; Heavenly Court</h3>' +
+            '<p class="library-featured-desc">Deep dive into the divine council worldview that unifies the entire biblical narrative &mdash; from Genesis to Revelation.</p>' +
             '<span class="library-featured-cta">Begin the Study &rarr;</span>' +
             '</div>' +
             '</div>';
@@ -2513,11 +2517,52 @@
                 return;
             }
 
-            // Study trail card — open trail detail view
+            // Study trail card — open trail detail view (or redirect to article text)
             var trailCard = e.target.closest('.study-trail-card');
             if (trailCard && trailCard.dataset.trail) {
+                // Divine Council trail opens the Heavenly Court article text
+                if (trailCard.dataset.trail === 'divine-council') {
+                    selectText('heavenly_court');
+                    window.scrollTo(0, 0);
+                    return;
+                }
+                // Messianic Thread opens its article text (if it exists)
+                if (trailCard.dataset.trail === 'messianic-thread' && getTextDef('messianic_thread')) {
+                    selectText('messianic_thread');
+                    window.scrollTo(0, 0);
+                    return;
+                }
+                // Nephilim & Giants opens its article text (if it exists)
+                if (trailCard.dataset.trail === 'nephilim-giants' && getTextDef('nephilim_giants')) {
+                    selectText('nephilim_giants');
+                    window.scrollTo(0, 0);
+                    return;
+                }
                 renderStudyTrail(trailCard.dataset.trail);
                 window.scrollTo(0, 0);
+                return;
+            }
+
+            // Continue Reading — remove card
+            var removeRecent = e.target.closest('.recent-remove-btn');
+            if (removeRecent) {
+                e.stopPropagation();
+                var removeId = removeRecent.dataset.removeText;
+                var recentArr = JSON.parse(localStorage.getItem('atl-recent-texts') || '[]');
+                recentArr = recentArr.filter(function(r) { return r !== removeId; });
+                localStorage.setItem('atl-recent-texts', JSON.stringify(recentArr));
+                syncAfterChange();
+                renderLibraryMain();
+                return;
+            }
+
+            // Continue Reading — clear all
+            var clearAll = e.target.closest('.recent-clear-all');
+            if (clearAll) {
+                e.stopPropagation();
+                localStorage.setItem('atl-recent-texts', '[]');
+                syncAfterChange();
+                renderLibraryMain();
                 return;
             }
 
