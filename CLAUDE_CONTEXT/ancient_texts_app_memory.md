@@ -1,19 +1,19 @@
 # Ancient Texts Study App — Project Memory
-*Updated: March 9, 2026*
+*Updated: March 12, 2026 (Session 4)*
 
 ## Location
 - **Working dir**: `C:\Users\User\Desktop\ANCIENT_TEXTS Study App\`
-- **Google Drive**: `E:\My Drive\ANCIENT_TEXTS Study App\`
+- **Google Drive**: `G:\My Drive\ANCIENT_TEXTS Study App\` (OUTDATED as of March 7 — needs full sync)
 - **Sync**: `LAUNCH.bat → option 6` or `SYNC.bat`
 
 ## What It Is
 Two-version study app for deep scripture research with original languages:
-- **PC Version**: Single 67 MB HTML file (dev) / 64 MB (release without HAI)
-- **Mobile Version**: Progressive Web App (0.6 MB shell + on-demand data, ~102 MB total)
-- **74 texts**: 39 OT + 27 NT + 8 Apocryphal/Second Temple
-- **186 eras**, **895 study chapters**, **444,339 interlinear words**, 553 glossary terms
+- **PC Version**: Single 65.5 MB HTML file (release without HAI)
+- **Mobile Version**: Progressive Web App (0.7 MB shell + on-demand data, ~102 MB total)
+- **77 texts**: 39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 1 Historical + 4 Thematic
+- **230 eras**, **978 study chapters**, **444,339 interlinear words**, 567 glossary terms
 - **31,101 flow verses** across all 66 biblical books (0 gaps)
-- **5,932 cross-references**, 3,843 unique passages cited
+- **6,863 cross-references**
 - Dark gold-accent design (#0c0e14 bg, #c9a84c gold)
 - Current version: **3.3.0**
 
@@ -42,10 +42,11 @@ Build order: `build.py` → `build.py --release` → `build_mobile.py`
 ## Mobile PWA Architecture
 - `build_mobile.py` generates `output/mobile/` from the release HTML
 - Splits data into per-text JSON chunks: `data/eras/{book}.json`, `data/interlinear/{book}.json`
-- App shell is ~0.6 MB, data loads per-text on demand
+- App shell is ~0.7 MB, data loads per-text on demand
 - Service worker: network-first for data, cache-first for shell
 - **Critical**: data loader must be INSIDE the existing IIFE (not wrapped in outer)
 - **Critical**: `texts` and `categories` re-populated in `mobileBootstrap()` after loading MANIFEST
+- **All 6 tool buttons verified working**: Timeline, Map, Matrix, Prophecy, Hebrew, Glossary
 - `LAUNCH-MOBILE.bat` auto-detects local IP for phone access via `ipconfig`
 
 ## Hallelujah AI (HAI) — Local Ollama
@@ -72,49 +73,46 @@ Build order: `build.py` → `build.py --release` → `build_mobile.py`
 - All 39 OT: info + eras + flow + Hebrew interlinear (OSHB)
 - All 27 NT: flow + Greek interlinear + eras
 - 8 Apocryphal: eras only
+- 4 Thematic deep dives: Nephilim & Giants, Messianic Thread, Heavenly Court, **Jesus & the Gentiles** (9 chapters)
 - Full-text search, cross-ref navigation, reading progress, bookmarks
-- **Bible Truth Matrix** — 52+ religions with clickable detail overlays (expanded March 9)
+- **Bible Truth Matrix** — 52+ religions, sorted by alignment, % scores (color-coded)
 - Timeline, Study Trails (6 trails), Analytics, Map, Learn Hebrew
 - Electron desktop app with Windows installer
-- CSS design system, responsive breakpoints, keyboard shortcuts
+- CSS design system (45 component files), responsive breakpoints, keyboard shortcuts
 - **Mobile bottom nav**: Home | Search | Tools | Glossary | Saved
-- **Mobile tools popup**: 8 tools accessible from bottom nav (Matrix, Timeline, Map, Hebrew, Resources, Progress, Prophecy Tracker, Core Beliefs)
+- **Mobile tools**: All 6 buttons working (Prophecy async patched)
+- Reading Mode Toggle (Scripture / Study / Interlinear)
+- Firebase Auth + Cloud Sync (Firestore)
+- Cross-reference preview tooltips
+- Study Notes Markdown export
+- Hidden Treasures Discovery feature
 
 ## What's Missing
-1. **NT era depth** — 38 texts with <2 eras (most NT books have only 1)
-2. **Apocryphal flow translations** — none
-3. **Export** — study notes as PDF/Markdown
-4. **YouTube/resource links** — video sources throughout
+1. **Minor Prophets depth** — 12 books at 25-40% of Genesis depth
+2. **NT era expansion** — Matthew/Luke/John/Acts only 2 eras each
+3. **DSS/1 Enoch/Jasher hebrew_terms** — many chapters at 0%
+4. **Study Trail conversions** — Covenant Arc, Adam-to-Jesus, Cosmic Geography, DSS Connection still old format
+5. **YouTube/resource links** — video sources throughout
+6. **PDF export** — Markdown done, PDF needed
+7. **Apocryphal flow translations** — none
+8. **JS module split** (Phase 2) — 7,907-line app.js
 
 ## Key Technical Patterns
 - **Flow files**: `data/flow/flow_{book_id}.py` → exports `FLOW_{BOOK}` + `NOTES_{BOOK}` dicts
 - **Build filter**: `flow_file.count("_") == 1` — only loads combined files
 - **NT interlinear fallback**: build.py checks `INTERLINEAR_NT_{BOOK}` after `INTERLINEAR_{BOOK}`
 - **Era files**: `data/{text_id}/era_*.py` → exports `CHAPTERS` list
+- **Era chapter format**: Each chapter dict MUST have: `id`, `ref`, `chapter_num`, `title` (NOT `heading`!), `era`, `type`, `synopsis`, `key_verse` (object with ref/text/translation), `hebrew_terms` (array of objects), `ane_backdrop` (string), `second_temple` (array of objects with source/summary/relevance), `cross_refs` (array of objects with ref/note/type), `divine_council_note` (string or None), `sections` (array of objects with **heading**/body)
 - **1 Enoch**: manifest `data_dir: "enoch1"` → files in `data/enoch1/`
 - **Genesis interlinear**: `data/genesis/interlinear.py` (subdirectory)
-- **OT flow generator**: `data/generate_ot_flow.py` (Claude Sonnet, formal equivalence)
 - **Religions data**: `data/religions_data.py` → `RELIGIONS_DETAIL` dict (52 religions × 13 doctrines)
-  - Injected by `build.py` as `var RELIGIONS_DETAIL = {...}` via placeholder `__RELIGIONS_DETAIL_DATA__`
 - **Mobile tool overlays**: z-index 110 on mobile (sidebar is 100, bottom nav is 9999)
-- **Mobile bottom nav**: dispatches `CustomEvent('mobile-nav')` → handled by listener in mobile_js_patches
-- **Mobile tools popup**: `#mobileToolsPopup` div, opened/closed by `openMobileTools()`/`closeMobileTools()`
+- **Mobile async data loading**: Functions that render mobile data MUST be `async` with `await loadX()` before accessing data that starts as `{}`
 
 ## Builder's Council (5 Agents)
 1. ORACLE — planning  2. SCRIBE — content  3. ARBITER — theology
 4. LECTOR — languages  5. ARCHITECT — infrastructure
 Keys in `agents/config.py`. Runner: `python agents/run_council.py`
-
-## Agent Crawl System (`tests/crawl/`)
-Automated testing that uses MCP Preview tools to crawl the live app:
-- **8 suites, 95 tests**: smoke, navigation, overlays, interlinear, search, content, mobile, performance
-- **JSON definitions**: `tests/crawl/suites/*.json` — structured test steps and pass criteria
-- **Agent prompts**: `tests/crawl/prompts/agent_*.md` — instructions for each crawl agent
-- **Orchestrator**: `tests/crawl/run_crawl.py` — builds, lists suites, prints execution instructions
-- **Report generator**: `tests/crawl/report.py` — reads JSON results → Markdown + HTML reports
-- **Results**: `tests/crawl/results/` (gitignored) — timestamped JSON output from each crawl run
-- **Key insight**: Task agents can't access MCP Preview tools — crawl must be run from the main conversation context
-- **Run after every build change** — catches the kind of silent bugs that break mobile
 
 ## Lessons Learned
 1. NEVER use robocopy /MIR in Git Bash — use PowerShell
@@ -125,22 +123,25 @@ Automated testing that uses MCP Preview tools to crawl the live app:
 6. `key_verse` can be None — use `(ch.get('key_verse') or {}).get('ref', '')`
 7. Mobile IIFE scope: inject code inside existing IIFE, not wrap in new one
 8. Mobile bootstrap: must re-assign `texts` and `categories` after MANIFEST loads
-9. **gh-pages deploy**: ALWAYS use a temp directory. NEVER `git checkout --orphan` in the working tree — it tries to add everything (electron/node_modules, etc.)
-10. **Overlay z-index on mobile**: Sidebar is z-index 100, overlay was 40 → tools opened behind sidebar. Fixed to 110.
+9. **gh-pages deploy**: ALWAYS use a temp directory. NEVER `git checkout --orphan` in the working tree
+10. **Overlay z-index on mobile**: Sidebar is z-index 100, overlay was 40 → fixed to 110
 11. **const → var on mobile**: `const` interlinear vars can't be reassigned by `eval()` in mobile data loader
-12. **Mobile tools**: Bottom nav tools button opens popup sheet, which dispatches tool opens. Sidebar tools toggle still exists as fallback.
-13. **CRITICAL: build_mobile.py must replace ALL placeholders from app.js** — any `__*_DATA__` left unreplaced causes a ReferenceError that kills the entire IIFE silently (no console output, no error display, page stuck on "Loading..."). March 2026: `__RELIGIONS_DETAIL_DATA__` was missed → mobile completely broken.
-14. **Debugging mobile IIFE crashes**: Console won't show errors from IIFE-time ReferenceErrors because the error happens during script parse/execution before any error handlers attach. Fix: inject a `<script>` tag BEFORE the main script with `window.addEventListener('error', ...)` to catch the actual error line.
-15. **Service worker cache busting**: Cache name must include a build timestamp (not just a version string) to prevent stale caches serving old broken code between deploys.
-16. **After adding ANY new data placeholder to app.js**: MUST update BOTH `build.py` AND `build_mobile.py` — build.py replaces with real data, build_mobile.py replaces with `{}`.
+12. **CRITICAL: build_mobile.py must replace ALL placeholders from app.js** — any `__*_DATA__` left unreplaced causes ReferenceError that kills the entire IIFE silently
+13. **Debugging mobile IIFE crashes**: Console won't show errors from IIFE-time ReferenceErrors. Fix: inject `<script>` tag BEFORE main script with `window.addEventListener('error', ...)`
+14. **Service worker cache busting**: Cache name must include build timestamp, not just version string
+15. **After adding ANY new data placeholder**: MUST update BOTH `build.py` AND `build_mobile.py`
+16. **Era file chapter title**: Use `"title"` key at chapter level, `"heading"` key at section level. Mixing them up causes "undefined" rendering.
+17. **Mobile async pattern**: Any function rendering data that starts as `{}` on mobile must be patched to `async` with `await loadX()` in build_mobile.py. Example: `showProphecyMatrix()` → `async function showProphecyMatrix() { await loadProphecy(); ... }`
+18. **cross_refs format**: Must be array of objects `[{ref, note, type}]` — NOT plain strings
+19. **second_temple format**: Must be array of objects `[{source, summary, relevance}]` — NOT plain string
 
 ## Protocol: Making Changes
-1. Edit source files in `src/js/app.js`, `src/css/styles.css`, `data/`, `build.py`, `build_mobile.py`
+1. Edit source files in `src/js/app.js`, `src/css/*.css`, `data/`, `build.py`, `build_mobile.py`
 2. Run `python build.py` to test desktop
 3. Run `python build.py --release && python build_mobile.py` to build mobile
 4. Commit: `git add <specific files> && git commit -m "message"`
 5. Push: `git push origin main`
-6. Deploy mobile: use `DEPLOY.bat` or manual temp-dir method (see GitHub Deployment section)
+6. Deploy mobile: use `DEPLOY.bat` or manual temp-dir method
 7. **NEVER** `git add -A` or `git add .` — always add specific files
 8. **NEVER** modify git config or use `--force` on main
 9. Keep `.gitignore` updated when adding new file types

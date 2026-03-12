@@ -1,14 +1,14 @@
 # Ancient Texts Study App — Current Status
-*Last updated: 2026-03-12*
+*Last updated: 2026-03-12 (Session 4)*
 
 ---
 
 ## WHAT IS COMPLETE
 
 ### Core App — Two Versions
-- [x] **PC Version**: Single-file HTML app (`build.py → output/AncientTextsStudy.html`, ~68 MB dev / ~65 MB release)
+- [x] **PC Version**: Single-file HTML app (`build.py → output/AncientTextsStudy.html`, ~68 MB dev / ~65.5 MB release)
 - [x] **Mobile Version**: Progressive Web App (`build_mobile.py → output/mobile/`, 0.7 MB shell + on-demand data)
-- [x] Both versions contain identical content (74 texts, all interlinear, all features)
+- [x] Both versions contain identical content (77 texts, all interlinear, all features)
 - [x] **Electron desktop app** (Windows installer, `electron/` folder)
 - [x] Release system packages both into `PC/` + `Mobile/` folders with launchers
 
@@ -17,13 +17,14 @@
 - [x] `LAUNCH.bat` — 8-option menu (browser, Electron, AI, build, build all, sync, council, exit)
 - [x] `release.py` — versioned ZIP packaging with `PC/` and `Mobile/` folders
 - [x] `LAUNCH-MOBILE.bat` — auto-detects local IP, starts server for phone access
+- [x] `DEPLOY.bat` — one-click build all + commit + push + deploy gh-pages
 - [x] Current version: **3.3.0**
 - [x] Release ZIP: ~40 MB (includes both PC + Mobile)
 
-### Content (74 texts total)
-- [x] **74 texts** in manifest (39 OT + 27 NT + 8 Apocryphal/Second Temple)
-- [x] **206 eras** (study chapter groupings)
-- [x] **955 study chapters** across all texts
+### Content (77 texts total)
+- [x] **77 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 1 Historical + 4 Thematic)
+- [x] **230 eras** (study chapter groupings)
+- [x] **978 study chapters** across all texts
 - [x] CONTENT_MAP.json — master AI navigation index (auto-rebuilt on every build)
 
 ### Flow Translations (verse-by-verse English prose)
@@ -58,17 +59,25 @@
 - [x] Reading progress tracker — per-chapter checkboxes, localStorage
 - [x] **Reading Mode Toggle** — Scripture / Study / Interlinear per chapter (CSS-driven)
 - [x] **Firebase Auth + Cloud Sync** — email/password login, Firestore cloud sync
-- [x] Bible Truth Matrix — 52 worldviews × 13 doctrines, heatmap
+- [x] **Bible Truth Matrix** — 52 worldviews × 13 doctrines, heatmap, **sorted by alignment** with % scores
 - [x] Biblical + World History Timeline — 91 events, 8 eras
 - [x] Study Trails — 6 curated paths (Divine Council, Messianic, Nephilim, Covenant, Adam-to-Jesus, Cosmic Geography)
-- [x] **Hidden Treasures Discovery** — 8 lesser-known texts surfaced in Library (War Scroll, 1 Enoch, Book of Giants, etc.)
+- [x] **Hidden Treasures Discovery** — 8 lesser-known texts surfaced in Library
 - [x] Ancient World Map — 60+ overlays, CartoDB labels, ESRI borders/roads
 - [x] Learn Hebrew module (Aleph-Bet, vowels, roots, practice)
 - [x] **Study Notes Export** — Markdown download per chapter
+- [x] **Prophecy Matrix** — 59 prophecies with fulfillment tracking
 - [x] Usage Analytics — localStorage logging, JSON export, 5K cap
 - [x] Reverse cross-references, bookmarks, breadcrumbs, prev/next nav
-- [x] CSS design system (tokens, 42 component files, 6-tier responsive breakpoints, clamp())
+- [x] CSS design system (tokens, 45 component files, 6-tier responsive breakpoints, clamp())
 - [x] Resizable 3-column layout with keyboard shortcuts
+- [x] **All 6 mobile Study Tool buttons verified working** (Timeline, Map, Matrix, Prophecy, Hebrew, Glossary)
+
+### Thematic Deep Dives
+- [x] **Nephilim & Giants** — multi-era study
+- [x] **Messianic Thread** — prophecy-to-fulfillment trail
+- [x] **Heavenly Court** — divine council deep dive
+- [x] **Jesus & the Gentiles** — 9 chapters: parables, wedding invitation theme, faith vs. theology (NEW)
 
 ### Apocryphal / Second Temple Texts (eras only, no flow/interlinear)
 1 Enoch, Book of Giants, Jubilees, Jasher, Genesis Apocryphon,
@@ -78,13 +87,31 @@ DSS Sectarian, Josephus, Heavenly Court
 
 ## WHAT IS MISSING
 
-### TIER 1 — Content Enrichment
-1. **NT Era Depth (remaining)** — 4 single-chapter books have 1 era (2 John, 3 John, Philemon, Jude) — appropriate for their length; 17 other thin-era texts still need depth
-2. **Apocryphal Flow Translations** — none of the 8 non-canonical texts have verse-level translations
+### TIER 1 — Content Depth (Major Gaps)
+1. **Minor Prophets section depth** — All 12 books at 25-40% of Genesis depth (51/55 chapters flagged)
+2. **NT era expansion** — Matthew, Luke, John, Acts have only 2 eras each (thin for 20-28 chapter books)
+3. **DSS Sectarian hebrew_terms** — 26 chapters at 0% coverage
+4. **1 Enoch hebrew_terms** — 55/73 chapters empty (75%)
+5. **Jasher hebrew_terms** — 43/49 chapters empty (88%)
 
-### TIER 2 — Features
-3. **YouTube / Resource Links** — video sources embedded throughout study content
-4. **PDF Export** — export study content as formatted PDF (Markdown export already done)
+### TIER 2 — Study Trail Conversions
+6. **Covenant Arc** — still old step-by-step format, needs article conversion
+7. **Adam to Jesus** — still old step-by-step format
+8. **Cosmic Geography** — still old step-by-step format
+9. **Dead Sea Scrolls Connection** — still old step-by-step format
+
+### TIER 3 — Features
+10. **YouTube / Resource Links** — video sources embedded throughout study content
+11. **PDF Export** — export study content as formatted PDF (Markdown export already done)
+
+### TIER 4 — Architecture (Restructuring Plan)
+12. **Phase 2**: JS module split (~25 files from 7,907-line app.js)
+13. **Phase 3**: Build consolidation + data registry
+14. **Phase 4**: Testing + CI/CD
+
+### TIER 5 — Content (Nice to Have)
+15. **Apocryphal flow translations** — none of the 8 non-canonical texts have verse-level translations
+16. **Psalms, Isaiah, Jeremiah, Ezekiel** — large books with relatively few eras compared to chapter count
 
 ---
 
@@ -92,19 +119,21 @@ DSS Sectarian, Josephus, Heavenly Court
 
 | Metric | Value |
 |--------|-------|
-| Total texts | **74** |
-| Total eras | **206** |
-| Study chapters | **955** |
-| Flow translations | **66/74 texts** (all 39 OT + all 27 NT) |
+| Total texts | **77** |
+| Total eras | **230** |
+| Study chapters | **978** |
+| Flow translations | **66/77 texts** (all 39 OT + all 27 NT) |
 | Flow verses | **31,101** |
 | Interlinear words (OT) | **306,506** |
 | Interlinear words (NT) | **137,833** |
 | **Total interlinear** | **444,339** |
-| Cross-references | **6,392** |
-| Unique passages cited | **3,992** |
-| Glossary terms | **556** |
+| Cross-references | **6,863** |
+| Glossary terms | **567** |
+| Religions in Truth Matrix | **52** |
+| CSS component files | **45** |
+| app.js lines | **7,907** |
 | Build output (dev) | ~68 MB HTML |
-| Build output (release) | ~65 MB HTML |
+| Build output (release) | ~65.5 MB HTML |
 | Mobile shell | ~0.7 MB |
 | Release ZIP | ~40 MB (PC + Mobile) |
 | Current version | **3.3.0** |
@@ -123,7 +152,23 @@ DSS Sectarian, Josephus, Heavenly Court
 - Hidden Treasures Discovery feature (8 lesser-known texts in Library)
 - Cross-reference preview tooltips (hover to see connection notes)
 - Study notes Markdown export (download per chapter)
-- 42 CSS component files (added reading-modes.css, hidden-treasures.css)
+- 45 CSS component files
+
+### Session 3 — DSS Text Grouping, Study Notes, Study Trails inline scripture
+- DSS texts grouped into thematic category in sidebar
+- Study Notes system with cloud sync
+- Study Trails updated with inline scripture rendering
+
+### Session 4 — Mobile Fixes, Truth Matrix Sort, Jesus & the Gentiles
+- Fixed all 6 mobile Study Tool buttons (Prophecy async loading, correct function names)
+- Truth Matrix sorted by alignment — most aligned first + overall % scores (color-coded)
+- **"Jesus & the Gentiles" deep dive** — 9 chapters across 3 eras:
+  - Part I: Why Did Jesus Speak in Parables? (Matt 13, Gentile faith, Pharisee blindness)
+  - Part II: The Wedding Invitation (Wisdom's feast, wedding banquet parables, ten virgins)
+  - Part III: Simple Faith vs. Theological Steps (Sermon on Mount, thief on cross, apostolic theology)
+- Full biblical accuracy verification of all 9 chapters
+- Fixed Chapter 4 title key bug (`heading` → `title`)
+- Commits: cd97133, 946bc85, 35423ec, bdfb1ed
 
 ---
 
@@ -135,9 +180,10 @@ DSS Sectarian, Josephus, Heavenly Court
 | `build.py --release` | Build release version (no HAI) |
 | `build_mobile.py` | Build mobile PWA (requires release build) |
 | `BUILD_ALL.bat` | One-click: desktop → release → mobile |
+| `DEPLOY.bat` | One-click: build all → commit → push → deploy gh-pages |
 | `LAUNCH.bat` | Main menu launcher (8 options) |
 | `release.py` | Package versioned release ZIP (PC + Mobile) |
-| `manifest.json` | Master text/era registry |
+| `manifest.json` | Master text/era registry (77 texts, 230 eras) |
 | `CONTENT_MAP.json` | AI navigation index (auto-built) |
 | `pipeline/bible_bound.py` | HAI system prompt builder |
 | `policy/linguistics.yaml` | Ancient linguistics reference data |
