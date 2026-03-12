@@ -2506,10 +2506,10 @@
                 var action = toolCard.dataset.action;
                 if (action === 'show-timeline') openTimeline();
                 else if (action === 'show-map') openMap();
-                else if (action === 'show-matrix') { document.body.classList.add('matrix-open'); renderMatrix(); }
-                else if (action === 'show-prophecy' && typeof renderProphecyTracker === 'function') renderProphecyTracker();
-                else if (action === 'show-hebrew' && typeof renderLearnHebrew === 'function') renderLearnHebrew();
-                else if (action === 'show-glossary' && typeof renderGlossary === 'function') renderGlossary();
+                else if (action === 'show-matrix') openMatrix();
+                else if (action === 'show-prophecy') showProphecyMatrix();
+                else if (action === 'show-hebrew') openHebrew();
+                else if (action === 'show-glossary') openGlossary();
                 return;
             }
 

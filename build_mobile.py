@@ -1499,6 +1499,12 @@ body.sidebar-open .main-content { overflow: hidden !important; }
         "async function showReligionDetail(religionId) {\n        await loadReligionsDetail();\n        logEvent('feature', 'religion_detail_' + religionId);"
     )
 
+    # Fix prophecy matrix to load data before rendering
+    js_patched = js_patched.replace(
+        "function showProphecyMatrix() {\n        libraryMode = true;",
+        "async function showProphecyMatrix() {\n        await loadProphecy();\n        libraryMode = true;"
+    )
+
     # Fix prophecy tracker to load data before rendering
     js_patched = js_patched.replace(
         "function showProphecyTracker(bookFilter) {\n        libraryMode = true;",
