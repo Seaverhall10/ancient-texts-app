@@ -2802,6 +2802,7 @@
             bookmarks.push(id);
         }
         localStorage.setItem('genesis-study-bookmarks', JSON.stringify(bookmarks));
+        syncAfterChange();
         renderBookmarks();
 
         var btn = document.querySelector('.bookmark-btn[data-id="' + id + '"]');
@@ -2824,6 +2825,7 @@
             readChapters[chapterId] = true;
         }
         localStorage.setItem('atl-read-chapters', JSON.stringify(readChapters));
+        syncAfterChange();
         // Update the checkbox in the chapter card
         var cb = document.querySelector('.read-check[data-id="' + chapterId + '"]');
         if (cb) {
@@ -6961,13 +6963,206 @@
         });
     }
 
+    // ── Firebase Auth & Cloud Sync ─────────────────────────
+    var authCurrentUser = null;
+    var firestoreDb = null;
+    var authReady = false;
+    var SYNC_KEYS = ['genesis-study-bookmarks', 'atl-read-chapters', 'atl-user-mode', 'atl-il-rows'];
+
+    function initFirebaseAuth() {
+        if (typeof firebase === 'undefined' || !firebase.apps) return;
+        if (!firebase.apps.length) {
+            firebase.initializeApp(window.__FIREBASE_CONFIG || {});
+        }
+        firestoreDb = firebase.firestore();
+
+        firebase.auth().onAuthStateChanged(function(user) {
+            authCurrentUser = user;
+            authReady = true;
+            updateAuthUI();
+            if (user) {
+                hideAuthOverlay();
+                pullFromCloud();
+            }
+        });
+    }
+
+    function showAuthOverlay() {
+        var ov = document.getElementById('authOverlay');
+        if (ov) { ov.classList.remove('auth-hidden'); ov.style.display = 'flex'; }
+    }
+
+    function hideAuthOverlay() {
+        var ov = document.getElementById('authOverlay');
+        if (ov) { ov.classList.add('auth-hidden'); setTimeout(function() { ov.style.display = 'none'; }, 400); }
+    }
+
+    function updateAuthUI() {
+        var badge = document.getElementById('authUserBadge');
+        if (!badge) return;
+        if (authCurrentUser) {
+            var email = authCurrentUser.email || 'User';
+            var initial = email.charAt(0).toUpperCase();
+            badge.innerHTML = '<span class="auth-user-icon">' + initial + '</span>' +
+                '<span class="auth-user-email">' + email + '</span>' +
+                '<span class="auth-sync-dot"></span>' +
+                '<span class="auth-signout" id="authSignOut">Sign out</span>';
+            badge.style.display = 'flex';
+            var so = document.getElementById('authSignOut');
+            if (so) so.addEventListener('click', function() {
+                firebase.auth().signOut();
+                authCurrentUser = null;
+                updateAuthUI();
+            });
+        } else {
+            badge.innerHTML = '<span class="auth-signout" id="authSignIn" style="color:var(--color-gold);cursor:pointer;font-size:0.8rem;">Sign in to sync progress</span>';
+            badge.style.display = 'flex';
+            var si = document.getElementById('authSignIn');
+            if (si) si.addEventListener('click', showAuthOverlay);
+        }
+    }
+
+    function handleAuthSubmit(isSignUp) {
+        var email = document.getElementById('authEmail').value.trim();
+        var pass = document.getElementById('authPass').value;
+        var errEl = document.getElementById('authError');
+        if (!email || !pass) { errEl.textContent = 'Email and password required.'; return; }
+        if (pass.length < 6) { errEl.textContent = 'Password must be at least 6 characters.'; return; }
+        errEl.textContent = '';
+        var btn = document.getElementById('authSubmitBtn');
+        btn.disabled = true;
+        btn.textContent = isSignUp ? 'Creating account...' : 'Signing in...';
+
+        var authPromise = isSignUp
+            ? firebase.auth().createUserWithEmailAndPassword(email, pass)
+            : firebase.auth().signInWithEmailAndPassword(email, pass);
+
+        authPromise.then(function() {
+            btn.disabled = false;
+            btn.textContent = isSignUp ? 'Create Account' : 'Sign In';
+            hideAuthOverlay();
+            pushToCloud();
+        }).catch(function(err) {
+            btn.disabled = false;
+            btn.textContent = isSignUp ? 'Create Account' : 'Sign In';
+            var msg = err.message || 'Authentication failed.';
+            if (err.code === 'auth/email-already-in-use') msg = 'An account with this email already exists.';
+            if (err.code === 'auth/user-not-found') msg = 'No account found with this email.';
+            if (err.code === 'auth/wrong-password') msg = 'Incorrect password.';
+            if (err.code === 'auth/invalid-email') msg = 'Invalid email address.';
+            if (err.code === 'auth/invalid-credential') msg = 'Invalid email or password.';
+            errEl.textContent = msg;
+        });
+    }
+
+    function bindAuthEvents() {
+        var overlay = document.getElementById('authOverlay');
+        if (!overlay) return;
+
+        var submitBtn = document.getElementById('authSubmitBtn');
+        var guestBtn = document.getElementById('authGuestBtn');
+        var toggleLink = document.getElementById('authToggleLink');
+        var isSignUp = false;
+
+        if (submitBtn) submitBtn.addEventListener('click', function() {
+            handleAuthSubmit(isSignUp);
+        });
+
+        if (guestBtn) guestBtn.addEventListener('click', function() {
+            hideAuthOverlay();
+        });
+
+        if (toggleLink) toggleLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            isSignUp = !isSignUp;
+            submitBtn.textContent = isSignUp ? 'Create Account' : 'Sign In';
+            document.getElementById('authToggleText').textContent =
+                isSignUp ? 'Already have an account? ' : "Don't have an account? ";
+            toggleLink.textContent = isSignUp ? 'Sign in' : 'Sign up';
+            document.getElementById('authError').textContent = '';
+        });
+
+        // Enter key submits
+        var passInput = document.getElementById('authPass');
+        if (passInput) passInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') handleAuthSubmit(isSignUp);
+        });
+    }
+
+    // ── Cloud Sync (Firestore) ──────────────────────────────
+    function pushToCloud() {
+        if (!authCurrentUser || !firestoreDb) return;
+        var data = {};
+        SYNC_KEYS.forEach(function(key) {
+            var val = localStorage.getItem(key);
+            if (val !== null) data[key] = val;
+        });
+        data.updatedAt = firebase.firestore.FieldValue.serverTimestamp();
+        setSyncDot(true);
+        firestoreDb.collection('users').doc(authCurrentUser.uid).set(data, { merge: true })
+            .then(function() { setSyncDot(false); })
+            .catch(function() { setSyncDot(false); });
+    }
+
+    function pullFromCloud() {
+        if (!authCurrentUser || !firestoreDb) return;
+        setSyncDot(true);
+        firestoreDb.collection('users').doc(authCurrentUser.uid).get()
+            .then(function(doc) {
+                setSyncDot(false);
+                if (!doc.exists) { pushToCloud(); return; }
+                var data = doc.data();
+                SYNC_KEYS.forEach(function(key) {
+                    if (data[key] !== undefined && data[key] !== null) {
+                        localStorage.setItem(key, data[key]);
+                    }
+                });
+                // Refresh in-memory state from updated localStorage
+                bookmarks = JSON.parse(localStorage.getItem('genesis-study-bookmarks') || '[]');
+                readChapters = JSON.parse(localStorage.getItem('atl-read-chapters') || '{}');
+                userMode = localStorage.getItem('atl-user-mode') || 'scholar';
+                ilRows = JSON.parse(localStorage.getItem('atl-il-rows') || 'null') || USER_MODES[userMode];
+                renderBookmarks();
+                if (typeof updateProgressDisplay === 'function') updateProgressDisplay();
+            })
+            .catch(function() { setSyncDot(false); });
+    }
+
+    function syncAfterChange() {
+        if (authCurrentUser && firestoreDb) {
+            clearTimeout(window._syncDebounce);
+            window._syncDebounce = setTimeout(pushToCloud, 2000);
+        }
+    }
+
+    function setSyncDot(syncing) {
+        var dots = document.querySelectorAll('.auth-sync-dot');
+        dots.forEach(function(d) { d.classList.toggle('syncing', syncing); });
+    }
+
     // ── Launch ──────────────────────────────────────────────
     // Note: On large inline scripts, DOMContentLoaded may fire before the
     // script finishes parsing, so we check readyState as a fallback.
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
+    function startApp() {
         init();
+        bindAuthEvents();
+        initFirebaseAuth();
+
+        // Show auth overlay only on first visit (no user seen before)
+        var hasSeenAuth = localStorage.getItem('atl-auth-seen');
+        if (!hasSeenAuth && typeof firebase !== 'undefined') {
+            // Brief delay to let Firebase check for existing session
+            setTimeout(function() {
+                if (!authCurrentUser) showAuthOverlay();
+                localStorage.setItem('atl-auth-seen', '1');
+            }, 800);
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', startApp);
+    } else {
+        startApp();
     }
 
 })();

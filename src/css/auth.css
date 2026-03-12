@@ -1,0 +1,192 @@
+/* ── Firebase Auth Overlay ────────────────────────────── */
+.auth-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    background: var(--color-bg, #0c0e14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+.auth-overlay.auth-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.auth-card {
+    background: var(--color-surface, #141721);
+    border: 1px solid var(--color-gold, #c9a84c);
+    border-radius: 12px;
+    padding: 2.5rem 2rem 2rem;
+    width: 90%;
+    max-width: 380px;
+    text-align: center;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+}
+
+.auth-card h2 {
+    color: var(--color-gold, #c9a84c);
+    font-size: 1.5rem;
+    margin: 0 0 0.25rem;
+    font-weight: 600;
+}
+.auth-card .auth-subtitle {
+    color: var(--color-muted, #8a8f98);
+    font-size: 0.85rem;
+    margin: 0 0 1.5rem;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.auth-form input {
+    background: var(--color-bg, #0c0e14);
+    border: 1px solid rgba(201, 168, 76, 0.3);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    color: var(--color-text, #e0e0e0);
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+.auth-form input:focus {
+    border-color: var(--color-gold, #c9a84c);
+}
+.auth-form input::placeholder {
+    color: var(--color-muted, #8a8f98);
+}
+
+.auth-btn {
+    background: var(--color-gold, #c9a84c);
+    color: var(--color-bg, #0c0e14);
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    margin-top: 0.25rem;
+}
+.auth-btn:hover {
+    background: #d4b55c;
+}
+.auth-btn:active {
+    transform: scale(0.98);
+}
+
+.auth-btn-secondary {
+    background: transparent;
+    color: var(--color-gold, #c9a84c);
+    border: 1px solid rgba(201, 168, 76, 0.3);
+    border-radius: 8px;
+    padding: 0.65rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.auth-btn-secondary:hover {
+    background: rgba(201, 168, 76, 0.1);
+}
+
+.auth-toggle {
+    color: var(--color-muted, #8a8f98);
+    font-size: 0.85rem;
+    margin-top: 1rem;
+}
+.auth-toggle a {
+    color: var(--color-gold, #c9a84c);
+    cursor: pointer;
+    text-decoration: none;
+}
+.auth-toggle a:hover {
+    text-decoration: underline;
+}
+
+.auth-error {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    min-height: 1.2em;
+    margin-top: 0.25rem;
+}
+
+.auth-divider {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0.5rem 0;
+    color: var(--color-muted, #8a8f98);
+    font-size: 0.8rem;
+}
+.auth-divider::before,
+.auth-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(201, 168, 76, 0.2);
+}
+
+/* User badge (shown in sidebar footer when logged in) */
+.auth-user-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: rgba(201, 168, 76, 0.08);
+    border-radius: 8px;
+    margin: 0.5rem 1rem;
+    font-size: 0.8rem;
+    color: var(--color-muted, #8a8f98);
+}
+.auth-user-badge .auth-user-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--color-gold, #c9a84c);
+    color: var(--color-bg, #0c0e14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.75rem;
+    flex-shrink: 0;
+}
+.auth-user-badge .auth-user-email {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+}
+.auth-user-badge .auth-signout {
+    color: var(--color-gold, #c9a84c);
+    cursor: pointer;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+.auth-user-badge .auth-signout:hover {
+    opacity: 1;
+}
+
+/* Sync indicator */
+.auth-sync-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #4caf50;
+    display: inline-block;
+    margin-right: 4px;
+}
+.auth-sync-dot.syncing {
+    background: var(--color-gold, #c9a84c);
+    animation: auth-pulse 1s ease infinite;
+}
+@keyframes auth-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}

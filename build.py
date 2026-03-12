@@ -511,6 +511,19 @@ def build():
     <title>{manifest['title']} &mdash; {manifest['subtitle']}</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+    <script>
+    window.__FIREBASE_CONFIG = {{
+        apiKey: "FIREBASE_API_KEY_REMOVED",
+        authDomain: "ancient-texts-app.firebaseapp.com",
+        projectId: "ancient-texts-app",
+        storageBucket: "ancient-texts-app.firebasestorage.app",
+        messagingSenderId: "648316662529",
+        appId: "1:648316662529:web:4b38a34a39658d1c3f6100"
+    }};
+    </script>
     <style>
 {css}
     </style>
@@ -563,6 +576,7 @@ def build():
                 <button class="help-shortcut-btn" id="shortcutHelpBtn" aria-label="Keyboard shortcuts">
                     Keyboard Shortcuts <kbd>?</kbd>
                 </button>
+                <div class="auth-user-badge" id="authUserBadge"></div>
                 <div class="bookmarks-section">
                     <h4>Bookmarks</h4>
                     <div id="bookmarksContainer" aria-label="Saved bookmarks"></div>
@@ -820,6 +834,25 @@ def build():
             <input type="text" class="glossary-search" id="glossarySearch"
                    placeholder="Search terms..." autocomplete="off">
             <div id="glossaryList"></div>
+        </div>
+    </div>
+
+    <!-- Auth Overlay -->
+    <div class="auth-overlay auth-hidden" id="authOverlay" style="display:none;">
+        <div class="auth-card">
+            <h2>Ancient Texts Study</h2>
+            <p class="auth-subtitle">Sign in to sync your reading progress across devices. This is optional.</p>
+            <div class="auth-form">
+                <input type="email" id="authEmail" placeholder="Email address" autocomplete="email">
+                <input type="password" id="authPass" placeholder="Password" autocomplete="current-password">
+                <div class="auth-error" id="authError"></div>
+                <button class="auth-btn" id="authSubmitBtn">Sign In</button>
+                <div class="auth-divider"><span>or</span></div>
+                <button class="auth-btn-secondary" id="authGuestBtn">Continue as Guest</button>
+            </div>
+            <div class="auth-toggle">
+                <span id="authToggleText">Don't have an account? </span><a id="authToggleLink" href="#">Sign up</a>
+            </div>
         </div>
     </div>
 

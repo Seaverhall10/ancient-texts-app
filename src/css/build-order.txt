@@ -37,3 +37,4 @@ analytics.css
 timeline.css
 animations.css
 keyboard-help.css
+auth.css

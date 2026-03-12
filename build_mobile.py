@@ -415,7 +415,10 @@ def main():
     if hai_start > 0:
         hai_start = js.rfind('// ', 0, hai_start)
         hai_start = max(0, js.rfind('\n', 0, hai_start)) + 1
-        hai_end = js.find("// \u2500\u2500 Launch", hai_start)
+        # Stop HAI strip at Firebase Auth section (comes between HAI and Launch)
+        hai_end = js.find("// \u2500\u2500 Firebase Auth", hai_start)
+        if hai_end < 0:
+            hai_end = js.find("// \u2500\u2500 Launch", hai_start)
         if hai_end > 0:
             js = js[:hai_start] + '\n    // [HAI removed in mobile build]\n\n    ' + js[hai_end:]
     js = js.replace('initHallelujahChat();', '// [HAI removed]')
@@ -950,6 +953,19 @@ body.sidebar-open .main-content { overflow: hidden !important; }
     <title>{title} &mdash; {subtitle}</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+    <script>
+    window.__FIREBASE_CONFIG = {{
+        apiKey: "FIREBASE_API_KEY_REMOVED",
+        authDomain: "ancient-texts-app.firebaseapp.com",
+        projectId: "ancient-texts-app",
+        storageBucket: "ancient-texts-app.firebasestorage.app",
+        messagingSenderId: "648316662529",
+        appId: "1:648316662529:web:4b38a34a39658d1c3f6100"
+    }};
+    </script>
     <style>
 {css}
 {mobile_css}
