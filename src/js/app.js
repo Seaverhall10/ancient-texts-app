@@ -367,87 +367,39 @@
         }
     ];
 
-    // ── Hidden Treasures (Lesser-Known Texts Discovery) ──────
-    var HIDDEN_TREASURES = [
+    // ── Ancient Library (Non-Canonical Texts by Source) ──────
+    var ANCIENT_LIBRARY = [
         {
-            textId: 'enoch1',
-            title: '1 Enoch',
-            subtitle: 'DSS \u2014 4Q201\u2013212 + Ethiopic',
-            icon: '\uD83D\uDC7C',
-            tagline: 'Found at Qumran. Quoted by Jude. The angels who fell.',
-            desc: 'Aramaic fragments from every section except the Parables were found at Qumran (Cave 4) \u2014 more copies than some OT books. Quoted directly in Jude 14\u201315. The Watchers narrative shaped how every NT author understood fallen angels, demons, and the flood.',
-            era: 'watchers',
-            highlight: 'DSS: 4Q201\u2013212 (Aramaic) \u2022 Jude 14\u201315 quotes 1 Enoch 1:9'
+            group: 'Dead Sea Scrolls',
+            groupId: 'dss',
+            subtitle: 'Found at Qumran (250 BC \u2013 68 AD) \u2014 over 900 manuscripts from 11 caves',
+            color: '#c9a84c',
+            texts: [
+                { textId: 'enoch1', title: '1 Enoch', tagline: 'Quoted by Jude. The angels who fell.', catalog: '4Q201\u2013212' },
+                { textId: 'jubilees', title: 'Jubilees', tagline: '~15 copies found. Genesis retold with angels.', catalog: '4Q216\u2013228' },
+                { textId: 'giants', title: 'Book of Giants', tagline: 'Nephilim dreams of their doom.', catalog: '4Q530\u2013533' },
+                { textId: 'genesis_apocryphon', title: 'Genesis Apocryphon', tagline: 'Noah speaks. One of the original 7 scrolls.', catalog: '1QapGen' },
+                { textId: 'dss_sectarian', title: 'Community Rule', tagline: 'Two Spirits: Light vs. Darkness.', catalog: '1QS' },
+                { textId: 'dss_sectarian', title: 'War Scroll', tagline: 'Sons of Light vs. Sons of Darkness.', catalog: '1QM', era: 'war_scroll' }
+            ]
         },
         {
-            textId: 'dss_sectarian',
-            title: 'The War Scroll',
-            subtitle: 'Dead Sea Scrolls \u2014 1QM',
-            icon: '\u2694\uFE0F',
-            tagline: 'The final battle plan. Sons of Light vs. Sons of Darkness.',
-            desc: 'A detailed apocalyptic battle plan found at Qumran describing the 40-year eschatological war between the Sons of Light and the Sons of Darkness. Michael leads the angelic army. Echoes Revelation\u2019s cosmic warfare.',
-            era: 'war_scroll',
-            highlight: 'Michael commands heaven\u2019s armies (cf. Rev 12:7)'
+            group: 'Referenced in Scripture',
+            groupId: 'referenced',
+            subtitle: 'Texts the biblical authors knew and cited by name',
+            color: '#5a9a6a',
+            texts: [
+                { textId: 'jasher', title: 'Book of Jasher', tagline: 'Joshua 10:13 \u2014 "Is this not written in the Book of Jasher?"', catalog: 'Josh 10:13; 2 Sam 1:18' }
+            ]
         },
         {
-            textId: 'giants',
-            title: 'Book of Giants',
-            subtitle: 'Dead Sea Scrolls Fragments',
-            icon: '\uD83D\uDC79',
-            tagline: 'What happened to the Nephilim? Their own story.',
-            desc: 'Fragmentary DSS text expanding the Genesis 6 / 1 Enoch narrative. The Nephilim receive prophetic dreams of their coming judgment. Shows how Second Temple Jews developed the Watchers tradition.',
-            era: 'giants_fragments',
-            highlight: 'Nephilim dream of the coming Flood judgment'
-        },
-        {
-            textId: 'jubilees',
-            title: 'Jubilees',
-            subtitle: 'DSS \u2014 4Q216\u2013228 + Ethiopic',
-            icon: '\uD83D\uDCDC',
-            tagline: 'Found at Qumran (~15 copies). Genesis retold with angels and demons.',
-            desc: 'One of the most copied texts at Qumran (~15 manuscripts found \u2014 more than Deuteronomy). A retelling of Genesis through Exodus 19 dictated by the Angel of the Presence to Moses on Sinai. Introduces Mastema (the chief demon) and reveals a 364-day solar calendar.',
-            era: 'jub_prologue',
-            highlight: 'DSS: ~15 copies at Qumran \u2022 Mastema = Satan figure who tests Abraham'
-        },
-        {
-            textId: 'genesis_apocryphon',
-            title: 'Genesis Apocryphon',
-            subtitle: 'DSS \u2014 1QapGen',
-            icon: '\uD83C\uDFFA',
-            tagline: 'Noah speaks. Lamech fears his son is half-angel.',
-            desc: 'First-person accounts from Lamech, Noah, and Abraham. Lamech suspects his wife bore a Nephilim child. Contains Abraham\u2019s journey through Canaan and encounter with the divine. One of the original 7 scrolls found at Qumran.',
-            era: 'apocryphon_columns',
-            highlight: 'One of the first 7 Dead Sea Scrolls discovered'
-        },
-        {
-            textId: 'jasher',
-            title: 'Book of Jasher',
-            subtitle: 'The Book of the Upright',
-            icon: '\uD83D\uDCD6',
-            tagline: 'Referenced twice in the Bible. Most Christians never read it.',
-            desc: 'Mentioned in Joshua 10:13 and 2 Samuel 1:18. A parallel history from Adam through the Judges period with expanded narratives of Abraham, Joseph, Moses, and the conquest. Rich details absent from the biblical text.',
-            era: 'jasher_primeval',
-            highlight: 'Joshua 10:13 \u2014 \u201CIs this not written in the Book of Jasher?\u201D'
-        },
-        {
-            textId: 'josephus',
-            title: 'Josephus',
-            subtitle: 'The Jewish War & Antiquities',
-            icon: '\uD83C\uDFDB\uFE0F',
-            tagline: 'The eyewitness. Temple destruction. First-century Judaism.',
-            desc: 'Flavius Josephus was a Jewish priest who witnessed Jerusalem\u2019s destruction in AD 70. His works are the primary historical source for the Second Temple period, the Pharisees, Sadducees, Essenes, and the world Jesus walked in.',
-            era: 'jewish_war',
-            highlight: 'Eyewitness account of the Temple\u2019s destruction in AD 70'
-        },
-        {
-            textId: 'dss_sectarian',
-            title: 'Community Rule',
-            subtitle: 'Dead Sea Scrolls \u2014 1QS',
-            icon: '\u2696\uFE0F',
-            tagline: 'The Two Spirits doctrine. Light vs. Darkness within you.',
-            desc: 'The foundational rule of the Qumran community. Contains the famous \u201CTwo Spirits\u201D doctrine (1QS 3:13\u20134:26): every human has a spirit of truth and a spirit of falsehood warring within. Compare 1 John 4:1\u20136 and John\u2019s Gospel.',
-            era: 'community_rule',
-            highlight: '1QS Two Spirits parallels 1 John 4:1\u20136'
+            group: 'Historical Sources',
+            groupId: 'historical',
+            subtitle: 'First-century eyewitness accounts and ancient histories',
+            color: '#5b8dbf',
+            texts: [
+                { textId: 'josephus', title: 'Josephus', tagline: 'Eyewitness to the Temple\u2019s destruction, AD 70.', catalog: 'Jewish War, Antiquities, Against Apion' }
+            ]
         }
     ];
 
@@ -1507,34 +1459,39 @@
             html += '</div></div>';
         }
 
-        // Featured study card
-        html += '<div class="library-featured">' +
-            '<div class="library-featured-card" data-text="heavenly_court">' +
-            '<div class="library-featured-label">FEATURED STUDY</div>' +
-            '<h3 class="library-featured-title">Divine Council &amp; Heavenly Court</h3>' +
-            '<p class="library-featured-desc">Deep dive into the divine council worldview that unifies the entire biblical narrative &mdash; from Genesis to Revelation.</p>' +
-            '<span class="library-featured-cta">Begin the Study &rarr;</span>' +
-            '</div>' +
-            '</div>';
+        // Quick Tools — shortcuts to key study tools
+        html += '<div class="library-tools-section">' +
+            '<h2 class="library-tools-heading">Study Tools</h2>' +
+            '<div class="library-tools-grid">' +
+            '<div class="library-tool-card" data-action="show-timeline"><span class="tool-icon">\uD83D\uDCC5</span><span class="tool-label">Timeline</span></div>' +
+            '<div class="library-tool-card" data-action="show-map"><span class="tool-icon">\uD83C\uDF0D</span><span class="tool-label">Ancient Map</span></div>' +
+            '<div class="library-tool-card" data-action="show-matrix"><span class="tool-icon">\u2696\uFE0F</span><span class="tool-label">Truth Matrix</span></div>' +
+            '<div class="library-tool-card" data-action="show-prophecy"><span class="tool-icon">\uD83D\uDD2E</span><span class="tool-label">Prophecy</span></div>' +
+            '<div class="library-tool-card" data-action="show-hebrew"><span class="tool-icon">\u05D0</span><span class="tool-label">Learn Hebrew</span></div>' +
+            '<div class="library-tool-card" data-action="show-glossary"><span class="tool-icon">\uD83D\uDCD6</span><span class="tool-label">Glossary</span></div>' +
+            '</div></div>';
 
-        // Hidden Treasures section — lesser-known texts
-        html += '<div class="hidden-treasures-section">' +
-            '<h2 class="hidden-treasures-heading">\uD83D\uDC8E Hidden Treasures</h2>' +
-            '<p class="hidden-treasures-subtitle">Ancient texts most Christians have never read &mdash; but the biblical authors knew them well.</p>' +
-            '<div class="hidden-treasures-scroll">';
-        HIDDEN_TREASURES.forEach(function(ht) {
-            html += '<div class="treasure-card" data-text="' + ht.textId + '" data-era="' + ht.era + '">' +
-                '<div class="treasure-card-icon">' + ht.icon + '</div>' +
-                '<div class="treasure-card-body">' +
-                '<h3 class="treasure-card-title">' + ht.title + '</h3>' +
-                '<span class="treasure-card-subtitle">' + ht.subtitle + '</span>' +
-                '<p class="treasure-card-tagline">' + ht.tagline + '</p>' +
-                '<p class="treasure-card-desc">' + ht.desc + '</p>' +
-                '<div class="treasure-card-highlight">\u2728 ' + ht.highlight + '</div>' +
+        // Ancient Library — non-canonical texts grouped by source
+        html += '<div class="ancient-library-section">' +
+            '<h2 class="ancient-library-heading">Ancient Library</h2>' +
+            '<p class="ancient-library-subtitle">Beyond the canon &mdash; texts the biblical authors knew, cited, and expected their audiences to understand.</p>';
+        ANCIENT_LIBRARY.forEach(function(group) {
+            html += '<div class="ancient-library-group">' +
+                '<div class="alg-header" style="--group-color:' + group.color + '">' +
+                '<h3 class="alg-title">' + group.group + '</h3>' +
+                '<span class="alg-subtitle">' + group.subtitle + '</span>' +
                 '</div>' +
-                '</div>';
+                '<div class="alg-scroll">';
+            group.texts.forEach(function(t) {
+                html += '<div class="alg-card" data-text="' + t.textId + '"' + (t.era ? ' data-era="' + t.era + '"' : '') + '>' +
+                    '<h4 class="alg-card-title">' + t.title + '</h4>' +
+                    '<p class="alg-card-tagline">' + t.tagline + '</p>' +
+                    '<span class="alg-card-catalog">' + t.catalog + '</span>' +
+                    '</div>';
+            });
+            html += '</div></div>';
         });
-        html += '</div></div>';
+        html += '</div>';
 
         // Study Trails section
         html += '<div class="study-trails-section">' +
@@ -2539,6 +2496,27 @@
                     return;
                 }
                 renderStudyTrail(trailCard.dataset.trail);
+                window.scrollTo(0, 0);
+                return;
+            }
+
+            // Library tool card — open study tools
+            var toolCard = e.target.closest('.library-tool-card');
+            if (toolCard && toolCard.dataset.action) {
+                var action = toolCard.dataset.action;
+                if (action === 'show-timeline') openTimeline();
+                else if (action === 'show-map') openMap();
+                else if (action === 'show-matrix') { document.body.classList.add('matrix-open'); renderMatrix(); }
+                else if (action === 'show-prophecy' && typeof renderProphecyTracker === 'function') renderProphecyTracker();
+                else if (action === 'show-hebrew' && typeof renderLearnHebrew === 'function') renderLearnHebrew();
+                else if (action === 'show-glossary' && typeof renderGlossary === 'function') renderGlossary();
+                return;
+            }
+
+            // Ancient Library card — open text
+            var algCard = e.target.closest('.alg-card');
+            if (algCard && algCard.dataset.text) {
+                selectText(algCard.dataset.text);
                 window.scrollTo(0, 0);
                 return;
             }
