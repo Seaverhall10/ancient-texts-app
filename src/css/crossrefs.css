@@ -250,3 +250,66 @@
     margin-bottom: var(--space-md);
 }
 
+/* ── Cross-Reference Preview Tooltip ─────────── */
+.xref-tooltip {
+    position: fixed;
+    z-index: 10000;
+    max-width: 320px;
+    min-width: 200px;
+    background: #1a1e2a;
+    border: 1px solid rgba(201,168,76,0.3);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    pointer-events: auto;
+    animation: xrefTtFadeIn 0.15s ease;
+}
+
+@keyframes xrefTtFadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.xref-tt-ref {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--color-text, #e8e1d3);
+    margin-bottom: 0.25rem;
+}
+
+.xref-tt-type {
+    display: inline-block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-bottom: 0.4rem;
+}
+.xref-tt-type.type-foundational { color: #c9a84c; background: rgba(201,168,76,0.12); }
+.xref-tt-type.type-nt-parallel { color: #5b8dbf; background: rgba(91,141,191,0.12); }
+.xref-tt-type.type-thematic { color: #9b7ec8; background: rgba(155,126,200,0.12); }
+.xref-tt-type.type-typological { color: #5a9a6a; background: rgba(90,154,106,0.12); }
+.xref-tt-type.type-prophetic { color: #e8a04c; background: rgba(232,160,76,0.12); }
+.xref-tt-type.type-direct { color: #c9a84c; background: rgba(201,168,76,0.12); }
+.xref-tt-type.type-echo { color: #8a9ab0; background: rgba(138,154,176,0.12); }
+.xref-tt-type.type-contrast { color: #a05a54; background: rgba(160,90,84,0.12); }
+.xref-tt-type.type-ot { color: #5b8dbf; background: rgba(91,141,191,0.12); }
+.xref-tt-type.type-nt { color: #22c55e; background: rgba(34,197,94,0.12); }
+.xref-tt-type.type-ane { color: #f59e0b; background: rgba(245,158,11,0.12); }
+.xref-tt-type.type-dss { color: #8a7a9a; background: rgba(138,122,154,0.12); }
+
+.xref-tt-note {
+    font-size: 0.82rem;
+    color: rgba(232,225,211,0.8);
+    line-height: 1.5;
+    margin-bottom: 0.3rem;
+}
+
+.xref-tt-hint {
+    font-size: 0.7rem;
+    color: rgba(201,168,76,0.5);
+    text-align: right;
+}
+

@@ -343,6 +343,90 @@
         }
     ];
 
+    // ── Hidden Treasures (Lesser-Known Texts Discovery) ──────
+    var HIDDEN_TREASURES = [
+        {
+            textId: 'enoch1',
+            title: '1 Enoch',
+            subtitle: 'Book of the Watchers',
+            icon: '\uD83D\uDC7C',
+            tagline: 'The book Jude quotes. The angels who fell.',
+            desc: 'Quoted directly in Jude 14\u201315 and echoed throughout 2 Peter. The Watchers narrative that shaped how every NT author understood fallen angels, demons, and the flood. Once widely read in the early church.',
+            era: 'watchers',
+            highlight: 'Jude 14\u201315 directly quotes 1 Enoch 1:9'
+        },
+        {
+            textId: 'dss_sectarian',
+            title: 'The War Scroll',
+            subtitle: 'Dead Sea Scrolls \u2014 1QM',
+            icon: '\u2694\uFE0F',
+            tagline: 'The final battle plan. Sons of Light vs. Sons of Darkness.',
+            desc: 'A detailed apocalyptic battle plan found at Qumran describing the 40-year eschatological war between the Sons of Light and the Sons of Darkness. Michael leads the angelic army. Echoes Revelation\u2019s cosmic warfare.',
+            era: 'war_scroll',
+            highlight: 'Michael commands heaven\u2019s armies (cf. Rev 12:7)'
+        },
+        {
+            textId: 'giants',
+            title: 'Book of Giants',
+            subtitle: 'Dead Sea Scrolls Fragments',
+            icon: '\uD83D\uDC79',
+            tagline: 'What happened to the Nephilim? Their own story.',
+            desc: 'Fragmentary DSS text expanding the Genesis 6 / 1 Enoch narrative. The Nephilim receive prophetic dreams of their coming judgment. Shows how Second Temple Jews developed the Watchers tradition.',
+            era: 'giants_fragments',
+            highlight: 'Nephilim dream of the coming Flood judgment'
+        },
+        {
+            textId: 'jubilees',
+            title: 'Jubilees',
+            subtitle: 'The Little Genesis',
+            icon: '\uD83D\uDCDC',
+            tagline: 'Genesis retold with angels, demons, and a sacred calendar.',
+            desc: 'A retelling of Genesis through Exodus 19 dictated by the Angel of the Presence to Moses on Sinai. Introduces Mastema (the chief demon), explains the origin of evil spirits from the Watchers, and reveals a 364-day solar calendar.',
+            era: 'jub_prologue',
+            highlight: 'Mastema = Satan figure who tests Abraham'
+        },
+        {
+            textId: 'genesis_apocryphon',
+            title: 'Genesis Apocryphon',
+            subtitle: 'DSS \u2014 1QapGen',
+            icon: '\uD83C\uDFFA',
+            tagline: 'Noah speaks. Lamech fears his son is half-angel.',
+            desc: 'First-person accounts from Lamech, Noah, and Abraham. Lamech suspects his wife bore a Nephilim child. Contains Abraham\u2019s journey through Canaan and encounter with the divine. One of the original 7 scrolls found at Qumran.',
+            era: 'apocryphon_columns',
+            highlight: 'One of the first 7 Dead Sea Scrolls discovered'
+        },
+        {
+            textId: 'jasher',
+            title: 'Book of Jasher',
+            subtitle: 'The Book of the Upright',
+            icon: '\uD83D\uDCD6',
+            tagline: 'Referenced twice in the Bible. Most Christians never read it.',
+            desc: 'Mentioned in Joshua 10:13 and 2 Samuel 1:18. A parallel history from Adam through the Judges period with expanded narratives of Abraham, Joseph, Moses, and the conquest. Rich details absent from the biblical text.',
+            era: 'jasher_primeval',
+            highlight: 'Joshua 10:13 \u2014 \u201CIs this not written in the Book of Jasher?\u201D'
+        },
+        {
+            textId: 'josephus',
+            title: 'Josephus',
+            subtitle: 'The Jewish War & Antiquities',
+            icon: '\uD83C\uDFDB\uFE0F',
+            tagline: 'The eyewitness. Temple destruction. First-century Judaism.',
+            desc: 'Flavius Josephus was a Jewish priest who witnessed Jerusalem\u2019s destruction in AD 70. His works are the primary historical source for the Second Temple period, the Pharisees, Sadducees, Essenes, and the world Jesus walked in.',
+            era: 'jewish_war',
+            highlight: 'Eyewitness account of the Temple\u2019s destruction in AD 70'
+        },
+        {
+            textId: 'dss_sectarian',
+            title: 'Community Rule',
+            subtitle: 'Dead Sea Scrolls \u2014 1QS',
+            icon: '\u2696\uFE0F',
+            tagline: 'The Two Spirits doctrine. Light vs. Darkness within you.',
+            desc: 'The foundational rule of the Qumran community. Contains the famous \u201CTwo Spirits\u201D doctrine (1QS 3:13\u20134:26): every human has a spirit of truth and a spirit of falsehood warring within. Compare 1 John 4:1\u20136 and John\u2019s Gospel.',
+            era: 'community_rule',
+            highlight: '1QS Two Spirits parallels 1 John 4:1\u20136'
+        }
+    ];
+
     // ── Bible Truth Matrix Data ──────────────────────────────
     var BIBLE_TEACHES = {
         god: { label: 'Nature of God', teaching: 'One God in three Persons: Father, Son, and Holy Spirit. Eternal, omniscient, omnipotent, holy, just, and loving. Creator of all things visible and invisible.', scriptures: ['Genesis 1:1','Deuteronomy 6:4','Isaiah 45:5','Matthew 28:19','John 1:1-3','Colossians 1:16-17'] },
@@ -1335,6 +1419,25 @@
             '</div>' +
             '</div>';
 
+        // Hidden Treasures section — lesser-known texts
+        html += '<div class="hidden-treasures-section">' +
+            '<h2 class="hidden-treasures-heading">\uD83D\uDC8E Hidden Treasures</h2>' +
+            '<p class="hidden-treasures-subtitle">Ancient texts most Christians have never read &mdash; but the biblical authors knew them well.</p>' +
+            '<div class="hidden-treasures-scroll">';
+        HIDDEN_TREASURES.forEach(function(ht) {
+            html += '<div class="treasure-card" data-text="' + ht.textId + '" data-era="' + ht.era + '">' +
+                '<div class="treasure-card-icon">' + ht.icon + '</div>' +
+                '<div class="treasure-card-body">' +
+                '<h3 class="treasure-card-title">' + ht.title + '</h3>' +
+                '<span class="treasure-card-subtitle">' + ht.subtitle + '</span>' +
+                '<p class="treasure-card-tagline">' + ht.tagline + '</p>' +
+                '<p class="treasure-card-desc">' + ht.desc + '</p>' +
+                '<div class="treasure-card-highlight">\u2728 ' + ht.highlight + '</div>' +
+                '</div>' +
+                '</div>';
+        });
+        html += '</div></div>';
+
         // Study Trails section
         html += '<div class="study-trails-section">' +
             '<h2 class="study-trails-heading">Study Trails</h2>' +
@@ -1947,6 +2050,7 @@
             '<div style="position:absolute;top:0;left:0;right:0;height:3px;background:' + era.color + ';border-radius:6px 6px 0 0"></div>' +
             '<label class="read-check-label" title="Mark as read"><input type="checkbox" class="read-check" data-id="' + ch.id + '"' + (isRead ? ' checked' : '') + '></label>' +
             '<button class="chapter-copy-btn" data-id="' + ch.id + '" title="Copy study content">&#x1F4CB;</button>' +
+            '<button class="chapter-export-btn" data-id="' + ch.id + '" title="Export as Markdown">&#x1F4E5;</button>' +
             '<button class="bookmark-btn ' + (isBookmarked ? 'bookmarked' : '') + '"' +
             ' data-id="' + ch.id + '" title="Bookmark this chapter">' +
             (isBookmarked ? '\u2605' : '\u2606') + '</button>';
@@ -2258,6 +2362,13 @@
                 return;
             }
 
+            // Hidden Treasure card — navigate to text/era
+            var treasureCard = e.target.closest('.treasure-card');
+            if (treasureCard && treasureCard.dataset.text) {
+                selectText(treasureCard.dataset.text);
+                return;
+            }
+
             // Text intro collapse toggle
             var collapseBtn = e.target.closest('.intro-collapse-btn');
             if (collapseBtn) {
@@ -2329,6 +2440,13 @@
             if (copyBtn) {
                 e.stopPropagation();
                 copyStudyContent(copyBtn.dataset.id);
+                return;
+            }
+
+            var exportBtn = e.target.closest('.chapter-export-btn');
+            if (exportBtn) {
+                e.stopPropagation();
+                exportChapterMarkdown(exportBtn.dataset.id);
                 return;
             }
 
@@ -2442,6 +2560,57 @@
                 return;
             }
         });
+
+        // Cross-reference preview tooltip on hover
+        (function() {
+            var tooltip = document.createElement('div');
+            tooltip.className = 'xref-tooltip';
+            tooltip.style.display = 'none';
+            document.body.appendChild(tooltip);
+            var hideTimer = null;
+
+            function showTooltip(pill) {
+                var chId = pill.dataset.chapter;
+                var idx = parseInt(pill.dataset.index);
+                var ch = getChapterById(chId);
+                if (!ch || !ch.cross_refs || !ch.cross_refs[idx]) return;
+                var xr = ch.cross_refs[idx];
+                var typeLabel = xr.type ? xr.type.replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); }) : '';
+                tooltip.innerHTML = '<div class="xref-tt-ref">' + xr.ref + '</div>' +
+                    (typeLabel ? '<span class="xref-tt-type type-' + xr.type + '">' + typeLabel + '</span>' : '') +
+                    '<div class="xref-tt-note">' + xr.note + '</div>' +
+                    '<div class="xref-tt-hint">Click to explore &rarr;</div>';
+                tooltip.style.display = 'block';
+
+                var rect = pill.getBoundingClientRect();
+                var ttRect = tooltip.getBoundingClientRect();
+                var left = rect.left + rect.width / 2 - ttRect.width / 2;
+                var top = rect.top - ttRect.height - 8;
+                if (top < 8) top = rect.bottom + 8;
+                if (left < 8) left = 8;
+                if (left + ttRect.width > window.innerWidth - 8) left = window.innerWidth - ttRect.width - 8;
+                tooltip.style.left = left + 'px';
+                tooltip.style.top = top + 'px';
+            }
+
+            mainContent.addEventListener('mouseover', function(e) {
+                var pill = e.target.closest('.cross-ref-pill');
+                if (pill) {
+                    clearTimeout(hideTimer);
+                    showTooltip(pill);
+                }
+            });
+            mainContent.addEventListener('mouseout', function(e) {
+                var pill = e.target.closest('.cross-ref-pill');
+                if (pill) {
+                    hideTimer = setTimeout(function() { tooltip.style.display = 'none'; }, 200);
+                }
+            });
+            tooltip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+            tooltip.addEventListener('mouseout', function() {
+                hideTimer = setTimeout(function() { tooltip.style.display = 'none'; }, 200);
+            });
+        })();
 
         // Swipe gesture for single-chapter navigation
         (function() {
@@ -4211,6 +4380,110 @@
         if (council) parts.push('\n[Heavenly Court]\n' + council.textContent.trim());
 
         writeClipboard(parts.join('\n'));
+    }
+
+    function exportChapterMarkdown(chapterId) {
+        var ch = getChapterById(chapterId);
+        if (!ch) { showCopyToast('Chapter not found'); return; }
+
+        var md = [];
+        md.push('# ' + ch.ref);
+        md.push('## ' + ch.title);
+        md.push('');
+
+        if (ch.synopsis) {
+            md.push('### Synopsis');
+            md.push(ch.synopsis);
+            md.push('');
+        }
+
+        if (ch.key_verse) {
+            md.push('### Key Verse');
+            md.push('> **' + ch.key_verse.ref + '** — ' + ch.key_verse.text);
+            md.push('> *(' + ch.key_verse.translation + ')*');
+            md.push('');
+        }
+
+        if (ch.hebrew_terms && ch.hebrew_terms.length > 0) {
+            md.push('### Key Terms');
+            ch.hebrew_terms.forEach(function(t) {
+                if (typeof t === 'string') {
+                    md.push('- **' + t.split('(')[0].trim() + '** — ' + (t.indexOf('(') > -1 ? t.substring(t.indexOf('(') + 1).replace(/\)$/, '') : t));
+                } else if (t.term) {
+                    md.push('- **' + t.term + '** (' + (t.transliteration || '') + ') — ' + (t.definition || ''));
+                }
+            });
+            md.push('');
+        }
+
+        if (ch.ane_backdrop) {
+            md.push('### Ancient Near Eastern Context');
+            md.push(ch.ane_backdrop);
+            md.push('');
+        }
+
+        if (ch.second_temple && ch.second_temple.length > 0) {
+            md.push('### Second Temple Sources');
+            ch.second_temple.forEach(function(s) {
+                md.push('- **' + s.source + '** — ' + s.summary);
+                if (s.relevance) md.push('  - *Relevance:* ' + s.relevance);
+            });
+            md.push('');
+        }
+
+        if (ch.cross_refs && ch.cross_refs.length > 0) {
+            md.push('### Cross References');
+            ch.cross_refs.forEach(function(xr) {
+                md.push('- **' + xr.ref + '** — ' + xr.note + (xr.type ? ' [' + xr.type + ']' : ''));
+            });
+            md.push('');
+        }
+
+        if (ch.divine_council_note) {
+            md.push('### Heavenly Court Lens');
+            md.push(ch.divine_council_note);
+            md.push('');
+        }
+
+        if (ch.sections) {
+            md.push('### Commentary');
+            if (typeof ch.sections === 'string') {
+                // HTML sections — strip tags for markdown
+                var tmp = document.createElement('div');
+                tmp.innerHTML = ch.sections;
+                tmp.querySelectorAll('h4').forEach(function(h) {
+                    md.push('#### ' + h.textContent.trim());
+                });
+                tmp.querySelectorAll('p').forEach(function(p) {
+                    md.push(p.textContent.trim());
+                    md.push('');
+                });
+            } else if (Array.isArray(ch.sections)) {
+                ch.sections.forEach(function(sec) {
+                    if (sec.heading) md.push('#### ' + sec.heading);
+                    if (sec.body) md.push(sec.body);
+                    md.push('');
+                });
+            }
+        }
+
+        md.push('---');
+        md.push('*Exported from Ancient Texts Study App*');
+
+        var content = md.join('\n');
+        var filename = ch.id.replace(/[^a-z0-9-]/g, '_') + '.md';
+
+        // Download as file
+        var blob = new Blob([content], { type: 'text/markdown' });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showCopyToast('Exported ' + filename);
     }
 
     // ── Ancient World Map ────────────────────────────────────

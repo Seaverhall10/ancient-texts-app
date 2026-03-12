@@ -39,3 +39,4 @@ animations.css
 keyboard-help.css
 auth.css
 reading-modes.css
+hidden-treasures.css

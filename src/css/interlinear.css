@@ -895,6 +895,29 @@ body.source-reading-active .reading-progress {
     background: var(--gold-dim);
 }
 
+.chapter-export-btn {
+    position: absolute;
+    top: 16px;
+    right: 88px;
+    background: none;
+    border: 1px solid rgba(201, 168, 76, 0.2);
+    border-radius: 4px;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 4px 8px;
+    font-size: 0.7rem;
+    transition: all var(--transition);
+    opacity: 0;
+}
+
+.chapter-card:hover .chapter-export-btn { opacity: 1; }
+
+.chapter-export-btn:hover {
+    color: var(--gold);
+    border-color: var(--gold-border);
+    background: var(--gold-dim);
+}
+
 /* Reading Progress */
 .read-check-label {
     position: absolute;

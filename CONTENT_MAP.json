@@ -1,21 +1,21 @@
 {
-  "generated": "2026-03-12T00:45:13.712622",
+  "generated": "2026-03-12T01:17:59.187892",
   "version": "1.0",
   "summary": {
     "total_texts": 74,
-    "total_eras": 200,
-    "total_study_chapters": 937,
+    "total_eras": 206,
+    "total_study_chapters": 955,
     "total_flow_verses": 31101,
     "total_il_words": 444339,
-    "total_cross_refs": 6268,
-    "unique_passages_cited": 3958,
+    "total_cross_refs": 6392,
+    "unique_passages_cited": 3992,
     "glossary_terms": 556,
     "texts_with_flow": 66,
     "texts_with_interlinear": 66,
     "gap_count": {
       "no_flow": 0,
       "no_interlinear": 0,
-      "thin_eras": 27,
+      "thin_eras": 21,
       "missing_files": 0
     }
   },
@@ -490,56 +490,60 @@
       "name": "2 Thessalonians",
       "category": "nt",
       "chapters": 3,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 47,
       "il_words": 820,
       "il_language": "greek",
       "era_ids": [
-        "2thess_lawless"
+        "2thess_lawless",
+        "2thess_mystery"
       ]
     },
     "1timothy": {
       "name": "1 Timothy",
       "category": "nt",
       "chapters": 6,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 113,
       "il_words": 1591,
       "il_language": "greek",
       "era_ids": [
-        "1tim_church"
+        "1tim_church",
+        "1tim_warfare"
       ]
     },
     "2timothy": {
       "name": "2 Timothy",
       "category": "nt",
       "chapters": 4,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 83,
       "il_words": 1235,
       "il_language": "greek",
       "era_ids": [
-        "2tim_charge"
+        "2tim_charge",
+        "2tim_endurance"
       ]
     },
     "titus": {
       "name": "Titus",
       "category": "nt",
       "chapters": 3,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 46,
       "il_words": 659,
       "il_language": "greek",
       "era_ids": [
-        "titus_order"
+        "titus_order",
+        "titus_grace"
       ]
     },
     "philemon": {
@@ -605,28 +609,30 @@
       "name": "2 Peter",
       "category": "nt",
       "chapters": 3,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 61,
       "il_words": 1098,
       "il_language": "greek",
       "era_ids": [
-        "2peter_knowledge"
+        "2peter_knowledge",
+        "2pet_judgment"
       ]
     },
     "1john": {
       "name": "1 John",
       "category": "nt",
       "chapters": 5,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 105,
       "il_words": 2137,
       "il_language": "greek",
       "era_ids": [
-        "1john_light"
+        "1john_light",
+        "1john_spirits"
       ]
     },
     "2john": {
@@ -16205,6 +16211,80 @@
       "cross_ref_count": 8,
       "has_data_file": true
     },
+    "2thess_mystery": {
+      "text_id": "2thessalonians",
+      "name": "The Mystery of Lawlessness",
+      "chapters_ref": "2 Thessalonians 2",
+      "chapter_count": 3,
+      "themes": [
+        "Man of lawlessness revealed",
+        "The katechon (restrainer)",
+        "Mystery of lawlessness",
+        "God's strong delusion",
+        "1 Kings 22 council parallel",
+        "Satanic counterfeit signs"
+      ],
+      "chapters": [
+        {
+          "id": "2thess-mystery-1",
+          "ref": "2 Thessalonians 2:1-4",
+          "title": "The Man of Lawlessness Revealed",
+          "synopsis": "Paul addresses the Thessalonians' alarm that 'the day of the Lord has already come' (2:2). He corrects this with a definitive eschatological sequence: two events must precede the parousia. First, 'the",
+          "key_verse": "2 Thessalonians 2:3-4",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "ho anthrōpos tēs anomias (the man of lawlessness -- anomia = 'without law/torah'; not merely a lawbreaker but the embodiment of anti-torah rebellion; the genitive is qualitative: lawlessness defines his very nature)",
+            "ho huios tēs apōleias (the son of destruction -- a Semitic idiom meaning 'one destined for destruction'; the same title Jesus applies to Judas in John 17:12, linking betrayal from within to eschatological treachery)",
+            "apostasia (the apostasy/rebellion -- from aphistēmi, 'to stand away from'; in the LXX used for rebellion against God [Josh 22:22]; here it denotes the great eschatological defection that precedes the end)",
+            "ho antikeimenos (the one who opposes -- present middle participle of antikeimai; in 1 Tim 5:14 used of 'the adversary'; the verbal echo of Satan [Heb. satan = adversary/opponent] is deliberate)",
+            "naos tou theou (the temple of God -- naos refers specifically to the inner sanctuary, the holy of holies, not the broader temple complex [hieron]; the man of lawlessness penetrates to the very dwelling of God's presence)",
+            "hyperairomenos (exalting himself above -- a rare compound: hyper [above] + airō [to lift]; only here and 2 Cor 12:7 in the NT; it describes a lifting above all divine beings, not merely human authorities)",
+            "sebasma (object of worship -- from sebō, 'to revere'; used in Acts 17:23 of the Athenian altars; encompasses all religious devotion, divine or pagan, which this figure claims to supersede)",
+            "hēmera tou kyriou (the day of the Lord -- the OT yom YHWH transferred to Christ; the eschatological judgment day that the Thessalonians wrongly believed had already arrived)"
+          ]
+        },
+        {
+          "id": "2thess-mystery-2",
+          "ref": "2 Thessalonians 2:5-8",
+          "title": "The Restrainer and the Mystery",
+          "synopsis": "Paul reminds the Thessalonians of what he told them in person: 'you know what is restraining him now' (to katechon, neuter, 2:6) and 'he who now restrains' (ho katechōn, masculine, 2:7). This mysterio",
+          "key_verse": "2 Thessalonians 2:7",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "to mysterion tēs anomias (the mystery of lawlessness -- mysterion = a hidden reality now revealed; the demonic rebellion operates covertly in the present age, hidden from most but discernible to those with spiritual insight; the genitive is both qualitative and possessive: lawlessness has a mysterion, a hidden operative dimension)",
+            "ho katechōn (the one who restrains -- masculine participle; a personal being who holds back the full manifestation of lawlessness; the identity has been debated for two millennia: Michael the archangel, the Holy Spirit, the Roman emperor, or God's sovereign decree)",
+            "to katechon (that which restrains -- neuter participle; the impersonal force or principle that restrains; the shift between masculine and neuter suggests both a person and a power/institution working together)",
+            "pneuma tou stomatos (the breath/spirit of his mouth -- from Isa 11:4 LXX; the divine Word as weapon; Christ destroys the lawless one not by military force but by the power of his spoken decree, the same Word that created the cosmos)",
+            "epiphaneia tēs parousias (the appearance of his coming -- a double expression: epiphaneia [visible radiant manifestation, used of divine theophanies] + parousia [royal arrival/presence]; Christ's return is both a theophany and a royal advent)",
+            "ho anomos (the lawless one -- the definite article with anomos makes this a title, not a description; 'THE lawless one' -- the ultimate embodiment of the anti-torah principle)",
+            "ēdē energeitai (is already at work -- energeō = to be operative, to be energetically at work; the mystery of lawlessness is not dormant but actively operating in the present age, producing effects even while restrained)",
+            "analōsei (will consume/destroy -- from analiskō, 'to use up, consume, destroy'; Christ will consume the lawless one as fire consumes fuel; the divine breath is like the consuming fire of YHWH's theophany)"
+          ]
+        },
+        {
+          "id": "2thess-mystery-3",
+          "ref": "2 Thessalonians 2:9-12",
+          "title": "The Deluding Influence",
+          "synopsis": "The final section of 2 Thessalonians 2 reveals the satanic power behind the lawless one and the divine response to those who embrace him. The lawless one's coming is 'by the activity of Satan' (kat' e",
+          "key_verse": "2 Thessalonians 2:9-11",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "energeia tou Satana (the working/activity of Satan -- energeia denotes effective, operative power; Satan is the active agent behind the lawless one; the same word describes God's power in Eph 1:19-20 and Phil 3:21 -- there is a battle of energeiai, divine vs. satanic)",
+            "sēmeia kai terata pseudous (signs and wonders of falsehood -- sēmeia kai terata is the standard LXX phrase for God's mighty acts [Deut 6:22; 26:8]; pseudous is a genitive of quality -- these are lying signs, counterfeit miracles that mimic the real)",
+            "energeia planēs (a working of delusion -- God sends not merely deception but an active, effective operation of error; the same energeia root used of Satan in 2:9 is now used of God's judicial action in 2:11; God turns Satan's own weapon back on those who chose the lie)",
+            "to pseudos (the lie/the false thing -- the definite article makes this specific: not just 'falsehood' but THE lie; the primal lie of the nachash in Eden: 'you will be like God' [Gen 3:5]; the man of lawlessness embodies this same lie by 'proclaiming himself to be God')",
+            "eudokēsantes tē adikia (those who took pleasure in unrighteousness -- eudokeō = to delight in, to approve of; these are not people who sinned reluctantly but those who actively delighted in adikia, the opposite of dikaiosyne [righteousness])",
+            "tēn agapēn tēs alētheias (the love of the truth -- not merely intellectual assent but agapē for alētheia; those who perish did so because they refused to love truth; the rejection is volitional and affective, not merely cognitive)",
+            "pseudei (with/by falsehood -- the dative of means; the lawless one's deception operates through falsehood as its instrument; the entire operation is characterized by the inversion of truth)"
+          ]
+        }
+      ],
+      "cross_ref_count": 21,
+      "has_data_file": true
+    },
     "1tim_church": {
       "text_id": "1timothy",
       "name": "Church Order and Sound Doctrine",
@@ -16256,6 +16336,82 @@
       "cross_ref_count": 10,
       "has_data_file": true
     },
+    "1tim_warfare": {
+      "text_id": "1timothy",
+      "name": "Cosmic Order and Spiritual Warfare",
+      "chapters_ref": "1 Timothy 1–6",
+      "chapter_count": 3,
+      "themes": [
+        "Mystery of godliness",
+        "Christ Hymn cosmic itinerary",
+        "Doctrines of demons",
+        "Spiritual warfare",
+        "Handing over to Satan",
+        "King of kings doxology",
+        "One mediator",
+        "Deuteronomy 32 reversal"
+      ],
+      "chapters": [
+        {
+          "id": "1tim-warfare-1",
+          "ref": "1 Timothy 3:14-4:5",
+          "title": "The Mystery of Godliness and the Doctrines of Demons",
+          "synopsis": "Paul delivers the theological heart of 1 Timothy in two explosive movements. First, the Christ Hymn of 3:16 -- six clauses tracing the cosmic itinerary of the incarnate God: 'He was manifested in the ",
+          "key_verse": "1 Timothy 3:16",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "mysterion tes eusebeias (mystery of godliness -- 3:16; mysterion = hidden divine plan now unveiled; eusebeia = reverence/godliness; the Christ event is the great secret of the divine council, now publicly revealed through incarnation and proclamation)",
+            "ephanerothe en sarki (manifested in the flesh -- 3:16; phaneroo = to make visible/reveal; the invisible God of the divine council takes on sarx [flesh]; this is the council's most shocking act -- deity entering human materiality)",
+            "ophthe angelois (seen by angels -- 3:16; ophthe = was seen/appeared to, the same verb used for resurrection appearances [1 Cor 15:5-8]; the divine council members -- the angels -- witnessed the incarnation, death, resurrection, and ascension of the Son)",
+            "pneumata plana (deceitful/seducing spirits -- 4:1; spiritual beings who actively lead astray; from planao [to wander, to deceive]; these are rebel members of the spiritual realm waging war against the truth)",
+            "didaskaliai daimonion (teachings/doctrines of demons -- 4:1; the false teachings are not merely human errors but originate from daimonia, hostile spiritual beings; the cosmic rebellion operates through intellectual and theological deception)",
+            "aphistemi (to depart/apostatize -- 4:1; 'some will depart [apostesontai] from the faith'; a deliberate withdrawal from covenant loyalty, drawn away by demonic influence; the warfare is for the allegiance of the saints)",
+            "kekausteriasmenon ten idian syneidesin (seared in conscience -- 4:2; the false teachers' moral discernment has been cauterized/branded, rendered insensitive; from kausteriazo [to brand with a hot iron]; demonic deception damages the human capacity for truth)",
+            "ktisma theou (creation of God -- 4:4; 'everything created by God is good'; Paul counters demonic asceticism with Genesis 1:31 creation theology -- the material world is God's good work, not evil to be rejected)"
+          ]
+        },
+        {
+          "id": "1tim-warfare-2",
+          "ref": "1 Timothy 1:18-20; 6:11-16",
+          "title": "The Good Fight -- Warfare, Satan's Court, and the Divine Throne",
+          "synopsis": "Paul frames Timothy's entire ministry in military terms: 'Wage the good warfare' (1:18), a charge grounded in 'the prophecies previously made about you' (1:18) -- Timothy was commissioned by prophetic",
+          "key_verse": "1 Timothy 6:15-16",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "strateia / strateuo (warfare / to wage war -- 1:18; 'wage the good warfare [kalen strateian]'; the pastoral ministry is a military campaign; strateia denotes the whole campaign, not a single battle; Timothy is a soldier under orders)",
+            "paradidomi to Satana (handed over to Satan -- 1:20; a judicial-disciplinary act of the apostle, transferring offenders into Satan's jurisdiction for corrective suffering; the same formula appears in 1 Cor 5:5 for the sexually immoral man in Corinth)",
+            "kalos agon tes pisteos (good fight/contest of the faith -- 6:12; agon = athletic contest or combat; the 'good' [kalos] fight is noble, honorable, worthy; pistis is both the content of faith [the deposit] and the act of believing)",
+            "makarios kai monos dynastes (blessed and only Sovereign -- 6:15; dynastes = ruler/potentate; monos emphasizes God's uniqueness among all powers; this is a direct claim against the Roman emperor cult and against all rival divine beings)",
+            "basileus basileon kai kyrios kyrion (King of kings and Lord of lords -- 6:15; superlative title of cosmic supremacy; the same title applied to Christ in Rev 19:16; in the divine council, God is the supreme ruler over all subordinate 'kings' and 'lords')",
+            "aprositos phos (unapproachable light -- 6:16; light so intense that no created being can approach it; echoes the Sinai theophany [Exod 33:20: 'no one shall see me and live'] and Psalm 104:2: 'covering yourself with light as with a garment')",
+            "athanasia (immortality -- 6:16; 'who alone has immortality'; only God possesses immortality inherently; all other beings, including angels and heavenly powers, have derived existence; this is the ontological gap between Creator and council)"
+          ]
+        },
+        {
+          "id": "1tim-warfare-3",
+          "ref": "1 Timothy 2:1-8",
+          "title": "Cosmic Order -- Prayer for Authorities and the One Mediator",
+          "synopsis": "Paul's instruction to pray for kings and authorities is far more than civic etiquette -- it is an act of spiritual warfare grounded in the Deuteronomy 32 worldview. In the divine council framework, ea",
+          "key_verse": "1 Timothy 2:5-6",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "heis theos (one God -- 2:5; the fundamental monotheistic confession; in the divine council framework, this does not deny the existence of other spiritual beings but asserts YHWH's absolute supremacy and uniqueness as Creator; echoes the Shema of Deut 6:4)",
+            "heis mesites (one mediator -- 2:5; mesites = one who stands between two parties to reconcile them; in a world of multiple claimed intermediaries -- angels, deceased heroes, mystery cult initiators -- Paul insists on one: the man Christ Jesus)",
+            "antilytron hyper panton (ransom for all -- 2:6; antilytron = a price paid in exchange, a substitutionary ransom; hyper panton = on behalf of all; the scope is universal: the ransom reclaims not just Israel but every nation from the jurisdiction of the lesser powers)",
+            "basileis kai hyperoche (kings and those in authority -- 2:2; hyperoche = eminence, high position; Paul commands prayer for the ruling powers, who in the Deut 32 worldview operate under spiritual principalities allotted over nations)",
+            "eremos kai hesychios bios (peaceful and quiet life -- 2:2; hesychios = tranquil, undisturbed; the goal of prayer for authorities is a social environment where the gospel can advance -- peace is a strategic condition for mission, not merely personal comfort)",
+            "en pase eusebeia kai semnoteti (in all godliness and dignity -- 2:2; eusebeia = reverence toward God; semnotes = dignified seriousness; the 'peaceful life' serves the higher purpose of living out covenant faithfulness in the public square)",
+            "soter (savior -- 2:3; 'God our Savior, who desires all people to be saved'; soter was a title claimed by Hellenistic kings and Roman emperors; Paul reclaims it for the true God who alone rescues humanity from the dominion of hostile powers)",
+            "epignosis aletheias (knowledge of the truth -- 2:4; epignosis = full, experiential knowledge [not merely intellectual]; the truth is the reality of God's salvific plan -- coming to this knowledge is being rescued from the deceptive doctrines of demons [4:1])"
+          ]
+        }
+      ],
+      "cross_ref_count": 21,
+      "has_data_file": true
+    },
     "2tim_charge": {
       "text_id": "2timothy",
       "name": "Paul's Final Charge",
@@ -16302,6 +16458,78 @@
         }
       ],
       "cross_ref_count": 10,
+      "has_data_file": true
+    },
+    "2tim_endurance": {
+      "text_id": "2timothy",
+      "name": "The Last Words — Endurance, Scripture, and the Crown",
+      "chapters_ref": "2 Timothy 2–4",
+      "chapter_count": 3,
+      "themes": [
+        "Soldier, athlete, farmer",
+        "All Scripture God-breathed",
+        "Crown of righteousness",
+        "The Lord stood by me",
+        "Jannes and Jambres"
+      ],
+      "chapters": [
+        {
+          "id": "2tim-endurance-1",
+          "ref": "2 Timothy 2:1-26",
+          "title": "The Unashamed Worker",
+          "synopsis": "Paul charges Timothy to 'be strong in the grace that is in Christ Jesus' (2:1) and to 'share in suffering as a good soldier of Christ Jesus' (2:3). Three vocational metaphors define the faithful worke",
+          "key_verse": "2 Timothy 2:15",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "stratiotes (soldier -- 2:3-4; the Roman soldier served under absolute obedience to his commanding officer; Paul applies this to gospel ministry under Christ's authority)",
+            "athleo (to compete as an athlete -- 2:5; the verb specifically means competing in the public games; 'an athlete is not crowned unless he competes according to the rules')",
+            "georgos (farmer/husbandman -- 2:6; the hard-working farmer who labors before he reaps; ministry requires patient toil before fruitfulness)",
+            "orthotomounta (rightly dividing/cutting straight -- 2:15; literally 'cutting a straight line'; used of road-building and stone-cutting; precision in handling Scripture)",
+            "stereos themelios (firm foundation -- 2:19; 'God's firm foundation stands, bearing this seal'; the church rests on a divinely laid foundation that cannot be overthrown)",
+            "paratheke (deposit/entrustment -- the apostolic teaching committed to Timothy's keeping; a legal-financial term for valuables entrusted to a custodian for safeguarding)",
+            "symbasileuo (to reign with -- 2:12; 'if we endure, we will also reign with him'; believers share in Christ's cosmic reign over all powers and principalities)",
+            "gangraina (gangrene -- 2:17; the false teaching of Hymenaeus and Philetus 'will spread like gangrene'; a medical term for tissue death that spreads if unchecked)"
+          ]
+        },
+        {
+          "id": "2tim-endurance-2",
+          "ref": "2 Timothy 3:1-17",
+          "title": "All Scripture God-Breathed",
+          "synopsis": "Paul warns that 'in the last days there will come times of difficulty' (3:1), catalogs the moral collapse of the eschatai hemerai -- lovers of self, lovers of money, proud, arrogant, abusive, disobedi",
+          "key_verse": "2 Timothy 3:16-17",
+          "cross_ref_count": 6,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "theopneustos (God-breathed -- 3:16; a compound: theo = God + pneustos = breathed; Scripture originates from God's breath/Spirit; this word appears only here in the entire NT)",
+            "eschatai hemerai (last days -- 3:1; the final period of the present evil age before God's kingdom breaks in fully; Paul considers this period already underway)",
+            "Iannes kai Iambres (Jannes and Jambres -- 3:8; the Egyptian magicians who opposed Moses; their names are absent from the OT text and come from Jewish oral tradition preserved in the Apocryphon of Jannes and Jambres)",
+            "ophelimos (profitable/useful -- 3:16; Scripture is not merely informative but functional: it produces tangible results in the lives of those who receive it)",
+            "exartizo (to equip thoroughly -- 3:17; to complete, to furnish fully; the man of God is rendered 'complete' (artios) and 'equipped' (exartizo) through Scripture)",
+            "goetes (impostors/sorcerers -- 3:13; literally 'enchanters' or 'sorcerers'; false teachers are linked to the same dark spiritual powers as Pharaoh's magicians)",
+            "hiera grammata (sacred writings -- 3:15; literally 'holy letters'; the OT Scriptures that Timothy knew from childhood through his Jewish mother Eunice and grandmother Lois)"
+          ]
+        },
+        {
+          "id": "2tim-endurance-3",
+          "ref": "2 Timothy 4:1-22",
+          "title": "The Crown of Righteousness",
+          "synopsis": "Paul delivers his final charge 'in the presence of God and of Christ Jesus, who is to judge the living and the dead, and by his appearing and his kingdom' (4:1) -- a divine court oath invoking the hea",
+          "key_verse": "2 Timothy 4:7-8",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "stephanos tes dikaiosynes (crown of righteousness -- 4:8; the victor's wreath awarded at the divine tribunal; not the perishable crown of the games but the imperishable reward of the heavenly court)",
+            "epiphaneia (appearing/manifestation -- 4:1, 8; the visible arrival of Christ in glory; in secular Greek used for the manifestation of a deity or a royal visitation; used 5x in the Pastorals)",
+            "agon (fight/contest -- 4:7; 'I have fought the good fight'; the word for a public athletic contest; Paul's entire ministry framed as a cosmic competition)",
+            "dromos (race/course -- 4:7; 'I have finished the race'; literally 'the course'; Paul's life-mission viewed as a set course to be completed, not a wandering journey)",
+            "ho kyrios pareste moi (the Lord stood by me -- 4:17; the divine presence at Paul's trial before the Roman court; echoes the angelic/divine presence in Daniel's court scenes)",
+            "spendomai (to be poured out as a drink offering -- 4:6; Paul sees his impending death as a sacrificial libation; a Greco-Roman cultic term applied to martyrdom as worship)",
+            "basileia epouranios (heavenly kingdom -- 4:18; 'the Lord will bring me safely into his heavenly kingdom'; the destination is not mere survival but enthronement in the divine realm)"
+          ]
+        }
+      ],
+      "cross_ref_count": 20,
       "has_data_file": true
     },
     "titus_order": {
@@ -16353,6 +16581,81 @@
         }
       ],
       "cross_ref_count": 11,
+      "has_data_file": true
+    },
+    "titus_grace": {
+      "text_id": "titus",
+      "name": "The Grace That Trains",
+      "chapters_ref": "Titus 1–3",
+      "chapter_count": 3,
+      "themes": [
+        "Circumcision party",
+        "Grace appeared",
+        "Great God and Savior",
+        "Washing of regeneration",
+        "Spirit poured out",
+        "Trinitarian soteriology"
+      ],
+      "chapters": [
+        {
+          "id": "titus-grace-1",
+          "ref": "Titus 1:10-16",
+          "title": "Sound Doctrine vs. the Circumcision Party",
+          "synopsis": "Paul warns Titus that the Cretan churches face a specific threat: 'there are many who are insubordinate, empty talkers and deceivers, especially those of the circumcision party. They must be silenced,",
+          "key_verse": "Titus 1:15-16",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "anypotaktoi (insubordinate/unruly -- 1:10; from a-negative + hypotasso [to place under]; those who refuse to submit to apostolic authority and the divine order established through Paul's teaching)",
+            "mataiologoi (empty talkers -- 1:10; from mataios [vain/futile] + logos [word]; speech that sounds impressive but carries no substance or truth; their words produce nothing of spiritual value)",
+            "Kretes aei pseustai (Cretans are always liars -- 1:12; a hexameter line from Epimenides of Knossos, c. 600 BC, quoted by Paul as testimony from 'a prophet of their own'; creates the Epimenides paradox -- if all Cretans always lie, and Epimenides is Cretan, is this statement true?)",
+            "nous kai syneidesis (mind and conscience -- 1:15; the two faculties of moral discernment; nous = the rational mind, syneidesis = the moral awareness/conscience; when both are defiled, the person has no internal capacity to distinguish truth from error)",
+            "bebeloi (defiled/profane -- implied from bebelos [common/unhallowed]; the state of being polluted by false teaching so that even pure things become sources of corruption; the opposite of the holiness required by temple service)",
+            "Ioudaikois mythois (Jewish myths -- 1:14; speculative elaborations on OT genealogies, angelic hierarchies, and ritual purity that go beyond Scripture; similar to what Paul combats in 1 Timothy 1:4 and 4:7)",
+            "phrenapates (deceivers/mind-deceivers -- 1:10; from phren [mind/thinking] + apatao [to deceive]; those who corrupt the intellect itself, not just behavior; intellectual seduction dressed in religious language)",
+            "homologousin eidenai theon (they profess to know God -- 1:16; homologeo = to confess publicly; eidenai = to know [perfect infinitive, implying settled knowledge]; the gap between verbal profession and lived reality is the defining mark of the false teachers)"
+          ]
+        },
+        {
+          "id": "titus-grace-2",
+          "ref": "Titus 2:11-15",
+          "title": "The Grace of God Has Appeared",
+          "synopsis": "At the center of Paul's letter stands one of the most theologically concentrated passages in the New Testament. After instructing every group in the church on godly conduct (2:1-10), Paul reveals the ",
+          "key_verse": "Titus 2:11-12",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "charis tou theou (the grace of God -- 2:11; not merely an attribute of God but a personified force that 'appears' in history; grace is the divine disposition of unmerited favor that enters the created order as an active agent)",
+            "epephane (has appeared/has been made manifest -- 2:11; from epiphaino, the verb form of epiphaneia [epiphany]; used in Hellenistic culture for the manifestation of a deity or the arrival of a king; grace 'appeared' as a theophanic event -- a divine being stepping from the heavenly realm into the visible world)",
+            "soterios (saving/bringing salvation -- 2:11; adjective modifying charis: grace is not merely kind but inherently salvific; it appears with saving power for all humanity, not just a select group)",
+            "paideuousa (training/disciplining -- 2:12; present active participle from paideuo [to educate, discipline, train a child]; the same word used for parental discipline in Hebrews 12:6; grace is an ongoing pedagogue, not a one-time event)",
+            "tou megalou theou kai soteros hemon Iesou Christou (our great God and Savior Jesus Christ -- 2:13; governed by the Granville Sharp rule: one article [tou] + noun + kai + noun + proper name = one person; Christ is both 'great God' and 'Savior' -- one of the highest Christological affirmations in the NT)",
+            "epiphaneian tes doxes (the appearing of the glory -- 2:13; the future counterpart to the past 'appearing' of grace in 2:11; the second advent will be an epiphany of glory, completing what the first epiphany of grace began)",
+            "laon periousion (a people for his own possession -- 2:14; echoing Exodus 19:5 LXX [laos periousios] and Deuteronomy 14:2; the church inherits Israel's identity as God's 'treasured possession,' the special people of the divine King)",
+            "zeloten kalon ergon (zealous for good works -- 2:14; from zelotes [zealot/enthusiast]; the redeemed people are characterized not by passive acceptance but by passionate pursuit of good works -- works that flow from grace, not works that earn it)"
+          ]
+        },
+        {
+          "id": "titus-grace-3",
+          "ref": "Titus 3:3-8",
+          "title": "Washing of Regeneration -- The Holy Spirit Poured Out",
+          "synopsis": "Paul delivers the most explicitly Trinitarian soteriological formula in his letters. He begins with a devastating pre-conversion portrait: 'For we ourselves were once foolish, disobedient, led astray,",
+          "key_verse": "Titus 3:5-6",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "chrestotes kai philanthropia (goodness and loving-kindness -- 3:4; chrestotes = kindness/generosity [a character attribute of God in Rom 2:4]; philanthropia = love for humanity [lit. 'friend of man']; together they describe the divine motivation for salvation: not human merit but God's own benevolent disposition toward his creatures)",
+            "loutron palingenesias (washing of regeneration -- 3:5; loutron = bath/washing [used only here and Eph 5:26 in the NT]; palingenesia = rebirth/renewal [from palin 'again' + genesis 'birth/origin']; used only here and Matt 19:28, where Jesus applies it to the cosmic renewal at the eschaton; Paul applies the cosmic term to the individual believer -- personal regeneration as a preview of cosmic re-creation)",
+            "anakainosis pneumatos hagiou (renewal of the Holy Spirit -- 3:5; anakainosis = making new/renovation [used only here and Rom 12:2]; the Spirit is the agent of inward renovation, transforming the believer's nous [mind] and kardia [heart] from within)",
+            "execheen (poured out -- 3:6; from ekcheo; the same verb used in Acts 2:17-18 quoting Joel 2:28: 'I will pour out my Spirit on all flesh'; the Spirit's outpouring is not a trickle but a rich, abundant, eschatological flood)",
+            "dikaiothentes (having been justified -- 3:7; aorist passive participle from dikaioo [to declare righteous]; the passive voice indicates God as the actor -- justification is something done TO believers, not BY them; the aorist tense points to a completed act)",
+            "palingenesia (regeneration/rebirth -- 3:5; this word appears only twice in the NT: here [personal rebirth by the Spirit] and in Matt 19:28 [cosmic renewal at Christ's return]; the individual believer's new birth is a microcosm of what God will do to the entire creation at the parousia)",
+            "kleronomoi (heirs -- 3:7; from kleros [lot/inheritance]; justified believers become heirs -- recipients of an inheritance they did not earn; 'according to the hope of eternal life' specifies the content of the inheritance: not earthly possessions but life in the age to come)",
+            "pistos ho logos (the saying is trustworthy -- 3:8; a Pastoral Epistles formula [1 Tim 1:15; 3:1; 4:9; 2 Tim 2:11; Titus 3:8] that marks a statement as creedal, reliable, and worthy of full acceptance; what follows or precedes this formula is core apostolic teaching)"
+          ]
+        }
+      ],
+      "cross_ref_count": 21,
       "has_data_file": true
     },
     "philemon_letter": {
@@ -16735,6 +17038,78 @@
       "cross_ref_count": 15,
       "has_data_file": true
     },
+    "2pet_judgment": {
+      "text_id": "2peter",
+      "name": "The Watchers' Judgment & Cosmic Dissolution",
+      "chapters_ref": "2 Peter 2–3",
+      "chapter_count": 3,
+      "themes": [
+        "Tartarus",
+        "Angels who sinned",
+        "Watchers in prison",
+        "Balaam archetype",
+        "Cosmic dissolution",
+        "New heavens and new earth"
+      ],
+      "chapters": [
+        {
+          "id": "2pet-judgment-1",
+          "ref": "2 Peter 2:1-10a",
+          "title": "Angels Who Sinned -- Tartarus and the Three-fold Judgment",
+          "synopsis": "Peter unleashes the most concentrated divine council argument in the NT epistles. False prophets arose among Israel and false teachers will arise among the churches, 'secretly bringing in destructive ",
+          "key_verse": "2 Peter 2:4",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "tartarosas (cast into Tartarus -- 2:4; a verb used ONLY HERE in the entire Bible; from Tartaros, the deepest region of the Greek underworld, below Hades, where the Titans were imprisoned after rebelling against the Olympians; Peter uses this specific Greek cosmological term to describe the prison of the fallen Watchers -- this is NOT Hades [realm of the dead] or Gehenna [lake of fire] but a distinct, deeper cosmic prison reserved for divine beings who violated the boundary between heaven and earth)",
+            "seirais zophou (chains of gloomy darkness -- 2:4; some manuscripts read seirois [pits] instead of seirais [chains]; either way, the Watchers are bound in darkness, unable to act, matching 1 Enoch 10:4-6 where Azazel is bound in a dark hole in the desert; the 'chains' are cosmic restraints preventing imprisoned divine council members from exercising power until the final judgment)",
+            "pseudodidaskaloi (false teachers -- 2:1; from pseudos [false] + didaskalos [teacher]; teachers who present counterfeit knowledge as genuine revelation; they operate as earthly agents of the same cosmic rebellion the Watchers initiated in the heavenly realm)",
+            "aselgeia (sensuality/debauchery -- 2:2, 7, 18; from a-selges [unrestrained]; licentious, shameless conduct that recognizes no moral boundary; the false teachers' behavior mirrors the Watchers' fundamental sin: refusing to stay within assigned limits)",
+            "pleonexia (greed/covetousness -- 2:3, 14; from pleon [more] + echo [to have]; the insatiable desire for more than one's allotted portion; the Watchers wanted more than their heavenly station; the false teachers want more than their earthly station; both refuse divine boundaries)",
+            "krisis (judgment -- 2:3, 4, 9; the divine verdict rendered on covenant-breakers; Peter's three examples prove that God's krisis is neither idle nor asleep -- it was executed on the Watchers, on the antediluvian world, and on Sodom, and it will fall on the false teachers)",
+            "asebeis (ungodly ones -- 2:5, 6; from a-sebes [without reverence]; those who live without reference to God's authority; Peter uses this word for both the pre-flood world and the inhabitants of Sodom, linking the three judgments as variations on a single theme of cosmic impiety)"
+          ]
+        },
+        {
+          "id": "2pet-judgment-2",
+          "ref": "2 Peter 2:10b-22",
+          "title": "Balaam and the Way of Destruction",
+          "synopsis": "Peter's portrait of the false teachers reaches full intensity. They 'blaspheme the glorious ones' (doxas) -- speaking arrogantly about angelic authorities they do not comprehend, when even angels 'gre",
+          "key_verse": "2 Peter 2:15-16",
+          "cross_ref_count": 6,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "tolmetai authadeis (bold and arrogant ones -- 2:10b; tolmetes = daring, presumptuous; authades = self-pleasing, stubborn; a devastating double description: these men are both reckless in their audacity and enslaved to their own will; they dare to do what even angels will not do)",
+            "doxas (glorious ones -- 2:10b; literally 'glories'; a title for angelic beings of honor and rank within the divine council; the false teachers 'blaspheme' these beings -- speaking contemptuously about spiritual realities they have never experienced and cannot comprehend)",
+            "Balaam ho tou Bosor (Balaam the son of Beor -- 2:15; the prophet-for-hire of Numbers 22-24 who used his genuine spiritual gift for personal profit; some manuscripts read Bosor instead of Beor, possibly a wordplay on basar [flesh], marking him as the 'fleshly' prophet)",
+            "elenchthe (was rebuked -- 2:16; from elegcho [to expose, convict, reprove]; Balaam received a formal rebuke -- and the instrument was his own donkey, who saw the angel of the Lord standing in the path before the so-called prophet did; divine council irony at its sharpest)",
+            "hypozygion aphonon (speechless donkey -- 2:16; literally 'voiceless beast of burden'; the animal that perceived the divine council member (the angel with drawn sword) before the professional prophet did; Peter's point: even an irrational creature had more spiritual perception than a prophet corrupted by greed)",
+            "pegai anydroi (waterless springs -- 2:17; a devastating metaphor in an arid climate: springs that promise life-giving water but deliver nothing; the false teachers make grand promises of spiritual knowledge and freedom but are empty; cf. Jude 12, 'clouds without rain')",
+            "homichlai hypo lailapos elaunomenai (mists driven by a storm -- 2:17; clouds that appear to promise rain but are torn away by the wind before they can deliver; the false teachers have no substance, no anchor, no root; they are at the mercy of whatever wind drives them)"
+          ]
+        },
+        {
+          "id": "2pet-judgment-3",
+          "ref": "2 Peter 3:1-18",
+          "title": "Day of the Lord -- New Heavens and New Earth",
+          "synopsis": "Peter shifts from the false teachers' moral corruption to their doctrinal error. Scoffers will come 'in the last days,' mocking the promise of Christ's return: 'Where is the promise of his coming (par",
+          "key_verse": "2 Peter 3:13",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "empaiktai (scoffers/mockers -- 3:3; from empaizo [to mock, ridicule]; those who treat the parousia promise as a joke; in divine council terms, they deny that the sovereign God will act to judge and restore -- they effectively deny God's kingship over history)",
+            "stoicheia (elements -- 3:10, 12; the basic building blocks of the physical cosmos; the stoicheia 'will melt with fervent heat'; in Galatians 4:3, 9 and Colossians 2:8, 20, Paul connects stoicheia to 'elemental spirits' -- the spiritual powers associated with the material world; Peter may intend a double meaning: both the physical cosmos and the spiritual powers bound up with it are dissolved)",
+            "kainous ouranous kai gen kainen (new heavens and a new earth -- 3:13; from Isaiah 65:17 and 66:22; kainos means 'new in quality/kind,' not neos [new in time]; the renewal is qualitative -- the cosmos purged of corruption, not a different cosmos altogether; 'in which righteousness dwells' means dikaiosyne takes up permanent residence)",
+            "makrothymia (patience/long-suffering -- 3:9, 15; from makros [long] + thymos [passion/anger]; God's delay is not impotence but restraint of wrath for the sake of mercy; he is slow to anger because he is rich in mercy; what the scoffers call delay, God calls patience)",
+            "epilysis (interpretation -- 1:20, referenced in context of 3:16; from epi + lysis [loosing]; the 'loosing' or 'unfolding' of prophetic meaning; Peter insists that Scripture's interpretation is not private (idias epilyseos) but comes from the Spirit through the divine council's prophetic channel)",
+            "graphas (Scriptures -- 3:16; from grapho [to write]; Peter applies this term to Paul's letters, the earliest known designation of NT writings as 'Scripture' alongside the OT; this is a stunning canonical claim embedded in a warning about those who 'twist' these writings 'to their own destruction')",
+            "rhoizedon (with a roar -- 3:10; an onomatopoeia describing the terrifying sound of the heavens passing away; used only here in the NT; the cosmic dissolution is not silent but thunderous, a sound that announces the end of the old order and the birth of the new)"
+          ]
+        }
+      ],
+      "cross_ref_count": 20,
+      "has_data_file": true
+    },
     "1john_light": {
       "text_id": "1john",
       "name": "Light, Love, and Testing the Spirits",
@@ -16784,6 +17159,81 @@
         }
       ],
       "cross_ref_count": 12,
+      "has_data_file": true
+    },
+    "1john_spirits": {
+      "text_id": "1john",
+      "name": "Testing the Spirits & Overcoming the World",
+      "chapters_ref": "1 John 4–5",
+      "chapter_count": 3,
+      "themes": [
+        "Testing spirits",
+        "Spirit of antichrist",
+        "God is love",
+        "Perfect love casts out fear",
+        "Overcoming the world",
+        "The whole world in the evil one"
+      ],
+      "chapters": [
+        {
+          "id": "1john-spirits-1",
+          "ref": "1 John 4:1-6",
+          "title": "Testing the Spirits -- Discerning Truth from Deception",
+          "synopsis": "John opens with one of the most urgent commands in the New Testament: 'Beloved, do not believe every spirit, but test the spirits to see whether they are from God, for many false prophets have gone ou",
+          "key_verse": "1 John 4:1-3",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "dokimazete ta pneumata (test the spirits -- 4:1; dokimazo = to test/examine/prove by trial, a metallurgical term for assaying metals in fire to determine purity; pneumata = spirits, spiritual beings operating behind human teachers; the command presupposes a populated spirit world where discernment is essential)",
+            "pneuma tou antichristou (the spirit of the antichrist -- 4:3; a specific hostile spiritual entity or class of entities that operates through false prophets who deny the incarnation; anti means both 'against' and 'in place of' -- this spirit both opposes the true Christ and promotes a counterfeit)",
+            "pneuma tes aletheias / tes planes (spirit of truth / spirit of error -- 4:6; the binary classification of all spiritual influence into two sources: the Spirit aligned with God's purposes and the spirit that leads astray; planes = wandering, deception, the root of English 'planet' [wandering star])",
+            "ho en hymin meizon (the one in you is greater -- 4:4; meizon = greater in power, authority, and rank; the indwelling Holy Spirit outranks and overpowers the spirit of antichrist in the world; a statement of spiritual hierarchy within the unseen realm)",
+            "homologei Iesoun Christon en sarki elelythota (confesses Jesus Christ has come in the flesh -- 4:2; homologeo = to speak the same thing, to confess publicly; en sarki = in flesh, in genuine human physicality; elelythota = perfect active participle of erchomai, 'having come and remaining' -- the incarnation is a permanent state, not a temporary visit)",
+            "pseudoprophetai (false prophets -- 4:1; from pseudos [lie/falsehood] + prophetes [one who speaks forth]; not merely mistaken teachers but agents of the lying spirit; they have 'gone out into the world' -- an active missionary campaign of deception)",
+            "ek tou theou / ek tou kosmou (from God / from the world -- 4:4-5; the preposition ek denotes origin, source, and allegiance; every person and every spirit derives from one of two sources, and the source determines the message and the audience that receives it)",
+            "ho kosmos autois akouei (the world listens to them -- 4:5; the false prophets find a receptive audience in the world-system because they share the same spiritual source; like recognizes like; the world's applause is itself a diagnostic of false teaching)"
+          ]
+        },
+        {
+          "id": "1john-spirits-2",
+          "ref": "1 John 4:7-21",
+          "title": "God Is Love -- The Perfection of Divine Love",
+          "synopsis": "Having addressed the crisis of false teaching, John turns to the supreme theme of the letter: the nature of divine love. His argument builds to one of the most concentrated theological statements in S",
+          "key_verse": "1 John 4:8-10",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "ho theos agape estin (God is love -- 4:8, 16; like 'God is light' [1:5], this is an ontological statement about God's essential nature, not merely his activity; agape is self-giving, sacrificial love defined by the cross; the definite article with theos makes clear this is the God of Israel, not a generic deity)",
+            "monogenes (only begotten / unique one -- 4:9; from monos [only] + genos [kind/type]; describes the Son's unique relationship to the Father; the Father sent his uniquely-beloved Son into hostile territory, the kosmos under the evil one's control, as the ultimate act of self-giving love)",
+            "hilasmos (propitiation / atoning sacrifice -- 4:10; from hilaskomai [to make favorable, to atone]; the sacrifice that satisfies God's righteous anger against sin; Christ is simultaneously the loving God who sends and the sacrificial means by which wrath is absorbed -- love and justice meet at the cross)",
+            "teleia agape (perfect/complete love -- 4:18; teleios = having reached its telos [end/goal/purpose]; love that has arrived at maturity and completeness; this perfected love expels fear because it is grounded in the certainty of God's character, not in human performance)",
+            "phobos (fear -- 4:18; specifically the fear of punishment and judgment; 'fear has to do with punishment' [kolasis]; the person who fears has not yet been perfected in love because they still relate to God as judge rather than as Father; mature love displaces this servile dread)",
+            "teteleiotai (has been perfected -- 4:12, 17, 18; perfect passive of teleioo [to complete, to bring to the goal]; love is perfected 'among us' when believers love one another -- God's love reaches its intended destination through the community's mutual love; the passive voice indicates God is the one doing the perfecting)",
+            "parakletos (advocate -- cf. 2:1; while not in 4:7-21, the concept undergirds the entire section; the same word used for the Holy Spirit in John 14-16; the Spirit who indwells believers [4:13] is the one who mediates the Father's love and empowers the community's love)",
+            "en touto egnokamen (by this we know -- 4:13; ginosko in the perfect tense = experiential, relational knowledge; the knowledge of God's love is not theoretical but participatory; we know we abide in him because 'he has given us of his Spirit' [4:13])"
+          ]
+        },
+        {
+          "id": "1john-spirits-3",
+          "ref": "1 John 5:1-21",
+          "title": "Overcoming the World -- Faith, Testimony, and the Evil One",
+          "synopsis": "John brings his letter to its climax with a theology of victory, assurance, and cosmic reality. The opening declaration links faith, love, and obedience: 'Everyone who believes that Jesus is the Chris",
+          "key_verse": "1 John 5:4-5, 19-20",
+          "cross_ref_count": 7,
+          "has_divine_council_note": true,
+          "hebrew_terms": [
+            "nike / nikao (victory / to overcome -- 5:4; nike is the noun [victory, conquest], nikao is the verb [to conquer, to overcome]; in the LXX renders Hebrew natsach; 'this is the victory that has overcome the world -- our faith'; faith is not passive belief but an active conquering force that breaks the world-system's hold on the individual)",
+            "martyria (testimony / witness -- 5:9-11; from martys [witness]; God's own testimony about his Son constitutes the highest possible evidence; to reject this testimony is to 'make God a liar' [5:10]; the English word 'martyr' derives from this root because early Christians died bearing witness)",
+            "aitema (request / petition -- 5:15; from aiteo [to ask]; the specific prayer request that is made according to God's will and is therefore granted; John's teaching on prayer is conditioned on alignment with the divine will, not on the intensity of human desire)",
+            "ho kosmos holos en to ponero keitai (the whole world lies in the evil one -- 5:19; keitai = is placed, is positioned, lies passively; the kosmos is not merely influenced by the evil one but lies in his grasp as occupied territory; holos = whole, entire, without exception; the scope is comprehensive -- every nation, system, and structure apart from God's people)",
+            "eidola (idols -- 5:21; from eidos [form/appearance]; the visible representations of spiritual powers; in the divine council framework, idols are not merely inanimate objects but the interface between humans and the rebel members of the heavenly assembly [cf. 1 Cor 10:19-20]; John's closing command to avoid them is a command to refuse allegiance to the hostile powers)",
+            "ho alethinos theos (the true God -- 5:20; alethinos = genuine, real, authentic as opposed to counterfeit; 'we are in him who is true, in his Son Jesus Christ. He is the true God and eternal life'; the true God stands against the false gods [the eidola] who are the rebel council members masquerading as deities)",
+            "zoe aionios (eternal life -- 5:11, 13, 20; not merely endless duration but the life of the age to come, the quality of life that belongs to God's realm; 'God gave us eternal life, and this life is in his Son' [5:11]; eternal life is not a commodity but a person -- it is participation in the Son's own life)",
+            "to hydor kai to haima (the water and the blood -- 5:6, 8; Jesus Christ came 'not by water only but by water and blood'; the water = his baptism, the blood = his death on the cross; this directly counters Cerinthus's teaching that the divine Christ departed before the crucifixion; the blood witness is essential because it is at the cross that the propitiation is accomplished)"
+          ]
+        }
+      ],
+      "cross_ref_count": 21,
       "has_data_file": true
     },
     "2john_truth": {
@@ -21960,6 +22410,27 @@
         "era_id": "rev_throne",
         "text_id": "revelation",
         "note": "The divine council judges the gods who failed to govern justly -- Christ's judgm"
+      },
+      {
+        "chapter_id": "1tim-warfare-3",
+        "chapter_ref": "1 Timothy 2:1-8",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'God has taken his place in the divine council; in the midst of the gods he hold"
+      },
+      {
+        "chapter_id": "1john-spirits-1",
+        "chapter_ref": "1 John 4:1-6",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "God stands in the divine council judging the elohim who have failed in their gov"
+      },
+      {
+        "chapter_id": "1john-spirits-3",
+        "chapter_ref": "1 John 5:1-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'God has taken his place in the divine council; in the midst of the gods he hold"
       }
     ],
     "1QapGen XII-XVII (Genesis Apocryphon)": [
@@ -22269,6 +22740,20 @@
         "era_id": "gal_stoicheia",
         "text_id": "galatians",
         "note": "The 'prince of Persia' and 'prince of Greece' -- angelic territorial rulers who "
+      },
+      {
+        "chapter_id": "1tim-warfare-3",
+        "chapter_ref": "1 Timothy 2:1-8",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "The 'prince of Persia' and 'prince of Greece' -- spiritual beings behind earthly"
+      },
+      {
+        "chapter_id": "1john-spirits-3",
+        "chapter_ref": "1 John 5:1-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'The prince of the kingdom of Persia withstood me twenty-one days.' Daniel's ang"
       }
     ],
     "Zephaniah 3:9": [
@@ -22435,6 +22920,20 @@
         "era_id": "pop_culture",
         "text_id": "heavenly_court",
         "note": "Micaiah sees the LORD on his throne with 'all the host of heaven standing beside"
+      },
+      {
+        "chapter_id": "2thess-mystery-2",
+        "chapter_ref": "2 Thessalonians 2:5-8",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "YHWH on his throne, the host of heaven, and a spirit sent to deceive -- the divi"
+      },
+      {
+        "chapter_id": "2thess-mystery-3",
+        "chapter_ref": "2 Thessalonians 2:9-12",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "YHWH enthroned with the heavenly host, a lying spirit sent to deceive Ahab -- th"
       },
       {
         "chapter_id": "job-1",
@@ -22646,6 +23145,13 @@
         "note": "'We do not wrestle against flesh and blood, but against the rulers, against the "
       },
       {
+        "chapter_id": "2thess-mystery-2",
+        "chapter_ref": "2 Thessalonians 2:5-8",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "'We wrestle not against flesh and blood, but against the rulers, against the aut"
+      },
+      {
         "chapter_id": "job-1",
         "chapter_ref": "Job 1",
         "era_id": "job_prologue",
@@ -22800,6 +23306,13 @@
         "era_id": "gal_stoicheia",
         "text_id": "galatians",
         "note": "Christ 'disarmed the rulers and authorities and put them to open shame, triumphi"
+      },
+      {
+        "chapter_id": "1tim-warfare-3",
+        "chapter_ref": "1 Timothy 2:1-8",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'He disarmed the rulers and authorities and put them to open shame, by triumphin"
       },
       {
         "chapter_id": "",
@@ -23392,6 +23905,13 @@
         "note": "Nations allotted to the sons of God"
       },
       {
+        "chapter_id": "1tim-warfare-3",
+        "chapter_ref": "1 Timothy 2:1-8",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'When the Most High gave to the nations their inheritance... he fixed the border"
+      },
+      {
         "chapter_id": "",
         "chapter_ref": "1 Peter 1:1—2:12",
         "era_id": "1peter_exiles",
@@ -23399,11 +23919,25 @@
         "note": "Israel as YHWH's portion among the divided nations"
       },
       {
+        "chapter_id": "2pet-judgment-3",
+        "chapter_ref": "2 Peter 3:1-18",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'When the Most High gave to the nations their inheritance, when he divided manki"
+      },
+      {
         "chapter_id": "1john-4-5",
         "chapter_ref": "1 John 4-5",
         "era_id": "1john_light",
         "text_id": "1john",
         "note": "The nations placed under the sons of God -- background for 'the whole world lies"
+      },
+      {
+        "chapter_id": "1john-spirits-3",
+        "chapter_ref": "1 John 5:1-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'When the Most High gave to the nations their inheritance... he fixed the border"
       },
       {
         "chapter_id": "zechariah-2",
@@ -24302,6 +24836,13 @@
         "era_id": "1john_light",
         "text_id": "1john",
         "note": "'God so loved the world that he gave his only Son' -- the Gospel parallel to 'Go"
+      },
+      {
+        "chapter_id": "1john-spirits-2",
+        "chapter_ref": "1 John 4:7-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'God so loved the world that he gave his only Son' -- the Gospel parallel to Joh"
       }
     ],
     "Romans 8:32": [
@@ -25753,6 +26294,13 @@
         "era_id": "calendar",
         "text_id": "leviticus",
         "note": "'The Lord disciplines the one he loves' — the five-stage discipline of Lev 26 re"
+      },
+      {
+        "chapter_id": "titus-grace-2",
+        "chapter_ref": "Titus 2:11-15",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "God disciplines (paideuo) his children as a loving father -- the same educationa"
       },
       {
         "chapter_id": "job-4-5",
@@ -30096,6 +30644,13 @@
         "era_id": "tabernacle_march",
         "text_id": "numbers",
         "note": "The Word 'tabernacled' (eskenosen) among us — the cloud-dwelling presence of God"
+      },
+      {
+        "chapter_id": "1john-spirits-1",
+        "chapter_ref": "1 John 4:1-6",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'The Word became flesh and dwelt among us' -- the foundational incarnation state"
       }
     ],
     "Revelation 21:1-3": [
@@ -31023,6 +31578,13 @@
         "era_id": "1tim_church",
         "text_id": "1timothy",
         "note": "'God saw everything that he had made, and behold, it was very good' -- Paul's cr"
+      },
+      {
+        "chapter_id": "1tim-warfare-1",
+        "chapter_ref": "1 Timothy 3:14-4:5",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'God saw everything that he had made, and behold, it was very good' -- the creat"
       }
     ],
     "Hebrews 4:14": [
@@ -32047,6 +32609,13 @@
         "note": "'Angels who did not stay within their own position of authority, but left their "
       },
       {
+        "chapter_id": "2thess-mystery-2",
+        "chapter_ref": "2 Thessalonians 2:5-8",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "Angels who did not stay within their own position 'he has kept in eternal chains"
+      },
+      {
         "chapter_id": "",
         "chapter_ref": "1 Peter 2:13—3:22",
         "era_id": "1peter_exiles",
@@ -32107,6 +32676,13 @@
         "era_id": "purity",
         "text_id": "leviticus",
         "note": "Paul: 'Nothing is unclean in itself' — the new covenant transformation of Leviti"
+      },
+      {
+        "chapter_id": "titus-grace-1",
+        "chapter_ref": "Titus 1:10-16",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "'Nothing is unclean in itself, but it is unclean for anyone who thinks it unclea"
       }
     ],
     "Deuteronomy 14:3-21": [
@@ -32647,6 +33223,20 @@
         "era_id": "mark_authority",
         "text_id": "mark",
         "note": "An angel binds Satan for a thousand years -- the eschatological binding foreshad"
+      },
+      {
+        "chapter_id": "2thess-mystery-2",
+        "chapter_ref": "2 Thessalonians 2:5-8",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "An angel binds Satan and throws him into the abyss 'so that he might not deceive"
+      },
+      {
+        "chapter_id": "2pet-judgment-1",
+        "chapter_ref": "2 Peter 2:1-10a",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "An angel binds Satan 'and threw him into the pit, and shut it and sealed it over"
       }
     ],
     "1 Enoch 10:4-8": [
@@ -32881,6 +33471,13 @@
         "era_id": "1thess_coming",
         "text_id": "1thessalonians",
         "note": "\"They sacrificed to demons\" behind the idols"
+      },
+      {
+        "chapter_id": "1tim-warfare-1",
+        "chapter_ref": "1 Timothy 3:14-4:5",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'They sacrificed to demons (shedim), not to God, to gods they had never known' -"
       }
     ],
     "1 Corinthians 10:20": [
@@ -33940,6 +34537,13 @@
         "note": "'The sons of God saw that the daughters of man were attractive. And they took as"
       },
       {
+        "chapter_id": "2pet-judgment-1",
+        "chapter_ref": "2 Peter 2:1-10a",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'The sons of God saw that the daughters of man were attractive. And they took as"
+      },
+      {
         "chapter_id": "3john-hospitality-01",
         "chapter_ref": "3 John 1-15",
         "era_id": "3john_hospitality",
@@ -34382,6 +34986,13 @@
         "era_id": "shema",
         "text_id": "deuteronomy",
         "note": "Paul: 'Since God is one...' — the Shema applied to the inclusion of Gentiles"
+      },
+      {
+        "chapter_id": "1tim-warfare-3",
+        "chapter_ref": "1 Timothy 2:1-8",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'Is God the God of Jews only? Is he not the God of Gentiles also? Yes, of Gentil"
       }
     ],
     "1 Corinthians 8:4-6": [
@@ -34480,6 +35091,13 @@
         "era_id": "jub_patriarchs_late",
         "text_id": "jubilees",
         "note": "'A kingdom of priests and a holy nation' -- Jubilees 33 applies this title to th"
+      },
+      {
+        "chapter_id": "titus-grace-2",
+        "chapter_ref": "Titus 2:11-15",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "Israel as God's 'treasured possession' (am segullah / laos periousios LXX) -- th"
       },
       {
         "chapter_id": "",
@@ -34663,6 +35281,13 @@
         "era_id": "titus_order",
         "text_id": "titus",
         "note": "'By grace you have been saved through faith... not of works' -- parallel to 'not"
+      },
+      {
+        "chapter_id": "titus-grace-3",
+        "chapter_ref": "Titus 3:3-8",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "'By grace you have been saved through faith... not a result of works' -- the ide"
       }
     ],
     "Nehemiah 9:16-21": [
@@ -36190,6 +36815,13 @@
         "era_id": "gal_stoicheia",
         "text_id": "galatians",
         "note": "'What pagans sacrifice they offer to demons and not to God' -- Paul's explicit i"
+      },
+      {
+        "chapter_id": "1tim-warfare-1",
+        "chapter_ref": "1 Timothy 3:14-4:5",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'What pagans sacrifice they offer to demons, not to God' -- Paul's explicit iden"
       }
     ],
     "Isaiah 44:6-8": [
@@ -36273,6 +36905,13 @@
         "era_id": "1cor_body",
         "text_id": "1corinthians",
         "note": "Satan in the divine council accusing; Paul's 'deliver to Satan' echoes this adve"
+      },
+      {
+        "chapter_id": "1tim-warfare-2",
+        "chapter_ref": "1 Timothy 1:18-20; 6:11-16",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "Satan among the bene elohim before YHWH's throne -- the divine council courtroom"
       },
       {
         "chapter_id": "job-2",
@@ -36469,6 +37108,13 @@
         "era_id": "jub_patriarchs_early",
         "text_id": "jubilees",
         "note": "Quotes Enoch's prophecy of judgment — Jubilees 4:24 describes Enoch as perpetual"
+      },
+      {
+        "chapter_id": "2tim-endurance-2",
+        "chapter_ref": "2 Timothy 3:1-17",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "Jude quotes 1 Enoch 1:9 directly -- parallel example of an NT author drawing on "
       }
     ],
     "Psalm 68:4": [
@@ -37334,6 +37980,13 @@
         "era_id": "titus_order",
         "text_id": "titus",
         "note": "The eschatological outpouring of the Spirit -- fulfilled in the pouring out desc"
+      },
+      {
+        "chapter_id": "titus-grace-3",
+        "chapter_ref": "Titus 3:3-8",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "'I will pour out my Spirit on all flesh' -- the eschatological promise fulfilled"
       }
     ],
     "Acts 2:17-18": [
@@ -38011,6 +38664,13 @@
         "era_id": "plains_moab",
         "text_id": "numbers",
         "note": "'The teaching of Balaam' — the NT evaluation of Balaam's Midianite strategy"
+      },
+      {
+        "chapter_id": "2pet-judgment-2",
+        "chapter_ref": "2 Peter 2:10b-22",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'You have some there who hold the teaching of Balaam, who taught Balak to put a "
       }
     ],
     "Deuteronomy 23:4-5": [
@@ -38143,6 +38803,13 @@
         "era_id": "journey",
         "text_id": "numbers",
         "note": "Balaam's counsel revealed: 'These, on Balaam's advice, caused the people of Isra"
+      },
+      {
+        "chapter_id": "2pet-judgment-2",
+        "chapter_ref": "2 Peter 2:10b-22",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'Behold, these, on Balaam's advice, caused the people of Israel to act treachero"
       }
     ],
     "Deuteronomy 4:3-4": [
@@ -40427,6 +41094,13 @@
         "era_id": "judges_jephthah",
         "text_id": "judges",
         "note": "'God gave them up' -- the judicial abandonment threatened in Judges 10:13 before"
+      },
+      {
+        "chapter_id": "2thess-mystery-3",
+        "chapter_ref": "2 Thessalonians 2:9-12",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "God 'gave them over' (paredōken) three times -- the same judicial abandonment pa"
       }
     ],
     "Psalm 106:34-42": [
@@ -42837,6 +43511,20 @@
         "era_id": "david_rise",
         "text_id": "1samuel",
         "note": "The armor of God vs. the weapons of the enemy -- the spiritual warfare David's p"
+      },
+      {
+        "chapter_id": "1tim-warfare-2",
+        "chapter_ref": "1 Timothy 1:18-20; 6:11-16",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'We do not wrestle against flesh and blood, but against... cosmic powers over th"
+      },
+      {
+        "chapter_id": "2tim-endurance-1",
+        "chapter_ref": "2 Timothy 2:1-26",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "The armor of God -- the soldier metaphor expanded into full spiritual warfare im"
       }
     ],
     "1 Samuel 23:16-17": [
@@ -43416,6 +44104,13 @@
         "era_id": "luke_jerusalem",
         "text_id": "luke",
         "note": "'While we were still sinners, Christ died for us' -- Paul's theology of prevenie"
+      },
+      {
+        "chapter_id": "1john-spirits-2",
+        "chapter_ref": "1 John 4:7-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'God shows his love for us in that while we were still sinners, Christ died for "
       }
     ],
     "1 Samuel 8:11-18": [
@@ -44357,6 +45052,13 @@
         "era_id": "john_glory",
         "text_id": "john",
         "note": "Moses asks to see God's glory (kavod) -- Jesus possessed this glory before creat"
+      },
+      {
+        "chapter_id": "1tim-warfare-2",
+        "chapter_ref": "1 Timothy 1:18-20; 6:11-16",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'You cannot see my face, for man shall not see me and live' -- the foundational "
       }
     ],
     "Exodus 19:16-18": [
@@ -44605,6 +45307,13 @@
         "era_id": "matt_passion",
         "text_id": "matthew",
         "note": "The Ancient of Days and Son of Man vision -- the Transfiguration's white garment"
+      },
+      {
+        "chapter_id": "2tim-endurance-3",
+        "chapter_ref": "2 Timothy 4:1-22",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "The divine council judgment scene -- the 'Ancient of Days' on his throne and the"
       }
     ],
     "Matthew 10:25; 12:24": [
@@ -45178,6 +45887,13 @@
         "era_id": "mark_passion",
         "text_id": "mark",
         "note": "The Shema: 'Hear, O Israel: The LORD our God, the LORD is one. You shall love th"
+      },
+      {
+        "chapter_id": "1john-spirits-2",
+        "chapter_ref": "1 John 4:7-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'You shall love the LORD your God with all your heart' -- the Shema command that"
       }
     ],
     "Deuteronomy 28:15-68": [
@@ -46459,6 +47175,13 @@
         "era_id": "rev_seals_trumpets",
         "text_id": "revelation",
         "note": "'The skies roll up like a scroll' -- the cosmic dissolution imagery of the sixth"
+      },
+      {
+        "chapter_id": "2pet-judgment-3",
+        "chapter_ref": "2 Peter 3:1-18",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'All the host of heaven shall rot away, and the skies roll up like a scroll; all"
       }
     ],
     "1 Enoch 10:4-6, 11-14": [
@@ -48809,6 +49532,13 @@
         "era_id": "isaiah_comfort",
         "text_id": "isaiah",
         "note": "'The Son of Man came not to be served but to serve, and to give his life as a ra"
+      },
+      {
+        "chapter_id": "1tim-warfare-3",
+        "chapter_ref": "1 Timothy 2:1-8",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'The Son of Man came... to give his life as a ransom (lytron) for many' -- Jesus"
       }
     ],
     "Acts 8:32-35": [
@@ -49637,6 +50367,20 @@
         "note": "'How you are fallen from heaven, O Day Star, son of Dawn' -- the fall of the reb"
       },
       {
+        "chapter_id": "2thess-mystery-1",
+        "chapter_ref": "2 Thessalonians 2:1-4",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "The divine rebel who says 'I will ascend above the heights of the clouds; I will"
+      },
+      {
+        "chapter_id": "2pet-judgment-1",
+        "chapter_ref": "2 Peter 2:1-10a",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'How you are fallen from heaven, O Day Star... you said in your heart, \"I will a"
+      },
+      {
         "chapter_id": "ezek-28",
         "chapter_ref": "Ezekiel 28",
         "era_id": "ezek_nations",
@@ -49865,6 +50609,13 @@
         "era_id": "2thess_lawless",
         "text_id": "2thessalonians",
         "note": "'The abomination of desolation spoken of by the prophet Daniel, standing in the "
+      },
+      {
+        "chapter_id": "2thess-mystery-1",
+        "chapter_ref": "2 Thessalonians 2:1-4",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "Jesus references the Danielic 'abomination of desolation standing in the holy pl"
       }
     ],
     "Isaiah 14:12-14": [
@@ -50536,6 +51287,13 @@
         "chapter_id": "2peter-2-3",
         "chapter_ref": "2 Peter 2-3",
         "era_id": "2peter_knowledge",
+        "text_id": "2peter",
+        "note": "Christ 'went and proclaimed to the spirits in prison, because they formerly did "
+      },
+      {
+        "chapter_id": "2pet-judgment-1",
+        "chapter_ref": "2 Peter 2:1-10a",
+        "era_id": "2pet_judgment",
         "text_id": "2peter",
         "note": "Christ 'went and proclaimed to the spirits in prison, because they formerly did "
       }
@@ -51366,6 +52124,13 @@
         "era_id": "2peter_knowledge",
         "text_id": "2peter",
         "note": "'Then I saw a new heaven and a new earth' -- John's vision of the same renewal P"
+      },
+      {
+        "chapter_id": "2pet-judgment-3",
+        "chapter_ref": "2 Peter 3:1-18",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'Then I saw a new heaven and a new earth, for the first heaven and the first ear"
       }
     ],
     "Isaiah 65:17": [
@@ -51410,6 +52175,13 @@
         "era_id": "2peter_knowledge",
         "text_id": "2peter",
         "note": "'Behold, I create new heavens and a new earth' -- the prophetic promise Peter in"
+      },
+      {
+        "chapter_id": "2pet-judgment-3",
+        "chapter_ref": "2 Peter 3:1-18",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'For behold, I create new heavens and a new earth, and the former things shall n"
       }
     ],
     "Matthew 26:63-64": [
@@ -54579,6 +55351,13 @@
         "era_id": "giants_fragments",
         "text_id": "giants",
         "note": "The Flood destroys all flesh -- the event the giants' dreams foresee, where only"
+      },
+      {
+        "chapter_id": "2pet-judgment-1",
+        "chapter_ref": "2 Peter 2:1-10a",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'All flesh died that moved on the earth... only Noah was left, and those who wer"
       }
     ],
     "1 Enoch 10:9-10": [
@@ -55383,6 +56162,13 @@
         "era_id": "2peter_knowledge",
         "text_id": "2peter",
         "note": "'The angels who did not stay within their own position of authority... he has ke"
+      },
+      {
+        "chapter_id": "2pet-judgment-1",
+        "chapter_ref": "2 Peter 2:1-10a",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'The angels who did not stay within their own position of authority (arche), but"
       }
     ],
     "Genesis 15:1-21": [
@@ -55847,6 +56633,13 @@
         "era_id": "titus_order",
         "text_id": "titus",
         "note": "Clean water, new heart, new Spirit -- the OT precedent for 'washing of regenerat"
+      },
+      {
+        "chapter_id": "titus-grace-3",
+        "chapter_ref": "Titus 3:3-8",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "Clean water, new heart, Spirit within -- the prophetic foundation for 'the washi"
       }
     ],
     "Psalm 51:2, 7, 10": [
@@ -56034,6 +56827,13 @@
         "era_id": "2thess_lawless",
         "text_id": "2thessalonians",
         "note": "'At that time Michael shall arise' -- the archangel's role in the end-time crisi"
+      },
+      {
+        "chapter_id": "2thess-mystery-2",
+        "chapter_ref": "2 Thessalonians 2:5-8",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "'At that time shall arise Michael, the great prince who has charge of your peopl"
       }
     ],
     "2 Kings 6:16-17": [
@@ -56291,6 +57091,13 @@
         "chapter_id": "2tim-3-4",
         "chapter_ref": "2 Timothy 3-4",
         "era_id": "2tim_charge",
+        "text_id": "2timothy",
+        "note": "God 'breathed into his nostrils the breath of life' -- the divine breath gives l"
+      },
+      {
+        "chapter_id": "2tim-endurance-2",
+        "chapter_ref": "2 Timothy 3:1-17",
+        "era_id": "2tim_endurance",
         "text_id": "2timothy",
         "note": "God 'breathed into his nostrils the breath of life' -- the divine breath gives l"
       },
@@ -57092,6 +57899,13 @@
         "note": "'Be faithful unto death, and I will give you the crown of life' -- the same rewa"
       },
       {
+        "chapter_id": "2tim-endurance-3",
+        "chapter_ref": "2 Timothy 4:1-22",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'Be faithful unto death, and I will give you the crown of life' -- the same prom"
+      },
+      {
         "chapter_id": "james-wisdom-1",
         "chapter_ref": "James 1:1-27",
         "era_id": "james_wisdom",
@@ -57647,6 +58461,13 @@
         "era_id": "james_wisdom",
         "text_id": "james",
         "note": "'You shall love your neighbor as yourself' -- the 'royal law' that James cites a"
+      },
+      {
+        "chapter_id": "1john-spirits-2",
+        "chapter_ref": "1 John 4:7-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'You shall love your neighbor as yourself' -- the Torah foundation for John's in"
       }
     ],
     "Romans 2:14-15": [
@@ -58232,6 +59053,13 @@
         "era_id": "2peter_knowledge",
         "text_id": "2peter",
         "note": "'A thousand years in your sight are but as yesterday' -- the source for Peter's "
+      },
+      {
+        "chapter_id": "2pet-judgment-3",
+        "chapter_ref": "2 Peter 3:1-18",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'For a thousand years in your sight are but as yesterday when it is past, or as "
       }
     ],
     "Acts 1:7": [
@@ -59709,6 +60537,20 @@
         "era_id": "rev_cosmic_war",
         "text_id": "revelation",
         "note": "Pharaoh's magicians replicate Moses' signs -- the false prophet performs counter"
+      },
+      {
+        "chapter_id": "2thess-mystery-3",
+        "chapter_ref": "2 Thessalonians 2:9-12",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "Pharaoh's magicians replicate Moses' signs with counterfeit miracles -- the patt"
+      },
+      {
+        "chapter_id": "2tim-endurance-2",
+        "chapter_ref": "2 Timothy 3:1-17",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "Pharaoh's magicians replicated Moses' signs -- Paul identifies them as Jannes an"
       }
     ],
     "Exodus 12:7, 13, 22-23": [
@@ -61357,6 +62199,13 @@
         "era_id": "2cor_weakness",
         "text_id": "2corinthians",
         "note": "'The god of this age has blinded the minds of unbelievers' -- the cognitive batt"
+      },
+      {
+        "chapter_id": "2thess-mystery-3",
+        "chapter_ref": "2 Thessalonians 2:9-12",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "'The god of this age has blinded the minds of the unbelievers' -- Satan's blindi"
       }
     ],
     "John 8:32": [
@@ -61400,6 +62249,13 @@
         "era_id": "pop_culture",
         "text_id": "heavenly_court",
         "note": "'What pagans sacrifice they offer to demons and not to God' — Tash is exactly th"
+      },
+      {
+        "chapter_id": "1john-spirits-3",
+        "chapter_ref": "1 John 5:1-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'What pagans sacrifice they offer to demons and not to God. I do not want you to"
       }
     ],
     "Romans 6:23": [
@@ -61450,6 +62306,13 @@
         "era_id": "titus_order",
         "text_id": "titus",
         "note": "Paul quotes pagan poets at Athens -- same method as quoting Epimenides here"
+      },
+      {
+        "chapter_id": "titus-grace-1",
+        "chapter_ref": "Titus 1:10-16",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "Paul quotes the Cretan poet Epimenides ('in him we live and move and have our be"
       }
     ],
     "John 1:9": [
@@ -61781,6 +62644,13 @@
         "era_id": "1tim_church",
         "text_id": "1timothy",
         "note": "The Christ Hymn -- parallel to the creedal formula of 3:16"
+      },
+      {
+        "chapter_id": "1tim-warfare-1",
+        "chapter_ref": "1 Timothy 3:14-4:5",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "The Christ Hymn of Philippians -- incarnation, humiliation, exaltation, universa"
       },
       {
         "chapter_id": "est-4-7",
@@ -62766,6 +63636,13 @@
         "era_id": "2tim_charge",
         "text_id": "2timothy",
         "note": "'By the word of the LORD the heavens were made, and by the breath of his mouth a"
+      },
+      {
+        "chapter_id": "2tim-endurance-2",
+        "chapter_ref": "2 Timothy 3:1-17",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'By the word of the LORD the heavens were made, and by the breath of his mouth a"
       }
     ],
     "Genesis 28:12": [
@@ -63412,6 +64289,13 @@
         "era_id": "acts_jerusalem",
         "text_id": "acts",
         "note": "Paul confronts Peter at Antioch for withdrawing from Gentile table fellowship --"
+      },
+      {
+        "chapter_id": "titus-grace-1",
+        "chapter_ref": "Titus 1:10-16",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "Paul opposes Peter's withdrawal from Gentile table fellowship under pressure fro"
       }
     ],
     "Isaiah 49:6": [
@@ -64848,6 +65732,13 @@
         "era_id": "phil_hymn",
         "text_id": "philippians",
         "note": "The parallel cosmic christology hymn: Christ as 'the image of the invisible God,"
+      },
+      {
+        "chapter_id": "1tim-warfare-1",
+        "chapter_ref": "1 Timothy 3:14-4:5",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "The Colossian Hymn -- 'in him all things were created, in heaven and on earth, v"
       }
     ],
     "1 Peter 3:22": [
@@ -64929,6 +65820,13 @@
         "chapter_ref": "1 Corinthians 3:1-4:21",
         "era_id": "1cor_wisdom",
         "text_id": "1corinthians",
+        "note": "'Behold, I am the one who has laid as a foundation in Zion a stone, a tested sto"
+      },
+      {
+        "chapter_id": "2tim-endurance-1",
+        "chapter_ref": "2 Timothy 2:1-26",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
         "note": "'Behold, I am the one who has laid as a foundation in Zion a stone, a tested sto"
       },
       {
@@ -65026,6 +65924,13 @@
         "era_id": "1tim_church",
         "text_id": "1timothy",
         "note": "Angels long to look into salvation's mysteries -- parallel to 'seen by angels'"
+      },
+      {
+        "chapter_id": "1tim-warfare-1",
+        "chapter_ref": "1 Timothy 3:14-4:5",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'Things into which angels long to look' -- the divine council's intense interest"
       }
     ],
     "Psalm 68:18": [
@@ -65898,6 +66803,13 @@
         "era_id": "1tim_church",
         "text_id": "1timothy",
         "note": "God's wisdom revealed to heavenly rulers through the church"
+      },
+      {
+        "chapter_id": "1tim-warfare-1",
+        "chapter_ref": "1 Timothy 3:14-4:5",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'Through the church the manifold wisdom of God might now be made known to the ru"
       }
     ],
     "Leviticus 18:8": [
@@ -65934,6 +66846,13 @@
         "era_id": "1cor_body",
         "text_id": "1corinthians",
         "note": "Paul 'hands over' Hymenaeus and Alexander to Satan -- same discipline formula as"
+      },
+      {
+        "chapter_id": "2tim-endurance-1",
+        "chapter_ref": "2 Timothy 2:1-26",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "Hymenaeus 'whom I have handed over to Satan' -- the same false teacher resurface"
       }
     ],
     "Psalm 106:37": [
@@ -67139,6 +68058,13 @@
         "era_id": "2thess_lawless",
         "text_id": "2thessalonians",
         "note": "The king who exalts himself above every god -- the OT source for the man of lawl"
+      },
+      {
+        "chapter_id": "2thess-mystery-1",
+        "chapter_ref": "2 Thessalonians 2:1-4",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "The king who 'exalts himself above every god' -- the primary OT source for Paul'"
       }
     ],
     "Daniel 9:27": [
@@ -67148,6 +68074,13 @@
         "era_id": "2thess_lawless",
         "text_id": "2thessalonians",
         "note": "The abomination of desolation in the temple -- the same sacrilege"
+      },
+      {
+        "chapter_id": "2thess-mystery-1",
+        "chapter_ref": "2 Thessalonians 2:1-4",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "The 'abomination that makes desolate' set up in the temple -- the desecration tr"
       }
     ],
     "Isaiah 11:4": [
@@ -67157,6 +68090,13 @@
         "era_id": "2thess_lawless",
         "text_id": "2thessalonians",
         "note": "'He shall strike the earth with the rod of his mouth' -- Paul echoes this for Ch"
+      },
+      {
+        "chapter_id": "2thess-mystery-2",
+        "chapter_ref": "2 Thessalonians 2:5-8",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "'He shall strike the earth with the rod of his mouth, and with the breath of his"
       }
     ],
     "Ezekiel 28:2": [
@@ -67166,6 +68106,13 @@
         "era_id": "2thess_lawless",
         "text_id": "2thessalonians",
         "note": "The prince of Tyre: 'I am a god, I sit in the seat of the gods' -- the same self"
+      },
+      {
+        "chapter_id": "2thess-mystery-1",
+        "chapter_ref": "2 Thessalonians 2:1-4",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "The prince of Tyre: 'I am a god, I sit in the seat of the gods, in the heart of "
       }
     ],
     "1 John 2:18": [
@@ -67175,6 +68122,13 @@
         "era_id": "2thess_lawless",
         "text_id": "2thessalonians",
         "note": "'The antichrist is coming' -- the Johannine parallel to Paul's man of lawlessnes"
+      },
+      {
+        "chapter_id": "2thess-mystery-1",
+        "chapter_ref": "2 Thessalonians 2:1-4",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "'As you have heard that antichrist is coming, so now many antichrists have come'"
       }
     ],
     "Revelation 13:1-8": [
@@ -67184,6 +68138,51 @@
         "era_id": "2thess_lawless",
         "text_id": "2thessalonians",
         "note": "The beast from the sea: given authority by the dragon, receives worship, blasphe"
+      }
+    ],
+    "Revelation 13:5-6": [
+      {
+        "chapter_id": "2thess-mystery-1",
+        "chapter_ref": "2 Thessalonians 2:1-4",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "The beast 'opened its mouth to utter blasphemies against God, blaspheming his na"
+      }
+    ],
+    "Daniel 2:28-29": [
+      {
+        "chapter_id": "2thess-mystery-2",
+        "chapter_ref": "2 Thessalonians 2:5-8",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "'There is a God in heaven who reveals mysteries' -- the divine council as the so"
+      }
+    ],
+    "Isaiah 66:4": [
+      {
+        "chapter_id": "2thess-mystery-3",
+        "chapter_ref": "2 Thessalonians 2:9-12",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "'I also will choose harsh treatment for them and bring their fears upon them, be"
+      }
+    ],
+    "Revelation 13:13-14": [
+      {
+        "chapter_id": "2thess-mystery-3",
+        "chapter_ref": "2 Thessalonians 2:9-12",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "The second beast 'performs great signs, even making fire come down from heaven' "
+      }
+    ],
+    "Genesis 3:4-5": [
+      {
+        "chapter_id": "2thess-mystery-3",
+        "chapter_ref": "2 Thessalonians 2:9-12",
+        "era_id": "2thess_mystery",
+        "text_id": "2thessalonians",
+        "note": "'You will not surely die... you will be like God' -- THE lie (to pseudos) that t"
       }
     ],
     "Titus 1:5-9": [
@@ -67222,6 +68221,51 @@
         "note": "Regulations about food, drink, and ascetic practices -- the same type of false t"
       }
     ],
+    "1 Corinthians 5:5": [
+      {
+        "chapter_id": "1tim-warfare-2",
+        "chapter_ref": "1 Timothy 1:18-20; 6:11-16",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'Deliver this man to Satan for the destruction of the flesh, so that his spirit "
+      }
+    ],
+    "Psalm 104:1-2": [
+      {
+        "chapter_id": "1tim-warfare-2",
+        "chapter_ref": "1 Timothy 1:18-20; 6:11-16",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'You are clothed with splendor and majesty, covering yourself with light as with"
+      }
+    ],
+    "Revelation 19:16": [
+      {
+        "chapter_id": "1tim-warfare-2",
+        "chapter_ref": "1 Timothy 1:18-20; 6:11-16",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'On his robe and on his thigh he has a name written, King of kings and Lord of l"
+      }
+    ],
+    "Daniel 2:47": [
+      {
+        "chapter_id": "1tim-warfare-2",
+        "chapter_ref": "1 Timothy 1:18-20; 6:11-16",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "Nebuchadnezzar confesses Israel's God as 'God of gods and Lord of kings' -- the "
+      }
+    ],
+    "Hebrews 8:6": [
+      {
+        "chapter_id": "1tim-warfare-3",
+        "chapter_ref": "1 Timothy 2:1-8",
+        "era_id": "1tim_warfare",
+        "text_id": "1timothy",
+        "note": "'Christ has obtained a ministry that is as much more excellent... since he is th"
+      }
+    ],
     "Ephesians 1:4": [
       {
         "chapter_id": "2tim-1-2",
@@ -67238,6 +68282,13 @@
         "era_id": "2tim_charge",
         "text_id": "2timothy",
         "note": "'They will reign with him' -- the same promise as 'if we endure, we will also re"
+      },
+      {
+        "chapter_id": "2tim-endurance-1",
+        "chapter_ref": "2 Timothy 2:1-26",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'They will be priests of God and of Christ, and they will reign with him' -- the"
       }
     ],
     "1 Timothy 6:20": [
@@ -67256,6 +68307,13 @@
         "era_id": "2tim_charge",
         "text_id": "2timothy",
         "note": "Prophecy came 'as men were carried along by the Holy Spirit' -- parallel inspira"
+      },
+      {
+        "chapter_id": "2tim-endurance-2",
+        "chapter_ref": "2 Timothy 3:1-17",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'Men spoke from God as they were carried along by the Holy Spirit' -- Peter's pa"
       }
     ],
     "Philippians 2:17": [
@@ -67265,6 +68323,13 @@
         "era_id": "2tim_charge",
         "text_id": "2timothy",
         "note": "'Even if I am to be poured out as a drink offering' -- Paul's earlier use of the"
+      },
+      {
+        "chapter_id": "2tim-endurance-3",
+        "chapter_ref": "2 Timothy 4:1-22",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'Even if I am to be poured out (spendomai) as a drink offering upon the sacrific"
       }
     ],
     "Acts 20:24": [
@@ -67274,6 +68339,76 @@
         "era_id": "2tim_charge",
         "text_id": "2timothy",
         "note": "'I do not account my life of any value... if only I may finish my course' -- Pau"
+      },
+      {
+        "chapter_id": "2tim-endurance-3",
+        "chapter_ref": "2 Timothy 4:1-22",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'I do not account my life of any value... if only I may finish my course (dromos"
+      }
+    ],
+    "Numbers 16:5": [
+      {
+        "chapter_id": "2tim-endurance-1",
+        "chapter_ref": "2 Timothy 2:1-26",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'The LORD knows those who are his' -- Paul quotes this in 2:19; Moses' appeal du"
+      }
+    ],
+    "1 Corinthians 9:24-27": [
+      {
+        "chapter_id": "2tim-endurance-1",
+        "chapter_ref": "2 Timothy 2:1-26",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'Do you not know that in a race all the runners run, but only one receives the p"
+      }
+    ],
+    "Romans 6:3-8": [
+      {
+        "chapter_id": "2tim-endurance-1",
+        "chapter_ref": "2 Timothy 2:1-26",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'We were buried therefore with him by baptism into death' -- the theological fou"
+      }
+    ],
+    "Romans 1:28-32": [
+      {
+        "chapter_id": "2tim-endurance-2",
+        "chapter_ref": "2 Timothy 3:1-17",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "Paul's earlier vice list describing moral decay among those who suppress the tru"
+      }
+    ],
+    "1 Corinthians 9:25": [
+      {
+        "chapter_id": "2tim-endurance-3",
+        "chapter_ref": "2 Timothy 4:1-22",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'Every athlete exercises self-control... They do it to receive a perishable wrea"
+      }
+    ],
+    "Daniel 6:22": [
+      {
+        "chapter_id": "2tim-endurance-3",
+        "chapter_ref": "2 Timothy 4:1-22",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'My God sent his angel and shut the lions' mouths' -- Daniel's deliverance at co"
+      }
+    ],
+    "Psalm 22:21": [
+      {
+        "chapter_id": "2tim-endurance-3",
+        "chapter_ref": "2 Timothy 4:1-22",
+        "era_id": "2tim_endurance",
+        "text_id": "2timothy",
+        "note": "'Save me from the mouth of the lion!' -- the psalmist's cry echoed in Paul's tes"
       }
     ],
     "1 Timothy 3:1-7": [
@@ -67301,6 +68436,13 @@
         "era_id": "titus_order",
         "text_id": "titus",
         "note": "Parallel warning about false teachers promoting myths and genealogies"
+      },
+      {
+        "chapter_id": "titus-grace-1",
+        "chapter_ref": "Titus 1:10-16",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "Paul warns Timothy against those teaching 'myths and endless genealogies' that p"
       }
     ],
     "John 3:3-5": [
@@ -67310,6 +68452,13 @@
         "era_id": "titus_order",
         "text_id": "titus",
         "note": "Jesus on being 'born again' of water and Spirit -- parallel to palingenesia"
+      },
+      {
+        "chapter_id": "titus-grace-3",
+        "chapter_ref": "Titus 3:3-8",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "Jesus to Nicodemus: 'Unless one is born of water and the Spirit, he cannot enter"
       }
     ],
     "2 Peter 1:1": [
@@ -67319,6 +68468,13 @@
         "era_id": "titus_order",
         "text_id": "titus",
         "note": "'Our God and Savior Jesus Christ' -- the same divine title construction as 2:13"
+      },
+      {
+        "chapter_id": "titus-grace-2",
+        "chapter_ref": "Titus 2:11-15",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "'Our God and Savior Jesus Christ' -- the identical Granville Sharp construction "
       }
     ],
     "Deuteronomy 10:17": [
@@ -67328,6 +68484,13 @@
         "era_id": "titus_order",
         "text_id": "titus",
         "note": "'The LORD your God is God of gods and Lord of lords, the great God' -- OT source"
+      },
+      {
+        "chapter_id": "titus-grace-2",
+        "chapter_ref": "Titus 2:11-15",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "'The LORD your God is God of gods and Lord of lords, the great God (ho theos ho "
       }
     ],
     "Romans 3:24-25": [
@@ -67337,6 +68500,85 @@
         "era_id": "titus_order",
         "text_id": "titus",
         "note": "Justification by grace through redemption in Christ -- the same grace-not-works "
+      },
+      {
+        "chapter_id": "titus-grace-3",
+        "chapter_ref": "Titus 3:3-8",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "'Justified by his grace as a gift, through the redemption that is in Christ Jesu"
+      }
+    ],
+    "Acts 15:1-11": [
+      {
+        "chapter_id": "titus-grace-1",
+        "chapter_ref": "Titus 1:10-16",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "The Jerusalem Council's decree that Gentiles need not be circumcised -- the auth"
+      }
+    ],
+    "Matthew 15:10-11": [
+      {
+        "chapter_id": "titus-grace-1",
+        "chapter_ref": "Titus 1:10-16",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "Jesus declares that defilement comes from within, not from external foods -- the"
+      }
+    ],
+    "Colossians 2:20-23": [
+      {
+        "chapter_id": "titus-grace-1",
+        "chapter_ref": "Titus 1:10-16",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "'Do not handle, do not taste, do not touch' -- the same human-imposed ascetic re"
+      }
+    ],
+    "Ephesians 2:8-10": [
+      {
+        "chapter_id": "titus-grace-2",
+        "chapter_ref": "Titus 2:11-15",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "'By grace you have been saved... created in Christ Jesus for good works' -- grac"
+      }
+    ],
+    "Deuteronomy 14:2": [
+      {
+        "chapter_id": "titus-grace-2",
+        "chapter_ref": "Titus 2:11-15",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "Israel as a 'people for his treasured possession' -- the covenant identity that "
+      }
+    ],
+    "1 John 3:2-3": [
+      {
+        "chapter_id": "titus-grace-2",
+        "chapter_ref": "Titus 2:11-15",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "'When he appears we shall be like him' -- the purifying power of the 'blessed ho"
+      }
+    ],
+    "Acts 2:17-18, 33": [
+      {
+        "chapter_id": "titus-grace-3",
+        "chapter_ref": "Titus 3:3-8",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "Peter quotes Joel 2:28 at Pentecost and declares the Spirit 'poured out' (exeche"
+      }
+    ],
+    "Romans 12:2": [
+      {
+        "chapter_id": "titus-grace-3",
+        "chapter_ref": "Titus 3:3-8",
+        "era_id": "titus_grace",
+        "text_id": "titus",
+        "note": "'Be transformed by the renewal (anakainosis) of your mind' -- the same rare word"
       }
     ],
     "Colossians 4:9": [
@@ -67423,6 +68665,13 @@
         "era_id": "james_faith",
         "text_id": "james",
         "note": "'Doctrines of demons' -- Paul's parallel concept to James's 'demonic wisdom' (3:"
+      },
+      {
+        "chapter_id": "1john-spirits-1",
+        "chapter_ref": "1 John 4:1-6",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'The Spirit expressly says that in later times some will depart from the faith b"
       },
       {
         "chapter_id": "2chr-17-23",
@@ -67823,6 +69072,13 @@
         "era_id": "2peter_knowledge",
         "text_id": "2peter",
         "note": "Balaam's donkey saw the angel of the Lord and rebuked the prophet's madness -- P"
+      },
+      {
+        "chapter_id": "2pet-judgment-2",
+        "chapter_ref": "2 Peter 2:10b-22",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "Balaam's donkey saw the angel of the Lord standing in the way with drawn sword a"
       }
     ],
     "1 Thessalonians 5:2": [
@@ -67832,6 +69088,79 @@
         "era_id": "2peter_knowledge",
         "text_id": "2peter",
         "note": "'The day of the Lord will come like a thief in the night' -- Paul's parallel to "
+      },
+      {
+        "chapter_id": "2pet-judgment-3",
+        "chapter_ref": "2 Peter 3:1-18",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'The day of the Lord will come like a thief in the night' -- Paul's parallel to "
+      }
+    ],
+    "Genesis 19:24-25": [
+      {
+        "chapter_id": "2pet-judgment-1",
+        "chapter_ref": "2 Peter 2:1-10a",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'The LORD rained on Sodom and Gomorrah sulfur and fire from the LORD out of heav"
+      },
+      {
+        "chapter_id": "lam-4",
+        "chapter_ref": "Lamentations 4",
+        "era_id": "lam_weeping",
+        "text_id": "lamentations",
+        "note": "The destruction of Sodom -- the benchmark for divine judgment -- is surpassed by"
+      },
+      {
+        "chapter_id": "hosea-11",
+        "chapter_ref": "Hosea 11",
+        "era_id": "hosea_restoration",
+        "text_id": "hosea",
+        "note": "Sodom, Admah, Zeboiim destroyed -- YHWH's heart 'recoils' from doing the same to"
+      },
+      {
+        "chapter_id": "zephaniah-2",
+        "chapter_ref": "Zephaniah 2",
+        "era_id": "zeph_day",
+        "text_id": "zephaniah",
+        "note": "Sodom and Gomorrah -- Moab and Ammon will suffer the same fate (2:9)"
+      }
+    ],
+    "Jude 8-13": [
+      {
+        "chapter_id": "2pet-judgment-2",
+        "chapter_ref": "2 Peter 2:10b-22",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "Nearly identical material: false teachers who 'blaspheme the glorious ones,' the"
+      }
+    ],
+    "Proverbs 26:11": [
+      {
+        "chapter_id": "2pet-judgment-2",
+        "chapter_ref": "2 Peter 2:10b-22",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'Like a dog that returns to his vomit is a fool who repeats his folly' -- Peter "
+      }
+    ],
+    "Hebrews 6:4-6": [
+      {
+        "chapter_id": "2pet-judgment-2",
+        "chapter_ref": "2 Peter 2:10b-22",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'It is impossible, in the case of those who have once been enlightened... and th"
+      }
+    ],
+    "Malachi 4:1": [
+      {
+        "chapter_id": "2pet-judgment-3",
+        "chapter_ref": "2 Peter 3:1-18",
+        "era_id": "2pet_judgment",
+        "text_id": "2peter",
+        "note": "'The day is coming, burning like an oven, when all the arrogant and all evildoer"
       }
     ],
     "John 1:1-5": [
@@ -67850,6 +69179,13 @@
         "era_id": "1john_light",
         "text_id": "1john",
         "note": "'Many deceivers have gone out... who do not confess the coming of Jesus Christ i"
+      },
+      {
+        "chapter_id": "1john-spirits-1",
+        "chapter_ref": "1 John 4:1-6",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'Many deceivers have gone out into the world, those who do not confess the comin"
       }
     ],
     "Hebrews 2:14": [
@@ -67868,6 +69204,13 @@
         "era_id": "1john_light",
         "text_id": "1john",
         "note": "'No one speaking in the Spirit of God ever says \"Jesus is accursed\"' -- Paul's p"
+      },
+      {
+        "chapter_id": "1john-spirits-1",
+        "chapter_ref": "1 John 4:1-6",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'No one speaking in the Spirit of God ever says \"Jesus is accursed!\" and no one "
       }
     ],
     "Matthew 16:16-17": [
@@ -67886,6 +69229,13 @@
         "era_id": "1john_light",
         "text_id": "1john",
         "note": "'The devil... the deceiver of the whole world' was overcome 'by the blood of the"
+      },
+      {
+        "chapter_id": "1john-spirits-3",
+        "chapter_ref": "1 John 5:1-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'The great dragon was thrown down... the deceiver of the whole world... they hav"
       }
     ],
     "Romans 8:37-39": [
@@ -67895,6 +69245,74 @@
         "era_id": "1john_light",
         "text_id": "1john",
         "note": "'We are more than conquerors' -- Paul's parallel to 'this is the victory that ha"
+      },
+      {
+        "chapter_id": "1john-spirits-3",
+        "chapter_ref": "1 John 5:1-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'We are more than conquerors through him who loved us.' Paul's parallel victory "
+      }
+    ],
+    "Deuteronomy 18:20-22": [
+      {
+        "chapter_id": "1john-spirits-1",
+        "chapter_ref": "1 John 4:1-6",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "The Torah's test for prophets: if the word does not come to pass, the prophet ha"
+      },
+      {
+        "chapter_id": "jer-26-29",
+        "chapter_ref": "Jeremiah 26-29",
+        "era_id": "jer_new_covenant",
+        "text_id": "jeremiah",
+        "note": "The test of a true prophet -- applied when Hananiah dies as Jeremiah predicted ("
+      }
+    ],
+    "John 14:16-17": [
+      {
+        "chapter_id": "1john-spirits-1",
+        "chapter_ref": "1 John 4:1-6",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'The Spirit of truth, whom the world cannot receive, because it neither sees him"
+      }
+    ],
+    "Romans 8:15": [
+      {
+        "chapter_id": "1john-spirits-2",
+        "chapter_ref": "1 John 4:7-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'You did not receive the spirit of slavery to fall back into fear, but you have "
+      }
+    ],
+    "Genesis 22:2, 12": [
+      {
+        "chapter_id": "1john-spirits-2",
+        "chapter_ref": "1 John 4:7-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'Take your son, your only son Isaac, whom you love' -- the Akedah typology; Abra"
+      }
+    ],
+    "John 15:12-13": [
+      {
+        "chapter_id": "1john-spirits-2",
+        "chapter_ref": "1 John 4:7-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'This is my commandment, that you love one another as I have loved you. Greater "
+      }
+    ],
+    "John 16:33": [
+      {
+        "chapter_id": "1john-spirits-3",
+        "chapter_ref": "1 John 5:1-21",
+        "era_id": "1john_spirits",
+        "text_id": "1john",
+        "note": "'In the world you will have tribulation. But take heart; I have overcome the wor"
       }
     ],
     "1 John 2:18-22": [
@@ -69053,15 +70471,6 @@
         "note": "Christians as 'sojourners and exiles' -- the NT application of Jeremianic exile "
       }
     ],
-    "Deuteronomy 18:20-22": [
-      {
-        "chapter_id": "jer-26-29",
-        "chapter_ref": "Jeremiah 26-29",
-        "era_id": "jer_new_covenant",
-        "text_id": "jeremiah",
-        "note": "The test of a true prophet -- applied when Hananiah dies as Jeremiah predicted ("
-      }
-    ],
     "Matthew 7:7": [
       {
         "chapter_id": "jer-26-29",
@@ -69578,29 +70987,6 @@
         "era_id": "lam_weeping",
         "text_id": "lamentations",
         "note": "The siege cannibalism of Lam 4:10 fulfills the covenant curse of Deut 28:53: 'Yo"
-      }
-    ],
-    "Genesis 19:24-25": [
-      {
-        "chapter_id": "lam-4",
-        "chapter_ref": "Lamentations 4",
-        "era_id": "lam_weeping",
-        "text_id": "lamentations",
-        "note": "The destruction of Sodom -- the benchmark for divine judgment -- is surpassed by"
-      },
-      {
-        "chapter_id": "hosea-11",
-        "chapter_ref": "Hosea 11",
-        "era_id": "hosea_restoration",
-        "text_id": "hosea",
-        "note": "Sodom, Admah, Zeboiim destroyed -- YHWH's heart 'recoils' from doing the same to"
-      },
-      {
-        "chapter_id": "zephaniah-2",
-        "chapter_ref": "Zephaniah 2",
-        "era_id": "zeph_day",
-        "text_id": "zephaniah",
-        "note": "Sodom and Gomorrah -- Moab and Ammon will suffer the same fate (2:9)"
       }
     ],
     "Psalm 80:3, 7, 19": [
@@ -71540,7 +72926,7 @@
   "hot_passages": [
     {
       "ref": "Deuteronomy 32:8-9",
-      "cited_count": 60,
+      "cited_count": 63,
       "cited_in": [
         "genesis",
         "deuteronomy",
@@ -71568,7 +72954,7 @@
     },
     {
       "ref": "Genesis 6:1-4",
-      "cited_count": 29,
+      "cited_count": 30,
       "cited_in": [
         "deuteronomy",
         "joshua",
@@ -71596,7 +72982,7 @@
     },
     {
       "ref": "Colossians 2:15",
-      "cited_count": 23,
+      "cited_count": 24,
       "cited_in": [
         "genesis",
         "deuteronomy",
@@ -71624,7 +73010,7 @@
     },
     {
       "ref": "Jude 6",
-      "cited_count": 21,
+      "cited_count": 22,
       "cited_in": [
         "leviticus",
         "leviticus",
@@ -71651,22 +73037,8 @@
       ]
     },
     {
-      "ref": "Ephesians 6:12",
-      "cited_count": 17,
-      "cited_in": [
-        "genesis",
-        "2samuel",
-        "2kings",
-        "psalms",
-        "isaiah",
-        "daniel",
-        "1enoch",
-        "1enoch"
-      ]
-    },
-    {
       "ref": "1 Kings 22:19-23",
-      "cited_count": 16,
+      "cited_count": 18,
       "cited_in": [
         "genesis",
         "genesis",
@@ -71679,8 +73051,22 @@
       ]
     },
     {
+      "ref": "Ephesians 6:12",
+      "cited_count": 18,
+      "cited_in": [
+        "genesis",
+        "2samuel",
+        "2kings",
+        "psalms",
+        "isaiah",
+        "daniel",
+        "1enoch",
+        "1enoch"
+      ]
+    },
+    {
       "ref": "Daniel 10:13, 20-21",
-      "cited_count": 15,
+      "cited_count": 17,
       "cited_in": [
         "genesis",
         "genesis",
@@ -71707,6 +73093,20 @@
       ]
     },
     {
+      "ref": "Psalm 82:1-8",
+      "cited_count": 14,
+      "cited_in": [
+        "genesis",
+        "genesis",
+        "genesis",
+        "deuteronomy",
+        "deuteronomy",
+        "judges",
+        "judges",
+        "isaiah"
+      ]
+    },
+    {
       "ref": "Psalm 82:1",
       "cited_count": 14,
       "cited_in": [
@@ -71718,6 +73118,20 @@
         "genesis_apocryphon",
         "dss_sectarian",
         "dss_sectarian"
+      ]
+    },
+    {
+      "ref": "Revelation 20:1-3",
+      "cited_count": 14,
+      "cited_in": [
+        "leviticus",
+        "1enoch",
+        "1enoch",
+        "1enoch",
+        "1enoch",
+        "jubilees",
+        "jubilees",
+        "jubilees"
       ]
     },
     {
@@ -71735,20 +73149,6 @@
       ]
     },
     {
-      "ref": "Revelation 20:1-3",
-      "cited_count": 12,
-      "cited_in": [
-        "leviticus",
-        "1enoch",
-        "1enoch",
-        "1enoch",
-        "1enoch",
-        "jubilees",
-        "jubilees",
-        "jubilees"
-      ]
-    },
-    {
       "ref": "2 Peter 2:4",
       "cited_count": 12,
       "cited_in": [
@@ -71763,17 +73163,17 @@
       ]
     },
     {
-      "ref": "Psalm 82:1-8",
-      "cited_count": 11,
+      "ref": "Job 1:6-12",
+      "cited_count": 12,
       "cited_in": [
-        "genesis",
-        "genesis",
-        "genesis",
         "deuteronomy",
-        "deuteronomy",
-        "judges",
-        "judges",
-        "isaiah"
+        "jubilees",
+        "jubilees",
+        "jubilees",
+        "jubilees",
+        "jubilees",
+        "1corinthians",
+        "1timothy"
       ]
     },
     {
@@ -71791,17 +73191,17 @@
       ]
     },
     {
-      "ref": "Job 1:6-12",
+      "ref": "Isaiah 14:12-15",
       "cited_count": 11,
       "cited_in": [
-        "deuteronomy",
-        "jubilees",
-        "jubilees",
-        "jubilees",
-        "jubilees",
-        "jubilees",
-        "1corinthians",
-        "job"
+        "daniel",
+        "1enoch",
+        "1enoch",
+        "dss_sectarian",
+        "heavenly_court",
+        "heavenly_court",
+        "revelation",
+        "2thessalonians"
       ]
     },
     {
@@ -71917,17 +73317,17 @@
       ]
     },
     {
-      "ref": "Isaiah 14:12-15",
+      "ref": "Daniel 7:9-14",
       "cited_count": 9,
       "cited_in": [
-        "daniel",
+        "1kings",
+        "psalms",
+        "psalms",
+        "psalms",
+        "psalms",
         "1enoch",
-        "1enoch",
-        "dss_sectarian",
-        "heavenly_court",
-        "heavenly_court",
-        "revelation",
-        "ezekiel"
+        "giants",
+        "matthew"
       ]
     },
     {
@@ -72043,20 +73443,6 @@
       ]
     },
     {
-      "ref": "Daniel 7:9-14",
-      "cited_count": 8,
-      "cited_in": [
-        "1kings",
-        "psalms",
-        "psalms",
-        "psalms",
-        "psalms",
-        "1enoch",
-        "giants",
-        "matthew"
-      ]
-    },
-    {
       "ref": "Genesis 5:24",
       "cited_count": 8,
       "cited_in": [
@@ -72085,6 +73471,20 @@
       ]
     },
     {
+      "ref": "1 Peter 3:19-20",
+      "cited_count": 8,
+      "cited_in": [
+        "1enoch",
+        "1enoch",
+        "giants",
+        "giants",
+        "jubilees",
+        "jasher",
+        "2peter",
+        "2peter"
+      ]
+    },
+    {
       "ref": "Proverbs 8:22-31",
       "cited_count": 8,
       "cited_in": [
@@ -72110,6 +73510,20 @@
         "hebrews",
         "james",
         "james"
+      ]
+    },
+    {
+      "ref": "Philippians 2:5-11",
+      "cited_count": 8,
+      "cited_in": [
+        "matthew",
+        "mark",
+        "mark",
+        "john",
+        "colossians",
+        "1timothy",
+        "1timothy",
+        "esther"
       ]
     },
     {
@@ -72201,32 +73615,6 @@
         "deuteronomy",
         "deuteronomy",
         "numbers"
-      ]
-    },
-    {
-      "ref": "John 7:37-38",
-      "cited_count": 7,
-      "cited_in": [
-        "numbers",
-        "numbers",
-        "psalms",
-        "isaiah",
-        "isaiah",
-        "ezekiel",
-        "zechariah"
-      ]
-    },
-    {
-      "ref": "Isaiah 9:6-7",
-      "cited_count": 7,
-      "cited_in": [
-        "judges",
-        "2samuel",
-        "psalms",
-        "isaiah",
-        "isaiah",
-        "zechariah",
-        "1chronicles"
       ]
     }
   ],
@@ -73035,31 +74423,7 @@
         "era_count": 1
       },
       {
-        "text_id": "2thessalonians",
-        "era_count": 1
-      },
-      {
-        "text_id": "1timothy",
-        "era_count": 1
-      },
-      {
-        "text_id": "2timothy",
-        "era_count": 1
-      },
-      {
-        "text_id": "titus",
-        "era_count": 1
-      },
-      {
         "text_id": "philemon",
-        "era_count": 1
-      },
-      {
-        "text_id": "2peter",
-        "era_count": 1
-      },
-      {
-        "text_id": "1john",
         "era_count": 1
       },
       {
@@ -73292,6 +74656,18 @@
         "text_id": "1corinthians",
         "era_id": "1cor_resurrection",
         "era_name": "The Cosmic Resurrection",
+        "score": 4
+      },
+      {
+        "text_id": "2thessalonians",
+        "era_id": "2thess_mystery",
+        "era_name": "The Mystery of Lawlessness",
+        "score": 4
+      },
+      {
+        "text_id": "1timothy",
+        "era_id": "1tim_warfare",
+        "era_name": "Cosmic Order and Spiritual Warfare",
         "score": 4
       },
       {
@@ -73874,6 +75250,18 @@
         "text_id": "1timothy",
         "era_id": "1tim_church",
         "era_name": "Church Order and Sound Doctrine",
+        "score": 1
+      },
+      {
+        "text_id": "2timothy",
+        "era_id": "2tim_endurance",
+        "era_name": "The Last Words — Endurance, Scripture, and the Crown",
+        "score": 1
+      },
+      {
+        "text_id": "1john",
+        "era_id": "1john_spirits",
+        "era_name": "Testing the Spirits & Overcoming the World",
         "score": 1
       },
       {
@@ -74557,9 +75945,27 @@
         "score": 2
       },
       {
+        "text_id": "2thessalonians",
+        "era_id": "2thess_mystery",
+        "era_name": "The Mystery of Lawlessness",
+        "score": 2
+      },
+      {
+        "text_id": "1timothy",
+        "era_id": "1tim_warfare",
+        "era_name": "Cosmic Order and Spiritual Warfare",
+        "score": 2
+      },
+      {
         "text_id": "2timothy",
         "era_id": "2tim_charge",
         "era_name": "Paul's Final Charge",
+        "score": 2
+      },
+      {
+        "text_id": "2timothy",
+        "era_id": "2tim_endurance",
+        "era_name": "The Last Words — Endurance, Scripture, and the Crown",
         "score": 2
       },
       {
@@ -74572,6 +75978,12 @@
         "text_id": "1peter",
         "era_id": "1pet_spirits",
         "era_name": "Spirits in Prison, the Flood, and Suffering as Vindication",
+        "score": 2
+      },
+      {
+        "text_id": "1john",
+        "era_id": "1john_spirits",
+        "era_name": "Testing the Spirits & Overcoming the World",
         "score": 2
       },
       {
@@ -74788,6 +76200,12 @@
         "text_id": "1timothy",
         "era_id": "1tim_church",
         "era_name": "Church Order and Sound Doctrine",
+        "score": 1
+      },
+      {
+        "text_id": "titus",
+        "era_id": "titus_grace",
+        "era_name": "The Grace That Trains",
         "score": 1
       },
       {
@@ -75309,6 +76727,12 @@
         "score": 3
       },
       {
+        "text_id": "1timothy",
+        "era_id": "1tim_warfare",
+        "era_name": "Cosmic Order and Spiritual Warfare",
+        "score": 3
+      },
+      {
         "text_id": "jeremiah",
         "era_id": "jer_call",
         "era_name": "Call & Early Oracles",
@@ -75747,15 +77171,33 @@
         "score": 1
       },
       {
+        "text_id": "2thessalonians",
+        "era_id": "2thess_mystery",
+        "era_name": "The Mystery of Lawlessness",
+        "score": 1
+      },
+      {
         "text_id": "titus",
         "era_id": "titus_order",
         "era_name": "Church Order on Crete",
         "score": 1
       },
       {
+        "text_id": "titus",
+        "era_id": "titus_grace",
+        "era_name": "The Grace That Trains",
+        "score": 1
+      },
+      {
         "text_id": "1peter",
         "era_id": "1pet_spirits",
         "era_name": "Spirits in Prison, the Flood, and Suffering as Vindication",
+        "score": 1
+      },
+      {
+        "text_id": "1john",
+        "era_id": "1john_spirits",
+        "era_name": "Testing the Spirits & Overcoming the World",
         "score": 1
       },
       {
@@ -76307,6 +77749,12 @@
         "score": 3
       },
       {
+        "text_id": "2timothy",
+        "era_id": "2tim_endurance",
+        "era_name": "The Last Words — Endurance, Scripture, and the Crown",
+        "score": 3
+      },
+      {
         "text_id": "james",
         "era_id": "james_wisdom",
         "era_name": "Wisdom from Above",
@@ -76745,9 +78193,21 @@
         "score": 1
       },
       {
+        "text_id": "1timothy",
+        "era_id": "1tim_warfare",
+        "era_name": "Cosmic Order and Spiritual Warfare",
+        "score": 1
+      },
+      {
         "text_id": "titus",
         "era_id": "titus_order",
         "era_name": "Church Order on Crete",
+        "score": 1
+      },
+      {
+        "text_id": "titus",
+        "era_id": "titus_grace",
+        "era_name": "The Grace That Trains",
         "score": 1
       },
       {
@@ -77197,6 +78657,12 @@
         "score": 2
       },
       {
+        "text_id": "2thessalonians",
+        "era_id": "2thess_mystery",
+        "era_name": "The Mystery of Lawlessness",
+        "score": 2
+      },
+      {
         "text_id": "jeremiah",
         "era_id": "jer_aftermath",
         "era_name": "Aftermath & Oracles",
@@ -77575,9 +79041,21 @@
         "score": 1
       },
       {
+        "text_id": "titus",
+        "era_id": "titus_grace",
+        "era_name": "The Grace That Trains",
+        "score": 1
+      },
+      {
         "text_id": "james",
         "era_id": "james_wisdom",
         "era_name": "Wisdom from Above",
+        "score": 1
+      },
+      {
+        "text_id": "1john",
+        "era_id": "1john_spirits",
+        "era_name": "Testing the Spirits & Overcoming the World",
         "score": 1
       },
       {
@@ -78579,15 +80057,45 @@
         "score": 1
       },
       {
+        "text_id": "2thessalonians",
+        "era_id": "2thess_mystery",
+        "era_name": "The Mystery of Lawlessness",
+        "score": 1
+      },
+      {
+        "text_id": "1timothy",
+        "era_id": "1tim_warfare",
+        "era_name": "Cosmic Order and Spiritual Warfare",
+        "score": 1
+      },
+      {
+        "text_id": "2timothy",
+        "era_id": "2tim_endurance",
+        "era_name": "The Last Words — Endurance, Scripture, and the Crown",
+        "score": 1
+      },
+      {
         "text_id": "titus",
         "era_id": "titus_order",
         "era_name": "Church Order on Crete",
         "score": 1
       },
       {
+        "text_id": "titus",
+        "era_id": "titus_grace",
+        "era_name": "The Grace That Trains",
+        "score": 1
+      },
+      {
         "text_id": "james",
         "era_id": "james_wisdom",
         "era_name": "Wisdom from Above",
+        "score": 1
+      },
+      {
+        "text_id": "1john",
+        "era_id": "1john_spirits",
+        "era_name": "Testing the Spirits & Overcoming the World",
         "score": 1
       },
       {
@@ -78776,6 +80284,12 @@
         "text_id": "1corinthians",
         "era_id": "1cor_body",
         "era_name": "The Body of Christ",
+        "score": 4
+      },
+      {
+        "text_id": "2thessalonians",
+        "era_id": "2thess_mystery",
+        "era_name": "The Mystery of Lawlessness",
         "score": 4
       },
       {
@@ -79211,6 +80725,18 @@
         "score": 2
       },
       {
+        "text_id": "1timothy",
+        "era_id": "1tim_warfare",
+        "era_name": "Cosmic Order and Spiritual Warfare",
+        "score": 2
+      },
+      {
+        "text_id": "2timothy",
+        "era_id": "2tim_endurance",
+        "era_name": "The Last Words — Endurance, Scripture, and the Crown",
+        "score": 2
+      },
+      {
         "text_id": "1peter",
         "era_id": "1peter_exiles",
         "era_name": "Elect Exiles, Spirits in Prison, and the Prowling Lion",
@@ -79463,6 +80989,12 @@
         "score": 1
       },
       {
+        "text_id": "1john",
+        "era_id": "1john_spirits",
+        "era_name": "Testing the Spirits & Overcoming the World",
+        "score": 1
+      },
+      {
         "text_id": "job",
         "era_id": "job_prologue",
         "era_name": "Prologue & Dialogues",
@@ -79609,6 +81141,12 @@
         "score": 6
       },
       {
+        "text_id": "titus",
+        "era_id": "titus_grace",
+        "era_name": "The Grace That Trains",
+        "score": 6
+      },
+      {
         "text_id": "genesis",
         "era_id": "creation",
         "era_name": "Creation Week",
@@ -79696,6 +81234,12 @@
         "text_id": "romans",
         "era_id": "rom_practice",
         "era_name": "The Practice of the Gospel",
+        "score": 5
+      },
+      {
+        "text_id": "2thessalonians",
+        "era_id": "2thess_mystery",
+        "era_name": "The Mystery of Lawlessness",
         "score": 5
       },
       {
@@ -80137,6 +81681,12 @@
         "score": 3
       },
       {
+        "text_id": "2timothy",
+        "era_id": "2tim_endurance",
+        "era_name": "The Last Words — Endurance, Scripture, and the Crown",
+        "score": 3
+      },
+      {
         "text_id": "job",
         "era_id": "job_theophany",
         "era_name": "Theophany & Restoration",
@@ -80383,6 +81933,12 @@
         "score": 2
       },
       {
+        "text_id": "1timothy",
+        "era_id": "1tim_warfare",
+        "era_name": "Cosmic Order and Spiritual Warfare",
+        "score": 2
+      },
+      {
         "text_id": "2timothy",
         "era_id": "2tim_charge",
         "era_name": "Paul's Final Charge",
@@ -80500,6 +82056,12 @@
         "text_id": "1peter",
         "era_id": "1peter_exiles",
         "era_name": "Elect Exiles, Spirits in Prison, and the Prowling Lion",
+        "score": 1
+      },
+      {
+        "text_id": "1john",
+        "era_id": "1john_spirits",
+        "era_name": "Testing the Spirits & Overcoming the World",
         "score": 1
       },
       {
@@ -80718,6 +82280,12 @@
         "text_id": "1thessalonians",
         "era_id": "1thess_day",
         "era_name": "The Day of the Lord and the Dead in Christ",
+        "score": 2
+      },
+      {
+        "text_id": "1timothy",
+        "era_id": "1tim_warfare",
+        "era_name": "Cosmic Order and Spiritual Warfare",
         "score": 2
       },
       {
@@ -81021,6 +82589,18 @@
         "score": 1
       },
       {
+        "text_id": "2timothy",
+        "era_id": "2tim_endurance",
+        "era_name": "The Last Words — Endurance, Scripture, and the Crown",
+        "score": 1
+      },
+      {
+        "text_id": "titus",
+        "era_id": "titus_grace",
+        "era_name": "The Grace That Trains",
+        "score": 1
+      },
+      {
         "text_id": "1peter",
         "era_id": "1pet_spirits",
         "era_name": "Spirits in Prison, the Flood, and Suffering as Vindication",
@@ -81128,6 +82708,12 @@
         "text_id": "2timothy",
         "era_id": "2tim_charge",
         "era_name": "Paul's Final Charge",
+        "score": 2
+      },
+      {
+        "text_id": "2timothy",
+        "era_id": "2tim_endurance",
+        "era_name": "The Last Words — Endurance, Scripture, and the Crown",
         "score": 2
       },
       {
