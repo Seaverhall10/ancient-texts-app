@@ -348,12 +348,12 @@
         {
             textId: 'enoch1',
             title: '1 Enoch',
-            subtitle: 'Book of the Watchers',
+            subtitle: 'DSS \u2014 4Q201\u2013212 + Ethiopic',
             icon: '\uD83D\uDC7C',
-            tagline: 'The book Jude quotes. The angels who fell.',
-            desc: 'Quoted directly in Jude 14\u201315 and echoed throughout 2 Peter. The Watchers narrative that shaped how every NT author understood fallen angels, demons, and the flood. Once widely read in the early church.',
+            tagline: 'Found at Qumran. Quoted by Jude. The angels who fell.',
+            desc: 'Aramaic fragments from every section except the Parables were found at Qumran (Cave 4) \u2014 more copies than some OT books. Quoted directly in Jude 14\u201315. The Watchers narrative shaped how every NT author understood fallen angels, demons, and the flood.',
             era: 'watchers',
-            highlight: 'Jude 14\u201315 directly quotes 1 Enoch 1:9'
+            highlight: 'DSS: 4Q201\u2013212 (Aramaic) \u2022 Jude 14\u201315 quotes 1 Enoch 1:9'
         },
         {
             textId: 'dss_sectarian',
@@ -378,12 +378,12 @@
         {
             textId: 'jubilees',
             title: 'Jubilees',
-            subtitle: 'The Little Genesis',
+            subtitle: 'DSS \u2014 4Q216\u2013228 + Ethiopic',
             icon: '\uD83D\uDCDC',
-            tagline: 'Genesis retold with angels, demons, and a sacred calendar.',
-            desc: 'A retelling of Genesis through Exodus 19 dictated by the Angel of the Presence to Moses on Sinai. Introduces Mastema (the chief demon), explains the origin of evil spirits from the Watchers, and reveals a 364-day solar calendar.',
+            tagline: 'Found at Qumran (~15 copies). Genesis retold with angels and demons.',
+            desc: 'One of the most copied texts at Qumran (~15 manuscripts found \u2014 more than Deuteronomy). A retelling of Genesis through Exodus 19 dictated by the Angel of the Presence to Moses on Sinai. Introduces Mastema (the chief demon) and reveals a 364-day solar calendar.',
             era: 'jub_prologue',
-            highlight: 'Mastema = Satan figure who tests Abraham'
+            highlight: 'DSS: ~15 copies at Qumran \u2022 Mastema = Satan figure who tests Abraham'
         },
         {
             textId: 'genesis_apocryphon',
