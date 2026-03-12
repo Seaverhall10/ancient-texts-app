@@ -171,6 +171,13 @@
     font-weight: 600;
 }
 
+.matrix-pct {
+    margin-left: auto;
+    font-size: 0.7rem;
+    font-weight: 700;
+    opacity: 0.85;
+}
+
 /* Heatmap table */
 .matrix-heatmap-section {
     margin-top: 8px;

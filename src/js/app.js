@@ -6447,13 +6447,29 @@
         });
         html += '</div>';
 
-        // Religion cards
-        var filtered = matrixSelectedCat === 'all' ? RELIGIONS_DATA : RELIGIONS_DATA.filter(function(r) { return r.cat === matrixSelectedCat; });
+        // Religion cards — sorted by alignment (most aligned first)
+        var ALIGN_SCORE = { full: 5, mostly: 4, parallel: 3, partial: 2, divergent: 1 };
+        function getOverallScore(r) {
+            var total = 0;
+            DOCTRINE_KEYS.forEach(function(k) { total += (ALIGN_SCORE[r.d[k]] || 1); });
+            return total;
+        }
+        var filtered = matrixSelectedCat === 'all' ? RELIGIONS_DATA.slice() : RELIGIONS_DATA.filter(function(r) { return r.cat === matrixSelectedCat; });
+        filtered.sort(function(a, b) {
+            // Primary: selected doctrine alignment
+            var da = ALIGN_SCORE[a.d[matrixSelectedDoctrine]] || 1;
+            var db = ALIGN_SCORE[b.d[matrixSelectedDoctrine]] || 1;
+            if (db !== da) return db - da;
+            // Secondary: overall alignment score
+            return getOverallScore(b) - getOverallScore(a);
+        });
         html += '<div class="matrix-grid">';
         filtered.forEach(function(r) {
             var alignment = r.d[matrixSelectedDoctrine] || 'divergent';
             var ai = ALIGNMENT_INFO[alignment];
             var catInfo = RELIGION_CATEGORIES[r.cat] || {};
+            var overallPct = Math.round((getOverallScore(r) / (DOCTRINE_KEYS.length * 5)) * 100);
+            var pctColor = overallPct >= 80 ? '#22c55e' : overallPct >= 60 ? '#3b82f6' : overallPct >= 40 ? '#f59e0b' : '#ef4444';
             html += '<div class="matrix-card" style="border-left-color:' + ai.color + ';cursor:pointer" data-religion="' + r.id + '" title="Click to explore ' + esc(r.name) + '">';
             html += '<div class="matrix-card-header">';
             html += '<div class="matrix-card-name">' + esc(r.name) + '</div>';
@@ -6461,6 +6477,7 @@
             html += '</div>';
             html += '<div class="matrix-alignment" style="color:' + ai.color + '">';
             html += '<span class="matrix-dot" style="background:' + ai.color + '"></span>' + ai.label;
+            html += '<span class="matrix-pct" style="color:' + pctColor + '">' + overallPct + '% overall</span>';
             html += '</div>';
             html += '<div class="matrix-card-explore">Tap to explore \u2192</div>';
             html += '</div>';
@@ -6473,8 +6490,10 @@
         DOCTRINE_KEYS.forEach(function(k) {
             html += '<th title="' + BIBLE_TEACHES[k].label + '">' + k.charAt(0).toUpperCase() + k.slice(0,3) + '</th>';
         });
-        html += '</tr></thead><tbody>';
+        html += '<th>Score</th></tr></thead><tbody>';
         filtered.forEach(function(r) {
+            var overallPct = Math.round((getOverallScore(r) / (DOCTRINE_KEYS.length * 5)) * 100);
+            var pctColor = overallPct >= 80 ? '#22c55e' : overallPct >= 60 ? '#3b82f6' : overallPct >= 40 ? '#f59e0b' : '#ef4444';
             html += '<tr style="cursor:pointer" data-religion="' + r.id + '">';
             html += '<td class="matrix-hm-name">' + esc(r.name) + '</td>';
             DOCTRINE_KEYS.forEach(function(k) {
@@ -6482,6 +6501,7 @@
                 var ai = ALIGNMENT_INFO[al];
                 html += '<td><span class="matrix-hm-cell" style="background:' + ai.color + '" title="' + ai.label + '"></span></td>';
             });
+            html += '<td style="font-size:0.72rem;font-weight:700;color:' + pctColor + ';text-align:center">' + overallPct + '%</td>';
             html += '</tr>';
         });
         html += '</tbody></table></div></div>';
