@@ -6717,5 +6717,77 @@ GLOSSARY = {
         "definition": "From zamar ('to sing, to make music with instruments'). A mizmor is specifically a song meant to be accompanied by stringed instruments (kinnor/lyre, nevel/harp). It appears in the superscriptions of 57 psalms. Distinct from shir (a general song) and maskil (a contemplative or skillful composition). The mizmor tradition reflects the Levitical worship system established by David (1 Chr 25:1-7), where trained musicians led the congregation in praise before the ark — a deliberate earthly mirror of the heavenly worship before God's throne (Rev 4-5).",
         "language": "hebrew",
         "chapters_used": ["psa-3", "psa-4", "psa-23"]
+    },
+    "yahad": {
+        "hebrew": "\u05d9\u05b7\u05d7\u05b7\u05d3",
+        "transliteration": "ya\u1e25ad",
+        "strongs": "N/A",
+        "gloss": "community, unity",
+        "definition": "Hebrew noun meaning 'togetherness' or 'community.' In the Dead Sea Scrolls, the Yahad (ha-yahad, 'the community') is the self-designation of the Qumran sect. The Community Rule (1QS) outlines how members must live in radical purity, share possessions, study Torah continuously, and follow the Teacher of Righteousness. The Yahad saw itself as the true remnant of Israel, living in covenant faithfulness during the final age before God's eschatological intervention. Entry required a two-year probation and binding oath. The concept echoes Deuteronomy 6:4 (YHWH is 'one' / echad) and anticipates the early church's 'one body' theology (Acts 2:44-47, 4:32).",
+        "language": "hebrew",
+        "chapters_used": ["dss-community-rule", "dss-war-scroll"]
+    },
+    "maskil": {
+        "hebrew": "\u05de\u05b7\u05e9\u05c2\u05b0\u05db\u05b4\u05bc\u05d9\u05dc",
+        "transliteration": "ma\u015bk\u00eel",
+        "strongs": "H4905",
+        "gloss": "instructor, wise one, contemplative psalm",
+        "definition": "From sakal ('to be prudent, to have insight'). In the Psalms, maskil appears in 13 superscriptions (Psalms 32, 42, 44, 45, 52-55, 74, 78, 88, 89, 142), designating a contemplative or didactic composition requiring special skill. In the Dead Sea Scrolls, the Maskil is a specific leadership role within the Yahad community \u2014 the chief instructor responsible for teaching members the 'mysteries of God' (razei El), discerning the spirits of light and darkness within people (1QS 3:13-4:26), and guiding the community in righteousness. The Maskil knows the 'epochs of history' and God's plan for the end times. This role bridges the wisdom tradition of Proverbs (the sage who instructs) with the apocalyptic tradition of Daniel (the wise who 'shine like stars,' Dan 12:3).",
+        "language": "hebrew",
+        "chapters_used": ["psa-32", "psa-42", "psa-78", "dss-community-rule"]
+    },
+    "hodayot": {
+        "hebrew": "\u05d4\u05d5\u05b9\u05d3\u05b8\u05d9\u05d5\u05b9\u05ea",
+        "transliteration": "h\u00f4d\u0101y\u00f4t",
+        "strongs": "N/A",
+        "gloss": "thanksgiving hymns",
+        "definition": "Plural of hodayah ('thanksgiving'). The Hodayot (1QH) is a collection of approximately 25 thanksgiving hymns found among the Dead Sea Scrolls, many beginning with 'I thank you, O Lord' (odeka adonai). Likely composed by the Teacher of Righteousness and other Yahad leaders, these hymns express profound spiritual experience: the author's sense of sinfulness and dust-like nature before God's overwhelming holiness, gratitude for divine election and revelation, and persecution by enemies. The theology emphasizes radical grace \u2014 that a 'creature of clay' can know divine mysteries only through God's sovereign gift of the Holy Spirit. This anticipates Paul's emphasis on grace (Eph 2:8-9) and the language of spiritual rebirth (John 3:5-8). The Hodayot are the most intimate devotional texts from Second Temple Judaism.",
+        "language": "hebrew",
+        "chapters_used": ["dss-community-rule"]
+    },
+    "moreh_tzedek": {
+        "hebrew": "\u05de\u05d5\u05b9\u05e8\u05b6\u05d4 \u05e6\u05b6\u05bc\u05d3\u05b6\u05e7",
+        "transliteration": "m\u00f4reh tsedeq",
+        "strongs": "N/A",
+        "gloss": "Teacher of Righteousness",
+        "definition": "Title of the founding leader of the Qumran community. The Teacher of Righteousness (Moreh ha-Tsedek) appears in the Damascus Document (CD), the Habakkuk Pesher (1QpHab), and other scrolls as a priest to whom God revealed the true meaning of the prophets. He was persecuted by the 'Wicked Priest' (likely a Hasmonean high priest) and led his followers into exile at Qumran. The pesher on Habakkuk 2:4 interprets 'the righteous shall live by his faith' as referring specifically to those who trust the Teacher's interpretation of Torah. His role as the authoritative interpreter of scripture parallels Jesus's claim in the Sermon on the Mount: 'You have heard it said... but I say to you' (Matt 5:21-48). The Teacher's identity remains debated, but most scholars date him to the mid-2nd century BC.",
+        "language": "hebrew",
+        "chapters_used": ["dss-community-rule", "hab-2"]
+    },
+    "kohen_rasha": {
+        "hebrew": "\u05db\u05b9\u05bc\u05d4\u05b5\u05df \u05d4\u05b8\u05e8\u05b8\u05e9\u05c1\u05b8\u05e2",
+        "transliteration": "koh\u0113n h\u0101r\u0101sh\u0101\u02bf",
+        "strongs": "N/A",
+        "gloss": "the Wicked Priest",
+        "definition": "Antagonist figure in the Dead Sea Scrolls who persecuted the Teacher of Righteousness. The Wicked Priest (ha-Kohen ha-Rasha) appears primarily in the Habakkuk Pesher (1QpHab), where he is described as initially righteous but corrupted by wealth and power, defiling the Temple, and pursuing the Teacher on the Day of Atonement. Most scholars identify him with one of the Hasmonean high priests (Jonathan or Simon Maccabee, mid-2nd century BC), who combined political and priestly authority in ways the Qumran community considered illegitimate. The Wicked Priest's corruption of the priesthood is precisely what drove the Yahad into desert exile, fulfilling Isaiah 40:3: 'Prepare in the wilderness the way of the Lord.'",
+        "language": "hebrew",
+        "chapters_used": ["hab-2", "dss-community-rule"]
+    },
+    "pesharim": {
+        "hebrew": "\u05e4\u05b0\u05bc\u05e9\u05c1\u05b8\u05e8\u05b4\u05d9\u05dd",
+        "transliteration": "p\u0115sh\u0101r\u00eem",
+        "strongs": "N/A",
+        "gloss": "interpretations, prophetic commentaries",
+        "definition": "Plural of pesher. The pesharim are a distinctive genre of Dead Sea Scrolls commentary that interprets biblical prophecy as speaking directly about the Qumran community's own time and experiences. The most famous are the Habakkuk Pesher (1QpHab), the Nahum Pesher (4QpNah), and the Psalms Pesher (4QpPs\u1d43). The interpretive method works verse-by-verse: quote a biblical line, then explain 'its pesher concerns...' applying it to specific events, people, and the eschatological drama. This 'this is that' hermeneutic directly parallels how the NT authors read the OT \u2014 Peter at Pentecost (Acts 2:16: 'This is what was spoken by the prophet Joel'), Matthew's fulfillment citations, and Paul's typological readings. The pesharim assume that the prophets wrote in mystery, and only the divinely guided interpreter (the Teacher of Righteousness) could unlock their true meaning.",
+        "language": "hebrew",
+        "chapters_used": ["hab-2", "nah-1", "dss-community-rule"]
+    },
+    "raz": {
+        "hebrew": "\u05e8\u05b8\u05d6",
+        "transliteration": "r\u0101z",
+        "strongs": "N/A",
+        "gloss": "mystery, divine secret",
+        "definition": "Persian loanword (from Old Iranian r\u0101za) meaning 'mystery' or 'secret.' In Daniel 2:18-19, 27-30, Nebuchadnezzar's dream is called a raz that only God can reveal. In the Dead Sea Scrolls, razei El ('mysteries of God') and raz nihyeh ('the mystery of what is to come') are central theological concepts. The Maskil is charged with understanding these mysteries (1QS 9:18), and the Teacher of Righteousness was given special insight into the razim hidden in the prophets (1QpHab 7:4-5). This concept flows directly into the NT: Paul's mysterion in Ephesians 1:9, 3:3-9, Colossians 1:26-27 \u2014 the 'mystery hidden for ages' now revealed in Christ. The semantic field connects Daniel's court wisdom, Qumran's sectarian theology, and Paul's cosmic gospel into one continuous tradition.",
+        "language": "aramaic",
+        "chapters_used": ["dan-2", "dss-community-rule"]
+    },
+    "two_spirits": {
+        "hebrew": "\u05e9\u05c1\u05b0\u05ea\u05b5\u05bc\u05d9 \u05e8\u05d5\u05bc\u05d7\u05d5\u05b9\u05ea",
+        "transliteration": "sht\u0113y r\u00fb\u1e25\u00f4t",
+        "strongs": "N/A",
+        "gloss": "two spirits (of truth and falsehood)",
+        "definition": "Central doctrine of the Qumran community outlined in the Community Rule (1QS 3:13-4:26). God created two spirits that govern human behavior: the Spirit of Truth (ruach emet) and the Spirit of Falsehood (ruach avel). Every person is influenced by both spirits in varying proportions until the eschatological 'visitation' when God will purify the righteous and destroy wickedness forever. The Spirit of Truth leads to humility, patience, compassion, and eternal joy; the Spirit of Falsehood leads to greed, deceit, cruelty, and destruction. This dualistic framework profoundly influenced Johannine theology: 'the spirit of truth and the spirit of error' (1 John 4:6), Jesus as 'the light of the world' versus 'walking in darkness' (John 8:12), and the Paraclete as the 'Spirit of truth' (John 14:17, 15:26, 16:13).",
+        "language": "hebrew",
+        "chapters_used": ["dss-community-rule", "1jn-4"]
     }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-12T01:48:13.844545",
+  "generated": "2026-03-12T01:53:47.428591",
   "version": "1.0",
   "summary": {
     "total_texts": 74,
@@ -9,7 +9,7 @@
     "total_il_words": 444339,
     "total_cross_refs": 6392,
     "unique_passages_cited": 3992,
-    "glossary_terms": 556,
+    "glossary_terms": 563,
     "texts_with_flow": 66,
     "texts_with_interlinear": 66,
     "gap_count": {
@@ -84329,10 +84329,11 @@
       "language": "aramaic"
     },
     "raz": {
-      "gloss": "mystery, secret, hidden thing",
-      "strongs": "H7328",
+      "gloss": "mystery, divine secret",
+      "strongs": "N/A",
       "chapters_used": [
-        "ga-col05"
+        "dan-2",
+        "dss-community-rule"
       ],
       "language": "aramaic"
     },
@@ -88102,6 +88103,71 @@
         "psa-3",
         "psa-4",
         "psa-23"
+      ],
+      "language": "hebrew"
+    },
+    "yahad": {
+      "gloss": "community, unity",
+      "strongs": "N/A",
+      "chapters_used": [
+        "dss-community-rule",
+        "dss-war-scroll"
+      ],
+      "language": "hebrew"
+    },
+    "maskil": {
+      "gloss": "instructor, wise one, contemplative psalm",
+      "strongs": "H4905",
+      "chapters_used": [
+        "psa-32",
+        "psa-42",
+        "psa-78",
+        "dss-community-rule"
+      ],
+      "language": "hebrew"
+    },
+    "hodayot": {
+      "gloss": "thanksgiving hymns",
+      "strongs": "N/A",
+      "chapters_used": [
+        "dss-community-rule"
+      ],
+      "language": "hebrew"
+    },
+    "moreh_tzedek": {
+      "gloss": "Teacher of Righteousness",
+      "strongs": "N/A",
+      "chapters_used": [
+        "dss-community-rule",
+        "hab-2"
+      ],
+      "language": "hebrew"
+    },
+    "kohen_rasha": {
+      "gloss": "the Wicked Priest",
+      "strongs": "N/A",
+      "chapters_used": [
+        "hab-2",
+        "dss-community-rule"
+      ],
+      "language": "hebrew"
+    },
+    "pesharim": {
+      "gloss": "interpretations, prophetic commentaries",
+      "strongs": "N/A",
+      "chapters_used": [
+        "hab-2",
+        "nah-1",
+        "dss-community-rule"
+      ],
+      "language": "hebrew"
+    },
+    "two_spirits": {
+      "gloss": "two spirits (of truth and falsehood)",
+      "strongs": "N/A",
+      "chapters_used": [
+        "dss-community-rule",
+        "1jn-4"
       ],
       "language": "hebrew"
     }

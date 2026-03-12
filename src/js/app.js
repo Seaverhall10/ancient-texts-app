@@ -112,6 +112,9 @@
     var ilRows = JSON.parse(localStorage.getItem('atl-il-rows') || 'null') || USER_MODES[userMode];
     var highContrast = localStorage.getItem('atl-high-contrast') === 'true';
 
+    // ── Study Notes (user pins/annotations per chapter) ──────
+    var studyNotes = JSON.parse(localStorage.getItem('atl-study-notes') || '{}');
+
     // ── THC ↔ Library Cross-Reference Map ──────────────────
     var THC_XREFS = {
         // Library chapter ID → THC chapters that provide deep analysis
@@ -2260,12 +2263,30 @@
             }
         }
 
+        // Existing study notes for this chapter
+        var existingNote = studyNotes[ch.id];
+        if (existingNote) {
+            html += '<div class="chapter-study-note">' +
+                '<div class="study-note-header">' +
+                '<span class="study-note-icon">\uD83D\uDCCC</span>' +
+                '<span class="study-note-label">My Note</span>' +
+                '<button class="study-note-edit" data-id="' + ch.id + '" title="Edit note">\u270F\uFE0F</button>' +
+                '<button class="study-note-delete" data-id="' + ch.id + '" title="Delete note">\u2715</button>' +
+                '</div>' +
+                '<div class="study-note-text">' + esc(existingNote.text) + '</div>' +
+                '<div class="study-note-date">' + (existingNote.date || '') + '</div>' +
+                '</div>';
+        }
+
         // Mobile-friendly action bar at bottom of card
+        var hasNote = !!studyNotes[ch.id];
         html += '<div class="chapter-action-bar">' +
             '<button class="chapter-action-read' + (isRead ? ' is-read' : '') + '" data-id="' + ch.id + '">' +
             (isRead ? '\u2714 Read' : '\u25CB Mark as Read') + '</button>' +
             '<button class="chapter-action-bookmark' + (isBookmarked ? ' is-bookmarked' : '') + '" data-id="' + ch.id + '">' +
             (isBookmarked ? '\u2605 Saved' : '\u2606 Save') + '</button>' +
+            '<button class="chapter-action-note' + (hasNote ? ' has-note' : '') + '" data-id="' + ch.id + '">' +
+            (hasNote ? '\uD83D\uDCCC Note' : '\uD83D\uDCDD Note') + '</button>' +
             '</div>';
 
         html += '</div>';
@@ -2543,6 +2564,25 @@
                 toggleBookmark(actionBookmark.dataset.id);
                 var wasSaved = actionBookmark.classList.toggle('is-bookmarked');
                 actionBookmark.textContent = wasSaved ? '\u2605 Saved' : '\u2606 Save';
+                return;
+            }
+
+            // Mobile action bar — Study Note
+            var actionNote = e.target.closest('.chapter-action-note');
+            if (actionNote) {
+                openStudyNoteEditor(actionNote.dataset.id);
+                return;
+            }
+
+            // Study note edit/delete buttons
+            var noteEdit = e.target.closest('.study-note-edit');
+            if (noteEdit) {
+                openStudyNoteEditor(noteEdit.dataset.id);
+                return;
+            }
+            var noteDelete = e.target.closest('.study-note-delete');
+            if (noteDelete) {
+                deleteStudyNote(noteDelete.dataset.id);
                 return;
             }
 
@@ -4629,6 +4669,86 @@
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
         showCopyToast('Exported ' + filename);
+    }
+
+    // ── Study Notes (user annotations per chapter) ──────────
+    function openStudyNoteEditor(chapterId) {
+        var existing = studyNotes[chapterId] || {};
+        var overlay = document.createElement('div');
+        overlay.className = 'study-note-overlay';
+        overlay.innerHTML = '<div class="study-note-modal">' +
+            '<div class="study-note-modal-header">' +
+            '<span>\uD83D\uDCCC Leave a Note</span>' +
+            '<button class="study-note-modal-close">\u2715</button>' +
+            '</div>' +
+            '<div class="study-note-modal-chapter">' + chapterId + '</div>' +
+            '<textarea class="study-note-textarea" placeholder="Type your note, feedback, or question about this chapter...">' +
+            (existing.text ? existing.text.replace(/</g, '&lt;') : '') +
+            '</textarea>' +
+            '<div class="study-note-modal-actions">' +
+            '<button class="study-note-save">Save Note</button>' +
+            (existing.text ? '<button class="study-note-remove">Delete Note</button>' : '') +
+            '</div>' +
+            '</div>';
+
+        document.body.appendChild(overlay);
+        var textarea = overlay.querySelector('.study-note-textarea');
+        setTimeout(function() { textarea.focus(); }, 100);
+
+        overlay.querySelector('.study-note-modal-close').addEventListener('click', function() {
+            document.body.removeChild(overlay);
+        });
+        overlay.addEventListener('click', function(ev) {
+            if (ev.target === overlay) document.body.removeChild(overlay);
+        });
+        overlay.querySelector('.study-note-save').addEventListener('click', function() {
+            var text = textarea.value.trim();
+            if (text) {
+                studyNotes[chapterId] = {
+                    text: text,
+                    date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+                };
+                localStorage.setItem('atl-study-notes', JSON.stringify(studyNotes));
+                syncAfterChange();
+                showCopyToast('\uD83D\uDCCC Note saved');
+                refreshCurrentView();
+            }
+            document.body.removeChild(overlay);
+        });
+        var removeBtn = overlay.querySelector('.study-note-remove');
+        if (removeBtn) {
+            removeBtn.addEventListener('click', function() {
+                delete studyNotes[chapterId];
+                localStorage.setItem('atl-study-notes', JSON.stringify(studyNotes));
+                syncAfterChange();
+                showCopyToast('Note deleted');
+                refreshCurrentView();
+                document.body.removeChild(overlay);
+            });
+        }
+    }
+
+    function deleteStudyNote(chapterId) {
+        if (!studyNotes[chapterId]) return;
+        delete studyNotes[chapterId];
+        localStorage.setItem('atl-study-notes', JSON.stringify(studyNotes));
+        syncAfterChange();
+        showCopyToast('Note deleted');
+        refreshCurrentView();
+    }
+
+    function refreshCurrentView() {
+        if (currentText) {
+            // Clear cache so re-render picks up note changes
+            if (typeof textContentCache !== 'undefined') {
+                delete textContentCache[currentText];
+            }
+            if (singleChapterMode) {
+                renderSingleChapterView(currentText, currentChapterIndex);
+            } else {
+                showTextContent(currentText);
+            }
+        }
     }
 
     // ── Ancient World Map ────────────────────────────────────
@@ -7491,7 +7611,7 @@
     var authCurrentUser = null;
     var firestoreDb = null;
     var authReady = false;
-    var SYNC_KEYS = ['genesis-study-bookmarks', 'atl-read-chapters', 'atl-user-mode', 'atl-il-rows', 'atl-reading-mode'];
+    var SYNC_KEYS = ['genesis-study-bookmarks', 'atl-read-chapters', 'atl-user-mode', 'atl-il-rows', 'atl-reading-mode', 'atl-study-notes'];
 
     function initFirebaseAuth() {
         if (typeof firebase === 'undefined' || !firebase.apps) return;
