@@ -340,6 +340,25 @@
                 { textId: 'ephesians', label: 'Ephesians 6:10\u201318 \u2014 Rulers & Powers', why: 'Spiritual forces in heavenly places \u2014 the armor of God' },
                 { textId: 'revelation', label: 'Revelation 21\u201322 \u2014 Heaven & Earth Reunited', why: 'The three-tier cosmos healed \u2014 God dwells with humanity' }
             ]
+        },
+        {
+            id: 'dead-sea-scrolls',
+            name: 'The Dead Sea Scrolls',
+            icon: '\uD83D\uDCDC',
+            color: '#2d9a8f',
+            desc: 'Trace the texts found at Qumran \u2014 from the Great Isaiah Scroll to the War Scroll, these 2,000-year-old manuscripts changed everything we know about the Bible.',
+            steps: [
+                { textId: 'isaiah', label: 'Isaiah \u2014 The Great Isaiah Scroll (1QIsa\u1D43)', why: 'The oldest complete biblical book \u2014 1,000 years older than any other Isaiah manuscript' },
+                { textId: 'deuteronomy', label: 'Deuteronomy 32:8 \u2014 "Sons of God" Restored', why: '4QDeut confirms the DSS/LXX reading over the Masoretic "sons of Israel"' },
+                { textId: 'daniel', label: 'Daniel \u2014 8 Manuscripts at Qumran', why: 'Early copies (4QDan\u1D9C ~125 BC) prove the book circulated far earlier than critics claimed' },
+                { textId: 'psalms', label: 'Psalms \u2014 The Great Psalms Scroll (11QPs\u1D43)', why: 'Different ordering + extra psalms \u2014 shows the Psalter was still being shaped' },
+                { textId: 'enoch1', label: '1 Enoch \u2014 4Q201\u2013212 (Aramaic)', why: 'More copies than some OT books \u2014 the Qumran community treated this as authoritative' },
+                { textId: 'jubilees', label: 'Jubilees \u2014 ~15 Copies at Qumran', why: 'More manuscripts than Deuteronomy \u2014 defined the Qumran calendar and theology' },
+                { textId: 'dss_sectarian', label: 'Community Rule (1QS) \u2014 Two Spirits', why: 'The foundational theology of Qumran: spirit of truth vs. spirit of falsehood in every person' },
+                { textId: 'dss_sectarian', label: 'War Scroll (1QM) \u2014 Sons of Light', why: 'The 40-year eschatological battle plan \u2014 Michael leads heaven\u2019s armies' },
+                { textId: 'genesis_apocryphon', label: 'Genesis Apocryphon (1QapGen)', why: 'One of the original 7 scrolls found in 1947 \u2014 Noah and Abraham speak in first person' },
+                { textId: 'giants', label: 'Book of Giants \u2014 Nephilim at Qumran', why: 'Unknown until DSS discovery \u2014 the Nephilim receive dreams of their coming judgment' }
+            ]
         }
     ];
 
@@ -426,6 +445,36 @@
             highlight: '1QS Two Spirits parallels 1 John 4:1\u20136'
         }
     ];
+
+    // ── Dead Sea Scrolls Attestation ────────────────────────
+    // Every OT book except Esther was found at Qumran.
+    // This lookup drives DSS badges on Library cards.
+    var DSS_ATTESTATION = {
+        // OT — All found at Qumran except Esther
+        genesis: '4Q1\u20138 (~250 BC)', exodus: '4QExod (~250 BC)',
+        leviticus: '4QLev, 11QLev', numbers: '4QNum (~30 BC)',
+        deuteronomy: '4QDeut (33 MSS)', joshua: '4QJosh',
+        judges: '4QJudg', ruth: '4QRuth',
+        '1samuel': '4QSam\u1D43 (~50 BC)', '2samuel': '4QSam\u1D43',
+        '1kings': '4QKgs, 5QKgs', '2kings': '4QKgs, 6QKgs',
+        psalms: '11QPs\u1D43 (41+ psalms)', isaiah: '1QIsa\u1D43 (COMPLETE)',
+        daniel: '1QDan, 4QDan (8 MSS)',
+        job: '4QJob, 11QtgJob', proverbs: '4QProv',
+        ecclesiastes: '4QQoh', songofsolomon: '4QCant, 6QCant',
+        jeremiah: '4QJer (6 MSS)', ezekiel: '4QEzek',
+        lamentations: '4QLam, 5QLam',
+        hosea: '4QXIIa', joel: '4QXIIa', amos: '4QXIIa',
+        obadiah: '4QXIIa', jonah: '4QXIIa', micah: '4QXIIa',
+        nahum: '4QpNah (pesher)', habakkuk: '1QpHab (pesher)',
+        zephaniah: '4QXIIa', haggai: '4QXIIa',
+        zechariah: '4QXIIa', malachi: '4QXIIa',
+        '1chronicles': '4QChr', '2chronicles': '4QChr',
+        ezra: '4QEzra', nehemiah: '4QEzra',
+        // Non-biblical texts found at Qumran
+        enoch1: '4Q201\u2013212 (Aramaic)', giants: '4Q203, 4Q530\u2013533',
+        jubilees: '4Q216\u2013228 (~15 MSS)', genesis_apocryphon: '1QapGen (orig. 7)',
+        dss_sectarian: '1QS, 1QM, 11Q19, CD'
+    };
 
     // ── Bible Truth Matrix Data ──────────────────────────────
     var BIBLE_TEACHES = {
@@ -1490,9 +1539,11 @@
                     var il = getTextInterlinear(t.id);
                     var ilCount = Object.keys(il).length;
 
+                    var dssInfo = DSS_ATTESTATION[t.id];
                     html += '<div class="library-card' + (hasContent ? '' : ' library-card-empty') + '" data-text="' + t.id + '" style="--card-color:' + (t.color || cat.color) + '">' +
                         '<div class="library-card-top">' +
                         '<span class="canon-badge" style="background:' + cat.color + '20;color:' + cat.color + ';border-color:' + cat.color + '40">' + cat.badge + '</span>' +
+                        (dssInfo ? '<span class="dss-badge" title="Found at Qumran: ' + escAttr(dssInfo) + '">\uD83D\uDCDC DSS</span>' : '') +
                         '</div>' +
                         '<h3 class="library-card-title">' + t.name + '</h3>' +
                         '<p class="library-card-desc">' + (t.description || '') + '</p>' +
@@ -1846,6 +1897,10 @@
             '<div class="intro-status ' + statusClass + '">' +
             '<span class="intro-status-icon">' + statusIcon + '</span> ' +
             (cs.label || cs.status) + '</div>';
+        var dssRef = DSS_ATTESTATION[textId];
+        if (dssRef) {
+            html += '<div class="intro-dss-badge">\uD83D\uDCDC Found at Qumran: <strong>' + dssRef + '</strong></div>';
+        }
         if (cs.detail) {
             html += '<p class="intro-status-detail">' + cs.detail + '</p>';
         }

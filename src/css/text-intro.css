@@ -83,6 +83,25 @@
     line-height: 1.55;
 }
 
+/* DSS attestation badge in text intro */
+.intro-dss-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+    padding: 0.35rem 0.65rem;
+    font-size: 0.78rem;
+    color: #2d9a8f;
+    background: rgba(45, 154, 143, 0.08);
+    border: 1px solid rgba(45, 154, 143, 0.25);
+    border-radius: 6px;
+    line-height: 1.3;
+}
+
+.intro-dss-badge strong {
+    color: #3dbfb0;
+}
+
 /* Quick facts grid */
 .intro-facts-grid {
     display: grid;
