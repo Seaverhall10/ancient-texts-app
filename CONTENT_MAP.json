@@ -1,9 +1,9 @@
 {
-  "generated": "2026-03-12T01:58:07.095127",
+  "generated": "2026-03-12T02:42:28.822862",
   "version": "1.0",
   "summary": {
     "total_texts": 74,
-    "total_eras": 206,
+    "total_eras": 213,
     "total_study_chapters": 955,
     "total_flow_verses": 31101,
     "total_il_words": 444339,
@@ -15,7 +15,7 @@
     "gap_count": {
       "no_flow": 0,
       "no_interlinear": 0,
-      "thin_eras": 21,
+      "thin_eras": 14,
       "missing_files": 0
     }
   },
@@ -873,28 +873,30 @@
       "name": "Ecclesiastes",
       "category": "ot",
       "chapters": 12,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 222,
       "il_words": 2999,
       "il_language": "greek",
       "era_ids": [
-        "eccl_under_sun"
+        "eccl_under_sun",
+        "eccl_fear_god"
       ]
     },
     "songofsolomon": {
       "name": "Song of Solomon",
       "category": "ot",
       "chapters": 8,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 117,
       "il_words": 1255,
       "il_language": "greek",
       "era_ids": [
-        "song_beloved"
+        "song_beloved",
+        "song_love_death"
       ]
     },
     "jeremiah": {
@@ -980,42 +982,45 @@
       "name": "Ezra",
       "category": "ot",
       "chapters": 10,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 280,
       "il_words": 3791,
       "il_language": "greek",
       "era_ids": [
-        "ezra_return"
+        "ezra_return",
+        "ezra_mission"
       ]
     },
     "nehemiah": {
       "name": "Nehemiah",
       "category": "ot",
       "chapters": 13,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 406,
       "il_words": 5336,
       "il_language": "greek",
       "era_ids": [
-        "neh_walls"
+        "neh_walls",
+        "neh_covenant"
       ]
     },
     "esther": {
       "name": "Esther",
       "category": "ot",
       "chapters": 10,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 167,
       "il_words": 3057,
       "il_language": "greek",
       "era_ids": [
-        "esther_providence"
+        "esther_providence",
+        "esther_reversal"
       ]
     },
     "hosea": {
@@ -1051,14 +1056,15 @@
       "name": "Amos",
       "category": "ot",
       "chapters": 9,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 146,
       "il_words": 2045,
       "il_language": "greek",
       "era_ids": [
-        "amos_justice"
+        "amos_justice",
+        "amos_visions"
       ]
     },
     "obadiah": {
@@ -1093,14 +1099,15 @@
       "name": "Micah",
       "category": "ot",
       "chapters": 7,
-      "era_count": 1,
+      "era_count": 2,
       "has_flow": true,
       "has_interlinear": true,
       "flow_verses": 105,
       "il_words": 1400,
       "il_language": "greek",
       "era_ids": [
-        "micah_justice"
+        "micah_justice",
+        "micah_mercy"
       ]
     },
     "nahum": {
@@ -17886,14 +17893,14 @@
     },
     "eccl_under_sun": {
       "text_id": "ecclesiastes",
-      "name": "Under the Sun",
-      "chapters_ref": "Ecclesiastes 1–12",
-      "chapter_count": 6,
+      "name": "The Search Begins",
+      "chapters_ref": "Ecclesiastes 1–6",
+      "chapter_count": 3,
       "themes": [
         "Hebel (vapor/vanity)",
         "Life under the sun",
         "Wisdom's limits",
-        "Fear God and keep commandments"
+        "Toil and pleasure examined"
       ],
       "chapters": [
         {
@@ -17941,7 +17948,23 @@
             "amal (toil/labor -- the daily work that can be either burden or gift depending on perspective)",
             "chelqo (his portion -- the share God assigns to each person, to be received with gratitude)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 14,
+      "has_data_file": true
+    },
+    "eccl_fear_god": {
+      "text_id": "ecclesiastes",
+      "name": "Fear God & Keep His Commands",
+      "chapters_ref": "Ecclesiastes 7–12",
+      "chapter_count": 3,
+      "themes": [
+        "Wisdom applied",
+        "Youth and old age",
+        "Remember your Creator",
+        "Fear God and keep commandments"
+      ],
+      "chapters": [
         {
           "id": "eccl-7-8",
           "ref": "Ecclesiastes 7-8",
@@ -17988,7 +18011,7 @@
           ]
         }
       ],
-      "cross_ref_count": 27,
+      "cross_ref_count": 13,
       "has_data_file": true
     },
     "jer_call": {
@@ -18927,13 +18950,13 @@
     "amos_justice": {
       "text_id": "amos",
       "name": "Justice & Judgment",
-      "chapters_ref": "Amos 1–9",
-      "chapter_count": 4,
+      "chapters_ref": "Amos 1–4",
+      "chapter_count": 2,
       "themes": [
         "Oracles against nations",
         "Social justice",
-        "Five visions",
-        "Fallen booth of David"
+        "Judgment on Israel",
+        "Call to repentance"
       ],
       "chapters": [
         {
@@ -18964,7 +18987,23 @@
             "parot ha-Bashan (cows of Bashan -- the pampered, exploitative elite women of Samaria)",
             "shub (return/repent -- the fivefold refrain: 'yet you did not return to me')"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 7,
+      "has_data_file": true
+    },
+    "amos_visions": {
+      "text_id": "amos",
+      "name": "Visions & Hope",
+      "chapters_ref": "Amos 5–9",
+      "chapter_count": 2,
+      "themes": [
+        "Five visions",
+        "Day of YHWH",
+        "Confrontation at Bethel",
+        "Fallen booth of David"
+      ],
+      "chapters": [
         {
           "id": "amos-5-6",
           "ref": "Amos 5-6",
@@ -18995,7 +19034,7 @@
           ]
         }
       ],
-      "cross_ref_count": 15,
+      "cross_ref_count": 8,
       "has_data_file": true
     },
     "obad_edom": {
@@ -19105,14 +19144,14 @@
     },
     "micah_justice": {
       "text_id": "micah",
-      "name": "Justice & Hope",
-      "chapters_ref": "Micah 1–7",
-      "chapter_count": 3,
+      "name": "Judgment & Hope",
+      "chapters_ref": "Micah 1–4",
+      "chapter_count": 2,
       "themes": [
         "Covenant lawsuit",
+        "Judgment on Samaria and Jerusalem",
         "Bethlehem prophecy (5:2)",
-        "Do justice, love mercy",
-        "Shepherd of the remnant"
+        "Nations streaming to Zion"
       ],
       "chapters": [
         {
@@ -19143,7 +19182,23 @@
             "yemei olam (days of eternity/ancient days -- the ruler's origins are eternal, not merely ancient)",
             "shalom (peace -- 'he shall be their peace'; the Messiah as cosmic peace-bringer)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 9,
+      "has_data_file": true
+    },
+    "micah_mercy": {
+      "text_id": "micah",
+      "name": "Covenant & Mercy",
+      "chapters_ref": "Micah 5–7",
+      "chapter_count": 1,
+      "themes": [
+        "Do justice, love mercy",
+        "Walk humbly with God",
+        "Shepherd of the remnant",
+        "Who is a God like you?"
+      ],
+      "chapters": [
         {
           "id": "micah-6-7",
           "ref": "Micah 6-7",
@@ -19161,7 +19216,7 @@
           ]
         }
       ],
-      "cross_ref_count": 14,
+      "cross_ref_count": 5,
       "has_data_file": true
     },
     "nahum_nineveh": {
@@ -19937,13 +19992,13 @@
     "ezra_return": {
       "text_id": "ezra",
       "name": "Return & Rebuilding",
-      "chapters_ref": "Ezra 1–10",
-      "chapter_count": 3,
+      "chapters_ref": "Ezra 1–6",
+      "chapter_count": 2,
       "themes": [
         "Cyrus decree",
         "Temple foundation",
         "Opposition and completion",
-        "Mixed marriages crisis"
+        "Temple dedication"
       ],
       "chapters": [
         {
@@ -19975,7 +20030,23 @@
             "te'em (decree -- the Persian royal decrees that authorize the rebuilding; God works through imperial bureaucracy)",
             "chanukat (dedication -- the temple dedication ceremony; the same root as Hanukkah, which later celebrates another temple rededication)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 12,
+      "has_data_file": true
+    },
+    "ezra_mission": {
+      "text_id": "ezra",
+      "name": "Ezra's Mission",
+      "chapters_ref": "Ezra 7–10",
+      "chapter_count": 1,
+      "themes": [
+        "Ezra's journey from Babylon",
+        "Torah teaching",
+        "Mixed marriages crisis",
+        "Covenant repentance"
+      ],
+      "chapters": [
         {
           "id": "ezra-7-10",
           "ref": "Ezra 7-10",
@@ -19992,19 +20063,19 @@
           ]
         }
       ],
-      "cross_ref_count": 18,
+      "cross_ref_count": 6,
       "has_data_file": true
     },
     "neh_walls": {
       "text_id": "nehemiah",
-      "name": "Walls & Renewal",
-      "chapters_ref": "Nehemiah 1–13",
-      "chapter_count": 4,
+      "name": "Walls Rising",
+      "chapters_ref": "Nehemiah 1–7",
+      "chapter_count": 2,
       "themes": [
         "Nehemiah's prayer",
         "Wall rebuilding",
-        "Torah reading (Ezra)",
-        "Covenant renewal"
+        "Opposition and perseverance",
+        "Completion of the walls"
       ],
       "chapters": [
         {
@@ -20035,7 +20106,23 @@
             "yir'ah (fear/reverence -- 'I did not do so, because of the fear of God' (5:15); Nehemiah's moral compass; the fear of God prevents exploitation)",
             "na'asu melacha (they accomplished the work -- the completion formula; the work is attributed both to the people's effort and to God's help)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 11,
+      "has_data_file": true
+    },
+    "neh_covenant": {
+      "text_id": "nehemiah",
+      "name": "Covenant & Community",
+      "chapters_ref": "Nehemiah 8–13",
+      "chapter_count": 2,
+      "themes": [
+        "Torah reading (Ezra)",
+        "Feast of Booths",
+        "Covenant renewal",
+        "Community reforms"
+      ],
+      "chapters": [
         {
           "id": "neh-8-10",
           "ref": "Nehemiah 8-10",
@@ -20067,19 +20154,19 @@
           ]
         }
       ],
-      "cross_ref_count": 21,
+      "cross_ref_count": 10,
       "has_data_file": true
     },
     "esther_providence": {
       "text_id": "esther",
       "name": "For Such a Time",
-      "chapters_ref": "Esther 1–10",
-      "chapter_count": 3,
+      "chapters_ref": "Esther 1–5",
+      "chapter_count": 2,
       "themes": [
         "Vashti's refusal",
         "Esther chosen",
         "Haman's plot",
-        "Purim established"
+        "Esther's courage"
       ],
       "chapters": [
         {
@@ -20111,7 +20198,23 @@
             "na'hafokh hu (the reversal -- 'it was reversed/turned around' (9:1); the key literary and theological concept of Esther: what was meant for destruction becomes salvation)",
             "tsom (fast -- Esther's three-day fast before approaching the king; fasting without prayer explicitly mentioned, yet prayer is clearly implied)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 11,
+      "has_data_file": true
+    },
+    "esther_reversal": {
+      "text_id": "esther",
+      "name": "The Great Reversal",
+      "chapters_ref": "Esther 6–10",
+      "chapter_count": 1,
+      "themes": [
+        "Haman's downfall",
+        "Mordecai's honor",
+        "Jewish deliverance",
+        "Purim established"
+      ],
+      "chapters": [
         {
           "id": "est-8-10",
           "ref": "Esther 8-10",
@@ -20128,19 +20231,19 @@
           ]
         }
       ],
-      "cross_ref_count": 16,
+      "cross_ref_count": 5,
       "has_data_file": true
     },
     "song_beloved": {
       "text_id": "songofsolomon",
       "name": "The Beloved",
-      "chapters_ref": "Song of Solomon 1–8",
-      "chapter_count": 3,
+      "chapters_ref": "Song of Solomon 1–4",
+      "chapter_count": 2,
       "themes": [
         "Love poetry",
         "Covenant love",
         "Garden imagery",
-        "Typological reading"
+        "Mutual admiration"
       ],
       "chapters": [
         {
@@ -20172,7 +20275,23 @@
             "ma'yan chatum (sealed fountain -- parallel to the locked garden; the beloved's intimacy is reserved for her lover alone)",
             "cholat ahavah (sick with love/lovesick -- the woman's self-description; love so intense it causes physical anguish)"
           ]
-        },
+        }
+      ],
+      "cross_ref_count": 11,
+      "has_data_file": true
+    },
+    "song_love_death": {
+      "text_id": "songofsolomon",
+      "name": "Love Strong as Death",
+      "chapters_ref": "Song of Solomon 5–8",
+      "chapter_count": 1,
+      "themes": [
+        "Separation and longing",
+        "Love strong as death",
+        "Jealousy fierce as Sheol",
+        "Typological reading"
+      ],
+      "chapters": [
         {
           "id": "song-6-8",
           "ref": "Song of Solomon 6-8",
@@ -20189,7 +20308,7 @@
           ]
         }
       ],
-      "cross_ref_count": 17,
+      "cross_ref_count": 6,
       "has_data_file": true
     }
   },
@@ -25928,7 +26047,7 @@
       {
         "chapter_id": "est-8-10",
         "chapter_ref": "Esther 8-10",
-        "era_id": "esther_providence",
+        "era_id": "esther_reversal",
         "text_id": "esther",
         "note": "'You meant evil against me, but God meant it for good, to bring it about that ma"
       }
@@ -26410,7 +26529,7 @@
       {
         "chapter_id": "song-6-8",
         "chapter_ref": "Song of Solomon 6-8",
-        "era_id": "song_beloved",
+        "era_id": "song_love_death",
         "text_id": "songofsolomon",
         "note": "'Greater love has no one than this, that someone lay down his life for his frien"
       }
@@ -26853,7 +26972,7 @@
       {
         "chapter_id": "amos-7-9",
         "chapter_ref": "Amos 7-9",
-        "era_id": "amos_justice",
+        "era_id": "amos_visions",
         "text_id": "amos",
         "note": "The Davidic covenant -- the 'booth of David' that Amos 9:11 promises to restore"
       }
@@ -29850,7 +29969,7 @@
       {
         "chapter_id": "neh-8-10",
         "chapter_ref": "Nehemiah 8-10",
-        "era_id": "neh_walls",
+        "era_id": "neh_covenant",
         "text_id": "nehemiah",
         "note": "The command for septennial public Torah reading at the Feast of Booths -- possib"
       }
@@ -31799,7 +31918,7 @@
       {
         "chapter_id": "amos-5-6",
         "chapter_ref": "Amos 5-6",
-        "era_id": "amos_justice",
+        "era_id": "amos_visions",
         "text_id": "amos",
         "note": "Isaiah's parallel rejection of empty worship without justice"
       },
@@ -34177,14 +34296,14 @@
       {
         "chapter_id": "amos-5-6",
         "chapter_ref": "Amos 5-6",
-        "era_id": "amos_justice",
+        "era_id": "amos_visions",
         "text_id": "amos",
         "note": "Jesus: 'The weightier matters of the law: justice, mercy, faithfulness'"
       },
       {
         "chapter_id": "micah-6-7",
         "chapter_ref": "Micah 6-7",
-        "era_id": "micah_justice",
+        "era_id": "micah_mercy",
         "text_id": "micah",
         "note": "Jesus' 'weightier matters' echo Micah 6:8"
       }
@@ -35150,7 +35269,7 @@
       {
         "chapter_id": "ezra-7-10",
         "chapter_ref": "Ezra 7-10",
-        "era_id": "ezra_return",
+        "era_id": "ezra_mission",
         "text_id": "ezra",
         "note": "'Do not be unequally yoked with unbelievers' -- Paul echoes Ezra's covenant sepa"
       }
@@ -36608,7 +36727,7 @@
       {
         "chapter_id": "ezra-7-10",
         "chapter_ref": "Ezra 7-10",
-        "era_id": "ezra_return",
+        "era_id": "ezra_mission",
         "text_id": "ezra",
         "note": "Ezra reads the Torah publicly and the Levites explain it -- the complementary ac"
       }
@@ -40814,7 +40933,7 @@
       {
         "chapter_id": "ezra-7-10",
         "chapter_ref": "Ezra 7-10",
-        "era_id": "ezra_return",
+        "era_id": "ezra_mission",
         "text_id": "ezra",
         "note": "The original prohibition on intermarriage with Canaanite peoples -- the Torah fo"
       }
@@ -40846,7 +40965,7 @@
       {
         "chapter_id": "ezra-7-10",
         "chapter_ref": "Ezra 7-10",
-        "era_id": "ezra_return",
+        "era_id": "ezra_mission",
         "text_id": "ezra",
         "note": "Solomon's foreign wives led him to worship other gods -- the historical preceden"
       }
@@ -43063,7 +43182,7 @@
       {
         "chapter_id": "song-6-8",
         "chapter_ref": "Song of Solomon 6-8",
-        "era_id": "song_beloved",
+        "era_id": "song_love_death",
         "text_id": "songofsolomon",
         "note": "'I will betroth you to me forever; I will betroth you to me in righteousness and"
       }
@@ -43355,7 +43474,7 @@
       {
         "chapter_id": "micah-6-7",
         "chapter_ref": "Micah 6-7",
-        "era_id": "micah_justice",
+        "era_id": "micah_mercy",
         "text_id": "micah",
         "note": "'I desire hesed, not sacrifice' -- the same prophetic demand Micah 6:8 summarize"
       }
@@ -43424,7 +43543,7 @@
       {
         "chapter_id": "amos-5-6",
         "chapter_ref": "Amos 5-6",
-        "era_id": "amos_justice",
+        "era_id": "amos_visions",
         "text_id": "amos",
         "note": "'What does YHWH require? To do justice, love mercy, walk humbly'"
       },
@@ -44642,7 +44761,7 @@
       {
         "chapter_id": "eccl-11-12",
         "chapter_ref": "Ecclesiastes 11-12",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "'The fear of YHWH is the beginning of knowledge' -- the conclusion of Ecclesiast"
       }
@@ -45675,7 +45794,7 @@
       {
         "chapter_id": "amos-5-6",
         "chapter_ref": "Amos 5-6",
-        "era_id": "amos_justice",
+        "era_id": "amos_visions",
         "text_id": "amos",
         "note": "Stephen quotes Amos 5:25-27 in his defense"
       }
@@ -49069,7 +49188,7 @@
       {
         "chapter_id": "amos-7-9",
         "chapter_ref": "Amos 7-9",
-        "era_id": "amos_justice",
+        "era_id": "amos_visions",
         "text_id": "amos",
         "note": "The cosmic restoration -- Amos's agricultural abundance language echoed"
       }
@@ -49799,7 +49918,7 @@
       {
         "chapter_id": "neh-8-10",
         "chapter_ref": "Nehemiah 8-10",
-        "era_id": "neh_walls",
+        "era_id": "neh_covenant",
         "text_id": "nehemiah",
         "note": "Jesus reads Isaiah in the synagogue -- participating in the Torah reading tradit"
       }
@@ -52296,7 +52415,7 @@
       {
         "chapter_id": "eccl-11-12",
         "chapter_ref": "Ecclesiastes 11-12",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "'The dead were judged by what was written in the books, according to what they h"
       },
@@ -70144,7 +70263,7 @@
       {
         "chapter_id": "eccl-7-8",
         "chapter_ref": "Ecclesiastes 7-8",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "'Who are you, O man, to answer back to God?' -- Paul addresses the same inscruta"
       }
@@ -70153,7 +70272,7 @@
       {
         "chapter_id": "eccl-7-8",
         "chapter_ref": "Ecclesiastes 7-8",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "'Where shall wisdom be found?' -- Job's wisdom hymn reaches the same conclusion "
       }
@@ -70162,7 +70281,7 @@
       {
         "chapter_id": "eccl-7-8",
         "chapter_ref": "Ecclesiastes 7-8",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "'My thoughts are not your thoughts, neither are your ways my ways' -- the prophe"
       }
@@ -70171,7 +70290,7 @@
       {
         "chapter_id": "eccl-7-8",
         "chapter_ref": "Ecclesiastes 7-8",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "'Has not God made foolish the wisdom of the world?' -- Paul's radical qualificat"
       }
@@ -70180,7 +70299,7 @@
       {
         "chapter_id": "eccl-9-10",
         "chapter_ref": "Ecclesiastes 9-10",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "'It is appointed for man to die once, and after that comes judgment' -- the NT c"
       }
@@ -70189,7 +70308,7 @@
       {
         "chapter_id": "eccl-9-10",
         "chapter_ref": "Ecclesiastes 9-10",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "Paul has 'learned the secret of being content in any and every situation' -- the"
       }
@@ -70198,7 +70317,7 @@
       {
         "chapter_id": "eccl-9-10",
         "chapter_ref": "Ecclesiastes 9-10",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "Jesus' parable about taking the lowest seat at the feast -- wisdom in social set"
       }
@@ -70207,7 +70326,7 @@
       {
         "chapter_id": "eccl-9-10",
         "chapter_ref": "Ecclesiastes 9-10",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "'Teach us to number our days that we may get a heart of wisdom' -- the same conf"
       }
@@ -70216,7 +70335,7 @@
       {
         "chapter_id": "eccl-11-12",
         "chapter_ref": "Ecclesiastes 11-12",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "'We must all appear before the judgment seat of Christ' -- the NT eschatological"
       }
@@ -70225,7 +70344,7 @@
       {
         "chapter_id": "eccl-11-12",
         "chapter_ref": "Ecclesiastes 11-12",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "'Dust you are, and to dust you shall return' -- the creation-fall theology behin"
       }
@@ -70234,7 +70353,7 @@
       {
         "chapter_id": "eccl-11-12",
         "chapter_ref": "Ecclesiastes 11-12",
-        "era_id": "eccl_under_sun",
+        "era_id": "eccl_fear_god",
         "text_id": "ecclesiastes",
         "note": "'People will give account for every careless word they speak' -- Jesus develops "
       }
@@ -70491,7 +70610,7 @@
       {
         "chapter_id": "neh-8-10",
         "chapter_ref": "Nehemiah 8-10",
-        "era_id": "neh_walls",
+        "era_id": "neh_covenant",
         "text_id": "nehemiah",
         "note": "'I will put my laws into their minds, and write them on their hearts' -- the new"
       }
@@ -71421,7 +71540,7 @@
       {
         "chapter_id": "amos-7-9",
         "chapter_ref": "Amos 7-9",
-        "era_id": "amos_justice",
+        "era_id": "amos_visions",
         "text_id": "amos",
         "note": "James quotes Amos 9:11-12 for Gentile inclusion"
       },
@@ -71437,7 +71556,7 @@
       {
         "chapter_id": "amos-7-9",
         "chapter_ref": "Amos 7-9",
-        "era_id": "amos_justice",
+        "era_id": "amos_visions",
         "text_id": "amos",
         "note": "Jeroboam I established Bethel as a rival sanctuary -- the site of Amos's confron"
       }
@@ -71642,7 +71761,7 @@
       {
         "chapter_id": "micah-6-7",
         "chapter_ref": "Micah 6-7",
-        "era_id": "micah_justice",
+        "era_id": "micah_mercy",
         "text_id": "micah",
         "note": "Moses' parallel summary: 'What does YHWH require? Fear, walk, love, serve'"
       }
@@ -71651,7 +71770,7 @@
       {
         "chapter_id": "micah-6-7",
         "chapter_ref": "Micah 6-7",
-        "era_id": "micah_justice",
+        "era_id": "micah_mercy",
         "text_id": "micah",
         "note": "Jesus quotes Micah 7:6"
       }
@@ -71660,7 +71779,7 @@
       {
         "chapter_id": "micah-6-7",
         "chapter_ref": "Micah 6-7",
-        "era_id": "micah_justice",
+        "era_id": "micah_mercy",
         "text_id": "micah",
         "note": "Zechariah's song echoes Micah 7:20: 'the oath that he swore to Abraham'"
       }
@@ -72622,14 +72741,14 @@
       {
         "chapter_id": "ezra-7-10",
         "chapter_ref": "Ezra 7-10",
-        "era_id": "ezra_return",
+        "era_id": "ezra_mission",
         "text_id": "ezra",
         "note": "Daniel's penitential prayer -- structurally and theologically parallel to Ezra's"
       },
       {
         "chapter_id": "neh-8-10",
         "chapter_ref": "Nehemiah 8-10",
-        "era_id": "neh_walls",
+        "era_id": "neh_covenant",
         "text_id": "nehemiah",
         "note": "Daniel's prayer of confession -- structurally parallel to the communal confessio"
       }
@@ -72638,7 +72757,7 @@
       {
         "chapter_id": "ezra-7-10",
         "chapter_ref": "Ezra 7-10",
-        "era_id": "ezra_return",
+        "era_id": "ezra_mission",
         "text_id": "ezra",
         "note": "Nehemiah also confronts intermarriage, citing Solomon's failure -- the same issu"
       }
@@ -72710,7 +72829,7 @@
       {
         "chapter_id": "neh-8-10",
         "chapter_ref": "Nehemiah 8-10",
-        "era_id": "neh_walls",
+        "era_id": "neh_covenant",
         "text_id": "nehemiah",
         "note": "Joshua reads the entire Torah before the assembly at Shechem -- the earlier prec"
       }
@@ -72719,7 +72838,7 @@
       {
         "chapter_id": "neh-8-10",
         "chapter_ref": "Nehemiah 8-10",
-        "era_id": "neh_walls",
+        "era_id": "neh_covenant",
         "text_id": "nehemiah",
         "note": "Josiah reads the discovered Book of the Law and renews the covenant -- the close"
       }
@@ -72728,7 +72847,7 @@
       {
         "chapter_id": "neh-8-10",
         "chapter_ref": "Nehemiah 8-10",
-        "era_id": "neh_walls",
+        "era_id": "neh_covenant",
         "text_id": "nehemiah",
         "note": "A psalm recounting Israel's history of unfaithfulness -- closely parallels the h"
       }
@@ -72737,7 +72856,7 @@
       {
         "chapter_id": "neh-11-13",
         "chapter_ref": "Nehemiah 11-13",
-        "era_id": "neh_walls",
+        "era_id": "neh_covenant",
         "text_id": "nehemiah",
         "note": "'Walk about Zion, go around her, number her towers, consider well her ramparts' "
       }
@@ -72746,7 +72865,7 @@
       {
         "chapter_id": "neh-11-13",
         "chapter_ref": "Nehemiah 11-13",
-        "era_id": "neh_walls",
+        "era_id": "neh_covenant",
         "text_id": "nehemiah",
         "note": "Malachi addresses the same community as Nehemiah 13 -- tithing failures, priestl"
       }
@@ -72755,7 +72874,7 @@
       {
         "chapter_id": "neh-11-13",
         "chapter_ref": "Nehemiah 11-13",
-        "era_id": "neh_walls",
+        "era_id": "neh_covenant",
         "text_id": "nehemiah",
         "note": "The new Jerusalem descending from heaven -- the eschatological fulfillment of th"
       }
@@ -72791,7 +72910,7 @@
       {
         "chapter_id": "est-8-10",
         "chapter_ref": "Esther 8-10",
-        "era_id": "esther_providence",
+        "era_id": "esther_reversal",
         "text_id": "esther",
         "note": "'You have turned for me my mourning into dancing; you have loosed my sackcloth a"
       }
@@ -72800,7 +72919,7 @@
       {
         "chapter_id": "est-8-10",
         "chapter_ref": "Esther 8-10",
-        "era_id": "esther_providence",
+        "era_id": "esther_reversal",
         "text_id": "esther",
         "note": "'To grant to those who mourn in Zion... the oil of gladness instead of mourning,"
       }
@@ -72809,7 +72928,7 @@
       {
         "chapter_id": "est-8-10",
         "chapter_ref": "Esther 8-10",
-        "era_id": "esther_providence",
+        "era_id": "esther_reversal",
         "text_id": "esther",
         "note": "Jesus: 'Your sorrow will turn into joy' -- the same reversal Esther celebrates, "
       }
@@ -72818,7 +72937,7 @@
       {
         "chapter_id": "est-8-10",
         "chapter_ref": "Esther 8-10",
-        "era_id": "esther_providence",
+        "era_id": "esther_reversal",
         "text_id": "esther",
         "note": "The ultimate marriage feast celebrating God's victory over evil -- the eschatolo"
       }
@@ -72890,7 +73009,7 @@
       {
         "chapter_id": "song-6-8",
         "chapter_ref": "Song of Solomon 6-8",
-        "era_id": "song_beloved",
+        "era_id": "song_love_death",
         "text_id": "songofsolomon",
         "note": "'I the LORD your God am a jealous God' -- YHWH's qin'ah (jealousy) is the divine"
       }
@@ -72899,7 +73018,7 @@
       {
         "chapter_id": "song-6-8",
         "chapter_ref": "Song of Solomon 6-8",
-        "era_id": "song_beloved",
+        "era_id": "song_love_death",
         "text_id": "songofsolomon",
         "note": "'You shall love the LORD your God with all your heart and with all your soul and"
       }
@@ -72908,7 +73027,7 @@
       {
         "chapter_id": "song-6-8",
         "chapter_ref": "Song of Solomon 6-8",
-        "era_id": "song_beloved",
+        "era_id": "song_love_death",
         "text_id": "songofsolomon",
         "note": "'Neither death nor life... will be able to separate us from the love of God in C"
       }
@@ -72917,7 +73036,7 @@
       {
         "chapter_id": "song-6-8",
         "chapter_ref": "Song of Solomon 6-8",
-        "era_id": "song_beloved",
+        "era_id": "song_love_death",
         "text_id": "songofsolomon",
         "note": "'God is love' -- the ultimate theological claim behind the Song; the love the po"
       }
@@ -74439,35 +74558,11 @@
         "era_count": 1
       },
       {
-        "text_id": "ecclesiastes",
-        "era_count": 1
-      },
-      {
-        "text_id": "songofsolomon",
-        "era_count": 1
-      },
-      {
         "text_id": "lamentations",
         "era_count": 1
       },
       {
-        "text_id": "ezra",
-        "era_count": 1
-      },
-      {
-        "text_id": "nehemiah",
-        "era_count": 1
-      },
-      {
-        "text_id": "esther",
-        "era_count": 1
-      },
-      {
         "text_id": "joel",
-        "era_count": 1
-      },
-      {
-        "text_id": "amos",
         "era_count": 1
       },
       {
@@ -74476,10 +74571,6 @@
       },
       {
         "text_id": "jonah",
-        "era_count": 1
-      },
-      {
-        "text_id": "micah",
         "era_count": 1
       },
       {
@@ -75272,8 +75363,8 @@
       },
       {
         "text_id": "ecclesiastes",
-        "era_id": "eccl_under_sun",
-        "era_name": "Under the Sun",
+        "era_id": "eccl_fear_god",
+        "era_name": "Fear God & Keep His Commands",
         "score": 1
       },
       {
@@ -75284,8 +75375,8 @@
       },
       {
         "text_id": "amos",
-        "era_id": "amos_justice",
-        "era_name": "Justice & Judgment",
+        "era_id": "amos_visions",
+        "era_name": "Visions & Hope",
         "score": 1
       },
       {
@@ -76019,7 +76110,7 @@
       {
         "text_id": "nehemiah",
         "era_id": "neh_walls",
-        "era_name": "Walls & Renewal",
+        "era_name": "Walls Rising",
         "score": 2
       },
       {
@@ -76271,7 +76362,7 @@
       {
         "text_id": "ecclesiastes",
         "era_id": "eccl_under_sun",
-        "era_name": "Under the Sun",
+        "era_name": "The Search Begins",
         "score": 1
       },
       {
@@ -76301,7 +76392,7 @@
       {
         "text_id": "micah",
         "era_id": "micah_justice",
-        "era_name": "Justice & Hope",
+        "era_name": "Judgment & Hope",
         "score": 1
       },
       {
@@ -76326,6 +76417,18 @@
         "text_id": "malachi",
         "era_id": "mal_covenant",
         "era_name": "Covenant Faithfulness",
+        "score": 1
+      },
+      {
+        "text_id": "ezra",
+        "era_id": "ezra_mission",
+        "era_name": "Ezra's Mission",
+        "score": 1
+      },
+      {
+        "text_id": "nehemiah",
+        "era_id": "neh_covenant",
+        "era_name": "Covenant & Community",
         "score": 1
       },
       {
@@ -77005,7 +77108,7 @@
       {
         "text_id": "ecclesiastes",
         "era_id": "eccl_under_sun",
-        "era_name": "Under the Sun",
+        "era_name": "The Search Begins",
         "score": 2
       },
       {
@@ -77022,8 +77125,8 @@
       },
       {
         "text_id": "nehemiah",
-        "era_id": "neh_walls",
-        "era_name": "Walls & Renewal",
+        "era_id": "neh_covenant",
+        "era_name": "Covenant & Community",
         "score": 2
       },
       {
@@ -77213,6 +77316,12 @@
         "score": 1
       },
       {
+        "text_id": "ecclesiastes",
+        "era_id": "eccl_fear_god",
+        "era_name": "Fear God & Keep His Commands",
+        "score": 1
+      },
+      {
         "text_id": "ezekiel",
         "era_id": "ezek_throne",
         "era_name": "Call & Throne Vision",
@@ -77282,6 +77391,12 @@
         "text_id": "ezra",
         "era_id": "ezra_return",
         "era_name": "Return & Rebuilding",
+        "score": 1
+      },
+      {
+        "text_id": "ezra",
+        "era_id": "ezra_mission",
+        "era_name": "Ezra's Mission",
         "score": 1
       }
     ],
@@ -77512,12 +77627,6 @@
         "text_id": "hosea",
         "era_id": "hosea_marriage",
         "era_name": "Marriage & Judgment",
-        "score": 4
-      },
-      {
-        "text_id": "nehemiah",
-        "era_id": "neh_walls",
-        "era_name": "Walls & Renewal",
         "score": 4
       },
       {
@@ -77780,8 +77889,8 @@
       },
       {
         "text_id": "micah",
-        "era_id": "micah_justice",
-        "era_name": "Justice & Hope",
+        "era_id": "micah_mercy",
+        "era_name": "Covenant & Mercy",
         "score": 3
       },
       {
@@ -77797,9 +77906,9 @@
         "score": 3
       },
       {
-        "text_id": "ezra",
-        "era_id": "ezra_return",
-        "era_name": "Return & Rebuilding",
+        "text_id": "nehemiah",
+        "era_id": "neh_covenant",
+        "era_name": "Covenant & Community",
         "score": 3
       },
       {
@@ -78049,6 +78158,24 @@
         "score": 2
       },
       {
+        "text_id": "ezra",
+        "era_id": "ezra_return",
+        "era_name": "Return & Rebuilding",
+        "score": 2
+      },
+      {
+        "text_id": "ezra",
+        "era_id": "ezra_mission",
+        "era_name": "Ezra's Mission",
+        "score": 2
+      },
+      {
+        "text_id": "nehemiah",
+        "era_id": "neh_walls",
+        "era_name": "Walls Rising",
+        "score": 2
+      },
+      {
         "text_id": "numbers",
         "era_id": "tabernacle_march",
         "era_name": "Tabernacle Dedication & March",
@@ -78236,8 +78363,8 @@
       },
       {
         "text_id": "ecclesiastes",
-        "era_id": "eccl_under_sun",
-        "era_name": "Under the Sun",
+        "era_id": "eccl_fear_god",
+        "era_name": "Fear God & Keep His Commands",
         "score": 1
       },
       {
@@ -78266,8 +78393,8 @@
       },
       {
         "text_id": "amos",
-        "era_id": "amos_justice",
-        "era_name": "Justice & Judgment",
+        "era_id": "amos_visions",
+        "era_name": "Visions & Hope",
         "score": 1
       },
       {
@@ -79072,8 +79199,8 @@
       },
       {
         "text_id": "ecclesiastes",
-        "era_id": "eccl_under_sun",
-        "era_name": "Under the Sun",
+        "era_id": "eccl_fear_god",
+        "era_name": "Fear God & Keep His Commands",
         "score": 1
       },
       {
@@ -79137,6 +79264,12 @@
         "score": 1
       },
       {
+        "text_id": "amos",
+        "era_id": "amos_visions",
+        "era_name": "Visions & Hope",
+        "score": 1
+      },
+      {
         "text_id": "obadiah",
         "era_id": "obad_edom",
         "era_name": "Edom's Judgment",
@@ -79151,7 +79284,7 @@
       {
         "text_id": "micah",
         "era_id": "micah_justice",
-        "era_name": "Justice & Hope",
+        "era_name": "Judgment & Hope",
         "score": 1
       },
       {
@@ -79198,8 +79331,8 @@
       },
       {
         "text_id": "songofsolomon",
-        "era_id": "song_beloved",
-        "era_name": "The Beloved",
+        "era_id": "song_love_death",
+        "era_name": "Love Strong as Death",
         "score": 1
       }
     ],
@@ -79362,8 +79495,8 @@
       },
       {
         "text_id": "nehemiah",
-        "era_id": "neh_walls",
-        "era_name": "Walls & Renewal",
+        "era_id": "neh_covenant",
+        "era_name": "Covenant & Community",
         "score": 4
       },
       {
@@ -79514,12 +79647,6 @@
         "text_id": "hosea",
         "era_id": "hosea_marriage",
         "era_name": "Marriage & Judgment",
-        "score": 3
-      },
-      {
-        "text_id": "amos",
-        "era_id": "amos_justice",
-        "era_name": "Justice & Judgment",
         "score": 3
       },
       {
@@ -79733,9 +79860,15 @@
         "score": 2
       },
       {
+        "text_id": "amos",
+        "era_id": "amos_visions",
+        "era_name": "Visions & Hope",
+        "score": 2
+      },
+      {
         "text_id": "micah",
         "era_id": "micah_justice",
-        "era_name": "Justice & Hope",
+        "era_name": "Judgment & Hope",
         "score": 2
       },
       {
@@ -79748,6 +79881,12 @@
         "text_id": "2chronicles",
         "era_id": "2chr_divided",
         "era_name": "Divided Kingdom",
+        "score": 2
+      },
+      {
+        "text_id": "ezra",
+        "era_id": "ezra_mission",
+        "era_name": "Ezra's Mission",
         "score": 2
       },
       {
@@ -80119,7 +80258,19 @@
       {
         "text_id": "ecclesiastes",
         "era_id": "eccl_under_sun",
-        "era_name": "Under the Sun",
+        "era_name": "The Search Begins",
+        "score": 1
+      },
+      {
+        "text_id": "ecclesiastes",
+        "era_id": "eccl_fear_god",
+        "era_name": "Fear God & Keep His Commands",
+        "score": 1
+      },
+      {
+        "text_id": "amos",
+        "era_id": "amos_justice",
+        "era_name": "Justice & Judgment",
         "score": 1
       },
       {
@@ -80144,6 +80295,18 @@
         "text_id": "2chronicles",
         "era_id": "2chr_solomon",
         "era_name": "Solomon's Glory",
+        "score": 1
+      },
+      {
+        "text_id": "nehemiah",
+        "era_id": "neh_walls",
+        "era_name": "Walls Rising",
+        "score": 1
+      },
+      {
+        "text_id": "songofsolomon",
+        "era_id": "song_love_death",
+        "era_name": "Love Strong as Death",
         "score": 1
       }
     ],
@@ -80793,7 +80956,7 @@
       {
         "text_id": "nehemiah",
         "era_id": "neh_walls",
-        "era_name": "Walls & Renewal",
+        "era_name": "Walls Rising",
         "score": 2
       },
       {
@@ -81021,7 +81184,7 @@
       {
         "text_id": "ecclesiastes",
         "era_id": "eccl_under_sun",
-        "era_name": "Under the Sun",
+        "era_name": "The Search Begins",
         "score": 1
       },
       {
@@ -81044,14 +81207,14 @@
       },
       {
         "text_id": "amos",
-        "era_id": "amos_justice",
-        "era_name": "Justice & Judgment",
+        "era_id": "amos_visions",
+        "era_name": "Visions & Hope",
         "score": 1
       },
       {
         "text_id": "micah",
         "era_id": "micah_justice",
-        "era_name": "Justice & Hope",
+        "era_name": "Judgment & Hope",
         "score": 1
       },
       {
@@ -81082,6 +81245,18 @@
         "text_id": "ezra",
         "era_id": "ezra_return",
         "era_name": "Return & Rebuilding",
+        "score": 1
+      },
+      {
+        "text_id": "ezra",
+        "era_id": "ezra_mission",
+        "era_name": "Ezra's Mission",
+        "score": 1
+      },
+      {
+        "text_id": "nehemiah",
+        "era_id": "neh_covenant",
+        "era_name": "Covenant & Community",
         "score": 1
       },
       {
@@ -81502,8 +81677,8 @@
       },
       {
         "text_id": "nehemiah",
-        "era_id": "neh_walls",
-        "era_name": "Walls & Renewal",
+        "era_id": "neh_covenant",
+        "era_name": "Covenant & Community",
         "score": 4
       },
       {
@@ -81724,8 +81899,8 @@
       },
       {
         "text_id": "ezra",
-        "era_id": "ezra_return",
-        "era_name": "Return & Rebuilding",
+        "era_id": "ezra_mission",
+        "era_name": "Ezra's Mission",
         "score": 3
       },
       {
@@ -82108,8 +82283,8 @@
       },
       {
         "text_id": "micah",
-        "era_id": "micah_justice",
-        "era_name": "Justice & Hope",
+        "era_id": "micah_mercy",
+        "era_name": "Covenant & Mercy",
         "score": 1
       },
       {
@@ -82131,9 +82306,21 @@
         "score": 1
       },
       {
+        "text_id": "nehemiah",
+        "era_id": "neh_walls",
+        "era_name": "Walls Rising",
+        "score": 1
+      },
+      {
         "text_id": "esther",
         "era_id": "esther_providence",
         "era_name": "For Such a Time",
+        "score": 1
+      },
+      {
+        "text_id": "esther",
+        "era_id": "esther_reversal",
+        "era_name": "The Great Reversal",
         "score": 1
       },
       {
@@ -82638,8 +82825,8 @@
       },
       {
         "text_id": "amos",
-        "era_id": "amos_justice",
-        "era_name": "Justice & Judgment",
+        "era_id": "amos_visions",
+        "era_name": "Visions & Hope",
         "score": 1
       },
       {

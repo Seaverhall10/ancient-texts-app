@@ -3778,8 +3778,8 @@
     {
       "id": "eccl_under_sun",
       "text": "ecclesiastes",
-      "name": "Under the Sun",
-      "chapters": "Ecclesiastes 1–12",
+      "name": "The Search Begins",
+      "chapters": "Ecclesiastes 1–6",
       "color": "#7a7a5a",
       "icon": "I",
       "data_file": "era_66",
@@ -3787,6 +3787,21 @@
         "Hebel (vapor/vanity)",
         "Life under the sun",
         "Wisdom's limits",
+        "Toil and pleasure examined"
+      ]
+    },
+    {
+      "id": "eccl_fear_god",
+      "text": "ecclesiastes",
+      "name": "Fear God & Keep His Commands",
+      "chapters": "Ecclesiastes 7–12",
+      "color": "#7a7a5a",
+      "icon": "I",
+      "data_file": "era_66b_fear_god",
+      "themes": [
+        "Wisdom applied",
+        "Youth and old age",
+        "Remember your Creator",
         "Fear God and keep commandments"
       ]
     },
@@ -3974,14 +3989,29 @@
       "id": "amos_justice",
       "text": "amos",
       "name": "Justice & Judgment",
-      "chapters": "Amos 1–9",
+      "chapters": "Amos 1–4",
       "color": "#6a5a3a",
       "icon": "I",
       "data_file": "era_79_amos_justice",
       "themes": [
         "Oracles against nations",
         "Social justice",
+        "Judgment on Israel",
+        "Call to repentance"
+      ]
+    },
+    {
+      "id": "amos_visions",
+      "text": "amos",
+      "name": "Visions & Hope",
+      "chapters": "Amos 5–9",
+      "color": "#6a5a3a",
+      "icon": "I",
+      "data_file": "era_79b_visions_hope",
+      "themes": [
         "Five visions",
+        "Day of YHWH",
+        "Confrontation at Bethel",
         "Fallen booth of David"
       ]
     },
@@ -4018,16 +4048,31 @@
     {
       "id": "micah_justice",
       "text": "micah",
-      "name": "Justice & Hope",
-      "chapters": "Micah 1–7",
+      "name": "Judgment & Hope",
+      "chapters": "Micah 1–4",
       "color": "#8a5a6a",
       "icon": "I",
       "data_file": "era_82_micah",
       "themes": [
         "Covenant lawsuit",
+        "Judgment on Samaria and Jerusalem",
         "Bethlehem prophecy (5:2)",
+        "Nations streaming to Zion"
+      ]
+    },
+    {
+      "id": "micah_mercy",
+      "text": "micah",
+      "name": "Covenant & Mercy",
+      "chapters": "Micah 5–7",
+      "color": "#8a5a6a",
+      "icon": "I",
+      "data_file": "era_82b_covenant_mercy",
+      "themes": [
         "Do justice, love mercy",
-        "Shepherd of the remnant"
+        "Walk humbly with God",
+        "Shepherd of the remnant",
+        "Who is a God like you?"
       ]
     },
     {
@@ -4214,7 +4259,7 @@
       "id": "ezra_return",
       "text": "ezra",
       "name": "Return & Rebuilding",
-      "chapters": "Ezra 1–10",
+      "chapters": "Ezra 1–6",
       "color": "#6a7a5a",
       "icon": "I",
       "data_file": "era_95_return_rebuilding",
@@ -4222,29 +4267,59 @@
         "Cyrus decree",
         "Temple foundation",
         "Opposition and completion",
-        "Mixed marriages crisis"
+        "Temple dedication"
+      ]
+    },
+    {
+      "id": "ezra_mission",
+      "text": "ezra",
+      "name": "Ezra's Mission",
+      "chapters": "Ezra 7–10",
+      "color": "#6a7a5a",
+      "icon": "I",
+      "data_file": "era_95b_ezras_mission",
+      "themes": [
+        "Ezra's journey from Babylon",
+        "Torah teaching",
+        "Mixed marriages crisis",
+        "Covenant repentance"
       ]
     },
     {
       "id": "neh_walls",
       "text": "nehemiah",
-      "name": "Walls & Renewal",
-      "chapters": "Nehemiah 1–13",
+      "name": "Walls Rising",
+      "chapters": "Nehemiah 1–7",
       "color": "#5a7a6a",
       "icon": "I",
       "data_file": "era_96_walls_renewal",
       "themes": [
         "Nehemiah's prayer",
         "Wall rebuilding",
+        "Opposition and perseverance",
+        "Completion of the walls"
+      ]
+    },
+    {
+      "id": "neh_covenant",
+      "text": "nehemiah",
+      "name": "Covenant & Community",
+      "chapters": "Nehemiah 8–13",
+      "color": "#5a7a6a",
+      "icon": "I",
+      "data_file": "era_96b_covenant_community",
+      "themes": [
         "Torah reading (Ezra)",
-        "Covenant renewal"
+        "Feast of Booths",
+        "Covenant renewal",
+        "Community reforms"
       ]
     },
     {
       "id": "esther_providence",
       "text": "esther",
       "name": "For Such a Time",
-      "chapters": "Esther 1–10",
+      "chapters": "Esther 1–5",
       "color": "#8a5a7a",
       "icon": "I",
       "data_file": "era_97_for_such_a_time",
@@ -4252,6 +4327,21 @@
         "Vashti's refusal",
         "Esther chosen",
         "Haman's plot",
+        "Esther's courage"
+      ]
+    },
+    {
+      "id": "esther_reversal",
+      "text": "esther",
+      "name": "The Great Reversal",
+      "chapters": "Esther 6–10",
+      "color": "#8a5a7a",
+      "icon": "I",
+      "data_file": "era_97b_great_reversal",
+      "themes": [
+        "Haman's downfall",
+        "Mordecai's honor",
+        "Jewish deliverance",
         "Purim established"
       ]
     },
@@ -4259,7 +4349,7 @@
       "id": "song_beloved",
       "text": "songofsolomon",
       "name": "The Beloved",
-      "chapters": "Song of Solomon 1–8",
+      "chapters": "Song of Solomon 1–4",
       "color": "#8a5070",
       "icon": "I",
       "data_file": "era_98_the_beloved",
@@ -4267,6 +4357,21 @@
         "Love poetry",
         "Covenant love",
         "Garden imagery",
+        "Mutual admiration"
+      ]
+    },
+    {
+      "id": "song_love_death",
+      "text": "songofsolomon",
+      "name": "Love Strong as Death",
+      "chapters": "Song of Solomon 5–8",
+      "color": "#8a5070",
+      "icon": "I",
+      "data_file": "era_98b_love_strong_as_death",
+      "themes": [
+        "Separation and longing",
+        "Love strong as death",
+        "Jealousy fierce as Sheol",
         "Typological reading"
       ]
     }

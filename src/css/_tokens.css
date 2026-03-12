@@ -103,6 +103,16 @@
     --z-toast: 50;
     --z-tooltip: 60;
 
+    /* ── Mobile Z-Index Scale ─────────────────── */
+    --z-sidebar-backdrop: 90;
+    --z-sidebar: 100;
+    --z-sidebar-toggle: 110;
+    --z-mobile-overlay: 120;
+    --z-mobile-nav: 200;
+    --z-mobile-tools: 300;
+    --z-mobile-sheet: 400;
+    --z-mobile-loading: 500;
+
     /* ── Transitions ───────────────────────────── */
     --transition: 0.2s ease;
     --transition-slow: 0.3s ease;
