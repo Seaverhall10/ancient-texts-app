@@ -200,15 +200,24 @@ Currently NO non-canonical text has flow translations. Add for:
 ## SESSION PLAN J: Google Drive Sync & Folder Organization
 **Priority: USER-REQUESTED | Estimated: 1 session**
 
-Current issue: Google Drive copy at `E:\My Drive\ANCIENT_TEXTS Study App\` may be outdated or disorganized.
+**STATUS: COMPLETED (March 12, 2026)**
+- Wiped old disorganized folder, copied 903 clean source files (167 MB)
+- Drive path: `G:\My Drive\ANCIENT_TEXTS Study App\`
+- Excluded: output/, venv/, dist/, .git/, releases/, archive/
+- To set up on new machine: copy folder → `python -m venv venv` → `pip install -r requirements.txt` → `BUILD_ALL.bat`
+- Or: `git clone https://github.com/Seaverhall10/ancient-texts-app.git`
 
-### Tasks:
-1. Audit what's currently in Google Drive vs Desktop
-2. Ensure all source files are synced (not output/build artifacts)
-3. Create clean folder structure for portability
-4. Set up `.gdriveignore` or equivalent to prevent syncing `output/`, `venv/`, `node_modules/`
-5. Create `SETUP_NEW_MACHINE.md` with instructions for cloning and setting up on new laptop
-6. Verify `SYNC.bat` or `LAUNCH.bat option 6` works correctly
+---
+
+## SESSION PLAN K: Heavenly Court Polish
+**Priority: MEDIUM | Estimated: 1 session | Impact: Quality improvement**
+
+User noted "goofy graphics" and flow issues in the Heavenly Court deep dive. Needs:
+1. Review all Heavenly Court era files for content quality
+2. Fix any rendering/display issues (graphics, layout)
+3. Ensure content flow is smooth and scholarly
+4. Verify all divine council references are properly sourced
+5. Add missing cross-refs and hebrew_terms where thin
 
 ---
 
@@ -216,11 +225,12 @@ Current issue: Google Drive copy at `E:\My Drive\ANCIENT_TEXTS Study App\` may b
 
 | # | Plan | Sessions | Impact |
 |---|------|----------|--------|
-| 1 | **J** — Google Drive sync/org | 1 | Enables working from any machine |
-| 2 | **B** — NT era expansion | 3-4 | 120-200 new chapters for major NT books |
-| 3 | **A** — Minor Prophets depth | 2-3 | 51 chapters enriched to Genesis quality |
-| 4 | **D** — Study Trail conversions | 1-2 | 4 trails modernized |
-| 5 | **C** — Hebrew terms gap fill | 2 | 124 chapters enriched |
+| ~~1~~ | ~~**J** — Google Drive sync/org~~ | ~~1~~ | ✅ DONE (March 12) |
+| 1 | **B** — NT era expansion | 3-4 | 120-200 new chapters for major NT books |
+| 2 | **A** — Minor Prophets depth | 2-3 | 51 chapters enriched to Genesis quality |
+| 3 | **D** — Study Trail conversions | 1-2 | 4 trails modernized |
+| 4 | **C** — Hebrew terms gap fill | 2 | 124 chapters enriched |
+| 5 | **K** — Heavenly Court polish | 1 | Quality fix (user-noted issues) |
 | 6 | **F** — YouTube integration | 1 | User-requested feature |
 | 7 | **E** — Large OT book expansion | 2-3 | Psalms/Isaiah/Jeremiah/Ezekiel depth |
 | 8 | **G** — PDF export | 1 | Feature completion |

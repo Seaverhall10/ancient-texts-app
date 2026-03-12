@@ -3,7 +3,7 @@
 
 ## Location
 - **Working dir**: `C:\Users\User\Desktop\ANCIENT_TEXTS Study App\`
-- **Google Drive**: `G:\My Drive\ANCIENT_TEXTS Study App\` (OUTDATED as of March 7 — needs full sync)
+- **Google Drive**: `G:\My Drive\ANCIENT_TEXTS Study App\` (synced March 12 — source only, no build artifacts)
 - **Sync**: `LAUNCH.bat → option 6` or `SYNC.bat`
 
 ## What It Is
