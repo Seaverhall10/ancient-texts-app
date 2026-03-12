@@ -2791,6 +2791,40 @@
       ]
     },
     {
+      "id": "mark_authority",
+      "text": "mark",
+      "name": "The Authority of the Son — Exorcisms, Nature Miracles, and the Messianic Secret",
+      "chapters": "Mark 1–8",
+      "color": "#6a8a6a",
+      "icon": "II",
+      "data_file": "era_mark_authority",
+      "themes": [
+        "Exorcisms and cosmic warfare",
+        "Strong man parable",
+        "Nature miracles as theophanies",
+        "Messianic secret",
+        "Peter's confession",
+        "Way of the cross"
+      ]
+    },
+    {
+      "id": "mark_passion",
+      "text": "mark",
+      "name": "The Way of the Cross — Passion, Death, and Resurrection",
+      "chapters": "Mark 8–16",
+      "color": "#6a8a6a",
+      "icon": "III",
+      "data_file": "era_mark_passion",
+      "themes": [
+        "Transfiguration",
+        "Temple cleansing",
+        "Son rejected",
+        "Crucifixion darkness",
+        "Torn veil inclusio",
+        "Empty tomb"
+      ]
+    },
+    {
       "id": "luke_galilee",
       "text": "luke",
       "name": "Birth, Nazareth Sermon, and Galilean Ministry",
@@ -2912,6 +2946,23 @@
       ]
     },
     {
+      "id": "hebrews_priesthood",
+      "text": "hebrews",
+      "name": "The Melchizedek Priesthood and the Heavenly Tabernacle",
+      "chapters": "Hebrews 5–10",
+      "color": "#c9a84c",
+      "icon": "II",
+      "data_file": "era_hebrews_priesthood",
+      "themes": [
+        "Melchizedek order",
+        "11QMelchizedek",
+        "Heavenly sanctuary",
+        "Better covenant",
+        "Once-for-all sacrifice",
+        "New and living way"
+      ]
+    },
+    {
       "id": "rev_throne",
       "text": "revelation",
       "name": "The Throne Room Vision",
@@ -2992,6 +3043,23 @@
         "Mystery revealed to principalities",
         "Armor of God",
         "Cosmic ecclesiology"
+      ]
+    },
+    {
+      "id": "eph_warfare",
+      "text": "ephesians",
+      "name": "The Heavenly Places and Spiritual Warfare",
+      "chapters": "Ephesians 1–3, 6",
+      "color": "#9b7ec8",
+      "icon": "II",
+      "data_file": "era_eph_warfare",
+      "themes": [
+        "En tois epouraniois",
+        "Seated above all powers",
+        "Archon of the air",
+        "Wisdom to the powers",
+        "Kosmokratores",
+        "Full armor of God"
       ]
     },
     {
@@ -3078,6 +3146,40 @@
       ]
     },
     {
+      "id": "1cor_wisdom",
+      "text": "1corinthians",
+      "name": "The Wisdom of the Cross",
+      "chapters": "1 Corinthians 1–4",
+      "color": "#6a7a8a",
+      "icon": "II",
+      "data_file": "era_1cor_wisdom",
+      "themes": [
+        "Cruciform wisdom",
+        "Archontes tou aionos",
+        "Hidden mystery",
+        "Lord of glory",
+        "God's temple",
+        "Apostolic foundation"
+      ]
+    },
+    {
+      "id": "1cor_resurrection",
+      "text": "1corinthians",
+      "name": "The Cosmic Resurrection",
+      "chapters": "1 Corinthians 15",
+      "color": "#6a7a8a",
+      "icon": "III",
+      "data_file": "era_1cor_resurrection",
+      "themes": [
+        "Earliest creed",
+        "Adam-Christ typology",
+        "Destruction of every power",
+        "Last enemy Death",
+        "Spiritual body",
+        "Final triumph"
+      ]
+    },
+    {
       "id": "2cor_ministry",
       "text": "2corinthians",
       "name": "The Ministry of Reconciliation",
@@ -3092,6 +3194,42 @@
         "Third heaven",
         "Satan as angel of light",
         "Weakness and power"
+      ]
+    },
+    {
+      "id": "2cor_glory",
+      "text": "2corinthians",
+      "name": "The Unveiled Glory and New Creation",
+      "chapters": "2 Corinthians 3–5",
+      "color": "#8a7a5a",
+      "icon": "I",
+      "data_file": "era_2cor_glory",
+      "themes": [
+        "Unveiled glory",
+        "New covenant vs. old covenant",
+        "God of this age",
+        "Treasure in jars of clay",
+        "New creation",
+        "Ministry of reconciliation",
+        "The great exchange"
+      ]
+    },
+    {
+      "id": "2cor_weakness",
+      "text": "2corinthians",
+      "name": "Power Perfected in Weakness",
+      "chapters": "2 Corinthians 10–13",
+      "color": "#7a7a7a",
+      "icon": "III",
+      "data_file": "era_2cor_weakness",
+      "themes": [
+        "Spiritual warfare",
+        "Super-apostles",
+        "Third heaven",
+        "Paradise",
+        "Thorn in the flesh",
+        "Messenger of Satan",
+        "Power in weakness"
       ]
     },
     {
@@ -3111,6 +3249,23 @@
       ]
     },
     {
+      "id": "gal_stoicheia",
+      "text": "galatians",
+      "name": "From Stoicheia to Sonship",
+      "chapters": "Galatians 3–5",
+      "color": "#8a7a6a",
+      "icon": "II",
+      "data_file": "era_galatians_stoicheia",
+      "themes": [
+        "Stoicheia tou kosmou",
+        "Angelic mediation of Torah",
+        "Abrahamic promise",
+        "Adoption as sons",
+        "Flesh vs. Spirit",
+        "Fruit of the Spirit"
+      ]
+    },
+    {
       "id": "phil_joy",
       "text": "philippians",
       "name": "Joy in Christ",
@@ -3123,6 +3278,23 @@
         "Every knee bows",
         "Heavenly citizenship",
         "Cosmic lordship"
+      ]
+    },
+    {
+      "id": "phil_hymn",
+      "text": "philippians",
+      "name": "The Christ Hymn and Cosmic Lordship",
+      "chapters": "Philippians 2–3",
+      "color": "#6a8a8a",
+      "icon": "II",
+      "data_file": "era_phil_hymn",
+      "themes": [
+        "Kenosis",
+        "Morphe theou",
+        "Hyper-exaltation",
+        "Every knee bows",
+        "Deut 32:5 community",
+        "Heavenly politeuma"
       ]
     },
     {
@@ -3141,6 +3313,23 @@
       ]
     },
     {
+      "id": "col_powers",
+      "text": "colossians",
+      "name": "The Supremacy of Christ Over All Powers",
+      "chapters": "Colossians 1–3",
+      "color": "#8a6a7a",
+      "icon": "II",
+      "data_file": "era_col_supremacy",
+      "themes": [
+        "Christ hymn",
+        "Image of invisible God",
+        "Four-tier hierarchy",
+        "Stoicheia defeated",
+        "Cross as triumph",
+        "Angel worship rejected"
+      ]
+    },
+    {
       "id": "1thess_coming",
       "text": "1thessalonians",
       "name": "The Coming of the Lord",
@@ -3154,6 +3343,23 @@
         "Dead in Christ rise",
         "Day of the Lord",
         "Parousia"
+      ]
+    },
+    {
+      "id": "1thess_day",
+      "text": "1thessalonians",
+      "name": "The Day of the Lord and the Dead in Christ",
+      "chapters": "1 Thessalonians 4–5",
+      "color": "#7a8a7a",
+      "icon": "II",
+      "data_file": "era_1thess_day",
+      "themes": [
+        "Sanctification",
+        "Dead in Christ rise first",
+        "Parousia sequence",
+        "Children of light",
+        "Day of the Lord",
+        "Spiritual armor"
       ]
     },
     {
@@ -3249,6 +3455,23 @@
       ]
     },
     {
+      "id": "james_wisdom",
+      "text": "james",
+      "name": "Wisdom from Above",
+      "chapters": "James 1–5",
+      "color": "#6a8a6a",
+      "icon": "II",
+      "data_file": "era_james_wisdom",
+      "themes": [
+        "Testing and crown of life",
+        "Father of lights",
+        "Faith and works",
+        "Demons shudder",
+        "Demonic wisdom",
+        "Wisdom from above"
+      ]
+    },
+    {
       "id": "1peter_exiles",
       "text": "1peter",
       "name": "Elect Exiles, Spirits in Prison, and the Prowling Lion",
@@ -3262,6 +3485,23 @@
         "Royal priesthood",
         "Elect exiles",
         "Roaring lion"
+      ]
+    },
+    {
+      "id": "1pet_spirits",
+      "text": "1peter",
+      "name": "Spirits in Prison, the Flood, and Suffering as Vindication",
+      "chapters": "1 Peter 3–4",
+      "color": "#5a7a9a",
+      "icon": "I",
+      "data_file": "era_1pet_spirits",
+      "themes": [
+        "Spirits in prison",
+        "Watchers of Genesis 6",
+        "Christ's victory proclamation",
+        "Flood and baptism typology",
+        "Gospel preached to the dead",
+        "Cosmic enthronement"
       ]
     },
     {
