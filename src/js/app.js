@@ -351,16 +351,18 @@
             color: '#2d9a8f',
             desc: 'Trace the texts found at Qumran \u2014 from the Great Isaiah Scroll to the War Scroll, these 2,000-year-old manuscripts changed everything we know about the Bible.',
             steps: [
-                { textId: 'isaiah', label: 'Isaiah \u2014 The Great Isaiah Scroll (1QIsa\u1D43)', why: 'The oldest complete biblical book \u2014 1,000 years older than any other Isaiah manuscript' },
-                { textId: 'deuteronomy', label: 'Deuteronomy 32:8 \u2014 "Sons of God" Restored', why: '4QDeut confirms the DSS/LXX reading over the Masoretic "sons of Israel"' },
-                { textId: 'daniel', label: 'Daniel \u2014 8 Manuscripts at Qumran', why: 'Early copies (4QDan\u1D9C ~125 BC) prove the book circulated far earlier than critics claimed' },
-                { textId: 'psalms', label: 'Psalms \u2014 The Great Psalms Scroll (11QPs\u1D43)', why: 'Different ordering + extra psalms \u2014 shows the Psalter was still being shaped' },
-                { textId: 'enoch1', label: '1 Enoch \u2014 4Q201\u2013212 (Aramaic)', why: 'More copies than some OT books \u2014 the Qumran community treated this as authoritative' },
-                { textId: 'jubilees', label: 'Jubilees \u2014 ~15 Copies at Qumran', why: 'More manuscripts than Deuteronomy \u2014 defined the Qumran calendar and theology' },
-                { textId: 'dss_sectarian', label: 'Community Rule (1QS) \u2014 Two Spirits', why: 'The foundational theology of Qumran: spirit of truth vs. spirit of falsehood in every person' },
-                { textId: 'dss_sectarian', label: 'War Scroll (1QM) \u2014 Sons of Light', why: 'The 40-year eschatological battle plan \u2014 Michael leads heaven\u2019s armies' },
-                { textId: 'genesis_apocryphon', label: 'Genesis Apocryphon (1QapGen)', why: 'One of the original 7 scrolls found in 1947 \u2014 Noah and Abraham speak in first person' },
-                { textId: 'giants', label: 'Book of Giants \u2014 Nephilim at Qumran', why: 'Unknown until DSS discovery \u2014 the Nephilim receive dreams of their coming judgment' }
+                { textId: 'isaiah', label: 'Isaiah \u2014 The Great Isaiah Scroll (1QIsa\u1D43)', why: 'The oldest complete biblical book \u2014 1,000 years older than any other Isaiah manuscript. Every chapter of Isaiah was found at Qumran.' },
+                { textId: 'deuteronomy', label: 'Deuteronomy 32:8 \u2014 "Sons of God" Restored', why: '4QDeut confirms the DSS/LXX reading "sons of God" over the Masoretic "sons of Israel" \u2014 the divine council allotment of nations.' },
+                { chId: 'hab-2', label: 'Habakkuk Pesher (1QpHab) \u2014 "The Righteous Shall Live"', why: 'Among the first 7 scrolls found in 1947. Interprets Habakkuk 2:4 as referring to those who trust the Teacher of Righteousness \u2014 the same verse Paul quotes in Romans 1:17 and Galatians 3:11.' },
+                { chId: 'nah-1', label: 'Nahum Pesher (4QpNah) \u2014 The Lion of Wrath', why: 'Applies Nahum\u2019s prophecy against Nineveh to historical Seleucid figures \u2014 rare in DSS for naming real people. Shows how Qumran read prophets as speaking about their own era.' },
+                { textId: 'daniel', label: 'Daniel \u2014 8 Manuscripts at Qumran', why: 'Early copies (4QDan\u1D9C ~125 BC) prove the book circulated far earlier than critics claimed.' },
+                { textId: 'psalms', label: 'Psalms \u2014 The Great Psalms Scroll (11QPs\u1D43)', why: 'Different ordering + extra psalms (including Psalm 151) \u2014 shows the Psalter was still being shaped. A pesher on Psalm 37 (4QpPs\u1D43) interprets it line by line about the Yahad community.' },
+                { textId: 'enoch1', label: '1 Enoch \u2014 4Q201\u2013212 (Aramaic)', why: 'More copies than some OT books \u2014 the Qumran community treated this as authoritative. The Watchers tradition shaped their entire worldview.' },
+                { textId: 'jubilees', label: 'Jubilees \u2014 ~15 Copies at Qumran', why: 'More manuscripts than Deuteronomy \u2014 defined the Qumran calendar (364-day solar) and Mastema theology.' },
+                { textId: 'dss_sectarian', label: 'Community Rule (1QS) \u2014 Two Spirits', why: 'The foundational theology of the Yahad: Spirit of Truth vs. Spirit of Falsehood in every person. Directly parallels 1 John 4:6 and Johannine light/darkness theology.' },
+                { textId: 'dss_sectarian', label: 'War Scroll (1QM) \u2014 Sons of Light', why: 'The 40-year eschatological battle plan \u2014 Michael leads heaven\u2019s armies against Belial. Echoes Revelation 12 and Daniel 12:1.' },
+                { textId: 'genesis_apocryphon', label: 'Genesis Apocryphon (1QapGen)', why: 'One of the original 7 scrolls found in Cave 1 in 1947 \u2014 Noah and Abraham speak in first person. Badly deteriorated, only partially readable.' },
+                { textId: 'giants', label: 'Book of Giants \u2014 Nephilim at Qumran', why: 'Unknown until the DSS discovery \u2014 the Nephilim receive apocalyptic dreams of their coming judgment. Fills gaps in 1 Enoch\u2019s Watcher narrative.' }
             ]
         }
     ];
@@ -1408,13 +1410,53 @@
 
         trail.steps.forEach(function(step, i) {
             var textId = step.textId || (step.chId ? getTextForChapter(step.chId) : null);
-            html += '<div class="trail-step" data-nav-text="' + (textId || '') + '" data-nav-chapter="' + (step.chId || '') + '">' +
+
+            // Try to extract chapter number for inline scripture
+            var chNum = '';
+            if (step.chId) {
+                var chMatch = step.chId.match(/(\d+)$/);
+                if (chMatch) chNum = chMatch[1];
+            } else if (step.label) {
+                var lblMatch = step.label.match(/(\d+)/);
+                if (lblMatch) chNum = lblMatch[1];
+            }
+
+            // Try to load inline scripture for this stop
+            var scriptureHtml = '';
+            if (textId && chNum) {
+                var ilData = getTextInterlinear(textId);
+                if (ilData && ilData[String(chNum)] && ilData[String(chNum)].verses) {
+                    var verses = ilData[String(chNum)].verses;
+                    scriptureHtml = '<div class="trail-stop-scripture">';
+                    verses.forEach(function(v) {
+                        var text = v.flow || '';
+                        if (!text && v.words) {
+                            var glosses = v.words.slice().reverse()
+                                .map(function(w) { return w.g || ''; })
+                                .filter(function(g) { return g && g !== 'properly' && g !== 'untranslatable'; });
+                            text = glosses.join(' ').replace(/\s*\+\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
+                        }
+                        if (text) {
+                            scriptureHtml += '<span class="scripture-verse"><sup class="scripture-verse-num">' +
+                                v.num + '</sup>' + esc(text) + '</span> ';
+                        }
+                    });
+                    scriptureHtml += '</div>';
+                }
+            }
+
+            html += '<div class="trail-step' + (scriptureHtml ? ' has-scripture' : '') + '"' +
+                ' data-nav-text="' + (textId || '') + '" data-nav-chapter="' + (step.chId || '') + '">' +
                 '<div class="trail-step-number">' + (i + 1) + '</div>' +
                 '<div class="trail-step-content">' +
                 '<div class="trail-step-label">' + step.label + '</div>' +
                 '<div class="trail-step-why">' + step.why + '</div>' +
+                scriptureHtml +
+                '<div class="trail-step-nav">' +
+                '<span class="trail-step-go-link" data-nav-text="' + (textId || '') + '" data-nav-chapter="' + (step.chId || '') + '">' +
+                '\u2192 Open full chapter</span>' +
                 '</div>' +
-                '<span class="trail-step-go">\u2192</span>' +
+                '</div>' +
                 '</div>';
             if (i < trail.steps.length - 1) {
                 html += '<div class="trail-connector"></div>';
@@ -2621,9 +2663,19 @@
                 return;
             }
 
-            // Study trail step navigation
+            // Study trail — "Open full chapter" link or step without scripture
+            var trailGoLink = e.target.closest('.trail-step-go-link');
             var trailStep = e.target.closest('.trail-step');
-            if (trailStep && trailStep.dataset.navText) {
+            if (trailGoLink && trailGoLink.dataset.navText) {
+                selectText(trailGoLink.dataset.navText, true);
+                if (trailGoLink.dataset.navChapter) {
+                    requestAnimationFrame(function() {
+                        scrollToChapter(trailGoLink.dataset.navChapter);
+                    });
+                }
+                return;
+            }
+            if (trailStep && !trailStep.classList.contains('has-scripture') && trailStep.dataset.navText) {
                 selectText(trailStep.dataset.navText, true);
                 if (trailStep.dataset.navChapter) {
                     requestAnimationFrame(function() {

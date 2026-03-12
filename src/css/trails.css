@@ -177,6 +177,54 @@
     opacity: 1;
 }
 
+/* Inline scripture in trail stops */
+.trail-stop-scripture {
+    margin: 0.75rem 0;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-left: 3px solid var(--trail-color, var(--gold));
+    border-radius: 0 6px 6px 0;
+    font-family: 'Georgia', serif;
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: var(--text-primary);
+    max-height: 300px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(201,168,76,0.2) transparent;
+}
+.trail-stop-scripture .scripture-verse-num {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: var(--trail-color, var(--gold));
+    margin-right: 2px;
+    vertical-align: super;
+    line-height: 0;
+    opacity: 0.7;
+}
+.trail-step-nav {
+    margin-top: 0.5rem;
+}
+.trail-step-go-link {
+    font-size: 0.78rem;
+    color: var(--trail-color, var(--gold));
+    cursor: pointer;
+    font-weight: 500;
+    transition: opacity 0.15s;
+}
+.trail-step-go-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+/* Don't navigate whole card when clicking scripture */
+.trail-step.has-scripture {
+    cursor: default;
+}
+.trail-step.has-scripture:hover {
+    transform: none;
+}
+
 .trail-connector {
     width: 2px;
     height: 16px;
