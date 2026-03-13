@@ -5247,7 +5247,7 @@
     var mapInstance = null;
     var mapMarkers = [];
     var mapCategories = {
-        'biblical':   { color: '#c9a84c', label: 'Biblical Sites',      icon: '\u2721' },
+        'biblical':   { color: '#c9a84c', label: 'Biblical Sites',      icon: '\u2726' },
         'typology':   { color: '#b5564a', label: 'Christ Typology',     icon: '\u2670' },
         'watcher':    { color: '#9b7ec8', label: 'Watcher Geography',   icon: '\u2604' },
         'megalith':   { color: '#b07050', label: 'Megaliths & Anomalies', icon: '\u25B2' },
@@ -5832,7 +5832,248 @@
         {cat:'cultural', name:'Caphtor (Crete) \u2014 Philistine Origin', lat:35.3, lng:25.1,
          desc:'The ancestral homeland of the Philistines. "Did I not bring up Israel from Egypt, and the Philistines from Caphtor?" (Amos 9:7). Caphtor is widely identified with Crete (Kaptara in Akkadian texts, Keftiu in Egyptian). The Caphtorim displaced the Avvim and settled the Gaza coastal plain (Deut 2:23). The Philistines were Hamitic descendants through Mizraim (Gen 10:13-14). God sovereignly brought them into the very territory where Anakim/Nephilim remnants remained (Josh 11:22), creating the testing ground for Israel\'s faith and the arena where David destroyed the last giants.',
          refs:'Genesis 10:13-14; Deuteronomy 2:23; Amos 9:7; Jeremiah 47:4',
-         note:'The Sea Peoples invasion (~1200 BC) brought further waves of Aegean peoples to this coast. Egyptian inscriptions at Medinet Habu record Ramesses III repelling them. The Peleset (Philistines) settled in Canaan. Strictly C-level archaeological context \u2014 but Scripture confirms God orchestrates all migrations (Acts 17:26).'}
+         note:'The Sea Peoples invasion (~1200 BC) brought further waves of Aegean peoples to this coast. Egyptian inscriptions at Medinet Habu record Ramesses III repelling them. The Peleset (Philistines) settled in Canaan. Strictly C-level archaeological context \u2014 but Scripture confirms God orchestrates all migrations (Acts 17:26).'},
+
+        // ══════════════════════════════════════════════════════════
+        // ── KINGDOM PERIOD CITIES ──
+        // ══════════════════════════════════════════════════════════
+        {cat:'biblical', name:'Samaria', lat:32.275, lng:35.1917,
+         desc:'Capital of the northern kingdom of Israel, built by Omri. Center of Baal worship under Ahab and Jezebel. Fell to Assyria in 722 BC. Philip preached here in Acts 8.',
+         refs:'1 Kings 16:24; 2 Kings 17:5-6; Acts 8:4-25'},
+        {cat:'biblical', name:'Bethlehem', lat:31.7054, lng:35.2024,
+         desc:'City of David and birthplace of Jesus. Rachel was buried nearby. Ruth gleaned in its fields. Micah prophesied the Messiah would come from this small town.',
+         refs:'Micah 5:2; Matthew 2:1; Ruth 1:19; 1 Samuel 16:1'},
+        {cat:'biblical', name:'Lachish', lat:31.565, lng:34.8489,
+         desc:'Second most important city in Judah after Jerusalem. Sennacherib\'s siege (701 BC) depicted on Nineveh palace reliefs. The Lachish Letters describe the final days before Babylonian destruction.',
+         refs:'2 Kings 18:13-14; Jeremiah 34:7'},
+        {cat:'biblical', name:'Jezreel', lat:32.5564, lng:35.3281,
+         desc:'Royal residence of Ahab and Jezebel. Naboth\'s vineyard was here. Jezebel was thrown from the window and eaten by dogs as Elijah prophesied.',
+         refs:'1 Kings 21:1-16; 2 Kings 9:30-37'},
+        {cat:'biblical', name:'Gezer', lat:31.8756, lng:34.9208,
+         desc:'Strategic Canaanite city given to Solomon by Pharaoh as a dowry. Solomon rebuilt it with Hazor and Megiddo. The Gezer Calendar is one of the oldest Hebrew inscriptions.',
+         refs:'1 Kings 9:15-17; Joshua 16:10'},
+        {cat:'biblical', name:'Beth-shan (Scythopolis)', lat:32.5036, lng:35.5019,
+         desc:'The Philistines hung Saul\'s body on the city wall after the battle of Mount Gilboa. Later became a major Decapolis city.',
+         refs:'1 Samuel 31:10-12; 2 Samuel 21:12'},
+        {cat:'biblical', name:'Ramoth-gilead', lat:32.33, lng:35.99,
+         desc:'Strategic Transjordanian city of refuge. Scene of Ahab\'s death in battle. Jehu was anointed king here.',
+         refs:'1 Kings 22:1-37; 2 Kings 9:1-6; Deuteronomy 4:43'},
+        {cat:'biblical', name:'Tirzah', lat:32.31, lng:35.34,
+         desc:'Early capital of the northern kingdom before Samaria. Known for beauty \u2014 "You are beautiful as Tirzah."',
+         refs:'1 Kings 14:17; Song of Solomon 6:4'},
+        {cat:'biblical', name:'Gerar', lat:31.39, lng:34.58,
+         desc:'Philistine city where both Abraham and Isaac sojourned. Abimelech was king here.',
+         refs:'Genesis 20:1-2; 26:1-6'},
+        {cat:'biblical', name:'Lahai-roi', lat:30.87, lng:34.58,
+         desc:'Well where the angel of the LORD appeared to Hagar. She named it "the well of the Living One who sees me." Isaac later dwelt here.',
+         refs:'Genesis 16:13-14; 24:62; 25:11'},
+
+        // ══════════════════════════════════════════════════════════
+        // ── PROPHETIC & IMPERIAL CITIES ──
+        // ══════════════════════════════════════════════════════════
+        {cat:'biblical', name:'Nineveh', lat:36.36, lng:43.15,
+         desc:'Capital of the Assyrian Empire. Jonah preached here and the city repented. Nahum prophesied its destruction, fulfilled in 612 BC. The library of Ashurbanipal preserved the Gilgamesh Epic.',
+         refs:'Jonah 3:1-10; Nahum 1-3; Genesis 10:11'},
+        {cat:'biblical', name:'Damascus', lat:33.5138, lng:36.2765,
+         desc:'One of the oldest continuously inhabited cities. Abraham pursued the kings here. Naaman was healed here. Paul was converted on the road to Damascus.',
+         refs:'Genesis 14:15; 2 Kings 5:12; Acts 9:1-9; Isaiah 17:1'},
+        {cat:'cultural', name:'Assur (Ashur)', lat:35.4575, lng:43.26,
+         desc:'Original capital of Assyria, named after Asshur son of Shem. The Assyrian Empire began here before expanding to Nineveh and Calah.',
+         refs:'Genesis 10:11,22; Ezekiel 32:22-23'},
+        {cat:'cultural', name:'Calah (Nimrud)', lat:36.0992, lng:43.33,
+         desc:'Assyrian royal city built by Nimrod. The Black Obelisk of Shalmaneser III showing Jehu bowing was found here.',
+         refs:'Genesis 10:11-12; 2 Kings 17:3'},
+        {cat:'biblical', name:'Susa (Shushan)', lat:32.19, lng:48.26,
+         desc:'Capital of the Persian Empire. Setting of Esther. Daniel received visions here. Nehemiah served as cupbearer to Artaxerxes.',
+         refs:'Esther 1:2; Daniel 8:2; Nehemiah 1:1'},
+        {cat:'cultural', name:'Persepolis', lat:29.9353, lng:52.8914,
+         desc:'Ceremonial capital of the Achaemenid Persian Empire. Built by Darius I and Xerxes (the Ahasuerus of Esther). Destroyed by Alexander the Great in 330 BC.',
+         refs:'Ezra 6:1-5; Esther 1:1-3'},
+        {cat:'cultural', name:'Carchemish', lat:36.8283, lng:38.0167,
+         desc:'Strategic city on the Euphrates where Nebuchadnezzar defeated Pharaoh Necho in 605 BC, establishing Babylonian supremacy.',
+         refs:'Jeremiah 46:2; 2 Chronicles 35:20'},
+        {cat:'biblical', name:'Tadmor (Palmyra)', lat:34.55, lng:38.267,
+         desc:'Desert oasis city built by Solomon on trade routes between Damascus and Mesopotamia.',
+         refs:'1 Kings 9:18; 2 Chronicles 8:4'},
+
+        // ══════════════════════════════════════════════════════════
+        // ── EGYPTIAN CITIES ──
+        // ══════════════════════════════════════════════════════════
+        {cat:'cultural', name:'Thebes (Luxor / No-Amon)', lat:25.6872, lng:32.6396,
+         desc:'Ancient capital of Upper Egypt, called "No-Amon" in Scripture. Nahum compared Nineveh to Thebes\' fall. The Valley of the Kings and Karnak temple complex are here.',
+         refs:'Nahum 3:8; Jeremiah 46:25; Ezekiel 30:14-16'},
+        {cat:'cultural', name:'Memphis (Noph)', lat:29.8481, lng:31.2547,
+         desc:'Ancient capital of Lower Egypt. Called "Noph" in Scripture. Isaiah, Jeremiah, and Ezekiel prophesied against it.',
+         refs:'Isaiah 19:13; Jeremiah 46:14; Ezekiel 30:13'},
+        {cat:'cultural', name:'On (Heliopolis)', lat:30.1311, lng:31.3133,
+         desc:'Ancient center of Egyptian sun worship. Joseph married Asenath, daughter of Potiphera priest of On.',
+         refs:'Genesis 41:45,50; Ezekiel 30:17'},
+        {cat:'cultural', name:'Avaris (Tell el-Dab\'a)', lat:30.79, lng:31.83,
+         desc:'Hyksos capital in the Nile Delta, possibly where Joseph rose to power. Semitic-style settlement found here dating to the Middle Bronze Age.',
+         refs:'Genesis 47:11; Exodus 1:8-11'},
+        {cat:'cultural', name:'Alexandria', lat:31.2001, lng:29.9187,
+         desc:'Founded by Alexander the Great. Home of the largest Jewish diaspora community. The Septuagint (Greek OT) was translated here. Apollos came from here.',
+         refs:'Acts 18:24; 27:6'},
+        {cat:'cultural', name:'Elephantine Island', lat:24.085, lng:32.886,
+         desc:'Island in the Nile at Aswan. A Jewish military colony existed here in the 5th century BC with their own temple to YHWH.',
+         refs:'Jeremiah 44:1; Ezekiel 29:10'},
+
+        // ══════════════════════════════════════════════════════════
+        // ── NEW TESTAMENT: GALILEE & JUDEA ──
+        // ══════════════════════════════════════════════════════════
+        {cat:'biblical', name:'Nazareth', lat:32.7019, lng:35.2978,
+         desc:'Hometown of Jesus. A small village \u2014 "Can anything good come from Nazareth?" (John 1:46). Jesus was rejected by his own synagogue here.',
+         refs:'Matthew 2:23; Luke 4:16-30; John 1:46'},
+        {cat:'biblical', name:'Capernaum', lat:32.8808, lng:35.5753,
+         desc:'Jesus\' base of operations in Galilee. Peter\'s house was here. Many healings, the centurion\'s servant, calling of Matthew. Jesus pronounced woe on it.',
+         refs:'Matthew 4:13; 11:23; Mark 1:21-34'},
+        {cat:'biblical', name:'Bethsaida', lat:32.9069, lng:35.6311,
+         desc:'Hometown of Peter, Andrew, and Philip. Near the feeding of the 5,000. Jesus pronounced woe on it for rejecting his miracles.',
+         refs:'Matthew 11:21; Mark 8:22-26; John 1:44'},
+        {cat:'biblical', name:'Chorazin', lat:32.9103, lng:35.5639,
+         desc:'Galilean town condemned by Jesus: "Woe to you, Chorazin! If the mighty works done in you had been done in Tyre and Sidon, they would have repented."',
+         refs:'Matthew 11:21; Luke 10:13'},
+        {cat:'biblical', name:'Cana', lat:32.7472, lng:35.3389,
+         desc:'Where Jesus performed his first miracle, turning water into wine at a wedding feast. Also healed the royal official\'s son from a distance.',
+         refs:'John 2:1-11; 4:46-54'},
+        {cat:'biblical', name:'Nain', lat:32.6317, lng:35.3483,
+         desc:'Village where Jesus raised a widow\'s only son from the dead. "Young man, I say to you, arise."',
+         refs:'Luke 7:11-17'},
+        {cat:'biblical', name:'Tiberias / Sea of Galilee', lat:32.7953, lng:35.5322,
+         desc:'City on the western shore of the Sea of Galilee built by Herod Antipas. Jesus walked on water, calmed storms, and called fishermen on this lake.',
+         refs:'John 6:1,23; 21:1; Matthew 14:22-33'},
+        {cat:'biblical', name:'Bethany', lat:31.7678, lng:35.2619,
+         desc:'Home of Mary, Martha, and Lazarus. Jesus raised Lazarus from the dead here. Mary anointed Jesus with costly perfume. Jesus ascended from near here.',
+         refs:'John 11:1-44; 12:1-8; Luke 24:50-51'},
+        {cat:'biblical', name:'Emmaus', lat:31.8389, lng:34.9889,
+         desc:'Village where the risen Jesus appeared to two disciples on the road, opening the Scriptures. "Their eyes were opened in the breaking of bread."',
+         refs:'Luke 24:13-35'},
+        {cat:'biblical', name:'Sychar (Jacob\'s Well)', lat:32.21, lng:35.285,
+         desc:'Where Jesus met the Samaritan woman at Jacob\'s well and revealed himself as the Messiah. "The water I give will become a spring welling up to eternal life."',
+         refs:'John 4:5-42'},
+        {cat:'biblical', name:'Mount of Olives', lat:31.7781, lng:35.2475,
+         desc:'East of Jerusalem across the Kidron Valley. Jesus taught the Olivet Discourse here, prayed in Gethsemane, and ascended to heaven. Zechariah prophesies his return here.',
+         refs:'Zechariah 14:4; Matthew 24-25; Acts 1:9-12'},
+        {cat:'biblical', name:'Mount Tabor', lat:32.6869, lng:35.3914,
+         desc:'Traditional site of the Transfiguration, where Jesus appeared in glory with Moses and Elijah. Peter, James, and John witnessed the divine council revealing Christ\'s glory.',
+         refs:'Matthew 17:1-8; Mark 9:2-8; Judges 4:6'},
+        {cat:'biblical', name:'Caesarea Maritima', lat:32.50, lng:34.8903,
+         desc:'Roman capital of Judea. Built by Herod the Great. Where Peter baptized Cornelius (first Gentile convert). Paul was imprisoned here for two years.',
+         refs:'Acts 10:1-48; 23:23-35; 24-26'},
+        {cat:'biblical', name:'Gethsemane', lat:31.7794, lng:35.2403,
+         desc:'Garden at the foot of the Mount of Olives where Jesus prayed before his arrest. "Not my will, but yours be done." Judas betrayed him here.',
+         refs:'Matthew 26:36-56; Luke 22:39-46'},
+        {cat:'biblical', name:'Golgotha (Calvary)', lat:31.7789, lng:35.2297,
+         desc:'The Place of the Skull where Jesus was crucified. "It is finished." The veil of the temple was torn from top to bottom.',
+         refs:'Matthew 27:33-50; John 19:17-30; Hebrews 13:12'},
+        {cat:'biblical', name:'Pool of Siloam', lat:31.7714, lng:35.2347,
+         desc:'Pool in the City of David where Jesus sent the blind man to wash. Hezekiah\'s tunnel channeled water here from the Gihon Spring.',
+         refs:'John 9:1-11; 2 Kings 20:20; Isaiah 8:6'},
+        {cat:'biblical', name:'Mount Gilboa', lat:32.49, lng:35.41,
+         desc:'Where Saul and Jonathan died in battle against the Philistines. David\'s lament: "How the mighty have fallen!"',
+         refs:'1 Samuel 31:1-8; 2 Samuel 1:17-27'},
+
+        // ══════════════════════════════════════════════════════════
+        // ── ACTS: PAULINE MISSION CITIES ──
+        // ══════════════════════════════════════════════════════════
+        {cat:'biblical', name:'Antioch of Syria', lat:36.20, lng:36.16,
+         desc:'Where believers were first called Christians. Paul\'s home base for missionary journeys. Third largest city in the Roman Empire.',
+         refs:'Acts 11:26; 13:1-3; Galatians 2:11'},
+        {cat:'biblical', name:'Antioch of Pisidia', lat:38.3117, lng:31.175,
+         desc:'Paul preached here on his first missionary journey. After Jewish opposition, he declared: "We are turning to the Gentiles." A pivotal moment.',
+         refs:'Acts 13:14-52'},
+        {cat:'biblical', name:'Ephesus', lat:37.9395, lng:27.3417,
+         desc:'Major city of Asia Minor. Paul spent 2-3 years here. The riot of silversmiths defending Artemis. One of the seven churches of Revelation.',
+         refs:'Acts 19:1-41; Ephesians 1:1; Revelation 2:1-7'},
+        {cat:'biblical', name:'Corinth', lat:37.9059, lng:22.8783,
+         desc:'Commercial crossroads of Greece. Paul lived here 18 months. A morally corrupt city \u2014 Paul addressed immorality, spiritual gifts, and the resurrection.',
+         refs:'Acts 18:1-18; 1 Corinthians 1:2'},
+        {cat:'biblical', name:'Philippi', lat:41.0106, lng:24.2858,
+         desc:'Roman colony in Macedonia. First European church. Lydia was the first European convert. Paul and Silas were imprisoned here and an earthquake freed them.',
+         refs:'Acts 16:12-40; Philippians 1:1'},
+        {cat:'biblical', name:'Thessalonica', lat:40.6401, lng:22.9444,
+         desc:'Capital of Macedonia. Paul established a church here. His letters address the second coming \u2014 "the Lord himself will descend from heaven with a shout."',
+         refs:'Acts 17:1-9; 1 Thessalonians 4:16-17'},
+        {cat:'biblical', name:'Athens', lat:37.9715, lng:23.7257,
+         desc:'Intellectual capital of the ancient world. Paul preached on Mars Hill: "The God who made the world does not live in temples made by hands."',
+         refs:'Acts 17:16-34'},
+        {cat:'biblical', name:'Berea', lat:40.5192, lng:22.35,
+         desc:'Where the Jews were "more noble" \u2014 they examined the Scriptures daily to see if Paul\'s teaching was true. The model for discerning Bible study.',
+         refs:'Acts 17:10-15'},
+        {cat:'biblical', name:'Troas', lat:39.7567, lng:26.1717,
+         desc:'Where Paul received the Macedonian vision: "Come over and help us." The gospel crossed from Asia into Europe here.',
+         refs:'Acts 16:8-11; 20:5-12'},
+        {cat:'biblical', name:'Derbe', lat:37.35, lng:33.35,
+         desc:'City in Lycaonia where Paul preached and won many disciples on his first and second missionary journeys. Timothy may have been from this region.',
+         refs:'Acts 14:20-21; 16:1'},
+        {cat:'biblical', name:'Lystra', lat:37.5708, lng:32.3306,
+         desc:'Where Paul healed a lame man and the crowd tried to worship him as Zeus. Paul was later stoned and left for dead but revived. Timothy\'s hometown.',
+         refs:'Acts 14:6-20; 16:1; 2 Timothy 3:11'},
+        {cat:'biblical', name:'Iconium', lat:37.8714, lng:32.4922,
+         desc:'Paul preached here on his first journey but the city divided. He fled when a plot to stone him was discovered.',
+         refs:'Acts 13:51-14:6; 16:2'},
+        {cat:'biblical', name:'Perga', lat:36.9611, lng:30.8531,
+         desc:'City in Pamphylia where John Mark left Paul and Barnabas \u2014 causing them to later part ways.',
+         refs:'Acts 13:13-14; 14:25; 15:38'},
+        {cat:'biblical', name:'Paphos', lat:34.7556, lng:32.4067,
+         desc:'Roman capital of Cyprus. Paul confronted the sorcerer Elymas here and the proconsul Sergius Paulus believed.',
+         refs:'Acts 13:6-12'},
+        {cat:'biblical', name:'Malta (Melita)', lat:35.8989, lng:14.5146,
+         desc:'Island where Paul was shipwrecked. He was bitten by a viper but suffered no harm. He healed many on the island.',
+         refs:'Acts 28:1-10'},
+        {cat:'biblical', name:'Rome', lat:41.8919, lng:12.5113,
+         desc:'Capital of the Roman Empire. Paul was imprisoned here and wrote Ephesians, Philippians, Colossians, Philemon. Tradition holds Peter and Paul were martyred here under Nero.',
+         refs:'Acts 28:14-31; Romans 1:7; Philippians 1:13'},
+        {cat:'biblical', name:'Tarsus', lat:36.917, lng:34.8935,
+         desc:'Paul\'s birthplace in Cilicia. A major university city. "I am a Jew, from Tarsus in Cilicia, a citizen of no obscure city."',
+         refs:'Acts 9:11; 21:39; 22:3'},
+        {cat:'biblical', name:'Miletus', lat:37.5308, lng:27.2783,
+         desc:'Port city where Paul delivered his farewell address to the Ephesian elders. "I did not shrink from declaring the whole counsel of God."',
+         refs:'Acts 20:15-38'},
+
+        // ══════════════════════════════════════════════════════════
+        // ── SEVEN CHURCHES OF REVELATION ──
+        // ══════════════════════════════════════════════════════════
+        {cat:'biblical', name:'Smyrna (\u0130zmir)', lat:38.4192, lng:27.1287,
+         desc:'The suffering church \u2014 "Be faithful unto death and I will give you the crown of life." Polycarp, disciple of John, was martyred here.',
+         refs:'Revelation 2:8-11'},
+        {cat:'biblical', name:'Pergamum', lat:39.1217, lng:26.96,
+         desc:'"Where Satan\'s throne is" \u2014 likely the great altar of Zeus. Home of the first temple of the imperial cult in Asia.',
+         refs:'Revelation 2:12-17'},
+        {cat:'biblical', name:'Thyatira', lat:38.9194, lng:27.8375,
+         desc:'Rebuked for tolerating "Jezebel." Known for purple dye trade \u2014 Lydia of Thyatira was Paul\'s first European convert.',
+         refs:'Revelation 2:18-29; Acts 16:14'},
+        {cat:'biblical', name:'Sardis', lat:38.4869, lng:28.0397,
+         desc:'"You have the reputation of being alive, but you are dead." Once the capital of Croesus, famous for wealth.',
+         refs:'Revelation 3:1-6'},
+        {cat:'biblical', name:'Philadelphia (Ala\u015fehir)', lat:38.35, lng:28.5186,
+         desc:'The faithful church \u2014 "I have set before you an open door." No rebuke from Christ, only encouragement.',
+         refs:'Revelation 3:7-13'},
+        {cat:'biblical', name:'Laodicea', lat:37.8361, lng:29.1081,
+         desc:'The lukewarm church \u2014 "I will spit you out of my mouth." Known for banking, black wool, and eye salve, all used ironically in Christ\'s rebuke.',
+         refs:'Revelation 3:14-22; Colossians 4:16'},
+        {cat:'biblical', name:'Colossae', lat:37.7883, lng:29.2617,
+         desc:'Paul wrote about Christ\'s supremacy over all powers here. The Colossian heresy mixed Jewish mysticism with proto-Gnostic angel worship.',
+         refs:'Colossians 1:15-20; 2:8-15'},
+        {cat:'biblical', name:'Patmos', lat:37.31, lng:26.545,
+         desc:'Island where John received the Revelation. "I was in the Spirit on the Lord\'s day." The divine council throne room of Revelation 4-5 was revealed here.',
+         refs:'Revelation 1:9-11'},
+        {cat:'biblical', name:'Hierapolis', lat:37.9264, lng:29.1264,
+         desc:'Near Laodicea and Colossae. Philip the evangelist is traditionally buried here. Hot springs cascading over white travertine terraces (Pamukkale).',
+         refs:'Colossians 4:13'},
+
+        // ══════════════════════════════════════════════════════════
+        // ── MESOPOTAMIAN / ANE CITIES ──
+        // ══════════════════════════════════════════════════════════
+        {cat:'cultural', name:'Nippur', lat:32.1261, lng:45.2339,
+         desc:'Major Sumerian religious center, seat of Enlil. The Sumerian King List and earliest flood narratives were found here.',
+         refs:'Genesis 10-11'},
+        {cat:'cultural', name:'Eridu', lat:30.815, lng:45.995,
+         desc:'Considered the oldest city in Mesopotamian tradition. The Sumerian King List says "kingship descended from heaven" at Eridu. ANE parallel to Eden.',
+         refs:'Genesis 2:10-14; Genesis 10:10'},
+        {cat:'cultural', name:'Hattusa (Bogazkoy)', lat:40.0167, lng:34.6167,
+         desc:'Capital of the Hittite Empire. Tablets here include treaty forms paralleling Deuteronomy\'s suzerain-vassal covenant structure.',
+         refs:'Genesis 23:3-20; 2 Samuel 11:3'}
     ];
 
     // ── BIBLICAL JOURNEYS ──
@@ -6505,6 +6746,36 @@
             mapLayerGroups[cat] = L.layerGroup();
         });
 
+        // ── Scripture ref → text ID resolver ──
+        var BOOK_TO_TEXT = {
+            'genesis':'genesis','exodus':'exodus','leviticus':'leviticus','numbers':'numbers',
+            'deuteronomy':'deuteronomy','joshua':'joshua','judges':'judges','ruth':'ruth',
+            '1 samuel':'1samuel','2 samuel':'2samuel','1 kings':'1kings','2 kings':'2kings',
+            '1 chronicles':'1chronicles','2 chronicles':'2chronicles','ezra':'ezra','nehemiah':'nehemiah',
+            'esther':'esther','job':'job','psalms':'psalms','psalm':'psalms','proverbs':'proverbs',
+            'ecclesiastes':'ecclesiastes','song of solomon':'songofsolomon','isaiah':'isaiah',
+            'jeremiah':'jeremiah','lamentations':'lamentations','ezekiel':'ezekiel','daniel':'daniel',
+            'hosea':'hosea','joel':'joel','amos':'amos','obadiah':'obadiah','jonah':'jonah',
+            'micah':'micah','nahum':'nahum','habakkuk':'habakkuk','zephaniah':'zephaniah',
+            'haggai':'haggai','zechariah':'zechariah','malachi':'malachi',
+            'matthew':'matthew','mark':'mark','luke':'luke','john':'john','acts':'acts',
+            'romans':'romans','1 corinthians':'1corinthians','2 corinthians':'2corinthians',
+            'galatians':'galatians','ephesians':'ephesians','philippians':'philippians',
+            'colossians':'colossians','1 thessalonians':'1thessalonians','2 thessalonians':'2thessalonians',
+            '1 timothy':'1timothy','2 timothy':'2timothy','titus':'titus','philemon':'philemon',
+            'hebrews':'hebrews','james':'james','1 peter':'1peter','2 peter':'2peter',
+            '1 john':'1john','2 john':'2john','3 john':'3john','jude':'jude','revelation':'revelation',
+            '1 enoch':'1enoch','jubilees':'jubilees','jasher':'jasher'
+        };
+        function parseFirstRef(refs) {
+            if (!refs) return null;
+            var m = refs.match(/^([1-3]?\s?[A-Za-z]+)\s+(\d+)/);
+            if (!m) return null;
+            var book = m[1].trim().toLowerCase();
+            var textId = BOOK_TO_TEXT[book];
+            return textId ? textId : null;
+        }
+
         // Build markers into layer groups
         MAP_SITES.forEach(function(site) {
             var popup = '<div class="map-popup-title">' + site.name + '</div>' +
@@ -6515,6 +6786,11 @@
             popup += '<div class="map-popup-desc">' + site.desc + '</div>';
             if (site.refs) popup += '<div class="map-popup-refs">\ud83d\udcdc ' + site.refs + '</div>';
             if (site.note) popup += '<div class="map-popup-note">\u26a0\ufe0f ' + site.note + '</div>';
+            // "Read in App" button — auto-resolves first scripture ref to a text
+            var linkTextId = parseFirstRef(site.refs);
+            if (linkTextId) {
+                popup += '<button class="map-popup-read-btn" data-text="' + linkTextId + '">\ud83d\udcd6 Read in App \u2192 ' + linkTextId.charAt(0).toUpperCase() + linkTextId.slice(1) + '</button>';
+            }
             popup += '<div class="map-popup-coords">\ud83d\udccd ' + site.lat.toFixed(4) + '\u00b0N, ' + site.lng.toFixed(4) + '\u00b0E</div>';
 
             var marker = L.marker([site.lat, site.lng], {
@@ -6525,6 +6801,24 @@
             mapMarkers.push(marker);
             if (mapLayerGroups[site.cat]) {
                 mapLayerGroups[site.cat].addLayer(marker);
+            }
+        });
+
+        // ── Popup "Read in App" click handler ──
+        mapInstance.on('popupopen', function(e) {
+            var container = e.popup._contentNode || e.popup.getElement();
+            if (!container) return;
+            var btn = container.querySelector('.map-popup-read-btn');
+            if (btn) {
+                btn.addEventListener('click', function(ev) {
+                    ev.stopPropagation();
+                    var tId = this.dataset.text;
+                    if (tId && typeof selectText === 'function') {
+                        mapInstance.closePopup();
+                        document.querySelector('.map-overlay').classList.remove('open');
+                        selectText(tId);
+                    }
+                });
             }
         });
 
@@ -6774,9 +7068,46 @@
 
         mapLayerControl = L.control.layers(mapBaseLayers, mapOverlayLayers, {
             position: 'topleft',
-            collapsed: true,
+            collapsed: false,
             sortLayers: false
         }).addTo(mapInstance);
+
+        // ── Enhance layer control: convert separator entries into styled group headers ──
+        // Also make groups collapsible by clicking the header
+        (function enhanceLayerControl() {
+            var container = mapLayerControl.getContainer();
+            if (!container) return;
+            var labels = container.querySelectorAll('.leaflet-control-layers-overlays label');
+            labels.forEach(function(label) {
+                var span = label.querySelector('span');
+                if (!span) return;
+                var text = span.textContent.trim();
+                // Detect separator entries like "── JOURNEYS ──"
+                if (text.match(/^\u2500\u2500\s*.+\s*\u2500\u2500$/)) {
+                    var groupName = text.replace(/\u2500/g, '').trim();
+                    label.classList.add('map-layer-group-header');
+                    label.innerHTML = '<span class="map-layer-group-toggle">\u25BC</span> ' + groupName;
+                    // Hide the checkbox for separator entries
+                    var input = label.querySelector('input');
+                    if (input) input.style.display = 'none';
+
+                    // Collapsible: click header to toggle next siblings until next header
+                    label.style.cursor = 'pointer';
+                    label.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        var toggle = this.querySelector('.map-layer-group-toggle');
+                        var collapsed = toggle.textContent === '\u25B6';
+                        toggle.textContent = collapsed ? '\u25BC' : '\u25B6';
+                        var sibling = this.nextElementSibling;
+                        while (sibling && !sibling.classList.contains('map-layer-group-header')) {
+                            sibling.style.display = collapsed ? '' : 'none';
+                            sibling = sibling.nextElementSibling;
+                        }
+                    });
+                }
+            });
+        })();
 
         // ── Coordinates display ──
         var coordDiv = L.DomUtil.create('div', 'map-coords-display');
@@ -7123,20 +7454,58 @@
         });
     }
 
-    // ── Patriarch Ages Chart (Genesis 5) ─────────────────────
+    // ── Patriarch Ages Chart (Genesis 5 & 11) ────────────────
     var patriarchChartOverlay = document.getElementById('patriarchChartOverlay');
-    var PATRIARCH_DATA = [
-        { name: 'Adam',       heb: '\u05D0\u05B8\u05D3\u05B8\u05DD',     born: 0,    age: 930, color: '#c9a84c' },
-        { name: 'Seth',       heb: '\u05E9\u05C1\u05B5\u05EA',         born: 130,  age: 912, color: '#d4a843' },
-        { name: 'Enosh',      heb: '\u05D0\u05B1\u05E0\u05D5\u05B9\u05E9\u05C1', born: 235,  age: 905, color: '#c9963c' },
-        { name: 'Kenan',      heb: '\u05E7\u05B5\u05D9\u05E0\u05B8\u05DF',   born: 325,  age: 910, color: '#b8893a' },
-        { name: 'Mahalalel',  heb: '\u05DE\u05B7\u05D4\u05B2\u05DC\u05B7\u05DC\u05B0\u05D0\u05B5\u05DC', born: 395, age: 895, color: '#a67d38' },
-        { name: 'Jared',      heb: '\u05D9\u05B6\u05E8\u05B6\u05D3',       born: 460,  age: 962, color: '#947136' },
-        { name: 'Enoch',      heb: '\u05D7\u05B2\u05E0\u05D5\u05B9\u05DA\u05B0',  born: 622,  age: 365, color: '#6aab73' },
-        { name: 'Methuselah', heb: '\u05DE\u05B0\u05EA\u05D5\u05BC\u05E9\u05C1\u05B6\u05DC\u05B7\u05D7', born: 687, age: 969, color: '#5b8dbf' },
-        { name: 'Lamech',     heb: '\u05DC\u05B6\u05DE\u05B6\u05DA\u05B0',   born: 874,  age: 777, color: '#9b7ec8' },
-        { name: 'Noah',       heb: '\u05E0\u05B9\u05D7\u05B7',         born: 1056, age: 950, color: '#2d9a8f' }
+
+    // Genesis 5 — Adam to Noah (pre-flood)
+    var PATRIARCH_PREFLOOD = [
+        { name: 'Adam',       heb: '\u05D0\u05B8\u05D3\u05B8\u05DD',     born: 0,    age: 930, color: '#c9a84c',
+          meaning: 'Man', root: 'From \u02BEadam\u0101h (\u05D0\u05B2\u05D3\u05B8\u05DE\u05B8\u05D4, ground/earth). Humanity formed from the dust.' },
+        { name: 'Seth',       heb: '\u05E9\u05C1\u05B5\u05EA',         born: 130,  age: 912, color: '#d4a843',
+          meaning: 'Appointed', root: 'From sh\u012Bth (\u05E9\u05C1\u05B4\u05D9\u05EA, to set/appoint). Gen 4:25 \u2014 "God has appointed for me another offspring."' },
+        { name: 'Enosh',      heb: '\u05D0\u05B1\u05E0\u05D5\u05B9\u05E9\u05C1', born: 235,  age: 905, color: '#c9963c',
+          meaning: 'Mortal', root: 'From \u02BEanash (\u05D0\u05B8\u05E0\u05B7\u05E9\u05C1, to be weak/frail). The recognition of human mortality and need for God.' },
+        { name: 'Kenan',      heb: '\u05E7\u05B5\u05D9\u05E0\u05B8\u05DF',   born: 325,  age: 910, color: '#b8893a',
+          meaning: 'Sorrow', root: 'From q\u012Bn\u0101h (\u05E7\u05B4\u05D9\u05E0\u05B8\u05D4, lamentation/dirge). The human condition of grief after the Fall.' },
+        { name: 'Mahalalel',  heb: '\u05DE\u05B7\u05D4\u05B2\u05DC\u05B7\u05DC\u05B0\u05D0\u05B5\u05DC', born: 395, age: 895, color: '#a67d38',
+          meaning: 'Praise of God', root: 'Compound: mahal\u0101l (\u05DE\u05B7\u05D4\u05B2\u05DC\u05B8\u05DC, praise) + \u02BEEl (\u05D0\u05B5\u05DC, God). The Blessed God is worthy of praise.' },
+        { name: 'Jared',      heb: '\u05D9\u05B6\u05E8\u05B6\u05D3',       born: 460,  age: 962, color: '#947136',
+          meaning: 'Shall Come Down', root: 'From y\u0101rad (\u05D9\u05B8\u05E8\u05B7\u05D3, to descend). 1 Enoch tradition: the Watchers descended in Jared\u2019s days.' },
+        { name: 'Enoch',      heb: '\u05D7\u05B2\u05E0\u05D5\u05B9\u05DA\u05B0',  born: 622,  age: 365, color: '#6aab73',
+          meaning: 'Teaching / Dedicated', root: 'From ch\u0101nak (\u05D7\u05B8\u05E0\u05B7\u05DA, to train up/dedicate). He walked with God and was taken (Gen 5:24).' },
+        { name: 'Methuselah', heb: '\u05DE\u05B0\u05EA\u05D5\u05BC\u05E9\u05C1\u05B6\u05DC\u05B7\u05D7', born: 687, age: 969, color: '#5b8dbf',
+          meaning: 'His Death Shall Bring', root: 'Compound: m\u0115t\u016B (\u05DE\u05B5\u05EA\u05D5\u05BC, his death) + sh\u0101lach (\u05E9\u05C1\u05B8\u05DC\u05B7\u05D7, to send). The year he died, the Flood came.' },
+        { name: 'Lamech',     heb: '\u05DC\u05B6\u05DE\u05B6\u05DA\u05B0',   born: 874,  age: 777, color: '#9b7ec8',
+          meaning: 'The Despairing', root: 'Possibly from m\u016Bk (\u05DE\u05D5\u05BC\u05DA, to be brought low). His life of 777 years \u2014 divine perfection tripled.' },
+        { name: 'Noah',       heb: '\u05E0\u05B9\u05D7\u05B7',         born: 1056, age: 950, color: '#2d9a8f',
+          meaning: 'Rest / Comfort', root: 'From n\u016Bach (\u05E0\u05D5\u05BC\u05D7\u05B7, to rest). Gen 5:29 \u2014 "This one shall comfort us from the cursed ground."' }
     ];
+
+    // Genesis 11 — Shem to Abraham (post-flood)
+    var PATRIARCH_POSTFLOOD = [
+        { name: 'Shem',       heb: '\u05E9\u05C1\u05B5\u05DD',         born: 1558, age: 600, color: '#c9a84c',
+          meaning: 'Name / Renown', root: 'Sh\u0113m (\u05E9\u05C1\u05B5\u05DD, name/fame). The line through which YHWH\u2019s Name would be known to the world.' },
+        { name: 'Arpachshad', heb: '\u05D0\u05B7\u05E8\u05B0\u05E4\u05B7\u05DB\u05B0\u05E9\u05C1\u05B7\u05D3', born: 1658, age: 438, color: '#b8a04c',
+          meaning: 'Healer / Boundary', root: 'Uncertain. Possibly "healer from Chaldea" or "stronghold of the boundary." First born after the Flood (Gen 11:10).' },
+        { name: 'Shelah',     heb: '\u05E9\u05C1\u05B6\u05DC\u05B7\u05D7',     born: 1693, age: 433, color: '#a89940',
+          meaning: 'Sent Forth', root: 'From sh\u0101lach (\u05E9\u05C1\u05B8\u05DC\u05B7\u05D7, to send). A sprout sent out \u2014 the line is being purposefully directed.' },
+        { name: 'Eber',       heb: '\u05E2\u05B5\u05D1\u05B6\u05E8',       born: 1723, age: 464, color: '#988f38',
+          meaning: 'One Who Crosses Over', root: 'From \u02BEavar (\u05E2\u05B8\u05D1\u05B7\u05E8, to cross/pass through). Root of "Hebrew" (\u02BEivr\u012B). The people who cross boundaries.' },
+        { name: 'Peleg',      heb: '\u05E4\u05B6\u05BC\u05DC\u05B6\u05D2',     born: 1757, age: 239, color: '#887e30',
+          meaning: 'Division', root: 'From p\u0101lag (\u05E4\u05B8\u05BC\u05DC\u05B7\u05D2, to divide). Gen 10:25 \u2014 "in his days the earth was divided." Tower of Babel event.' },
+        { name: 'Reu',        heb: '\u05E8\u05B0\u05E2\u05D5\u05BC',       born: 1787, age: 239, color: '#786e28',
+          meaning: 'Friend / Shepherd', root: 'From r\u0101\u02BE\u0101h (\u05E8\u05B8\u05E2\u05B8\u05D4, to tend/associate with). Friendship and shepherding \u2014 relational faithfulness.' },
+        { name: 'Serug',      heb: '\u05E9\u05C2\u05B0\u05E8\u05D5\u05BC\u05D2',   born: 1819, age: 230, color: '#685e20',
+          meaning: 'Branch / Tendril', root: 'From s\u0101rag (\u05E9\u05C2\u05B8\u05E8\u05B7\u05D2, to intertwine). A branch growing, intertwining with God\u2019s plan.' },
+        { name: 'Nahor',      heb: '\u05E0\u05B8\u05D7\u05D5\u05B9\u05E8',     born: 1849, age: 148, color: '#585018',
+          meaning: 'Snorting / Ardent', root: 'From n\u0101char (\u05E0\u05B8\u05D7\u05B7\u05E8, to snort/be zealous). Burning desire \u2014 anticipation building toward the promise.' },
+        { name: 'Terah',      heb: '\u05EA\u05B6\u05BC\u05E8\u05B7\u05D7',     born: 1878, age: 205, color: '#484010',
+          meaning: 'Wanderer / Delay', root: 'Possibly from t\u0101rach (to wander/delay). An idolater in Ur (Josh 24:2) \u2014 but God calls his son out.' },
+        { name: 'Abraham',    heb: '\u05D0\u05B7\u05D1\u05B0\u05E8\u05B8\u05D4\u05B8\u05DD', born: 1948, age: 175, color: '#c9a84c',
+          meaning: 'Father of Multitudes', root: 'Originally Abram (\u05D0\u05B7\u05D1\u05B0\u05E8\u05B8\u05DD, exalted father). God renames him (Gen 17:5) \u2014 from one man to all nations.' }
+    ];
+
+    var PATRIARCH_DATA = PATRIARCH_PREFLOOD.concat(PATRIARCH_POSTFLOOD);
     var FLOOD_YEAR = 1656; // AM (Anno Mundi) — Genesis 7:6, Noah was 600
 
     function openPatriarchChart() {
@@ -7150,7 +7519,7 @@
         var content = document.getElementById('patriarchChartContent');
         if (!content) return;
 
-        var maxYear = 2100; // chart extent
+        var maxYear = 2200; // chart extent (Abraham dies 2123 AM)
         var chartWidth = 100; // percentage-based
 
         var html = '<div class="pc-container">';
@@ -7159,12 +7528,40 @@
         html += '<div class="pc-legend">' +
             '<div class="pc-legend-item"><div class="pc-legend-swatch" style="background:#6aab73"></div> Taken by God (Enoch)</div>' +
             '<div class="pc-legend-item"><div class="pc-legend-swatch" style="background:rgba(91,141,191,0.6)"></div> The Flood (1656 AM)</div>' +
-            '<div class="pc-legend-item">Hover/tap bars for details</div>' +
+            '<div class="pc-legend-item"><div class="pc-legend-swatch" style="background:rgba(180,80,60,0.6)"></div> Babel / Division (~1757 AM)</div>' +
+            '<div class="pc-legend-item">Hover/tap bars for name meanings &amp; details</div>' +
             '</div>';
+
+        // ════════════════════════════════════════════════════════
+        // THE GOSPEL HIDDEN IN THE NAMES — Genesis 5
+        // ════════════════════════════════════════════════════════
+        html += '<div class="pc-gospel-message">' +
+            '<h4>\u2721 The Gospel Hidden in the Names \u2014 Genesis 5</h4>' +
+            '<div class="pc-gospel-text">' +
+            '<span class="pc-gm-name">Adam</span> <span class="pc-gm-word">Man</span> ' +
+            '<span class="pc-gm-name">Seth</span> <span class="pc-gm-word">(is) appointed</span> ' +
+            '<span class="pc-gm-name">Enosh</span> <span class="pc-gm-word">mortal</span> ' +
+            '<span class="pc-gm-name">Kenan</span> <span class="pc-gm-word">sorrow;</span> ' +
+            '<span class="pc-gm-name">Mahalalel</span> <span class="pc-gm-word">(but) the Blessed God</span> ' +
+            '<span class="pc-gm-name">Jared</span> <span class="pc-gm-word">shall come down,</span> ' +
+            '<span class="pc-gm-name">Enoch</span> <span class="pc-gm-word">teaching</span> ' +
+            '<span class="pc-gm-name">Methuselah</span> <span class="pc-gm-word">(that) His death shall bring</span> ' +
+            '<span class="pc-gm-name">Lamech</span> <span class="pc-gm-word">(the) despairing</span> ' +
+            '<span class="pc-gm-name">Noah</span> <span class="pc-gm-word">rest.</span>' +
+            '</div>' +
+            '<div class="pc-gospel-note">Read the name meanings in sequence: the entire plan of redemption \u2014 ' +
+            'from the Fall to the coming of Christ \u2014 is encoded in the genealogy of Genesis 5. ' +
+            'This is not eisegesis; each meaning is derived from the Hebrew root given in Scripture itself.</div>' +
+            '</div>';
+
+        // ════════════════════════════════════════════════════════
+        // PRE-FLOOD: Genesis 5 (Adam → Noah)
+        // ════════════════════════════════════════════════════════
+        html += '<div class="pc-section-header"><h4>\u05D1\u05B0\u05BC\u05E8\u05B5\u05D0\u05E9\u05C1\u05B4\u05D9\u05EA &nbsp; Genesis 5 \u2014 Adam to Noah (Pre-Flood)</h4></div>';
 
         // Year axis
         html += '<div class="pc-axis">';
-        for (var y = 0; y <= 2000; y += 200) {
+        for (var y = 0; y <= 2200; y += 200) {
             html += '<span class="pc-axis-label">' + y + '</span>';
         }
         html += '</div>';
@@ -7172,13 +7569,18 @@
         // Chart area with flood line
         html += '<div style="position:relative">';
 
-        // Flood line — positioned relative to the bar tracks (skip 140px name column)
+        // Flood line
         var floodFraction = (FLOOD_YEAR / maxYear).toFixed(4);
         html += '<div class="pc-flood-line" style="left:calc(140px + (100% - 140px) * ' + floodFraction + ')">' +
-            '<div class="pc-flood-label">Flood (1656 AM)</div></div>';
+            '<div class="pc-flood-label">\uD83C\uDF0A Flood (1656 AM)</div></div>';
 
-        // Patriarch rows
-        PATRIARCH_DATA.forEach(function(p) {
+        // Babel line
+        var babelFraction = (1757 / maxYear).toFixed(4);
+        html += '<div class="pc-flood-line" style="left:calc(140px + (100% - 140px) * ' + babelFraction + ');background:rgba(180,80,60,0.5)">' +
+            '<div class="pc-flood-label" style="color:#b4503c">\uD83D\uDDFC Babel (~1757 AM)</div></div>';
+
+        // Pre-flood patriarch rows
+        PATRIARCH_PREFLOOD.forEach(function(p) {
             var startPct = (p.born / maxYear * 100).toFixed(2);
             var widthPct = (p.age / maxYear * 100).toFixed(2);
             var deathYear = p.born + p.age;
@@ -7186,30 +7588,89 @@
             var opacity = p.name === 'Enoch' ? '0.8' : '1';
 
             html += '<div class="pc-row">' +
-                '<div class="pc-name">' + p.name + '<span class="pc-name-heb">' + p.heb + '</span></div>' +
+                '<div class="pc-name">' + p.name +
+                '<span class="pc-name-meaning">\u201C' + p.meaning + '\u201D</span>' +
+                '<span class="pc-name-heb">' + p.heb + '</span></div>' +
                 '<div class="pc-bar-track">' +
                 '<div class="pc-bar" style="left:' + startPct + '%;width:' + widthPct + '%;background:' + p.color + ';opacity:' + opacity + '"' +
                 ' data-patriarch="' + p.name + '"' +
                 ' data-born="' + p.born + '"' +
                 ' data-age="' + p.age + '"' +
                 ' data-death="' + deathYear + '"' +
-                ' data-heb="' + p.heb + '">' +
+                ' data-heb="' + p.heb + '"' +
+                ' data-meaning="' + p.meaning + '"' +
+                ' data-root="' + (p.root || '').replace(/"/g, '&quot;') + '">' +
                 '<span class="pc-bar-label">' + labelText + '</span>' +
                 '</div></div></div>';
         });
 
-        html += '</div>'; // end chart area
+        html += '</div>'; // end pre-flood chart area
 
-        // Stats
+        // ════════════════════════════════════════════════════════
+        // POST-FLOOD: Genesis 11 (Shem → Abraham)
+        // ════════════════════════════════════════════════════════
+        html += '<div class="pc-section-header" style="margin-top:var(--space-lg)"><h4>\u05EA\u05D5\u05B9\u05DC\u05B0\u05D3\u05D5\u05B9\u05EA &nbsp; Genesis 11 \u2014 Shem to Abraham (Post-Flood)</h4></div>';
+
+        // Post-flood year axis
+        html += '<div class="pc-axis">';
+        for (var y2 = 0; y2 <= 2200; y2 += 200) {
+            html += '<span class="pc-axis-label">' + y2 + '</span>';
+        }
+        html += '</div>';
+
+        // Post-flood chart area
+        html += '<div style="position:relative">';
+
+        // Flood + Babel lines (re-draw for context)
+        html += '<div class="pc-flood-line" style="left:calc(140px + (100% - 140px) * ' + floodFraction + ')">' +
+            '<div class="pc-flood-label">\uD83C\uDF0A Flood</div></div>';
+        html += '<div class="pc-flood-line" style="left:calc(140px + (100% - 140px) * ' + babelFraction + ');background:rgba(180,80,60,0.5)">' +
+            '<div class="pc-flood-label" style="color:#b4503c">\uD83D\uDDFC Babel</div></div>';
+
+        // Post-flood patriarch rows
+        PATRIARCH_POSTFLOOD.forEach(function(p) {
+            var startPct = (p.born / maxYear * 100).toFixed(2);
+            var widthPct = (p.age / maxYear * 100).toFixed(2);
+            var deathYear = p.born + p.age;
+            var labelText = p.age + ' yrs';
+
+            html += '<div class="pc-row">' +
+                '<div class="pc-name">' + p.name +
+                '<span class="pc-name-meaning">\u201C' + p.meaning + '\u201D</span>' +
+                '<span class="pc-name-heb">' + p.heb + '</span></div>' +
+                '<div class="pc-bar-track">' +
+                '<div class="pc-bar" style="left:' + startPct + '%;width:' + widthPct + '%;background:' + p.color + '"' +
+                ' data-patriarch="' + p.name + '"' +
+                ' data-born="' + p.born + '"' +
+                ' data-age="' + p.age + '"' +
+                ' data-death="' + deathYear + '"' +
+                ' data-heb="' + p.heb + '"' +
+                ' data-meaning="' + p.meaning + '"' +
+                ' data-root="' + (p.root || '').replace(/"/g, '&quot;') + '">' +
+                '<span class="pc-bar-label">' + labelText + '</span>' +
+                '</div></div></div>';
+        });
+
+        html += '</div>'; // end post-flood chart area
+
+        // ════════════════════════════════════════════════════════
+        // KEY OBSERVATIONS
+        // ════════════════════════════════════════════════════════
         html += '<div class="pc-stats">' +
             '<h4>Key Observations</h4>' +
             '<div class="pc-stats-grid">' +
             '<div class="pc-stat-item"><div class="pc-stat-label">Longest Life</div>Methuselah \u2014 969 years</div>' +
-            '<div class="pc-stat-item"><div class="pc-stat-label">Shortest Life</div>Enoch \u2014 365 years (taken)</div>' +
-            '<div class="pc-stat-item"><div class="pc-stat-label">Methuselah\u2019s Death</div>Year 1656 AM \u2014 the year of the Flood</div>' +
-            '<div class="pc-stat-item"><div class="pc-stat-label">Adam \u2192 Lamech Overlap</div>Adam died when Lamech was 56 \u2014 only 2 links separate Adam from Noah</div>' +
-            '<div class="pc-stat-item"><div class="pc-stat-label">Enoch\u2019s 365 Years</div>Matches days in a solar year \u2014 calendrical symbolism</div>' +
-            '<div class="pc-stat-item"><div class="pc-stat-label">Lamech\u2019s 777 Years</div>The number of divine perfection tripled</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Shortest Life (pre-flood)</div>Enoch \u2014 365 years (taken by God)</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Methuselah\u2019s Death</div>Year 1656 AM \u2014 the exact year of the Flood</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Adam \u2192 Lamech Overlap</div>Adam died when Lamech was 56 \u2014 only 2 oral links from Eden to the Ark</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Shem Outlives Abraham</div>Shem died in 2158 AM \u2014 Abraham died in 2123 AM. Shem survived 35 years longer!</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Dramatic Lifespan Drop</div>Pre-flood average: ~858 yrs. Post-flood drops from 600 (Shem) to 175 (Abraham) \u2014 exponential decay</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Enoch\u2019s 365 Years</div>Matches days in a solar year \u2014 calendrical symbolism; walked with God</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Lamech\u2019s 777 Years</div>The number of divine perfection tripled \u2014 contrast with Lamech of Cain\u2019s line (Gen 4:24)</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Peleg \u2014 Division</div>Named for the division of the earth (Gen 10:25) \u2014 the Tower of Babel and Deut 32:8 allotment of nations</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Eber \u2192 Hebrew</div>The root of \u201CHebrew\u201D (\u02BEivr\u012B) \u2014 \u201Cone who crosses over.\u201D The identity of God\u2019s people as boundary-crossers</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Name Change: Abram \u2192 Abraham</div>God inserts the \u05D4 (heh) from His own name into Abram\u2019s \u2014 \u201Cexalted father\u201D becomes \u201Cfather of multitudes\u201D (Gen 17:5)</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Noah \u2192 Abraham Continuity</div>Noah was still alive when Abraham was born (Noah died 2006, Abraham born 1948). The covenant chain is unbroken.</div>' +
             '</div></div>';
 
         html += '</div>'; // end container
@@ -7243,7 +7704,12 @@
                 (born < FLOOD_YEAR ? 'Survived the Flood' : 'Born after the Flood');
             if (name === 'Enoch') beforeFlood = 'Taken by God (Gen 5:24)';
 
+            var meaning = bar.dataset.meaning || '';
+            var root = bar.dataset.root || '';
+
             tooltip.innerHTML = '<div class="pc-tooltip-name">' + heb + ' ' + name + '</div>' +
+                (meaning ? '<div class="pc-tooltip-meaning">\u201C' + meaning + '\u201D</div>' : '') +
+                (root ? '<div class="pc-tooltip-root">' + root + '</div>' : '') +
                 '<div class="pc-tooltip-detail">' +
                 'Born: ' + born + ' AM<br>' +
                 (name === 'Enoch' ? 'Taken: ' : 'Died: ') + death + ' AM<br>' +

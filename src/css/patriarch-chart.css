@@ -1,6 +1,7 @@
 /* ══════════════════════════════════════════════════════════════
-   Patriarch Ages Chart — Genesis 5 Lifespan Visualization
-   Interactive horizontal bar chart showing overlapping lifespans
+   Patriarch Ages Chart — Genesis 5 & 11 Lifespan Visualization
+   Interactive horizontal bar chart: Adam → Abraham
+   Name meanings, Gospel message, overlapping lifespans
    ══════════════════════════════════════════════════════════════ */
 
 .patriarch-chart-overlay {
@@ -8,9 +9,9 @@
 }
 
 .patriarch-chart-modal {
-    max-width: 900px;
-    width: 95%;
-    max-height: 90vh;
+    max-width: 1000px;
+    width: 96%;
+    max-height: 92vh;
     overflow-y: auto;
 }
 
@@ -43,6 +44,72 @@
     border-radius: 2px;
 }
 
+/* ── Gospel Hidden in the Names ──────────────── */
+.pc-gospel-message {
+    background: linear-gradient(135deg, rgba(201, 168, 76, 0.08), rgba(201, 168, 76, 0.03));
+    border: 1px solid var(--gold-border, rgba(201, 168, 76, 0.3));
+    border-left: 4px solid var(--gold);
+    border-radius: var(--radius-sm);
+    padding: var(--space-md) var(--space-lg);
+    margin-bottom: var(--space-lg);
+}
+
+.pc-gospel-message h4 {
+    color: var(--gold);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+    letter-spacing: 0.5px;
+}
+
+.pc-gospel-text {
+    font-size: 1rem;
+    line-height: 2;
+    color: var(--text-primary);
+    font-style: italic;
+    padding: var(--space-sm) 0;
+}
+
+.pc-gm-name {
+    color: var(--gold);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    vertical-align: super;
+    opacity: 0.7;
+}
+
+.pc-gm-word {
+    font-style: italic;
+    color: var(--text-primary);
+}
+
+.pc-gospel-note {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-top: var(--space-sm);
+    padding-top: var(--space-sm);
+    border-top: 1px solid rgba(201, 168, 76, 0.15);
+}
+
+/* ── Section Headers (Pre/Post-Flood) ────────── */
+.pc-section-header {
+    margin-bottom: var(--space-sm);
+    padding-bottom: var(--space-xs);
+    border-bottom: 2px solid var(--gold-border, rgba(201, 168, 76, 0.3));
+}
+
+.pc-section-header h4 {
+    color: var(--gold);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
 /* ── Year Axis ────────────────────────────────── */
 .pc-axis {
     display: flex;
@@ -62,8 +129,8 @@
 .pc-row {
     display: flex;
     align-items: center;
-    margin-bottom: 4px;
-    min-height: 36px;
+    margin-bottom: 6px;
+    min-height: 44px;
     position: relative;
 }
 
@@ -75,6 +142,16 @@
     font-weight: 500;
     padding-right: var(--space-sm);
     text-align: right;
+    line-height: 1.2;
+}
+
+.pc-name-meaning {
+    display: block;
+    font-size: 0.62rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 1px;
 }
 
 .pc-name-heb {
@@ -118,7 +195,7 @@
 /* ── Tooltip ──────────────────────────────────── */
 .pc-tooltip {
     position: fixed;
-    background: var(--bg-card);
+    background: var(--bg-card, var(--bg-secondary));
     border: 1px solid var(--gold-border, rgba(201, 168, 76, 0.4));
     border-radius: var(--radius-sm);
     padding: var(--space-sm) var(--space-md);
@@ -126,7 +203,7 @@
     color: var(--text-primary);
     pointer-events: none;
     z-index: 9999;
-    max-width: 260px;
+    max-width: 320px;
     box-shadow: var(--shadow-lg);
     display: none;
 }
@@ -139,6 +216,24 @@
     font-weight: 700;
     color: var(--gold);
     margin-bottom: 2px;
+    font-size: 0.95rem;
+}
+
+.pc-tooltip-meaning {
+    color: var(--text-primary);
+    font-style: italic;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.pc-tooltip-root {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border-subtle, rgba(255,255,255,0.08));
 }
 
 .pc-tooltip-detail {
@@ -147,7 +242,7 @@
     line-height: 1.5;
 }
 
-/* ── Flood Marker ─────────────────────────────── */
+/* ── Flood / Babel Markers ───────────────────── */
 .pc-flood-line {
     position: absolute;
     top: 0;
@@ -187,7 +282,7 @@
 
 .pc-stats-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: var(--space-sm);
 }
 
@@ -211,6 +306,9 @@
     .pc-name-heb {
         display: none;
     }
+    .pc-name-meaning {
+        font-size: 0.55rem;
+    }
     .pc-axis {
         padding-left: 90px;
     }
@@ -219,5 +317,16 @@
     }
     .pc-stats-grid {
         grid-template-columns: 1fr;
+    }
+    .pc-gospel-text {
+        font-size: 0.88rem;
+        line-height: 1.8;
+    }
+    .pc-gospel-message {
+        padding: var(--space-sm) var(--space-md);
+    }
+    .patriarch-chart-modal {
+        max-width: 100%;
+        width: 100%;
     }
 }

@@ -877,8 +877,8 @@ def build():
     <div class="progress-overlay patriarch-chart-overlay" id="patriarchChartOverlay">
         <div class="progress-modal patriarch-chart-modal">
             <div class="progress-modal-header">
-                <h2>&#x1F4CA; Patriarch Lifespans — Genesis 5</h2>
-                <p style="margin:0;font-size:0.82rem;color:var(--text-secondary)">Interactive visualization of the overlapping lifespans from Adam to Noah</p>
+                <h2>&#x1F4CA; Patriarch Lifespans — Genesis 5 &amp; 11</h2>
+                <p style="margin:0;font-size:0.82rem;color:var(--text-secondary)">From Adam to Abraham — overlapping lifespans, name meanings, and the Gospel hidden in the genealogy</p>
                 <button class="progress-close" id="patriarchChartClose">&times;</button>
             </div>
             <div id="patriarchChartContent"></div>
