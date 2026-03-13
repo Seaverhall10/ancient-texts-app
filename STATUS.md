@@ -89,7 +89,7 @@ DSS Sectarian, Josephus, Heavenly Court
 
 ### TIER 1 — Content Depth (Major Gaps)
 1. **Minor Prophets section depth** — All 12 books at 25-40% of Genesis depth (51/55 chapters flagged)
-2. **NT era expansion** — Matthew, Luke, John, Acts have only 2 eras each (thin for 20-28 chapter books)
+2. **NT era expansion** — Luke, John still have only 2 eras each (Matthew + Acts now have 5 each)
 3. **DSS Sectarian hebrew_terms** — 26 chapters at 0% coverage
 4. **1 Enoch hebrew_terms** — 55/73 chapters empty (75%)
 5. **Jasher hebrew_terms** — 43/49 chapters empty (88%)
@@ -119,28 +119,53 @@ DSS Sectarian, Josephus, Heavenly Court
 
 | Metric | Value |
 |--------|-------|
-| Total texts | **77** |
-| Total eras | **230** |
-| Study chapters | **978** |
-| Flow translations | **66/77 texts** (all 39 OT + all 27 NT) |
+| Total texts | **80** |
+| Total eras | **246** |
+| Study chapters | **1,049** |
+| Flow translations | **66/80 texts** (all 39 OT + all 27 NT) |
 | Flow verses | **31,101** |
 | Interlinear words (OT) | **306,506** |
 | Interlinear words (NT) | **137,833** |
 | **Total interlinear** | **444,339** |
-| Cross-references | **6,863** |
-| Glossary terms | **567** |
+| Cross-references | **7,096** |
+| Glossary terms | **607** |
 | Religions in Truth Matrix | **52** |
-| CSS component files | **45** |
-| app.js lines | **7,907** |
-| Build output (dev) | ~68 MB HTML |
-| Build output (release) | ~65.5 MB HTML |
-| Mobile shell | ~0.7 MB |
+| CSS component files | **47** |
+| Build output (dev) | ~72 MB HTML |
+| Build output (release) | ~69 MB HTML |
+| Mobile shell | ~0.9 MB |
 | Release ZIP | ~40 MB (PC + Mobile) |
 | Current version | **3.3.0** |
 
 ---
 
-## RECENT CHANGES (2026-03-12)
+## RECENT CHANGES (2026-03-13)
+
+### Session 5 — Visual Polish, Map Enhancements, Name Theology
+- **Patriarch Ages Lifespan Chart** — interactive bar chart (Adam through Abraham)
+- **Ancient World Map**: 70+ biblical cities with scripture cross-links, "Read in App" buttons
+- Map layer control groups with collapsible headers
+- **Name Theology System**: 22 glossary entries (theophoric, prophet, apostle, women, places)
+- 6 era sections with embedded name theology
+- CSS z-index system migrated to custom properties
+- 3 new thematic texts: Biblical Canon, Church History, Zionism & Israel
+
+### Session 6 — NT Era Expansion (Matthew + Acts) + Mobile Map Fix
+- **Matthew**: 3 new deep-dive eras (19 chapters):
+  - Sermon on the Mount (Beatitudes, Antitheses, Lord's Prayer, Two Builders, Kingdom Charter)
+  - Kingdom Parables (Sower, Wheat/Tares, Mustard Seed, Talents, Sheep and Goats)
+  - Olivet Discourse through Great Commission (Passion, Crucifixion, Resurrection)
+- **Acts**: 3 new deep-dive eras (11 chapters):
+  - Pentecost to Persecution (Community, Stephen, Philip, Cornelius breakthrough)
+  - Missionary Journeys + Jerusalem Council (Europe, Athens, Ephesus farewell)
+  - Paul's Trials and Rome (Arrest, Felix/Agrippa, Shipwreck, Gospel unhindered)
+- **Mobile map fix**: Layer control collapsed on mobile (<768px), CSS constraints added
+- Stats: 80 texts → 246 eras → 1,049 chapters → 7,096 cross-refs
+- Commits: f33238b, bf4fb10, 316d0d9
+
+---
+
+## EARLIER CHANGES (2026-03-12)
 
 ### Session 1 — Firebase + NT Depth + Reading Modes
 - Firebase Auth with email/password login and Firestore cloud sync
@@ -183,7 +208,7 @@ DSS Sectarian, Josephus, Heavenly Court
 | `DEPLOY.bat` | One-click: build all → commit → push → deploy gh-pages |
 | `LAUNCH.bat` | Main menu launcher (8 options) |
 | `release.py` | Package versioned release ZIP (PC + Mobile) |
-| `manifest.json` | Master text/era registry (77 texts, 230 eras) |
+| `manifest.json` | Master text/era registry (80 texts, 246 eras) |
 | `CONTENT_MAP.json` | AI navigation index (auto-built) |
 | `pipeline/bible_bound.py` | HAI system prompt builder |
 | `policy/linguistics.yaml` | Ancient linguistics reference data |
