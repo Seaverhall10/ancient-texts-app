@@ -10,6 +10,7 @@ glossary.css
 map.css
 resources.css
 search.css
+search-overlay.css
 bookmarks.css
 sidebar-toggle.css
 responsive.css

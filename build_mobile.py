@@ -336,6 +336,74 @@ def main():
         write_json(os.path.join(DATA_OUT, "religions_detail.json"), religions_detail)
         print(f"  Religions detail: {len(religions_detail)} entries")
 
+    # Search Q&A data
+    import re as _re
+    search_qa_path = os.path.join(DATA_DIR, "search_qa.py")
+    search_qa_data = []
+    if os.path.exists(search_qa_path):
+        qa_mod = load_module("search_qa", search_qa_path)
+        search_qa_data = getattr(qa_mod, "SEARCH_QA", [])
+    if search_qa_data:
+        write_json(os.path.join(DATA_OUT, "search_qa.json"), search_qa_data)
+        print(f"  Search Q&A: {len(search_qa_data)} entries")
+
+    # Pre-build search index for mobile
+    def _strip_html(s):
+        return _re.sub(r'<[^>]+>', ' ', s).replace('&amp;', '&')
+
+    def _build_mobile_search_index():
+        docs = []
+        all_words = set()
+        for era_def in manifest.get("eras", []):
+            chapters = era_data.get(era_def["id"], [])
+            text_id = era_def.get("text", "")
+            for ch in chapters:
+                title = ch.get("title", "") or ""
+                ref = ch.get("ref", title) or title
+                synopsis = ch.get("synopsis", "") or ""
+                body_parts = [title, synopsis]
+                for s in ch.get("sections", []):
+                    body_parts.append(s.get("heading", ""))
+                    body_parts.append(_strip_html(s.get("body", "")))
+                if ch.get("ane_backdrop"): body_parts.append(_strip_html(ch["ane_backdrop"]))
+                if ch.get("divine_council_note"): body_parts.append(_strip_html(ch["divine_council_note"]))
+                st = ch.get("second_temple", [])
+                if isinstance(st, list):
+                    for s in st:
+                        if isinstance(s, dict):
+                            body_parts.append(s.get("source", ""))
+                            body_parts.append(s.get("summary", ""))
+                tokens = _re.sub(r'<[^>]+>', ' ', ' '.join(body_parts).lower())
+                tokens = _re.sub(r'[^\w\s\'-]', ' ', tokens)
+                tokens = ' '.join(tokens.split())[:800]
+                docs.append({'t': 'ch', 'id': ch.get('id',''), 'x': text_id,
+                    'e': era_def['id'], 'ti': title, 'r': ref, 'tk': tokens,
+                    'sn': (synopsis or title)[:150]})
+                for w in _re.findall(r'[a-z]{3,}', (title + ' ' + ref + ' ' + synopsis).lower()):
+                    all_words.add(w)
+        # Glossary
+        for slug, term in glossary.items():
+            trans = term.get("transliteration", slug)
+            defn = term.get("definition", "")
+            gloss_str = term.get("gloss", "")
+            tokens = _re.sub(r'[^\w\s\'-]', ' ', f"{slug} {trans} {gloss_str} {defn}".lower())
+            docs.append({'t': 'gl', 'id': slug, 'ti': f"{trans} ({gloss_str})" if gloss_str else trans,
+                'r': term.get("strongs", ""), 'tk': tokens, 'sn': defn[:150]})
+            for w in _re.findall(r'[a-z]{3,}', f"{slug} {trans} {gloss_str}".lower()):
+                all_words.add(w)
+        word_list = sorted(all_words)
+        bigrams = {}
+        for i, word in enumerate(word_list):
+            for j in range(len(word) - 1):
+                bg = word[j:j+2]
+                if bg not in bigrams: bigrams[bg] = []
+                bigrams[bg].append(i)
+        return {'docs': docs, 'words': word_list, 'bigrams': bigrams}
+
+    mobile_si = _build_mobile_search_index()
+    write_json(os.path.join(DATA_OUT, "search_index.json"), mobile_si)
+    print(f"  Search index: {len(mobile_si['docs'])} docs, {len(mobile_si['words'])} fuzzy words")
+
     # Split era data per text
     eras_by_text = {}
     for era_def in manifest.get("eras", []):
@@ -373,6 +441,8 @@ def main():
     js = js.replace("__CORE_BELIEFS_DATA__", "{}")
     js = js.replace("__RESOURCES_DATA__", "{}")
     js = js.replace("__RELIGIONS_DETAIL_DATA__", "{}")
+    js = js.replace("__SEARCH_QA_DATA__", "[]")
+    js = js.replace("__SEARCH_INDEX_DATA__", '{"docs":[],"words":[],"bigrams":{}}')
 
     # Replace all interlinear placeholders with empty objects
     import re
@@ -525,6 +595,16 @@ def main():
         try {
             GLOSSARY = await _fetchJSON('glossary.json');
         } catch(e) { console.error('Failed to load glossary', e); }
+    }
+
+    async function loadSearchData() {
+        if (SEARCH_QA.length > 0 && SEARCH_INDEX.docs && SEARCH_INDEX.docs.length > 0) return;
+        try {
+            SEARCH_QA = await _fetchJSON('search_qa.json');
+        } catch(e) { console.error('Failed to load search Q&A', e); }
+        try {
+            SEARCH_INDEX = await _fetchJSON('search_index.json');
+        } catch(e) { console.error('Failed to load search index', e); }
     }
 
     async function loadProphecy() {
@@ -1225,59 +1305,14 @@ body.sidebar-open .main-content { overflow: hidden !important; }
         });
     }
 
-    // ── Mobile Search Overlay ─────────────────────────────
-    function openSearchOverlay() {
-        var old = document.getElementById('searchOverlay');
-        if (old) old.remove();
-        var ov = document.createElement('div');
-        ov.className = 'search-full-overlay';
-        ov.id = 'searchOverlay';
-        var h = '<div class="search-full-modal">' +
-            '<div class="search-full-header"><h2>&#x1F50D; Search</h2>' +
-            '<button class="search-full-close" id="searchFullClose">&times;</button></div>' +
-            '<input type="text" class="search-full-input" id="searchFullInput" placeholder="Search chapters, verses, terms..." autocomplete="off" />' +
-            '<div class="search-full-results" id="searchFullResults"></div>' +
-            '</div>';
-        ov.innerHTML = h;
-        document.body.appendChild(ov);
-        var input = document.getElementById('searchFullInput');
-        var results = document.getElementById('searchFullResults');
-        setTimeout(function() { input.focus(); }, 200);
-        document.getElementById('searchFullClose').addEventListener('click', function() { ov.remove(); });
-        ov.addEventListener('click', function(e) { if (e.target === ov) ov.remove(); });
-        var timer = null;
-        input.addEventListener('input', function() {
-            clearTimeout(timer);
-            timer = setTimeout(function() {
-                var q = input.value.trim();
-                if (q.length < 2) { results.innerHTML = ''; return; }
-                if (!searchIndex) buildSearchIndex(true);
-                var matches = searchIndex ? searchIndex.filter(function(item) {
-                    return (item.text || '').toLowerCase().indexOf(q.toLowerCase()) !== -1;
-                }).slice(0, 30) : [];
-                if (matches.length === 0) {
-                    results.innerHTML = '<div class="search-full-empty">No results for "' + q.replace(/</g,'&lt;') + '"</div>';
-                    return;
-                }
-                var rh = '';
-                matches.forEach(function(m) {
-                    rh += '<div class="search-full-item" data-id="' + m.id + '" data-text="' + (m.textId || '') + '">' +
-                        '<div class="search-full-ref">' + (m.ref || m.id) + '</div>' +
-                        '<div class="search-full-snippet">' + m.title + '</div></div>';
-                });
-                results.innerHTML = rh;
-            }, 250);
-        });
-        results.addEventListener('click', function(e) {
-            var item = e.target.closest('.search-full-item');
-            if (item) {
-                ov.remove();
-                var t = item.dataset.text || detectTextFromHash(item.dataset.id);
-                if (t && t !== currentText) selectText(t, true);
-                setTimeout(function() { scrollToChapter(item.dataset.id); }, 200);
-            }
-        });
-    }
+    // ── Mobile Search Overlay (delegates to unified search) ──
+    // The openSearchOverlay() in app.js handles the UI.
+    // Mobile just needs to pre-load the search data first.
+    var _origOpenSearchOverlay = openSearchOverlay;
+    openSearchOverlay = async function() {
+        await loadSearchData();
+        _origOpenSearchOverlay();
+    };
 
     // ── Mobile Bottom Nav Integration ─────────────────────
     document.addEventListener('mobile-nav', function(e) {

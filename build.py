@@ -22,6 +22,7 @@ Build profiles:
 """
 import os
 import sys
+import re as _re
 import json
 import shutil
 import importlib.util
@@ -403,6 +404,145 @@ def build():
         religions_detail = getattr(rel_mod, "RELIGIONS_DETAIL", {})
         print(f"[religions] {len(religions_detail)} religion profiles loaded")
     js = js.replace("__RELIGIONS_DETAIL_DATA__", json.dumps(religions_detail, ensure_ascii=False))
+
+    # ── Search Q&A ────────────────────────────────────────────
+    search_qa_path = os.path.join(DATA_DIR, "search_qa.py")
+    search_qa_data = []
+    if os.path.exists(search_qa_path):
+        qa_mod = load_module("search_qa", search_qa_path)
+        search_qa_data = getattr(qa_mod, "SEARCH_QA", [])
+        print(f"[search-qa] {len(search_qa_data)} Q&A entries loaded")
+    js = js.replace("__SEARCH_QA_DATA__", json.dumps(search_qa_data, ensure_ascii=False))
+
+    # ── Build pre-computed search index ───────────────────────
+    def _strip_html(s):
+        return _re.sub(r'<[^>]+>', ' ', s).replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').replace('&quot;', '"')
+
+    def _build_search_index():
+        docs = []
+        all_words = set()
+
+        # Index study chapters from ERA_DATA
+        for era in manifest.get("eras", []):
+            chapters = era_data.get(era["id"], [])
+            text_id = era.get("text", "")
+            for ch in chapters:
+                title = ch.get("title", "") or ""
+                ref = ch.get("ref", title) or title
+                synopsis = ch.get("synopsis", "") or ""
+                body_parts = [title, synopsis]
+                for s in ch.get("sections", []):
+                    body_parts.append(s.get("heading", ""))
+                    body_parts.append(_strip_html(s.get("body", "")))
+                if ch.get("ane_backdrop"):
+                    body_parts.append(_strip_html(ch["ane_backdrop"]))
+                if ch.get("divine_council_note"):
+                    body_parts.append(_strip_html(ch["divine_council_note"]))
+                st = ch.get("second_temple", [])
+                if isinstance(st, list):
+                    for s in st:
+                        if isinstance(s, dict):
+                            body_parts.append(s.get("source", ""))
+                            body_parts.append(s.get("summary", ""))
+                tokens = ' '.join(body_parts).lower()
+                tokens = _re.sub(r'<[^>]+>', ' ', tokens)
+                tokens = _re.sub(r'[^\w\s\'-]', ' ', tokens)
+                tokens = ' '.join(tokens.split())[:800]  # Cap tokens for index size
+                snippet = (synopsis or title)[:150]
+                docs.append({
+                    't': 'ch', 'id': ch.get('id', ''), 'x': text_id,
+                    'e': era['id'], 'ti': title, 'r': ref,
+                    'tk': tokens, 'sn': snippet
+                })
+                for w in _re.findall(r'[a-z]{3,}', ((title or '') + ' ' + (ref or '') + ' ' + (synopsis or '')).lower()):
+                    all_words.add(w)
+
+        # Index glossary terms
+        for slug, term in glossary.items():
+            trans = term.get("transliteration", slug)
+            defn = term.get("definition", "")
+            gloss_str = term.get("gloss", "")
+            heb = term.get("hebrew", "")
+            tokens = f"{slug} {trans} {heb} {gloss_str} {defn}".lower()
+            tokens = _re.sub(r'[^\w\s\'-]', ' ', tokens)
+            docs.append({
+                't': 'gl', 'id': slug,
+                'ti': f"{trans} ({gloss_str})" if gloss_str else trans,
+                'r': term.get("strongs", ""),
+                'tk': tokens, 'sn': defn[:150]
+            })
+            for w in _re.findall(r'[a-z]{3,}', f"{slug} {trans} {gloss_str}".lower()):
+                all_words.add(w)
+
+        # Index prophecies
+        for p in prophecy_data:
+            title = p.get("title", "")
+            cat = p.get("category", "")
+            tokens = f"{title} {p.get('ot_ref','')} {p.get('nt_ref','')} {p.get('fulfillment','')} {cat}".lower()
+            docs.append({
+                't': 'pr', 'id': p.get('id', ''),
+                'ti': title, 'r': p.get('ot_ref', ''),
+                'tk': tokens, 'sn': p.get('fulfillment', '')[:150]
+            })
+            for w in _re.findall(r'[a-z]{3,}', title.lower()):
+                all_words.add(w)
+
+        # Index religions
+        for slug, rel in religions_detail.items():
+            name = rel.get("name", slug)
+            doc_parts = [name, rel.get("category", "")]
+            for d_id, d_data in rel.get("doctrines", {}).items():
+                if isinstance(d_data, dict):
+                    doc_parts.append(d_data.get("position", ""))
+            tokens = ' '.join(doc_parts).lower()[:600]
+            docs.append({
+                't': 'rl', 'id': slug,
+                'ti': name, 'r': rel.get('category', ''),
+                'tk': tokens,
+                'sn': f"{name} — {rel.get('founded', '')} — {rel.get('adherents', '')}"[:150]
+            })
+            for w in _re.findall(r'[a-z]{3,}', name.lower()):
+                all_words.add(w)
+
+        # Index core beliefs
+        if isinstance(beliefs_data, list):
+            for b in beliefs_data:
+                title = b.get("title", "")
+                tokens = f"{title} {b.get('summary','')} {b.get('council_relevance','')} {b.get('key_hebrew_greek','')}".lower()
+                docs.append({
+                    't': 'bl', 'id': b.get('id', ''),
+                    'ti': title, 'r': b.get('category', ''),
+                    'tk': tokens, 'sn': b.get('summary', '')[:150]
+                })
+
+        # Index resources
+        for r in resources_data:
+            title = r.get("title", "")
+            tokens = f"{title} {r.get('author','')} {r.get('description','')} {' '.join(r.get('tags',[]))}".lower()
+            docs.append({
+                't': 'rs', 'id': r.get('id', ''),
+                'ti': title, 'r': r.get('author', ''),
+                'tk': tokens, 'sn': r.get('description', '')[:150]
+            })
+
+        # Build word dictionary + bigram index
+        word_list = sorted(all_words)
+        bigrams = {}
+        for i, word in enumerate(word_list):
+            for j in range(len(word) - 1):
+                bg = word[j:j+2]
+                if bg not in bigrams:
+                    bigrams[bg] = []
+                bigrams[bg].append(i)
+
+        return {'docs': docs, 'words': word_list, 'bigrams': bigrams}
+
+    search_index = _build_search_index()
+    si_docs = len(search_index['docs'])
+    si_words = len(search_index['words'])
+    si_size = len(json.dumps(search_index, ensure_ascii=False))
+    print(f"[search-index] {si_docs} docs, {si_words} fuzzy words, {si_size:,} chars ({si_size//1024} KB)")
+    js = js.replace("__SEARCH_INDEX_DATA__", json.dumps(search_index, ensure_ascii=False))
 
     # Inject interlinear data per text (OT Hebrew + NT Greek)
     il_books = [

@@ -84,6 +84,8 @@
     const BOOK_PROPHECIES = __PROPHECY_TRACKER_DATA__;
     const CORE_BELIEFS = __CORE_BELIEFS_DATA__;
     const RESOURCES = __RESOURCES_DATA__;
+    var SEARCH_QA = __SEARCH_QA_DATA__;
+    var SEARCH_INDEX = __SEARCH_INDEX_DATA__;
 
     // ── State ───────────────────────────────────────────────
     let currentText = localStorage.getItem('atl-current-text') || null;
@@ -2170,7 +2172,7 @@
         }
 
         // Second Temple sources
-        if (ch.second_temple && ch.second_temple.length > 0) {
+        if (Array.isArray(ch.second_temple) && ch.second_temple.length > 0) {
             html += '<div class="second-temple-box">' +
                 '<div class="callout-label">Second Temple Sources</div>';
             ch.second_temple.forEach(function(s) {
@@ -2840,25 +2842,17 @@
             }, { passive: true });
         })();
 
-        // Search
-        var searchTimer = null;
-        searchInput.addEventListener('input', function() {
-            clearTimeout(searchTimer);
-            searchTimer = setTimeout(function() { performSearch(searchInput.value.trim()); }, 200);
-        });
-
-        searchInput.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') {
-                searchInput.value = '';
-                searchResults.classList.remove('visible');
-            }
+        // Search — sidebar input opens the full overlay
+        searchInput.addEventListener('focus', function() {
+            searchInput.blur();
+            openSearchOverlay();
         });
 
         // Keyboard shortcuts
         document.addEventListener('keydown', function(e) {
             if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
                 e.preventDefault();
-                searchInput.focus();
+                openSearchOverlay();
             }
             if (e.altKey && e.key === 'h') {
                 e.preventDefault();
@@ -3347,183 +3341,519 @@
         });
     }
 
-    // ── Search ──────────────────────────────────────────────
+    // ── Unified Search Engine ─────────────────────────────────
     var flowSearchIndex = null;
+    var searchOverlayActive = false;
+    var activeSearchFilter = 'all';
 
-    function buildSearchIndex(force) {
-        if (searchIndex && !force) return;
-        searchIndex = [];
-
-        MANIFEST.eras.forEach(function(era) {
-            var chapters = ERA_DATA[era.id] || [];
-            chapters.forEach(function(ch) {
-                var text = [ch.title, ch.synopsis || ''];
-
-                if (ch.type === 'html_fragment' && ch.html) {
-                    text.push(ch.html.replace(/<[^>]+>/g, ' '));
-                }
-
-                if (ch.sections) {
-                    ch.sections.forEach(function(s) {
-                        text.push(s.heading);
-                        text.push(s.body);
-                    });
-                }
-                if (ch.ane_backdrop) text.push(ch.ane_backdrop);
-                if (ch.divine_council_note) text.push(ch.divine_council_note);
-                if (ch.second_temple) {
-                    ch.second_temple.forEach(function(s) {
-                        text.push(s.source);
-                        text.push(s.summary);
-                    });
-                }
-
-                searchIndex.push({
-                    id: ch.id,
-                    era: era.id,
-                    textId: era.text,
-                    ref: ch.ref || ch.title,
-                    title: ch.title,
-                    type: ch.type,
-                    text: text.join(' ')
-                });
-            });
-        });
+    // Bigram extraction for fuzzy matching
+    function bigramSet(word) {
+        var bg = [];
+        for (var i = 0; i < word.length - 1; i++) bg.push(word.substring(i, i + 2));
+        return bg;
     }
 
+    // Find similar words using Dice coefficient on bigrams
+    function findSimilarWords(query, threshold) {
+        threshold = threshold || 0.45;
+        if (!SEARCH_INDEX || !SEARCH_INDEX.bigrams) return [];
+        var qBigrams = bigramSet(query.toLowerCase());
+        if (qBigrams.length === 0) return [];
+        var candidates = {};
+        qBigrams.forEach(function(bg) {
+            (SEARCH_INDEX.bigrams[bg] || []).forEach(function(wordIdx) {
+                candidates[wordIdx] = (candidates[wordIdx] || 0) + 1;
+            });
+        });
+        var results = [];
+        var words = SEARCH_INDEX.words;
+        Object.keys(candidates).forEach(function(idx) {
+            var word = words[idx];
+            var wBigrams = bigramSet(word);
+            var dice = (2 * candidates[idx]) / (qBigrams.length + wBigrams.length);
+            if (dice >= threshold && word !== query.toLowerCase()) {
+                results.push({ word: word, score: dice });
+            }
+        });
+        return results.sort(function(a, b) { return b.score - a.score; }).slice(0, 5);
+    }
+
+    // Match Q&A entries by keyword overlap
+    function matchQA(tokens) {
+        if (!SEARCH_QA || !SEARCH_QA.length) return [];
+        var query = tokens.join(' ');
+        var results = [];
+        SEARCH_QA.forEach(function(qa) {
+            var score = 0;
+            var kws = qa.keywords || [];
+            // Check full-phrase match against keywords
+            kws.forEach(function(kw) {
+                if (query.indexOf(kw.toLowerCase()) >= 0) score += 3;
+            });
+            // Check individual token matches
+            tokens.forEach(function(token) {
+                kws.forEach(function(kw) {
+                    if (kw.toLowerCase().indexOf(token) >= 0) score += 1;
+                });
+                // Check question text
+                if (qa.question.toLowerCase().indexOf(token) >= 0) score += 1;
+            });
+            if (score >= 3 || (tokens.length <= 2 && score >= 2)) {
+                results.push({ qa: qa, score: score });
+            }
+        });
+        return results.sort(function(a, b) { return b.score - a.score; }).slice(0, 3);
+    }
+
+    // Search the pre-built index (chapters, glossary, prophecies, religions, beliefs, resources)
+    function searchPreBuiltIndex(tokens, filter) {
+        if (!SEARCH_INDEX || !SEARCH_INDEX.docs) return [];
+        var phrase = tokens.join(' ');
+        var results = [];
+        var typeMap = { 'ch': 'study', 'gl': 'glossary', 'pr': 'prophecy', 'rl': 'religion', 'bl': 'belief', 'rs': 'resource' };
+        var filterType = null;
+        if (filter === 'study') filterType = 'ch';
+        else if (filter === 'glossary') filterType = 'gl';
+        else if (filter === 'prophecy') filterType = 'pr';
+        else if (filter === 'religion') filterType = 'rl';
+
+        SEARCH_INDEX.docs.forEach(function(doc) {
+            if (filterType && doc.t !== filterType) return;
+            var score = 0;
+            var titleLow = doc.ti.toLowerCase();
+            var refLow = (doc.r || '').toLowerCase();
+            var tokLow = doc.tk;
+
+            // Exact phrase in tokens
+            if (tokLow.indexOf(phrase) >= 0) score += 5;
+
+            // Title matches
+            tokens.forEach(function(t) {
+                if (titleLow.indexOf(t) >= 0) score += 10;
+                if (refLow.indexOf(t) >= 0) score += 8;
+                if (tokLow.indexOf(t) >= 0) score += 3;
+            });
+
+            // All tokens present bonus
+            var allPresent = tokens.every(function(t) { return tokLow.indexOf(t) >= 0; });
+            if (allPresent && tokens.length > 1) score += 4;
+
+            if (score > 0) {
+                // Extract context snippet
+                var context = doc.sn || '';
+                var idx = tokLow.indexOf(tokens[0]);
+                if (idx >= 0 && doc.tk.length > 150) {
+                    var start = Math.max(0, idx - 40);
+                    var end = Math.min(doc.tk.length, idx + 80);
+                    context = (start > 0 ? '...' : '') + doc.tk.substring(start, end) + (end < doc.tk.length ? '...' : '');
+                }
+                results.push({
+                    type: typeMap[doc.t] || 'study',
+                    docType: doc.t,
+                    id: doc.id,
+                    textId: doc.x || '',
+                    eraId: doc.e || '',
+                    title: doc.ti,
+                    ref: doc.r || '',
+                    snippet: context,
+                    score: score
+                });
+            }
+        });
+        return results.sort(function(a, b) { return b.score - a.score; }).slice(0, 30);
+    }
+
+    // Build flow verse index lazily
     function buildFlowSearchIndex() {
         if (flowSearchIndex) return;
         flowSearchIndex = [];
-
         texts.forEach(function(t) {
             var il = getTextInterlinear(t.id);
             if (!il || Object.keys(il).length === 0) return;
             var bookName = t.name;
-
             Object.keys(il).forEach(function(chKey) {
                 var chNum = parseInt(chKey);
                 var chData = il[chKey];
                 if (!chData || !chData.verses) return;
-
                 chData.verses.forEach(function(verse) {
                     if (!verse.flow) return;
                     flowSearchIndex.push({
-                        textId: t.id,
-                        bookName: bookName,
-                        ch: chNum,
-                        v: verse.num,
-                        flow: verse.flow,
-                        note: verse.note || ''
+                        textId: t.id, bookName: bookName,
+                        ch: chNum, v: verse.num,
+                        flow: verse.flow, note: verse.note || ''
                     });
                 });
             });
         });
     }
 
+    // Search flow verses
+    function searchFlowVerses(tokens) {
+        buildFlowSearchIndex();
+        if (!flowSearchIndex) return [];
+        var phrase = tokens.join(' ');
+        var results = [];
+        flowSearchIndex.forEach(function(entry) {
+            var flowLower = entry.flow.toLowerCase();
+            var idx = flowLower.indexOf(phrase);
+            if (idx < 0) {
+                // Try all tokens present
+                var all = tokens.every(function(t) { return flowLower.indexOf(t) >= 0; });
+                if (!all) return;
+                idx = flowLower.indexOf(tokens[0]);
+            }
+            if (idx >= 0) {
+                var start = Math.max(0, idx - 30);
+                var end = Math.min(entry.flow.length, idx + 70);
+                var context = (start > 0 ? '...' : '') + entry.flow.substring(start, end) + (end < entry.flow.length ? '...' : '');
+                results.push({
+                    type: 'verse', docType: 'vs',
+                    id: null, textId: entry.textId,
+                    ref: entry.bookName + ' ' + entry.ch + ':' + entry.v,
+                    title: entry.bookName + ' ' + entry.ch + ':' + entry.v,
+                    snippet: context, score: 5,
+                    ch: entry.ch
+                });
+            }
+        });
+        return results.slice(0, 20);
+    }
+
+    // Recent searches
+    function saveRecentSearch(query) {
+        var recent = JSON.parse(localStorage.getItem('atl-recent-searches') || '[]');
+        recent = recent.filter(function(s) { return s !== query; });
+        recent.unshift(query);
+        if (recent.length > 10) recent = recent.slice(0, 10);
+        localStorage.setItem('atl-recent-searches', JSON.stringify(recent));
+    }
+    function getRecentSearches() {
+        return JSON.parse(localStorage.getItem('atl-recent-searches') || '[]');
+    }
+
+    // Type badge config
+    var searchBadges = {
+        qa:       { label: 'Q&A',      cls: 'badge-qa' },
+        study:    { label: 'Study',     cls: 'badge-study' },
+        verse:    { label: 'Verse',     cls: 'badge-verse' },
+        glossary: { label: 'Term',      cls: 'badge-glossary' },
+        prophecy: { label: 'Prophecy',  cls: 'badge-prophecy' },
+        religion: { label: 'Religion',  cls: 'badge-religion' },
+        belief:   { label: 'Belief',    cls: 'badge-belief' },
+        resource: { label: 'Resource',  cls: 'badge-resource' }
+    };
+
+    // ── Search Overlay ────────────────────────────────────────
+    function openSearchOverlay() {
+        if (searchOverlayActive) return;
+        searchOverlayActive = true;
+        activeSearchFilter = 'all';
+
+        var overlay = document.createElement('div');
+        overlay.id = 'searchOverlayUnified';
+        overlay.className = 'search-overlay-unified';
+        overlay.innerHTML =
+            '<div class="search-overlay-backdrop"></div>' +
+            '<div class="search-overlay-panel">' +
+                '<div class="search-overlay-header">' +
+                    '<div class="search-overlay-input-wrap">' +
+                        '<span class="search-overlay-icon">\ud83d\udd0d</span>' +
+                        '<input type="text" id="searchOverlayInput" class="search-overlay-input" placeholder="Search everything... chapters, verses, glossary, questions" autocomplete="off" />' +
+                        '<kbd class="search-overlay-esc">ESC</kbd>' +
+                    '</div>' +
+                    '<div class="search-overlay-filters" id="searchFilters">' +
+                        '<button class="search-filter-chip active" data-filter="all">All</button>' +
+                        '<button class="search-filter-chip" data-filter="study">Study</button>' +
+                        '<button class="search-filter-chip" data-filter="verse">Verses</button>' +
+                        '<button class="search-filter-chip" data-filter="glossary">Glossary</button>' +
+                        '<button class="search-filter-chip" data-filter="qa">Q&A</button>' +
+                        '<button class="search-filter-chip" data-filter="prophecy">Prophecy</button>' +
+                        '<button class="search-filter-chip" data-filter="religion">Religions</button>' +
+                    '</div>' +
+                '</div>' +
+                '<div class="search-overlay-results" id="searchOverlayResults"></div>' +
+            '</div>';
+
+        document.body.appendChild(overlay);
+
+        var input = document.getElementById('searchOverlayInput');
+        var resultsEl = document.getElementById('searchOverlayResults');
+        var filtersEl = document.getElementById('searchFilters');
+        var debounce = null;
+
+        // Show recent searches
+        showRecentSearches(resultsEl);
+
+        // Focus input
+        setTimeout(function() { input.focus(); }, 50);
+
+        // Filter chips
+        filtersEl.addEventListener('click', function(e) {
+            var chip = e.target.closest('.search-filter-chip');
+            if (!chip) return;
+            filtersEl.querySelectorAll('.search-filter-chip').forEach(function(c) { c.classList.remove('active'); });
+            chip.classList.add('active');
+            activeSearchFilter = chip.dataset.filter;
+            if (input.value.trim().length >= 2) executeUnifiedSearch(input.value.trim(), resultsEl);
+        });
+
+        // Input handler with debounce
+        input.addEventListener('input', function() {
+            clearTimeout(debounce);
+            debounce = setTimeout(function() {
+                var q = input.value.trim();
+                if (q.length < 2) { showRecentSearches(resultsEl); return; }
+                executeUnifiedSearch(q, resultsEl);
+            }, 200);
+        });
+
+        // Close handlers
+        function closeOverlay() {
+            overlay.remove();
+            searchOverlayActive = false;
+        }
+        overlay.querySelector('.search-overlay-backdrop').addEventListener('click', closeOverlay);
+        overlay.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeOverlay();
+        });
+    }
+
+    function showRecentSearches(container) {
+        var recent = getRecentSearches();
+        if (recent.length === 0) {
+            container.innerHTML = '<div class="search-overlay-empty">' +
+                '<div class="search-empty-icon">\ud83d\udd0d</div>' +
+                '<div class="search-empty-text">Search across all ' + MANIFEST.texts.length + ' texts, ' +
+                (SEARCH_INDEX.docs ? SEARCH_INDEX.docs.length : 0) + ' indexed items, and ' +
+                (SEARCH_QA ? SEARCH_QA.length : 0) + ' curated answers</div></div>';
+            return;
+        }
+        var html = '<div class="search-recent-header">Recent Searches</div>';
+        recent.forEach(function(s) {
+            html += '<div class="search-recent-item" data-query="' + escAttr(s) + '">' +
+                '<span class="search-recent-icon">\u23f0</span> ' + s + '</div>';
+        });
+        container.innerHTML = html;
+        container.querySelectorAll('.search-recent-item').forEach(function(item) {
+            item.addEventListener('click', function() {
+                var q = item.dataset.query;
+                document.getElementById('searchOverlayInput').value = q;
+                executeUnifiedSearch(q, container);
+            });
+        });
+    }
+
+    function executeUnifiedSearch(query, container) {
+        logEvent('search', query);
+        saveRecentSearch(query);
+        var tokens = query.toLowerCase().split(/\s+/).filter(function(t) { return t.length >= 2; });
+        if (tokens.length === 0) { container.innerHTML = ''; return; }
+        var filter = activeSearchFilter;
+        var html = '';
+        var qaResults = [];
+
+        // Phase 1: Q&A matches (shown first, most prominent)
+        if (filter === 'all' || filter === 'qa') {
+            qaResults = matchQA(tokens);
+            qaResults.forEach(function(r) {
+                html += '<div class="search-result-qa">' +
+                    '<div class="result-badge badge-qa">Q&A</div>' +
+                    '<div class="qa-question">' + r.qa.question + '</div>' +
+                    '<div class="qa-answer">' + r.qa.answer.substring(0, 250) + (r.qa.answer.length > 250 ? '...' : '') + '</div>' +
+                    '<div class="qa-nav-links">';
+                (r.qa.nav_targets || []).forEach(function(nav) {
+                    html += '<a class="qa-nav-link" data-nav-type="' + nav.type + '" data-nav-id="' + (nav.id || nav.term || '') + '">' + nav.label + '</a>';
+                });
+                html += '</div></div>';
+            });
+        }
+
+        // Phase 2: Pre-built index (chapters, glossary, prophecy, religions, beliefs, resources)
+        var indexFilter = (filter === 'all' || filter === 'qa' || filter === 'verse') ? null : filter;
+        if (filter !== 'verse' && filter !== 'qa') {
+            var indexResults = searchPreBuiltIndex(tokens, indexFilter);
+            // Fuzzy suggestions — if few results, try corrected spelling and merge
+            var suggestions = [];
+            if (indexResults.length < 3) {
+                var correctedTokens = [];
+                tokens.forEach(function(t) {
+                    var similar = findSimilarWords(t, 0.45);
+                    if (similar.length > 0) {
+                        suggestions.push({ original: t, suggested: similar[0].word });
+                        correctedTokens.push(similar[0].word);
+                    } else {
+                        correctedTokens.push(t);
+                    }
+                });
+                // Auto-search with corrected tokens and merge unique results
+                if (suggestions.length > 0) {
+                    var fuzzyResults = searchPreBuiltIndex(correctedTokens, indexFilter);
+                    var existingIds = {};
+                    indexResults.forEach(function(r) { existingIds[r.id || r.title] = true; });
+                    fuzzyResults.forEach(function(r) {
+                        if (!existingIds[r.id || r.title]) indexResults.push(r);
+                    });
+                    // Also search Q&A with corrected tokens
+                    if ((filter === 'all' || filter === 'qa') && qaResults.length === 0) {
+                        var fuzzyQA = matchQA(correctedTokens);
+                        fuzzyQA.forEach(function(r) {
+                            html += '<div class="search-result-qa">' +
+                                '<div class="result-badge badge-qa">Q&A</div>' +
+                                '<div class="qa-question">' + r.qa.question + '</div>' +
+                                '<div class="qa-answer">' + r.qa.answer.substring(0, 250) + (r.qa.answer.length > 250 ? '...' : '') + '</div>' +
+                                '<div class="qa-nav-links">';
+                            (r.qa.nav_targets || []).forEach(function(nav) {
+                                html += '<a class="qa-nav-link" data-nav-type="' + nav.type + '" data-nav-id="' + (nav.id || nav.term || '') + '">' + nav.label + '</a>';
+                            });
+                            html += '</div></div>';
+                        });
+                    }
+                }
+            }
+            if (suggestions.length > 0) {
+                var sugText = suggestions.map(function(s) {
+                    return '<a class="search-suggest-link" data-suggest="' + escAttr(s.suggested) + '">' + s.suggested + '</a>';
+                }).join(', ');
+                html += '<div class="search-did-you-mean">Did you mean: ' + sugText + '</div>';
+            }
+
+            var highlightQ = suggestions.length > 0 ? suggestions.map(function(s){return s.suggested;}).concat(tokens).join('|') : query;
+            var re = new RegExp('(' + highlightQ.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+            indexResults.forEach(function(r) {
+                var badge = searchBadges[r.type] || searchBadges.study;
+                var textName = r.textId ? getTextName(r.textId) : '';
+                var refLine = textName ? (textName + (r.ref ? ' \u2014 ' + r.ref : '')) : r.ref;
+                html += '<div class="search-result-item" data-type="' + r.docType + '" data-id="' + (r.id || '') + '" data-text="' + (r.textId || '') + '" data-era="' + (r.eraId || '') + '">' +
+                    '<div class="result-badge ' + badge.cls + '">' + badge.label + '</div>' +
+                    '<div class="result-title">' + r.title + '</div>' +
+                    (refLine ? '<div class="result-ref">' + refLine + '</div>' : '') +
+                    '<div class="result-context">' + r.snippet.replace(re, '<mark>$1</mark>') + '</div>' +
+                    '</div>';
+            });
+        }
+
+        // Phase 3: Verse search (if filter allows)
+        if (filter === 'all' || filter === 'verse') {
+            var verseResults = searchFlowVerses(tokens);
+            if (verseResults.length > 0 && filter === 'all') {
+                html += '<div class="search-section-header">Verse Matches (' + verseResults.length + ')</div>';
+            }
+            var reV = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+            verseResults.forEach(function(r) {
+                html += '<div class="search-result-item" data-type="vs" data-text="' + r.textId + '" data-ch="' + (r.ch || '') + '">' +
+                    '<div class="result-badge badge-verse">Verse</div>' +
+                    '<div class="result-title">' + r.ref + '</div>' +
+                    '<div class="result-context">' + r.snippet.replace(reV, '<mark>$1</mark>') + '</div>' +
+                    '</div>';
+            });
+        }
+
+        if (!html) {
+            html = '<div class="search-overlay-empty"><div class="search-empty-text">No results for "' + escAttr(query) + '"</div></div>';
+        }
+
+        container.innerHTML = html;
+
+        // Wire click handlers for results
+        container.querySelectorAll('.search-result-item').forEach(function(item) {
+            item.addEventListener('click', function() {
+                closeSearchOverlay();
+                var dtype = item.dataset.type;
+                var textId = item.dataset.text;
+                var id = item.dataset.id;
+
+                if (dtype === 'vs') {
+                    // Verse: open interlinear pane
+                    var chNum = parseInt(item.dataset.ch);
+                    if (textId && textId !== currentText) selectText(textId, true);
+                    if (chNum) { currentILBook = textId; renderInterlinear(chNum); setReadingPane(true); }
+                } else if (dtype === 'gl') {
+                    // Glossary term
+                    openGlossary(id);
+                } else if (dtype === 'ch') {
+                    // Study chapter
+                    if (textId && textId !== currentText) selectText(textId, true);
+                    if (id) requestAnimationFrame(function() { location.hash = id; });
+                } else if (dtype === 'rl') {
+                    // Religion — open matrix with religion selected
+                    openMatrix();
+                } else if (dtype === 'rs') {
+                    // Resource
+                    openResources();
+                } else {
+                    // Default: try chapter navigation
+                    if (textId && textId !== currentText) selectText(textId, true);
+                    if (id) requestAnimationFrame(function() { location.hash = id; });
+                }
+            });
+        });
+
+        // Wire Q&A navigation links
+        container.querySelectorAll('.qa-nav-link').forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.stopPropagation();
+                closeSearchOverlay();
+                var navType = link.dataset.navType;
+                var navId = link.dataset.navId;
+                if (navType === 'glossary') {
+                    openGlossary(navId);
+                } else if (navType === 'chapter' && navId) {
+                    // Find which text has this chapter
+                    for (var i = 0; i < MANIFEST.eras.length; i++) {
+                        var era = MANIFEST.eras[i];
+                        var chs = ERA_DATA[era.id] || [];
+                        for (var j = 0; j < chs.length; j++) {
+                            if (chs[j].id === navId) {
+                                if (era.text !== currentText) selectText(era.text, true);
+                                requestAnimationFrame(function() { location.hash = navId; });
+                                return;
+                            }
+                        }
+                    }
+                }
+            });
+        });
+
+        // Wire "Did you mean?" links
+        container.querySelectorAll('.search-suggest-link').forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                var q = link.dataset.suggest;
+                var input = document.getElementById('searchOverlayInput');
+                if (input) input.value = q;
+                executeUnifiedSearch(q, container);
+            });
+        });
+    }
+
+    function closeSearchOverlay() {
+        var overlay = document.getElementById('searchOverlayUnified');
+        if (overlay) overlay.remove();
+        searchOverlayActive = false;
+    }
+
+    // Legacy performSearch — redirects to the overlay
     function performSearch(query) {
         if (!query || query.length < 2) {
             searchResults.classList.remove('visible');
             return;
         }
-        logEvent('search', query);
-
-        buildSearchIndex();
-        var lower = query.toLowerCase();
-        var results = [];
-
-        // Search study chapters (era content)
-        searchIndex.forEach(function(entry) {
-            var score = 0;
-            if (entry.title.toLowerCase().includes(lower)) score += 10;
-            if (entry.ref.toLowerCase().includes(lower)) score += 8;
-            if (entry.text.toLowerCase().includes(lower)) score += 3;
-            if (score > 0) {
-                var textLower = entry.text.toLowerCase();
-                var idx = textLower.indexOf(lower);
-                var context = '';
-                if (idx >= 0) {
-                    var start = Math.max(0, idx - 40);
-                    var end = Math.min(entry.text.length, idx + query.length + 60);
-                    context = (start > 0 ? '...' : '') +
-                              entry.text.substring(start, end) +
-                              (end < entry.text.length ? '...' : '');
-                }
-                results.push({ id: entry.id, era: entry.era, textId: entry.textId,
-                    ref: entry.ref, title: entry.title, score: score, context: context,
-                    isVerse: false });
+        // Open the full overlay with the query
+        openSearchOverlay();
+        setTimeout(function() {
+            var input = document.getElementById('searchOverlayInput');
+            if (input) {
+                input.value = query;
+                var resultsEl = document.getElementById('searchOverlayResults');
+                if (resultsEl) executeUnifiedSearch(query, resultsEl);
             }
-        });
+        }, 100);
+        searchResults.classList.remove('visible');
+    }
 
-        // Search flow translations (verse text)
-        buildFlowSearchIndex();
-        flowSearchIndex.forEach(function(entry) {
-            var flowLower = entry.flow.toLowerCase();
-            var noteLower = entry.note.toLowerCase();
-            var idx = flowLower.indexOf(lower);
-            var noteIdx = noteLower.indexOf(lower);
-            if (idx >= 0 || noteIdx >= 0) {
-                var source = idx >= 0 ? entry.flow : entry.note;
-                var srcIdx = idx >= 0 ? idx : noteIdx;
-                var start = Math.max(0, srcIdx - 30);
-                var end = Math.min(source.length, srcIdx + query.length + 50);
-                var context = (start > 0 ? '...' : '') +
-                              source.substring(start, end) +
-                              (end < source.length ? '...' : '');
-                results.push({
-                    id: null,
-                    textId: entry.textId,
-                    ref: entry.bookName + ' ' + entry.ch + ':' + entry.v,
-                    title: entry.bookName + ' ' + entry.ch + ':' + entry.v,
-                    score: idx >= 0 ? 5 : 2,
-                    context: context,
-                    isVerse: true,
-                    ch: entry.ch
-                });
-            }
-        });
-
-        results.sort(function(a, b) { return b.score - a.score; });
-        var top = results.slice(0, 15);
-
-        if (top.length === 0) {
-            searchResults.innerHTML = '<div class="search-result-item"><span class="result-context">No results found</span></div>';
-        } else {
-            var re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
-            searchResults.innerHTML = top.map(function(r) {
-                var textName = getTextName(r.textId);
-                var badge = r.isVerse ? '<span class="result-badge">verse</span>' : '';
-                return '<div class="search-result-item" data-id="' + (r.id || '') + '" data-text="' + r.textId + '" data-ch="' + (r.ch || '') + '" data-verse="' + (r.isVerse ? '1' : '') + '">' +
-                    '<div class="result-ref">' + badge + textName + ' \u2014 ' + r.ref + '</div>' +
-                    '<div class="result-context">' + r.context.replace(re, '<mark>$1</mark>') + '</div></div>';
-            }).join('');
-
-            searchResults.querySelectorAll('.search-result-item').forEach(function(item) {
-                item.addEventListener('click', function() {
-                    searchResults.classList.remove('visible');
-                    searchInput.value = '';
-                    var textId = item.dataset.text;
-                    var isVerse = item.dataset.verse === '1';
-                    var chNum = parseInt(item.dataset.ch);
-
-                    if (isVerse && textId && chNum) {
-                        // Navigate to the book + chapter in interlinear reading pane
-                        if (textId !== currentText) selectText(textId, true);
-                        currentILBook = textId;
-                        renderInterlinear(chNum);
-                        setReadingPane(true);
-                    } else {
-                        if (textId && textId !== currentText) {
-                            selectText(textId, true);
-                        }
-                        requestAnimationFrame(function() {
-                            location.hash = item.dataset.id;
-                        });
-                    }
-                });
-            });
-        }
-
-        searchResults.classList.add('visible');
+    // Legacy buildSearchIndex — now a no-op (index is pre-built)
+    function buildSearchIndex(force) {
+        // Pre-built index loaded at init, no action needed
     }
 
     // ── Cross-Reference Drawer ──────────────────────────────
@@ -4721,7 +5051,7 @@
             md.push('');
         }
 
-        if (ch.second_temple && ch.second_temple.length > 0) {
+        if (Array.isArray(ch.second_temple) && ch.second_temple.length > 0) {
             md.push('### Second Temple Sources');
             ch.second_temple.forEach(function(s) {
                 md.push('- **' + s.source + '** — ' + s.summary);
