@@ -6,6 +6,7 @@ Reads the app's content as a human student would and generates feedback:
   - theologian mode: checks theological consistency across all content
   - crossref mode: validates every cross-reference in era files
   - qa mode: structural validation — manifest, verse counts, file integrity
+  - map-audit mode: validates map journey data integrity — waypoints, refs, coordinates
 
 Usage:
     python agents/reader.py --mode student --text genesis
@@ -14,6 +15,7 @@ Usage:
     python agents/reader.py --mode crossref --text isaiah
     python agents/reader.py --mode qa
     python agents/reader.py --mode qa --verbose
+    python agents/reader.py --mode map-audit
 """
 
 import os
@@ -543,13 +545,151 @@ def run_qa_mode(manifest, verbose=False):
             print(f'  ⚠️ {w}')
 
 
+# ── Map Data Integrity Audit ──────────────────────────────────────────────────
+
+def run_map_audit():
+    """Validate map journey data integrity — waypoint counts, refs, coordinates, ordering."""
+    print("\n" + "="*60)
+    print("MAP DATA INTEGRITY AUDIT")
+    print("="*60)
+
+    app_js = os.path.join(ROOT, 'src', 'js', 'app.js')
+    if not os.path.exists(app_js):
+        print("ERROR: app.js not found")
+        return
+
+    with open(app_js, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    findings = []
+
+    # Count journeys — find the MAP_JOURNEYS section (comes AFTER MAP_SITES in the file)
+    mj_start = content.find('var MAP_JOURNEYS = [')
+    if mj_start == -1:
+        print("ERROR: MAP_JOURNEYS array not found in app.js")
+        return 1
+    # Find the closing ]; of MAP_JOURNEYS
+    mj_end = content.find('\n    ];', mj_start)
+    if mj_end == -1:
+        mj_end = len(content)
+    mj_section = content[mj_start:mj_end]
+    journey_ids = re.findall(r"id:\s*'([^']+)'", mj_section)
+    print(f"\nFound {len(journey_ids)} journeys")
+
+    # Check for required journey routes
+    REQUIRED_JOURNEYS = [
+        'abraham', 'exodus', 'conquest', 'david_flight',
+        'jesus_galilee', 'jesus_final_week',
+        'paul_journey1', 'paul_journey2', 'paul_journey3'
+    ]
+    for req in REQUIRED_JOURNEYS:
+        if req not in journey_ids:
+            findings.append(('CRITICAL', f"Required journey '{req}' is MISSING"))
+
+    # Extract all waypoints with their journey context
+    # Use the already-extracted MAP_JOURNEYS section
+    journey_section = mj_section
+
+    # Count waypoints per journey
+    total_waypoints = 0
+    total_with_desc = 0
+    total_with_ref = 0
+
+    for jid in journey_ids:
+        # Find this journey's waypoints section
+        j_start = journey_section.find(f"id: '{jid}'")
+        if j_start == -1:
+            continue
+
+        # Count lat/lng pairs until next journey or end
+        next_journey = len(journey_section)
+        for next_id in journey_ids:
+            if next_id == jid:
+                continue
+            pos = journey_section.find(f"id: '{next_id}'", j_start + 1)
+            if pos != -1 and pos < next_journey:
+                next_journey = pos
+
+        j_section = journey_section[j_start:next_journey]
+        wp_count = len(re.findall(r'lat:', j_section))
+        desc_count = len(re.findall(r"desc:'", j_section))
+        ref_count = len(re.findall(r"ref:'", j_section))
+
+        total_waypoints += wp_count
+        total_with_desc += desc_count
+        total_with_ref += ref_count
+
+        if wp_count < 3:
+            findings.append(('WARNING', f"Journey '{jid}' has only {wp_count} waypoints (min 3)"))
+
+        print(f"  {jid}: {wp_count} waypoints, {desc_count} with desc, {ref_count} with refs")
+
+    # Summary stats
+    desc_pct = (total_with_desc / total_waypoints * 100) if total_waypoints else 0
+    ref_pct = (total_with_ref / total_waypoints * 100) if total_waypoints else 0
+
+    print(f"\nTOTALS: {total_waypoints} waypoints, {desc_pct:.0f}% with descriptions, {ref_pct:.0f}% with refs")
+
+    # Check BOOK_TO_TEXT mapping exists
+    if 'BOOK_TO_TEXT' not in content:
+        findings.append(('CRITICAL', "BOOK_TO_TEXT mapping not found — 'Read in App' links won't work"))
+    else:
+        btt_count = len(re.findall(r"'[^']+'\s*:\s*'[^']+'", content[content.find('BOOK_TO_TEXT'):content.find('BOOK_TO_TEXT') + 2000]))
+        print(f"  BOOK_TO_TEXT: {btt_count} mappings")
+        if btt_count < 50:
+            findings.append(('WARNING', f"Only {btt_count} BOOK_TO_TEXT mappings (expected 50+)"))
+
+    # Check epoch separators exist
+    if 'journeyEpochs' not in content:
+        findings.append(('WARNING', "Epoch separator headers not found in layer control"))
+
+    # Check site markers
+    site_count = len(re.findall(r"MAP_SITES", content))
+    if site_count < 1:
+        findings.append(('WARNING', "MAP_SITES array not found"))
+
+    # Print findings
+    print(f"\n{'─'*60}")
+    critical = [f for f in findings if f[0] == 'CRITICAL']
+    warnings = [f for f in findings if f[0] == 'WARNING']
+
+    if critical:
+        print(f"\n🔴 CRITICAL ({len(critical)}):")
+        for level, msg in critical:
+            print(f"  • {msg}")
+
+    if warnings:
+        print(f"\n🟡 WARNINGS ({len(warnings)}):")
+        for level, msg in warnings:
+            print(f"  • {msg}")
+
+    if not findings:
+        print("\n🟢 All map data checks passed!")
+
+    # Write report
+    report_content = f"# Map Data Integrity Audit\n\nDate: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n"
+    report_content += f"## Summary\n- Journeys: {len(journey_ids)}\n- Total waypoints: {total_waypoints}\n"
+    report_content += f"- Description coverage: {desc_pct:.0f}%\n- Reference coverage: {ref_pct:.0f}%\n\n"
+
+    if findings:
+        report_content += "## Findings\n\n"
+        for level, msg in findings:
+            report_content += f"- **[{level}]** {msg}\n"
+    else:
+        report_content += "## Result: ALL CHECKS PASSED\n"
+
+    write_report('map_audit', report_content)
+
+    return len(critical)
+
+
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(
         description='THE READER — Content Quality Agent for Ancient Texts Study App'
     )
-    parser.add_argument('--mode', choices=['student', 'theologian', 'crossref', 'qa'],
+    parser.add_argument('--mode', choices=['student', 'theologian', 'crossref', 'qa', 'map-audit'],
                         default='qa', help='Reading mode')
     parser.add_argument('--text', default='all',
                         help='Text ID (e.g. genesis, matthew, nt, ot, all)')
@@ -570,6 +710,9 @@ def main():
         run_theologian_mode(text_ids, manifest, all_eras=args.all_eras)
     elif args.mode == 'crossref':
         run_crossref_mode(text_ids, manifest, verbose=args.verbose)
+    elif args.mode == 'map-audit':
+        critical_count = run_map_audit()
+        sys.exit(1 if critical_count else 0)
 
 
 if __name__ == '__main__':

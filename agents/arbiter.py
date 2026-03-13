@@ -17,10 +17,15 @@ import argparse
 import importlib.util
 from datetime import datetime
 
+# Windows UTF-8 fix
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from agents.config import (
     ARBITER_API_KEY, ARBITER_MODEL, ARBITER_TEMPERATURE,
-    DATA_DIR, MANIFEST_PATH, REPORTS_DIR,
+    DATA_DIR, MANIFEST_PATH, REPORTS_DIR, PROJECT_ROOT,
     THEOLOGICAL_GUIDELINES, AUDIT_LEVELS, MAX_TOKENS_ARBITER
 )
 
@@ -325,11 +330,88 @@ def generate_report(findings, report_name="audit"):
     return report_path
 
 
+# ── Map Journey Theological Audit ──────────────────────────────
+def audit_map_theological():
+    """Audit MAP_JOURNEYS waypoint descriptions for theological accuracy (local, free)."""
+    findings = []
+    app_js = os.path.join(PROJECT_ROOT, 'src', 'js', 'app.js')
+
+    if not os.path.exists(app_js):
+        findings.append(('CRITICAL', 'map_theological', 'app.js not found'))
+        return findings
+
+    with open(app_js, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Extract all waypoint descriptions
+    desc_pattern = r"desc:\s*'([^']*(?:\\.[^']*)*)'"
+    descriptions = re.findall(desc_pattern, content)
+
+    # Theological checks (local, no API needed)
+    SETHITE_TERMS = ['sethite', 'line of seth', 'godly line', 'seth\'s descendants married']
+    CANONICAL_VIOLATIONS = ['the bible says about 1 enoch', 'scripture teaches that jubilees',
+                           'the bible says about jasher', 'biblical book of enoch']
+    DIVINE_COUNCIL_DENIALS = ['merely poetic', 'just metaphor', 'only symbolic',
+                              'monotheism means no divine council']
+    WRONG_DEUT32 = ['sons of israel', 'children of israel']  # Should be 'sons of God' per DSS/LXX
+
+    for i, desc in enumerate(descriptions):
+        desc_lower = desc.lower().replace('\\u2019', "'").replace('\\u2014', '\u2014')
+
+        # Check Sethite contamination
+        for term in SETHITE_TERMS:
+            if term in desc_lower:
+                findings.append(('CRITICAL', f'desc_{i}',
+                    f'Sethite view contamination: "{term}" found. Gen 6 sons of God = divine/angelic beings.'))
+
+        # Check canonical language violations
+        for term in CANONICAL_VIOLATIONS:
+            if term in desc_lower:
+                findings.append(('CRITICAL', f'desc_{i}',
+                    f'Canonical violation: "{term}". Non-canonical texts must use "According to [source]..."'))
+
+        # Check divine council denial
+        for term in DIVINE_COUNCIL_DENIALS:
+            if term in desc_lower:
+                findings.append(('WARNING', f'desc_{i}',
+                    f'Divine council theology weakened: "{term}". Ps 82, Deut 32:8-9 = real heavenly admin.'))
+
+        # Check Deut 32:8 reading
+        if 'deut' in desc_lower and '32:8' in desc_lower:
+            for term in WRONG_DEUT32:
+                if term in desc_lower:
+                    findings.append(('CRITICAL', f'desc_{i}',
+                        f'Wrong Deut 32:8 reading: "{term}". Must use DSS/LXX "sons of God" not MT "sons of Israel".'))
+
+        # Check evidence tier markers
+        if '[c]' in desc_lower or '(c-level' in desc_lower or 'c level' in desc_lower:
+            # C-level claims should be clearly marked as ancient parallels, not presented as fact
+            if 'tradition' not in desc_lower and 'legend' not in desc_lower and 'parallel' not in desc_lower:
+                findings.append(('WARNING', f'desc_{i}',
+                    'C-level evidence claim not clearly qualified as tradition/legend/parallel.'))
+
+        # Check for Hebrew/Greek transliteration consistency
+        TRANSLITERATION_FIXES = {
+            'semjaza': 'Shemihazah',
+            'semyaza': 'Shemihazah',
+            'azazael': 'Azazel',
+            'sheol': None,  # OK as-is
+        }
+        for wrong, correct in TRANSLITERATION_FIXES.items():
+            if correct and wrong in desc_lower:
+                findings.append(('INFO', f'desc_{i}',
+                    f'Transliteration: "{wrong}" should be "{correct}"'))
+
+    print(f"  Scanned {len(descriptions)} waypoint descriptions for theological accuracy")
+    return findings
+
+
 def main():
     parser = argparse.ArgumentParser(description="THE ARBITER \u2014 Quality Audit Agent")
     parser.add_argument("--audit-all", action="store_true", help="Run full local audit")
     parser.add_argument("--file", type=str, help="AI-audit a specific file")
     parser.add_argument("--text", type=str, help="Audit all eras for a text")
+    parser.add_argument('--map', action='store_true', help='Audit MAP_JOURNEYS theological accuracy')
     args = parser.parse_args()
 
     print(f"\n{'='*60}")
@@ -340,12 +422,32 @@ def main():
     if args.audit_all:
         print("[arbiter] Running full local audit...")
         findings = run_local_audit()
+
+        print("\n\u2694\ufe0f  Auditing map theological accuracy...")
+        map_findings = audit_map_theological()
+        for level, source, msg in map_findings:
+            findings.append({
+                "level": level,
+                "chapter": source,
+                "era": "map_journeys",
+                "rule": "map_theological",
+                "message": msg
+            })
+
         report = generate_report(findings, "full_audit")
         print(f"\n  Found {len(findings)} issues.")
         critical = sum(1 for f in findings if f["level"] == "CRITICAL")
         if critical > 0:
             print(f"  [!] {critical} CRITICAL issues require attention!")
         return findings
+
+    elif args.map:
+        print("\u2694\ufe0f  Auditing map theological accuracy...")
+        findings = audit_map_theological()
+        for level, source, msg in findings:
+            print(f"  [{level}] {source}: {msg}")
+        print(f"\nTotal: {len(findings)} findings")
+        sys.exit(1 if any(f[0] == 'CRITICAL' for f in findings) else 0)
 
     elif args.file:
         print(f"[arbiter] AI audit of: {args.file}")

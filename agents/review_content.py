@@ -279,6 +279,38 @@ def run_phase1(text_ids, manifest):
         print(f"       [!] Lector term audit error: {e}")
         results["lector_term_findings"] = []
 
+    # --- 1f. Map journey & Claude Code work audit ---
+    print("\n  [1f] Running map journey & Claude Code audit...")
+    try:
+        from audit_claude_work import audit_map_journeys, audit_colors, audit_coordinates, audit_read_links, audit_waypoint_descriptions
+        map_findings = []
+        map_findings.extend(audit_map_journeys())
+        map_findings.extend(audit_colors())
+        map_findings.extend(audit_coordinates())
+        map_findings.extend(audit_read_links())
+        map_findings.extend(audit_waypoint_descriptions())
+        crit = sum(1 for f in map_findings if f[0] == 'CRITICAL')
+        warn = sum(1 for f in map_findings if f[0] == 'WARNING')
+        info = sum(1 for f in map_findings if f[0] == 'INFO')
+        print(f"       Map audit: CRITICAL: {crit}  |  WARNING: {warn}  |  INFO: {info}")
+        results["map_findings"] = map_findings
+    except Exception as e:
+        print(f"       [!] Map audit error: {e}")
+        results["map_findings"] = []
+
+    # --- 1g. Arbiter theological check on map descriptions ---
+    print("\n  [1g] Running Arbiter theological check on map descriptions...")
+    try:
+        from arbiter import audit_map_theological
+        theo_findings = audit_map_theological()
+        crit = sum(1 for f in theo_findings if f[0] == 'CRITICAL')
+        warn = sum(1 for f in theo_findings if f[0] == 'WARNING')
+        print(f"       Theological: CRITICAL: {crit}  |  WARNING: {warn}")
+        results["map_theological_findings"] = theo_findings
+    except Exception as e:
+        print(f"       [!] Arbiter map theological error: {e}")
+        results["map_theological_findings"] = []
+
     return results
 
 

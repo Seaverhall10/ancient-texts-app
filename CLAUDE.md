@@ -76,3 +76,13 @@ Phase 4 ⬜ Testing + CI/CD
 ## RULE: Research Before Inventing
 Always mine existing era files + flow files for patterns before writing new ones.
 Genesis, Exodus, Isaiah, Romans are the best template references.
+
+## RULE: Delegate to Agents (MANDATORY)
+Minimize main conversation token usage by delegating to Task agents:
+- **5+ edits** → batch into a `general-purpose` agent
+- **3+ file reads** for research → `Explore` agent (model: haiku)
+- **Data writing** (journeys, eras, glossary) → `general-purpose` agent
+- **Builds & deploys** → `Bash` agent (run_in_background: true)
+- **Parallel work** → launch multiple agents simultaneously
+- **Main thread** = coordinate, small edits, communicate with user only
+- Use `model: "haiku"` for straightforward tasks, `"sonnet"` for complex reasoning
