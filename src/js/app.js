@@ -1473,6 +1473,7 @@
             '<div class="library-tool-card" data-action="show-prophecy"><span class="tool-icon">\uD83D\uDD2E</span><span class="tool-label">Prophecy</span></div>' +
             '<div class="library-tool-card" data-action="show-hebrew"><span class="tool-icon">\u05D0</span><span class="tool-label">Learn Hebrew</span></div>' +
             '<div class="library-tool-card" data-action="show-glossary"><span class="tool-icon">\uD83D\uDCD6</span><span class="tool-label">Glossary</span></div>' +
+            '<div class="library-tool-card" data-action="show-patriarch-chart"><span class="tool-icon">\uD83D\uDCCA</span><span class="tool-label">Patriarch Ages</span></div>' +
             '</div></div>';
 
         // Ancient Library — non-canonical texts grouped by source
@@ -2121,8 +2122,10 @@
         var textDef = getTextDef(era.text);
         var cat = textDef ? getCategoryDef(textDef.category) : null;
 
+        var isThematic = textDef && textDef.category === 'thematic';
         var modeClass = readingMode !== 'study' ? ' mode-' + readingMode : '';
-        var html = '<div class="chapter-card' + (isRead ? ' chapter-read' : '') + modeClass + '" id="' + ch.id + '" style="--era-color:' + era.color + '">' +
+        var thematicClass = isThematic ? ' thematic-chapter' : '';
+        var html = '<div class="chapter-card' + (isRead ? ' chapter-read' : '') + modeClass + thematicClass + '" id="' + ch.id + '" style="--era-color:' + era.color + '">' +
             '<div style="position:absolute;top:0;left:0;right:0;height:3px;background:' + era.color + ';border-radius:6px 6px 0 0"></div>' +
             '<label class="read-check-label" title="Mark as read"><input type="checkbox" class="read-check" data-id="' + ch.id + '"' + (isRead ? ' checked' : '') + '></label>' +
             '<button class="chapter-copy-btn" data-id="' + ch.id + '" title="Copy study content">&#x1F4CB;</button>' +
@@ -2150,6 +2153,15 @@
                 '</div>';
         }
 
+        // Evidence tier legend for thematic chapters
+        if (isThematic) {
+            html += '<div class="evidence-legend">' +
+                '<div class="evidence-legend-item"><span class="evidence-badge badge-a">A</span> Direct Scripture</div>' +
+                '<div class="evidence-legend-item"><span class="evidence-badge badge-b">B</span> Valid Inference</div>' +
+                '<div class="evidence-legend-item"><span class="evidence-badge badge-c">C</span> Ancient Parallels</div>' +
+                '</div>';
+        }
+
         // Key verse
         if (ch.key_verse) {
             html += '<div class="scripture-block">' +
@@ -2159,9 +2171,13 @@
                 '</div>';
         }
 
-        // Hebrew terms
+        // Hebrew terms — handle both glossary keys (strings) and inline objects ({term, meaning})
         if (ch.hebrew_terms && ch.hebrew_terms.length > 0) {
-            html += renderTermsGrid(ch.hebrew_terms);
+            if (isThematic && typeof ch.hebrew_terms[0] === 'object') {
+                html += renderThematicTerms(ch.hebrew_terms);
+            } else {
+                html += renderTermsGrid(ch.hebrew_terms);
+            }
         }
 
         // ANE backdrop
@@ -2228,9 +2244,16 @@
         if (ch.sections && ch.sections.length > 0) {
             html += '<div class="chapter-sections">';
             ch.sections.forEach(function(sec) {
+                var body = sec.body;
+                // Convert evidence tier markers [A], [B], [C] to styled badges in thematic chapters
+                if (isThematic) {
+                    body = body.replace(/\[A\]/g, '<span class="evidence-badge badge-a">A</span>');
+                    body = body.replace(/\[B\]/g, '<span class="evidence-badge badge-b">B</span>');
+                    body = body.replace(/\[C\]/g, '<span class="evidence-badge badge-c">C</span>');
+                }
                 html += '<div class="section-block">' +
                     '<h4>' + sec.heading + '</h4>' +
-                    '<div class="section-body">' + sec.body + '</div></div>';
+                    '<div class="section-body">' + body + '</div></div>';
             });
             html += '</div>';
         }
@@ -2349,6 +2372,20 @@
         }
 
         html += '</div>';
+        return html;
+    }
+
+    // ── Thematic Terms (inline objects with term + meaning) ──
+    function renderThematicTerms(terms) {
+        if (!terms || terms.length === 0) return '';
+        var html = '<div class="thematic-terms-section"><h4>Key Terms</h4>' +
+            '<div class="thematic-terms-grid">';
+        terms.forEach(function(t) {
+            html += '<div class="thematic-term-card">' +
+                '<div class="tt-term">' + (t.term || '') + '</div>' +
+                '<div class="tt-meaning">' + (t.meaning || '') + '</div></div>';
+        });
+        html += '</div></div>';
         return html;
     }
 
@@ -2532,6 +2569,7 @@
                 else if (action === 'show-prophecy') showProphecyMatrix();
                 else if (action === 'show-hebrew') openHebrew();
                 else if (action === 'show-glossary') openGlossary();
+                else if (action === 'show-patriarch-chart') openPatriarchChart();
                 return;
             }
 
@@ -2893,6 +2931,7 @@
                 closeProgress();
                 closeMatrix();
                 closeTimeline();
+                closePatriarchChart();
             }
             // ? key opens keyboard shortcut help (only when not typing in an input)
             if (e.key === '?' && !e.ctrlKey && !e.altKey && !e.metaKey) {
@@ -2951,6 +2990,13 @@
         document.getElementById('timelineBtn').addEventListener('click', openTimeline);
         document.getElementById('timelineClose').addEventListener('click', closeTimeline);
         timelineOverlay.addEventListener('click', function(e) { if (e.target === timelineOverlay) closeTimeline(); });
+
+        // Patriarch Ages Chart
+        var patriarchBtn = document.getElementById('patriarchChartBtn');
+        if (patriarchBtn) patriarchBtn.addEventListener('click', openPatriarchChart);
+        var patriarchClose = document.getElementById('patriarchChartClose');
+        if (patriarchClose) patriarchClose.addEventListener('click', closePatriarchChart);
+        if (patriarchChartOverlay) patriarchChartOverlay.addEventListener('click', function(e) { if (e.target === patriarchChartOverlay) closePatriarchChart(); });
         // Keyboard Shortcut Help
         var shortcutHelpOverlay = document.getElementById('shortcutHelp');
         document.getElementById('shortcutHelpBtn').addEventListener('click', function() {
@@ -3170,6 +3216,7 @@
         closeMap();
         closeMatrix();
         closeTimeline();
+        closePatriarchChart();
         closeXrefDrawer();
         closeSidebarMobile();
         // Close mobile search overlay if open
@@ -6749,6 +6796,90 @@
         var oldFilter = document.getElementById('mapFilterBar');
         if (oldFilter) oldFilter.style.display = 'none';
 
+        // ── Map Search ──
+        var mapSearchInput = document.getElementById('mapSearchInput');
+        var mapSearchResults = document.getElementById('mapSearchResults');
+
+        if (mapSearchInput) {
+            // Build searchable items list: sites + empires + journeys + giant zones
+            var searchableItems = [];
+            MAP_SITES.forEach(function(s) {
+                searchableItems.push({ name: s.name, cat: (mapCategories[s.cat] || {}).label || s.cat, type: 'site', lat: s.lat, lng: s.lng, data: s });
+            });
+            empires.forEach(function(emp) {
+                var center = emp.coords.reduce(function(a, c) { return [a[0] + c[0], a[1] + c[1]]; }, [0, 0]);
+                center = [center[0] / emp.coords.length, center[1] / emp.coords.length];
+                searchableItems.push({ name: emp.name, cat: 'Empire', type: 'empire', lat: center[0], lng: center[1] });
+            });
+            MAP_JOURNEYS.forEach(function(j) {
+                var mid = j.waypoints[Math.floor(j.waypoints.length / 2)];
+                searchableItems.push({ name: j.name, cat: 'Journey', type: 'journey', lat: mid.lat, lng: mid.lng });
+            });
+            giantZones.forEach(function(gz) {
+                var center = gz.coords.reduce(function(a, c) { return [a[0] + c[0], a[1] + c[1]]; }, [0, 0]);
+                center = [center[0] / gz.coords.length, center[1] / gz.coords.length];
+                searchableItems.push({ name: gz.name, cat: 'Giant Territory', type: 'giant', lat: center[0], lng: center[1] });
+            });
+
+            mapSearchInput.addEventListener('input', function() {
+                var q = this.value.toLowerCase().trim();
+                if (q.length < 2) { mapSearchResults.classList.remove('open'); return; }
+                var matches = searchableItems.filter(function(item) {
+                    return item.name.toLowerCase().indexOf(q) !== -1 || item.cat.toLowerCase().indexOf(q) !== -1;
+                }).slice(0, 12);
+                if (matches.length === 0) {
+                    mapSearchResults.innerHTML = '<div class="map-search-no-results">No results for "' + q + '"</div>';
+                } else {
+                    mapSearchResults.innerHTML = matches.map(function(m) {
+                        return '<div class="map-search-result" data-lat="' + m.lat + '" data-lng="' + m.lng + '" data-type="' + m.type + '">' +
+                            '<div class="map-search-result-name">' + m.name + '</div>' +
+                            '<div class="map-search-result-cat">' + m.cat + '</div></div>';
+                    }).join('');
+                }
+                mapSearchResults.classList.add('open');
+            });
+
+            mapSearchResults.addEventListener('click', function(e) {
+                var item = e.target.closest('.map-search-result');
+                if (!item) return;
+                var lat = parseFloat(item.dataset.lat);
+                var lng = parseFloat(item.dataset.lng);
+                mapInstance.setView([lat, lng], 10, { animate: true });
+                mapSearchResults.classList.remove('open');
+                mapSearchInput.value = '';
+                // Open popup if it's a site marker
+                if (item.dataset.type === 'site') {
+                    var name = item.querySelector('.map-search-result-name').textContent;
+                    mapMarkers.forEach(function(marker) {
+                        if (marker._siteData && marker._siteData.name === name) {
+                            // Ensure the layer is visible
+                            var cat = marker._siteData.cat;
+                            if (mapLayerGroups[cat] && !mapInstance.hasLayer(mapLayerGroups[cat])) {
+                                mapLayerGroups[cat].addTo(mapInstance);
+                            }
+                            marker.openPopup();
+                        }
+                    });
+                }
+            });
+
+            // Close search on click outside
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.map-search-box')) {
+                    mapSearchResults.classList.remove('open');
+                }
+            });
+
+            // Close search on Escape
+            mapSearchInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    mapSearchResults.classList.remove('open');
+                    mapSearchInput.value = '';
+                    mapSearchInput.blur();
+                }
+            });
+        }
+
         setTimeout(function() { mapInstance.invalidateSize(); }, 200);
     }
 
@@ -6989,6 +7120,165 @@
     if (religionDetailOverlay) {
         religionDetailOverlay.addEventListener('click', function(e) {
             if (e.target === religionDetailOverlay) closeReligionDetail();
+        });
+    }
+
+    // ── Patriarch Ages Chart (Genesis 5) ─────────────────────
+    var patriarchChartOverlay = document.getElementById('patriarchChartOverlay');
+    var PATRIARCH_DATA = [
+        { name: 'Adam',       heb: '\u05D0\u05B8\u05D3\u05B8\u05DD',     born: 0,    age: 930, color: '#c9a84c' },
+        { name: 'Seth',       heb: '\u05E9\u05C1\u05B5\u05EA',         born: 130,  age: 912, color: '#d4a843' },
+        { name: 'Enosh',      heb: '\u05D0\u05B1\u05E0\u05D5\u05B9\u05E9\u05C1', born: 235,  age: 905, color: '#c9963c' },
+        { name: 'Kenan',      heb: '\u05E7\u05B5\u05D9\u05E0\u05B8\u05DF',   born: 325,  age: 910, color: '#b8893a' },
+        { name: 'Mahalalel',  heb: '\u05DE\u05B7\u05D4\u05B2\u05DC\u05B7\u05DC\u05B0\u05D0\u05B5\u05DC', born: 395, age: 895, color: '#a67d38' },
+        { name: 'Jared',      heb: '\u05D9\u05B6\u05E8\u05B6\u05D3',       born: 460,  age: 962, color: '#947136' },
+        { name: 'Enoch',      heb: '\u05D7\u05B2\u05E0\u05D5\u05B9\u05DA\u05B0',  born: 622,  age: 365, color: '#6aab73' },
+        { name: 'Methuselah', heb: '\u05DE\u05B0\u05EA\u05D5\u05BC\u05E9\u05C1\u05B6\u05DC\u05B7\u05D7', born: 687, age: 969, color: '#5b8dbf' },
+        { name: 'Lamech',     heb: '\u05DC\u05B6\u05DE\u05B6\u05DA\u05B0',   born: 874,  age: 777, color: '#9b7ec8' },
+        { name: 'Noah',       heb: '\u05E0\u05B9\u05D7\u05B7',         born: 1056, age: 950, color: '#2d9a8f' }
+    ];
+    var FLOOD_YEAR = 1656; // AM (Anno Mundi) — Genesis 7:6, Noah was 600
+
+    function openPatriarchChart() {
+        logEvent('feature', 'patriarch_chart');
+        renderPatriarchChart();
+        patriarchChartOverlay.classList.add('open');
+    }
+    function closePatriarchChart() { patriarchChartOverlay.classList.remove('open'); }
+
+    function renderPatriarchChart() {
+        var content = document.getElementById('patriarchChartContent');
+        if (!content) return;
+
+        var maxYear = 2100; // chart extent
+        var chartWidth = 100; // percentage-based
+
+        var html = '<div class="pc-container">';
+
+        // Legend
+        html += '<div class="pc-legend">' +
+            '<div class="pc-legend-item"><div class="pc-legend-swatch" style="background:#6aab73"></div> Taken by God (Enoch)</div>' +
+            '<div class="pc-legend-item"><div class="pc-legend-swatch" style="background:rgba(91,141,191,0.6)"></div> The Flood (1656 AM)</div>' +
+            '<div class="pc-legend-item">Hover/tap bars for details</div>' +
+            '</div>';
+
+        // Year axis
+        html += '<div class="pc-axis">';
+        for (var y = 0; y <= 2000; y += 200) {
+            html += '<span class="pc-axis-label">' + y + '</span>';
+        }
+        html += '</div>';
+
+        // Chart area with flood line
+        html += '<div style="position:relative">';
+
+        // Flood line — positioned relative to the bar tracks (skip 140px name column)
+        var floodFraction = (FLOOD_YEAR / maxYear).toFixed(4);
+        html += '<div class="pc-flood-line" style="left:calc(140px + (100% - 140px) * ' + floodFraction + ')">' +
+            '<div class="pc-flood-label">Flood (1656 AM)</div></div>';
+
+        // Patriarch rows
+        PATRIARCH_DATA.forEach(function(p) {
+            var startPct = (p.born / maxYear * 100).toFixed(2);
+            var widthPct = (p.age / maxYear * 100).toFixed(2);
+            var deathYear = p.born + p.age;
+            var labelText = p.age + ' yrs';
+            var opacity = p.name === 'Enoch' ? '0.8' : '1';
+
+            html += '<div class="pc-row">' +
+                '<div class="pc-name">' + p.name + '<span class="pc-name-heb">' + p.heb + '</span></div>' +
+                '<div class="pc-bar-track">' +
+                '<div class="pc-bar" style="left:' + startPct + '%;width:' + widthPct + '%;background:' + p.color + ';opacity:' + opacity + '"' +
+                ' data-patriarch="' + p.name + '"' +
+                ' data-born="' + p.born + '"' +
+                ' data-age="' + p.age + '"' +
+                ' data-death="' + deathYear + '"' +
+                ' data-heb="' + p.heb + '">' +
+                '<span class="pc-bar-label">' + labelText + '</span>' +
+                '</div></div></div>';
+        });
+
+        html += '</div>'; // end chart area
+
+        // Stats
+        html += '<div class="pc-stats">' +
+            '<h4>Key Observations</h4>' +
+            '<div class="pc-stats-grid">' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Longest Life</div>Methuselah \u2014 969 years</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Shortest Life</div>Enoch \u2014 365 years (taken)</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Methuselah\u2019s Death</div>Year 1656 AM \u2014 the year of the Flood</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Adam \u2192 Lamech Overlap</div>Adam died when Lamech was 56 \u2014 only 2 links separate Adam from Noah</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Enoch\u2019s 365 Years</div>Matches days in a solar year \u2014 calendrical symbolism</div>' +
+            '<div class="pc-stat-item"><div class="pc-stat-label">Lamech\u2019s 777 Years</div>The number of divine perfection tripled</div>' +
+            '</div></div>';
+
+        html += '</div>'; // end container
+
+        content.innerHTML = html;
+
+        // Tooltip
+        var tooltip = document.createElement('div');
+        tooltip.className = 'pc-tooltip';
+        document.body.appendChild(tooltip);
+
+        content.addEventListener('mouseover', function(e) {
+            var bar = e.target.closest('.pc-bar');
+            if (!bar) { tooltip.classList.remove('visible'); return; }
+            var name = bar.dataset.patriarch;
+            var born = parseInt(bar.dataset.born);
+            var age = parseInt(bar.dataset.age);
+            var death = parseInt(bar.dataset.death);
+            var heb = bar.dataset.heb;
+
+            // Find who was alive when this person was born
+            var contemporaries = [];
+            PATRIARCH_DATA.forEach(function(p) {
+                if (p.name === name) return;
+                if (p.born < death && (p.born + p.age) > born) {
+                    contemporaries.push(p.name);
+                }
+            });
+
+            var beforeFlood = death <= FLOOD_YEAR ? 'Died before the Flood' :
+                (born < FLOOD_YEAR ? 'Survived the Flood' : 'Born after the Flood');
+            if (name === 'Enoch') beforeFlood = 'Taken by God (Gen 5:24)';
+
+            tooltip.innerHTML = '<div class="pc-tooltip-name">' + heb + ' ' + name + '</div>' +
+                '<div class="pc-tooltip-detail">' +
+                'Born: ' + born + ' AM<br>' +
+                (name === 'Enoch' ? 'Taken: ' : 'Died: ') + death + ' AM<br>' +
+                'Lifespan: ' + age + ' years<br>' +
+                beforeFlood + '<br>' +
+                (contemporaries.length > 0 ? 'Contemporaries: ' + contemporaries.join(', ') : '') +
+                '</div>';
+            tooltip.classList.add('visible');
+        });
+
+        content.addEventListener('mousemove', function(e) {
+            if (tooltip.classList.contains('visible')) {
+                tooltip.style.left = (e.clientX + 15) + 'px';
+                tooltip.style.top = (e.clientY - 10) + 'px';
+            }
+        });
+
+        content.addEventListener('mouseout', function(e) {
+            if (!e.target.closest('.pc-bar')) tooltip.classList.remove('visible');
+        });
+
+        // Touch support
+        content.addEventListener('click', function(e) {
+            var bar = e.target.closest('.pc-bar');
+            if (bar) {
+                var event = new MouseEvent('mouseover', { clientX: e.clientX, clientY: e.clientY, bubbles: true });
+                bar.dispatchEvent(event);
+            }
+        });
+
+        // Cleanup tooltip on overlay close
+        patriarchChartOverlay.addEventListener('click', function handler(e) {
+            if (e.target === patriarchChartOverlay) {
+                tooltip.classList.remove('visible');
+            }
         });
     }
 

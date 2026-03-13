@@ -710,6 +710,9 @@ def build():
                 <button class="sidebar-btn" id="timelineBtn" aria-label="Open biblical timeline">
                     <span aria-hidden="true">&#x1F551;</span> Biblical Timeline
                 </button>
+                <button class="sidebar-btn" id="patriarchChartBtn" aria-label="Open patriarch ages chart">
+                    <span aria-hidden="true">&#x1F4CA;</span> Patriarch Lifespans
+                </button>
                 <button class="sidebar-btn" id="progressBtn" aria-label="Open developer progress">
                     <span aria-hidden="true">&#x1F4CA;</span> Developer Progress
                 </button>
@@ -870,6 +873,18 @@ def build():
         </div>
     </div>
 
+    <!-- Patriarch Ages Chart Overlay -->
+    <div class="progress-overlay patriarch-chart-overlay" id="patriarchChartOverlay">
+        <div class="progress-modal patriarch-chart-modal">
+            <div class="progress-modal-header">
+                <h2>&#x1F4CA; Patriarch Lifespans — Genesis 5</h2>
+                <p style="margin:0;font-size:0.82rem;color:var(--text-secondary)">Interactive visualization of the overlapping lifespans from Adam to Noah</p>
+                <button class="progress-close" id="patriarchChartClose">&times;</button>
+            </div>
+            <div id="patriarchChartContent"></div>
+        </div>
+    </div>
+
     <!-- Biblical Timeline Overlay -->
     <div class="progress-overlay timeline-overlay" id="timelineOverlay">
         <div class="progress-modal timeline-modal">
@@ -925,6 +940,10 @@ def build():
         <div class="map-modal">
             <div class="map-modal-header">
                 <h2>Ancient World Map</h2>
+                <div class="map-search-box">
+                    <input type="text" id="mapSearchInput" class="map-search-input" placeholder="Search sites, empires, journeys..." autocomplete="off">
+                    <div class="map-search-results" id="mapSearchResults"></div>
+                </div>
                 <div class="map-filter-bar" id="mapFilterBar"></div>
                 <button class="map-close" id="mapClose">&#x2716; Close Map</button>
             </div>

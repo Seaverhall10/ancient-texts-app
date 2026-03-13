@@ -1,0 +1,223 @@
+/* ══════════════════════════════════════════════════════════════
+   Patriarch Ages Chart — Genesis 5 Lifespan Visualization
+   Interactive horizontal bar chart showing overlapping lifespans
+   ══════════════════════════════════════════════════════════════ */
+
+.patriarch-chart-overlay {
+    z-index: 2200;
+}
+
+.patriarch-chart-modal {
+    max-width: 900px;
+    width: 95%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/* ── Chart Container ──────────────────────────── */
+.pc-container {
+    padding: var(--space-md) 0;
+}
+
+.pc-legend {
+    display: flex;
+    gap: var(--space-lg);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-lg);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-sm);
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+}
+
+.pc-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.pc-legend-swatch {
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+}
+
+/* ── Year Axis ────────────────────────────────── */
+.pc-axis {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 var(--space-xs) 140px;
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border-subtle);
+    margin-bottom: var(--space-sm);
+}
+
+.pc-axis-label {
+    white-space: nowrap;
+}
+
+/* ── Row (each patriarch) ─────────────────────── */
+.pc-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    min-height: 36px;
+    position: relative;
+}
+
+.pc-name {
+    width: 140px;
+    flex-shrink: 0;
+    font-size: var(--text-sm);
+    color: var(--text-primary);
+    font-weight: 500;
+    padding-right: var(--space-sm);
+    text-align: right;
+}
+
+.pc-name-heb {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--gold);
+    margin-top: 1px;
+}
+
+.pc-bar-track {
+    flex: 1;
+    position: relative;
+    height: 28px;
+}
+
+.pc-bar {
+    position: absolute;
+    height: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.2s, filter 0.2s;
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pc-bar:hover {
+    filter: brightness(1.25);
+    z-index: 5;
+}
+
+.pc-bar-label {
+    pointer-events: none;
+}
+
+/* ── Tooltip ──────────────────────────────────── */
+.pc-tooltip {
+    position: fixed;
+    background: var(--bg-card);
+    border: 1px solid var(--gold-border, rgba(201, 168, 76, 0.4));
+    border-radius: var(--radius-sm);
+    padding: var(--space-sm) var(--space-md);
+    font-size: var(--text-sm);
+    color: var(--text-primary);
+    pointer-events: none;
+    z-index: 9999;
+    max-width: 260px;
+    box-shadow: var(--shadow-lg);
+    display: none;
+}
+
+.pc-tooltip.visible {
+    display: block;
+}
+
+.pc-tooltip-name {
+    font-weight: 700;
+    color: var(--gold);
+    margin-bottom: 2px;
+}
+
+.pc-tooltip-detail {
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* ── Flood Marker ─────────────────────────────── */
+.pc-flood-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: rgba(91, 141, 191, 0.6);
+    z-index: 3;
+    pointer-events: none;
+}
+
+.pc-flood-label {
+    position: absolute;
+    top: -20px;
+    transform: translateX(-50%);
+    font-size: 0.6rem;
+    color: var(--accent-blue, #5b8dbf);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* ── Stats Summary ────────────────────────────── */
+.pc-stats {
+    margin-top: var(--space-lg);
+    padding: var(--space-md);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-subtle);
+}
+
+.pc-stats h4 {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-sm);
+}
+
+.pc-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--space-sm);
+}
+
+.pc-stat-item {
+    font-size: var(--text-sm);
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+.pc-stat-label {
+    color: var(--text-muted);
+    font-size: var(--text-xs);
+}
+
+/* ── Responsive ───────────────────────────────── */
+@media (max-width: 600px) {
+    .pc-name {
+        width: 90px;
+        font-size: var(--text-xs);
+    }
+    .pc-name-heb {
+        display: none;
+    }
+    .pc-axis {
+        padding-left: 90px;
+    }
+    .pc-bar {
+        font-size: 0.55rem;
+    }
+    .pc-stats-grid {
+        grid-template-columns: 1fr;
+    }
+}

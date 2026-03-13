@@ -23,6 +23,8 @@ library.css
 accessibility.css
 text-intro.css
 thc.css
+thematic-study.css
+patriarch-chart.css
 learn-hebrew.css
 study-controls.css
 prophecy.css

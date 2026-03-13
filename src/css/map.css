@@ -150,6 +150,90 @@
 .map-dark-popup .leaflet-popup-content-wrapper { background: var(--bg-primary) !important; }
 .map-line-label { background: none !important; border: none !important; }
 
+/* ── Map Search ───────────────────────────────── */
+.map-search-box {
+    position: relative;
+    flex: 1;
+    max-width: 340px;
+}
+.map-search-input {
+    width: 100%;
+    padding: 6px 12px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm, 4px);
+    color: var(--text-primary);
+    font-size: 0.82rem;
+    font-family: var(--font-body);
+    outline: none;
+}
+.map-search-input:focus {
+    border-color: var(--gold-border, rgba(201, 168, 76, 0.5));
+}
+.map-search-input::placeholder {
+    color: var(--text-muted);
+}
+.map-search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    z-index: 2000;
+    display: none;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+.map-search-results.open { display: block; }
+.map-search-result {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.82rem;
+    color: var(--text-primary);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    transition: background 0.15s;
+}
+.map-search-result:hover {
+    background: var(--bg-hover, rgba(255,255,255,0.05));
+}
+.map-search-result-cat {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    margin-top: 2px;
+}
+.map-search-result-name {
+    font-weight: 500;
+}
+.map-search-no-results {
+    padding: 12px;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+/* ── Leaflet Layer Control Grouping ───────────── */
+.map-container .leaflet-control-layers-overlays label {
+    display: block;
+    padding: 1px 0;
+}
+.map-container .leaflet-control-layers-overlays .map-layer-separator {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--gold);
+    padding: 8px 0 4px;
+    margin-top: 6px;
+    border-top: 1px solid var(--border-color);
+    pointer-events: none;
+}
+
 .glossary-overlay {
     position: fixed;
     inset: 0;
