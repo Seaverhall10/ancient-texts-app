@@ -974,6 +974,7 @@
     // ═══════════════════════════════════════════════════════
 
     function showLibrary() {
+        closeAllOverlays();
         libraryMode = true;
         currentText = null;
         document.body.classList.remove('text-selected');
@@ -1326,12 +1327,12 @@
             '<div class="library-text-link" data-action="prophecy-matrix">' +
             '<span class="library-dot" style="background:var(--gold)"></span>' +
             '<span class="library-text-name">Prophecy Matrix</span>' +
-            '<span class="library-badge-count">' + PROPHECY_MATRIX.length + '</span>' +
+            '<span class="library-badge-count">' + (Array.isArray(PROPHECY_MATRIX) ? PROPHECY_MATRIX.length : '') + '</span>' +
             '</div>' +
             '<div class="library-text-link" data-action="prophecy-tracker">' +
             '<span class="library-dot" style="background:#5a7a9e"></span>' +
             '<span class="library-text-name">Prophecy Tracker</span>' +
-            '<span class="library-badge-count">' + Object.keys(BOOK_PROPHECIES).length + ' books</span>' +
+            '<span class="library-badge-count">' + (Object.keys(BOOK_PROPHECIES).length || '') + '</span>' +
             '</div>' +
             '<div class="library-text-link" data-action="core-beliefs">' +
             '<span class="library-dot" style="background:#9b7ec8"></span>' +
@@ -1600,6 +1601,7 @@
             var eras = getTextEras(textId);
             if (eras.length === 0) return; // no content yet
 
+            closeAllOverlays();
             libraryMode = false;
             currentText = textId;
             document.body.classList.add('text-selected');
@@ -3147,6 +3149,23 @@
             el.classList.add('flash');
             setTimeout(function() { el.classList.remove('flash'); }, 1000);
         }
+    }
+
+    function closeAllOverlays() {
+        closeGlossary();
+        closeResources();
+        closeHebrew();
+        closeMap();
+        closeMatrix();
+        closeTimeline();
+        closeXrefDrawer();
+        closeSidebarMobile();
+        // Close mobile search overlay if open
+        var searchOv = document.getElementById('searchOverlay');
+        if (searchOv) searchOv.remove();
+        // Close mobile tools popup if open
+        var toolsOv = document.getElementById('mobileToolsOverlay');
+        if (toolsOv) toolsOv.remove();
     }
 
     function handleHash() {

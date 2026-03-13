@@ -1253,7 +1253,7 @@ body.sidebar-open .main-content { overflow: hidden !important; }
                 if (q.length < 2) { results.innerHTML = ''; return; }
                 if (!searchIndex) buildSearchIndex(true);
                 var matches = searchIndex ? searchIndex.filter(function(item) {
-                    return item.t.indexOf(q.toLowerCase()) !== -1;
+                    return (item.text || '').toLowerCase().indexOf(q.toLowerCase()) !== -1;
                 }).slice(0, 30) : [];
                 if (matches.length === 0) {
                     results.innerHTML = '<div class="search-full-empty">No results for "' + q.replace(/</g,'&lt;') + '"</div>';
@@ -1261,7 +1261,7 @@ body.sidebar-open .main-content { overflow: hidden !important; }
                 }
                 var rh = '';
                 matches.forEach(function(m) {
-                    rh += '<div class="search-full-item" data-id="' + m.id + '" data-text="' + (m.text || '') + '">' +
+                    rh += '<div class="search-full-item" data-id="' + m.id + '" data-text="' + (m.textId || '') + '">' +
                         '<div class="search-full-ref">' + (m.ref || m.id) + '</div>' +
                         '<div class="search-full-snippet">' + m.title + '</div></div>';
                 });
