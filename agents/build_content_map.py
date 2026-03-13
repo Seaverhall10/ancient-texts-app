@@ -66,6 +66,10 @@ def extract_crossrefs(chapter):
     """Extract all cross-reference strings from a chapter dict."""
     refs = []
     for r in chapter.get('cross_refs', []):
+        # Handle both string ("Job 1:6") and object ({ref, note, type}) formats
+        if isinstance(r, str):
+            refs.append({'ref': r, 'type': 'ot', 'note': r[:120]})
+            continue
         ref_str = r.get('ref', '')
         if ref_str:
             refs.append({
