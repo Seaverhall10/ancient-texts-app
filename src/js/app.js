@@ -6078,10 +6078,48 @@
 
     // ── BIBLICAL JOURNEYS ──
     var MAP_JOURNEYS = [
+        {id: 'watcher_descent',
+            name: 'Watcher Descent & Nephilim Spread',
+            color: '#a855f7',
+            weight: 3,
+            dash: '12 4 4 4',
+            desc: 'The 200 Watchers descend on Mount Hermon and their giant offspring spread across the ancient world. After the Flood, remnant Nephilim clans appear in Canaan.',
+            refs: '1 Enoch 6\u201316; Genesis 6:1-4; Numbers 13:33',
+            waypoints: [
+                {lat:33.42, lng:35.86, label:'Mount Hermon (descent)', ref:'1 Enoch 6:6', desc:'200 Watchers swore an oath and descended here. They took human wives and taught forbidden knowledge \u2014 metallurgy, sorcery, astrology. The mountain\'s name means "devoted/banned."'},
+                {lat:34.01, lng:36.20, label:'Baalbek (giant construction)', ref:'Book of Giants', desc:'Massive megalithic stones (800+ tons each) that defy ancient engineering. Legends attribute construction to Nephilim/giants. The Romans built their largest temple on top.'},
+                {lat:33.25, lng:35.69, label:'Dan / Gates of Hades', ref:'Matt 16:18', desc:'At the base of Hermon, Pan\'s grotto was believed to be an entrance to the underworld. Jesus chose this exact spot to declare He would build His church against the gates of Hades.'},
+                {lat:32.95, lng:35.80, label:'Bashan (Og\'s kingdom)', ref:'Deut 3:11', desc:'Og was the last of the Rephaim. His iron bed was 13.5 feet long. Bashan was known as "the place of the serpent" \u2014 a Rephaim stronghold and cult center.'},
+                {lat:31.53, lng:35.10, label:'Hebron (Anakim)', ref:'Num 13:22', desc:'The spies saw Ahiman, Sheshai, and Talmai \u2014 descendants of Anak. "We seemed like grasshoppers in our own eyes." These were the giants that terrified ten of the twelve spies.'},
+                {lat:31.61, lng:34.85, label:'Gath (Goliath)', ref:'1 Sam 17:4', desc:'Goliath of Gath, over 9 feet tall, had four giant relatives (2 Sam 21). David killed him with a stone and sword, then David\'s men killed the remaining four.'},
+                {lat:31.10, lng:34.40, label:'Gaza (Anakim survivors)', ref:'Josh 11:22', desc:'Joshua drove out the Anakim from all the hill country, but remnants survived in Gaza, Gath, and Ashdod. These Philistine cities became the last strongholds of the giant clans.'}
+            ]
+        },
+        {
+            id: 'nimrod_expansion',
+            name: 'Nimrod\u2019s Empire \u2014 Babel, Uruk & the First Kingdoms',
+            color: '#ef4444',
+            weight: 4,
+            dash: '8 4 4 4',
+            desc: 'The first post-Flood kingdom-builder. Nimrod (gibbor \u2014 "mighty one," the same term for Nephilim in Gen 6:4) built the first empire from Shinar to Assyria. His Babel was the center of unified rebellion against God\'s command to fill the earth. Gilgamesh, legendary king of Uruk, may be a later tradition of the same or similar figure \u2014 a mighty ruler who sought immortality and whose flood account parallels Noah\'s. Nimrod is the prototype of human pride opposing God; all later proud kingdoms echo his rebellion.',
+            refs: 'Gen 10:8-12; Gen 11:1-9; Micah 5:6; Epic of Gilgamesh',
+            waypoints: [
+                {lat:30.82, lng:45.99, label:'Eridu \u2014 oldest city, "kingship descended from heaven"', ref:'Gen 10:10', desc:'The Sumerian King List says kingship first descended from heaven at Eridu. Possibly the oldest city in the world. An ANE parallel to Eden and the beginning of organized civilization after the Flood.'},
+                {lat:31.32, lng:45.64, label:'Erech (Uruk) \u2014 Gilgamesh\'s city', ref:'Gen 10:10', desc:'One of Nimrod\'s cities and legendary seat of Gilgamesh, the "two-thirds divine" king who sought eternal life. The Epic of Gilgamesh contains a flood narrative paralleling Noah\'s. Uruk had the world\'s first monumental architecture and earliest known writing (~3400 BC).'},
+                {lat:32.54, lng:44.42, label:'Babel / Babylon \u2014 tower & rebellion', ref:'Gen 11:1-9', desc:'Nimrod\'s capital and center of unified rebellion. "Come, let us build a city and a tower with its top in the heavens." God confused their languages and scattered them. Babylon becomes the archetype of human pride opposing God throughout Scripture (Isa 14; Rev 17-18).'},
+                {lat:32.78, lng:44.00, label:'Accad (Akkad) \u2014 seat of the first empire', ref:'Gen 10:10', desc:'Part of Nimrod\'s kingdom in Shinar. The Akkadian Empire under Sargon (~2334 BC) became the world\'s first true empire, ruling from the Persian Gulf to the Mediterranean \u2014 echoing Nimrod\'s ambition for universal dominion.'},
+                {lat:32.30, lng:45.00, label:'Calneh \u2014 fourth city of Shinar', ref:'Gen 10:10', desc:'The fourth city listed in Nimrod\'s Shinar kingdom. Its exact location is debated (possibly Nippur or another Sumerian city). Together with Babel, Erech, and Accad, it formed the core of the first post-Flood civilization.'},
+                {lat:35.47, lng:43.27, label:'Resen \u2014 "the great city" between Nineveh and Calah', ref:'Gen 10:12', desc:'Scripture calls it "the great city" between Nineveh and Calah. Part of the Assyrian expansion of Nimrod\'s empire northward from Shinar into the Tigris valley.'},
+                {lat:34.50, lng:43.50, label:'Calah (Nimrud) \u2014 built by Nimrod in Assyria', ref:'Gen 10:11-12', desc:'Nimrod expanded from Shinar northward into Assyria. Calah became a major Assyrian city. Ashurnasirpal II later built grand palaces here. The site (modern Nimrud) is literally named after its legendary builder.'},
+                {lat:35.15, lng:43.30, label:'Rehoboth-Ir \u2014 Assyrian expansion', ref:'Gen 10:11', desc:'One of four Assyrian cities attributed to Nimrod. The name means "broad places of the city." Part of the expanding network of urban power centers along the Tigris.'},
+                {lat:36.36, lng:43.15, label:'Nineveh \u2014 "the great city"', ref:'Gen 10:11; Jonah 3:3', desc:'Built by Nimrod, Nineveh became capital of the Assyrian Empire \u2014 the most brutal superpower of the ancient world. God sent Jonah to preach here. It was "an exceedingly great city, three days\' journey in breadth." Its fall (612 BC) fulfilled Nahum\'s prophecy.'},
+                {lat:34.01, lng:36.20, label:'Baalbek \u2014 megalithic platform (C-level tradition)', ref:'Arabic traditions; Gen 6:4', desc:'C-level tradition: Arabic legends attribute the megalithic stones (800+ tons each, the largest cut stones in the world) to giants or Nimrod. The Romans built their largest Jupiter temple on these impossible foundations. No known ancient technology could move stones this size.'}
+            ]
+        },
         {
             id: 'abraham',
             name: 'Abraham\'s Journey',
-            color: '#c9a84c',
+            color: '#3b82f6',
             weight: 3,
             dash: '10 6',
             desc: 'From Ur of the Chaldeans through Haran to the Promised Land. God called Abram to leave everything and go to a land "I will show you" (Gen 12:1).',
@@ -6101,10 +6139,43 @@
                 {lat:31.53, lng:35.10, label:'Hebron (Sarah\'s burial)', ref:'Gen 23:19', desc:'Sarah died at age 127. Abraham purchased the cave of Machpelah from the Hittites for 400 shekels of silver \u2014 his first owned piece of the Promised Land.'}
             ]
         },
-        {
-            id: 'jacob',
+        {id: 'abrahams_war',
+            name: 'Abraham\'s War (Rescue of Lot)',
+            color: '#06b6d4',
+            weight: 2,
+            dash: null,
+            desc: 'When four Mesopotamian kings captured Lot at Sodom, Abraham armed 318 trained servants, pursued them north past Dan to Hobah near Damascus, defeated them at night, and recovered everything. Met Melchizedek on return.',
+            refs: 'Genesis 14',
+            waypoints: [
+                {lat:31.53, lng:35.10, label:'Hebron (Mamre, news arrives)', ref:'Gen 14:13', desc:'A fugitive brought word that Lot was captured. Abraham immediately armed his 318 trained servants born in his household \u2014 ready for war to rescue family.'},
+                {lat:32.21, lng:35.28, label:'Shechem (northward pursuit)', ref:'Gen 14:14', desc:'Abraham pursued the kings northward through the heart of Canaan. His swift military response reveals a trained warrior, not just a peaceful nomad.'},
+                {lat:33.25, lng:35.69, label:'Dan (caught up to kings)', ref:'Gen 14:14', desc:'Abraham divided his forces and attacked at night. The surprise assault routed the eastern kings. Abraham recovered all the people and possessions.'},
+                {lat:33.55, lng:36.25, label:'Hobah near Damascus (victory)', ref:'Gen 14:15', desc:'Abraham pursued the fleeing kings north of Damascus to Hobah. A complete victory \u2014 every captive freed, every possession recovered.'},
+                {lat:31.78, lng:35.24, label:'Salem (meets Melchizedek)', ref:'Gen 14:18', desc:'Melchizedek, king of Salem and priest of God Most High, brought bread and wine and blessed Abraham. Abraham gave him a tenth. A type of Christ\'s eternal priesthood (Heb 7).'},
+                {lat:31.53, lng:35.10, label:'Hebron (returns home)', ref:'Gen 14:13', desc:'Abraham refused to take any plunder from the king of Sodom: "I have lifted my hand to the LORD, God Most High \u2014 I would not take a thread or a sandal strap."'}
+            ]
+        },
+        {id: 'isaac',
+            name: 'Isaac\'s Journey',
+            color: '#f97316',
+            weight: 3,
+            dash: '8 6',
+            desc: 'The "quiet patriarch" \u2014 Isaac\'s life unfolds between Beer-lahai-roi, Gerar, and Beer-sheba. Though less dramatic than Abraham or Jacob, Isaac\'s story includes the Aqedah (binding), well-digging conflicts that preview Israel\'s land disputes, and the covenant reaffirmation at Beer-sheba.',
+            refs: 'Genesis 20\u201326, 35',
+            waypoints: [
+                {lat:30.85, lng:34.68, label:'Beer-lahai-roi \u2014 where Rebekah arrives', ref:'Gen 24:62', desc:'Isaac dwelt near the well where God had appeared to Hagar. Here he went out to meditate and first saw Rebekah approaching on her camel (Gen 24:63-67).'},
+                {lat:31.25, lng:34.79, label:'Beer-sheba \u2014 Abraham\'s covenant site', ref:'Gen 21:31', desc:'Abraham had made a covenant with Abimelech here and planted a tamarisk tree. Isaac inherited this as home base (Gen 21:31-34).'},
+                {lat:31.78, lng:35.24, label:'Mount Moriah \u2014 the Aqedah', ref:'Gen 22:2', desc:'Abraham bound Isaac on the altar here. God provided a ram instead \u2014 "On the mount of the LORD it shall be provided" (Gen 22:14). Later the Temple site.'},
+                {lat:31.40, lng:34.39, label:'Gerar \u2014 sojourn and deception', ref:'Gen 26:1-6', desc:'During famine, Isaac went to Abimelech king of the Philistines. Like his father, he called Rebekah his sister. God blessed him with hundredfold harvest (Gen 26:12).'},
+                {lat:31.35, lng:34.42, label:'Valley of Gerar \u2014 well conflicts (Esek, Sitnah)', ref:'Gen 26:17-21', desc:'Isaac re-dug Abraham\'s wells. The herdsmen of Gerar quarreled \u2014 he named them Esek ("contention") and Sitnah ("enmity"), previewing Israel\'s later land conflicts.'},
+                {lat:31.33, lng:34.45, label:'Rehoboth \u2014 "room at last"', ref:'Gen 26:22', desc:'After two disputes, Isaac dug a third well with no quarrel. He named it Rehoboth \u2014 "For now the LORD has made room for us, and we shall be fruitful in the land."'},
+                {lat:31.25, lng:34.79, label:'Beer-sheba \u2014 God appears, builds altar', ref:'Gen 26:23-33', desc:'God appeared to Isaac: "I am the God of Abraham your father. Fear not, for I am with you." Isaac built an altar, pitched his tent, and dug another well.'},
+                {lat:31.53, lng:35.10, label:'Hebron / Machpelah \u2014 death and burial', ref:'Gen 35:27-29', desc:'Isaac died at age 180 in Hebron. Esau and Jacob buried him together in the cave of Machpelah alongside Abraham and Sarah (Gen 35:29).'}
+            ]
+        },
+        {id: 'jacob',
             name: 'Jacob\'s Journey',
-            color: '#5a9a6a',
+            color: '#22c55e',
             weight: 3,
             dash: '8 4',
             desc: 'From Beer-sheba to Haran (fleeing Esau), back through Peniel (wrestling God), to Shechem and finally Hebron and Egypt.',
@@ -6121,85 +6192,9 @@
                 {lat:30.78, lng:31.77, label:'Goshen, Egypt', ref:'Gen 46:28-29', desc:'At age 130, Jacob descended to Egypt to see Joseph alive. God spoke at Beer-sheba: "Do not be afraid to go down to Egypt, for I will make you into a great nation there."'}
             ]
         },
-        {
-            id: 'exodus',
-            name: 'The Exodus',
-            color: '#b5564a',
-            weight: 4,
-            dash: null,
-            desc: 'Israel\'s liberation from Egypt through the Red Sea to Mount Sinai. The greatest act of divine intervention in the Old Testament.',
-            refs: 'Exodus 12 \u2013 19',
-            waypoints: [
-                {lat:30.79, lng:31.83, label:'Rameses (departure)', ref:'Exod 12:37', desc:'About 600,000 men plus families departed after the tenth plague \u2014 the death of Egypt\'s firstborn. The Passover lamb\'s blood on the doorposts foreshadowed Christ.'},
-                {lat:30.55, lng:32.10, label:'Succoth', ref:'Exod 12:37', desc:'First camp after leaving Egypt. Israel traveled with unleavened bread, their flocks, and the plunder of Egypt. God led them by pillar of cloud and fire.'},
-                {lat:30.30, lng:32.35, label:'Etham', ref:'Exod 13:20', desc:'At the edge of the wilderness, God deliberately turned Israel back toward Pi-hahiroth to trap them against the sea \u2014 setting the stage for the greatest deliverance in the OT.'},
-                {lat:29.92, lng:32.55, label:'Pi-hahiroth (Red Sea)', ref:'Exod 14:2', desc:'Pharaoh pursued with 600 chariots. Moses stretched his hand over the sea; God divided the waters. Israel crossed on dry ground; the army of Egypt was destroyed.'},
-                {lat:29.27, lng:33.08, label:'Marah (bitter water)', ref:'Exod 15:23', desc:'Three days without water. The people grumbled. God showed Moses a tree to make the bitter water sweet \u2014 "I am the LORD, your healer" (Yahweh Rapha).'},
-                {lat:28.83, lng:33.18, label:'Elim (12 springs, 70 palms)', ref:'Exod 15:27', desc:'An oasis with 12 springs and 70 palm trees \u2014 one spring per tribe, perhaps one palm per elder. God provided rest and refreshment after the test.'},
-                {lat:28.68, lng:33.68, label:'Rephidim (rock, Amalek)', ref:'Exod 17:1', desc:'No water. Moses struck the rock and water flowed. The rock was Christ (1 Cor 10:4). Then Amalek attacked; Moses\' raised hands brought victory through Joshua.'},
-                {lat:28.54, lng:33.98, label:'Mount Sinai', ref:'Exod 19:1', desc:'God descended in fire and smoke. The mountain trembled. He gave the Torah, the covenant, and the tabernacle blueprint. Israel camped here nearly a year.'}
-            ]
-        },
-        {
-            id: 'wilderness',
-            name: 'Wilderness Wandering',
-            color: '#b09050',
-            weight: 3,
-            dash: '6 4',
-            desc: 'The 40-year journey from Sinai through the wilderness to the Plains of Moab. A generation died because they refused to enter the land.',
-            refs: 'Numbers 10 \u2013 36',
-            waypoints: [
-                {lat:28.54, lng:33.98, label:'Mount Sinai (departure)', ref:'Num 10:11', desc:'After nearly a year at Sinai receiving the Law, tabernacle, and priesthood, Israel finally departed with the Ark leading the way.'},
-                {lat:30.63, lng:34.40, label:'Kadesh-barnea (spies)', ref:'Num 13:26', desc:'Twelve spies explored Canaan for 40 days. Ten returned terrified of the Anakim giants. Only Joshua and Caleb trusted God: "Do not fear the people of the land."'},
-                {lat:30.63, lng:34.40, label:'40 years near Kadesh', ref:'Num 14:33-34', desc:'Because of unbelief, God sentenced the exodus generation to 40 years in the wilderness \u2014 one year for each day the spies explored. An entire generation died.'},
-                {lat:30.32, lng:35.40, label:'Edom border (refused passage)', ref:'Num 20:14-21', desc:'Edom (Esau\'s descendants) refused Israel passage through their territory. Israel had to go the long way around \u2014 a detour that tested their patience.'},
-                {lat:29.83, lng:35.23, label:'Punon (bronze serpent)', ref:'Num 21:4-9', desc:'The people grumbled. God sent fiery serpents. Moses made a bronze serpent on a pole \u2014 all who looked at it lived. Jesus compared this to His own crucifixion (John 3:14).'},
-                {lat:31.38, lng:35.70, label:'Arnon crossing', ref:'Num 21:13', desc:'Israel crossed the Arnon Valley into Amorite territory. They defeated Sihon and Og \u2014 Og of Bashan, last of the Rephaim giants, whose bed was 13 feet long (Deut 3:11).'},
-                {lat:31.86, lng:35.56, label:'Plains of Moab', ref:'Num 22:1', desc:'Israel camped opposite Jericho. Here Balak hired Balaam to curse Israel, but God turned every curse into a blessing. The Moabite women later seduced Israel into idolatry.'},
-                {lat:31.77, lng:35.73, label:'Mount Nebo (Moses\' death)', ref:'Deut 34:1', desc:'God showed Moses the entire Promised Land. Moses died at 120 with undimmed eyes and vigor. God buried him \u2014 no one knows where. Michael later disputed over his body (Jude 9).'}
-            ]
-        },
-        {
-            id: 'conquest',
-            name: 'Conquest of Canaan',
-            color: '#8a7aaa',
-            weight: 3,
-            dash: '4 4',
-            desc: 'Joshua leads Israel across the Jordan to take the Promised Land. The giant clans (Anakim, Rephaim) are driven out.',
-            refs: 'Joshua 1 \u2013 12',
-            waypoints: [
-                {lat:31.86, lng:35.56, label:'Plains of Moab (staging)', ref:'Josh 1:1', desc:'God commissioned Joshua: "Be strong and courageous. Every place your foot treads, I have given it to you." The new generation prepared to enter the Promised Land.'},
-                {lat:31.87, lng:35.44, label:'Jericho (walls fall)', ref:'Josh 6', desc:'Israel marched around the city seven days. On the seventh day, at the blast of trumpets and the people\'s shout, the walls collapsed. Jericho was devoted to destruction (herem).'},
-                {lat:31.92, lng:35.26, label:'Ai (second assault)', ref:'Josh 8', desc:'After Achan\'s sin caused initial defeat, Joshua conquered Ai with an ambush. He built an altar on Mount Ebal and read the Law to all Israel between Ebal and Gerizim.'},
-                {lat:31.85, lng:35.18, label:'Gibeon (sun stands still)', ref:'Josh 10:12', desc:'Five Amorite kings attacked Gibeon. God hurled hailstones from heaven. Joshua commanded: "Sun, stand still at Gibeon" \u2014 and the sun stopped for a full day. Cosmic warfare.'},
-                {lat:31.61, lng:34.85, label:'Gath (Anakim remnant)', ref:'Josh 11:22', desc:'Joshua cut off the Anakim from the hill country. Only in Gaza, Gath, and Ashdod did some remain \u2014 the same Gath that would later produce Goliath.'},
-                {lat:31.53, lng:35.10, label:'Hebron (Caleb takes it)', ref:'Josh 14:12-15', desc:'85-year-old Caleb said: "Give me this hill country where the Anakim are." He drove out the three sons of Anak and took Hebron \u2014 faith conquering giants.'},
-                {lat:33.02, lng:35.57, label:'Hazor (head of kingdoms)', ref:'Josh 11:10', desc:'The greatest Canaanite city. Joshua struck Jabin its king and burned Hazor \u2014 the only city in the north he burned. God gave Israel rest from war.'},
-                {lat:32.21, lng:35.28, label:'Shechem (covenant renewal)', ref:'Josh 24', desc:'Joshua gathered all Israel: "Choose this day whom you will serve." They answered: "We will serve the LORD." Joshua set up a stone of witness under the oak at Shechem.'}
-            ]
-        },
-        {
-            id: 'watcher_descent',
-            name: 'Watcher Descent & Nephilim Spread',
-            color: '#9b7ec8',
-            weight: 3,
-            dash: '12 4 4 4',
-            desc: 'The 200 Watchers descend on Mount Hermon and their giant offspring spread across the ancient world. After the Flood, remnant Nephilim clans appear in Canaan.',
-            refs: '1 Enoch 6\u201316; Genesis 6:1-4; Numbers 13:33',
-            waypoints: [
-                {lat:33.42, lng:35.86, label:'Mount Hermon (descent)', ref:'1 Enoch 6:6', desc:'200 Watchers swore an oath and descended here. They took human wives and taught forbidden knowledge \u2014 metallurgy, sorcery, astrology. The mountain\'s name means "devoted/banned."'},
-                {lat:34.01, lng:36.20, label:'Baalbek (giant construction)', ref:'Book of Giants', desc:'Massive megalithic stones (800+ tons each) that defy ancient engineering. Legends attribute construction to Nephilim/giants. The Romans built their largest temple on top.'},
-                {lat:32.95, lng:35.80, label:'Bashan (Og\'s kingdom)', ref:'Deut 3:11', desc:'Og was the last of the Rephaim. His iron bed was 13.5 feet long. Bashan was known as "the place of the serpent" \u2014 a Rephaim stronghold and cult center.'},
-                {lat:33.25, lng:35.69, label:'Dan / Gates of Hades', ref:'Matt 16:18', desc:'At the base of Hermon, Pan\'s grotto was believed to be an entrance to the underworld. Jesus chose this exact spot to declare He would build His church against the gates of Hades.'},
-                {lat:31.53, lng:35.10, label:'Hebron (Anakim)', ref:'Num 13:22', desc:'The spies saw Ahiman, Sheshai, and Talmai \u2014 descendants of Anak. "We seemed like grasshoppers in our own eyes." These were the giants that terrified ten of the twelve spies.'},
-                {lat:31.61, lng:34.85, label:'Gath (Goliath)', ref:'1 Sam 17:4', desc:'Goliath of Gath, over 9 feet tall, had four giant relatives (2 Sam 21). David killed him with a stone and sword, then David\'s men killed the remaining four.'},
-                {lat:31.10, lng:34.40, label:'Gaza (Anakim survivors)', ref:'Josh 11:22', desc:'Joshua drove out the Anakim from all the hill country, but remnants survived in Gaza, Gath, and Ashdod. These Philistine cities became the last strongholds of the giant clans.'}
-            ]
-        },
-        {
-            id: 'joseph',
+        {id: 'joseph',
             name: 'Joseph\'s Journey',
-            color: '#b09050',
+            color: '#ec4899',
             weight: 2,
             dash: '8 6',
             desc: 'Sold by his brothers, carried to Egypt by Ishmaelite traders. From slave to prisoner to vizier of all Egypt. Joseph\'s journey is the prototype of suffering producing salvation for many (Gen 50:20).',
@@ -6215,10 +6210,9 @@
                 {lat:30.78, lng:31.77, label:'Goshen (family settled)', ref:'Gen 47:6', desc:'Joseph reunited with his family and settled them in Goshen, the best land of Egypt. "You meant evil against me, but God meant it for good" (Gen 50:20).'}
             ]
         },
-        {
-            id: 'moses_life',
+        {id: 'moses_life',
             name: 'Moses\' Life Journey',
-            color: '#a05a54',
+            color: '#e11d48',
             weight: 3,
             dash: '12 4',
             desc: 'Born under a death sentence in Egypt, raised in Pharaoh\'s palace, exiled to Midian, called at the burning bush, led Israel through the Red Sea and wilderness to the edge of the Promised Land.',
@@ -6236,10 +6230,44 @@
                 {lat:31.77, lng:35.73, label:'Mount Nebo (death)', ref:'Deut 34:1-5', desc:'God showed Moses the entire Promised Land: "I have let you see it, but you shall not go over." Moses died at 120, his eye undimmed. God Himself buried His servant.'}
             ]
         },
-        {
-            id: 'balaam',
+        {id: 'exodus',
+            name: 'The Exodus',
+            color: '#f43f5e',
+            weight: 4,
+            dash: null,
+            desc: 'Israel\'s liberation from Egypt through the Red Sea to Mount Sinai. The greatest act of divine intervention in the Old Testament.',
+            refs: 'Exodus 12 \u2013 19',
+            waypoints: [
+                {lat:30.79, lng:31.83, label:'Rameses (departure)', ref:'Exod 12:37', desc:'About 600,000 men plus families departed after the tenth plague \u2014 the death of Egypt\'s firstborn. The Passover lamb\'s blood on the doorposts foreshadowed Christ.'},
+                {lat:30.55, lng:32.10, label:'Succoth', ref:'Exod 12:37', desc:'First camp after leaving Egypt. Israel traveled with unleavened bread, their flocks, and the plunder of Egypt. God led them by pillar of cloud and fire.'},
+                {lat:30.30, lng:32.35, label:'Etham', ref:'Exod 13:20', desc:'At the edge of the wilderness, God deliberately turned Israel back toward Pi-hahiroth to trap them against the sea \u2014 setting the stage for the greatest deliverance in the OT.'},
+                {lat:29.92, lng:32.55, label:'Pi-hahiroth (Red Sea)', ref:'Exod 14:2', desc:'Pharaoh pursued with 600 chariots. Moses stretched his hand over the sea; God divided the waters. Israel crossed on dry ground; the army of Egypt was destroyed.'},
+                {lat:29.27, lng:33.08, label:'Marah (bitter water)', ref:'Exod 15:23', desc:'Three days without water. The people grumbled. God showed Moses a tree to make the bitter water sweet \u2014 "I am the LORD, your healer" (Yahweh Rapha).'},
+                {lat:28.83, lng:33.18, label:'Elim (12 springs, 70 palms)', ref:'Exod 15:27', desc:'An oasis with 12 springs and 70 palm trees \u2014 one spring per tribe, perhaps one palm per elder. God provided rest and refreshment after the test.'},
+                {lat:28.68, lng:33.68, label:'Rephidim (rock, Amalek)', ref:'Exod 17:1', desc:'No water. Moses struck the rock and water flowed. The rock was Christ (1 Cor 10:4). Then Amalek attacked; Moses\' raised hands brought victory through Joshua.'},
+                {lat:28.54, lng:33.98, label:'Mount Sinai', ref:'Exod 19:1', desc:'God descended in fire and smoke. The mountain trembled. He gave the Torah, the covenant, and the tabernacle blueprint. Israel camped here nearly a year.'}
+            ]
+        },
+        {id: 'spies_route',
+            name: 'Spies\' Route',
+            color: '#0ea5e9',
+            weight: 2,
+            dash: '4 4',
+            desc: 'The 12 spies sent from Kadesh-barnea to scout the Promised Land. They went through the Negev to Hebron, cut grapes at Eshcol, and returned after 40 days. Ten gave a bad report; only Caleb and Joshua trusted God.',
+            refs: 'Numbers 13 \u2013 14',
+            waypoints: [
+                {lat:30.63, lng:34.40, label:'Kadesh-barnea (sent out)', ref:'Num 13:3', desc:'Moses sent one leader from each tribe. Their mission: scout the land, the people, the cities, and the soil. It was a test of faith, not just reconnaissance.'},
+                {lat:30.85, lng:34.60, label:'Negev (entered from south)', ref:'Num 13:17', desc:'They entered Canaan from the south, ascending through the Negev desert. Moses told them to observe the land\'s fertility and the strength of its inhabitants.'},
+                {lat:31.25, lng:34.79, label:'Beer-sheba region', ref:'Num 13:17', desc:'Passing through the patriarchal homeland \u2014 the very land God had promised to Abraham. The spies were walking on covenant ground.'},
+                {lat:31.53, lng:35.10, label:'Hebron (saw the Anakim)', ref:'Num 13:22', desc:'They saw Ahiman, Sheshai, and Talmai \u2014 sons of Anak. Hebron was built seven years before Zoan in Egypt, making it one of the oldest cities in the world.'},
+                {lat:33.02, lng:35.57, label:'Lebo-hamath (northern extent)', ref:'Num 13:21', desc:'The spies traveled all the way to the northern boundary of the promised land, near the entrance of Hamath in modern Lebanon. A 40-day journey in total.'},
+                {lat:31.55, lng:35.08, label:'Return via Eshcol', ref:'Num 13:24-25', desc:'They named the valley Eshcol ("cluster") after the grapes. Returning south after 40 days, the spies carried both extraordinary fruit and extraordinary fear.'},
+                {lat:30.63, lng:34.40, label:'Kadesh-barnea (report)', ref:'Num 13:26', desc:'Ten spies said: "We are not able to go up against the people, for they are stronger than we." Only Joshua and Caleb dissented: "The LORD is with us; do not fear them."'}
+            ]
+        },
+        {id: 'balaam',
             name: 'Balaam\'s Journey',
-            color: '#8a7aaa',
+            color: '#8b5cf6',
             weight: 2,
             dash: null,
             desc: 'The pagan diviner Balaam, summoned by Balak to curse Israel, found himself compelled by God to bless them instead. His donkey saw the angel of the LORD blocking the road before Balaam did.',
@@ -6252,29 +6280,63 @@
                 {lat:31.77, lng:35.74, label:'Mount Pisgah (blesses Israel)', ref:'Num 23:14', desc:'From the heights, Balaam saw Israel\'s camps. He prophesied: "A star shall come out of Jacob, and a scepter shall rise out of Israel" (Num 24:17) \u2014 a messianic oracle from a pagan prophet.'}
             ]
         },
-        {
-            id: 'spies_route',
-            name: 'Spies\' Route',
-            color: '#4a8a96',
-            weight: 2,
-            dash: '4 4',
-            desc: 'The 12 spies sent from Kadesh-barnea to scout the Promised Land. They went through the Negev to Hebron, cut grapes at Eshcol, and returned after 40 days. Ten gave a bad report; only Caleb and Joshua trusted God.',
-            refs: 'Numbers 13 \u2013 14',
+        {id: 'wilderness',
+            name: 'Wilderness Wandering',
+            color: '#a78bfa',
+            weight: 3,
+            dash: '6 4',
+            desc: 'The 40-year journey from Sinai through the wilderness to the Plains of Moab. A generation died because they refused to enter the land.',
+            refs: 'Numbers 10 \u2013 36',
             waypoints: [
-                {lat:30.63, lng:34.40, label:'Kadesh-barnea (sent out)', ref:'Num 13:3', desc:'Moses sent one leader from each tribe. Their mission: scout the land, the people, the cities, and the soil. It was a test of faith, not just reconnaissance.'},
-                {lat:30.85, lng:34.60, label:'Negev (entered from south)', ref:'Num 13:17', desc:'They entered Canaan from the south, ascending through the Negev desert. Moses told them to observe the land\'s fertility and the strength of its inhabitants.'},
-                {lat:31.25, lng:34.79, label:'Beer-sheba region', ref:'Num 13:17', desc:'Passing through the patriarchal homeland \u2014 the very land God had promised to Abraham. The spies were walking on covenant ground.'},
-                {lat:31.53, lng:35.10, label:'Hebron (saw the Anakim)', ref:'Num 13:22', desc:'They saw Ahiman, Sheshai, and Talmai \u2014 sons of Anak. Hebron was built seven years before Zoan in Egypt, making it one of the oldest cities in the world.'},
-                {lat:31.55, lng:35.08, label:'Valley of Eshcol (grapes)', ref:'Num 13:23', desc:'They cut a single cluster of grapes so large it required two men to carry it on a pole. They also brought pomegranates and figs \u2014 proof of the land\'s abundance.'},
-                {lat:33.02, lng:35.57, label:'Lebo-hamath (northern extent)', ref:'Num 13:21', desc:'The spies traveled all the way to the northern boundary of the promised land, near the entrance of Hamath in modern Lebanon. A 40-day journey in total.'},
-                {lat:31.55, lng:35.08, label:'Return via Eshcol', ref:'Num 13:24-25', desc:'They named the valley Eshcol ("cluster") after the grapes. Returning south after 40 days, the spies carried both extraordinary fruit and extraordinary fear.'},
-                {lat:30.63, lng:34.40, label:'Kadesh-barnea (report)', ref:'Num 13:26', desc:'Ten spies said: "We are not able to go up against the people, for they are stronger than we." Only Joshua and Caleb dissented: "The LORD is with us; do not fear them."'}
+                {lat:28.54, lng:33.98, label:'Mount Sinai (departure)', ref:'Num 10:11', desc:'After nearly a year at Sinai receiving the Law, tabernacle, and priesthood, Israel finally departed with the Ark leading the way.'},
+                {lat:30.63, lng:34.40, label:'Kadesh-barnea (spies)', ref:'Num 13:26', desc:'Twelve spies explored Canaan for 40 days. Ten returned terrified of the Anakim giants. Only Joshua and Caleb trusted God: "Do not fear the people of the land."'},
+                {lat:30.63, lng:34.40, label:'40 years near Kadesh', ref:'Num 14:33-34', desc:'Because of unbelief, God sentenced the exodus generation to 40 years in the wilderness \u2014 one year for each day the spies explored. An entire generation died.'},
+                {lat:30.32, lng:35.40, label:'Edom border (refused passage)', ref:'Num 20:14-21', desc:'Edom (Esau\'s descendants) refused Israel passage through their territory. Israel had to go the long way around \u2014 a detour that tested their patience.'},
+                {lat:29.83, lng:35.23, label:'Punon (bronze serpent)', ref:'Num 21:4-9', desc:'The people grumbled. God sent fiery serpents. Moses made a bronze serpent on a pole \u2014 all who looked at it lived. Jesus compared this to His own crucifixion (John 3:14).'},
+                {lat:31.38, lng:35.70, label:'Arnon crossing', ref:'Num 21:13', desc:'Israel crossed the Arnon Valley into Amorite territory. They defeated Sihon and Og \u2014 Og of Bashan, last of the Rephaim giants, whose bed was 13 feet long (Deut 3:11).'},
+                {lat:31.86, lng:35.56, label:'Plains of Moab', ref:'Num 22:1', desc:'Israel camped opposite Jericho. Here Balak hired Balaam to curse Israel, but God turned every curse into a blessing. The Moabite women later seduced Israel into idolatry.'},
+                {lat:31.77, lng:35.73, label:'Mount Nebo (Moses\' death)', ref:'Deut 34:1', desc:'God showed Moses the entire Promised Land. Moses died at 120 with undimmed eyes and vigor. God buried him \u2014 no one knows where. Michael later disputed over his body (Jude 9).'}
             ]
         },
-        {
-            id: 'ark_journey',
+        {id: 'conquest',
+            name: 'Conquest of Canaan',
+            color: '#6366f1',
+            weight: 3,
+            dash: '4 4',
+            desc: 'Joshua leads Israel across the Jordan to take the Promised Land. The giant clans (Anakim, Rephaim) are driven out.',
+            refs: 'Joshua 1 \u2013 12',
+            waypoints: [
+                {lat:31.86, lng:35.56, label:'Plains of Moab (staging)', ref:'Josh 1:1', desc:'God commissioned Joshua: "Be strong and courageous. Every place your foot treads, I have given it to you." The new generation prepared to enter the Promised Land.'},
+                {lat:31.87, lng:35.44, label:'Jericho (walls fall)', ref:'Josh 6', desc:'Israel marched around the city seven days. On the seventh day, at the blast of trumpets and the people\'s shout, the walls collapsed. Jericho was devoted to destruction (herem).'},
+                {lat:31.92, lng:35.26, label:'Ai (second assault)', ref:'Josh 8', desc:'After Achan\'s sin caused initial defeat, Joshua conquered Ai with an ambush. He built an altar on Mount Ebal and read the Law to all Israel between Ebal and Gerizim.'},
+                {lat:31.85, lng:35.18, label:'Gibeon (sun stands still)', ref:'Josh 10:12', desc:'Five Amorite kings attacked Gibeon. God hurled hailstones from heaven. Joshua commanded: "Sun, stand still at Gibeon" \u2014 and the sun stopped for a full day. Cosmic warfare.'},
+                {lat:31.61, lng:34.85, label:'Gath (Anakim remnant)', ref:'Josh 11:22', desc:'Joshua cut off the Anakim from the hill country. Only in Gaza, Gath, and Ashdod did some remain \u2014 the same Gath that would later produce Goliath.'},
+                {lat:31.53, lng:35.10, label:'Hebron (Caleb takes it)', ref:'Josh 14:12-15', desc:'85-year-old Caleb said: "Give me this hill country where the Anakim are." He drove out the three sons of Anak and took Hebron \u2014 faith conquering giants.'},
+                {lat:33.02, lng:35.57, label:'Hazor (head of kingdoms)', ref:'Josh 11:10', desc:'The greatest Canaanite city. Joshua struck Jabin its king and burned Hazor \u2014 the only city in the north he burned. God gave Israel rest from war.'},
+                {lat:32.21, lng:35.28, label:'Shechem (covenant renewal)', ref:'Josh 24', desc:'Joshua gathered all Israel: "Choose this day whom you will serve." They answered: "We will serve the LORD." Joshua set up a stone of witness under the oak at Shechem.'}
+            ]
+        },
+        {id: 'philistine_migration',
+            name: 'Philistine / Sea Peoples Migration from Caphtor',
+            color: '#0891b2',
+            weight: 2,
+            dash: '12 6',
+            desc: 'God brought the Philistines from Caphtor (Amos 9:7) \u2014 widely identified with Crete/Aegean. They displaced the Avvim (Deut 2:23) and settled the coastal plain where Anakim remnants remained (Josh 11:22). The Sea Peoples invasion (~1200 BC) brought further waves. God sovereignly placed them as persistent enemies to test Israel\'s faith (Judg 3:1-4).',
+            refs: 'Genesis 10:13-14; Deuteronomy 2:23; Amos 9:7; Jeremiah 47:4',
+            waypoints: [
+                {lat:35.3, lng:25.1, label:'Caphtor (Crete) \u2014 Philistine origin', ref:'Amos 9:7', desc:'God sovereignly moved the Philistines from Caphtor (Crete/Aegean region). They were part of the Sea Peoples migrations that reshaped the ancient Mediterranean.'},
+                {lat:34.7, lng:29.0, label:'Eastern Mediterranean route', ref:'Deut 2:23', desc:'The Philistines displaced the Avvim who lived in villages as far as Gaza. This migration was part of the broader Sea Peoples movement (~1200 BC).'},
+                {lat:33.0, lng:33.0, label:'Cyprus (staging area)', ref:'Gen 10:14', desc:'Cyprus served as a staging point for the Sea Peoples\' eastward push. Philistine pottery found here shows their migration path from the Aegean.'},
+                {lat:31.80, lng:34.65, label:'Ashdod \u2014 Philistine Pentapolis', ref:'Josh 11:22', desc:'One of five Philistine cities. The Ark of the Covenant was placed in Dagon\'s temple here, and Dagon fell before it. Anakim remnants survived in Ashdod.'},
+                {lat:31.67, lng:34.57, label:'Ashkelon \u2014 Philistine Pentapolis', ref:'Judg 14:19', desc:'Samson killed 30 men here to pay his wedding bet. Ashkelon was a major port city known for its metalworking \u2014 iron technology the Philistines monopolized.'},
+                {lat:31.50, lng:34.47, label:'Gaza \u2014 Philistine Pentapolis', ref:'Josh 11:22', desc:'The southernmost Philistine city. Samson carried its gates to a hilltop and later died destroying the temple of Dagon here. Anakim remnants survived in Gaza.'},
+                {lat:31.70, lng:34.85, label:'Gath \u2014 Home of Goliath & giants', ref:'1 Sam 17:4', desc:'Gath produced Goliath and four other giants (2 Sam 21). It was the city where Anakim remnants were strongest. David feigned madness here when fleeing Saul.'},
+                {lat:31.78, lng:34.85, label:'Ekron \u2014 Philistine Pentapolis', ref:'1 Sam 5:10', desc:'The northern Philistine city. When the Ark arrived here, the people cried out in terror. Ekron was associated with Baal-zebub, "lord of the flies" (2 Kgs 1:2).'}
+            ]
+        },
+        {id: 'ark_journey',
             name: 'Ark of the Covenant',
-            color: '#c9a84c',
+            color: '#14b8a6',
             weight: 3,
             dash: null,
             desc: 'The Ark\'s journey from Sinai through the wilderness, into Canaan, captured by the Philistines, and finally brought to Jerusalem by David. The physical throne of God among men.',
@@ -6294,45 +6356,25 @@
                 {lat:31.78, lng:35.24, label:'Jerusalem (David\'s city)', ref:'2 Sam 6:12-17', desc:'David brought the Ark to Jerusalem with shouting and the sound of the horn. He danced before the LORD with all his might. The Ark found its final home.'}
             ]
         },
-        {
-            id: 'abrahams_war',
-            name: 'Abraham\'s War (Rescue of Lot)',
-            color: '#5a9a70',
-            weight: 2,
+        {id: 'giant_slayer',
+            name: 'Giant Slayer Trail (Joshua \u2192 Caleb \u2192 David)',
+            color: '#fb7185',
+            weight: 3,
             dash: null,
-            desc: 'When four Mesopotamian kings captured Lot at Sodom, Abraham armed 318 trained servants, pursued them north past Dan to Hobah near Damascus, defeated them at night, and recovered everything. Met Melchizedek on return.',
-            refs: 'Genesis 14',
+            desc: 'The progression of God\'s giant-slaying champions. Joshua cleared the Anakim from the hill country (Josh 11:21). Caleb personally took Hebron \u2014 the Anakim stronghold (Josh 14:12). David and his men killed the last five Rephaim descendants in Philistia (1 Sam 17; 2 Sam 21). All point to Christ who destroys every enemy power (1 Cor 15:25-26; Heb 2:14).',
+            refs: 'Joshua 11:21-22; 14:12-15; 1 Samuel 17; 2 Samuel 21:15-22',
             waypoints: [
-                {lat:31.53, lng:35.10, label:'Hebron (Mamre, news arrives)', ref:'Gen 14:13', desc:'A fugitive brought word that Lot was captured. Abraham immediately armed his 318 trained servants born in his household \u2014 ready for war to rescue family.'},
-                {lat:31.25, lng:35.53, label:'Sodom region (Lot captured)', ref:'Gen 14:11-12', desc:'Four Mesopotamian kings raided Sodom, seized its goods, and captured Lot. The defeat exposed the weakness of Sodom\'s alliance against eastern powers.'},
-                {lat:32.21, lng:35.28, label:'Shechem (northward pursuit)', ref:'Gen 14:14', desc:'Abraham pursued the kings northward through the heart of Canaan. His swift military response reveals a trained warrior, not just a peaceful nomad.'},
-                {lat:33.25, lng:35.69, label:'Dan (caught up to kings)', ref:'Gen 14:14', desc:'Abraham divided his forces and attacked at night. The surprise assault routed the eastern kings. Abraham recovered all the people and possessions.'},
-                {lat:33.55, lng:36.25, label:'Hobah near Damascus (victory)', ref:'Gen 14:15', desc:'Abraham pursued the fleeing kings north of Damascus to Hobah. A complete victory \u2014 every captive freed, every possession recovered.'},
-                {lat:31.78, lng:35.24, label:'Salem (meets Melchizedek)', ref:'Gen 14:18', desc:'Melchizedek, king of Salem and priest of God Most High, brought bread and wine and blessed Abraham. Abraham gave him a tenth. A type of Christ\'s eternal priesthood (Heb 7).'},
-                {lat:31.53, lng:35.10, label:'Hebron (returns home)', ref:'Gen 14:13', desc:'Abraham refused to take any plunder from the king of Sodom: "I have lifted my hand to the LORD, God Most High \u2014 I would not take a thread or a sandal strap."'}
+                {lat:31.87, lng:35.44, label:'Jericho (walls fall)', ref:'Josh 6', desc:'The first city to fall. God fought with supernatural power \u2014 walls collapsed at a shout. The conquest began not with human might but divine intervention.'},
+                {lat:33.02, lng:35.57, label:'Hazor (head of kingdoms)', ref:'Josh 11:10', desc:'Joshua defeated Jabin\'s coalition. He "cut off the Anakim from the hill country" (Josh 11:21). The systematic removal of the giant clans from the land of promise.'},
+                {lat:31.53, lng:35.10, label:'Hebron (Caleb drives out Anakim)', ref:'Josh 14:12-15', desc:'85-year-old Caleb claimed the giants\' stronghold: "Give me this hill country." He drove out the three sons of Anak. The faith of the minority spy, 45 years later, still burned.'},
+                {lat:31.69, lng:34.96, label:'Valley of Elah (David kills Goliath)', ref:'1 Sam 17:49', desc:'Goliath \u2014 over 9 feet tall, champion of Gath. David faced him with a sling and five stones: "I come in the name of the LORD of hosts." One stone. One kill.'},
+                {lat:31.70, lng:34.85, label:'Gath (four more giants killed)', ref:'2 Sam 21:15-22', desc:'David\'s warriors killed four more Rephaim descendants: Ishbi-benob, Saph, a man with six fingers and six toes, and the brother of Goliath. The giant line was finished.'},
+                {lat:31.50, lng:34.47, label:'Gaza (last Anakim holdout)', ref:'Josh 11:22', desc:'Gaza, Gath, and Ashdod \u2014 the only places Anakim survived Joshua\'s purge. These Philistine cities harbored the remnant until David\'s generation completed the work.'}
             ]
         },
-        {
-            id: 'elijah',
-            name: 'Elijah\'s Journey',
-            color: '#a07a4a',
-            weight: 2,
-            dash: '6 4',
-            desc: 'From Gilead to Mount Carmel\'s dramatic showdown with Baal\'s prophets, then fleeing Jezebel to Beer-sheba and onward 40 days to Horeb/Sinai where God spoke in the still small voice.',
-            refs: '1 Kings 17 \u2013 19',
-            waypoints: [
-                {lat:32.40, lng:35.78, label:'Gilead (Tishbe, home)', ref:'1 Kgs 17:1', desc:'Elijah appeared without introduction: "As the LORD the God of Israel lives, before whom I stand, there shall be no rain." One man against a nation\'s apostasy.'},
-                {lat:32.00, lng:35.55, label:'Brook Cherith (ravens)', ref:'1 Kgs 17:3-6', desc:'God hid Elijah by the brook and sent ravens to feed him morning and evening with bread and meat. When the brook dried up, God moved him to the next provision.'},
-                {lat:33.45, lng:35.29, label:'Zarephath (widow)', ref:'1 Kgs 17:9', desc:'A Sidonian widow, down to her last meal, fed Elijah. Her flour and oil never ran out. When her son died, Elijah raised him \u2014 the first resurrection in Scripture.'},
-                {lat:32.74, lng:35.04, label:'Mount Carmel (fire falls)', ref:'1 Kgs 18:19-40', desc:'Elijah vs. 450 prophets of Baal. "How long will you go limping between two opinions?" He built an altar, soaked it with water, and fire fell from heaven consuming everything.'},
-                {lat:31.25, lng:34.79, label:'Beer-sheba (fled Jezebel)', ref:'1 Kgs 19:3', desc:'After the greatest victory, Elijah\'s greatest depression. Jezebel threatened him; he ran to Beer-sheba and collapsed under a broom tree: "Take away my life."'},
-                {lat:28.54, lng:33.98, label:'Horeb/Sinai (still small voice)', ref:'1 Kgs 19:8-12', desc:'Sustained by angelic food, Elijah walked 40 days to Horeb. God was not in the wind, earthquake, or fire \u2014 but in the still small voice. "What are you doing here, Elijah?"'}
-            ]
-        },
-        {
-            id: 'david_flight',
+        {id: 'david_flight',
             name: 'David\'s Flight from Saul',
-            color: '#5a7a9a',
+            color: '#60a5fa',
             weight: 2,
             dash: null,
             desc: 'Anointed king but hunted like an animal. David fled from Saul across the Judean wilderness for years, gathering a band of outcasts who became his mighty men. He refused to kill God\'s anointed.',
@@ -6348,47 +6390,25 @@
                 {lat:31.35, lng:34.58, label:'Ziklag (Philistine base)', ref:'1 Sam 27:5-7', desc:'Achish of Gath gave David Ziklag. He operated from Philistine territory for 16 months, raiding Israel\'s enemies while Saul thought him lost. A dark but providential period.'}
             ]
         },
-        {
-            id: 'philistine_migration',
-            name: 'Philistine / Sea Peoples Migration from Caphtor',
-            color: '#4a8a96',
+        {id: 'elijah',
+            name: 'Elijah\'s Journey',
+            color: '#d946ef',
             weight: 2,
-            dash: '12 6',
-            desc: 'God brought the Philistines from Caphtor (Amos 9:7) \u2014 widely identified with Crete/Aegean. They displaced the Avvim (Deut 2:23) and settled the coastal plain where Anakim remnants remained (Josh 11:22). The Sea Peoples invasion (~1200 BC) brought further waves. God sovereignly placed them as persistent enemies to test Israel\'s faith (Judg 3:1-4).',
-            refs: 'Genesis 10:13-14; Deuteronomy 2:23; Amos 9:7; Jeremiah 47:4',
+            dash: '6 4',
+            desc: 'From Gilead to Mount Carmel\'s dramatic showdown with Baal\'s prophets, then fleeing Jezebel to Beer-sheba and onward 40 days to Horeb/Sinai where God spoke in the still small voice.',
+            refs: '1 Kings 17 \u2013 19',
             waypoints: [
-                {lat:35.3, lng:25.1, label:'Caphtor (Crete) \u2014 Philistine origin', ref:'Amos 9:7', desc:'God sovereignly moved the Philistines from Caphtor (Crete/Aegean region). They were part of the Sea Peoples migrations that reshaped the ancient Mediterranean.'},
-                {lat:34.7, lng:29.0, label:'Eastern Mediterranean route', ref:'Deut 2:23', desc:'The Philistines displaced the Avvim who lived in villages as far as Gaza. This migration was part of the broader Sea Peoples movement (~1200 BC).'},
-                {lat:33.0, lng:33.0, label:'Cyprus (staging area)', ref:'Gen 10:14', desc:'Cyprus served as a staging point for the Sea Peoples\' eastward push. Philistine pottery found here shows their migration path from the Aegean.'},
-                {lat:31.80, lng:34.65, label:'Ashdod \u2014 Philistine Pentapolis', ref:'Josh 11:22', desc:'One of five Philistine cities. The Ark of the Covenant was placed in Dagon\'s temple here, and Dagon fell before it. Anakim remnants survived in Ashdod.'},
-                {lat:31.67, lng:34.57, label:'Ashkelon \u2014 Philistine Pentapolis', ref:'Judg 14:19', desc:'Samson killed 30 men here to pay his wedding bet. Ashkelon was a major port city known for its metalworking \u2014 iron technology the Philistines monopolized.'},
-                {lat:31.50, lng:34.47, label:'Gaza \u2014 Philistine Pentapolis', ref:'Josh 11:22', desc:'The southernmost Philistine city. Samson carried its gates to a hilltop and later died destroying the temple of Dagon here. Anakim remnants survived in Gaza.'},
-                {lat:31.70, lng:34.85, label:'Gath \u2014 Home of Goliath & giants', ref:'1 Sam 17:4', desc:'Gath produced Goliath and four other giants (2 Sam 21). It was the city where Anakim remnants were strongest. David feigned madness here when fleeing Saul.'},
-                {lat:31.78, lng:34.85, label:'Ekron \u2014 Philistine Pentapolis', ref:'1 Sam 5:10', desc:'The northern Philistine city. When the Ark arrived here, the people cried out in terror. Ekron was associated with Baal-zebub, "lord of the flies" (2 Kgs 1:2).'}
+                {lat:32.40, lng:35.78, label:'Gilead (Tishbe, home)', ref:'1 Kgs 17:1', desc:'Elijah appeared without introduction: "As the LORD the God of Israel lives, before whom I stand, there shall be no rain." One man against a nation\'s apostasy.'},
+                {lat:32.00, lng:35.55, label:'Brook Cherith (ravens)', ref:'1 Kgs 17:3-6', desc:'God hid Elijah by the brook and sent ravens to feed him morning and evening with bread and meat. When the brook dried up, God moved him to the next provision.'},
+                {lat:33.45, lng:35.29, label:'Zarephath (widow)', ref:'1 Kgs 17:9', desc:'A Sidonian widow, down to her last meal, fed Elijah. Her flour and oil never ran out. When her son died, Elijah raised him \u2014 the first resurrection in Scripture.'},
+                {lat:32.74, lng:35.04, label:'Mount Carmel (fire falls)', ref:'1 Kgs 18:19-40', desc:'Elijah vs. 450 prophets of Baal. "How long will you go limping between two opinions?" He built an altar, soaked it with water, and fire fell from heaven consuming everything.'},
+                {lat:31.25, lng:34.79, label:'Beer-sheba (fled Jezebel)', ref:'1 Kgs 19:3', desc:'After the greatest victory, Elijah\'s greatest depression. Jezebel threatened him; he ran to Beer-sheba and collapsed under a broom tree: "Take away my life."'},
+                {lat:28.54, lng:33.98, label:'Horeb/Sinai (still small voice)', ref:'1 Kgs 19:8-12', desc:'Sustained by angelic food, Elijah walked 40 days to Horeb. God was not in the wind, earthquake, or fire \u2014 but in the still small voice. "What are you doing here, Elijah?"'}
             ]
         },
-        {
-            id: 'giant_slayer',
-            name: 'Giant Slayer Trail (Joshua \u2192 Caleb \u2192 David)',
-            color: '#b5564a',
-            weight: 3,
-            dash: null,
-            desc: 'The progression of God\'s giant-slaying champions. Joshua cleared the Anakim from the hill country (Josh 11:21). Caleb personally took Hebron \u2014 the Anakim stronghold (Josh 14:12). David and his men killed the last five Rephaim descendants in Philistia (1 Sam 17; 2 Sam 21). All point to Christ who destroys every enemy power (1 Cor 15:25-26; Heb 2:14).',
-            refs: 'Joshua 11:21-22; 14:12-15; 1 Samuel 17; 2 Samuel 21:15-22',
-            waypoints: [
-                {lat:31.87, lng:35.44, label:'Jordan Crossing (conquest begins)', ref:'Josh 3:14-17', desc:'The Ark led Israel across the Jordan on dry ground. The land of the giants lay ahead. God promised Joshua: "No man shall be able to stand before you."'},
-                {lat:31.87, lng:35.44, label:'Jericho (walls fall)', ref:'Josh 6', desc:'The first city to fall. God fought with supernatural power \u2014 walls collapsed at a shout. The conquest began not with human might but divine intervention.'},
-                {lat:33.02, lng:35.57, label:'Hazor (head of kingdoms)', ref:'Josh 11:10', desc:'Joshua defeated Jabin\'s coalition. He "cut off the Anakim from the hill country" (Josh 11:21). The systematic removal of the giant clans from the land of promise.'},
-                {lat:31.53, lng:35.10, label:'Hebron (Caleb drives out Anakim)', ref:'Josh 14:12-15', desc:'85-year-old Caleb claimed the giants\' stronghold: "Give me this hill country." He drove out the three sons of Anak. The faith of the minority spy, 45 years later, still burned.'},
-                {lat:31.69, lng:34.96, label:'Valley of Elah (David kills Goliath)', ref:'1 Sam 17:49', desc:'Goliath \u2014 over 9 feet tall, champion of Gath. David faced him with a sling and five stones: "I come in the name of the LORD of hosts." One stone. One kill.'},
-                {lat:31.70, lng:34.85, label:'Gath (four more giants killed)', ref:'2 Sam 21:15-22', desc:'David\'s warriors killed four more Rephaim descendants: Ishbi-benob, Saph, a man with six fingers and six toes, and the brother of Goliath. The giant line was finished.'},
-                {lat:31.50, lng:34.47, label:'Gaza (last Anakim holdout)', ref:'Josh 11:22', desc:'Gaza, Gath, and Ashdod \u2014 the only places Anakim survived Joshua\'s purge. These Philistine cities harbored the remnant until David\'s generation completed the work.'}
-            ]
-        },
-        {
-            id: 'phoenician_trade',
+        {id: 'phoenician_trade',
             name: 'Phoenician Trade Route \u2014 Cursed Line Spreads',
-            color: '#7a5a96',
+            color: '#7c3aed',
             weight: 2,
             dash: '10 4',
             desc: 'The Phoenicians (= cursed Canaanites, Gen 9:25 + 10:15) built the greatest maritime trade network of the ancient world. Master seafarers, they established colonies across the Mediterranean, spreading both commerce and Baal worship (including child sacrifice). God sovereignly used their skills: their 22-letter alphabet (~1050 BC) became the direct ancestor of Greek, Latin, and every modern Western alphabet \u2014 the writing system God chose for His Word. Their cedar supplied His Temple. Yet everywhere they went, they carried their abominations (Lev 18:21; Deut 12:31).',
@@ -6405,29 +6425,9 @@
                 {lat:36.53, lng:-6.30, label:'Gades (C\u00e1diz, Spain) \u2014 western terminus', ref:'Ezek 27:12 (Tarshish?)', desc:'The western limit of Phoenician trade, beyond the Pillars of Hercules. Possibly the biblical Tarshish \u2014 Jonah tried to flee to the ends of the earth to escape God\'s call.'}
             ]
         },
-        {
-            id: 'isaac',
-            name: 'Isaac\'s Journey',
-            color: '#d4b478',
-            weight: 3,
-            dash: '8 6',
-            desc: 'The "quiet patriarch" \u2014 Isaac\'s life unfolds between Beer-lahai-roi, Gerar, and Beer-sheba. Though less dramatic than Abraham or Jacob, Isaac\'s story includes the Aqedah (binding), well-digging conflicts that preview Israel\'s land disputes, and the covenant reaffirmation at Beer-sheba.',
-            refs: 'Genesis 20\u201326, 35',
-            waypoints: [
-                {lat:30.85, lng:34.68, label:'Beer-lahai-roi \u2014 where Rebekah arrives', ref:'Gen 24:62', desc:'Isaac dwelt near the well where God had appeared to Hagar. Here he went out to meditate and first saw Rebekah approaching on her camel (Gen 24:63-67).'},
-                {lat:31.25, lng:34.79, label:'Beer-sheba \u2014 Abraham\'s covenant site', ref:'Gen 21:31', desc:'Abraham had made a covenant with Abimelech here and planted a tamarisk tree. Isaac inherited this as home base (Gen 21:31-34).'},
-                {lat:31.78, lng:35.24, label:'Mount Moriah \u2014 the Aqedah', ref:'Gen 22:2', desc:'Abraham bound Isaac on the altar here. God provided a ram instead \u2014 "On the mount of the LORD it shall be provided" (Gen 22:14). Later the Temple site.'},
-                {lat:31.40, lng:34.39, label:'Gerar \u2014 sojourn and deception', ref:'Gen 26:1-6', desc:'During famine, Isaac went to Abimelech king of the Philistines. Like his father, he called Rebekah his sister. God blessed him with hundredfold harvest (Gen 26:12).'},
-                {lat:31.35, lng:34.42, label:'Valley of Gerar \u2014 well conflicts (Esek, Sitnah)', ref:'Gen 26:17-21', desc:'Isaac re-dug Abraham\'s wells. The herdsmen of Gerar quarreled \u2014 he named them Esek ("contention") and Sitnah ("enmity"), previewing Israel\'s later land conflicts.'},
-                {lat:31.33, lng:34.45, label:'Rehoboth \u2014 "room at last"', ref:'Gen 26:22', desc:'After two disputes, Isaac dug a third well with no quarrel. He named it Rehoboth \u2014 "For now the LORD has made room for us, and we shall be fruitful in the land."'},
-                {lat:31.25, lng:34.79, label:'Beer-sheba \u2014 God appears, builds altar', ref:'Gen 26:23-33', desc:'God appeared to Isaac: "I am the God of Abraham your father. Fear not, for I am with you." Isaac built an altar, pitched his tent, and dug another well.'},
-                {lat:31.53, lng:35.10, label:'Hebron / Machpelah \u2014 death and burial', ref:'Gen 35:27-29', desc:'Isaac died at age 180 in Hebron. Esau and Jacob buried him together in the cave of Machpelah alongside Abraham and Sarah (Gen 35:29).'}
-            ]
-        },
-        {
-            id: 'jesus_galilee',
+        {id: 'jesus_galilee',
             name: 'Jesus\' Galilean Ministry',
-            color: '#5b8dbf',
+            color: '#2563eb',
             weight: 3,
             dash: '6 4',
             desc: 'From baptism through the major Galilean ministry \u2014 healing, teaching, calling disciples, and revealing the Kingdom of God. Jesus based His ministry in Capernaum and traveled throughout Galilee, Tyre/Sidon, and the Decapolis.',
@@ -6445,10 +6445,9 @@
                 {lat:33.42, lng:35.86, label:'Mount Hermon \u2014 Transfiguration', ref:'Matt 17:1-8', desc:'Jesus was transfigured \u2014 face shining like the sun. Moses and Elijah appeared. The Father\'s voice: "This is my beloved Son; listen to him." A divine council throne-room vision.'}
             ]
         },
-        {
-            id: 'jesus_final_week',
+        {id: 'jesus_final_week',
             name: 'Jesus\' Final Week \u2014 Jerusalem',
-            color: '#c45c5c',
+            color: '#dc2626',
             weight: 4,
             dash: null,
             desc: 'The last week of Jesus\' earthly ministry in Jerusalem \u2014 from the Triumphal Entry through the crucifixion and resurrection. Every location carries immense theological weight.',
@@ -6464,10 +6463,9 @@
                 {lat:31.7798, lng:35.2298, label:'Garden Tomb \u2014 Resurrection', ref:'Matt 28:1-10', desc:'"He is not here, for he has risen." The angel rolled away the stone \u2014 not to let Jesus out, but to let the witnesses in. The resurrection is the vindication of the Son of God.'}
             ]
         },
-        {
-            id: 'paul_journey1',
+        {id: 'paul_journey1',
             name: 'Paul\'s 1st Missionary Journey',
-            color: '#5a9a6a',
+            color: '#16a34a',
             weight: 3,
             dash: '10 5',
             desc: 'The first organized Gentile mission. Paul and Barnabas, sent by the Holy Spirit from Antioch, traveled through Cyprus and southern Asia Minor. This journey established the pattern: synagogue first, then Gentiles.',
@@ -6485,10 +6483,9 @@
                 {lat:36.20, lng:36.16, label:'Return to Antioch \u2014 mission report', ref:'Acts 14:26-28', desc:'They gathered the church and declared all that God had done with them, and how He had opened a door of faith to the Gentiles.'}
             ]
         },
-        {
-            id: 'paul_journey2',
+        {id: 'paul_journey2',
             name: 'Paul\'s 2nd Missionary Journey',
-            color: '#9b7ec8',
+            color: '#9333ea',
             weight: 3,
             dash: '6 3 2 3',
             desc: 'The gospel enters Europe. Paul (now with Silas) revisited Asian churches, then crossed into Macedonia by divine vision. This journey produced 1 & 2 Thessalonians and established churches in Philippi, Thessalonica, and Corinth.',
@@ -6508,10 +6505,9 @@
                 {lat:36.20, lng:36.16, label:'Return to Antioch \u2014 journey complete', ref:'Acts 18:22', desc:'Paul returned to Antioch, completing the second circuit. The gospel had now reached Europe and major Roman cities.'}
             ]
         },
-        {
-            id: 'paul_journey3',
+        {id: 'paul_journey3',
             name: 'Paul\'s 3rd Missionary Journey',
-            color: '#2d9a8f',
+            color: '#0d9488',
             weight: 3,
             dash: '12 4 4 4',
             desc: 'Paul\'s longest journey, centered on a 2+ year ministry in Ephesus. He wrote 1 Corinthians from Ephesus, then traveled through Macedonia to Corinth (writing Romans), and returned via Troas to Miletus for a tearful farewell to the Ephesian elders.',
@@ -6528,23 +6524,6 @@
                 {lat:34.43, lng:35.84, label:'Tyre \u2014 warned not to go to Jerusalem', ref:'Acts 21:3-6', desc:'The disciples at Tyre, through the Spirit, told Paul not to go to Jerusalem. But Paul was resolved. They all knelt on the beach and prayed before parting.'},
                 {lat:32.49, lng:34.89, label:'Caesarea \u2014 Agabus\' prophecy', ref:'Acts 21:8-14', desc:'The prophet Agabus bound his own hands with Paul\'s belt: "The Jews at Jerusalem will bind the owner." Paul replied: "I am ready to die for the name of the Lord Jesus."'},
                 {lat:31.78, lng:35.24, label:'Jerusalem \u2014 arrival and arrest', ref:'Acts 21:15-17', desc:'Paul arrived bearing the Gentile churches\' financial gift. Within days he would be arrested in the Temple, beginning his long journey to Rome as a prisoner.'}
-            ]
-        },
-        {
-            id: 'nimrod_expansion',
-            name: 'Nimrod\'s Empire \u2014 Babel to Assyria',
-            color: '#a07a4a',
-            weight: 3,
-            dash: '8 4 4 4',
-            desc: 'The first post-Flood kingdom-builder. Nimrod (gibbor \u2014 "mighty one," the same term for Nephilim in Gen 6:4) began at Babel in Shinar, then expanded northward into Assyria, building Nineveh, Rehoboth-Ir, Calah, and Resen. His Babel was the center of unified rebellion against God\'s command to fill the earth (Gen 9:1). God scattered it via language confusion (Gen 11:8-9). Arabic legends extend his reach to Baalbek, where he allegedly sent giants to build the megalithic fortress. Nimrod is the prototype of human pride opposing God \u2014 all later proud kingdoms (Assyria, Babylon, Rome) echo his rebellion.',
-            refs: 'Gen 10:8-12; Gen 11:1-9; Micah 5:6',
-            waypoints: [
-                {lat:32.54, lng:44.42, label:'Babel / Babylon (Shinar) \u2014 tower & rebellion', ref:'Gen 11:1-9', desc:'Nimrod\'s capital. The Tower of Babel was humanity\'s unified rebellion against God\'s command to fill the earth. God confused their languages and scattered them.'},
-                {lat:31.32, lng:45.64, label:'Erech (Uruk) \u2014 Gilgamesh\'s city', ref:'Gen 10:10', desc:'The legendary city of Gilgamesh, who sought immortality. Possibly a garbled memory of a Nimrod-like figure. The Epic of Gilgamesh contains a flood parallel to Noah\'s.'},
-                {lat:32.78, lng:44.00, label:'Accad \u2014 Nimrod\'s domain', ref:'Gen 10:10', desc:'Part of Nimrod\'s original kingdom in Shinar. The Akkadian Empire under Sargon later ruled from here \u2014 the world\'s first empire, echoing Nimrod\'s ambition.'},
-                {lat:34.50, lng:43.50, label:'Calah \u2014 built by Nimrod in Assyria', ref:'Gen 10:11-12', desc:'Nimrod expanded from Shinar northward into Assyria. Calah (Nimrud) became a major Assyrian city. Later kings like Ashurnasirpal II built grand palaces here.'},
-                {lat:36.36, lng:43.15, label:'Nineveh \u2014 "the great city"', ref:'Gen 10:11', desc:'Built by Nimrod, Nineveh became capital of the Assyrian Empire. God sent Jonah to preach here. It was "an exceedingly great city, three days\' journey in breadth."'},
-                {lat:34.01, lng:36.20, label:'Baalbek \u2014 giants rebuild (C-level legend)', ref:'Arabic traditions; Gen 6:4', desc:'C-level tradition: Arabic legends attribute the megalithic stones (800+ tons) to giants or Nimrod. The Romans built their largest Jupiter temple on these impossible foundations.'}
             ]
         }
     ];
@@ -7030,9 +7009,20 @@
             var c = mapCategories[cat];
             mapOverlayLayers[c.icon + ' ' + c.label] = mapLayerGroups[cat];
         });
-        // ── JOURNEY LAYERS ──
-        mapOverlayLayers['\u2500\u2500 JOURNEYS \u2500\u2500'] = L.layerGroup(); // separator
+        // ── JOURNEY LAYERS (grouped by epoch) ──
+        var journeyEpochs = {
+            'watcher_descent': '\u2500\u2500 PRIMEVAL \u2500\u2500',
+            'abraham': '\u2500\u2500 PATRIARCHS \u2500\u2500',
+            'moses_life': '\u2500\u2500 EXODUS & WILDERNESS \u2500\u2500',
+            'conquest': '\u2500\u2500 CONQUEST & JUDGES \u2500\u2500',
+            'giant_slayer': '\u2500\u2500 KINGDOM ERA \u2500\u2500',
+            'jesus_galilee': '\u2500\u2500 JESUS\' MINISTRY \u2500\u2500',
+            'paul_journey1': '\u2500\u2500 APOSTOLIC ERA \u2500\u2500'
+        };
         MAP_JOURNEYS.forEach(function(journey) {
+            if (journeyEpochs[journey.id]) {
+                mapOverlayLayers[journeyEpochs[journey.id]] = L.layerGroup(); // epoch separator
+            }
             var jGroup = L.layerGroup();
             var coords = journey.waypoints.map(function(wp) { return [wp.lat, wp.lng]; });
 
@@ -7049,7 +7039,7 @@
             journey.waypoints.forEach(function(wp, i) {
                 var wpIcon = L.divIcon({
                     className: 'map-waypoint-icon',
-                    html: '<div style="background:' + journey.color + ';color:#0c0e14;width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:bold;border:1px solid rgba(255,255,255,0.5);box-shadow:0 1px 4px rgba(0,0,0,0.5)">' + (i+1) + '</div>',
+                    html: '<div style="background:' + journey.color + ';color:#fff;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:bold;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.6);text-shadow:0 1px 2px rgba(0,0,0,0.5)">' + (i+1) + '</div>',
                     iconSize: [20, 20],
                     iconAnchor: [10, 10],
                     popupAnchor: [0, -12]
