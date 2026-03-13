@@ -171,6 +171,28 @@ CHAPTERS = [
                         "nations -- the lesser elohim. They return through the cities, appointing "
                         "elders (14:23), and report back to Antioch: 'God had opened a door of faith "
                         "to the Gentiles' (14:27)."
+            },
+            {
+                "heading": "Name Theology: Saul to Paul — The Identity Shift for a Gentile Mission",
+                "body": "Acts 13:9 marks one of the most significant name transitions in Scripture: 'But "
+                        "Saul, who was also called Paul (Saulos de, ho kai Paulos), filled with the Holy "
+                        "Spirit, looked intently at him.' From this point forward, Luke never again calls "
+                        "him 'Saul' in the narrative. The birth name Saul (Šāʾûl, שָׁאוּל) means 'asked "
+                        "for' — the same name as Israel's first king, the tallest man in the nation "
+                        "(1 Samuel 9:2), the Benjaminite tribal hero. Paul (Paulos, from Latin paulus) "
+                        "means 'small' or 'humble.' The shift occurs at the precise moment Paul confronts "
+                        "Bar-Jesus and converts the Roman proconsul Sergius Paulus — a man who shares his "
+                        "new name. Luke's literary timing is deliberate: the Pharisaic zealot named after "
+                        "Israel's first king becomes the humble apostle to the nations. Paul likely always "
+                        "carried both names (Jewish + Roman citizen), but Luke's narrative shift from 'Saul' "
+                        "to 'Paul' marks an identity transformation: from persecutor to preacher, from "
+                        "synagogue authority to Gentile missionary. Paul himself embraces the smallness his "
+                        "name implies: 'I am the least (elachistos) of the apostles' (1 Corinthians 15:9). "
+                        "The pattern echoes the OT: God takes the one 'asked for' by human ambition and "
+                        "transforms him into something small enough to be used — the same reversal of "
+                        "Abram→Abraham (exalted father → father of multitudes) and Jacob→Israel (supplanter "
+                        "→ one who strives with God). The name itself becomes a theological confession: "
+                        "power is made perfect in weakness (2 Corinthians 12:9)."
             }
         ]
     },

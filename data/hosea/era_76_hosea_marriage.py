@@ -135,6 +135,24 @@ CHAPTERS = [
                         "transform from judgment to harvest. The Hebrew readers would have gasped: YHWH "
                         "reverses his own curse. The covenant is shattered and yet not destroyed. This is "
                         "grace that absorbs judgment rather than simply canceling it."
+            },
+            {
+                "heading": "Name Theology: The Prophet's Household as Living Oracle",
+                "body": "Hosea's name (Hoshea, הוֹשֵׁעַ) means 'salvation' -- the same root as Joshua (Yehoshua) "
+                        "and Jesus (Yeshua). The prophet named 'Salvation' is commanded to embody covenant "
+                        "dissolution through his family. His wife Gomer's name may derive from gamar "
+                        "(to complete/cease) -- she completes the prophetic message of judgment. Their three "
+                        "children's names form a devastating sequence: Jezreel ('God scatters/sows'), "
+                        "Lo-Ruhamah ('No Mercy' -- from rechem, 'womb,' the deepest maternal compassion), "
+                        "and Lo-Ammi ('Not My People' -- divorce language). Each name escalates: from "
+                        "agricultural warning to withdrawn compassion to covenant termination. Yet Hosea 2:1 "
+                        "reverses every name: 'Say to your brothers Ammi (My People), and to your sisters "
+                        "Ruhamah (Shown Mercy).' The children are un-cursed through re-naming. This is "
+                        "name theology at its most powerful: identity is not fixed but subject to divine "
+                        "reversal. The prophet whose name means 'Salvation' embodies the full arc from "
+                        "judgment through un-naming to salvation through re-naming. The same root (yasha) "
+                        "will reach its ultimate expression in Yeshua -- 'YHWH saves' -- the one who "
+                        "fulfills what Hosea's name only promised."
             }
         ]
     },

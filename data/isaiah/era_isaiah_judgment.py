@@ -539,6 +539,26 @@ CHAPTERS = [
                         "good,' 7:16), the two threatening kings will be removed. But the name Immanu-El "
                         "('God with us') transcends the immediate crisis. YHWH warns that the very "
                         "Assyria Ahaz trusts will become the instrument of Judah's devastation (7:17)."
+            },
+            {
+                "heading": "Name Theology: Isaiah's Household as Prophetic Signs",
+                "body": "Isaiah's name (Yeshayahu, יְשַׁעְיָהוּ) means 'YHWH saves' — and his entire message "
+                        "is encoded in his name. But Isaiah goes further: his children become walking prophecies. "
+                        "Shear-jashub (שְׁאָר יָשׁוּב, 'A Remnant Shall Return,' 7:3) accompanies his father "
+                        "to meet Ahaz — the boy's very presence is a divine message: judgment will come, but "
+                        "a remnant will survive and return. Maher-shalal-hash-baz (מַהֵר שָׁלָל חָשׁ בַּז, "
+                        "'Swift is the Spoil, Speedy is the Plunder,' 8:3) is the longest personal name in "
+                        "Scripture — his birth is a public sign that Assyria will plunder Damascus and Samaria "
+                        "before the child can say 'my father.' Immanuel (עִמָּנוּ אֵל, 'God with us,' 7:14) is "
+                        "the third prophetic child-name — and the one that transcends its immediate context to "
+                        "become a messianic title. Isaiah's wife is called 'the prophetess' (8:3) — the entire "
+                        "household is an oracle. Isaiah himself declares: 'Behold, I and the children whom "
+                        "YHWH has given me are signs and portents in Israel' (8:18). The prophet's family is "
+                        "a living sermon. His name (YHWH saves) answers the question his children's names "
+                        "raise: judgment is coming (Maher-shalal), but a remnant will return (Shear-jashub), "
+                        "because God is with us (Immanuel). The name Yeshua (Jesus) shares Isaiah's root "
+                        "yesha (ישע, salvation), making the prophet's name a direct etymological forerunner "
+                        "of the Messiah — the ultimate answer to Isaiah's household prophecy."
             }
         ]
     },

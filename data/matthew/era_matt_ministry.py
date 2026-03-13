@@ -173,6 +173,28 @@ CHAPTERS = [
                         "my son'), returns after Herod's death, and settles in Nazareth (fulfilling "
                         "an unspecified prophetic word, 2:23). Jesus recapitulates Israel's journey: "
                         "born in the land, exiled to Egypt, called out to begin his mission."
+            },
+            {
+                "heading": "Name Theology: Five Names That Tell the Gospel Story",
+                "body": "Matthew 1-2 is saturated with name theology. Five names carry the weight of "
+                        "Matthew's Christology: (1) Jesus (Yeshua, יֵשׁוּעַ) = 'YHWH saves.' The angel "
+                        "explains: 'You shall call his name Jesus, for he will save his people from "
+                        "their sins' (1:21). This is the same name as Joshua (Yehoshua), who led Israel "
+                        "into the Promised Land — Jesus leads humanity into the Kingdom. (2) Immanuel "
+                        "(עִמָּנוּ אֵל) = 'God with us' (Isaiah 7:14). Matthew brackets his entire "
+                        "Gospel with this concept: 'God with us' at birth (1:23), 'I am with you always' "
+                        "at the end (28:20). (3) Christ (Christos/Meshiach) = 'Anointed One.' The "
+                        "genealogy's title: 'Jesus Christ, the son of David, the son of Abraham' — three "
+                        "names, three identities: anointed king, Davidic heir, Abrahamic promise-bearer. "
+                        "(4) Bethlehem (Bêt Leḥem) = 'House of Bread.' The one who calls himself 'the "
+                        "Bread of Life' (John 6:35) is born in the House of Bread. (5) Nazareth "
+                        "(Nāṣěreṯ) — possibly connected to netzer (נֵצֶר, 'branch'), the messianic "
+                        "title from Isaiah 11:1: 'A shoot from the stump of Jesse, a branch (netzer) "
+                        "from his roots.' Matthew 2:23 says Jesus fulfilled 'He shall be called a "
+                        "Nazarene' — likely a wordplay on this prophetic branch. The four women in the "
+                        "genealogy also carry name significance: Tamar ('palm tree' — she bore fruit "
+                        "from seeming barrenness), Ruth ('friend/companion' — the Gentile who clung to "
+                        "Israel's God), and Rahab ('broad/wide' — she who sheltered the spies)."
             }
         ]
     },

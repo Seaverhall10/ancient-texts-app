@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-13T12:09:55.939044",
+  "generated": "2026-03-13T12:22:26.312760",
   "version": "1.0",
   "summary": {
     "total_texts": 80,
@@ -9,7 +9,7 @@
     "total_il_words": 444339,
     "total_cross_refs": 6974,
     "unique_passages_cited": 4263,
-    "glossary_terms": 584,
+    "glossary_terms": 607,
     "texts_with_flow": 66,
     "texts_with_interlinear": 66,
     "gap_count": {
@@ -83056,6 +83056,12 @@
         "score": 5
       },
       {
+        "text_id": "matthew",
+        "era_id": "matt_passion",
+        "era_name": "Conflict, Passion, and the Great Commission",
+        "score": 5
+      },
+      {
         "text_id": "genesis",
         "era_id": "joseph",
         "era_name": "Joseph & Descent to Egypt",
@@ -83131,12 +83137,6 @@
         "text_id": "zionism_israel",
         "era_id": "zion_eschatology",
         "era_name": "Part III: Israel in End-Times Prophecy",
-        "score": 4
-      },
-      {
-        "text_id": "matthew",
-        "era_id": "matt_passion",
-        "era_name": "Conflict, Passion, and the Great Commission",
         "score": 4
       },
       {
@@ -84564,6 +84564,12 @@
         "score": 3
       },
       {
+        "text_id": "matthew",
+        "era_id": "matt_passion",
+        "era_name": "Conflict, Passion, and the Great Commission",
+        "score": 3
+      },
+      {
         "text_id": "mark",
         "era_id": "mark_servant",
         "era_name": "The Servant King Who Conquers Through Suffering",
@@ -84789,12 +84795,6 @@
         "text_id": "matthew",
         "era_id": "matt_ministry",
         "era_name": "Birth, Kingdom Proclamation, and Parables",
-        "score": 2
-      },
-      {
-        "text_id": "matthew",
-        "era_id": "matt_passion",
-        "era_name": "Conflict, Passion, and the Great Commission",
         "score": 2
       },
       {
@@ -87948,6 +87948,12 @@
         "score": 2
       },
       {
+        "text_id": "matthew",
+        "era_id": "matt_passion",
+        "era_name": "Conflict, Passion, and the Great Commission",
+        "score": 2
+      },
+      {
         "text_id": "luke",
         "era_id": "luke_galilee",
         "era_name": "Birth, Nazareth Sermon, and Galilean Ministry",
@@ -88275,12 +88281,6 @@
         "text_id": "church_history",
         "era_id": "church_papacy",
         "era_name": "Part III: The Rise of the Papacy",
-        "score": 1
-      },
-      {
-        "text_id": "matthew",
-        "era_id": "matt_passion",
-        "era_name": "Conflict, Passion, and the Great Commission",
         "score": 1
       },
       {
@@ -91389,6 +91389,12 @@
         "text_id": "proverbs",
         "era_id": "prov_collections",
         "era_name": "Collections & Conclusion",
+        "score": 1
+      },
+      {
+        "text_id": "jeremiah",
+        "era_id": "jer_call",
+        "era_name": "Call & Early Oracles",
         "score": 1
       },
       {
@@ -97159,6 +97165,210 @@
         "canon-catholic-73"
       ],
       "language": "greek"
+    },
+    "theophoric_names": {
+      "gloss": "a personal name containing a divine element",
+      "strongs": "",
+      "chapters_used": [
+        "gen-5",
+        "gen-6",
+        "gen-7",
+        "gen-8"
+      ],
+      "language": "hebrew"
+    },
+    "name_isaiah": {
+      "gloss": "YHWH saves; YHWH is salvation",
+      "strongs": "H3470",
+      "chapters_used": [
+        "isa-1",
+        "isa-2",
+        "isa-3"
+      ],
+      "language": "hebrew"
+    },
+    "name_jeremiah": {
+      "gloss": "YHWH exalts; YHWH loosens/hurls",
+      "strongs": "H3414",
+      "chapters_used": [
+        "jer-1",
+        "jer-2"
+      ],
+      "language": "hebrew"
+    },
+    "name_ezekiel": {
+      "gloss": "God strengthens; God makes strong",
+      "strongs": "H3168",
+      "chapters_used": [
+        "ezek-1",
+        "ezek-2"
+      ],
+      "language": "hebrew"
+    },
+    "name_daniel": {
+      "gloss": "God is my judge",
+      "strongs": "H1840",
+      "chapters_used": [
+        "dan-1",
+        "dan-2"
+      ],
+      "language": "hebrew"
+    },
+    "name_hosea": {
+      "gloss": "salvation; he saves",
+      "strongs": "H1954",
+      "chapters_used": [
+        "hos-1",
+        "hos-2"
+      ],
+      "language": "hebrew"
+    },
+    "name_micah": {
+      "gloss": "Who is like YHWH?",
+      "strongs": "H4318",
+      "chapters_used": [
+        "mic-1"
+      ],
+      "language": "hebrew"
+    },
+    "name_zechariah": {
+      "gloss": "YHWH remembers",
+      "strongs": "H2148",
+      "chapters_used": [
+        "zech-1",
+        "zech-2"
+      ],
+      "language": "hebrew"
+    },
+    "name_malachi": {
+      "gloss": "my messenger",
+      "strongs": "H4401",
+      "chapters_used": [
+        "mal-1"
+      ],
+      "language": "hebrew"
+    },
+    "name_nahum": {
+      "gloss": "comfort; consolation",
+      "strongs": "H5151",
+      "chapters_used": [
+        "nah-1"
+      ],
+      "language": "hebrew"
+    },
+    "name_obadiah": {
+      "gloss": "servant of YHWH",
+      "strongs": "H5662",
+      "chapters_used": [
+        "obad-1"
+      ],
+      "language": "hebrew"
+    },
+    "name_peter": {
+      "gloss": "rock; stone",
+      "strongs": "G4074",
+      "chapters_used": [
+        "matt-3",
+        "matt-4"
+      ],
+      "language": "greek"
+    },
+    "name_paul": {
+      "gloss": "small (Latin); asked for (Hebrew)",
+      "strongs": "G3972 / H7586",
+      "chapters_used": [
+        "acts-1",
+        "acts-2"
+      ],
+      "language": "greek"
+    },
+    "name_joshua_yeshua": {
+      "gloss": "YHWH saves; YHWH is salvation",
+      "strongs": "H3091 / H3442",
+      "chapters_used": [
+        "josh-1",
+        "matt-1"
+      ],
+      "language": "hebrew"
+    },
+    "name_eve": {
+      "gloss": "life-giver; living one",
+      "strongs": "H2332",
+      "chapters_used": [
+        "gen-2",
+        "gen-3"
+      ],
+      "language": "hebrew"
+    },
+    "name_ruth": {
+      "gloss": "friend; companion; satiated",
+      "strongs": "H7327",
+      "chapters_used": [
+        "ruth-1",
+        "ruth-2"
+      ],
+      "language": "hebrew"
+    },
+    "name_naomi": {
+      "gloss": "pleasantness → bitterness",
+      "strongs": "H5281 / H4755",
+      "chapters_used": [
+        "ruth-1"
+      ],
+      "language": "hebrew"
+    },
+    "name_hannah": {
+      "gloss": "grace; favor",
+      "strongs": "H2584",
+      "chapters_used": [
+        "1sam-1"
+      ],
+      "language": "hebrew"
+    },
+    "name_samuel": {
+      "gloss": "heard of God; name of God",
+      "strongs": "H8050",
+      "chapters_used": [
+        "1sam-1"
+      ],
+      "language": "hebrew"
+    },
+    "name_esther": {
+      "gloss": "star (Persian); myrtle (Hebrew)",
+      "strongs": "H635",
+      "chapters_used": [
+        "esth-1"
+      ],
+      "language": "hebrew"
+    },
+    "name_bethlehem": {
+      "gloss": "House of Bread",
+      "strongs": "H1035",
+      "chapters_used": [
+        "ruth-1",
+        "1sam-2",
+        "mic-1",
+        "matt-1"
+      ],
+      "language": "hebrew"
+    },
+    "name_jerusalem": {
+      "gloss": "foundation of peace; city of peace",
+      "strongs": "H3389",
+      "chapters_used": [
+        "gen-5",
+        "psa-1"
+      ],
+      "language": "hebrew"
+    },
+    "shear_jashub": {
+      "gloss": "a remnant shall return",
+      "strongs": "",
+      "chapters_used": [
+        "isa-1",
+        "isa-2"
+      ],
+      "language": "hebrew"
     }
   },
   "schema_info": {

@@ -149,6 +149,22 @@ CHAPTERS = [
                         "destroyed, but the prophet is the true fortress. 'They will fight against you, "
                         "but they shall not prevail over you, for I am with you, declares YHWH, to deliver "
                         "you' (1:19)."
+            },
+            {
+                "heading": "Name Theology: Jeremiah — YHWH Exalts, YHWH Hurls",
+                "body": "The name Yirmeyahu (יִרְמְיָהוּ) combines ramah (to throw/exalt) with Yahu (YHWH), "
+                        "yielding the dual meaning 'YHWH exalts' and 'YHWH hurls.' Both meanings describe "
+                        "his ministry: God raised him up before birth (1:5) to hurl the message of "
+                        "Jerusalem's destruction. The prophet whose name means 'YHWH exalts' is the most "
+                        "rejected, persecuted, and humiliated prophet in Scripture — thrown into a cistern "
+                        "(38:6), imprisoned, mocked, and forced to watch Jerusalem burn. Yet YHWH also "
+                        "'loosens' (releases) — Jeremiah prophesies the New Covenant (31:31-34), the "
+                        "greatest message of liberation in the OT. His name's dual force — exaltation and "
+                        "hurling — encapsulates the two halves of his book: judgment (chs. 1-29) and "
+                        "restoration (chs. 30-33). Paul explicitly models his apostolic self-understanding "
+                        "on Jeremiah's call: 'He who had set me apart before I was born' (Galatians 1:15), "
+                        "using nearly identical language to Jeremiah 1:5. The prophet's name is his message, "
+                        "his credential, and his destiny — the one YHWH exalted to hurl both judgment and hope."
             }
         ]
     },

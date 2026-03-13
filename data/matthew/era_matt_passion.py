@@ -178,6 +178,28 @@ CHAPTERS = [
                         "vanish, and 'they saw no one but Jesus only' (17:8) -- the witnesses depart, "
                         "and only the Son remains. Coming down the mountain, Jesus instructs them to "
                         "tell no one until the Son of Man is raised from the dead (17:9)."
+            },
+            {
+                "heading": "Name Theology: Simon to Peter — From Hearing to Foundation",
+                "body": "The name change at Caesarea Philippi is the most theologically significant renaming "
+                        "in the New Testament, deliberately paralleling God's OT pattern: Abram→Abraham "
+                        "(Genesis 17:5), Jacob→Israel (Genesis 32:28). Simon (Shimʿôn, שִׁמְעוֹן) means "
+                        "'he has heard' — from the root shama (to hear/listen). He is a listener, a "
+                        "reactor, one who perceives. Jesus renames him Peter (Petros, Πέτρος / Cephas, "
+                        "Kēphaʾ, כֵּיפָא) meaning 'rock/stone.' The transformation is identity-defining: "
+                        "the one who 'heard' now becomes the 'foundation.' This parallels the Isaiah 28:16 "
+                        "cornerstone prophecy: 'Behold, I am the one who has laid as a foundation in Zion "
+                        "a stone, a tested stone.' Jesus declares that on this rock (petra) he will build "
+                        "his ekklesia (16:18). Yet Peter's rock-like calling is immediately tested: within "
+                        "verses he goes from 'Blessed are you' (16:17) to 'Get behind me, Satan' (16:23). "
+                        "The man of hearing must learn to become the man of unshakable foundation — a "
+                        "process not completed until the threefold restoration of John 21:15-17. Peter "
+                        "himself later develops the theology of naming: 'You yourselves like living stones "
+                        "are being built up as a spiritual house' (1 Peter 2:5). Every believer receives "
+                        "the Peter transformation — from hearing the Word to becoming a foundation stone "
+                        "in God's temple. Note also that Jesus addresses him as 'Simon Bar-Jonah' (son of "
+                        "Jonah) before renaming him — connecting to the prophet Jonah, whose name means "
+                        "'dove,' the symbol of the Spirit that descended at Jesus' baptism (3:16)."
             }
         ]
     },
