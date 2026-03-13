@@ -406,18 +406,20 @@ body.sidebar-open .main-content { overflow: hidden !important; }
 }
 
 /* ── Map layer control mobile constraints ──── */
-.map-container .leaflet-control-layers {
-    max-height: 50vh !important;
-    max-width: 70vw !important;
+.map-container .leaflet-control-layers-expanded {
+    max-height: 60vh !important;
+    max-width: 80vw !important;
     overflow-y: auto !important;
     font-size: 0.75rem !important;
-}
-.map-container .leaflet-control-layers-expanded {
     min-width: auto !important;
     padding: 6px 8px !important;
 }
 .map-container .leaflet-control-layers label {
     font-size: 0.72rem !important;
+}
+.map-container .leaflet-control-layers-toggle {
+    width: 34px !important;
+    height: 34px !important;
 }
 
 @media all and (display-mode: standalone) {

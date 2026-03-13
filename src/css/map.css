@@ -104,7 +104,17 @@
 }
 .map-container .leaflet-control-layers-toggle {
     background-color: var(--bg-secondary) !important;
-    border: 1px solid var(--border-color) !important;
+    border: 1px solid var(--gold-border) !important;
+    width: 36px !important;
+    height: 36px !important;
+    background-size: 20px 20px !important;
+    cursor: pointer;
+    border-radius: 6px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
+}
+.map-container .leaflet-control-layers-toggle:hover {
+    background-color: var(--bg-hover) !important;
+    border-color: var(--gold) !important;
 }
 .map-container .leaflet-control-layers-base label {
     font-weight: 500;
