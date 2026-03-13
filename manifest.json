@@ -637,6 +637,42 @@
       "description": "Why Jesus spoke in parables, His radical engagement with Gentiles, the wedding invitation theme, and the tension between simple faith and theological systems"
     },
     {
+      "id": "canon_scripture",
+      "name": "The Biblical Canon",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 12,
+      "color": "#6b8cae",
+      "data_dir": "canon_scripture",
+      "content_type": "html_fragment",
+      "interlinear": null,
+      "description": "How we got our Bible: canon formation, the Septuagint, Dead Sea Scrolls, and why Protestant, Catholic, Orthodox, and Ethiopian traditions have different canons"
+    },
+    {
+      "id": "church_history",
+      "name": "Church History: Pentecost to Reformation",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 15,
+      "color": "#8a6d94",
+      "data_dir": "church_history",
+      "content_type": "html_fragment",
+      "interlinear": null,
+      "description": "From the apostolic church through Constantine, the rise of the papacy, medieval corruption, and the Reformation — examining church history against Scripture"
+    },
+    {
+      "id": "zionism_israel",
+      "name": "Zionism & Israel",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 10,
+      "color": "#4a8c6f",
+      "data_dir": "zionism_israel",
+      "content_type": "html_fragment",
+      "interlinear": null,
+      "description": "Zion in Scripture, the Abrahamic covenant, modern Zionism, Christian Zionism, replacement theology, and Israel in end-times prophecy"
+    },
+    {
       "id": "job",
       "name": "Job",
       "category": "ot",
@@ -2924,6 +2960,156 @@
         "Thief on the cross",
         "Apostolic theology",
         "Gate vs. path"
+      ]
+    },
+    {
+      "id": "canon_ot",
+      "text": "canon_scripture",
+      "name": "Part I: The Old Testament Canon",
+      "chapters": "Chapters 1–4",
+      "color": "#6b8cae",
+      "icon": "I",
+      "data_file": "era_canon_ot",
+      "themes": [
+        "Torah authority",
+        "Prophets & Writings",
+        "Septuagint",
+        "Dead Sea Scrolls"
+      ]
+    },
+    {
+      "id": "canon_nt",
+      "text": "canon_scripture",
+      "name": "Part II: The New Testament Canon",
+      "chapters": "Chapters 5–8",
+      "color": "#6b8cae",
+      "icon": "II",
+      "data_file": "era_canon_nt",
+      "themes": [
+        "Apostolic authority",
+        "Disputed books",
+        "Athanasius",
+        "Gnostic gospels"
+      ]
+    },
+    {
+      "id": "canon_traditions",
+      "text": "canon_scripture",
+      "name": "Part III: Different Canons, Different Traditions",
+      "chapters": "Chapters 9–12",
+      "color": "#6b8cae",
+      "icon": "III",
+      "data_file": "era_canon_traditions",
+      "themes": [
+        "Protestant 66 books",
+        "Catholic Deuterocanon",
+        "Orthodox canon",
+        "Ethiopian 81 books"
+      ]
+    },
+    {
+      "id": "church_apostolic",
+      "text": "church_history",
+      "name": "Part I: The Apostolic & Post-Apostolic Age",
+      "chapters": "Chapters 1–4",
+      "color": "#8a6d94",
+      "icon": "I",
+      "data_file": "era_church_apostolic",
+      "themes": [
+        "Pentecost",
+        "Church Fathers",
+        "Heresy & apologetics",
+        "Persecution"
+      ]
+    },
+    {
+      "id": "church_imperial",
+      "text": "church_history",
+      "name": "Part II: Imperial Christianity & the Councils",
+      "chapters": "Chapters 5–8",
+      "color": "#8a6d94",
+      "icon": "II",
+      "data_file": "era_church_imperial",
+      "themes": [
+        "Constantine",
+        "Council of Nicaea",
+        "Chalcedon",
+        "Great Schism"
+      ]
+    },
+    {
+      "id": "church_papacy",
+      "text": "church_history",
+      "name": "Part III: The Rise of the Papacy",
+      "chapters": "Chapters 9–12",
+      "color": "#8a6d94",
+      "icon": "III",
+      "data_file": "era_church_papacy",
+      "themes": [
+        "Peter & the Rock",
+        "Papal supremacy",
+        "Medieval corruption",
+        "Papal infallibility"
+      ]
+    },
+    {
+      "id": "church_reformation",
+      "text": "church_history",
+      "name": "Part IV: The Reformation & Its Legacy",
+      "chapters": "Chapters 13–15",
+      "color": "#8a6d94",
+      "icon": "IV",
+      "data_file": "era_church_reformation",
+      "themes": [
+        "Luther & 95 Theses",
+        "Sola Scriptura",
+        "Counter-Reformation",
+        "Reformation legacy"
+      ]
+    },
+    {
+      "id": "zion_biblical",
+      "text": "zionism_israel",
+      "name": "Part I: Zion in Scripture",
+      "chapters": "Chapters 1–3",
+      "color": "#4a8c6f",
+      "icon": "I",
+      "data_file": "era_zion_biblical",
+      "themes": [
+        "Mount Zion",
+        "Abrahamic covenant",
+        "Exile & return",
+        "Prophetic hope"
+      ]
+    },
+    {
+      "id": "zion_modern",
+      "text": "zionism_israel",
+      "name": "Part II: Modern Zionism & the State of Israel",
+      "chapters": "Chapters 4–7",
+      "color": "#4a8c6f",
+      "icon": "II",
+      "data_file": "era_zion_modern",
+      "themes": [
+        "Herzl & Zionism",
+        "Balfour to 1948",
+        "Christian Zionism",
+        "Replacement theology"
+      ]
+    },
+    {
+      "id": "zion_eschatology",
+      "text": "zionism_israel",
+      "name": "Part III: Israel in End-Times Prophecy",
+      "chapters": "Chapters 8–10",
+      "color": "#4a8c6f",
+      "icon": "III",
+      "data_file": "era_zion_eschatology",
+      "themes": [
+        "Daniel's 70 weeks",
+        "Gog & Magog",
+        "Third Temple",
+        "New heavens & earth"
       ]
     },
     {

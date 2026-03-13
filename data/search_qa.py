@@ -686,4 +686,317 @@ SEARCH_QA = [
         "nav_targets": [],
         "tier": "A"
     },
+
+    # ── CANON FORMATION (7) ─────────────────────────────────────
+
+    {
+        "id": "qa-bible-put-together",
+        "question": "How was the Bible put together?",
+        "keywords": ["bible", "canon", "put together", "assembled", "books", "scripture", "formation", "history", "who decided"],
+        "answer": "The Bible was not assembled at a single event or council. The Hebrew Bible (OT) was recognized gradually: the Torah was authoritative by the 5th century BC, the Prophets by the 2nd century BC, and the Writings (including Psalms, Proverbs, Daniel) were largely settled before Christ. The NT canon developed as apostolic writings circulated among early churches. Paul's letters were collected early (2 Peter 3:15-16 already treats them as Scripture). The four Gospels were universally accepted by the mid-2nd century. Athanasius's 367 AD Festal Letter is the first to list the exact 27 NT books we have today. The process was one of recognition, not invention — the Church did not create the canon but recognized what God had already inspired.",
+        "nav_targets": [
+            {"type": "chapter", "id": "canon-torah-foundation", "label": "Canon — Torah Foundation"},
+            {"type": "chapter", "id": "canon-prophets-writings", "label": "Canon — Prophets & Writings"},
+            {"type": "chapter", "id": "canon-apostolic-authority", "label": "Canon — Apostolic Authority"},
+            {"type": "chapter", "id": "canon-athanasius-lists", "label": "Canon — Athanasius & Canon Lists"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-constantine-bible",
+        "question": "Did Constantine choose which books are in the Bible?",
+        "keywords": ["constantine", "nicaea", "council", "bible", "books", "chose", "decided", "da vinci code", "myth"],
+        "answer": "No — this is a common myth popularized by fiction. The Council of Nicaea (325 AD) was convened by Emperor Constantine to address the Arian heresy (whether Christ was fully God or a created being). The council produced the Nicene Creed affirming Christ's deity. It did NOT vote on which books belong in the Bible. The biblical canon developed over centuries through church usage, apostolic connection, and theological consistency. The first known list matching the Protestant NT 27 books comes from Athanasius in 367 AD — over 40 years after Nicaea. Constantine funded 50 copies of Scripture, but the contents were already established by church tradition, not by imperial decree.",
+        "nav_targets": [
+            {"type": "chapter", "id": "canon-athanasius-lists", "label": "Canon — Athanasius & Canon Lists"},
+            {"type": "chapter", "id": "church-constantine-edict", "label": "Church History — Constantine & the Edict"},
+            {"type": "chapter", "id": "church-nicaea-council", "label": "Church History — Council of Nicaea"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-catholic-extra-books",
+        "question": "Why does the Catholic Bible have extra books?",
+        "keywords": ["catholic", "extra books", "deuterocanon", "apocrypha", "73 books", "66 books", "tobit", "maccabees", "sirach", "wisdom"],
+        "answer": "The Catholic Bible contains 73 books (vs. the Protestant 66) because it includes the Deuterocanonical books: Tobit, Judith, Wisdom of Solomon, Sirach, Baruch, 1-2 Maccabees, and additions to Daniel and Esther. These books were part of the Septuagint (Greek OT) used by the early church and quoted by some Church Fathers. However, they were never in the Hebrew Bible, and Jerome (who translated the Vulgate) distinguished them as useful but secondary. The Protestant Reformation returned to the Hebrew canon. The Council of Trent (1546) formally defined the 73-book canon in response, declaring these books fully canonical. The debate hinges on whether the Septuagint collection or the Hebrew collection defines the OT canon.",
+        "nav_targets": [
+            {"type": "chapter", "id": "canon-catholic-73", "label": "Canon — Catholic 73-Book Canon"},
+            {"type": "chapter", "id": "canon-disputed-books", "label": "Canon — Disputed Books"},
+            {"type": "chapter", "id": "canon-septuagint-greek", "label": "Canon — The Septuagint"},
+            {"type": "glossary", "term": "deuterocanon", "label": "Glossary: Deuterocanon"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-ethiopian-bible",
+        "question": "Why does the Ethiopian Bible have 81 books?",
+        "keywords": ["ethiopian", "81 books", "enoch", "jubilees", "broader canon", "ethiopia", "orthodox", "tewahedo"],
+        "answer": "The Ethiopian Orthodox Tewahedo Church preserves one of the broadest biblical canons — 81 books (some counts vary). It includes 1 Enoch, Jubilees, 4 Baruch, and other texts not found in Western canons. This reflects an ancient tradition that was never subjected to the narrowing pressures of the Protestant Reformation or the Latin standardization. Ethiopia received Christianity in the 4th century and developed its canon independently. Remarkably, the Dead Sea Scrolls validated Ethiopia's preservation: 1 Enoch and Jubilees, found among the DSS, had been continuously used in Ethiopian worship for centuries. The Ethiopian canon demonstrates that 'the Bible' has never been a single fixed list across all of Christianity.",
+        "nav_targets": [
+            {"type": "chapter", "id": "canon-ethiopian-81", "label": "Canon — Ethiopian 81-Book Canon"},
+            {"type": "chapter", "id": "canon-dss-qumran", "label": "Canon — Dead Sea Scrolls & Qumran"},
+            {"type": "chapter", "id": "canon-orthodox-76", "label": "Canon — Orthodox 76-Book Canon"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-books-removed",
+        "question": "Why were some books removed from the Bible?",
+        "keywords": ["removed", "deleted", "taken out", "lost books", "banned books", "hidden", "suppressed"],
+        "answer": "It is more accurate to say that different Christian traditions included different books than that books were 'removed.' The Hebrew Bible (39 books) was the standard for Judaism. The Septuagint (Greek translation) included additional books. The early church used both collections without a firm boundary. When the Protestant Reformation returned to the Hebrew canon for the OT, the Deuterocanonical books (Tobit, Wisdom, Sirach, 1-2 Maccabees, etc.) were set aside — not because they were 'banned,' but because they were not in the Hebrew Bible. Luther still included them in his Bible as an appendix ('useful to read'). Other texts like the Gospel of Thomas or the Gospel of Peter were never widely accepted and were excluded early on for lacking apostolic connection or theological consistency.",
+        "nav_targets": [
+            {"type": "chapter", "id": "canon-disputed-books", "label": "Canon — Disputed Books"},
+            {"type": "chapter", "id": "canon-protestant-66", "label": "Canon — Protestant 66-Book Canon"},
+            {"type": "chapter", "id": "canon-gnostic-gospels", "label": "Canon — Gnostic Gospels"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-what-is-deuterocanon",
+        "question": "What is the Deuterocanon?",
+        "keywords": ["deuterocanon", "deuterocanonical", "second canon", "apocrypha", "catholic books", "extra books"],
+        "answer": "The Deuterocanon (literally 'second canon') refers to books included in Catholic and Orthodox Bibles but not in the Protestant Bible. These include Tobit, Judith, Wisdom of Solomon, Sirach (Ecclesiasticus), Baruch, Letter of Jeremiah, 1-2 Maccabees, and additions to Daniel and Esther. They were written between roughly 300 BC and 100 BC, mostly in Greek or translated early into Greek. Protestants often call these the 'Apocrypha.' Catholics consider them fully canonical Scripture. The Deuterocanonical books provide valuable historical context (1-2 Maccabees), wisdom literature (Sirach, Wisdom), and theological concepts (2 Maccabees 12:46 on prayer for the dead) that influenced later doctrine.",
+        "nav_targets": [
+            {"type": "chapter", "id": "canon-catholic-73", "label": "Canon — Catholic 73-Book Canon"},
+            {"type": "chapter", "id": "canon-disputed-books", "label": "Canon — Disputed Books"},
+            {"type": "glossary", "term": "deuterocanon", "label": "Glossary: Deuterocanon"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-what-is-septuagint",
+        "question": "What is the Septuagint?",
+        "keywords": ["septuagint", "lxx", "greek", "translation", "old testament", "greek bible", "alexandria"],
+        "answer": "The Septuagint (abbreviated LXX) is the Greek translation of the Hebrew Scriptures, produced in Alexandria, Egypt during the 3rd-2nd centuries BC. According to tradition, seventy-two Jewish scholars translated the Torah into Greek for the library of Ptolemy II — hence the name (from Latin for 'seventy'). The LXX became the Bible of Greek-speaking Jews and was the primary Old Testament used by the early church and NT authors. It preserves crucial textual variants: Deuteronomy 32:8 reads 'sons of God' (matching the Dead Sea Scrolls) instead of the later Masoretic 'sons of Israel.' Isaiah 7:14 uses parthenos ('virgin') where the Hebrew has almah ('young woman'). The LXX also included the Deuterocanonical books, which is why Catholic and Orthodox canons are broader than the Protestant canon.",
+        "nav_targets": [
+            {"type": "chapter", "id": "canon-septuagint-greek", "label": "Canon — The Septuagint"},
+            {"type": "chapter", "id": "canon-dss-qumran", "label": "Canon — Dead Sea Scrolls & Qumran"},
+            {"type": "glossary", "term": "septuagint", "label": "Glossary: Septuagint"}
+        ],
+        "tier": "A"
+    },
+
+    # ── CHURCH HISTORY (11) ─────────────────────────────────────
+
+    {
+        "id": "qa-papal-infallibility",
+        "question": "What is papal infallibility?",
+        "keywords": ["papal infallibility", "pope", "infallible", "ex cathedra", "cannot err", "vatican"],
+        "answer": "Papal infallibility is the Catholic doctrine (formally defined at Vatican I in 1870) that when the Pope speaks ex cathedra ('from the chair') — in his official capacity as supreme pastor, defining a matter of faith or morals for the whole Church — he is preserved from error by divine assistance. This does NOT mean everything a pope says is infallible. It applies only to solemn, definitive pronouncements. Since 1870, it has been formally invoked only once: the 1950 dogma of the Assumption of Mary. Problems with the doctrine: popes have contradicted each other historically (Honorius I was condemned as a heretic by the Third Council of Constantinople in 681), and the early church knew nothing of this concept. Peter himself was rebuked by Paul (Galatians 2:11).",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-papal-infallibility", "label": "Church History — Papal Infallibility"},
+            {"type": "chapter", "id": "church-bishop-pope", "label": "Church History — From Bishop to Pope"},
+            {"type": "glossary", "term": "papal_infallibility", "label": "Glossary: Papal Infallibility"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-peter-first-pope",
+        "question": "Is Peter the first Pope?",
+        "keywords": ["peter", "pope", "first pope", "rock", "matthew 16", "petros", "petra", "catholic", "papacy"],
+        "answer": "Catholics claim Peter was the first Pope based on Matthew 16:18 ('You are Peter [Petros], and on this rock [petra] I will build my church'). However, several points complicate this: (1) Petros (masculine, 'stone/pebble') and petra (feminine, 'bedrock/cliff') are different words — many early Church Fathers (Chrysostom, Augustine, Ambrose) read 'this rock' as Peter's confession of faith, not Peter himself. (2) Peter calls himself a 'fellow elder' (1 Peter 5:1), not a supreme authority. (3) Paul rebuked Peter publicly (Galatians 2:11-14). (4) At the Jerusalem Council (Acts 15), James — not Peter — rendered the final verdict. (5) The monarchical episcopate (single bishop over a city) developed gradually; Peter's 'papacy' in Rome is a later theological construction, not a historical fact from the apostolic period.",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-peter-rock", "label": "Church History — Peter & the Rock"},
+            {"type": "chapter", "id": "church-bishop-pope", "label": "Church History — From Bishop to Pope"},
+            {"type": "glossary", "term": "apostolic_succession", "label": "Glossary: Apostolic Succession"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-purgatory-bible",
+        "question": "What does the Bible say about purgatory?",
+        "keywords": ["purgatory", "after death", "purification", "punishment", "catholic", "fire", "2 maccabees"],
+        "answer": "Purgatory is not explicitly taught in the Protestant Scriptures. The Catholic basis rests primarily on: (1) 2 Maccabees 12:46 — prayers and offerings for the dead 'that they might be delivered from their sin' (a Deuterocanonical book not in the Protestant Bible). (2) 1 Corinthians 3:15 — 'saved, but only as through fire' (but the context is about works being tested, not souls being purified). (3) Matthew 12:32 — 'will not be forgiven, either in this age or in the age to come' (implying some sins can be forgiven after death). Protestant response: Hebrews 9:27 ('it is appointed for man to die once, and after that comes judgment'), 2 Corinthians 5:8 ('absent from the body... present with the Lord'), and the sufficiency of Christ's once-for-all sacrifice (Hebrews 10:14) argue against an intermediate purification state.",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-medieval-papacy", "label": "Church History — Medieval Papacy"},
+            {"type": "chapter", "id": "church-counter-reformation", "label": "Church History — Counter-Reformation"},
+            {"type": "glossary", "term": "purgatory", "label": "Glossary: Purgatory"}
+        ],
+        "tier": "B"
+    },
+    {
+        "id": "qa-transubstantiation",
+        "question": "What is transubstantiation?",
+        "keywords": ["transubstantiation", "eucharist", "communion", "body", "blood", "bread", "wine", "catholic", "mass"],
+        "answer": "Transubstantiation is the Catholic doctrine that during the Eucharist (Mass), the bread and wine literally become the body and blood of Christ while retaining the outward appearances of bread and wine. Formally defined at the Fourth Lateran Council (1215) using Aristotelian philosophy: the 'substance' (inner reality) changes while the 'accidents' (outward properties) remain. Based on a literal reading of Jesus' words 'This is my body' (Matthew 26:26) and John 6:53-56 ('unless you eat the flesh of the Son of Man and drink his blood, you have no life in you'). Protestants differ: Luther held to a 'real presence' alongside the bread (consubstantiation), Calvin taught a spiritual presence, and Zwingli viewed it as a memorial. The Council of Trent (1551) reaffirmed transubstantiation and anathematized those who denied it.",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-counter-reformation", "label": "Church History — Counter-Reformation"},
+            {"type": "glossary", "term": "transubstantiation", "label": "Glossary: Transubstantiation"}
+        ],
+        "tier": "B"
+    },
+    {
+        "id": "qa-council-of-nicaea",
+        "question": "What happened at the Council of Nicaea?",
+        "keywords": ["nicaea", "council", "325", "constantine", "arius", "arianism", "creed", "trinity", "homoousios"],
+        "answer": "The Council of Nicaea (325 AD) was the first ecumenical (universal) council of the Christian church, convened by Emperor Constantine in Nicaea (modern Iznik, Turkey). Its primary purpose was to address the Arian controversy: Arius, a priest from Alexandria, taught that the Son of God was a created being ('there was a time when the Son was not'). The council overwhelmingly rejected Arianism and produced the Nicene Creed, affirming that Christ is 'begotten, not made, of one substance (homoousios) with the Father.' The council also addressed the date of Easter and other matters. Contrary to popular myth, the council did NOT vote on which books belong in the Bible — the biblical canon was not on the agenda.",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-nicaea-council", "label": "Church History — Council of Nicaea"},
+            {"type": "chapter", "id": "church-constantine-edict", "label": "Church History — Constantine & the Edict"},
+            {"type": "glossary", "term": "nicene_creed", "label": "Glossary: Nicene Creed"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-great-schism",
+        "question": "What caused the Great Schism?",
+        "keywords": ["great schism", "1054", "split", "catholic", "orthodox", "east", "west", "filioque"],
+        "answer": "The Great Schism of 1054 was the formal split between the Roman Catholic Church (West) and the Eastern Orthodox Church (East), caused by centuries of accumulated differences: (1) The Filioque controversy — the Western church added 'and the Son' to the Nicene Creed without an ecumenical council, which the East considered both heretical and illegal. (2) Papal supremacy — Rome claimed universal jurisdiction over all Christians; the East held that the five patriarchs (Rome, Constantinople, Alexandria, Antioch, Jerusalem) were co-equal. (3) Cultural and liturgical differences — language (Latin vs. Greek), leavened vs. unleavened bread, clerical celibacy. The 1054 mutual excommunications formalized the break. The Fourth Crusade's sack of Constantinople (1204) made reconciliation nearly impossible.",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-great-schism", "label": "Church History — The Great Schism"},
+            {"type": "glossary", "term": "great_schism", "label": "Glossary: Great Schism"},
+            {"type": "glossary", "term": "filioque", "label": "Glossary: Filioque"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-martin-luther",
+        "question": "Who was Martin Luther?",
+        "keywords": ["martin luther", "luther", "reformation", "95 theses", "protestant", "wittenberg", "justification", "faith alone"],
+        "answer": "Martin Luther (1483-1546) was a German Augustinian monk and theology professor whose challenge to Catholic teaching launched the Protestant Reformation. Tormented by the question of how a sinful person can stand before a holy God, Luther discovered the answer in Romans 1:17: 'The righteous shall live by faith.' He concluded that justification is by faith alone (sola fide), not by works or indulgences. On October 31, 1517, he posted his 95 Theses challenging the sale of indulgences. When ordered to recant at the Diet of Worms (1521), he declared: 'Unless I am convinced by Scripture and plain reason, my conscience is captive to the Word of God. Here I stand. I can do no other.' Luther also championed sola Scriptura (Scripture alone) as the final authority over church tradition and papal pronouncements.",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-luther-95-theses", "label": "Church History — Luther & the 95 Theses"},
+            {"type": "chapter", "id": "church-counter-reformation", "label": "Church History — Counter-Reformation"},
+            {"type": "glossary", "term": "sola_fide", "label": "Glossary: Sola Fide"},
+            {"type": "glossary", "term": "sola_scriptura", "label": "Glossary: Sola Scriptura"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-sola-scriptura",
+        "question": "What is sola Scriptura?",
+        "keywords": ["sola scriptura", "scripture alone", "bible alone", "authority", "reformation", "protestant", "tradition"],
+        "answer": "Sola Scriptura (Latin: 'Scripture alone') is the Protestant principle that the Bible is the sole infallible rule of faith and practice. Crucially, this does NOT mean 'Scripture ONLY' — as if creeds, confessions, and church tradition have no value. It means 'Scripture SUPREME' — the Bible is the final authority to which all other authorities (tradition, councils, popes, experience) must submit. Key texts: 2 Timothy 3:16-17 (Scripture is 'sufficient'), Acts 17:11 (the Bereans tested Paul's teaching against Scripture), Isaiah 8:20 ('To the law and to the testimony!'). The Catholic counter-argument: the Bible doesn't explicitly teach sola Scriptura, and the Church determined which books are canonical. The Protestant response: Scripture is self-authenticating, and the Church recognized (not created) the canon.",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-luther-95-theses", "label": "Church History — Luther & the 95 Theses"},
+            {"type": "glossary", "term": "sola_scriptura", "label": "Glossary: Sola Scriptura"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-indulgences",
+        "question": "What are indulgences?",
+        "keywords": ["indulgences", "indulgence", "tetzel", "purgatory", "punishment", "merit", "reformation", "selling"],
+        "answer": "In Catholic theology, an indulgence is the remission of temporal punishment due for sins that have already been forgiven. The concept is based on the 'treasury of merit' — a spiritual reserve of the merits of Christ, Mary, and the saints that the Church can distribute. Originally, indulgences replaced harsh physical penances. By the late Middle Ages, they were sold for money to finance building projects (most notoriously, St. Peter's Basilica in Rome). Johann Tetzel's aggressive sales campaign provoked Martin Luther's 95 Theses in 1517, sparking the Reformation. Luther argued that forgiveness is God's free gift received by faith, not a commodity the Church can sell. The Council of Trent (1563) reformed indulgence abuses but retained the underlying doctrine.",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-medieval-papacy", "label": "Church History — Medieval Papacy"},
+            {"type": "chapter", "id": "church-luther-95-theses", "label": "Church History — Luther & the 95 Theses"},
+            {"type": "glossary", "term": "indulgence", "label": "Glossary: Indulgence"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-church-fathers",
+        "question": "Who are the Church Fathers?",
+        "keywords": ["church fathers", "early church", "patristic", "clement", "ignatius", "polycarp", "irenaeus", "justin martyr", "fathers"],
+        "answer": "The Church Fathers are early Christian writers and leaders (roughly 1st-5th century) whose writings shaped Christian theology, practice, and organization. Key figures include: the Apostolic Fathers (Clement of Rome, Ignatius of Antioch, Polycarp — who had direct contact with the apostles), the Apologists (Justin Martyr, Athenagoras — who defended Christianity to Roman authorities), and the great theologians (Irenaeus, Tertullian, Origen, Athanasius, the Cappadocians, Augustine, Jerome). They preserved apostolic doctrine, combated heresies (Gnosticism, Arianism, Marcionism), and developed Christian vocabulary. However, they also innovated — introducing structures (monarchical bishop, three-tier clergy) and practices (infant baptism, Marian veneration, allegorical interpretation) that went beyond what the NT explicitly teaches.",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-fathers-innovators", "label": "Church History — Fathers & Innovators"},
+            {"type": "chapter", "id": "church-apologists-heretics", "label": "Church History — Apologists & Heretics"},
+            {"type": "chapter", "id": "church-pentecost-persecution", "label": "Church History — Pentecost to Persecution"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-nicene-creed",
+        "question": "What is the Nicene Creed?",
+        "keywords": ["nicene creed", "creed", "statement of faith", "homoousios", "begotten", "trinity", "325"],
+        "answer": "The Nicene Creed is the foundational statement of Christian faith produced at the Council of Nicaea (325 AD) and expanded at Constantinople (381 AD). Its central affirmation: Jesus Christ is 'begotten, not made, of one substance (homoousios) with the Father' — meaning Christ is fully God, not a created being. This was directed against Arianism. The creed affirms: one God the Father Almighty; one Lord Jesus Christ (true God from true God); the Holy Spirit (who proceeds from the Father — the West later added 'and the Son,' the Filioque). It remains the most widely accepted Christian confession, used by Catholic, Orthodox, and most Protestant churches. It is a Christological statement, not a comprehensive theology.",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-nicaea-council", "label": "Church History — Council of Nicaea"},
+            {"type": "glossary", "term": "nicene_creed", "label": "Glossary: Nicene Creed"},
+            {"type": "glossary", "term": "filioque", "label": "Glossary: Filioque"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-apostolic-succession",
+        "question": "What is apostolic succession?",
+        "keywords": ["apostolic succession", "bishops", "ordination", "laying on of hands", "authority", "papacy", "catholic", "orthodox"],
+        "answer": "Apostolic succession is the Catholic and Orthodox doctrine that spiritual authority passes from the original apostles through an unbroken chain of ordained bishops via the laying on of hands. Without valid apostolic succession, Catholic theology considers sacraments invalid. Claimed basis: Paul's charge to Timothy (2 Timothy 2:2) and the appointment of elders (Titus 1:5). Protestant critique: the NT evidence shows that 'elders' (presbyteroi) and 'bishops' (episkopoi) were the same office — Paul uses the terms interchangeably in Acts 20:17, 28 and Titus 1:5-7. The monarchical episcopate (single bishop ruling over a city) developed gradually in the 2nd century, not from the apostles directly. The concept of a 'pope' as supreme universal bishop is even later.",
+        "nav_targets": [
+            {"type": "chapter", "id": "church-bishop-pope", "label": "Church History — From Bishop to Pope"},
+            {"type": "chapter", "id": "church-fathers-innovators", "label": "Church History — Fathers & Innovators"},
+            {"type": "glossary", "term": "apostolic_succession", "label": "Glossary: Apostolic Succession"}
+        ],
+        "tier": "B"
+    },
+
+    # ── ZIONISM & ISRAEL (7) ────────────────────────────────────
+
+    {
+        "id": "qa-what-is-zionism",
+        "question": "What is Zionism?",
+        "keywords": ["zionism", "zionist", "jewish homeland", "israel", "herzl", "political", "religious", "cultural"],
+        "answer": "Zionism is the movement advocating for the establishment and support of a Jewish national homeland in the land of Israel. It emerged in the late 19th century in response to rising European antisemitism. Types: (1) Political Zionism (Theodor Herzl, 1896) — a secular nationalist movement seeking a safe haven for Jews. (2) Cultural Zionism (Ahad Ha'am) — focused on Jewish cultural and spiritual renewal. (3) Religious Zionism (Rabbi Abraham Isaac Kook) — saw the return to the land as the beginning of divine redemption. Many Orthodox Jews strongly opposed Zionism, believing only the Messiah could legitimately restore Israel. The movement culminated in the Balfour Declaration (1917) and the founding of the State of Israel in 1948.",
+        "nav_targets": [
+            {"type": "chapter", "id": "zion-birth-herzl", "label": "Zionism — Birth of Modern Zionism"},
+            {"type": "chapter", "id": "zion-balfour-1948", "label": "Zionism — Balfour to 1948"},
+            {"type": "chapter", "id": "zion-holy-mountain", "label": "Zionism — Zion: The Holy Mountain"},
+            {"type": "glossary", "term": "zionism", "label": "Glossary: Zionism"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-modern-israel-prophecy",
+        "question": "Is modern Israel a fulfillment of prophecy?",
+        "keywords": ["modern israel", "prophecy", "fulfillment", "1948", "land", "promise", "dispensationalism", "return"],
+        "answer": "This is one of the most debated questions in modern theology. Those who say YES point to: Isaiah 11:11-12 (a 'second' gathering), Ezekiel 37 (valley of dry bones coming to life), Amos 9:14-15 (restoration to the land). Dispensationalists see 1948 as a prophetic milestone and the beginning of end-times events. Those who are cautious or say NO argue: (1) Many 'restoration' prophecies were fulfilled in the return from Babylon (Ezra-Nehemiah). (2) Paul reads the promises through Christ — the 'offspring' of Abraham is Christ (Galatians 3:16), and those 'in Christ' are Abraham's heirs (Galatians 3:29). (3) The NT never instructs the church to watch for a political restoration of Israel. (4) Romans 11 promises Israel's spiritual restoration ('all Israel will be saved,' v. 26), not necessarily a political state. The question requires distinguishing between political Israel and biblical/eschatological Israel.",
+        "nav_targets": [
+            {"type": "chapter", "id": "zion-christian-zionism", "label": "Zionism — Christian Zionism"},
+            {"type": "chapter", "id": "zion-daniel-70-weeks", "label": "Zionism — Daniel's 70 Weeks"},
+            {"type": "chapter", "id": "zion-gog-magog", "label": "Zionism — Gog & Magog"},
+            {"type": "glossary", "term": "dispensationalism", "label": "Glossary: Dispensationalism"}
+        ],
+        "tier": "B"
+    },
+    {
+        "id": "qa-christian-zionism",
+        "question": "What is Christian Zionism?",
+        "keywords": ["christian zionism", "christian zionist", "support israel", "dispensationalism", "genesis 12:3", "bless israel", "hagee"],
+        "answer": "Christian Zionism is the belief that the modern State of Israel is a fulfillment of biblical prophecy and that Christians have a moral and theological obligation to support the Jewish state. It is rooted primarily in dispensationalist theology (originated by J.N. Darby in the 1830s, popularized by the Scofield Reference Bible). Key arguments: Genesis 12:3 ('I will bless those who bless you' — applied to modern Israel), Ezekiel 37 (dry bones = 1948), and a sharp distinction between Israel and the Church. Critics argue: (1) Paul reads Abraham's 'offspring' as Christ, not a nation-state (Galatians 3:16). (2) Genesis 12:3 was spoken to Abraham personally. (3) It conflates political Israel with biblical Israel. (4) Dispensationalism itself is a 19th-century innovation, not historic Christian teaching.",
+        "nav_targets": [
+            {"type": "chapter", "id": "zion-christian-zionism", "label": "Zionism — Christian Zionism"},
+            {"type": "chapter", "id": "zion-balfour-1948", "label": "Zionism — Balfour to 1948"},
+            {"type": "glossary", "term": "christian_zionism", "label": "Glossary: Christian Zionism"},
+            {"type": "glossary", "term": "dispensationalism", "label": "Glossary: Dispensationalism"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-replacement-theology",
+        "question": "What is replacement theology?",
+        "keywords": ["replacement theology", "supersessionism", "church replaces israel", "olive tree", "romans 11", "new israel"],
+        "answer": "Replacement theology (also called supersessionism) is the view that the Church has permanently replaced ethnic Israel in God's plan, inheriting all of Israel's promises while Israel bears only the curses. It developed early in church history (Justin Martyr, Origen, Augustine) and was the dominant view for centuries. However, Paul explicitly rejects this in Romans 11:1 — 'Has God rejected his people? By no means!' The olive tree metaphor (Romans 11:17-24) shows that Gentile believers are grafted INTO Israel's olive tree, not replacing it. 'Natural branches' (Israel) can be grafted back in. Paul insists: God's gifts and calling to Israel are 'irrevocable' (Romans 11:29). The right framework is neither replacement theology nor uncritical Christian Zionism, but Paul's nuanced vision of Israel and the Church united in Christ.",
+        "nav_targets": [
+            {"type": "chapter", "id": "zion-replacement-olive-tree", "label": "Zionism — Replacement & the Olive Tree"},
+            {"type": "chapter", "id": "zion-christian-zionism", "label": "Zionism — Christian Zionism"},
+            {"type": "glossary", "term": "replacement_theology", "label": "Glossary: Replacement Theology"}
+        ],
+        "tier": "A"
+    },
+    {
+        "id": "qa-genesis-12-3-modern-israel",
+        "question": "Does Genesis 12:3 apply to modern Israel?",
+        "keywords": ["genesis 12:3", "bless", "curse", "abraham", "modern israel", "nation", "blessing"],
+        "answer": "Genesis 12:3 ('I will bless those who bless you, and him who dishonors you I will curse') was spoken directly to Abraham as part of the Abrahamic covenant. Christian Zionists apply this to the modern State of Israel, arguing that nations that 'bless Israel' will prosper and those that oppose it will face judgment. However, several considerations: (1) The promise was to Abraham and his 'offspring' — Paul identifies this 'offspring' (singular) as Christ (Galatians 3:16), not a political state. (2) Those who belong to Christ are Abraham's offspring and heirs (Galatians 3:29). (3) The blessing was meant to flow through Abraham to 'all families of the earth' (Genesis 12:3b) — a missionary promise, not a geopolitical guarantee. (4) Romans 9:6-8 clarifies that 'not all who are descended from Israel belong to Israel.' The promise is real, but its application requires careful biblical theology, not simplistic political mapping.",
+        "nav_targets": [
+            {"type": "chapter", "id": "zion-christian-zionism", "label": "Zionism — Christian Zionism"},
+            {"type": "chapter", "id": "zion-abrahamic-covenant", "label": "Zionism — The Abrahamic Covenant"},
+            {"type": "glossary", "term": "christian_zionism", "label": "Glossary: Christian Zionism"}
+        ],
+        "tier": "B"
+    },
+    {
+        "id": "qa-what-is-dispensationalism",
+        "question": "What is dispensationalism?",
+        "keywords": ["dispensationalism", "dispensation", "darby", "scofield", "rapture", "eras", "israel church distinction"],
+        "answer": "Dispensationalism is a theological system that divides history into distinct eras ('dispensations') in which God deals with humanity under different arrangements. Originated by John Nelson Darby (~1830s) and popularized by the Scofield Reference Bible (1909). Typically identifies seven dispensations: Innocence, Conscience, Human Government, Promise, Law, Grace, and the Millennial Kingdom. Key features: (1) A sharp distinction between Israel and the Church — God has two separate programs. (2) A pre-tribulation rapture — the Church is taken before the seven-year tribulation. (3) A literal thousand-year reign of Christ on earth. (4) Modern Israel's restoration as prophetically significant. Critics note: (1) This system originated in the 1830s, not in the early church. (2) The NT blurs the Israel/Church distinction (Ephesians 2:11-22, Galatians 3:28-29). (3) The pre-trib rapture concept has no historical precedent before Darby.",
+        "nav_targets": [
+            {"type": "chapter", "id": "zion-christian-zionism", "label": "Zionism — Christian Zionism"},
+            {"type": "chapter", "id": "zion-daniel-70-weeks", "label": "Zionism — Daniel's 70 Weeks"},
+            {"type": "glossary", "term": "dispensationalism", "label": "Glossary: Dispensationalism"}
+        ],
+        "tier": "A"
+    },
 ]
