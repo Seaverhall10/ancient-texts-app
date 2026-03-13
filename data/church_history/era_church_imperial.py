@@ -157,7 +157,7 @@ CHAPTERS = [
 
         "divine_council_note": "The divine council framework illuminates why this merger was "
                                "so theologically dangerous. In Deuteronomy 32:8-9 (DSS/LXX), "
-                               "YHWH assigned the nations to the sons of God (bene elohim) but "
+                               "YHWH assigned the nations to the sons of God (b'nei 'elohim) but "
                                "kept Israel for Himself. These delegated rulers became corrupt "
                                "(Psalm 82). The entire arc of Scripture moves toward Yahweh "
                                "reclaiming the nations through Christ (Psalm 2:8, Revelation "

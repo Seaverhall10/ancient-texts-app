@@ -22,6 +22,7 @@ import json
 import argparse
 import importlib.util
 import re
+import time
 from datetime import datetime
 
 # Windows UTF-8 fix
@@ -246,15 +247,21 @@ Output:
 Format as markdown with severity levels."""
 
 
-def run_theologian_mode(text_ids, manifest):
-    """Run theological consistency check across texts."""
+def run_theologian_mode(text_ids, manifest, all_eras=False, return_data=False):
+    """Run theological consistency check across texts.
+
+    Args:
+        all_eras: If True, check ALL eras per text (not just first). More thorough but more API calls.
+        return_data: If True, return (issues_list, total_usage) instead of writing report.
+    """
     client = get_client(ARBITER_API_KEY)
 
     print(f'\n{"="*60}')
-    print(f'READER (Theologian Mode): {len(text_ids)} texts')
+    print(f'READER (Theologian Mode): {len(text_ids)} texts' + (' — ALL ERAS' if all_eras else ''))
     print(f'{"="*60}')
 
     all_issues = []
+    total_usage = {"input_tokens": 0, "output_tokens": 0}
     for text_id in text_ids:
         text_def = next((t for t in manifest['texts'] if t['id'] == text_id), None)
         if not text_def:
@@ -264,31 +271,41 @@ def run_theologian_mode(text_ids, manifest):
         if not eras:
             continue
 
-        era = eras[0]  # Check first era per text (keep cost manageable)
-        chapters = load_era_file(text_id, era.get('data_file', ''))
-        if not chapters:
-            continue
+        eras_to_check = eras if all_eras else [eras[0]]
 
-        # Sample content
-        ch = chapters[0]
-        sections = ch.get('sections', [])
-        body_text = ' '.join(re.sub('<[^>]+>', '', s.get('body','')[:600]) for s in sections[:2])
+        for era in eras_to_check:
+            chapters = load_era_file(text_id, era.get('data_file', ''))
+            if not chapters:
+                continue
 
-        print(f'  Auditing: {text_name}...', end=' ', flush=True)
-        response = client.messages.create(
-            model=ARBITER_MODEL,
-            max_tokens=1500,
-            system=THEOLOGIAN_SYSTEM,
-            messages=[{
-                'role': 'user',
-                'content': f'Audit this content from {text_name} ({text_def.get("category","?").upper()}):\n\nREF: {ch.get("ref","?")} — {ch.get("title","")}\nSYNOPSIS: {ch.get("synopsis","")}\nCROSS-REFS: {json.dumps(ch.get("cross_refs",[]))}\nCONTENT: {body_text}'
-            }]
-        )
-        result = response.content[0].text
-        all_issues.append(f'## {text_name}\n\n{result}')
-        print('done')
+            # Sample content from first chapter
+            ch = chapters[0]
+            sections = ch.get('sections', [])
+            body_text = ' '.join(re.sub('<[^>]+>', '', s.get('body','')[:600]) for s in sections[:2])
 
-    report = f'# THEOLOGICAL AUDIT REPORT\n*{datetime.now().strftime("%Y-%m-%d %H:%M")} — {len(text_ids)} texts reviewed*\n\n'
+            era_label = era.get('name', era.get('id', ''))
+            print(f'  Auditing: {text_name} / {era_label}...', end=' ', flush=True)
+            response = client.messages.create(
+                model=ARBITER_MODEL,
+                max_tokens=1500,
+                system=THEOLOGIAN_SYSTEM,
+                messages=[{
+                    'role': 'user',
+                    'content': f'Audit this content from {text_name} — {era_label} ({text_def.get("category","?").upper()}):\n\nREF: {ch.get("ref","?")} — {ch.get("title","")}\nSYNOPSIS: {ch.get("synopsis","")}\nCROSS-REFS: {json.dumps(ch.get("cross_refs",[]))}\nCONTENT: {body_text}'
+                }]
+            )
+            result = response.content[0].text
+            all_issues.append(f'## {text_name} — {era_label}\n\n{result}')
+            if hasattr(response, 'usage') and response.usage:
+                total_usage["input_tokens"] += response.usage.input_tokens
+                total_usage["output_tokens"] += response.usage.output_tokens
+            print('done')
+            time.sleep(1)  # Rate limiting between eras
+
+    if return_data:
+        return all_issues, total_usage
+
+    report = f'# THEOLOGICAL AUDIT REPORT\n*{datetime.now().strftime("%Y-%m-%d %H:%M")} — {len(text_ids)} texts reviewed' + (' (all eras)' if all_eras else '') + '*\n\n'
     report += '\n\n---\n\n'.join(all_issues)
     write_report('theologian', report, 'multi')
 
@@ -537,6 +554,8 @@ def main():
     parser.add_argument('--text', default='all',
                         help='Text ID (e.g. genesis, matthew, nt, ot, all)')
     parser.add_argument('--verbose', action='store_true', help='Verbose output')
+    parser.add_argument('--all-eras', action='store_true',
+                        help='Theologian mode: check ALL eras per text (not just first)')
     args = parser.parse_args()
 
     manifest  = load_manifest()
@@ -548,7 +567,7 @@ def main():
         for text_id in text_ids:
             run_student_mode(text_id, manifest)
     elif args.mode == 'theologian':
-        run_theologian_mode(text_ids, manifest)
+        run_theologian_mode(text_ids, manifest, all_eras=args.all_eras)
     elif args.mode == 'crossref':
         run_crossref_mode(text_ids, manifest, verbose=args.verbose)
 

@@ -16,7 +16,7 @@ decision but in divine origin, though the process of recognition and
 collection has a genuinely human history that must be honestly examined.
 
 Key position on Deuteronomy 32:8: The LXX/DSS reading "sons of God"
-(bene elohim / angelon theou) is the original. The MT "sons of Israel"
+(b'nei 'elohim / angelon theou) is the original. The MT "sons of Israel"
 is a later theological correction. The Dead Sea Scrolls (4QDeutJ)
 confirmed the LXX reading, and this has massive implications for
 understanding Israel's place in the divine council framework.
@@ -688,7 +688,7 @@ CHAPTERS = [
 
         "hebrew_terms": [
             {
-                "term": "\u05d1\u05b0\u05bc\u05e0\u05b5\u05d9 \u05d0\u05b1\u05dc\u05b9\u05d4\u05b4\u05d9\u05dd (bene elohim)",
+                "term": "\u05d1\u05b0\u05bc\u05e0\u05b5\u05d9 \u05d0\u05b1\u05dc\u05b9\u05d4\u05b4\u05d9\u05dd (b'nei 'elohim)",
                 "meaning": "'Sons of God' \u2014 divine beings in YHWH's council. "
                            "This is the reading preserved in the Dead Sea "
                            "Scrolls fragment 4QDeutJ for Deuteronomy 32:8. "
@@ -864,7 +864,7 @@ CHAPTERS = [
                         "to Egypt (Gen 46:27). The LXX reads 'according to the number "
                         "of the angels of God' (angelon theou) or 'sons of God' "
                         "(huion theou). The Dead Sea Scrolls fragment 4QDeutJ reads "
-                        "'sons of God' (bene elohim), confirming that the LXX "
+                        "'sons of God' (b'nei 'elohim), confirming that the LXX "
                         "translated from a Hebrew text that originally read 'sons of "
                         "God,' not 'sons of Israel' [A]. The implications are enormous. "
                         "If God divided the nations according to the number of divine "
@@ -1092,7 +1092,7 @@ CHAPTERS = [
             {
                 "source": "4QDeutJ (c. 2nd-1st century BC)",
                 "summary": "A fragmentary scroll of Deuteronomy that reads "
-                           "'bene elohim' (sons of God) at Deuteronomy 32:8, "
+                           "'b'nei 'elohim' (sons of God) at Deuteronomy 32:8, "
                            "confirming the LXX reading against the MT's "
                            "'bene yisrael' (sons of Israel). This is the "
                            "Hebrew manuscript evidence that settled the "

@@ -93,6 +93,8 @@ def audit_chapter_structure(ch, era_id, findings):
 
     # Cross-ref types
     for xr in ch.get("cross_refs", []):
+        if isinstance(xr, str):
+            continue  # Thematic texts use bare string cross-refs; skip type check
         if xr.get("type") not in ("ot", "nt", "ane", "dss", "pseudepigrapha", "thematic"):
             findings.append({
                 "level": "WARNING",
@@ -278,16 +280,17 @@ Be thorough but fair. Only flag genuine issues."""
     )
 
     result_text = response.content[0].text
+    usage = getattr(response, 'usage', None)
     # Extract JSON from response
     try:
         if "```json" in result_text:
             result_text = result_text.split("```json")[1].split("```")[0]
         elif "```" in result_text:
             result_text = result_text.split("```")[1].split("```")[0]
-        return json.loads(result_text)
+        return json.loads(result_text), usage
     except (json.JSONDecodeError, IndexError):
         return [{"level": "INFO", "location": file_path, "rule": "parse_error",
-                 "message": f"Could not parse AI audit response: {result_text[:200]}"}]
+                 "message": f"Could not parse AI audit response: {result_text[:200]}"}], usage
 
 
 def generate_report(findings, report_name="audit"):
@@ -346,7 +349,7 @@ def main():
 
     elif args.file:
         print(f"[arbiter] AI audit of: {args.file}")
-        findings = run_ai_audit(args.file)
+        findings, _usage = run_ai_audit(args.file)
         report = generate_report(findings, "ai_audit")
         return findings
 

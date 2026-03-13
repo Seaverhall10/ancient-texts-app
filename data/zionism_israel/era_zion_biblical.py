@@ -497,7 +497,7 @@ CHAPTERS = [
 
         "divine_council_note": "The Abrahamic covenant must be read within the Deuteronomy "
                                "32:8-9 framework. When God divided the nations at Babel, "
-                               "He allotted them to the sons of God (bene elohim) but kept "
+                               "He allotted them to the sons of God (b'nei 'elohim) but kept "
                                "Israel as His own 'portion' (cheleq) and 'allotted heritage' "
                                "(nachala). The land promise to Abraham is thus a divine "
                                "council decree: YHWH is claiming specific territory as His "

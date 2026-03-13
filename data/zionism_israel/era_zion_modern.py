@@ -700,7 +700,7 @@ CHAPTERS = [
         "divine_council_note": "The divine council framework illuminates the Jew-Gentile "
                                "question in ways that both Christian Zionism and "
                                "replacement theology miss. In Deuteronomy 32:8-9, YHWH "
-                               "assigned the nations to the sons of God (bene elohim) but "
+                               "assigned the nations to the sons of God (b'nei 'elohim) but "
                                "kept Israel as His personal inheritance. The Christ event "
                                "represents God reclaiming ALL nations from the rebellious "
                                "divine rulers (Col 2:15, Eph 1:20-21). The Gentile "

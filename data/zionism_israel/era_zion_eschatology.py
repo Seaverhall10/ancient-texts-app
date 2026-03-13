@@ -538,8 +538,8 @@ CHAPTERS = [
                 "heading": "The Deuteronomy 32 Framework",
                 "body": "[B] The deepest key to Ezekiel 38-39 is not modern geopolitics "
                         "but Deuteronomy 32:8-9, where the Most High divided the "
-                        "nations according to the number of the sons of God (bene "
-                        "elohim, DSS/LXX reading) and kept Israel as His own portion. "
+                        "nations according to the number of the sons of God (b'nei "
+                        "'elohim, DSS/LXX reading) and kept Israel as His own portion. "
                         "The disinherited nations -- placed under the authority of "
                         "lesser divine beings who subsequently rebelled (Psalm 82) -- "
                         "have been in cosmic opposition to Yahweh's people ever since. "
