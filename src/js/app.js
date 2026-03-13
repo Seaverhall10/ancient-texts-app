@@ -7066,9 +7066,10 @@
         });
         mapOverlayLayers['\ud83d\udee3\ufe0f Modern Roads'] = esriTransport;
 
+        var isMobileMap = window.innerWidth < 768;
         mapLayerControl = L.control.layers(mapBaseLayers, mapOverlayLayers, {
             position: 'topleft',
-            collapsed: false,
+            collapsed: isMobileMap,
             sortLayers: false
         }).addTo(mapInstance);
 

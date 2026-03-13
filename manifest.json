@@ -3148,6 +3148,58 @@
       ]
     },
     {
+      "id": "matt_sermon",
+      "text": "matthew",
+      "name": "The Sermon on the Mount Deep Dive",
+      "chapters": "Matthew 5–7",
+      "color": "#5b8dbf",
+      "icon": "III",
+      "data_file": "era_matt_sermon",
+      "themes": [
+        "Beatitudes",
+        "Antitheses",
+        "Lord's Prayer",
+        "Narrow gate",
+        "Two builders",
+        "Kingdom charter"
+      ]
+    },
+    {
+      "id": "matt_parables",
+      "text": "matthew",
+      "name": "Kingdom Parables Deep Dive",
+      "chapters": "Matthew 13, 18, 20–25",
+      "color": "#5b8dbf",
+      "icon": "IV",
+      "data_file": "era_matt_parables",
+      "themes": [
+        "Sower and soils",
+        "Wheat and tares",
+        "Mustard seed",
+        "Hidden treasure",
+        "Unforgiving servant",
+        "Sheep and goats"
+      ]
+    },
+    {
+      "id": "matt_olivet",
+      "text": "matthew",
+      "name": "Olivet Discourse, Passion, and Great Commission",
+      "chapters": "Matthew 24–28",
+      "color": "#5b8dbf",
+      "icon": "V",
+      "data_file": "era_matt_olivet",
+      "themes": [
+        "Olivet Discourse",
+        "Abomination of desolation",
+        "Gethsemane",
+        "Crucifixion",
+        "Torn curtain",
+        "Resurrection",
+        "Great Commission"
+      ]
+    },
+    {
       "id": "mark_servant",
       "text": "mark",
       "name": "The Servant King Who Conquers Through Suffering",
@@ -3300,6 +3352,57 @@
         "Sons of Sceva",
         "Deut 32 reversal",
         "Rome"
+      ]
+    },
+    {
+      "id": "acts_pentecost",
+      "text": "acts",
+      "name": "Pentecost to Persecution",
+      "chapters": "Acts 2–11",
+      "color": "#5a8a7a",
+      "icon": "III",
+      "data_file": "era_acts_pentecost",
+      "themes": [
+        "Babel reversal",
+        "Community sharing",
+        "Boldness",
+        "Stephen martyr",
+        "Philip and eunuch",
+        "Cornelius breakthrough"
+      ]
+    },
+    {
+      "id": "acts_journeys",
+      "text": "acts",
+      "name": "Missionary Journeys and Jerusalem Council",
+      "chapters": "Acts 13–20",
+      "color": "#5a8a7a",
+      "icon": "IV",
+      "data_file": "era_acts_journeys",
+      "themes": [
+        "Light to Gentiles",
+        "Jerusalem Council",
+        "Amos 9 fulfillment",
+        "Areopagus speech",
+        "Ephesus power encounter",
+        "Farewell to elders"
+      ]
+    },
+    {
+      "id": "acts_trial",
+      "text": "acts",
+      "name": "Paul's Trials and the Road to Rome",
+      "chapters": "Acts 21–28",
+      "color": "#5a8a7a",
+      "icon": "V",
+      "data_file": "era_acts_trial",
+      "themes": [
+        "Jerusalem arrest",
+        "Before governors",
+        "Appeal to Caesar",
+        "Shipwreck",
+        "Malta",
+        "Gospel unhindered"
       ]
     },
     {

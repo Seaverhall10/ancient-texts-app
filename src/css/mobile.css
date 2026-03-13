@@ -405,6 +405,21 @@ body.sidebar-open .main-content { overflow: hidden !important; }
     font-size: 0.78rem;
 }
 
+/* ── Map layer control mobile constraints ──── */
+.map-container .leaflet-control-layers {
+    max-height: 50vh !important;
+    max-width: 70vw !important;
+    overflow-y: auto !important;
+    font-size: 0.75rem !important;
+}
+.map-container .leaflet-control-layers-expanded {
+    min-width: auto !important;
+    padding: 6px 8px !important;
+}
+.map-container .leaflet-control-layers label {
+    font-size: 0.72rem !important;
+}
+
 @media all and (display-mode: standalone) {
     body { padding-top: env(safe-area-inset-top, 20px); padding-bottom: env(safe-area-inset-bottom, 0px); }
     .mobile-bottom-nav { padding-bottom: calc(4px + env(safe-area-inset-bottom, 8px)); }
