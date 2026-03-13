@@ -183,7 +183,8 @@
             var chapters = ERA_DATA[era.id] || [];
             chapters.forEach(function(ch) {
                 if (!ch.cross_refs) return;
-                ch.cross_refs.forEach(function(xr) {
+                ch.cross_refs.forEach(function(raw) {
+                    var xr = normXref(raw);
                     // Parse the xref's target book to find matching chapters
                     var parsed = parseScriptureRef(xr.ref);
                     if (!parsed) return;
@@ -2135,12 +2136,17 @@
 
         html += '<div class="chapter-ref">' + ch.ref + '</div>' +
             '<h3>' + ch.title + '</h3>' +
-            '<div class="synopsis">' + ch.synopsis + '</div>' +
-            '<div class="reading-mode-toggle">' +
-            '<button class="rmt-btn' + (readingMode === 'scripture' ? ' active' : '') + '" data-mode="scripture">Scripture</button>' +
-            '<button class="rmt-btn' + (readingMode === 'study' ? ' active' : '') + '" data-mode="study">Study</button>' +
-            '<button class="rmt-btn' + (readingMode === 'interlinear' ? ' active' : '') + '" data-mode="interlinear">Interlinear</button>' +
-            '</div>';
+            '<div class="synopsis">' + ch.synopsis + '</div>';
+
+        // Only show reading mode toggle for canonical texts with scripture/interlinear data (not thematic essays)
+        var showModeToggle = textDef && textDef.category !== 'thematic';
+        if (showModeToggle) {
+            html += '<div class="reading-mode-toggle">' +
+                '<button class="rmt-btn' + (readingMode === 'scripture' ? ' active' : '') + '" data-mode="scripture">Scripture</button>' +
+                '<button class="rmt-btn' + (readingMode === 'study' ? ' active' : '') + '" data-mode="study">Study</button>' +
+                '<button class="rmt-btn' + (readingMode === 'interlinear' ? ' active' : '') + '" data-mode="interlinear">Interlinear</button>' +
+                '</div>';
+        }
 
         // Key verse
         if (ch.key_verse) {
@@ -2183,9 +2189,15 @@
             html += '<div class="cross-refs-section"><h4>Cross References</h4>' +
                 '<div class="cross-refs-list">';
             ch.cross_refs.forEach(function(xr, i) {
-                html += '<span class="cross-ref-pill type-' + xr.type + '"' +
-                    ' data-chapter="' + ch.id + '" data-index="' + i + '"' +
-                    ' title="' + escAttr(xr.note) + '">' + xr.ref + '</span>';
+                if (typeof xr === 'string') {
+                    html += '<span class="cross-ref-pill type-ot"' +
+                        ' data-chapter="' + ch.id + '" data-index="' + i + '"' +
+                        ' title="' + escAttr(xr) + '">' + xr + '</span>';
+                } else {
+                    html += '<span class="cross-ref-pill type-' + (xr.type || 'ot') + '"' +
+                        ' data-chapter="' + ch.id + '" data-index="' + i + '"' +
+                        ' title="' + escAttr(xr.note || xr.ref || '') + '">' + xr.ref + '</span>';
+                }
             });
             html += '</div></div>';
         }
@@ -2311,9 +2323,15 @@
             html += '<div class="cross-refs-section"><h4>Primary Sources</h4>' +
                 '<div class="cross-refs-list">';
             ch.cross_refs.forEach(function(xr, i) {
-                html += '<span class="cross-ref-pill type-' + xr.type + '"' +
-                    ' data-chapter="' + ch.id + '" data-index="' + i + '"' +
-                    ' title="' + escAttr(xr.note) + '">' + xr.ref + '</span>';
+                if (typeof xr === 'string') {
+                    html += '<span class="cross-ref-pill type-ot"' +
+                        ' data-chapter="' + ch.id + '" data-index="' + i + '"' +
+                        ' title="' + escAttr(xr) + '">' + xr + '</span>';
+                } else {
+                    html += '<span class="cross-ref-pill type-' + (xr.type || 'ot') + '"' +
+                        ' data-chapter="' + ch.id + '" data-index="' + i + '"' +
+                        ' title="' + escAttr(xr.note || xr.ref || '') + '">' + xr.ref + '</span>';
+                }
             });
             html += '</div></div>';
         }
@@ -2763,7 +2781,7 @@
                 var idx = parseInt(pill.dataset.index);
                 var ch = getChapterById(chId);
                 if (!ch || !ch.cross_refs || !ch.cross_refs[idx]) return;
-                var xr = ch.cross_refs[idx];
+                var xr = normXref(ch.cross_refs[idx]);
                 var typeLabel = xr.type ? xr.type.replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); }) : '';
                 tooltip.innerHTML = '<div class="xref-tt-ref">' + xr.ref + '</div>' +
                     (typeLabel ? '<span class="xref-tt-type type-' + xr.type + '">' + typeLabel + '</span>' : '') +
@@ -3518,7 +3536,8 @@
         if (!chapterData || !chapterData.cross_refs) return;
 
         var html = '';
-        chapterData.cross_refs.forEach(function(xr, i) {
+        chapterData.cross_refs.forEach(function(raw, i) {
+            var xr = normXref(raw);
             var highlight = i === index ? 'style="background:var(--gold-dim);border-radius:6px;padding:14px 12px;margin:-14px -12px"' : '';
             var parsed = parseScriptureRef(xr.ref);
             var goLink = parsed ? ' <a class="xref-goto" data-ref="' + escAttr(xr.ref) + '" title="Open in reading pane">\u2192 Go</a>' : '';
@@ -4157,10 +4176,11 @@
         if (activeChapter.cross_refs && activeChapter.cross_refs.length > 0) {
             html += '<div class="source-reading-xrefs">' +
                 '<div class="source-reading-label">Cross References</div>';
-            activeChapter.cross_refs.forEach(function(xr) {
+            activeChapter.cross_refs.forEach(function(raw) {
+                var xr = normXref(raw);
                 html += '<div class="source-reading-xref">' +
                     '<span class="source-reading-xref-ref">' + xr.ref + '</span>';
-                if (xr.note) html += '<span class="source-reading-xref-note"> \u2014 ' + xr.note + '</span>';
+                if (xr.note && xr.note !== xr.ref) html += '<span class="source-reading-xref-note"> \u2014 ' + xr.note + '</span>';
                 html += '</div>';
             });
             html += '</div>';
@@ -4712,8 +4732,9 @@
 
         if (ch.cross_refs && ch.cross_refs.length > 0) {
             md.push('### Cross References');
-            ch.cross_refs.forEach(function(xr) {
-                md.push('- **' + xr.ref + '** — ' + xr.note + (xr.type ? ' [' + xr.type + ']' : ''));
+            ch.cross_refs.forEach(function(raw) {
+                var xr = normXref(raw);
+                md.push('- **' + xr.ref + '**' + (xr.note && xr.note !== xr.ref ? ' — ' + xr.note : '') + (xr.type ? ' [' + xr.type + ']' : ''));
             });
             md.push('');
         }
@@ -6997,8 +7018,15 @@
     }
 
     function escAttr(str) {
-        return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+        if (!str) return '';
+        return String(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;')
                   .replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    // Normalize a cross-ref entry — handles both string ("Job 1:6") and object ({ref, note, type}) formats
+    function normXref(xr) {
+        if (typeof xr === 'string') return { ref: xr, note: xr, type: 'ot' };
+        return { ref: xr.ref || '', note: xr.note || xr.ref || '', type: xr.type || 'ot' };
     }
 
     // ══════════════════════════════════════════════════════════
