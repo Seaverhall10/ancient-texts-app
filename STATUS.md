@@ -87,7 +87,16 @@ DSS Sectarian, Josephus, Heavenly Court
 
 ## WHAT IS MISSING
 
+### TIER 0 — Audit Fixes (Blocking Deploy)
+0. **37 CRITICAL**: 6 NT era files missing `id`/`era` fields (18 chapters) + 1 missing `ref`
+1. **~180 cross-refs missing type tags** in Matthew, Acts, Galatians, Philippians, Colossians, 1 Thess, 1 Peter, Jude era files
+2. **Leviticus sections are empty shells** — 27 chapters with 0-char section bodies, no headings
+3. **2 Peter + 3 John sections empty** — placeholder structure but no content
+4. **59 chapters missing `key_verse`** — scattered across texts
+5. **1 unlisted CSS file** — `styles.css` on disk but not in `build-order.txt`
+
 ### TIER 1 — Content Depth (Major Gaps)
+0. **Fix 37 CRITICAL audit findings** — 6 new NT era files (Galatians, Philippians, Colossians, 1 Thess, 1 Peter, Jude) missing `id` and `era` fields on 18 chapters; 1 chapter (`ane-joseph-egypt`) missing `ref` field
 1. **Minor Prophets section depth** — All 12 books at 25-40% of Genesis depth (51/55 chapters flagged)
 2. **NT era expansion** — Luke, John still have only 2 eras each (Matthew + Acts now have 5 each)
 3. **DSS Sectarian hebrew_terms** — 26 chapters at 0% coverage
@@ -121,25 +130,50 @@ DSS Sectarian, Josephus, Heavenly Court
 |--------|-------|
 | Total texts | **80** |
 | Total eras | **246** |
-| Study chapters | **1,049** |
+| Study chapters | **1,059** |
 | Flow translations | **66/80 texts** (all 39 OT + all 27 NT) |
 | Flow verses | **31,101** |
+| Flow scholarly notes | **9,497** |
 | Interlinear words (OT) | **306,506** |
 | Interlinear words (NT) | **137,833** |
 | **Total interlinear** | **444,339** |
-| Cross-references | **7,096** |
+| Cross-references | **6,990** |
 | Glossary terms | **607** |
+| Map journey routes | **24** (206 waypoints) |
 | Religions in Truth Matrix | **52** |
-| CSS component files | **47** |
-| Build output (dev) | ~72 MB HTML |
+| CSS component files | **48** |
+| CSS custom properties | **89** |
+| JS named functions | **189** |
+| Build output (dev) | ~69 MB HTML |
 | Build output (release) | ~69 MB HTML |
 | Mobile shell | ~0.9 MB |
 | Release ZIP | ~40 MB (PC + Mobile) |
 | Current version | **3.3.0** |
+| Audit modules | **12** |
+| Audit baseline | 37 critical, 87 warnings, 577 info |
 
 ---
 
 ## RECENT CHANGES (2026-03-13)
+
+### Session 7 — Agent Audit System, Map Enhancements, NT Era Expansion
+- **Full Sentient Audit System** (`agents/audit_claude_work.py`, 1,426 lines):
+  - 12 audit modules: map journeys, colors, coords, links, waypoints, eras, flow, interlinear, glossary, xrefs, code structure, AI theological review
+  - Theological guardrails: Sethite contamination, canonical language, divine council, Deut 32:8, evidence tiers
+  - `--full-app` scans ALL 1,059 chapters, 31,101 verses, 444,339 words, 6,990 xrefs, 607 glossary entries
+- **Arbiter enhanced** with `--map` theological check on waypoint descriptions
+- **Reader enhanced** with `--mode map-audit` for data integrity validation
+- **Review pipeline** (`review_content.py`) now includes map + Claude Code audit in Phase 1
+- **Map journey enhancements** (from Session 6 continuation):
+  - 6 new journey routes (Isaac, Jesus Galilean, Jesus Final Week, Paul 1st/2nd/3rd)
+  - Nimrod expanded to 10 waypoints (Gilgamesh, Eridu, Calneh, Resen, Rehoboth-Ir)
+  - All 24 journeys reordered chronologically by epoch
+  - 24 distinct non-yellow colors, epoch separator headers
+  - White waypoint markers with drop shadow for visibility
+- **NT Era Expansion**: 6 new era files (Galatians, Philippians, Colossians, 1 Thess, 1 Peter, Jude)
+- **Agent Delegation Protocol** mandated in CLAUDE.md and MEMORY.md
+- Stats: 80 texts → 246 eras → 1,059 chapters → 6,990 xrefs → 607 glossary
+- Audit baseline: 37 critical (NT eras missing id/era), 87 warnings, 577 info
 
 ### Session 5 — Visual Polish, Map Enhancements, Name Theology
 - **Patriarch Ages Lifespan Chart** — interactive bar chart (Adam through Abraham)

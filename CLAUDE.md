@@ -13,12 +13,13 @@
 
 ## WHAT THIS IS
 Two-target study app (Desktop + Mobile PWA) built from Python data files:
-- **74 texts** (39 OT + 27 NT + 8 Apocryphal/Second Temple)
-- **186 study eras**, 895 chapters
+- **80 texts** (39 OT + 27 NT + 5 DSS + 1 Pseudepigrapha + 1 Historical + 4 Thematic + 3 Study)
+- **246 study eras**, 1,059 chapters
 - **444,339 interlinear words** (Hebrew + Greek, click-to-popup)
-- **31,101 flow verse translations**
-- **5,932 cross-references**, 553 glossary terms
+- **31,101 flow verse translations**, 9,497 scholarly notes
+- **6,990 cross-references**, 607 glossary terms
 - **52+ world religions** in Bible Truth Matrix
+- **24 map journey routes**, 206 waypoints with descriptions
 
 ## KEY COMMANDS
 ```bash
@@ -29,6 +30,10 @@ BUILD_ALL.bat                      # Build all 3 targets
 DEPLOY.bat                         # Build + commit + push + deploy gh-pages
 LAUNCH.bat                         # Interactive menu
 python agents/reader.py --mode qa  # QA check
+python agents/audit_claude_work.py --full-app  # Full sentient audit (ALL content)
+python agents/audit_claude_work.py --all       # Map-only audit
+python agents/arbiter.py --map                 # Theological map check
+python agents/reader.py --mode map-audit       # Map data integrity
 ```
 
 ## PROJECT STRUCTURE (see PROJECT.md for full map)
@@ -36,7 +41,7 @@ python agents/reader.py --mode qa  # QA check
 src/css/         39 component CSS files + build-order.txt
 src/js/          app.js (main) + state.js (state management)
 data/            74 text folders + flow/ + shared era files
-agents/          5 AI council agents (Oracle, Scribe, Arbiter, Lector, Architect)
+agents/          7 AI agents (Oracle, Scribe, Arbiter, Lector, Architect, Reader, Claude Auditor)
 hai/             Hallelujah AI (dev-only chat: app.py, server, pipeline, policy)
 docs/            Research notes, vision docs, handoffs, comms
 tools/           One-off utility scripts
@@ -86,3 +91,22 @@ Minimize main conversation token usage by delegating to Task agents:
 - **Parallel work** → launch multiple agents simultaneously
 - **Main thread** = coordinate, small edits, communicate with user only
 - Use `model: "haiku"` for straightforward tasks, `"sonnet"` for complex reasoning
+
+## RULE: Audit Before Deploy (MANDATORY)
+Every session that modifies content or code MUST run the audit before final deploy:
+```bash
+# Minimum (every session):
+python agents/reader.py --mode qa              # 451+ structural checks
+python agents/audit_claude_work.py --full-app  # Full content + code audit
+
+# After map/journey changes:
+python agents/arbiter.py --map                 # Theological guardrails
+
+# After era file changes:
+python agents/audit_claude_work.py --eras      # Era depth + field validation
+
+# After any deploy:
+# Review the report at agents/reports/claude_audit_*.md
+```
+**Baseline (2026-03-13)**: 0 CRITICAL target (current: 37 from new NT eras needing id/era fields).
+Fix all CRITICAL findings before deploying.
