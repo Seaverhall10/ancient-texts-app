@@ -21,6 +21,9 @@ __pycache__/
 
 # ── Secrets / API Keys ───────────────────────────────
 agents/config.py
+config/firebase.json
+config/api_keys.env
+config/*.env
 .env
 *.key
 *.pem

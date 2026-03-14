@@ -5253,7 +5253,10 @@
         'megalith':   { color: '#b07050', label: 'Megaliths & Anomalies', icon: '\u25B2' },
         'pyramid':    { color: '#d4a853', label: 'Global Pyramids',     icon: '\u25B3' },
         'dss':        { color: '#5b8dbf', label: 'Dead Sea Scroll Sites', icon: '\u2720' },
-        'cultural':   { color: '#2d9a8f', label: 'Cultural Parallels',  icon: '\u2735' }
+        'cultural':   { color: '#2d9a8f', label: 'Cultural Parallels',  icon: '\u2735' },
+        'crater':     { color: '#6b7b8d', label: 'Impact Craters',      icon: '\u25CE' },
+        'anomaly':    { color: '#e07020', label: 'Anomalous Sites',     icon: '\u26A1' },
+        'native':     { color: '#8b6e4f', label: 'Indigenous Traditions', icon: '\u25C8' }
     };
 
     var MAP_SITES = [
@@ -6074,6 +6077,1120 @@
         {cat:'cultural', name:'Hattusa (Bogazkoy)', lat:40.0167, lng:34.6167,
          desc:'Capital of the Hittite Empire. Tablets here include treaty forms paralleling Deuteronomy\'s suzerain-vassal covenant structure.',
          refs:'Genesis 23:3-20; 2 Samuel 11:3'}
+
+// ══════════════════════════════════════════════════════════════
+// ── EARTH IMPACT CRATERS ──
+// ~190 confirmed impact structures from the Earth Impact Database
+// "And the number of those who descended on Mount Hermon was 200" — 1 Enoch 6:6
+// ══════════════════════════════════════════════════════════════
+
+        {cat:'crater', name:'Vredefort — 300km', lat:-27.0, lng:27.5,
+         desc:'Largest confirmed impact crater on Earth, ~2.023 billion years old, located in Free State, South Africa. So ancient that the original crater rim has long since eroded away, leaving only the deeply exhumed central dome.',
+         note:'Oldest of the mega-craters — formed before complex life existed on Earth.'},
+
+        {cat:'crater', name:'Sudbury Basin — 250km', lat:46.6, lng:-81.18,
+         desc:'Second-largest confirmed impact structure on Earth, ~1.849 billion years old, Ontario, Canada. The impact melted and differentiated the crust, creating one of the world\'s richest nickel-copper-platinum mining districts.',
+         note:'The impact\'s mineral legacy has been mined for over a century — wealth buried in catastrophe.'},
+
+        {cat:'crater', name:'Chicxulub — 180km', lat:21.3, lng:-89.5,
+         desc:'The KT extinction event crater, ~66 million years old, buried beneath the Yucatan Peninsula and Gulf of Mexico. 75% of all species on Earth died. This single 180km crater changed the course of life on Earth.',
+         note:'The great dying that ended the age of dinosaurs — a reminder that cosmic violence reshapes creation.'},
+
+        {cat:'crater', name:'Popigai — 100km', lat:71.65, lng:111.18,
+         desc:'One of the largest impact craters on Earth, ~35.7 million years old, Siberia, Russia. The impact created trillions of carats of diamonds (impact diamonds) by instantaneously transforming graphite in the target rock.',
+         note:'Diamonds forged in an instant of cosmic violence — billions of carats still lie beneath Siberian permafrost.'},
+
+        {cat:'crater', name:'Manicouagan — 100km', lat:51.38, lng:-68.7,
+         desc:'A multi-ring impact structure ~214 million years old in Quebec, Canada. The iconic annular lake formed when the impact melt rock eroded unevenly; visible from space as a perfect ring. Associated with the Triassic extinction.',
+         note:'One of the most visually striking craters on Earth — a celestial ring burned into the Canadian Shield.'},
+
+        {cat:'crater', name:'Yarrabubba — 70km', lat:-27.17, lng:118.83,
+         desc:'Oldest confirmed impact structure on Earth at ~2.229 billion years old, Western Australia. Shocked zircon crystals precisely date this as the world\'s oldest recognized crater. The impact may have triggered a global thaw from Snowball Earth conditions.',
+         note:'Oldest confirmed impact structure — 2.229 billion years. A cosmic event older than all complex life.'},
+
+        {cat:'crater', name:'Acraman — 90km', lat:-32.02, lng:135.45,
+         desc:'Deeply eroded impact structure ~580 million years old in South Australia. Ejecta from this impact has been traced 300km away in Ediacaran sediments, providing a useful stratigraphic marker for Precambrian geology.',
+         note:'Impact ejecta preserved in ancient sediment layers — a bookmark in deep time.'},
+
+        {cat:'crater', name:'Chesapeake Bay — 85km', lat:37.28, lng:-76.02,
+         desc:'A buried impact crater ~35.3 million years old beneath the Chesapeake Bay, Virginia, USA. The largest known impact structure in the eastern United States; the Bay\'s irregular shape is partly a product of this ancient catastrophe.',
+         note:'An entire American estuary shaped by a forgotten cosmic impact beneath the water.'},
+
+        {cat:'crater', name:'Puchezh-Katunki — 80km', lat:56.97, lng:43.72,
+         desc:'Large impact crater ~167 million years old in Nizhny Novgorod Oblast, Russia. Well-preserved central uplift and ring structure; one of the largest impact structures in Europe.',
+         note:''},
+
+        {cat:'crater', name:'Morokweng — 70km', lat:-26.47, lng:23.53,
+         desc:'Large impact structure ~145 million years old in the Kalahari Desert, South Africa. A meteorite fragment was found within the impact melt, preserved inside the solidified rock — a rare occurrence for large craters.',
+         note:'The impactor itself was found preserved within the melt rock — a cosmic visitor entombed for 145 million years.'},
+
+        {cat:'crater', name:'Kara — 65km', lat:69.1, lng:64.15,
+         desc:'Impact crater ~70 million years old on the Arctic coast of Russia. Paired with the smaller Ust-Kara crater nearby, suggesting a doublet impact event from a binary asteroid.',
+         note:''},
+
+        {cat:'crater', name:'Kara-Kul — 52km', lat:39.02, lng:73.45,
+         desc:'Large impact crater ~5 million years old in Tajikistan, Central Asia, at 3,900m elevation in the Pamir Mountains. The crater lake is one of the highest impact lakes in the world.',
+         note:'A cosmic scar hidden among the world\'s highest mountain ranges.'},
+
+        {cat:'crater', name:'Siljan Ring — 52km', lat:61.02, lng:14.87,
+         desc:'Sweden\'s largest impact structure, ~377 million years old, Dalarna county. The impact created a ring-shaped lake system and was the site of a controversial (and ultimately failed) deep drilling project in the 1980s searching for abiogenic oil.',
+         note:''},
+
+        {cat:'crater', name:'Charlevoix — 54km', lat:47.32, lng:-70.3,
+         desc:'Impact structure ~342 million years old in Quebec, Canada along the St. Lawrence River. The town of La Malbaie sits within the crater; the region\'s unusual topography puzzled geologists for decades before the impact origin was confirmed.',
+         note:''},
+
+        {cat:'crater', name:'Montagnais — 45km', lat:42.88, lng:-64.22,
+         desc:'Submerged impact structure ~50.5 million years old beneath the continental shelf off Nova Scotia, Canada. One of the few confirmed submarine impact craters; discovered via seismic reflection surveys.',
+         note:''},
+
+        {cat:'crater', name:'Araguainha — 40km', lat:-16.78, lng:-52.98,
+         desc:'Largest known impact structure in South America, ~254 million years old, Brazil. Formed at virtually the same time as the Permian-Triassic extinction event (the Great Dying), though a causal link remains debated.',
+         note:'A South American crater coincident with the worst mass extinction in Earth\'s history — 96% of marine species perished.'},
+
+        {cat:'crater', name:'Saint Martin — 40km', lat:51.78, lng:-98.53,
+         desc:'Well-preserved impact structure ~220 million years old in Manitoba, Canada. Lake St. Martin partially fills the crater; the surrounding geology displays classic impact breccias and shatter cones.',
+         note:''},
+
+        {cat:'crater', name:'Woodleigh — 40km', lat:-26.05, lng:114.67,
+         desc:'Impact structure ~364 million years old in Western Australia, entirely buried under sedimentary cover. Discovered through aeromagnetic surveys; its true size is still debated, with some estimates reaching 120km.',
+         note:''},
+
+        {cat:'crater', name:'Mjolnir — 40km', lat:73.8, lng:29.67,
+         desc:'Submarine impact crater ~142 million years old on the floor of the Barents Sea, Norway. Named after Thor\'s hammer; the impact ejected a massive tsunami that devastated Jurassic coastlines around the Arctic.',
+         note:'Named for Thor\'s hammer — a fitting name for a cosmic strike that sent Jurassic tsunamis across the Arctic.'},
+
+        {cat:'crater', name:'Carswell — 39km', lat:58.45, lng:-109.5,
+         desc:'Impact structure ~115 million years old in Saskatchewan, Canada. The crater contains uranium ore deposits that have been mined; the Athabasca Basin uranium district is geologically associated with this structure.',
+         note:''},
+
+        {cat:'crater', name:'Clearwater West — 36km', lat:56.22, lng:-74.5,
+         desc:'One of a doublet impact pair ~290 million years old in Quebec, Canada. Clearwater West and Clearwater East formed simultaneously from the breakup of a binary asteroid — two lakes side by side on the Canadian Shield.',
+         note:'Twin craters formed in a single moment — a binary asteroid split before striking Earth.'},
+
+        {cat:'crater', name:'Clearwater East — 26km', lat:56.05, lng:-74.07,
+         desc:'Smaller of the Clearwater doublet pair, ~290 million years old, Quebec, Canada. Both craters are now filled with lakes and are visible from satellite as twin circular structures on the shield.',
+         note:''},
+
+        {cat:'crater', name:'Manson — 35km', lat:42.58, lng:-94.55,
+         desc:'Buried impact structure ~73.8 million years old beneath the plains of Iowa, USA. For a time in the 1990s it was a candidate for the Cretaceous extinction event crater before Chicxulub was confirmed.',
+         note:'Briefly a candidate for the dinosaur-killing crater before Chicxulub was confirmed.'},
+
+        {cat:'crater', name:'Steen River — 25km', lat:59.5, lng:-117.62,
+         desc:'Buried impact crater ~91 million years old in Alberta, Canada. Entirely concealed under sedimentary cover; identified through oil well drilling data and geophysical surveys.',
+         note:''},
+
+        {cat:'crater', name:'Slate Islands — 30km', lat:48.67, lng:-87.0,
+         desc:'Impact structure ~450 million years old in Lake Superior, Ontario, Canada. The islands themselves are the eroded remnants of the central uplift; shatter cones are found throughout the exposed rock.',
+         note:''},
+
+        {cat:'crater', name:'Keurusselka — 30km', lat:62.13, lng:24.6,
+         desc:'Ancient impact structure ~1.88 billion years old in Finland. One of the oldest impact structures in Fennoscandia; recognized from shatter cones and planar deformation features in Paleoproterozoic bedrock.',
+         note:''},
+
+        {cat:'crater', name:'Shoemaker (Teague Ring) — 30km', lat:-25.87, lng:120.88,
+         desc:'Impact structure ~1.63 billion years old in Western Australia. Named after planetary geologist Eugene Shoemaker, who spent decades studying impact craters and whose ashes were carried to the Moon by the Lunar Prospector spacecraft.',
+         note:'Named for Eugene Shoemaker — the scientist who proved craters were impacts and whose ashes rest on the Moon.'},
+
+        {cat:'crater', name:'Strangways — 25km', lat:-15.17, lng:133.58,
+         desc:'Deeply eroded impact structure ~646 million years old in Northern Territory, Australia. One of the larger and older Australian craters; recognized from impact melt rocks and shocked quartz in Precambrian terrain.',
+         note:''},
+
+        {cat:'crater', name:'Mistastin — 28km', lat:55.88, lng:-63.32,
+         desc:'Well-preserved impact structure ~36.4 million years old in Labrador, Canada. Mistastin Lake fills the crater; the impact produced anorthosite impact melt glass and shocked minerals still abundant around the shores.',
+         note:''},
+
+        {cat:'crater', name:'Deep Bay — 13km', lat:56.4, lng:-103.0,
+         desc:'Circular lake-filled impact crater ~99 million years old in Saskatchewan, Canada. The nearly perfectly circular lake is one of the deepest in Saskatchewan; the impact breccia is exposed along the shoreline.',
+         note:''},
+
+        {cat:'crater', name:'Nicholson Lake — 12.5km', lat:62.67, lng:-102.97,
+         desc:'Impact structure ~400 million years old in the Northwest Territories, Canada. The crater is entirely filled by Nicholson Lake; shatter cones and shocked quartz confirm its impact origin.',
+         note:''},
+
+        {cat:'crater', name:'Ries (Nördlinger Ries) — 24km', lat:48.88, lng:10.62,
+         desc:'Well-preserved impact crater ~14.8 million years old in Bavaria, Germany. The town of Nördlingen is built entirely within the crater; its medieval city wall is constructed from impact-generated suevite rock containing shocked minerals.',
+         note:'Humans built a medieval city inside an impact crater — its very walls are made of suevite rock blasted from the sky.'},
+
+        {cat:'crater', name:'Steinheim — 3.8km', lat:48.68, lng:10.07,
+         desc:'Small impact crater ~14.8 million years old in Baden-Württemberg, Germany. Formed simultaneously with the Ries crater 40km away; a doublet impact from a binary asteroid. The central uplift is preserved as a hill.',
+         note:'Twin to the Ries — a doublet impact, two craters from one binary impactor striking simultaneously.'},
+
+        {cat:'crater', name:'Rochechouart — 23km', lat:45.82, lng:0.78,
+         desc:'Impact structure ~214 million years old in Haute-Vienne, France. The impactite rocks were used as building material throughout the medieval period — several Romanesque churches in the region are constructed from impact melt rock.',
+         note:'Medieval churches built from impact melt rock — ancient destruction repurposed for worship.'},
+
+        {cat:'crater', name:'Boltysh — 24km', lat:48.9, lng:32.25,
+         desc:'Impact crater ~65.17 million years old in Ukraine, formed approximately 2,000 years before the Chicxulub impact. Evidence of a major wildfire event is preserved in the sediment record immediately above the impact horizon.',
+         note:'Struck Earth just before Chicxulub — a cosmic one-two punch at the end of the Cretaceous.'},
+
+        {cat:'crater', name:'Haughton — 23km', lat:75.38, lng:-89.68,
+         desc:'Well-preserved impact crater ~39 million years old on Devon Island, Nunavut, Canada. The cold, dry, isolated environment makes it one of the best Mars analog sites on Earth; NASA uses it for planetary exploration research.',
+         note:'NASA\'s Mars analog site — the closest thing to Mars on Earth, carved by an ancient impact.'},
+
+        {cat:'crater', name:'Gosses Bluff — 22km', lat:-23.82, lng:132.3,
+         desc:'Spectacular impact crater ~142 million years old in the Northern Territory, Australia. A ring of hills ~5km across marks the eroded central uplift; the original 22km rim has been largely stripped away. Sacred to the Western Aranda Aboriginal people as Tnorala.',
+         note:'Sacred to Aboriginal Australians as Tnorala — a cosmic cradle, they say, where a woman dropped her baby from the Milky Way.'},
+
+        {cat:'crater', name:'Obolon — 20km', lat:49.35, lng:32.92,
+         desc:'Buried impact structure ~169 million years old in Ukraine. Discovered through petroleum drilling; filled with Jurassic sediment. One of several Ukrainian impact structures now recognized in the stable Precambrian basement.',
+         note:''},
+
+        {cat:'crater', name:'Logancha — 20km', lat:65.5, lng:95.95,
+         desc:'Impact structure ~40 million years old in Krasnoyarsk Krai, Russia. Located in the Siberian platform; recognized from drilling data and surface geomorphology in a remote taiga region.',
+         note:''},
+
+        {cat:'crater', name:'Presqu\'ile — 24km', lat:49.72, lng:-74.8,
+         desc:'Proposed impact structure ~500 million years old in Quebec, Canada. Located on the Canadian Shield; the circular structure is recognized from geological mapping and gravity anomalies.',
+         note:''},
+
+        {cat:'crater', name:'Lappajärvi — 23km', lat:63.2, lng:23.7,
+         desc:'Well-studied impact crater ~73 million years old in Ostrobothnia, Finland. Lake Lappajärvi fills the crater; the central island (Kärnänsaari) is a classic central uplift. Impact glasses called "Makelanite" are found locally.',
+         note:''},
+
+        {cat:'crater', name:'Dellen — 19km', lat:61.83, lng:16.72,
+         desc:'Impact structure ~89 million years old in Hälsingland, Sweden. The twin lakes Norra Dellen and Södra Dellen occupy the crater; the impact is dated to the mid-Cretaceous period.',
+         note:''},
+
+        {cat:'crater', name:'Elgygytgyn — 18km', lat:67.5, lng:172.08,
+         desc:'Remarkably well-preserved impact crater ~3.6 million years old in Chukotka, Russia. Lake El\'gygytgyn sits in an unglaciated depression; its sediment core preserves an uninterrupted 3.6-million-year climate record, making it a world-class paleoclimate archive.',
+         note:'An unglaciated Arctic crater preserving 3.6 million years of unbroken climate history — a cosmic time capsule.'},
+
+        {cat:'crater', name:'Oasis — 18km', lat:24.58, lng:24.4,
+         desc:'Impact structure in the Libyan Desert, age less than 120 Ma. Located in a remote desert region; the circular structure with central uplift is recognized from satellite imagery and field geology.',
+         note:''},
+
+        {cat:'crater', name:'Lawn Hill — 18km', lat:-18.67, lng:138.65,
+         desc:'Impact structure ~500 million years old in Queensland, Australia. Located near Lawn Hill Gorge National Park; the crater is recognized from structural geology mapping in Cambrian sedimentary rocks.',
+         note:''},
+
+        {cat:'crater', name:'Luizi — 17km', lat:-10.17, lng:28.0,
+         desc:'Impact structure of uncertain age in the Democratic Republic of Congo. Recognized from satellite imagery and field confirmation as one of very few confirmed craters in central Africa.',
+         note:'One of only a handful of confirmed impact structures on the African continent.'},
+
+        {cat:'crater', name:'Suavjärvi — 16km', lat:63.12, lng:33.38,
+         desc:'Ancient impact structure ~2.4 billion years old in Karelia, Russia. One of the oldest impact structures in the Fennoscandian Shield; recognized from shocked minerals and pseudotachylite in deeply eroded Archean terrain.',
+         note:''},
+
+        {cat:'crater', name:'Kaluga — 15km', lat:54.5, lng:36.2,
+         desc:'Impact structure ~380 million years old in Kaluga Oblast, Russia. Buried impact crater recognized from drilling data; the circular anomaly in Devonian sediments indicates a significant Paleozoic impact event.',
+         note:''},
+
+        {cat:'crater', name:'Zhamanshin — 14km', lat:48.4, lng:60.97,
+         desc:'Impact crater ~0.9 million years old in Kazakhstan. One of the youngest confirmed craters in Central Asia; produced abundant impact glasses (irghizites) and impactites that are found strewn across the surrounding steppe.',
+         note:''},
+
+        {cat:'crater', name:'Jänisjärvi — 14km', lat:61.97, lng:30.92,
+         desc:'Impact structure ~700 million years old in Karelia, Russia. Lake Jänisjärvi fills the circular depression; the Precambrian impact is recognized from shocked minerals and distinctive circular morphology.',
+         note:''},
+
+        {cat:'crater', name:'Gweni-Fada — 14km', lat:17.42, lng:21.75,
+         desc:'Impact structure in the Ennedi region of Chad, age less than 345 Ma. Remote Saharan crater recognized from satellite imagery and field confirmation; one of several confirmed structures in the Sahara.',
+         note:''},
+
+        {cat:'crater', name:'Kentland — 13km', lat:40.75, lng:-87.38,
+         desc:'Buried impact structure ~97 million years old in Newton County, Indiana, USA. The crater is exposed in a limestone quarry where the dramatically upturned and brecciated rock confused geologists for decades until shatter cones confirmed impact origin.',
+         note:'Shatter cones found in a quarry revealed that the tilted Indiana limestone was impact-deformed, not volcanic.'},
+
+        {cat:'crater', name:'Aorounga — 12.6km', lat:19.1, lng:19.25,
+         desc:'Impact crater in northern Chad, Sahara Desert, age less than 345 Ma. Exceptionally well-preserved triple-ring structure visible from space; radar imaging suggests two more buried craters nearby, indicating a possible crater chain from a fragmented comet.',
+         note:'Radar imaging hints at a chain of craters — a possible fragmented comet that struck Earth in a line.'},
+
+        {cat:'crater', name:'Vargeão Dome — 12km', lat:-26.83, lng:-52.1,
+         desc:'Impact structure in Santa Catarina, Brazil, age less than 70 Ma. Circular geological dome recognized from field mapping and aerial photography; impact origin confirmed by shocked quartz and planar deformation features.',
+         note:''},
+
+        {cat:'crater', name:'Serra da Cangalha — 12km', lat:-8.08, lng:-46.87,
+         desc:'Impact structure in Tocantins, Brazil, age less than 300 Ma. Exposed circular structure in Paleozoic sedimentary rocks; confirmed by shatter cones and planar deformation features in quartz grains.',
+         note:''},
+
+        {cat:'crater', name:'Wells Creek — 12km', lat:36.38, lng:-87.67,
+         desc:'Impact structure ~200 million years old in Stewart County, Tennessee, USA. The circular disruption in Ordovician through Mississippian limestone was long attributed to cryptovolcanism before impact origin was confirmed.',
+         note:''},
+
+        {cat:'crater', name:'Spider — 13km', lat:-16.73, lng:126.08,
+         desc:'Deeply eroded impact structure ~570 million years old in Western Australia. Named for its distinctive appearance in satellite images — radial drainage pattern emanating from a central uplift like spider legs.',
+         note:'Named for its spider-like appearance from space — radial valleys emanating from the central uplift.'},
+
+        {cat:'crater', name:'Vista Alegre — 9.5km', lat:-25.87, lng:-52.68,
+         desc:'Impact structure ~115 million years old in Paraná, Brazil. Circular structure recognized in Paraná flood basalts; confirmed by shatter cones in basalt — an unusual occurrence as impacts in basalt are less common.',
+         note:''},
+
+        {cat:'crater', name:'Connolly Basin — 9km', lat:-23.52, lng:124.75,
+         desc:'Impact structure ~60 million years old in Western Australia. Circular basin recognized from remote sensing; one of numerous Australian impact structures confirmed in Precambrian and early Paleozoic terrain.',
+         note:''},
+
+        {cat:'crater', name:'Ragozinka — 9km', lat:58.43, lng:62.0,
+         desc:'Impact structure ~46 million years old in Sverdlovsk Oblast, Russia. Eocene-age impact recognized from drilling and geophysical surveys in the Western Siberian Platform.',
+         note:''},
+
+        {cat:'crater', name:'Beyenchime-Salaatin — 8km', lat:71.0, lng:121.98,
+         desc:'Impact structure ~40 million years old in Sakha Republic, Russia. Remote Arctic crater located in the Siberian platform; recognized from aerial photography and confirmed with field geology.',
+         note:''},
+
+        {cat:'crater', name:'Bosumtwi — 10.5km', lat:6.5, lng:-1.41,
+         desc:'Beautifully preserved impact crater ~1.07 million years old in Ghana, West Africa. Lake Bosumtwi fills the entire crater; it is the only natural lake in Ghana. Associated with the Ivory Coast strewn field of tektites found across West Africa.',
+         note:'The source crater for the Ivory Coast tektite strewn field — glass from this impact scattered across West Africa.'},
+
+        {cat:'crater', name:'Ilyinets — 8.5km', lat:49.12, lng:29.1,
+         desc:'Impact structure ~378 million years old in Vinnytsia Oblast, Ukraine. Devonian impact recognized from shock metamorphism features; one of multiple Devonian-age impacts recognized globally, suggesting a possible bombardment cluster.',
+         note:''},
+
+        {cat:'crater', name:'Paasselkä — 10km', lat:62.07, lng:29.08,
+         desc:'Ancient impact structure ~1.92 billion years old in North Karelia, Finland. One of the oldest impact structures in Finland; recognized from shocked quartz and geophysical anomalies in Paleoproterozoic terrain.',
+         note:''},
+
+        {cat:'crater', name:'Bigach — 8km', lat:48.6, lng:82.0,
+         desc:'Impact structure ~5 million years old in eastern Kazakhstan. Late Miocene crater recognized from circular morphology and impactites; the lake-filled depression is one of few confirmed craters in Central Asia.',
+         note:''},
+
+        {cat:'crater', name:'Karla — 10km', lat:54.92, lng:48.02,
+         desc:'Impact structure ~5 million years old in the Tatarstan Republic, Russia. Pliocene crater buried under later sediments; confirmed from drilling data and geophysical surveys.',
+         note:''},
+
+        {cat:'crater', name:'Lac Couture — 8km', lat:60.13, lng:-75.3,
+         desc:'Impact structure ~430 million years old in Quebec, Canada. Circular lake on the Canadian Shield; shatter cones and shocked quartz confirm the Silurian-Ordovician impact origin.',
+         note:''},
+
+        {cat:'crater', name:'Lac La Moinerie — 8km', lat:57.43, lng:-66.62,
+         desc:'Impact structure ~400 million years old in Quebec, Canada. Circular lake recognized from aerial photography; confirmed impact structure in Devonian-age Precambrian terrain of the Quebec-Labrador border region.',
+         note:''},
+
+        {cat:'crater', name:'Zhamanshin ejecta glass (Irghizite) — 14km', lat:48.4, lng:60.97,
+         desc:'Note: See Zhamanshin crater entry. Impact glasses (irghizites and zhamanshinites) from this crater are distributed across thousands of square kilometers of Kazakhstan steppe — a silent record of a Pleistocene cosmic strike.',
+         note:''},
+
+        {cat:'crater', name:'Söderfjärden — 6.6km', lat:63.02, lng:21.57,
+         desc:'Impact structure ~600 million years old in Ostrobothnia, Finland. Circular bay on the Finnish coast; the impact created a circular depression now partially occupied by a shallow coastal inlet and farmland.',
+         note:''},
+
+        {cat:'crater', name:'Wanapitei — 7.5km', lat:46.75, lng:-80.75,
+         desc:'Impact structure ~37 million years old in Ontario, Canada. Lake Wanapitei, a perfectly circular lake, sits inside the partially preserved crater; located near Sudbury, it was long confused with the larger Sudbury impact structure.',
+         note:''},
+
+        {cat:'crater', name:'Tin Bider — 6km', lat:27.6, lng:5.12,
+         desc:'Impact structure ~70 million years old in the Sahara Desert, Algeria. Circular structure in Cretaceous sedimentary rocks; recognized from aerial photography and confirmed with field geology in a remote desert setting.',
+         note:''},
+
+        {cat:'crater', name:'Kursk — 6km', lat:51.7, lng:36.0,
+         desc:'Buried impact structure ~250 million years old in Kursk Oblast, Russia. Recognized from drilling data in the sedimentary cover over the Voronezh Massif; a Permian-age impact deeply buried under later sediments.',
+         note:''},
+
+        {cat:'crater', name:'Maple Creek — 6km', lat:49.83, lng:-109.08,
+         desc:'Proposed impact structure in southwestern Saskatchewan, Canada. Circular feature recognized from geological mapping; age uncertain. One of numerous circular structures on the Canadian Plains still under investigation.',
+         note:''},
+
+        {cat:'crater', name:'Pilot Lake — 6km', lat:60.17, lng:-111.02,
+         desc:'Impact structure ~445 million years old in the Northwest Territories, Canada. Ordovician-age crater recognized from shatter cones and circular morphology; Pilot Lake fills the depression.',
+         note:''},
+
+        {cat:'crater', name:'Ternovka (Terny) — 11km', lat:48.13, lng:33.52,
+         desc:'Impact structure ~280 million years old in Dnipropetrovsk Oblast, Ukraine. Permian-age crater confirmed from shock metamorphism; one of several impact structures in the Ukrainian crystalline shield.',
+         note:''},
+
+        {cat:'crater', name:'Ramgarh — 5.5km', lat:25.32, lng:76.63,
+         desc:'Circular impact structure in Rajasthan, India, age less than 600 Ma. One of the few confirmed impact structures on the Indian subcontinent; the circular depression with central uplift is clearly visible from aerial surveys.',
+         note:''},
+
+        {cat:'crater', name:'Riachão Ring — 4.5km', lat:-7.72, lng:-46.65,
+         desc:'Impact structure in Maranhão, Brazil, age less than 200 Ma. Circular structure in Paleozoic sandstone; recognized from aerial photography and confirmed with shatter cones and planar deformation features.',
+         note:''},
+
+        {cat:'crater', name:'Dobele — 4.5km', lat:56.58, lng:23.25,
+         desc:'Impact structure ~290 million years old in Latvia. Buried Permian crater recognized from drilling data; one of the few confirmed impact structures in the Baltic states.',
+         note:''},
+
+        {cat:'crater', name:'Dhala — 11km', lat:24.0, lng:78.15,
+         desc:'Well-confirmed impact structure ~1.7 billion years old in Madhya Pradesh, India. Ancient Proterozoic impact crater; one of the largest confirmed craters on the Indian subcontinent, with impact melt rocks and shatter cones exposed at the surface.',
+         note:''},
+
+        {cat:'crater', name:'Lockne — 7.5km', lat:63.0, lng:14.82,
+         desc:'Marine impact crater ~458 million years old in Jämtland, Sweden. Impact occurred in a shallow Ordovician sea; the impactor struck water before hitting the seafloor. The resurge sediments from the returning seawater are exceptionally preserved.',
+         note:'An asteroid that struck a shallow Ordovician sea — wave patterns from the impact resurge are fossilized in the rock.'},
+
+        {cat:'crater', name:'Gardnos — 5km', lat:60.65, lng:9.0,
+         desc:'Impact structure ~500 million years old in Numedal, Norway. Recognized from the distinctive breccia (Gardnos breccia) exposed along the river; one of few confirmed craters in Scandinavia.',
+         note:''},
+
+        {cat:'crater', name:'Kjardla — 4km', lat:59.0, lng:22.77,
+         desc:'Impact structure ~455 million years old on Hiiumaa Island, Estonia. Ordovician-age crater; the island\'s circular topographic feature was recognized as an impact structure after shocked quartz was found in drill cores.',
+         note:''},
+
+        {cat:'crater', name:'Tvären — 2km', lat:58.77, lng:17.42,
+         desc:'Marine impact crater ~455 million years old in Södermanland, Sweden. Like Lockne, this Ordovician impact struck a shallow sea; resurge breccia and marine fossils are preserved in the crater fill.',
+         note:''},
+
+        {cat:'crater', name:'Suvasvesi S — 3.8km', lat:62.65, lng:28.17,
+         desc:'Impact structure ~250 million years old in North Savo, Finland. One of two impact structures (Suvasvesi North and South) in the same region; Permian-age impact confirmed from planar deformation features.',
+         note:''},
+
+        {cat:'crater', name:'Iso-Naakkima — 3km', lat:62.18, lng:27.15,
+         desc:'Impact structure ~900 million years old in South Savo, Finland. Ancient Proterozoic impact; the circular lake fills the structure. Shocked quartz and planar deformation features confirm its impact origin.',
+         note:''},
+
+        {cat:'crater', name:'Saarijärvi — 1.5km', lat:65.28, lng:28.38,
+         desc:'Impact structure ~600 million years old in Oulu, Finland. Small Precambrian impact crater recognized from circular morphology and shocked minerals in Proterozoic bedrock.',
+         note:''},
+
+        {cat:'crater', name:'Summanen — 2.6km', lat:63.0, lng:25.33,
+         desc:'Impact structure greater than 1 billion years old in Central Finland. Ancient Precambrian impact; one of the oldest confirmed craters in Finland. Recognized from impactite rocks and shocked quartz in Archean-Proterozoic terrain.',
+         note:''},
+
+        {cat:'crater', name:'Rotmistrovka — 2.7km', lat:49.0, lng:32.0,
+         desc:'Impact structure ~140 million years old in Cherkasy Oblast, Ukraine. Small Cretaceous impact confirmed from drill core data; one of several buried impact structures in the Ukrainian sedimentary cover.',
+         note:''},
+
+        {cat:'crater', name:'Roter Kamm — 2.5km', lat:-27.77, lng:16.3,
+         desc:'Well-preserved impact crater ~3.7 million years old in the Namib Desert, Namibia. The crater walls and interior are partially filled with sand dunes; its excellent preservation is due to the hyper-arid desert climate.',
+         note:'Preserved by desert silence — the Namib\'s dryness has kept this 3.7-million-year-old crater nearly intact.'},
+
+        {cat:'crater', name:'Tswaing (Pretoria Salt Pan) — 1.13km', lat:-25.4, lng:28.08,
+         desc:'Impact crater ~220,000 years old near Pretoria, South Africa. The saline lake in the crater has been used by humans for salt and water for at least 100,000 years; archaeological evidence of human use surrounds the crater.',
+         note:'Humans harvested salt from this impact crater for 100,000 years — cosmic and human history intertwined.'},
+
+        {cat:'crater', name:'Tenoumer — 1.9km', lat:22.92, lng:-10.4,
+         desc:'Well-preserved impact crater ~21,400 years old in Mauritania, West Africa. Near-perfect circular structure in the Sahara; its young age and arid climate have kept it remarkably pristine with clear rim and interior structure.',
+         note:''},
+
+        {cat:'crater', name:'Aouelloul — 0.39km', lat:20.25, lng:-12.68,
+         desc:'Small impact crater ~3 million years old in Mauritania. Associated with the Aouelloul glass, a silica-rich impact glass found in the surrounding desert. One of the few confirmed craters in West Africa.',
+         note:''},
+
+        {cat:'crater', name:'Amguid — 0.45km', lat:26.05, lng:4.4,
+         desc:'Impact crater of uncertain age (less than 100,000 years) in the Algerian Sahara. Exceptionally well-preserved small crater in a remote desert; nearly perfectly circular with a raised rim and bowl-shaped interior.',
+         note:''},
+
+        {cat:'crater', name:'BP Structure — 2km', lat:25.32, lng:24.32,
+         desc:'Circular impact structure in the Libyan Desert, age less than 120 Ma. The two-ring structure is clearly visible from satellite; exposed in Paleozoic sandstones in a remote corner of the Libyan Desert.',
+         note:''},
+
+        {cat:'crater', name:'Kalkkop — 0.64km', lat:-32.72, lng:24.43,
+         desc:'Young impact crater ~250,000 years old in the Eastern Cape, South Africa. The circular crater is filled with lacustrine sediment; drill cores through this sediment preserve a high-resolution Pleistocene climate record for southern Africa.',
+         note:''},
+
+        {cat:'crater', name:'Lonar — 1.8km', lat:19.97, lng:76.5,
+         desc:'The only confirmed impact crater in basaltic rock in the world, ~52,000 years old in Maharashtra, India. The alkaline/saline lake is an ecological and geological treasure; the surrounding forest and temples make it a site of cultural and scientific significance.',
+         note:'The world\'s only confirmed impact crater in basalt — sacred to locals, studied by scientists, unique on Earth.'},
+
+        {cat:'crater', name:'Xiuyan — 1.8km', lat:40.37, lng:123.45,
+         desc:'Impact crater ~50,000 years old in Liaoning Province, China. One of only a few confirmed impact craters in China; the circular structure in Precambrian granite was confirmed by shatter cones and planar deformation features.',
+         note:''},
+
+        {cat:'crater', name:'Tabun-Khara-Obo — 1.3km', lat:44.12, lng:109.65,
+         desc:'Small impact structure ~150 million years old in Mongolia. One of the few confirmed impact structures in Mongolia; the circular depression in Jurassic sediment is confirmed by planar deformation features in quartz.',
+         note:''},
+
+        {cat:'crater', name:'Kamil — 0.045km', lat:22.02, lng:26.05,
+         desc:'Exceptionally well-preserved iron meteorite impact crater ~5,000 years old in the Eastern Sahara, Egypt. Discovered via Google Earth in 2008 by Italian researchers; the associated iron meteorite fragments (Campo-type) are still abundant around the crater.',
+         note:'Discovered on Google Earth in 2008 — a pristine 5,000-year-old crater hidden in the Egyptian desert.'},
+
+        {cat:'crater', name:'Monturaqui — 0.37km', lat:-23.93, lng:-68.27,
+         desc:'Small impact crater less than 1 million years old in the Atacama Desert, Chile, at 3,500m elevation. The extreme aridity of the Atacama has preserved this crater in excellent condition; iron meteorite fragments are found nearby.',
+         note:'High in the Atacama at 3,500m — aridity preserves this crater\'s sharp rim and scattered meteorite fragments.'},
+
+        {cat:'crater', name:'Meteor Crater (Barringer) — 1.2km', lat:35.03, lng:-111.02,
+         desc:'The best-preserved and most famous impact crater on Earth, ~49,000 years old near Winslow, Arizona. Barringer Crater proved the existence of hypervelocity impacts over volcanic origin. A tourist icon and landmark of planetary science.',
+         note:'The crater that proved impacts are real — Daniel Barringer fought his whole life to prove what is now textbook science.'},
+
+        {cat:'crater', name:'Upheaval Dome — 10km', lat:38.44, lng:-109.93,
+         desc:'Impact structure ~170 million years old in Canyonlands National Park, Utah, USA. Long debated between salt dome or impact origin; shock metamorphism features confirmed the impact. The eroded structure creates a spectacular geological display visible to hikers.',
+         note:'Debated for decades — then shocked quartz settled the argument. A national park built around a cosmic mystery.'},
+
+        {cat:'crater', name:'Middlesboro — 6km', lat:36.62, lng:-83.73,
+         desc:'Impact structure ~300 million years old in Bell County, Kentucky, USA. The town of Middlesboro was built inside the impact crater; the circular valley surrounded by hills puzzled early settlers. Shatter cones were eventually found in local rock.',
+         note:'An entire town built inside an impact crater — Middlesboro, Kentucky sits in a cosmic bowl.'},
+
+        {cat:'crater', name:'Sierra Madera — 13km', lat:30.6, lng:-102.92,
+         desc:'Impact structure ~100 million years old in Pecos County, Texas, USA. The disturbed dome of uplifted Permian and Triassic sediments was long attributed to salt tectonics; shatter cones confirmed the impact origin.',
+         note:''},
+
+        {cat:'crater', name:'Flynn Creek — 3.8km', lat:36.27, lng:-85.67,
+         desc:'Impact structure ~360 million years old in Jackson County, Tennessee, USA. Devonian-age impact crater recognized from disturbed limestone; the circular structure with central uplift is exposed along creek drainages.',
+         note:''},
+
+        {cat:'crater', name:'Crooked Creek — 7km', lat:37.83, lng:-91.38,
+         desc:'Impact structure ~320 million years old in Gasconade County, Missouri, USA. Mississippian-age crater; the circular zone of disturbed carbonate rock was long classified as a cryptoexplosion structure before impact was confirmed.',
+         note:''},
+
+        {cat:'crater', name:'Decaturville — 6km', lat:37.9, lng:-92.72,
+         desc:'Impact structure ~300 million years old in Camden County, Missouri, USA. Circular zone of brecciated and uplifted Ordovician to Pennsylvanian carbonate rocks; shatter cones confirm the impact origin.',
+         note:''},
+
+        {cat:'crater', name:'Glasford — 4km', lat:40.6, lng:-89.78,
+         desc:'Buried impact structure ~430 million years old beneath the Illinois plains. Recognized from drilling data; the circular anomaly in Ordovician rocks is deeply buried under Quaternary glacial sediment.',
+         note:''},
+
+        {cat:'crater', name:'Brent — 3.8km', lat:46.08, lng:-78.48,
+         desc:'Impact structure ~396 million years old in Ontario, Canada. The crater is partially filled by Brent Lake; drill cores through the lake sediment recovered suevite and impact melt, confirming the Devonian impact.',
+         note:''},
+
+        {cat:'crater', name:'West Hawk Lake — 2.4km', lat:49.77, lng:-95.18,
+         desc:'Impact crater ~351 million years old in Manitoba, Canada. West Hawk Lake is the deepest lake in Manitoba (111m), far deeper than its size would suggest — the depth is a product of the crater morphology.',
+         note:'The deepest lake in Manitoba is an impact crater — its unusual depth puzzled settlers for generations.'},
+
+        {cat:'crater', name:'Pingualuit (New Quebec) — 3.4km', lat:61.28, lng:-73.67,
+         desc:'Exceptionally pure impact crater lake ~1.4 million years old in Nunavik, Quebec, Canada. The lake water is among the purest on Earth — no river inflows, fed only by rain and snow. The crystal-clear lake sits in a perfectly circular bowl on the tundra.',
+         note:'The purest lake water on Earth — no rivers flow in or out. The Inuit call it "the crystal eye of Nunavik."'},
+
+        {cat:'crater', name:'Lac Couture — 8km', lat:60.13, lng:-75.3,
+         desc:'Impact structure ~430 million years old in Quebec, Canada. Circular lake on the Canadian Shield; shatter cones and shocked quartz confirm the Ordovician impact origin.',
+         note:''},
+
+        {cat:'crater', name:'Ilumetsa — 0.08km', lat:57.95, lng:27.4,
+         desc:'Small impact crater cluster ~7,500 years old in Põlva County, Estonia. Group of three small craters formed by the fragmentation of a meteorite before impact; the largest is 80m diameter.',
+         note:''},
+
+        {cat:'crater', name:'Kaali — 0.11km', lat:58.37, lng:22.67,
+         desc:'Iron meteorite impact crater ~7,600 years old on Saaremaa Island, Estonia. The main crater (110m wide) is surrounded by 8 smaller craters; the impact occurred during the Bronze Age and may have been witnessed by humans. Featured in Finnish-Estonian mythology.',
+         note:'This Bronze Age impact may have been witnessed by humans — possibly the origin of a fireball myth in Baltic-Finnish tradition.'},
+
+        {cat:'crater', name:'Wolfe Creek — 0.87km', lat:-19.17, lng:127.8,
+         desc:'Spectacular impact crater ~120,000 years old in the Kimberley region of Western Australia. The second-largest crater in Australia visible at the surface; well-preserved with a raised rim. Known to Aboriginal Australians as Kandimalal — the trail of a rainbow serpent.',
+         note:'Aboriginal Australians know this crater as Kandimalal — where the rainbow serpent emerged from the earth.'},
+
+        {cat:'crater', name:'Henbury Craters — cluster', lat:-24.57, lng:133.13,
+         desc:'Cluster of 12 craters ~4,200 years old in the Northern Territory, Australia. Formed by the breakup of a large iron meteorite; the largest crater is 180m across. Aboriginal legend warns against the site, calling it "chin-durunmara" (sun walk fire devil).',
+         note:'Aboriginal oral tradition preserves the memory of this 4,200-year-old impact — "fire devil from the sun."'},
+
+        {cat:'crater', name:'Wabar — 0.12km', lat:21.5, lng:50.47,
+         desc:'Iron meteorite impact crater less than 300 years old in the Rub\' al Khali desert, Saudi Arabia. The most recent confirmed crater on Earth from a witnessed/documented event. The impactor created distinctive black glass (Wabar glass) and white sandstone bombs.',
+         note:'The most recently formed confirmed impact crater on Earth — less than 300 years old in the heart of the Empty Quarter.'},
+
+        {cat:'crater', name:'Campo del Cielo — cluster', lat:-27.63, lng:-61.7,
+         desc:'Cluster of approximately 26 craters ~4,000 years old in the Gran Chaco, Argentina. One of the largest iron meteorite strewn fields on Earth; individual meteorites weigh up to 37 tonnes. Pre-Columbian indigenous peoples collected the iron for tools.',
+         note:'Pre-Columbian people harvested iron from this meteorite cluster for tools and weapons — sky-iron technology.'},
+
+        {cat:'crater', name:'Sikhote-Alin — cluster', lat:46.12, lng:134.65,
+         desc:'Iron meteorite crater cluster from the historic February 12, 1947 fall in Primorsky Krai, Russia. Witnessed by thousands; the bolide broke apart producing a shower of craters, the largest 26m wide. The most significant witnessed impact event of the 20th century.',
+         note:'Thousands of witnesses watched this 1947 iron meteor shower — the largest witnessed meteorite fall in recorded history.'},
+
+        {cat:'crater', name:'Whitecourt — 0.036km', lat:54.0, lng:-115.6,
+         desc:'Small iron meteorite impact crater ~1,100 years old in Alberta, Canada. Discovered in 2007; iron meteorite fragments are still being recovered from the impact site. One of the youngest confirmed craters in Canada.',
+         note:''},
+
+        {cat:'crater', name:'Veevers — 0.07km', lat:-22.97, lng:125.37,
+         desc:'Small impact crater less than 1 million years old in Western Australia. The circular iron meteorite crater is recognized from its raised rim and associated iron meteorite fragments in the sandy desert terrain.',
+         note:''},
+
+        {cat:'crater', name:'Boxhole — 0.17km', lat:-22.62, lng:135.2,
+         desc:'Iron meteorite impact crater ~54,000 years old in the Northern Territory, Australia. Well-preserved circular structure with raised rim; iron meteorite fragments are distributed within and around the crater.',
+         note:''},
+
+        {cat:'crater', name:'Dalgaranga — 0.02km', lat:-27.63, lng:117.28,
+         desc:'Tiny iron meteorite impact crater ~3,000 years old in Western Australia. At 21m diameter it is one of the smallest confirmed impact craters on Earth; mesosiderite meteorite fragments confirm the cosmic origin.',
+         note:''},
+
+        {cat:'crater', name:'Liverpool — 1.6km', lat:-12.4, lng:134.05,
+         desc:'Impact structure ~150 million years old in the Northern Territory, Australia. Jurassic-age impact confirmed from shocked minerals; one of several craters in the Northern Territory clustered in ancient Precambrian and Mesozoic terrain.',
+         note:''},
+
+        {cat:'crater', name:'Suavjärvi — 16km', lat:63.12, lng:33.38,
+         desc:'Ancient impact structure ~2.4 billion years old in Karelia, Russia. One of the oldest impact structures in the Fennoscandian Shield; recognized from shocked minerals and pseudotachylite in deeply eroded Archean terrain.',
+         note:''},
+
+        {cat:'crater', name:'Obolon — 20km', lat:49.35, lng:32.92,
+         desc:'Buried impact structure ~169 million years old in Ukraine. Discovered through petroleum drilling; filled with Jurassic sediment. One of several Ukrainian impact structures recognized in the stable Precambrian basement.',
+         note:''},
+
+        {cat:'crater', name:'Ilyinets — 8.5km', lat:49.12, lng:29.1,
+         desc:'Impact structure ~378 million years old in Vinnytsia Oblast, Ukraine. Devonian impact recognized from shock metamorphism features in the Ukrainian shield.',
+         note:''},
+
+        {cat:'crater', name:'Ust-Kara — 25km', lat:69.25, lng:65.17,
+         desc:'Impact structure ~70 million years old on the Yugorsky Peninsula, Russia. Paired with the Kara crater; a doublet impact from a binary or fragmented asteroid that struck simultaneously at the end of the Cretaceous period.',
+         note:'Twin to the Kara crater — binary impactor, simultaneous strike, end of the Cretaceous.'},
+
+        {cat:'crater', name:'Ragozinka — 9km', lat:58.43, lng:62.0,
+         desc:'Impact structure ~46 million years old in Sverdlovsk Oblast, Russia. Eocene-age impact in the Ural foreland basin.',
+         note:''},
+
+        {cat:'crater', name:'Logoisk — 17km', lat:54.2, lng:27.8,
+         desc:'Buried impact structure ~42 million years old in Belarus. Eocene impact buried under sedimentary cover; recognized from drilling and geophysical surveys in the East European Platform.',
+         note:''},
+
+        {cat:'crater', name:'Mishina Gora — 4km', lat:58.72, lng:28.0,
+         desc:'Small impact structure ~300 million years old in Pskov Oblast, Russia. Pennsylvanian-age crater recognized from drilling and geophysical surveys in northwestern Russia.',
+         note:''},
+
+        {cat:'crater', name:'Vepriai — 8km', lat:55.1, lng:24.6,
+         desc:'Buried impact structure ~160 million years old in Lithuania. Jurassic impact crater buried under sedimentary cover; one of only a few confirmed impact structures in the Baltic countries.',
+         note:''},
+
+        {cat:'crater', name:'Saarijärvi — 1.5km', lat:65.28, lng:28.38,
+         desc:'Small impact structure ~600 million years old in Oulu, Finland. Precambrian impact recognized from shocked quartz and circular morphology in Finnish bedrock.',
+         note:''},
+
+        {cat:'crater', name:'Karikkoselkä — 1.5km', lat:62.13, lng:25.22,
+         desc:'Impact structure ~230 million years old in Central Finland. Triassic-age impact confirmed from planar deformation features in quartz in the Finnish crystalline shield.',
+         note:''},
+
+        {cat:'crater', name:'Soderfjardan — 6.6km', lat:63.02, lng:21.57,
+         desc:'Impact structure ~600 million years old in Ostrobothnia, Finland. Precambrian crater now partially filled by a shallow coastal bay on the Finnish west coast.',
+         note:''},
+
+        {cat:'crater', name:'Santa Fe — 6km', lat:35.73, lng:-105.97,
+         desc:'Deeply eroded ancient impact structure ~1.2 billion years old in New Mexico, USA. One of the oldest confirmed craters in North America; identified from shocked quartz and shatter cones in Proterozoic metamorphic rock near Santa Fe.',
+         note:''},
+
+        {cat:'crater', name:'Chubb (Pingualuit — listed separately)', lat:61.28, lng:-73.67,
+         desc:'See Pingualuit entry. Originally called Chubb Crater when first reported to science in 1943; renamed Pingualuit (meaning "where the land rises" in Inuktitut) in recognition of Indigenous naming.',
+         note:''},
+
+        {cat:'crater', name:'Cloud Creek — 7km', lat:43.12, lng:-106.73,
+         desc:'Buried impact structure ~190 million years old in Wyoming, USA. Jurassic-age impact hidden beneath the Wyoming plains; discovered from petroleum exploration drilling data.',
+         note:''},
+
+        {cat:'crater', name:'Cote Blanche — 4km', lat:29.7, lng:-91.5,
+         desc:'Proposed impact structure in Louisiana, USA. Circular structure associated with a salt dome anomaly; status as confirmed impact structure remains under investigation.',
+         note:''},
+
+        {cat:'crater', name:'Ames — 16km', lat:36.25, lng:-98.18,
+         desc:'Buried impact structure ~470 million years old in Oklahoma, USA. The Ames impact structure is the most economically significant impact crater in the United States — it hosts a major oil field, as hydrocarbons accumulated in the fractured impact rocks.',
+         note:'The most economically important impact crater in the US — oil accumulated in the shattered rock of an ancient cosmic strike.'},
+
+        {cat:'crater', name:'Avak — 12km', lat:71.25, lng:-156.45,
+         desc:'Buried impact structure ~95 million years old in the Barrow area of Alaska, USA. Cretaceous impact buried under the North Slope; detected through petroleum exploration drilling.',
+         note:''},
+
+        {cat:'crater', name:'Charity Shoal — 1.3km', lat:43.97, lng:-76.97,
+         desc:'Small impact structure ~450 million years old beneath Lake Ontario, Canada. Ordovician submarine crater recognized from side-scan sonar surveys of the lake bottom.',
+         note:'Hidden beneath the waters of Lake Ontario — a cosmic strike submerged by glacial flooding.'},
+
+        {cat:'crater', name:'Eagle Butte — 10km', lat:49.72, lng:-110.53,
+         desc:'Buried impact structure ~65 Ma old in Alberta, Canada. Cretaceous-age impact crater buried under the Alberta plains; detected from geophysical surveys and well data.',
+         note:''},
+
+        {cat:'crater', name:'Mizarai — 5km', lat:54.02, lng:23.9,
+         desc:'Buried impact structure ~500 million years old in Lithuania. Cambrian-age crater buried under sedimentary cover; one of a growing number of confirmed Baltic region impact structures.',
+         note:''},
+
+        {cat:'crater', name:'Newporte — 3.2km', lat:48.97, lng:-101.37,
+         desc:'Buried impact structure ~500 million years old in North Dakota, USA. Cambrian-age impact recognized from drilling data; the circular breccia zone is buried hundreds of meters beneath the plains.',
+         note:''},
+
+        {cat:'crater', name:'Viewfield — 2.5km', lat:49.67, lng:-103.07,
+         desc:'Buried impact structure ~190 million years old in Saskatchewan, Canada. Jurassic-age impact associated with oil production; hydrocarbons accumulate in the fractured impact breccia.',
+         note:''},
+
+        {cat:'crater', name:'Hotpoint — 10km (proposed)', lat:53.42, lng:-118.12,
+         desc:'Proposed impact structure in Alberta, Canada. Circular structure under investigation; field work ongoing to confirm impact indicators.',
+         note:''},
+
+        {cat:'crater', name:'Calvin — 8.5km', lat:41.83, lng:-85.95,
+         desc:'Buried impact structure ~450 million years old beneath southwestern Michigan, USA. Ordovician impact detected through petroleum well data; the fractured limestone hosts minor hydrocarbon accumulations.',
+         note:''},
+
+        {cat:'crater', name:'Crocodile Creek (Shoemaker) — listed above', lat:-25.87, lng:120.88,
+         desc:'See Shoemaker (Teague Ring) entry. Eugene Shoemaker\'s connection to Australian crater research is commemorated in the renaming of this structure.',
+         note:''},
+
+        {cat:'crater', name:'Rouchechouart (Rochechouart) — 23km', lat:45.82, lng:0.78,
+         desc:'See Rochechouart entry. French impact structure whose impactite was used in medieval construction throughout the Limousin region.',
+         note:''},
+
+        {cat:'crater', name:'Hiawatha — 31km', lat:78.7, lng:-66.5,
+         desc:'Impact crater discovered in 2018 beneath the Greenland ice sheet, roughly 800,000 years old or possibly much younger (~13,000 years). The 31km crater was hidden under 1km of ice; if young, it may correlate with the Younger Dryas cooling event and oral traditions of catastrophe.',
+         note:'A 31km crater hidden under the Greenland ice sheet — possibly connected to the Younger Dryas cosmic impact hypothesis and ancient catastrophe traditions.'},
+
+        {cat:'crater', name:'Tunnunik — 7.5km', lat:72.47, lng:-113.94,
+         desc:'Impact structure ~130 million years old on Victoria Island, Nunavut, Canada. Remote Arctic impact confirmed in 2014; the eroded structure is one of many Canadian Shield craters in the high Arctic.',
+         note:''},
+
+        {cat:'crater', name:'Ile Rouleau — 4km', lat:50.67, lng:-73.88,
+         desc:'Impact structure ~300 million years old in Quebec, Canada. The circular island in the Caniapiscau Reservoir is the eroded remnant of a Carboniferous impact; one of many ring-shaped features on the Quebec-Labrador Shield.',
+         note:''},
+
+        {cat:'crater', name:'Marquez Dome — 1.8km', lat:31.28, lng:-96.3,
+         desc:'Buried impact structure ~58 million years old in Leon County, Texas, USA. Paleocene impact associated with an oil-producing dome; one of the deeper buried Texas impact structures.',
+         note:''},
+
+        {cat:'crater', name:'Odessa — 0.17km', lat:31.75, lng:-102.47,
+         desc:'Small iron meteorite crater ~63,000 years old in Ector County, Texas, USA. A cluster of small craters formed by an iron meteorite shower; the largest is 170m in diameter. Well-preserved in the dry Texas climate.',
+         note:''},
+
+        {cat:'crater', name:'Haviland — 0.015km', lat:37.58, lng:-99.1,
+         desc:'Tiny iron meteorite crater in Kiowa County, Kansas, USA. At 15m diameter, one of the smallest confirmed craters in North America; associated with Brenham pallasite meteorite fragments still being recovered by farmers today.',
+         note:'Farmers in Kansas still find pallasite meteorite fragments from this ancient iron shower — cosmic treasure in wheat country.'},
+
+        {cat:'crater', name:'Wetumpka — 6.5km', lat:32.52, lng:-86.17,
+         desc:'Impact structure ~83 million years old near Wetumpka, Alabama, USA. The City of Wetumpka (population ~7,000) is built inside the impact crater; the disturbed rim rocks form a curved ridge visible in the local topography.',
+         note:'A city of 7,000 people built inside an impact crater — Wetumpka, Alabama sits in an 83-million-year-old cosmic bowl.'},
+
+        {cat:'crater', name:'Glover Bluff — 3km', lat:43.97, lng:-89.52,
+         desc:'Small impact structure ~500 million years old in Marquette County, Wisconsin, USA. Ordovician-age impact confirmed from shatter cones in dolomite; a quarry exposes the brecciated rocks.',
+         note:''},
+
+        {cat:'crater', name:'Rock Elm — 6km', lat:44.72, lng:-92.23,
+         desc:'Buried impact structure ~450 million years old in Pierce County, Wisconsin, USA. Ordovician crater confirmed from shatter cones; the disturbed limestone is quarried locally.',
+         note:''},
+
+        {cat:'crater', name:'Des Plaines — 8km', lat:42.07, lng:-87.88,
+         desc:'Buried impact structure ~280 million years old beneath Des Plaines, Illinois, USA. Deeply buried Pennsylvanian impact; the structure is entirely concealed under glacial sediment and urban development.',
+         note:'A city of 60,000 sits unknowingly above an ancient impact crater — Des Plaines, Illinois.'},
+
+        {cat:'crater', name:'Versailles — 0.1km', lat:38.68, lng:-84.67,
+         desc:'Small impact structure in Woodford County, Kentucky, USA. One of several small suspected craters in the Kentucky-Ohio-Indiana karst region; confirmation details are limited.',
+         note:''},
+
+
+// ══════════════════════════════════════════════════════════════
+// ── EXPANDED MEGALITHIC SITES ──
+// Global megalithic distribution — evidence of worldwide pre-Flood/post-Babel
+// building knowledge (Gen 4:20-22, Gen 11:8-9)
+// ══════════════════════════════════════════════════════════════
+
+        // ── ASIA ──
+        {cat:'megalith', name:'Mohenjo-daro', lat:27.3244, lng:68.1357,
+         desc:'Ancient Indus Valley city with advanced urban planning, grid streets, and a sewage system rivaling Rome — built around 2600 BC. Strikingly, no weapons of war have ever been found. Population estimated 40,000+.',
+         refs:'Possible descendants of Arphaxad (Gen 10:22); pre-Babel urban tradition',
+         note:'Rediscovered 1922; UNESCO World Heritage Site'},
+
+        {cat:'megalith', name:'Dholavira', lat:23.887, lng:70.208,
+         desc:'Indus Valley city on an island in the Rann of Kutch, India. Famous for its sophisticated water harvesting reservoirs and a large inscribed signboard — the only such inscription in the ancient world — written in undeciphered Indus script.',
+         refs:'Indus civilization; contemporary with Abraham\'s era',
+         note:'UNESCO World Heritage 2021; script still undeciphered'},
+
+        {cat:'megalith', name:'Angkor Wat', lat:13.4125, lng:103.8670,
+         desc:'Largest religious monument on earth, built in the 12th century AD by the Khmer Empire. The temple complex is astronomically aligned to the spring equinox and encodes the Hindu cosmological timeline in its architecture.',
+         refs:'Tower of Babel echoes — monumental temple-mountain cosmology (Gen 11:4)',
+         note:'Originally Hindu, converted to Buddhist; covers 401 acres'},
+
+        {cat:'megalith', name:'Angkor Thom', lat:13.4412, lng:103.8575,
+         desc:'Royal city of the Khmer Empire, featuring the Bayon temple with 54 towers each carved with four giant serene faces. Covers 9 square kilometers and once housed a million people — making it the world\'s largest pre-industrial city.',
+         refs:'Face-tower cosmology parallels divine-king theology; Babel parallels (Gen 11)',
+         note:'Built by Jayavarman VII, ~1190 AD'},
+
+        {cat:'megalith', name:'Sigiriya', lat:7.957, lng:80.76,
+         desc:'A 200-meter-high rock fortress in Sri Lanka built by King Kashyapa around 477 AD. Features advanced water gardens, frescoed galleries, and a lion-paw gateway at the summit. Still considered an engineering marvel.',
+         refs:'Mountain-top strongholds as defensive and symbolic (Ps 18:2; Obad 1:3)',
+         note:'One of best-preserved examples of ancient urban planning in Asia'},
+
+        {cat:'megalith', name:'Plain of Jars', lat:19.4597, lng:103.1572,
+         desc:'Thousands of massive stone and sandstone jars — up to 3 meters tall and 1 ton each — scattered across the Laos plateau. Purpose is unknown. Local legend says they were made by giants to brew rice wine for an ancient king.',
+         refs:'Giant vessels; local giant traditions echo Nephilim lore (Num 13:33)',
+         note:'Dating uncertain; some as old as 500 BC'},
+
+        {cat:'megalith', name:'Bada Valley Megaliths', lat:-1.9375, lng:120.1856,
+         desc:'Sulawesi, Indonesia. Large stone anthropomorphic statues (up to 4.5m tall) and cylindrical stone cisterns called kalamba scatter the remote Bada Valley. Builders and purpose are completely unknown.',
+         refs:'Isolated megalith builders worldwide — post-Babel dispersal (Gen 11:8-9)',
+         note:'Some statues resemble South American style, prompting diffusion theories'},
+
+        {cat:'megalith', name:'Korean Dolmens — Gochang', lat:35.43, lng:126.92,
+         desc:'South Korea contains over 30,000 dolmens — approximately 40% of all dolmens on Earth. The Gochang cluster is UNESCO-listed and features massive table-top capstones weighing up to 300 tons placed on support stones.',
+         refs:'Megalithic burial culture; worldwide dolmen tradition from unknown common origin',
+         note:'UNESCO World Heritage 2000'},
+
+        {cat:'megalith', name:'Korean Dolmens — Hwasun', lat:34.98, lng:127.0,
+         desc:'A dense UNESCO-listed cluster of dolmens in South Korea showing the full sequence from quarry to finished monument. Capstones up to 280 tons. The sheer density suggests a highly organized dolmen-building culture.',
+         refs:'Post-Babel building traditions spreading east (Gen 11:8)',
+         note:'UNESCO World Heritage 2000 alongside Gochang and Ganghwa'},
+
+        {cat:'megalith', name:'Korean Dolmens — Ganghwa', lat:37.75, lng:126.43,
+         desc:'Northern-style dolmens on Ganghwa Island, South Korea, featuring enormous capstones resting directly on the ground without support stones. One capstone weighs an estimated 53 tons. The largest of Korea\'s UNESCO dolmen sites.',
+         refs:'Megalithic tradition; builders unknown, ~1000 BC',
+         note:'UNESCO World Heritage 2000'},
+
+        {cat:'megalith', name:'Oyu Stone Circles (Jomon)', lat:40.27, lng:140.80,
+         desc:'Two concentric stone circles at Oyu, Japan, dating to ~2000 BC. The Jomon period site includes a "sundial stone" and is one of the oldest known astronomical monuments in East Asia. Predates any Chinese written records.',
+         refs:'Jomon culture; astronomical knowledge in the east (Isa 41:25)',
+         note:'National Historic Site of Japan; Jomon culture lasted 14,000 years'},
+
+        {cat:'megalith', name:'Asuka Masuda-no-Iwafune', lat:34.47, lng:135.80,
+         desc:'A massive granite boulder in Asuka, Japan, carved with geometric precision into a grid of rectangular hollows. Purpose is entirely unknown — theories range from astronomical instrument to ritual bathing vessel to royal tomb.',
+         refs:'Mysterious carved stones of unknown purpose; Asuka era Japan, ~600 AD',
+         note:'Several enigmatic carved stones cluster in the Asuka region of Nara Prefecture'},
+
+        {cat:'megalith', name:'Sanchi Stupa', lat:23.4793, lng:77.7397,
+         desc:'India\'s oldest stone structure, commissioned by Emperor Ashoka in the 3rd century BC. The Great Stupa\'s elaborately carved gateways (toranas) record Buddhist teachings in stone with extraordinary artistry.',
+         refs:'Buddhist monument; Ashoka\'s conversion and empire parallel Cyrus-type figures (Isa 45:1)',
+         note:'UNESCO World Heritage; inspired by earlier mud-brick stupa tradition'},
+
+        {cat:'megalith', name:'Hampi', lat:15.335, lng:76.46,
+         desc:'Ruins of Vijayanagara, the last great Hindu empire\'s capital in Karnataka, India. The site is famous for massive naturally balanced granite boulders integrated into temple architecture, and for the Vittala Temple\'s musical stone pillars.',
+         refs:'Royal city ruins; Vijayanagara fell 1565 AD (Lam 1:1)',
+         note:'UNESCO World Heritage; granite boulders some of the largest natural formations in the world'},
+
+        {cat:'megalith', name:'Mahabalipuram Shore Temple', lat:12.6169, lng:80.1993,
+         desc:'Tamil Nadu, India. Shore Temple carved from solid granite, rathas (chariots) hewn from single outcroppings of rock, and Krishna\'s Butter Ball — a 250-ton boulder balanced on a small surface area defying physics. Local tradition says the gods placed it.',
+         refs:'Rock-cut architecture; divine-giant stones (compare Goliath\'s armor weight — 1 Sam 17)',
+         note:'UNESCO World Heritage; partially submerged structures suggest ancient higher occupation'},
+
+        {cat:'megalith', name:'Khajuraho Temples', lat:24.8318, lng:79.9199,
+         desc:'A cluster of 85 medieval Hindu and Jain temples in Madhya Pradesh, India, built between 950-1050 AD. Famous for their extraordinary sculptural program and interlocking stone precision — no mortar was used in construction.',
+         refs:'Temple architecture traditions; stone-carving mastery (1 Chr 22:15)',
+         note:'UNESCO World Heritage; originally 85 temples, 22 survive'},
+
+        {cat:'megalith', name:'Kailasa Temple, Ellora', lat:20.0258, lng:75.1780,
+         desc:'The largest monolithic rock excavation in the world — carved TOP-DOWN from a single cliff face in Maharashtra, India. Over 200,000 tons of rock were removed to create this multi-story temple dedicated to Shiva. How 8th-century workers achieved this remains astonishing.',
+         refs:'Compare: God\'s command to Moses for the Tabernacle (Exod 25:9); divine instruction in impossible construction',
+         note:'Ellora Cave 16; the entire temple is one solid rock'},
+
+        {cat:'megalith', name:'Ajanta Caves', lat:20.5519, lng:75.7033,
+         desc:'Thirty Buddhist rock-cut cave temples in Maharashtra, India, dating from the 2nd century BC to 480 AD. The caves preserve some of the world\'s most sophisticated ancient paintings and sculpture, abandoned and lost to the jungle for over 1,400 years.',
+         refs:'Rock sanctuaries; Elijah\'s cave retreat (1 Kgs 19:9); hiding in dens (Heb 11:38)',
+         note:'UNESCO World Heritage; rediscovered by British officer in 1819'},
+
+        {cat:'megalith', name:'Arkaim', lat:52.65, lng:59.57,
+         desc:'A 4,000-year-old circular Bronze Age settlement in the Russian steppe near the Ural Mountains. The concentric rings of buildings align astronomically and the city was deliberately burned and abandoned. Called the "Russian Stonehenge."',
+         refs:'Nomadic/settled interface; post-Babel dispersal into the north (Gen 10:2-3)',
+         note:'Sintashta culture; contemporary with Abraham; discovered 1987, nearly flooded by reservoir'},
+
+        {cat:'megalith', name:'Caucasus Dolmens', lat:44.0, lng:40.2,
+         desc:'Thousands of precisely built stone box structures (dolmens) in the Caucasus Mountains of Russia, dating to ~3500–1400 BC. Some have perfectly round port-holes drilled through the front slab. Local legend calls them "houses of dwarfs" built by giants.',
+         refs:'Giant builders in the region between the Black and Caspian Seas; Gomer/Magog territory (Gen 10:2)',
+         note:'Over 3,000 known; largely unstudied by Western archaeologists'},
+
+        {cat:'megalith', name:'Externsteine', lat:51.8686, lng:8.9164,
+         desc:'A dramatic formation of sandstone pillars in the Teutoburg Forest of Germany, used as a sacred site from prehistoric times through the medieval period. Rock-cut chambers, a relief of the Descent from the Cross, and possible solar alignments suggest layered use over millennia.',
+         refs:'Sacred high places; Elijah\'s confrontation at Carmel (1 Kgs 18:19); groves and standing stones (Deut 12:3)',
+         note:'Possible pre-Christian Germanic sacred site; carvings added ~1115 AD'},
+
+        {cat:'megalith', name:'Goseck Circle', lat:51.1983, lng:11.8622,
+         desc:'A circular enclosure near Goseck, Germany, dating to ~4900 BC — possibly the oldest known solar observatory in Europe. Two gate openings align precisely with the winter solstice sunrise and sunset. Predates Stonehenge by 2,000 years.',
+         refs:'Prehistoric solar tracking; Gen 1:14 — lights for signs and seasons',
+         note:'Reconstructed 2005; part of a widespread Central European "circular enclosure" culture'},
+
+        {cat:'megalith', name:'Drombeg Stone Circle', lat:51.5644, lng:-9.0867,
+         desc:'A recumbent stone circle on the Cork coast of Ireland, ~150 BC. The recumbent stone and its two flankers frame the setting sun precisely on the winter solstice. A nearby fulacht fiadh (cooking pit) dates to the same period.',
+         refs:'Seasonal markers; appointed times (Lev 23:2)',
+         note:'One of the best-preserved stone circles in Ireland'},
+
+        {cat:'megalith', name:'Brú na Bóinne — Knowth', lat:53.7017, lng:-6.4922,
+         desc:'A massive Neolithic passage tomb near Newgrange in Ireland, built ~3200 BC, containing the largest collection of megalithic art in all of Europe — over a third of all known Western European megalithic art on a single mound. Two passages align to the equinoxes.',
+         refs:'Passage tombs; resurrection hope; "sleeping in the earth" (Dan 12:2)',
+         note:'UNESCO World Heritage with Newgrange and Dowth'},
+
+        {cat:'megalith', name:'Skara Brae', lat:59.0487, lng:-3.3418,
+         desc:'A remarkably preserved Neolithic stone village on Orkney, Scotland, occupied from 3180–2500 BC. Stone furniture, beds, shelves, and a drainage system survive intact. Abandoned suddenly — some speculate a catastrophe. Older than Stonehenge and the Egyptian pyramids.',
+         refs:'Pre-Flood sophistication; God\'s provision of building knowledge (Gen 4:17)',
+         note:'UNESCO World Heritage; preserved under sand dunes for millennia'},
+
+        {cat:'megalith', name:'Ales Stenar', lat:55.3833, lng:14.0533,
+         desc:'A ship-shaped setting of 59 stones stretching 67 meters on a clifftop in Scania, Sweden, dating to ~600 AD. The bow and stern stones align to the summer and winter solstice sunrises. The largest stone ship in Scandinavia.',
+         refs:'Viking/Germanic cosmology; ship burial tradition; Ezek 27 — Tyre\'s ship imagery',
+         note:'Sometimes called the "Swedish Stonehenge"; built by Norse-era peoples'},
+
+        {cat:'megalith', name:'Hunebedden', lat:52.9, lng:6.87,
+         desc:'Fifty-four dolmen burial chambers in the northeastern Netherlands, built ~5000 years ago — the only megaliths in the country. Constructed from boulders deposited by glaciers from Scandinavia. Local legend calls them houses of the Hunnen (giants).',
+         refs:'Dolmen tradition; giant lore applied to megalithic builders (Num 13:33)',
+         note:'The name Hunebedden means "giant\'s beds" in Dutch'},
+
+        {cat:'megalith', name:'Antequera Dolmens', lat:37.0239, lng:-4.5475,
+         desc:'Three megalithic tombs near Antequera, Spain — Menga, Viera, and El Romeral — dating to 3750 BC. Menga\'s capstones reach 180 tons and its central pillar is one of the largest stones in any European megalith. The chamber aligns to a distant mountain peak at sunrise.',
+         refs:'Monumental tombs; stone sepulchres (Matt 27:60)',
+         note:'UNESCO World Heritage 2016'},
+
+        // ── EUROPE / MIDDLE EAST ──
+        {cat:'megalith', name:'Tiryns', lat:37.5989, lng:22.7989,
+         desc:'Mycenaean citadel in the Greek Peloponnese with walls built from massive limestone blocks up to 8 tons each. Ancient Greeks called it "Cyclopean" masonry — believing only the one-eyed giants called Cyclopes could have moved such stones. Homer called Tiryns "well-walled."',
+         refs:'Rephaim and Anakim as mighty builders; Og of Bashan\'s iron bed (Deut 3:11)',
+         note:'Walls survive up to 7m thick; contemporary with the Judges period'},
+
+        {cat:'megalith', name:'Mycenae', lat:37.7306, lng:22.7561,
+         desc:'Bronze Age citadel of the Mycenaean civilization, featuring the famous Lion Gate — the only large-scale relief sculpture to survive from prehistoric Greece — and the Treasury of Atreus, a corbelled beehive tomb of extraordinary precision. Cyclopean masonry throughout.',
+         refs:'Contemporaneous with the period of the Judges; Philistine-Aegean connections (Amos 9:7)',
+         note:'UNESCO World Heritage; destroyed ~1200 BC in the Bronze Age Collapse'},
+
+        {cat:'pyramid', name:'Pyramids of Güímar', lat:28.3258, lng:-16.3836,
+         desc:'Six step pyramids on Tenerife in the Canary Islands, aligned to the summer solstice sunrise and sunset. Thor Heyerdahl argued they were pre-Columbian stepping stones between Egypt and the Americas. Local builders unknown.',
+         refs:'Atlantic stepping-stone civilizations; Table of Nations dispersal (Gen 10)',
+         note:'Heyerdahl established a research center here; similar structures in Lanzarote and Madeira'},
+
+        {cat:'megalith', name:'Menhir de Champ-Dolent', lat:48.4417, lng:-1.7519,
+         desc:'One of the tallest surviving menhirs in France at 9.5 meters, standing alone in a field near Dol-de-Bretagne, Brittany. Breton legend says it was hurled from the sky to stop a battle between two brothers, and that it sinks a centimeter each century.',
+         refs:'Standing stones as memorials (Gen 28:18; 1 Sam 7:12); legendary origins of megaliths',
+         note:'Granite; estimated weight 150 tons'},
+
+        {cat:'megalith', name:'Grand Menhir Brisé, Locmariaquer', lat:47.5714, lng:-2.9461,
+         desc:'The heaviest prehistoric standing stone ever erected in Europe — 20.6 meters tall and ~330 tons when intact. It now lies broken in four pieces. Originally part of a Neolithic alignment at Locmariaquer, Brittany, ~4700 BC.',
+         refs:'Monumental standing stones; the LORD who alone stretches out the heavens can topple the proudest works (Job 9:5)',
+         note:'How Neolithic people moved this stone 10+ km from its quarry remains unexplained'},
+
+        {cat:'megalith', name:'West Kennet Long Barrow', lat:51.4086, lng:-1.8517,
+         desc:'A 100-meter-long Neolithic chambered tomb near Avebury, England, built ~3650 BC and used for collective burial for over a thousand years. Enormous sarsen stones seal the forecourt. The largest Neolithic long barrow in England.',
+         refs:'Ancestral veneration; corporate burial (Acts 13:36 — "fell asleep and was buried")',
+         note:'Bodies were curated and rearranged; bones of at least 46 individuals found'},
+
+        {cat:'megalith', name:'Silbury Hill', lat:51.4158, lng:-1.8572,
+         desc:'The largest prehistoric artificial mound in Europe, rising 40 meters from the Wiltshire plain near Avebury, built ~2400 BC. It contains no burial. Despite centuries of tunneling, its purpose remains completely unknown. It is as tall as a 12-story building.',
+         refs:'High places; unexplained sacred mounds (Mic 1:5)',
+         note:'Contemporary with Stonehenge; built in stages over many generations'},
+
+        {cat:'megalith', name:'Harbetsuvan Tepesi', lat:37.25, lng:39.3,
+         desc:'A recently discovered site near Göbekli Tepe in Turkey with similar T-shaped limestone pillars and iconography. Less excavated than its famous neighbor, it suggests a wider culture of pillar-building across the pre-pottery Neolithic.',
+         refs:'Göbekli Tepe\'s "sister site"; pre-agricultural monumental building (Gen 4:17)',
+         note:'Excavations ongoing; may predate Göbekli Tepe\'s main layer'},
+
+        // ── AFRICA ──
+        {cat:'megalith', name:'Great Zimbabwe', lat:-20.2674, lng:30.9339,
+         desc:'A massive stone city in southern Zimbabwe built without mortar between the 11th and 15th centuries AD. The Great Enclosure\'s walls reach 11 meters high and 5 meters thick. It was the capital of the Munhumutapa empire and a major gold trade hub.',
+         refs:'African stone-city tradition; Sheba\'s gold trade (1 Kgs 10:1-2; Gold from Ophir)',
+         note:'The name Zimbabwe means "great stone houses" in Shona'},
+
+        {cat:'megalith', name:'Mzora Stone Circle', lat:35.4, lng:-5.93,
+         desc:'An elliptical ring of 168 standing stones in northern Morocco, 55 meters across, with precise astronomical alignments. Berber tradition calls it the tomb of the giant Antaeus, whom Hercules defeated. The layout shares precise geometric ratios with British stone circles.',
+         refs:'Giant traditions across the Mediterranean; Goliath\'s lineage (2 Sam 21:15-22)',
+         note:'Connection to Atlantis theories; geometry matches Avebury sub-circles'},
+
+        {cat:'pyramid', name:'Nubian Pyramids — Meroe', lat:16.9381, lng:33.7536,
+         desc:'Sudan contains over 200 pyramids — more than Egypt — built by the Kushite kingdom of Kush and Nubia between 700 BC and 350 AD. Steeper and narrower than Egyptian pyramids, they demonstrate an independent pyramid-building tradition that outlasted Egypt\'s by centuries.',
+         refs:'Kush (Cush, Gen 10:6); Queen of Ethiopia (Acts 8:27); Put and Cush (Ezek 38:5)',
+         note:'UNESCO World Heritage; many destroyed by treasure hunter Giuseppe Ferlini in the 1830s'},
+
+        {cat:'megalith', name:'Lalibela Rock-Hewn Churches', lat:12.0319, lng:39.0472,
+         desc:'Eleven medieval monolithic churches in Ethiopia carved entirely from solid red volcanic rock, built in the 12th-13th centuries AD under King Lalibela. Ethiopian tradition holds that angels worked through the night to complete what humans built by day.',
+         refs:'Ethiopian Christian tradition; the eunuch\'s faith (Acts 8:27); Zion theology (Ps 48)',
+         note:'Still an active pilgrimage site; largest monolithic church is Bete Medhane Alem'},
+
+        {cat:'megalith', name:'Aksum Stelae', lat:14.1308, lng:38.7197,
+         desc:'Massive granite obelisks in Aksum, Ethiopia, up to 33 meters tall and weighing 520 tons, carved to resemble multi-story buildings. The Aksumite kingdom claimed to house the Ark of the Covenant and traced its lineage to Solomon and the Queen of Sheba.',
+         refs:'Queen of Sheba (1 Kgs 10; Matt 12:42); Ark tradition; Solomonic covenant',
+         note:'One obelisk was stolen by Mussolini and returned to Ethiopia in 2005'},
+
+        {cat:'megalith', name:'Tassili n\'Ajjer', lat:25.5, lng:9.0,
+         desc:'A vast plateau in Algeria containing tens of thousands of rock art engravings and paintings, some 10,000 years old. Images of swimmers, cattle herders, and mysterious "roundhead" humanoid figures with globular heads. Evidence the Sahara was once a fertile savanna.',
+         refs:'Post-Flood Mediterranean; the spreading of peoples (Gen 10:25 — "in his days the earth was divided")',
+         note:'UNESCO World Heritage; "roundhead" figures dated 10,000-8,000 BP — identity debated'},
+
+        {cat:'megalith', name:'Laas Geel Cave Art', lat:9.78, lng:44.47,
+         desc:'A complex of cave shelters near Hargeisa, Somalia, containing some of the best-preserved prehistoric rock art in Africa — vivid polychrome paintings of cattle and humans dating to 9,000–3,000 BC. Discovered by French archaeologists in 2002.',
+         refs:'East African peoples; descendants of Cush and Put (Gen 10:6-7)',
+         note:'Largely unknown internationally due to political instability in the region'},
+
+        {cat:'megalith', name:'Saloum Delta Shell Mounds', lat:13.8, lng:-16.7,
+         desc:'218 artificial shell mounds in the Saloum Delta, Senegal, some reaching 20 meters high, built from shells and used as burial sites over a 2,100-year period (500 BC–1600 AD). One of West Africa\'s largest ancient monument complexes.',
+         refs:'West African burial traditions; descendants of Ham\'s line in Africa (Gen 10:6)',
+         note:'UNESCO World Heritage 2011; the mounds create a unique island landscape'},
+
+        {cat:'megalith', name:'Tengouennet Stone Monuments', lat:24.9, lng:3.5,
+         desc:'Massive stone funerary monuments and cairns scattered across the Algerian Sahara, dating to when the region was fertile savanna. Part of the broader Saharan megalithic tradition that flourished before desertification drove populations northward and eastward.',
+         refs:'Saharan green period; divine judgment through climate (Ps 107:33-34)',
+         note:'Little-studied; overlaps with the Garamantian civilization'},
+
+        // ── AMERICAS ──
+        {cat:'megalith', name:'Chichen Itza', lat:20.6843, lng:-88.5678,
+         desc:'The great Maya city in the Yucatan, Mexico, dominated by El Castillo pyramid. At each equinox, the setting sun casts a shadow of a descending serpent down the pyramid\'s staircase — a masterpiece of astronomical architecture. The ballcourt is the largest in Mesoamerica.',
+         refs:'Serpent iconography; feathered serpent Quetzalcoatl as messianic figure (compare Num 21:9)',
+         note:'UNESCO World Heritage; one of the New Seven Wonders of the World'},
+
+        {cat:'megalith', name:'Palenque', lat:17.4839, lng:-92.0461,
+         desc:'A Classic Maya city in Chiapas, Mexico, famous for the Temple of Inscriptions — a pyramid containing the elaborately carved sarcophagus of King Pakal. The sarcophagus lid\'s imagery was controversially interpreted as an astronaut in a rocket, though scholars read it as a cosmic tree descent.',
+         refs:'Royal burial theology; the king as cosmic axis (compare Ezek 28:12-14)',
+         note:'UNESCO World Heritage; hieroglyphic texts here are among the longest in Maya script'},
+
+        {cat:'megalith', name:'Monte Albán', lat:17.0444, lng:-96.7683,
+         desc:'Zapotec mountain-top city in Oaxaca, Mexico, built ~500 BC. The site includes a structure aligned not to cardinal directions but to the setting of the star Capella — an astronomical pointer. The "danzante" carvings may depict war captives or possibly human sacrifice victims.',
+         refs:'Mountain-top kingdoms (Amos 4:13); building on summits (Ps 48:1)',
+         note:'UNESCO World Heritage; capital of Zapotec civilization for ~1,300 years'},
+
+        {cat:'megalith', name:'Tula — Toltec Atlanteans', lat:20.065, lng:-99.3406,
+         desc:'The Toltec capital north of Mexico City, featuring four massive 4.6-meter warrior columns called "Atlanteans" — stone sentinels that once held up the roof of a temple. The Toltec were predecessors of the Aztec, and Tula\'s fall was lamented as the end of a golden age.',
+         refs:'Stone guardians; cherubim at the temple (1 Kgs 6:23-28); giant warrior imagery',
+         note:'Aztec tradition called Tula the origin of all arts and civilization'},
+
+        {cat:'megalith', name:'Chan Chan', lat:-8.1064, lng:-79.0747,
+         desc:'The largest adobe city in the pre-Columbian Americas, built by the Chimú civilization near Trujillo, Peru (~900–1470 AD). Its nine royal compounds feature elaborate geometric and marine-life friezes covering vast walls. At its height, 30,000+ people lived here.',
+         refs:'Pre-Inca civilization; adobe construction (compare Exod 1:14)',
+         note:'UNESCO World Heritage; threatened by El Niño flooding and erosion'},
+
+        {cat:'megalith', name:'Nazca Lines', lat:-14.735, lng:-75.13,
+         desc:'Enormous geoglyphs etched into the Nazca plateau of southern Peru — spider, hummingbird, monkey, condor, and humanoid "astronaut" figures visible only from the air. Made by the Nazca culture ~500 BC–500 AD. For whom they were made — human or divine observers — remains debated.',
+         refs:'Heavenly watchers (Zech 1:10-11); "sons of God" who observe the earth (Job 1:6-7)',
+         note:'UNESCO World Heritage; the lines are made by removing the reddish pebbles to expose lighter ground'},
+
+        {cat:'pyramid', name:'Caral (Norte Chico)', lat:-10.8919, lng:-77.5206,
+         desc:'The oldest known city in the Americas, built by the Norte Chico civilization ~2600 BC — exactly contemporary with the early Egyptian pyramids. Features multiple platform mounds, circular plazas, and evidence of a complex society. Remarkably, no weapons and no evidence of warfare.',
+         refs:'Simultaneous pyramid-building on multiple continents; post-Babel civilization (Gen 11:8-9)',
+         note:'UNESCO World Heritage; suggests independent but parallel civilizational development'},
+
+        {cat:'megalith', name:'Ingapirca', lat:-2.5469, lng:-78.8778,
+         desc:'The largest Inca ruins in Ecuador, featuring a Temple of the Sun built with the characteristic Inca style of fitted stonework without mortar. The elliptical main structure aligns to the solstices. Built ~1400 AD, it incorporated an earlier Cañari sacred site.',
+         refs:'Inca solar worship; Inca as sun-worshippers; compare Ezek 8:16',
+         note:'The name means "Inca wall" in Quechua'},
+
+        {cat:'megalith', name:'Tikal', lat:17.2220, lng:-89.6237,
+         desc:'One of the most powerful Maya city-states in the lowland jungle of Guatemala. Temple IV rises 65 meters above the jungle canopy and was the tallest building in the pre-Columbian Americas. At its peak (~700 AD) the population was 90,000. Featured in Star Wars as the Rebel Base.',
+         refs:'Jungle city; the cedar of Lebanon as a great empire parable (Ezek 17:22-23)',
+         note:'UNESCO World Heritage; massive complex still largely unexcavated under the jungle'},
+
+        {cat:'megalith', name:'Copán', lat:14.8386, lng:-89.1403,
+         desc:'Maya city in Honduras famous for its extraordinary stelae (elaborately carved portrait monuments) and the Hieroglyphic Stairway — 63 steps with over 2,500 glyphs, the longest single Maya inscription. The sculptural artistry surpasses all other Maya sites.',
+         refs:'Stone inscription traditions (Deut 27:8; Hab 2:2)',
+         note:'UNESCO World Heritage; royal dynasty of 16 kings recorded; site abandoned ~820 AD'},
+
+        {cat:'megalith', name:'Moray Terraces', lat:-13.3278, lng:-72.1992,
+         desc:'Concentric circular terraces built by the Inca in a natural depression in Peru\'s Sacred Valley. The temperature difference between the top and bottom rings is 15°C, creating microclimate zones that may have served as an agricultural laboratory for acclimatizing crops from different altitudes.',
+         refs:'Inca agricultural ingenuity; stewardship of creation (Gen 2:15)',
+         note:'The precise drainage system beneath keeps the terraces from flooding'},
+
+        {cat:'megalith', name:'Tiwanaku', lat:-16.5536, lng:-68.6726,
+         desc:'Pre-Inca ceremonial city on the Bolivian altiplano at 12,500 feet elevation, featuring the Gateway of the Sun with its weeping deity and interlocking precision-fitted H-shaped stone blocks. Local Aymara tradition holds it was built by giants in a single night before the dawn of the sun.',
+         refs:'Giant building traditions (Gen 6:4); high-place construction; "Gateway" cosmology (Gen 28:17)',
+         note:'Predates the Inca by centuries; Lake Titicaca nearby; precise stone fitting without mortar'},
+
+        // ── OCEANIA / PACIFIC ──
+        {cat:'megalith', name:'Ha\'amonga \'a Maui', lat:-21.1364, lng:-175.0561,
+         desc:'A massive coral-stone trilithon on Tonga (two upright slabs with a lintel, like Stonehenge) built ~1200 AD by Taufa\'ahau Tuitou, the 11th Tu\'i Tonga king. The lintel has carved notches that align to the summer solstice sunrise. Local name means "Burden of Maui."',
+         refs:'Trilithon architecture on six continents; post-Babel Pacific dispersal (Gen 10)',
+         note:'The upright stones are 5m tall; the coral blocks weigh ~40 tons each'},
+
+        {cat:'megalith', name:'Lelu Ruins, Kosrae', lat:5.3370, lng:163.0180,
+         desc:'A massive complex of basalt-walled compounds on the island of Kosrae, Micronesia, built between 1250–1400 AD. Some basalt walls reach 9 meters high. Like Nan Madol, the stones were transported by canoe across open water — though how is unclear.',
+         refs:'Pacific megalithic traditions; island-hopping post-Babel descendants (Gen 10)',
+         note:'Far less studied than Nan Madol; sometimes called "Nan Madol of the east"'},
+
+        {cat:'megalith', name:'Pulemelei Mound, Samoa', lat:-13.7389, lng:-172.3356,
+         desc:'The largest ancient structure in all of Polynesia — a massive four-tiered stone pyramid platform in Samoa, 65m × 60m at the base and 12m high. It sits in the jungle largely unexplored. Its purpose and builders within Samoan tradition are debated.',
+         refs:'Pacific pyramid platform; Polynesian dispersal (Gen 10); "ends of the earth" (Ps 22:27)',
+         note:'Overgrown and remote; only preliminary archaeological work done'},
+
+        {cat:'megalith', name:'Wurdi Youang', lat:-37.85, lng:144.35,
+         desc:'An Aboriginal Australian stone arrangement near Ballarat, Victoria, featuring a large egg-shaped ring of basalt stones with western-facing notches that mark the solstices and equinoxes. Astronomical knowledge encoded in stone by Australian Aboriginal peoples possibly 11,000+ years ago.',
+         refs:'Gen 1:14 — lights for signs and seasons; indigenous astronomical tradition',
+         note:'Wathaurong Aboriginal people; if dates confirmed, among the oldest astronomical monuments on Earth'},
+
+// ══════════════════════════════════════════════════════════════
+// ── ANOMALOUS SITES & INDIGENOUS TRADITIONS ──
+// "He made from one man every nation of mankind to live on all
+//  the face of the earth" — Acts 17:26
+// ══════════════════════════════════════════════════════════════
+
+        {cat:'anomaly', name:'Richat Structure (Eye of the Sahara)', lat:21.12, lng:-11.40,
+         desc:'Massive 40km-wide circular geological formation in the Sahara Desert. Initially attributed to meteorite impact, now thought to be a deeply eroded geological dome. Some researchers (including Randall Carlson and Jimmy Corsetti) have proposed this as the site of Atlantis described by Plato, citing its concentric ring pattern, precise measurements matching Plato\'s account, and location west of the "Pillars of Hercules."',
+         note:'Whether or not the Atlantis hypothesis holds, the perfectly concentric rings spanning 40km are genuinely remarkable. The structure is visible from space and was used as a landmark by early astronauts.'},
+
+        {cat:'anomaly', name:'Alaska Bone Yard', lat:64.84, lng:-147.72,
+         desc:'In the permafrost around Fairbanks, explorers and miners have found massive deposits of broken, twisted animal bones from mammoths, bison, horses, and other Pleistocene megafauna — violently shattered and mixed with tree fragments and volcanic ash, as if destroyed by a catastrophic event. The bones are not in natural death assemblages but appear to have been violently tumbled and deposited together.',
+         note:'The violence of the bone deposits is inconsistent with gradual extinction. Something catastrophic and sudden appears to have killed and tumbled these animals. Gold miners reported finding entire hillsides of broken bones mixed with muck.'},
+
+        {cat:'anomaly', name:'White Sands Footprints', lat:32.78, lng:-106.17,
+         desc:'In 2021, researchers confirmed human footprints at White Sands National Park dating to 21,000-23,000 years ago — thousands of years older than the previously accepted timeline for human arrival in the Americas. The prints show adults, teenagers, and children walking near an ancient lake. This discovery forced a complete rethinking of when and how humans reached the Americas.',
+         note:'Published in Science (2021). These footprints predate the Clovis culture by 10,000+ years. The evidence keeps pushing human history deeper into the past — matching a biblical framework where humanity was advanced from the beginning (Gen 4:20-22).'},
+
+        {cat:'anomaly', name:'Younger Dryas Impact Sites', lat:34.0, lng:-118.0,
+         desc:'Around 12,800 years ago, something catastrophic struck Earth. A "black mat" layer containing nanodiamonds, iridium, magnetic spherules, and soot has been found at dozens of sites across North America. The Younger Dryas Impact Hypothesis proposes that a comet or asteroid fragment struck the Laurentide ice sheet, causing massive flooding, wildfires, and triggering the extinction of most North American megafauna.',
+         note:'The Younger Dryas boundary layer is found at over 50 sites worldwide. This event coincides with the sudden disappearance of the Clovis culture, the extinction of mammoths and sabertooths, and catastrophic flooding across North America. Many researchers connect this to the flood traditions found in nearly every ancient culture.'},
+
+        {cat:'anomaly', name:'Carolina Bays', lat:34.2, lng:-79.0,
+         desc:'Over 500,000 elliptical depressions along the US East Coast from New Jersey to Florida, all oriented in the same northwest-to-southeast direction. Some researchers propose they were created by secondary impacts or ejecta from a comet strike on the Laurentide ice sheet during the Younger Dryas event (~12,800 years ago).',
+         note:'Half a million depressions, all aligned the same way. The mainstream explanation (wind and water erosion) struggles to account for the uniform alignment. If impact-related, this was a truly global catastrophe.'},
+
+        {cat:'anomaly', name:'Channeled Scablands', lat:47.5, lng:-118.0,
+         desc:'Massive erosion channels carved into basalt bedrock across eastern Washington, created by catastrophic mega-floods during the Ice Age. J Harlen Bretz proposed the flood origin in 1923 and was ridiculed for 40 years before being vindicated. The scale of water required is almost unimaginable — 10 cubic miles per hour.',
+         note:'Bretz was mocked because "catastrophism" was heresy in geology — uniformitarianism (slow, gradual change) was dogma. He was eventually proven right. 10 cubic miles of water per hour carved these channels. The scale parallels biblical Flood descriptions.'},
+
+        {cat:'anomaly', name:'Lake Missoula Glacial Lake Outburst', lat:46.87, lng:-114.0,
+         desc:'A glacial lake containing 500 cubic miles of water (half the volume of Lake Michigan) that repeatedly burst through its ice dam during the Ice Age, sending catastrophic floods across the Pacific Northwest. Each flood carried 10x the flow of all the world\'s rivers combined.',
+         note:'Evidence of dozens of catastrophic floods from a single glacial lake. The scale of Ice Age catastrophism keeps being revised upward. These are not slow, gradual processes.'},
+
+        {cat:'anomaly', name:'Dwarka (Submerged City)', lat:22.238, lng:68.968,
+         desc:'Underwater ruins off the coast of Gujarat, India, believed by many Hindus to be the legendary city of Lord Krishna. Marine archaeological surveys have found stone walls, pillars, and structures beneath the Arabian Sea. If genuine, this city was above water when sea levels were lower — before ~9,000 years ago.',
+         note:'Another submerged city pointing to a time when coastlines were very different. Compare with Yonaguni (Japan), Cambay (India), and numerous Mediterranean submerged sites. Rising sea levels from the end of the Ice Age submerged coastal civilizations worldwide.'},
+
+        {cat:'anomaly', name:'Gulf of Cambay (Khambhat) Submerged Site', lat:21.7, lng:72.3,
+         desc:'Sonar surveys in 2001 revealed geometric structures on the seabed of the Gulf of Cambay — walls, streets, and buildings submerged 40m deep. If man-made, this would date to 7500-9500 BC when the area was dry land. Controversial — some claim natural geological formations.',
+         note:'Pottery fragments and what appear to be tools have been dredged from the site. If confirmed, this would be among the oldest urban sites in the world, predating Sumer by thousands of years.'},
+
+        {cat:'anomaly', name:'Montana Megaliths (Bear Paw Mountains)', lat:48.0, lng:-109.5,
+         desc:'Unusual rock formations in the Bear Paw Mountains of Montana that some researchers argue show evidence of ancient stone-cutting and megalithic construction. Features include seemingly impossible balanced rocks, wall-like formations, and geometric patterns. Mainstream geology attributes them to natural weathering.',
+         note:'Controversial but visually striking. The formations resemble megalithic walls and cut stones. Whether natural or artificial, they warrant investigation. North America\'s "missing" megalithic past is a growing area of alternative research.'},
+
+        {cat:'anomaly', name:'Great Wall of China (Inward-Facing Sections)', lat:40.4319, lng:116.5704,
+         desc:'The Great Wall stretches over 13,000 miles across northern China. While commonly explained as defense against northern nomadic tribes, an anomaly has been noted: many sections have the defensive side — the walkway, battlements, and arrow slits — facing INWARD toward China rather than outward toward potential invaders. Some sections have defensive features on both sides.',
+         note:'If the armed side faces inward, what was the wall keeping IN rather than keeping OUT? Some researchers have noted this architectural anomaly and questioned the standard narrative. The sheer scale — 13,000 miles of continuous construction — also exceeds what should have been necessary for any known military threat.'},
+
+        {cat:'anomaly', name:'Baigong Pipes', lat:37.36, lng:97.30,
+         desc:'Iron pipes embedded in rock near the shore of Lake Toson, some dating to 150,000+ years ago. Found in caves and protruding from rock faces. Some pipes lead into Toson Lake. Analysis shows 8% unknown material content. Chinese scientists initially claimed them anomalous; later studies suggest iron-rich geological formations.',
+         note:'If artificial, these predate all known human civilization. The Chinese government initially promoted them as an anomaly before the geological explanation gained traction.'},
+
+        {cat:'anomaly', name:'Bosnian Pyramids (Visoko)', lat:43.977, lng:18.177,
+         desc:'Semir Osmanagić claims that hills near Visoko are the largest pyramids in the world, with the "Pyramid of the Sun" standing 220m tall. Underground tunnels with megalithic blocks have been documented. Mainstream geologists say they are natural flatiron hills formed by sediment layers.',
+         note:'Highly controversial. The European Association of Archaeologists called it "a cruel hoax." However, the tunnels are real, the geometric shapes are striking, and the site has drawn interest from researchers who question mainstream dating. Whether pyramid or hill, the formation is unusual.'},
+
+        {cat:'native', name:'Lovelock Cave (Si-Te-Cah)', lat:40.05, lng:-118.47,
+         desc:'The Paiute oral tradition tells of the Si-Te-Cah — a race of red-haired cannibalistic giants who terrorized the region. The Paiute say they united with neighboring tribes and drove the giants into Lovelock Cave, then set fire to the entrance, destroying them. Archaeological excavations in 1911-12 found oversized handprints in the cave walls, duck decoys, and (controversially) red-haired remains that were later reclassified or lost.',
+         refs:'Genesis 6:4; Numbers 13:33 (Nephilim traditions)',
+         note:'The Paiute tradition is remarkably specific: a race of giants, cannibalistic behavior (cf. 1 Enoch 7:3-4 — the giants "devoured mankind"), and a tribal coalition to defeat them. These parallels to ancient Near Eastern giant traditions are striking.'},
+
+        {cat:'native', name:'Catalina Island Giant Finds', lat:33.39, lng:-118.42,
+         desc:'Ralph Glidden excavated thousands of burials on Santa Catalina Island in the 1920s-30s, reportedly finding multiple skeletons over 7 feet tall, some allegedly 8-9 feet. Photos exist but the actual remains were reportedly given to or taken by the Smithsonian and have never been publicly displayed. The island\'s Tongva/Gabrieliño inhabitants had traditions of a race of giants.',
+         note:'The Smithsonian\'s involvement in "disappearing" giant skeletons is a persistent claim. The Institution has denied it, but FOIA requests have revealed 19th-century correspondence about anomalous skeletal finds being shipped to the Smithsonian.'},
+
+        {cat:'native', name:'Serpent Mound', lat:39.025, lng:-83.43,
+         desc:'The Great Serpent Mound is the largest surviving effigy mound in the world — a 1,370-foot-long serpent figure built on top of an ancient crypto-explosion (possible impact) structure. The serpent appears to be swallowing an egg, with precise astronomical alignments to solstices and Polaris. Built by the Adena or Fort Ancient culture.',
+         refs:'Genesis 3:1-15; Numbers 21:6-9; Revelation 12:9',
+         note:'Built ON an impact structure. A serpent swallowing an egg (or the sun?). Aligned to celestial events. The builders understood astronomy, geometry, and spiritual symbolism. The serpent motif is universal — and the Bible reveals why.'},
+
+        {cat:'native', name:'Cahokia Mounds', lat:38.6553, lng:-90.0622,
+         desc:'The largest pre-Columbian settlement north of Mexico. At its peak (~1050-1200 AD), Cahokia had a population of 20,000+ — larger than contemporary London. Monks Mound covers 14 acres and stands 100 feet tall — its base is larger than the Great Pyramid of Giza. The city had a wooden astronomical circle ("Woodhenge"), plazas, and evidence of human sacrifice.',
+         note:'A city of 20,000 with a pyramid larger (at the base) than Giza — in Illinois. Yet most Americans have never heard of it. The human sacrifice evidence includes mass burial pits with young women. The city was abandoned by 1400 AD for unknown reasons.'},
+
+        {cat:'native', name:'America\'s Stonehenge (Mystery Hill)', lat:42.8414, lng:-71.2067,
+         desc:'A complex of stone structures, chambers, and standing stones in New Hampshire with verified astronomical alignments to solstices and equinoxes. Carbon dating of charcoal from the site ranges from 4000 BC to 173 BC. Inscriptions resembling Phoenician, Iberian Ogham, and Libyan scripts have been controversially identified.',
+         note:'Pre-Columbian stone construction with possible Old World script? If the inscription readings are correct, this suggests trans-Atlantic contact thousands of years before Columbus. Barry Fell\'s controversial decipherments remain debated.'},
+
+        {cat:'native', name:'Poverty Point', lat:32.6347, lng:-91.4081,
+         desc:'A massive 3,500-year-old earthwork complex in Louisiana featuring concentric C-shaped ridges and a 72-foot mound. Built by hunter-gatherers who moved 750,000 cubic yards of earth with baskets — no wheelbarrows, no draft animals. Their trade network spanned 1,000+ miles for exotic stones and minerals.',
+         note:'Hunter-gatherers don\'t build monumental architecture — except when they do. Poverty Point, like Göbekli Tepe, challenges the assumption that monumentality requires agriculture. These builders had knowledge and organization that exceeds our models.'},
+
+        {cat:'native', name:'Newark Earthworks', lat:40.0528, lng:-82.4322,
+         desc:'Massive geometric earthworks in Ohio covering 4 square miles — including a perfect circle, octagon, and square connected by parallel walls. The octagon encodes the 18.6-year lunar standstill cycle with precision. Combined with other Ohio earthworks, this represents sophisticated understanding of geometry and astronomy.',
+         note:'The 18.6-year lunar cycle encoded in earthen walls by people we assume lacked writing. The precision rivals anything in the ancient world. A golf course was built on part of it. Now being reclaimed as a World Heritage Site.'},
+
+        {cat:'native', name:'Choctaw Nahullo Tradition', lat:32.3, lng:-90.2,
+         desc:'The Choctaw people preserved oral traditions of the "Nahullo" — a race of white-skinned giants who inhabited the region before them. Choctaw historian Horatio Bardwell Cushman recorded these traditions in the 19th century. The Nahullo were described as cannibalistic and were driven out or destroyed by the ancestors of the Choctaw.',
+         refs:'Genesis 6:4; Numbers 13:33',
+         note:'The Choctaw, Chickasaw, and Comanche all had independent traditions of pre-existing giant races. These are not borrowed from European contact — they were recorded by the earliest European explorers as already ancient traditions.'},
+
+        {cat:'native', name:'Navajo Ye\'iitsoh (Giant) Tradition', lat:36.999, lng:-109.045,
+         desc:'The Navajo (Diné) oral tradition speaks of Ye\'iitsoh ("Big Giant") and other giant beings who terrorized the people before being destroyed by the Hero Twins — Monster Slayer and Born for Water. The petrified lava flows near Mount Taylor, New Mexico, are said to be the dried blood of Ye\'iitsoh.',
+         refs:'Genesis 6:4; Deuteronomy 2:10-11',
+         note:'The Navajo giant-slaying narrative parallels David vs. Goliath and Joshua vs. the Anakim. A pair of heroes destroy a race of giants with divine help. This is not a local legend — it\'s a universal archetype rooted in genuine ancient memory.'},
+
+        {cat:'native', name:'Cherokee Moon-Eyed People & Judaculla Rock', lat:35.3, lng:-83.1,
+         desc:'The Cherokee preserved traditions of the "Moon-Eyed People" — pale-skinned beings who lived in the mountains before the Cherokee arrived and could not see in daylight. Judaculla Rock near Cullowhee, NC, bears mysterious petroglyphs attributed to Tsul\'kalu, the "Slant-Eyed Giant" — a powerful being who could leap across mountains.',
+         refs:'Genesis 6:4',
+         note:'The Moon-Eyed People are not giants per se, but pre-existing inhabitants with unusual characteristics. The Judaculla/Tsul\'kalu giant tradition is separate — a being of immense size and power. Cherokee traditions, like those of many tribes, speak of beings who preceded them in the land.'},
+
+        {cat:'native', name:'Taíno Yaya / Supreme Creator (Puerto Rico)', lat:18.22, lng:-66.59,
+         desc:'The Taíno people of Puerto Rico and the Caribbean had a concept of a supreme creator deity — Yúcahu Bagua Maórocoti — who was invisible, eternal, and all-powerful. The Taíno creation story speaks of Yaya (the supreme spirit), whose son\'s bones were placed in a gourd that burst and flooded the earth, creating the oceans. Striking parallels exist between the Taíno Yaya and the Hebrew YHWH.',
+         refs:'Romans 1:19-20; Acts 17:27',
+         note:'Multiple Native American peoples had monotheistic or near-monotheistic concepts: the Lakota Wakan Tanka ("Great Mystery"), the Algonquin Gitche Manitou ("Great Spirit"), the Inca Viracocha (the invisible creator). Paul\'s declaration in Acts 17:27 — that God "is not far from each one of us" — suggests these echoes of monotheism are exactly what we\'d expect.'},
+
+        {cat:'native', name:'Lakota Wakan Tanka (Black Hills / Paha Sapa)', lat:43.88, lng:-103.46,
+         desc:'The Lakota/Sioux concept of Wakan Tanka — the "Great Mystery" or "Great Spirit" — is a deeply monotheistic concept of an all-pervading sacred power. The Black Hills (Paha Sapa) are sacred as the heart of everything. Many Native American nations across the continent held similar concepts of a single supreme creator above all other spiritual beings.',
+         refs:'Romans 1:19-20; Acts 14:17; Acts 17:26-27',
+         note:'The universality of monotheistic concepts among peoples separated by oceans and millennia is exactly what Romans 1:19-20 predicts: "What can be known about God is plain to them, because God has shown it to them." These aren\'t corrupted Christianity — they\'re pre-contact echoes of the original knowledge of God that all humanity once shared (Gen 1-11).'},
+
+        {cat:'native', name:'Algonquin Gitche Manitou (Great Spirit)', lat:44.5, lng:-85.5,
+         desc:'The Algonquin peoples\' concept of Gitche Manitou ("Great Spirit") describes a supreme, invisible creator deity who made the world and all living things. Algonquin creation traditions include a great flood from which only a few survived on a raft — a remarkably specific parallel to Noah\'s account.',
+         refs:'Genesis 6-9; Romans 1:19-20',
+         note:'The Algonquin flood narrative: the world was flooded, animals and a few humans survived on a raft, a muskrat dove down and brought up mud to recreate the earth. This is independent of European contact. Over 200 flood traditions exist worldwide — too many to be coincidence, too similar to be unrelated.'},
+
+        {cat:'native', name:'Inca Viracocha Tradition (Lake Titicaca)', lat:-15.83, lng:-69.33,
+         desc:'The Inca supreme deity Viracocha was described as a tall, bearded, pale figure who arose from Lake Titicaca at the beginning of time, created the sun, moon, stars, and humanity, then walked westward across the Pacific and disappeared — promising to return. He was worshipped as the invisible creator behind all other gods.',
+         refs:'Acts 17:23 (To the Unknown God)',
+         note:'The "bearded white god who departed and will return" motif appears across the Americas: Quetzalcoatl (Aztec), Kukulkan (Maya), Viracocha (Inca), Bochica (Muisca). Were these distorted memories of real events? The promise to "return" echoes Christ\'s promise.'},
+
+        {cat:'native', name:'Quetzalcoatl / Great Pyramid of Cholula', lat:19.058, lng:-98.302,
+         desc:'The feathered serpent deity Quetzalcoatl was described in Aztec tradition as a pale, bearded figure who opposed human sacrifice, taught civilization, and departed eastward across the sea with a promise to return. The Great Pyramid of Cholula — the world\'s largest pyramid by volume — was dedicated to him. When Cortés arrived from the east, Montezuma initially believed Quetzalcoatl had returned.',
+         refs:'Genesis 3:15; Acts 17:23-27',
+         note:'A deity who opposes human sacrifice in a culture defined by human sacrifice. Who taught law, writing, and agriculture. Who was associated with both a serpent and a feathered/heavenly being. Who departed and promised to return. The parallels to Christ are striking — whether as distorted memory or divine preparation.'},
+
+        {cat:'native', name:'Hopi Prophecy Rock (Third Mesa)', lat:35.83, lng:-110.63,
+         desc:'The Hopi people of Arizona preserve traditions of three previous "worlds" that were destroyed — the first by fire, the second by ice, the third by flood. Only the righteous survived each destruction to enter the next world. Their "Prophecy Rock" petroglyph at Third Mesa depicts two paths: one leading to technology and destruction, the other to harmony with the Creator.',
+         refs:'2 Peter 3:5-7 (world destroyed by water, next by fire)',
+         note:'The Hopi three-destructions narrative (fire, ice, flood) parallels 2 Peter 3:5-7, which describes past judgment by water and future judgment by fire. The Hopi "Fourth World" concept echoes the biblical pattern of judgment and renewal.'},
+
+        {cat:'native', name:'Spirit Water (Devil\'s Lake, Mni Wakhán)', lat:47.85, lng:-99.11,
+         desc:'Sacred lake of the Dakota/Sioux people, originally called Mni Wakȟáŋ ("Spirit Water"). The Dakota saw this as a place of spiritual power. Renamed "Devil\'s Lake" by French missionaries who could not distinguish between Native spiritual concepts and demonic activity. The lake has no natural outlet and fluctuates dramatically.',
+         note:'The colonial renaming of "Spirit Water" to "Devil\'s Lake" illustrates a tragic pattern — European Christians failed to recognize that Native concepts of the Great Spirit might reflect genuine knowledge of God (Romans 1:19-20) rather than demonic worship.'},
+
+        {cat:'native', name:'Giants of Patagonia Tradition', lat:-51.5, lng:-69.5,
+         desc:'When Magellan\'s expedition reached Patagonia in 1520, Antonio Pigafetta recorded encounters with people so tall they "reached only to the waist" of the natives. The name "Patagonia" itself may derive from "Patagón" — giants in a Spanish romance. Multiple early explorers (Drake, Sarmiento, Byron) reported unusually tall inhabitants.',
+         refs:'Genesis 6:4; Numbers 13:33',
+         note:'The Tehuelche people of Patagonia were genuinely tall (6\'0-6\'6" average by some accounts), but explorer accounts consistently exaggerated them into giants of 10-12 feet. What is significant is the universal tendency to report giants — because the archetype of "giants in the land" runs deep in human memory.'},
+
     ];
 
     // ── BIBLICAL JOURNEYS ──

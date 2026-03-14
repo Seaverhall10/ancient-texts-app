@@ -29,6 +29,16 @@ import importlib.util
 from datetime import datetime
 
 BASE = os.path.dirname(os.path.abspath(__file__))
+
+# ── Load Firebase config from local file (not tracked in git) ──
+_firebase_path = os.path.join(BASE, "config", "firebase.json")
+if os.path.exists(_firebase_path):
+    with open(_firebase_path, "r") as _f:
+        firebase_config = json.load(_f)
+else:
+    print("WARNING: config/firebase.json not found — Firebase auth will not work")
+    firebase_config = {"apiKey":"","authDomain":"","projectId":"","storageBucket":"","messagingSenderId":"","appId":""}
+
 DATA_DIR = os.path.join(BASE, "data")
 SRC_CSS_DIR = os.path.join(BASE, "src", "css")
 SRC_CSS_ORDER = os.path.join(SRC_CSS_DIR, "build-order.txt")
@@ -656,12 +666,12 @@ def build():
     <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
     <script>
     window.__FIREBASE_CONFIG = {{
-        apiKey: "FIREBASE_API_KEY_REMOVED",
-        authDomain: "ancient-texts-app.firebaseapp.com",
-        projectId: "ancient-texts-app",
-        storageBucket: "ancient-texts-app.firebasestorage.app",
-        messagingSenderId: "648316662529",
-        appId: "1:648316662529:web:4b38a34a39658d1c3f6100"
+        apiKey: "{firebase_config['apiKey']}",
+        authDomain: "{firebase_config['authDomain']}",
+        projectId: "{firebase_config['projectId']}",
+        storageBucket: "{firebase_config['storageBucket']}",
+        messagingSenderId: "{firebase_config['messagingSenderId']}",
+        appId: "{firebase_config['appId']}"
     }};
     </script>
     <style>
