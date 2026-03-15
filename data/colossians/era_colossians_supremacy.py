@@ -6,6 +6,9 @@ Covers Colossians 1-4 in 3 chapter groupings.
 
 CHAPTERS = [
     {
+        'id': 'col-supremacy-1',
+        'era': 'colossians_supremacy',
+        'chapter_num': 1,
         'type': 'chapter',
         'title': 'The Cosmic Christ \u2014 Image of God, Creator of Thrones and Powers',
         'ref': 'Colossians 1:1-29',
@@ -252,6 +255,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': 'col-supremacy-2',
+        'era': 'colossians_supremacy',
+        'chapter_num': 2,
         'type': 'chapter',
         'title': 'Disarming the Powers \u2014 The Cross as Cosmic Victory',
         'ref': 'Colossians 2:1-23',
@@ -496,6 +502,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': 'col-supremacy-3',
+        'era': 'colossians_supremacy',
+        'chapter_num': 3,
         'type': 'chapter',
         'title': 'The New Humanity \u2014 Life Above, Hidden with Christ',
         'ref': 'Colossians 3:1\u20134:18',

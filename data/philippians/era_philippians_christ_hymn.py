@@ -6,6 +6,9 @@ Covers Philippians 1-4 in 3 chapter groupings.
 
 CHAPTERS = [
     {
+        'id': 'phil-christ-hymn-1',
+        'era': 'philippians_christ_hymn',
+        'chapter_num': 1,
         'type': 'chapter',
         'title': 'Joy in Chains \u2014 The Unstoppable Gospel',
         'ref': 'Philippians 1:1-30',
@@ -223,6 +226,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': 'phil-christ-hymn-2',
+        'era': 'philippians_christ_hymn',
+        'chapter_num': 2,
         'type': 'chapter',
         'title': 'The Christ Hymn \u2014 Kenosis and Cosmic Exaltation',
         'ref': 'Philippians 2:1-30',
@@ -464,6 +470,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': 'phil-christ-hymn-3',
+        'era': 'philippians_christ_hymn',
+        'chapter_num': 3,
         'type': 'chapter',
         'title': 'Citizens of Heaven \u2014 The True Politeuma',
         'ref': 'Philippians 3:1\u20134:23',

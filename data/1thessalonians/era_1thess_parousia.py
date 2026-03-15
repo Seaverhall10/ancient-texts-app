@@ -6,6 +6,9 @@ Covers 1 Thessalonians 1-5 in 3 chapter groupings.
 
 CHAPTERS = [
     {
+        'id': '1thess-parousia-1',
+        'era': '1thess_parousia',
+        'chapter_num': 1,
         'type': 'chapter',
         'title': 'Turning from Idols \u2014 The Living God and His Son',
         'ref': '1 Thessalonians 1:1\u20132:16',
@@ -235,6 +238,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': '1thess-parousia-2',
+        'era': '1thess_parousia',
+        'chapter_num': 2,
         'type': 'chapter',
         'title': 'The Dead in Christ \u2014 The Archangel\'s Voice and the Trumpet',
         'ref': '1 Thessalonians 2:17\u20144:18',
@@ -479,6 +485,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': '1thess-parousia-3',
+        'era': '1thess_parousia',
+        'chapter_num': 3,
         'type': 'chapter',
         'title': 'The Day of the Lord \u2014 Children of Light',
         'ref': '1 Thessalonians 5:1-28',

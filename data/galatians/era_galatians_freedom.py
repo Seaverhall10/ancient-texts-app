@@ -6,6 +6,9 @@ Covers Galatians 1-6 in 4 chapter groupings.
 
 CHAPTERS = [
     {
+        'id': 'gal-freedom-1',
+        'era': 'galatians_freedom',
+        'chapter_num': 1,
         'type': 'chapter',
         'title': 'No Other Gospel \u2014 Paul\'s Apostolic Authority',
         'ref': 'Galatians 1:1\u20132:10',
@@ -224,6 +227,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': 'gal-freedom-2',
+        'era': 'galatians_freedom',
+        'chapter_num': 2,
         'type': 'chapter',
         'title': 'Justified by Faith \u2014 The Abrahamic Argument',
         'ref': 'Galatians 2:11\u20133:29',
@@ -448,6 +454,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': 'gal-freedom-3',
+        'era': 'galatians_freedom',
+        'chapter_num': 3,
         'type': 'chapter',
         'title': 'Sons, Not Slaves \u2014 Freedom from the Stoicheia',
         'ref': 'Galatians 4:1\u20135:1',
@@ -679,6 +688,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': 'gal-freedom-4',
+        'era': 'galatians_freedom',
+        'chapter_num': 4,
         'type': 'chapter',
         'title': 'Walking by the Spirit \u2014 The New Governance',
         'ref': 'Galatians 5:2\u20136:18',

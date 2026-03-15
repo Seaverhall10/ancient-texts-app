@@ -174,6 +174,160 @@ def audit_canonical_language(ch, era_text_id, non_canonical_texts, findings):
             })
 
 
+def audit_theological_violations(ch, findings):
+    """Check era chapter content for Hebrew-anthropology and theological framework violations.
+
+    Six categories of WARNING-level violations:
+      1. Platonic afterlife language (soul goes to heaven)
+      2. Transactional salvation language (accept Jesus into your heart)
+      3. Institutional-church framing (church teaches/doctrine/tradition as authority)
+      4. Sanitized prophetic emotion (gently reminded, lovingly corrected)
+      5. Wrong Satan's-fall timing (Satan fell in Eden / evil began in Eden)
+      6. Single-rebellion conflation (the rebellion — singular — for all cosmic evil)
+    """
+    text = json.dumps(ch, ensure_ascii=False).lower()
+    chapter_id = ch.get("id", "UNKNOWN")
+    era_id = ch.get("era", "UNKNOWN")
+
+    # 1. Platonic afterlife language
+    PLATONIC_AFTERLIFE = [
+        "souls go to heaven",
+        "soul goes to heaven",
+        "in heaven now",
+        "looking down from heaven",
+        "passed on to glory",
+    ]
+    for phrase in PLATONIC_AFTERLIFE:
+        if phrase in text:
+            findings.append({
+                "level": "WARNING",
+                "chapter": chapter_id,
+                "era": era_id,
+                "rule": "platonic_afterlife_language",
+                "message": (
+                    f"Platonic dualism detected: '{phrase}'. "
+                    "Hebrew anthropology = Sheol \u2192 bodily resurrection \u2192 new earth, "
+                    "not disembodied souls ascending to heaven."
+                ),
+            })
+
+    # 2. Transactional salvation language
+    TRANSACTIONAL_SALVATION = [
+        "accept jesus into your heart",
+        "say this prayer",
+        "the sinner's prayer",
+        "sinners prayer",
+        "ask jesus into your life",
+    ]
+    for phrase in TRANSACTIONAL_SALVATION:
+        if phrase in text:
+            findings.append({
+                "level": "WARNING",
+                "chapter": chapter_id,
+                "era": era_id,
+                "rule": "transactional_salvation_language",
+                "message": (
+                    f"Transactional salvation framing: '{phrase}'. "
+                    "Salvation is covenantal (loyal-love, oath-bound union), not a transaction or formula."
+                ),
+            })
+
+    # 3. Institutional-church framing (soft check — only flag approving use as authority)
+    CHURCH_AUTHORITY_PHRASES = [
+        "the church teaches",
+        "church doctrine",
+        "church tradition",
+    ]
+    for phrase in CHURCH_AUTHORITY_PHRASES:
+        if phrase in text:
+            findings.append({
+                "level": "WARNING",
+                "chapter": chapter_id,
+                "era": era_id,
+                "rule": "institutional_church_framing",
+                "message": (
+                    f"Institutional-church framing: '{phrase}'. "
+                    "Ekklesia = governing assembly, not an institutional authority. "
+                    "Cite Scripture or Second Temple sources, not church tradition."
+                ),
+            })
+
+    # 4. Sanitized prophetic emotion (prophetic books only)
+    PROPHETIC_BOOKS_MARKERS = ["isaiah", "jeremiah", "ezekiel", "hosea", "amos", "micah", "zephaniah",
+                                "nahum", "habakkuk", "malachi", "psalm", "lament"]
+    text_mentions_prophetic = any(marker in text for marker in PROPHETIC_BOOKS_MARKERS)
+    if text_mentions_prophetic:
+        SOFT_PROPHETIC = [
+            "gently reminded",
+            "lovingly corrected",
+            "kindly warned",
+            "gently warned",
+            "lovingly reminded",
+        ]
+        for phrase in SOFT_PROPHETIC:
+            if phrase in text:
+                findings.append({
+                    "level": "WARNING",
+                    "chapter": chapter_id,
+                    "era": era_id,
+                    "rule": "sanitized_prophetic_emotion",
+                    "message": (
+                        f"Sanitized prophetic tone: '{phrase}'. "
+                        "The prophets were covenant prosecutors delivering legal verdicts (rib pattern), "
+                        "not pastoral counselors offering gentle corrections."
+                    ),
+                })
+
+    # 5. Wrong Satan's-fall timing
+    SATAN_EDEN_FALL = [
+        "satan fell in eden",
+        "satan's rebellion in the garden",
+        "evil began in eden",
+        "satan's fall in the garden",
+        "devil fell in eden",
+    ]
+    for phrase in SATAN_EDEN_FALL:
+        if phrase in text:
+            findings.append({
+                "level": "WARNING",
+                "chapter": chapter_id,
+                "era": era_id,
+                "rule": "satan_fall_timing_error",
+                "message": (
+                    f"Incorrect Satan-fall timing: '{phrase}'. "
+                    "Satan fell BEFORE Eden (between creation and the garden). "
+                    "The Eden narrative is his first act of war against image-bearers, not his origin story."
+                ),
+            })
+
+    # 6. Single-rebellion conflation
+    # Flag "the rebellion" (singular definite article) only when context strongly implies
+    # it covers all cosmic evil as one unified event.
+    SINGLE_REBELLION_PHRASES = [
+        "the rebellion in heaven",
+        "the original rebellion",
+        "the cosmic rebellion",
+        "the one rebellion",
+        "the rebellion that caused",
+        "all evil traces back to one rebellion",
+        "single rebellion",
+    ]
+    for phrase in SINGLE_REBELLION_PHRASES:
+        if phrase in text:
+            findings.append({
+                "level": "WARNING",
+                "chapter": chapter_id,
+                "era": era_id,
+                "rule": "single_rebellion_conflation",
+                "message": (
+                    f"Single-rebellion conflation: '{phrase}'. "
+                    "There were THREE independent rebellions: (1) Satan's primordial fall, "
+                    "(2) the Watcher rebellion at Hermon (Gen 6 / 1 En 6), "
+                    "(3) the Babel scattering (Gen 11 / Deut 32:8-9). Each is distinct."
+                ),
+            })
+
+
 def audit_html_fragments(fragments_dir, findings):
     """Audit THC HTML fragment files."""
     if not os.path.isdir(fragments_dir):
@@ -241,6 +395,7 @@ def run_local_audit():
             audit_glossary_refs(ch, glossary_keys, findings)
             audit_transliteration(ch, findings)
             audit_canonical_language(ch, text_id, non_canonical, findings)
+            audit_theological_violations(ch, findings)
 
     # Audit THC HTML fragments
     hc_dir = os.path.join(DATA_DIR, "heavenly_court", "chapters")
@@ -401,6 +556,72 @@ def audit_map_theological():
             if correct and wrong in desc_lower:
                 findings.append(('INFO', f'desc_{i}',
                     f'Transliteration: "{wrong}" should be "{correct}"'))
+
+        # ── New theological violation checks ──────────────────────
+
+        # 1. Platonic afterlife language
+        MAP_PLATONIC_AFTERLIFE = [
+            'souls go to heaven', 'soul goes to heaven', 'in heaven now',
+            'looking down from heaven', 'passed on to glory',
+        ]
+        for phrase in MAP_PLATONIC_AFTERLIFE:
+            if phrase in desc_lower:
+                findings.append(('WARNING', f'desc_{i}',
+                    f'Platonic afterlife language: "{phrase}". '
+                    'Hebrew anthropology = Sheol \u2192 bodily resurrection \u2192 new earth.'))
+
+        # 2. Transactional salvation language
+        MAP_TRANSACTIONAL = [
+            'accept jesus into your heart', 'say this prayer', "the sinner's prayer",
+            'sinners prayer', 'ask jesus into your life',
+        ]
+        for phrase in MAP_TRANSACTIONAL:
+            if phrase in desc_lower:
+                findings.append(('WARNING', f'desc_{i}',
+                    f'Transactional salvation framing: "{phrase}". Salvation is covenantal, not formulaic.'))
+
+        # 3. Institutional-church framing
+        MAP_CHURCH_AUTHORITY = [
+            'the church teaches', 'church doctrine', 'church tradition',
+        ]
+        for phrase in MAP_CHURCH_AUTHORITY:
+            if phrase in desc_lower:
+                findings.append(('WARNING', f'desc_{i}',
+                    f'Institutional-church framing: "{phrase}". '
+                    'Ekklesia = governing assembly. Cite Scripture, not church tradition.'))
+
+        # 4. Sanitized prophetic emotion
+        MAP_SOFT_PROPHETIC = [
+            'gently reminded', 'lovingly corrected', 'kindly warned',
+            'gently warned', 'lovingly reminded',
+        ]
+        for phrase in MAP_SOFT_PROPHETIC:
+            if phrase in desc_lower:
+                findings.append(('WARNING', f'desc_{i}',
+                    f'Sanitized prophetic tone: "{phrase}". '
+                    'Prophets were covenant prosecutors, not pastoral counselors.'))
+
+        # 5. Wrong Satan's-fall timing
+        MAP_SATAN_EDEN = [
+            'satan fell in eden', "satan's rebellion in the garden",
+            'evil began in eden', "satan's fall in the garden", 'devil fell in eden',
+        ]
+        for phrase in MAP_SATAN_EDEN:
+            if phrase in desc_lower:
+                findings.append(('WARNING', f'desc_{i}',
+                    f'Incorrect Satan-fall timing: "{phrase}". '
+                    'Satan fell BEFORE Eden. Eden was his first act of war, not his origin.'))
+
+        # 6. Single-rebellion conflation
+        MAP_SINGLE_REBELLION = [
+            'the rebellion in heaven', 'the original rebellion', 'the cosmic rebellion',
+            'the one rebellion', 'all evil traces back to one rebellion', 'single rebellion',
+        ]
+        for phrase in MAP_SINGLE_REBELLION:
+            if phrase in desc_lower:
+                findings.append(('WARNING', f'desc_{i}',
+                    f'Single-rebellion conflation: "{phrase}". '
+                    'Three independent rebellions: Satan\'s fall, Watcher rebellion (Hermon), Babel scattering.'))
 
     print(f"  Scanned {len(descriptions)} waypoint descriptions for theological accuracy")
     return findings

@@ -6,6 +6,9 @@ Covers Jude 1-25 in 2 chapter groupings.
 
 CHAPTERS = [
     {
+        'id': 'jude-contend-1',
+        'era': 'jude_contend',
+        'chapter_num': 1,
         'type': 'chapter',
         'title': 'The Fallen Watchers \u2014 Angels Who Abandoned Their Authority',
         'ref': 'Jude 1-16',
@@ -316,6 +319,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': 'jude-contend-2',
+        'era': 'jude_contend',
+        'chapter_num': 2,
         'type': 'chapter',
         'title': 'Kept for Jesus Christ \u2014 The Magnificent Doxology',
         'ref': 'Jude 17-25',

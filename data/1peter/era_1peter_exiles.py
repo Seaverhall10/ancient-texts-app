@@ -6,6 +6,9 @@ Covers 1 Peter 1-5 in 3 chapter groupings.
 
 CHAPTERS = [
     {
+        'id': '1pet-exiles-1',
+        'era': '1peter_exiles',
+        'chapter_num': 1,
         'type': 'chapter',
         'title': 'Elect Exiles \u2014 Living Stones and the Royal Priesthood',
         'ref': '1 Peter 1:1\u20142:12',
@@ -244,6 +247,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': '1pet-exiles-2',
+        'era': '1peter_exiles',
+        'chapter_num': 2,
         'type': 'chapter',
         'title': 'The Spirits in Prison \u2014 Christ\'s Cosmic Victory Proclamation',
         'ref': '1 Peter 2:13\u20143:22',
@@ -497,6 +503,9 @@ CHAPTERS = [
         )
     },
     {
+        'id': '1pet-exiles-3',
+        'era': '1peter_exiles',
+        'chapter_num': 3,
         'type': 'chapter',
         'title': 'The Fiery Trial \u2014 Suffering and the Devil Who Prowls',
         'ref': '1 Peter 4:1\u20145:14',

@@ -80,3 +80,5 @@ data/manifest.json
 # ── Misc ──────────────────────────────────────────────
 lector_batch_summary.json
 *.log
+*.bak
+syntax_check.log
