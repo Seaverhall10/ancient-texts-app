@@ -2079,9 +2079,11 @@
                 '<div class="book-hero-stat"><span class="book-stat-num">' + progressPct + '%</span><span class="book-stat-label">Read</span></div>' +
                 '</div>';
         }
+        var hasMapRoutes = (BOOK_TO_JOURNEYS[textId] || []).length > 0;
         html += '<div class="book-hero-actions">' +
             '<button class="book-start-btn" id="book-start-reading">' + (isThematic ? 'Start Study' : 'Start Reading') + '</button>' +
             (isThematic ? '' : '<button class="book-study-btn" id="book-study-mode">Study Mode</button>') +
+            (hasMapRoutes ? '<button class="book-map-btn" id="book-map-btn">\ud83d\uddfa\ufe0f Map</button>' : '') +
             '</div>';
 
         html += '</div>'; // .book-hero
@@ -2175,11 +2177,18 @@
         }
         html += '</div>';
 
-        // Mini Map placeholder
-        html += '<div class="book-mini-map" id="bookMiniMap">' +
-            '<h3 class="book-section-header">Map</h3>' +
-            '<div class="book-mini-map-placeholder">Map coming soon</div>' +
-            '</div>';
+        // Map button — opens full map filtered to this book's journeys
+        var bookJourneys = BOOK_TO_JOURNEYS[textId] || [];
+        if (bookJourneys.length > 0) {
+            var journeyCount = bookJourneys.length;
+            html += '<div class="book-mini-map" id="bookMiniMap">' +
+                '<button class="book-view-map-btn" id="bookViewMapBtn">' +
+                '<span class="book-map-icon">\ud83d\uddfa\ufe0f</span>' +
+                '<span class="book-map-label">View Journey Map</span>' +
+                '<span class="book-map-count">' + journeyCount + ' route' + (journeyCount > 1 ? 's' : '') + '</span>' +
+                '</button>' +
+                '</div>';
+        }
 
         // Related Books
         html += '<div class="book-related">' +
@@ -2258,6 +2267,16 @@
         var studyBtn = document.getElementById('book-study-mode');
         if (studyBtn) {
             studyBtn.addEventListener('click', function() { selectText(textId); });
+        }
+
+        // View Map buttons (sidebar card + hero action)
+        var mapBtn = document.getElementById('bookViewMapBtn');
+        if (mapBtn) {
+            mapBtn.addEventListener('click', function() { openMapForBook(textId); });
+        }
+        var mapHeroBtn = document.getElementById('book-map-btn');
+        if (mapHeroBtn) {
+            mapHeroBtn.addEventListener('click', function() { openMapForBook(textId); });
         }
 
         // Era toggles — expand/collapse
@@ -2456,6 +2475,15 @@
             '<span class="bible-btn-icon">&#128279;</span>' +
             '<span class="bible-btn-label">Refs</span>' +
             '</button>' +
+            '<button class="bible-il-btn" id="bibleILBtn">' +
+            '<span class="bible-btn-icon">\ud83d\udd24</span>' +
+            '<span class="bible-btn-label">' + (textDef.category === 'nt' ? 'Greek' : 'Hebrew') + '</span>' +
+            '</button>' +
+            ((BOOK_TO_JOURNEYS[textId] || []).length > 0 ?
+            '<button class="bible-map-btn" id="bibleMapBtn">' +
+            '<span class="bible-btn-icon">\ud83d\uddfa\ufe0f</span>' +
+            '<span class="bible-btn-label">Map</span>' +
+            '</button>' : '') +
             '<button class="bible-nav-btn" id="bibleNext" data-delta="1"' + (currentBibleChapter >= bibleTotalChapters ? ' disabled' : '') + '>' +
             '<span class="bible-btn-icon">&rarr;</span>' +
             '<span class="bible-btn-label">Next</span>' +
@@ -2590,6 +2618,22 @@
                     }
                 }
             });
+        }
+
+        // Interlinear button — open reading pane with current chapter
+        var ilBtn = document.getElementById('bibleILBtn');
+        if (ilBtn) {
+            ilBtn.addEventListener('click', function() {
+                currentILBook = textId;
+                renderInterlinear(currentBibleChapter);
+                setReadingPane(true);
+            });
+        }
+
+        // Map button in Bible Mode bottom bar
+        var bibleMapBtn = document.getElementById('bibleMapBtn');
+        if (bibleMapBtn) {
+            bibleMapBtn.addEventListener('click', function() { openMapForBook(textId); });
         }
 
         // Drawer tabs
@@ -9185,6 +9229,138 @@
     var mapBaseLayers = {};
     var mapOverlayLayers = {};
     var mapLayerControl = null;
+
+    // ── BOOK-TO-JOURNEYS MAPPING ─────────────────────────────
+    var BOOK_TO_JOURNEYS = {
+        'genesis': ['watcher_descent', 'nimrod_expansion', 'abraham', 'abrahams_war', 'isaac', 'jacob', 'joseph'],
+        'exodus': ['moses_life', 'exodus'],
+        'leviticus': ['exodus'],
+        'numbers': ['spies_route', 'balaam', 'wilderness'],
+        'deuteronomy': ['wilderness'],
+        'joshua': ['conquest'],
+        'judges': ['conquest', 'philistine_migration'],
+        'ruth': [],
+        '1samuel': ['ark_journey', 'giant_slayer', 'david_flight'],
+        '2samuel': ['david_flight'],
+        '1kings': ['elijah'],
+        '2kings': ['elijah'],
+        '1chronicles': ['david_flight'],
+        '2chronicles': [],
+        'psalms': ['david_flight'],
+        'job': [],
+        'proverbs': [],
+        'ecclesiastes': [],
+        'songofsolomon': [],
+        'isaiah': [],
+        'jeremiah': [],
+        'ezekiel': [],
+        'daniel': ['nimrod_expansion'],
+        'hosea': [],
+        'joel': [],
+        'amos': [],
+        'obadiah': [],
+        'jonah': [],
+        'micah': [],
+        'nahum': ['nimrod_expansion'],
+        'habakkuk': [],
+        'zephaniah': [],
+        'haggai': [],
+        'zechariah': [],
+        'malachi': [],
+        'lamentations': [],
+        'ezra': [],
+        'nehemiah': [],
+        'esther': [],
+        'matthew': ['jesus_galilee', 'jesus_final_week'],
+        'mark': ['jesus_galilee', 'jesus_final_week'],
+        'luke': ['jesus_galilee', 'jesus_final_week'],
+        'john': ['jesus_galilee', 'jesus_final_week'],
+        'acts': ['paul_journey1', 'paul_journey2', 'paul_journey3'],
+        'romans': ['paul_journey3'],
+        '1corinthians': ['paul_journey2', 'paul_journey3'],
+        '2corinthians': ['paul_journey2', 'paul_journey3'],
+        'galatians': ['paul_journey1'],
+        'ephesians': ['paul_journey3'],
+        'philippians': ['paul_journey2'],
+        'colossians': ['paul_journey3'],
+        '1thessalonians': ['paul_journey2'],
+        '2thessalonians': ['paul_journey2'],
+        '1timothy': ['paul_journey3'],
+        '2timothy': ['paul_journey3'],
+        'titus': ['paul_journey3'],
+        'philemon': ['paul_journey3'],
+        'hebrews': ['exodus'],
+        'james': [],
+        '1peter': [],
+        '2peter': [],
+        '1john': [],
+        '2john': [],
+        '3john': [],
+        'jude': ['watcher_descent'],
+        'revelation': [],
+        '1enoch': ['watcher_descent'],
+        'giants': ['watcher_descent'],
+        'jubilees': ['watcher_descent', 'abraham'],
+        'jasher': ['abraham', 'jacob', 'joseph', 'exodus'],
+        'genesis_apocryphon': ['abraham'],
+        'dss_sectarian': [],
+        'josephus': ['jesus_final_week'],
+        'heavenly_court': ['watcher_descent'],
+        'messianic_thread': [],
+        'nephilim_giants': ['watcher_descent', 'giant_slayer', 'conquest'],
+        'three_rebellions': ['watcher_descent', 'nimrod_expansion'],
+        'enoch_council': ['watcher_descent']
+    };
+
+    function openMapForBook(textId) {
+        openMap();
+        // Wait for map initialization then filter
+        var checkMap = setInterval(function() {
+            if (mapInstance && Object.keys(mapOverlayLayers).length > 0) {
+                clearInterval(checkMap);
+                filterMapForBook(textId);
+            }
+        }, 100);
+        // Safety timeout
+        setTimeout(function() { clearInterval(checkMap); }, 5000);
+    }
+
+    function filterMapForBook(textId) {
+        var bookJourneys = BOOK_TO_JOURNEYS[textId] || [];
+        if (bookJourneys.length === 0) return; // Show all if no mapping
+
+        // Remove all journey layers first
+        MAP_JOURNEYS.forEach(function(journey) {
+            var layerKey = '\ud83d\uddfaï¸ ' + journey.name;
+            var layer = mapOverlayLayers[layerKey];
+            if (layer && mapInstance.hasLayer(layer)) {
+                mapInstance.removeLayer(layer);
+            }
+        });
+
+        // Add only relevant journeys and collect bounds
+        var allCoords = [];
+        MAP_JOURNEYS.forEach(function(journey) {
+            if (bookJourneys.indexOf(journey.id) !== -1) {
+                var layerKey = '\ud83d\uddfaï¸ ' + journey.name;
+                var layer = mapOverlayLayers[layerKey];
+                if (layer) {
+                    layer.addTo(mapInstance);
+                    journey.waypoints.forEach(function(wp) {
+                        allCoords.push([wp.lat, wp.lng]);
+                    });
+                }
+            }
+        });
+
+        // Fit map bounds to the visible journeys
+        if (allCoords.length > 1) {
+            var bounds = L.latLngBounds(allCoords);
+            mapInstance.fitBounds(bounds.pad(0.15));
+        } else if (allCoords.length === 1) {
+            mapInstance.setView(allCoords[0], 8);
+        }
+    }
 
     // ── LEARN HEBREW ──────────────────────────────────────────
     function openHebrew() {

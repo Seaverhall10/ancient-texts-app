@@ -19,7 +19,12 @@
 }
 
 body.bible-mode-active .app-container {
-    display: none !important;
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    pointer-events: none !important;
 }
 
 body.bible-mode-active .bible-mode {
@@ -194,7 +199,9 @@ body.bible-mode-active {
 .bible-nav-btn,
 .bible-chapter-btn,
 .bible-notes-btn,
-.bible-xref-btn {
+.bible-xref-btn,
+.bible-il-btn,
+.bible-map-btn {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -214,7 +221,8 @@ body.bible-mode-active {
 .bible-nav-btn .btn-icon,
 .bible-chapter-btn .btn-icon,
 .bible-notes-btn .btn-icon,
-.bible-xref-btn .btn-icon {
+.bible-xref-btn .btn-icon,
+.bible-il-btn .btn-icon {
     font-size: 1.2rem;
     line-height: 1;
 }
@@ -222,7 +230,8 @@ body.bible-mode-active {
 .bible-nav-btn:hover,
 .bible-chapter-btn:hover,
 .bible-notes-btn:hover,
-.bible-xref-btn:hover {
+.bible-xref-btn:hover,
+.bible-il-btn:hover {
     color: var(--gold-light);
     background: var(--gold-dim);
 }
@@ -230,7 +239,8 @@ body.bible-mode-active {
 .bible-nav-btn.active,
 .bible-chapter-btn.active,
 .bible-notes-btn.active,
-.bible-xref-btn.active {
+.bible-xref-btn.active,
+.bible-il-btn.active {
     color: var(--gold);
     border-bottom: 2px solid var(--gold);
 }
@@ -510,10 +520,13 @@ body.bible-mode-active {
     .bible-nav-btn,
     .bible-chapter-btn,
     .bible-notes-btn,
-    .bible-xref-btn {
-        min-width: 52px;
+    .bible-xref-btn,
+    .bible-il-btn,
+    .bible-map-btn {
+        min-width: 40px;
         min-height: 48px;
-        padding: var(--space-xs) var(--space-xs);
+        padding: var(--space-xs) 1px;
+        font-size: 0.55rem;
     }
 
     .bible-picker-grid {
@@ -532,6 +545,30 @@ body.bible-mode-active {
     .bible-drawer-handle::before {
         width: 44px;
         height: 5px;
+    }
+}
+
+/* ── Reading Pane in Bible Mode ───────────────────────────── */
+/* Override clip on app-container so the fixed reading pane can render */
+body.bible-mode-active.reading-pane-open .app-container {
+    clip: auto !important;
+    overflow: visible !important;
+}
+body.bible-mode-active.reading-pane-open .reading-pane {
+    display: flex !important;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 50% !important;
+    height: 100vh !important;
+    z-index: 10010 !important;
+    pointer-events: auto !important;
+    background: var(--bg-primary) !important;
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.3) !important;
+}
+@media (max-width: 768px) {
+    body.bible-mode-active.reading-pane-open .reading-pane {
+        width: 100% !important;
     }
 }
 
