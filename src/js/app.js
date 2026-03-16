@@ -1491,7 +1491,7 @@
     function renderLibraryMain() {
         var html = '<div class="library-hero">' +
             '<h1 class="library-title">Ancient Texts Library</h1>' +
-            '<p class="library-subtitle">Divine council, cosmic geography &amp; covenant structure &mdash; the framework the biblical authors wrote within.</p>' +
+            '<p class="library-subtitle">Deep study of Scripture in the original languages &mdash; Hebrew, Greek, and the ancient world that shaped every word.</p>' +
             '</div>';
 
         // ─── TAB BAR ───
@@ -1748,20 +1748,6 @@
             }
         ];
 
-        html += '<div class="short-dives-section short-dives-featured">' +
-            '<h2 class="short-dives-heading">\u26A1 Short Dives</h2>' +
-            '<p class="short-dives-subtitle">Two-minute reads that change how you see the text. One insight, everything shifts.</p>' +
-            '<div class="short-dives-grid">';
-        SHORT_DIVES.forEach(function(sd) {
-            html += '<div class="short-dive-card" data-text="' + sd.text + '" style="--card-color:' + sd.color + '">' +
-                '<span class="short-dive-tag">' + sd.tag + '</span>' +
-                '<h3 class="short-dive-title">' + sd.title + '</h3>' +
-                '<p class="short-dive-insight">' + sd.insight + '</p>' +
-                '<span class="short-dive-cta">Read the full study \u2192</span>' +
-                '</div>';
-        });
-        html += '</div></div>';
-
         // Featured Studies — curated deep dives with "why it matters" hooks
         var FEATURED_STUDIES = [
             { text: 'psalms', era: 'psalms_cosmic', title: 'The Cosmic Psalms', hook: 'Psalm 82 says God judged the gods. Psalm 29 dismantles Baal. Psalm 110 installs the Melchizedek king. Five psalms that reveal the invisible war behind Israel\u2019s worship.', badge: 'OT', color: '#4a8a6a' },
@@ -1800,6 +1786,28 @@
                 '<h3 class="trail-card-name">' + trail.name + '</h3>' +
                 '<p class="trail-card-desc">' + trail.desc + '</p>' +
                 '<span class="trail-card-count">' + trail.steps.length + ' stops</span>' +
+                '</div>';
+        });
+        html += '</div></div>';
+
+        // ─── SHORT DIVES — punchy "wait, WHAT?" theological insights (carousel) ───
+        html += '<div class="short-dives-section short-dives-carousel">' +
+            '<div class="short-dives-header">' +
+            '<div><h2 class="short-dives-heading">\u26A1 Short Dives</h2>' +
+            '<p class="short-dives-subtitle">Two-minute insights that shift how you see the text.</p></div>' +
+            '<div class="short-dives-nav">' +
+            '<button class="sd-nav-btn" id="sdPrev" aria-label="Previous">&larr;</button>' +
+            '<button class="sd-nav-btn" id="sdNext" aria-label="Next">&rarr;</button>' +
+            '</div></div>' +
+            '<div class="short-dives-track" id="sdTrack">';
+        SHORT_DIVES.forEach(function(sd) {
+            var chMatch = sd.tag.match(/(\d+)/);
+            var sdChapter = chMatch ? chMatch[1] : '';
+            html += '<div class="short-dive-card" data-text="' + sd.text + '" data-chapter="' + sdChapter + '" style="--card-color:' + sd.color + '">' +
+                '<span class="short-dive-tag">' + sd.tag + '</span>' +
+                '<h3 class="short-dive-title">' + sd.title + '</h3>' +
+                '<p class="short-dive-insight">' + sd.insight + '</p>' +
+                '<span class="short-dive-cta">Read the full study \u2192</span>' +
                 '</div>';
         });
         html += '</div></div>';
@@ -2020,7 +2028,8 @@
         mainContent.querySelectorAll('.featured-study-card').forEach(function(card) {
             card.addEventListener('click', function() {
                 var textId = this.getAttribute('data-text');
-                if (textId) showBookLanding(textId);
+                var eraId = this.getAttribute('data-era');
+                if (textId) showBookLanding(textId, eraId);
             });
         });
 
@@ -2028,7 +2037,15 @@
         mainContent.querySelectorAll('.short-dive-card').forEach(function(card) {
             card.addEventListener('click', function() {
                 var textId = this.getAttribute('data-text');
-                if (textId) showBookLanding(textId);
+                if (!textId) return;
+                var bibleChapter = parseInt(this.getAttribute('data-chapter'), 10);
+                var textDef = getTextDef(textId);
+                var isScripture = textDef && (textDef.category === 'ot' || textDef.category === 'nt');
+                if (isScripture && bibleChapter) {
+                    showBibleMode(textId, bibleChapter - 1);
+                } else {
+                    showBookLanding(textId);
+                }
             });
         });
 
@@ -2052,13 +2069,26 @@
             card.classList.add('stagger-in');
             card.style.animationDelay = (i * 50) + 'ms';
         });
+
+        // Short dives carousel scroll arrows
+        var sdTrack = document.getElementById('sdTrack');
+        var sdPrev = document.getElementById('sdPrev');
+        var sdNext = document.getElementById('sdNext');
+        if (sdTrack && sdPrev && sdNext) {
+            sdPrev.addEventListener('click', function() {
+                sdTrack.scrollBy({ left: -300, behavior: 'smooth' });
+            });
+            sdNext.addEventListener('click', function() {
+                sdTrack.scrollBy({ left: 300, behavior: 'smooth' });
+            });
+        }
     }
 
     // ═══════════════════════════════════════════════════════
     // BOOK LANDING PAGE
     // ═══════════════════════════════════════════════════════
 
-    function showBookLanding(textId) {
+    function showBookLanding(textId, highlightEra) {
         var textDef = getTextDef(textId);
         if (!textDef) return;
 
@@ -2088,11 +2118,11 @@
         location.hash = 'book/' + textId;
 
         // Render the landing page
-        renderBookLanding(textId);
+        renderBookLanding(textId, highlightEra);
         window.scrollTo(0, 0);
     }
 
-    function renderBookLanding(textId) {
+    function renderBookLanding(textId, highlightEra) {
         var textDef = getTextDef(textId);
         if (!textDef) return;
 
@@ -2390,11 +2420,45 @@
                 }
             });
         }
+
+        // Auto-expand and scroll to highlighted era (from Featured Studies)
+        if (highlightEra) {
+            for (var hi = 0; hi < eras.length; hi++) {
+                if (eras[hi].id === highlightEra) {
+                    var eraEl = mainContent.querySelector('[data-era-idx="' + hi + '"]');
+                    if (eraEl) {
+                        eraEl.classList.add('open');
+                        var chapList = eraEl.querySelector('.book-outline-chapters');
+                        if (chapList) chapList.style.display = '';
+                        var chevron = eraEl.querySelector('.book-outline-chevron');
+                        if (chevron) chevron.style.transform = 'rotate(90deg)';
+                        setTimeout(function() {
+                            eraEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }, 150);
+                    }
+                    break;
+                }
+            }
+        }
     }
 
     // ═══════════════════════════════════════════════════════
     // BIBLE MODE (full-screen reading experience)
     // ═══════════════════════════════════════════════════════
+
+    // Get the Nth study chapter across all eras for a text (0-indexed)
+    function getStudyChapterByIndex(textId, index) {
+        var eras = getTextEras(textId);
+        var i = 0;
+        for (var e = 0; e < eras.length; e++) {
+            var chapters = ERA_DATA[eras[e].id] || [];
+            for (var c = 0; c < chapters.length; c++) {
+                if (i === index) return chapters[c];
+                i++;
+            }
+        }
+        return null;
+    }
 
     var currentBibleChapter = 0;  // current chapter NUMBER (1-based)
     var bibleTotalChapters = 0;   // total chapters for current book
@@ -2500,9 +2564,12 @@
         var html = '<div class="bible-mode" id="bibleMode">';
 
         // ─── TOP BAR ───
+        var isStudyText = textDef.category === 'thematic' || textDef.category === 'dss' || textDef.category === 'secondtemple' || textDef.category === 'pseudepigrapha';
+        var topBarStudyCh = isStudyText ? getStudyChapterByIndex(textId, chapterIndex) : null;
+        var topBarTitle = topBarStudyCh && topBarStudyCh.title ? esc(topBarStudyCh.title) : esc(textDef.name) + ' ' + currentBibleChapter;
         html += '<div class="bible-top-bar">' +
             '<button class="bible-back-btn" id="bibleBack">&larr;</button>' +
-            '<span class="bible-book-title">' + esc(textDef.name) + ' ' + currentBibleChapter + '</span>' +
+            '<span class="bible-book-title">' + topBarTitle + '</span>' +
             '<button class="bible-settings-btn" id="bibleSettings">&#9881;</button>' +
             '</div>' +
             '<div class="bible-progress-bar" id="bibleProgressBar"></div>';
@@ -2511,10 +2578,10 @@
         html += '<div class="bible-reader" id="bibleReader">' +
             '<div class="bible-chapter-content" id="bibleContent">';
 
-        // Original language hint (show once per session)
+        // Original language hint (show once per session, only for OT/NT with flow data)
         var origLang = textDef.category === 'nt' ? 'Greek' : 'Hebrew';
         var langHintKey = 'atl-lang-hint-dismissed';
-        if (!sessionStorage.getItem(langHintKey)) {
+        if (!isStudyText && !sessionStorage.getItem(langHintKey)) {
             html += '<div class="bible-lang-hint" id="bibleLangHint">' +
                 '<span class="bible-lang-hint-text">This English text is translated from the original <strong>' + origLang + '</strong>. ' +
                 'Tap <strong>\ud83d\udd24 ' + origLang + '</strong> below to see every word in the original language with grammar, morphology, and Strong\'s numbers.</span>' +
@@ -2534,7 +2601,32 @@
                 }
             });
         } else {
-            html += '<div class="bible-no-content">No scripture text available for ' + esc(textDef.name) + ' chapter ' + currentBibleChapter + '.</div>';
+            // Fallback: render study chapter content (for thematic texts without flow data)
+            var studyCh = getStudyChapterByIndex(textId, chapterIndex);
+            if (studyCh && studyCh.sections && studyCh.sections.length > 0) {
+                html += '<div class="bible-study-content">';
+                if (studyCh.title) {
+                    html += '<h2 class="bible-study-title">' + esc(studyCh.title) + '</h2>';
+                }
+                if (studyCh.synopsis) {
+                    html += '<p class="bible-study-synopsis">' + studyCh.synopsis + '</p>';
+                }
+                if (studyCh.key_verse && studyCh.key_verse.text) {
+                    html += '<blockquote class="bible-study-keyverse">' +
+                        '<span class="bible-study-keyverse-text">' + esc(studyCh.key_verse.text) + '</span>' +
+                        '<cite class="bible-study-keyverse-ref"> — ' + esc(studyCh.key_verse.ref || '') + '</cite>' +
+                        '</blockquote>';
+                }
+                studyCh.sections.forEach(function(sec) {
+                    html += '<div class="bible-study-section">';
+                    if (sec.heading) html += '<h3 class="bible-study-heading">' + esc(sec.heading) + '</h3>';
+                    if (sec.body) html += '<div class="bible-study-body">' + sec.body + '</div>';
+                    html += '</div>';
+                });
+                html += '</div>';
+            } else {
+                html += '<div class="bible-no-content">No content available for this chapter.</div>';
+            }
         }
 
         html += '</div></div>'; // #bibleContent, #bibleReader
@@ -3996,12 +4088,6 @@
                 return;
             }
 
-            var featured = e.target.closest('.library-featured-card');
-            if (featured && featured.dataset.text) {
-                showBookLanding(featured.dataset.text);
-                return;
-            }
-
             // Hidden Treasure card — open book landing
             var treasureCard = e.target.closest('.treasure-card');
             if (treasureCard && treasureCard.dataset.text) {
@@ -4873,6 +4959,32 @@
         });
     }
 
+    function updateProgressDisplay() {
+        // Refresh all visible progress indicators after cloud sync
+        updateSidebarReadCounts();
+        // Update chapter card checkboxes
+        document.querySelectorAll('.read-check').forEach(function(cb) {
+            var id = cb.dataset.id;
+            if (id) {
+                cb.checked = !!readChapters[id];
+                var card = cb.closest('.chapter-card');
+                if (card) card.classList.toggle('chapter-read', !!readChapters[id]);
+            }
+        });
+        // Update sidebar chapter link read dots
+        document.querySelectorAll('.chapter-link').forEach(function(link) {
+            var id = link.dataset.id;
+            if (!id) return;
+            link.classList.toggle('ch-read', !!readChapters[id]);
+            var dot = link.querySelector('.ch-read-dot');
+            if (readChapters[id] && !dot) {
+                link.insertAdjacentHTML('afterbegin', '<span class="ch-read-dot">\u2713</span>');
+            } else if (!readChapters[id] && dot) {
+                dot.remove();
+            }
+        });
+    }
+
     function renderBookmarks() {
         if (bookmarks.length === 0) {
             bookmarksContainer.innerHTML = '<div style="font-size:0.75rem;color:var(--text-muted);padding:4px 0">No bookmarks yet</div>';
@@ -5419,10 +5531,7 @@
         searchResults.classList.remove('visible');
     }
 
-    // Legacy buildSearchIndex — now a no-op (index is pre-built)
-    function buildSearchIndex(force) {
-        // Pre-built index loaded at init, no action needed
-    }
+    // Search index is pre-built at build time — no runtime build needed
 
     // ── Cross-Reference Drawer ──────────────────────────────
     function openXrefDrawer(chapterId, index) {
@@ -10406,9 +10515,7 @@
         });
     }
 
-    // Legacy stubs (replaced by layer control)
-    function addMapMarkers() {}
-    function updateMapMarkers() {}
+    // Map marker functions removed — replaced by layer control system
 
     // ── Bible Truth Matrix ──────────────────────────────────
     var matrixOverlay = document.getElementById('matrixOverlay');
@@ -12024,8 +12131,10 @@
 
     function initFirebaseAuth() {
         if (typeof firebase === 'undefined' || !firebase.apps) return;
+        var cfg = window.__FIREBASE_CONFIG;
+        if (!cfg || !cfg.apiKey) return; // No valid Firebase config — skip silently
         if (!firebase.apps.length) {
-            firebase.initializeApp(window.__FIREBASE_CONFIG || {});
+            firebase.initializeApp(cfg);
         }
         firestoreDb = firebase.firestore();
 
@@ -12176,7 +12285,7 @@
                 userMode = localStorage.getItem('atl-user-mode') || 'scholar';
                 ilRows = JSON.parse(localStorage.getItem('atl-il-rows') || 'null') || USER_MODES[userMode];
                 renderBookmarks();
-                if (typeof updateProgressDisplay === 'function') updateProgressDisplay();
+                updateProgressDisplay();
             })
             .catch(function() { setSyncDot(false); });
     }
@@ -12201,9 +12310,10 @@
         bindAuthEvents();
         initFirebaseAuth();
 
-        // Show auth overlay only on first visit (no user seen before)
+        // Show auth overlay only on first visit IF Firebase is properly configured
         var hasSeenAuth = localStorage.getItem('atl-auth-seen');
-        if (!hasSeenAuth && typeof firebase !== 'undefined') {
+        var hasFbConfig = window.__FIREBASE_CONFIG && window.__FIREBASE_CONFIG.apiKey;
+        if (!hasSeenAuth && typeof firebase !== 'undefined' && hasFbConfig) {
             // Brief delay to let Firebase check for existing session
             setTimeout(function() {
                 if (!authCurrentUser) showAuthOverlay();

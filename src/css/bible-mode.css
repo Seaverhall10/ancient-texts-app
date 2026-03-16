@@ -13,7 +13,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999;
+    z-index: var(--z-bible-mode);
     background: var(--bg-primary);
     color: var(--text-primary);
 }
@@ -140,6 +140,18 @@ body.bible-mode-active {
     margin: 0 auto;
     padding-bottom: var(--space-3xl);
 }
+
+/* ── Study Content (thematic texts without flow data) ─── */
+.bible-study-content { padding: var(--space-md) 0; }
+.bible-study-title { font-family: var(--font-heading); font-size: var(--text-2xl); color: var(--gold); margin-bottom: var(--space-md); line-height: var(--leading-tight); }
+.bible-study-synopsis { color: var(--text-secondary); font-size: var(--text-base); line-height: var(--leading-relaxed); margin-bottom: var(--space-lg); font-style: italic; }
+.bible-study-keyverse { border-left: 3px solid var(--gold-border); padding: var(--space-sm) var(--space-md); margin-bottom: var(--space-xl); background: var(--gold-dim); border-radius: var(--radius-sm); }
+.bible-study-keyverse-text { color: var(--text-primary); font-size: var(--text-base); line-height: var(--leading-relaxed); }
+.bible-study-keyverse-ref { display: block; margin-top: var(--space-xs); color: var(--gold); font-size: var(--text-sm); }
+.bible-study-section { margin-bottom: var(--space-xl); }
+.bible-study-heading { font-family: var(--font-heading); font-size: var(--text-lg); color: var(--gold-light); margin-bottom: var(--space-sm); }
+.bible-study-body { color: var(--text-primary); font-size: var(--text-base); line-height: var(--leading-relaxed); }
+.bible-no-content { text-align: center; color: var(--text-muted); padding: var(--space-2xl); font-size: var(--text-base); }
 
 /* ── Reading Progress Bar ─────────────────────────────────── */
 .bible-progress-bar {
@@ -352,7 +364,7 @@ body.bible-mode-active {
     display: none;
     position: fixed;
     inset: 0;
-    z-index: 1100;
+    z-index: var(--z-bible-drawer-backdrop);
 }
 
 .bible-chapter-picker.open {
@@ -439,7 +451,7 @@ body.bible-mode-active {
     background: var(--bg-card);
     border-top: 2px solid var(--gold);
     border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-    z-index: 1000;
+    z-index: var(--z-bible-drawer);
     max-height: 60vh;
     transform: translateY(calc(100% + 60px));
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -663,7 +675,7 @@ body.bible-mode-active.reading-pane-open .reading-pane {
     right: 0 !important;
     width: 50% !important;
     height: 100vh !important;
-    z-index: 10010 !important;
+    z-index: var(--z-bible-reading-pane) !important;
     pointer-events: auto !important;
     background: var(--bg-primary) !important;
     box-shadow: -4px 0 20px rgba(0, 0, 0, 0.3) !important;
@@ -681,7 +693,7 @@ body.bible-mode-active .mobile-bottom-nav {
 
 /* ── Map overlay above Bible Mode ────────────────────────── */
 body.bible-mode-active .map-overlay.open {
-    z-index: 10050 !important;
+    z-index: var(--z-bible-map-overlay) !important;
 }
 
 /* ── Floating Interlinear Close Button ───────────────────── */
@@ -689,7 +701,7 @@ body.bible-mode-active .map-overlay.open {
     position: fixed;
     top: 8px;
     right: 8px;
-    z-index: 10020;
+    z-index: var(--z-bible-il-close);
     background: var(--bg-card, #1a1e2e);
     color: var(--gold, #c9a84c);
     border: 1px solid var(--gold-border, rgba(201, 168, 76, 0.3));

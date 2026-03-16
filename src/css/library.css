@@ -385,6 +385,59 @@
     opacity: 1;
 }
 
+/* ── Short Dives Carousel ──────────────────── */
+.short-dives-carousel {
+    overflow: hidden;
+}
+.short-dives-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--space-md);
+    gap: var(--space-md);
+}
+.short-dives-nav {
+    display: flex;
+    gap: var(--space-xs);
+    flex-shrink: 0;
+}
+.sd-nav-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--gold-border);
+    background: var(--bg-card);
+    color: var(--gold);
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s, transform 0.15s;
+}
+.sd-nav-btn:hover {
+    background: var(--gold-dim);
+    transform: scale(1.1);
+}
+.short-dives-track {
+    display: flex;
+    gap: var(--space-md);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: var(--space-sm);
+}
+.short-dives-track::-webkit-scrollbar {
+    display: none;
+}
+.short-dives-carousel .short-dive-card {
+    min-width: 300px;
+    max-width: 300px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
 /* ── Study Tools Grid ────────────────────────── */
 .library-tools-section {
     padding: 0 20px 32px;
@@ -951,6 +1004,11 @@
     .library-grid {
         grid-template-columns: 1fr;
         padding: 0 var(--space-sm) var(--space-xl);
+    }
+
+    .short-dives-carousel .short-dive-card {
+        min-width: 260px;
+        max-width: 260px;
     }
 }
 
