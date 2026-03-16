@@ -751,6 +751,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 8px;
     padding: 16px 0 8px;
     border-bottom: 1px solid rgba(201, 168, 76, 0.1);
     margin-bottom: 16px;
@@ -766,6 +767,8 @@
     display: flex;
     align-items: center;
     gap: 8px;
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 
 .library-section-chevron {

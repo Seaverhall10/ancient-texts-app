@@ -1986,9 +1986,10 @@
             '<div class="book-hero-stat"><span class="book-stat-num">' + progressPct + '%</span><span class="book-stat-label">Read</span></div>' +
             '</div>';
 
+        var isThematic = textDef && textDef.category === 'thematic';
         html += '<div class="book-hero-actions">' +
-            '<button class="book-start-btn" id="book-start-reading">Start Reading</button>' +
-            '<button class="book-study-btn" id="book-study-mode">Study Mode</button>' +
+            '<button class="book-start-btn" id="book-start-reading">' + (isThematic ? 'Start Study' : 'Start Reading') + '</button>' +
+            (isThematic ? '' : '<button class="book-study-btn" id="book-study-mode">Study Mode</button>') +
             '</div>';
 
         html += '</div>'; // .book-hero
@@ -2152,13 +2153,16 @@
             backBtn.addEventListener('click', function() { showLibrary(); });
         }
 
-        // Start Reading
+        // Start Reading / Start Study
         var startBtn = document.getElementById('book-start-reading');
         if (startBtn) {
-            startBtn.addEventListener('click', function() { showBibleMode(textId, 0); });
+            var isThematicBtn = textDef && textDef.category === 'thematic';
+            startBtn.addEventListener('click', function() {
+                if (isThematicBtn) { selectText(textId); } else { showBibleMode(textId, 0); }
+            });
         }
 
-        // Study Mode
+        // Study Mode (not shown for thematic texts)
         var studyBtn = document.getElementById('book-study-mode');
         if (studyBtn) {
             studyBtn.addEventListener('click', function() { selectText(textId); });
