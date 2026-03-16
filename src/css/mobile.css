@@ -427,3 +427,8 @@ body.sidebar-open .main-content { overflow: hidden !important; }
     .mobile-bottom-nav { padding-bottom: calc(4px + env(safe-area-inset-bottom, 8px)); }
     .sidebar-toggle { top: calc(12px + env(safe-area-inset-top, 20px)); }
 }
+
+/* Hide mobile nav during Bible Mode (Bible has its own bottom bar) */
+body.bible-mode-active .mobile-bottom-nav {
+    display: none !important;
+}

@@ -2578,7 +2578,7 @@
             '<div class="bible-drawer-tabs">' +
             '<button class="bible-drawer-tab active" data-tab="study">Study</button>' +
             '<button class="bible-drawer-tab" data-tab="xrefs">Cross-Refs</button>' +
-            '<button class="bible-drawer-tab" data-tab="council">Council</button>' +
+            '<button class="bible-drawer-tab" data-tab="context">Context</button>' +
             '<button class="bible-drawer-tab" data-tab="settings">Settings</button>' +
             '</div>' +
             '<div class="bible-drawer-content" id="bibleDrawerContent">' +
@@ -2664,20 +2664,35 @@
             });
         });
 
-        // Study note tap — show inline popup
+        // Study note tap — toggle inline popup
         bibleRoot.querySelectorAll('.bible-verse-note').forEach(function(noteEl) {
             noteEl.addEventListener('click', function(e) {
                 e.stopPropagation();
-                // Remove any existing popup
+                var noteText = this.dataset.note;
+                // Check if this note's popup already exists (toggle off)
+                var existingNext = this.nextElementSibling;
+                if (existingNext && existingNext.classList.contains('bible-note-popup')) {
+                    existingNext.remove();
+                    this.classList.remove('note-active');
+                    return;
+                }
+                // Remove any other open popup
                 var existing = bibleRoot.querySelector('.bible-note-popup');
-                if (existing) existing.remove();
+                if (existing) {
+                    var prevNote = existing.previousElementSibling;
+                    if (prevNote) prevNote.classList.remove('note-active');
+                    existing.remove();
+                }
                 // Create popup
+                this.classList.add('note-active');
                 var popup = document.createElement('div');
                 popup.className = 'bible-note-popup';
-                popup.innerHTML = '<div class="bible-note-popup-text">' + this.dataset.note + '</div>' +
+                popup.innerHTML = '<div class="bible-note-popup-text">' + noteText + '</div>' +
                     '<button class="bible-note-popup-close">&times;</button>';
                 this.parentNode.insertBefore(popup, this.nextSibling);
                 popup.querySelector('.bible-note-popup-close').addEventListener('click', function() {
+                    var prev = popup.previousElementSibling;
+                    if (prev) prev.classList.remove('note-active');
                     popup.remove();
                 });
             });
@@ -2752,13 +2767,36 @@
             });
         }
 
-        // Interlinear button — open reading pane with current chapter
+        // Interlinear button — toggle reading pane with current chapter
         var ilBtn = document.getElementById('bibleILBtn');
         if (ilBtn) {
             ilBtn.addEventListener('click', function() {
+                if (readingPaneOpen) {
+                    // Toggle off
+                    setReadingPane(false);
+                    var fc = document.getElementById('bibleILClose');
+                    if (fc) fc.remove();
+                    ilBtn.classList.remove('active');
+                    return;
+                }
                 currentILBook = textId;
                 renderInterlinear(currentBibleChapter);
                 setReadingPane(true);
+                ilBtn.classList.add('active');
+
+                // Create floating close button for Bible Mode
+                var oldClose = document.getElementById('bibleILClose');
+                if (oldClose) oldClose.remove();
+                var closeBtn = document.createElement('button');
+                closeBtn.id = 'bibleILClose';
+                closeBtn.className = 'bible-il-close-btn';
+                closeBtn.innerHTML = '&times; Close';
+                closeBtn.addEventListener('click', function() {
+                    setReadingPane(false);
+                    closeBtn.remove();
+                    ilBtn.classList.remove('active');
+                });
+                document.body.appendChild(closeBtn);
             });
         }
 
@@ -2980,9 +3018,9 @@
             html += '</div>';
         }
 
-        if (tabName === 'council') {
-            html += '<div class="bible-drawer-council">';
-            html += '<h4>Divine Council &mdash; Chapter ' + chapterNum + '</h4>';
+        if (tabName === 'context') {
+            html += '<div class="bible-drawer-context">';
+            html += '<h4>Historical Context &mdash; Chapter ' + chapterNum + '</h4>';
 
             // Check THC cross-refs
             var chPrefix = textId.replace(/[^a-z0-9]/g, '').substring(0, 3);
@@ -2991,13 +3029,13 @@
 
             if (thcRefs && thcRefs.length > 0) {
                 thcRefs.forEach(function(ref) {
-                    html += '<div class="bible-council-item">' +
-                        '<span class="bible-council-label">' + esc(ref.label) + '</span>' +
-                        (ref.note ? '<span class="bible-council-note">' + esc(ref.note) + '</span>' : '') +
+                    html += '<div class="bible-context-item">' +
+                        '<span class="bible-context-label">' + esc(ref.label) + '</span>' +
+                        (ref.note ? '<span class="bible-context-note">' + esc(ref.note) + '</span>' : '') +
                         '</div>';
                 });
             } else {
-                html += '<p class="bible-drawer-empty">No divine council connections found for this chapter.</p>';
+                html += '<p class="bible-drawer-empty">No historical context connections found for this chapter.</p>';
             }
             html += '</div>';
         }
@@ -9460,9 +9498,8 @@
         var bookJourneys = BOOK_TO_JOURNEYS[textId] || [];
         if (bookJourneys.length === 0) return; // Show all if no mapping
 
-        // Remove all journey layers first
-        MAP_JOURNEYS.forEach(function(journey) {
-            var layerKey = '\ud83d\uddfaï¸ ' + journey.name;
+        // Remove ALL overlay layers first (journeys, empires, territories, categories, everything)
+        Object.keys(mapOverlayLayers).forEach(function(layerKey) {
             var layer = mapOverlayLayers[layerKey];
             if (layer && mapInstance.hasLayer(layer)) {
                 mapInstance.removeLayer(layer);
