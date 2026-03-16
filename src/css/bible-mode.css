@@ -679,6 +679,11 @@ body.bible-mode-active .mobile-bottom-nav {
     display: none !important;
 }
 
+/* ── Map overlay above Bible Mode ────────────────────────── */
+body.bible-mode-active .map-overlay.open {
+    z-index: 10050 !important;
+}
+
 /* ── Floating Interlinear Close Button ───────────────────── */
 .bible-il-close-btn {
     position: fixed;
