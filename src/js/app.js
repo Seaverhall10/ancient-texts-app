@@ -1605,6 +1605,76 @@
                 insight: 'In Luke 19, a servant turns one mina into ten. His reward? \u201cYou shall have authority over ten cities.\u201d Not a mansion. Not a cloud. Not a harp. Ten cities to govern in the new creation. The parable of the minas is the clearest picture in the NT of differentiated reward \u2014 your faithfulness now determines your authority then.',
                 tag: 'THEMATIC \u2022 Luke 19:11\u201327',
                 color: '#c9a84c'
+            },
+            {
+                title: 'Because of the Angels',
+                text: '1corinthians',
+                insight: '1 Corinthians 11:10 \u2014 Paul says women should have exousia (\u201cauthority\u201d) on their head \u201cbecause of the angels.\u201d Dia tous angelous. Most commentaries skip this phrase. But in Second Temple context, angelic beings are present in worship assemblies (1QSa, 1QM). The Watchers of Genesis 6 violated the human\u2013divine boundary. According to 1 Enoch 6\u20138, they were drawn by human beauty. Paul\u2019s warning only makes sense if fallen angels are real, watching, and the boundary still matters.',
+                tag: 'NT \u2022 1 Cor 11:10',
+                color: '#5b8dbf'
+            },
+            {
+                title: 'We Will Judge Angels',
+                text: 'reward_bema',
+                insight: 'Paul drops it casually in 1 Corinthians 6:3: \u201cDo you not know that we will judge angels?\u201d The Greek krinouomen means to render a judicial verdict. Which angels? Psalm 82 names them \u2014 the divine beings assigned to govern nations at Babel (Deut 32:8) who ruled corruptly. God pronounced the sentence: \u201cYou shall die like men.\u201d The bema judgment isn\u2019t just about crowns and rewards. Believers are being trained to fill vacated council seats in the divine administration.',
+                tag: 'NT \u2022 1 Cor 6:3',
+                color: '#7a5a8a'
+            },
+            {
+                title: 'Christ Preached to Imprisoned Spirits',
+                text: '1peter',
+                insight: '1 Peter 3:19 \u2014 between the cross and resurrection, Christ \u201cwent and proclaimed to the spirits in prison.\u201d The Greek verb is kerysso \u2014 a herald\u2019s formal announcement, not euangelizo (gospel offer). These \u201cspirits\u201d are the divine beings from Genesis 6 who \u201cdid not obey\u201d in Noah\u2019s day. Jude 6 confirms angels are imprisoned. According to 1 Enoch 10\u201312, the Watchers were bound until judgment. Christ descended not to evangelize but to announce their defeat. A victory declaration, not a rescue mission.',
+                tag: 'NT \u2022 1 Pet 3:19',
+                color: '#4a6a8a'
+            },
+            {
+                title: '\u201cLet Us Make\u201d \u2014 Who Was God Talking To?',
+                text: 'genesis',
+                insight: 'Genesis 1:26 \u2014 \u201cLet us make man in our image.\u201d The plural has puzzled interpreters for millennia. Trinitarian reading is anachronistic \u2014 no Israelite reader would have heard that. The Hebrew answer: the divine council. Na\u2019aseh (\u201clet us make\u201d) uses the same cohortative plural as 1 Kings 22:19\u201320 where Yahweh asks the heavenly host \u201cWho will go?\u201d and Isaiah 6:8 where God says \u201cWho will go for us?\u201d Creation was a council event. Humanity was made to join the family business.',
+                tag: 'OT \u2022 Gen 1:26',
+                color: '#4a8a6a'
+            },
+            {
+                title: 'Ezekiel 28: Satan Was in Eden Before Adam',
+                text: 'ezekiel',
+                insight: 'Ezekiel 28:13\u201315 \u2014 addressed to the \u201cking of Tyre,\u201d but the details exceed any human ruler: \u201cYou were in Eden, the garden of God... you were an anointed guardian cherub (keruv mimshach hasokek)... you were blameless until unrighteousness was found in you.\u201d A throne-room guardian. Present in Eden. Blameless, then fallen. This is not metaphor \u2014 no Tyrian king walked among \u201cstones of fire.\u201d Satan fell BEFORE Genesis 3. The serpent in Eden was his second act, not his origin story.',
+                tag: 'OT \u2022 Ezek 28:13\u201315',
+                color: '#b5564a'
+            },
+            {
+                title: 'Pentecost Was a Babel Reversal',
+                text: 'acts',
+                insight: 'At Babel: languages confused, nations scattered, peoples assigned to divine beings other than Yahweh (Deut 32:8\u20139). At Pentecost: \u201cdevout men from every nation under heaven\u201d hear in their own languages (Acts 2:5\u20136). Luke uses diamerizo (\u201cdistribute\u201d) for the tongues of fire \u2014 the same word the Septuagint uses in Deuteronomy 32:8 for God distributing the nations. This is not coincidence. Pentecost was the cosmic reclamation \u2014 the nations being called back to Yahweh through the Spirit that Babel\u2019s judgment had scattered.',
+                tag: 'NT \u2022 Acts 2:1\u201311',
+                color: '#5b8dbf'
+            },
+            {
+                title: 'Daniel 10: Geopolitics Is Spiritual',
+                text: 'daniel',
+                insight: 'Gabriel tells Daniel the \u201cprince of Persia\u201d (sar malkhut paras) resisted him for 21 days until Michael \u2014 \u201cone of the chief princes\u201d \u2014 came to help (Dan 10:13). This is not a human king. No Persian emperor fights angels for three weeks. This is a divine being governing Persia \u2014 the same category as the sons of God assigned nations in Deuteronomy 32:8. Ephesians 6:12 confirms it: \u201cOur struggle is not against flesh and blood, but against the rulers, the authorities, the cosmic powers.\u201d Every empire has a spiritual administrator.',
+                tag: 'OT \u2022 Dan 10:13\u201321',
+                color: '#c9a84c'
+            },
+            {
+                title: 'The Arm of the LORD Is a Person',
+                text: 'isaiah',
+                insight: 'Isaiah 53:1 asks: \u201cTo whom has the arm of the LORD (zeroa\u2019 YHWH) been revealed?\u201d Read Isaiah 51:9\u201352:10 \u2014 the \u201carm\u201d is addressed as a distinct agent, awakened, called to act, clothed with strength. By chapter 53, the Servant IS the arm. The Hebrew Bible contains divine agents \u2014 the Angel of YHWH, the Name, the Word, the Arm \u2014 who act with Yahweh\u2019s full authority yet are distinguishable from Him. This isn\u2019t Christian eisegesis. It\u2019s embedded in the Hebrew grammar.',
+                tag: 'OT \u2022 Isa 53:1',
+                color: '#b5564a'
+            },
+            {
+                title: 'The Stoicheia: Cosmic Powers Behind Religion',
+                text: 'galatians',
+                insight: 'Paul warns against the stoicheia tou kosmou (Gal 4:3, 9; Col 2:8, 20) \u2014 usually translated \u201celementary principles.\u201d But in Greek cosmology, stoicheia referred to spiritual forces governing the cosmic order \u2014 the elemental powers that structured reality itself. Paul is not warning against kindergarten-level teaching. He\u2019s saying that all religious systems \u2014 Jewish Torah observance and pagan worship alike \u2014 operated within a cosmic framework of spiritual powers that Christ dismantled at the cross (Col 2:15). The stoicheia are dethroned.',
+                tag: 'NT \u2022 Gal 4:3\u20139',
+                color: '#7a5a8a'
+            },
+            {
+                title: 'Isaiah 24:21 \u2014 The Hidden Cosmic Judgment',
+                text: 'isaiah',
+                insight: 'Isaiah 24:21 \u2014 \u201cOn that day the LORD will punish (yifqod) the host of heaven in heaven, and the kings of the earth on the earth.\u201d The verb paqad means a formal judicial visitation \u2014 an official review with consequences. The \u201chost of heaven\u201d (tseva\u2019 hamarom) is not stars. It\u2019s the divine beings. This verse has been in Isaiah for 2,700 years, plainly stating that God will judicially punish angelic powers. It is Psalm 82\u2019s death sentence being executed. Most readers skim it as apocalyptic poetry. It\u2019s a court date.',
+                tag: 'OT \u2022 Isa 24:21',
+                color: '#4a6a8a'
             }
         ];
 
@@ -1684,12 +1754,14 @@
         html += '<div class="library-grid">';
         otTexts.forEach(function(t) {
             var eras = getTextEras(t.id);
-            var chCount = 0;
-            eras.forEach(function(era) {
-                var chapters = ERA_DATA[era.id] || [];
-                chapters.forEach(function(ch) { if (ch.type === 'chapter') chCount++; });
-            });
-            var hasContent = eras.length > 0;
+            var chCount = t.chapter_count || 0;
+            if (!chCount) {
+                eras.forEach(function(era) {
+                    var chapters = ERA_DATA[era.id] || [];
+                    chapters.forEach(function(ch) { if (ch.type === 'chapter') chCount++; });
+                });
+            }
+            var hasContent = eras.length > 0 || chCount > 0;
             var il = getTextInterlinear(t.id);
             var ilCount = Object.keys(il).length;
             var dssInfo = DSS_ATTESTATION[t.id];
@@ -1725,12 +1797,14 @@
         html += '<div class="library-grid">';
         ntTexts.forEach(function(t) {
             var eras = getTextEras(t.id);
-            var chCount = 0;
-            eras.forEach(function(era) {
-                var chapters = ERA_DATA[era.id] || [];
-                chapters.forEach(function(ch) { if (ch.type === 'chapter') chCount++; });
-            });
-            var hasContent = eras.length > 0;
+            var chCount = t.chapter_count || 0;
+            if (!chCount) {
+                eras.forEach(function(era) {
+                    var chapters = ERA_DATA[era.id] || [];
+                    chapters.forEach(function(ch) { if (ch.type === 'chapter') chCount++; });
+                });
+            }
+            var hasContent = eras.length > 0 || chCount > 0;
             var il = getTextInterlinear(t.id);
             var ilCount = Object.keys(il).length;
             var dssInfo = DSS_ATTESTATION[t.id];
@@ -1788,12 +1862,14 @@
                 html += '<div class="library-section-body"><div class="library-grid">';
                 catTexts.forEach(function(t) {
                     var eras = getTextEras(t.id);
-                    var chCount = 0;
-                    eras.forEach(function(era) {
-                        var chapters = ERA_DATA[era.id] || [];
-                        chapters.forEach(function(ch) { if (ch.type === 'chapter') chCount++; });
-                    });
-                    var hasContent = eras.length > 0;
+                    var chCount = t.chapter_count || 0;
+                    if (!chCount) {
+                        eras.forEach(function(era) {
+                            var chapters = ERA_DATA[era.id] || [];
+                            chapters.forEach(function(ch) { if (ch.type === 'chapter') chCount++; });
+                        });
+                    }
+                    var hasContent = eras.length > 0 || chCount > 0;
                     var il = getTextInterlinear(t.id);
                     var ilCount = Object.keys(il).length;
                     var dssInfo = DSS_ATTESTATION[t.id];
@@ -1806,9 +1882,10 @@
                         '<p class="library-card-desc">' + (t.description || '') + '</p>' +
                         '<div class="library-card-stats">';
                     if (hasContent) {
-                        html += '<span>' + chCount + ' chapters</span>';
+                        var isThematicCard = t.category === 'thematic';
+                        html += '<span>' + chCount + (isThematicCard ? ' topics' : ' chapters') + '</span>';
                         if (ilCount > 0) html += '<span>' + ilCount + ' interlinear</span>';
-                        html += '<span>' + eras.length + ' eras</span>';
+                        html += '<span>' + eras.length + (isThematicCard ? ' parts' : ' eras') + '</span>';
                     } else {
                         html += '<span class="library-coming">Coming soon</span>';
                     }
@@ -1955,16 +2032,25 @@
         var catColor = cat ? cat.color : '#888';
         var catLabel = cat ? (cat.label || cat.name) : textDef.category;
 
-        // Calculate stats
-        var totalChapters = 0;
+        // Calculate stats — use manifest chapter_count as fallback for mobile
+        var totalChapters = textDef.chapter_count || 0;
         var readCount = 0;
-        eras.forEach(function(era) {
-            var chapters = ERA_DATA[era.id] || [];
-            totalChapters += chapters.length;
-            chapters.forEach(function(ch) {
-                if (isChapterRead(ch.id)) readCount++;
+        if (!totalChapters) {
+            eras.forEach(function(era) {
+                var chapters = ERA_DATA[era.id] || [];
+                totalChapters += chapters.length;
+                chapters.forEach(function(ch) {
+                    if (isChapterRead(ch.id)) readCount++;
+                });
             });
-        });
+        } else {
+            eras.forEach(function(era) {
+                var chapters = ERA_DATA[era.id] || [];
+                chapters.forEach(function(ch) {
+                    if (isChapterRead(ch.id)) readCount++;
+                });
+            });
+        }
         var progressPct = totalChapters > 0 ? Math.round((readCount / totalChapters) * 100) : 0;
 
         var html = '<div class="book-landing">';
@@ -1980,13 +2066,19 @@
             html += '<p class="book-hero-desc">' + esc(textDef.description) + '</p>';
         }
 
-        html += '<div class="book-hero-stats">' +
-            '<div class="book-hero-stat"><span class="book-stat-num">' + totalChapters + '</span><span class="book-stat-label">Chapters</span></div>' +
-            '<div class="book-hero-stat"><span class="book-stat-num">' + eras.length + '</span><span class="book-stat-label">Eras</span></div>' +
-            '<div class="book-hero-stat"><span class="book-stat-num">' + progressPct + '%</span><span class="book-stat-label">Read</span></div>' +
-            '</div>';
-
         var isThematic = textDef && textDef.category === 'thematic';
+        if (isThematic) {
+            html += '<div class="book-hero-stats">' +
+                '<div class="book-hero-stat"><span class="book-stat-num">' + totalChapters + '</span><span class="book-stat-label">Topics</span></div>' +
+                '<div class="book-hero-stat"><span class="book-stat-num">' + eras.length + '</span><span class="book-stat-label">Parts</span></div>' +
+                '</div>';
+        } else {
+            html += '<div class="book-hero-stats">' +
+                '<div class="book-hero-stat"><span class="book-stat-num">' + totalChapters + '</span><span class="book-stat-label">Chapters</span></div>' +
+                '<div class="book-hero-stat"><span class="book-stat-num">' + eras.length + '</span><span class="book-stat-label">Eras</span></div>' +
+                '<div class="book-hero-stat"><span class="book-stat-num">' + progressPct + '%</span><span class="book-stat-label">Read</span></div>' +
+                '</div>';
+        }
         html += '<div class="book-hero-actions">' +
             '<button class="book-start-btn" id="book-start-reading">' + (isThematic ? 'Start Study' : 'Start Reading') + '</button>' +
             (isThematic ? '' : '<button class="book-study-btn" id="book-study-mode">Study Mode</button>') +

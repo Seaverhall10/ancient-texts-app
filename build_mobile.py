@@ -239,6 +239,18 @@ def main():
 
     print(f"  Eras: {len(era_data)} loaded")
 
+    # Inject chapter counts into manifest texts for mobile library display
+    for t in manifest.get("texts", []):
+        tid = t["id"]
+        ch_count = 0
+        for era_def in manifest.get("eras", []):
+            if era_def.get("text_id") == tid:
+                chapters = era_data.get(era_def["id"], [])
+                for ch in chapters:
+                    if isinstance(ch, dict) and ch.get("type") == "chapter":
+                        ch_count += 1
+        t["chapter_count"] = ch_count
+
     # Interlinear data — load all, merge flow translations
     interlinear_data = {}  # key: text_id, value: {chapter: {verses: [...]}}
 
@@ -672,6 +684,47 @@ def main():
             await loadTextData(textId);
         }"""
     js = js.replace(old_select, new_select, 1)
+
+    # ── Patch showBibleMode to load data first ──
+    old_bible = "    function showBibleMode(textId, chapterIndex) {"
+    new_bible = """    async function showBibleMode(textId, chapterIndex) {
+        // Mobile: load text data on demand
+        if (typeof IS_MOBILE !== 'undefined' && IS_MOBILE) {
+            await loadTextData(textId);
+        }"""
+    js = js.replace(old_bible, new_bible, 1)
+
+    # ── Patch showBookLanding to load data first ──
+    old_landing = "    function showBookLanding(textId) {"
+    new_landing = """    async function showBookLanding(textId) {
+        // Mobile: load text data on demand
+        if (typeof IS_MOBILE !== 'undefined' && IS_MOBILE) {
+            await loadTextData(textId);
+        }"""
+    js = js.replace(old_landing, new_landing, 1)
+
+    # ── Patch handleHash to be async (so it can await showBookLanding/showBibleMode) ──
+    old_hash = "    function handleHash() {"
+    new_hash = "    async function handleHash() {"
+    js = js.replace(old_hash, new_hash, 1)
+
+    # Make the showBookLanding call in handleHash use await
+    old_hash_book = """            hashHandling = true;
+            showBookLanding(bookId);
+            hashHandling = false;"""
+    new_hash_book = """            hashHandling = true;
+            await showBookLanding(bookId);
+            hashHandling = false;"""
+    js = js.replace(old_hash_book, new_hash_book, 1)
+
+    # Make the showBibleMode call in handleHash use await
+    old_hash_read = """            hashHandling = true;
+            showBibleMode(parts[1], chapterNum - 1);
+            hashHandling = false;"""
+    new_hash_read = """            hashHandling = true;
+            await showBibleMode(parts[1], chapterNum - 1);
+            hashHandling = false;"""
+    js = js.replace(old_hash_read, new_hash_read, 1)
 
     # ── Patch init to bootstrap ──
     # Find the init/DOMContentLoaded section and wrap it
