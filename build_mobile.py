@@ -244,7 +244,7 @@ def main():
         tid = t["id"]
         ch_count = 0
         for era_def in manifest.get("eras", []):
-            if era_def.get("text_id") == tid:
+            if era_def.get("text") == tid:
                 chapters = era_data.get(era_def["id"], [])
                 for ch in chapters:
                     if isinstance(ch, dict) and ch.get("type") == "chapter":
