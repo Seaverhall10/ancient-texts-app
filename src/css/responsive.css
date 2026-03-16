@@ -11,12 +11,13 @@
 /* Tablet portrait (768px): sidebar becomes drawer, pane becomes overlay */
 @media (max-width: 768px) {
     .app-container {
-        display: block;
+        display: block !important;
+        grid-template-columns: unset !important;
         height: 100vh;
         overflow: hidden;
     }
     body.reading-pane-open .app-container {
-        grid-template-columns: unset;
+        grid-template-columns: unset !important;
     }
 
     .resize-handle {

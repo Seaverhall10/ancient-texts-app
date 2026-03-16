@@ -285,11 +285,17 @@ def build():
                 print(f"[interlinear-{text_def['id']}] {len(il)} chapters, {total_words:,} words")
 
     # \u2500\u2500 Load and merge flow translations \u2500\u2500
+    standalone_flow = {}
+    standalone_notes = {}
     flow_dir = os.path.join(DATA_DIR, "flow")
     if os.path.isdir(flow_dir):
         for flow_file in sorted(os.listdir(flow_dir)):
-            if flow_file.startswith("flow_") and flow_file.endswith(".py") and flow_file.count("_") == 1:
-                book_name = flow_file.replace("flow_", "").replace(".py", "")
+            if flow_file.startswith("flow_") and flow_file.endswith(".py"):
+                book_name = flow_file[5:-3]  # strip "flow_" prefix and ".py" suffix
+                # Skip split files (e.g. flow_genesis_part1.py) but allow text_ids with underscores
+                known_ids = {t["id"] for t in manifest.get("texts", [])}
+                if book_name not in known_ids and flow_file.count("_") != 1:
+                    continue
                 flow_path = os.path.join(flow_dir, flow_file)
                 try:
                     flow_mod = load_module(flow_file.replace(".py", ""), flow_path)
@@ -335,6 +341,21 @@ def build():
                                         notes_merged += 1
                         notes_str = f", {notes_merged} notes" if notes_merged else ""
                         print(f"[flow-{book_name}] {merged} verse translations{notes_str} merged")
+                    else:
+                        # No interlinear — store as standalone flow
+                        # Map data_dir name to text_id (e.g. enoch1 → 1enoch)
+                        flow_text_id = book_name
+                        for t in manifest.get("texts", []):
+                            if t.get("data_dir") == book_name or t["id"] == book_name:
+                                flow_text_id = t["id"]
+                                break
+                        standalone_flow[flow_text_id] = {str(k): v for k, v in flow_data.items()}
+                        if notes_data:
+                            standalone_notes[flow_text_id] = {str(k): v for k, v in notes_data.items()}
+                        total_v = sum(len(ch) for ch in flow_data.values())
+                        total_n = sum(len(ch) for ch in notes_data.values()) if notes_data else 0
+                        ns = f", {total_n} notes" if total_n else ""
+                        print(f"[flow-{book_name}] {total_v} verses{ns} (standalone)")
 
     # \u2500\u2500 Read CSS \u2500\u2500
     if os.path.exists(SRC_CSS_ORDER):
@@ -414,6 +435,13 @@ def build():
         religions_detail = getattr(rel_mod, "RELIGIONS_DETAIL", {})
         print(f"[religions] {len(religions_detail)} religion profiles loaded")
     js = js.replace("__RELIGIONS_DETAIL_DATA__", json.dumps(religions_detail, ensure_ascii=False))
+
+    # Inject standalone flow translations (for texts without interlinear)
+    js = js.replace("__STANDALONE_FLOW_DATA__", json.dumps(standalone_flow, ensure_ascii=False))
+    js = js.replace("__STANDALONE_NOTES_DATA__", json.dumps(standalone_notes, ensure_ascii=False))
+    if standalone_flow:
+        total_sv = sum(sum(len(ch) for ch in text.values()) for text in standalone_flow.values())
+        print(f"[standalone-flow] {len(standalone_flow)} texts, {total_sv} total verses embedded")
 
     # ── Search Q&A ────────────────────────────────────────────
     search_qa_path = os.path.join(DATA_DIR, "search_qa.py")

@@ -367,6 +367,40 @@
                 { textId: 'genesis_apocryphon', label: 'Genesis Apocryphon (1QapGen)', why: 'One of the original 7 scrolls found in Cave 1 in 1947 \u2014 Noah and Abraham speak in first person. Badly deteriorated, only partially readable.' },
                 { textId: 'giants', label: 'Book of Giants \u2014 Nephilim at Qumran', why: 'Unknown until the DSS discovery \u2014 the Nephilim receive apocalyptic dreams of their coming judgment. Fills gaps in 1 Enoch\u2019s Watcher narrative.' }
             ]
+        },
+        {
+            id: 'resurrection-trail',
+            name: 'Death, Resurrection & New Creation',
+            icon: '\u2600',
+            color: '#7a6e8a',
+            desc: 'What happens when you die? Sheol, nephesh, bodily resurrection, and the physical new creation \u2014 the Hebrew answer to the Platonic afterlife.',
+            steps: [
+                { textId: 'sheol_resurrection', label: 'Sheol \u2014 The Hebrew Understanding', why: 'Not hell, not heaven \u2014 the universal waiting place everyone goes to' },
+                { textId: 'sheol_resurrection', label: 'Nephesh \u2014 You ARE a Soul', why: 'Genesis 2:7 says Adam BECAME a living soul. Plato said you HAVE one.' },
+                { textId: 'isaiah', label: 'Isaiah 26:19 \u2014 "Your Dead Shall Live"', why: 'The first clear resurrection promise in the Hebrew Bible' },
+                { textId: 'daniel', label: 'Daniel 12:2\u20133 \u2014 "Many Shall Awake"', why: 'Resurrection to life and judgment \u2014 bodily, differentiated' },
+                { textId: 'sheol_resurrection', label: '1 Corinthians 15 \u2014 Paul\u2019s Resurrection Argument', why: 'Soma pneumatikon. The last enemy. "We shall be changed."' },
+                { textId: 'sheol_resurrection', label: 'Purgatory Dismantled', why: 'Tetelestai + teteleioken = no further purification needed' },
+                { textId: 'sheol_resurrection', label: 'The New Creation', why: 'God comes DOWN. Physical earth. Embodied life. Better than "heaven."' },
+                { textId: 'revelation', label: 'Revelation 21\u201322 \u2014 All Things New', why: 'New Jerusalem descends. Tree of life reopened. "He will dwell with them."' }
+            ]
+        },
+        {
+            id: 'prophetic-matrix',
+            name: 'The Prophetic Matrix',
+            icon: '\uD83D\uDD2E',
+            color: '#b85c3a',
+            desc: 'The eight-stage prophetic sequence from the current age through Christ\u2019s return, the millennium, and the new creation \u2014 versus what you were taught.',
+            steps: [
+                { textId: 'prophetic_sequence', label: 'The Rapture Has a Birthday \u2014 1830', why: 'Zero attestation before Darby. The church never saw this for 1,800 years.' },
+                { textId: 'prophetic_sequence', label: 'Apantesis \u2014 One Return', why: '1 Thessalonians 4:17 is a civic escort, not an extraction.' },
+                { textId: 'prophetic_sequence', label: 'The Eight-Stage Sequence', why: 'Current age \u2192 Tribulation \u2192 Signs \u2192 Return \u2192 Resurrection \u2192 Millennium \u2192 Gog-Magog \u2192 New Creation' },
+                { textId: 'daniel', label: 'Daniel 7 \u2014 The Son of Man', why: 'Given dominion, glory, a kingdom \u2014 all peoples serve him' },
+                { textId: 'revelation', label: 'Revelation 20:1\u20136 \u2014 The Millennium', why: 'Six times "thousand years." First resurrection. Reigning with Christ.' },
+                { textId: 'prophetic_sequence', label: 'Gog-Magog \u2014 POST-Millennium', why: 'Revelation 20:7\u201310 = Ezekiel 38\u201339. One event. After the thousand years.' },
+                { textId: 'reward_bema', label: 'The Bema Seat \u2014 Reward, Not Punishment', why: '2 Corinthians 5:10. What you did IN THE BODY determines your authority.' },
+                { textId: 'reward_bema', label: 'Reigning With Christ', why: 'Divine council positions vacated. Believers fill them. Rev 22:5 forever.' }
+            ]
         }
     ];
 
@@ -398,10 +432,11 @@
         {
             group: 'Historical Sources',
             groupId: 'historical',
-            subtitle: 'First-century eyewitness accounts and ancient histories',
+            subtitle: 'First-century eyewitness accounts and church history tested against Scripture',
             color: '#5b8dbf',
             texts: [
-                { textId: 'josephus', title: 'Josephus', tagline: 'Eyewitness to the Temple\u2019s destruction, AD 70.', catalog: 'Jewish War, Antiquities, Against Apion' }
+                { textId: 'josephus', title: 'Josephus', tagline: 'Eyewitness to the Temple\u2019s destruction, AD 70.', catalog: 'Jewish War, Antiquities, Against Apion' },
+                { textId: 'church_history', title: 'Church History', tagline: 'Pentecost to the Reformation \u2014 tested against Scripture as the final standard.', catalog: 'AD 30\u20131648' }
             ]
         }
     ];
@@ -517,6 +552,10 @@
 
     // Religions detail data (injected by build.py — full doctrinal position text)
     var RELIGIONS_DETAIL = __RELIGIONS_DETAIL_DATA__;
+
+    // Standalone flow translations for texts without interlinear (1 Enoch, DSS, etc.)
+    var STANDALONE_FLOW = __STANDALONE_FLOW_DATA__;
+    var STANDALONE_NOTES = __STANDALONE_NOTES_DATA__;
 
     var ALIGNMENT_INFO = {
         full:      { label: 'Full Match',  color: '#22c55e' },
@@ -933,9 +972,21 @@
         updateModeUI();
         initHallelujahChat();
 
-        // Check hash — only navigate to a text if URL hash points to one
+        // Check hash — handle book landing, bible mode, or text view
         var hash = location.hash.slice(1);
         if (hash && hash !== 'library') {
+            // Book landing page
+            if (hash.startsWith('book/')) {
+                showBookLanding(hash.slice(5));
+                return;
+            }
+            // Bible reading mode — hash has 1-based chapter, convert to 0-based index
+            if (hash.startsWith('read/')) {
+                var parts = hash.split('/');
+                var chNum = parseInt(parts[2]) || 1;
+                showBibleMode(parts[1], chNum - 1);
+                return;
+            }
             var textFromHash = detectTextFromHash(hash);
             if (textFromHash) {
                 selectText(textFromHash, true);
@@ -980,7 +1031,10 @@
         closeAllOverlays();
         libraryMode = true;
         currentText = null;
-        document.body.classList.remove('text-selected');
+        document.body.classList.remove('text-selected', 'book-landing-view', 'bible-mode-active');
+        document.body.classList.add('library-fullwidth');
+        var oldBM = document.getElementById('bibleMode');
+        if (oldBM) oldBM.remove();
         localStorage.removeItem('atl-current-text');
         location.hash = '';
         setReadingPane(false);
@@ -991,6 +1045,7 @@
     function showProphecyMatrix() {
         libraryMode = true;
         currentText = null;
+        document.body.classList.remove('text-selected', 'library-fullwidth', 'book-landing-view', 'bible-mode-active');
         localStorage.removeItem('atl-current-text');
         location.hash = '#prophecy-matrix';
         setReadingPane(false);
@@ -1094,7 +1149,7 @@
     function showProphecyTracker(bookFilter) {
         libraryMode = true;
         currentText = null;
-        document.body.classList.remove('text-selected');
+        document.body.classList.remove('text-selected', 'library-fullwidth', 'book-landing-view', 'bible-mode-active');
         localStorage.removeItem('atl-current-text');
         location.hash = '#prophecy-tracker';
         setReadingPane(false);
@@ -1207,7 +1262,7 @@
     function showCoreBeliefs(topicId) {
         libraryMode = true;
         currentText = null;
-        document.body.classList.remove('text-selected');
+        document.body.classList.remove('text-selected', 'library-fullwidth', 'book-landing-view', 'bible-mode-active');
         localStorage.removeItem('atl-current-text');
         location.hash = '#core-beliefs';
         setReadingPane(false);
@@ -1439,7 +1494,23 @@
             '<p class="library-subtitle">Divine council, cosmic geography &amp; covenant structure &mdash; the framework the biblical authors wrote within.</p>' +
             '</div>';
 
-        // Recent texts section (continue reading)
+        // ─── TAB BAR ───
+        var savedTab = localStorage.getItem('atl-library-tab') || 'featured';
+        // Migration: old tab names → new defaults
+        if (savedTab === 'trails' || savedTab === 'browse') savedTab = 'featured';
+        html += '<div class="library-tab-bar">' +
+            '<button class="library-tab' + (savedTab === 'featured' ? ' active' : '') + '" data-library-tab="featured">Featured</button>' +
+            '<button class="library-tab' + (savedTab === 'ot' ? ' active' : '') + '" data-library-tab="ot">Old Testament</button>' +
+            '<button class="library-tab' + (savedTab === 'nt' ? ' active' : '') + '" data-library-tab="nt">New Testament</button>' +
+            '<button class="library-tab' + (savedTab === 'scrolls' ? ' active' : '') + '" data-library-tab="scrolls">Scrolls &amp; Studies</button>' +
+            '<button class="library-tab' + (savedTab === 'map' ? ' active' : '') + '" data-library-tab="map">Map</button>' +
+            '<button class="library-tab' + (savedTab === 'tools' ? ' active' : '') + '" data-library-tab="tools">Tools</button>' +
+            '</div>';
+
+        // ─── TAB: FEATURED ───
+        html += '<div class="library-tab-content' + (savedTab === 'featured' ? ' active' : '') + '" data-tab-content="featured">';
+
+        // Continue reading (if recent texts)
         var recentTexts = JSON.parse(localStorage.getItem('atl-recent-texts') || '[]');
         if (recentTexts.length > 0) {
             html += '<div class="library-recent-section">' +
@@ -1463,42 +1534,123 @@
             html += '</div></div>';
         }
 
-        // Quick Tools — shortcuts to key study tools
-        html += '<div class="library-tools-section">' +
-            '<h2 class="library-tools-heading">Study Tools</h2>' +
-            '<div class="library-tools-grid">' +
-            '<div class="library-tool-card" data-action="show-timeline"><span class="tool-icon">\uD83D\uDCC5</span><span class="tool-label">Timeline</span></div>' +
-            '<div class="library-tool-card" data-action="show-map"><span class="tool-icon">\uD83C\uDF0D</span><span class="tool-label">Ancient Map</span></div>' +
-            '<div class="library-tool-card" data-action="show-matrix"><span class="tool-icon">\u2696\uFE0F</span><span class="tool-label">Truth Matrix</span></div>' +
-            '<div class="library-tool-card" data-action="show-prophecy"><span class="tool-icon">\uD83D\uDD2E</span><span class="tool-label">Prophecy</span></div>' +
-            '<div class="library-tool-card" data-action="show-hebrew"><span class="tool-icon">\u05D0</span><span class="tool-label">Learn Hebrew</span></div>' +
-            '<div class="library-tool-card" data-action="show-glossary"><span class="tool-icon">\uD83D\uDCD6</span><span class="tool-label">Glossary</span></div>' +
-            '<div class="library-tool-card" data-action="show-patriarch-chart"><span class="tool-icon">\uD83D\uDCCA</span><span class="tool-label">Patriarch Ages</span></div>' +
-            '</div></div>';
+        // ─── SHORT DIVES — punchy "wait, WHAT?" theological insights (FIRST after Continue Reading) ───
+        var SHORT_DIVES = [
+            {
+                title: 'Jonah & the Fish God',
+                text: 'jonah',
+                insight: 'Jonah ran from Nineveh and ended up preached TO by a fish. But here\u2019s the wild part \u2014 Nineveh worshipped Dagon, a fish deity. Assyrian priests dressed in fish-skin costumes. So when a half-decomposed prophet walks out of the Mediterranean claiming the God of Israel sent him \u2014 via a giant fish \u2014 they didn\u2019t just listen. They were terrified. God used their own mythology to get their attention.',
+                tag: 'OT \u2022 Jonah 1\u20134',
+                color: '#4a8a9a'
+            },
+            {
+                title: 'Why 72 Disciples?',
+                text: 'luke',
+                insight: 'Jesus didn\u2019t pick a random number. Genesis 10 lists exactly 70\u201372 nations scattered at Babel. Deuteronomy 32:8 says God assigned those nations to divine beings \u2014 sons of God. When Jesus sends 72 disciples, He\u2019s reclaiming the nations. Luke 10:18: \u201cI saw Satan fall like lightning.\u201d This wasn\u2019t metaphor. It was a military report.',
+                tag: 'NT \u2022 Luke 10',
+                color: '#5b8dbf'
+            },
+            {
+                title: 'The Scapegoat Goes to Azazel',
+                text: 'leviticus',
+                insight: 'Leviticus 16 describes two goats on the Day of Atonement. One is sacrificed to Yahweh. The other is sent \u201cto Azazel\u201d in the wilderness. Most translations say \u201cscapegoat.\u201d But Azazel is a proper name \u2014 a Watcher from 1 Enoch who taught humanity forbidden knowledge. The sins are being sent BACK to their originator.',
+                tag: 'OT \u2022 Leviticus 16',
+                color: '#c9a84c'
+            },
+            {
+                title: 'The High Priest Tore His Robes \u2014 Why?',
+                text: 'mark',
+                insight: 'At Jesus\u2019 trial, the high priest asks: \u201cAre you the Christ?\u201d Jesus answers with Daniel 7:13 \u2014 \u201cYou will see the Son of Man sitting at the right hand of Power, coming on the clouds.\u201d The priest tears his robes. Not because Jesus claimed to be Messiah \u2014 many had. He tore them because cloud-riding was EXCLUSIVELY a divine prerogative. Jesus claimed to be God.',
+                tag: 'NT \u2022 Mark 14:62\u201363',
+                color: '#b5564a'
+            },
+            {
+                title: 'Psalm 82: God Fires the Gods',
+                text: 'psalms',
+                insight: '\u201cGod stands in the divine council; among the gods he holds judgment.\u201d This isn\u2019t metaphor. The Hebrew elohim here refers to real divine beings who were assigned to govern nations (Deut 32:8). They ruled corruptly. Verse 6\u20137: \u201cYou are gods \u2014 but you shall die like men.\u201d Jesus quotes this verse in John 10:34. He knew exactly what it meant.',
+                tag: 'OT \u2022 Psalm 82',
+                color: '#4a6a8a'
+            },
+            {
+                title: 'Paul\u2019s Roman Triumph in Colossians',
+                text: 'colossians',
+                insight: 'Colossians 2:15 \u2014 \u201cHe disarmed the rulers and authorities and put them to open shame, triumphing over them.\u201d The Greek word thriambeuo means a Roman triumphal procession \u2014 a conquered general paraded through the streets in chains. Paul is saying the Cross wasn\u2019t a defeat. It was a victory parade. The powers didn\u2019t know they were walking into their own public humiliation.',
+                tag: 'NT \u2022 Colossians 2:15',
+                color: '#7a5a8a'
+            },
+            {
+                title: 'Sheol Is Not Hell',
+                text: 'sheol_resurrection',
+                insight: 'Jacob expected to go to Sheol when he died (Gen 37:35). So did Job (Job 14:13). So did David (Ps 88:3). Sheol was the universal destination \u2014 righteous and wicked alike. It\u2019s not hell, not heaven, not purgatory. It\u2019s the waiting place. The Hebrew Bible never once describes the afterlife the way most churches teach it.',
+                tag: 'THEMATIC \u2022 Hebrew Afterlife',
+                color: '#7a6e8a'
+            },
+            {
+                title: 'Apantesis: The Word That Kills the Rapture',
+                text: 'prophetic_sequence',
+                insight: '1 Thessalonians 4:17 \u2014 \u201ccaught up to MEET the Lord.\u201d That word \u201cmeet\u201d is apantesis in Greek. It\u2019s a technical term: when a dignitary approaches a city, citizens go OUT to meet him and escort him BACK in. Acts 28:15 uses the same word for believers meeting Paul on the road and walking him INTO Rome. We go up to escort Him down.',
+                tag: 'THEMATIC \u2022 1 Thess 4:17',
+                color: '#b85c3a'
+            },
+            {
+                title: 'The Apostles Read a Different Bible',
+                text: 'canon_septuagint',
+                insight: 'The New Testament quotes the Old Testament roughly 300 times. About 80% of those quotations follow the Greek Septuagint \u2014 not the Hebrew Masoretic Text your English Bible translates from. The Masoretic was standardized 700\u20131000 AD. The Septuagint is 300 years older than Jesus. The Dead Sea Scrolls confirmed the Septuagint was right on key passages.',
+                tag: 'THEMATIC \u2022 LXX vs MT',
+                color: '#5a7a9a'
+            },
+            {
+                title: 'The Minas Parable: Cities, Not Clouds',
+                text: 'reward_bema',
+                insight: 'In Luke 19, a servant turns one mina into ten. His reward? \u201cYou shall have authority over ten cities.\u201d Not a mansion. Not a cloud. Not a harp. Ten cities to govern in the new creation. The parable of the minas is the clearest picture in the NT of differentiated reward \u2014 your faithfulness now determines your authority then.',
+                tag: 'THEMATIC \u2022 Luke 19:11\u201327',
+                color: '#c9a84c'
+            }
+        ];
 
-        // Ancient Library — non-canonical texts grouped by source
-        html += '<div class="ancient-library-section">' +
-            '<h2 class="ancient-library-heading">Ancient Library</h2>' +
-            '<p class="ancient-library-subtitle">Beyond the canon &mdash; texts the biblical authors knew, cited, and expected their audiences to understand.</p>';
-        ANCIENT_LIBRARY.forEach(function(group) {
-            html += '<div class="ancient-library-group">' +
-                '<div class="alg-header" style="--group-color:' + group.color + '">' +
-                '<h3 class="alg-title">' + group.group + '</h3>' +
-                '<span class="alg-subtitle">' + group.subtitle + '</span>' +
-                '</div>' +
-                '<div class="alg-scroll">';
-            group.texts.forEach(function(t) {
-                html += '<div class="alg-card" data-text="' + t.textId + '"' + (t.era ? ' data-era="' + t.era + '"' : '') + '>' +
-                    '<h4 class="alg-card-title">' + t.title + '</h4>' +
-                    '<p class="alg-card-tagline">' + t.tagline + '</p>' +
-                    '<span class="alg-card-catalog">' + t.catalog + '</span>' +
-                    '</div>';
-            });
-            html += '</div></div>';
+        html += '<div class="short-dives-section short-dives-featured">' +
+            '<h2 class="short-dives-heading">\u26A1 Short Dives</h2>' +
+            '<p class="short-dives-subtitle">Two-minute reads that change how you see the text. One insight, everything shifts.</p>' +
+            '<div class="short-dives-grid">';
+        SHORT_DIVES.forEach(function(sd) {
+            html += '<div class="short-dive-card" data-text="' + sd.text + '" style="--card-color:' + sd.color + '">' +
+                '<span class="short-dive-tag">' + sd.tag + '</span>' +
+                '<h3 class="short-dive-title">' + sd.title + '</h3>' +
+                '<p class="short-dive-insight">' + sd.insight + '</p>' +
+                '<span class="short-dive-cta">Read the full study \u2192</span>' +
+                '</div>';
         });
-        html += '</div>';
+        html += '</div></div>';
 
-        // Study Trails section
+        // Featured Studies — curated deep dives with "why it matters" hooks
+        var FEATURED_STUDIES = [
+            { text: 'psalms', era: 'psalms_cosmic', title: 'The Cosmic Psalms', hook: 'Psalm 82 says God judged the gods. Psalm 29 dismantles Baal. Psalm 110 installs the Melchizedek king. Five psalms that reveal the invisible war behind Israel\u2019s worship.', badge: 'OT', color: '#4a8a6a' },
+            { text: 'isaiah', era: 'isaiah_servant', title: 'Isaiah\u2019s Suffering Servant', hook: 'Four songs. Twelve Hebrew terms. One person who bears the covenant curse so the people receive the blessing. The Hebrew word mecholal means fatally pierced with a weapon \u2014 this is not metaphor.', badge: 'OT', color: '#b5564a' },
+            { text: 'luke', era: 'luke_cosmic_war', title: 'The 72 and Babel Reversed', hook: 'Jesus sent exactly 72 disciples \u2014 the number of nations from Genesis 10. This was the Great Commission in miniature: reclaiming the nations assigned to corrupt divine beings at Babel.', badge: 'NT', color: '#7a8a9a' },
+            { text: 'hebrews', era: 'hebrews_council', title: 'Hebrews: The Divine Council Letter', hook: 'The author quotes a Dead Sea Scrolls variant of Deuteronomy 32:43 that the standard Hebrew Bible doesn\u2019t contain. The entire argument rests on the Son being higher than the council.', badge: 'NT', color: '#c9a84c' },
+            { text: 'heavenly_court', era: 'hc_cosmic_warfare', title: 'Know Your Enemy: The Four Powers', hook: 'Paul uses five distinct Greek terms for the supernatural hierarchy. They\u2019re not synonyms \u2014 archai, exousiai, dynameis, kyriotetes, thronoi. Colossians 2:15 describes a Roman triumphal procession.', badge: 'THEMATIC', color: '#c9a84c' },
+            { text: 'micah', era: 'micah_riv', title: 'The Prophets as Prosecutors', hook: 'Micah 6 is the textbook covenant lawsuit. The mountains are summoned as witnesses. The verdict is three Hebrew words: mishpat, chesed, hatsnea halakh. This is how the prophets actually worked.', badge: 'OT', color: '#8a5a6a' },
+            { text: 'zechariah', era: 'zech_council', title: 'Satan on Trial in Zechariah', hook: 'Zechariah 3 shows the divine council courtroom: Yahweh as judge, ha-satan as prosecutor, Joshua as defendant. The definite article ha- means this is a role, not yet a personal name.', badge: 'OT', color: '#4a6a6a' },
+            { text: 'habakkuk', era: 'hab_theodicy', title: 'Habakkuk vs. God', hook: 'The prophet demands answers and God\u2019s response is worse than the question. Habakkuk 2:4 \u2014 \u201cthe righteous shall live by faith\u201d \u2014 is quoted three times in the NT. Each author draws something different.', badge: 'OT', color: '#5a7a5a' },
+            { text: 'sheol_resurrection', era: 'nephesh_soul', title: 'You Don\u2019t HAVE a Soul', hook: 'Genesis 2:7 says Adam \u201cbecame a living nephesh.\u201d Not \u201creceived a soul\u201d \u2014 became one. The body-soul split you were taught is Plato, not Moses. The Bible\u2019s actual hope? Bodily resurrection on a renewed earth.', badge: 'THEMATIC', color: '#7a6e8a' },
+            { text: 'prophetic_sequence', era: 'rapture_origins', title: 'The Rapture Has a Birthday', hook: 'No church father taught it. No creed confesses it. No council affirmed it. The pre-tribulation rapture was introduced by John Nelson Darby in the 1830s. For 1,800 years the church never saw this doctrine in the text.', badge: 'THEMATIC', color: '#b85c3a' },
+            { text: 'canon_septuagint', era: 'lxx_mt', title: 'Two Bibles, One Verse', hook: 'Deuteronomy 32:8 \u2014 does God divide nations among \u201csons of God\u201d or \u201csons of Israel\u201d? The Dead Sea Scrolls settled it. The apostles quoted the Greek Bible 80% of the time. Your Old Testament has a history.', badge: 'THEMATIC', color: '#5a7a9a' },
+            { text: 'reward_bema', era: 'minas_parable', title: 'Ten Minas, Ten Cities', hook: 'The faithful servant didn\u2019t get a gold star \u2014 he got ten cities to govern. Luke 19 isn\u2019t about heaven. It\u2019s about authority in the new creation. What you do now determines what you\u2019re entrusted with then.', badge: 'THEMATIC', color: '#c9a84c' }
+        ];
+        html += '<div class="featured-studies-section">' +
+            '<h2 class="featured-studies-heading">Featured Studies</h2>' +
+            '<p class="featured-studies-subtitle">Deep dives into the passages that change everything. Start anywhere.</p>' +
+            '<div class="featured-studies-grid">';
+        FEATURED_STUDIES.forEach(function(fs) {
+            html += '<div class="featured-study-card" data-text="' + fs.text + '" data-era="' + fs.era + '" style="--card-color:' + fs.color + '">' +
+                '<span class="canon-badge badge-small" style="background:' + fs.color + '20;color:' + fs.color + ';border-color:' + fs.color + '40">' + fs.badge + '</span>' +
+                '<h3 class="featured-study-title">' + fs.title + '</h3>' +
+                '<p class="featured-study-hook">' + fs.hook + '</p>' +
+                '</div>';
+        });
+        html += '</div></div>';
+
+        // Study Trails (moved into Featured tab)
         html += '<div class="study-trails-section">' +
             '<h2 class="study-trails-heading">Study Trails</h2>' +
             '<div class="study-trails-grid">';
@@ -1512,19 +1664,116 @@
         });
         html += '</div></div>';
 
-        categories.forEach(function(cat) {
-            var catTexts = texts.filter(function(t) { return t.category === cat.id; });
-            var isEmpty = catTexts.length === 0;
-            // Large sections (OT, NT) start collapsed; smaller ones start open
-            var startCollapsed = catTexts.length > 6;
+        html += '</div>'; // end featured tab
 
-            // Section header for each category (clickable to toggle)
-            html += '<div class="library-section' + (startCollapsed ? ' collapsed' : '') + '" data-category="' + cat.id + '">' +
+        // ─── Category descriptions (shared) ───
+        var CAT_DESCRIPTIONS = {
+            ot: '39 books from Genesis to Malachi \u2014 every book found at Qumran except Esther',
+            nt: '27 books from Matthew to Revelation \u2014 apostolic witness to the risen Christ',
+            dss: 'Texts from the Qumran caves (250 BC \u2013 68 AD) \u2014 over 900 manuscripts from 11 caves',
+            pseudepigrapha: 'Ancient texts referenced by biblical authors but not included in the Protestant canon',
+            historical: 'First-century eyewitness accounts and church history tested against Scripture',
+            thematic: 'Cross-text deep studies tracing major themes across the entire biblical narrative'
+        };
+
+        // ─── TAB: OLD TESTAMENT ───
+        html += '<div class="library-tab-content' + (savedTab === 'ot' ? ' active' : '') + '" data-tab-content="ot">';
+        var otCat = getCategoryDef('ot');
+        var otTexts = texts.filter(function(t) { return t.category === 'ot'; });
+        html += '<p class="library-section-desc" style="padding:0 0 1rem 0;margin:0">' + CAT_DESCRIPTIONS.ot + '</p>';
+        html += '<div class="library-grid">';
+        otTexts.forEach(function(t) {
+            var eras = getTextEras(t.id);
+            var chCount = 0;
+            eras.forEach(function(era) {
+                var chapters = ERA_DATA[era.id] || [];
+                chapters.forEach(function(ch) { if (ch.type === 'chapter') chCount++; });
+            });
+            var hasContent = eras.length > 0;
+            var il = getTextInterlinear(t.id);
+            var ilCount = Object.keys(il).length;
+            var dssInfo = DSS_ATTESTATION[t.id];
+            html += '<div class="library-card' + (hasContent ? '' : ' library-card-empty') + '" data-text="' + t.id + '" style="--card-color:' + (t.color || otCat.color) + '">' +
+                '<div class="library-card-top">' +
+                '<span class="canon-badge" style="background:' + otCat.color + '20;color:' + otCat.color + ';border-color:' + otCat.color + '40">' + otCat.badge + '</span>' +
+                (dssInfo ? '<span class="dss-badge" title="Found at Qumran: ' + escAttr(dssInfo) + '">\uD83D\uDCDC DSS</span>' : '') +
+                '</div>' +
+                '<h3 class="library-card-title">' + t.name + '</h3>' +
+                '<p class="library-card-desc">' + (t.description || '') + '</p>' +
+                '<div class="library-card-stats">';
+            if (hasContent) {
+                html += '<span>' + chCount + ' chapters</span>';
+                if (ilCount > 0) html += '<span>' + ilCount + ' interlinear</span>';
+                html += '<span>' + eras.length + ' eras</span>';
+            } else {
+                html += '<span class="library-coming">Coming soon</span>';
+            }
+            html += '</div>';
+            if (t.language) {
+                html += '<div class="library-card-lang">' + t.language.charAt(0).toUpperCase() + t.language.slice(1) + '</div>';
+            }
+            html += '</div>';
+        });
+        html += '</div>';
+        html += '</div>'; // end OT tab
+
+        // ─── TAB: NEW TESTAMENT ───
+        html += '<div class="library-tab-content' + (savedTab === 'nt' ? ' active' : '') + '" data-tab-content="nt">';
+        var ntCat = getCategoryDef('nt');
+        var ntTexts = texts.filter(function(t) { return t.category === 'nt'; });
+        html += '<p class="library-section-desc" style="padding:0 0 1rem 0;margin:0">' + CAT_DESCRIPTIONS.nt + '</p>';
+        html += '<div class="library-grid">';
+        ntTexts.forEach(function(t) {
+            var eras = getTextEras(t.id);
+            var chCount = 0;
+            eras.forEach(function(era) {
+                var chapters = ERA_DATA[era.id] || [];
+                chapters.forEach(function(ch) { if (ch.type === 'chapter') chCount++; });
+            });
+            var hasContent = eras.length > 0;
+            var il = getTextInterlinear(t.id);
+            var ilCount = Object.keys(il).length;
+            var dssInfo = DSS_ATTESTATION[t.id];
+            html += '<div class="library-card' + (hasContent ? '' : ' library-card-empty') + '" data-text="' + t.id + '" style="--card-color:' + (t.color || ntCat.color) + '">' +
+                '<div class="library-card-top">' +
+                '<span class="canon-badge" style="background:' + ntCat.color + '20;color:' + ntCat.color + ';border-color:' + ntCat.color + '40">' + ntCat.badge + '</span>' +
+                (dssInfo ? '<span class="dss-badge" title="Found at Qumran: ' + escAttr(dssInfo) + '">\uD83D\uDCDC DSS</span>' : '') +
+                '</div>' +
+                '<h3 class="library-card-title">' + t.name + '</h3>' +
+                '<p class="library-card-desc">' + (t.description || '') + '</p>' +
+                '<div class="library-card-stats">';
+            if (hasContent) {
+                html += '<span>' + chCount + ' chapters</span>';
+                if (ilCount > 0) html += '<span>' + ilCount + ' interlinear</span>';
+                html += '<span>' + eras.length + ' eras</span>';
+            } else {
+                html += '<span class="library-coming">Coming soon</span>';
+            }
+            html += '</div>';
+            if (t.language) {
+                html += '<div class="library-card-lang">' + t.language.charAt(0).toUpperCase() + t.language.slice(1) + '</div>';
+            }
+            html += '</div>';
+        });
+        html += '</div>';
+        html += '</div>'; // end NT tab
+
+        // ─── TAB: SCROLLS & STUDIES ───
+        html += '<div class="library-tab-content' + (savedTab === 'scrolls' ? ' active' : '') + '" data-tab-content="scrolls">';
+        var scrollsCats = ['dss', 'pseudepigrapha', 'historical', 'thematic'];
+        scrollsCats.forEach(function(catId) {
+            var cat = getCategoryDef(catId);
+            if (!cat) return;
+            var catTexts = texts.filter(function(t) { return t.category === catId; });
+            var isEmpty = catTexts.length === 0;
+
+            html += '<div class="library-section" data-category="' + catId + '">' +
                 '<div class="library-section-header" data-toggle="section">' +
                 '<h2 class="library-section-title" style="color:' + cat.color + '">' +
                 '<span class="library-section-badge" style="background:' + cat.color + '18;color:' + cat.color + ';border:1px solid ' + cat.color + '40">' + cat.badge + '</span>' +
                 cat.name +
                 '</h2>' +
+                (CAT_DESCRIPTIONS[catId] ? '<p class="library-section-desc">' + CAT_DESCRIPTIONS[catId] + '</p>' : '') +
                 '<span class="library-section-meta">' +
                 (isEmpty ? '' : '<span class="library-section-count">' + catTexts.length + ' text' + (catTexts.length !== 1 ? 's' : '') + '</span>') +
                 '<span class="library-section-chevron">&rsaquo;</span>' +
@@ -1542,14 +1791,11 @@
                     var chCount = 0;
                     eras.forEach(function(era) {
                         var chapters = ERA_DATA[era.id] || [];
-                        chapters.forEach(function(ch) {
-                            if (ch.type === 'chapter') chCount++;
-                        });
+                        chapters.forEach(function(ch) { if (ch.type === 'chapter') chCount++; });
                     });
                     var hasContent = eras.length > 0;
                     var il = getTextInterlinear(t.id);
                     var ilCount = Object.keys(il).length;
-
                     var dssInfo = DSS_ATTESTATION[t.id];
                     html += '<div class="library-card' + (hasContent ? '' : ' library-card-empty') + '" data-text="' + t.id + '" style="--card-color:' + (t.color || cat.color) + '">' +
                         '<div class="library-card-top">' +
@@ -1559,7 +1805,6 @@
                         '<h3 class="library-card-title">' + t.name + '</h3>' +
                         '<p class="library-card-desc">' + (t.description || '') + '</p>' +
                         '<div class="library-card-stats">';
-
                     if (hasContent) {
                         html += '<span>' + chCount + ' chapters</span>';
                         if (ilCount > 0) html += '<span>' + ilCount + ' interlinear</span>';
@@ -1567,7 +1812,6 @@
                     } else {
                         html += '<span class="library-coming">Coming soon</span>';
                     }
-
                     html += '</div>';
                     if (t.language) {
                         html += '<div class="library-card-lang">' + t.language.charAt(0).toUpperCase() + t.language.slice(1) + '</div>';
@@ -1579,8 +1823,75 @@
 
             html += '</div>';
         });
+        html += '</div>'; // end scrolls tab
+
+        // ─── TAB: MAP ───
+        html += '<div class="library-tab-content' + (savedTab === 'map' ? ' active' : '') + '" data-tab-content="map">';
+        html += '<div class="library-map-section" style="text-align:center;padding:3rem 1.5rem">' +
+            '<div style="font-size:4rem;margin-bottom:1rem">\uD83C\uDF0D</div>' +
+            '<h2 class="library-tools-heading" style="margin-bottom:0.5rem">Ancient Map</h2>' +
+            '<p class="library-tools-subtitle" style="max-width:520px;margin:0 auto 0.75rem">Explore the biblical world &mdash; journey routes from Abraham to Paul, geographic context for every major event, and satellite imagery of ancient sites.</p>' +
+            '<p style="color:var(--text-secondary);font-size:0.95rem;margin-bottom:2rem">24 journey routes &amp; 206 waypoints</p>' +
+            '<button class="library-tool-card" id="library-launch-map" style="display:inline-flex;align-items:center;gap:0.5rem;padding:1rem 2.5rem;font-size:1.1rem;cursor:pointer;border:none;margin:0 auto">' +
+            '<span class="tool-icon" style="font-size:1.3rem">\uD83C\uDF0D</span><span class="tool-label">Launch Ancient Map</span>' +
+            '</button>' +
+            '</div>';
+        html += '</div>'; // end map tab
+
+        // ─── TAB: TOOLS ───
+        html += '<div class="library-tab-content' + (savedTab === 'tools' ? ' active' : '') + '" data-tab-content="tools">';
+        html += '<div class="library-tools-section">' +
+            '<h2 class="library-tools-heading">Study Tools</h2>' +
+            '<p class="library-tools-subtitle">Resources for deeper study &mdash; timelines, original languages, and comparative analysis.</p>' +
+            '<div class="library-tools-grid">' +
+            '<div class="library-tool-card" data-action="show-timeline"><span class="tool-icon">\uD83D\uDCC5</span><span class="tool-label">Timeline</span><span class="tool-desc">Biblical events in chronological order</span></div>' +
+            '<div class="library-tool-card" data-action="show-matrix"><span class="tool-icon">\u2696\uFE0F</span><span class="tool-label">Truth Matrix</span><span class="tool-desc">Compare 52+ religions to Scripture</span></div>' +
+            '<div class="library-tool-card" data-action="show-prophecy"><span class="tool-icon">\uD83D\uDD2E</span><span class="tool-label">Prophecy</span><span class="tool-desc">Messianic prophecies &amp; fulfillment</span></div>' +
+            '<div class="library-tool-card" data-action="show-hebrew"><span class="tool-icon">\u05D0</span><span class="tool-label">Learn Hebrew</span><span class="tool-desc">Hebrew alphabet &amp; key vocabulary</span></div>' +
+            '<div class="library-tool-card" data-action="show-glossary"><span class="tool-icon">\uD83D\uDCD6</span><span class="tool-label">Glossary</span><span class="tool-desc">607 terms with original languages</span></div>' +
+            '<div class="library-tool-card" data-action="show-patriarch-chart"><span class="tool-icon">\uD83D\uDCCA</span><span class="tool-label">Patriarch Ages</span><span class="tool-desc">Lifespans from Adam to Abraham</span></div>' +
+            '</div></div>';
+        html += '</div>'; // end tools tab
 
         mainContent.innerHTML = html;
+
+        // ─── TAB SWITCHING ───
+        mainContent.querySelectorAll('.library-tab').forEach(function(tab) {
+            tab.addEventListener('click', function() {
+                var target = this.getAttribute('data-library-tab');
+                mainContent.querySelectorAll('.library-tab').forEach(function(t) { t.classList.remove('active'); });
+                mainContent.querySelectorAll('.library-tab-content').forEach(function(tc) { tc.classList.remove('active'); });
+                this.classList.add('active');
+                var panel = mainContent.querySelector('[data-tab-content="' + target + '"]');
+                if (panel) panel.classList.add('active');
+                localStorage.setItem('atl-library-tab', target);
+                mainContent.scrollTop = 0;
+            });
+        });
+
+        // ─── FEATURED CARD CLICKS ───
+        mainContent.querySelectorAll('.featured-study-card').forEach(function(card) {
+            card.addEventListener('click', function() {
+                var textId = this.getAttribute('data-text');
+                if (textId) showBookLanding(textId);
+            });
+        });
+
+        // ─── SHORT DIVE CARD CLICKS ───
+        mainContent.querySelectorAll('.short-dive-card').forEach(function(card) {
+            card.addEventListener('click', function() {
+                var textId = this.getAttribute('data-text');
+                if (textId) showBookLanding(textId);
+            });
+        });
+
+        // ─── MAP LAUNCH BUTTON ───
+        var mapLaunchBtn = document.getElementById('library-launch-map');
+        if (mapLaunchBtn) {
+            mapLaunchBtn.addEventListener('click', function() {
+                openMap();
+            });
+        }
 
         // Stagger-animate library cards
         var cards = mainContent.querySelectorAll('.library-card');
@@ -1588,7 +1899,876 @@
             card.classList.add('stagger-in');
             card.style.animationDelay = (i * 30) + 'ms';
         });
+
+        // Stagger-animate featured cards
+        mainContent.querySelectorAll('.featured-study-card').forEach(function(card, i) {
+            card.classList.add('stagger-in');
+            card.style.animationDelay = (i * 50) + 'ms';
+        });
     }
+
+    // ═══════════════════════════════════════════════════════
+    // BOOK LANDING PAGE
+    // ═══════════════════════════════════════════════════════
+
+    function showBookLanding(textId) {
+        var textDef = getTextDef(textId);
+        if (!textDef) return;
+
+        closeAllOverlays();
+        libraryMode = false;
+        currentText = textId;
+
+        // Track recent texts
+        var recent = JSON.parse(localStorage.getItem('atl-recent-texts') || '[]');
+        recent = recent.filter(function(id) { return id !== textId; });
+        recent.unshift(textId);
+        if (recent.length > 6) recent = recent.slice(0, 6);
+        localStorage.setItem('atl-recent-texts', JSON.stringify(recent));
+
+        // Set body state
+        document.body.classList.remove('text-selected', 'library-fullwidth', 'bible-mode-active');
+        document.body.classList.add('book-landing-view');
+
+        // Remove Bible Mode element if present
+        var oldBM = document.getElementById('bibleMode');
+        if (oldBM) oldBM.remove();
+
+        // Hide sidebar and reading pane on book landing
+        setReadingPane(false);
+
+        // Update hash
+        location.hash = 'book/' + textId;
+
+        // Render the landing page
+        renderBookLanding(textId);
+        window.scrollTo(0, 0);
+    }
+
+    function renderBookLanding(textId) {
+        var textDef = getTextDef(textId);
+        if (!textDef) return;
+
+        var eras = getTextEras(textId);
+        var cat = getCategoryDef(textDef.category);
+        var catBadge = cat ? cat.badge : '';
+        var catColor = cat ? cat.color : '#888';
+        var catLabel = cat ? (cat.label || cat.name) : textDef.category;
+
+        // Calculate stats
+        var totalChapters = 0;
+        var readCount = 0;
+        eras.forEach(function(era) {
+            var chapters = ERA_DATA[era.id] || [];
+            totalChapters += chapters.length;
+            chapters.forEach(function(ch) {
+                if (isChapterRead(ch.id)) readCount++;
+            });
+        });
+        var progressPct = totalChapters > 0 ? Math.round((readCount / totalChapters) * 100) : 0;
+
+        var html = '<div class="book-landing">';
+
+        // ─── HERO ───
+        html += '<div class="book-hero">' +
+            '<button class="book-back-btn" id="bookBackBtn">&larr; Library</button>' +
+            '<div class="book-hero-badge" style="background:' + catColor + '20;color:' + catColor + ';border-color:' + catColor + '40">' +
+            catBadge + ' ' + catLabel + '</div>' +
+            '<h1 class="book-hero-title">' + esc(textDef.name) + '</h1>';
+
+        if (textDef.description) {
+            html += '<p class="book-hero-desc">' + esc(textDef.description) + '</p>';
+        }
+
+        html += '<div class="book-hero-stats">' +
+            '<div class="book-hero-stat"><span class="book-stat-num">' + totalChapters + '</span><span class="book-stat-label">Chapters</span></div>' +
+            '<div class="book-hero-stat"><span class="book-stat-num">' + eras.length + '</span><span class="book-stat-label">Eras</span></div>' +
+            '<div class="book-hero-stat"><span class="book-stat-num">' + progressPct + '%</span><span class="book-stat-label">Read</span></div>' +
+            '</div>';
+
+        html += '<div class="book-hero-actions">' +
+            '<button class="book-start-btn" id="book-start-reading">Start Reading</button>' +
+            '<button class="book-study-btn" id="book-study-mode">Study Mode</button>' +
+            '</div>';
+
+        html += '</div>'; // .book-hero
+
+        // ─── CONTENT GRID ───
+        html += '<div class="book-landing-grid">';
+
+        // ─── LEFT COLUMN (main) ───
+        html += '<div class="book-landing-main">';
+
+        // Era / Chapter Outline
+        html += '<div class="book-outline">' +
+            '<h2 class="book-section-header">Chapter Outline</h2>';
+
+        eras.forEach(function(era, eIdx) {
+            var chapters = ERA_DATA[era.id] || [];
+            var eraReadCount = 0;
+            chapters.forEach(function(ch) { if (isChapterRead(ch.id)) eraReadCount++; });
+
+            html += '<div class="book-outline-era" data-era-idx="' + eIdx + '">' +
+                '<button class="book-outline-era-toggle" data-era-toggle="' + eIdx + '">' +
+                '<span class="book-outline-era-icon">' + (era.icon || '') + '</span>' +
+                '<span class="book-outline-era-color" style="background:' + (era.color || '#888') + '"></span>' +
+                '<span class="book-outline-era-name">' + esc(era.name) + '</span>' +
+                '<span class="book-outline-era-count">' + eraReadCount + '/' + chapters.length + '</span>' +
+                '<span class="book-outline-chevron">&#9654;</span>' +
+                '</button>' +
+                '<div class="book-outline-chapters" data-era-chapters="' + eIdx + '" style="display:none">';
+
+            chapters.forEach(function(ch, cIdx) {
+                var chRead = isChapterRead(ch.id);
+                var linkLabel = (ch.type === 'historical_insert' || ch.type === 'html_fragment') ? ch.title : ch.ref;
+                html += '<div class="book-outline-ch" data-chapter-id="' + ch.id + '" data-chapter-idx="' + cIdx + '">' +
+                    '<span class="book-outline-check">' + (chRead ? '\u2713' : '') + '</span>' +
+                    '<span class="book-outline-ch-label">' + esc(linkLabel || ch.title || ch.id) + '</span>' +
+                    '</div>';
+            });
+
+            html += '</div></div>'; // .book-outline-chapters, .book-outline-era
+        });
+
+        html += '</div>'; // .book-outline
+
+        // Prophecy Summary
+        if (BOOK_PROPHECIES[textId]) {
+            var bookProphecies = BOOK_PROPHECIES[textId];
+            html += '<div class="book-prophecy-summary">' +
+                '<h2 class="book-section-header">Prophecy Summary</h2>';
+
+            if (bookProphecies.prophecies && bookProphecies.prophecies.length > 0) {
+                var shownProphecies = bookProphecies.prophecies.slice(0, 8);
+                shownProphecies.forEach(function(p) {
+                    var statusClass = p.status === 'fulfilled' ? 'prophecy-fulfilled' : (p.status === 'partially_fulfilled' ? 'prophecy-partial' : 'prophecy-pending');
+                    html += '<div class="book-prophecy-card ' + statusClass + '">' +
+                        '<div class="book-prophecy-ref">' + esc(p.reference || '') + '</div>' +
+                        '<div class="book-prophecy-title">' + esc(p.title || p.theme || '') + '</div>' +
+                        '<div class="book-prophecy-status">' + esc(p.status || 'unfulfilled').replace(/_/g, ' ') + '</div>' +
+                        '</div>';
+                });
+
+                if (bookProphecies.prophecies.length > 8) {
+                    html += '<div class="book-prophecy-more">+ ' + (bookProphecies.prophecies.length - 8) + ' more prophecies</div>';
+                }
+            }
+
+            html += '</div>'; // .book-prophecy-summary
+        }
+
+        html += '</div>'; // .book-landing-main
+
+        // ─── RIGHT COLUMN (aside) ───
+        html += '<div class="book-landing-aside">';
+
+        // Study Guide
+        html += '<div class="book-study-guide">' +
+            '<h3 class="book-section-header">Study Guide</h3>';
+
+        var intro = TEXT_INTROS[textId];
+        if (intro && intro.study_guide) {
+            html += '<div class="book-study-guide-content">' + esc(intro.study_guide) + '</div>';
+        } else {
+            // Extract themes from eras
+            html += '<div class="book-study-guide-content"><ul class="book-theme-list">';
+            eras.forEach(function(era) {
+                html += '<li class="book-theme-item">' +
+                    '<span class="book-theme-dot" style="background:' + (era.color || '#888') + '"></span>' +
+                    esc(era.name) +
+                    '</li>';
+            });
+            html += '</ul></div>';
+        }
+        html += '</div>';
+
+        // Mini Map placeholder
+        html += '<div class="book-mini-map" id="bookMiniMap">' +
+            '<h3 class="book-section-header">Map</h3>' +
+            '<div class="book-mini-map-placeholder">Map coming soon</div>' +
+            '</div>';
+
+        // Related Books
+        html += '<div class="book-related">' +
+            '<h3 class="book-section-header">Related Books</h3>';
+
+        var relatedCounts = {};
+        eras.forEach(function(era) {
+            var chapters = ERA_DATA[era.id] || [];
+            chapters.forEach(function(ch) {
+                if (!ch.cross_refs) return;
+                ch.cross_refs.forEach(function(raw) {
+                    var xr = normXref(raw);
+                    var parsed = parseScriptureRef(xr.ref);
+                    if (parsed && parsed.textId && parsed.textId !== textId) {
+                        relatedCounts[parsed.textId] = (relatedCounts[parsed.textId] || 0) + 1;
+                    }
+                });
+            });
+        });
+
+        var relatedBooks = Object.keys(relatedCounts).sort(function(a, b) {
+            return relatedCounts[b] - relatedCounts[a];
+        }).slice(0, 6);
+
+        if (relatedBooks.length > 0) {
+            relatedBooks.forEach(function(relId) {
+                var relDef = getTextDef(relId);
+                if (!relDef) return;
+                var relCat = getCategoryDef(relDef.category);
+                html += '<div class="book-related-card" data-text="' + relId + '">' +
+                    '<span class="book-related-badge" style="background:' + (relCat ? relCat.color : '#888') + '20;color:' + (relCat ? relCat.color : '#888') + '">' +
+                    (relCat ? relCat.badge : '') + '</span>' +
+                    '<span class="book-related-name">' + esc(relDef.name) + '</span>' +
+                    '<span class="book-related-count">' + relatedCounts[relId] + ' refs</span>' +
+                    '</div>';
+            });
+        } else {
+            html += '<div class="book-related-empty">No cross-references found</div>';
+        }
+
+        html += '</div>'; // .book-related
+
+        // Scholarly Intro
+        var introHtml = renderTextIntro(textId);
+        if (introHtml) {
+            html += '<div class="book-scholarly-intro">' +
+                '<h3 class="book-section-header">Scholarly Introduction</h3>' +
+                introHtml +
+                '</div>';
+        }
+
+        html += '</div>'; // .book-landing-aside
+        html += '</div>'; // .book-landing-grid
+        html += '</div>'; // .book-landing
+
+        mainContent.innerHTML = html;
+
+        // ─── EVENT HANDLERS ───
+
+        // Back to Library
+        var backBtn = document.getElementById('bookBackBtn');
+        if (backBtn) {
+            backBtn.addEventListener('click', function() { showLibrary(); });
+        }
+
+        // Start Reading
+        var startBtn = document.getElementById('book-start-reading');
+        if (startBtn) {
+            startBtn.addEventListener('click', function() { showBibleMode(textId, 0); });
+        }
+
+        // Study Mode
+        var studyBtn = document.getElementById('book-study-mode');
+        if (studyBtn) {
+            studyBtn.addEventListener('click', function() { selectText(textId); });
+        }
+
+        // Era toggles — expand/collapse
+        mainContent.querySelectorAll('.book-outline-era-toggle').forEach(function(toggle) {
+            toggle.addEventListener('click', function() {
+                var idx = this.getAttribute('data-era-toggle');
+                var chaptersDiv = mainContent.querySelector('[data-era-chapters="' + idx + '"]');
+                if (!chaptersDiv) return;
+                var isOpen = chaptersDiv.style.display !== 'none';
+                chaptersDiv.style.display = isOpen ? 'none' : 'block';
+                var chevron = this.querySelector('.book-outline-chevron');
+                if (chevron) chevron.style.transform = isOpen ? '' : 'rotate(90deg)';
+            });
+        });
+
+        // Chapter links
+        mainContent.querySelectorAll('.book-outline-ch').forEach(function(chEl) {
+            chEl.addEventListener('click', function() {
+                var chIdx = parseInt(this.getAttribute('data-chapter-idx'), 10);
+                showBibleMode(textId, chIdx);
+            });
+        });
+
+        // Related book cards
+        mainContent.querySelectorAll('.book-related-card').forEach(function(card) {
+            card.addEventListener('click', function() {
+                var relTextId = this.getAttribute('data-text');
+                if (relTextId) showBookLanding(relTextId);
+            });
+        });
+
+        // Intro collapse toggle (if rendered)
+        var introCollapseBtn = document.getElementById('introCollapseBtn');
+        if (introCollapseBtn) {
+            introCollapseBtn.addEventListener('click', function() {
+                var panel = mainContent.querySelector('.text-intro-panel');
+                if (panel) {
+                    var collapsed = panel.classList.toggle('intro-collapsed');
+                    localStorage.setItem('atl-intro-collapsed', collapsed ? '1' : '0');
+                    this.textContent = collapsed ? '\u25BC' : '\u25B2';
+                }
+            });
+        }
+    }
+
+    // ═══════════════════════════════════════════════════════
+    // BIBLE MODE (full-screen reading experience)
+    // ═══════════════════════════════════════════════════════
+
+    var currentBibleChapter = 0;  // current chapter NUMBER (1-based)
+    var bibleTotalChapters = 0;   // total chapters for current book
+
+    function getBibleChapterCount(textId) {
+        // Try manifest text definition first
+        var textDef = getTextDef(textId);
+        if (textDef && textDef.chapters && typeof textDef.chapters === 'number') {
+            return textDef.chapters;
+        }
+
+        // Try interlinear data — count keys
+        var ilData = getTextInterlinear(textId);
+        if (ilData && typeof ilData === 'object') {
+            var ilKeys = Object.keys(ilData).filter(function(k) { return /^\d+$/.test(k); });
+            if (ilKeys.length > 0) return ilKeys.length;
+        }
+
+        // Try standalone flow data
+        if (STANDALONE_FLOW[textId]) {
+            var flowKeys = Object.keys(STANDALONE_FLOW[textId]).filter(function(k) { return /^\d+$/.test(k); });
+            if (flowKeys.length > 0) return flowKeys.length;
+        }
+
+        // Fallback: count chapters across eras
+        var eras = getTextEras(textId);
+        var count = 0;
+        eras.forEach(function(era) {
+            var chapters = ERA_DATA[era.id] || [];
+            count += chapters.length;
+        });
+        return count || 1;
+    }
+
+    function getBibleChapterContent(textId, chapterNum) {
+        var verses = [];
+        var chKey = String(chapterNum);
+
+        // 1. Try interlinear data (merged flow)
+        var ilData = getTextInterlinear(textId);
+        if (ilData && typeof ilData === 'object' && ilData[chKey] && ilData[chKey].verses && ilData[chKey].verses.length > 0) {
+            ilData[chKey].verses.forEach(function(verse) {
+                var text = '';
+                if (verse.flow) {
+                    text = verse.flow;
+                } else if (verse.words) {
+                    var glosses = verse.words.slice().reverse()
+                        .map(function(w) { return w.g || ''; })
+                        .filter(function(g) { return g && g !== 'properly' && g !== 'untranslatable'; });
+                    text = glosses.join(' ').replace(/\s*\+\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
+                }
+                if (text) {
+                    verses.push({ num: verse.num, text: text, note: verse.note || null });
+                }
+            });
+            if (verses.length > 0) return verses;
+        }
+
+        // 2. Try standalone flow
+        if (STANDALONE_FLOW[textId] && STANDALONE_FLOW[textId][chKey]) {
+            var chFlow = STANDALONE_FLOW[textId][chKey];
+            var notesData = STANDALONE_NOTES[textId] || {};
+            var chNotes = notesData[chKey] || {};
+            var verseNums = Object.keys(chFlow).map(Number).sort(function(a, b) { return a - b; });
+            verseNums.forEach(function(vNum) {
+                verses.push({
+                    num: vNum,
+                    text: chFlow[String(vNum)],
+                    note: chNotes[String(vNum)] || null
+                });
+            });
+            if (verses.length > 0) return verses;
+        }
+
+        // 3. Fallback
+        return [];
+    }
+
+    function showBibleMode(textId, chapterIndex) {
+        var textDef = getTextDef(textId);
+        if (!textDef) return;
+
+        currentText = textId;
+        currentILBook = textId;
+
+        document.body.classList.remove('text-selected', 'library-fullwidth', 'book-landing-view');
+        document.body.classList.add('bible-mode-active');
+
+        setReadingPane(false);
+
+        renderBibleMode(textId, chapterIndex || 0);
+    }
+
+    function renderBibleMode(textId, chapterIndex) {
+        var textDef = getTextDef(textId);
+        if (!textDef) return;
+
+        bibleTotalChapters = getBibleChapterCount(textId);
+        currentBibleChapter = Math.max(1, Math.min(chapterIndex + 1, bibleTotalChapters));
+
+        location.hash = 'read/' + textId + '/' + currentBibleChapter;
+
+        var html = '<div class="bible-mode" id="bibleMode">';
+
+        // ─── TOP BAR ───
+        html += '<div class="bible-top-bar">' +
+            '<button class="bible-back-btn" id="bibleBack">&larr;</button>' +
+            '<span class="bible-book-title">' + esc(textDef.name) + ' ' + currentBibleChapter + '</span>' +
+            '<button class="bible-settings-btn" id="bibleSettings">&#9881;</button>' +
+            '</div>';
+
+        // ─── READER ───
+        html += '<div class="bible-reader" id="bibleReader">' +
+            '<div class="bible-chapter-content" id="bibleContent">';
+
+        var verses = getBibleChapterContent(textId, currentBibleChapter);
+        if (verses.length > 0) {
+            verses.forEach(function(v) {
+                html += '<span class="bible-verse">' +
+                    '<sup class="bible-verse-num">' + v.num + '</sup> ' +
+                    '<span class="bible-verse-text">' + esc(v.text) + '</span>' +
+                    '</span> ';
+                if (v.note) {
+                    html += '<span class="bible-verse-note" title="' + escAttr(v.note) + '">\uD83D\uDCA1</span> ';
+                }
+            });
+        } else {
+            html += '<div class="bible-no-content">No scripture text available for ' + esc(textDef.name) + ' chapter ' + currentBibleChapter + '.</div>';
+        }
+
+        html += '</div></div>'; // #bibleContent, #bibleReader
+
+        // ─── BOTTOM BAR ───
+        html += '<div class="bible-bottom-bar">' +
+            '<button class="bible-nav-btn" id="biblePrev" data-delta="-1"' + (currentBibleChapter <= 1 ? ' disabled' : '') + '>' +
+            '<span class="bible-btn-icon">&larr;</span>' +
+            '<span class="bible-btn-label">Prev</span>' +
+            '</button>' +
+            '<button class="bible-chapter-btn" id="bibleChapterBtn">' +
+            '<span class="bible-btn-icon">Ch</span>' +
+            '<span class="bible-btn-label">' + currentBibleChapter + '</span>' +
+            '</button>' +
+            '<button class="bible-notes-btn" id="bibleNotesBtn">' +
+            '<span class="bible-btn-icon">&#128221;</span>' +
+            '<span class="bible-btn-label">Notes</span>' +
+            '</button>' +
+            '<button class="bible-xref-btn" id="bibleXrefBtn">' +
+            '<span class="bible-btn-icon">&#128279;</span>' +
+            '<span class="bible-btn-label">Refs</span>' +
+            '</button>' +
+            '<button class="bible-nav-btn" id="bibleNext" data-delta="1"' + (currentBibleChapter >= bibleTotalChapters ? ' disabled' : '') + '>' +
+            '<span class="bible-btn-icon">&rarr;</span>' +
+            '<span class="bible-btn-label">Next</span>' +
+            '</button>' +
+            '</div>';
+
+        // ─── DRAWER ───
+        html += '<div class="bible-drawer" id="bibleDrawer">' +
+            '<div class="bible-drawer-handle"></div>' +
+            '<div class="bible-drawer-tabs">' +
+            '<button class="bible-drawer-tab active" data-tab="study">Study</button>' +
+            '<button class="bible-drawer-tab" data-tab="xrefs">Cross-Refs</button>' +
+            '<button class="bible-drawer-tab" data-tab="council">Council</button>' +
+            '<button class="bible-drawer-tab" data-tab="settings">Settings</button>' +
+            '</div>' +
+            '<div class="bible-drawer-content" id="bibleDrawerContent">' +
+            renderBibleDrawerTab(textId, currentBibleChapter, 'study') +
+            '</div>' +
+            '</div>';
+
+        // ─── CHAPTER PICKER MODAL ───
+        html += '<div class="bible-chapter-picker" id="bibleChapterPicker" style="display:none">' +
+            '<div class="bible-picker-overlay"></div>' +
+            '<div class="bible-picker-content">' +
+            '<h3 class="bible-picker-title">' + esc(textDef.name) + '</h3>' +
+            '<div class="bible-picker-grid" id="biblePickerGrid">';
+
+        for (var i = 1; i <= bibleTotalChapters; i++) {
+            html += '<button class="bible-picker-num' + (i === currentBibleChapter ? ' active' : '') + '" data-ch="' + i + '">' + i + '</button>';
+        }
+
+        html += '</div></div></div>'; // grid, content, picker
+
+        html += '</div>'; // .bible-mode
+
+        // Remove any previous bible mode element
+        var oldBM = document.getElementById('bibleMode');
+        if (oldBM) oldBM.remove();
+
+        // Create on document.body (not inside app-container which gets hidden)
+        var bmContainer = document.createElement('div');
+        bmContainer.innerHTML = html;
+        document.body.appendChild(bmContainer.firstChild);
+
+        // ─── WIRE EVENT HANDLERS ───
+        var bibleRoot = document.getElementById('bibleMode');
+
+        // Back button
+        var backBtn = document.getElementById('bibleBack');
+        if (backBtn) {
+            backBtn.addEventListener('click', function() { showBookLanding(textId); });
+        }
+
+        // Settings button — toggle drawer to settings tab
+        var settingsBtn = document.getElementById('bibleSettings');
+        if (settingsBtn) {
+            settingsBtn.addEventListener('click', function() {
+                var drawer = document.getElementById('bibleDrawer');
+                if (drawer) {
+                    drawer.classList.toggle('open');
+                    if (drawer.classList.contains('open')) {
+                        switchBibleDrawerTab(textId, currentBibleChapter, 'settings');
+                    }
+                }
+            });
+        }
+
+        // Prev / Next buttons
+        var prevBtn = document.getElementById('biblePrev');
+        var nextBtn = document.getElementById('bibleNext');
+        if (prevBtn) {
+            prevBtn.addEventListener('click', function() { navigateBibleChapter(-1); });
+        }
+        if (nextBtn) {
+            nextBtn.addEventListener('click', function() { navigateBibleChapter(1); });
+        }
+
+        // Chapter picker button
+        var chapterBtn = document.getElementById('bibleChapterBtn');
+        if (chapterBtn) {
+            chapterBtn.addEventListener('click', function() {
+                var picker = document.getElementById('bibleChapterPicker');
+                if (picker) picker.style.display = picker.style.display === 'none' ? 'flex' : 'none';
+            });
+        }
+
+        // Chapter picker overlay — close on click
+        var pickerOverlay = bibleRoot.querySelector('.bible-picker-overlay');
+        if (pickerOverlay) {
+            pickerOverlay.addEventListener('click', function() {
+                var picker = document.getElementById('bibleChapterPicker');
+                if (picker) picker.style.display = 'none';
+            });
+        }
+
+        // Chapter picker numbers
+        bibleRoot.querySelectorAll('.bible-picker-num').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var ch = parseInt(this.getAttribute('data-ch'), 10);
+                if (!isNaN(ch)) {
+                    var picker = document.getElementById('bibleChapterPicker');
+                    if (picker) picker.style.display = 'none';
+                    currentBibleChapter = ch;
+                    updateBibleChapterContent(textId);
+                }
+            });
+        });
+
+        // Notes button — toggle drawer with study tab
+        var notesBtn = document.getElementById('bibleNotesBtn');
+        if (notesBtn) {
+            notesBtn.addEventListener('click', function() {
+                var drawer = document.getElementById('bibleDrawer');
+                if (drawer) {
+                    drawer.classList.toggle('open');
+                    if (drawer.classList.contains('open')) {
+                        switchBibleDrawerTab(textId, currentBibleChapter, 'study');
+                    }
+                }
+            });
+        }
+
+        // Xref button — toggle drawer with xrefs tab
+        var xrefBtn = document.getElementById('bibleXrefBtn');
+        if (xrefBtn) {
+            xrefBtn.addEventListener('click', function() {
+                var drawer = document.getElementById('bibleDrawer');
+                if (drawer) {
+                    drawer.classList.toggle('open');
+                    if (drawer.classList.contains('open')) {
+                        switchBibleDrawerTab(textId, currentBibleChapter, 'xrefs');
+                    }
+                }
+            });
+        }
+
+        // Drawer tabs
+        bibleRoot.querySelectorAll('.bible-drawer-tab').forEach(function(tab) {
+            tab.addEventListener('click', function() {
+                var tabName = this.getAttribute('data-tab');
+                switchBibleDrawerTab(textId, currentBibleChapter, tabName);
+            });
+        });
+
+        // Drawer handle — toggle open state
+        var drawerHandle = bibleRoot.querySelector('.bible-drawer-handle');
+        if (drawerHandle) {
+            drawerHandle.addEventListener('click', function() {
+                var drawer = document.getElementById('bibleDrawer');
+                if (drawer) {
+                    if (drawer.classList.contains('full')) {
+                        drawer.classList.remove('full');
+                        drawer.classList.remove('open');
+                    } else if (drawer.classList.contains('open')) {
+                        drawer.classList.add('full');
+                    } else {
+                        drawer.classList.add('open');
+                    }
+                }
+            });
+        }
+
+        // Swipe gestures
+        var bibleReader = document.getElementById('bibleReader');
+        if (bibleReader) {
+            var bibleSwipeStartX = 0;
+            var bibleSwipeStartY = 0;
+            bibleReader.addEventListener('touchstart', function(e) {
+                bibleSwipeStartX = e.touches[0].clientX;
+                bibleSwipeStartY = e.touches[0].clientY;
+            }, {passive: true});
+            bibleReader.addEventListener('touchend', function(e) {
+                var dx = e.changedTouches[0].clientX - bibleSwipeStartX;
+                var dy = e.changedTouches[0].clientY - bibleSwipeStartY;
+                if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.8) {
+                    navigateBibleChapter(dx > 0 ? -1 : 1);
+                }
+            }, {passive: true});
+        }
+    }
+
+    function navigateBibleChapter(delta) {
+        var newCh = currentBibleChapter + delta;
+        if (newCh < 1 || newCh > bibleTotalChapters) return;
+        currentBibleChapter = newCh;
+        updateBibleChapterContent(currentText);
+    }
+
+    function updateBibleChapterContent(textId) {
+        var textDef = getTextDef(textId);
+        if (!textDef) return;
+
+        location.hash = 'read/' + textId + '/' + currentBibleChapter;
+
+        // Update title
+        var bibleRoot = document.getElementById('bibleMode');
+        var titleEl = bibleRoot ? bibleRoot.querySelector('.bible-book-title') : null;
+        if (titleEl) titleEl.textContent = textDef.name + ' ' + currentBibleChapter;
+
+        // Update chapter content with slide animation
+        var contentEl = document.getElementById('bibleContent');
+        if (contentEl) {
+            contentEl.classList.add('bible-slide-out');
+            setTimeout(function() {
+                var verses = getBibleChapterContent(textId, currentBibleChapter);
+                var html = '';
+                if (verses.length > 0) {
+                    verses.forEach(function(v) {
+                        html += '<span class="bible-verse">' +
+                            '<sup class="bible-verse-num">' + v.num + '</sup> ' +
+                            '<span class="bible-verse-text">' + esc(v.text) + '</span>' +
+                            '</span> ';
+                        if (v.note) {
+                            html += '<span class="bible-verse-note" title="' + escAttr(v.note) + '">\uD83D\uDCA1</span> ';
+                        }
+                    });
+                } else {
+                    html = '<div class="bible-no-content">No scripture text available for ' + esc(textDef.name) + ' chapter ' + currentBibleChapter + '.</div>';
+                }
+                contentEl.innerHTML = html;
+                contentEl.classList.remove('bible-slide-out');
+                contentEl.classList.add('bible-slide-in');
+                setTimeout(function() { contentEl.classList.remove('bible-slide-in'); }, 300);
+            }, 150);
+        }
+
+        // Update prev/next button states
+        var prevBtn = document.getElementById('biblePrev');
+        var nextBtn = document.getElementById('bibleNext');
+        if (prevBtn) prevBtn.disabled = currentBibleChapter <= 1;
+        if (nextBtn) nextBtn.disabled = currentBibleChapter >= bibleTotalChapters;
+
+        // Update chapter button label
+        var chBtn = document.getElementById('bibleChapterBtn');
+        if (chBtn) {
+            var label = chBtn.querySelector('.bible-btn-label');
+            if (label) label.textContent = currentBibleChapter;
+        }
+
+        // Update picker active state
+        (bibleRoot || document).querySelectorAll('.bible-picker-num').forEach(function(btn) {
+            btn.classList.toggle('active', parseInt(btn.getAttribute('data-ch'), 10) === currentBibleChapter);
+        });
+
+        // Scroll reader to top
+        var reader = document.getElementById('bibleReader');
+        if (reader) reader.scrollTo(0, 0);
+
+        // Update drawer content if open
+        var drawer = document.getElementById('bibleDrawer');
+        if (drawer && drawer.classList.contains('open')) {
+            var activeTab = (bibleRoot || document).querySelector('.bible-drawer-tab.active');
+            var tabName = activeTab ? activeTab.getAttribute('data-tab') : 'study';
+            var drawerContent = document.getElementById('bibleDrawerContent');
+            if (drawerContent) {
+                drawerContent.innerHTML = renderBibleDrawerTab(textId, currentBibleChapter, tabName);
+            }
+        }
+    }
+
+    function switchBibleDrawerTab(textId, chapterNum, tabName) {
+        var bibleRoot = document.getElementById('bibleMode');
+        (bibleRoot || document).querySelectorAll('.bible-drawer-tab').forEach(function(tab) {
+            tab.classList.toggle('active', tab.getAttribute('data-tab') === tabName);
+        });
+        var drawerContent = document.getElementById('bibleDrawerContent');
+        if (drawerContent) {
+            drawerContent.innerHTML = renderBibleDrawerTab(textId, chapterNum, tabName);
+        }
+    }
+
+    function renderBibleDrawerTab(textId, chapterNum, tabName) {
+        var html = '';
+
+        if (tabName === 'study') {
+            // Show study notes for this chapter
+            var notesData = STANDALONE_NOTES[textId] || {};
+            var chNotes = notesData[String(chapterNum)] || {};
+            var noteKeys = Object.keys(chNotes);
+
+            html += '<div class="bible-drawer-study">';
+            if (noteKeys.length > 0) {
+                html += '<h4>Study Notes &mdash; Chapter ' + chapterNum + '</h4>';
+                noteKeys.sort(function(a, b) { return parseInt(a) - parseInt(b); }).forEach(function(vNum) {
+                    html += '<div class="bible-study-note">' +
+                        '<span class="bible-note-verse">v' + vNum + '</span>' +
+                        '<span class="bible-note-text">' + esc(chNotes[vNum]) + '</span>' +
+                        '</div>';
+                });
+            } else {
+                // Check interlinear notes
+                var ilData = getTextInterlinear(textId);
+                var ilChapter = ilData && ilData[String(chapterNum)];
+                var hasIlNotes = false;
+                if (ilChapter && ilChapter.verses) {
+                    html += '<h4>Study Notes &mdash; Chapter ' + chapterNum + '</h4>';
+                    ilChapter.verses.forEach(function(v) {
+                        if (v.note) {
+                            hasIlNotes = true;
+                            html += '<div class="bible-study-note">' +
+                                '<span class="bible-note-verse">v' + v.num + '</span>' +
+                                '<span class="bible-note-text">' + esc(v.note) + '</span>' +
+                                '</div>';
+                        }
+                    });
+                }
+                if (!hasIlNotes) {
+                    html += '<p class="bible-drawer-empty">No study notes available for this chapter.</p>';
+                }
+            }
+            html += '</div>';
+        }
+
+        if (tabName === 'xrefs') {
+            html += '<div class="bible-drawer-xrefs">';
+            html += '<h4>Cross-References &mdash; Chapter ' + chapterNum + '</h4>';
+
+            // Find cross-refs from era data that reference this chapter
+            var eras = getTextEras(textId);
+            var foundXrefs = [];
+            eras.forEach(function(era) {
+                var chapters = ERA_DATA[era.id] || [];
+                chapters.forEach(function(ch) {
+                    if (!ch.cross_refs) return;
+                    // Check if this chapter's ref matches
+                    var parsed = parseScriptureRef(ch.ref || '');
+                    if (parsed && parsed.chapter === chapterNum) {
+                        ch.cross_refs.forEach(function(raw) {
+                            var xr = normXref(raw);
+                            foundXrefs.push(xr);
+                        });
+                    }
+                });
+            });
+
+            if (foundXrefs.length > 0) {
+                foundXrefs.forEach(function(xr) {
+                    html += '<div class="bible-xref-item">' +
+                        '<span class="bible-xref-ref">' + esc(xr.ref) + '</span>' +
+                        (xr.note && xr.note !== xr.ref ? '<span class="bible-xref-note">' + esc(xr.note) + '</span>' : '') +
+                        '</div>';
+                });
+            } else {
+                html += '<p class="bible-drawer-empty">No cross-references found for this chapter.</p>';
+            }
+            html += '</div>';
+        }
+
+        if (tabName === 'council') {
+            html += '<div class="bible-drawer-council">';
+            html += '<h4>Divine Council &mdash; Chapter ' + chapterNum + '</h4>';
+
+            // Check THC cross-refs
+            var chPrefix = textId.replace(/[^a-z0-9]/g, '').substring(0, 3);
+            var chId = chPrefix + '-' + chapterNum;
+            var thcRefs = THC_XREFS.fromLibrary[chId];
+
+            if (thcRefs && thcRefs.length > 0) {
+                thcRefs.forEach(function(ref) {
+                    html += '<div class="bible-council-item">' +
+                        '<span class="bible-council-label">' + esc(ref.label) + '</span>' +
+                        (ref.note ? '<span class="bible-council-note">' + esc(ref.note) + '</span>' : '') +
+                        '</div>';
+                });
+            } else {
+                html += '<p class="bible-drawer-empty">No divine council connections found for this chapter.</p>';
+            }
+            html += '</div>';
+        }
+
+        if (tabName === 'settings') {
+            var savedFontSize = parseFloat(localStorage.getItem('atl-bible-font-size') || '1.1');
+            html += '<div class="bible-drawer-settings">' +
+                '<h4>Reading Settings</h4>' +
+                '<div class="bible-setting-row">' +
+                '<label class="bible-setting-label">Font Size</label>' +
+                '<input type="range" class="bible-font-slider" id="bibleFontSlider" min="0.8" max="1.8" step="0.1" value="' + savedFontSize + '">' +
+                '<span class="bible-font-preview" id="bibleFontPreview">' + savedFontSize.toFixed(1) + 'em</span>' +
+                '</div>' +
+                '</div>';
+
+            // Apply saved font size
+            setTimeout(function() {
+                var slider = document.getElementById('bibleFontSlider');
+                var preview = document.getElementById('bibleFontPreview');
+                var contentEl = document.getElementById('bibleContent');
+                if (contentEl) contentEl.style.fontSize = savedFontSize + 'em';
+
+                if (slider) {
+                    slider.addEventListener('input', function() {
+                        var size = parseFloat(this.value);
+                        if (preview) preview.textContent = size.toFixed(1) + 'em';
+                        if (contentEl) contentEl.style.fontSize = size + 'em';
+                        localStorage.setItem('atl-bible-font-size', String(size));
+                    });
+                }
+            }, 50);
+        }
+
+        return html;
+    }
+
+    // Bible mode keyboard handler
+    document.addEventListener('keydown', function(e) {
+        if (!document.body.classList.contains('bible-mode-active')) return;
+        if (e.key === 'ArrowLeft') navigateBibleChapter(-1);
+        if (e.key === 'ArrowRight') navigateBibleChapter(1);
+        if (e.key === 'Escape') showBookLanding(currentText);
+    });
 
     // ═══════════════════════════════════════════════════════
     // TEXT VIEW (reading a specific text)
@@ -1609,6 +2789,7 @@
             libraryMode = false;
             currentText = textId;
             document.body.classList.add('text-selected');
+            document.body.classList.remove('library-fullwidth', 'book-landing-view', 'bible-mode-active');
             localStorage.setItem('atl-current-text', textId);
 
             // Track recent texts for "Continue Reading" section
@@ -1721,8 +2902,8 @@
                 '<span class="bc-current">' + (textDef ? textDef.name : textId) + '</span>' +
                 '</div>';
 
-            // Render text introduction panel if available
-            html += renderTextIntro(textId);
+            // Scholarly intro is shown on the Book Landing Page — skip in Study Mode
+            // to avoid cramped rendering in the narrow main-content column
 
             eras.forEach(function(era) {
                 var chapters = ERA_DATA[era.id] || [];
@@ -1806,10 +2987,7 @@
             '<button class="sch-nav-btn sch-next" data-sch-delta="1"' + (chIdx >= flatChapters.length - 1 ? ' disabled' : '') + '>\u25B6</button>' +
             '</div>';
 
-        // Text intro on first chapter only
-        if (chIdx === 0) {
-            html += renderTextIntro(textId);
-        }
+        // Scholarly intro moved to Book Landing Page — skip in Bible Mode
 
         // Era header if first chapter in its era
         if (chEra && isFirstInEra) {
@@ -2501,23 +3679,23 @@
                 return;
             }
 
-            // Recent text card — open text
+            // Recent text card — open book landing
             var recentCard = e.target.closest('.library-recent-card');
             if (recentCard && recentCard.dataset.text) {
-                selectText(recentCard.dataset.text);
+                showBookLanding(recentCard.dataset.text);
                 return;
             }
 
             var featured = e.target.closest('.library-featured-card');
             if (featured && featured.dataset.text) {
-                selectText(featured.dataset.text);
+                showBookLanding(featured.dataset.text);
                 return;
             }
 
-            // Hidden Treasure card — navigate to text/era
+            // Hidden Treasure card — open book landing
             var treasureCard = e.target.closest('.treasure-card');
             if (treasureCard && treasureCard.dataset.text) {
-                selectText(treasureCard.dataset.text);
+                showBookLanding(treasureCard.dataset.text);
                 return;
             }
 
@@ -2554,6 +3732,18 @@
                     window.scrollTo(0, 0);
                     return;
                 }
+                // Resurrection trail opens Sheol & Resurrection text
+                if (trailCard.dataset.trail === 'resurrection-trail' && getTextDef('sheol_resurrection')) {
+                    showBookLanding('sheol_resurrection');
+                    window.scrollTo(0, 0);
+                    return;
+                }
+                // Prophetic Matrix trail opens Prophetic Sequence text
+                if (trailCard.dataset.trail === 'prophetic-matrix' && getTextDef('prophetic_sequence')) {
+                    showBookLanding('prophetic_sequence');
+                    window.scrollTo(0, 0);
+                    return;
+                }
                 renderStudyTrail(trailCard.dataset.trail);
                 window.scrollTo(0, 0);
                 return;
@@ -2573,10 +3763,10 @@
                 return;
             }
 
-            // Ancient Library card — open text
+            // Ancient Library card — open book landing
             var algCard = e.target.closest('.alg-card');
             if (algCard && algCard.dataset.text) {
-                selectText(algCard.dataset.text);
+                showBookLanding(algCard.dataset.text);
                 window.scrollTo(0, 0);
                 return;
             }
@@ -2606,7 +3796,7 @@
 
             var card = e.target.closest('.library-card');
             if (card && !card.classList.contains('library-card-empty')) {
-                selectText(card.dataset.text);
+                showBookLanding(card.dataset.text);
                 return;
             }
 
@@ -3227,8 +4417,29 @@
         if (toolsOv) toolsOv.remove();
     }
 
+    var hashHandling = false; // guard against recursive hash changes
     function handleHash() {
+        if (hashHandling) return;
         var hash = location.hash.slice(1);
+
+        // Book Landing Page
+        if (hash.startsWith('book/')) {
+            var bookId = hash.slice(5);
+            hashHandling = true;
+            showBookLanding(bookId);
+            hashHandling = false;
+            return;
+        }
+
+        // Bible Mode — hash has 1-based chapter, convert to 0-based index
+        if (hash.startsWith('read/')) {
+            var parts = hash.split('/');
+            var chapterNum = parseInt(parts[2]) || 1;
+            hashHandling = true;
+            showBibleMode(parts[1], chapterNum - 1);
+            hashHandling = false;
+            return;
+        }
 
         if (!hash || hash === 'library') {
             if (libraryMode) return;
@@ -4375,7 +5586,14 @@
     function renderInlineScripture(textId, startCh, endCh) {
         if (!textId || !startCh) return '<div class="scripture-no-data">No scripture text available for this chapter.</div>';
         var ilData = getTextInterlinear(textId);
-        if (!ilData || typeof ilData !== 'object') return '<div class="scripture-no-data">Scripture text not available for this text.</div>';
+        var useStandalone = false;
+
+        // Fallback to standalone flow for texts without interlinear (1 Enoch, DSS, etc.)
+        if ((!ilData || typeof ilData !== 'object' || Object.keys(ilData).length === 0) && STANDALONE_FLOW[textId]) {
+            useStandalone = true;
+        } else if (!ilData || typeof ilData !== 'object') {
+            return '<div class="scripture-no-data">Scripture text not available for this text.</div>';
+        }
 
         var start = parseInt(startCh, 10);
         var end = endCh ? parseInt(endCh, 10) : start;
@@ -4386,34 +5604,62 @@
         var html = '<div class="scripture-reading">';
         var hasAnyVerse = false;
 
-        for (var chNum = start; chNum <= end; chNum++) {
-            var data = ilData[String(chNum)];
-            if (!data || !data.verses || data.verses.length === 0) continue;
+        if (useStandalone) {
+            // Render from STANDALONE_FLOW data
+            var flowData = STANDALONE_FLOW[textId];
+            var notesData = STANDALONE_NOTES[textId] || {};
+            for (var chNum = start; chNum <= end; chNum++) {
+                var chFlow = flowData[String(chNum)];
+                if (!chFlow) continue;
+                var chNotes = notesData[String(chNum)] || {};
 
-            if (start !== end) {
-                html += '<div class="scripture-chapter-heading">' + textName + ' ' + chNum + '</div>';
+                if (start !== end) {
+                    html += '<div class="scripture-chapter-heading">' + textName + ' ' + chNum + '</div>';
+                }
+
+                // Sort verse numbers numerically
+                var verseNums = Object.keys(chFlow).map(Number).sort(function(a, b) { return a - b; });
+                verseNums.forEach(function(vNum) {
+                    hasAnyVerse = true;
+                    html += '<span class="scripture-verse">' +
+                        '<sup class="scripture-verse-num">' + vNum + '</sup>' +
+                        '<span class="scripture-verse-text">' + esc(chFlow[String(vNum)]) + '</span>' +
+                        '</span> ';
+                    if (chNotes[String(vNum)]) {
+                        html += '<span class="scripture-verse-note standalone-note" title="' + escAttr(chNotes[String(vNum)]) + '">\uD83D\uDCA1</span> ';
+                    }
+                });
             }
+        } else {
+            // Render from interlinear-merged flow data
+            for (var chNum = start; chNum <= end; chNum++) {
+                var data = ilData[String(chNum)];
+                if (!data || !data.verses || data.verses.length === 0) continue;
 
-            data.verses.forEach(function(verse) {
-                hasAnyVerse = true;
-                var text = '';
-                if (verse.flow) {
-                    text = verse.flow;
-                } else {
-                    var glosses = verse.words.slice().reverse()
-                        .map(function(w) { return w.g || ''; })
-                        .filter(function(g) { return g && g !== 'properly' && g !== 'untranslatable'; });
-                    text = glosses.join(' ').replace(/\s*\+\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
+                if (start !== end) {
+                    html += '<div class="scripture-chapter-heading">' + textName + ' ' + chNum + '</div>';
                 }
-                html += '<span class="scripture-verse">' +
-                    '<sup class="scripture-verse-num">' + verse.num + '</sup>' +
-                    '<span class="scripture-verse-text">' + esc(text) + '</span>' +
-                    '</span> ';
-                // Show study note if present
-                if (verse.note) {
-                    html += '<span class="scripture-verse-note" title="Study note">\uD83D\uDCA1</span> ';
-                }
-            });
+
+                data.verses.forEach(function(verse) {
+                    hasAnyVerse = true;
+                    var text = '';
+                    if (verse.flow) {
+                        text = verse.flow;
+                    } else {
+                        var glosses = verse.words.slice().reverse()
+                            .map(function(w) { return w.g || ''; })
+                            .filter(function(g) { return g && g !== 'properly' && g !== 'untranslatable'; });
+                        text = glosses.join(' ').replace(/\s*\+\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
+                    }
+                    html += '<span class="scripture-verse">' +
+                        '<sup class="scripture-verse-num">' + verse.num + '</sup>' +
+                        '<span class="scripture-verse-text">' + esc(text) + '</span>' +
+                        '</span> ';
+                    if (verse.note) {
+                        html += '<span class="scripture-verse-note" title="Study note">\uD83D\uDCA1</span> ';
+                    }
+                });
+            }
         }
 
         if (!hasAnyVerse) {

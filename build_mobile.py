@@ -472,6 +472,12 @@ def main():
     # Change all INTERLINEAR consts to var
     js = re.sub(r'    const (INTERLINEAR\w*) = \{\};', r'    var \1 = {};', js)
 
+    # Replace standalone flow/notes placeholders with empty objects
+    # (Mobile loads flow data on-demand, but standalone flow for non-interlinear
+    #  texts like 1 Enoch needs to be embedded since there's no interlinear JSON)
+    js = js.replace("__STANDALONE_FLOW_DATA__", '{}')
+    js = js.replace("__STANDALONE_NOTES_DATA__", '{}')
+
     # ── SAFETY CHECK: fail build if any __*_DATA__ placeholders remain ──
     remaining = re.findall(r'__[A-Z_]+_DATA__', js)
     if remaining:

@@ -1,0 +1,631 @@
+/* ═══════════════════════════════════════════════════════
+   BOOK LANDING PAGE — Individual text entry page
+   ═══════════════════════════════════════════════════════ */
+
+/* ── Layout: hide sidebar when book landing is active ── */
+body.book-landing-view .app-container {
+    grid-template-columns: 0px 0px 1fr 0px var(--col-pane, 0px);
+}
+body.book-landing-view .sidebar {
+    overflow: hidden;
+    width: 0;
+    min-width: 0;
+    border: none;
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+body.book-landing-view .hebrew-learn-overlay,
+body.book-landing-view .glossary-overlay,
+body.book-landing-view .xref-drawer {
+    display: none !important;
+}
+
+/* ── Root Container ───────────────────────────── */
+.book-landing {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 var(--space-lg) var(--space-3xl);
+    overflow-y: auto;
+    height: 100%;
+}
+
+/* ── Back Button ─────────────────────────────── */
+.book-back-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: var(--text-xs);
+    padding: 5px 14px;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: var(--space-md);
+}
+
+.book-back-btn:hover {
+    color: var(--gold);
+    border-color: var(--gold-border);
+    background: var(--gold-dim);
+}
+
+/* ── Hero Section ─────────────────────────────── */
+.book-hero {
+    text-align: center;
+    padding: var(--space-3xl) var(--space-xl) var(--space-2xl);
+    position: relative;
+}
+
+.book-hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-border), transparent);
+}
+
+.book-hero-badge {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 4px 14px;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--gold-border);
+    color: var(--gold);
+    background: var(--gold-dim);
+    margin-bottom: var(--space-md);
+}
+
+.book-hero-title {
+    font-size: var(--text-4xl);
+    color: var(--gold);
+    font-family: var(--font-heading);
+    margin: 0 0 var(--space-sm);
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+}
+
+.book-hero-desc {
+    font-size: var(--text-base);
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto var(--space-lg);
+    line-height: 1.65;
+}
+
+.book-hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-xl);
+}
+
+.book-hero-stat {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    padding: 5px 14px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-pill);
+    white-space: nowrap;
+    letter-spacing: 0.02em;
+}
+
+.book-stat-num {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.book-stat-label {
+    color: var(--text-muted);
+}
+
+.book-hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+}
+
+.book-start-btn {
+    background: linear-gradient(135deg, rgba(201, 168, 76, 0.25), rgba(201, 168, 76, 0.1));
+    border: 1px solid rgba(201, 168, 76, 0.5);
+    color: var(--gold);
+    font-size: var(--text-base);
+    font-weight: 600;
+    font-family: var(--font-heading);
+    padding: 12px 32px;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all 0.25s ease;
+    letter-spacing: 0.03em;
+}
+
+.book-start-btn:hover {
+    background: linear-gradient(135deg, rgba(201, 168, 76, 0.4), rgba(201, 168, 76, 0.18));
+    border-color: var(--gold);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(201, 168, 76, 0.2);
+}
+
+.book-study-btn {
+    background: none;
+    border: 1px solid var(--gold-border);
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    font-family: var(--font-body);
+    padding: 12px 28px;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    letter-spacing: 0.02em;
+}
+
+.book-study-btn:hover {
+    color: var(--gold);
+    border-color: rgba(201, 168, 76, 0.5);
+    background: var(--gold-dim);
+}
+
+/* ── Section Headers ──────────────────────────── */
+.book-section-header {
+    font-size: var(--text-lg);
+    font-weight: 600;
+    color: var(--gold);
+    font-family: var(--font-heading);
+    margin: 0 0 var(--space-md);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.book-section-header::before {
+    content: '';
+    width: 3px;
+    height: 18px;
+    background: var(--gold);
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+/* ── Content Grid (2-column) ──────────────────── */
+.book-landing-grid {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: var(--space-xl);
+    margin-top: var(--space-xl);
+}
+
+.book-landing-main {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+    min-width: 0;
+}
+
+.book-landing-aside {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+}
+
+/* ── Era/Chapter Outline ──────────────────────── */
+.book-outline {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+}
+
+.book-outline-era {
+    margin-bottom: 2px;
+}
+
+.book-outline-era-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--text-primary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+    transition: background 0.15s ease;
+    text-align: left;
+    font-family: inherit;
+    user-select: none;
+}
+
+.book-outline-era-toggle:hover {
+    background: var(--bg-hover);
+}
+
+.book-outline-era-color {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.book-outline-era-icon {
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    min-width: 18px;
+    text-align: center;
+}
+
+.book-outline-era-name {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.book-outline-era-count {
+    font-size: var(--text-xs);
+    font-weight: 400;
+    color: var(--text-muted);
+    flex-shrink: 0;
+    padding: 1px 8px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: var(--radius-pill);
+}
+
+.book-outline-chevron {
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+}
+
+.book-outline-chapters {
+    padding-left: var(--space-lg);
+    border-left: 1px solid var(--border);
+    margin-left: 20px;
+}
+
+.book-outline-ch {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: 6px 12px;
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+    transition: all 0.15s ease;
+}
+
+.book-outline-ch:hover {
+    background: var(--bg-hover);
+    color: var(--gold-light);
+}
+
+.book-outline-check {
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    flex-shrink: 0;
+    color: transparent;
+    transition: all 0.15s ease;
+}
+
+.book-outline-ch.read .book-outline-check {
+    border-color: rgba(46, 160, 67, 0.5);
+    background: rgba(46, 160, 67, 0.15);
+    color: #2ea043;
+}
+
+.book-outline-ch-label {
+    flex: 1;
+    min-width: 0;
+}
+
+/* ── Mini Map ─────────────────────────────────── */
+.book-mini-map {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    min-height: 120px;
+}
+
+.book-mini-map-placeholder {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: var(--text-sm);
+    padding: var(--space-xl) 0;
+    font-style: italic;
+}
+
+/* ── Study Guide ──────────────────────────────── */
+.book-study-guide {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+}
+
+.book-study-guide-content {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    line-height: 1.65;
+}
+
+.book-theme-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.book-theme-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+}
+
+.book-theme-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* ── Prophecy Summary ─────────────────────────── */
+.book-prophecy-summary {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+}
+
+.book-prophecy-card {
+    padding: 12px 14px;
+    background: linear-gradient(135deg, rgba(201, 168, 76, 0.05), transparent);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--gold-border);
+    border-radius: var(--radius-sm);
+    margin-bottom: var(--space-sm);
+    transition: all 0.2s ease;
+}
+
+.book-prophecy-card:last-child {
+    margin-bottom: 0;
+}
+
+.book-prophecy-card:hover {
+    border-left-color: var(--gold);
+    background: linear-gradient(135deg, rgba(201, 168, 76, 0.1), rgba(201, 168, 76, 0.02));
+}
+
+.book-prophecy-ref {
+    font-size: var(--text-xs);
+    color: var(--gold);
+    margin-bottom: 2px;
+}
+
+.book-prophecy-title {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.book-prophecy-status {
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--text-muted);
+}
+
+.book-prophecy-card.prophecy-fulfilled .book-prophecy-status {
+    color: var(--green);
+}
+
+.book-prophecy-card.prophecy-partial .book-prophecy-status {
+    color: var(--amber);
+}
+
+.book-prophecy-more {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    text-align: center;
+    padding: var(--space-sm) 0 0;
+    font-style: italic;
+}
+
+/* ── Related Books ────────────────────────────── */
+.book-related {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+}
+
+.book-related-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: var(--space-xs);
+}
+
+.book-related-card:last-child {
+    margin-bottom: 0;
+}
+
+.book-related-card:hover {
+    border-color: rgba(201, 168, 76, 0.3);
+    background: var(--bg-hover);
+}
+
+.book-related-badge {
+    font-size: 0.55rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+
+.book-related-name {
+    flex: 1;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.book-related-count {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    flex-shrink: 0;
+}
+
+.book-related-empty {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+    font-style: italic;
+    padding: var(--space-sm) 0;
+}
+
+/* ── Scholarly Intro (moved here from reading view) ── */
+.book-scholarly-intro {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+}
+
+.book-scholarly-intro .text-intro-panel {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+/* ═══════════════════════════════════════════════════════
+   RESPONSIVE — Tablet
+   ═══════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+    .book-landing {
+        padding: 0 var(--space-md) var(--space-2xl);
+    }
+
+    .book-hero {
+        padding: var(--space-2xl) var(--space-md) var(--space-lg);
+    }
+
+    .book-hero-title {
+        font-size: var(--text-3xl);
+    }
+
+    .book-hero-desc {
+        font-size: var(--text-sm);
+    }
+
+    .book-landing-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-lg);
+    }
+
+    .book-landing-aside {
+        order: -1;
+    }
+
+    .book-hero-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-start-btn,
+    .book-study-btn {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════
+   RESPONSIVE — Small mobile
+   ═══════════════════════════════════════════════════════ */
+@media (max-width: 480px) {
+    .book-hero {
+        padding: var(--space-xl) var(--space-sm) var(--space-md);
+    }
+
+    .book-hero-title {
+        font-size: var(--text-2xl);
+    }
+
+    .book-hero-badge {
+        font-size: 0.55rem;
+        padding: 3px 10px;
+    }
+
+    .book-hero-stats {
+        gap: 6px;
+    }
+
+    .book-hero-stat {
+        font-size: 0.68rem;
+        padding: 4px 10px;
+    }
+
+    .book-outline,
+    .book-study-guide,
+    .book-prophecy-summary,
+    .book-related,
+    .book-mini-map,
+    .book-scholarly-intro {
+        padding: var(--space-md);
+        border-radius: var(--radius-md);
+    }
+
+    .book-section-header {
+        font-size: var(--text-base);
+    }
+
+    .book-start-btn {
+        padding: 10px 24px;
+        font-size: var(--text-sm);
+    }
+
+    .book-study-btn {
+        padding: 10px 20px;
+    }
+
+    .book-outline-era-toggle {
+        padding: 8px 10px;
+        font-size: var(--text-xs);
+    }
+}

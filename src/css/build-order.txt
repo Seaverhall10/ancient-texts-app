@@ -44,4 +44,6 @@ auth.css
 reading-modes.css
 hidden-treasures.css
 study-notes.css
+book-landing.css
+bible-mode.css
 mobile.css
