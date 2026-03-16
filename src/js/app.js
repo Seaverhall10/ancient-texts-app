@@ -2440,6 +2440,17 @@
         html += '<div class="bible-reader" id="bibleReader">' +
             '<div class="bible-chapter-content" id="bibleContent">';
 
+        // Original language hint (show once per session)
+        var origLang = textDef.category === 'nt' ? 'Greek' : 'Hebrew';
+        var langHintKey = 'atl-lang-hint-dismissed';
+        if (!sessionStorage.getItem(langHintKey)) {
+            html += '<div class="bible-lang-hint" id="bibleLangHint">' +
+                '<span class="bible-lang-hint-text">This English text is translated from the original <strong>' + origLang + '</strong>. ' +
+                'Tap <strong>\ud83d\udd24 ' + origLang + '</strong> below to see every word in the original language with grammar, morphology, and Strong\'s numbers.</span>' +
+                '<button class="bible-lang-hint-close" id="bibleLangHintClose">&times;</button>' +
+                '</div>';
+        }
+
         var verses = getBibleChapterContent(textId, currentBibleChapter);
         if (verses.length > 0) {
             verses.forEach(function(v) {
@@ -2548,6 +2559,16 @@
                         switchBibleDrawerTab(textId, currentBibleChapter, 'settings');
                     }
                 }
+            });
+        }
+
+        // Language hint dismiss
+        var langHintClose = document.getElementById('bibleLangHintClose');
+        if (langHintClose) {
+            langHintClose.addEventListener('click', function() {
+                var hint = document.getElementById('bibleLangHint');
+                if (hint) hint.style.display = 'none';
+                sessionStorage.setItem('atl-lang-hint-dismissed', '1');
             });
         }
 
