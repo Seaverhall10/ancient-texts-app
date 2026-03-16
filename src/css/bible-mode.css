@@ -141,29 +141,51 @@ body.bible-mode-active {
     padding-bottom: var(--space-3xl);
 }
 
+/* ── Reading Progress Bar ─────────────────────────────────── */
+.bible-progress-bar {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: var(--gold);
+    transition: width 0.15s ease-out;
+    z-index: 10;
+    opacity: 0.7;
+}
+
 /* ── Verse Styling ────────────────────────────────────────── */
 .bible-verse {
     margin-bottom: var(--space-xs);
-    line-height: var(--leading-relaxed);
+    line-height: 1.85;
     display: inline;
+    border-radius: var(--radius-sm);
+    transition: background 0.15s ease;
+}
+
+.bible-verse.verse-highlighted {
+    background: rgba(201, 168, 76, 0.08);
 }
 
 .bible-verse-num {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
     font-weight: 700;
     color: var(--gold);
     vertical-align: super;
     line-height: 0;
     margin-right: 2px;
-    opacity: 0.85;
+    opacity: 0.75;
     user-select: none;
+    cursor: pointer;
 }
 
 .bible-verse-text {
     font-family: var(--font-heading);
-    font-size: var(--text-lg);
-    line-height: var(--leading-relaxed);
+    font-size: 1.12rem;
+    line-height: 1.85;
     color: var(--text-primary);
+    letter-spacing: 0.005em;
+    word-spacing: 0.02em;
 }
 
 .bible-word {
@@ -176,6 +198,51 @@ body.bible-mode-active {
 .bible-word:active {
     color: var(--gold-light);
     border-bottom-color: var(--gold-border);
+}
+
+/* ── Study Note Icon & Popup ──────────────────────────────── */
+.bible-verse-note {
+    cursor: pointer;
+    font-size: 0.85rem;
+    opacity: 0.7;
+    transition: opacity 0.15s;
+    user-select: none;
+}
+.bible-verse-note:hover,
+.bible-verse-note:active {
+    opacity: 1;
+}
+
+.bible-note-popup {
+    display: block;
+    background: var(--bg-card);
+    border: 1px solid var(--gold-border);
+    border-left: 3px solid var(--gold);
+    border-radius: var(--radius-md);
+    padding: var(--space-sm) var(--space-md);
+    margin: var(--space-xs) 0 var(--space-sm);
+    font-size: var(--text-sm);
+    line-height: 1.6;
+    color: var(--text-secondary);
+    position: relative;
+    animation: noteSlideIn 0.2s ease;
+}
+.bible-note-popup-close {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 2px 6px;
+}
+.bible-note-popup-close:hover { color: var(--gold); }
+
+@keyframes noteSlideIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 /* ── Chapter Slide Transitions ────────────────────────────── */
@@ -539,7 +606,13 @@ body.bible-mode-active {
     }
 
     .bible-verse-text {
-        font-size: var(--text-base);
+        font-size: 1.05rem;
+        line-height: 1.9;
+    }
+
+    .bible-reader {
+        padding: var(--space-md) var(--space-md);
+        padding-bottom: 72px;
     }
 
     .bible-bottom-bar {

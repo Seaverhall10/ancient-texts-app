@@ -2504,7 +2504,8 @@
             '<button class="bible-back-btn" id="bibleBack">&larr;</button>' +
             '<span class="bible-book-title">' + esc(textDef.name) + ' ' + currentBibleChapter + '</span>' +
             '<button class="bible-settings-btn" id="bibleSettings">&#9881;</button>' +
-            '</div>';
+            '</div>' +
+            '<div class="bible-progress-bar" id="bibleProgressBar"></div>';
 
         // ─── READER ───
         html += '<div class="bible-reader" id="bibleReader">' +
@@ -2529,7 +2530,7 @@
                     '<span class="bible-verse-text">' + esc(v.text) + '</span>' +
                     '</span> ';
                 if (v.note) {
-                    html += '<span class="bible-verse-note" title="' + escAttr(v.note) + '">\uD83D\uDCA1</span> ';
+                    html += '<span class="bible-verse-note" data-note="' + escAttr(v.note) + '">\uD83D\uDCA1</span> ';
                 }
             });
         } else {
@@ -2641,6 +2642,46 @@
                 sessionStorage.setItem('atl-lang-hint-dismissed', '1');
             });
         }
+
+        // Reading progress bar
+        var bibleReader = document.getElementById('bibleReader');
+        var progressBar = document.getElementById('bibleProgressBar');
+        if (bibleReader && progressBar) {
+            bibleReader.addEventListener('scroll', function() {
+                var scrollTop = bibleReader.scrollTop;
+                var scrollHeight = bibleReader.scrollHeight - bibleReader.clientHeight;
+                var pct = scrollHeight > 0 ? Math.min(100, (scrollTop / scrollHeight) * 100) : 0;
+                progressBar.style.width = pct + '%';
+            });
+        }
+
+        // Verse tap highlight
+        bibleRoot.querySelectorAll('.bible-verse').forEach(function(verse) {
+            verse.addEventListener('click', function(e) {
+                // Don't highlight if tapping on note icon
+                if (e.target.classList.contains('bible-verse-note')) return;
+                this.classList.toggle('verse-highlighted');
+            });
+        });
+
+        // Study note tap — show inline popup
+        bibleRoot.querySelectorAll('.bible-verse-note').forEach(function(noteEl) {
+            noteEl.addEventListener('click', function(e) {
+                e.stopPropagation();
+                // Remove any existing popup
+                var existing = bibleRoot.querySelector('.bible-note-popup');
+                if (existing) existing.remove();
+                // Create popup
+                var popup = document.createElement('div');
+                popup.className = 'bible-note-popup';
+                popup.innerHTML = '<div class="bible-note-popup-text">' + this.dataset.note + '</div>' +
+                    '<button class="bible-note-popup-close">&times;</button>';
+                this.parentNode.insertBefore(popup, this.nextSibling);
+                popup.querySelector('.bible-note-popup-close').addEventListener('click', function() {
+                    popup.remove();
+                });
+            });
+        });
 
         // Prev / Next buttons
         var prevBtn = document.getElementById('biblePrev');
@@ -2804,7 +2845,7 @@
                             '<span class="bible-verse-text">' + esc(v.text) + '</span>' +
                             '</span> ';
                         if (v.note) {
-                            html += '<span class="bible-verse-note" title="' + escAttr(v.note) + '">\uD83D\uDCA1</span> ';
+                            html += '<span class="bible-verse-note" data-note="' + escAttr(v.note) + '">\uD83D\uDCA1</span> ';
                         }
                     });
                 } else {
