@@ -1675,6 +1675,76 @@
                 insight: 'Isaiah 24:21 \u2014 \u201cOn that day the LORD will punish (yifqod) the host of heaven in heaven, and the kings of the earth on the earth.\u201d The verb paqad means a formal judicial visitation \u2014 an official review with consequences. The \u201chost of heaven\u201d (tseva\u2019 hamarom) is not stars. It\u2019s the divine beings. This verse has been in Isaiah for 2,700 years, plainly stating that God will judicially punish angelic powers. It is Psalm 82\u2019s death sentence being executed. Most readers skim it as apocalyptic poetry. It\u2019s a court date.',
                 tag: 'OT \u2022 Isa 24:21',
                 color: '#4a6a8a'
+            },
+            {
+                title: 'Hesed: The Word That Holds the Bible Together',
+                text: 'psalms',
+                insight: 'Psalm 136 says it 26 times in a row: ki le\u2018olam hasdo \u2014 \u201cfor his hesed endures forever.\u201d Your Bible probably says \u201csteadfast love\u201d or \u201cloving-kindness,\u201d but neither captures it. Hesed is covenantal loyalty \u2014 the obligation a partner fulfills not because the law requires it, but because the relationship demands it. It\u2019s what Ruth showed Naomi. It\u2019s what Yahweh shows Israel even after they break every covenant. The cross is hesed made flesh. From Genesis 2 to Revelation 22, this is the thread that never breaks.',
+                tag: 'OT \u2022 Psalm 136',
+                color: '#4a8a6a'
+            },
+            {
+                title: 'Why Your Bible Has 66 Books',
+                text: 'canon_scripture',
+                insight: 'The Council of Nicaea (AD 325) did not decide the biblical canon \u2014 it was called about the Trinity. The real story is messier and more interesting. Early churches used texts for centuries before any council spoke. The criteria were apostolicity, catholicity, and orthodoxy \u2014 and they were applied inconsistently. 1 Enoch was quoted as prophecy by Jude but excluded. Hebrews and Revelation nearly didn\u2019t make it. Jerome fought over the Deuterocanon. The canon is not a divine download \u2014 it\u2019s a historical process shaped by real arguments, real politics, and real faith.',
+                tag: 'THEMATIC \u2022 Canon History',
+                color: '#7a6a5a'
+            },
+            {
+                title: 'Ekklesia Is Not \u201cChurch\u201d',
+                text: 'ephesians',
+                insight: 'Every Greek-speaking reader in the first century knew what ekklesia meant: a governing assembly \u2014 citizens called out to conduct public business. Athens had one. Rome had them. It was political, not religious. When Jesus says \u201cI will build my ekklesia\u201d (Matt 16:18), he\u2019s not founding a Sunday meeting. He\u2019s establishing a governing assembly with legal authority. Ephesians 3:10 makes it explicit: the ekklesia\u2019s assignment is to make God\u2019s wisdom known to the \u201crulers and authorities in the heavenly places.\u201d This is a cosmic mission statement, not a church bulletin.',
+                tag: 'NT \u2022 Eph 3:10',
+                color: '#5a6a8a'
+            },
+            {
+                title: 'Leviticus Is Not Boring',
+                text: 'leviticus',
+                insight: 'Leviticus is the most Christologically dense book in the Torah \u2014 if you know what you\u2019re looking at. The entire sacrificial system is pattern language for the atonement: the substitutionary lamb, the priest who mediates, the blood that covers. Leviticus 16 alone contains the Day of Atonement, the two goats (one to Yahweh, one to Azazel), and the high priest entering the Most Holy Place \u2014 all of which Hebrews 9\u201310 unpacks as fulfilled in Christ. Paul didn\u2019t invent penal substitution. It was already in the system. Moses was writing Christology 1,400 years before the cross.',
+                tag: 'OT \u2022 Leviticus 16',
+                color: '#c9a84c'
+            },
+            {
+                title: 'What Paul Actually Said About Women',
+                text: 'romans',
+                insight: 'Romans 16:1 introduces Phoebe as a diakonos \u2014 the same word Paul uses for himself and Apollos as church ministers (1 Cor 3:5). Verse 7 calls Junia \u201cprominent among the apostles\u201d \u2014 the Greek Iounian is a woman\u2019s name, and every church father before the 13th century read it that way. The 13th-century shift to \u201cJunias\u201d (a male name with zero ancient attestation) was not a linguistic finding. It was a theological preference reshaping the text. Read the Greek: Paul\u2019s closing chapter alone names ten women as coworkers, patrons, and leaders.',
+                tag: 'NT \u2022 Romans 16:1\u20137',
+                color: '#8a5a7a'
+            },
+            {
+                title: 'The Servant Songs: 700 Years Early',
+                text: 'isaiah',
+                insight: 'Isaiah 52:13\u201353:12 \u2014 the fourth Servant Song \u2014 describes a figure who is \u201cpierced for our transgressions\u201d (mecholal mippesha\u2019enu), \u201ccrushed for our iniquities,\u201d and whose suffering brings shalom. The word mecholal is the passive participle of chalal \u2014 to be fatally pierced in battle. This is not poetic metaphor. The Servant bears the covenant curse (Deut 28) so others receive the covenant blessing. When Jesus reads Isaiah 61 in the synagogue at Nazareth (Luke 4:21) and says \u201ctoday this Scripture has been fulfilled,\u201d the audience knew exactly which Servant He was claiming to be.',
+                tag: 'OT \u2022 Isa 52:13\u201353:12',
+                color: '#b5564a'
+            },
+            {
+                title: 'Dead Sea Scrolls: What Changed, What Held',
+                text: 'dss_sectarian',
+                insight: 'In 1947, a Bedouin shepherd found jars in Cave 1 at Qumran containing manuscripts 1,000 years older than our previously oldest Hebrew Bible. The Great Isaiah Scroll (1QIsa\u1d43) is the most important: it is Isaiah in full, dated to 125 BC \u2014 a century before Christ. On the foundational doctrines \u2014 God, covenant, sin, the Servant \u2014 the text is essentially identical to what we have. But on Deuteronomy 32:8, the DSS confirmed \u201csons of God\u201d over the Masoretic \u201csons of Israel.\u201d One phrase. Every territorial spirit, every divine council passage, every Psalm 82 argument rests on it.',
+                tag: 'DSS \u2022 Multiple Texts',
+                color: '#6a7a5a'
+            },
+            {
+                title: 'Melchizedek: The Priest with No Origin Story',
+                text: 'hebrews',
+                insight: 'Genesis 14 introduces Melchizedek as priest-king of Salem \u2014 and then he disappears. No genealogy. No death. No origin. The author of Hebrews (7:3) says he is \u201cwithout father or mother or genealogy, having neither beginning of days nor end of life.\u201d In a world where priestly legitimacy depended entirely on ancestry, this is a theological thunderclap. The Melchizedek scroll from Qumran (11QMelch) identifies him as a heavenly figure who executes judgment. Jesus cannot be a Levitical priest \u2014 wrong tribe (Judah, Heb 7:13\u201314). So the argument of Hebrews turns on Psalm 110:4: there is a priesthood older than Aaron\u2019s, and it never ends.',
+                tag: 'NT \u2022 Hebrews 7',
+                color: '#7a6a9a'
+            },
+            {
+                title: 'The Shema and the Trinity',
+                text: 'deuteronomy',
+                insight: 'Deuteronomy 6:4 \u2014 Shema Yisra\u2019el, YHWH Eloheinu, YHWH echad. \u201cHear O Israel, the LORD our God, the LORD is one.\u201d The word echad is a compound unity \u2014 the same word used for the \u201cone flesh\u201d of husband and wife (Gen 2:24) and the \u201cone cluster\u201d of grapes (Num 13:23). The word for absolute singularity is yachid \u2014 and the Shema does not use it. Jewish scholars today dispute whether echad vs yachid is decisive. But the New Testament writers, all of them Jewish, had no trouble reading the God of the Shema as Father, Son, and Spirit. They weren\u2019t departing from Moses. They were reading Moses more carefully.',
+                tag: 'OT \u2022 Deut 6:4',
+                color: '#5a7a8a'
+            },
+            {
+                title: 'Habakkuk Filed a Lawsuit Against God',
+                text: 'habakkuk',
+                insight: 'Habakkuk 1:2 \u2014 \u201cO LORD, how long shall I cry for help, and you will not hear? Or cry to you \u2018Violence!\u2019 and you will not save?\u201d This is not a prayer. It\u2019s a riv \u2014 a formal covenant lawsuit. The prophet is using the same legal framework the prophets invoke against Israel: covenant prosecutor, list of charges, demand for a verdict. Habakkuk files it against Yahweh himself. And God answers \u2014 not with rebuke, but with a vision. Habakkuk 2:4 emerges from this legal argument: \u201cthe righteous shall live by his faith (emunah).\u201d Paul quotes it three times (Rom 1:17, Gal 3:11, Heb 10:38). The doctrine of justification by faith came out of a prophet\u2019s complaint.',
+                tag: 'OT \u2022 Habakkuk 1\u20132',
+                color: '#7a8a5a'
             }
         ];
 
