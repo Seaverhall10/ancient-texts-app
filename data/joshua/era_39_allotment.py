@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Land Remaining and the Transjordan Allotment",
         "era": "allotment",
         "type": "chapter",
+        "themes": ["LAND", "COV", "NATIONS"],
 
         "synopsis": "Joshua is now 'old and advanced in years' (13:1), and YHWH says: 'There "
                     "remains yet very much land to possess' (13:1). This honest acknowledgment "
@@ -335,6 +336,7 @@ CHAPTERS = [
         "title": "The Allotment at Shiloh -- The Tabernacle Finds Its Home",
         "era": "allotment",
         "type": "chapter",
+        "themes": ["LAND", "HOLY"],
 
         "synopsis": "The allotment process moves from Gilgal to Shiloh, where the tabernacle is "
                     "set up (18:1) -- a pivotal moment establishing Shiloh as Israel's central "
@@ -496,6 +498,7 @@ CHAPTERS = [
         "title": "Cities of Refuge -- Justice and Mercy in the Land",
         "era": "allotment",
         "type": "chapter",
+        "themes": ["HOLY", "BLOOD", "LAW"],
 
         "synopsis": "YHWH commands Joshua to establish the cities of refuge (arei hamiklat) -- "
                     "sanctuary cities where those who commit unintentional manslaughter can flee "
@@ -598,6 +601,7 @@ CHAPTERS = [
         "title": "Levitical Cities and the Fulfillment of Every Promise",
         "era": "allotment",
         "type": "chapter",
+        "themes": ["PRIEST", "LAND", "COV"],
 
         "synopsis": "The Levitical clans approach Eleazar, Joshua, and the tribal heads at Shiloh "
                     "and request the cities and pasturelands promised by YHWH through Moses (Num "

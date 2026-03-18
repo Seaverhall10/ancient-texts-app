@@ -22,6 +22,7 @@ CHAPTERS = [
         "title": "The Burnt Offering — Total Consecration",
         "era": "offerings",
         "type": "chapter",
+        "themes": ["BLOOD", "HOLY", "PRIEST", "TYPE"],
 
         "synopsis": (
             "Leviticus 1 opens with YHWH calling to Moses from the Tent of Meeting — the "
@@ -256,6 +257,7 @@ CHAPTERS = [
         "title": "The Grain Offering — Tribute from the Land",
         "era": "offerings",
         "type": "chapter",
+        "themes": ["BLOOD", "HOLY", "PRIEST"],
 
         "synopsis": (
             "Leviticus 2 introduces the grain offering (minchah), the only major offering "
@@ -437,6 +439,7 @@ CHAPTERS = [
         "title": "The Peace Offering — Communion at God's Table",
         "era": "offerings",
         "type": "chapter",
+        "themes": ["BLOOD", "HOLY", "COV"],
 
         "synopsis": (
             "Leviticus 3 describes the peace offering (zebach shelamim), the most communal "
@@ -644,6 +647,7 @@ CHAPTERS = [
         "title": "The Sin Offering — Purification of the Sanctuary",
         "era": "offerings",
         "type": "chapter",
+        "themes": ["BLOOD", "HOLY", "PRIEST", "TYPE"],
 
         "synopsis": (
             "Leviticus 4 introduces the sin offering (chattat), the first offering "
@@ -852,6 +856,7 @@ CHAPTERS = [
         "title": "The Guilt Offering — Restitution and Sacred Trespass",
         "era": "offerings",
         "type": "chapter",
+        "themes": ["BLOOD", "HOLY", "LAW"],
 
         "synopsis": (
             "Leviticus 5 transitions from the sin offering to the guilt offering (asham), "
@@ -1043,6 +1048,7 @@ CHAPTERS = [
         "title": "Perpetual Fire — Instructions for the Priests",
         "era": "offerings",
         "type": "chapter",
+        "themes": ["BLOOD", "PRIEST", "HOLY", "LAW"],
 
         "synopsis": (
             "Leviticus 6 shifts from the worshiper's perspective to the priest's. Chapters "
@@ -1234,6 +1240,7 @@ CHAPTERS = [
         "title": "Completing the Torah of Offerings — Priestly Portions and Final Laws",
         "era": "offerings",
         "type": "chapter",
+        "themes": ["BLOOD", "PRIEST", "HOLY", "LAW"],
 
         "synopsis": (
             "Leviticus 7 completes the sacrificial instruction section that began in chapter 1, "

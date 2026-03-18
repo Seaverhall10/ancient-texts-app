@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "From Glory to Greater Glory — The Fading Veil and the Transforming Spirit",
         "era": "2cor_glory",
         "type": "study",
+        "themes": ["DC", "GLORY", "KING", "TYPE", "SEED"],
 
         "synopsis": "Paul begins by contrasting letters of recommendation -- the currency of the "
                     "'super-apostles' -- with the living letter written by the Spirit of the living "
@@ -201,6 +202,7 @@ CHAPTERS = [
         "title": "The God of This Age and the Treasure in Clay",
         "era": "2cor_glory",
         "type": "study",
+        "themes": ["DC", "KING", "REBEL", "SEED", "GLORY"],
 
         "synopsis": "Chapter 4 moves from the glory of the new covenant to the cosmic conflict that "
                     "opposes it. Paul does not 'lose heart' (4:1) because his ministry is characterized "
@@ -395,6 +397,7 @@ CHAPTERS = [
         "title": "New Creation: The Ministry of Reconciliation",
         "era": "2cor_glory",
         "type": "study",
+        "themes": ["DC", "KING", "HOLY", "BLOOD", "RIV"],
 
         "synopsis": "Chapter 5 brings the argument of chapters 3-4 to its theological climax. Paul opens "
                     "with the eschatological tension between the present mortal body -- 'our earthly tent' "

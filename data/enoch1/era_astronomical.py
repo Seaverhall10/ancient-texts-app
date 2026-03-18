@@ -668,8 +668,8 @@ CHAPTERS = [
         "second_temple": [],
 
         "cross_refs": [
-            {"ref": "Jubilees 6:32-38", "note": "The most explicit mandating of the 364-day calendar: those who follow the moon \'will disturb the order\' and \'mingle holy things with profane\'", "type": "ane"},
-            {"ref": "Jubilees 6:17-22", "note": "God establishes the covenant with Noah with a heavenly sign, linking the post-Flood calendar to covenant theology — right calendar as covenant fidelity", "type": "ane"},
+            {"ref": "Jubilees 6:32-38", "note": "The most explicit mandating of the 364-day calendar: those who follow the moon \'will disturb the order\' and \'mingle holy things with profane\'", "type": "pseudepigrapha"},
+            {"ref": "Jubilees 6:17-22", "note": "God establishes the covenant with Noah with a heavenly sign, linking the post-Flood calendar to covenant theology — right calendar as covenant fidelity", "type": "pseudepigrapha"},
             {"ref": "4Q320 (4QCalendrical Document A)", "type": "dss", "note": "The foundational Qumran calendrical text synchronizing the 364-day year with the 24 priestly courses (mishmarot), establishing the practical implementation of the Enochic calendar for Temple service"},
             {"ref": "4Q321 (4QCalendrical Document Ba)", "type": "dss", "note": "Qumran text tracking lunar phases alongside the 364-day solar calendar, demonstrating the community\'s integration of lunar observation within the Enochic framework"},
             {"ref": "4Q394-399 (4QMMT)", "type": "dss", "note": "The Halakhic Letter opening with calendrical data — the calendar dispute as the primary reason for sectarian separation from the Temple establishment"},
@@ -952,8 +952,8 @@ CHAPTERS = [
         "second_temple": [],
 
         "cross_refs": [
-            {"ref": "Jubilees 6:32-38", "note": "The most polemical text in the solar calendar controversy: those who follow the moon 'will disturb the order and mingle holy things with profane'", "type": "ane"},
-            {"ref": "1 Enoch 75:2", "note": "The leaders of the stars who 'do not come forth in their time' — deviation from the calendar is equivalent to angelic rebellion", "type": "ane"},
+            {"ref": "Jubilees 6:32-38", "note": "The most polemical text in the solar calendar controversy: those who follow the moon 'will disturb the order and mingle holy things with profane'", "type": "pseudepigrapha"},
+            {"ref": "1 Enoch 75:2", "note": "The leaders of the stars who 'do not come forth in their time' — deviation from the calendar is equivalent to angelic rebellion", "type": "pseudepigrapha"},
             {"ref": "Daniel 7:25", "note": "The horn will 'think to change the times and the law' — changing the sacred calendar is associated with the ultimate enemy of God's people", "type": "ot"},
             {"ref": "4Q320-330 (Calendrical Documents)", "type": "dss", "note": "The Qumran calendrical corpus: priestly rotation schedules, festival calendars, and sabbath lists all based on the 364-day year, demonstrating practical implementation of the Enochic calendar"},
             {"ref": "4Q394-399 (4QMMT)", "type": "dss", "note": "The 'Halakhic Letter' that begins with a calendrical section, likely describing the festival differences between the Qumran community and the Temple establishment — possibly the founding document of the community's separation"},

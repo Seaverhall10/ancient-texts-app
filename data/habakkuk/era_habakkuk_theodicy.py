@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "How Long, O Lord -- The Prophet Confronts God",
         "era": "habakkuk_theodicy",
         "type": "chapter",
+        "themes": ["RIV", "DC", "PROV"],
 
         "synopsis": "Habakkuk opens not with 'Thus says YHWH' but with 'O LORD, how long?' -- [A] the only "
                     "prophetic book that begins with the prophet's complaint rather than YHWH's message. "
@@ -212,6 +213,7 @@ CHAPTERS = [
         "title": "The Righteous Shall Live by Faith -- Emunah at the Watchtower",
         "era": "habakkuk_theodicy",
         "type": "chapter",
+        "themes": ["RIV", "DC", "NATIONS"],
 
         "synopsis": "Habakkuk 2:1-5 is one of the most cited passages in the New Testament. [A] The prophet "
                     "takes the posture of a watchman at his post, waiting for YHWH's response. [A] The "
@@ -423,6 +425,7 @@ CHAPTERS = [
         "title": "The Divine Warrior Theophany -- The Answer That Goes Beyond the Question",
         "era": "habakkuk_theodicy",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "SPIRIT"],
 
         "synopsis": "Habakkuk 3 is one of the most magnificent theophanic poems in the Hebrew Bible. [A] "
                     "YHWH marches as the divine warrior from the south (Teman, Paran -- the Sinai "

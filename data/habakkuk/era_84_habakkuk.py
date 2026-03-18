@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The Prophet's Complaint and YHWH's Disturbing Answer",
         "era": "habakkuk",
         "type": "chapter",
+        "themes": ["RIV", "DC", "PROV"],
 
         "synopsis": "Habakkuk opens with a raw complaint: 'O YHWH, how long shall I cry for help, and you "
                     "will not hear? Or cry to you \"Violence!\" and you will not save?' (1:2). Judah is full "
@@ -95,6 +96,7 @@ CHAPTERS = [
         "title": "The Watchtower Vision -- Five Woes and the Faith That Saves",
         "era": "habakkuk",
         "type": "chapter",
+        "themes": ["RIV", "DC", "NATIONS"],
 
         "synopsis": "Habakkuk stations himself on a watchtower to await YHWH's response (2:1). The answer "
                     "comes: 'Write the vision; make it plain on tablets, so he may run who reads it. For "

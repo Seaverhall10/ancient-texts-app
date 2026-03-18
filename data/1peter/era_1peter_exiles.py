@@ -10,6 +10,7 @@ CHAPTERS = [
         'era': '1peter_exiles',
         'chapter_num': 1,
         'type': 'chapter',
+        'themes': ['DC', 'EXILE', 'KING', 'BLOOD', 'HOLY'],
         'title': 'Elect Exiles \u2014 Living Stones and the Royal Priesthood',
         'ref': '1 Peter 1:1\u20142:12',
         'period': 'ca. AD 62\u201364',
@@ -224,11 +225,11 @@ CHAPTERS = [
             'a portable, indestructible temple that hostile powers cannot tear down.'
         ),
         'cross_refs': [
-            {'ref': 'Exodus 19:5-6', 'note': '"A kingdom of priests, a holy nation" \u2014 Peter\'s source text'},
-            {'ref': 'Hosea 2:23', 'note': '"Not my people" becomes "my people"'},
-            {'ref': 'Deuteronomy 32:8-9', 'note': 'Israel as YHWH\'s portion among the divided nations'},
-            {'ref': 'Ephesians 2:19-22', 'note': 'Parallel "living temple" built on the cornerstone'},
-            {'ref': 'Isaiah 28:16', 'note': 'The precious cornerstone laid in Zion'}
+            {'ref': 'Exodus 19:5-6', 'note': '"A kingdom of priests, a holy nation" \u2014 Peter\'s source text', 'type': 'ot'},
+            {'ref': 'Hosea 2:23', 'note': '"Not my people" becomes "my people"', 'type': 'ot'},
+            {'ref': 'Deuteronomy 32:8-9', 'note': 'Israel as YHWH\'s portion among the divided nations', 'type': 'ot'},
+            {'ref': 'Ephesians 2:19-22', 'note': 'Parallel "living temple" built on the cornerstone', 'type': 'nt'},
+            {'ref': 'Isaiah 28:16', 'note': 'The precious cornerstone laid in Zion', 'type': 'ot'}
         ],
         'historical_note': (
             'The letter was likely written from Rome ("Babylon" in 5:13 is widely understood '
@@ -251,6 +252,7 @@ CHAPTERS = [
         'era': '1peter_exiles',
         'chapter_num': 2,
         'type': 'chapter',
+        'themes': ['DC', 'KING', 'TYPE', 'REBEL', 'SEED'],
         'title': 'The Spirits in Prison \u2014 Christ\'s Cosmic Victory Proclamation',
         'ref': '1 Peter 2:13\u20143:22',
         'period': 'ca. AD 62\u201364',
@@ -474,14 +476,14 @@ CHAPTERS = [
             'and the entire cosmic insurgency \u2014 has been decisively defeated.'
         ),
         'cross_refs': [
-            {'ref': 'Genesis 6:1-4', 'note': 'The sons of God taking human wives \u2014 the background event'},
-            {'ref': '1 Enoch 10:4-16', 'note': 'The imprisonment of the Watchers in detail'},
-            {'ref': 'Jude 6', 'note': '"Angels who did not stay within their own position of authority"'},
-            {'ref': '2 Peter 2:4', 'note': '"God did not spare angels when they sinned, but cast them into Tartarus"'},
-            {'ref': 'Psalm 110:1', 'note': '"Sit at my right hand" \u2014 the enthronement Peter references'},
-            {'ref': 'Ephesians 1:20-21', 'note': 'Parallel cosmic enthronement: "far above all rule and authority"'},
-            {'ref': 'Colossians 2:15', 'note': 'Parallel disarming of rulers and authorities'},
-            {'ref': 'Genesis 3:15', 'note': 'The protoevangelium \u2014 the Seed that the Watchers tried to corrupt'}
+            {'ref': 'Genesis 6:1-4', 'note': 'The sons of God taking human wives \u2014 the background event', 'type': 'ot'},
+            {'ref': '1 Enoch 10:4-16', 'note': 'The imprisonment of the Watchers in detail', 'type': 'pseudepigrapha'},
+            {'ref': 'Jude 6', 'note': '"Angels who did not stay within their own position of authority"', 'type': 'nt'},
+            {'ref': '2 Peter 2:4', 'note': '"God did not spare angels when they sinned, but cast them into Tartarus"', 'type': 'nt'},
+            {'ref': 'Psalm 110:1', 'note': '"Sit at my right hand" \u2014 the enthronement Peter references', 'type': 'ot'},
+            {'ref': 'Ephesians 1:20-21', 'note': 'Parallel cosmic enthronement: "far above all rule and authority"', 'type': 'nt'},
+            {'ref': 'Colossians 2:15', 'note': 'Parallel disarming of rulers and authorities', 'type': 'nt'},
+            {'ref': 'Genesis 3:15', 'note': 'The protoevangelium \u2014 the Seed that the Watchers tried to corrupt', 'type': 'ot'}
         ],
         'historical_note': (
             'The early church debated this passage vigorously. Some interpreted the "spirits '
@@ -507,6 +509,7 @@ CHAPTERS = [
         'era': '1peter_exiles',
         'chapter_num': 3,
         'type': 'chapter',
+        'themes': ['KING', 'DC', 'REBEL', 'RIV', 'BLOOD'],
         'title': 'The Fiery Trial \u2014 Suffering and the Devil Who Prowls',
         'ref': '1 Peter 4:1\u20145:14',
         'period': 'ca. AD 62\u201364',
@@ -722,12 +725,12 @@ CHAPTERS = [
             'and establish" them (5:10).'
         ),
         'cross_refs': [
-            {'ref': 'Job 1:6-12; 2:1-6', 'note': 'The satan as accuser in YHWH\'s court'},
-            {'ref': 'Zechariah 3:1-5', 'note': 'The satan accusing Joshua the high priest'},
-            {'ref': 'Revelation 12:10', 'note': '"The accuser of our brothers has been thrown down"'},
-            {'ref': 'Ezekiel 9:6', 'note': 'Judgment beginning at the sanctuary'},
-            {'ref': 'Psalm 22:13', 'note': 'The roaring lion image in the messianic psalm'},
-            {'ref': 'Revelation 5:5', 'note': 'The Lion of Judah who has conquered'}
+            {'ref': 'Job 1:6-12; 2:1-6', 'note': 'The satan as accuser in YHWH\'s court', 'type': 'ot'},
+            {'ref': 'Zechariah 3:1-5', 'note': 'The satan accusing Joshua the high priest', 'type': 'ot'},
+            {'ref': 'Revelation 12:10', 'note': '"The accuser of our brothers has been thrown down"', 'type': 'nt'},
+            {'ref': 'Ezekiel 9:6', 'note': 'Judgment beginning at the sanctuary', 'type': 'ot'},
+            {'ref': 'Psalm 22:13', 'note': 'The roaring lion image in the messianic psalm', 'type': 'ot'},
+            {'ref': 'Revelation 5:5', 'note': 'The Lion of Judah who has conquered', 'type': 'nt'}
         ],
         'historical_note': (
             'If 1 Peter was written ca. AD 62-64, the "fiery trial" may refer to the '

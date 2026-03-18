@@ -32,6 +32,7 @@ CHAPTERS = [
         "title": "The Six Seals -- The Four Horsemen and the Unmaking of Creation",
         "era": "rev_seals_trumpets",
         "type": "study",
+        "themes": ["KING", "DC", "BLOOD", "TYPE", "RIV"],
 
         "synopsis": "As the Lamb opens the first four seals, the four living creatures summon the four "
                     "horsemen with the command 'Come!' (erchou, 6:1). Each horseman represents a form "
@@ -228,6 +229,7 @@ CHAPTERS = [
         "title": "The 144,000 and the Great Multitude -- The Redeemed Before the Throne",
         "era": "rev_seals_trumpets",
         "type": "study",
+        "themes": ["SEED", "DC", "KING", "NATIONS", "BLOOD"],
 
         "synopsis": "Revelation 7 is an interlude between the sixth and seventh seals, answering the "
                     "question of 6:17: 'Who can stand?' Two visions answer: first, 144,000 from the "
@@ -389,6 +391,7 @@ CHAPTERS = [
         "title": "The Seventh Seal and the Six Trumpets -- Exodus Plagues Unleashed on the Cosmos",
         "era": "rev_seals_trumpets",
         "type": "study",
+        "themes": ["DC", "REBEL", "BLOOD", "SEED", "RIV"],
 
         "synopsis": "The seventh seal opens not with judgment but with silence: 'there was silence in "
                     "heaven for about half an hour (hemioron)' (8:1). This silence is pregnant with "
@@ -597,6 +600,7 @@ CHAPTERS = [
         "title": "The Mighty Angel, the Little Scroll, and the Two Witnesses",
         "era": "rev_seals_trumpets",
         "type": "study",
+        "themes": ["KING", "DC", "RIV", "COV", "TYPE"],
 
         "synopsis": "Chapters 10-11 form a second interlude (like chapter 7) between the sixth and "
                     "seventh trumpets. Chapter 10 presents 'another mighty angel' (angelon ischyron "
@@ -820,6 +824,7 @@ CHAPTERS = [
         "title": "The Transfer of Cosmic Sovereignty -- 'He Shall Reign Forever and Ever'",
         "era": "rev_seals_trumpets",
         "type": "study",
+        "themes": ["KING", "DC", "TYPE", "COV", "BLOOD"],
 
         "synopsis": "The seventh trumpet (11:15-19) is the pivot point of the entire book of Revelation. "
                     "While the seals and trumpets have been building toward this moment, the declaration "

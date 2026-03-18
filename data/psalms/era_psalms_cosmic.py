@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "The Storm God of Israel -- Baal Cycle Inversion",
         "era": "psalms_cosmic",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "KING"],
 
         "synopsis": "Psalm 29 opens with a direct address to the divine council: 'Ascribe to the LORD, "
                     "O heavenly beings (b'nei 'elim), ascribe to the LORD glory and strength' (29:1). "
@@ -218,6 +219,7 @@ CHAPTERS = [
         "title": "The Divine Warrior Marches -- From Sinai to Ascension",
         "era": "psalms_cosmic",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "KING", "NATIONS"],
 
         "synopsis": "Psalm 68 is one of the most structurally complex psalms in the Psalter — a divine warrior "
                     "hymn that moves from the Exodus-Sinai march to the conquest of Canaan to Yahweh's "
@@ -421,6 +423,7 @@ CHAPTERS = [
         "title": "The Judgment of the Gods -- Divine Council Courtroom",
         "era": "psalms_cosmic",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "RIV", "REBEL"],
 
         "synopsis": "Psalm 82 is the most explicit divine council text in the Hebrew Bible. Verse 1 stages "
                     "the scene: 'Elohim (Yahweh) takes his stand (nitsav) in the divine assembly ('adat-El); "
@@ -638,6 +641,7 @@ CHAPTERS = [
         "title": "The Council and the Covenant Anguish -- When the Promise Seems Broken",
         "era": "psalms_cosmic",
         "type": "chapter",
+        "themes": ["DC", "COV", "SEED", "KING"],
 
         "synopsis": "Psalm 89 opens with the most exalted theological framework in the Psalter — the "
                     "incomparability of Yahweh in the divine council — and then crashes into the most "
@@ -855,6 +859,7 @@ CHAPTERS = [
         "title": "The Cosmic Enthronement -- King, Priest, and the Melchizedekian Order",
         "era": "psalms_cosmic",
         "type": "chapter",
+        "themes": ["DC", "KING", "PRIEST", "SEED"],
 
         "synopsis": "Psalm 110 is the most quoted Old Testament text in the New Testament and the "
                     "theological culmination of the Psalter's cosmic kingship sequence. [A] Verse 1 "

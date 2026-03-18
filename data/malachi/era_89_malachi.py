@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "I Have Loved You -- Defiled Worship Exposed",
         "era": "malachi",
         "type": "chapter",
+        "themes": ["COV", "RIV", "PRIEST", "LOVE"],
 
         "synopsis": "Malachi opens with YHWH's declaration of love and the people's cynical response. 'I have "
                     "loved you, says YHWH. But you say, How have you loved us?' (1:2). YHWH points to the "
@@ -98,6 +99,7 @@ CHAPTERS = [
         "title": "The Covenant of Levi -- Faithless Priests and Broken Marriages",
         "era": "malachi",
         "type": "chapter",
+        "themes": ["COV", "RIV", "PRIEST"],
 
         "synopsis": "YHWH warns the priests: if they do not honor his name, he will curse their blessings. "
                     "'I will spread dung on your faces, the dung of your offerings' (2:3) -- the most graphic "

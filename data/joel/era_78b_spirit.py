@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Spirit on All Flesh -- Pentecost Promised",
         "era": "joel_spirit",
         "type": "chapter",
+        "themes": ["SPIRIT", "REVERSAL", "DC"],
 
         "synopsis": "After the locust judgment and restoration of Joel 2:1-27, the prophet pivots to the "
                     "climactic promise: 'And it shall come to pass afterward, that I will pour out my Spirit "
@@ -136,6 +137,7 @@ CHAPTERS = [
         "title": "The Valley of Jehoshaphat -- YHWH Judges the Nations",
         "era": "joel_spirit",
         "type": "chapter",
+        "themes": ["NATIONS", "DC", "RIV"],
 
         "synopsis": "Joel's final chapter is a full-scale divine council judgment scene. YHWH declares: 'I "
                     "will gather all the nations and bring them down to the Valley of Jehoshaphat. And I will "

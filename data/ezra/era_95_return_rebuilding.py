@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "Cyrus's Decree and the Foundation Laid: The Return Begins",
         "era": "return_rebuilding",
         "type": "chapter",
+        "themes": ["EXILE", "HOLY", "PROV", "DC", "REMNANT"],
 
         "synopsis": "The book opens with the fulfillment of prophecy: 'In the first year of Cyrus "
                     "king of Persia, that the word of the LORD by the mouth of Jeremiah might be "
@@ -149,6 +150,7 @@ CHAPTERS = [
         "title": "Opposition, Prophets, and the Temple Completed",
         "era": "return_rebuilding",
         "type": "chapter",
+        "themes": ["HOLY", "SPIRIT", "NATIONS", "PROV"],
 
         "synopsis": "The temple rebuilding faces fierce opposition from 'the adversaries of Judah "
                     "and Benjamin' (4:1) -- peoples settled in the land by Assyrian deportation policy "

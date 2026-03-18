@@ -10,6 +10,7 @@ CHAPTERS = [
         "title": "Key Terms and Concepts \u2014 A Reader's Guide",
         "era": "creation",
         "type": "historical_insert",
+        "themes": [],
 
         "synopsis": "Before diving into the study chapters, this guide explains the specialized terms, abbreviations, and concepts you will encounter throughout. These are the tools scholars use to talk about the Bible in its original context. You do not need to memorize them \u2014 but understanding them will make every chapter richer.",
 
@@ -105,6 +106,7 @@ CHAPTERS = [
         "title": "In the Beginning \u2014 Creation Week",
         "era": "creation",
         "type": "chapter",
+        "themes": ['DC', 'IMAGE', 'HOLY', 'NAME'],
 
         "synopsis": "Genesis 1 presents God's systematic ordering of the cosmos in six days, moving from chaos (<em>tohu vavohu</em>, Hebrew for 'formless and void' \u2014 a state of primordial disorder and emptiness) to a fully furnished, inhabited world. The structure is deliberate: Days 1\u20133 create realms (light, sky/sea, land), Days 4\u20136 fill those realms with rulers (luminaries, birds/fish, animals/humans). Humanity is created as the climactic act \u2014 image-bearers (<em>tselem elohim</em>) commissioned to extend God's ordered rule across the earth. The chapter is simultaneously a polemic against Ancient Near Eastern (ANE) creation myths \u2014 the stories told by Israel's neighbors in Mesopotamia, Egypt, and Canaan \u2014 asserting that the God of Israel alone is Creator and that celestial bodies are mere objects, not deities.",
 
@@ -199,6 +201,7 @@ CHAPTERS = [
         "title": "ANE Creation Accounts \u2014 The World Genesis Entered",
         "era": "creation",
         "type": "historical_insert",
+        "themes": [],
 
         "synopsis": "Genesis 1\u20132 did not emerge in a vacuum. Israel's neighbors had well-developed creation traditions that shaped the conceptual vocabulary and literary conventions Genesis both uses and subverts. Understanding these accounts illuminates what Genesis is arguing and why.",
 
@@ -244,6 +247,7 @@ CHAPTERS = [
         "title": "The Garden of Eden \u2014 God's Temple-Garden",
         "era": "creation",
         "type": "chapter",
+        "themes": ['IMAGE', 'HOLY', 'COV', 'NAME'],
 
         "synopsis": "Genesis 2 zooms in from the cosmic panorama of chapter 1 to focus on humanity's creation and vocation. The man is formed from the dust of the ground (adamah), placed in a garden-sanctuary (gan-Eden), and given the priestly task of 'working and keeping' it \u2014 the same Hebrew pair later used for Levitical service. The woman is built from the man's side as his ezer kenegdo (corresponding helper). Eden is presented as the intersection of heaven and earth: rivers flow out from it, precious stones adorn it, and God walks within it. This is not a second creation account contradicting chapter 1, but a complementary narrative that develops the human story in detail.",
 

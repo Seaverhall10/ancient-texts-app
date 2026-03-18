@@ -25,6 +25,7 @@ CHAPTERS = [
         "title": "Greater Than the Angels -- The Son's Enthronement Above the Council",
         "era": "hebrews_christology",
         "type": "study",
+        "themes": ["DC", "KING", "PRIEST", "SEED", "TYPE"],
 
         "synopsis": "Hebrews opens with the most magnificent sentence in the New Testament: "
                     "'Long ago, at many times and in many ways, God spoke to our fathers by the "
@@ -375,6 +376,7 @@ CHAPTERS = [
         "title": "The World to Come -- Humanity's Destiny and the Pioneer of Salvation",
         "era": "hebrews_christology",
         "type": "study",
+        "themes": ["SEED", "DC", "KING", "REBEL", "HOLY"],
 
         "synopsis": "Chapter 2 begins with the letter's first warning passage (2:1-4): if the "
                     "message delivered through angels (the Mosaic law) carried consequences for "
@@ -664,6 +666,7 @@ CHAPTERS = [
         "title": "Greater Than Moses -- The Rest That Remains",
         "era": "hebrews_christology",
         "type": "study",
+        "themes": ["KING", "DC", "REBEL", "HOLY", "SPIRIT"],
 
         "synopsis": "Having established the Son's supremacy over the angels (the spiritual tier), "
                     "the author now addresses the human tier: Moses, the greatest figure in "
@@ -934,6 +937,7 @@ CHAPTERS = [
         "title": "The Melchizedek Priest-King -- The Eternal Priesthood",
         "era": "hebrews_christology",
         "type": "study",
+        "themes": ["PRIEST", "KING", "DC", "SEED", "COV"],
 
         "synopsis": "Hebrews 5-7 contains the longest sustained typological argument in the New "
                     "Testament: the Melchizedek priesthood. The author begins by establishing "
@@ -1306,6 +1310,7 @@ CHAPTERS = [
         "title": "The Heavenly Tabernacle -- The True Sanctuary and the Final Sacrifice",
         "era": "hebrews_christology",
         "type": "study",
+        "themes": ["DC", "TYPE", "HOLY", "BLOOD", "COV"],
 
         "synopsis": "Hebrews 8-10 is the architectural and sacrificial heart of the letter. "
                     "The author reveals that the earthly tabernacle Moses built was a 'copy "
@@ -1640,6 +1645,7 @@ CHAPTERS = [
         "title": "The Faith Hall -- Abel to the Prophets",
         "era": "hebrews_christology",
         "type": "study",
+        "themes": ["SEED", "DC", "EXILE", "WOMEN", "KING"],
 
         "synopsis": "Hebrews 11 is the famous 'Hall of Faith' -- a panoramic survey of Old "
                     "Testament heroes who lived 'by faith' (pistei). The chapter opens with "
@@ -1988,6 +1994,7 @@ CHAPTERS = [
         "title": "Mount Zion and the Heavenly Jerusalem -- The Divine Assembly",
         "era": "hebrews_christology",
         "type": "study",
+        "themes": ["DC", "KING", "BLOOD", "TYPE", "HOLY"],
 
         "synopsis": "The letter reaches its climax in chapters 12-13. The 'cloud of witnesses' "
                     "(12:1) -- the accumulated testimony of chapter 11 -- surrounds the believers "

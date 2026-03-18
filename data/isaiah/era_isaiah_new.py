@@ -26,6 +26,7 @@ CHAPTERS = [
         "title": "The Universal Invitation and Corrupt Leaders",
         "era": "isaiah_new",
         "type": "chapter",
+        "themes": ["COV", "HOLY", "NATIONS"],
 
         "synopsis": "Isaiah 56 opens Third Isaiah with one of the most radical declarations in the "
                     "Hebrew Bible: the covenant is thrown open to those previously excluded. 'Thus says "
@@ -213,6 +214,7 @@ CHAPTERS = [
         "title": "True Fasting, Sin's Separation, and the Redeemer Comes to Zion",
         "era": "isaiah_new",
         "type": "chapter",
+        "themes": ["RIV", "BLOOD", "SPIRIT"],
 
         "synopsis": "Isaiah 58 confronts the hypocrisy of religious observance divorced from justice -- "
                     "the same theme sounded in chapter 1. The people 'seek me daily and delight to know "
@@ -402,6 +404,7 @@ CHAPTERS = [
         "title": "Arise, Shine! The Glory of Zion and the Year of the LORD's Favor",
         "era": "isaiah_new",
         "type": "chapter",
+        "themes": ["GLORY", "SEED", "REVERSAL", "LAND"],
 
         "synopsis": "These three chapters form the radiant center of Third Isaiah. Chapter 60 opens with "
                     "the command: 'Arise (qumi), shine (ori), for your light (orekh) has come, and the "
@@ -591,6 +594,7 @@ CHAPTERS = [
         "title": "The Divine Warrior from Edom and the Prayer of the Remnant",
         "era": "isaiah_new",
         "type": "chapter",
+        "themes": ["BLOOD", "REMEMBER", "RIV"],
 
         "synopsis": "Isaiah 63 opens with one of the most dramatic scenes in prophetic literature: a "
                     "solitary figure approaches from Edom, from Bozrah, his garments stained crimson red. "
@@ -793,6 +797,7 @@ CHAPTERS = [
         "title": "The Divine Warrior's Answer: New Heavens, New Earth, and Final Judgment",
         "era": "isaiah_new",
         "type": "chapter",
+        "themes": ["LAND", "REVERSAL", "GLORY", "HOLY"],
 
         "synopsis": "YHWH answers the remnant's prayer of chapters 63-64 -- but the answer separates the "
                     "faithful from the rebellious. 'I was ready to be sought (nidrashti) by those who did "

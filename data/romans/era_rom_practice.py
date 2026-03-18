@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "Living Sacrifices, Renewed Minds, and Love Fulfilling the Law",
         "era": "rom_practice",
         "type": "study",
+        "themes": ["KING", "DC", "LOVE", "TYPE", "HOLY"],
 
         "synopsis": "The great 'therefore' (oun) of 12:1 pivots from theology to practice: 'I appeal "
                     "to you therefore, brothers, by the mercies of God, to present your bodies as a "
@@ -184,6 +185,7 @@ CHAPTERS = [
         "title": "The Weak and the Strong -- Welcome One Another as Christ Welcomed You",
         "era": "rom_practice",
         "type": "study",
+        "themes": ["KING", "NATIONS", "DC", "HOLY", "LOVE"],
 
         "synopsis": "Romans 14:1-15:13 addresses the pastoral crisis in the Roman church: division "
                     "between 'the weak' (those who observe food laws and holy days, likely Jewish "
@@ -327,6 +329,7 @@ CHAPTERS = [
         "title": "Paul's Mission, the Church in Rome, and the Crushing of Satan",
         "era": "rom_practice",
         "type": "study",
+        "themes": ["KING", "DC", "WOMEN", "NATIONS", "SEED"],
 
         "synopsis": "The letter's final section reveals Paul's missionary vision: he is 'a minister of "
                     "Christ Jesus to the Gentiles, serving the gospel of God as a priest (hierourgounta)' "

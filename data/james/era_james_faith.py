@@ -14,6 +14,7 @@ CHAPTERS = [
         "title": "Trials, the Tongue, and Two Kinds of Wisdom",
         "era": "james_faith",
         "type": "chapter",
+        "themes": ["REBEL", "KING", "DC", "TYPE", "HOLY"],
 
         "synopsis": "James writes to 'the twelve tribes in the Dispersion' (1:1), greeting them with the "
                     "counterintuitive command: 'Count it all joy, my brothers, when you meet trials of various "
@@ -163,6 +164,7 @@ CHAPTERS = [
         "title": "Submit to God -- The Judge Stands at the Door",
         "era": "james_faith",
         "type": "chapter",
+        "themes": ["KING", "RIV", "REBEL", "DC", "LAW"],
 
         "synopsis": "James diagnoses the source of conflict: 'What causes quarrels and what causes fights among "
                     "you? Is it not this, that your passions are at war within you?' (4:1). The solution is "

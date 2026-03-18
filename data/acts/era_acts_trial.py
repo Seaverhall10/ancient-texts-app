@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "Arrest in Jerusalem: Paul Before the Mob and the Sanhedrin",
         "era": "acts_trial",
         "type": "study",
+        "themes": ["DC", "BLOOD", "NAME", "KING", "RIV"],
 
         "synopsis": "Despite prophetic warnings (21:4,10-11 -- Agabus binds his own hands and feet with Paul's "
                     "belt, prophesying his arrest), Paul insists on going to Jerusalem: 'I am ready not only to "
@@ -65,11 +66,11 @@ CHAPTERS = [
                          "Pharisaic categories -- divine revelation through angelophany.",
 
         "cross_refs": [
-            {"ref": "Acts 9:15-16", "note": "Paul's original commission: 'He must suffer for the sake of my name' — now being fulfilled"},
-            {"ref": "Matthew 10:17-20", "note": "Jesus predicted disciples would stand before councils and governors — Paul fulfills this"},
-            {"ref": "Ephesians 2:14", "note": "Christ broke down the 'dividing wall of hostility' — the temple barrier Paul is accused of violating"},
-            {"ref": "Daniel 6:1-28", "note": "Daniel in the den of lions — faithful witness in the face of political conspiracy, like Paul's 40 assassins"},
-            {"ref": "Philippians 1:12-14", "note": "Paul's later reflection: imprisonment has 'served to advance the gospel'"}
+            {"ref": "Acts 9:15-16", "note": "Paul's original commission: 'He must suffer for the sake of my name' — now being fulfilled", "type": "nt"},
+            {"ref": "Matthew 10:17-20", "note": "Jesus predicted disciples would stand before councils and governors — Paul fulfills this", "type": "nt"},
+            {"ref": "Ephesians 2:14", "note": "Christ broke down the 'dividing wall of hostility' — the temple barrier Paul is accused of violating", "type": "nt"},
+            {"ref": "Daniel 6:1-28", "note": "Daniel in the den of lions — faithful witness in the face of political conspiracy, like Paul's 40 assassins", "type": "ot"},
+            {"ref": "Philippians 1:12-14", "note": "Paul's later reflection: imprisonment has 'served to advance the gospel'", "type": "nt"}
         ],
 
         "divine_council_note": "The Lord's night vision to Paul (23:11) is a direct divine council commissioning: "
@@ -116,6 +117,7 @@ CHAPTERS = [
         "title": "Before Governors and Kings: Felix, Festus, and Agrippa",
         "era": "acts_trial",
         "type": "study",
+        "themes": ["KING", "DC", "HOLY", "RIV", "REBEL"],
 
         "synopsis": "Paul is transferred to Caesarea under heavy guard (23:23 -- 470 soldiers for one prisoner) "
                     "after the plot of 40 assassins is discovered. Before Governor Felix, the high priest's "
@@ -165,11 +167,11 @@ CHAPTERS = [
                          "being 'the first to rise from the dead' (26:23).",
 
         "cross_refs": [
-            {"ref": "Isaiah 42:6-7", "note": "The Servant will 'open the eyes that are blind' — Paul's commission (26:18) fulfills the Servant's mission"},
-            {"ref": "Isaiah 49:6", "note": "'A light for the Gentiles' — Paul again applies this to his ministry (26:23)"},
-            {"ref": "Luke 21:12-15", "note": "Jesus predicted his followers would stand before kings and governors — Paul fulfills this before Felix, Festus, Agrippa"},
-            {"ref": "2 Timothy 4:16-17", "note": "Paul later writes: 'The Lord stood by me and strengthened me, so that the message might be fully proclaimed'"},
-            {"ref": "Psalm 2:1-4", "note": "Kings and rulers rage against the Lord's anointed — the pattern repeated in Paul's trials"}
+            {"ref": "Isaiah 42:6-7", "note": "The Servant will 'open the eyes that are blind' — Paul's commission (26:18) fulfills the Servant's mission", "type": "ot"},
+            {"ref": "Isaiah 49:6", "note": "'A light for the Gentiles' — Paul again applies this to his ministry (26:23)", "type": "ot"},
+            {"ref": "Luke 21:12-15", "note": "Jesus predicted his followers would stand before kings and governors — Paul fulfills this before Felix, Festus, Agrippa", "type": "nt"},
+            {"ref": "2 Timothy 4:16-17", "note": "Paul later writes: 'The Lord stood by me and strengthened me, so that the message might be fully proclaimed'", "type": "nt"},
+            {"ref": "Psalm 2:1-4", "note": "Kings and rulers rage against the Lord's anointed — the pattern repeated in Paul's trials", "type": "ot"}
         ],
 
         "divine_council_note": "Paul's commission as stated to Agrippa (26:17-18) is explicitly cosmic: Jesus "
@@ -221,6 +223,7 @@ CHAPTERS = [
         "title": "Shipwreck, Malta, and the Gospel Reaches Rome",
         "era": "acts_trial",
         "type": "study",
+        "themes": ["KING", "TYPE", "DC", "HOLY", "COV"],
 
         "synopsis": "The sea voyage to Rome (ch 27) is the most detailed account of ancient Mediterranean "
                     "navigation in all of literature. Paul, as a prisoner, warns the centurion Julius against "
@@ -266,11 +269,11 @@ CHAPTERS = [
                          "(28:28). The pattern from Acts 13:46 and 18:6 reaches its climax.",
 
         "cross_refs": [
-            {"ref": "Isaiah 6:9-10", "note": "Paul's final Scripture citation (28:26-27) — the same hardening text Jesus quoted for the parables"},
-            {"ref": "Jonah 1:4-16", "note": "Storm at sea, prophet in danger, pagan sailors — Paul's voyage echoes Jonah's but inverts the outcome"},
-            {"ref": "Mark 16:18", "note": "They will pick up serpents and not be harmed — fulfilled in Paul's viper encounter on Malta"},
-            {"ref": "Philippians 1:12-14", "note": "Paul's Roman imprisonment 'served to advance the gospel' — written during Acts 28's period"},
-            {"ref": "Romans 1:15", "note": "Paul's earlier letter: 'I am eager to preach the gospel to you also who are in Rome' — now fulfilled"}
+            {"ref": "Isaiah 6:9-10", "note": "Paul's final Scripture citation (28:26-27) — the same hardening text Jesus quoted for the parables", "type": "ot"},
+            {"ref": "Jonah 1:4-16", "note": "Storm at sea, prophet in danger, pagan sailors — Paul's voyage echoes Jonah's but inverts the outcome", "type": "ot"},
+            {"ref": "Mark 16:18", "note": "They will pick up serpents and not be harmed — fulfilled in Paul's viper encounter on Malta", "type": "nt"},
+            {"ref": "Philippians 1:12-14", "note": "Paul's Roman imprisonment 'served to advance the gospel' — written during Acts 28's period", "type": "nt"},
+            {"ref": "Romans 1:15", "note": "Paul's earlier letter: 'I am eager to preach the gospel to you also who are in Rome' — now fulfilled", "type": "nt"}
         ],
 
         "divine_council_note": "The angel's message (27:23-24) reveals heaven's governance over earthly events: "

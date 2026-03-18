@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Foolishness of God and the Shame of the Wise",
         "era": "1cor_wisdom",
         "type": "study",
+        "themes": ["DC", "KING", "HOLY", "SEED", "NATIONS"],
 
         "synopsis": "Paul opens his letter to the fractured Corinthian church by confronting their "
                     "personality cults (1:10-17): factions claiming Paul, Apollos, Cephas, or Christ "
@@ -205,6 +206,7 @@ CHAPTERS = [
         "title": "The Hidden Mystery and the Rulers of This Age",
         "era": "1cor_wisdom",
         "type": "study",
+        "themes": ["DC", "KING", "BLOOD", "SPIRIT", "REBEL"],
 
         "synopsis": "Paul now reveals the existence of a genuine divine wisdom -- but one that operates "
                     "on entirely different terms than human philosophy. He came to Corinth 'in weakness "
@@ -403,6 +405,7 @@ CHAPTERS = [
         "title": "God's Temple, God's Field -- The Apostolic Foundation",
         "era": "1cor_wisdom",
         "type": "study",
+        "themes": ["DC", "KING", "TYPE", "HOLY", "BLOOD"],
 
         "synopsis": "Paul applies the cruciform wisdom theology of chapters 1-2 to the practical life "
                     "of the Corinthian church. He begins by rebuking them: despite having the Spirit, "

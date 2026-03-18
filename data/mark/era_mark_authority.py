@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "The Exorcist King -- Binding the Strong Man",
         "era": "mark_authority",
         "type": "study",
+        "themes": ["DC", "TYPE", "SEED", "REBEL", "HOLY"],
 
         "synopsis": "From his first public act in the Capernaum synagogue to the climactic Beelzebul "
                     "controversy, Jesus wages open war on the kingdom of darkness. The exorcism pattern "
@@ -203,6 +204,7 @@ CHAPTERS = [
         "title": "Lord of Nature -- Stilling Storms and Walking on Water",
         "era": "mark_authority",
         "type": "study",
+        "themes": ["KING", "DC", "PROV", "TYPE", "HOLY"],
 
         "synopsis": "After the parables of the kingdom (4:1-34), Mark presents four demonstrations of "
                     "Jesus' authority that escalate from nature to demons to disease to death itself. "
@@ -394,6 +396,7 @@ CHAPTERS = [
         "title": "The Turning Point -- Peter's Confession and the Way of the Cross",
         "era": "mark_authority",
         "type": "study",
+        "themes": ["KING", "DC", "SEED", "REBEL", "HOLY"],
 
         "synopsis": "Mark 8:22-38 is the hinge of the entire Gospel, the fulcrum on which everything turns. "
                     "It begins with a unique miracle: the two-stage healing of a blind man at Bethsaida. "

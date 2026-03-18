@@ -5,7 +5,7 @@
    ══════════════════════════════════════════════════════════════ */
 
 .patriarch-chart-overlay {
-    z-index: 2200;
+    z-index: var(--z-modal);
 }
 
 .patriarch-chart-modal {
@@ -202,7 +202,7 @@
     font-size: var(--text-sm);
     color: var(--text-primary);
     pointer-events: none;
-    z-index: 9999;
+    z-index: var(--z-toast);
     max-width: 320px;
     box-shadow: var(--shadow-lg);
     display: none;

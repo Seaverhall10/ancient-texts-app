@@ -8,7 +8,7 @@
     position: fixed;
     bottom: 24px;
     right: 24px;
-    z-index: 9000;
+    z-index: var(--z-bible-mode);
     display: flex;
     align-items: center;
     gap: 8px;
@@ -50,7 +50,7 @@
     right: -440px;
     width: 420px;
     height: 100vh;
-    z-index: 9500;
+    z-index: var(--z-bible-drawer-backdrop);
     display: flex;
     flex-direction: column;
     background: var(--bg-primary);

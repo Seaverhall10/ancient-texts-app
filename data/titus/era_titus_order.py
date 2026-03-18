@@ -14,6 +14,7 @@ CHAPTERS = [
         "title": "Elders and False Teachers on Crete",
         "era": "titus_order",
         "type": "chapter",
+        "themes": ["DC", "LAW", "REBEL", "TYPE", "HOLY"],
 
         "synopsis": "Paul, 'a servant of God and an apostle of Jesus Christ, for the sake of the faith of "
                     "God's elect and their knowledge of the truth' (1:1), writes to Titus whom he 'left in "
@@ -109,6 +110,7 @@ CHAPTERS = [
         "title": "Grace Appeared -- Saved by Mercy, Not Works",
         "era": "titus_order",
         "type": "chapter",
+        "themes": ["HOLY", "LAW", "LOVE", "SEED", "COV"],
 
         "synopsis": "Paul instructs Titus on teaching various groups: older men should be 'sober-minded, "
                     "dignified, self-controlled, sound in faith, in love, and in steadfastness' (2:2); older "

@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "Weapons of Warfare -- Demolishing Strongholds",
         "era": "2cor_weakness",
         "type": "study",
+        "themes": ["KING", "DC", "TYPE", "SEED", "HOLY"],
 
         "synopsis": "Paul opens the final major section of 2 Corinthians by shifting from the "
                     "pastoral warmth of chapters 8-9 to direct confrontation with his opponents. "
@@ -193,6 +194,7 @@ CHAPTERS = [
         "title": "Caught Up to the Third Heaven -- Paradise and Unspeakable Words",
         "era": "2cor_weakness",
         "type": "study",
+        "themes": ["DC", "KING", "REBEL", "TYPE", "HOLY"],
 
         "synopsis": "This passage contains the most extraordinary mystical experience recorded in the "
                     "New Testament. Paul, speaking in the third person out of humility, reveals that "
@@ -383,6 +385,7 @@ CHAPTERS = [
         "title": "Power Made Perfect -- The Theology of Weakness",
         "era": "2cor_weakness",
         "type": "study",
+        "themes": ["KING", "DC", "TYPE", "HOLY", "SPIRIT"],
 
         "synopsis": "Paul brings the letter to its conclusion by pressing the implications of the "
                     "power-in-weakness theology into the Corinthian situation. He has been 'a fool' "

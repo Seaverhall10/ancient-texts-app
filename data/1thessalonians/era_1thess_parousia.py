@@ -10,6 +10,7 @@ CHAPTERS = [
         'era': '1thess_parousia',
         'chapter_num': 1,
         'type': 'chapter',
+        'themes': ['DC', 'KING', 'BLOOD', 'TYPE', 'HOLY'],
         'title': 'Turning from Idols \u2014 The Living God and His Son',
         'ref': '1 Thessalonians 1:1\u20132:16',
         'period': 'ca. AD 50\u201351',
@@ -219,10 +220,10 @@ CHAPTERS = [
             'human agents.'
         ),
         'cross_refs': [
-            {'ref': 'Deuteronomy 32:8-9', 'note': 'Nations allotted to the sons of God'},
-            {'ref': 'Acts 17:1-9', 'note': 'Luke\'s account of Paul founding the Thessalonian church'},
-            {'ref': 'Psalm 115:4-7', 'note': 'Idols have mouths but cannot speak \u2014 the "dead gods"'},
-            {'ref': 'Deuteronomy 32:17', 'note': '"They sacrificed to demons" behind the idols'}
+            {'ref': 'Deuteronomy 32:8-9', 'note': 'Nations allotted to the sons of God', 'type': 'ot'},
+            {'ref': 'Acts 17:1-9', 'note': 'Luke\'s account of Paul founding the Thessalonian church', 'type': 'nt'},
+            {'ref': 'Psalm 115:4-7', 'note': 'Idols have mouths but cannot speak \u2014 the "dead gods"', 'type': 'ot'},
+            {'ref': 'Deuteronomy 32:17', 'note': '"They sacrificed to demons" behind the idols', 'type': 'ot'}
         ],
         'historical_note': (
             'Paul visited Thessalonica on his "second missionary journey" (ca. AD 49-50). '
@@ -242,6 +243,7 @@ CHAPTERS = [
         'era': '1thess_parousia',
         'chapter_num': 2,
         'type': 'chapter',
+        'themes': ['DC', 'HOLY', 'KING', 'REBEL', 'TYPE'],
         'title': 'The Dead in Christ \u2014 The Archangel\'s Voice and the Trumpet',
         'ref': '1 Thessalonians 2:17\u20144:18',
         'period': 'ca. AD 50\u201351',
@@ -461,12 +463,12 @@ CHAPTERS = [
             'and resurrected \u2014 join the parade.'
         ),
         'cross_refs': [
-            {'ref': 'Daniel 12:1-2', 'note': 'Michael stands up; the dead rise'},
-            {'ref': 'Exodus 19:16-19', 'note': 'The trumpet at Sinai growing louder'},
-            {'ref': '1 Corinthians 15:51-52', 'note': '"At the last trumpet, the dead will be raised"'},
-            {'ref': 'Matthew 24:30-31', 'note': 'The Son of Man coming with angels and a trumpet'},
-            {'ref': 'Psalm 24:7-10', 'note': '"Lift up your heads, O gates!" \u2014 the King\'s arrival'},
-            {'ref': 'Psalm 68:17-18', 'note': 'The divine procession with chariots and captives'}
+            {'ref': 'Daniel 12:1-2', 'note': 'Michael stands up; the dead rise', 'type': 'ot'},
+            {'ref': 'Exodus 19:16-19', 'note': 'The trumpet at Sinai growing louder', 'type': 'ot'},
+            {'ref': '1 Corinthians 15:51-52', 'note': '"At the last trumpet, the dead will be raised"', 'type': 'nt'},
+            {'ref': 'Matthew 24:30-31', 'note': 'The Son of Man coming with angels and a trumpet', 'type': 'nt'},
+            {'ref': 'Psalm 24:7-10', 'note': '"Lift up your heads, O gates!" \u2014 the King\'s arrival', 'type': 'ot'},
+            {'ref': 'Psalm 68:17-18', 'note': 'The divine procession with chariots and captives', 'type': 'ot'}
         ],
         'historical_note': (
             'The Thessalonian believers\' anxiety about the dead suggests they expected '
@@ -489,6 +491,7 @@ CHAPTERS = [
         'era': '1thess_parousia',
         'chapter_num': 3,
         'type': 'chapter',
+        'themes': ['DC', 'HOLY', 'WOMEN', 'KING', 'RIV'],
         'title': 'The Day of the Lord \u2014 Children of Light',
         'ref': '1 Thessalonians 5:1-28',
         'period': 'ca. AD 50\u201351',
@@ -711,12 +714,12 @@ CHAPTERS = [
             'of Isaiah 59:17, where YHWH himself puts on armor to execute justice.'
         ),
         'cross_refs': [
-            {'ref': 'Joel 2:1-11', 'note': 'The Day of YHWH \u2014 the foundational OT text'},
-            {'ref': 'Amos 5:18-20', 'note': '"The Day of YHWH is darkness, not light"'},
-            {'ref': 'Isaiah 59:17', 'note': 'YHWH putting on the armor of justice'},
-            {'ref': '1QM (War Scroll)', 'note': 'Sons of light vs. sons of darkness at Qumran'},
-            {'ref': 'Matthew 24:43', 'note': 'Jesus uses the "thief in the night" image'},
-            {'ref': 'Revelation 16:15', 'note': '"I am coming like a thief"'}
+            {'ref': 'Joel 2:1-11', 'note': 'The Day of YHWH \u2014 the foundational OT text', 'type': 'ot'},
+            {'ref': 'Amos 5:18-20', 'note': '"The Day of YHWH is darkness, not light"', 'type': 'ot'},
+            {'ref': 'Isaiah 59:17', 'note': 'YHWH putting on the armor of justice', 'type': 'ot'},
+            {'ref': '1QM (War Scroll)', 'note': 'Sons of light vs. sons of darkness at Qumran', 'type': 'dss'},
+            {'ref': 'Matthew 24:43', 'note': 'Jesus uses the "thief in the night" image', 'type': 'nt'},
+            {'ref': 'Revelation 16:15', 'note': '"I am coming like a thief"', 'type': 'nt'}
         ],
         'historical_note': (
             'Thessalonica was the capital of the Roman province of Macedonia and fiercely '

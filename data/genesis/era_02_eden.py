@@ -10,6 +10,7 @@ CHAPTERS = [
         "title": "The Fall \u2014 Rebellion in the Sacred Garden",
         "era": "eden",
         "type": "chapter",
+        "themes": ['SEED', 'REBEL', 'EXILE', 'SPIRIT', 'WOMEN', 'TYPE', 'BLOOD'],
 
         "synopsis": "Genesis 3 narrates the catastrophic rupture at the center of creation. The <em>nachash</em> (Hebrew for 'serpent,' but also carrying the senses of 'shining one' and 'diviner' \u2014 see the full discussion below) \u2014 a shrewd, luminous divine being present in God's throne-room garden \u2014 deceives the woman into doubting God's word and seizing autonomous moral authority by eating from the forbidden tree. The man, present and silent, follows. Immediate consequences cascade: shame replaces innocence, blame replaces fellowship, and God pronounces curses that systematically reverse the creation blessings of Genesis 1\u20132. Yet embedded in the judgment is the <em>protoevangelium</em> (Latin for 'first gospel' \u2014 the earliest announcement of good news in the Bible), found in Genesis 3:15: the seed (<em>zera</em>) of the woman will crush the serpent's head. Early church fathers like Irenaeus and Justin Martyr recognized this as the first prophecy of Christ's victory over Satan. The chapter ends with expulsion from Eden and cherubim (the winged throne-guardians of God's presence, later depicted atop the Ark of the Covenant) blocking return to the tree of life \u2014 sacred space is now guarded against fallen humanity.",
 
@@ -109,6 +110,7 @@ CHAPTERS = [
         "title": "The Nachash in ANE Context \u2014 Serpent, Seraph, and Divine Rebel",
         "era": "eden",
         "type": "historical_insert",
+        "themes": [],
 
         "synopsis": "The serpent figure of Genesis 3 has been flattened by centuries of Western art into a literal talking snake in a tree. But the nachash belongs to a rich ANE world of serpentine divine beings, throne-room guardians, and shining supernatural creatures. Recovering this context reveals the original audience's understanding: the antagonist of Eden was a member of God's own heavenly court.",
 
@@ -166,6 +168,7 @@ CHAPTERS = [
         "title": "Cain and Abel \u2014 The Seed War Begins",
         "era": "eden",
         "type": "chapter",
+        "themes": ['SEED', 'REBEL', 'BLOOD', 'NAME', 'EXILE'],
 
         "synopsis": "Genesis 4 narrates the immediate aftermath of the Fall through the lens of the first family. Two brothers bring offerings to YHWH; one is accepted, one rejected. The rejected brother murders the accepted one, becoming the first killer in human history. The seed war of Genesis 3:15 is now operational: the 'seed of the serpent' (those who follow the nachash's pattern of rebellion) begins its assault on the 'seed of the woman' (the righteous line through which God's promise will advance). Cain's exile, his city-building, and the escalating violence of his descendant Lamech reveal a civilization spiraling away from God. The chapter closes with the birth of Seth, Abel's replacement, through whom 'people began to call upon the name of YHWH' \u2014 a new beginning within the ruin.",
 

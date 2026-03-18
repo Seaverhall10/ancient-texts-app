@@ -28,6 +28,7 @@ CHAPTERS = [
         "title": "The Fall of Babylon -- The Whore, the Beast, and the Lament of the World",
         "era": "rev_new_creation",
         "type": "study",
+        "themes": ["BLOOD", "DC", "REBEL", "WOMEN", "NATIONS"],
 
         "synopsis": "Chapters 17-18 provide the detailed account of Babylon's destruction, previewed "
                     "in 14:8 and enacted by the seventh bowl in 16:19. One of the bowl angels shows "
@@ -217,6 +218,7 @@ CHAPTERS = [
         "title": "The Hallelujah Chorus and the Divine Warrior -- The Marriage Supper and the Final Battle",
         "era": "rev_new_creation",
         "type": "study",
+        "themes": ["BLOOD", "KING", "DC", "HOLY", "REBEL"],
 
         "synopsis": "Chapter 19 divides into two halves: the heavenly celebration after Babylon's fall "
                     "(19:1-10) and the divine warrior's final triumph (19:11-21). The celebration begins "
@@ -400,6 +402,7 @@ CHAPTERS = [
         "title": "The Millennium, Satan's Final Defeat, and the Great White Throne -- The Last Judgment",
         "era": "rev_new_creation",
         "type": "study",
+        "themes": ["REBEL", "KING", "DC", "TYPE", "HOLY"],
 
         "synopsis": "Revelation 20 is the most debated chapter in the book. An angel binds Satan with a "
                     "chain and throws him into the abyss for a thousand years (chilia ete, 20:1-3). "
@@ -577,6 +580,7 @@ CHAPTERS = [
         "title": "The New Heaven and New Earth -- The Garden-City-Temple and the Beatific Vision",
         "era": "rev_new_creation",
         "type": "study",
+        "themes": ["KING", "DC", "SEED", "HOLY", "COV"],
 
         "synopsis": "The final two chapters of Revelation -- and of the entire Bible -- present the "
                     "culmination of all things: the new creation. 'Then I saw a new heaven and a new "

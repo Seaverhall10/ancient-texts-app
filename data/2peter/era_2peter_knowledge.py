@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "Eyewitness of Majesty -- The Transfiguration and the Divine Nature",
         "era": "2peter_knowledge",
         "type": "study",
+        "themes": ["GLORY", "DC", "TYPE", "HOLY", "KING"],
 
         "synopsis": "Peter opens with a greeting that immediately establishes the letter's central "
                     "theme: 'knowledge' (epignosis) of God and of Jesus Christ (1:2-3). Through this "
@@ -233,6 +234,7 @@ CHAPTERS = [
         "title": "Tartarus, False Teachers, and the Day of the Lord",
         "era": "2peter_knowledge",
         "type": "study",
+        "themes": ["DC", "REBEL", "HOLY", "RIV", "WOMEN"],
 
         "synopsis": "Peter warns that 'false teachers' will arise, 'secretly bringing in destructive "
                     "heresies, even denying the Master who bought them' (2:1). He then provides three "

@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "The Genealogy, the Virgin Birth, and the Flight to Egypt",
         "era": "matt_ministry",
         "type": "study",
+        "themes": ["DC", "TYPE", "KING", "SEED", "NATIONS"],
 
         "synopsis": "Matthew opens with a genealogy that is a theological argument in compressed "
                     "form: 'The book of the genealogy (biblos geneseos) of Jesus Christ, the son "
@@ -206,6 +207,7 @@ CHAPTERS = [
         "title": "Baptism, Temptation, and the Kingdom Announced",
         "era": "matt_ministry",
         "type": "study",
+        "themes": ["KING", "DC", "REBEL", "TYPE", "RIV"],
 
         "synopsis": "John the Baptist appears in the wilderness proclaiming 'Repent, for the kingdom "
                     "of heaven is at hand' (3:2) -- the same message Jesus will preach (4:17). John "
@@ -397,6 +399,7 @@ CHAPTERS = [
         "title": "The Sermon on the Mount -- The Torah of the Kingdom",
         "era": "matt_ministry",
         "type": "study",
+        "themes": ["DC", "KING", "PROV", "RIV", "LAW"],
 
         "synopsis": "The Sermon on the Mount is the most famous discourse in human history and the "
                     "first of Matthew's five great teaching blocks. Jesus ascends 'the mountain' "
@@ -584,6 +587,7 @@ CHAPTERS = [
         "title": "Miracles of the Kingdom and the Mission of the Twelve",
         "era": "matt_ministry",
         "type": "study",
+        "themes": ["TYPE", "SEED", "WOMEN", "KING", "DC"],
 
         "synopsis": "After the Sermon on the Mount's words, Matthew presents the kingdom's works: a "
                     "cascade of ten miracles demonstrating Jesus' authority over disease (leper, "
@@ -716,6 +720,7 @@ CHAPTERS = [
         "title": "The Kingdom Questioned, the Strong Man Bound, and the Parables",
         "era": "matt_ministry",
         "type": "study",
+        "themes": ["DC", "KING", "SEED", "REBEL", "TYPE"],
 
         "synopsis": "Chapters 11-13 mark a turning point in Matthew's narrative. John the Baptist, "
                     "imprisoned, sends a question: 'Are you the one who is to come, or shall we look "

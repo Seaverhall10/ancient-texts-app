@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The Beatitudes and the Light of the World",
         "era": "matt_sermon",
         "type": "study",
+        "themes": ["DC", "TYPE", "HOLY", "KING", "SPIRIT"],
 
         "synopsis": "Jesus ascends the mountain and sits -- the posture of a king on his throne and a "
                     "rabbi teaching with authority. The eight Beatitudes (makarioi, 5:3-12) describe not "
@@ -129,6 +130,7 @@ CHAPTERS = [
         "title": "The Six Antitheses: I Say to You",
         "era": "matt_sermon",
         "type": "study",
+        "themes": ["TYPE", "DC", "LAW", "COV", "WOMEN"],
 
         "synopsis": "Jesus first establishes his relationship to Torah: 'Do not think that I have come to "
                     "abolish the Law or the Prophets; I have not come to abolish them but to fulfill (plerosai) "
@@ -251,6 +253,7 @@ CHAPTERS = [
         "title": "The Lord's Prayer, Fasting, and the Father's Provision",
         "era": "matt_sermon",
         "type": "study",
+        "themes": ["DC", "HOLY", "PROV", "KING", "REBEL"],
 
         "synopsis": "Chapter 6 moves from external ethics to internal devotion. Jesus addresses three pillars "
                     "of Jewish piety -- giving (tsedaqah), prayer (tefillah), and fasting (tsom) -- and "
@@ -383,6 +386,7 @@ CHAPTERS = [
         "title": "The Narrow Gate and the Two Builders",
         "era": "matt_sermon",
         "type": "study",
+        "themes": ["KING", "DC", "HOLY", "NAME", "RIV"],
 
         "synopsis": "Chapter 7 closes the Sermon with urgent warnings and a decisive call. 'Judge not, that "
                     "you be not judged' (7:1) -- not a prohibition against moral discernment but against "
@@ -503,6 +507,7 @@ CHAPTERS = [
         "title": "The Sermon as Kingdom Charter: From Sinai to the New Mountain",
         "era": "matt_sermon",
         "type": "study",
+        "themes": ["KING", "LAW", "COV", "DC", "TYPE"],
 
         "synopsis": "The Sermon on the Mount is not merely ethical teaching -- it is the charter of a new "
                     "kingdom and the revelation of a new Moses. Matthew structures his Gospel around five "

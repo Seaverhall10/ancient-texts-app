@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "Against Ammon, Moab, Edom, Philistia, and Tyre",
         "era": "ezekiel_nations",
         "type": "chapter",
+        "themes": ["NATIONS", "DC"],
 
         "synopsis": "The OAN begin with four brief oracles against Israel's immediate neighbors: Ammon "
                     "(25:1-7), Moab (25:8-11), Edom (25:12-14), and Philistia (25:15-17) -- each judged "
@@ -117,6 +118,7 @@ CHAPTERS = [
         "title": "The Guardian Cherub in Eden -- A Divine Council Member Falls",
         "era": "ezekiel_nations",
         "type": "chapter",
+        "themes": ["DC", "REBEL", "KING"],
 
         "synopsis": "Ezekiel 28 is one of the most theologically significant chapters in the Hebrew "
                     "Bible for divine council theology. It begins with an oracle against the human "
@@ -291,6 +293,7 @@ CHAPTERS = [
         "title": "Against Egypt -- The Great Dragon and the Cosmic Tree",
         "era": "ezekiel_nations",
         "type": "chapter",
+        "themes": ["NATIONS", "DC"],
 
         "synopsis": "The Egypt oracles (chapters 29-32) are the longest OAN section in Ezekiel. Pharaoh "
                     "is described as 'the great dragon (tannin ha-gadol) that lies in the midst of his "

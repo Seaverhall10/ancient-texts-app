@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The Northern Campaign -- Hazor Falls and the Giants Are Destroyed",
         "era": "northern_conquest",
         "type": "chapter",
+        "themes": ["DC", "REBEL", "LAND", "NATIONS"],
 
         "synopsis": "When Jabin king of Hazor hears of the southern campaign, he assembles the "
                     "largest coalition yet: kings from Madon, Shimron, Achshaph, the northern "
@@ -294,6 +295,7 @@ CHAPTERS = [
         "title": "The Catalog of Conquered Kings -- Thirty-One Thrones Overturned",
         "era": "northern_conquest",
         "type": "chapter",
+        "themes": ["LAND", "NATIONS", "DC", "KING"],
 
         "synopsis": "Joshua 12 is a catalog of military victories -- a divine warrior's trophy "
                     "list. It begins with the two Transjordan kings defeated under Moses: Sihon "

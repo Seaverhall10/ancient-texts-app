@@ -21,6 +21,7 @@ CHAPTERS = [
         "title": "The Call of Jeremiah -- Appointed Before Birth",
         "era": "jeremiah_call",
         "type": "chapter",
+        "themes": ["SPIRIT", "DC", "NATIONS"],
 
         "synopsis": "Jeremiah's call narrative is one of the most powerful in scripture. YHWH declares: "
                     "'Before I formed you in the womb I knew you, and before you were born I consecrated "
@@ -176,6 +177,7 @@ CHAPTERS = [
         "title": "The Covenant Lawsuit -- Israel's Adultery",
         "era": "jeremiah_call",
         "type": "chapter",
+        "themes": ["COV", "RIV", "LOVE"],
 
         "synopsis": "Chapters 2-3 present YHWH's covenant lawsuit (rib) against Israel using the "
                     "devastating metaphor of marital unfaithfulness. YHWH remembers Israel's early "
@@ -315,6 +317,7 @@ CHAPTERS = [
         "title": "The Temple Sermon -- 'Do Not Trust in Deceptive Words'",
         "era": "jeremiah_call",
         "type": "chapter",
+        "themes": ["HOLY", "RIV", "LAW"],
 
         "synopsis": "The temple sermon is the most explosive public confrontation in Jeremiah's ministry. "
                     "Standing at the gate of YHWH's house, Jeremiah declares: 'Do not trust in these "
@@ -442,6 +445,7 @@ CHAPTERS = [
         "title": "The Foe from the North -- Cosmic De-Creation",
         "era": "jeremiah_call",
         "type": "chapter",
+        "themes": ["RIV", "EXILE"],
 
         "synopsis": "Chapters 4-6 describe the coming Babylonian invasion in language that transcends "
                     "mere military conquest and reaches into cosmic de-creation. Jeremiah's vision of "
@@ -561,6 +565,7 @@ CHAPTERS = [
         "title": "The Harvest Is Past -- Idolatry and Lament",
         "era": "jeremiah_call",
         "type": "chapter",
+        "themes": ["RIV", "PROV"],
 
         "synopsis": "Chapters 8-10 continue the indictment of Judah's apostasy and develop the profound "
                     "lament that earns Jeremiah his title as the 'weeping prophet.' The devastating "

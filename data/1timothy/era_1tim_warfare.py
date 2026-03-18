@@ -21,6 +21,7 @@ CHAPTERS = [
         "title": "The Mystery of Godliness and the Doctrines of Demons",
         "era": "1tim_warfare",
         "type": "study",
+        "themes": ["DC", "NATIONS", "REBEL", "TYPE", "HOLY"],
 
         "synopsis": "Paul delivers the theological heart of 1 Timothy in two explosive movements. First, the "
                     "Christ Hymn of 3:16 -- six clauses tracing the cosmic itinerary of the incarnate God: "
@@ -197,6 +198,7 @@ CHAPTERS = [
         "title": "The Good Fight -- Warfare, Satan's Court, and the Divine Throne",
         "era": "1tim_warfare",
         "type": "study",
+        "themes": ["DC", "KING", "GLORY", "REBEL", "TYPE"],
 
         "synopsis": "Paul frames Timothy's entire ministry in military terms: 'Wage the good warfare' (1:18), "
                     "a charge grounded in 'the prophecies previously made about you' (1:18) -- Timothy was "
@@ -386,6 +388,7 @@ CHAPTERS = [
         "title": "Cosmic Order -- Prayer for Authorities and the One Mediator",
         "era": "1tim_warfare",
         "type": "study",
+        "themes": ["DC", "KING", "NATIONS", "BLOOD", "SEED"],
 
         "synopsis": "Paul's instruction to pray for kings and authorities is far more than civic etiquette -- it "
                     "is an act of spiritual warfare grounded in the Deuteronomy 32 worldview. In the divine "

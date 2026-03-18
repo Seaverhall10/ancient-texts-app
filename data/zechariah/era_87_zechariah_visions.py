@@ -14,6 +14,7 @@ CHAPTERS = [
         "title": "Return to Me -- The Horsemen Among the Myrtles",
         "era": "zechariah",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "NATIONS"],
 
         "synopsis": "Zechariah opens with a call to repentance: 'Return to me, says YHWH of hosts, and I "
                     "will return to you' (1:3). Then the first night vision: a man riding a red horse stands "
@@ -102,6 +103,7 @@ CHAPTERS = [
         "title": "The Measuring Line -- Jerusalem Without Walls",
         "era": "zechariah",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "LAND"],
 
         "synopsis": "The third night vision: a man with a measuring line goes to measure Jerusalem. An angel "
                     "intercepts him: 'Jerusalem shall be inhabited as villages without walls, because of the "
@@ -181,6 +183,7 @@ CHAPTERS = [
         "title": "Satan Accuses Joshua -- The Divine Courtroom",
         "era": "zechariah",
         "type": "chapter",
+        "themes": ["DC", "PRIEST", "SEED"],
 
         "synopsis": "The fourth night vision is the most explicit divine council courtroom scene in the OT. "
                     "Joshua the high priest stands before the Angel of YHWH, clothed in filthy garments. 'The "
@@ -285,6 +288,7 @@ CHAPTERS = [
         "title": "The Lampstand and Two Olive Trees -- Not by Might But by My Spirit",
         "era": "zechariah",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "SEED"],
 
         "synopsis": "The fifth night vision: a golden lampstand (menorah) with seven lamps and two olive trees "
                     "flanking it. The interpreting angel explains: 'This is the word of YHWH to Zerubbabel: "
@@ -377,6 +381,7 @@ CHAPTERS = [
         "title": "Flying Scroll, Woman in the Basket, Four Chariots, and the Crown",
         "era": "zechariah",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT"],
 
         "synopsis": "Chapters 5-6 contain the final three night visions and the crowning of Joshua. The sixth "
                     "vision (5:1-4): a flying scroll, 30 by 15 feet, containing curses against thieves and "
@@ -474,6 +479,7 @@ CHAPTERS = [
         "title": "Justice, Mercy, and the Future of Jerusalem",
         "era": "zechariah",
         "type": "chapter",
+        "themes": ["COV", "REMNANT", "NATIONS"],
 
         "synopsis": "Two years after the night visions (December 518 BC), a delegation comes to ask whether "
                     "they should continue the fasting rituals that commemorated Jerusalem's destruction. YHWH's "

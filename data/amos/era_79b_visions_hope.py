@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "Justice Like Waters -- The Day of YHWH Reversed",
         "era": "visions_hope",
         "type": "chapter",
+        "themes": ["RIV", "HOLY"],
 
         "synopsis": "The heart of Amos: a funeral lament over Israel ('Fallen, no more to rise, is the "
                     "virgin Israel,' 5:2), followed by the demand for justice. 'Seek YHWH and live' (5:6). "
@@ -109,6 +110,7 @@ CHAPTERS = [
         "title": "Five Visions, the Bethel Confrontation, and Restoration",
         "era": "visions_hope",
         "type": "chapter",
+        "themes": ["DC", "RIV", "SEED", "REMNANT", "LAND", "REVERSAL"],
 
         "synopsis": "The final section of Amos contains five visions of judgment and the dramatic confrontation "
                     "at Bethel. Vision 1: locusts devouring the land -- Amos intercedes, YHWH relents (7:1-3). "

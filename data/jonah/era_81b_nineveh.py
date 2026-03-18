@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "Nineveh Repents -- The Shortest Sermon, the Greatest Revival",
         "era": "jonah_mercy_nations",
         "type": "chapter",
+        "themes": ["NATIONS", "REVERSAL"],
 
         "synopsis": "YHWH recommissions Jonah. This time he obeys. Nineveh is described as 'an exceedingly "
                     "great city, three days' journey in breadth' (3:3). Jonah walks one day into the city "
@@ -108,6 +109,7 @@ CHAPTERS = [
         "title": "The Angry Prophet and the Unanswered Question",
         "era": "jonah_mercy_nations",
         "type": "chapter",
+        "themes": ["NATIONS", "LOVE"],
 
         "synopsis": "Jonah is furious. 'O YHWH, is not this what I said when I was yet in my country? That "
                     "is why I made haste to flee to Tarshish; for I knew that you are a gracious God and "

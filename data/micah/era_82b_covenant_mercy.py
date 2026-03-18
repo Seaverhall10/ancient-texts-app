@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The Covenant Lawsuit and YHWH's Final Mercy",
         "era": "covenant_mercy",
         "type": "chapter",
+        "themes": ["RIV", "COV", "LOVE", "REMNANT"],
 
         "synopsis": "The final section opens with YHWH's covenant lawsuit (rib): 'Arise, plead (rib) your "
                     "case before the mountains, and let the hills hear your voice. Hear, you mountains, the "

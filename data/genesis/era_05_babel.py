@@ -10,6 +10,7 @@ CHAPTERS = [
         "title": "Noah's Vineyard and the Curse of Canaan",
         "era": "babel",
         "type": "chapter",
+        "themes": ['SEED', 'NATIONS', 'NAME', 'REBEL'],
 
         "synopsis": "Immediately after the flood covenant, the narrative takes a dark turn. Noah plants a vineyard, becomes drunk, and lies uncovered in his tent. Ham 'sees the nakedness of his father' and reports it to his brothers, who walk backward to cover Noah without looking. When Noah awakes and learns what Ham has done, he does not curse Ham but Ham's son Canaan, while blessing Shem and Japheth. This puzzling episode raises two persistent questions: what exactly did Ham do (the Hebrew is suggestive of something far worse than voyeurism), and why is Canaan cursed for his father's sin? The passage functions as a theological etiology for the later Israelite conquest of Canaan and sets up the three-branch division of humanity that the Table of Nations will elaborate.",
 
@@ -86,6 +87,7 @@ CHAPTERS = [
         "title": "The Table of Nations -- Seventy Peoples from Three Sons",
         "era": "babel",
         "type": "chapter",
+        "themes": ['NATIONS', 'SEED', 'NAME', 'LAND'],
 
         "synopsis": "Genesis 10 is one of the most remarkable documents in ancient literature: a comprehensive genealogical map of the known world, tracing all humanity to Noah's three sons. Seventy nations emerge -- a number of cosmic significance in Israelite thought. The chapter is structured by the toledot formula ('these are the generations of') and organized geographically: Japheth's descendants spread to the north and west (Anatolia, Greece, the coastlands), Ham's to the south and east (Africa, Egypt, Canaan, Mesopotamia), and Shem's through the central Fertile Crescent (Aram, Assyria, and eventually Abraham's line). Embedded within the Hamite genealogy is the Nimrod pericope -- the first 'mighty man' (gibbor) after the flood, founder of Babel, Erech, Accad, and Nineveh -- a figure whose ambitions foreshadow the Babel rebellion in chapter 11.",
 
@@ -184,6 +186,7 @@ CHAPTERS = [
         "title": "The Tower of Babel -- Humanity's Last United Rebellion",
         "era": "babel",
         "type": "chapter",
+        "themes": ['REBEL', 'DC', 'EXILE', 'NATIONS', 'NAME'],
 
         "synopsis": "The Babel narrative is the climactic episode of the primeval history, the final act of corporate human rebellion before God pivots from dealing with all humanity to electing one man (Abraham) through whom the nations will be reclaimed. The whole earth speaks one language and migrates to the plain of Shinar (Mesopotamia), where they resolve to build a city and a tower 'with its top in the heavens' -- a ziggurat, an artificial mountain designed to bridge heaven and earth. Their stated goal -- 'let us make a name for ourselves, lest we be scattered' -- directly echoes the Nephilim, who were 'men of the name' (anshei hashem), and directly defies God's command to 'fill the earth.' YHWH 'comes down' to see their work (divine irony: the tower that reaches heaven is so small God must descend to inspect it), and declares, 'Let US go down' -- the divine council plural again. Languages are confused (balal), humanity is scattered, and the city is named Babel. This is not merely punishment but cosmic restructuring: God disinherits the nations and allots them to lesser divine beings (Deuteronomy 32:8-9), setting the stage for Abraham's call as God's strategy to win them back.",
 
@@ -292,6 +295,7 @@ CHAPTERS = [
         "title": "The Deuteronomy 32 Worldview -- God's Disinheritance of the Nations",
         "era": "babel",
         "type": "historical_insert",
+        "themes": ['DC', 'NATIONS'],
 
         "synopsis": "Deuteronomy 32:8-9 is arguably the single most important text for understanding the divine council worldview and the cosmic significance of the Babel event. In the Song of Moses, God reveals that when he 'divided mankind' and 'fixed the borders of the peoples,' he did so 'according to the number of the sons of God,' retaining Israel alone as his own 'portion' and 'allotted heritage.' Combined with Genesis 10 (seventy nations), Genesis 11 (the Babel scattering), and Psalm 82 (the indictment of corrupt divine rulers), this text unlocks the theological architecture of the entire Bible: God surrendered governance of the nations to subordinate divine beings at Babel, those beings became corrupt, and the entire biblical narrative from Abraham onward is God's campaign to reclaim what was lost.",
 

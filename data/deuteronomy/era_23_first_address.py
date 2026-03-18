@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "The Preamble — Moses Recounts the Journey from Horeb",
         "era": "first_address",
         "type": "chapter",
+        "themes": ["COV", "REMEMBER", "REBEL", "LAND"],
 
         "synopsis": "Deuteronomy opens on the plains of Moab, east of the Jordan, in the "
                     "fortieth year after the exodus (1:3). Moses begins his first address by "
@@ -233,6 +234,7 @@ CHAPTERS = [
         "title": "Wilderness Wandering and the Nations' Boundaries",
         "era": "first_address",
         "type": "chapter",
+        "themes": ["NATIONS", "LAND", "EXILE", "REMEMBER"],
 
         "synopsis": "Deuteronomy 2 resumes the historical prologue, covering the thirty-eight years "
                     "of wilderness wandering and the approach to the Promised Land from the east. "
@@ -437,6 +439,7 @@ CHAPTERS = [
         "title": "The Defeat of Og and the Division of the Transjordan",
         "era": "first_address",
         "type": "chapter",
+        "themes": ["NATIONS", "LAND", "REMEMBER"],
 
         "synopsis": "Deuteronomy 3 continues the historical prologue with Israel's second major "
                     "military victory: the defeat of Og king of Bashan, the last of the Rephaim "
@@ -619,6 +622,7 @@ CHAPTERS = [
         "title": "The Incomparable God — Allotment of the Nations and the Call to Obedience",
         "era": "first_address",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "COV", "NAME", "REMEMBER", "EXILE"],
 
         "synopsis": "Deuteronomy 4 is the theological heart of Moses' first address and contains the "
                     "first explicit divine council passage in the book. Moses transitions from "

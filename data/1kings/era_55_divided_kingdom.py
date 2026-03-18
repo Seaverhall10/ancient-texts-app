@@ -21,6 +21,7 @@ CHAPTERS = [
         "title": "The Kingdom Torn -- Rehoboam, Jeroboam, and the Golden Calves",
         "era": "divided_kingdom",
         "type": "chapter",
+        "themes": ["KING", "REBEL", "HOLY", "DC"],
 
         "synopsis": "After Solomon's death, all Israel gathers at Shechem to make Rehoboam king. "
                     "Jeroboam returns from Egypt and, with the assembly, petitions Rehoboam to "
@@ -175,6 +176,7 @@ CHAPTERS = [
         "title": "The Man of God from Judah -- Prophetic Confrontation at Bethel",
         "era": "divided_kingdom",
         "type": "chapter",
+        "themes": ["SPIRIT", "RIV", "DC"],
 
         "synopsis": "An unnamed 'man of God' (ish ha'elohim) from Judah arrives at Bethel while "
                     "Jeroboam is burning incense on his new altar. He cries out against the altar "
@@ -305,6 +307,7 @@ CHAPTERS = [
         "title": "The Parade of Judgment -- From Jeroboam to Omri",
         "era": "divided_kingdom",
         "type": "chapter",
+        "themes": ["KING", "RIV", "DC", "NATIONS", "REBEL"],
 
         "synopsis": "The narrative accelerates through a succession of kings, each assessed by "
                     "the Deuteronomistic standard. In the north: Jeroboam's dynasty is condemned "

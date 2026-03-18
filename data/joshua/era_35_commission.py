@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "The Divine Warrior Commissions His General",
         "era": "commission",
         "type": "chapter",
+        "themes": ["COV", "LAND", "LAW"],
 
         "synopsis": "After Moses' death, YHWH speaks directly to Joshua son of Nun with a charge "
                     "that echoes the language of a suzerain commissioning his vassal commander: 'Be "
@@ -226,6 +227,7 @@ CHAPTERS = [
         "title": "Rahab and the Spies -- Chaos Tamed by Faith",
         "era": "commission",
         "type": "chapter",
+        "themes": ["WOMEN", "PROV", "SEED"],
 
         "synopsis": "Joshua sends two spies to reconnoiter Jericho. They enter the house of Rahab "
                     "(rahav), a prostitute (zonah) whose name is identical to the Hebrew word for "
@@ -443,6 +445,7 @@ CHAPTERS = [
         "title": "The Jordan Crossing -- Waters of Chaos Parted Again",
         "era": "commission",
         "type": "chapter",
+        "themes": ["TYPE", "HOLY", "COV"],
 
         "synopsis": "Israel breaks camp at Shittim and moves to the Jordan's edge. The officers "
                     "instruct the people to follow the ark of the covenant at a distance of 2,000 "
@@ -625,6 +628,7 @@ CHAPTERS = [
         "title": "Memorial Stones -- So That All Peoples May Know",
         "era": "commission",
         "type": "chapter",
+        "themes": ["COV", "LAND", "NAME"],
 
         "synopsis": "After the crossing, YHWH commands Joshua to have twelve men -- one from each "
                     "tribe -- take twelve stones from the middle of the Jordan where the priests "
@@ -787,6 +791,7 @@ CHAPTERS = [
         "title": "Circumcision, Passover, and the Commander of YHWH's Army",
         "era": "commission",
         "type": "chapter",
+        "themes": ["COV", "HOLY", "TYPE"],
 
         "synopsis": "Joshua 5 contains three episodes of extraordinary theological density. First, "
                     "the Canaanite and Amorite kings hear of the Jordan miracle and their hearts "

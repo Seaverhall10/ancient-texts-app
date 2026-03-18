@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "The High Priest in the Council -- Joshua's Trial",
         "era": "zechariah_council",
         "type": "chapter",
+        "themes": ["DC", "PRIEST", "SEED"],
 
         "synopsis": "The fourth night vision is the most technically precise divine council courtroom scene "
                     "in the Old Testament. [A] Joshua the high priest stands before the Angel of YHWH while "
@@ -235,6 +236,7 @@ CHAPTERS = [
         "title": "The Pierced One -- Yahweh Speaking in First Person",
         "era": "zechariah_council",
         "type": "chapter",
+        "themes": ["DC", "KING", "PRIEST", "SEED"],
 
         "synopsis": "Zechariah 12:10 presents one of the most exegetically contested grammatical constructions "
                     "in the Old Testament: YHWH speaks in first person and says 'they will look on me, on "
@@ -449,6 +451,7 @@ CHAPTERS = [
         "title": "The Two Olive Trees -- Sons of Fresh Oil Before the Lord of All the Earth",
         "era": "zechariah_council",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "SEED"],
 
         "synopsis": "Zechariah 4 presents the divine council's sustaining infrastructure through one of the "
                     "most elaborately explained visions in the night-vision sequence. [A] The golden "

@@ -22,6 +22,7 @@ CHAPTERS = [
         "title": "Testing the Spirits -- Discerning Truth from Deception",
         "era": "1john_spirits",
         "type": "study",
+        "themes": ["DC", "SPIRIT", "KING", "LAW", "HOLY"],
 
         "synopsis": "John opens with one of the most urgent commands in the New Testament: 'Beloved, do not "
                     "believe every spirit, but test the spirits to see whether they are from God, for many false "
@@ -210,6 +211,7 @@ CHAPTERS = [
         "title": "God Is Love -- The Perfection of Divine Love",
         "era": "1john_spirits",
         "type": "study",
+        "themes": ["DC", "TYPE", "HOLY", "SPIRIT", "KING"],
 
         "synopsis": "Having addressed the crisis of false teaching, John turns to the supreme theme of the "
                     "letter: the nature of divine love. His argument builds to one of the most concentrated "
@@ -405,6 +407,7 @@ CHAPTERS = [
         "title": "Overcoming the World -- Faith, Testimony, and the Evil One",
         "era": "1john_spirits",
         "type": "study",
+        "themes": ["DC", "KING", "BLOOD", "SEED", "REBEL"],
 
         "synopsis": "John brings his letter to its climax with a theology of victory, assurance, and cosmic "
                     "reality. The opening declaration links faith, love, and obedience: 'Everyone who believes "

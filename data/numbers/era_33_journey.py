@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "Meribah, Edom, and Aaron's Death — The Passing of an Era",
         "era": "journey",
         "type": "chapter",
+        "themes": ["REBEL", "PRIEST", "EXILE", "NATIONS"],
 
         "synopsis": "Numbers 20 compresses years of narrative into a single devastating chapter. "
                     "The opening verse ('the people of Israel, the whole congregation, came into "
@@ -198,6 +199,7 @@ CHAPTERS = [
         "title": "The Bronze Serpent and the Conquest of the Transjordan",
         "era": "journey",
         "type": "chapter",
+        "themes": ["TYPE", "REBEL", "NATIONS", "LAND"],
 
         "synopsis": "Numbers 21 is one of the most theologically dense chapters in the Torah, "
                     "containing a military victory, a devastating plague, the most important "
@@ -406,6 +408,7 @@ CHAPTERS = [
         "title": "Balaam and the Donkey — A Pagan Seer Meets YHWH",
         "era": "journey",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "SPIRIT", "COV"],
 
         "synopsis": "Numbers 22-23 introduces one of the most extraordinary figures in the "
                     "Bible: Balaam son of Beor, a non-Israelite qosem (diviner — a professional "
@@ -590,6 +593,7 @@ CHAPTERS = [
         "title": "The Star Prophecy — Balaam's Final Oracles",
         "era": "journey",
         "type": "chapter",
+        "themes": ["SEED", "NATIONS", "DC", "KING"],
 
         "synopsis": "Numbers 24 contains Balaam's most exalted oracles, including the famous "
                     "Star Prophecy — one of the most important messianic texts in the Hebrew "
@@ -785,6 +789,7 @@ CHAPTERS = [
         "title": "Baal-Peor — Sexual Idolatry and Phinehas's Zeal",
         "era": "journey",
         "type": "chapter",
+        "themes": ["REBEL", "SPIRIT", "PRIEST", "COV"],
 
         "synopsis": "Numbers 25 records the last and most devastating crisis before the second "
                     "census — a catastrophe that succeeds where Balaam's curses failed. What "

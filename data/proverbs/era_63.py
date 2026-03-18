@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "The Purpose of Proverbs and Wisdom's First Call",
         "era": "63",
         "type": "chapter",
+        "themes": ["PROV", "DC", "SPIRIT"],
 
         "synopsis": "Proverbs opens with its purpose statement: 'To know wisdom (hokhmah) and "
                     "instruction (musar), to understand words of insight' (1:2). The foundational "
@@ -139,6 +140,7 @@ CHAPTERS = [
         "title": "The Path of Wisdom and the Path of Darkness",
         "era": "63",
         "type": "chapter",
+        "themes": ["PROV", "LAW"],
 
         "synopsis": "Chapters 2-4 develop the Two Ways theology: the path of wisdom leading to life "
                     "and the path of evil leading to death. Chapter 2 is a single extended sentence "
@@ -250,6 +252,7 @@ CHAPTERS = [
         "title": "The Forbidden Woman and the Call to Faithfulness",
         "era": "63",
         "type": "chapter",
+        "themes": ["PROV", "WOMEN", "LOVE"],
 
         "synopsis": "Chapters 5-7 form an extended warning against sexual infidelity. The 'forbidden "
                     "woman' (ishah zarah) represents both a literal temptation and the symbolic "
@@ -361,6 +364,7 @@ CHAPTERS = [
         "title": "Wisdom's Self-Revelation and the Two Banquets",
         "era": "63",
         "type": "chapter",
+        "themes": ["PROV", "DC", "SEED", "GLORY"],
 
         "synopsis": "Chapter 8 is the theological summit of Proverbs and one of the most important "
                     "passages in the entire Old Testament. Wisdom speaks in her own voice, declaring "

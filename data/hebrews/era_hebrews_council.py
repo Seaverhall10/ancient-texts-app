@@ -31,6 +31,7 @@ CHAPTERS = [
         "title": "The Son Above All -- The Council Commanded to Worship",
         "era": "hebrews_council",
         "type": "chapter",
+        "themes": ["DC", "KING", "LAW", "SEED", "TYPE"],
 
         "synopsis": (
             "Hebrews 1 opens with a seven-claim christological declaration and then "
@@ -327,6 +328,7 @@ CHAPTERS = [
         "title": "The Torah Through Angels -- Why Angelic Mediation Is Inferior",
         "era": "hebrews_council",
         "type": "chapter",
+        "themes": ["DC", "REBEL", "KING", "COV", "TYPE"],
 
         "synopsis": (
             "Hebrews 2 addresses the consequence of the Son's superiority for "
@@ -597,6 +599,7 @@ CHAPTERS = [
         "title": "The Tabernacle as Council Throne Room -- The Copy and the Real",
         "era": "hebrews_council",
         "type": "chapter",
+        "themes": ["DC", "TYPE", "BLOOD", "PRIEST", "REBEL"],
 
         "synopsis": (
             "Hebrews 8-9 develops the tabernacle typology with a claim that only "
@@ -877,6 +880,7 @@ CHAPTERS = [
         "title": "The Heavenly Assembly -- The Ekklesia Already There",
         "era": "hebrews_council",
         "type": "chapter",
+        "themes": ["DC", "KING", "BLOOD", "HOLY", "LAW"],
 
         "synopsis": (
             "Hebrews 12:22-24 provides the most explicit NT description of the "
@@ -1169,6 +1173,7 @@ CHAPTERS = [
         "title": "Historical Insert: From Angels to the Son -- Why the Mediator Matters",
         "era": "hebrews_council",
         "type": "historical_insert",
+        "themes": ["DC", "PRIEST", "COV", "TYPE", "SEED"],
 
         "synopsis": (
             "The entire argument of Hebrews rests on a real hierarchy: Torah "

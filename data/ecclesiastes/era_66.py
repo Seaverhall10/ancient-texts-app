@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "The Thesis and the Royal Experiment",
         "era": "66",
         "type": "chapter",
+        "themes": ["PROV", "DC"],
 
         "synopsis": "Qoheleth opens with the thesis that will govern the entire book: 'Vanity of "
                     "vanities (havel havalim), says the Preacher, vanity of vanities! All is vanity "
@@ -148,6 +149,7 @@ CHAPTERS = [
         "title": "The Times Poem and the Eternity in the Heart",
         "era": "66",
         "type": "chapter",
+        "themes": ["PROV", "DC", "SPIRIT"],
 
         "synopsis": "Chapter 3 contains the most famous poem in Ecclesiastes: 'For everything there is "
                     "a season, and a time for every matter under heaven: a time to be born, and a time to "
@@ -274,6 +276,7 @@ CHAPTERS = [
         "title": "Worship, Wealth, and the Gift of Enjoyment",
         "era": "66",
         "type": "chapter",
+        "themes": ["PROV", "HOLY"],
 
         "synopsis": "Chapter 5 opens with a rare imperative section on proper worship: 'Guard your steps "
                     "when you go to the house of God. To draw near to listen is better than to offer the "

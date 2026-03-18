@@ -31,6 +31,7 @@ CHAPTERS = [
         "title": "Micah's Idol -- Private Religion and Hired Priests",
         "era": "judges_chaos",
         "type": "chapter",
+        "themes": ["REBEL", "PRIEST", "HOLY"],
 
         "synopsis": "A man named Micah (mikayhu, 'who is like YHWH?') from the hill country of "
                     "Ephraim confesses to stealing 1,100 pieces of silver from his mother. She had "
@@ -184,6 +185,7 @@ CHAPTERS = [
         "title": "Dan's Migration -- Tribal Apostasy Institutionalized",
         "era": "judges_chaos",
         "type": "chapter",
+        "themes": ["REBEL", "LAND", "PRIEST"],
 
         "synopsis": "The tribe of Dan, unable to secure their allotted territory in the coastal "
                     "lowlands (1:34-35), sends five spies to find alternative land. They pass through "
@@ -343,6 +345,7 @@ CHAPTERS = [
         "title": "The Levite's Concubine -- Israel Becomes Sodom",
         "era": "judges_chaos",
         "type": "chapter",
+        "themes": ["REBEL", "BLOOD"],
 
         "synopsis": "A Levite from the hill country of Ephraim takes a concubine from Bethlehem. She "
                     "leaves him (or is unfaithful, depending on the textual tradition) and returns to "
@@ -508,6 +511,7 @@ CHAPTERS = [
         "title": "The War Against Benjamin -- Civil War in the Covenant Community",
         "era": "judges_chaos",
         "type": "chapter",
+        "themes": ["BLOOD", "COV"],
 
         "synopsis": "All Israel assembles at Mizpah -- 400,000 sword-bearing warriors from Dan to "
                     "Beersheba -- in response to the Levite's summons. He testifies about the Gibeah "
@@ -655,6 +659,7 @@ CHAPTERS = [
         "title": "Restoring Benjamin -- Desperate Measures in a Broken Community",
         "era": "judges_chaos",
         "type": "chapter",
+        "themes": ["KING", "COV", "WOMEN"],
 
         "synopsis": "Israel had sworn at Mizpah: 'No one of us shall give his daughter in marriage "
                     "to Benjamin' (21:1). Now, with Benjamin nearly exterminated, they realize their "

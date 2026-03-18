@@ -26,6 +26,7 @@ CHAPTERS = [
         "title": "The Risen Christ Among the Lampstands -- The Son of Man as Ancient of Days",
         "era": "rev_throne",
         "type": "study",
+        "themes": ["DC", "KING", "BLOOD", "GLORY", "SPIRIT"],
 
         "synopsis": "Revelation opens with its title: 'The revelation (apokalypsis) of Jesus Christ, "
                     "which God gave him to show to his servants the things that must soon take place' "
@@ -242,6 +243,7 @@ CHAPTERS = [
         "title": "The Seven Letters -- Christ's Verdict on Seven Churches",
         "era": "rev_throne",
         "type": "study",
+        "themes": ["KING", "SEED", "DC", "REBEL", "HOLY"],
 
         "synopsis": "Chapters 2-3 contain seven letters from the risen Christ to seven real churches "
                     "in the Roman province of Asia (modern western Turkey). Each letter follows a "
@@ -510,6 +512,7 @@ CHAPTERS = [
         "title": "The Throne Room of Heaven -- The Divine Council in Session",
         "era": "rev_throne",
         "type": "study",
+        "themes": ["DC", "KING", "BLOOD", "PRIEST", "GLORY"],
 
         "synopsis": "Revelation 4 is the theological heart of the entire book and one of the most "
                     "important divine council texts in the Bible. 'After this I looked, and behold, "
@@ -773,6 +776,7 @@ CHAPTERS = [
         "title": "The Lamb and the Sealed Scroll -- Who Is Worthy to Execute the Verdict?",
         "era": "rev_throne",
         "type": "study",
+        "themes": ["DC", "KING", "BLOOD", "SEED", "NATIONS"],
 
         "synopsis": "Revelation 5 is the christological climax of the throne room vision and one of "
                     "the most dramatic scenes in all of scripture. The one on the throne holds a scroll "

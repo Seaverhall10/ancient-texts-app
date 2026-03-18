@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "Yom Kippur — The Day of Atonement: Cosmic Purification and the Azazel Goat",
         "era": "atonement",
         "type": "chapter",
+        "themes": ["BLOOD", "PRIEST", "HOLY", "SPIRIT", "TYPE", "DC"],
 
         "synopsis": (
             "Leviticus 16 is the theological center of Leviticus, the Torah, and arguably "
@@ -389,6 +390,7 @@ CHAPTERS = [
         "title": "The Life Is in the Blood — The Central Theology of Sacrifice",
         "era": "atonement",
         "type": "chapter",
+        "themes": ["BLOOD", "HOLY", "SPIRIT", "LAW"],
 
         "synopsis": (
             "Leviticus 17 provides the theological rationale for the entire sacrificial system "

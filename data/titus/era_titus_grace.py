@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "Sound Doctrine vs. the Circumcision Party",
         "era": "titus_grace",
         "type": "study",
+        "themes": ["DC", "HOLY", "TYPE", "KING", "LAW"],
 
         "synopsis": "Paul warns Titus that the Cretan churches face a specific threat: 'there are many who "
                     "are insubordinate, empty talkers and deceivers, especially those of the circumcision "
@@ -183,6 +184,7 @@ CHAPTERS = [
         "title": "The Grace of God Has Appeared",
         "era": "titus_grace",
         "type": "study",
+        "themes": ["KING", "DC", "BLOOD", "LAW", "LOVE"],
 
         "synopsis": "At the center of Paul's letter stands one of the most theologically concentrated passages in "
                     "the New Testament. After instructing every group in the church on godly conduct (2:1-10), Paul "
@@ -348,6 +350,7 @@ CHAPTERS = [
         "title": "Washing of Regeneration -- The Holy Spirit Poured Out",
         "era": "titus_grace",
         "type": "study",
+        "themes": ["DC", "SPIRIT", "KING", "TYPE", "HOLY"],
 
         "synopsis": "Paul delivers the most explicitly Trinitarian soteriological formula in his letters. He begins "
                     "with a devastating pre-conversion portrait: 'For we ourselves were once foolish, disobedient, "

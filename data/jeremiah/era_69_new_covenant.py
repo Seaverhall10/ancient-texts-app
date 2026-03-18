@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "Trial, Yoke, and the Letter to the Exiles",
         "era": "jeremiah_new_covenant",
         "type": "chapter",
+        "themes": ["EXILE", "RIV"],
 
         "synopsis": "These chapters narrate Jeremiah's escalating conflicts with the religious and "
                     "political establishment. Chapter 26 recounts his trial for the temple sermon -- "
@@ -146,6 +147,7 @@ CHAPTERS = [
         "title": "The New Covenant -- Torah Written on the Heart",
         "era": "jeremiah_new_covenant",
         "type": "chapter",
+        "themes": ["COV", "SEED", "REVERSAL", "LOVE", "SPIRIT"],
 
         "synopsis": "Jeremiah 31 is the theological summit of the entire Old Testament prophetic corpus. "
                     "It contains the New Covenant oracle (31:31-34) -- the only place in the Hebrew Bible "
@@ -293,6 +295,7 @@ CHAPTERS = [
         "title": "The Burning Scroll and the Fall of Jerusalem",
         "era": "jeremiah_new_covenant",
         "type": "chapter",
+        "themes": ["EXILE", "KING"],
 
         "synopsis": "Chapters 36-39 narrate the final crisis. Chapter 36: Jeremiah dictates his oracles "
                     "to Baruch, who reads them in the temple. King Jehoiakim hears the scroll read and "

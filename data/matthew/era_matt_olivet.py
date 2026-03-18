@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "The Olivet Discourse: Temple Destruction and the Coming of the Son of Man",
         "era": "matt_olivet",
         "type": "study",
+        "themes": ["DC", "KING", "TYPE", "BLOOD", "SEED"],
 
         "synopsis": "As Jesus leaves the temple, the disciples marvel at the buildings. Jesus responds: 'Not "
                     "one stone will be left upon another' (24:2). On the Mount of Olives, they ask privately: "
@@ -61,11 +62,11 @@ CHAPTERS = [
                          "Qumran, this figure was identified with the messianic king (4Q246).",
 
         "cross_refs": [
-            {"ref": "Daniel 9:27", "note": "The original 'abomination of desolation' prophecy within the 70-weeks framework"},
-            {"ref": "Daniel 7:13-14", "note": "The Son of Man coming with clouds to receive everlasting dominion — Jesus' self-identification"},
-            {"ref": "Joel 2:30-31", "note": "Sun to darkness, moon to blood — the Day of the Lord imagery Jesus applies to the end"},
-            {"ref": "Mark 13:1-37", "note": "Mark's parallel Olivet Discourse with additional details"},
-            {"ref": "Luke 21:20-24", "note": "Luke's version specifying 'Jerusalem surrounded by armies' as the trigger to flee"}
+            {"ref": "Daniel 9:27", "note": "The original 'abomination of desolation' prophecy within the 70-weeks framework", "type": "ot"},
+            {"ref": "Daniel 7:13-14", "note": "The Son of Man coming with clouds to receive everlasting dominion — Jesus' self-identification", "type": "ot"},
+            {"ref": "Joel 2:30-31", "note": "Sun to darkness, moon to blood — the Day of the Lord imagery Jesus applies to the end", "type": "ot"},
+            {"ref": "Mark 13:1-37", "note": "Mark's parallel Olivet Discourse with additional details", "type": "nt"},
+            {"ref": "Luke 21:20-24", "note": "Luke's version specifying 'Jerusalem surrounded by armies' as the trigger to flee", "type": "nt"}
         ],
 
         "divine_council_note": "The Olivet Discourse is a divine council judgment oracle. The 'powers of the "
@@ -113,6 +114,7 @@ CHAPTERS = [
         "title": "Gethsemane, Betrayal, and the Trial Before the Sanhedrin",
         "era": "matt_olivet",
         "type": "study",
+        "themes": ["BLOOD", "DC", "COV", "KING", "SEED"],
 
         "synopsis": "The passion narrative opens with Jesus' fourth passion prediction: 'After two days the "
                     "Passover is coming, and the Son of Man will be delivered up (paradidotai) to be crucified' "
@@ -158,11 +160,11 @@ CHAPTERS = [
                          "throne (cf. 1 Enoch 51:3, 61:8).",
 
         "cross_refs": [
-            {"ref": "Exodus 24:8", "note": "Moses sprinkles 'the blood of the covenant' — the original ceremony Jesus now fulfills"},
-            {"ref": "Isaiah 51:17,22", "note": "The cup of God's wrath that Jerusalem drank — now Jesus drinks it in their place"},
-            {"ref": "Psalm 110:1", "note": "Sit at my right hand — combined with Daniel 7:13 in Jesus' answer to the high priest"},
-            {"ref": "Zechariah 11:12-13", "note": "Thirty pieces of silver — the price of Judas' betrayal, fulfilling Zechariah's prophecy"},
-            {"ref": "Jeremiah 31:31-34", "note": "The new covenant promise — Jesus claims to inaugurate it with his blood"}
+            {"ref": "Exodus 24:8", "note": "Moses sprinkles 'the blood of the covenant' — the original ceremony Jesus now fulfills", "type": "ot"},
+            {"ref": "Isaiah 51:17,22", "note": "The cup of God's wrath that Jerusalem drank — now Jesus drinks it in their place", "type": "ot"},
+            {"ref": "Psalm 110:1", "note": "Sit at my right hand — combined with Daniel 7:13 in Jesus' answer to the high priest", "type": "ot"},
+            {"ref": "Zechariah 11:12-13", "note": "Thirty pieces of silver — the price of Judas' betrayal, fulfilling Zechariah's prophecy", "type": "ot"},
+            {"ref": "Jeremiah 31:31-34", "note": "The new covenant promise — Jesus claims to inaugurate it with his blood", "type": "ot"}
         ],
 
         "divine_council_note": "In Gethsemane, Jesus tells Peter: 'Do you think that I cannot appeal to my "
@@ -213,6 +215,7 @@ CHAPTERS = [
         "title": "The Crucifixion: The King on His Throne",
         "era": "matt_olivet",
         "type": "study",
+        "themes": ["BLOOD", "DC", "HOLY", "NATIONS", "PRIEST"],
 
         "synopsis": "Matthew 27 is the theological center of the Gospel. Judas, seized with remorse (metamelomai, "
                     "not metanoeō -- regret without true repentance), returns the thirty pieces of silver and "
@@ -257,11 +260,11 @@ CHAPTERS = [
                          "was no longer mediated through human priests and animal blood.",
 
         "cross_refs": [
-            {"ref": "Psalm 22:1-31", "note": "The psalm Jesus quotes on the cross — begins in agony, ends in global worship and resurrection hope"},
-            {"ref": "Isaiah 53:4-12", "note": "The Suffering Servant — pierced, crushed, bearing iniquity, silent before slaughter"},
-            {"ref": "Zechariah 11:12-13", "note": "Thirty pieces of silver, thrown to the potter — fulfilled in Judas' betrayal and death"},
-            {"ref": "Leviticus 16:7-10", "note": "Day of Atonement: two goats — one sacrificed, one released (Barabbas typology)"},
-            {"ref": "Hebrews 10:19-20", "note": "Through the torn curtain we have access to God — the theological interpretation of Matt 27:51"}
+            {"ref": "Psalm 22:1-31", "note": "The psalm Jesus quotes on the cross — begins in agony, ends in global worship and resurrection hope", "type": "ot"},
+            {"ref": "Isaiah 53:4-12", "note": "The Suffering Servant — pierced, crushed, bearing iniquity, silent before slaughter", "type": "ot"},
+            {"ref": "Zechariah 11:12-13", "note": "Thirty pieces of silver, thrown to the potter — fulfilled in Judas' betrayal and death", "type": "ot"},
+            {"ref": "Leviticus 16:7-10", "note": "Day of Atonement: two goats — one sacrificed, one released (Barabbas typology)", "type": "ot"},
+            {"ref": "Hebrews 10:19-20", "note": "Through the torn curtain we have access to God — the theological interpretation of Matt 27:51", "type": "nt"}
         ],
 
         "divine_council_note": "The cross is a cosmic event. Darkness covers the land (27:45) -- God's judgment "
@@ -309,6 +312,7 @@ CHAPTERS = [
         "title": "The Resurrection and the Great Commission",
         "era": "matt_olivet",
         "type": "study",
+        "themes": ["SEED", "KING", "NATIONS", "DC", "TYPE"],
 
         "synopsis": "Matthew's resurrection account emphasizes divine power and cosmic authority. 'There was a "
                     "great earthquake (seismos megas), for an angel of the Lord descended from heaven and came "
@@ -352,11 +356,11 @@ CHAPTERS = [
                          "the Holy Spirit' is the earliest triadic formula in Christian literature.",
 
         "cross_refs": [
-            {"ref": "Daniel 7:14", "note": "All dominion, glory, and kingdom given to the Son of Man — fulfilled in Jesus' 'all authority' claim"},
-            {"ref": "Deuteronomy 32:8-9", "note": "The nations allotted to 'sons of God'; now reclaimed by the Son through the Great Commission"},
-            {"ref": "Genesis 12:3", "note": "In Abraham 'all the families of the earth shall be blessed' — the Commission fulfills Abrahamic promise"},
-            {"ref": "Matthew 1:23", "note": "'Immanuel, God with us' — the Gospel's inclusio, fulfilled in 28:20 'I am with you always'"},
-            {"ref": "Acts 1:8", "note": "The Commission's implementation: 'You will be my witnesses in Jerusalem, Judea, Samaria, and to the end of the earth'"}
+            {"ref": "Daniel 7:14", "note": "All dominion, glory, and kingdom given to the Son of Man — fulfilled in Jesus' 'all authority' claim", "type": "ot"},
+            {"ref": "Deuteronomy 32:8-9", "note": "The nations allotted to 'sons of God'; now reclaimed by the Son through the Great Commission", "type": "ot"},
+            {"ref": "Genesis 12:3", "note": "In Abraham 'all the families of the earth shall be blessed' — the Commission fulfills Abrahamic promise", "type": "ot"},
+            {"ref": "Matthew 1:23", "note": "'Immanuel, God with us' — the Gospel's inclusio, fulfilled in 28:20 'I am with you always'", "type": "nt"},
+            {"ref": "Acts 1:8", "note": "The Commission's implementation: 'You will be my witnesses in Jerusalem, Judea, Samaria, and to the end of the earth'", "type": "nt"}
         ],
 
         "divine_council_note": "The Great Commission is a divine council reclamation decree. In Deuteronomy "

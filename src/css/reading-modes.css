@@ -9,7 +9,7 @@
     padding: 6px 0;
     border: 1px solid rgba(201, 168, 76, 0.3);
     background: transparent;
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
     border-radius: 6px;
     font-size: 0.78rem;
     cursor: pointer;
@@ -18,13 +18,13 @@
 }
 .rmt-btn:hover {
     background: rgba(201, 168, 76, 0.1);
-    color: var(--color-text, #e0e0e0);
+    color: var(--text-primary);
 }
 .rmt-btn.active {
-    background: var(--color-gold, #c9a84c);
-    color: var(--color-bg, #0c0e14);
+    background: var(--gold);
+    color: var(--bg-primary);
     font-weight: 600;
-    border-color: var(--color-gold, #c9a84c);
+    border-color: var(--gold);
 }
 
 /* ── Scripture Mode — clean reading ────────────────────── */
@@ -69,7 +69,7 @@
     font-family: var(--font-body, 'Georgia', serif);
     font-size: 1rem;
     line-height: 1.85;
-    color: var(--color-text, #e8e1d3);
+    color: var(--text-primary);
     text-align: justify;
     text-justify: inter-word;
     padding: 0.5rem 0;
@@ -78,7 +78,7 @@
     font-family: var(--font-heading, 'Cinzel', serif);
     font-size: 1.1rem;
     font-weight: 700;
-    color: var(--color-gold, #c9a84c);
+    color: var(--gold);
     margin: 1.5rem 0 0.75rem;
     padding-bottom: 0.4rem;
     border-bottom: 1px solid rgba(201, 168, 76, 0.2);
@@ -86,7 +86,7 @@
 .scripture-verse-num {
     font-size: 0.65rem;
     font-weight: 700;
-    color: var(--color-gold, #c9a84c);
+    color: var(--gold);
     margin-right: 2px;
     vertical-align: super;
     line-height: 0;
@@ -104,7 +104,7 @@
 .scripture-no-data {
     text-align: center;
     padding: 2rem 1rem;
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
 }
 .scripture-no-data-icon {
     font-size: 2.5rem;
@@ -119,7 +119,7 @@
 .inline-interlinear .il-no-data {
     text-align: center;
     padding: 2rem 1rem;
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
 }
 .inline-interlinear .il-no-data-icon {
     font-size: 2rem;
@@ -142,22 +142,22 @@
 }
 .inline-interlinear .il-verse-num {
     font-weight: 700;
-    color: var(--color-gold, #c9a84c);
+    color: var(--gold);
     font-size: 0.75rem;
     margin-right: 0.25rem;
 }
 .inline-interlinear .il-verse-sentence {
     font-size: 0.85rem;
-    color: var(--color-text, #e0e0e0);
+    color: var(--text-primary);
     line-height: 1.5;
 }
 .inline-interlinear .il-verse-sentence.il-flow-active {
-    color: var(--color-gold, #c9a84c);
+    color: var(--gold);
     font-style: italic;
 }
 .inline-interlinear .il-verse-note {
     font-size: 0.75rem;
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
     margin-top: 0.25rem;
     width: 100%;
 }
@@ -187,22 +187,22 @@
 .inline-interlinear .il-hebrew {
     font-size: 1.1rem;
     line-height: 1.3;
-    color: var(--color-text, #e0e0e0);
+    color: var(--text-primary);
 }
 .inline-interlinear .il-translit {
     font-size: 0.55rem;
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
     font-style: italic;
 }
 .inline-interlinear .il-gloss {
     font-size: 0.6rem;
-    color: var(--color-gold, #c9a84c);
+    color: var(--gold);
     text-align: center;
 }
 .inline-interlinear .il-morph-tag,
 .inline-interlinear .il-strongs-tag {
     font-size: 0.5rem;
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
     opacity: 0.7;
 }
 

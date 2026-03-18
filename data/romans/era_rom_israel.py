@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "The Anguish of Israel and the Sovereignty of God",
         "era": "rom_israel",
         "type": "study",
+        "themes": ["SEED", "KING", "COV", "LOVE", "DC"],
 
         "synopsis": "Romans 9 opens with Paul's anguished lament: 'I have great sorrow and unceasing "
                     "anguish in my heart. For I could wish that I myself were accursed (anathema) and cut "
@@ -189,6 +190,7 @@ CHAPTERS = [
         "title": "Christ the End of the Law -- The Word Is Near",
         "era": "rom_israel",
         "type": "study",
+        "themes": ["DC", "NATIONS", "KING", "LAW", "TYPE"],
 
         "synopsis": "Romans 10 presents the gospel's universal accessibility. Paul restates his desire for "
                     "Israel's salvation (10:1) and diagnoses their failure: 'They have a zeal for God, but "
@@ -338,6 +340,7 @@ CHAPTERS = [
         "title": "The Olive Tree and the Mystery -- All Israel Will Be Saved",
         "era": "rom_israel",
         "type": "study",
+        "themes": ["KING", "SEED", "DC", "TYPE", "HOLY"],
 
         "synopsis": "Romans 11 resolves the tension of chapters 9-10 with three arguments: (1) God has "
                     "NOT rejected Israel -- a remnant remains, chosen by grace (11:1-10). (2) Israel's "

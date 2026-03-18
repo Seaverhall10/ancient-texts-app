@@ -14,6 +14,7 @@ CHAPTERS = [
         "title": "The Divine Warrior Hymn -- YHWH's Storm-Theophany",
         "era": "nahum",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "GLORY"],
 
         "synopsis": "Nahum opens with a magnificent divine warrior hymn (1:2-8). YHWH is jealous, avenging, "
                     "wrathful -- 'slow to anger and great in power, and YHWH will by no means clear the guilty' "
@@ -87,6 +88,7 @@ CHAPTERS = [
         "title": "The Siege of Nineveh -- Chariots, Blood, and Plunder",
         "era": "nahum",
         "type": "chapter",
+        "themes": ["NATIONS", "DC", "RIV"],
 
         "synopsis": "Chapter 2 describes Nineveh's fall in cinematic detail. 'The scatterer has come up "
                     "against you. Man the ramparts; watch the road; dress for battle; collect all your "

@@ -10,6 +10,7 @@ CHAPTERS = [
         "title": "From Shem to Abram — The Line of Promise Narrows",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['SEED', 'NATIONS', 'LAND'],
 
         "synopsis": "Genesis 11:10-32 traces the genealogy from Shem to Terah, narrowing the focus from all seventy nations down to one family in Ur of the Chaldeans. The declining lifespans signal the fading of the antediluvian world. The section ends with Terah's migration from Ur toward Canaan, stalling in Haran — setting the stage for God's direct call to Abram in chapter 12.",
 
@@ -71,6 +72,7 @@ CHAPTERS = [
         "title": "The Call of Abram — Election and the Reversal of Babel",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['COV', 'SEED', 'NATIONS', 'LAND', 'WOMEN', 'NAME'],
 
         "synopsis": "Genesis 12 is the hinge of the Pentateuch. God calls Abram out of Mesopotamia with a sevenfold promise that systematically reverses every consequence of Babel. Abram obeys, journeys to Canaan, builds altars, and receives the land promise — but almost immediately endangers Sarai in Egypt. The chapter establishes the pattern of the entire Abraham cycle: extraordinary faith followed by human failure, with God's faithfulness sustaining the promise through both.",
 
@@ -139,6 +141,7 @@ CHAPTERS = [
         "title": "Abram and Lot Separate — Choosing by Sight vs. Faith",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['LAND', 'COV', 'SEED'],
 
         "synopsis": "After returning from Egypt, Abram and Lot's growing wealth forces a separation. Lot chooses the well-watered Jordan plain — described ominously as 'like the garden of the LORD' and 'like Egypt' — and moves toward Sodom. God then reaffirms the land promise to Abram in expansive terms: north, south, east, west, and to his offspring forever. The chapter contrasts two ways of making decisions: by sight (Lot) and by faith (Abram).",
 
@@ -198,6 +201,7 @@ CHAPTERS = [
         "title": "The War of Kings and the Priest of El Elyon",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['TYPE', 'NAME', 'COV', 'LAND'],
 
         "synopsis": "Genesis 14 thrusts Abram into international politics. A coalition of four Mesopotamian kings defeats five kings of the Jordan plain, capturing Lot. Abram musters 318 trained men, pursues the army, and wins a stunning victory. On his return he encounters Melchizedek, king of Salem and priest of El Elyon ('God Most High'), who blesses him with bread and wine. Abram gives him a tenth of everything — the first tithe in Scripture.",
 
@@ -264,6 +268,7 @@ CHAPTERS = [
         "title": "The Covenant of the Pieces — Credited as Righteousness",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['COV', 'SEED', 'LAND', 'BLOOD', 'TYPE'],
 
         "synopsis": "Genesis 15 contains two of the most theologically consequential events in the Old Testament: Abram believes God's promise of innumerable offspring and is 'credited as righteous' (the foundation of Paul's doctrine of justification by faith), and God ratifies the land covenant through a terrifying ritual in which he alone passes between cut animals as a smoking fire pot and flaming torch. This is a unilateral, unconditional divine oath — God stakes his own life on the promise.",
 
@@ -325,6 +330,7 @@ CHAPTERS = [
         "title": "Hagar and Ishmael — The God Who Sees",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['SEED', 'WOMEN', 'NAME', 'PROV'],
 
         "synopsis": "Ten years into Canaan with no child, Sarai proposes that Abram take her Egyptian servant Hagar as a surrogate. The plan follows ANE legal custom but shortcuts the divine promise. Hagar conceives, conflict erupts, and Sarai afflicts her until she flees. The angel of YHWH finds Hagar in the wilderness and delivers a promise: her son Ishmael will be a great people. Hagar names God El Roi — 'the God who sees me' — the only person in Genesis to give God a name.",
 
@@ -382,6 +388,7 @@ CHAPTERS = [
         "title": "The Covenant of Circumcision — New Names, New Identity",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['COV', 'SEED', 'NAME', 'BLOOD', 'HOLY'],
         "synopsis": "Thirteen years after Ishmael's birth, God appears to ninety-nine-year-old Abram as El Shaddai and establishes circumcision as the covenant sign. Names change — Abram to Abraham, Sarai to Sarah — and God promises Sarah will bear the son of promise within a year.",
         "key_verse": {
                 "ref": "Genesis 17:1",
@@ -454,6 +461,7 @@ CHAPTERS = [
         "title": "The Three Visitors — Divine Council at Mamre",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['DC', 'COV', 'WOMEN', 'TYPE', 'HOLY'],
         "synopsis": "Three men visit Abraham at Mamre; the narrator identifies their leader as YHWH. They confirm Isaac's birth, Sarah laughs, and YHWH deliberates whether to reveal Sodom's judgment. Abraham's intercession — bargaining from fifty to ten righteous — is one of Scripture's most dramatic dialogues.",
         "key_verse": {
                 "ref": "Genesis 18:25",
@@ -529,6 +537,7 @@ CHAPTERS = [
         "title": "Sodom Destroyed — Judgment on the Cities of the Plain",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['REBEL', 'DC', 'EXILE', 'WOMEN', 'TYPE'],
         "synopsis": "The two angels arrive in Sodom. Lot offers hospitality but the men of Sodom demand to assault the visitors. YHWH rains sulfur and fire on Sodom and Gomorrah. Lot's wife becomes salt. The chapter ends with Moab and Ammon conceived through incest.",
         "key_verse": {
                 "ref": "Genesis 19:24-25",
@@ -592,6 +601,7 @@ CHAPTERS = [
         "title": "Abraham and Abimelech — The Sister Deception Repeated",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['PROV', 'WOMEN', 'DREAM', 'NAME'],
         "synopsis": "Abraham moves to Gerar and again claims Sarah is his sister. Abimelech takes her but God warns him in a dream. Abimelech rebukes Abraham and returns Sarah with restitution. The chapter reveals Abraham's persistent weakness and God's persistent protection.",
         "key_verse": {
                 "ref": "Genesis 20:7",
@@ -645,6 +655,7 @@ CHAPTERS = [
         "title": "Isaac Born, Hagar Expelled — The Promise Child Arrives",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['SEED', 'COV', 'WOMEN', 'REVERSAL', 'NAME', 'PROV'],
         "synopsis": "Isaac is born to Sarah at the promised time — the long-awaited covenant son. But the household cannot contain both Ishmael and Isaac; Sarah demands Hagar and Ishmael be expelled. God confirms the expulsion but promises to make Ishmael a nation. The chapter concludes with Abraham's treaty with Abimelech at Beer-sheba.",
         "key_verse": {
                 "ref": "Genesis 21:1-2",
@@ -715,6 +726,7 @@ CHAPTERS = [
         "title": "The Aqedah — The Binding of Isaac",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['TYPE', 'SEED', 'COV', 'BLOOD', 'HOLY', 'LAND'],
         "synopsis": "God tests Abraham by commanding him to offer Isaac as a burnt offering on Mount Moriah. Abraham obeys, binds Isaac on the altar, and raises the knife — but the angel of YHWH stops him and provides a ram. God swears an unconditional oath confirming the covenant. This is the theological climax of the Abraham cycle and one of the most interpreted passages in all of Scripture.",
         "key_verse": {
                 "ref": "Genesis 22:14",
@@ -803,6 +815,7 @@ CHAPTERS = [
         "title": "The Death of Sarah — A Foothold in the Promised Land",
         "era": "abraham",
         "type": "chapter",
+        "themes": ['LAND', 'COV', 'SEED'],
         "synopsis": "Sarah dies at 127 in Hebron. Abraham negotiates with the Hittites to purchase the cave of Machpelah as a burial site. The transaction is conducted with meticulous legal formality. This is Abraham's first (and only) land purchase in Canaan — a burial cave as the down payment on the entire promised land.",
         "key_verse": {
                 "ref": "Genesis 23:4",
@@ -866,6 +879,7 @@ CHAPTERS = [
         "title": "Abraham's World — The Ancient Near East in the Early Second Millennium BC",
         "era": "abraham",
         "type": "historical_insert",
+        "themes": [],
         "synopsis": "Abraham's story unfolds against the backdrop of a dynamic, interconnected ancient Near East. Understanding the Ur III collapse, Amorite migrations, and the legal and cultural customs documented at Mari, Nuzi, and other sites illuminates patriarchal customs that once seemed puzzling.",
         "key_verse": None,
         "hebrew_terms": [],

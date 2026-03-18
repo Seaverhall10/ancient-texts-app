@@ -23,6 +23,7 @@ CHAPTERS = [
         "title": "The Limits of Wisdom and the Inscrutability of God",
         "era": "fear_god",
         "type": "chapter",
+        "themes": ["PROV", "DC"],
 
         "synopsis": "Chapters 7-8 probe the limits of wisdom itself. 'In the day of prosperity be "
                     "joyful, and in the day of adversity consider: God has made the one as well as the "
@@ -134,6 +135,7 @@ CHAPTERS = [
         "title": "Death, Chance, and the Urgency of Living",
         "era": "fear_god",
         "type": "chapter",
+        "themes": ["PROV"],
 
         "synopsis": "Chapters 9-10 confront death as the great equalizer and draw practical wisdom from "
                     "the confrontation. 'The same event happens to the righteous and the wicked, to the "
@@ -248,6 +250,7 @@ CHAPTERS = [
         "title": "Act Boldly, Remember Your Creator, Fear God",
         "era": "fear_god",
         "type": "chapter",
+        "themes": ["PROV", "REMEMBER", "LAW"],
 
         "synopsis": "The book's final two chapters move from bold action (11:1-6) through the carpe diem "
                     "of youth (11:7-10), the haunting allegory of aging and death (12:1-8), and the "

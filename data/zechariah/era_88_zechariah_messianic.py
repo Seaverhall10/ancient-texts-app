@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "The Coming King -- Humble, Riding on a Donkey",
         "era": "zechariah",
         "type": "chapter",
+        "themes": ["SEED", "KING", "NATIONS"],
 
         "synopsis": "Chapter 9 opens with oracles against the surrounding nations: Damascus, Hamath, Tyre, "
                     "Sidon, and Philistia. YHWH will strip them of their pride and power. Then the stunning "
@@ -112,6 +113,7 @@ CHAPTERS = [
         "title": "The Rejected Shepherd and the Thirty Pieces of Silver",
         "era": "zechariah",
         "type": "chapter",
+        "themes": ["SEED", "BLOOD", "COV"],
 
         "synopsis": "One of the most enigmatic and christologically dense chapters in the OT. Zechariah enacts "
                     "a prophetic drama as a shepherd. He takes two staffs named 'Favor' (grace) and 'Union' "
@@ -206,6 +208,7 @@ CHAPTERS = [
         "title": "The Pierced One -- They Shall Look on Me Whom They Have Pierced",
         "era": "zechariah",
         "type": "chapter",
+        "themes": ["SEED", "BLOOD", "SPIRIT", "DC"],
 
         "synopsis": "Chapters 12-13 contain the most christologically explosive verses in Zechariah. YHWH "
                     "declares that Jerusalem will be 'a cup of staggering to all the surrounding peoples' "
@@ -322,6 +325,7 @@ CHAPTERS = [
         "title": "The Day of YHWH -- Living Waters and Universal Kingship",
         "era": "zechariah",
         "type": "chapter",
+        "themes": ["KING", "DC", "NATIONS", "HOLY"],
 
         "synopsis": "The grand finale of Zechariah's prophecy and one of the most eschatological chapters in "
                     "the OT. 'A day is coming for YHWH' (14:1) -- all nations will be gathered against Jerusalem. "

@@ -8,6 +8,7 @@ CHAPTERS = [
         "title": "Let My People Go — First Confrontation",
         "era": "plagues",
         "type": "chapter",
+        "themes": ["HARDENING", "DELIVER", "KING", "WORSHIP"],
         "synopsis": "Moses and Aaron appear before Pharaoh with YHWH's demand: 'Let my people go, that they may hold a feast to me in the wilderness.' Pharaoh's response is the defining question of the exodus narrative: 'Who is YHWH, that I should obey his voice and let Israel go? I do not know YHWH, and moreover, I will not let Israel go.' The confrontation immediately worsens Israel's condition: Pharaoh commands that straw no longer be supplied for brick-making, yet the daily quota (matkonet) remains unchanged. The Israelite foremen (shoterim) are beaten when the quotas are not met, and they turn against Moses and Aaron, accusing them of making Israel 'stink' (hiv'ashtem) in Pharaoh's nostrils. Moses cries out to YHWH in anguish, questioning why God sent him at all.",
         "key_verse": {
             "ref": "Exodus 5:2",
@@ -113,6 +114,7 @@ CHAPTERS = [
         "title": "I AM YHWH — The Name and the Promise",
         "era": "plagues",
         "type": "chapter",
+        "themes": ["NAME", "COV", "DELIVER", "SEED"],
         "synopsis": "YHWH responds to Moses' despair with the most expansive self-revelation since the burning bush. God declares: 'I am YHWH' (ani YHWH) — the covenant name revealed at Horeb is now deployed as the basis for action. God explains that the patriarchs knew him as El Shaddai, but by the name YHWH he was not fully known to them. The fourfold 'I will' promises (vehotzeiti, vehitzalti, vega'alti, velaqachti) outline the entire exodus program: rescue from burdens, deliverance from bondage, redemption with outstretched arm, and covenant adoption. Moses relays this to Israel, but they cannot hear (shama) because of 'shortness of spirit and harsh slavery' (qotzer ruach ve-avodah qashah). A genealogy of Moses and Aaron establishes their Levitical credentials.",
         "key_verse": {
             "ref": "Exodus 6:6-7",
@@ -227,6 +229,7 @@ CHAPTERS = [
         "title": "The Serpent and the Blood — First Signs",
         "era": "plagues",
         "type": "chapter",
+        "themes": ["SPIRIT", "HARDENING", "KING", "TYPE"],
         "synopsis": "YHWH declares that he has made Moses 'as God' (elohim) to Pharaoh, with Aaron as his prophet (navi). God announces he will 'harden' (chazaq) Pharaoh's heart and 'multiply signs and wonders' (otot u-mofetim) in Egypt. Aaron casts his staff before Pharaoh, and it becomes a serpent (tannin). The Egyptian magicians (chartummim) replicate the feat by their secret arts (lahateihem), but Aaron's staff swallows theirs. Pharaoh's heart is hardened. Then comes the first plague: Aaron strikes the Nile with his staff and all the water of Egypt turns to blood (dam). The fish die, the river stinks, and Egypt cannot drink. The magicians replicate this also. Pharaoh turns away unmoved. The plague lasts seven days.",
         "key_verse": {
             "ref": "Exodus 7:5",
@@ -349,6 +352,7 @@ CHAPTERS = [
         "title": "Frogs, Gnats, and Flies — Escalation",
         "era": "plagues",
         "type": "chapter",
+        "themes": ["SPIRIT", "HARDENING", "DELIVER"],
         "synopsis": "The second through fourth plagues strike Egypt in escalating intensity. Frogs (tsefarde'im) swarm from the Nile into houses, beds, and ovens — the magicians replicate this but cannot remove them. Pharaoh begs Moses to pray, and the frogs die in heaps, but Pharaoh hardens his heart when relief comes. Gnats (kinnim) emerge from the dust of the earth; the magicians fail to replicate this and concede: 'This is the finger of God' (etzba Elohim). The fourth plague brings swarms of flies (arov), but YHWH introduces a crucial distinction: Goshen, where Israel dwells, is spared. Pharaoh negotiates — first offering worship within Egypt, then nearby — but Moses insists on the wilderness. Pharaoh promises release, then reneges when the flies are removed.",
         "key_verse": {
             "ref": "Exodus 8:19",
@@ -448,6 +452,7 @@ CHAPTERS = [
         "title": "Livestock, Boils, and Hail — Divine Judgment Intensifies",
         "era": "plagues",
         "type": "chapter",
+        "themes": ["SPIRIT", "HARDENING", "KING", "GLORY"],
         "synopsis": "Three devastating plagues strike Egypt in rapid succession. The fifth plague kills all Egyptian livestock — horses, donkeys, camels, herds, and flocks — while Israel's animals in Goshen are untouched. The sixth plague produces festering boils (shechin) on humans and animals; the magicians cannot even stand before Moses, and God explicitly hardens Pharaoh's heart for the first time. The seventh plague unleashes a catastrophic hailstorm with fire running along the ground — the worst in Egypt's history. Pharaoh confesses 'I have sinned; YHWH is in the right, and I and my people are in the wrong,' but when the hail stops, he sins again and hardens his heart. The plagues are escalating from inconvenience to economic devastation to mortal danger.",
         "key_verse": {
             "ref": "Exodus 9:14-16",
@@ -558,6 +563,7 @@ CHAPTERS = [
         "title": "Locusts and Darkness — The Final Warnings",
         "era": "plagues",
         "type": "chapter",
+        "themes": ["SPIRIT", "HARDENING", "KING"],
         "synopsis": "The eighth and ninth plagues bring Egypt to the brink of total collapse. A locust swarm (arbeh) of unprecedented scale devours every remaining crop and green plant — whatever the hail spared, the locusts consume. Pharaoh's own officials break ranks, urging him to release Israel before Egypt is destroyed. Then comes the most terrifying plague of all: three days of supernatural darkness (choshekh) so thick it can be felt, darkness that immobilizes every Egyptian while Israel has light in their dwellings. This darkness is an assault on Ra/Amun-Ra, Egypt's supreme deity, the sun god whose daily journey across the sky was the organizing principle of Egyptian religion and royal theology. Pharaoh offers a final compromise — Israel may go, but the livestock must stay. Moses refuses. Pharaoh expels Moses, threatening death if he returns.",
         "key_verse": {
             "ref": "Exodus 10:21-23",
@@ -651,6 +657,7 @@ CHAPTERS = [
         "title": "The Death of the Firstborn Announced",
         "era": "plagues",
         "type": "chapter",
+        "themes": ["SEED", "SPIRIT", "BLOOD", "DELIVER"],
         "synopsis": "YHWH announces the final plague directly to Moses: 'About midnight I will go out in the midst of Egypt, and every firstborn (bekhor) in the land of Egypt shall die, from the firstborn of Pharaoh who sits on his throne, even to the firstborn of the slave girl who is behind the handmill, and all the firstborn of the cattle.' A great cry (tse'aqah) will rise throughout Egypt, unlike any before or after. Yet between Israel and Egypt, YHWH will maintain the distinction — 'not a dog shall growl against any of the people of Israel.' Moses delivers this oracle to Pharaoh in 'hot anger' (chori af) and departs. The chapter sets the stage for the climactic night of Passover, the theological center of the entire Hebrew Bible.",
         "key_verse": {
             "ref": "Exodus 11:4-5",
@@ -810,6 +817,7 @@ CHAPTERS = [
         "title": "The Passover — Blood on the Doorposts",
         "era": "plagues",
         "type": "chapter",
+        "themes": ["BLOOD", "TYPE", "COV", "DELIVER", "WORSHIP"],
         "synopsis": "The Passover night is the theological center of the Hebrew Bible and the event that defines Israel's identity forever. YHWH institutes a new calendar: 'This month shall be for you the beginning of months' — history itself restarts. Each household selects a lamb (seh) on the tenth day and slaughters it on the fourteenth at twilight (bein ha-arbayim). The blood (dam) is applied to the doorposts and lintel with a hyssop branch. The family eats the roasted lamb with unleavened bread (matzot) and bitter herbs (merorim), dressed for departure. At midnight, YHWH strikes every firstborn in Egypt — from Pharaoh's heir to the prisoner's son to the firstborn of cattle. The great cry rises. Pharaoh summons Moses by night and commands Israel to leave. Egypt thrusts them out with silver, gold, and clothing. The Passover (pesach) becomes Israel's perpetual ordinance — the story they will tell their children in every generation.",
         "key_verse": {
             "ref": "Exodus 12:12-13",

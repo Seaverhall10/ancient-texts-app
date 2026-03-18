@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "The First Census — Mustering the Army of YHWH",
         "era": "census_camp",
         "type": "chapter",
+        "themes": ["COV", "LAND"],
 
         "synopsis": "On the first day of the second month of the second year after the exodus, "
                     "YHWH commands Moses to take a census of all Israel's fighting men, twenty "
@@ -193,6 +194,7 @@ CHAPTERS = [
         "title": "The Camp Arrangement — Heaven's Blueprint on Earth",
         "era": "census_camp",
         "type": "chapter",
+        "themes": ["HOLY", "DC"],
 
         "synopsis": "Numbers 2 describes the arrangement of Israel's camp around the "
                     "tabernacle — one of the most theologically significant spatial texts in "
@@ -374,6 +376,7 @@ CHAPTERS = [
         "title": "The Levites — YHWH's Firstborn Substitutes",
         "era": "census_camp",
         "type": "chapter",
+        "themes": ["PRIEST", "HOLY", "BLOOD"],
 
         "synopsis": "Numbers 3 introduces the Levitical census and their assignment to "
                     "tabernacle service. The chapter opens with the genealogy of Aaron's sons, "
@@ -541,6 +544,7 @@ CHAPTERS = [
         "title": "The Levitical Service — Ages, Duties, and Sacred Transport",
         "era": "census_camp",
         "type": "chapter",
+        "themes": ["PRIEST", "HOLY"],
 
         "synopsis": "Numbers 4 details the specific duties of the three Levitical clans for "
                     "transporting the tabernacle when the camp moves. The service age is "
@@ -709,6 +713,7 @@ CHAPTERS = [
         "title": "Purity of the Camp — Expulsion, Restitution, and the Sotah",
         "era": "census_camp",
         "type": "chapter",
+        "themes": ["HOLY", "LAW", "PRIEST"],
 
         "synopsis": "Numbers 5 addresses three issues that threaten the holiness of the camp "
                     "where YHWH dwells: ritual impurity (lepers, those with discharges, and "
@@ -887,6 +892,7 @@ CHAPTERS = [
         "title": "The Nazirite Vow and the Priestly Blessing",
         "era": "census_camp",
         "type": "chapter",
+        "themes": ["HOLY", "PRIEST", "NAME"],
 
         "synopsis": "Numbers 6 contains two of the most important passages in the Torah. The "
                     "first half (6:1-21) describes the Nazirite vow (from naziyr, 'consecrated "

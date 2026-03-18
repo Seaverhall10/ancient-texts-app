@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "Laws for the Land — Offerings, Sabbath, and Tassels",
         "era": "korah",
         "type": "chapter",
+        "themes": ["LAW", "BLOOD", "LAND", "HOLY", "REMEMBER"],
 
         "synopsis": "Numbers 15 is placed immediately after the devastating sentence of chapter "
                     "14 and opens with a startling phrase: 'When you come into the land you are "
@@ -190,6 +191,7 @@ CHAPTERS = [
         "title": "Korah's Rebellion — The Earth Opens",
         "era": "korah",
         "type": "chapter",
+        "themes": ["REBEL", "PRIEST", "HOLY"],
 
         "synopsis": "Numbers 16 records the most dramatic rebellion in the Torah — a direct "
                     "challenge to the divinely established priesthood that results in "
@@ -399,6 +401,7 @@ CHAPTERS = [
         "title": "Aaron's Budding Rod — God Chooses the Priest",
         "era": "korah",
         "type": "chapter",
+        "themes": ["PRIEST", "TYPE"],
 
         "synopsis": "After the catastrophic events of Numbers 16 — the earth opening, the fire "
                     "consuming 250 men, the plague killing 14,700 — YHWH provides a permanent, "
@@ -556,6 +559,7 @@ CHAPTERS = [
         "title": "Priestly Duties and the Levitical Tithe",
         "era": "korah",
         "type": "chapter",
+        "themes": ["PRIEST", "HOLY", "COV"],
 
         "synopsis": "Numbers 18 answers the panicked question of 17:12-13 ('Are we all to "
                     "perish?') by defining exactly how the priestly and Levitical system "
@@ -719,6 +723,7 @@ CHAPTERS = [
         "title": "The Red Heifer — Purification from Death",
         "era": "korah",
         "type": "chapter",
+        "themes": ["HOLY", "BLOOD", "TYPE", "PRIEST"],
 
         "synopsis": "Numbers 19 prescribes the most mysterious purification ritual in the Torah: "
                     "the red heifer (parah adummah). The chapter addresses the most severe form "

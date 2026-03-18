@@ -27,6 +27,7 @@ CHAPTERS = [
         "title": "Gideon's Call -- The Angel of YHWH and the Baal Altar",
         "era": "judges_gideon",
         "type": "chapter",
+        "themes": ["SPIRIT", "DC", "REBEL"],
 
         "synopsis": "Midianite raiders devastate Israel for seven years, sweeping in from the east "
                     "with camels 'like locusts in number' (6:5), destroying crops and livestock. Israel "
@@ -229,6 +230,7 @@ CHAPTERS = [
         "title": "Three Hundred Warriors -- The Divine Warrior Needs No Army",
         "era": "judges_gideon",
         "type": "chapter",
+        "themes": ["SPIRIT", "REVERSAL", "PROV"],
 
         "synopsis": "YHWH tells Gideon his army is too large: 'The people with you are too many for "
                     "me to give the Midianites into their hand, lest Israel boast over me, saying, "
@@ -374,6 +376,7 @@ CHAPTERS = [
         "title": "Pursuit, Kingship Refused, Ephod Made -- The Seeds of Failure",
         "era": "judges_gideon",
         "type": "chapter",
+        "themes": ["KING", "REBEL", "HOLY"],
 
         "synopsis": "Gideon pursues the fleeing Midianites across the Jordan, dealing with inter-tribal "
                     "conflict (Ephraim's jealousy, the refusal of Succoth and Penuel to provide food). "
@@ -505,6 +508,7 @@ CHAPTERS = [
         "title": "Abimelech's Tyranny and Jotham's Parable",
         "era": "judges_gideon",
         "type": "chapter",
+        "themes": ["KING", "DC", "BLOOD", "RIV"],
 
         "synopsis": "Abimelech, Gideon's son by his Shechemite concubine, convinces the leaders of "
                     "Shechem to make him king. They fund him with seventy pieces of silver from the "

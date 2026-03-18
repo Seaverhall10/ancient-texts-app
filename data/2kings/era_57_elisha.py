@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "Ahaziah and the God of Ekron -- Is There No God in Israel?",
         "era": "elisha",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "NATIONS"],
 
         "synopsis": "Ahaziah son of Ahab falls through the lattice of his upper chamber in "
                     "Samaria and is injured. He sends messengers to inquire of Baal-zebub, the "
@@ -140,6 +141,7 @@ CHAPTERS = [
         "title": "Elijah's Ascent and Elisha's Double Portion",
         "era": "elisha",
         "type": "chapter",
+        "themes": ["SPIRIT", "TYPE", "DC"],
 
         "synopsis": "YHWH is about to take Elijah up to heaven in a whirlwind (searah). Elijah "
                     "and Elisha travel from Gilgal to Bethel to Jericho to the Jordan. At each "
@@ -281,6 +283,7 @@ CHAPTERS = [
         "title": "Naaman the Syrian -- YHWH Heals Beyond Israel's Borders",
         "era": "elisha",
         "type": "chapter",
+        "themes": ["SPIRIT", "PROV", "WOMEN", "NATIONS"],
 
         "synopsis": "Naaman, commander of the Syrian army, is a mighty warrior with leprosy "
                     "(tsaraath). A captured Israelite servant girl tells Naaman's wife: 'Would "
@@ -418,6 +421,7 @@ CHAPTERS = [
         "title": "The Angelic Army -- Those Who Are with Us",
         "era": "elisha",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "NATIONS", "PROV"],
 
         "synopsis": "Elisha performs the miracle of the floating axhead for a prophetic guild "
                     "member, demonstrating YHWH's care for mundane needs. Then the narrative "

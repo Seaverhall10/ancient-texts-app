@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The Law, the Angels, and the Abrahamic Promise",
         "era": "galatians_stoicheia",
         "type": "study",
+        "themes": ["DC", "KING", "SEED", "NATIONS", "COV"],
 
         "synopsis": "Paul confronts the Galatians with the most fundamental question of the letter: "
                     "'Did you receive the Spirit by works of the law or by hearing with faith?' (3:2). "
@@ -184,6 +185,7 @@ CHAPTERS = [
         "title": "Enslaved to the Stoicheia -- Adoption by the Spirit",
         "era": "galatians_stoicheia",
         "type": "study",
+        "themes": ["DC", "KING", "SPIRIT", "WOMEN", "NATIONS"],
 
         "synopsis": "Paul now introduces the concept that defines his cosmic soteriology: the stoicheia "
                     "tou kosmou, the 'elemental principles of the world.' Before Christ, both Jews and "
@@ -361,6 +363,7 @@ CHAPTERS = [
         "title": "Walk by the Spirit -- Flesh vs. Spirit and the Fruit of Freedom",
         "era": "galatians_stoicheia",
         "type": "study",
+        "themes": ["DC", "LAW", "COV", "TYPE", "BLOOD"],
 
         "synopsis": "Paul now moves from cosmic theology to lived ethics, but for him these are "
                     "inseparable. 'For freedom Christ has set us free; stand firm therefore, and do "

@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "Jehu's Purge -- Blood and Baal Destroyed",
         "era": "kings_decline",
         "type": "chapter",
+        "themes": ["KING", "RIV", "BLOOD", "DC"],
 
         "synopsis": "Elisha sends a young prophet to anoint Jehu son of Jehoshaphat son of Nimshi "
                     "as king of Israel, with the commission to 'strike down the house of Ahab "
@@ -154,6 +155,7 @@ CHAPTERS = [
         "title": "Athaliah, Joash, and the Temple Restored",
         "era": "kings_decline",
         "type": "chapter",
+        "themes": ["SEED", "COV", "KING", "HOLY", "WOMEN"],
 
         "synopsis": "When Athaliah, mother of Ahaziah, learns of her son's death, she seizes the "
                     "throne of Judah and attempts to exterminate the entire Davidic line. But "
@@ -281,6 +283,7 @@ CHAPTERS = [
         "title": "The Fall of Samaria -- Theological Autopsy of the Northern Kingdom",
         "era": "kings_decline",
         "type": "chapter",
+        "themes": ["EXILE", "DC", "RIV", "NATIONS", "COV"],
 
         "synopsis": "Hoshea son of Elah, the last king of Israel, withholds tribute from Assyria "
                     "and conspires with Egypt. Shalmaneser V of Assyria besieges Samaria for three "

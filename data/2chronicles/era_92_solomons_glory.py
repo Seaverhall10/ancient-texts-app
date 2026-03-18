@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "Solomon's Wisdom and the Temple Construction",
         "era": "solomons_glory",
         "type": "chapter",
+        "themes": ["KING", "HOLY", "SPIRIT", "DC"],
 
         "synopsis": "Solomon's reign begins at Gibeon, where the tabernacle of Moses still stands. "
                     "God appears to Solomon in a dream: 'Ask what I shall give you' (1:7). Solomon "
@@ -150,6 +151,7 @@ CHAPTERS = [
         "title": "The Glory Fills the Temple: YHWH Comes Home",
         "era": "solomons_glory",
         "type": "chapter",
+        "themes": ["HOLY", "DC", "COV", "NAME", "SPIRIT"],
 
         "synopsis": "The dedication of Solomon's temple is the theological climax of the entire "
                     "Chronicler's history. The Ark is brought into the Holy of Holies (ch. 5). "
@@ -292,6 +294,7 @@ CHAPTERS = [
         "title": "Solomon's Reign and the Queen of Sheba: Wisdom Recognized",
         "era": "solomons_glory",
         "type": "chapter",
+        "themes": ["KING", "NATIONS", "HOLY"],
 
         "synopsis": "Chapters 8-9 round out the Chronicler's portrait of Solomon's glory. Chapter 8 "
                     "surveys Solomon's building projects, his administration of forced labor, and his "

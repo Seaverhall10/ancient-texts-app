@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "Centralized Worship — The Place YHWH Will Choose",
         "era": "code",
         "type": "chapter",
+        "themes": ["HOLY", "LAW", "NAME", "DC", "NATIONS"],
 
         "synopsis": "Deuteronomy 12 is the first and most foundational law in the Deuteronomic Code: "
                     "all worship must occur at 'the place that the LORD your God will choose out of "
@@ -202,6 +203,7 @@ CHAPTERS = [
         "title": "The Test of Prophets — Guarding Against Spiritual Seduction",
         "era": "code",
         "type": "chapter",
+        "themes": ["LAW", "SPIRIT", "DC"],
 
         "synopsis": "Deuteronomy 13 addresses the gravest internal threat to covenant loyalty: false "
                     "prophets and seducers who urge Israel to worship other gods. Three scenarios are "
@@ -355,6 +357,7 @@ CHAPTERS = [
         "title": "Holy Identity — Dietary Laws and the Tithe",
         "era": "code",
         "type": "chapter",
+        "themes": ["HOLY", "LAW"],
 
         "synopsis": "Deuteronomy 14 grounds Israel's distinctive practices in their identity as God's "
                     "children and holy people. The chapter opens: 'You are the sons (banim) of the "
@@ -518,6 +521,7 @@ CHAPTERS = [
         "title": "Release and Generosity — The Sabbatical Year and the Open Hand",
         "era": "code",
         "type": "chapter",
+        "themes": ["LAW", "LAND", "TYPE", "LOVE"],
 
         "synopsis": "Deuteronomy 15 legislates economic generosity as a covenant requirement. Every "
                     "seventh year, debts must be released (shemittah) — a radical economic reset that "
@@ -662,6 +666,7 @@ CHAPTERS = [
         "title": "The Three Pilgrimage Festivals and the Pursuit of Justice",
         "era": "code",
         "type": "chapter",
+        "themes": ["TYPE", "LAW", "REMEMBER", "BLOOD"],
 
         "synopsis": "Deuteronomy 16 prescribes the three annual pilgrimage festivals: Passover/ "
                     "Unleavened Bread (16:1-8), the Feast of Weeks/Shavuot (16:9-12), and the "
@@ -806,6 +811,7 @@ CHAPTERS = [
         "title": "Courts, the King, and the Torah — Limiting Human Power",
         "era": "code",
         "type": "chapter",
+        "themes": ["KING", "LAW", "COV"],
 
         "synopsis": "Deuteronomy 17 addresses governance: the central court (17:8-13) and the kingship "
                     "law (17:14-20). Difficult legal cases beyond the local courts' competence must be "
@@ -942,6 +948,7 @@ CHAPTERS = [
         "title": "The Prophet Like Moses — Priestly Portions and True Prophecy",
         "era": "code",
         "type": "chapter",
+        "themes": ["PRIEST", "SEED", "SPIRIT", "TYPE"],
 
         "synopsis": "Deuteronomy 18 addresses two critical institutions: the priesthood and the "
                     "prophetic office. The Levites' inheritance is YHWH himself (18:1-2), and they "

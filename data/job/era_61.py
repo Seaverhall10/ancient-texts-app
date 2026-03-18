@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Second Cycle Begins -- Hardening Positions",
         "era": "61",
         "type": "chapter",
+        "themes": ["PROV", "SPIRIT"],
 
         "synopsis": "Eliphaz opens the second cycle with a sharper tone. He accuses Job of undermining "
                     "true religion: 'You are doing away with the fear of God and hindering meditation "
@@ -116,6 +117,7 @@ CHAPTERS = [
         "title": "Bildad's Terror and Job's Redeemer",
         "era": "61",
         "type": "chapter",
+        "themes": ["SEED", "REVERSAL", "SPIRIT"],
 
         "synopsis": "Bildad delivers his most forceful speech, describing the fate of the wicked in "
                     "horrifying detail: 'The light of the wicked is put out... his strong steps are "
@@ -237,6 +239,7 @@ CHAPTERS = [
         "title": "Zophar and Job -- The Evidence of the Wicked's Prosperity",
         "era": "61",
         "type": "chapter",
+        "themes": ["PROV", "SPIRIT"],
 
         "synopsis": "Zophar's second speech (chapter 20) insists that the triumph of the wicked is "
                     "short-lived: 'The exulting of the wicked is short, and the joy of the godless but "
@@ -325,6 +328,7 @@ CHAPTERS = [
         "title": "The Third Cycle and the Hymn to Wisdom",
         "era": "61",
         "type": "chapter",
+        "themes": ["PROV", "SPIRIT", "DC"],
 
         "synopsis": "The third dialogue cycle (22-27) deteriorates as the friends' arguments become "
                     "increasingly desperate. Eliphaz invents specific sins to accuse Job of: withholding "
@@ -444,6 +448,7 @@ CHAPTERS = [
         "title": "Job's Final Oath of Innocence",
         "era": "61",
         "type": "chapter",
+        "themes": ["LAW", "PROV", "SPIRIT"],
 
         "synopsis": "Job's three-chapter closing statement is structured as a legal peroration: "
                     "remembrance of former glory (29), lament of present misery (30), and a solemn "
@@ -552,6 +557,7 @@ CHAPTERS = [
         "title": "Elihu -- The Young Man's Four Speeches",
         "era": "61",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "PROV"],
 
         "synopsis": "Elihu the son of Barachel the Buzite erupts into the debate, angry at Job for "
                     "justifying himself rather than God and at the three friends for condemning Job "

@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "The Appointed Times — God's Prophetic Calendar",
         "era": "calendar",
         "type": "chapter",
+        "themes": ["HOLY", "TYPE", "COV", "BLOOD"],
 
         "synopsis": (
             "Leviticus 23 presents the complete festival calendar of Israel — seven appointed "
@@ -263,6 +264,7 @@ CHAPTERS = [
         "title": "Light, Bread, and Blasphemy — Sacred Order and Its Violation",
         "era": "calendar",
         "type": "chapter",
+        "themes": ["HOLY", "NAME", "PRIEST", "LAW"],
 
         "synopsis": (
             "Leviticus 24 contains two sections that seem unrelated but are theologically "
@@ -444,6 +446,7 @@ CHAPTERS = [
         "title": "Sabbath for the Land — The Jubilee Vision",
         "era": "calendar",
         "type": "chapter",
+        "themes": ["LAND", "LAW", "COV", "TYPE"],
 
         "synopsis": (
             "Leviticus 25 extends the Sabbath principle from the weekly rhythm (one day in "
@@ -657,6 +660,7 @@ CHAPTERS = [
         "title": "The Covenant Climax — Blessings, Curses, and Restoration",
         "era": "calendar",
         "type": "chapter",
+        "themes": ["COV", "EXILE", "LAND", "REMEMBER", "RIV"],
 
         "synopsis": (
             "Leviticus 26 is the climactic conclusion of the Holiness Code and, arguably, "
@@ -887,6 +891,7 @@ CHAPTERS = [
         "title": "Vows and Dedications — The Cost of Devotion",
         "era": "calendar",
         "type": "chapter",
+        "themes": ["HOLY", "LAW"],
 
         "synopsis": (
             "Leviticus 27, the final chapter of the book, addresses vows (nedarim) and "

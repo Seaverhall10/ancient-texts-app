@@ -8,6 +8,7 @@ CHAPTERS = [
         "title": "A New King Who Knew Not Joseph — Israel's Oppression",
         "era": "bondage",
         "type": "chapter",
+        "themes": ["SEED", "EXILE", "WOMEN", "DELIVER", "NATIONS"],
         "synopsis": "The book of Exodus opens by recounting the names of Jacob's sons who entered Egypt, then fast-forwards through several generations. Israel has become fruitful and multiplied exceedingly — the language deliberately echoes the creation mandate and the Abrahamic promise. A new king arises 'who did not know Joseph,' and this Pharaoh perceives Israel as an existential threat. He enslaves them with harsh labor, building store-cities Pithom and Rameses. When oppression fails to curb their growth, Pharaoh orders the Hebrew midwives Shiphrah and Puah to kill all male newborns. The midwives fear God rather than Pharaoh and refuse. Finally, Pharaoh commands all his people to cast every Hebrew son into the Nile. The seed war of Genesis has entered a new, national phase.",
         "key_verse": {
             "ref": "Exodus 1:8-9",
@@ -197,6 +198,7 @@ CHAPTERS = [
         "title": "The Deliverer Born — Moses' Early Life",
         "era": "bondage",
         "type": "chapter",
+        "themes": ["SEED", "DELIVER", "WOMEN", "TYPE"],
         "synopsis": "A Levite couple conceals their newborn son for three months, then places him in a waterproofed basket (tebah) on the Nile. Pharaoh's daughter discovers him, names him Moses (Mosheh), and raises him as her own. As an adult, Moses kills an Egyptian who is beating a Hebrew, flees to Midian after the deed becomes known, and marries Zipporah, daughter of the priest Reuel/Jethro. There he tends flocks in the wilderness — unknowingly being prepared for the role of shepherd-deliverer. The chapter ends with a pivotal theological turning point: God 'heard,' 'remembered,' 'saw,' and 'knew' Israel in their bondage.",
         "key_verse": {
             "ref": "Exodus 2:24-25",
@@ -328,6 +330,7 @@ CHAPTERS = [
         "title": "The Burning Bush — I AM WHO I AM",
         "era": "bondage",
         "type": "chapter",
+        "themes": ["NAME", "HOLY", "COV", "DELIVER", "TYPE"],
         "synopsis": "Moses, shepherding Jethro's flock near Horeb, encounters a bush that burns without being consumed. The angel of YHWH (malak YHWH) appears in the flame, and God calls Moses by name. The ground is declared holy. God reveals that he has seen Israel's affliction and will deliver them, sending Moses as his agent. When Moses asks God's name, the answer is ehyeh asher ehyeh — 'I AM WHO I AM' — the most profound self-revelation in the Hebrew Bible. God commissions Moses to confront Pharaoh with the demand: 'Let my people go, that they may serve me.' This chapter is the theological foundation of the entire exodus: the revelation of the divine name, the commissioning of a mediator, and the announcement that God himself will wage war on Egypt.",
         "key_verse": {
             "ref": "Exodus 3:14",
@@ -460,6 +463,7 @@ CHAPTERS = [
         "title": "Signs, Serpents, and the Bridegroom of Blood",
         "era": "bondage",
         "type": "chapter",
+        "themes": ["SEED", "BLOOD", "SPIRIT", "WOMEN"],
         "synopsis": "Moses raises objections to his commission. YHWH responds with three signs: a staff that becomes a serpent, a hand that becomes leprous, and Nile water that turns to blood. When Moses protests his lack of eloquence, God's anger burns, and Aaron is appointed as his spokesman. Moses departs for Egypt with the 'rod of God.' On the journey, a terrifying incident occurs: YHWH seeks to kill Moses, and Zipporah saves him by circumcising their son and touching the foreskin to Moses' feet, calling him a 'bridegroom of blood.' Moses and Aaron meet, gather the elders, perform the signs, and Israel believes — bowing in worship when they hear that YHWH has seen their affliction.",
         "key_verse": {
             "ref": "Exodus 4:11-12",

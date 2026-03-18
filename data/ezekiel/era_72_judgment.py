@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "Sign Acts and False Prophets",
         "era": "ezekiel_judgment",
         "type": "chapter",
+        "themes": ["EXILE", "RIV"],
 
         "synopsis": "Chapter 12: Ezekiel enacts the exile -- packing his belongings and digging through "
                     "the wall at night 'as an exile's baggage' (12:4). This specifically prefigures "
@@ -124,6 +125,7 @@ CHAPTERS = [
         "title": "Jerusalem's Story and Individual Responsibility",
         "era": "ezekiel_judgment",
         "type": "chapter",
+        "themes": ["COV", "RIV", "WOMEN", "BLOOD"],
 
         "synopsis": "Chapter 16 is the longest chapter in Ezekiel and one of the most graphic in "
                     "scripture: an extended allegory of Jerusalem as an abandoned infant whom YHWH "
@@ -247,6 +249,7 @@ CHAPTERS = [
         "title": "The Pot, the Siege, and the Prophet's Silent Grief",
         "era": "ezekiel_judgment",
         "type": "chapter",
+        "themes": ["EXILE", "HOLY"],
 
         "synopsis": "The climax of the judgment section, set on 'the very day' the siege of Jerusalem "
                     "begins (24:1-2). The rusty pot parable (24:3-14) pictures Jerusalem as a cooking "

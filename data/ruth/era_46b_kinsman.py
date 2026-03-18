@@ -23,6 +23,7 @@ CHAPTERS = [
         "title": "The Threshing Floor -- Wings of Redemption",
         "era": "kinsman_redeemer",
         "type": "chapter",
+        "themes": ["COV", "TYPE", "WOMEN", "SEED"],
 
         "synopsis": "Naomi devises a plan to secure Ruth's future. She instructs Ruth to wash, anoint "
                     "herself, and go down to the threshing floor where Boaz will be winnowing barley "
@@ -181,6 +182,7 @@ CHAPTERS = [
         "title": "Gate Redemption, Marriage, and the Genealogy of David",
         "era": "kinsman_redeemer",
         "type": "chapter",
+        "themes": ["SEED", "TYPE", "COV", "WOMEN", "KING"],
 
         "synopsis": "Boaz goes to the city gate -- the legal and judicial center of Israelite towns -- "
                     "and seats himself. When the nearer kinsman-redeemer passes by, Boaz calls him "

@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "News of the Fall and the Good Shepherd",
         "era": "ezekiel_restoration",
         "type": "chapter",
+        "themes": ["SEED", "KING", "REMNANT"],
 
         "synopsis": "Chapter 33 marks the book's turning point: a fugitive arrives with the news 'The "
                     "city has been struck down!' (33:21). Ezekiel's mouth is opened (33:22) -- his "
@@ -138,6 +139,7 @@ CHAPTERS = [
         "title": "New Heart, New Spirit, and the Valley of Dry Bones",
         "era": "ezekiel_restoration",
         "type": "chapter",
+        "themes": ["SPIRIT", "COV", "LAND", "REVERSAL"],
 
         "synopsis": "The theological heart of Ezekiel's restoration vision. Chapter 36: YHWH promises "
                     "a new heart and new spirit: 'I will give you a new heart (lev chadash) and a new "
@@ -282,6 +284,7 @@ CHAPTERS = [
         "title": "The New Temple, the Returned Glory, and the River of Life",
         "era": "ezekiel_restoration",
         "type": "chapter",
+        "themes": ["HOLY", "GLORY", "PRIEST", "LAND"],
 
         "synopsis": "The grand finale of Ezekiel: a detailed vision of a new temple (40-42), the return "
                     "of YHWH's glory (43), the restored priesthood and worship (44-46), the river of "

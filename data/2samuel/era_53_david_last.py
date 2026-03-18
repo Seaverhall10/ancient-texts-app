@@ -28,6 +28,7 @@ CHAPTERS = [
         "title": "The Gibeonite Atonement &mdash; Famine, Broken Covenant, and Rizpah&rsquo;s Vigil",
         "era": "david_last",
         "type": "chapter",
+        "themes": ["COV", "BLOOD", "WOMEN"],
 
         "synopsis": "A three-year famine strikes Israel. David seeks YHWH&rsquo;s face, and YHWH answers: "
                     "&lsquo;There is bloodguilt on Saul and on his house, because he put the Gibeonites to "
@@ -174,6 +175,7 @@ CHAPTERS = [
         "title": "Giant-Killing Heroes &mdash; David&rsquo;s Warriors and the Rephaim Descendants",
         "era": "david_last",
         "type": "chapter",
+        "themes": ["SEED", "DC", "REBEL"],
 
         "synopsis": "A brief but theologically dense battle catalogue records four engagements with "
                     "descendants of &lsquo;the giant&rsquo; (haraphah, the Rephaim) in the Philistine wars. "
@@ -317,6 +319,7 @@ CHAPTERS = [
         "title": "David&rsquo;s Song of Deliverance &mdash; The Divine Warrior Hymn",
         "era": "david_last",
         "type": "chapter",
+        "themes": ["DC", "KING", "SPIRIT"],
 
         "synopsis": "David&rsquo;s great victory hymn, preserved also as Psalm 18, is placed near the end "
                     "of 2 Samuel as his theological summary of a lifetime under YHWH&rsquo;s protection. "
@@ -673,6 +676,7 @@ CHAPTERS = [
         "title": "The Census, the Destroying Angel, and the Threshing Floor of Araunah",
         "era": "david_last",
         "type": "chapter",
+        "themes": ["DC", "HOLY", "PRIEST", "BLOOD"],
 
         "synopsis": "The final chapter of 2 Samuel is among the most theologically complex passages in the "
                     "Old Testament. &lsquo;Again the anger of YHWH was kindled against Israel, and he incited "

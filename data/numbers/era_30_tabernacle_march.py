@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "The Tribal Offerings — Twelve Days of Dedication",
         "era": "tabernacle_march",
         "type": "chapter",
+        "themes": ["BLOOD", "HOLY", "COV"],
 
         "synopsis": "Numbers 7 is the longest chapter in the Torah (89 verses) and records "
                     "the tribal leaders' offerings for the dedication of the tabernacle altar. "
@@ -199,6 +200,7 @@ CHAPTERS = [
         "title": "The Lampstand and the Levitical Consecration",
         "era": "tabernacle_march",
         "type": "chapter",
+        "themes": ["PRIEST", "HOLY", "BLOOD"],
 
         "synopsis": "Numbers 8 covers two subjects that belong together theologically: the "
                     "arrangement of the lampstand (menorah) and the consecration of the Levites "
@@ -368,6 +370,7 @@ CHAPTERS = [
         "title": "The Second Passover and the Cloud of Guidance",
         "era": "tabernacle_march",
         "type": "chapter",
+        "themes": ["TYPE", "BLOOD", "HOLY"],
 
         "synopsis": "Numbers 9 contains two connected themes: the observance of the second "
                     "Passover (one year after the original Passover in Egypt) and the anan "
@@ -551,6 +554,7 @@ CHAPTERS = [
         "title": "The Silver Trumpets and the Departure from Sinai",
         "era": "tabernacle_march",
         "type": "chapter",
+        "themes": ["COV", "LAND", "EXILE"],
 
         "synopsis": "Numbers 10 marks the pivotal transition from preparation to journey — the "
                     "moment Israel finally departs from Sinai. The chapter opens with the "

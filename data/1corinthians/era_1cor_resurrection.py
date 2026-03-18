@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "The Gospel Received: Christ Died, Was Buried, Was Raised",
         "era": "1cor_resurrection",
         "type": "study",
+        "themes": ["DC", "TYPE", "KING", "HOLY", "BLOOD"],
 
         "synopsis": "Paul opens the resurrection argument by grounding it in the earliest Christian creed -- a "
                     "pre-Pauline tradition he 'received' (paralambanein) and 'delivered' (paradidonai) to the "
@@ -202,6 +203,7 @@ CHAPTERS = [
         "title": "Then Comes the End: The Destruction of Every Rule and Authority",
         "era": "1cor_resurrection",
         "type": "study",
+        "themes": ["KING", "DC", "TYPE", "SEED", "HOLY"],
 
         "synopsis": "Having established that Christ's resurrection is historically attested and theologically "
                     "non-negotiable, Paul now unveils the cosmic scope of what that resurrection sets in motion. "
@@ -402,6 +404,7 @@ CHAPTERS = [
         "title": "Victory Over Death: The Imperishable Body and the Final Triumph",
         "era": "1cor_resurrection",
         "type": "study",
+        "themes": ["DC", "KING", "TYPE", "SEED", "HOLY"],
 
         "synopsis": "Paul now addresses the inevitable question: 'How are the dead raised? With what kind of "
                     "body do they come?' (15:35). He answers with a series of analogies and contrasts. First, "

@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "The Locust Plague -- YHWH's Advance Army",
         "era": "joel_day",
         "type": "chapter",
+        "themes": ["RIV", "LAND", "HOLY"],
 
         "synopsis": "Joel opens with a catastrophic locust invasion described in four stages: 'What the "
                     "cutting locust left, the swarming locust has eaten. What the swarming locust left, the "
@@ -109,6 +110,7 @@ CHAPTERS = [
         "title": "The Locust Army, Repentance, and Restoration",
         "era": "joel_day",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "REVERSAL"],
 
         "synopsis": "Chapter 2 is the theological center of the locust plague narrative. It opens with the "
                     "alarm trumpet: 'Blow the trumpet in Zion; sound the alarm on my holy mountain!' (2:1). "

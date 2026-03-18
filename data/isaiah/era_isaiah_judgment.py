@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "The Divine Courtroom: YHWH's Lawsuit Against Judah",
         "era": "isaiah_judgment",
         "type": "chapter",
+        "themes": ["RIV", "COV", "BLOOD", "HOLY"],
 
         "synopsis": "Isaiah opens with a riv -- a covenant lawsuit -- in which YHWH summons heaven "
                     "and earth as witnesses against his people. The language is forensic: 'Hear, O "
@@ -186,6 +187,7 @@ CHAPTERS = [
         "title": "The Seraphim Throne Vision: Divine Council Commissioning",
         "era": "isaiah_judgment",
         "type": "chapter",
+        "themes": ["DC", "HOLY", "GLORY", "SPIRIT"],
 
         "synopsis": "'In the year that King Uzziah died, I saw the Lord (Adonai) sitting upon a "
                     "throne, high and lifted up; and the train of his robe filled the temple' (6:1). "
@@ -407,6 +409,7 @@ CHAPTERS = [
         "title": "The Immanuel Sign: God With Us in the Crisis",
         "era": "isaiah_judgment",
         "type": "chapter",
+        "themes": ["SEED", "KING", "COV"],
 
         "synopsis": "The Syro-Ephraimite crisis (~735 BC): King Rezin of Aram (Syria) and King Pekah "
                     "of Israel (Ephraim) march against Jerusalem to depose King Ahaz of Judah and "
@@ -570,6 +573,7 @@ CHAPTERS = [
         "title": "Unto Us a Child Is Born: El Gibbor and Sar Shalom",
         "era": "isaiah_judgment",
         "type": "chapter",
+        "themes": ["SEED", "KING", "DC", "NAME"],
 
         "synopsis": "From the darkness of judgment (8:22), light breaks in Galilee -- the very region "
                     "first devastated by Assyria (2 Kings 15:29): 'The people who walked in darkness "
@@ -734,6 +738,7 @@ CHAPTERS = [
         "title": "The Branch from Jesse's Stump: Spirit, Justice, and Edenic Peace",
         "era": "isaiah_judgment",
         "type": "chapter",
+        "themes": ["SEED", "KING", "SPIRIT", "LAND", "REMNANT"],
 
         "synopsis": "From the stump (geza) of Jesse -- the Davidic dynasty cut down to nothing -- a "
                     "shoot (choter) and branch (netser) emerge. The sevenfold Spirit of YHWH rests "
@@ -877,6 +882,7 @@ CHAPTERS = [
         "title": "The Song of Salvation: A Doxology of the Redeemed",
         "era": "isaiah_judgment",
         "type": "chapter",
+        "themes": ["NAME", "REVERSAL"],
 
         "synopsis": "Isaiah 12 serves as the closing hymn of the first major section (chs. 1-12), "
                     "forming an inclusio with the judgment oracle of chapter 1. Where chapter 1 opened "

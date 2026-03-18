@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "The Theophanic Descent -- Judgment on Samaria and Jerusalem",
         "era": "micah",
         "type": "chapter",
+        "themes": ["RIV", "EXILE", "DC"],
 
         "synopsis": "Micah opens with a cosmic theophany: YHWH coming from his holy temple to tread on the "
                     "high places, mountains melting, valleys splitting (1:2-4). Samaria will become a heap "
@@ -97,6 +98,7 @@ CHAPTERS = [
         "title": "The Bethlehem Ruler and Zion's Exaltation",
         "era": "micah",
         "type": "chapter",
+        "themes": ["SEED", "KING", "NATIONS", "REMNANT"],
 
         "synopsis": "After the devastation of chapters 1-3, Micah pivots to hope. Chapters 4-5 contain two "
                     "of the most important messianic prophecies in the Old Testament. First, the Zion vision "

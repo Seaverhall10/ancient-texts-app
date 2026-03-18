@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "Woe to the Bloody City -- Nineveh's Shame Exposed",
         "era": "nahum_ruin",
         "type": "chapter",
+        "themes": ["NATIONS", "DC", "RIV"],
 
         "synopsis": "The final chapter delivers Nineveh's obituary. 'Woe to the bloody city, all full of "
                     "lies and plunder -- no end to the prey!' (3:1). The battle sounds: crack of whip, "

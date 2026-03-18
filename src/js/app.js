@@ -1499,40 +1499,116 @@
         // Migration: old tab names → new defaults
         if (savedTab === 'trails' || savedTab === 'browse') savedTab = 'featured';
         html += '<div class="library-tab-bar">' +
+            '<button class="library-tab' + (savedTab === 'mystudy' ? ' active' : '') + '" data-library-tab="mystudy">My Study</button>' +
             '<button class="library-tab' + (savedTab === 'featured' ? ' active' : '') + '" data-library-tab="featured">Featured</button>' +
             '<button class="library-tab' + (savedTab === 'ot' ? ' active' : '') + '" data-library-tab="ot">Old Testament</button>' +
             '<button class="library-tab' + (savedTab === 'nt' ? ' active' : '') + '" data-library-tab="nt">New Testament</button>' +
             '<button class="library-tab' + (savedTab === 'scrolls' ? ' active' : '') + '" data-library-tab="scrolls">Scrolls &amp; Studies</button>' +
             '<button class="library-tab' + (savedTab === 'map' ? ' active' : '') + '" data-library-tab="map">Map</button>' +
             '<button class="library-tab' + (savedTab === 'tools' ? ' active' : '') + '" data-library-tab="tools">Tools</button>' +
+            '<button class="library-tab' + (savedTab === 'analysis' ? ' active' : '') + '" data-library-tab="analysis">Bible Analysis</button>' +
             '</div>';
 
-        // ─── TAB: FEATURED ───
-        html += '<div class="library-tab-content' + (savedTab === 'featured' ? ' active' : '') + '" data-tab-content="featured">';
-
-        // Continue reading (if recent texts)
+        // ─── TAB: MY STUDY ───
+        html += '<div class="library-tab-content' + (savedTab === 'mystudy' ? ' active' : '') + '" data-tab-content="mystudy">';
         var recentTexts = JSON.parse(localStorage.getItem('atl-recent-texts') || '[]');
+
+        // Reading progress overview
+        var totalRead = 0, totalChapters = 0;
+        Object.keys(readChapters).forEach(function() { totalRead++; });
+        MANIFEST.eras.forEach(function(era) {
+            var chs = ERA_DATA[era.id] || [];
+            chs.forEach(function(ch) { if (ch.type !== 'html_fragment') totalChapters++; });
+        });
+        var pct = totalChapters > 0 ? Math.round((totalRead / totalChapters) * 100) : 0;
+
+        html += '<div class="mystudy-header">' +
+            '<h2 class="mystudy-heading">My Study</h2>' +
+            '<div class="mystudy-progress-bar"><div class="mystudy-progress-fill" style="width:' + pct + '%"></div></div>' +
+            '<span class="mystudy-progress-label">' + totalRead + ' / ' + totalChapters + ' chapters read (' + pct + '%)</span>' +
+            '</div>';
+
+        // Recent texts — show ALL (up to 6), with more detail
         if (recentTexts.length > 0) {
-            html += '<div class="library-recent-section">' +
-                '<div class="library-recent-header">' +
-                '<h2 class="library-recent-heading">Continue Reading</h2>' +
-                '<button class="recent-clear-all" data-action="clear-recent">Clear All</button>' +
-                '</div>' +
-                '<div class="library-recent-grid">';
-            recentTexts.slice(0, 4).forEach(function(rid) {
+            html += '<h3 class="mystudy-section-title">Continue Reading</h3>' +
+                '<div class="mystudy-recent-grid">';
+            recentTexts.forEach(function(rid) {
                 var rt = getTextDef(rid);
                 if (!rt) return;
                 var rcat = getCategoryDef(rt.category);
                 var rcounts = getTextReadCount(rid);
-                html += '<div class="library-recent-card" data-text="' + rid + '" style="--card-color:' + (rt.color || rcat.color) + '">' +
-                    '<button class="recent-remove-btn" data-remove-text="' + rid + '" title="Remove">&times;</button>' +
+                var rpct = rcounts.total > 0 ? Math.round((rcounts.read / rcounts.total) * 100) : 0;
+                html += '<div class="mystudy-recent-card" data-text="' + rid + '">' +
+                    '<div class="mystudy-card-top">' +
                     '<span class="canon-badge badge-small" style="background:' + rcat.color + '20;color:' + rcat.color + ';border-color:' + rcat.color + '40">' + rcat.badge + '</span>' +
-                    '<h3 class="library-recent-title">' + rt.name + '</h3>' +
-                    '<span class="library-recent-progress">' + rcounts.read + '/' + rcounts.total + ' read</span>' +
+                    '<button class="recent-remove-btn" data-remove-text="' + rid + '" title="Remove">&times;</button>' +
+                    '</div>' +
+                    '<h3 class="mystudy-card-title">' + rt.name + '</h3>' +
+                    '<div class="mystudy-card-bar"><div class="mystudy-card-fill" style="width:' + rpct + '%;background:' + rcat.color + '"></div></div>' +
+                    '<span class="mystudy-card-stat">' + rcounts.read + '/' + rcounts.total + ' chapters</span>' +
                     '</div>';
             });
-            html += '</div></div>';
+            html += '</div>';
+        } else {
+            html += '<div class="mystudy-empty">' +
+                '<p>No reading history yet. Pick a book from the <strong>Old Testament</strong> or <strong>New Testament</strong> tabs to start studying!</p>' +
+                '</div>';
         }
+
+        // Study notes summary
+        var noteCount = 0;
+        var noteBooks = {};
+        Object.keys(studyNotes).forEach(function(key) {
+            var parts = key.split(':');
+            if (parts.length >= 2) {
+                var bookId = parts[0];
+                if (!noteBooks[bookId]) noteBooks[bookId] = 0;
+                noteBooks[bookId]++;
+                noteCount++;
+            }
+        });
+        if (noteCount > 0) {
+            html += '<h3 class="mystudy-section-title">Your Study Notes</h3>' +
+                '<div class="mystudy-notes-summary">' +
+                '<span class="mystudy-note-count">' + noteCount + ' notes across ' + Object.keys(noteBooks).length + ' books</span>';
+            Object.keys(noteBooks).forEach(function(bookId) {
+                var td = getTextDef(bookId);
+                if (td) {
+                    html += '<span class="mystudy-note-book" data-text="' + bookId + '">' + td.name + ' (' + noteBooks[bookId] + ')</span>';
+                }
+            });
+            html += '</div>';
+        }
+
+        // Bookmarked chapters
+        var bookmarkKeys = Object.keys(readChapters).filter(function(k) { return readChapters[k] === 'bookmarked'; });
+        if (bookmarkKeys.length > 0) {
+            html += '<h3 class="mystudy-section-title">Bookmarked</h3>' +
+                '<div class="mystudy-bookmarks">';
+            bookmarkKeys.forEach(function(chId) {
+                var ch = getChapterById(chId);
+                if (ch) {
+                    html += '<div class="mystudy-bookmark">' + esc(ch.title || ch.ref || chId) + '</div>';
+                }
+            });
+            html += '</div>';
+        }
+
+        html += '</div>'; // end mystudy tab
+
+        // ─── TAB: FEATURED ───
+        html += '<div class="library-tab-content' + (savedTab === 'featured' ? ' active' : '') + '" data-tab-content="featured">';
+
+        // ─── STUDY TOOLS — compact scrollable strip at top ───
+        html += '<div class="featured-tools-strip">' +
+            '<div class="featured-tools-scroll">' +
+            '<div class="ft-chip" data-action="show-glossary"><span class="ft-icon">\uD83D\uDCD6</span>Glossary</div>' +
+            '<div class="ft-chip" data-action="show-hebrew"><span class="ft-icon">\u05D0</span>Learn Hebrew</div>' +
+            '<div class="ft-chip" data-action="show-prophecy"><span class="ft-icon">\uD83D\uDD2E</span>Prophecy</div>' +
+            '<div class="ft-chip" data-action="show-matrix"><span class="ft-icon">\u2696\uFE0F</span>Truth Matrix</div>' +
+            '<div class="ft-chip" data-action="show-timeline"><span class="ft-icon">\uD83D\uDCC5</span>Timeline</div>' +
+            '<div class="ft-chip" data-action="show-patriarch-chart"><span class="ft-icon">\uD83D\uDCCA</span>Patriarchs</div>' +
+            '</div></div>';
 
         // ─── SHORT DIVES — punchy "wait, WHAT?" theological insights (FIRST after Continue Reading) ───
         var SHORT_DIVES = [
@@ -2008,6 +2084,121 @@
             '</div></div>';
         html += '</div>'; // end tools tab
 
+        // ─── TAB: BIBLE ANALYSIS ───
+        html += '<div class="library-tab-content' + (savedTab === 'analysis' ? ' active' : '') + '" data-tab-content="analysis">';
+        html += '<div class="bible-analysis-section">' +
+            '<h2 class="analysis-heading">Chronological Theme Index</h2>' +
+            '<p class="analysis-subtitle">AI-assisted deep scan of every book, chapter, and verse in the study app</p>';
+
+        // Method
+        html += '<div class="analysis-card">' +
+            '<h3>How This Was Built</h3>' +
+            '<p>Every one of our <strong>284 era files</strong> across <strong>86 texts</strong> was read and analyzed. For each book we tracked:</p>' +
+            '<ul>' +
+            '<li><strong>Major &amp; minor themes</strong> \u2014 22 theme codes (SEED, COVENANT, DIVINE COUNCIL, etc.) assigned to every chapter</li>' +
+            '<li><strong>Contested Hebrew/Greek words</strong> \u2014 100+ translation landmines rated CRITICAL, MAJOR, or NOTABLE</li>' +
+            '<li><strong>Outlier characteristics</strong> \u2014 books that break patterns (Job, Esther, Ecclesiastes, Jonah, Jude)</li>' +
+            '<li><strong>Unusual characters</strong> \u2014 Melchizedek, the Nachash, Hagar, Tamar, the Angel of YHWH, Balaam</li>' +
+            '<li><strong>Conspicuous silences</strong> \u2014 what each book does NOT say (and why it matters)</li>' +
+            '<li><strong>Cross-reference webs</strong> \u2014 how every book connects to every other</li>' +
+            '<li><strong>Content quality audit</strong> \u2014 grades and gaps for our own coverage</li>' +
+            '</ul></div>';
+
+        // Stats
+        html += '<div class="analysis-stats">' +
+            '<div class="analysis-stat"><span class="stat-num">66</span><span class="stat-label">Canonical Books</span></div>' +
+            '<div class="analysis-stat"><span class="stat-num">742</span><span class="stat-label">Chapters Tagged</span></div>' +
+            '<div class="analysis-stat"><span class="stat-num">22</span><span class="stat-label">Theme Codes</span></div>' +
+            '<div class="analysis-stat"><span class="stat-num">100+</span><span class="stat-label">Contested Words</span></div>' +
+            '<div class="analysis-stat"><span class="stat-num">60+</span><span class="stat-label">Unusual Characters</span></div>' +
+            '<div class="analysis-stat"><span class="stat-num">13</span><span class="stat-label">Outlier Books</span></div>' +
+            '</div>';
+
+        // Five-Act Story
+        html += '<div class="analysis-card">' +
+            '<h3>The Five-Act Story Arc</h3>' +
+            '<p>The entire Bible tells ONE story in five acts:</p>' +
+            '<ol class="analysis-acts">' +
+            '<li><strong>Creation &amp; Rebellion</strong> (Gen 1\u201311) \u2014 Three cosmic rebellions fracture creation: Eden, Hermon, Babel</li>' +
+            '<li><strong>Covenant &amp; Promise</strong> (Gen 12 \u2013 Malachi) \u2014 God calls Abraham, builds a nation, sends prophets. Israel can\u2019t keep the covenant.</li>' +
+            '<li><strong>Incarnation &amp; Victory</strong> (Gospels) \u2014 The divine Son enters creation, defeats the powers, dies, rises, ascends</li>' +
+            '<li><strong>Reclamation &amp; Mission</strong> (Acts \u2013 Jude) \u2014 Spirit falls at Pentecost (Babel reversed). Ekklesia carries gospel to every nation.</li>' +
+            '<li><strong>Restoration &amp; New Creation</strong> (Revelation) \u2014 Nachash destroyed. Nations healed. Eden restored. God dwells with humanity.</li>' +
+            '</ol>' +
+            '<p style="color:var(--gold);margin-top:12px"><strong>Genesis 3:15 is the thesis statement. Revelation 22 is the conclusion. Everything between is that verse playing out.</strong></p>' +
+            '</div>';
+
+        // NT Unlock Keys
+        html += '<div class="analysis-card">' +
+            '<h3>12 NT Keys That Unlock the OT</h3>' +
+            '<div class="analysis-keys">' +
+            '<div class="analysis-key"><span class="key-ref">Heb 1:5\u20136</span><span class="key-text">Christ above the divine council \u2014 all elohim must worship him</span></div>' +
+            '<div class="analysis-key"><span class="key-ref">Acts 2</span><span class="key-text">Pentecost reverses Babel/Deut 32:8 \u2014 nations reclaimed</span></div>' +
+            '<div class="analysis-key"><span class="key-ref">Col 2:15</span><span class="key-text">The Cross disarms the allotted cosmic powers</span></div>' +
+            '<div class="analysis-key"><span class="key-ref">1 Pet 3:18\u201320</span><span class="key-text">Christ proclaims victory to imprisoned Watchers (Gen 6)</span></div>' +
+            '<div class="analysis-key"><span class="key-ref">Gal 3:16</span><span class="key-text">The \u201cseed\u201d is singular \u2014 Christ IS the seed of Gen 3:15</span></div>' +
+            '<div class="analysis-key"><span class="key-ref">Rev 12:9</span><span class="key-text">Dragon = nachash = Satan = devil \u2014 four names, one enemy</span></div>' +
+            '<div class="analysis-key"><span class="key-ref">John 10:34</span><span class="key-text">Jesus quotes Ps 82:6 \u2014 affirms the divine council framework</span></div>' +
+            '<div class="analysis-key"><span class="key-ref">Mark 14:62</span><span class="key-text">Dan 7:13 + Ps 110:1 = DIVINE claim (high priest tears robes)</span></div>' +
+            '<div class="analysis-key"><span class="key-ref">Eph 6:12</span><span class="key-text">Rulers, authorities, cosmic powers \u2014 the invisible war is real</span></div>' +
+            '<div class="analysis-key"><span class="key-ref">Rom 5:12\u201321</span><span class="key-text">First Adam ruined, last Adam restores \u2014 the whole story</span></div>' +
+            '<div class="analysis-key"><span class="key-ref">1 Cor 15:24\u201328</span><span class="key-text">ALL rule and authority abolished \u2014 divine council endgame</span></div>' +
+            '<div class="analysis-key"><span class="key-ref">Heb 2:14\u201315</span><span class="key-text">Christ destroys the one who has power of death</span></div>' +
+            '</div></div>';
+
+        // Theme Registry
+        html += '<div class="analysis-card">' +
+            '<h3>Master Theme Registry</h3>' +
+            '<p>These 22 codes are now tagged on every chapter in the app:</p>' +
+            '<div class="analysis-themes">' +
+            '<span class="at-tag" style="--tc:#c9a84c">SEED</span>' +
+            '<span class="at-tag" style="--tc:#5b8dbf">COVENANT</span>' +
+            '<span class="at-tag" style="--tc:#9b7ec8">DIVINE COUNCIL</span>' +
+            '<span class="at-tag" style="--tc:#c45c5c">REBELLION</span>' +
+            '<span class="at-tag" style="--tc:#b09050">EXILE</span>' +
+            '<span class="at-tag" style="--tc:#5a9a6a">IMAGE</span>' +
+            '<span class="at-tag" style="--tc:#2d9a8f">TYPOLOGY</span>' +
+            '<span class="at-tag" style="--tc:#d4a853">HOLY</span>' +
+            '<span class="at-tag" style="--tc:#7a5a8a">SPIRITUAL WAR</span>' +
+            '<span class="at-tag" style="--tc:#b5564a">WOMEN</span>' +
+            '<span class="at-tag" style="--tc:#4a8a6a">REVERSAL</span>' +
+            '<span class="at-tag" style="--tc:#5b8dbf">NATIONS</span>' +
+            '<span class="at-tag" style="--tc:#c45c5c">BLOOD</span>' +
+            '<span class="at-tag" style="--tc:#c9a84c">NAME</span>' +
+            '<span class="at-tag" style="--tc:#2d9a8f">PROVIDENCE</span>' +
+            '<span class="at-tag" style="--tc:#b09050">LAND</span>' +
+            '<span class="at-tag" style="--tc:#9b7ec8">PRIESTHOOD</span>' +
+            '<span class="at-tag" style="--tc:#d4a853">KINGSHIP</span>' +
+            '<span class="at-tag" style="--tc:#5a9a6a">REMNANT</span>' +
+            '<span class="at-tag" style="--tc:#c45c5c">COVENANT LAWSUIT</span>' +
+            '<span class="at-tag" style="--tc:#7a5a8a">GLORY</span>' +
+            '<span class="at-tag" style="--tc:#b5564a">LOVE</span>' +
+            '</div></div>';
+
+        // What's Next
+        html += '<div class="analysis-card">' +
+            '<h3>Ongoing Deep Mapping Plan</h3>' +
+            '<p>The scan is never finished. Here is the roadmap for continued analysis:</p>' +
+            '<ul>' +
+            '<li><strong>Theme filtering in the reader</strong> \u2014 use the 22 theme codes to filter chapters by topic across all 66 books</li>' +
+            '<li><strong>Contested word glossary</strong> \u2014 dedicated searchable index of 100+ translation landmines with severity ratings</li>' +
+            '<li><strong>Cross-reference heat map</strong> \u2014 visual map showing which books cite which (density = line thickness)</li>' +
+            '<li><strong>Seed line tracker</strong> \u2014 trace the messianic lineage from Gen 3:15 through every genealogy to Christ</li>' +
+            '<li><strong>Divine council passage index</strong> \u2014 every passage where the heavenly assembly is visible, mapped chronologically</li>' +
+            '<li><strong>Geographic thread mapping</strong> \u2014 connect era content to journey map routes (24 routes, 206 waypoints)</li>' +
+            '<li><strong>Recurring pattern scanner</strong> \u2014 automated detection of type-scenes (well scenes, barren wife, theophany)</li>' +
+            '<li><strong>Second Temple context layer</strong> \u2014 connect every passage to its Second Temple reading tradition</li>' +
+            '</ul></div>';
+
+        // Full Reference Link
+        html += '<div class="analysis-card" style="text-align:center">' +
+            '<a href="docs/bible_study_reference.html" target="_blank" rel="noopener" class="analysis-full-link">Open Full Interactive Theme Index \u2192</a>' +
+            '<p style="margin-top:8px;color:var(--text-muted);font-size:0.8rem">4,142 lines \u2022 All 66 books + non-canonical texts \u2022 Searchable with theme filters</p>' +
+            '</div>';
+
+        html += '</div>'; // analysis section
+        html += '</div>'; // end analysis tab
+
         mainContent.innerHTML = html;
 
         // ─── TAB SWITCHING ───
@@ -2029,7 +2220,19 @@
             card.addEventListener('click', function() {
                 var textId = this.getAttribute('data-text');
                 var eraId = this.getAttribute('data-era');
-                if (textId) showBookLanding(textId, eraId);
+                if (!textId) return;
+                // Jump directly into Bible Mode at the first chapter of this era
+                if (eraId) {
+                    var eras = getTextEras(textId);
+                    var chapterOffset = 0;
+                    for (var ei = 0; ei < eras.length; ei++) {
+                        if (eras[ei].id === eraId) break;
+                        chapterOffset += (ERA_DATA[eras[ei].id] || []).length;
+                    }
+                    showBibleMode(textId, chapterOffset);
+                } else {
+                    showBibleMode(textId, 0);
+                }
             });
         });
 
@@ -2039,12 +2242,12 @@
                 var textId = this.getAttribute('data-text');
                 if (!textId) return;
                 var bibleChapter = parseInt(this.getAttribute('data-chapter'), 10);
-                var textDef = getTextDef(textId);
-                var isScripture = textDef && (textDef.category === 'ot' || textDef.category === 'nt');
-                if (isScripture && bibleChapter) {
+                // Always open directly into Bible Mode — never dump on book landing
+                if (bibleChapter) {
                     showBibleMode(textId, bibleChapter - 1);
                 } else {
-                    showBookLanding(textId);
+                    // Thematic/study texts without a chapter number — open at chapter 0
+                    showBibleMode(textId, 0);
                 }
             });
         });
@@ -2114,8 +2317,10 @@
         // Hide sidebar and reading pane on book landing
         setReadingPane(false);
 
-        // Update hash
+        // Update hash — suppress hashchange re-entry
+        hashHandling = true;
         location.hash = 'book/' + textId;
+        setTimeout(function() { hashHandling = false; }, 50);
 
         // Render the landing page
         renderBookLanding(textId, highlightEra);
@@ -2462,6 +2667,7 @@
 
     var currentBibleChapter = 0;  // current chapter NUMBER (1-based)
     var bibleTotalChapters = 0;   // total chapters for current book
+    var bibleLayoutMode = localStorage.getItem('atl-bible-layout') || 'reading'; // reading | interlinear | study
 
     function getBibleChapterCount(textId) {
         // Try manifest text definition first
@@ -2561,16 +2767,33 @@
 
         location.hash = 'read/' + textId + '/' + currentBibleChapter;
 
-        var html = '<div class="bible-mode" id="bibleMode">';
+        var html = '<div class="bible-mode bible-layout-' + bibleLayoutMode + '" id="bibleMode">';
 
         // ─── TOP BAR ───
         var isStudyText = textDef.category === 'thematic' || textDef.category === 'dss' || textDef.category === 'secondtemple' || textDef.category === 'pseudepigrapha';
         var topBarStudyCh = isStudyText ? getStudyChapterByIndex(textId, chapterIndex) : null;
         var topBarTitle = topBarStudyCh && topBarStudyCh.title ? esc(topBarStudyCh.title) : esc(textDef.name) + ' ' + currentBibleChapter;
         html += '<div class="bible-top-bar">' +
+            '<div class="bible-top-bar-left">' +
             '<button class="bible-back-btn" id="bibleBack">&larr;</button>' +
+            '</div>' +
+            '<div class="bible-top-bar-center">' +
             '<span class="bible-book-title">' + topBarTitle + '</span>' +
+            '</div>' +
+            '<div class="bible-top-bar-right">' +
+            '<div class="bible-layout-switcher" id="bibleLayoutSwitcher">' +
+            '<button class="bible-layout-btn' + (bibleLayoutMode === 'reading' ? ' active' : '') + '" data-mode="reading" title="Reading Mode">' +
+            '<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M2 2h12v1H2V2zm0 3h12v1H2V5zm0 3h9v1H2V8zm0 3h12v1H2v-1z"/></svg>' +
+            '</button>' +
+            '<button class="bible-layout-btn' + (bibleLayoutMode === 'interlinear' ? ' active' : '') + '" data-mode="interlinear" title="Interlinear Mode">' +
+            '<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M1 2h6v12H1V2zm8 0h6v12H9V2zM2 3v10h4V3H2zm8 0v10h4V3h-4z"/></svg>' +
+            '</button>' +
+            '<button class="bible-layout-btn' + (bibleLayoutMode === 'study' ? ' active' : '') + '" data-mode="study" title="Study Mode">' +
+            '<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M2 1h12a1 1 0 011 1v12a1 1 0 01-1 1H2a1 1 0 01-1-1V2a1 1 0 011-1zm0 1v12h12V2H2zm1 1h4v2H3V3zm0 3h4v1H3V6zm0 2h4v1H3V8zm6-5h3v4H9V3zm0 5h3v1H9v-1zm-6 2h10v1H3v-1z"/></svg>' +
+            '</button>' +
+            '</div>' +
             '<button class="bible-settings-btn" id="bibleSettings">&#9881;</button>' +
+            '</div>' +
             '</div>' +
             '<div class="bible-progress-bar" id="bibleProgressBar"></div>';
 
@@ -2629,7 +2852,19 @@
             }
         }
 
-        html += '</div></div>'; // #bibleContent, #bibleReader
+        html += '</div>'; // #bibleContent
+
+        // ─── INTERLINEAR PANEL (shown in interlinear + study modes) ───
+        html += '<div class="bible-il-panel" id="bibleILPanel">' +
+            renderBibleInterlinearPanel(textId, currentBibleChapter) +
+            '</div>';
+
+        // ─── STUDY PANEL (shown in study mode below scripture) ───
+        html += '<div class="bible-study-panel" id="bibleStudyPanel">' +
+            renderBibleStudyPanel(textId, currentBibleChapter) +
+            '</div>';
+
+        html += '</div>'; // #bibleReader
 
         // ─── BOTTOM BAR ───
         html += '<div class="bible-bottom-bar">' +
@@ -2678,18 +2913,43 @@
             '</div>' +
             '</div>';
 
-        // ─── CHAPTER PICKER MODAL ───
-        html += '<div class="bible-chapter-picker" id="bibleChapterPicker" style="display:none">' +
+        // ─── CHAPTER PICKER MODAL (era-grouped) ───
+        html += '<div class="bible-chapter-picker" id="bibleChapterPicker">' +
             '<div class="bible-picker-overlay"></div>' +
             '<div class="bible-picker-content">' +
             '<h3 class="bible-picker-title">' + esc(textDef.name) + '</h3>' +
-            '<div class="bible-picker-grid" id="biblePickerGrid">';
+            '<div class="bible-picker-body" id="biblePickerGrid">';
 
-        for (var i = 1; i <= bibleTotalChapters; i++) {
-            html += '<button class="bible-picker-num' + (i === currentBibleChapter ? ' active' : '') + '" data-ch="' + i + '">' + i + '</button>';
+        // Build era-grouped chapter list
+        var pickerEras = getTextEras(textId);
+        var pickerChNum = 0;
+        if (pickerEras.length > 0) {
+            pickerEras.forEach(function(era) {
+                var eraChapters = ERA_DATA[era.id] || [];
+                if (eraChapters.length === 0) return;
+                html += '<div class="bible-picker-era">' +
+                    '<div class="bible-picker-era-label">' + esc(era.name || era.id) + '</div>' +
+                    '<div class="bible-picker-grid">';
+                eraChapters.forEach(function(ch) {
+                    pickerChNum++;
+                    var hasXrefs = ch.cross_refs && ch.cross_refs.length > 0;
+                    var hasNotes = ch.sections && ch.sections.length > 2;
+                    var badge = hasXrefs && hasNotes ? ' has-study' : hasXrefs ? ' has-xrefs' : '';
+                    html += '<button class="bible-picker-num' + (pickerChNum === currentBibleChapter ? ' active' : '') + badge + '" data-ch="' + pickerChNum + '" title="' + escAttr(ch.title || '') + '">' + pickerChNum + '</button>';
+                });
+                html += '</div></div>';
+            });
+        }
+        // Fallback: simple grid if no eras
+        if (pickerChNum === 0) {
+            html += '<div class="bible-picker-grid">';
+            for (var i = 1; i <= bibleTotalChapters; i++) {
+                html += '<button class="bible-picker-num' + (i === currentBibleChapter ? ' active' : '') + '" data-ch="' + i + '">' + i + '</button>';
+            }
+            html += '</div>';
         }
 
-        html += '</div></div></div>'; // grid, content, picker
+        html += '</div></div></div>'; // body, content, picker
 
         html += '</div>'; // .bible-mode
 
@@ -2725,6 +2985,44 @@
             });
         }
 
+        // Layout mode switcher
+        var layoutSwitcher = document.getElementById('bibleLayoutSwitcher');
+        if (layoutSwitcher) {
+            layoutSwitcher.addEventListener('click', function(e) {
+                var btn = e.target.closest('.bible-layout-btn');
+                if (!btn) return;
+                var mode = btn.getAttribute('data-mode');
+                if (!mode || mode === bibleLayoutMode) return;
+                bibleLayoutMode = mode;
+                localStorage.setItem('atl-bible-layout', mode);
+                // Update active state
+                layoutSwitcher.querySelectorAll('.bible-layout-btn').forEach(function(b) {
+                    b.classList.toggle('active', b.getAttribute('data-mode') === mode);
+                });
+                // Update container class
+                var bm = document.getElementById('bibleMode');
+                if (bm) {
+                    bm.classList.remove('bible-layout-reading', 'bible-layout-interlinear', 'bible-layout-study');
+                    bm.classList.add('bible-layout-' + mode);
+                }
+                // Refresh panels if switching TO interlinear or study
+                if (mode === 'interlinear' || mode === 'study') {
+                    var ilPanel = document.getElementById('bibleILPanel');
+                    if (ilPanel && !ilPanel.dataset.loaded) {
+                        ilPanel.innerHTML = renderBibleInterlinearPanel(textId, currentBibleChapter);
+                        ilPanel.dataset.loaded = '1';
+                    }
+                }
+                if (mode === 'study') {
+                    var studyPanel = document.getElementById('bibleStudyPanel');
+                    if (studyPanel && !studyPanel.dataset.loaded) {
+                        studyPanel.innerHTML = renderBibleStudyPanel(textId, currentBibleChapter);
+                        studyPanel.dataset.loaded = '1';
+                    }
+                }
+            });
+        }
+
         // Language hint dismiss
         var langHintClose = document.getElementById('bibleLangHintClose');
         if (langHintClose) {
@@ -2747,12 +3045,58 @@
             });
         }
 
-        // Verse tap highlight
+        // Verse tap — open drawer peek with verse detail
         bibleRoot.querySelectorAll('.bible-verse').forEach(function(verse) {
             verse.addEventListener('click', function(e) {
-                // Don't highlight if tapping on note icon
                 if (e.target.classList.contains('bible-verse-note')) return;
-                this.classList.toggle('verse-highlighted');
+
+                // Clear previous highlights
+                bibleRoot.querySelectorAll('.bible-verse.verse-active').forEach(function(v) {
+                    v.classList.remove('verse-active');
+                });
+                this.classList.add('verse-active');
+
+                // Get verse number
+                var vNumEl = this.querySelector('.bible-verse-num');
+                var vNum = vNumEl ? parseInt(vNumEl.textContent, 10) : 0;
+                if (!vNum) return;
+
+                // Render verse detail in drawer
+                var drawer = document.getElementById('bibleDrawer');
+                var drawerContent = document.getElementById('bibleDrawerContent');
+                if (drawer && drawerContent) {
+                    drawerContent.innerHTML = renderVerseDetail(textId, currentBibleChapter, vNum);
+
+                    // Update drawer tab to show "Verse" as active
+                    bibleRoot.querySelectorAll('.bible-drawer-tab').forEach(function(t) {
+                        t.classList.remove('active');
+                    });
+
+                    // Open drawer to peek state
+                    drawer.classList.remove('full');
+                    drawer.classList.add('open');
+
+                    // Wire close button
+                    var closeBtn = document.getElementById('bibleVerseDetailClose');
+                    if (closeBtn) {
+                        closeBtn.addEventListener('click', function(ev) {
+                            ev.stopPropagation();
+                            drawer.classList.remove('open', 'full');
+                            bibleRoot.querySelectorAll('.bible-verse.verse-active').forEach(function(v) {
+                                v.classList.remove('verse-active');
+                            });
+                        });
+                    }
+
+                    // Wire deep dive button — expand to full
+                    var deepDiveBtn = document.getElementById('bibleVdDeepDive');
+                    if (deepDiveBtn) {
+                        deepDiveBtn.addEventListener('click', function() {
+                            drawer.classList.add('full');
+                            switchBibleDrawerTab(textId, currentBibleChapter, 'study');
+                        });
+                    }
+                }
             });
         });
 
@@ -2805,7 +3149,10 @@
         if (chapterBtn) {
             chapterBtn.addEventListener('click', function() {
                 var picker = document.getElementById('bibleChapterPicker');
-                if (picker) picker.style.display = picker.style.display === 'none' ? 'flex' : 'none';
+                if (picker) {
+                    picker.style.display = '';  // clear inline style, let CSS control
+                    picker.classList.toggle('open');
+                }
             });
         }
 
@@ -2814,7 +3161,7 @@
         if (pickerOverlay) {
             pickerOverlay.addEventListener('click', function() {
                 var picker = document.getElementById('bibleChapterPicker');
-                if (picker) picker.style.display = 'none';
+                if (picker) picker.classList.remove('open');
             });
         }
 
@@ -2824,7 +3171,7 @@
                 var ch = parseInt(this.getAttribute('data-ch'), 10);
                 if (!isNaN(ch)) {
                     var picker = document.getElementById('bibleChapterPicker');
-                    if (picker) picker.style.display = 'none';
+                    if (picker) picker.classList.remove('open');
                     currentBibleChapter = ch;
                     updateBibleChapterContent(textId);
                 }
@@ -2906,20 +3253,19 @@
             });
         });
 
-        // Drawer handle — toggle open state
+        // Drawer handle — click to close, or tap to cycle
         var drawerHandle = bibleRoot.querySelector('.bible-drawer-handle');
         if (drawerHandle) {
             drawerHandle.addEventListener('click', function() {
                 var drawer = document.getElementById('bibleDrawer');
                 if (drawer) {
-                    if (drawer.classList.contains('full')) {
-                        drawer.classList.remove('full');
-                        drawer.classList.remove('open');
-                    } else if (drawer.classList.contains('open')) {
-                        drawer.classList.add('full');
-                    } else {
-                        drawer.classList.add('open');
-                    }
+                    // Always close on handle click — intuitive dismiss
+                    drawer.classList.remove('full');
+                    drawer.classList.remove('open');
+                    // Clear active verse highlight
+                    bibleRoot.querySelectorAll('.bible-verse.verse-active').forEach(function(v) {
+                        v.classList.remove('verse-active');
+                    });
                 }
             });
         }
@@ -2941,6 +3287,203 @@
                 }
             }, {passive: true});
         }
+    }
+
+    function renderBibleInterlinearPanel(textId, chapterNum) {
+        var ilData = getTextInterlinear(textId);
+        var chapter = ilData && ilData[String(chapterNum)];
+        if (!chapter || !chapter.verses) {
+            var textDef = getTextDef(textId);
+            var lang = textDef && textDef.category === 'nt' ? 'Greek' : 'Hebrew';
+            return '<div class="bible-il-empty">No ' + lang + ' interlinear data available for this chapter.</div>';
+        }
+
+        var html = '<div class="bible-il-verses">';
+        chapter.verses.forEach(function(v) {
+            html += '<div class="bible-il-verse">' +
+                '<span class="bible-il-vnum">' + v.num + '</span>' +
+                '<div class="bible-il-words">';
+            if (v.words && v.words.length > 0) {
+                v.words.forEach(function(w) {
+                    html += '<div class="bible-il-word" data-strongs="' + escAttr(w.strongs || '') + '">' +
+                        '<span class="bible-il-orig">' + esc(w.text || '') + '</span>' +
+                        '<span class="bible-il-translit">' + esc(w.translit || '') + '</span>' +
+                        '<span class="bible-il-gloss">' + esc(w.gloss || '') + '</span>' +
+                        '</div>';
+                });
+            }
+            html += '</div></div>';
+        });
+        html += '</div>';
+        return html;
+    }
+
+    function renderBibleStudyPanel(textId, chapterNum) {
+        var html = '';
+        var eras = getTextEras(textId);
+        var studyCh = null;
+
+        // Find the era chapter that matches this chapter number
+        for (var e = 0; e < eras.length; e++) {
+            var chapters = ERA_DATA[eras[e].id] || [];
+            for (var c = 0; c < chapters.length; c++) {
+                var parsed = parseScriptureRef(chapters[c].ref || '');
+                if (parsed && parsed.chapter === chapterNum) {
+                    studyCh = chapters[c];
+                    break;
+                }
+            }
+            if (studyCh) break;
+        }
+
+        if (!studyCh) {
+            return '<div class="bible-study-empty">No study content available for this chapter.</div>';
+        }
+
+        html += '<div class="bible-study-content">';
+
+        // Synopsis
+        if (studyCh.synopsis) {
+            html += '<div class="bible-study-synopsis">' + studyCh.synopsis + '</div>';
+        }
+
+        // Key verse
+        if (studyCh.key_verse && studyCh.key_verse.text) {
+            html += '<blockquote class="bible-study-keyverse">' +
+                '<span>' + esc(studyCh.key_verse.text) + '</span>' +
+                '<cite> — ' + esc(studyCh.key_verse.ref || '') + '</cite>' +
+                '</blockquote>';
+        }
+
+        // Hebrew/Greek terms
+        if (studyCh.hebrew_terms && studyCh.hebrew_terms.length > 0) {
+            html += '<div class="bible-study-terms">';
+            studyCh.hebrew_terms.forEach(function(t) {
+                var term = typeof t === 'string' ? t : (t.term || t);
+                html += '<span class="bible-study-term">' + esc(term) + '</span>';
+            });
+            html += '</div>';
+        }
+
+        // Cross-refs
+        if (studyCh.cross_refs && studyCh.cross_refs.length > 0) {
+            html += '<div class="bible-study-xrefs"><h4>Cross-References</h4>';
+            studyCh.cross_refs.forEach(function(raw) {
+                var xr = normXref(raw);
+                var typeClass = (xr.type || 'ot').toLowerCase();
+                html += '<span class="bible-study-xref-pill xref-' + typeClass + '">' + esc(xr.ref) + '</span> ';
+            });
+            html += '</div>';
+        }
+
+        // Sections (era study content)
+        if (studyCh.sections && studyCh.sections.length > 0) {
+            html += '<div class="bible-study-sections">';
+            studyCh.sections.forEach(function(sec) {
+                html += '<div class="bible-study-section">';
+                if (sec.heading) html += '<h4>' + esc(sec.heading) + '</h4>';
+                if (sec.body) html += '<div class="bible-study-body">' + sec.body + '</div>';
+                html += '</div>';
+            });
+            html += '</div>';
+        }
+
+        // Theme Index link
+        html += '<div class="bible-study-footer">' +
+            '<a class="bible-study-theme-link" href="docs/bible_study_reference.html#' + textId + '" target="_blank" rel="noopener">' +
+            'View in Theme Index &nearr;</a>' +
+            '</div>';
+
+        html += '</div>';
+        return html;
+    }
+
+    function renderVerseDetail(textId, chapterNum, verseNum) {
+        var html = '<div class="bible-verse-detail">';
+        html += '<div class="bible-verse-detail-header">' +
+            '<span class="bible-verse-detail-ref">' + esc(getTextDef(textId).name) + ' ' + chapterNum + ':' + verseNum + '</span>' +
+            '<button class="bible-verse-detail-close" id="bibleVerseDetailClose">&times;</button>' +
+            '</div>';
+
+        // Get interlinear data for this verse
+        var ilData = getTextInterlinear(textId);
+        var chapter = ilData && ilData[String(chapterNum)];
+        var verse = null;
+        if (chapter && chapter.verses) {
+            for (var i = 0; i < chapter.verses.length; i++) {
+                if (chapter.verses[i].num === verseNum || String(chapter.verses[i].num) === String(verseNum)) {
+                    verse = chapter.verses[i];
+                    break;
+                }
+            }
+        }
+
+        // Hebrew/Greek key words
+        if (verse && verse.words && verse.words.length > 0) {
+            html += '<div class="bible-vd-words">';
+            verse.words.forEach(function(w) {
+                if (!w.text) return;
+                html += '<span class="bible-vd-word" title="' + escAttr(w.gloss || '') + '">' +
+                    '<span class="bible-vd-orig">' + esc(w.text) + '</span>' +
+                    '<span class="bible-vd-gloss">' + esc(w.gloss || '') + '</span>' +
+                    '</span>';
+            });
+            html += '</div>';
+        }
+
+        // Study note for this verse
+        if (verse && verse.note) {
+            html += '<div class="bible-vd-note">' +
+                '<span class="bible-vd-note-icon">&#128161;</span>' +
+                '<span class="bible-vd-note-text">' + esc(verse.note) + '</span>' +
+                '</div>';
+        }
+
+        // Check standalone notes too
+        var standaloneNotes = STANDALONE_NOTES[textId] || {};
+        var chNotes = standaloneNotes[String(chapterNum)] || {};
+        if (chNotes[String(verseNum)]) {
+            html += '<div class="bible-vd-note">' +
+                '<span class="bible-vd-note-icon">&#128221;</span>' +
+                '<span class="bible-vd-note-text">' + esc(chNotes[String(verseNum)]) + '</span>' +
+                '</div>';
+        }
+
+        // Cross-refs that mention this chapter (show first 5)
+        var eras = getTextEras(textId);
+        var xrefs = [];
+        eras.forEach(function(era) {
+            var chapters = ERA_DATA[era.id] || [];
+            chapters.forEach(function(ch) {
+                if (!ch.cross_refs) return;
+                var parsed = parseScriptureRef(ch.ref || '');
+                if (parsed && parsed.chapter === chapterNum) {
+                    ch.cross_refs.forEach(function(raw) {
+                        xrefs.push(normXref(raw));
+                    });
+                }
+            });
+        });
+        if (xrefs.length > 0) {
+            html += '<div class="bible-vd-xrefs">';
+            xrefs.slice(0, 6).forEach(function(xr) {
+                var typeClass = (xr.type || 'ot').toLowerCase();
+                html += '<span class="bible-study-xref-pill xref-' + typeClass + '">' + esc(xr.ref) + '</span> ';
+            });
+            if (xrefs.length > 6) {
+                html += '<span class="bible-vd-more">+' + (xrefs.length - 6) + ' more</span>';
+            }
+            html += '</div>';
+        }
+
+        // Action buttons
+        html += '<div class="bible-vd-actions">' +
+            '<button class="bible-vd-deep-dive" id="bibleVdDeepDive">Deep Dive &darr;</button>' +
+            '<a class="bible-vd-theme-link" href="docs/bible_study_reference.html#' + textId + '" target="_blank" rel="noopener">Theme Index &nearr;</a>' +
+            '</div>';
+
+        html += '</div>';
+        return html;
     }
 
     function navigateBibleChapter(delta) {
@@ -2986,6 +3529,18 @@
                 contentEl.classList.add('bible-slide-in');
                 setTimeout(function() { contentEl.classList.remove('bible-slide-in'); }, 300);
             }, 150);
+        }
+
+        // Update interlinear and study panels
+        var ilPanel = document.getElementById('bibleILPanel');
+        if (ilPanel) {
+            ilPanel.innerHTML = renderBibleInterlinearPanel(textId, currentBibleChapter);
+            ilPanel.dataset.loaded = '1';
+        }
+        var studyPanel = document.getElementById('bibleStudyPanel');
+        if (studyPanel) {
+            studyPanel.innerHTML = renderBibleStudyPanel(textId, currentBibleChapter);
+            studyPanel.dataset.loaded = '1';
         }
 
         // Update prev/next button states
@@ -4082,7 +4637,7 @@
             }
 
             // Recent text card — open book landing
-            var recentCard = e.target.closest('.library-recent-card');
+            var recentCard = e.target.closest('.library-recent-card, .mystudy-recent-card');
             if (recentCard && recentCard.dataset.text) {
                 showBookLanding(recentCard.dataset.text);
                 return;
@@ -4145,8 +4700,8 @@
                 return;
             }
 
-            // Library tool card — open study tools
-            var toolCard = e.target.closest('.library-tool-card');
+            // Library tool card or featured tool chip — open study tools
+            var toolCard = e.target.closest('.library-tool-card, .ft-chip');
             if (toolCard && toolCard.dataset.action) {
                 var action = toolCard.dataset.action;
                 if (action === 'show-timeline') openTimeline();

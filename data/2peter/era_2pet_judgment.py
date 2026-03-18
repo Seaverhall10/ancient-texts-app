@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "Angels Who Sinned -- Tartarus and the Three-fold Judgment",
         "era": "2pet_judgment",
         "type": "study",
+        "themes": ["DC", "KING", "REBEL", "TYPE", "WOMEN"],
 
         "synopsis": "Peter unleashes the most concentrated divine council argument in the NT "
                     "epistles. False prophets arose among Israel and false teachers will arise "
@@ -242,6 +243,7 @@ CHAPTERS = [
         "title": "Balaam and the Way of Destruction",
         "era": "2pet_judgment",
         "type": "study",
+        "themes": ["DC", "REBEL", "HOLY", "RIV", "KING"],
 
         "synopsis": "Peter's portrait of the false teachers reaches full intensity. They 'blaspheme "
                     "the glorious ones' (doxas) -- speaking arrogantly about angelic authorities they "
@@ -461,6 +463,7 @@ CHAPTERS = [
         "title": "Day of the Lord -- New Heavens and New Earth",
         "era": "2pet_judgment",
         "type": "study",
+        "themes": ["DC", "KING", "HOLY", "LOVE", "EXILE"],
 
         "synopsis": "Peter shifts from the false teachers' moral corruption to their doctrinal error. "
                     "Scoffers will come 'in the last days,' mocking the promise of Christ's return: "

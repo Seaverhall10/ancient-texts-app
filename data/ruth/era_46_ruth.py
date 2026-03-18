@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "Naomi's Bitter Return and Ruth's Covenant Oath",
         "era": "ruth",
         "type": "chapter",
+        "themes": ["SEED", "COV", "WOMEN", "NATIONS", "DC"],
 
         "synopsis": "During the period of the judges, famine drives Elimelech of Bethlehem to sojourn "
                     "in Moab with his wife Naomi and sons Mahlon and Chilion. Elimelech dies. The sons "
@@ -181,6 +182,7 @@ CHAPTERS = [
         "title": "Gleaning in the Field of Boaz -- Providence and Hesed",
         "era": "ruth",
         "type": "chapter",
+        "themes": ["PROV", "COV", "WOMEN", "LAW"],
 
         "synopsis": "Ruth goes out to glean in the fields -- the Levitical provision that allowed the "
                     "poor, widows, orphans, and foreigners to gather leftover grain behind the reapers "

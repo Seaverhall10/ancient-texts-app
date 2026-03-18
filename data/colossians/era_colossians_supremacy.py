@@ -10,6 +10,7 @@ CHAPTERS = [
         'era': 'colossians_supremacy',
         'chapter_num': 1,
         'type': 'chapter',
+        'themes': ['DC', 'KING', 'SEED', 'BLOOD', 'WOMEN'],
         'title': 'The Cosmic Christ \u2014 Image of God, Creator of Thrones and Powers',
         'ref': 'Colossians 1:1-29',
         'period': 'ca. AD 60\u201362',
@@ -232,11 +233,11 @@ CHAPTERS = [
             'contain the full divine presence.'
         ),
         'cross_refs': [
-            {'ref': 'Philippians 2:5-11', 'note': 'Parallel cosmic christology hymn'},
-            {'ref': 'John 1:1-14', 'note': 'The Word through whom all things were made'},
-            {'ref': 'Hebrews 1:2-3', 'note': 'The Son through whom God created the world'},
-            {'ref': 'Proverbs 8:22-31', 'note': 'Wisdom as agent of creation \u2014 OT background'},
-            {'ref': 'Deuteronomy 32:8-9', 'note': 'The nations allotted to lesser powers, now reclaimed'}
+            {'ref': 'Philippians 2:5-11', 'note': 'Parallel cosmic christology hymn', 'type': 'nt'},
+            {'ref': 'John 1:1-14', 'note': 'The Word through whom all things were made', 'type': 'nt'},
+            {'ref': 'Hebrews 1:2-3', 'note': 'The Son through whom God created the world', 'type': 'nt'},
+            {'ref': 'Proverbs 8:22-31', 'note': 'Wisdom as agent of creation \u2014 OT background', 'type': 'ot'},
+            {'ref': 'Deuteronomy 32:8-9', 'note': 'The nations allotted to lesser powers, now reclaimed', 'type': 'ot'}
         ],
         'historical_note': (
             'Colossae was a small city in the Lycus Valley of Phrygia (modern western Turkey), '
@@ -259,6 +260,7 @@ CHAPTERS = [
         'era': 'colossians_supremacy',
         'chapter_num': 2,
         'type': 'chapter',
+        'themes': ['DC', 'KING', 'BLOOD', 'RIV', 'TYPE'],
         'title': 'Disarming the Powers \u2014 The Cross as Cosmic Victory',
         'ref': 'Colossians 2:1-23',
         'period': 'ca. AD 60\u201362',
@@ -479,11 +481,11 @@ CHAPTERS = [
             'humanity) was nailed to the cross and destroyed. Their jurisdiction is revoked.'
         ),
         'cross_refs': [
-            {'ref': 'Galatians 4:3, 8-9', 'note': 'Parallel stoicheia tou kosmou argument'},
-            {'ref': 'Ephesians 6:12', 'note': '"Our struggle is against rulers, authorities, cosmic powers"'},
-            {'ref': '1 Corinthians 2:6-8', 'note': '"The rulers of this age" who crucified the Lord of glory'},
-            {'ref': '1 Peter 3:22', 'note': 'Angels, authorities, powers subjected to Christ'},
-            {'ref': 'Revelation 12:7-12', 'note': 'The cosmic battle and the accuser\'s defeat'}
+            {'ref': 'Galatians 4:3, 8-9', 'note': 'Parallel stoicheia tou kosmou argument', 'type': 'nt'},
+            {'ref': 'Ephesians 6:12', 'note': '"Our struggle is against rulers, authorities, cosmic powers"', 'type': 'nt'},
+            {'ref': '1 Corinthians 2:6-8', 'note': '"The rulers of this age" who crucified the Lord of glory', 'type': 'nt'},
+            {'ref': '1 Peter 3:22', 'note': 'Angels, authorities, powers subjected to Christ', 'type': 'nt'},
+            {'ref': 'Revelation 12:7-12', 'note': 'The cosmic battle and the accuser\'s defeat', 'type': 'nt'}
         ],
         'historical_note': (
             'Colossae was destroyed by an earthquake ca. AD 60-64. The letter may have been '
@@ -506,6 +508,7 @@ CHAPTERS = [
         'era': 'colossians_supremacy',
         'chapter_num': 3,
         'type': 'chapter',
+        'themes': ['KING', 'DC', 'NATIONS', 'SEED', 'TYPE'],
         'title': 'The New Humanity \u2014 Life Above, Hidden with Christ',
         'ref': 'Colossians 3:1\u20134:18',
         'period': 'ca. AD 60\u201362',
@@ -727,11 +730,11 @@ CHAPTERS = [
             'the divisions the stoicheia maintained are obsolete in the new creation.'
         ),
         'cross_refs': [
-            {'ref': 'Psalm 110:1', 'note': '"Sit at my right hand" \u2014 the most-quoted OT verse in the NT'},
-            {'ref': 'Ephesians 2:6', 'note': '"Seated with him in the heavenly places"'},
-            {'ref': 'Galatians 3:28', 'note': 'Parallel dissolution of Jew/Greek, slave/free, male/female'},
-            {'ref': 'Revelation 3:14-22', 'note': 'The letter to Laodicea \u2014 Christ\'s rebuke'},
-            {'ref': 'Philemon 1:15-16', 'note': 'Onesimus the slave \u2014 concrete example of the new humanity'}
+            {'ref': 'Psalm 110:1', 'note': '"Sit at my right hand" \u2014 the most-quoted OT verse in the NT', 'type': 'ot'},
+            {'ref': 'Ephesians 2:6', 'note': '"Seated with him in the heavenly places"', 'type': 'nt'},
+            {'ref': 'Galatians 3:28', 'note': 'Parallel dissolution of Jew/Greek, slave/free, male/female', 'type': 'nt'},
+            {'ref': 'Revelation 3:14-22', 'note': 'The letter to Laodicea \u2014 Christ\'s rebuke', 'type': 'nt'},
+            {'ref': 'Philemon 1:15-16', 'note': 'Onesimus the slave \u2014 concrete example of the new humanity', 'type': 'nt'}
         ],
         'historical_note': (
             'The letter was likely carried by Tychicus (4:7-8) along with the letter to '

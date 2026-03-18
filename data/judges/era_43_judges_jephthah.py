@@ -27,6 +27,7 @@ CHAPTERS = [
         "title": "Minor Judges, Major Apostasy -- The Gods of Seven Nations",
         "era": "judges_jephthah",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "RIV", "REBEL"],
 
         "synopsis": "Two minor judges are briefly noted: Tola son of Puah judged Israel twenty-three "
                     "years, and Jair the Gileadite judged thirty years (his thirty sons rode thirty "
@@ -193,6 +194,7 @@ CHAPTERS = [
         "title": "Jephthah -- Outcast, Warrior, and the Territorial Deity Argument",
         "era": "judges_jephthah",
         "type": "chapter",
+        "themes": ["SPIRIT", "DC", "LAND", "COV"],
 
         "synopsis": "Jephthah the Gileadite, 'a mighty warrior' (gibbor chayil) but son of a "
                     "prostitute, is driven out by his legitimate brothers. When Ammon attacks, the "
@@ -408,6 +410,7 @@ CHAPTERS = [
         "title": "Shibboleth and the Minor Judges -- Tribal Fragmentation",
         "era": "judges_jephthah",
         "type": "chapter",
+        "themes": ["NATIONS", "LAND"],
 
         "synopsis": "The Ephraimites, furious at not being summoned for the Ammonite campaign, "
                     "threaten to burn Jephthah's house. This is the same inter-tribal jealousy that "

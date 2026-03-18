@@ -21,6 +21,7 @@ CHAPTERS = [
         "title": "The Cornerstone in Zion and the Covenant with Death",
         "era": "isaiah_woe",
         "type": "chapter",
+        "themes": ["SEED", "COV", "DC"],
 
         "synopsis": "The first woe oracle targets Ephraim (northern Israel), whose leaders are 'drunkards' "
                     "with 'fading flowers' (28:1). Judgment comes as a 'tempest of hail, a destroying storm, "
@@ -164,6 +165,7 @@ CHAPTERS = [
         "title": "Sennacherib's Siege and the Angel's Deliverance",
         "era": "isaiah_woe",
         "type": "chapter",
+        "themes": ["DC", "KING", "GLORY"],
 
         "synopsis": "In the fourteenth year of King Hezekiah (~701 BC), Sennacherib king of Assyria "
                     "invades Judah and captures its fortified cities. He sends the Rabshakeh (chief "
@@ -343,6 +345,7 @@ CHAPTERS = [
         "title": "The Sealed Book, Spiritual Blindness, and Future Reversal",
         "era": "isaiah_woe",
         "type": "chapter",
+        "themes": ["SPIRIT", "REVERSAL"],
 
         "synopsis": "Isaiah pronounces woe upon 'Ariel' (ari'el) -- Jerusalem, the 'lion of God' or "
                     "'altar hearth of God.' YHWH will besiege his own city: 'I will distress Ariel, "
@@ -474,6 +477,7 @@ CHAPTERS = [
         "title": "The Host of Heaven Dissolved: Cosmic Judgment on the Nations and Their Gods",
         "era": "isaiah_woe",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "BLOOD"],
 
         "synopsis": "Isaiah 34 is one of the most terrifying cosmic judgment passages in all of Scripture. It "
                     "opens with a summons to the entire creation: 'Draw near, O nations (goyim), to hear, and "
@@ -705,6 +709,7 @@ CHAPTERS = [
         "title": "The Ransomed Return: Highway of Holiness",
         "era": "isaiah_woe",
         "type": "chapter",
+        "themes": ["REVERSAL", "LAND", "HOLY"],
 
         "synopsis": "Isaiah 35 is a dazzling vision of restoration that serves as the theological "
                     "bridge between First Isaiah (1-39) and Second Isaiah (40-55). The wilderness "

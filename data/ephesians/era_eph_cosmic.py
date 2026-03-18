@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "Blessed in the Heavenly Places -- The Cosmic Blessing and Christ's Enthronement",
         "era": "eph_cosmic",
         "type": "study",
+        "themes": ["DC", "KING", "BLOOD", "SEED", "NATIONS"],
 
         "synopsis": "Ephesians opens with the most sustained blessing (berakah/eulogia) in the New "
                     "Testament -- a single Greek sentence of 202 words (1:3-14) that cascades from "
@@ -201,6 +202,7 @@ CHAPTERS = [
         "title": "Dead, Raised, Seated -- From the Domain of the Archon to the Heavenly Places",
         "era": "eph_cosmic",
         "type": "study",
+        "themes": ["DC", "KING", "NATIONS", "REBEL", "EXILE"],
 
         "synopsis": "Ephesians 2 is the chapter of cosmic transfer. In 2:1-10, Paul describes the "
                     "individual believer's journey from spiritual death under the archon of the air "
@@ -417,6 +419,7 @@ CHAPTERS = [
         "title": "The Mystery Revealed to the Powers -- The Church's Cosmic Mission",
         "era": "eph_cosmic",
         "type": "study",
+        "themes": ["DC", "KING", "SEED", "HOLY", "NATIONS"],
 
         "synopsis": "Ephesians 3 contains the letter's theological climax: the revelation of the "
                     "'mystery' (mysterion) hidden for ages and now disclosed -- that the Gentiles are "
@@ -630,6 +633,7 @@ CHAPTERS = [
         "title": "Walk Worthy -- The New Humanity and the Descent of the Victor",
         "era": "eph_cosmic",
         "type": "study",
+        "themes": ["DC", "KING", "REBEL", "TYPE", "HOLY"],
 
         "synopsis": "The letter pivots from doctrine (chapters 1-3) to practice (chapters 4-6) with "
                     "the exhortation to 'walk worthy of the calling to which you have been called' "
@@ -818,6 +822,7 @@ CHAPTERS = [
         "title": "The Cosmic Household and the Armor of God -- Spiritual Warfare in the Heavenly Places",
         "era": "eph_cosmic",
         "type": "study",
+        "themes": ["DC", "KING", "HOLY", "BLOOD", "LOVE"],
 
         "synopsis": "The letter's final section moves from the household code (5:22-6:9) to the climactic "
                     "spiritual warfare passage (6:10-20). The household code transforms Greco-Roman social "

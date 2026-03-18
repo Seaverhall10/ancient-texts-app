@@ -10,6 +10,7 @@ CHAPTERS = [
         "title": "The Grief of God and the Commission of Noah",
         "era": "flood",
         "type": "chapter",
+        "themes": ['COV', 'REBEL', 'TYPE', 'HOLY', 'NAME'],
 
         "synopsis": "Genesis 6:5-22 marks a devastating turning point: God sees that human wickedness has become total, that 'every intention of the thoughts of his heart was only evil continually.' The passage ascribes to God a profound emotional response — he is 'grieved to his heart' (yitatsev) — and resolves to blot out (machah) all life from the earth. Yet in the midst of universal judgment, one man finds grace (chen) in the eyes of YHWH: Noah, described as righteous (tsaddiq) and blameless (tamim) in his generation, who 'walked with God' — the same phrase used of Enoch in Genesis 5:24. God reveals his plan to Noah and commissions the building of the tebah, a sealed chest designed not for navigation but for preservation through cosmic catastrophe.",
 
@@ -104,6 +105,7 @@ CHAPTERS = [
         "title": "The Flood Begins — Un-Creation and the Waters Prevail",
         "era": "flood",
         "type": "chapter",
+        "themes": ['COV', 'TYPE', 'HOLY', 'BLOOD'],
 
         "synopsis": "Genesis 7 narrates the onset of the mabbul — the catastrophic return of the primordial waters that reverses God's creative ordering in Genesis 1. The chapter opens with God's command to enter the ark and closes with the haunting statement that 'only Noah was left, and those who were with him in the ark.' Between these two points, the text describes the loading of animals (seven pairs of clean, two of unclean), the precise chronology of the flood's onset (the 600th year of Noah's life, the second month, the seventeenth day), and the terrifying mechanics of un-creation: the fountains of the great deep burst open and the windows of heaven are opened, releasing the waters above and below that God had separated on Day 2 of creation. The flood is not merely a natural disaster but a theological event — the deliberate dismantling of the created order.",
 
@@ -179,6 +181,7 @@ CHAPTERS = [
         "title": "The Waters Recede — Re-Creation and Noah's Altar",
         "era": "flood",
         "type": "chapter",
+        "themes": ['COV', 'TYPE', 'HOLY', 'BLOOD'],
 
         "synopsis": "Genesis 8 narrates the reversal of the flood and the emergence of a renewed world — a 're-creation' that deliberately mirrors the original creation sequence of Genesis 1. The chapter opens with the pivotal statement 'God remembered Noah' and traces the gradual recession of the waters: the fountains of the deep are stopped, the rain ceases, the waters recede over 150 days, and the ark comes to rest on the mountains of Ararat. Noah sends out first a raven, then a dove (three times), to test the state of the earth. When the ground is finally dry, God commands Noah to exit the ark — and Noah's first act is to build an altar and offer burnt offerings, eliciting from God the promise never again to curse the ground or destroy every living creature.",
 
@@ -250,6 +253,7 @@ CHAPTERS = [
         "title": "The Noahic Covenant — New Creation Mandate and the Rainbow Sign",
         "era": "flood",
         "type": "chapter",
+        "themes": ['COV', 'IMAGE', 'BLOOD', 'NAME', 'NATIONS'],
 
         "synopsis": "Genesis 9:1-17 presents the formal establishment of God's covenant with Noah — the first covenant explicitly named (berit) in Scripture. The passage functions as a new creation mandate, paralleling Genesis 1:28-30 with significant modifications for a post-flood world. God blesses Noah and his sons with the same words used for Adam — 'Be fruitful and multiply and fill the earth' — but the relationship between humanity and the animal kingdom has shifted: fear and dread now characterize it, and permission to eat meat is granted alongside a strict prohibition against consuming blood. The sanctity of human life is grounded in the image of God (9:6), and the covenant is sealed with the rainbow (qeshet) as its visible sign — a divine commitment never again to destroy the earth by flood.",
 
@@ -323,6 +327,7 @@ CHAPTERS = [
         "title": "Mesopotamian Flood Traditions — Gilgamesh, Atrahasis, and Ziusudra",
         "era": "flood",
         "type": "historical_insert",
+        "themes": [],
 
         "synopsis": "The biblical flood narrative did not exist in isolation. At least three major Mesopotamian flood traditions predate or are contemporary with the Genesis account: the Sumerian Flood Story (featuring Ziusudra), the Atrahasis Epic, and the Gilgamesh Epic Tablet XI (featuring Utnapishtim). The structural parallels between these accounts and Genesis 6-9 are extensive and undeniable — a divine warning, a single survivor, a boat, animals, birds sent out, a sacrifice. But the theological differences between Genesis and its ANE counterparts are even more significant than the structural similarities, and it is in those differences that the distinctive claims of the biblical text emerge most clearly.",
 

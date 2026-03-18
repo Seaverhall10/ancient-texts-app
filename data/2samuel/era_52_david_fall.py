@@ -21,6 +21,7 @@ CHAPTERS = [
         "title": "David and Bathsheba &mdash; Sin, Cover-Up, and Repentance",
         "era": "david_fall",
         "type": "chapter",
+        "themes": ["KING", "RIV", "BLOOD", "SEED"],
 
         "synopsis": "The narrator&rsquo;s opening is deliberately damning: &lsquo;In the spring of the year, "
                     "the time when kings go out to battle, David sent Joab... but David remained at "
@@ -558,6 +559,7 @@ CHAPTERS = [
         "title": "Restoration, Division, and Sheba&rsquo;s Revolt",
         "era": "david_fall",
         "type": "chapter",
+        "themes": ["KING", "COV", "REMNANT"],
 
         "synopsis": "David&rsquo;s grief over Absalom threatens to undo the victory. Joab rebukes the king "
                     "with brutal honesty: &lsquo;You have today covered with shame the faces of all your "

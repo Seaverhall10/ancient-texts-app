@@ -21,6 +21,7 @@ CHAPTERS = [
         "title": "The Davidic Covenant and the Kingdom Secured",
         "era": "david_kingdom_temple",
         "type": "chapter",
+        "themes": ["COV", "SEED", "KING", "DC"],
 
         "synopsis": "Chapter 17 is the theological heart of 1 Chronicles: the Davidic covenant. "
                     "David desires to build a 'house' (bayit, temple) for the Ark, but YHWH, through "
@@ -156,6 +157,7 @@ CHAPTERS = [
         "title": "Satan, the Census, and the Temple Site: The Divine Council at Work",
         "era": "david_kingdom_temple",
         "type": "chapter",
+        "themes": ["DC", "HOLY", "BLOOD", "PRIEST"],
 
         "synopsis": "1 Chronicles 21 is one of the most theologically rich chapters in the entire "
                     "Old Testament for understanding the divine council. 'Then Satan stood against "
@@ -325,6 +327,7 @@ CHAPTERS = [
         "title": "Temple Personnel and David's Final Acts: The Blueprint from Heaven",
         "era": "david_kingdom_temple",
         "type": "chapter",
+        "themes": ["PRIEST", "HOLY", "SPIRIT", "DC", "KING"],
 
         "synopsis": "The closing section of 1 Chronicles (chs. 23-29) is almost entirely the "
                     "Chronicler's unique material -- it has no parallel in Samuel-Kings. David "

@@ -21,6 +21,7 @@ CHAPTERS = [
         "title": "The Beginning -- Baptism, Temptation, and the First Exorcism",
         "era": "mark_servant",
         "type": "study",
+        "themes": ["KING", "SEED", "DC", "HOLY", "REBEL"],
 
         "synopsis": "Mark begins without a birth narrative or genealogy: 'The beginning of the gospel "
                     "(euangelion) of Jesus Christ, the Son of God' (1:1). The word euangelion ('good "
@@ -175,6 +176,7 @@ CHAPTERS = [
         "title": "Conflict, Parables, and Power Over Demons, Sea, and Death",
         "era": "mark_servant",
         "type": "study",
+        "themes": ["REBEL", "DC", "WOMEN", "KING", "SEED"],
 
         "synopsis": "Mark 2-5 escalates both the conflict and the revelation. Five controversy stories "
                     "(2:1-3:6) establish opposition: Jesus claims authority to forgive sins (2:1-12), "
@@ -327,6 +329,7 @@ CHAPTERS = [
         "title": "Feeding Miracles, Gentile Ministry, and the Bread of Life",
         "era": "mark_servant",
         "type": "study",
+        "themes": ["PROV", "TYPE", "KING", "DC", "WOMEN"],
 
         "synopsis": "Mark 6-8 expands the kingdom's reach beyond Israel into Gentile territory while "
                     "deepening the blindness motif. Jesus is rejected at Nazareth: 'A prophet is not "
@@ -447,6 +450,7 @@ CHAPTERS = [
         "title": "Peter's Confession, the Transfiguration, and the Way to the Cross",
         "era": "mark_servant",
         "type": "study",
+        "themes": ["KING", "SEED", "DC", "REBEL", "TYPE"],
 
         "synopsis": "This central section of Mark is framed by two healings of blind men (8:22-26; "
                     "10:46-52) -- a literary inclusio symbolizing the gradual opening of the disciples' "
@@ -597,6 +601,7 @@ CHAPTERS = [
         "title": "Jerusalem Conflicts and the Olivet Discourse",
         "era": "mark_servant",
         "type": "study",
+        "themes": ["DC", "SEED", "NATIONS", "KING", "RIV"],
 
         "synopsis": "Jesus enters Jerusalem riding a colt (11:1-11), cleanses the Temple (11:15-19), "
                     "and engages in a series of confrontations with the religious authorities. The fig "
@@ -722,6 +727,7 @@ CHAPTERS = [
         "title": "The Passion and the Empty Tomb",
         "era": "mark_servant",
         "type": "study",
+        "themes": ["DC", "KING", "COV", "HOLY", "BLOOD"],
 
         "synopsis": "Mark's passion narrative is the most raw and unflinching of the four Gospels. "
                     "Jesus is anointed at Bethany (14:3-9), celebrates the Last Supper and institutes "

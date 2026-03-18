@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "Cities of Refuge and the Justice of Witnesses",
         "era": "community",
         "type": "chapter",
+        "themes": ["LAW", "LAND"],
 
         "synopsis": "Deuteronomy 19 establishes the cities of refuge system and regulates judicial "
                     "evidence standards. Three cities are to be set apart in the Promised Land where "
@@ -152,6 +153,7 @@ CHAPTERS = [
         "title": "Laws of Holy War — Trust, Exemptions, and the Ban",
         "era": "community",
         "type": "chapter",
+        "themes": ["LAW", "NATIONS", "LAND", "HOLY"],
 
         "synopsis": "Deuteronomy 20 provides the most comprehensive warfare legislation in the Torah. "
                     "Before battle, the priest addresses the army: 'Do not let your heart faint. Do "
@@ -285,6 +287,7 @@ CHAPTERS = [
         "title": "Unsolved Murder, War Captives, and Family Law",
         "era": "community",
         "type": "chapter",
+        "themes": ["LAW", "BLOOD", "LAND"],
 
         "synopsis": "Deuteronomy 21 addresses three challenging social situations. First, the ritual "
                     "for an unsolved murder: the nearest city's elders must perform a heifer-breaking "
@@ -421,6 +424,7 @@ CHAPTERS = [
         "title": "Neighborly Duty, Distinctive Identity, and Sexual Ethics",
         "era": "community",
         "type": "chapter",
+        "themes": ["LAW", "HOLY"],
 
         "synopsis": "Deuteronomy 22 collects diverse community laws united by the theme of maintaining "
                     "covenant order. The chapter opens with obligations to return lost property and "
@@ -547,6 +551,7 @@ CHAPTERS = [
         "title": "Holiness of the Assembly — Inclusion, Exclusion, and Purity",
         "era": "community",
         "type": "chapter",
+        "themes": ["HOLY", "LAW", "NATIONS"],
 
         "synopsis": "Deuteronomy 23 defines the boundaries of the covenant assembly (qahal YHWH) and "
                     "legislates camp purity, vow fulfillment, and economic ethics. Certain categories "
@@ -672,6 +677,7 @@ CHAPTERS = [
         "title": "Divorce, Dignity, and Protection of the Vulnerable",
         "era": "community",
         "type": "chapter",
+        "themes": ["LAW", "LOVE", "REMEMBER"],
 
         "synopsis": "Deuteronomy 24 is a collection of humanitarian laws protecting the dignity of "
                     "individuals within the covenant community. The chapter opens with the divorce "
@@ -798,6 +804,7 @@ CHAPTERS = [
         "title": "Justice, Levirate Marriage, and Honest Measures",
         "era": "community",
         "type": "chapter",
+        "themes": ["LAW", "SEED", "NATIONS"],
 
         "synopsis": "Deuteronomy 25 addresses miscellaneous community laws with a focus on justice "
                     "and dignity. Judicial flogging is limited to forty stripes — 'lest, if one should "
@@ -912,6 +919,7 @@ CHAPTERS = [
         "title": "Firstfruits Confession and Covenant Ratification",
         "era": "community",
         "type": "chapter",
+        "themes": ["COV", "LAND", "REMEMBER", "HOLY"],
 
         "synopsis": "Deuteronomy 26 closes the Deuteronomic Code with two liturgical texts that "
                     "summarize the entire covenant relationship. The firstfruits confession (26:1-11) "

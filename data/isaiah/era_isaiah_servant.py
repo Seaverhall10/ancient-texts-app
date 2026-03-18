@@ -23,6 +23,7 @@ CHAPTERS = [
         "title": "First Servant Song: The Chosen One Commissioned",
         "era": "isaiah_servant",
         "type": "chapter",
+        "themes": ["SEED", "SPIRIT", "NATIONS", "COV"],
 
         "synopsis": (
             "The first Servant Song opens with YHWH's own introduction of his servant: "
@@ -240,6 +241,7 @@ CHAPTERS = [
         "title": "Second Servant Song: Light for the Nations",
         "era": "isaiah_servant",
         "type": "chapter",
+        "themes": ["SEED", "COV", "NATIONS", "REMNANT"],
 
         "synopsis": (
             "The Second Servant Song opens with the servant addressing not Israel but the "
@@ -477,6 +479,7 @@ CHAPTERS = [
         "title": "Third Servant Song: The Willing Sufferer",
         "era": "isaiah_servant",
         "type": "chapter",
+        "themes": ["SEED", "SPIRIT"],
 
         "synopsis": (
             "The Third Servant Song is the most personally intimate of the four: the servant "
@@ -713,6 +716,7 @@ CHAPTERS = [
         "title": "Fourth Servant Song: The Suffering and the Glory",
         "era": "isaiah_servant",
         "type": "chapter",
+        "themes": ["SEED", "BLOOD", "TYPE", "PRIEST", "REVERSAL"],
 
         "synopsis": (
             "The most explicit Messianic prophecy in the entire OT. [A] The Fourth Servant "

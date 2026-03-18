@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "Two Banquets and a Genocide Decree: Setting the Stage",
         "era": "for_such_a_time",
         "type": "chapter",
+        "themes": ["PROV", "WOMEN", "SEED", "NATIONS"],
 
         "synopsis": "The book opens with extravagant display: King Ahasuerus (Xerxes I) hosts a "
                     "180-day feast for his officials, followed by a seven-day banquet for all the "
@@ -154,6 +155,7 @@ CHAPTERS = [
         "title": "For Such a Time as This: The Great Reversal Begins",
         "era": "for_such_a_time",
         "type": "chapter",
+        "themes": ["PROV", "REVERSAL", "WOMEN", "SEED", "DC"],
 
         "synopsis": "The central section of Esther moves from crisis to reversal. Mordecai mourns in "
                     "sackcloth and ashes (4:1) and sends word to Esther to intercede with the king. "

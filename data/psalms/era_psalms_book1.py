@@ -21,6 +21,7 @@ CHAPTERS = [
         "title": "The Two Ways and the Enthroned Son -- Gateway to the Psalter",
         "era": "psalms_book1",
         "type": "chapter",
+        "themes": ["SEED", "KING", "DC", "LAW", "NATIONS"],
 
         "synopsis": "Psalms 1 and 2 function as a single literary gateway to the entire Psalter. "
                     "Psalm 1 establishes the two-ways theology: the righteous man who meditates "
@@ -186,6 +187,7 @@ CHAPTERS = [
         "title": "What Is Man? -- Human Dominion and the Divine Council",
         "era": "psalms_book1",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "KING"],
 
         "synopsis": "Psalm 8 is the creation psalm of Book I -- a hymn of praise that begins and "
                     "ends with the majesty of YHWH's name in all the earth. Between the bookends "
@@ -344,6 +346,7 @@ CHAPTERS = [
         "title": "Resurrection Hope and the Passion of the Righteous One",
         "era": "psalms_book1",
         "type": "chapter",
+        "themes": ["SEED", "PRIEST", "SPIRIT", "BLOOD", "TYPE"],
 
         "synopsis": "Psalms 16 and 22 are the two most significant messianic psalms in Book I -- "
                     "one pointing to resurrection, the other to the suffering that precedes it. "
@@ -524,6 +527,7 @@ CHAPTERS = [
         "title": "The Shepherd and the King of Glory",
         "era": "psalms_book1",
         "type": "chapter",
+        "themes": ["KING", "HOLY", "GLORY"],
 
         "synopsis": "Psalms 23 and 24 form a natural pair following the passion of Psalm 22. After "
                     "the suffering and vindication of the righteous one, Psalm 23 presents YHWH as "
@@ -669,6 +673,7 @@ CHAPTERS = [
         "title": "The Voice of YHWH -- Storm Theophany and Canaanite Polemic",
         "era": "psalms_book1",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "KING"],
 
         "synopsis": "Psalm 29 is the great storm theophany psalm -- a hymn that calls on the 'sons "
                     "of God' (bene elim) to ascribe glory to YHWH as his voice (qol YHWH) thunders "
@@ -835,6 +840,7 @@ CHAPTERS = [
         "title": "Creation by the Word and the Angel of YHWH",
         "era": "psalms_book1",
         "type": "chapter",
+        "themes": ["DC", "PROV"],
 
         "synopsis": "Psalms 33 and 34 round out the major theological themes of Book I. Psalm 33 is "
                     "a creation hymn celebrating YHWH's sovereign word: 'By the word (davar) of "
@@ -1023,6 +1029,7 @@ CHAPTERS = [
         "title": "Book I Synthesis: The Divine Council Theology of the Davidic Psalms",
         "era": "psalms_book1",
         "type": "chapter",
+        "themes": ["KING", "SEED", "DC"],
 
         "synopsis": "Book I (Psalms 1-41) establishes the theological foundation for the entire "
                     "Psalter. Its major themes -- Torah piety (Ps 1), royal enthronement (Ps 2), "

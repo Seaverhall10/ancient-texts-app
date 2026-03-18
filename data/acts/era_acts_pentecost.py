@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "Pentecost: The Spirit Reverses Babel",
         "era": "acts_pentecost",
         "type": "study",
+        "themes": ["KING", "SEED", "SPIRIT", "REVERSAL", "NATIONS"],
 
         "synopsis": "Pentecost (Shavuot) falls 50 days after Passover and celebrates both the wheat harvest "
                     "and the giving of Torah at Sinai. God chose this day to pour out the Spirit because the "
@@ -60,11 +61,11 @@ CHAPTERS = [
                          "Qumran sought: a covenant community empowered by God's own Spirit.",
 
         "cross_refs": [
-            {"ref": "Genesis 11:1-9", "note": "Babel — languages confused to scatter; Pentecost reverses this by giving languages to gather"},
-            {"ref": "Exodus 19:16-19", "note": "Sinai theophany — fire, sound, divine presence; Pentecost repeats these signs"},
-            {"ref": "Joel 2:28-32", "note": "Peter's primary text: 'I will pour out my Spirit on all flesh' — now fulfilled"},
-            {"ref": "Jeremiah 31:31-34", "note": "The new covenant written on hearts by the Spirit — inaugurated at Pentecost"},
-            {"ref": "Exodus 32:28", "note": "3,000 died at the golden calf; 3,000 saved at Pentecost — grace reverses judgment"}
+            {"ref": "Genesis 11:1-9", "note": "Babel — languages confused to scatter; Pentecost reverses this by giving languages to gather", "type": "ot"},
+            {"ref": "Exodus 19:16-19", "note": "Sinai theophany — fire, sound, divine presence; Pentecost repeats these signs", "type": "ot"},
+            {"ref": "Joel 2:28-32", "note": "Peter's primary text: 'I will pour out my Spirit on all flesh' — now fulfilled", "type": "ot"},
+            {"ref": "Jeremiah 31:31-34", "note": "The new covenant written on hearts by the Spirit — inaugurated at Pentecost", "type": "ot"},
+            {"ref": "Exodus 32:28", "note": "3,000 died at the golden calf; 3,000 saved at Pentecost — grace reverses judgment", "type": "ot"}
         ],
 
         "divine_council_note": "Peter's sermon places Jesus at 'the right hand of God' (2:33) -- the seat "
@@ -111,6 +112,7 @@ CHAPTERS = [
         "title": "Signs, Boldness, and the First Persecution",
         "era": "acts_pentecost",
         "type": "study",
+        "themes": ["KING", "NAME", "DC", "HOLY", "SPIRIT"],
 
         "synopsis": "The apostles' first miracle -- healing a lame man at the Beautiful Gate (3:1-10) -- "
                     "provokes a public sermon and the first arrest. Peter and John are brought before the "
@@ -154,11 +156,11 @@ CHAPTERS = [
                          "apostles were claiming authority independent of the temple establishment.",
 
         "cross_refs": [
-            {"ref": "Isaiah 35:6", "note": "The lame shall leap like a deer — messianic prophecy fulfilled in the Beautiful Gate healing"},
-            {"ref": "Psalm 118:22", "note": "Peter quotes this again (4:11): the stone rejected by builders has become the cornerstone"},
-            {"ref": "Joshua 7:1-26", "note": "Achan's sin of concealment — parallel to Ananias and Sapphira's deception"},
-            {"ref": "Psalm 2:1-2", "note": "The early church prays Psalm 2 (4:25-26): 'Why do the nations rage?' — applying it to their situation"},
-            {"ref": "Daniel 3:16-18", "note": "Shadrach, Meshach, Abednego refuse to bow — the same defiant obedience the apostles show"}
+            {"ref": "Isaiah 35:6", "note": "The lame shall leap like a deer — messianic prophecy fulfilled in the Beautiful Gate healing", "type": "ot"},
+            {"ref": "Psalm 118:22", "note": "Peter quotes this again (4:11): the stone rejected by builders has become the cornerstone", "type": "ot"},
+            {"ref": "Joshua 7:1-26", "note": "Achan's sin of concealment — parallel to Ananias and Sapphira's deception", "type": "ot"},
+            {"ref": "Psalm 2:1-2", "note": "The early church prays Psalm 2 (4:25-26): 'Why do the nations rage?' — applying it to their situation", "type": "ot"},
+            {"ref": "Daniel 3:16-18", "note": "Shadrach, Meshach, Abednego refuse to bow — the same defiant obedience the apostles show", "type": "ot"}
         ],
 
         "divine_council_note": "Peter tells the Sanhedrin that Jesus is 'the stone that was rejected by you, "
@@ -206,6 +208,7 @@ CHAPTERS = [
         "title": "Stephen: Israel's History as Divine Council Narrative",
         "era": "acts_pentecost",
         "type": "study",
+        "themes": ["DC", "SPIRIT", "SEED", "RIV", "COV"],
 
         "synopsis": "The appointment of seven deacons (6:1-7) resolves a Hellenist-Hebrew tension over widow "
                     "care. Stephen, 'full of grace and power' (6:8), performs signs and engages in theological "
@@ -250,11 +253,11 @@ CHAPTERS = [
                          "it was a mob action during a period of lax Roman oversight.",
 
         "cross_refs": [
-            {"ref": "Isaiah 66:1-2", "note": "Heaven is my throne, earth my footstool — Stephen's climactic quote against temple-idolatry"},
-            {"ref": "1 Kings 8:27", "note": "Solomon's temple prayer: 'Heaven cannot contain you' — Stephen echoes the temple builder himself"},
-            {"ref": "Exodus 33:3,5", "note": "'Stiff-necked people' — God's own term for Israel; Stephen applies it to the Sanhedrin"},
-            {"ref": "Daniel 7:13", "note": "Son of Man at God's right hand — Stephen sees this vision fulfilled in real time"},
-            {"ref": "Luke 23:34,46", "note": "Jesus' cross prayers — Stephen echoes both: 'Receive my spirit' and 'Do not hold this sin against them'"}
+            {"ref": "Isaiah 66:1-2", "note": "Heaven is my throne, earth my footstool — Stephen's climactic quote against temple-idolatry", "type": "ot"},
+            {"ref": "1 Kings 8:27", "note": "Solomon's temple prayer: 'Heaven cannot contain you' — Stephen echoes the temple builder himself", "type": "ot"},
+            {"ref": "Exodus 33:3,5", "note": "'Stiff-necked people' — God's own term for Israel; Stephen applies it to the Sanhedrin", "type": "ot"},
+            {"ref": "Daniel 7:13", "note": "Son of Man at God's right hand — Stephen sees this vision fulfilled in real time", "type": "ot"},
+            {"ref": "Luke 23:34,46", "note": "Jesus' cross prayers — Stephen echoes both: 'Receive my spirit' and 'Do not hold this sin against them'", "type": "nt"}
         ],
 
         "divine_council_note": "Stephen's vision is a divine council scene: 'I see the heavens opened, and "
@@ -307,6 +310,7 @@ CHAPTERS = [
         "title": "Philip, Saul's Conversion, and the Cornelius Breakthrough",
         "era": "acts_pentecost",
         "type": "study",
+        "themes": ["NATIONS", "HOLY", "SPIRIT", "SEED", "REVERSAL"],
 
         "synopsis": "The scattering from Stephen's persecution drives the gospel outward in concentric circles, "
                     "exactly as Jesus predicted (1:8). Philip goes to Samaria -- the despised half-breed territory "
@@ -351,11 +355,11 @@ CHAPTERS = [
                          "position that Gentiles must become Jews to be saved.",
 
         "cross_refs": [
-            {"ref": "Isaiah 53:7-8", "note": "The passage the Ethiopian eunuch was reading — the Suffering Servant led like a sheep to slaughter"},
-            {"ref": "Isaiah 56:3-5", "note": "Eunuchs promised a name and memorial in God's house — fulfilled in the eunuch's baptism"},
-            {"ref": "Genesis 12:3", "note": "In Abraham all families blessed — the Cornelius episode begins fulfilling the Abrahamic promise"},
-            {"ref": "Ephesians 2:14-16", "note": "Christ broke down the dividing wall of hostility between Jew and Gentile"},
-            {"ref": "Deuteronomy 32:8-9", "note": "Nations allotted to other gods, Israel to YHWH — now the barrier is broken; all nations belong to God"}
+            {"ref": "Isaiah 53:7-8", "note": "The passage the Ethiopian eunuch was reading — the Suffering Servant led like a sheep to slaughter", "type": "ot"},
+            {"ref": "Isaiah 56:3-5", "note": "Eunuchs promised a name and memorial in God's house — fulfilled in the eunuch's baptism", "type": "ot"},
+            {"ref": "Genesis 12:3", "note": "In Abraham all families blessed — the Cornelius episode begins fulfilling the Abrahamic promise", "type": "ot"},
+            {"ref": "Ephesians 2:14-16", "note": "Christ broke down the dividing wall of hostility between Jew and Gentile", "type": "nt"},
+            {"ref": "Deuteronomy 32:8-9", "note": "Nations allotted to other gods, Israel to YHWH — now the barrier is broken; all nations belong to God", "type": "ot"}
         ],
 
         "divine_council_note": "The Cornelius event is a Deuteronomy 32 reversal. The nations were allotted to "

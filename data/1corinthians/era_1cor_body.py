@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "The Wisdom of the Cross vs. the Rulers of This Age",
         "era": "1cor_body",
         "type": "chapter",
+        "themes": ["DC", "KING", "TYPE", "HOLY", "REBEL"],
 
         "synopsis": "Paul opens by addressing the Corinthian factions: some claim Paul, others Apollos, "
                     "others Cephas, others Christ (1:10-17). He rejects this personality cult by pointing "
@@ -173,6 +174,7 @@ CHAPTERS = [
         "title": "Purity, Judgment, and the Body -- Saints Who Judge Angels",
         "era": "1cor_body",
         "type": "chapter",
+        "themes": ["DC", "KING", "BLOOD", "REBEL", "HOLY"],
 
         "synopsis": "Paul addresses a shocking case of sexual immorality: a man is living with his father's "
                     "wife (stepmother), and the church is 'puffed up' rather than grieving (5:1-2). Paul "
@@ -324,6 +326,7 @@ CHAPTERS = [
         "title": "Idol Food, Demons, and the Angels Who Watch",
         "era": "1cor_body",
         "type": "chapter",
+        "themes": ["DC", "WOMEN", "KING", "REBEL", "BLOOD"],
 
         "synopsis": "Paul addresses three interconnected issues: eating meat sacrificed to idols (chs. 8-10), "
                     "his apostolic rights and example of self-denial (ch. 9), and worship order including "
@@ -477,6 +480,7 @@ CHAPTERS = [
         "title": "Spiritual Gifts, the Body, and the Way of Love",
         "era": "1cor_body",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "KING", "LOVE", "HOLY"],
 
         "synopsis": "Paul addresses the Corinthians' questions about 'spiritual gifts' (pneumatika, 12:1). "
                     "He establishes that all genuine gifts come from the same Spirit (12:4-11), lists nine "
@@ -627,6 +631,7 @@ CHAPTERS = [
         "title": "Resurrection and the Destruction of Every Power",
         "era": "1cor_body",
         "type": "chapter",
+        "themes": ["KING", "DC", "SEED", "BLOOD", "HOLY"],
 
         "synopsis": "Chapter 15 is the most sustained argument for bodily resurrection in the New Testament "
                     "and contains one of the most important divine council passages: Christ destroys 'every "

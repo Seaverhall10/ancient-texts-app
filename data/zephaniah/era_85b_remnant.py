@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "Jerusalem Indicted, Then YHWH Sings Over His People",
         "era": "zeph_singing",
         "type": "chapter",
+        "themes": ["REMNANT", "REVERSAL", "LOVE", "KING"],
 
         "synopsis": "Chapter 3 turns the lens on Jerusalem itself: 'Woe to her who is rebellious and "
                     "defiled, the oppressing city! She listens to no voice; she accepts no correction' (3:1-2). "

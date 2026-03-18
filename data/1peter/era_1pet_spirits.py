@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "Suffering for Righteousness -- The Pattern of Christ",
         "era": "1pet_spirits",
         "type": "study",
+        "themes": ["DC", "BLOOD", "KING", "TYPE", "HOLY"],
 
         "synopsis": "Peter lays the groundwork for the spirits-in-prison revelation by "
                     "establishing the theology of righteous suffering. Believers are called to "
@@ -209,6 +210,7 @@ CHAPTERS = [
         "title": "The Spirits in Prison -- Christ's Victory Over the Watchers",
         "era": "1pet_spirits",
         "type": "study",
+        "themes": ["DC", "REBEL", "KING", "SEED", "TYPE"],
 
         "synopsis": "This is THE key passage linking New Testament theology to the Enochic "
                     "Watcher tradition. Having been 'made alive in the spirit,' Christ 'went and "
@@ -409,6 +411,7 @@ CHAPTERS = [
         "title": "The Gospel Preached to the Dead -- Living in the Spirit",
         "era": "1pet_spirits",
         "type": "study",
+        "themes": ["KING", "SEED", "DC", "TYPE", "LOVE"],
 
         "synopsis": "Peter transitions from the cosmic victory of Christ over the imprisoned "
                     "Watchers to its practical implications for believers. Since Christ 'suffered in "

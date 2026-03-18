@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "Israel Demands a King -- Rejecting YHWH's Kingship",
         "era": "saul_rise",
         "type": "chapter",
+        "themes": ["KING", "DC", "NATIONS", "COV", "RIV"],
 
         "synopsis": "Samuel grows old and appoints his sons Joel and Abijah as judges, but they are "
                     "corrupt -- taking bribes and perverting justice (8:3). The elders of Israel gather "
@@ -151,6 +152,7 @@ CHAPTERS = [
         "title": "Saul Anointed, Spirit-Empowered, and Publicly Confirmed",
         "era": "saul_rise",
         "type": "chapter",
+        "themes": ["KING", "SPIRIT", "COV"],
 
         "synopsis": "Saul son of Kish, of the tribe of Benjamin, is introduced: 'a handsome young man, "
                     "taller than any of the people from his shoulders upward' (9:2). His search for lost "
@@ -290,6 +292,7 @@ CHAPTERS = [
         "title": "Saul's Disobedience and Rejection -- Obedience vs. Sacrifice",
         "era": "saul_rise",
         "type": "chapter",
+        "themes": ["KING", "HOLY", "RIV", "BLOOD"],
 
         "synopsis": "Saul's reign deteriorates through two decisive acts of disobedience. First, at "
                     "Gilgal, facing a massive Philistine force while his troops desert, Saul grows "

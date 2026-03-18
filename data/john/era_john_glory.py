@@ -30,6 +30,7 @@ CHAPTERS = [
         "title": "The Foot-Washing and Judas's Departure -- The Hour Has Come",
         "era": "john_glory",
         "type": "chapter",
+        "themes": ["DC", "TYPE", "KING", "SEED", "REBEL"],
 
         "synopsis": "Chapter 13 opens the Book of Glory with one of the most dramatic scenes in the "
                     "Gospels. 'Now before the Feast of the Passover, when Jesus knew that his hour "
@@ -204,6 +205,7 @@ CHAPTERS = [
         "title": "The Farewell Discourse -- The Way, the Parakletos, and the Vine",
         "era": "john_glory",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "KING", "TYPE", "HOLY"],
 
         "synopsis": "Chapters 14-16 comprise the Farewell Discourse (sometimes called the 'Upper Room "
                     "Discourse') -- Jesus' final extended teaching before his death, addressed to the "
@@ -443,6 +445,7 @@ CHAPTERS = [
         "title": "The High Priestly Prayer -- Pre-Existent Glory and the Unity of God's People",
         "era": "john_glory",
         "type": "chapter",
+        "themes": ["DC", "TYPE", "PRIEST", "HOLY", "SEED"],
 
         "synopsis": "John 17 is the longest recorded prayer of Jesus in the Gospels and one of the most "
                     "theologically profound passages in the Bible. Traditionally called the 'High "
@@ -650,6 +653,7 @@ CHAPTERS = [
         "title": "The Trial and Crucifixion -- It Is Finished (Tetelestai)",
         "era": "john_glory",
         "type": "chapter",
+        "themes": ["KING", "BLOOD", "DC", "RIV", "SEED"],
 
         "synopsis": "Chapters 18-19 narrate the arrest, trial, and crucifixion of Jesus -- but in John's "
                     "theology, these are not events of defeat but of triumph. Jesus goes to the cross "
@@ -858,6 +862,7 @@ CHAPTERS = [
         "title": "The Resurrection -- My Lord and My God",
         "era": "john_glory",
         "type": "chapter",
+        "themes": ["DC", "SEED", "SPIRIT", "BLOOD", "KING"],
 
         "synopsis": "Chapters 20-21 narrate the resurrection of Jesus and its aftermath -- the climax "
                     "of the Gospel's theological argument and the vindication of every claim Jesus has "

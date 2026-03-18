@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "The Second Census — A New Generation",
         "era": "plains_moab",
         "type": "chapter",
+        "themes": ["LAND", "COV"],
 
         "synopsis": "Numbers 26 records the second census of Israel, taken on the Plains of "
                     "Moab after the plague of Baal-Peor — the structural counterpart to the "
@@ -178,6 +179,7 @@ CHAPTERS = [
         "title": "Zelophehad's Daughters and Joshua's Commission",
         "era": "plains_moab",
         "type": "chapter",
+        "themes": ["LAND", "LAW"],
 
         "synopsis": "Numbers 27 contains two landmark passages that prepare for the post-Moses "
                     "era. The first is the case of Zelophehad's daughters — Mahlah, Noah, "
@@ -331,6 +333,7 @@ CHAPTERS = [
         "title": "The Festival Calendar — The Rhythm of Worship",
         "era": "plains_moab",
         "type": "chapter",
+        "themes": ["BLOOD", "HOLY", "TYPE"],
 
         "synopsis": "Numbers 28-29 prescribes the complete sacrificial calendar for Israel's "
                     "worship in the land — the daily, weekly, monthly, and annual offerings "
@@ -481,6 +484,7 @@ CHAPTERS = [
         "title": "Vows and the War Against Midian",
         "era": "plains_moab",
         "type": "chapter",
+        "themes": ["LAW", "NATIONS", "HOLY"],
 
         "synopsis": "Numbers 30-31 addresses two subjects that may seem unrelated but share a "
                     "common theme: the binding power of covenant words. Chapter 30 legislates "
@@ -629,6 +633,7 @@ CHAPTERS = [
         "title": "The Transjordan Settlement — Reuben, Gad, and Half-Manasseh",
         "era": "plains_moab",
         "type": "chapter",
+        "themes": ["LAND", "COV"],
 
         "synopsis": "Numbers 32 records a tense negotiation that nearly triggers a second spy-"
                     "narrative disaster. The tribes of Reuben and Gad, possessing large herds, "
@@ -763,6 +768,7 @@ CHAPTERS = [
         "title": "Itinerary, Boundaries, Levitical Cities, and Inheritance Finalized",
         "era": "plains_moab",
         "type": "chapter",
+        "themes": ["LAND", "PRIEST", "LAW", "REMEMBER"],
 
         "synopsis": "The final four chapters of Numbers bring the book to closure with four "
                     "subjects that prepare Israel for life in the land. Chapter 33 records "

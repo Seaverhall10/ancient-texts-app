@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "Sanctification and Holiness -- How to Walk Before God",
         "era": "1thess_day",
         "type": "study",
+        "themes": ["HOLY", "LAW", "COV", "DC", "KING"],
 
         "synopsis": "Paul transitions from thanksgiving and personal defense (chs. 1-3) to direct "
                     "exhortation on holy living. The Thessalonian believers, newly converted from paganism, "
@@ -180,6 +181,7 @@ CHAPTERS = [
         "title": "The Dead in Christ Shall Rise First -- The Parousia",
         "era": "1thess_day",
         "type": "study",
+        "themes": ["DC", "KING", "TYPE", "SPIRIT", "LAW"],
 
         "synopsis": "Paul addresses the Thessalonians' most urgent pastoral crisis: believers have died "
                     "before Christ's return, and the community is grieving without hope. Paul's response is "
@@ -363,6 +365,7 @@ CHAPTERS = [
         "title": "The Day of the Lord -- Children of Light",
         "era": "1thess_day",
         "type": "study",
+        "themes": ["DC", "KING", "HOLY", "RIV", "COV"],
 
         "synopsis": "Having answered the question about the fate of the dead (4:13-18), Paul now addresses "
                     "the timing of the parousia: 'Now concerning the times and the seasons, brothers, you "

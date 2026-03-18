@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Man of Lawlessness Revealed",
         "era": "2thess_mystery",
         "type": "study",
+        "themes": ["DC", "KING", "REBEL", "TYPE", "HOLY"],
 
         "synopsis": "Paul addresses the Thessalonians' alarm that 'the day of the Lord has already come' "
                     "(2:2). He corrects this with a definitive eschatological sequence: two events must "
@@ -191,6 +192,7 @@ CHAPTERS = [
         "title": "The Restrainer and the Mystery",
         "era": "2thess_mystery",
         "type": "study",
+        "themes": ["KING", "DC", "REBEL", "LAW", "TYPE"],
 
         "synopsis": "Paul reminds the Thessalonians of what he told them in person: 'you know what is "
                     "restraining him now' (to katechon, neuter, 2:6) and 'he who now restrains' (ho "
@@ -372,6 +374,7 @@ CHAPTERS = [
         "title": "The Deluding Influence",
         "era": "2thess_mystery",
         "type": "study",
+        "themes": ["KING", "DC", "TYPE", "REBEL", "HOLY"],
 
         "synopsis": "The final section of 2 Thessalonians 2 reveals the satanic power behind the lawless "
                     "one and the divine response to those who embrace him. The lawless one's coming is "

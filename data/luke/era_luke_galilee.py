@@ -23,6 +23,7 @@ CHAPTERS = [
         "title": "The Birth Narratives -- Magnificat, Benedictus, and the Light to the Nations",
         "era": "luke_galilee",
         "type": "study",
+        "themes": ["DC", "KING", "SEED", "COV", "TYPE"],
 
         "synopsis": "Luke's birth narratives are the most elaborate in the NT, framing Jesus' arrival "
                     "in the language and cadence of the Old Testament. The angel Gabriel appears to "
@@ -170,6 +171,7 @@ CHAPTERS = [
         "title": "Baptism, Genealogy, and the Nazareth Sermon -- Satan's Claim and YHWH's Anointed",
         "era": "luke_galilee",
         "type": "study",
+        "themes": ["KING", "SEED", "DC", "REBEL", "NATIONS"],
 
         "synopsis": "Luke sets the stage with precise historical synchronization (3:1-2), placing "
                     "John's ministry in world-historical context. Jesus is baptized (3:21-22), the "
@@ -301,6 +303,7 @@ CHAPTERS = [
         "title": "Calling Disciples, Healing, and the Sermon on the Plain",
         "era": "luke_galilee",
         "type": "study",
+        "themes": ["HOLY", "TYPE", "KING", "LOVE", "COV"],
 
         "synopsis": "Jesus calls his first disciples with a miraculous catch of fish (5:1-11), heals "
                     "a leper and a paralytic (forgiving sins, 5:17-26), calls Levi the tax collector "
@@ -416,6 +419,7 @@ CHAPTERS = [
         "title": "Faith of Gentiles, Raising the Dead, and Parables of the Kingdom",
         "era": "luke_galilee",
         "type": "study",
+        "themes": ["KING", "TYPE", "WOMEN", "LOVE", "DC"],
 
         "synopsis": "Chapters 7-8 demonstrate the kingdom's power reaching beyond expected boundaries. "
                     "A Roman centurion's faith astounds Jesus: 'I tell you, not even in Israel have I "
@@ -530,6 +534,7 @@ CHAPTERS = [
         "title": "The Twelve Sent, Peter's Confession, Transfiguration, and the Turn to Jerusalem",
         "era": "luke_galilee",
         "type": "study",
+        "themes": ["KING", "BLOOD", "SEED", "DC", "TYPE"],
 
         "synopsis": "Chapter 9 is the hinge of Luke's Gospel. Jesus sends the Twelve with 'power and "
                     "authority over all demons and to cure diseases' (9:1). He feeds the 5,000 (9:10-17). "

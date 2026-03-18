@@ -21,6 +21,7 @@ CHAPTERS = [
         "title": "The Broken Covenant and the First Confession",
         "era": "jeremiah_confessions",
         "type": "chapter",
+        "themes": ["COV", "RIV", "SPIRIT"],
 
         "synopsis": "Chapter 11 announces that Judah has broken the Sinai covenant: 'Cursed be the man "
                     "who does not hear the words of this covenant that I commanded your fathers when I "
@@ -142,6 +143,7 @@ CHAPTERS = [
         "title": "The Prophet's Confessions -- Anguish and Endurance",
         "era": "jeremiah_confessions",
         "type": "chapter",
+        "themes": ["SPIRIT", "RIV"],
 
         "synopsis": "Chapters 15-20 contain Jeremiah's most agonized confessions -- the deep interior "
                     "monologue of a prophet who loves his people but must pronounce their doom. The "
@@ -281,6 +283,7 @@ CHAPTERS = [
         "title": "The Righteous Branch and the Council of YHWH",
         "era": "jeremiah_confessions",
         "type": "chapter",
+        "themes": ["SEED", "KING", "DC", "NAME"],
 
         "synopsis": "Chapter 23 is the theological summit of Jeremiah -- containing both the messianic "
                     "Branch prophecy (23:5-6) and the definitive statement on divine council access "
@@ -437,6 +440,7 @@ CHAPTERS = [
         "title": "The 70 Years and the Cup of Wrath",
         "era": "jeremiah_confessions",
         "type": "chapter",
+        "themes": ["NATIONS", "EXILE", "DC"],
 
         "synopsis": "Chapter 25 is the hinge of the entire book, containing two pivotal prophecies: "
                     "the 70 years of Babylonian exile (25:11-12) and the cup of YHWH's wrath poured "

@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "Seated Far Above All Rule and Authority -- The Enthronement and the Archon",
         "era": "eph_warfare",
         "type": "study",
+        "themes": ["DC", "KING", "REBEL", "SEED", "TYPE"],
 
         "synopsis": "The 'en tois epouraniois' motif that structures the entire letter begins with "
                     "Christ's enthronement far above the cosmic hierarchy. Paul prays that believers "
@@ -212,6 +213,7 @@ CHAPTERS = [
         "title": "The Wisdom of God Made Known to the Powers -- The Church's Cosmic Mission",
         "era": "eph_warfare",
         "type": "study",
+        "themes": ["DC", "KING", "REBEL", "HOLY", "NATIONS"],
 
         "synopsis": "Ephesians 3:10 is the single most important verse for understanding the church's "
                     "cosmic identity: 'so that through the church the manifold wisdom (polypoikilos "
@@ -421,6 +423,7 @@ CHAPTERS = [
         "title": "The Full Armor of God Against Cosmic Powers -- Warfare in the Heavenly Places",
         "era": "eph_warfare",
         "type": "study",
+        "themes": ["DC", "KING", "HOLY", "REBEL", "TYPE"],
 
         "synopsis": "The letter's final section brings the 'en tois epouraniois' motif to its climax "
                     "in direct spiritual combat. Paul identifies the enemy with unparalleled specificity: "

@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "Lament, Hebron, and the Civil War",
         "era": "david_united",
         "type": "chapter",
+        "themes": ["KING", "COV", "SEED"],
 
         "synopsis": "An Amalekite messenger brings news of Saul's death to David at Ziklag, claiming "
                     "to have killed Saul at his request. David's response is not relief but grief and "
@@ -158,6 +159,7 @@ CHAPTERS = [
         "title": "Jerusalem Conquered, the Ark Comes Home",
         "era": "david_united",
         "type": "chapter",
+        "themes": ["KING", "HOLY", "LAND", "DC"],
 
         "synopsis": "All the tribes of Israel come to David at Hebron: 'Behold, we are your bone and "
                     "flesh... YHWH said to you, You shall be shepherd of my people Israel, and you shall "
@@ -316,6 +318,7 @@ CHAPTERS = [
         "title": "The Davidic Covenant -- The Eternal Throne Promise",
         "era": "david_united",
         "type": "chapter",
+        "themes": ["COV", "SEED", "KING", "TYPE"],
 
         "synopsis": "This is the theological center of the entire Samuel-Kings narrative and arguably "
                     "the most important messianic text in the Old Testament. David, now at rest from "
@@ -520,6 +523,7 @@ CHAPTERS = [
         "title": "David's Empire and Covenant Faithfulness to Jonathan's House",
         "era": "david_united",
         "type": "chapter",
+        "themes": ["KING", "NATIONS", "LAND", "COV"],
 
         "synopsis": "David's military campaigns establish Israel's greatest territorial extent: he "
                     "defeats the Philistines, Moabites, Zobah, Arameans, Edomites, and Ammonites (ch. "

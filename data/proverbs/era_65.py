@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Words of the Wise -- The Amenemope Connection",
         "era": "65",
         "type": "chapter",
+        "themes": ["PROV", "RIV", "LAW"],
 
         "synopsis": "This section opens: 'Incline your ear, and hear the words of the wise, and apply "
                     "your heart to my knowledge' (22:17). The 'thirty sayings' (22:20, emending 'excellent "
@@ -131,6 +132,7 @@ CHAPTERS = [
         "title": "The Hezekiah Collection -- Solomonic Proverbs Recovered",
         "era": "65",
         "type": "chapter",
+        "themes": ["PROV", "KING", "LOVE"],
 
         "synopsis": "This collection has a unique historical superscription: 'These also are proverbs of "
                     "Solomon which the men of Hezekiah king of Judah copied out (he'etiqu)' (25:1). "
@@ -242,6 +244,7 @@ CHAPTERS = [
         "title": "Agur, Lemuel, and the Valiant Woman",
         "era": "65",
         "type": "chapter",
+        "themes": ["PROV", "DC", "WOMEN", "SEED"],
 
         "synopsis": "The final two chapters present three distinct voices. Agur son of Jakeh (30:1-33) "
                     "opens with radical humility: 'Surely I am too stupid to be a man. I have not the "

@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "From Adam to the Restoration: The Genealogical Prologue",
         "era": "genealogies_david_rise",
         "type": "chapter",
+        "themes": ["SEED", "NATIONS", "DC", "PRIEST"],
 
         "synopsis": "The Chronicler begins not with a narrative but with a genealogy that spans "
                     "from Adam to the post-exilic community. This is a theological statement of "
@@ -176,6 +177,7 @@ CHAPTERS = [
         "title": "Saul's Fall and David's Anointing: The Transfer of the Kingdom",
         "era": "genealogies_david_rise",
         "type": "chapter",
+        "themes": ["KING", "SPIRIT", "COV"],
 
         "synopsis": "The Chronicler's narrative proper begins abruptly with Saul's death at Mount "
                     "Gilboa (ch. 10) -- there is no account of Saul's rise, his anointing, his "
@@ -292,6 +294,7 @@ CHAPTERS = [
         "title": "The Ark Comes to Jerusalem: David the Worshipper",
         "era": "genealogies_david_rise",
         "type": "chapter",
+        "themes": ["HOLY", "PRIEST", "DC", "NATIONS"],
 
         "synopsis": "The heart of the first half of 1 Chronicles is the story of the Ark of the "
                     "Covenant's journey to Jerusalem. David's first attempt to bring the Ark fails "

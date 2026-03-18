@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The Commanded Marriage and the Children of Judgment",
         "era": "hosea_marriage",
         "type": "chapter",
+        "themes": ["COV", "LOVE", "WOMEN", "SEED", "TYPE"],
 
         "synopsis": "YHWH's first word to Hosea is a command that would shatter any prophet: 'Go, take "
                     "to yourself a wife of whoredom (eshet zenunim) and have children of whoredom, for "
@@ -164,6 +165,7 @@ CHAPTERS = [
         "title": "The Covenant Lawsuit and the Wilderness Betrothal",
         "era": "hosea_marriage",
         "type": "chapter",
+        "themes": ["COV", "LOVE", "WOMEN", "LAND", "REVERSAL"],
 
         "synopsis": "Chapter 2 is the theological center of Hosea's marriage metaphor. YHWH brings a rib "
                     "(covenant lawsuit) against his unfaithful wife Israel. She has pursued her 'lovers' "
@@ -280,6 +282,7 @@ CHAPTERS = [
         "title": "The Redemption of the Adulterous Wife",
         "era": "hosea_marriage",
         "type": "chapter",
+        "themes": ["COV", "LOVE", "WOMEN", "TYPE"],
 
         "synopsis": "In a terse, five-verse autobiographical account, YHWH commands Hosea again: 'Go, love "
                     "a woman who is loved by another man and is an adulteress, even as YHWH loves the "
@@ -373,6 +376,7 @@ CHAPTERS = [
         "title": "The Covenant Lawsuit: No Knowledge of God in the Land",
         "era": "hosea_marriage",
         "type": "chapter",
+        "themes": ["RIV", "COV", "PRIEST"],
 
         "synopsis": "Chapter 4 opens the second major section of Hosea (chapters 4-14), transitioning from "
                     "the marriage narrative to direct prophetic oracles. YHWH opens a formal covenant lawsuit "
@@ -469,6 +473,7 @@ CHAPTERS = [
         "title": "Judgment on Priests, People, and King",
         "era": "hosea_marriage",
         "type": "chapter",
+        "themes": ["RIV", "COV"],
 
         "synopsis": "YHWH's judgment extends to every level of society: priests, the house of Israel, and "
                     "the royal house. 'You have been a snare at Mizpah and a net spread upon Tabor' (5:1) -- "
@@ -555,6 +560,7 @@ CHAPTERS = [
         "title": "Superficial Repentance and the Call for Covenant Love",
         "era": "hosea_marriage",
         "type": "chapter",
+        "themes": ["COV", "RIV", "LOVE"],
 
         "synopsis": "Chapter 6 opens with what appears to be a beautiful repentance liturgy: 'Come, let us "
                     "return to YHWH; for he has torn us, that he may heal us; he has struck us down, and he "
@@ -652,6 +658,7 @@ CHAPTERS = [
         "title": "The Smoldering Oven and the Silly Dove",
         "era": "hosea_marriage",
         "type": "chapter",
+        "themes": ["RIV", "REBEL"],
 
         "synopsis": "Chapter 7 unleashes a cascade of metaphors for Israel's corruption and political folly. "
                     "Israel is like a heated oven whose baker has fallen asleep -- conspiracy and political "

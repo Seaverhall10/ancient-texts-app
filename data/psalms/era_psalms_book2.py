@@ -24,6 +24,7 @@ CHAPTERS = [
         "title": "The Korahite Longing -- Thirsting for the Living God",
         "era": "psalms_book2",
         "type": "chapter",
+        "themes": ["EXILE", "HOLY", "SPIRIT"],
 
         "synopsis": "Psalms 42 and 43 are a single poem (42 has no separate superscription for 43 in "
                     "many manuscripts) that introduces the Sons of Korah collection with a cry of "
@@ -191,6 +192,7 @@ CHAPTERS = [
         "title": "The Royal Wedding -- The King Addressed as Elohim",
         "era": "psalms_book2",
         "type": "chapter",
+        "themes": ["KING", "SEED", "LOVE", "WOMEN"],
 
         "synopsis": "Psalm 45 is the most extraordinary royal psalm in the Psalter -- a wedding "
                     "hymn for the Davidic king that addresses him directly as elohim. 'Your throne, "
@@ -369,6 +371,7 @@ CHAPTERS = [
         "title": "Zion as Cosmic Mountain -- God Is Our Refuge",
         "era": "psalms_book2",
         "type": "chapter",
+        "themes": ["KING", "DC", "LAND", "HOLY"],
 
         "synopsis": "Psalms 46 and 48 are Korahite 'Songs of Zion' that present Jerusalem/Zion not "
                     "merely as a political capital but as the cosmic mountain -- the junction of "
@@ -557,6 +560,7 @@ CHAPTERS = [
         "title": "The Divine Warrior March -- Thousands of Chariots",
         "era": "psalms_book2",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "KING", "NATIONS"],
 
         "synopsis": "Psalm 68 is the most complex and dramatic divine warrior hymn in the Psalter. "
                     "It traces YHWH's march from Sinai through the wilderness to Zion, scattering "
@@ -704,6 +708,7 @@ CHAPTERS = [
         "title": "The Solomonic Ideal King -- Messianic Reign to the Ends of the Earth",
         "era": "psalms_book2",
         "type": "chapter",
+        "themes": ["KING", "SEED", "NATIONS", "PROV"],
 
         "synopsis": "Psalm 72 closes Book II with a vision of the ideal king that transcends any "
                     "historical monarch. Attributed to Solomon (or 'for Solomon'), it describes a "

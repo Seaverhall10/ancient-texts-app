@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "The Ten Commandments Restated — The Covenant at Horeb",
         "era": "shema",
         "type": "chapter",
+        "themes": ["COV", "LAW", "NAME", "DC"],
 
         "synopsis": "Deuteronomy 5 opens the second address (the main body of the book) by "
                     "restating the Decalogue — the Ten Commandments first given at Horeb/Sinai "
@@ -197,6 +198,7 @@ CHAPTERS = [
         "title": "The Shema — Hear, O Israel: YHWH Our God, YHWH Alone",
         "era": "shema",
         "type": "chapter",
+        "themes": ["NAME", "LOVE", "COV", "DC", "REMEMBER"],
 
         "synopsis": "Deuteronomy 6 contains the most important verse in Judaism and one of the most "
                     "important in the entire Bible: the Shema. 'Hear, O Israel: The LORD our God, "
@@ -434,6 +436,7 @@ CHAPTERS = [
         "title": "The Chosen People — Holy War and Divine Election",
         "era": "shema",
         "type": "chapter",
+        "themes": ["NATIONS", "HOLY", "COV", "LOVE", "DC", "LAND"],
 
         "synopsis": "Deuteronomy 7 is one of the most theologically dense and ethically challenging "
                     "chapters in the Torah. It addresses the conquest of Canaan head-on: seven nations "
@@ -627,6 +630,7 @@ CHAPTERS = [
         "title": "Remember and Do Not Forget — The Wilderness as Testing Ground",
         "era": "shema",
         "type": "chapter",
+        "themes": ["REMEMBER", "COV", "EXILE", "LAND"],
 
         "synopsis": "Deuteronomy 8 is a meditation on memory, testing, and the spiritual danger of "
                     "prosperity. Moses commands Israel to remember the forty years of wilderness "
@@ -802,6 +806,7 @@ CHAPTERS = [
         "title": "Not Because of Your Righteousness — The Golden Calf Recalled",
         "era": "shema",
         "type": "chapter",
+        "themes": ["REBEL", "COV", "REMEMBER", "NATIONS"],
 
         "synopsis": "Deuteronomy 9 demolishes any illusion of Israelite moral superiority. Moses "
                     "repeats with devastating clarity: 'Do not say in your heart... \"It is because "
@@ -983,6 +988,7 @@ CHAPTERS = [
         "title": "New Tablets, New Heart — The God Who Circumcises Hearts",
         "era": "shema",
         "type": "chapter",
+        "themes": ["COV", "DC", "NAME", "LOVE", "PRIEST"],
 
         "synopsis": "Deuteronomy 10 marks the turning point from judgment to restoration. God "
                     "commands Moses to cut two new stone tablets and make an ark to house them — "
@@ -1144,6 +1150,7 @@ CHAPTERS = [
         "title": "Love and Obey — Blessing and Curse Set Before You",
         "era": "shema",
         "type": "chapter",
+        "themes": ["COV", "LOVE", "LAND", "REMEMBER", "DC"],
 
         "synopsis": "Deuteronomy 11 closes the general stipulation section with a final passionate "
                     "appeal to love and obey YHWH. Moses recounts the mighty acts Israel witnessed — "

@@ -14,6 +14,7 @@ CHAPTERS = [
         "title": "Guard the Deposit -- Unashamed Workman",
         "era": "2tim_charge",
         "type": "chapter",
+        "themes": ["KING", "DC", "HOLY", "REBEL", "TYPE"],
 
         "synopsis": "Paul writes from prison to Timothy, his 'beloved child' (1:2), urging him not to be "
                     "ashamed of the gospel or of Paul's imprisonment (1:8). God 'saved us and called us to "
@@ -110,6 +111,7 @@ CHAPTERS = [
         "title": "All Scripture God-Breathed -- The Crown Awaits",
         "era": "2tim_charge",
         "type": "chapter",
+        "themes": ["KING", "HOLY", "SEED", "DC", "TYPE"],
 
         "synopsis": "Paul warns that 'in the last days there will come times of difficulty' (3:1) -- a "
                     "list of moral decay that echoes Romans 1:28-32. He points Timothy to the inspired "

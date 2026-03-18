@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Cupbearer's Prayer and the Wall Begins: Faith and Opposition",
         "era": "walls_renewal",
         "type": "chapter",
+        "themes": ["COV", "LAND", "PROV", "NATIONS"],
 
         "synopsis": "Nehemiah, cupbearer to King Artaxerxes I in Susa, receives devastating news: "
                     "'The remnant there in the province who had survived the exile is in great trouble "
@@ -159,6 +160,7 @@ CHAPTERS = [
         "title": "Economic Justice, Intrigue, and the Wall Completed in 52 Days",
         "era": "walls_renewal",
         "type": "chapter",
+        "themes": ["LAW", "PROV", "NATIONS", "REVERSAL"],
 
         "synopsis": "The wall rebuilding faces internal as well as external challenges. Chapter 5 "
                     "reveals economic exploitation: wealthy Jews are charging their poorer kinsmen "

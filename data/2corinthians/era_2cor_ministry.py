@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The God of This Age and the New Creation Ministry",
         "era": "2cor_ministry",
         "type": "chapter",
+        "themes": ["DC", "REBEL", "KING", "SEED", "COV"],
 
         "synopsis": "Paul opens with a theology of suffering and comfort: 'the God of all comfort, who "
                     "comforts us in all our affliction' (1:3-4). He references a near-death experience in "
@@ -174,6 +175,7 @@ CHAPTERS = [
         "title": "Holiness, Generosity, and Separation from Belial",
         "era": "2cor_ministry",
         "type": "chapter",
+        "themes": ["DC", "HOLY", "SEED", "COV", "REBEL"],
 
         "synopsis": "Paul urges the Corinthians not to receive God's grace 'in vain' (6:1) and catalogs "
                     "his apostolic sufferings (6:3-10). He then issues a striking call to holiness: 'Do "
@@ -295,6 +297,7 @@ CHAPTERS = [
         "title": "The Third Heaven, the Thorn, and Power in Weakness",
         "era": "2cor_ministry",
         "type": "chapter",
+        "themes": ["DC", "KING", "HOLY", "TYPE", "SPIRIT"],
 
         "synopsis": "Paul shifts to a confrontational tone, defending his apostleship against the 'super-"
                     "apostles' (hyperlian apostoloi, 11:5; 12:11) who have infiltrated Corinth. He wages "

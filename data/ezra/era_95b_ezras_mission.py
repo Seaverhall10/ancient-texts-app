@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "Ezra's Mission and the Intermarriage Crisis: Torah as Constitution",
         "era": "ezras_mission",
         "type": "chapter",
+        "themes": ["LAW", "COV", "PRIEST", "HOLY", "PROV"],
 
         "synopsis": "The second half of Ezra jumps approximately 60 years to the mission of Ezra "
                     "the priest-scribe in 458 BC. Ezra is described as 'a scribe skilled in the Law "

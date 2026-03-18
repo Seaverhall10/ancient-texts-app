@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The Counter-Decree and the Feast of Purim: Mourning Turned to Joy",
         "era": "great_reversal",
         "type": "chapter",
+        "themes": ["REVERSAL", "PROV", "NATIONS", "SEED"],
 
         "synopsis": "The final section completes the reversal and establishes Purim. Since the "
                     "original genocide decree cannot be revoked (Persian law is irrevocable), a new "

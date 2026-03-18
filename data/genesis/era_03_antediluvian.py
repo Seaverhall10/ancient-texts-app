@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "The Toledot of Adam — From Seth to Noah",
         "era": "antediluvian",
         "type": "chapter",
+        "themes": ['SEED', 'TYPE', 'NAME'],
 
         "synopsis": "Genesis 5 provides the genealogy from Adam to Noah through the line of Seth, structured by the <em>toledot</em> formula (Hebrew for 'generations' or 'account' \u2014 the phrase 'these are the generations of...' which appears ten times in Genesis and serves as the book's structural backbone, dividing it into major sections). Each entry follows a rigid pattern \u2014 birth age, son's name, remaining years, other sons and daughters, total lifespan, 'and he died' \u2014 creating a relentless drumbeat of mortality that fulfills the death sentence of Genesis 3. Two figures break the pattern: Enoch, who 'walked with God and was not, for God took him' (5:24), and Lamech, who names his son Noah with a prophetic wordplay linking him to 'comfort' from the cursed ground. The genealogy bridges ten generations from Adam to Noah, establishing the <em>zera</em> (seed) line through which God's redemptive purposes will continue past the coming deluge.",
 
@@ -107,6 +108,7 @@ CHAPTERS = [
         "title": "The Sons of God and the Daughters of Men",
         "era": "antediluvian",
         "type": "chapter",
+        "themes": ['DC', 'REBEL', 'SPIRIT', 'SEED', 'BLOOD'],
 
         "synopsis": "Genesis 6:1–4 is among the most debated and consequential passages in the entire Old Testament. It describes the 'sons of God' (bene ha'elohim) taking wives from the 'daughters of men' (benot ha'adam), producing offspring called Nephilim — 'the mighty men of old, the men of renown.' God responds by limiting human lifespan to 120 years and declaring that his Spirit will not 'abide in' (or 'contend with') humanity forever. This four-verse unit serves as the immediate trigger for the Flood judgment (6:5–8) and represents the ultimate boundary transgression: divine beings crossing the heaven-earth divide to cohabit with humans. For the divine council framework, this is THE foundational text — the passage where members of God's heavenly host rebel, abandon their proper domain, and corrupt the created order.",
 
@@ -165,8 +167,8 @@ CHAPTERS = [
             {"ref": "1 Peter 3:19–20", "note": "Christ 'went and proclaimed to the spirits in prison, because they formerly did not obey, when God's patience waited in the days of Noah' — the imprisoned spirits are the fallen Watchers of the Enochic tradition", "type": "nt"},
             {"ref": "Numbers 13:33", "note": "The spies report Nephilim in Canaan: 'we saw the Nephilim (the sons of Anak, who come from the Nephilim), and we seemed to ourselves like grasshoppers'", "type": "ot"},
             {"ref": "Deuteronomy 2:10–11, 20–21; 3:11", "note": "The Emim, Zamzummim, and Rephaim — peoples of gigantic stature associated with the pre-Israelite inhabitants of Canaan, connected to the Nephilim tradition", "type": "ot"},
-            {"ref": "1 Enoch 6–16", "note": "The complete Watcher narrative: descent on Hermon, oath, union with women, birth of giants, forbidden knowledge, Enoch's intercession, divine judgment", "type": "ane"},
-            {"ref": "1 Enoch 15:8–12", "note": "The spirits of dead Nephilim become evil spirits (demons) that plague humanity — the Enochic origin of demonology", "type": "ane"},
+            {"ref": "1 Enoch 6–16", "note": "The complete Watcher narrative: descent on Hermon, oath, union with women, birth of giants, forbidden knowledge, Enoch's intercession, divine judgment", "type": "pseudepigrapha"},
+            {"ref": "1 Enoch 15:8–12", "note": "The spirits of dead Nephilim become evil spirits (demons) that plague humanity — the Enochic origin of demonology", "type": "pseudepigrapha"},
             {"ref": "4Q530–533 (Book of Giants)", "type": "dss", "note": "Aramaic fragments from Qumran narrating the Nephilim's perspective: their terrifying dreams of judgment, Mahaway's embassy to Enoch, and the inclusion of Gilgamesh among the giants — connecting the biblical Nephilim to Mesopotamian heroic tradition"},
             {"ref": "11Q13 (Melchizedek Scroll)", "type": "dss", "note": "References divine beings (elohim) judging in the heavenly assembly, with Melchizedek as an exalted divine figure executing judgment — illuminates the divine council framework within which the bene ha'elohim of Genesis 6 operate"},
             {"ref": "4Q252 col. I (Commentary on Genesis A)", "type": "dss", "note": "Qumran commentary that addresses the flood chronology arising from the events of Genesis 6, integrating the Watcher transgression into the 364-day solar calendar framework"}
@@ -209,6 +211,7 @@ CHAPTERS = [
         "title": "The Watcher Tradition — 1 Enoch and the Fallen Angels",
         "era": "antediluvian",
         "type": "historical_insert",
+        "themes": [],
 
         "synopsis": "The Watcher tradition is the single most important Second Temple expansion of any Genesis text. Rooted in Genesis 6:1–4, it was developed extensively in 1 Enoch 6–16 (the Book of the Watchers), Jubilees 4–5, and the Qumran Book of Giants. This tradition shaped Jewish angelology, demonology, and apocalypticism for centuries, and its influence is directly visible in the New Testament epistles of Jude and 2 Peter. Understanding the Watcher tradition is essential for reading Genesis 6 in its historical interpretive context.",
 
@@ -218,13 +221,13 @@ CHAPTERS = [
         "second_temple": [],
 
         "cross_refs": [
-            {"ref": "1 Enoch 6–16", "note": "The core Watcher narrative: descent, oath on Hermon, union with women, forbidden teachings, petition of the Watchers, Enoch's intercession, divine judgment", "type": "ane"},
-            {"ref": "1 Enoch 7:1–6", "note": "The Nephilim giants consume everything, turn to cannibalism, and drink blood — escalating violence that necessitates divine intervention", "type": "ane"},
-            {"ref": "1 Enoch 8:1–4", "note": "Azazel teaches metalworking (weapons and jewelry), cosmetics, sorcery, and root-cutting; other Watchers teach astrology, cloud-reading, and enchantments", "type": "ane"},
-            {"ref": "1 Enoch 10:1–16", "note": "God commissions four archangels: Raphael to bind Azazel, Gabriel to destroy the giants, Michael to bind Shemihazah, Uriel to warn Noah", "type": "ane"},
-            {"ref": "1 Enoch 12–16", "note": "Enoch's commission as intercessor, his ascent to the heavenly throne room, and God's rejection of the Watchers' petition for mercy", "type": "ane"},
-            {"ref": "Jubilees 4:15, 22; 5:1–11", "note": "Parallel Watcher tradition with emphasis on the Watchers' original teaching mission, Jared connection (yarad = descent), and post-flood Mastema subplot", "type": "ane"},
-            {"ref": "4Q530–532 (Book of Giants)", "note": "Qumran fragments narrating the Nephilim's perspective: their dreams of judgment, Mahaway's embassy to Enoch, and the confirmation of coming destruction", "type": "ane"},
+            {"ref": "1 Enoch 6–16", "note": "The core Watcher narrative: descent, oath on Hermon, union with women, forbidden teachings, petition of the Watchers, Enoch's intercession, divine judgment", "type": "pseudepigrapha"},
+            {"ref": "1 Enoch 7:1–6", "note": "The Nephilim giants consume everything, turn to cannibalism, and drink blood — escalating violence that necessitates divine intervention", "type": "pseudepigrapha"},
+            {"ref": "1 Enoch 8:1–4", "note": "Azazel teaches metalworking (weapons and jewelry), cosmetics, sorcery, and root-cutting; other Watchers teach astrology, cloud-reading, and enchantments", "type": "pseudepigrapha"},
+            {"ref": "1 Enoch 10:1–16", "note": "God commissions four archangels: Raphael to bind Azazel, Gabriel to destroy the giants, Michael to bind Shemihazah, Uriel to warn Noah", "type": "pseudepigrapha"},
+            {"ref": "1 Enoch 12–16", "note": "Enoch's commission as intercessor, his ascent to the heavenly throne room, and God's rejection of the Watchers' petition for mercy", "type": "pseudepigrapha"},
+            {"ref": "Jubilees 4:15, 22; 5:1–11", "note": "Parallel Watcher tradition with emphasis on the Watchers' original teaching mission, Jared connection (yarad = descent), and post-flood Mastema subplot", "type": "pseudepigrapha"},
+            {"ref": "4Q530–532 (Book of Giants)", "note": "Qumran fragments narrating the Nephilim's perspective: their dreams of judgment, Mahaway's embassy to Enoch, and the confirmation of coming destruction", "type": "dss"},
             {"ref": "Jude 6–7, 14–15", "note": "Jude directly cites the Watcher tradition: angels who left their domain, kept in chains, and quotes 1 Enoch 1:9 as prophecy", "type": "nt"},
             {"ref": "2 Peter 2:4–5", "note": "Angels who sinned cast into Tartarus — Peter's language maps precisely onto 1 Enoch's imprisonment narrative", "type": "nt"},
             {"ref": "1 Peter 3:19–20", "note": "Christ proclaims to the imprisoned spirits from the days of Noah — the Watchers in their chains", "type": "nt"},
@@ -278,6 +281,7 @@ CHAPTERS = [
         "title": "Antediluvian Kingship Lists — Sumerian Parallels to Genesis 5",
         "era": "antediluvian",
         "type": "historical_insert",
+        "themes": [],
 
         "synopsis": "The Sumerian King List (SKL) records a sequence of kings who ruled 'before the flood' with fantastically long reigns, followed by the flood itself, and then post-flood kings with progressively shorter reigns. This structural parallel to Genesis 5 (long-lived patriarchs before the flood, declining lifespans afterward) has fascinated scholars for over a century. The parallels extend to specific figures: the seventh king Enmeduranki closely parallels the seventh patriarch Enoch. These correspondences illuminate how Genesis 5 functions within its ANE literary world.",
 

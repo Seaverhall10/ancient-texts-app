@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Ordination of Aaron — Consecrating the Mediators",
         "era": "priesthood",
         "type": "chapter",
+        "themes": ["PRIEST", "BLOOD", "HOLY", "TYPE"],
 
         "synopsis": (
             "Leviticus 8 records the execution of the ordination ceremony that God commanded "
@@ -243,6 +244,7 @@ CHAPTERS = [
         "title": "The Eighth Day — The Glory of YHWH Appears",
         "era": "priesthood",
         "type": "chapter",
+        "themes": ["PRIEST", "BLOOD", "HOLY"],
 
         "synopsis": (
             "Leviticus 9 narrates the climactic moment of the entire Exodus-Leviticus "
@@ -451,6 +453,7 @@ CHAPTERS = [
         "title": "Strange Fire — The Death of Nadab and Abihu",
         "era": "priesthood",
         "type": "chapter",
+        "themes": ["PRIEST", "HOLY", "REBEL"],
 
         "synopsis": (
             "Leviticus 10 is one of the most shocking chapters in the Torah. On the very "

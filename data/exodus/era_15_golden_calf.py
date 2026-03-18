@@ -8,6 +8,7 @@ CHAPTERS = [
         "title": "The Golden Calf — Apostasy at the Foot of Sinai",
         "era": "golden_calf",
         "type": "chapter",
+        "themes": ["REBEL", "WORSHIP", "TYPE", "PRIEST", "BLOOD"],
 
         "synopsis": "While Moses lingers forty days on Sinai receiving the Torah, the people grow restless and demand that Aaron fashion gods to 'go before them.' Aaron collects gold earrings and casts a molten calf (egel massekah), and the people proclaim, 'These are your gods, O Israel, who brought you up out of the land of Egypt.' Aaron builds an altar and declares a 'festival to YHWH' (chag layhwh) \u2014 revealing that the sin is <em>syncretism</em> (the blending of elements from different religions into one worship practice \u2014 worshipping YHWH through pagan forms) rather than outright paganism. YHWH informs Moses of the apostasy and offers to destroy the nation and begin again through Moses. Moses intercedes passionately, and God 'relents' (nacham). Descending the mountain, Moses sees the calf and the dancing, shatters the two tablets of the testimony, grinds the calf to powder, scatters it on the water, and makes the people drink it. The Levites rally to Moses and execute approximately three thousand men. Moses then ascends again, offering his own life — 'blot me out of your book' — as atonement for the people's sin.",
 
@@ -129,6 +130,7 @@ CHAPTERS = [
         "title": "The Tent of Meeting and the Glory of God",
         "era": "golden_calf",
         "type": "chapter",
+        "themes": ["GLORY", "HOLY", "COV", "TYPE"],
 
         "synopsis": "In the aftermath of the golden calf, YHWH commands Israel to depart toward the promised land but threatens to withdraw his personal presence, sending an angel in his stead lest his holiness consume the stiff-necked people en route. The people mourn and strip off their ornaments. Moses pitches the 'tent of meeting' (ohel moed \u2014 a provisional meeting-place distinct from the tabernacle, set up outside the camp during this crisis period) outside the camp, and there the pillar of cloud descends as YHWH speaks to Moses 'face to face, as a man speaks to his friend' (panim el panim). Moses presses for assurance of God's continued presence and receives the foundational promise: 'My presence will go with you, and I will give you rest.' Moses then makes the boldest request in the Old Testament: 'Show me your glory (kavod).' The Hebrew <em>kavod</em> literally means 'weight' or 'heaviness' \u2014 when applied to God, it refers to the visible, luminous manifestation of his presence (the same glory-cloud that will later fill the tabernacle and Solomon's temple). The later rabbinic term <em>Shekinah</em> (from the same root as <em>mishkan</em>, 'dwelling') describes this localized, tangible presence of God. God responds that he will make all his 'goodness' pass before Moses and will proclaim the name YHWH, but no one can see God's 'face' (panay) and live \u2014 Moses will see only God's 'back' (achoray).",
 
@@ -241,6 +243,7 @@ CHAPTERS = [
         "title": "New Tablets and the Shining Face — Covenant Renewed",
         "era": "golden_calf",
         "type": "chapter",
+        "themes": ["COV", "NAME", "GLORY", "WORSHIP", "LAW"],
 
         "synopsis": "YHWH commands Moses to cut two new stone tablets and ascend Sinai alone for a second forty-day period. On the mountain, God descends in the cloud, stands with Moses, and proclaims his Name in what becomes the most quoted self-description of God in the Hebrew Bible: 'YHWH, YHWH, a God merciful and gracious (rachum vechanun), slow to anger, and abounding in steadfast love (chesed) and faithfulness (emet), keeping steadfast love for thousands, forgiving iniquity and transgression and sin, but who will by no means clear the guilty.' Moses worships and petitions God to go among the people. The covenant is renewed with stipulations concerning idolatry, festivals, and the firstborn. When Moses descends after forty days, his face shines (qaran) so intensely that the people are afraid, and he must wear a veil (masveh) except when speaking with YHWH.",
 

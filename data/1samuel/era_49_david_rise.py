@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "David Anointed, Spirit Transferred, Evil Spirit from YHWH",
         "era": "david_rise",
         "type": "chapter",
+        "themes": ["KING", "SPIRIT", "DC", "SEED"],
 
         "synopsis": "YHWH rebukes Samuel for mourning Saul: 'How long will you grieve over Saul, since "
                     "I have rejected him from being king over Israel? Fill your horn with oil, and go. I "
@@ -187,6 +188,7 @@ CHAPTERS = [
         "title": "David and Goliath -- Seed of the Serpent vs. YHWH's Anointed",
         "era": "david_rise",
         "type": "chapter",
+        "themes": ["SEED", "DC", "REBEL", "NAME"],
 
         "synopsis": "The Philistines deploy at Socoh in Judah, and a champion emerges from their camp: "
                     "Goliath of Gath, 'whose height was six cubits and a span' (~9 feet 9 inches, or "
@@ -357,6 +359,7 @@ CHAPTERS = [
         "title": "Jonathan's Covenant, Saul's Jealousy, and the Fugitive's Beginning",
         "era": "david_rise",
         "type": "chapter",
+        "themes": ["COV", "KING", "PROV"],
 
         "synopsis": "After the Goliath victory, Jonathan's soul is 'knit to the soul of David, and "
                     "Jonathan loved him as his own soul' (18:1). Jonathan makes a covenant (berit) with "

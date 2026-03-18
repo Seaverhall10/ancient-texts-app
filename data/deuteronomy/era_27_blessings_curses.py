@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "The Altar on Ebal and the Twelve Curses",
         "era": "blessings_curses",
         "type": "chapter",
+        "themes": ["COV", "LAW", "LAND", "RIV"],
 
         "synopsis": "Deuteronomy 27 prescribes the covenant ratification ceremony to be performed "
                     "upon entering the land. Moses and the elders command Israel to set up large "
@@ -166,6 +167,7 @@ CHAPTERS = [
         "title": "The Blessings and Curses — Covenant Consequences in Full",
         "era": "blessings_curses",
         "type": "chapter",
+        "themes": ["COV", "RIV", "EXILE", "LAND"],
 
         "synopsis": "Deuteronomy 28 is the longest and most intense chapter in the entire Torah — "
                     "68 verses of blessings (28:1-14) followed by curses (28:15-68) that escalate "
@@ -343,6 +345,7 @@ CHAPTERS = [
         "title": "The Covenant in Moab — Warning and the God Who Allots",
         "era": "blessings_curses",
         "type": "chapter",
+        "themes": ["COV", "DC", "SPIRIT", "REMEMBER"],
 
         "synopsis": "Deuteronomy 29 opens Moses' third and final address, marking a new covenant "
                     "ceremony 'in the land of Moab, besides the covenant that he had made with them "
@@ -494,6 +497,7 @@ CHAPTERS = [
         "title": "Return, Restoration, and the Circumcision of the Heart",
         "era": "blessings_curses",
         "type": "chapter",
+        "themes": ["COV", "EXILE", "LOVE", "REMNANT", "LAND"],
 
         "synopsis": "Deuteronomy 30 is the most hopeful chapter in the Torah — the divine answer to "
                     "the devastating curses of chapter 28 and the honest assessment of chapter 29. "

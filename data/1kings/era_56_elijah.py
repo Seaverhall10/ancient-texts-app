@@ -23,6 +23,7 @@ CHAPTERS = [
         "title": "Elijah's Appearance -- Drought, Ravens, and the Widow of Zarephath",
         "era": "elijah",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "PROV", "WOMEN"],
 
         "synopsis": "Elijah the Tishbite appears without introduction: 'As the LORD, the God of "
                     "Israel, lives, before whom I stand, there shall be neither dew nor rain these "
@@ -189,6 +190,7 @@ CHAPTERS = [
         "title": "The Contest at Mount Carmel -- Fire from the Divine Council",
         "era": "elijah",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "HOLY", "NAME"],
 
         "synopsis": "After three years of drought, YHWH sends Elijah to confront Ahab. Obadiah, "
                     "the palace steward who hid 100 prophets of YHWH in caves during Jezebel's "
@@ -366,6 +368,7 @@ CHAPTERS = [
         "title": "The Still Small Voice -- Elijah at Horeb",
         "era": "elijah",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "REMNANT"],
 
         "synopsis": "Jezebel swears to kill Elijah within 24 hours. The prophet who faced 450 "
                     "prophets of Baal now flees in terror from one woman. He goes into the "
@@ -514,6 +517,7 @@ CHAPTERS = [
         "title": "Naboth's Vineyard -- Royal Injustice and Prophetic Judgment",
         "era": "elijah",
         "type": "chapter",
+        "themes": ["KING", "RIV", "BLOOD", "LAND"],
 
         "synopsis": "Naboth the Jezreelite owns a vineyard adjacent to Ahab's palace. Ahab offers "
                     "to buy it or trade for a better vineyard. Naboth refuses: 'The LORD forbid "
@@ -649,6 +653,7 @@ CHAPTERS = [
         "title": "Micaiah and the Divine Council -- The Lying Spirit",
         "era": "elijah",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "KING", "RIV"],
 
         "synopsis": "Ahab of Israel and Jehoshaphat of Judah plan a joint campaign to retake "
                     "Ramoth-gilead from Syria. Jehoshaphat requests a prophet. Ahab assembles 400 "

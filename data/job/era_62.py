@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "YHWH's First Speech -- The Cosmic Tour",
         "era": "62",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "PROV", "SPIRIT"],
 
         "synopsis": "YHWH answers Job 'out of the whirlwind' (38:1) -- the storm Elihu described has "
                     "arrived, and it carries God's voice. YHWH's response is not what anyone expected: "
@@ -160,6 +161,7 @@ CHAPTERS = [
         "title": "YHWH's Second Speech -- Behemoth and Leviathan",
         "era": "62",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "REBEL", "SPIRIT"],
 
         "synopsis": "After Job's brief response ('I lay my hand on my mouth,' 40:4), YHWH speaks again "
                     "from the whirlwind with an even more direct challenge: 'Will you even put me in the "
@@ -298,6 +300,7 @@ CHAPTERS = [
         "title": "Job's Repentance and Restoration",
         "era": "62",
         "type": "chapter",
+        "themes": ["DC", "REVERSAL", "PROV", "PRIEST"],
 
         "synopsis": "Job responds to YHWH with words that have been debated for millennia: 'I had heard "
                     "of you by the hearing of the ear, but now my eye sees you; therefore I despise "

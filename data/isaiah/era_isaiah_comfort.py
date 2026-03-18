@@ -23,6 +23,7 @@ CHAPTERS = [
         "title": "Comfort My People: The Voice in the Wilderness",
         "era": "isaiah_comfort",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "SPIRIT", "REVERSAL"],
 
         "synopsis": "The chapter that changes everything. After thirty-nine chapters of judgment, "
                     "Isaiah 40 opens with a divine council scene: 'Comfort, comfort (nachamu nachamu) "
@@ -204,6 +205,7 @@ CHAPTERS = [
         "title": "The First Servant Song: My Chosen, In Whom My Soul Delights",
         "era": "isaiah_comfort",
         "type": "chapter",
+        "themes": ["SEED", "SPIRIT", "COV", "NATIONS"],
 
         "synopsis": "The first of four Servant Songs introduces YHWH's chosen agent: 'Behold my "
                     "servant (avdi), whom I uphold, my chosen (bechiri), in whom my soul (nafshi) "
@@ -346,6 +348,7 @@ CHAPTERS = [
         "title": "Cyrus the Anointed: YHWH's Mashiach Among the Nations",
         "era": "isaiah_comfort",
         "type": "chapter",
+        "themes": ["DC", "KING", "NATIONS", "NAME"],
 
         "synopsis": "In one of the most extraordinary declarations in the Hebrew Bible, YHWH calls the "
                     "Persian king Cyrus by name -- a century before his rise to power -- and designates "
@@ -487,6 +490,7 @@ CHAPTERS = [
         "title": "The Second Servant Song: Called from the Womb, Light to the Nations",
         "era": "isaiah_comfort",
         "type": "chapter",
+        "themes": ["SEED", "COV", "NATIONS", "REMNANT"],
 
         "synopsis": "The Servant speaks in his own voice for the first time. 'Listen to me, O "
                     "coastlands (iyyim), and give attention, you peoples from afar (le'ummim "
@@ -613,6 +617,7 @@ CHAPTERS = [
         "title": "The Third Servant Song: The Obedient Disciple Who Does Not Turn Back",
         "era": "isaiah_comfort",
         "type": "chapter",
+        "themes": ["SEED", "SPIRIT"],
 
         "synopsis": "The Third Servant Song reveals the Servant's inner life of obedience and suffering. "
                     "'The Lord YHWH (Adonai YHWH) has given me the tongue of those who are taught "
@@ -739,6 +744,7 @@ CHAPTERS = [
         "title": "The Fourth Servant Song: The Suffering Servant -- Pierced, Crushed, Healed",
         "era": "isaiah_comfort",
         "type": "chapter",
+        "themes": ["SEED", "BLOOD", "TYPE", "PRIEST", "REVERSAL"],
 
         "synopsis": "The theological summit of the Hebrew Bible. The Fourth Servant Song, spanning "
                     "52:13-53:12, is the most detailed messianic prophecy in the Old Testament and "
@@ -993,6 +999,7 @@ CHAPTERS = [
         "title": "Come to the Waters: The Everlasting Covenant",
         "era": "isaiah_comfort",
         "type": "chapter",
+        "themes": ["COV", "SEED", "LOVE"],
 
         "synopsis": "The closing chapter of Second Isaiah issues a universal invitation: 'Come, everyone "
                     "who thirsts (tsame), come to the waters; and he who has no money (kesef), come, buy "

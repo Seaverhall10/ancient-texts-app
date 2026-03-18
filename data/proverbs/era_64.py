@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "The Righteous and the Wicked -- Antithetical Wisdom",
         "era": "64",
         "type": "chapter",
+        "themes": ["PROV", "LAW"],
 
         "synopsis": "Chapters 10-12 are dominated by antithetical parallelism: the first line states a "
                     "truth about the righteous or wise, the second line states the contrasting truth about "
@@ -124,6 +125,7 @@ CHAPTERS = [
         "title": "YHWH's Oversight, Wealth, and the Tongue",
         "era": "64",
         "type": "chapter",
+        "themes": ["PROV", "LAW"],
 
         "synopsis": "Chapters 13-15 continue the antithetical proverb collection with increasing "
                     "theological depth. 'Hope deferred makes the heart sick, but a desire fulfilled is "
@@ -226,6 +228,7 @@ CHAPTERS = [
         "title": "YHWH's Sovereignty and the King's Justice",
         "era": "64",
         "type": "chapter",
+        "themes": ["PROV", "KING", "DC"],
 
         "synopsis": "Chapters 16-19 are the theological core of the Solomonic collection. Chapter 16 "
                     "opens with a cluster of YHWH-proverbs that assert divine sovereignty over all human "
@@ -336,6 +339,7 @@ CHAPTERS = [
         "title": "The Close of the Solomonic Collection",
         "era": "64",
         "type": "chapter",
+        "themes": ["PROV", "KING", "DC"],
 
         "synopsis": "The Solomonic collection concludes with proverbs on kingship, justice, and the "
                     "heart. 'The king's heart is a stream of water in the hand of YHWH; he turns it "

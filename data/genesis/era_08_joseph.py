@@ -10,6 +10,7 @@ CHAPTERS = [
         "title": "Joseph's Dreams — Sold into Slavery by His Brothers",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['DREAM', 'SEED', 'REVERSAL', 'TYPE', 'BLOOD'],
         "synopsis": "Jacob's favored son Joseph receives two prophetic chalom (dreams \u2014 in the ancient world, dreams were not psychological events but divine communications; see the Reader's Guide in Era 1 for more on Hebrew terms). His family will bow before him. His brothers, already jealous of the ketonet passim (an ornate robe marking special status \u2014 the Hebrew passim likely means 'long-sleeved' or 'richly ornamented,' not the traditional 'coat of many colors') Jacob gave him, conspire to kill him but instead sell him to Ishmaelite traders for twenty shekels of silver. Joseph is taken to Egypt and sold to Potiphar, an officer of Pharaoh.",
         "key_verse": {
                 "ref": "Genesis 37:19-20",
@@ -89,6 +90,7 @@ CHAPTERS = [
         "title": "Judah and Tamar — The Seed Line Preserved Through Righteousness",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['SEED', 'WOMEN', 'REVERSAL', 'TYPE'],
         "synopsis": "Judah separates from his brothers and marries a Canaanite woman. His firstborn Er is killed by YHWH, and his second son Onan refuses levirate duty (levirate marriage, from the Latin <em>levir</em> meaning 'brother-in-law,' was an ANE custom requiring a man to marry his deceased brother's widow and produce an heir to carry on the dead brother's name) and is likewise struck dead. When Judah withholds his third son Shelah, Tamar disguises herself as a prostitute, conceives by Judah, and produces twins Perez and Zerah. Judah declares: 'She is more righteous than I.'",
         "key_verse": {
                 "ref": "Genesis 38:26",
@@ -169,6 +171,7 @@ CHAPTERS = [
         "title": "Joseph in Potiphar's House — Faithfulness Under False Accusation",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['PROV', 'TYPE', 'WOMEN'],
         "synopsis": "Joseph prospers in Potiphar's house because YHWH is with him, and he is placed over the entire household. Potiphar's wife repeatedly attempts to seduce him, but Joseph refuses on theological grounds. When she falsely accuses him, Joseph is thrown into prison, yet YHWH remains with him even there.",
         "key_verse": {
                 "ref": "Genesis 39:9",
@@ -239,6 +242,7 @@ CHAPTERS = [
         "title": "Dreams in Prison — God as the Interpreter of Mysteries",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['DREAM', 'PROV', 'TYPE'],
         "synopsis": "Pharaoh's cupbearer and baker are imprisoned with Joseph. Each has a dream, and Joseph interprets them: the cupbearer will be restored in three days, but the baker will be executed. Both interpretations come to pass exactly, establishing Joseph's prophetic gift. Yet the cupbearer forgets Joseph, and he remains in prison.",
         "key_verse": {
                 "ref": "Genesis 40:8",
@@ -307,6 +311,7 @@ CHAPTERS = [
         "title": "Pharaoh's Dreams — Joseph Elevated as Vizier of Egypt",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['DREAM', 'PROV', 'TYPE', 'NAME', 'NATIONS'],
         "synopsis": "After two full years, Pharaoh dreams of seven fat cows devoured by seven lean cows, and seven plump ears of grain consumed by seven thin ears. No Egyptian interpreter can decode them. The cupbearer finally remembers Joseph, who interprets the dreams as seven years of abundance followed by seven years of famine. Pharaoh elevates Joseph to vizier over all Egypt.",
         "key_verse": {
                 "ref": "Genesis 41:16",
@@ -387,6 +392,7 @@ CHAPTERS = [
         "title": "First Visit to Egypt — The Dreams Begin to Be Fulfilled",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['PROV', 'REVERSAL', 'DREAM'],
         "synopsis": "Famine drives Jacob's sons to Egypt to buy grain. They bow before Joseph, unknowingly fulfilling the sheaves dream. Joseph recognizes them but conceals his identity, accusing them of being spies. He holds Simeon hostage and demands they bring Benjamin. The brothers' guilt over selling Joseph surfaces as they find their money returned in their sacks.",
         "key_verse": {
                 "ref": "Genesis 42:21",
@@ -456,6 +462,7 @@ CHAPTERS = [
         "title": "Second Visit with Benjamin — Judah's Guarantee and Joseph's Table",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['PROV', 'REVERSAL', 'BLOOD'],
         "synopsis": "As famine intensifies, Jacob reluctantly agrees to send Benjamin to Egypt after Judah pledges himself as surety. The brothers return with double money and gifts. Joseph receives them warmly, and they dine at his table where Benjamin receives a portion five times larger than the others. Joseph tests whether the old jealousy over a father's favoritism still burns.",
         "key_verse": {
                 "ref": "Genesis 43:9",
@@ -525,6 +532,7 @@ CHAPTERS = [
         "title": "The Silver Cup Test — Judah's Plea and the Transformed Brother",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['PROV', 'REVERSAL', 'TYPE'],
         "synopsis": "Joseph plants his silver divination cup in Benjamin's sack. When it is discovered, all the brothers are brought back. Judah delivers one of the most powerful speeches in the Bible, offering himself as a slave in Benjamin's place. This is the climax of Joseph's testing and the proof that the brothers have changed.",
         "key_verse": {
                 "ref": "Genesis 44:33",
@@ -600,6 +608,7 @@ CHAPTERS = [
         "title": "Joseph Reveals Himself — Reconciliation and the Sovereignty of God",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['PROV', 'SEED', 'TYPE', 'REVERSAL'],
         "synopsis": "Unable to restrain himself after Judah's plea, Joseph dismisses his Egyptian attendants and reveals his identity: 'I am Joseph!' He weeps loudly and declares that God, not the brothers, sent him to Egypt to preserve life. He urges them to bring Jacob to Egypt. Pharaoh confirms the invitation, and the brothers return to Canaan with the astonishing news.",
         "key_verse": {
                 "ref": "Genesis 45:7-8",
@@ -675,6 +684,7 @@ CHAPTERS = [
         "title": "Jacob Goes to Egypt — The Divine Assurance at Beer-sheba",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['COV', 'SEED', 'NATIONS', 'LAND'],
         "synopsis": "Jacob sets out for Egypt, stopping at Beer-sheba where God appears to him in a night vision: 'Do not be afraid to go down to Egypt, for there I will make you into a great nation.' A genealogy lists seventy souls who descend to Egypt. Jacob and Joseph are reunited in Goshen after twenty-two years of separation.",
         "key_verse": {
                 "ref": "Genesis 46:3-4",
@@ -750,6 +760,7 @@ CHAPTERS = [
         "title": "Settlement in Goshen — Jacob Blesses Pharaoh, Joseph Administers the Famine",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['LAND', 'PROV', 'SEED', 'COV'],
         "synopsis": "Joseph presents his family to Pharaoh, and Jacob blesses the most powerful ruler on earth. The family settles in Goshen. As the famine deepens, Joseph administers Egypt's grain reserves, eventually acquiring all the land for Pharaoh in exchange for food. Jacob lives seventeen years in Egypt and makes Joseph swear to bury him in Canaan.",
         "key_verse": {
                 "ref": "Genesis 47:9",
@@ -825,6 +836,7 @@ CHAPTERS = [
         "title": "Blessing of Ephraim and Manasseh — The Crossed Hands and the Younger Over the Elder",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['SEED', 'REVERSAL', 'COV', 'TYPE', 'NAME'],
         "synopsis": "Jacob adopts Joseph's two sons, Ephraim and Manasseh, as his own, giving Joseph a double portion. When Joseph positions Manasseh at Jacob's right hand, Jacob deliberately crosses his hands to place the primary blessing on Ephraim, the younger. Joseph objects, but Jacob insists: God's pattern of elevating the younger continues to the final generation.",
         "key_verse": {
                 "ref": "Genesis 48:14",
@@ -900,6 +912,7 @@ CHAPTERS = [
         "title": "Jacob's Blessing of the Twelve Tribes — The Shiloh Prophecy and Israel's Future",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['SEED', 'TYPE', 'COV', 'NAME', 'NATIONS', 'LAND'],
         "synopsis": "On his deathbed, Jacob pronounces prophetic blessings over each of his twelve sons, defining the character and destiny of the future tribes. Judah receives the most significant oracle: the scepter will not depart from him until Shiloh comes. Joseph is blessed as 'a fruitful bough.' Dan is described as 'a serpent by the way.' Jacob then dies and is gathered to his people.",
         "key_verse": {
                 "ref": "Genesis 49:10",
@@ -987,6 +1000,7 @@ CHAPTERS = [
         "title": "Death of Jacob, Joseph's Forgiveness — The Theological Capstone of Genesis",
         "era": "joseph",
         "type": "chapter",
+        "themes": ['PROV', 'SEED', 'COV', 'TYPE', 'LAND'],
         "synopsis": "Joseph mourns Jacob, and Egypt grants an elaborate forty-day embalming and seventy-day mourning period. The brothers carry Jacob to Canaan for burial at Machpelah. Afterward, the brothers fear Joseph's revenge, but he delivers the definitive theological statement of Genesis: 'You meant evil against me, but God meant it for good, to bring it about that many people should be kept alive.' Joseph dies at 110 and is embalmed in Egypt.",
         "key_verse": {
                 "ref": "Genesis 50:20",
@@ -1062,6 +1076,10 @@ CHAPTERS = [
                         "body": "After Jacob's death, the brothers fear that Joseph will now take revenge: 'It may be that Joseph will hate us and pay us back for all the evil that we did to him.' They send a message (possibly fabricated) claiming Jacob had requested Joseph forgive them. Joseph weeps when he hears their words — weeps that after everything, they still do not understand. The brothers prostrate themselves (one final dream fulfillment) and offer to be his slaves. Joseph's reply is the theological summit of Genesis: 'Do not fear, for am I in the place of God?' (Hebrew ha-tachat Elohim ani). He refuses to usurp God's role as judge. Then the declaration: 'You meant evil against me, but God meant it for good, to bring it about that many people should be kept alive.' The word order in Hebrew places 'God' emphatically: Elohim chashavah le-tovah. God's intention is the final word."
                 },
                 {
+                        "heading": "Joseph as Christ-Type — The Pattern Fulfilled in Jesus",
+                        "body": "Joseph is the most sustained Christ-type in Genesis. Rejected by his brothers and sold for silver (Gen 37:28; cf. Matt 26:15, where Judas sells Jesus for thirty pieces). Stripped of his robe and thrown into a pit (Gen 37:23-24; cf. Christ stripped and placed in a tomb). Exalted to the right hand of power among Gentiles after unjust suffering (Gen 41:40-43; cf. Phil 2:9-11). He saves the very brothers who betrayed him, weeping over them (Gen 45:1-5; cf. Luke 23:34, Rom 5:10). He provides bread to the starving world (Gen 41:57; cf. John 6:35, 'I am the bread of life'). And the capstone: 'You meant evil against me, but God meant it for good, to bring it about that many people should be kept alive' (Gen 50:20) — the theology of the Cross stated in advance. Human evil, divine sovereignty, and the salvation of many through the suffering of one. The pattern is unmistakable: rejected by his own, exalted among the nations, saving those who condemned him."
+                },
+                {
                         "heading": "Joseph's Death and the Open Ending (50:22-26)",
                         "body": "Joseph lives to 110 years — the Egyptian ideal lifespan — and sees Ephraim's grandchildren and Manasseh's great-grandchildren born on his knees (a legal adoption gesture). His final words to his brothers are a confession of faith in the promise: 'God will surely visit you and bring you up out of this land to the land that he swore to Abraham, to Isaac, and to Jacob.' The Hebrew paqod yifqod ('visiting, he will visit') is emphatic — the certainty of divine intervention. Joseph makes them swear to carry his bones when that day comes. Then Joseph dies, is embalmed, and placed in a coffin (Hebrew aron) in Egypt. Genesis ends with a coffin in Egypt — not a conquest, not a coronation, but a promise unfulfilled. The last word demands the first word of Exodus. The divine council's plan is incomplete; the story will continue."
                 }
@@ -1074,6 +1092,7 @@ CHAPTERS = [
         "title": "Joseph in Egyptian Context — The Hyksos Period, Semitic Viziers, and Dream Interpretation",
         "era": "joseph",
         "type": "historical_insert",
+        "themes": [],
         "synopsis": "The Joseph narrative fits most naturally within the Hyksos period (c. 1650–1550 BC), when Semitic rulers governed Lower Egypt from Avaris. This era saw Semitic peoples in positions of power, making a Hebrew vizier historically plausible. Egyptian dream interpretation, court protocol, and administrative practices illuminated by archaeological finds provide the cultural backdrop against which Joseph's story unfolds.",
         "key_verse": None,
         "hebrew_terms": [

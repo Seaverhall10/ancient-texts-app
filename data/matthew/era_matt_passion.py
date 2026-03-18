@@ -22,6 +22,7 @@ CHAPTERS = [
         "title": "Peter's Confession, the Gates of Hades, and the Transfiguration",
         "era": "matt_passion",
         "type": "study",
+        "themes": ["KING", "SEED", "DC", "GLORY", "WOMEN"],
 
         "synopsis": "These chapters form the hinge of Matthew's Gospel. John the Baptist is executed "
                     "by Herod Antipas (14:1-12), and Jesus feeds 5,000 and walks on water -- displaying "
@@ -211,6 +212,7 @@ CHAPTERS = [
         "title": "The Community Discourse, the Rich Young Ruler, and the Way to Jerusalem",
         "era": "matt_passion",
         "type": "study",
+        "themes": ["DC", "KING", "BLOOD", "RIV", "SEED"],
 
         "synopsis": "Chapter 18 is the fourth great discourse -- the Community Discourse, focused on "
                     "life together in the kingdom community. Jesus teaches through a child's example "
@@ -349,6 +351,7 @@ CHAPTERS = [
         "title": "The Triumphal Entry, Temple Conflicts, and the Psalm 110 Question",
         "era": "matt_passion",
         "type": "study",
+        "themes": ["KING", "DC", "SEED", "RIV", "HOLY"],
 
         "synopsis": "Jesus enters Jerusalem as the king of Zechariah 9:9 -- riding a donkey, not a "
                     "war horse, while crowds shout 'Hosanna to the Son of David!' (21:9). He cleanses "
@@ -510,6 +513,7 @@ CHAPTERS = [
         "title": "The Olivet Discourse -- The Coming of the Son of Man",
         "era": "matt_passion",
         "type": "study",
+        "themes": ["DC", "KING", "NATIONS", "REBEL", "HOLY"],
 
         "synopsis": "The fifth and final discourse is the Olivet Discourse -- Jesus' teaching on the "
                     "destruction of Jerusalem, the end of the age, and the coming of the Son of Man. "
@@ -663,6 +667,7 @@ CHAPTERS = [
         "title": "The Passion, Resurrection, and the Great Commission",
         "era": "matt_passion",
         "type": "study",
+        "themes": ["KING", "DC", "NATIONS", "SEED", "COV"],
 
         "synopsis": "The final chapters of Matthew contain the passion narrative, resurrection, and "
                     "Great Commission -- the theological climax of the Gospel. Jesus is anointed at "

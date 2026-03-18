@@ -8,6 +8,7 @@ CHAPTERS = [
         "title": "Theophany at Sinai \u2014 The Mountain of God",
         "era": "sinai_covenant",
         "type": "chapter",
+        "themes": ["COV", "HOLY", "GLORY", "PRIEST", "KING"],
 
         "synopsis": "Israel arrives at the wilderness of Sinai in the third month after departing Egypt and encamps before the mountain. YHWH proposes a covenant from the mountain: if Israel obeys his voice and keeps his covenant, they will be his treasured possession (segullah), a kingdom of priests (mamlekhet kohanim), and a holy nation (goy qadosh). The people unanimously accept. Three days of consecration follow \u2014 washing garments, abstaining from sexual contact, setting boundaries around the mountain on pain of death. On the third day, the most terrifying theophany in Scripture erupts: thunder, lightning, a thick cloud, the blast of a supernaturally loud trumpet (shofar), smoke as from a furnace, the entire mountain quaking violently, and YHWH descending in fire. Moses ascends into the darkness atop the mountain to meet God.",
 
@@ -141,6 +142,7 @@ CHAPTERS = [
         "title": "The Ten Words \u2014 Foundation of Covenant Law",
         "era": "sinai_covenant",
         "type": "chapter",
+        "themes": ["LAW", "COV", "HOLY", "NAME", "WORSHIP"],
 
         "synopsis": "God speaks the Decalogue (aseret hadevarim, 'ten words') directly to the assembled nation \u2014 the only instance in Scripture where God addresses an entire people without a mediator. The commands divide into two tablets: the first four govern the vertical relationship between Israel and YHWH (no other gods, no images, no misusing the Name, keep the Sabbath), and the final six govern the horizontal relationships between human beings (honor parents, no murder, no adultery, no theft, no false witness, no coveting). After the Decalogue, the terrified people beg Moses to mediate all further communication, unable to endure the direct voice of God. Moses approaches the thick darkness where God is. This chapter is the theological center of the Torah \u2014 the constitutional foundation of Israel's covenant relationship with YHWH.",
 
@@ -356,6 +358,7 @@ CHAPTERS = [
         "title": "The Book of the Covenant I \u2014 Servants and Justice",
         "era": "sinai_covenant",
         "type": "chapter",
+        "themes": ["LAW", "COV", "TYPE"],
 
         "synopsis": "Immediately following the Decalogue, God delivers the mishpatim ('judgments, ordinances') \u2014 the specific case law that applies the Decalogue's principles to daily life in Israel. Exodus 21 addresses the treatment of Hebrew servants (eved ivri), including the remarkable seven-year release law and the rights of female servants. It then turns to laws governing personal injury: capital offenses (murder, striking parents, kidnapping), the lex talionis ('eye for eye, tooth for tooth'), and the goring ox. The chapter's consistent trajectory is toward the protection of human life and dignity, particularly for those in vulnerable positions \u2014 servants, women, and victims of violence.",
 
@@ -461,6 +464,7 @@ CHAPTERS = [
         "title": "The Book of the Covenant II \u2014 Property, Society, and the Vulnerable",
         "era": "sinai_covenant",
         "type": "chapter",
+        "themes": ["LAW", "COV", "NATIONS", "WOMEN"],
 
         "synopsis": "The mishpatim continue with laws governing property theft and restitution, bailment (entrusted goods), seduction of an unbetrothed virgin, and then transition to a series of absolute prohibitions and ethical commands: sorcery, bestiality, sacrifice to other gods, oppression of the sojourner (ger), exploitation of the widow (almanah) and orphan (yatom), lending without interest (neshekh), and the obligation to return a neighbor's pledged garment before nightfall. The chapter moves from property law to social ethics to theology, revealing that in the Sinai covenant, economics, justice, and worship are inseparable. The consistent thread is YHWH's identification with the vulnerable: 'If you do afflict them, and they cry out to me, I will surely hear their cry.'",
 
@@ -582,6 +586,7 @@ CHAPTERS = [
         "title": "The Book of the Covenant III \u2014 Sabbath, Festivals, and the Angel",
         "era": "sinai_covenant",
         "type": "chapter",
+        "themes": ["LAW", "COV", "WORSHIP", "NATIONS", "DELIVER"],
 
         "synopsis": "The Book of the Covenant concludes with laws governing judicial integrity (no false reports, no mob justice, no partiality even toward the poor), the Sabbath year (seventh-year fallow for the land), the weekly Sabbath, and the three annual pilgrimage festivals: Unleavened Bread (Matzot), Harvest/Weeks (Shavuot), and Ingathering/Booths (Sukkot). The chapter then transitions to a remarkable promise: YHWH will send his angel (malakh) before Israel to guard them and bring them into the Promised Land. The identity of this angel \u2014 who carries God's Name 'in him' \u2014 is one of the most significant divine council texts in the Torah. The chapter ends with promises of conquest and warnings against covenanting with the gods of Canaan.",
 
@@ -688,6 +693,7 @@ CHAPTERS = [
         "title": "The Covenant Ratified \u2014 Blood and Vision",
         "era": "sinai_covenant",
         "type": "chapter",
+        "themes": ["COV", "BLOOD", "GLORY", "TYPE"],
 
         "synopsis": "The Sinai covenant reaches its climax in a dramatic ratification ceremony. Moses builds an altar at the base of the mountain with twelve pillars for the twelve tribes, young men offer sacrifices, and Moses sprinkles the blood on altar and people, declaring: 'Behold the blood of the covenant (dam habberit) that the LORD has made with you.' Then Moses, Aaron, Nadab, Abihu, and seventy elders of Israel ascend the mountain and are granted an extraordinary vision: 'They saw the God of Israel. Under his feet was something like a pavement of sapphire stone (livnat hassappir), like the very heaven for clearness. But he did not lay his hand on the chief men of Israel; they beheld God, and ate and drank.' Moses then ascends alone into the cloud for forty days and forty nights to receive the stone tablets.",
 

@@ -22,6 +22,7 @@ CHAPTERS = [
         "title": "The Seventy-Two Sent, Satan Falls, and the Parables of Grace",
         "era": "luke_jerusalem",
         "type": "study",
+        "themes": ["DC", "KING", "REBEL", "SEED", "TYPE"],
 
         "synopsis": "The Travel Narrative opens with the sending of the 72 (or 70) -- a symbolic "
                     "mission to the nations (echoing the 70/72 nations of Gen 10 LXX). They return "
@@ -160,6 +161,7 @@ CHAPTERS = [
         "title": "The Cost of Discipleship and the Parables of the Lost",
         "era": "luke_jerusalem",
         "type": "study",
+        "themes": ["DC", "LOVE", "KING", "REBEL", "HOLY"],
 
         "synopsis": "These chapters contain some of Luke's most beloved parables. The great banquet "
                     "(14:15-24): those first invited refuse, so the host invites 'the poor and crippled "
@@ -285,6 +287,7 @@ CHAPTERS = [
         "title": "Jerusalem Approaches -- The Entry, the Temple, and the Olivet Discourse",
         "era": "luke_jerusalem",
         "type": "study",
+        "themes": ["DC", "TYPE", "SEED", "NATIONS", "BLOOD"],
 
         "synopsis": "The journey to Jerusalem nears its end. Jesus tells the parable of the persistent "
                     "widow (18:1-8) and the Pharisee and tax collector (18:9-14): 'Everyone who exalts "
@@ -406,6 +409,7 @@ CHAPTERS = [
         "title": "Satan Returns -- The Last Supper, Trial, and Crucifixion",
         "era": "luke_jerusalem",
         "type": "study",
+        "themes": ["KING", "COV", "DC", "WOMEN", "BLOOD"],
 
         "synopsis": "Luke's passion narrative is the most psychologically nuanced of the four Gospels. "
                     "Satan, who 'departed until an opportune time' (4:13), now returns: 'Satan entered "
@@ -546,6 +550,7 @@ CHAPTERS = [
         "title": "The Resurrection, the Emmaus Road, and the Comprehensive Fulfillment",
         "era": "luke_jerusalem",
         "type": "study",
+        "themes": ["DC", "TYPE", "SPIRIT", "NATIONS", "KING"],
 
         "synopsis": "Luke 24 is one of the most theologically rich chapters in the Bible. Women "
                     "discover the empty tomb; two angels declare 'He is not here, but has risen' "

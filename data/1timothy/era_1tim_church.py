@@ -14,6 +14,7 @@ CHAPTERS = [
         "title": "Sound Doctrine and the Mystery Seen by Angels",
         "era": "1tim_church",
         "type": "chapter",
+        "themes": ["DC", "KING", "REBEL", "WOMEN", "LAW"],
 
         "synopsis": "Paul charges Timothy to 'remain at Ephesus so that you may charge certain persons not "
                     "to teach any different doctrine, nor to devote themselves to myths and endless genealogies, "
@@ -118,6 +119,7 @@ CHAPTERS = [
         "title": "Doctrines of Demons and the Good Fight",
         "era": "1tim_church",
         "type": "chapter",
+        "themes": ["KING", "DC", "SEED", "REBEL", "TYPE"],
 
         "synopsis": "Paul delivers the prophetic warning: 'The Spirit expressly says that in later times "
                     "some will depart from the faith by devoting themselves to deceitful spirits and "

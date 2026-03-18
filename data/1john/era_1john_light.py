@@ -14,6 +14,7 @@ CHAPTERS = [
         "title": "God Is Light -- Children of God vs. Children of the Devil",
         "era": "1john_light",
         "type": "chapter",
+        "themes": ["KING", "SEED", "DC", "HOLY", "SPIRIT"],
 
         "synopsis": "John opens with an eyewitness declaration: 'That which was from the beginning, which "
                     "we have heard, which we have seen with our eyes, which we looked upon and have touched "
@@ -145,6 +146,7 @@ CHAPTERS = [
         "title": "Test the Spirits -- The World in the Evil One",
         "era": "1john_light",
         "type": "chapter",
+        "themes": ["DC", "BLOOD", "SPIRIT", "KING", "REBEL"],
 
         "synopsis": "John commands: 'Beloved, do not believe every spirit, but test the spirits to see whether "
                     "they are from God, for many false prophets have gone out into the world' (4:1). The test: "

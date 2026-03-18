@@ -25,6 +25,7 @@ CHAPTERS = [
         "title": "The First Journey -- Bar-Jesus, Pisidian Antioch, and the Turn to the Gentiles",
         "era": "acts_mission",
         "type": "study",
+        "themes": ["DC", "HOLY", "TYPE", "KING", "SEED"],
 
         "synopsis": "The Holy Spirit initiates the Gentile mission directly: 'While they were worshiping "
                     "the Lord and fasting, the Holy Spirit said, \"Set apart for me Barnabas and Saul for "
@@ -204,6 +205,7 @@ CHAPTERS = [
         "title": "The Jerusalem Council -- The Deuteronomy 32 Reversal Ratified",
         "era": "acts_mission",
         "type": "study",
+        "themes": ["DC", "SEED", "NATIONS", "KING", "LAW"],
 
         "synopsis": "The Jerusalem Council (Acts 15) is the most theologically decisive moment in Acts "
                     "and one of the most important events in early church history. The question: 'Unless "
@@ -359,6 +361,7 @@ CHAPTERS = [
         "title": "Philippi, Thessalonica, and Athens -- The Python Spirit and the Unknown God",
         "era": "acts_mission",
         "type": "study",
+        "themes": ["NATIONS", "KING", "DC", "RIV", "SEED"],
 
         "synopsis": "Paul's second journey brings the gospel to Europe. The Spirit directs the mission "
                     "through a vision: 'A man of Macedonia was standing there, urging him and saying, "
@@ -526,6 +529,7 @@ CHAPTERS = [
         "title": "Corinth, Ephesus, and the Burning of the Books -- The Powers Stripped",
         "era": "acts_mission",
         "type": "study",
+        "themes": ["DC", "KING", "NAME", "HOLY", "SPIRIT"],
 
         "synopsis": "Paul establishes the church in Corinth (18:1-17), where he meets Aquila and Priscilla, "
                     "expelled from Rome by Claudius' edict (18:2). The Lord speaks to Paul in a vision: 'Do "
@@ -690,6 +694,7 @@ CHAPTERS = [
         "title": "Jerusalem Arrest, the Sanhedrin, and Angels -- Paul in the Eye of the Storm",
         "era": "acts_mission",
         "type": "study",
+        "themes": ["DC", "KING", "SEED", "HOLY", "SPIRIT"],
 
         "synopsis": "Paul returns to Jerusalem despite prophetic warnings. At Tyre, disciples 'through "
                     "the Spirit' urge Paul not to go (21:4). At Caesarea, the prophet Agabus binds Paul's "
@@ -841,6 +846,7 @@ CHAPTERS = [
         "title": "Felix, Festus, Agrippa, and the Voyage to Rome -- The Gospel Reaches the Capital",
         "era": "acts_mission",
         "type": "study",
+        "themes": ["KING", "NATIONS", "DC", "REVERSAL", "RIV"],
 
         "synopsis": "Paul's trial and journey to Rome occupy the final five chapters of Acts. Before Felix, "
                     "Paul declares: 'I worship the God of our fathers, believing everything laid down by the "

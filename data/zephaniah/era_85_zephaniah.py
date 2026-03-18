@@ -14,6 +14,7 @@ CHAPTERS = [
         "title": "The Day of YHWH -- Cosmic Un-Creation",
         "era": "zephaniah",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "RIV"],
 
         "synopsis": "Zephaniah 1 opens with the most sweeping judgment oracle in the OT: 'I will utterly "
                     "sweep away everything from the face of the earth... man and beast... birds and fish' "
@@ -96,6 +97,7 @@ CHAPTERS = [
         "title": "Seek YHWH -- Oracles Against the Nations",
         "era": "zephaniah",
         "type": "chapter",
+        "themes": ["NATIONS", "RIV"],
 
         "synopsis": "Between cosmic judgment (ch. 1) and Jerusalem's indictment (ch. 3), Zephaniah issues "
                     "a call to seek YHWH and then pronounces oracles against the surrounding nations. 'Seek "

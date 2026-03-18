@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "Trials, Temptation, and the Crown of Life",
         "era": "james_wisdom",
         "type": "study",
+        "themes": ["DC", "KING", "HOLY", "TYPE", "EXILE"],
 
         "synopsis": "James opens his letter with one of the most counterintuitive commands in "
                     "Scripture: 'Count it all joy, my brothers, when you meet trials of various "
@@ -200,6 +201,7 @@ CHAPTERS = [
         "title": "Faith and Works -- The Living Faith That Saves",
         "era": "james_wisdom",
         "type": "study",
+        "themes": ["KING", "DC", "REBEL", "HOLY", "BLOOD"],
 
         "synopsis": "James 2 confronts two critical failures in the community: favoritism toward "
                     "the wealthy (2:1-13) and the claim of faith without corresponding action "
@@ -382,6 +384,7 @@ CHAPTERS = [
         "title": "Wisdom from Above vs. Earthly Wisdom",
         "era": "james_wisdom",
         "type": "study",
+        "themes": ["DC", "REBEL", "KING", "HOLY", "LOVE"],
 
         "synopsis": "James 3-4 presents the most sustained contrast in the epistle: the wisdom "
                     "from above versus the wisdom that is earthly, unspiritual, and demonic. The "

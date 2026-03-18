@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "He Emptied Himself -- The Kenosis of the Son",
         "era": "phil_hymn",
         "type": "study",
+        "themes": ["DC", "KING", "SEED", "TYPE", "NATIONS"],
 
         "synopsis": "The theological summit of Philippians and arguably the most concentrated christological "
                     "passage in the entire Pauline corpus. Paul calls the Philippians to adopt the mind of "
@@ -192,6 +193,7 @@ CHAPTERS = [
         "title": "Work Out Your Salvation -- The Community of the Cross",
         "era": "phil_hymn",
         "type": "study",
+        "themes": ["DC", "KING", "TYPE", "HOLY", "COV"],
 
         "synopsis": "Having presented the cosmic arc of Christ's kenosis and exaltation, Paul draws out its "
                     "implications for the believing community. 'Work out your own salvation with fear and "
@@ -352,6 +354,7 @@ CHAPTERS = [
         "title": "Citizenship in Heaven -- The Power of His Resurrection",
         "era": "phil_hymn",
         "type": "study",
+        "themes": ["KING", "DC", "TYPE", "NATIONS", "HOLY"],
 
         "synopsis": "Paul pivots from communal exhortation to intensely personal testimony, then to "
                     "eschatological hope. He catalogs his impressive Jewish credentials -- circumcised on the "

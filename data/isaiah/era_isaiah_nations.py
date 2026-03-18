@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "The Fall of Babylon and Helel ben Shachar",
         "era": "isaiah_nations",
         "type": "chapter",
+        "themes": ["DC", "REBEL", "NATIONS", "KING"],
 
         "synopsis": "The massa (oracle/burden) against Babylon opens with YHWH mustering his 'consecrated "
                     "ones' (meqaddashai) -- warriors sanctified for holy war -- for the Day of YHWH against "
@@ -234,6 +235,7 @@ CHAPTERS = [
         "title": "The Oracle Against Egypt: YHWH Known in the Land of Bondage",
         "era": "isaiah_nations",
         "type": "chapter",
+        "themes": ["NATIONS", "REVERSAL"],
 
         "synopsis": "The massa against Egypt begins with YHWH riding on a swift cloud (av qal) into "
                     "Egypt -- the divine warrior invading the land of Israel's former bondage. 'The "
@@ -348,6 +350,7 @@ CHAPTERS = [
         "title": "The Isaiah Apocalypse: Cosmic Judgment, Leviathan, and Resurrection",
         "era": "isaiah_nations",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "REVERSAL", "GLORY"],
 
         "synopsis": "Chapters 24-27, known as the 'Isaiah Apocalypse' (or 'Little Apocalypse'), shift "
                     "from specific national oracles to universal, cosmic judgment. 'Behold, YHWH will "
@@ -539,6 +542,7 @@ CHAPTERS = [
         "title": "Oracle Against Damascus and the Remnant Theme",
         "era": "isaiah_nations",
         "type": "chapter",
+        "themes": ["NATIONS", "REMNANT"],
 
         "synopsis": "The oracle against Damascus (Aram/Syria) intertwines judgment on Israel's "
                     "northern neighbor with judgment on Ephraim (northern Israel), since both were "

@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "Dead to Sin, Alive to God -- Baptismal Union with Christ",
         "era": "rom_life",
         "type": "study",
+        "themes": ["DC", "HOLY", "KING", "TYPE", "WOMEN"],
 
         "synopsis": "Romans 6 addresses the logical objection to justification by grace: 'Are we to "
                     "continue in sin that grace may abound?' (6:1). Paul's response is baptismal theology: "
@@ -163,6 +164,7 @@ CHAPTERS = [
         "title": "The Law, the Flesh, and the Wretched Man -- The Anguish of the Divided Self",
         "era": "rom_life",
         "type": "study",
+        "themes": ["DC", "KING", "LAW", "SEED", "HOLY"],
 
         "synopsis": "Romans 7 is the most psychologically intense chapter in Paul's letters and one of "
                     "the most debated in the entire Bible. Paul uses a marriage analogy to show that death "
@@ -333,6 +335,7 @@ CHAPTERS = [
         "title": "No Condemnation, No Separation -- The Spirit, Creation's Groaning, and the Invincible Love",
         "era": "rom_life",
         "type": "study",
+        "themes": ["DC", "KING", "TYPE", "GLORY", "SEED"],
 
         "synopsis": "Romans 8 is the summit of Pauline theology -- 'the most important chapter in the "
                     "Bible' (N. T. Wright). It opens with 'no condemnation' (8:1) and closes with 'no "

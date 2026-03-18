@@ -10,6 +10,7 @@ CHAPTERS = [
         "title": "A Bride for Isaac — Providence and the Servant's Mission",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['PROV', 'COV', 'WOMEN', 'SEED'],
         "synopsis": "Abraham sends his senior servant to find a wife for Isaac from his kinsmen in Mesopotamia. The servant's prayer, Rebekah's appearance at the well, and the family's consent form one of the most detailed narratives in Genesis. The chapter is a masterclass in divine providence — God guiding through ordinary events.",
         "key_verse": {
                 "ref": "Genesis 24:27",
@@ -75,6 +76,7 @@ CHAPTERS = [
         "title": "Abraham's Death, Jacob and Esau — The Struggle Begins",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['SEED', 'REVERSAL', 'COV', 'NAME'],
         "synopsis": "Abraham dies and is buried at Machpelah. The narrative pivots to Isaac's family: Rebekah is barren (the recurring crisis), then conceives twins who struggle in the womb. God tells Rebekah the elder will serve the younger. Esau and Jacob are born, and Esau sells his birthright for stew.",
         "key_verse": {
                 "ref": "Genesis 25:23",
@@ -143,6 +145,7 @@ CHAPTERS = [
         "title": "Isaac in Gerar — The Father's Pattern Repeated",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['COV', 'LAND', 'SEED', 'PROV', 'WOMEN'],
         "synopsis": "Famine strikes again and Isaac moves to Gerar. God reaffirms the Abrahamic covenant to Isaac directly. Isaac repeats his father's sister-wife deception with Abimelech. He prospers enormously, digs wells (which the Philistines contest), and makes a treaty at Beer-sheba. The chapter establishes Isaac as the legitimate covenant heir.",
         "key_verse": {
                 "ref": "Genesis 26:24",
@@ -201,6 +204,7 @@ CHAPTERS = [
         "title": "The Stolen Blessing — Deception in the Family of Promise",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['REVERSAL', 'SEED', 'COV', 'WOMEN', 'PROV'],
         "synopsis": "Isaac, old and blind, prepares to bless Esau. Rebekah orchestrates a deception: Jacob disguises himself with goatskins and brings prepared food. Isaac blesses Jacob with the covenant blessing. When Esau arrives, Isaac trembles violently at the irreversibility. Esau weeps bitterly and receives a lesser blessing. Jacob must flee for his life.",
         "key_verse": {
                 "ref": "Genesis 27:28-29",
@@ -269,6 +273,7 @@ CHAPTERS = [
         "title": "Jacob's Ladder — The Stairway to Heaven's Court",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['HOLY', 'COV', 'DREAM', 'LAND', 'DC', 'NAME'],
         "synopsis": "Isaac sends Jacob to Paddan-aram with a formal blessing. At Bethel, Jacob dreams of a stairway (sulam) reaching to heaven with angels ascending and descending. YHWH stands above it and reaffirms the Abrahamic covenant to Jacob personally. This is the most vivid divine council vision in Genesis — Jacob sees the gateway between the heavenly throne room and earth.",
         "key_verse": {
                 "ref": "Genesis 28:12-13",
@@ -340,6 +345,7 @@ CHAPTERS = [
         "title": "Jacob in Haran — The Deceiver Deceived",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['SEED', 'WOMEN', 'REVERSAL', 'PROV'],
         "synopsis": "Jacob arrives in Haran, meets Rachel at a well, and falls in love. He agrees to work seven years for her. On the wedding night, Laban substitutes Leah. Jacob, the man who deceived his blind father with disguise, is himself deceived in the dark. He works seven more years for Rachel. The chapter introduces the twelve-tribe mothers and the theme of poetic justice.",
         "key_verse": {
                 "ref": "Genesis 29:20",
@@ -404,6 +410,7 @@ CHAPTERS = [
         "title": "The Birth of the Tribes — Rivalry and Blessing",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['SEED', 'WOMEN', 'NAME', 'PROV', 'REVERSAL'],
         "synopsis": "Rachel and Leah compete for children through surrogates and mandrakes, producing the remaining sons of Jacob (plus Dinah). Jacob negotiates his wages with Laban using speckled and spotted livestock. Despite Laban's repeated changes of terms, Jacob prospers enormously — divine blessing operating through a flawed man in a dysfunctional family.",
         "key_verse": {
                 "ref": "Genesis 30:22-23",
@@ -462,6 +469,7 @@ CHAPTERS = [
         "title": "Jacob Flees Laban — The Teraphim and the Covenant",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['PROV', 'COV', 'LAND', 'DREAM'],
         "synopsis": "God tells Jacob to return home. He flees secretly with his family and flocks. Rachel steals Laban's household gods (teraphim). Laban pursues, but God warns him in a dream. They confront each other, Laban searches unsuccessfully for the teraphim (Rachel sits on them), and they make a covenant at Mizpah.",
         "key_verse": {
                 "ref": "Genesis 31:3",
@@ -520,6 +528,7 @@ CHAPTERS = [
         "title": "Wrestling at Peniel — Jacob Becomes Israel",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['DC', 'NAME', 'TYPE', 'COV', 'SPIRIT'],
         "synopsis": "Jacob prepares to meet Esau, terrified of retribution. He divides his camp, sends gifts ahead, and is left alone at the Jabbok river. A mysterious 'man' wrestles him all night. Jacob refuses to release him without a blessing. His name is changed to Israel ('he struggles with God'). He limps away at dawn, having seen God face to face and survived.",
         "key_verse": {
                 "ref": "Genesis 32:28",
@@ -591,6 +600,7 @@ CHAPTERS = [
         "title": "Jacob and Esau Reunited — Grace in the Face of God",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['LAND', 'COV', 'PROV'],
         "synopsis": "Jacob meets Esau with bowing, gifts, and humility. Against all expectation, Esau runs to embrace him. Jacob says seeing Esau's face is like seeing the face of God. The brothers separate peacefully. Jacob settles at Shechem and buys land, erecting an altar called El-Elohe-Israel ('God, the God of Israel').",
         "key_verse": {
                 "ref": "Genesis 33:10",
@@ -646,6 +656,7 @@ CHAPTERS = [
         "title": "Dinah and Shechem — Violence Begets Violence",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['WOMEN', 'REBEL', 'LAND'],
         "synopsis": "Dinah, Jacob's daughter, is violated by Shechem son of Hamor. Shechem then seeks to marry her. Simeon and Levi use circumcision as a weapon: they require the Shechemites to be circumcised, then massacre the incapacitated city on the third day. Jacob rebukes them; they reply, 'Should he treat our sister like a prostitute?' The chapter raises unresolved questions about justice, violence, and assimilation.",
         "key_verse": {
                 "ref": "Genesis 34:31",
@@ -699,6 +710,7 @@ CHAPTERS = [
         "title": "Return to Bethel — Renewal and Loss",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['HOLY', 'COV', 'SEED', 'NAME', 'WOMEN'],
         "synopsis": "God commands Jacob to return to Bethel and fulfill his vow. Jacob purges foreign gods from his household. At Bethel, God reaffirms the covenant and the name Israel. Rachel dies giving birth to Benjamin near Bethlehem. Reuben violates Bilhah. Isaac dies at Hebron. The chapter is a series of endings and new beginnings.",
         "key_verse": {
                 "ref": "Genesis 35:10-11",
@@ -769,6 +781,7 @@ CHAPTERS = [
         "title": "The Descendants of Esau — Edom",
         "era": "isaac_jacob",
         "type": "chapter",
+        "themes": ['SEED', 'NATIONS', 'LAND'],
         "synopsis": "Genesis 36 provides the toledot of Esau/Edom: his wives, sons, chiefs, and kings. Esau settles in the hill country of Seir, becoming the nation of Edom. The chapter notes that kings reigned in Edom 'before any king reigned over the Israelites' — Esau's political development outpaced Jacob's, but the covenant remained with Israel.",
         "key_verse": {
                 "ref": "Genesis 36:8",
@@ -822,6 +835,7 @@ CHAPTERS = [
         "title": "Jacob, Sacred Space, and the Divine Council — Bethel, Peniel, Mahanaim",
         "era": "isaac_jacob",
         "type": "historical_insert",
+        "themes": [],
         "synopsis": "Jacob's journey is punctuated by encounters at sites where heaven and earth intersect: Bethel (stairway to heaven), Mahanaim (two camps, divine and human), and Peniel (face of God). These are not random locations but points of divine council access — places where the boundary between the visible and invisible realms becomes thin.",
         "key_verse": None,
         "hebrew_terms": [

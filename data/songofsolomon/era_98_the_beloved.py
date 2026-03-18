@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "The Beloved and the Lover: First Words of Desire",
         "era": "the_beloved",
         "type": "chapter",
+        "themes": ["LOVE", "WOMEN", "TYPE"],
 
         "synopsis": "The Song opens with the woman's voice -- a striking literary choice in the "
                     "ancient world. 'Let him kiss me with the kisses of his mouth! For your love is "
@@ -161,6 +162,7 @@ CHAPTERS = [
         "title": "Seeking, Finding, and the Wedding Procession",
         "era": "the_beloved",
         "type": "chapter",
+        "themes": ["LOVE", "WOMEN", "HOLY", "TYPE"],
 
         "synopsis": "The middle section of the Song intensifies both desire and tension. The woman "
                     "searches for her beloved through the city streets at night -- 'I sought him, but "

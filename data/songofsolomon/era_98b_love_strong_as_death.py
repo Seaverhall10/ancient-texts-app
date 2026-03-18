@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "Reunion, Exclusivity, and Love Strong as Death",
         "era": "love_strong_as_death",
         "type": "chapter",
+        "themes": ["LOVE", "WOMEN", "COV", "NAME"],
 
         "synopsis": "The final section moves from the woman's praise of her beloved (the counter-wasf, "
                     "5:10-16), through reunion in the garden (6:1-3), to the climactic declaration that "

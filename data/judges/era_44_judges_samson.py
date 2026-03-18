@@ -25,6 +25,7 @@ CHAPTERS = [
         "title": "The Angel of YHWH and the Birth of Samson",
         "era": "judges_samson",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "HOLY", "WOMEN"],
 
         "synopsis": "Israel does evil again, and YHWH gives them into the hand of the Philistines "
                     "for forty years -- the longest oppression in the book. The Angel of YHWH appears "
@@ -220,6 +221,7 @@ CHAPTERS = [
         "title": "The Timnah Marriage and the Riddle -- Spirit and Appetite",
         "era": "judges_samson",
         "type": "chapter",
+        "themes": ["SPIRIT", "NATIONS"],
 
         "synopsis": "Samson goes to Timnah and desires a Philistine woman: 'Get her for me, for she "
                     "is right in my eyes' (14:3) -- language that foreshadows the book's refrain about "
@@ -357,6 +359,7 @@ CHAPTERS = [
         "title": "Foxes, Jawbones, and Living Water -- Escalation",
         "era": "judges_samson",
         "type": "chapter",
+        "themes": ["SPIRIT", "REVERSAL"],
 
         "synopsis": "Samson returns to Timnah to visit his wife, only to discover that her father has "
                     "given her to another man. In retaliation, Samson catches 300 foxes (or jackals), "
@@ -492,6 +495,7 @@ CHAPTERS = [
         "title": "Delilah and Dagon's Temple -- The Spirit Departs, the Temple Falls",
         "era": "judges_samson",
         "type": "chapter",
+        "themes": ["SPIRIT", "DC", "REVERSAL"],
 
         "synopsis": "Samson visits a prostitute in Gaza, then falls in love with Delilah in the "
                     "Valley of Sorek. The Philistine lords (seranim) offer Delilah 1,100 pieces of "

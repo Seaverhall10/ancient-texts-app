@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "Gaius, Diotrephes, and Demetrius: Authority and Hospitality in the Church",
         "era": "3john_hospitality",
         "type": "study",
+        "themes": ["DC", "REBEL", "BLOOD", "KING", "TYPE"],
 
         "synopsis": (
             "The Elder writes a personal letter to his friend Gaius -- a faithful believer who "

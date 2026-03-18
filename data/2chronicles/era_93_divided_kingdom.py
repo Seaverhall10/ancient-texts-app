@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "Rehoboam to Asa: Division, Faithfulness, and the Seeking Formula",
         "era": "divided_kingdom",
         "type": "chapter",
+        "themes": ["KING", "COV", "RIV", "REBEL"],
 
         "synopsis": "The kingdom divides when Rehoboam follows foolish counsel and rejects the "
                     "northern tribes' plea for lighter burdens (ch. 10). The Chronicler attributes "
@@ -135,6 +136,7 @@ CHAPTERS = [
         "title": "Jehoshaphat, Micaiah's Vision, and Athaliah: Council and Conflict",
         "era": "divided_kingdom",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "KING", "SEED", "COV", "WOMEN"],
 
         "synopsis": "Jehoshaphat is one of the Chronicler's model kings: he 'sought the God of his "
                     "father' (17:4), sent Levites throughout Judah to teach the law (17:7-9), and "
@@ -295,6 +297,7 @@ CHAPTERS = [
         "title": "From Reform to Apostasy: Joash, Amaziah, Uzziah, Jotham, and Ahaz",
         "era": "divided_kingdom",
         "type": "chapter",
+        "themes": ["KING", "PRIEST", "HOLY", "RIV", "REBEL"],
 
         "synopsis": "The middle period of the divided monarchy follows a pattern of reform followed "
                     "by decline. Joash starts well under Jehoiada's guidance, repairing the temple, "

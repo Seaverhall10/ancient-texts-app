@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The Fall of Jericho -- Cosmic Warfare Through Liturgy",
         "era": "jericho_ai",
         "type": "chapter",
+        "themes": ["HOLY", "DC", "BLOOD"],
 
         "synopsis": "Jericho is shut up tight -- 'none went out, and none came in' (6:1). YHWH "
                     "gives Joshua the battle plan: this is not a conventional siege but a liturgical "
@@ -231,6 +232,7 @@ CHAPTERS = [
         "title": "Achan's Sin -- When the Herem Is Broken",
         "era": "jericho_ai",
         "type": "chapter",
+        "themes": ["HOLY", "BLOOD", "COV"],
 
         "synopsis": "After the triumph at Jericho, disaster strikes. Achan son of Carmi, of the "
                     "tribe of Judah, has taken devoted items (cherem) from Jericho -- a cloak from "
@@ -431,6 +433,7 @@ CHAPTERS = [
         "title": "The Conquest of Ai and Covenant Renewal at Shechem",
         "era": "jericho_ai",
         "type": "chapter",
+        "themes": ["COV", "LAW", "LAND"],
 
         "synopsis": "With Achan's sin purged, YHWH commands a second assault on Ai: 'Do not fear "
                     "and do not be dismayed... See, I have given into your hand the king of Ai, and "

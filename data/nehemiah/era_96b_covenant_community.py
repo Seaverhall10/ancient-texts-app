@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The Torah Read and the Covenant Renewed: Birth of the People of the Book",
         "era": "covenant_community",
         "type": "chapter",
+        "themes": ["LAW", "COV", "HOLY", "DC"],
 
         "synopsis": "With the wall complete, the community gathers for the most important event in "
                     "Nehemiah: the public reading of the Torah. 'All the people gathered as one man "
@@ -163,6 +164,7 @@ CHAPTERS = [
         "title": "Populating Jerusalem, Dedicating the Wall, and Nehemiah's Reforms",
         "era": "covenant_community",
         "type": "chapter",
+        "themes": ["HOLY", "COV", "LAW", "PRIEST"],
 
         "synopsis": "The final section of Nehemiah addresses three tasks: populating the rebuilt "
                     "city (ch. 11), dedicating the wall with worship and celebration (ch. 12), and "

@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "The Man of Lawlessness and the Mystery of Iniquity",
         "era": "2thess_lawless",
         "type": "chapter",
+        "themes": ["DC", "REBEL", "KING", "TYPE", "HOLY"],
 
         "synopsis": "Paul opens by commending the Thessalonians' faith under persecution and describing "
                     "the 'righteous judgment of God' (1:5) when 'the Lord Jesus is revealed from heaven "

@@ -22,6 +22,7 @@ CHAPTERS = [
         "title": "Faithful in Babylon and the Dream of the Great Statue",
         "era": "daniel_court",
         "type": "chapter",
+        "themes": ["DREAM", "KING", "DC", "NATIONS"],
 
         "synopsis": "Daniel opens with the historical marker: 'In the third year of the reign of "
                     "Jehoiakim king of Judah, Nebuchadnezzar king of Babylon came to Jerusalem and "
@@ -190,6 +191,7 @@ CHAPTERS = [
         "title": "The Fiery Furnace and the Fourth Figure: Bar Elahin",
         "era": "daniel_court",
         "type": "chapter",
+        "themes": ["KING", "HOLY", "NAME"],
 
         "synopsis": "Nebuchadnezzar erects a golden image (tselem di-dahav) ninety feet high on the plain "
                     "of Dura. All officials must bow and worship when the musical instruments sound; "
@@ -375,6 +377,7 @@ CHAPTERS = [
         "title": "The Watchers' Decree and the Writing on the Wall",
         "era": "daniel_court",
         "type": "chapter",
+        "themes": ["DREAM", "KING", "DC", "NATIONS"],
 
         "synopsis": "Daniel 4 is unique in the Hebrew Bible: it is narrated by a pagan king. "
                     "Nebuchadnezzar issues a decree recounting his own humiliation and restoration. He "
@@ -557,6 +560,7 @@ CHAPTERS = [
         "title": "Daniel in the Lions' Den: The Angel Shuts Their Mouths",
         "era": "daniel_court",
         "type": "chapter",
+        "themes": ["DC", "KING"],
 
         "synopsis": "Under the new Persian administration of 'Darius the Mede,' Daniel's excellence "
                     "provokes jealousy among the other officials. They plot to destroy him by targeting "

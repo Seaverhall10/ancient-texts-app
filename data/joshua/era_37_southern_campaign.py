@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The Gibeonite Deception -- When Israel Fails to Inquire",
         "era": "southern_campaign",
         "type": "chapter",
+        "themes": ["COV", "NATIONS", "PROV"],
 
         "synopsis": "News of Jericho and Ai spreads through Canaan. The western kings form a "
                     "coalition against Israel (9:1-2), but the Gibeonites take a different approach: "
@@ -235,6 +236,7 @@ CHAPTERS = [
         "title": "The Sun Stands Still -- YHWH Fights from Heaven",
         "era": "southern_campaign",
         "type": "chapter",
+        "themes": ["DC", "LAND", "NATIONS"],
 
         "synopsis": "When Adoni-zedek king of Jerusalem ('my lord is righteousness') learns that "
                     "Gibeon has made peace with Israel, he forms a five-king coalition: Jerusalem, "
@@ -491,6 +493,7 @@ CHAPTERS = [
         "title": "The Cosmological Significance of the Gibeon Battle",
         "era": "southern_campaign",
         "type": "chapter",
+        "themes": ["DC", "LAND", "NATIONS", "BLOOD"],
 
         "synopsis": "This supplementary analysis explores the deeper cosmological and divine council "
                     "dimensions of the Gibeon battle that extend beyond the verse-by-verse narrative. "

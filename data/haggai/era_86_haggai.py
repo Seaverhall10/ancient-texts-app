@@ -14,6 +14,7 @@ CHAPTERS = [
         "title": "Consider Your Ways -- Build YHWH's House",
         "era": "haggai",
         "type": "chapter",
+        "themes": ["HOLY", "GLORY", "SPIRIT"],
 
         "synopsis": "Haggai's first oracle (dated August 29, 520 BC) confronts the returned exiles' "
                     "misplaced priorities: 'Is it a time for you yourselves to dwell in your paneled houses, "
@@ -98,6 +99,7 @@ CHAPTERS = [
         "title": "The Latter Glory -- Greater Than Solomon's",
         "era": "haggai",
         "type": "chapter",
+        "themes": ["GLORY", "SEED", "COV"],
 
         "synopsis": "Haggai 2 contains three oracles. The first (2:1-9, October 17) addresses the discouragement "
                     "of those who remembered Solomon's Temple: 'Who is left among you who saw this house in its "

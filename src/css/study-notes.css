@@ -6,7 +6,7 @@
     padding: 0.75rem 1rem;
     background: rgba(201, 168, 76, 0.06);
     border: 1px solid rgba(201, 168, 76, 0.2);
-    border-left: 3px solid var(--color-gold, #c9a84c);
+    border-left: 3px solid var(--gold);
     border-radius: 0 8px 8px 0;
 }
 .study-note-header {
@@ -23,14 +23,14 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: var(--color-gold, #c9a84c);
+    color: var(--gold);
     flex: 1;
 }
 .study-note-edit,
 .study-note-delete {
     background: none;
     border: none;
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
     font-size: 0.75rem;
     cursor: pointer;
     padding: 2px 6px;
@@ -38,7 +38,7 @@
     transition: all 0.15s;
 }
 .study-note-edit:hover {
-    color: var(--color-gold, #c9a84c);
+    color: var(--gold);
     background: rgba(201, 168, 76, 0.1);
 }
 .study-note-delete:hover {
@@ -48,12 +48,12 @@
 .study-note-text {
     font-size: 0.88rem;
     line-height: 1.6;
-    color: var(--color-text, #e8e1d3);
+    color: var(--text-primary);
     white-space: pre-wrap;
 }
 .study-note-date {
     font-size: 0.65rem;
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
     margin-top: 0.3rem;
     text-align: right;
 }
@@ -62,7 +62,7 @@
 .chapter-action-note {
     background: transparent;
     border: 1px solid rgba(201, 168, 76, 0.2);
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
     padding: 6px 12px;
     border-radius: 6px;
     font-size: 0.78rem;
@@ -70,13 +70,13 @@
     transition: all 0.15s;
 }
 .chapter-action-note:hover {
-    border-color: var(--color-gold, #c9a84c);
-    color: var(--color-gold, #c9a84c);
+    border-color: var(--gold);
+    color: var(--gold);
     background: rgba(201, 168, 76, 0.06);
 }
 .chapter-action-note.has-note {
-    border-color: var(--color-gold, #c9a84c);
-    color: var(--color-gold, #c9a84c);
+    border-color: var(--gold);
+    color: var(--gold);
     background: rgba(201, 168, 76, 0.08);
 }
 
@@ -85,7 +85,7 @@
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
     background: rgba(0, 0, 0, 0.7);
-    z-index: 100000;
+    z-index: var(--z-bible-drawer);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +97,7 @@
     to { opacity: 1; }
 }
 .study-note-modal {
-    background: var(--color-surface, #181c28);
+    background: var(--bg-card);
     border: 1px solid rgba(201, 168, 76, 0.3);
     border-radius: 12px;
     padding: 1.25rem;
@@ -115,12 +115,12 @@
     margin-bottom: 0.5rem;
     font-size: 1rem;
     font-weight: 700;
-    color: var(--color-gold, #c9a84c);
+    color: var(--gold);
 }
 .study-note-modal-close {
     background: none;
     border: none;
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
     font-size: 1.1rem;
     cursor: pointer;
     padding: 4px 8px;
@@ -133,7 +133,7 @@
 }
 .study-note-modal-chapter {
     font-size: 0.75rem;
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
     margin-bottom: 0.75rem;
 }
 .study-note-textarea {
@@ -144,7 +144,7 @@
     border: 1px solid rgba(201, 168, 76, 0.15);
     border-radius: 8px;
     padding: 0.75rem;
-    color: var(--color-text, #e8e1d3);
+    color: var(--text-primary);
     font-family: var(--font-body, 'Inter', sans-serif);
     font-size: 0.9rem;
     line-height: 1.6;
@@ -156,7 +156,7 @@
     border-color: rgba(201, 168, 76, 0.4);
 }
 .study-note-textarea::placeholder {
-    color: var(--color-muted, #8a8f98);
+    color: var(--text-muted);
     opacity: 0.6;
 }
 .study-note-modal-actions {
@@ -166,8 +166,8 @@
     justify-content: flex-end;
 }
 .study-note-save {
-    background: var(--color-gold, #c9a84c);
-    color: var(--color-bg, #0c0e14);
+    background: var(--gold);
+    color: var(--bg-primary);
     border: none;
     padding: 8px 20px;
     border-radius: 6px;

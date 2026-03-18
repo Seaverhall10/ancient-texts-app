@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "Fire, Quail, and the Spirit — Complaint and Its Consequences",
         "era": "rebellion",
         "type": "chapter",
+        "themes": ["REBEL", "EXILE"],
 
         "synopsis": "Numbers 11 records the first complaints after leaving Sinai, and the "
                     "pattern it establishes will repeat with increasing severity throughout "
@@ -215,6 +216,7 @@ CHAPTERS = [
         "title": "Miriam and Aaron Challenge Moses — The Uniqueness of the Prophet",
         "era": "rebellion",
         "type": "chapter",
+        "themes": ["REBEL", "PRIEST"],
 
         "synopsis": "Numbers 12 escalates the rebellion from the general population to Moses' "
                     "own family. Miriam and Aaron challenge Moses on two fronts: his marriage "
@@ -394,6 +396,7 @@ CHAPTERS = [
         "title": "The Twelve Spies — Seeing Without Faith",
         "era": "rebellion",
         "type": "chapter",
+        "themes": ["REBEL", "LAND", "NATIONS"],
 
         "synopsis": "Numbers 13 records the most consequential intelligence operation in "
                     "Israel's history. YHWH commands Moses to send twelve men — one from each "
@@ -592,6 +595,7 @@ CHAPTERS = [
         "title": "The Forty-Year Sentence — The Death of a Generation",
         "era": "rebellion",
         "type": "chapter",
+        "themes": ["REBEL", "EXILE", "COV", "REMNANT", "NAME"],
 
         "synopsis": "Numbers 14 records the most devastating moment in Israel's history "
                     "between the exodus and the exile. The congregation weeps all night, "

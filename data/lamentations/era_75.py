@@ -22,6 +22,7 @@ CHAPTERS = [
         "title": "How Lonely Sits the City -- Daughter Zion's Lament",
         "era": "lamentations_weeping",
         "type": "chapter",
+        "themes": ["EXILE", "RIV", "HOLY"],
 
         "synopsis": "The book opens with the funeral cry 'Eikhah!' (How!) -- the characteristic "
                     "opening of the qinah (dirge). Jerusalem is personified as a widow, a princess "
@@ -184,6 +185,7 @@ CHAPTERS = [
         "title": "YHWH as Enemy -- The Divine Warrior Attacks His Own People",
         "era": "lamentations_weeping",
         "type": "chapter",
+        "themes": ["EXILE", "RIV", "GLORY"],
 
         "synopsis": "Chapter 2 is theologically the most shocking poem in Lamentations. Where "
                     "chapter 1 described Jerusalem's suffering, chapter 2 identifies the cause with "
@@ -360,6 +362,7 @@ CHAPTERS = [
         "title": "The Steadfast Love of YHWH -- Hope in the Midst of Affliction",
         "era": "lamentations_weeping",
         "type": "chapter",
+        "themes": ["EXILE", "COV", "LOVE", "REMEMBER"],
 
         "synopsis": "Chapter 3 is the structural and theological center of Lamentations -- a triple "
                     "acrostic (66 verses, three for each letter of the Hebrew alphabet) spoken by an "

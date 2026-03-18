@@ -30,6 +30,7 @@ CHAPTERS = [
         "title": "Hezekiah's Reform and Sennacherib's Invasion -- The Angel Destroys 185,000",
         "era": "judah_alone",
         "type": "chapter",
+        "themes": ["KING", "DC", "COV", "NAME"],
 
         "synopsis": "Hezekiah son of Ahaz is the first reforming king since the northern kingdom's fall. "
                     "He 'did what was right in the eyes of the LORD, according to all that David his father "
@@ -219,6 +220,7 @@ CHAPTERS = [
         "title": "Hezekiah's Illness and the Babylonian Embassy -- Seeds of Exile",
         "era": "judah_alone",
         "type": "chapter",
+        "themes": ["KING", "PROV", "SEED"],
 
         "synopsis": "Hezekiah falls terminally ill, and Isaiah delivers a blunt message: 'Set your house "
                     "in order, for you shall die; you shall not recover' (20:1). Hezekiah turns his face to "
@@ -355,6 +357,7 @@ CHAPTERS = [
         "title": "Manasseh and Amon -- The Worst King and the Point of No Return",
         "era": "judah_alone",
         "type": "chapter",
+        "themes": ["REBEL", "DC", "BLOOD", "RIV"],
 
         "synopsis": "Manasseh, Hezekiah's son, reigns fifty-five years -- the longest reign of any "
                     "Judahite king -- and systematically undoes everything his father accomplished. He "
@@ -519,6 +522,7 @@ CHAPTERS = [
         "title": "Josiah's Reform and the Book Found -- The Last Great King",
         "era": "judah_alone",
         "type": "chapter",
+        "themes": ["LAW", "COV", "KING", "HOLY"],
 
         "synopsis": "Josiah becomes king at eight years old, and 'he did what was right in the eyes of the "
                     "LORD and walked in all the way of David his father, and he did not turn aside to the "
@@ -691,6 +695,7 @@ CHAPTERS = [
         "title": "The Fall of Jerusalem -- Temple Destroyed, Exile Begins",
         "era": "judah_alone",
         "type": "chapter",
+        "themes": ["EXILE", "COV", "RIV", "SEED", "REMNANT"],
 
         "synopsis": "The final chapters of 2 Kings record the rapid collapse of Judah in three stages. "
                     "First, Jehoiakim rebels against Nebuchadnezzar, and YHWH sends bands of Chaldeans, "

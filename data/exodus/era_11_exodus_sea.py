@@ -8,6 +8,7 @@ CHAPTERS = [
         "title": "The Departure \u2014 600,000 on Foot",
         "era": "exodus_sea",
         "type": "chapter",
+        "themes": ["COV", "NATIONS", "DELIVER", "WORSHIP"],
 
         "synopsis": "Israel departs from Rameses for Succoth, numbering approximately 600,000 men on foot (gevarim) besides women and children, along with a 'mixed multitude' (erev rav \u2014 literally 'great mixture,' a large group of non-Israelites who chose to leave Egypt with Israel, drawn by YHWH's demonstrated power over Egypt's gods) who joined the exodus. The text notes that the sojourn of the people of Israel in Egypt was 430 years, fulfilled to the very day \u2014 a detail emphasizing divine precision in covenant fulfillment. YHWH establishes regulations for Passover participation: no foreigner may eat of it, but circumcised slaves and sojourners may partake. The departure is framed as a 'night of watching' (lel shimmurim) \u2014 YHWH kept vigil over Israel, and Israel is to keep vigil for YHWH throughout their generations.",
 
@@ -122,6 +123,7 @@ CHAPTERS = [
         "title": "Firstborn, Unleavened Bread, and the Pillar of Cloud",
         "era": "exodus_sea",
         "type": "chapter",
+        "themes": ["SEED", "HOLY", "TYPE", "DELIVER", "GLORY"],
 
         "synopsis": "YHWH commands Moses to consecrate (qaddesh) every firstborn (bekhor) in Israel, both human and animal, as belonging to the LORD. Moses instructs the people regarding the feast of unleavened bread (chag ha-matzot), to be observed annually as a memorial of the exodus. The people are told to bind the teaching 'as a sign on your hand and as frontlets between your eyes' \u2014 the origin of the tefillin (phylacteries) tradition. Moses takes the bones of Joseph, fulfilling the oath of Genesis 50:25. God leads Israel not by the shorter coastal route (the Way of the Philistines) but southward through the wilderness toward the Sea of Reeds (yam suf). YHWH goes before them in a pillar of cloud (amud anan) by day and a pillar of fire (amud esh) by night \u2014 a visible theophanic presence guiding the nation.",
 
@@ -239,6 +241,7 @@ CHAPTERS = [
         "title": "The Splitting of the Sea \u2014 YHWH Wars for Israel",
         "era": "exodus_sea",
         "type": "chapter",
+        "themes": ["DELIVER", "SPIRIT", "GLORY", "TYPE", "KING"],
 
         "synopsis": "Exodus 14 is the defining salvation event of the Hebrew Bible \u2014 the moment when YHWH demonstrates his supremacy over the greatest military power on earth by splitting the sea and destroying the Egyptian army. YHWH instructs Israel to camp by the sea at Pi-hahiroth, deliberately luring Pharaoh into pursuit. Pharaoh, his heart hardened, mobilizes 600 chosen chariots and his entire army. Israel is trapped between the sea and the approaching army, and the people cry out in terror. Moses declares: 'YHWH will fight for you, and you have only to be silent' (YHWH yillachem lakhem ve-attem tacharishun). The malakh Elohim ('angel of God') moves from the front of Israel to the rear, and the pillar of cloud stands between the two camps \u2014 darkness to Egypt, light to Israel. Moses stretches out his staff, YHWH drives the sea back with a strong east wind (ruach qadim), the waters divide, and Israel crosses on dry ground with walls of water on either side. At dawn, YHWH throws the Egyptian army into confusion, clogs their chariot wheels, and the waters return, drowning Pharaoh's entire force. Israel sees Egypt dead on the seashore, and they fear YHWH and believe in YHWH and in Moses his servant.",
 
@@ -443,6 +446,7 @@ CHAPTERS = [
         "title": "The Song of the Sea \u2014 Victory Hymn",
         "era": "exodus_sea",
         "type": "chapter",
+        "themes": ["WORSHIP", "KING", "WOMEN", "DELIVER", "GLORY"],
 
         "synopsis": "The Song of the Sea (Shirat HaYam) is one of the oldest poems in the Hebrew Bible, widely regarded by scholars as preserving archaic linguistic features dating to the 12th-11th century BC or earlier. Moses and the Israelites sing to YHWH, celebrating his victory over Egypt at the sea. The poem declares YHWH to be an ish milchamah ('man of war') and praises his incomparability among the elohim: 'Who is like you among the gods (ba-elim), O YHWH?' (15:11). The song moves from the sea event to a prophetic vision of YHWH leading Israel to his 'mountain' (har nachalatekha) and his 'sanctuary' (miqdash) \u2014 looking ahead to the conquest, Jerusalem, and the temple. Miriam the prophetess (ha-neviah) takes a tambourine and leads the women in antiphonal response. The Song of the Sea becomes the paradigmatic victory hymn of the Hebrew Bible, echoed in Deborah's Song (Judges 5), Hannah's Prayer (1 Samuel 2), and the eschatological song of Revelation 15:3.",
 

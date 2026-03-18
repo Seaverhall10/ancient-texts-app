@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Unashamed Worker",
         "era": "2tim_endurance",
         "type": "study",
+        "themes": ["KING", "DC", "TYPE", "HOLY", "REBEL"],
 
         "synopsis": "Paul charges Timothy to 'be strong in the grace that is in Christ Jesus' (2:1) and "
                     "to 'share in suffering as a good soldier of Christ Jesus' (2:3). Three vocational "
@@ -184,6 +185,7 @@ CHAPTERS = [
         "title": "All Scripture God-Breathed",
         "era": "2tim_endurance",
         "type": "study",
+        "themes": ["KING", "DC", "HOLY", "SPIRIT", "WOMEN"],
 
         "synopsis": "Paul warns that 'in the last days there will come times of difficulty' (3:1), "
                     "catalogs the moral collapse of the eschatai hemerai -- lovers of self, lovers of "
@@ -336,6 +338,7 @@ CHAPTERS = [
         "title": "The Crown of Righteousness",
         "era": "2tim_endurance",
         "type": "study",
+        "themes": ["KING", "DC", "BLOOD", "RIV", "SEED"],
 
         "synopsis": "Paul delivers his final charge 'in the presence of God and of Christ Jesus, who "
                     "is to judge the living and the dead, and by his appearing and his kingdom' (4:1) -- "

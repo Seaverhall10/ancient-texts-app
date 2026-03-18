@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "Sowing the Wind, Reaping the Whirlwind",
         "era": "hosea_judgment",
         "type": "chapter",
+        "themes": ["COV", "RIV", "REBEL"],
 
         "synopsis": "The alarm sounds: 'Set the trumpet to your lips! One like a vulture is over the house "
                     "of YHWH, because they have transgressed my covenant and rebelled against my law' (8:1). "
@@ -109,6 +110,7 @@ CHAPTERS = [
         "title": "No Rejoicing -- Exile Among the Nations",
         "era": "hosea_judgment",
         "type": "chapter",
+        "themes": ["EXILE", "RIV"],
 
         "synopsis": "Hosea announces that Israel's harvest festivals are over: 'Rejoice not, O Israel! "
                     "Exult not like the peoples; for you have played the whore, forsaking your God' (9:1). "
@@ -195,6 +197,7 @@ CHAPTERS = [
         "title": "The Luxuriant Vine and the Plowed Fallow Ground",
         "era": "hosea_judgment",
         "type": "chapter",
+        "themes": ["RIV", "REBEL"],
 
         "synopsis": "Israel is a 'luxuriant vine that yields its fruit' -- but the more fruit it produced, "
                     "the more altars it built; the more the land prospered, the more sacred pillars it erected "
@@ -285,6 +288,7 @@ CHAPTERS = [
         "title": "The Heartbroken Father -- YHWH's Anguished Love",
         "era": "hosea_judgment",
         "type": "chapter",
+        "themes": ["LOVE", "SEED", "REVERSAL"],
 
         "synopsis": "Chapter 11 is the emotional and theological summit of Hosea. The marriage metaphor "
                     "gives way to the father-son metaphor: 'When Israel was a child, I loved him, and out of "
@@ -398,6 +402,7 @@ CHAPTERS = [
         "title": "Jacob's Legacy -- Wrestling with God and Man",
         "era": "hosea_judgment",
         "type": "chapter",
+        "themes": ["COV", "REMEMBER"],
 
         "synopsis": "Hosea reaches back to the patriarchal narratives to indict Israel through its ancestor "
                     "Jacob. 'Ephraim feeds on the wind and pursues the east wind all day long; they multiply "
@@ -482,6 +487,7 @@ CHAPTERS = [
         "title": "Death and Sheol -- The Final Judgment",
         "era": "hosea_judgment",
         "type": "chapter",
+        "themes": ["REBEL", "SEED"],
 
         "synopsis": "The darkest chapter in Hosea depicts the totality of divine judgment. Ephraim once spoke "
                     "with authority, but 'he incurred guilt through Baal and died' (13:1). The present "
@@ -570,6 +576,7 @@ CHAPTERS = [
         "title": "Return to YHWH -- The Healing of Apostasy",
         "era": "hosea_judgment",
         "type": "chapter",
+        "themes": ["LOVE", "REVERSAL", "REMNANT"],
 
         "synopsis": "After thirteen chapters of accusation, metaphor, judgment, and anguished love, Hosea "
                     "closes with one of the most beautiful restoration passages in the prophetic literature. "

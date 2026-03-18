@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Incomplete Conquest -- Failure to Dispossess",
         "era": "judges_conquest",
         "type": "chapter",
+        "themes": ["LAND", "NATIONS", "REBEL"],
 
         "synopsis": "After the death of Joshua, the tribes of Israel inquire of YHWH: 'Who shall go "
                     "up first for us against the Canaanites, to fight against them?' (1:1). YHWH "
@@ -164,6 +165,7 @@ CHAPTERS = [
         "title": "The Angel at Bochim -- Covenant Prosecution",
         "era": "judges_conquest",
         "type": "chapter",
+        "themes": ["COV", "RIV", "DC", "REBEL"],
 
         "synopsis": "The Angel of YHWH ascends from Gilgal to Bochim and delivers a devastating "
                     "covenant prosecution (rib) against Israel. Speaking in the first person as YHWH "
@@ -320,6 +322,7 @@ CHAPTERS = [
         "title": "Othniel, Ehud, and Shamgar -- The First Deliverers",
         "era": "judges_conquest",
         "type": "chapter",
+        "themes": ["SPIRIT", "REVERSAL", "NATIONS"],
 
         "synopsis": "The first three judges are introduced. Othniel son of Kenaz, Caleb's nephew, is "
                     "the paradigmatic judge: the Spirit of YHWH comes upon him, he goes to war against "
@@ -476,6 +479,7 @@ CHAPTERS = [
         "title": "Deborah, Barak, and Jael -- YHWH's Women Warriors",
         "era": "judges_conquest",
         "type": "chapter",
+        "themes": ["WOMEN", "SPIRIT", "REVERSAL", "DC"],
 
         "synopsis": "After Ehud's death, Israel again does evil. YHWH sells them into the hand of "
                     "Jabin king of Hazor, whose army commander Sisera has 900 chariots of iron. For "
@@ -627,6 +631,7 @@ CHAPTERS = [
         "title": "The Song of Deborah -- Cosmic Warfare and the Stars of Heaven",
         "era": "judges_conquest",
         "type": "chapter",
+        "themes": ["DC", "WOMEN", "SPIRIT"],
 
         "synopsis": "The Song of Deborah is one of the oldest poems in the Hebrew Bible, dated by "
                     "virtually all scholars to the 12th-11th century BC on linguistic grounds. It is "

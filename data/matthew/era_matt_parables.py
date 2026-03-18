@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Sower and the Secrets of the Kingdom",
         "era": "matt_parables",
         "type": "study",
+        "themes": ["DC", "TYPE", "KING", "HOLY", "RIV"],
 
         "synopsis": "Jesus sits by the sea and speaks to 'great crowds' (ochloi polloi) -- then privately "
                     "explains to his disciples why he teaches in parables: 'Because seeing they do not see, "
@@ -56,10 +57,10 @@ CHAPTERS = [
                          "whom the mysteries are 'given' from those to whom they are not.",
 
         "cross_refs": [
-            {"ref": "Isaiah 6:9-10", "note": "The hardening commission that Jesus quotes to explain why he speaks in parables"},
-            {"ref": "Ezekiel 17:1-10", "note": "Ezekiel's parable of the vine and eagle — prophetic mashal tradition"},
-            {"ref": "Mark 4:1-20", "note": "Mark's parallel account with additional detail on the disciples' incomprehension"},
-            {"ref": "Psalm 78:2", "note": "Quoted in Matt 13:35: 'I will open my mouth in parables; I will utter what has been hidden since the foundation of the world'"}
+            {"ref": "Isaiah 6:9-10", "note": "The hardening commission that Jesus quotes to explain why he speaks in parables", "type": "ot"},
+            {"ref": "Ezekiel 17:1-10", "note": "Ezekiel's parable of the vine and eagle — prophetic mashal tradition", "type": "ot"},
+            {"ref": "Mark 4:1-20", "note": "Mark's parallel account with additional detail on the disciples' incomprehension", "type": "nt"},
+            {"ref": "Psalm 78:2", "note": "Quoted in Matt 13:35: 'I will open my mouth in parables; I will utter what has been hidden since the foundation of the world'", "type": "ot"}
         ],
 
         "divine_council_note": "The 'secrets of the kingdom' (mysteria tes basileias) echo Daniel 2:28-29 where "
@@ -104,6 +105,7 @@ CHAPTERS = [
         "title": "Wheat, Tares, Mustard Seeds, and Hidden Treasure",
         "era": "matt_parables",
         "type": "study",
+        "themes": ["KING", "DC", "SEED", "TYPE", "HOLY"],
 
         "synopsis": "The remaining parables of Matthew 13 unveil the kingdom's nature in six compressed images. "
                     "The wheat and tares (zizania, 13:24-30, 36-43) teach that the kingdom community will contain "
@@ -143,10 +145,10 @@ CHAPTERS = [
                          "let both grow together until the harvest.",
 
         "cross_refs": [
-            {"ref": "Daniel 4:10-12", "note": "Nebuchadnezzar's dream of the great tree sheltering all creatures -- echoed in the mustard seed"},
-            {"ref": "Ezekiel 17:22-24", "note": "God plants a sprig on a high mountain that becomes a noble cedar -- messianic kingdom imagery"},
-            {"ref": "Matthew 25:31-46", "note": "The final separation scene that the wheat/tares and dragnet parables anticipate"},
-            {"ref": "1 Corinthians 5:6-8", "note": "Paul uses leaven negatively (malice/evil) -- showing the metaphor's flexibility"}
+            {"ref": "Daniel 4:10-12", "note": "Nebuchadnezzar's dream of the great tree sheltering all creatures -- echoed in the mustard seed", "type": "ot"},
+            {"ref": "Ezekiel 17:22-24", "note": "God plants a sprig on a high mountain that becomes a noble cedar -- messianic kingdom imagery", "type": "ot"},
+            {"ref": "Matthew 25:31-46", "note": "The final separation scene that the wheat/tares and dragnet parables anticipate", "type": "nt"},
+            {"ref": "1 Corinthians 5:6-8", "note": "Paul uses leaven negatively (malice/evil) -- showing the metaphor's flexibility", "type": "nt"}
         ],
 
         "divine_council_note": "The wheat and tares parable explicitly names the 'enemy' (echthros) who sows "
@@ -191,6 +193,7 @@ CHAPTERS = [
         "title": "The Greatest in the Kingdom and the Unforgiving Servant",
         "era": "matt_parables",
         "type": "study",
+        "themes": ["DC", "KING", "REVERSAL", "LOVE", "TYPE"],
 
         "synopsis": "Matthew 18 is Jesus' fourth major discourse -- the 'community discourse' governing life "
                     "within the kingdom community. It opens with the disciples' status question: 'Who is the "
@@ -233,10 +236,10 @@ CHAPTERS = [
                          "authority -- what the community forbids or permits carries heavenly ratification.",
 
         "cross_refs": [
-            {"ref": "Genesis 4:23-24", "note": "Lamech's boast of seventy-sevenfold vengeance -- reversed by Jesus into seventy-sevenfold forgiveness"},
-            {"ref": "Luke 15:3-7", "note": "Luke's version of the Lost Sheep, placed alongside the Lost Coin and Prodigal Son"},
-            {"ref": "Colossians 3:13", "note": "Paul's echo: 'Forgiving each other as the Lord has forgiven you'"},
-            {"ref": "Matthew 6:12,14-15", "note": "The Lord's Prayer's forgiveness clause -- the same principle taught by parable here"}
+            {"ref": "Genesis 4:23-24", "note": "Lamech's boast of seventy-sevenfold vengeance -- reversed by Jesus into seventy-sevenfold forgiveness", "type": "ot"},
+            {"ref": "Luke 15:3-7", "note": "Luke's version of the Lost Sheep, placed alongside the Lost Coin and Prodigal Son", "type": "nt"},
+            {"ref": "Colossians 3:13", "note": "Paul's echo: 'Forgiving each other as the Lord has forgiven you'", "type": "nt"},
+            {"ref": "Matthew 6:12,14-15", "note": "The Lord's Prayer's forgiveness clause -- the same principle taught by parable here", "type": "nt"}
         ],
 
         "divine_council_note": "Jesus says, 'See that you do not despise one of these little ones. For I tell "
@@ -284,6 +287,7 @@ CHAPTERS = [
         "title": "Laborers, Two Sons, Tenants, and the Wedding Feast",
         "era": "matt_parables",
         "type": "study",
+        "themes": ["TYPE", "DC", "KING", "HOLY", "BLOOD"],
 
         "synopsis": "Jesus' final week in Jerusalem is saturated with parables aimed directly at Israel's "
                     "leadership. The Laborers in the Vineyard (20:1-16) demolishes merit-based religion: workers "
@@ -326,11 +330,11 @@ CHAPTERS = [
                          "its fruits' (21:43) was an explosive challenge to Israel's custodians.",
 
         "cross_refs": [
-            {"ref": "Isaiah 5:1-7", "note": "The original Song of the Vineyard -- God planted Israel but found only wild grapes"},
-            {"ref": "Psalm 118:22-23", "note": "The rejected stone becomes the cornerstone -- messianic psalm quoted by Jesus"},
-            {"ref": "Luke 14:15-24", "note": "Luke's version of the Great Banquet parable with different details"},
-            {"ref": "Revelation 19:7-9", "note": "The wedding supper of the Lamb -- the ultimate fulfillment of the feast imagery"},
-            {"ref": "Acts 4:11", "note": "Peter applies the rejected cornerstone text directly to Jesus before the Sanhedrin"}
+            {"ref": "Isaiah 5:1-7", "note": "The original Song of the Vineyard -- God planted Israel but found only wild grapes", "type": "ot"},
+            {"ref": "Psalm 118:22-23", "note": "The rejected stone becomes the cornerstone -- messianic psalm quoted by Jesus", "type": "ot"},
+            {"ref": "Luke 14:15-24", "note": "Luke's version of the Great Banquet parable with different details", "type": "nt"},
+            {"ref": "Revelation 19:7-9", "note": "The wedding supper of the Lamb -- the ultimate fulfillment of the feast imagery", "type": "nt"},
+            {"ref": "Acts 4:11", "note": "Peter applies the rejected cornerstone text directly to Jesus before the Sanhedrin", "type": "nt"}
         ],
 
         "divine_council_note": "The Wicked Tenants parable encodes the entire divine council conflict: God (the "
@@ -378,6 +382,7 @@ CHAPTERS = [
         "title": "Ten Virgins, Talents, and the Sheep and the Goats",
         "era": "matt_parables",
         "type": "study",
+        "themes": ["DC", "KING", "HOLY", "NATIONS", "REBEL"],
 
         "synopsis": "Matthew 25 concludes Jesus' eschatological discourse (the Olivet Discourse, chs 24-25) "
                     "with three final parables about preparedness, faithfulness, and compassion. The Ten Virgins "
@@ -422,11 +427,11 @@ CHAPTERS = [
                          "sitting on the throne of his glory.'",
 
         "cross_refs": [
-            {"ref": "1 Enoch 62:1-5", "note": "The Son of Man on the throne of glory judging kings and the mighty -- strikingly parallel to Matt 25:31"},
-            {"ref": "Daniel 7:13-14", "note": "The Son of Man comes with the clouds and receives dominion over all nations"},
-            {"ref": "Luke 19:11-27", "note": "Luke's Parable of the Minas -- similar to Talents but with different details and political context"},
-            {"ref": "Revelation 20:11-15", "note": "The great white throne judgment -- the final realization of the sheep and goats scene"},
-            {"ref": "James 2:14-17", "note": "Faith without works is dead -- the same truth the sheep/goats parable dramatizes"}
+            {"ref": "1 Enoch 62:1-5", "note": "The Son of Man on the throne of glory judging kings and the mighty -- strikingly parallel to Matt 25:31", "type": "pseudepigrapha"},
+            {"ref": "Daniel 7:13-14", "note": "The Son of Man comes with the clouds and receives dominion over all nations", "type": "ot"},
+            {"ref": "Luke 19:11-27", "note": "Luke's Parable of the Minas -- similar to Talents but with different details and political context", "type": "nt"},
+            {"ref": "Revelation 20:11-15", "note": "The great white throne judgment -- the final realization of the sheep and goats scene", "type": "nt"},
+            {"ref": "James 2:14-17", "note": "Faith without works is dead -- the same truth the sheep/goats parable dramatizes", "type": "nt"}
         ],
 
         "divine_council_note": "The Son of Man comes 'in his glory, and all the angels with him' (25:31) -- "

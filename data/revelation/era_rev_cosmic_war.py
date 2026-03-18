@@ -32,6 +32,7 @@ CHAPTERS = [
         "title": "The Woman, the Dragon, and the War in Heaven -- The Cosmic Backstory",
         "era": "rev_cosmic_war",
         "type": "study",
+        "themes": ["KING", "DC", "REBEL", "TYPE", "BLOOD"],
 
         "synopsis": "Revelation 12 is the single most important chapter for understanding the cosmic "
                     "war that underlies the entire biblical narrative. Two 'great signs' (semeia megala) "
@@ -276,6 +277,7 @@ CHAPTERS = [
         "title": "The Two Beasts -- The Dragon's Agents: Political Power and Religious Deception",
         "era": "rev_cosmic_war",
         "type": "study",
+        "themes": ["KING", "DC", "TYPE", "SPIRIT", "BLOOD"],
 
         "synopsis": "Having lost his place in the divine council (chapter 12), the dragon delegates his "
                     "authority to two agents: the beast from the sea (thalassa, 13:1) and the beast from "
@@ -458,6 +460,7 @@ CHAPTERS = [
         "title": "The Lamb on Zion, Three Angels, and the Harvest of the Earth",
         "era": "rev_cosmic_war",
         "type": "study",
+        "themes": ["DC", "BLOOD", "KING", "HOLY", "NATIONS"],
 
         "synopsis": "Chapter 14 provides a series of vignettes that preview the outcome of the cosmic "
                     "war. First, the Lamb stands on Mount Zion with the 144,000, who bear his name and "
@@ -602,6 +605,7 @@ CHAPTERS = [
         "title": "The Seven Bowls of Wrath -- The Final Plagues and the Song of Moses",
         "era": "rev_cosmic_war",
         "type": "study",
+        "themes": ["DC", "HOLY", "TYPE", "NATIONS", "BLOOD"],
 
         "synopsis": "Chapters 15-16 present the third and final cycle of divine judgment: the seven "
                     "bowls (phialai) of God's wrath, introduced by a heavenly scene of worship (15:1-8) "

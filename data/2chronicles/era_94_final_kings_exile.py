@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "Hezekiah's Revival: Reopening the Temple and Reuniting the Kingdom",
         "era": "final_kings_exile",
         "type": "chapter",
+        "themes": ["HOLY", "COV", "KING", "DC", "REVERSAL"],
 
         "synopsis": "Hezekiah is the Chronicler's ideal reformer. His first act as king is stunning: "
                     "'In the first year of his reign, in the first month, he opened the doors of the "
@@ -156,6 +157,7 @@ CHAPTERS = [
         "title": "Manasseh's Repentance, Josiah's Reform, Exile, and Cyrus's Decree",
         "era": "final_kings_exile",
         "type": "chapter",
+        "themes": ["EXILE", "COV", "RIV", "REMNANT", "PROV"],
 
         "synopsis": "The final four chapters of 2 Chronicles move from the depths of Manasseh's "
                     "apostasy through the heights of Josiah's reform to the catastrophe of exile "

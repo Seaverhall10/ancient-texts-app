@@ -3,15 +3,21 @@
   "configurations": [
     {
       "name": "ancient-texts",
-      "runtimeExecutable": "C:\\Users\\User\\Desktop\\ANCIENT_TEXTS Study App\\venv\\Scripts\\python.exe",
+      "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8765", "--directory", "C:\\Users\\User\\Desktop\\ANCIENT_TEXTS Study App\\output"],
       "port": 8765
     },
     {
       "name": "mobile",
-      "runtimeExecutable": "C:\\Users\\User\\Desktop\\ANCIENT_TEXTS Study App\\venv\\Scripts\\python.exe",
+      "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8767", "--bind", "127.0.0.1", "--directory", "C:\\Users\\User\\Desktop\\ANCIENT_TEXTS Study App\\output\\mobile"],
       "port": 8767
+    },
+    {
+      "name": "study-reference",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8770", "--bind", "127.0.0.1", "--directory", "C:\\Users\\User\\Desktop\\ANCIENT_TEXTS Study App\\docs"],
+      "port": 8770
     }
   ]
 }

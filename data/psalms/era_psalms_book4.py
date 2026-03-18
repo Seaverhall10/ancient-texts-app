@@ -22,6 +22,7 @@ CHAPTERS = [
         "title": "Moses' Prayer and the Divine Shelter -- From Eternity to Protection",
         "era": "psalms_book4",
         "type": "chapter",
+        "themes": ["PROV", "SPIRIT", "DC"],
 
         "synopsis": "Psalm 90 is the only psalm attributed to Moses -- 'A Prayer of Moses, the man "
                     "of God (ish ha'Elohim)' -- and it opens Book IV by reaching behind the Davidic "
@@ -180,6 +181,7 @@ CHAPTERS = [
         "title": "YHWH Reigns! -- The Enthronement Psalms",
         "era": "psalms_book4",
         "type": "chapter",
+        "themes": ["KING", "DC", "GLORY", "HOLY", "NATIONS"],
 
         "synopsis": "The enthronement psalms (93, 95-99) are the theological heart of Book IV and "
                     "the Psalter's direct answer to the Davidic crisis of Book III. Their repeated "
@@ -377,6 +379,7 @@ CHAPTERS = [
         "title": "The Creation Psalm -- Cosmic Order and the Garment of Light",
         "era": "psalms_book4",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "SPIRIT"],
 
         "synopsis": "Psalm 104 is the great creation hymn of the Psalter -- a poem that traces the "
                     "entire created order from the heavens to the sea, from the mountains to the "
@@ -520,6 +523,7 @@ CHAPTERS = [
         "title": "Israel's Idolatrous History -- Golden Calf, Baal-Peor, and Sacrifice to Demons",
         "era": "psalms_book4",
         "type": "chapter",
+        "themes": ["COV", "REMEMBER", "REBEL"],
 
         "synopsis": "Psalm 106 closes Book IV with a devastating historical recital of Israel's "
                     "failures -- the negative counterpart to Psalm 78's more balanced account. From "

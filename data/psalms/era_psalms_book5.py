@@ -25,6 +25,7 @@ CHAPTERS = [
         "title": "Psalms of Return and the Songs of Ascents -- Post-Exilic Hope and Pilgrimage",
         "era": "psalms_book5",
         "type": "chapter",
+        "themes": ["EXILE", "REVERSAL", "LAND", "REMEMBER"],
 
         "synopsis": "Psalm 107 opens Book V with a post-exilic celebration of YHWH's deliverance: 'Oh "
                     "give thanks to YHWH, for he is good, for his steadfast love (chesed) endures forever! "
@@ -244,6 +245,7 @@ CHAPTERS = [
         "title": "Royal and Messianic Psalms -- Melchizedek, the Rejected Stone, and the Davidic Covenant",
         "era": "psalms_book5",
         "type": "chapter",
+        "themes": ["KING", "PRIEST", "DC", "SEED", "COV"],
 
         "synopsis": "Book V contains three of the most theologically significant royal-messianic psalms in "
                     "the Psalter. Psalm 110 is the most quoted Old Testament verse in the New Testament: "
@@ -476,6 +478,7 @@ CHAPTERS = [
         "title": "The Hallel and Hallelujah Psalms -- Pure Praise and Cosmic Worship",
         "era": "psalms_book5",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "KING", "REVERSAL"],
 
         "synopsis": "The Hallel psalms (113-118, the 'Egyptian Hallel') and the final Hallelujah psalms "
                     "(146-150) form the Psalter's praise framework in Book V. The Egyptian Hallel was sung "
@@ -680,6 +683,7 @@ CHAPTERS = [
         "title": "Torah Psalm 119 -- The Longest Chapter: 176 Verses on God's Word",
         "era": "psalms_book5",
         "type": "chapter",
+        "themes": ["LAW", "LOVE", "PROV"],
 
         "synopsis": "Psalm 119 is the longest chapter in the Bible -- 176 verses divided into 22 sections "
                     "of 8 verses each, one section for each letter of the Hebrew alphabet. It is the most "
@@ -865,6 +869,7 @@ CHAPTERS = [
         "title": "Psalm 139 -- The Inescapable God: Omniscience, Omnipresence, and the Womb",
         "era": "psalms_book5",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "GLORY"],
 
         "synopsis": "Psalm 139 is one of the most profound theological poems in scripture -- a meditation "
                     "on YHWH's exhaustive knowledge, inescapable presence, and intimate creative power. "

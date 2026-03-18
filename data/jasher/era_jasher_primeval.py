@@ -297,7 +297,7 @@ CHAPTERS = [
             {"ref": "Matthew 24:37-39", "note": "Jesus compares the last days to Noah's generation: 'they were eating and drinking... until the flood came and took them all away'", "type": "nt"},
             {"ref": "Joshua 10:13", "note": "Referenced by name in the Hebrew Bible", "type": "ot"},
             {"ref": "Hebrews 11:7", "note": "'By faith Noah, being warned of God of things not seen as yet, moved with fear, prepared an ark'", "type": "nt"},
-            {"ref": "1 Enoch 6-16", "note": "The Watcher rebellion narrative that provides the theological backdrop for the Flood -- Jasher's antediluvian corruption presupposes the same tradition of angelic transgression", "type": "ane"},
+            {"ref": "1 Enoch 6-16", "note": "The Watcher rebellion narrative that provides the theological backdrop for the Flood -- Jasher's antediluvian corruption presupposes the same tradition of angelic transgression", "type": "pseudepigrapha"},
             {"ref": "1 Peter 3:19-20", "note": "Christ preached to 'spirits in prison, who formerly did not obey... in the days of Noah' -- the imprisoned Watchers whose rebellion Jasher assumes as the backdrop for the Flood", "type": "nt"},
             {"ref": "Jude 6", "note": "'Angels who did not stay within their own position of authority, but left their proper dwelling' -- the angelic transgression behind the corruption Jasher describes", "type": "nt"}
         ],

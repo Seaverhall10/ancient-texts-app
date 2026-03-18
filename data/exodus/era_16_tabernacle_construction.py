@@ -8,6 +8,7 @@ CHAPTERS = [
         "title": "Sabbath and Generous Offerings — The People Respond",
         "era": "tabernacle_construction",
         "type": "chapter",
+        "themes": ["WORSHIP", "HOLY", "SPIRIT"],
 
         "synopsis": "Moses assembles the entire congregation of Israel and reiterates the Sabbath commandment with an additional specification: no fire shall be kindled on the Sabbath day. He then calls for voluntary contributions (terumah \u2014 a 'heave offering' or 'contribution,' from <em>rum</em> meaning 'to lift up'; something voluntarily elevated and set apart for sacred use) for the tabernacle's construction \u2014 gold, silver, bronze, fine fabrics, animal skins, acacia wood, oil, spices, and precious stones. The people respond with stunning generosity, bringing freewill offerings (nedavah \u2014 a voluntary gift given from the heart, not required by law) from willing hearts (lev nadav, literally 'a heart that is willing/noble'). Both men and women contribute, with the women spinning yarn and goat hair with their own hands. The contrast with the golden calf is unmistakable: the same people who surrendered gold earrings for an idol now surrender gold, silver, and precious materials for God's dwelling. Same materials, opposite purposes — the difference is the posture of the heart.",
 
@@ -103,6 +104,7 @@ CHAPTERS = [
         "title": "Construction Begins — More Than Enough",
         "era": "tabernacle_construction",
         "type": "chapter",
+        "themes": ["HOLY", "SPIRIT", "WORSHIP"],
 
         "synopsis": "Bezalel, Oholiab, and every craftsman endowed with skill (chokhmah lev) begin the work. The people continue bringing freewill offerings every morning until the craftsmen report to Moses that the people are bringing 'much more than enough' (marbim ha-am lehavi) for the work. Moses issues a command — unprecedented in Scripture — to stop giving. Construction proceeds: the inner curtains of fine linen with cherubim woven in blue, purple, and scarlet; the outer curtains of goats' hair; coverings of rams' skins and goatskins; the acacia-wood frames overlaid with gold; the bars, sockets, and the interior veil separating the Holy Place from the Most Holy Place.",
 
@@ -199,6 +201,7 @@ CHAPTERS = [
         "title": "The Sacred Furniture — Ark, Table, Lampstand, Incense Altar",
         "era": "tabernacle_construction",
         "type": "chapter",
+        "themes": ["HOLY", "TYPE", "DC"],
 
         "synopsis": "Bezalel constructs the four pieces of sacred furniture that will inhabit the tabernacle's interior. The ark of the testimony (aron ha-edut) is made of acacia wood overlaid with pure gold, crowned with two cherubim of hammered gold whose wings stretch over the mercy seat (kapporet). The table of showbread is fashioned of gold-overlaid acacia wood with its plates, dishes, bowls, and flagons. The golden lampstand (menorah) is hammered from a single talent of pure gold (zahav tahor) — a breathtaking feat of metallurgy. The altar of incense is constructed of gold-overlaid acacia wood with horns at its four corners. Each piece follows the divine pattern revealed on Sinai with exact precision, and the repeated obedience formula echoes both Noah's faithful construction of the ark (Genesis 6:22) and the creation account's repeated 'and it was so.'",
 
@@ -300,6 +303,7 @@ CHAPTERS = [
         "title": "The Bronze Altar, Basin, and Courtyard",
         "era": "tabernacle_construction",
         "type": "chapter",
+        "themes": ["HOLY", "BLOOD", "WORSHIP"],
 
         "synopsis": "Construction moves outward from the gold interior to the bronze exterior. Bezalel builds the altar of burnt offering (mizbeach ha-olah) from acacia wood overlaid with bronze — five cubits square and three cubits high, with horns, pots, shovels, basins, forks, and firepans. The bronze basin (kiyor) is made from the mirrors (mareh) of the serving women who minister at the tent's entrance — a poignant detail of personal sacrifice. The courtyard is enclosed with fine linen hangings on bronze pillars with silver hooks. The chapter concludes with a detailed inventory of all materials used: gold (29 talents, 730 shekels), silver (100 talents, 1,775 shekels from the census tax), and bronze (70 talents, 2,400 shekels). This accounting — unique in the Torah — demonstrates transparency and stewardship in the use of the people's sacred gifts.",
 
@@ -396,6 +400,7 @@ CHAPTERS = [
         "title": "The Priestly Garments — Clothed for Service",
         "era": "tabernacle_construction",
         "type": "chapter",
+        "themes": ["PRIEST", "HOLY", "GLORY"],
 
         "synopsis": "The sacred garments for Aaron and his sons are fashioned with the same meticulous precision as the tabernacle structure. The ephod of gold, blue, purple, and scarlet yarns carries two onyx stones engraved with the names of the twelve tribes. The breastpiece (choshen) of judgment bears twelve precious stones, each engraved with a tribal name, and contains the Urim and Thummim for divine inquiry. The robe of the ephod is woven entirely of blue, with golden bells (pa'amonim) and pomegranates along its hem. The linen tunics, sashes, and turbans are made, and the holy crown — a plate of pure gold engraved 'Holy to YHWH' (qodesh layhwh) — is attached to the turban with a blue cord. The refrain 'as YHWH had commanded Moses' (ka'asher tsivvah YHWH et-Mosheh) appears seven times in this chapter — seven, the number of creation-completion, signaling that the construction is a new creative act.",
 
@@ -493,6 +498,7 @@ CHAPTERS = [
         "title": "The Glory Fills the Tabernacle — God Comes to Dwell",
         "era": "tabernacle_construction",
         "type": "chapter",
+        "themes": ["GLORY", "HOLY", "COV", "TYPE"],
 
         "synopsis": "YHWH commands Moses to erect the tabernacle on the first day of the first month of the second year — exactly one year after the exodus began. Moses assembles the structure according to precise divine instructions: he places the ark of the testimony in the Most Holy Place, hangs the veil, positions the table, the lampstand, and the golden incense altar, sets up the entrance screen, places the bronze altar and the basin, erects the courtyard, and anoints everything with oil. Aaron and his sons are washed and vested in their sacred garments. When the final element is in place, the cloud (anan) covers the tent of meeting and the glory of YHWH (kavod YHWH) fills the tabernacle (mishkan) with such overwhelming force that even Moses — the man who spoke with God face to face — cannot enter. The book of Exodus ends with the cloud guiding Israel's journeys: when it lifts, they march; when it settles, they camp. God is present. God is leading. The purpose of creation is fulfilled — the Creator dwells with his creatures.",
 

@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "The First Missionary Journey: Antioch to the Gentiles",
         "era": "acts_journeys",
         "type": "study",
+        "themes": ["HOLY", "KING", "DC", "SPIRIT", "NATIONS"],
 
         "synopsis": "The church at Antioch -- the first to include significant Gentile membership -- commissions "
                     "Barnabas and Saul for mission (13:1-3). The Holy Spirit says: 'Set apart for me Barnabas "
@@ -62,11 +63,11 @@ CHAPTERS = [
                          "This becomes the theological earthquake that triggers the Jerusalem Council.",
 
         "cross_refs": [
-            {"ref": "Isaiah 49:6", "note": "The Servant as 'a light for the Gentiles' — Paul applies the Servant's mission to the church"},
-            {"ref": "Psalm 2:7", "note": "Quoted in Paul's sermon (13:33): 'You are my Son, today I have begotten you' — resurrection as enthronement"},
-            {"ref": "Psalm 16:10", "note": "David's psalm applied to Jesus' resurrection (13:35) — the same argument Peter made at Pentecost"},
-            {"ref": "Habakkuk 1:5", "note": "Paul's warning (13:41): 'Look, you scoffers, be astounded and perish' — judgment on unbelief"},
-            {"ref": "2 Timothy 3:11", "note": "Paul later recalls his sufferings at Antioch, Iconium, and Lystra to Timothy"}
+            {"ref": "Isaiah 49:6", "note": "The Servant as 'a light for the Gentiles' — Paul applies the Servant's mission to the church", "type": "ot"},
+            {"ref": "Psalm 2:7", "note": "Quoted in Paul's sermon (13:33): 'You are my Son, today I have begotten you' — resurrection as enthronement", "type": "ot"},
+            {"ref": "Psalm 16:10", "note": "David's psalm applied to Jesus' resurrection (13:35) — the same argument Peter made at Pentecost", "type": "ot"},
+            {"ref": "Habakkuk 1:5", "note": "Paul's warning (13:41): 'Look, you scoffers, be astounded and perish' — judgment on unbelief", "type": "ot"},
+            {"ref": "2 Timothy 3:11", "note": "Paul later recalls his sufferings at Antioch, Iconium, and Lystra to Timothy", "type": "nt"}
         ],
 
         "divine_council_note": "Paul's Pisidian Antioch sermon explicitly claims that Jesus' resurrection "
@@ -117,6 +118,7 @@ CHAPTERS = [
         "title": "The Jerusalem Council: Must Gentiles Become Jews?",
         "era": "acts_journeys",
         "type": "study",
+        "themes": ["SEED", "KING", "NATIONS", "BLOOD", "REMNANT"],
 
         "synopsis": "Acts 15 records the most consequential church meeting in history. 'Some men came down from "
                     "Judea and were teaching the brothers: Unless you are circumcised according to the custom of "
@@ -161,11 +163,11 @@ CHAPTERS = [
                          "Gentiles saved as Gentiles, with minimal requirements for communal harmony.",
 
         "cross_refs": [
-            {"ref": "Amos 9:11-12", "note": "James' proof text: God rebuilds David's tent so that Gentiles called by God's name may seek him"},
-            {"ref": "Genesis 17:9-14", "note": "The circumcision covenant — the issue at stake: is this required for all God's people?"},
-            {"ref": "Galatians 2:1-10", "note": "Paul's account of the same council meeting — adds details about private meetings"},
-            {"ref": "Leviticus 17-18", "note": "Source of the four prohibitions: blood, strangled animals, sexual immorality, idolatry"},
-            {"ref": "Isaiah 2:2-4", "note": "The nations streaming to Zion — the eschatological vision the Council begins fulfilling"}
+            {"ref": "Amos 9:11-12", "note": "James' proof text: God rebuilds David's tent so that Gentiles called by God's name may seek him", "type": "ot"},
+            {"ref": "Genesis 17:9-14", "note": "The circumcision covenant — the issue at stake: is this required for all God's people?", "type": "ot"},
+            {"ref": "Galatians 2:1-10", "note": "Paul's account of the same council meeting — adds details about private meetings", "type": "nt"},
+            {"ref": "Leviticus 17-18", "note": "Source of the four prohibitions: blood, strangled animals, sexual immorality, idolatry", "type": "ot"},
+            {"ref": "Isaiah 2:2-4", "note": "The nations streaming to Zion — the eschatological vision the Council begins fulfilling", "type": "ot"}
         ],
 
         "divine_council_note": "James quotes Amos 9:11-12 in the LXX form: God will 'rebuild the tent (skēnē) "
@@ -214,6 +216,7 @@ CHAPTERS = [
         "title": "Into Europe: Philippi, Athens, and Corinth",
         "era": "acts_journeys",
         "type": "study",
+        "themes": ["NATIONS", "DC", "SEED", "HOLY", "WOMEN"],
 
         "synopsis": "Paul's second journey takes the gospel into Europe for the first time. In Troas, a vision "
                     "calls him to Macedonia: 'Come over and help us' (16:9). In Philippi, the first European "
@@ -259,11 +262,11 @@ CHAPTERS = [
                          "overlooked are ending -- the nations are being recalled from their assigned gods.",
 
         "cross_refs": [
-            {"ref": "Deuteronomy 32:8", "note": "God set the boundaries of peoples — Paul alludes to this in 17:26, claiming God determined national boundaries"},
-            {"ref": "Isaiah 45:18-22", "note": "God formed the earth to be inhabited and calls all nations to himself — the vision behind Paul's Athens sermon"},
-            {"ref": "Genesis 10:1-32", "note": "The Table of Nations — the original division of peoples that Paul references in 17:26"},
-            {"ref": "Philippians 1:3-11", "note": "Paul's later letter to the Philippian church founded in Acts 16"},
-            {"ref": "1 Thessalonians 1:9-10", "note": "Paul's summary of the Thessalonians' conversion — 'you turned from idols to serve the living God'"}
+            {"ref": "Deuteronomy 32:8", "note": "God set the boundaries of peoples — Paul alludes to this in 17:26, claiming God determined national boundaries", "type": "ot"},
+            {"ref": "Isaiah 45:18-22", "note": "God formed the earth to be inhabited and calls all nations to himself — the vision behind Paul's Athens sermon", "type": "ot"},
+            {"ref": "Genesis 10:1-32", "note": "The Table of Nations — the original division of peoples that Paul references in 17:26", "type": "ot"},
+            {"ref": "Philippians 1:3-11", "note": "Paul's later letter to the Philippian church founded in Acts 16", "type": "nt"},
+            {"ref": "1 Thessalonians 1:9-10", "note": "Paul's summary of the Thessalonians' conversion — 'you turned from idols to serve the living God'", "type": "nt"}
         ],
 
         "divine_council_note": "Paul's Areopagus speech is a divine council reclamation sermon addressed to "
@@ -316,6 +319,7 @@ CHAPTERS = [
         "title": "Ephesus, the Riot, and Paul's Farewell to the Elders",
         "era": "acts_journeys",
         "type": "study",
+        "themes": ["KING", "DC", "BLOOD", "HOLY", "SPIRIT"],
 
         "synopsis": "Paul's third journey centers on Ephesus, where he spends over two years (19:10). He finds "
                     "disciples who know only John's baptism and imparts the Holy Spirit (19:1-7). 'God was doing "
@@ -359,11 +363,11 @@ CHAPTERS = [
                          "not incantation.",
 
         "cross_refs": [
-            {"ref": "Ephesians 6:10-12", "note": "Paul's later letter to Ephesus: the battle is against 'cosmic powers over this present darkness'"},
-            {"ref": "1 Timothy 1:3", "note": "Paul later sends Timothy to Ephesus to deal with the very false teachers he predicted in 20:29-30"},
-            {"ref": "Matthew 7:15", "note": "Jesus' warning about wolves in sheep's clothing — Paul applies the same image to the church"},
-            {"ref": "Revelation 2:1-7", "note": "The risen Christ's message to the Ephesian church — commending their orthodoxy but warning they've lost first love"},
-            {"ref": "1 Kings 19:18", "note": "God's 7,000 who have not bowed to Baal — Paul's confidence that God has his people everywhere"}
+            {"ref": "Ephesians 6:10-12", "note": "Paul's later letter to Ephesus: the battle is against 'cosmic powers over this present darkness'", "type": "nt"},
+            {"ref": "1 Timothy 1:3", "note": "Paul later sends Timothy to Ephesus to deal with the very false teachers he predicted in 20:29-30", "type": "nt"},
+            {"ref": "Matthew 7:15", "note": "Jesus' warning about wolves in sheep's clothing — Paul applies the same image to the church", "type": "nt"},
+            {"ref": "Revelation 2:1-7", "note": "The risen Christ's message to the Ephesian church — commending their orthodoxy but warning they've lost first love", "type": "nt"},
+            {"ref": "1 Kings 19:18", "note": "God's 7,000 who have not bowed to Baal — Paul's confidence that God has his people everywhere", "type": "ot"}
         ],
 
         "divine_council_note": "Paul's farewell declares 'the whole counsel (boulē) of God' (20:27). The word "

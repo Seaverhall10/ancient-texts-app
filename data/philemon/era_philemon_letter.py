@@ -14,6 +14,7 @@ CHAPTERS = [
         "title": "No Longer a Slave -- A Beloved Brother",
         "era": "philemon_letter",
         "type": "chapter",
+        "themes": ["LAW", "DC", "COV", "SPIRIT", "KING"],
 
         "synopsis": "Paul writes from prison to Philemon, a 'beloved fellow worker' (v.1), and the church "
                     "in his house. He gives thanks for Philemon's 'love and faith toward the Lord Jesus and "

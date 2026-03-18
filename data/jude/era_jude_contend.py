@@ -10,6 +10,7 @@ CHAPTERS = [
         'era': 'jude_contend',
         'chapter_num': 1,
         'type': 'chapter',
+        'themes': ['DC', 'REBEL', 'RIV', 'HOLY', 'PRIEST'],
         'title': 'The Fallen Watchers \u2014 Angels Who Abandoned Their Authority',
         'ref': 'Jude 1-16',
         'period': 'ca. AD 65\u201380',
@@ -291,14 +292,14 @@ CHAPTERS = [
             'judgment. Jude assumes the divine council worldview \u2014 he does not argue for it.'
         ),
         'cross_refs': [
-            {'ref': 'Genesis 6:1-4', 'note': 'The "sons of God" taking human wives'},
-            {'ref': '1 Enoch 6-16', 'note': 'The Watcher narrative Jude assumes'},
-            {'ref': '1 Enoch 1:9', 'note': 'The exact text Jude quotes in vv. 14-15'},
-            {'ref': '2 Peter 2:4-11', 'note': 'Parallel passage (likely dependent on Jude)'},
-            {'ref': 'Daniel 10:13, 21; 12:1', 'note': 'Michael the chief prince in Daniel'},
-            {'ref': 'Numbers 16', 'note': 'Korah\'s rebellion \u2014 the earth swallows the rebels'},
-            {'ref': 'Numbers 22-25', 'note': 'Balaam\'s error and the Baal Peor incident'},
-            {'ref': 'Revelation 12:7-9', 'note': 'Michael and his angels war against the dragon'}
+            {'ref': 'Genesis 6:1-4', 'note': 'The "sons of God" taking human wives', 'type': 'ot'},
+            {'ref': '1 Enoch 6-16', 'note': 'The Watcher narrative Jude assumes', 'type': 'pseudepigrapha'},
+            {'ref': '1 Enoch 1:9', 'note': 'The exact text Jude quotes in vv. 14-15', 'type': 'pseudepigrapha'},
+            {'ref': '2 Peter 2:4-11', 'note': 'Parallel passage (likely dependent on Jude)', 'type': 'nt'},
+            {'ref': 'Daniel 10:13, 21; 12:1', 'note': 'Michael the chief prince in Daniel', 'type': 'ot'},
+            {'ref': 'Numbers 16', 'note': 'Korah\'s rebellion \u2014 the earth swallows the rebels', 'type': 'ot'},
+            {'ref': 'Numbers 22-25', 'note': 'Balaam\'s error and the Baal Peor incident', 'type': 'ot'},
+            {'ref': 'Revelation 12:7-9', 'note': 'Michael and his angels war against the dragon', 'type': 'nt'}
         ],
         'historical_note': (
             'Jude was almost excluded from the canon precisely because of its use of '
@@ -323,6 +324,7 @@ CHAPTERS = [
         'era': 'jude_contend',
         'chapter_num': 2,
         'type': 'chapter',
+        'themes': ['DC', 'KING', 'REBEL', 'SPIRIT', 'LOVE'],
         'title': 'Kept for Jesus Christ \u2014 The Magnificent Doxology',
         'ref': 'Jude 17-25',
         'period': 'ca. AD 65\u201380',
@@ -575,11 +577,11 @@ CHAPTERS = [
             'is the same one who preserves the faithful.'
         ),
         'cross_refs': [
-            {'ref': 'Romans 16:25-27', 'note': 'Paul\'s parallel doxology ("to the only wise God")'},
-            {'ref': 'Ephesians 3:20-21', 'note': '"To him who is able to do far more than we ask"'},
-            {'ref': 'Revelation 4:8-11', 'note': 'The throne room scene with "glory, honor, and power"'},
-            {'ref': '1 Corinthians 2:14', 'note': 'The "natural person" who cannot understand spiritual things'},
-            {'ref': 'Colossians 1:22', 'note': '"Present you holy and blameless" \u2014 same presentation language'}
+            {'ref': 'Romans 16:25-27', 'note': 'Paul\'s parallel doxology ("to the only wise God")', 'type': 'nt'},
+            {'ref': 'Ephesians 3:20-21', 'note': '"To him who is able to do far more than we ask"', 'type': 'nt'},
+            {'ref': 'Revelation 4:8-11', 'note': 'The throne room scene with "glory, honor, and power"', 'type': 'nt'},
+            {'ref': '1 Corinthians 2:14', 'note': 'The "natural person" who cannot understand spiritual things', 'type': 'nt'},
+            {'ref': 'Colossians 1:22', 'note': '"Present you holy and blameless" \u2014 same presentation language', 'type': 'nt'}
         ],
         'historical_note': (
             'Jude appears to have been written before 2 Peter, which adapts much of Jude\'s '

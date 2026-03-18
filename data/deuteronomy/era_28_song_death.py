@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "The Commissioning of Joshua and the Song as Witness",
         "era": "song_death",
         "type": "chapter",
+        "themes": ["COV", "LAW", "REBEL", "REMEMBER"],
 
         "synopsis": "Deuteronomy 31 is a chapter of transitions: Moses to Joshua, wilderness to "
                     "conquest, oral covenant to written Torah. Moses announces: 'I am 120 years old "
@@ -183,6 +184,7 @@ CHAPTERS = [
         "title": "The Song of Moses — The Theological Capstone of the Torah",
         "era": "song_death",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "SPIRIT", "NAME", "RIV", "COV", "REBEL"],
 
         "synopsis": "Deuteronomy 32 is the single most important chapter in the Old Testament for "
                     "the divine council worldview. The Song of Moses (Ha'azinu) is an ancient Hebrew "
@@ -314,7 +316,7 @@ CHAPTERS = [
         ],
 
         "cross_refs": [
-            {"ref": "Hebrews 1:6", "note": "'Let all God's angels worship him' — quoting Deut 32:43 (LXX/DSS) to establish Christ's supremacy over the divine council", "type": "nt"},
+            {"ref": "Hebrews 1:6", "note": "'Let all God's angels worship him' — quoting Deut 32:43 from the LXX/DSS extended text, NOT the shorter MT. Most English Bibles follow the MT, so readers of Hebrews will not find this verse in their Deuteronomy. The DSS (4QDeut^q) and LXX preserve the original longer reading: 'Rejoice, O heavens, with him, and let all the angels of God worship him.' This is what Hebrews quotes to establish Christ's supremacy over the divine council.", "type": "nt"},
             {"ref": "Romans 10:19", "note": "Paul quotes Deut 32:21: 'I will make you jealous of those who are not a nation; with a foolish nation I will make you angry' — applied to Gentile inclusion", "type": "nt"},
             {"ref": "Romans 12:19", "note": "'Vengeance is mine, I will repay, says the Lord' — quoting Deut 32:35", "type": "nt"},
             {"ref": "Romans 15:10", "note": "'Rejoice, O Gentiles, with his people' — quoting Deut 32:43", "type": "nt"},
@@ -338,7 +340,7 @@ CHAPTERS = [
             {"ref": "Deuteronomy 29:26", "note": "Israel served gods 'whom he had not allotted to them' — the allotment system of 32:8 violated", "type": "ot"},
             {"ref": "Galatians 4:8-9", "note": "Paul: 'Formerly you were enslaved to those that by nature are not gods' — the Gentiles' bondage to the allotted 'elohim before Christ", "type": "nt"},
             {"ref": "John 12:31", "note": "Jesus: 'Now is the judgment of this world; now will the ruler of this world be cast out' — the Deut 32:43 judgment realized at the cross", "type": "nt"},
-            {"ref": "1 Enoch 15:8-12", "note": "The spirits of the dead Nephilim become the shedim (demons) — the Second Temple interpretation of the shedim in Deut 32:17", "type": "ane"}
+            {"ref": "1 Enoch 15:8-12", "note": "The spirits of the dead Nephilim become the shedim (demons) — the Second Temple interpretation of the shedim in Deut 32:17", "type": "pseudepigrapha"}
         ],
 
         "divine_council_note": "Deuteronomy 32 is THE foundational text for the divine council "
@@ -608,6 +610,7 @@ CHAPTERS = [
         "title": "The Blessing of Moses — Tribal Benedictions",
         "era": "song_death",
         "type": "chapter",
+        "themes": ["COV", "DC", "LAND", "PRIEST"],
 
         "synopsis": "Deuteronomy 33 contains Moses' final blessing over the tribes of Israel — his "
                     "last words before death, paralleling Jacob's blessings in Genesis 49. The poem "
@@ -766,6 +769,7 @@ CHAPTERS = [
         "title": "The Death of Moses — God's Personal Burial",
         "era": "song_death",
         "type": "chapter",
+        "themes": ["SEED", "LAND", "COV"],
 
         "synopsis": "Deuteronomy 34 records the death, burial, and eulogy of Moses — the climax of "
                     "the Torah and one of the most poignant passages in all of scripture. Moses "

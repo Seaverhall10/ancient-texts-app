@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "The Temptation — Three Rebellions Echoed, One Son Unmoved",
         "era": "luke_cosmic_war",
         "type": "chapter",
+        "themes": ["DC", "REBEL", "SEED", "KING", "TYPE"],
 
         "synopsis": "Luke's Temptation narrative is not a morality story about resisting personal sin. "
                     "It is a cosmic confrontation between the Last Adam and the adversary who has held "
@@ -276,6 +277,7 @@ CHAPTERS = [
         "title": "The Sending of the 72 — Babel Reversed, Nation by Nation",
         "era": "luke_cosmic_war",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "KING", "REBEL", "EXILE"],
 
         "synopsis": "Luke 10:1 records Jesus appointing seventy-two (or seventy) disciples and sending "
                     "them out 'two by two before his face into every town and place where he himself "
@@ -519,6 +521,7 @@ CHAPTERS = [
         "title": "Historical Insert — The Divine Council Behind the Mission of the 72",
         "era": "luke_cosmic_war",
         "type": "historical_insert",
+        "themes": ["DC", "NATIONS", "REVERSAL", "REBEL", "KING"],
 
         "synopsis": "This insert provides the theological architecture underlying the mission of the 72: "
                     "the Deuteronomy 32 worldview, the Table of Nations, and the divine council "
@@ -732,6 +735,7 @@ CHAPTERS = [
         "title": "Satan Falls Like Lightning — The Heavenly Dimension of Ground-Level Warfare",
         "era": "luke_cosmic_war",
         "type": "chapter",
+        "themes": ["DC", "KING", "NATIONS", "REBEL", "RIV"],
 
         "synopsis": "The return of the 72 produces one of the most theologically dense exchanges in the "
                     "Gospels. The disciples report that demons submitted to them in Jesus' name (10:17); "

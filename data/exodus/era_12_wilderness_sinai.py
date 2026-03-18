@@ -8,6 +8,7 @@ CHAPTERS = [
         "title": "Marah and Elim \u2014 Bitter Waters Made Sweet",
         "era": "wilderness_sinai",
         "type": "chapter",
+        "themes": ["COV", "NAME", "DELIVER", "TYPE"],
 
         "synopsis": "Three days after the sea crossing, Israel enters the Wilderness of Shur and finds no water. When they arrive at Marah ('bitter'), the water is undrinkable, and the people grumble (vayyillonu) against Moses. YHWH shows Moses a tree (ets), which he throws into the water, and the water becomes sweet. God issues a conditional promise of health \u2014 'I am YHWH your healer' (ani YHWH rof'ekha) \u2014 establishing the testing pattern that will characterize the entire wilderness period: crisis, grumbling, divine provision, covenantal instruction. From Marah they travel to Elim, where they find twelve springs of water and seventy palm trees \u2014 numbers symbolically corresponding to the twelve tribes and the seventy elders of Israel.",
 
@@ -114,6 +115,7 @@ CHAPTERS = [
         "title": "Manna from Heaven \u2014 Daily Bread and Sabbath",
         "era": "wilderness_sinai",
         "type": "chapter",
+        "themes": ["TYPE", "HOLY", "REBEL", "DELIVER"],
 
         "synopsis": "The congregation of Israel enters the Wilderness of Sin, between Elim and Sinai, and grumbles against Moses and Aaron, longing for the 'pots of meat' and bread of Egypt. YHWH responds with a double provision: quail (selav) in the evening and manna (man) in the morning. The manna is described as 'a fine, flake-like thing' (daq mechuspas), white like coriander seed, tasting like wafers made with honey. The people are to gather one omer per person daily, with a double portion on the sixth day for the Sabbath \u2014 no manna falls on the seventh day. Those who try to hoard it find it breeding worms; those who go out on the Sabbath find nothing. An omer of manna is preserved in a jar before the testimony (edut) as a memorial for future generations. The manna teaches daily dependence on YHWH and establishes the Sabbath rhythm before the formal Sinai legislation.",
 
@@ -239,6 +241,7 @@ CHAPTERS = [
         "title": "Water from the Rock and Battle with Amalek",
         "era": "wilderness_sinai",
         "type": "chapter",
+        "themes": ["SPIRIT", "TYPE", "DELIVER", "REBEL"],
 
         "synopsis": "At Rephidim, Israel again faces a water crisis and quarrels (riv) with Moses, testing (nasah) YHWH: 'Is YHWH among us or not?' (ha-yesh YHWH beqirbenu im-ayin). Moses names the place Massah ('testing') and Meribah ('quarreling'). YHWH commands Moses to strike the rock (tsur) at Horeb with the same staff that struck the Nile, and water flows out for the people to drink. Then Amalek attacks Israel at Rephidim. Joshua leads the fighters while Moses stands on the hilltop with the staff of God raised. When Moses' hands are up, Israel prevails; when they drop, Amalek prevails. Aaron and Hur support Moses' arms until sunset, and Joshua defeats Amalek with the sword. YHWH declares perpetual war against Amalek, and Moses builds an altar named YHWH Nissi ('The LORD is my Banner').",
 
@@ -356,6 +359,7 @@ CHAPTERS = [
         "title": "Jethro's Counsel \u2014 Delegated Judgment",
         "era": "wilderness_sinai",
         "type": "chapter",
+        "themes": ["NATIONS", "PRIEST", "WORSHIP"],
 
         "synopsis": "Jethro (Yitro), priest of Midian and Moses' father-in-law, hears of all that God has done for Israel and comes to Moses at 'the mountain of God' (har ha-Elohim), bringing Moses' wife Zipporah and their two sons, Gershom and Eliezer. Moses recounts the exodus to Jethro, who responds with a confession of faith: 'Now I know that YHWH is greater than all gods (gadol YHWH mikkol-ha-elohim).' Jethro offers a burnt offering and sacrifices to God, and Aaron and the elders eat with him before God. The next day, Jethro observes Moses judging the people from morning to evening and advises judicial delegation: appoint leaders of thousands, hundreds, fifties, and tens to handle routine cases, while Moses reserves the 'great matters' (ha-davar ha-gadol) for himself. Moses implements the reform. Jethro departs for his own country.",
 

@@ -973,7 +973,7 @@ CHAPTERS = [
             {"ref": "Deuteronomy 32:8-9 (LXX/4QDeut-j)", "note": "When the Most High divided the nations, he fixed their borders according to the number of the sons of God — the foundational text for the divine council\'s national governance", "type": "ot"},
             {"ref": "Psalm 82:1-8", "note": "God stands in the divine assembly; among the gods he holds judgment — the canonical depiction of divine council members failing their mandate", "type": "ot"},
             {"ref": "Daniel 10:13, 20-21", "note": "The prince of Persia, the prince of Greece, Michael your prince — national angels governing from the heavenly realm", "type": "ot"},
-            {"ref": "1 Enoch 89:59-64", "note": "The 70 shepherds appointed to govern the nations — the Animal Apocalypse\'s development of the Deuteronomy 32 tradition", "type": "ane"},
+            {"ref": "1 Enoch 89:59-64", "note": "The 70 shepherds appointed to govern the nations — the Animal Apocalypse\'s development of the Deuteronomy 32 tradition", "type": "pseudepigrapha"},
             {"ref": "Jude 6", "note": "Angels who did not stay within their own position of authority but left their proper dwelling — the Watcher rebellion as abandonment of assigned stations", "type": "nt"},
             {"ref": "Ephesians 6:12", "note": "Our struggle is against the cosmic powers, against the spiritual forces of evil in the heavenly places — rooted in the Deuteronomy 32 tradition of national angelic governance", "type": "nt"},
             {"ref": "Colossians 2:15", "note": "He disarmed the rulers and authorities and put them to open shame — Christ\'s victory over the hostile principalities that the Deuteronomy 32 worldview places over the nations", "type": "nt"},

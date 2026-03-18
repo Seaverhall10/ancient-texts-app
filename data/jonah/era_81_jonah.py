@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "The Flight from YHWH -- Storm, Sailors, and the Great Fish",
         "era": "jonah",
         "type": "chapter",
+        "themes": ["NATIONS", "SPIRIT", "TYPE"],
 
         "synopsis": "YHWH commands Jonah to go to Nineveh and cry out against it. Jonah flees in the "
                     "opposite direction -- to Tarshish, the western edge of the known world. He boards a "
@@ -104,6 +105,7 @@ CHAPTERS = [
         "title": "The Psalm from the Depths -- Thanksgiving from Sheol",
         "era": "jonah",
         "type": "chapter",
+        "themes": ["SPIRIT", "TYPE"],
 
         "synopsis": "From inside the fish, Jonah prays a psalm of thanksgiving -- not petition but gratitude "
                     "for deliverance already granted. 'Out of the belly of Sheol I cried, and you heard my "

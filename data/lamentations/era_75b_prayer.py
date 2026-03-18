@@ -24,6 +24,7 @@ CHAPTERS = [
         "title": "Gold Grows Dim -- The Horrors of Siege and Judgment",
         "era": "lam_prayer",
         "type": "chapter",
+        "themes": ["EXILE", "BLOOD", "KING"],
 
         "synopsis": "Chapter 4 returns to third-person description of the siege's horrors, with "
                     "particular focus on the reversal of the social order and the fulfillment of "
@@ -201,6 +202,7 @@ CHAPTERS = [
         "title": "Remember, O YHWH -- The Unresolved Prayer",
         "era": "lam_prayer",
         "type": "chapter",
+        "themes": ["EXILE", "REMEMBER", "COV"],
 
         "synopsis": "The final chapter breaks the acrostic pattern -- it has 22 verses (matching the "
                     "number of letters in the Hebrew alphabet) but does not follow the alphabetic "

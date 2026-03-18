@@ -8,6 +8,7 @@ CHAPTERS = [
         "title": "The Ark, Table, and Lampstand \u2014 Heaven's Blueprint",
         "era": "tabernacle_instructions",
         "type": "chapter",
+        "themes": ["HOLY", "TYPE", "GLORY", "DC"],
 
         "synopsis": "While Moses remains on the mountain in the cloud of God's glory, YHWH delivers the first of seven speeches detailing the construction of the tabernacle (mishkan \u2014 from the Hebrew <em>shakan</em>, 'to dwell'; the mishkan is God's portable dwelling-place among his people, a tent-sanctuary that traveled with Israel through the wilderness; the later rabbinic term <em>Shekinah</em> for God's localized presence derives from the same root). Israel is to take a voluntary offering (terumah) of gold, silver, bronze, fine linen, animal skins, oil, spices, and precious stones. Three pieces of sacred furniture are described: the Ark of the Covenant (aron ha'edut), a gold-overlaid acacia chest containing the covenant tablets, crowned with the mercy seat (kapporet \u2014 from <em>kopher</em>, 'to cover, to atone'; this is the lid where the blood of atonement was sprinkled on Yom Kippur, the Day of Atonement) and two cherubim (keruvim \u2014 not the chubby baby-angels of Renaissance art, but powerful supernatural throne-guardians depicted with wings, found throughout ANE royal iconography) of hammered gold; the Table of the Presence (shulchan), bearing the showbread (lechem hapanim, literally 'bread of the face/presence'); and the golden Lampstand (menorah), a seven-branched work of beaten gold fashioned with almond-blossom cups, calyxes, and flowers. The chapter's theological centerpiece is the command: 'Make them according to the pattern (tavnit) shown you on the mountain' \u2014 the earthly tabernacle is a copy of a heavenly original. This concept of a heavenly prototype reflected in an earthly structure is fundamental to the book of Hebrews' argument about Christ's high-priestly ministry (Hebrews 8:1-5).",
 
@@ -137,6 +138,7 @@ CHAPTERS = [
         "title": "The Tabernacle Structure \u2014 God's Tent Among His People",
         "era": "tabernacle_instructions",
         "type": "chapter",
+        "themes": ["HOLY", "TYPE", "GLORY"],
 
         "synopsis": "The tabernacle's physical structure is described in meticulous detail: ten curtains of fine twisted linen in blue, purple, and scarlet yarn, woven with cherubim designs, forming the innermost layer; eleven curtains of goat hair forming the tent over the tabernacle; coverings of tanned ram skins and fine leather over the tent. The structural framework consists of acacia wood frames (qerashim) standing upright, set into silver bases, held together by horizontal bars. The critical architectural division is the parokhet (the great veil or curtain \u2014 this heavy, woven curtain separating the two innermost rooms of the sanctuary is the same curtain that was 'torn in two from top to bottom' at Christ's death in Matthew 27:51, signifying that the barrier between God and humanity had been removed). The parokhet separates the qodesh (the 'holy place,' where priests served daily) from the qodesh haqqodashim (the 'holy of holies' or 'most holy place' \u2014 the innermost chamber where only the high priest could enter, and only once a year on Yom Kippur, the Day of Atonement). The tabernacle as a whole is a microcosmos \u2014 its layered structure mirrors the layers of creation: outer court (earth), holy place (heavens), holy of holies (God's own dwelling beyond the visible cosmos).",
 
@@ -240,6 +242,7 @@ CHAPTERS = [
         "title": "The Bronze Altar and Courtyard",
         "era": "tabernacle_instructions",
         "type": "chapter",
+        "themes": ["HOLY", "BLOOD", "GLORY"],
 
         "synopsis": "The instructions move outward from the holy of holies to the courtyard. The bronze altar (mizbeach hanechoshet) of burnt offering is described: five cubits square, three cubits high, made of acacia wood overlaid with bronze, with horns at its four corners and a bronze grating. The tabernacle courtyard (chatser) is delineated: one hundred cubits long by fifty cubits wide, enclosed by linen hangings on bronze pillars with silver hooks. The eastern entrance features a twenty-cubit-wide embroidered screen. Finally, YHWH commands Israel to provide pure beaten olive oil (shemen zayit zakh) for the lampstand, to burn continuously from evening to morning \u2014 the ner tamid, the perpetual light.",
 
@@ -332,6 +335,7 @@ CHAPTERS = [
         "title": "The Priestly Garments \u2014 Clothed in Glory",
         "era": "tabernacle_instructions",
         "type": "chapter",
+        "themes": ["PRIEST", "HOLY", "TYPE", "GLORY"],
 
         "synopsis": "YHWH instructs Moses to consecrate Aaron and his four sons (Nadab, Abihu, Eleazar, Ithamar) as priests. The high priest's garments are described with extraordinary detail: the ephod of gold, blue, purple, and scarlet yarn with two onyx stones on the shoulders engraved with the names of the twelve tribes; the breastpiece of judgment (choshen hamishpat) with twelve precious stones (one per tribe) and containing the Urim and Thummim (urim vetummim) for seeking divine decisions; the robe of the ephod, entirely blue, with alternating golden bells and pomegranates on its hem; the turban (mitznefet) with a gold plate (tsits) inscribed 'HOLY TO THE LORD' (qodesh laYHWH). The garments are described as being 'for glory and for beauty' (lekhavod uletifaret) \u2014 the high priest is a walking microcosm, bearing all Israel on his person before God.",
 
@@ -455,6 +459,7 @@ CHAPTERS = [
         "title": "Consecration of Priests \u2014 Blood and Anointing",
         "era": "tabernacle_instructions",
         "type": "chapter",
+        "themes": ["PRIEST", "BLOOD", "HOLY", "COV", "TYPE"],
 
         "synopsis": "The ordination ceremony for Aaron and his sons is prescribed in precise detail: a seven-day consecration (millu'im, literally 'fillings' \u2014 filling the hands with priestly authority). The ritual involves washing with water, investiture with the priestly garments, anointing with sacred oil (shemen hamishchah), and three animal sacrifices: a bull as a sin offering (chattat), a ram as a burnt offering (olah), and a second ram as the 'ram of ordination' (eil hamillu'im). The blood of the ordination ram is applied to the right ear, right thumb, and right big toe of each priest \u2014 consecrating hearing, action, and walk to God's service. The result is stated in 29:45-46: 'I will dwell among the people of Israel and will be their God. And they shall know that I am the LORD their God, who brought them out of the land of Egypt that I might dwell among them.'",
 
@@ -556,6 +561,7 @@ CHAPTERS = [
         "title": "Incense Altar, Atonement Money, and Sacred Oil",
         "era": "tabernacle_instructions",
         "type": "chapter",
+        "themes": ["PRIEST", "BLOOD", "HOLY", "WORSHIP"],
 
         "synopsis": "Four additional elements of tabernacle worship are prescribed. First, the golden altar of incense (mizbeach miqtar qetoret), placed before the veil in the holy place, on which Aaron burns fragrant incense every morning and evening. Second, the census ransom (kopher nefesh), a half-shekel payment from every adult male as a 'ransom for his soul' whenever Israel is numbered. Third, the bronze basin (kiyor) for priestly washing between the altar and the tent of meeting. Fourth, the sacred anointing oil (shemen hamishchah) \u2014 a precisely specified recipe of myrrh, cinnamon, calamus, cassia, and olive oil \u2014 and the sacred incense (qetoret), a blend of stacte, onycha, galbanum, and frankincense. Both the oil and the incense are declared 'holy' (qodesh), and unauthorized reproduction of either is punishable by being 'cut off from his people.'",
 
@@ -736,6 +742,7 @@ CHAPTERS = [
         "title": "Bezalel, Oholiab, and the Sabbath Sign",
         "era": "tabernacle_instructions",
         "type": "chapter",
+        "themes": ["SPIRIT", "HOLY", "COV", "WORSHIP"],
 
         "synopsis": "The tabernacle instructions conclude with two final revelations. First, YHWH names the master craftsmen who will build the tabernacle: Bezalel son of Uri, son of Hur, of the tribe of Judah, whom God has 'filled with the Spirit of God' (ruach elohim) in wisdom (chokmah), understanding (tevunah), knowledge (da'at), and 'all craftsmanship' (kol melakhah); and Oholiab son of Ahisamach, of the tribe of Dan, as his assistant. Second, YHWH declares the Sabbath as 'a sign (ot) between me and the people of Israel forever' (31:17) \u2014 the covenant marker that identifies Israel as God's people. The Sabbath command crowns the tabernacle instructions just as the seventh day crowned creation. Moses receives the two tablets of the testimony (luchot ha'edut), 'tablets of stone, written with the finger of God' (31:18).",
 

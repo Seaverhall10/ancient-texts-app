@@ -25,6 +25,7 @@ CHAPTERS = [
         "title": "Theodicy and Leviathan -- The Crisis of Faith and the Cosmic Battle",
         "era": "psalms_book3",
         "type": "chapter",
+        "themes": ["DC", "PROV", "REBEL"],
 
         "synopsis": "Book III opens with two psalms of crisis. Psalm 73, an Asaphite wisdom psalm, "
                     "confronts the prosperity of the wicked: 'My feet had almost stumbled... for I "
@@ -230,6 +231,7 @@ CHAPTERS = [
         "title": "The Great Historical Recital -- Israel's Failure and YHWH's Faithfulness",
         "era": "psalms_book3",
         "type": "chapter",
+        "themes": ["REMEMBER", "COV", "REBEL"],
 
         "synopsis": "Psalm 78 is the longest Asaphite psalm and one of the great historical recitals "
                     "of the Psalter. It traces Israel's history from the exodus through the "
@@ -364,6 +366,7 @@ CHAPTERS = [
         "title": "The Divine Council Judgment -- God Stands Among the Gods",
         "era": "psalms_book3",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "RIV"],
 
         "synopsis": "Psalm 82 is THE divine council text of the Old Testament -- the passage where "
                     "the veil between heaven and earth is drawn back and the reader witnesses YHWH "
@@ -618,6 +621,7 @@ CHAPTERS = [
         "title": "The Conspiracy of Nations -- Territorial Spirits and Earthly Proxies",
         "era": "psalms_book3",
         "type": "chapter",
+        "themes": ["DC", "NATIONS"],
 
         "synopsis": "Psalm 83 is the final Asaphite psalm and describes a conspiracy of nations "
                     "seeking to annihilate Israel: 'They say, Come, let us wipe them out as a "
@@ -741,6 +745,7 @@ CHAPTERS = [
         "title": "The Council of the Holy Ones -- YHWH's Incomparability and the Davidic Crisis",
         "era": "psalms_book3",
         "type": "chapter",
+        "themes": ["DC", "COV", "SEED", "KING"],
 
         "synopsis": "Psalm 89 is the theological capstone of Book III and the second great divine "
                     "council text of the Psalter (alongside Ps 82). An Ethanite maskil, it opens "
@@ -965,6 +970,7 @@ CHAPTERS = [
         "title": "Book III Synthesis: The Divine Council Crisis and the Judgment of the Gods",
         "era": "psalms_book3",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "RIV", "KING"],
 
         "synopsis": "Book III of the Psalter is the divine council book -- the section where the "
                     "cosmic governance of YHWH through subordinate spiritual beings is most "

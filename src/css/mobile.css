@@ -263,6 +263,8 @@ body.sidebar-open .main-content { overflow: hidden !important; }
         height: 100vh; height: 100dvh;
         overflow-y: auto;
     }
+    /* Sidebar hide rules in layout.css / book-landing.css are now desktop-only
+       (@media min-width:769px), so no override needed here. */
     .sidebar-nav {
         flex: unset !important;
         overflow-y: visible !important;

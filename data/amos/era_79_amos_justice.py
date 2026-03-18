@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "Oracles Against the Nations -- The Spiral of Judgment",
         "era": "amos_justice",
         "type": "chapter",
+        "themes": ["RIV", "NATIONS", "COV"],
 
         "synopsis": "Amos opens with YHWH roaring from Zion (1:2) and then delivers a devastating series "
                     "of judgment oracles against eight nations. The rhetorical formula 'For three "
@@ -100,6 +101,7 @@ CHAPTERS = [
         "title": "The Prophet's Authority and the Failure of Discipline",
         "era": "amos_justice",
         "type": "chapter",
+        "themes": ["RIV", "DC", "HOLY"],
 
         "synopsis": "Amos 3 establishes the prophet's authority through the divine council. 'Does a lion "
                     "roar in the forest, when he has no prey?' (3:4). Cause follows effect -- and YHWH does "

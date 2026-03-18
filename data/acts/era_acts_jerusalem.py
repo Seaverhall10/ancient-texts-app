@@ -21,6 +21,7 @@ CHAPTERS = [
         "title": "The Ascension and Pentecost -- The Spirit Poured Out on All Flesh",
         "era": "acts_jerusalem",
         "type": "study",
+        "themes": ["DC", "KING", "NATIONS", "NAME", "SEED"],
 
         "synopsis": "Acts opens where Luke's Gospel ends: the risen Jesus spends 40 days teaching the "
                     "apostles about 'the kingdom of God' (1:3). He commissions them: 'You will receive "
@@ -170,6 +171,7 @@ CHAPTERS = [
         "title": "The Early Church, Temple Confrontations, and Stephen's Martyrdom",
         "era": "acts_jerusalem",
         "type": "study",
+        "themes": ["DC", "KING", "SPIRIT", "NATIONS", "BLOOD"],
 
         "synopsis": "The early church grows amid opposition. Peter heals a lame man at the Temple "
                     "gate (3:1-10) and preaches: Jesus is 'the Author of life, whom God raised from "
@@ -306,6 +308,7 @@ CHAPTERS = [
         "title": "Samaria, Saul's Conversion, Cornelius, and the Antioch Church",
         "era": "acts_jerusalem",
         "type": "study",
+        "themes": ["NATIONS", "DC", "SPIRIT", "REVERSAL", "LAW"],
 
         "synopsis": "The gospel breaks out of Jerusalem. Philip preaches in Samaria (8:4-25), then "
                     "is directed by an angel to the Ethiopian eunuch (8:26-39) -- a Gentile proselyte "

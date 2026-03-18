@@ -27,6 +27,7 @@ CHAPTERS = [
         "title": "The Logos Prologue and the First Witnesses -- In the Beginning Was the Word",
         "era": "john_signs",
         "type": "chapter",
+        "themes": ["SEED", "DC", "GLORY", "BLOOD", "KING"],
 
         "synopsis": "John 1 is the most theologically dense chapter in the New Testament. It opens not "
                     "with a genealogy (Matthew), a Roman census (Luke), or the beginning of the ministry "
@@ -248,6 +249,7 @@ CHAPTERS = [
         "title": "The New Temple and the New Birth -- Cana, Jerusalem, and Nicodemus",
         "era": "john_signs",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "TYPE", "SEED", "WOMEN"],
 
         "synopsis": "Chapters 2-3 introduce the themes of replacement and revelation. At the wedding in "
                     "Cana (2:1-11), Jesus performs the first sign (semeion) -- turning water into wine. "
@@ -444,6 +446,7 @@ CHAPTERS = [
         "title": "Living Water and Divine Authority -- The Samaritan Woman and the Healing at Bethesda",
         "era": "john_signs",
         "type": "chapter",
+        "themes": ["KING", "SEED", "SPIRIT", "DC", "TYPE"],
 
         "synopsis": "Chapters 4-5 expand the scope of Jesus' mission beyond Jewish territory and assert "
                     "his divine prerogatives with unprecedented directness. In chapter 4, Jesus travels "
@@ -623,6 +626,7 @@ CHAPTERS = [
         "title": "The Bread of Life -- Manna, Flesh, and the I AM Who Descended from Heaven",
         "era": "john_signs",
         "type": "chapter",
+        "themes": ["KING", "PROV", "DC", "HOLY", "TYPE"],
 
         "synopsis": "Chapter 6 is one of the longest and most theologically demanding chapters in the "
                     "Gospels. It begins with the feeding of the 5,000 (6:1-15) -- the only miracle "
@@ -795,6 +799,7 @@ CHAPTERS = [
         "title": "The Festival of Tabernacles -- Living Water, Light of the World, and the I AM",
         "era": "john_signs",
         "type": "chapter",
+        "themes": ["SEED", "KING", "DC", "TYPE", "BLOOD"],
 
         "synopsis": "Chapters 7-8 are set during the Festival of Tabernacles (Sukkot) in Jerusalem -- "
                     "the most joyful and symbolically rich festival of the Jewish calendar. The festival "
@@ -958,6 +963,7 @@ CHAPTERS = [
         "title": "The Man Born Blind, the Good Shepherd, and the Psalm 82 Debate",
         "era": "john_signs",
         "type": "chapter",
+        "themes": ["DC", "SEED", "HOLY", "KING", "NATIONS"],
 
         "synopsis": "Chapters 9-10 contain two of John's most important narratives: the healing of the "
                     "man born blind (chapter 9 -- the sixth sign) and the Good Shepherd discourse with "
@@ -1146,6 +1152,7 @@ CHAPTERS = [
         "title": "The Resurrection and the Life -- Lazarus, the Anointing, and the Arrival of the Hour",
         "era": "john_signs",
         "type": "chapter",
+        "themes": ["DC", "KING", "SEED", "REBEL", "TYPE"],
 
         "synopsis": "Chapters 11-12 form the climactic conclusion of the Book of Signs. Chapter 11 "
                     "narrates the raising of Lazarus -- the seventh and greatest sign -- which reveals "

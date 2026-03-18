@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "The Image of the Invisible God -- The Christ Hymn",
         "era": "col_supremacy",
         "type": "study",
+        "themes": ["DC", "KING", "SEED", "TYPE", "BLOOD"],
 
         "synopsis": "Colossians 1:15-20 is the most concentrated christological statement in the Pauline "
                     "corpus. In six verses Paul declares that Christ is the eikon (image) of the invisible "
@@ -194,6 +195,7 @@ CHAPTERS = [
         "title": "The Triumph of the Cross -- Disarming the Powers",
         "era": "col_supremacy",
         "type": "study",
+        "themes": ["DC", "KING", "REBEL", "BLOOD", "RIV"],
 
         "synopsis": "In Colossians 2:8-15, Paul launches his direct polemic against the Colossian heresy "
                     "and delivers the most dramatic description of the cross's cosmic significance in the "
@@ -375,6 +377,7 @@ CHAPTERS = [
         "title": "Dead to the Stoicheia -- Freedom from Shadow Religion",
         "era": "col_supremacy",
         "type": "study",
+        "themes": ["DC", "KING", "PRIEST", "COV", "TYPE"],
 
         "synopsis": "Having declared the cosmic victory of the cross over the powers (2:15), Paul draws "
                     "the practical implications for the Colossian believers in 2:16-3:4. If the powers "

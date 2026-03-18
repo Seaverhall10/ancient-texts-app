@@ -17,6 +17,7 @@ CHAPTERS = [
         "title": "The Messenger of the Covenant -- Refiner's Fire and Robbing God",
         "era": "mal_messenger",
         "type": "chapter",
+        "themes": ["COV", "PRIEST", "SEED", "RIV", "HOLY"],
 
         "synopsis": "The fifth disputation begins with one of the most important messianic prophecies: 'Behold, "
                     "I send my messenger, and he will prepare the way before me. And the Lord whom you seek will "
@@ -121,6 +122,7 @@ CHAPTERS = [
         "title": "The Sun of Righteousness -- Elijah Before the Great Day",
         "era": "mal_messenger",
         "type": "chapter",
+        "themes": ["COV", "SEED", "REVERSAL"],
 
         "synopsis": "The final chapter of the OT. 'For behold, the day is coming, burning like an oven, when "
                     "all the arrogant and all evildoers will be stubble. The day that is coming shall set them "

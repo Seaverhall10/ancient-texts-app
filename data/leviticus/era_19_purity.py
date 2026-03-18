@@ -21,6 +21,7 @@ CHAPTERS = [
         "title": "Clean and Unclean Animals — The Dietary Laws",
         "era": "purity",
         "type": "chapter",
+        "themes": ["HOLY", "LAW"],
 
         "synopsis": (
             "Leviticus 11 presents the foundational dietary laws (kashrut) that will define "
@@ -241,6 +242,7 @@ CHAPTERS = [
         "title": "Childbirth and Purification — The Mystery of Blood and Life",
         "era": "purity",
         "type": "chapter",
+        "themes": ["HOLY", "BLOOD", "PRIEST"],
 
         "synopsis": (
             "Leviticus 12 is one of the shortest chapters in Leviticus but raises some of "
@@ -412,6 +414,7 @@ CHAPTERS = [
         "title": "Tsara'at — The Priest as Diagnostic Authority",
         "era": "purity",
         "type": "chapter",
+        "themes": ["HOLY", "PRIEST", "LAW"],
 
         "synopsis": (
             "Leviticus 13 is the longest chapter in Leviticus (59 verses), providing "
@@ -616,6 +619,7 @@ CHAPTERS = [
         "title": "Cleansing the Leper — Resurrection Ritual",
         "era": "purity",
         "type": "chapter",
+        "themes": ["HOLY", "PRIEST", "BLOOD", "TYPE"],
 
         "synopsis": (
             "Leviticus 14 describes the elaborate purification ritual for a person healed "
@@ -815,6 +819,7 @@ CHAPTERS = [
         "title": "Bodily Discharges — The Taxonomy of Life Leaving the Body",
         "era": "purity",
         "type": "chapter",
+        "themes": ["HOLY", "LAW"],
 
         "synopsis": (
             "Leviticus 15 addresses the ritual impurity caused by genital discharges — male "

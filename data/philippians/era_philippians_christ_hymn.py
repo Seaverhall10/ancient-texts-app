@@ -10,6 +10,7 @@ CHAPTERS = [
         'era': 'philippians_christ_hymn',
         'chapter_num': 1,
         'type': 'chapter',
+        'themes': ['DC', 'KING', 'BLOOD', 'RIV', 'HOLY'],
         'title': 'Joy in Chains \u2014 The Unstoppable Gospel',
         'ref': 'Philippians 1:1-30',
         'period': 'ca. AD 60\u201362',
@@ -205,9 +206,9 @@ CHAPTERS = [
             'means that even persecution serves the kingdom\'s advance.'
         ),
         'cross_refs': [
-            {'ref': 'Acts 16:12-40', 'note': 'The founding of the Philippian church (Paul\'s imprisonment there)'},
-            {'ref': '2 Corinthians 11:23-28', 'note': 'Paul\'s catalog of sufferings'},
-            {'ref': 'Joel 2:1-11', 'note': 'The Day of YHWH \u2014 OT background for "the day of Christ"'}
+            {'ref': 'Acts 16:12-40', 'note': 'The founding of the Philippian church (Paul\'s imprisonment there)', 'type': 'nt'},
+            {'ref': '2 Corinthians 11:23-28', 'note': 'Paul\'s catalog of sufferings', 'type': 'nt'},
+            {'ref': 'Joel 2:1-11', 'note': 'The Day of YHWH \u2014 OT background for "the day of Christ"', 'type': 'ot'}
         ],
         'historical_note': (
             'Paul likely wrote from Rome (ca. AD 60-62) during his first Roman imprisonment. '
@@ -230,6 +231,7 @@ CHAPTERS = [
         'era': 'philippians_christ_hymn',
         'chapter_num': 2,
         'type': 'chapter',
+        'themes': ['DC', 'KING', 'BLOOD', 'TYPE', 'NAME'],
         'title': 'The Christ Hymn \u2014 Kenosis and Cosmic Exaltation',
         'ref': 'Philippians 2:1-30',
         'period': 'ca. AD 60\u201362',
@@ -446,12 +448,12 @@ CHAPTERS = [
             'lordship \u2014 is now fulfilled in Jesus.'
         ),
         'cross_refs': [
-            {'ref': 'Isaiah 45:23', 'note': '"Every knee shall bow" \u2014 YHWH\'s claim applied to Christ'},
-            {'ref': 'Isaiah 52:13\u201353:12', 'note': 'The suffering servant exalted after suffering'},
-            {'ref': 'Daniel 7:13-14', 'note': 'The Son of Man receiving universal dominion'},
-            {'ref': 'Colossians 1:15-20', 'note': 'Parallel cosmic christology hymn'},
-            {'ref': '1 Peter 3:18-22', 'note': 'Christ\'s proclamation to spirits and cosmic exaltation'},
-            {'ref': 'Hebrews 1:3-4', 'note': 'The Son inheriting the name superior to angels'}
+            {'ref': 'Isaiah 45:23', 'note': '"Every knee shall bow" \u2014 YHWH\'s claim applied to Christ', 'type': 'ot'},
+            {'ref': 'Isaiah 52:13\u201353:12', 'note': 'The suffering servant exalted after suffering', 'type': 'ot'},
+            {'ref': 'Daniel 7:13-14', 'note': 'The Son of Man receiving universal dominion', 'type': 'ot'},
+            {'ref': 'Colossians 1:15-20', 'note': 'Parallel cosmic christology hymn', 'type': 'nt'},
+            {'ref': '1 Peter 3:18-22', 'note': 'Christ\'s proclamation to spirits and cosmic exaltation', 'type': 'nt'},
+            {'ref': 'Hebrews 1:3-4', 'note': 'The Son inheriting the name superior to angels', 'type': 'nt'}
         ],
         'historical_note': (
             'Many scholars believe 2:6-11 is a pre-Pauline hymn that was already circulating '
@@ -474,6 +476,7 @@ CHAPTERS = [
         'era': 'philippians_christ_hymn',
         'chapter_num': 3,
         'type': 'chapter',
+        'themes': ['KING', 'DC', 'TYPE', 'SEED', 'HOLY'],
         'title': 'Citizens of Heaven \u2014 The True Politeuma',
         'ref': 'Philippians 3:1\u20134:23',
         'period': 'ca. AD 60\u201362',
@@ -682,11 +685,11 @@ CHAPTERS = [
             'even while the old order of earthly and cosmic powers continues.'
         ),
         'cross_refs': [
-            {'ref': 'Daniel 7:14', 'note': 'Universal dominion given to the Son of Man'},
-            {'ref': '1 Corinthians 15:24-28', 'note': 'Christ subjecting all powers, then handing the kingdom to the Father'},
-            {'ref': 'Colossians 3:1-4', 'note': '"Your life is hidden with Christ in God" \u2014 parallel heavenly citizenship'},
-            {'ref': 'Hebrews 11:10, 16', 'note': 'The heavenly city that the patriarchs sought'},
-            {'ref': 'Revelation 21:2', 'note': 'The New Jerusalem descending from heaven'}
+            {'ref': 'Daniel 7:14', 'note': 'Universal dominion given to the Son of Man', 'type': 'ot'},
+            {'ref': '1 Corinthians 15:24-28', 'note': 'Christ subjecting all powers, then handing the kingdom to the Father', 'type': 'nt'},
+            {'ref': 'Colossians 3:1-4', 'note': '"Your life is hidden with Christ in God" \u2014 parallel heavenly citizenship', 'type': 'nt'},
+            {'ref': 'Hebrews 11:10, 16', 'note': 'The heavenly city that the patriarchs sought', 'type': 'nt'},
+            {'ref': 'Revelation 21:2', 'note': 'The New Jerusalem descending from heaven', 'type': 'nt'}
         ],
         'historical_note': (
             'Philippi was the site of the decisive battle (42 BC) where Octavian and Antony '

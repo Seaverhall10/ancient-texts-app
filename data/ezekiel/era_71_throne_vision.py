@@ -20,6 +20,7 @@ CHAPTERS = [
         "title": "The Merkabah -- YHWH's Throne-Chariot Vision",
         "era": "ezekiel_throne",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "SPIRIT"],
 
         "synopsis": "Ezekiel 1 is the most elaborate theophany in the Hebrew Bible -- a vision of "
                     "YHWH's mobile throne that would become the foundation of Jewish mystical tradition. "
@@ -178,6 +179,7 @@ CHAPTERS = [
         "title": "The Commission and Symbolic Siege",
         "era": "ezekiel_throne",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "RIV"],
 
         "synopsis": "Following the merkabah vision, Ezekiel receives his commission. YHWH addresses "
                     "him as 'son of man' (ben-adam, 2:1) -- a term used over 90 times in the book, "
@@ -290,6 +292,7 @@ CHAPTERS = [
         "title": "Temple Abominations and the Departure of the Glory",
         "era": "ezekiel_throne",
         "type": "chapter",
+        "themes": ["GLORY", "HOLY", "DC", "REBEL"],
 
         "synopsis": "The most devastating vision in Ezekiel: transported in the Spirit to Jerusalem, "
                     "Ezekiel witnesses the abominations defiling the temple -- idol worship, women "

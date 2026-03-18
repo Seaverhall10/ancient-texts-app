@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Transfiguration -- The Divine Glory Unveiled",
         "era": "mark_passion",
         "type": "study",
+        "themes": ["DC", "KING", "GLORY", "TYPE", "HOLY"],
 
         "synopsis": "At the heart of Mark's Gospel, between Peter's confession (8:29) and the journey "
                     "to Jerusalem, Jesus takes Peter, James, and John up a high mountain and is "
@@ -210,6 +211,7 @@ CHAPTERS = [
         "title": "The Temple Cleansed, the Son Rejected",
         "era": "mark_passion",
         "type": "study",
+        "themes": ["KING", "DC", "SEED", "NATIONS", "RIV"],
 
         "synopsis": "Jesus enters Jerusalem as the humble king prophesied in Zechariah 9:9, riding on "
                     "a colt while the crowds shout: 'Hosanna! Blessed is he who comes in the name of "
@@ -401,6 +403,7 @@ CHAPTERS = [
         "title": "Crucifixion, the Torn Veil, and the Empty Tomb",
         "era": "mark_passion",
         "type": "study",
+        "themes": ["BLOOD", "KING", "DC", "SEED", "HOLY"],
 
         "synopsis": "Mark's passion narrative moves from Gethsemane to the empty tomb with unflinching "
                     "intensity. In the garden, Jesus prays with raw honesty: 'Abba, Father, all things "

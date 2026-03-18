@@ -22,6 +22,7 @@ CHAPTERS = [
         "title": "Sexual Holiness — Boundaries the Nations Violated",
         "era": "holiness",
         "type": "chapter",
+        "themes": ["HOLY", "LAW", "NATIONS", "LAND"],
 
         "synopsis": (
             "Leviticus 18 opens the Holiness Code with the most comprehensive list of "
@@ -231,6 +232,7 @@ CHAPTERS = [
         "title": "Be Holy — The Ethical Heart of the Torah",
         "era": "holiness",
         "type": "chapter",
+        "themes": ["HOLY", "LAW", "LOVE", "NAME"],
 
         "synopsis": (
             "Leviticus 19 is the ethical masterpiece of the Torah — a comprehensive vision "
@@ -482,6 +484,7 @@ CHAPTERS = [
         "title": "Penalties for Holiness Violations — The Severity of Boundaries",
         "era": "holiness",
         "type": "chapter",
+        "themes": ["HOLY", "LAW", "SPIRIT", "NATIONS"],
 
         "synopsis": (
             "Leviticus 20 prescribes the penalties for violations enumerated in chapters 18-19, "
@@ -674,6 +677,7 @@ CHAPTERS = [
         "title": "Priestly Holiness — Higher Standards for Those Who Approach",
         "era": "holiness",
         "type": "chapter",
+        "themes": ["HOLY", "PRIEST", "LAW", "NAME"],
 
         "synopsis": (
             "Leviticus 21-22 establishes heightened holiness requirements for the priests — "

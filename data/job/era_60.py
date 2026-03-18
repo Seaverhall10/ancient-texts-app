@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "The Divine Council and the Testing of Job",
         "era": "60",
         "type": "chapter",
+        "themes": ["DC", "REBEL", "PROV"],
 
         "synopsis": "Job 1 is the most important divine council narrative in the Hebrew Bible. It opens "
                     "by establishing Job as a man of extraordinary righteousness -- 'blameless and "
@@ -186,6 +187,7 @@ CHAPTERS = [
         "title": "The Second Test -- Affliction of the Body",
         "era": "60",
         "type": "chapter",
+        "themes": ["DC", "REBEL", "PROV"],
 
         "synopsis": "The divine council reconvenes. YHWH again points to Job's integrity: 'He still holds "
                     "fast his integrity, although you incited me against him to destroy him without reason' "
@@ -307,6 +309,7 @@ CHAPTERS = [
         "title": "Job Curses the Day of His Birth",
         "era": "60",
         "type": "chapter",
+        "themes": ["SPIRIT"],
 
         "synopsis": "After seven days of silence, Job breaks the stillness not with a curse against God "
                     "but with a curse against his own existence. 'Let the day perish on which I was born, "
@@ -411,6 +414,7 @@ CHAPTERS = [
         "title": "Eliphaz's First Speech -- The Vision of the Night",
         "era": "60",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT"],
 
         "synopsis": "Eliphaz the Temanite speaks first, as the eldest and most experienced. His speech "
                     "begins gently: 'If one ventures a word with you, will you be impatient?' (4:2). He "
@@ -524,6 +528,7 @@ CHAPTERS = [
         "title": "Job's Reply -- Treacherous Friends and the God Who Hunts",
         "era": "60",
         "type": "chapter",
+        "themes": ["SPIRIT"],
 
         "synopsis": "Job responds to Eliphaz with raw anguish. He wishes his suffering could be weighed "
                     "on scales: 'For then it would be heavier than the sand of the sea' (6:3). He accuses "
@@ -617,6 +622,7 @@ CHAPTERS = [
         "title": "Bildad and Zophar -- Tradition and Mystery",
         "era": "60",
         "type": "chapter",
+        "themes": ["DC", "PROV", "SPIRIT"],
 
         "synopsis": "Bildad the Shuhite appeals to tradition: 'Inquire, please, of bygone ages, and "
                     "consider what the fathers have searched out' (8:8). His argument is simple: God "
@@ -725,6 +731,7 @@ CHAPTERS = [
         "title": "Job's Closing of the First Cycle -- Wisdom, Mortality, and Hope",
         "era": "60",
         "type": "chapter",
+        "themes": ["DC", "PROV", "SPIRIT"],
 
         "synopsis": "Job closes the first dialogue cycle with a masterful three-chapter speech. In chapter "
                     "12, he demonstrates that he knows everything the friends know -- and more. He describes "

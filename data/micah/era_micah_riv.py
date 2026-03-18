@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "The Riv Opens -- Hear, O Peoples",
         "era": "micah_riv",
         "type": "chapter",
+        "themes": ["RIV", "COV", "DC"],
 
         "synopsis": "Micah opens by summoning the entire world to attention -- 'Hear, O peoples, all of you; "
                     "pay attention, O earth, and all that is in it' (1:2) -- the universal assembly call of the "
@@ -194,6 +195,7 @@ CHAPTERS = [
         "title": "The Textbook Riv -- What Does YHWH Require?",
         "era": "micah_riv",
         "type": "chapter",
+        "themes": ["RIV", "SEED", "KING"],
 
         "synopsis": "Micah 6:1-8 is the most structurally complete riv passage in the Hebrew Bible and a "
                     "standard text in every ANE treaty-law curriculum. [A] YHWH summons the mountains as "
@@ -392,6 +394,7 @@ CHAPTERS = [
         "title": "The Bethlehem Oracle -- Whose Origins Are From Eternity",
         "era": "micah_riv",
         "type": "chapter",
+        "themes": ["RIV", "COV", "LOVE", "REMNANT"],
 
         "synopsis": "Micah 5:2 is one of the most exegetically significant messianic texts in the Old Testament. "
                     "[A] 'But you, O Bethlehem Ephrathah, who are too little to be among the clans of Judah, "

@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "Gedaliah, Egypt, and the Last Oracles",
         "era": "jeremiah_aftermath",
         "type": "chapter",
+        "themes": ["EXILE", "REMNANT"],
 
         "synopsis": "After Jerusalem's fall, Nebuchadnezzar appoints Gedaliah son of Ahikam as governor "
                     "over the remnant (40:7). Gedaliah establishes his seat at Mizpah and counsels the "
@@ -130,6 +131,7 @@ CHAPTERS = [
         "title": "Oracles Against the Nations -- The Cup Poured Out",
         "era": "jeremiah_aftermath",
         "type": "chapter",
+        "themes": ["NATIONS", "DC"],
 
         "synopsis": "The Oracles Against the Nations (OAN) fulfill the universal cup of wrath from "
                     "chapter 25. Each nation that Jeremiah was commissioned to address (1:10, 'over "

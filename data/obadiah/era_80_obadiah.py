@@ -13,6 +13,7 @@ CHAPTERS = [
         "title": "The Vision Against Edom -- Pride, Treachery, and the Kingdom of YHWH",
         "era": "obadiah",
         "type": "chapter",
+        "themes": ["NATIONS", "RIV", "LAND"],
 
         "synopsis": "Obadiah delivers YHWH's complete verdict against Edom in a single chapter. The oracle "
                     "opens with a summons: 'Rise up! Let us rise against her for battle!' (v. 1). YHWH "

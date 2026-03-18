@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "Nob, the Cave of Adullam, and Saul Spared at En-gedi",
         "era": "david_fugitive",
         "type": "chapter",
+        "themes": ["PROV", "KING", "PRIEST", "HOLY"],
 
         "synopsis": "David flees to Nob, where the priest Ahimelech gives him the bread of the Presence "
                     "(lechem hapanim) and Goliath's sword (21:1-9). This episode becomes a key text when "
@@ -176,6 +177,7 @@ CHAPTERS = [
         "title": "Abigail, Saul Spared Again, and David Among the Philistines",
         "era": "david_fugitive",
         "type": "chapter",
+        "themes": ["WOMEN", "PROV", "KING"],
 
         "synopsis": "Samuel dies and all Israel mourns (25:1). David encounters the wealthy Nabal "
                     "('Fool') and his wise wife Abigail. When Nabal refuses to provision David's men "
@@ -313,6 +315,7 @@ CHAPTERS = [
         "title": "Endor, Ziklag, and the Death of Saul",
         "era": "david_fugitive",
         "type": "chapter",
+        "themes": ["DC", "SPIRIT", "KING", "BLOOD"],
 
         "synopsis": "The Philistines gather for a massive campaign against Israel. Achish enlists David, "
                     "but the Philistine commanders refuse to trust him (29:3-4), sending him home to "

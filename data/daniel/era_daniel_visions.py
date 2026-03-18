@@ -26,6 +26,7 @@ CHAPTERS = [
         "title": "The Four Beasts, the Ancient of Days, and the Son of Man",
         "era": "daniel_visions",
         "type": "chapter",
+        "themes": ["DC", "KING", "SEED", "NATIONS", "DREAM"],
 
         "synopsis": "Daniel 7 is the pivotal chapter of the entire book and one of the most important "
                     "texts in the Bible for understanding Jesus' self-identification. The vision comes 'in "
@@ -289,6 +290,7 @@ CHAPTERS = [
         "title": "The Ram, the Goat, and the Host of Heaven Trampled",
         "era": "daniel_visions",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "DREAM"],
 
         "synopsis": "Daniel 8 shifts from Aramaic back to Hebrew and presents a vision of two specific "
                     "empires: Medo-Persia and Greece. Daniel sees a ram (ayil) with two horns -- 'the "
@@ -470,6 +472,7 @@ CHAPTERS = [
         "title": "Daniel's Prayer and the Seventy Weeks",
         "era": "daniel_visions",
         "type": "chapter",
+        "themes": ["COV", "SEED", "BLOOD", "HOLY"],
 
         "synopsis": "Daniel 9 opens with Daniel studying the prophets: 'I, Daniel, perceived in the "
                     "books (basepharim) the number of years that, according to the word of YHWH to "
@@ -639,6 +642,7 @@ CHAPTERS = [
         "title": "The Spiritual War Behind History: Territorial Spirits, Michael, and the Resurrection",
         "era": "daniel_visions",
         "type": "chapter",
+        "themes": ["DC", "NATIONS", "DREAM", "SPIRIT", "GLORY"],
 
         "synopsis": "Daniel 10-12 contains the most explicit revelation of territorial spirit warfare in "
                     "all of Scripture. In the third year of Cyrus (10:1), Daniel receives a vision after "

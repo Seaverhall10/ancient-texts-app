@@ -18,6 +18,7 @@ CHAPTERS = [
         "title": "The Prayer of Habakkuk -- The Divine Warrior's March",
         "era": "hab_prayer",
         "type": "chapter",
+        "themes": ["DC", "GLORY", "SPIRIT"],
 
         "synopsis": "Chapter 3 is one of the most magnificent theophanic poems in the Old Testament. "
                     "Habakkuk prays: 'O YHWH, I have heard the report of you, and your work, O YHWH, do I "

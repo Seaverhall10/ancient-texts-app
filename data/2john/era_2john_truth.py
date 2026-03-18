@@ -14,6 +14,7 @@ CHAPTERS = [
         "title": "The Elect Lady -- Do Not Receive Deceivers",
         "era": "2john_truth",
         "type": "chapter",
+        "themes": ["DC", "LOVE", "REBEL", "SPIRIT", "WOMEN"],
 
         "synopsis": "'The elder to the elect lady (eklekte kyria) and her children, whom I love in truth' "
                     "(v.1). The greeting is trinitarian: 'Grace, mercy, and peace will be with us, from God "

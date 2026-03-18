@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "Adonijah's Bid and Solomon's Anointing",
         "era": "solomon_glory",
         "type": "chapter",
+        "themes": ["KING", "SEED", "COV"],
 
         "synopsis": "David is old and feeble. His son Adonijah, the eldest surviving prince, "
                     "attempts to seize the throne by hosting a sacrificial feast at En-rogel, "
@@ -174,6 +175,7 @@ CHAPTERS = [
         "title": "Solomon's Wisdom -- The Gift of a Listening Heart",
         "era": "solomon_glory",
         "type": "chapter",
+        "themes": ["KING", "SPIRIT", "LAW"],
 
         "synopsis": "Solomon goes to Gibeon, the 'great high place' where the tabernacle of "
                     "meeting still stands, and offers a thousand burnt offerings. That night YHWH "
@@ -311,6 +313,7 @@ CHAPTERS = [
         "title": "The Temple -- Cosmic Mountain, Eden Restored, YHWH's Name Enthroned",
         "era": "solomon_glory",
         "type": "chapter",
+        "themes": ["HOLY", "PRIEST", "DC", "TYPE", "COV", "NAME", "NATIONS"],
 
         "synopsis": "Solomon builds the Temple in seven years (6:38), a number that echoes the "
                     "seven days of creation. The interior is cedar, gold, and cherubim -- Eden "
@@ -508,6 +511,7 @@ CHAPTERS = [
         "title": "Queen of Sheba, Solomon's Splendor, and the Apostasy That Breaks a Kingdom",
         "era": "solomon_glory",
         "type": "chapter",
+        "themes": ["NATIONS", "KING", "REBEL", "DC", "WOMEN", "RIV"],
 
         "synopsis": "The Queen of Sheba visits Solomon, drawn by his fame, and is overwhelmed: "
                     "'The half was not told me. Your wisdom and prosperity surpass the report that "

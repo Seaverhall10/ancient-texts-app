@@ -24,13 +24,16 @@ body.reading-pane-open .app-container {
 body.library-fullwidth .app-container {
     grid-template-columns: 0px 0px 1fr 0px var(--col-pane, 0px);
 }
-body.library-fullwidth .sidebar {
-    overflow: hidden;
-    width: 0;
-    min-width: 0;
-    border: none;
-    padding: 0;
-    opacity: 0;
-    pointer-events: none;
+/* Hide sidebar in grid on desktop only — on mobile it's a fixed drawer */
+@media (min-width: 769px) {
+    body.library-fullwidth .sidebar {
+        overflow: hidden;
+        width: 0;
+        min-width: 0;
+        border: none;
+        padding: 0;
+        opacity: 0;
+        pointer-events: none;
+    }
 }
 

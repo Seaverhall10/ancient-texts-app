@@ -19,6 +19,7 @@ CHAPTERS = [
         "title": "Hannah's Prayer -- Barrenness, Vow, and the Birth of Samuel",
         "era": "samuel_ark",
         "type": "chapter",
+        "themes": ["WOMEN", "SPIRIT", "PRIEST", "PROV"],
 
         "synopsis": "Elkanah of Ramathaim-zophim, an Ephraimite, has two wives: Hannah (chanah, 'grace/ "
                     "favor') and Peninnah. Peninnah has children; Hannah is barren -- 'the LORD had "
@@ -334,6 +335,7 @@ CHAPTERS = [
         "title": "The Ark Captured, Dagon Falls -- YHWH in Enemy Territory",
         "era": "samuel_ark",
         "type": "chapter",
+        "themes": ["DC", "HOLY", "NATIONS"],
 
         "synopsis": "Israel goes to war against the Philistines and is defeated at Aphek with 4,000 "
                     "casualties. The elders decide to bring the Ark of the Covenant from Shiloh to the "
@@ -501,6 +503,7 @@ CHAPTERS = [
         "title": "Samuel Judges Israel -- Repentance and the Ebenezer Stone",
         "era": "samuel_ark",
         "type": "chapter",
+        "themes": ["REVERSAL", "COV", "SPIRIT"],
 
         "synopsis": "After twenty years with the Ark at Kiriath-jearim, 'all the house of Israel "
                     "lamented after YHWH' (7:2). Samuel calls the nation to repentance: 'If you are "

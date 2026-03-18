@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "A Priest Forever After the Order of Melchizedek",
         "era": "hebrews_priesthood",
         "type": "study",
+        "themes": ["DC", "PRIEST", "SEED", "TYPE", "BLOOD"],
 
         "synopsis": "The author of Hebrews introduces the Melchizedek priesthood in 5:1-10, "
                     "establishing that Christ did not appoint himself as high priest but was "
@@ -253,6 +254,7 @@ CHAPTERS = [
         "title": "The Heavenly Tabernacle and the Better Covenant",
         "era": "hebrews_priesthood",
         "type": "study",
+        "themes": ["DC", "PRIEST", "TYPE", "BLOOD", "COV"],
 
         "synopsis": "Chapter 8 opens with a thesis statement: 'Now the point in what we are "
                     "saying is this: we have such a high priest, one who is seated at the right "
@@ -490,6 +492,7 @@ CHAPTERS = [
         "title": "Once for All -- The Sacrifice That Ends All Sacrifice",
         "era": "hebrews_priesthood",
         "type": "study",
+        "themes": ["DC", "TYPE", "HOLY", "BLOOD", "PRIEST"],
 
         "synopsis": "The author of Hebrews brings the priesthood argument to its climactic "
                     "conclusion: the sacrifice of Christ is the final sacrifice, the one that "

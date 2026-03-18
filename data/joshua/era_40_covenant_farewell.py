@@ -16,6 +16,7 @@ CHAPTERS = [
         "title": "The Transjordan Altar -- Crisis of Unity and the Witness Stone",
         "era": "covenant_farewell",
         "type": "chapter",
+        "themes": ["COV", "HOLY", "PRIEST"],
 
         "synopsis": "With the conquest complete, Joshua dismisses the Transjordan tribes (Reuben, "
                     "Gad, half-Manasseh) to their eastern inheritance, charging them to 'take great "
@@ -220,6 +221,7 @@ CHAPTERS = [
         "title": "Joshua's Farewell Warning -- The Danger of the Remaining Nations",
         "era": "covenant_farewell",
         "type": "chapter",
+        "themes": ["COV", "LAND", "NATIONS"],
 
         "synopsis": "Many years after the conquest, Joshua -- now 'old and advanced in years' -- "
                     "summons all Israel for his farewell address. He reminds them of YHWH's "
@@ -379,6 +381,7 @@ CHAPTERS = [
         "title": "The Covenant at Shechem -- 'Choose This Day Whom You Will Serve'",
         "era": "covenant_farewell",
         "type": "chapter",
+        "themes": ["COV", "DC", "NATIONS"],
 
         "synopsis": "Joshua assembles all Israel at Shechem -- the site where Abraham first received "
                     "the land promise (Gen 12:6-7), where Jacob buried his family's foreign gods "

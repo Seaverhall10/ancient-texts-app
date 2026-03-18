@@ -53,8 +53,8 @@ CHAPTERS = [
 
         "cross_refs": [
             {"ref": "Genesis 6:1-4", "note": "The biblical foundation: the bene ha'elohim take human wives and produce the Nephilim, 'the mighty men of old, men of renown' -- the giants whose story this text tells", "type": "ot"},
-            {"ref": "1 Enoch 6-16", "note": "The Watcher narrative that provides the theological and narrative framework for the Book of Giants -- descent, oath, union, birth of giants, judgment", "type": "ane"},
-            {"ref": "1 Enoch 7:2-5", "note": "The giants devour all human produce, then turn on humanity itself -- the violence that precipitates the giants' own prophetic awareness of judgment in BoG", "type": "ane"},
+            {"ref": "1 Enoch 6-16", "note": "The Watcher narrative that provides the theological and narrative framework for the Book of Giants -- descent, oath, union, birth of giants, judgment", "type": "pseudepigrapha"},
+            {"ref": "1 Enoch 7:2-5", "note": "The giants devour all human produce, then turn on humanity itself -- the violence that precipitates the giants' own prophetic awareness of judgment in BoG", "type": "pseudepigrapha"},
             {"ref": "Daniel 2:1-45", "note": "Nebuchadnezzar's dream of a great statue destroyed by a stone -- the motif of a ruler receiving a terrifying dream of coming judgment that requires an interpreter parallels the giants' dreams in BoG", "type": "ot"},
             {"ref": "Jude 6", "note": "Angels who 'did not stay within their own position of authority' are kept in eternal chains -- the fathers of the giants in BoG", "type": "nt"},
             {"ref": "Jude 14-15", "note": "Jude quotes 1 Enoch 1:9, attributing prophecy of judgment to 'Enoch, the seventh from Adam' -- the same Enoch to whom the giants send their desperate embassy", "type": "nt"}
@@ -128,7 +128,7 @@ CHAPTERS = [
             {"ref": "Daniel 2:1-45", "note": "Nebuchadnezzar dreams of a great statue destroyed by a divine stone -- the same pattern of a powerful ruler receiving a dream of divinely decreed destruction that requires an inspired interpreter", "type": "ot"},
             {"ref": "Daniel 4:10-17", "note": "Nebuchadnezzar dreams of a great tree that shelters all creatures but is cut down by a Watcher's decree -- directly parallel to Hahyah's dream of the garden of trees being destroyed", "type": "ot"},
             {"ref": "Genesis 7:21-23", "note": "The Flood destroys all flesh -- the event the giants' dreams foresee, where only Noah and his family survive", "type": "ot"},
-            {"ref": "1 Enoch 10:9-10", "note": "God commands Gabriel to 'destroy the children of the Watchers from among men: send them one against another that they may destroy each other in battle' -- the judgment the dreams foretell", "type": "ane"},
+            {"ref": "1 Enoch 10:9-10", "note": "God commands Gabriel to 'destroy the children of the Watchers from among men: send them one against another that they may destroy each other in battle' -- the judgment the dreams foretell", "type": "pseudepigrapha"},
             {"ref": "2 Peter 2:4-5", "note": "God 'did not spare angels when they sinned, but cast them into Tartarus... did not spare the ancient world but preserved Noah' -- the NT summary of the judgment the giants dream about", "type": "nt"}
         ],
 
@@ -201,8 +201,8 @@ CHAPTERS = [
 
         "cross_refs": [
             {"ref": "Genesis 5:24", "note": "Enoch 'walked with God, and he was not, for God took him' -- the text that grounds Enoch's remote, inaccessible location in the Book of Giants", "type": "ot"},
-            {"ref": "1 Enoch 12:3-4", "note": "Enoch is hidden away and dwelling among the angels when the Watchers approach him to intercede -- the same inaccessibility that requires Mahway's aerial journey", "type": "ane"},
-            {"ref": "1 Enoch 15:1-2", "note": "God addresses Enoch: 'Enoch, scribe of righteousness, go and tell the Watchers of heaven...' -- the scribal authority that qualifies Enoch to read the tablet of judgment for the giants", "type": "ane"},
+            {"ref": "1 Enoch 12:3-4", "note": "Enoch is hidden away and dwelling among the angels when the Watchers approach him to intercede -- the same inaccessibility that requires Mahway's aerial journey", "type": "pseudepigrapha"},
+            {"ref": "1 Enoch 15:1-2", "note": "God addresses Enoch: 'Enoch, scribe of righteousness, go and tell the Watchers of heaven...' -- the scribal authority that qualifies Enoch to read the tablet of judgment for the giants", "type": "pseudepigrapha"},
             {"ref": "Genesis 6:9", "note": "Noah 'walked with God' -- the same language used of Enoch (5:24), connecting the two righteous figures who bookend the Watcher/giant narrative", "type": "ot"},
             {"ref": "Daniel 7:9-10", "note": "Daniel's vision of the Ancient of Days with 'books opened' before the heavenly court -- the same heavenly-records motif that underlies the tablet Enoch reads for the giants", "type": "ot"},
             {"ref": "Jude 14-15", "note": "Enoch, 'the seventh from Adam, prophesied about these' -- Jude confirms Enoch's prophetic role that the Book of Giants dramatizes in the Mahway embassy scene", "type": "nt"}
@@ -278,7 +278,7 @@ CHAPTERS = [
         "cross_refs": [
             {"ref": "Genesis 6:5-7", "note": "God sees that human wickedness is great and 'was sorry that he had made man on the earth' -- the divine grief behind the verdict Enoch reads from the tablet", "type": "ot"},
             {"ref": "Genesis 6:13", "note": "'I have determined to make an end of all flesh, for the earth is filled with violence through them' -- the decree inscribed on the heavenly tablet", "type": "ot"},
-            {"ref": "1 Enoch 15:2-7", "note": "God's rebuke of the Watchers: 'You were spiritual, holy, living an eternal life, but you defiled yourselves with the blood of women' -- the charge sheet that Enoch's tablet contains", "type": "ane"},
+            {"ref": "1 Enoch 15:2-7", "note": "God's rebuke of the Watchers: 'You were spiritual, holy, living an eternal life, but you defiled yourselves with the blood of women' -- the charge sheet that Enoch's tablet contains", "type": "pseudepigrapha"},
             {"ref": "Daniel 5:5-28", "note": "The handwriting on the wall at Belshazzar's feast -- divine writing that announces the king's doom, interpreted by a man of God. The same motif as the tablet of judgment interpreted by Enoch", "type": "ot"},
             {"ref": "Revelation 20:12", "note": "'Books were opened... the dead were judged by what was written in the books' -- the eschatological version of the heavenly tablets tradition that runs through 1 Enoch and the Book of Giants", "type": "nt"},
             {"ref": "2 Peter 2:4", "note": "God 'cast them into Tartarus and committed them to chains of gloomy darkness to be kept until the judgment' -- the sentence Enoch reads from the tablet", "type": "nt"}
@@ -351,7 +351,7 @@ CHAPTERS = [
             {"ref": "Genesis 6:11-12", "note": "'The earth was corrupt in God's sight, and the earth was filled with violence. And God saw the earth, and behold, it was corrupt, for all flesh had corrupted their way on the earth' -- the biblical summary of what the Book of Giants narrates in detail", "type": "ot"},
             {"ref": "Genesis 6:13", "note": "'I have determined to make an end of all flesh, for the earth is filled with violence through them. Behold, I will destroy them with the earth' -- the divine decree that the giants' destruction fulfills", "type": "ot"},
             {"ref": "Genesis 6:17", "note": "'I will bring a flood of waters upon the earth to destroy all flesh in which is the breath of life under heaven' -- the comprehensive scope of judgment that the Book of Giants anticipates", "type": "ot"},
-            {"ref": "1 Enoch 7:2-6", "note": "The giants consume everything, turn to cannibalism, and defile the entire animal kingdom -- the corruption that the Book of Giants' warfare scenes both continue and begin to punish", "type": "ane"},
+            {"ref": "1 Enoch 7:2-6", "note": "The giants consume everything, turn to cannibalism, and defile the entire animal kingdom -- the corruption that the Book of Giants' warfare scenes both continue and begin to punish", "type": "pseudepigrapha"},
             {"ref": "Jude 6", "note": "Angels 'kept in eternal chains under gloomy darkness until the judgment of the great day' -- the Watchers' imprisonment that accompanies the giants' destruction", "type": "nt"},
             {"ref": "1 Peter 3:19-20", "note": "Christ proclaimed to 'spirits in prison, because they formerly did not obey when God's patience waited in the days of Noah' -- the imprisoned Watchers whose children the Flood destroyed", "type": "nt"}
         ],
@@ -428,7 +428,7 @@ CHAPTERS = [
             {"ref": "Genesis 10:8-9", "note": "Nimrod as the first 'mighty man' (gibbor) on earth, 'a mighty hunter before the LORD' -- another post-flood figure connected to the gibbor/Nephilim tradition, possibly parallel to the Gilgamesh reappropriation", "type": "ot"},
             {"ref": "Numbers 13:33", "note": "The spies see Nephilim (sons of Anak) in Canaan -- post-flood persistence of the giant tradition that Gilgamesh's inclusion among the Nephilim enriches", "type": "ot"},
             {"ref": "Deuteronomy 3:11", "note": "Og king of Bashan, last of the Rephaim, whose iron bed was 13.5 feet long -- the ongoing tradition of named giant kings that the Book of Giants' Gilgamesh identification participates in", "type": "ot"},
-            {"ref": "1 Enoch 6:7", "note": "The list of twenty Watcher leaders who descended on Hermon -- Gilgamesh's (unnamed) father would be among these Watchers in the Book of Giants' framework", "type": "ane"},
+            {"ref": "1 Enoch 6:7", "note": "The list of twenty Watcher leaders who descended on Hermon -- Gilgamesh's (unnamed) father would be among these Watchers in the Book of Giants' framework", "type": "pseudepigrapha"},
             {"ref": "Gilgamesh Epic, Tablet I", "note": "Gilgamesh described as 'two-thirds god and one-third human' -- the Mesopotamian characterization that the Book of Giants reinterprets as Nephilim parentage", "type": "ane"}
         ],
 
@@ -490,7 +490,7 @@ CHAPTERS = [
         ],
 
         "cross_refs": [
-            {"ref": "1 Enoch 6-16", "note": "The foundational Watcher narrative that generated the Book of Giants tradition and, through it, influenced Manichaean cosmology", "type": "ane"},
+            {"ref": "1 Enoch 6-16", "note": "The foundational Watcher narrative that generated the Book of Giants tradition and, through it, influenced Manichaean cosmology", "type": "pseudepigrapha"},
             {"ref": "Genesis 6:1-4", "note": "The biblical text behind the entire Watcher/Giants literary cycle -- the ultimate origin of a tradition that would reach China via Manichaeism", "type": "ot"},
             {"ref": "Jude 14-15", "note": "The NT citation of 1 Enoch demonstrates the authority the Enochic tradition carried in early Christianity -- the same authority Mani recognized and drew upon", "type": "nt"},
             {"ref": "Daniel 7:9-14", "note": "Daniel's vision of heavenly judgment and the 'one like a son of man' -- apocalyptic imagery that influenced both the Enochic tradition and Manichaean eschatology", "type": "ot"},

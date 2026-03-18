@@ -15,6 +15,7 @@ CHAPTERS = [
         "title": "The Gospel of God and the Nations Given Over",
         "era": "rom_gospel",
         "type": "study",
+        "themes": ["DC", "SEED", "TYPE", "HOLY", "NATIONS"],
 
         "synopsis": "Romans opens with Paul's self-introduction as 'a servant of Christ Jesus, called to "
                     "be an apostle, set apart for the gospel of God' (1:1). The gospel is defined "
@@ -191,6 +192,7 @@ CHAPTERS = [
         "title": "The Impartial Judge -- Jews and Gentiles Under Judgment",
         "era": "rom_gospel",
         "type": "study",
+        "themes": ["RIV", "DC", "NATIONS", "LAW", "COV"],
 
         "synopsis": "Having indicted the Gentile world (1:18-32), Paul turns the indictment on the Jewish "
                     "interlocutor: 'You have no excuse, O man, every one of you who judges. For in passing "
@@ -351,6 +353,7 @@ CHAPTERS = [
         "title": "The Righteousness of God Revealed -- Justification by Faith and Abraham's Example",
         "era": "rom_gospel",
         "type": "study",
+        "themes": ["BLOOD", "SEED", "DC", "NATIONS", "COV"],
 
         "synopsis": "Having established universal guilt (1:18-3:20), Paul now reveals the solution: 'But now "
                     "(nyni de) the righteousness of God has been manifested apart from the law' (3:21). The "
@@ -519,6 +522,7 @@ CHAPTERS = [
         "title": "Peace with God and the Adam-Christ Typology -- One Man's Obedience",
         "era": "rom_gospel",
         "type": "study",
+        "themes": ["SEED", "KING", "DC", "TYPE", "HOLY"],
 
         "synopsis": "Chapter 5 is the theological bridge between justification (chapters 1-4) and "
                     "sanctification (chapters 6-8). In 5:1-11, Paul describes the present blessings of "
