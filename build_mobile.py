@@ -49,7 +49,6 @@ SRC_DIR = os.path.join(BASE_DIR, "src")
 SRC_JS = os.path.join(SRC_DIR, "js", "app.js")
 SRC_CSS_DIR = os.path.join(SRC_DIR, "css")
 SRC_CSS_ORDER = os.path.join(SRC_CSS_DIR, "build-order.txt")
-SRC_CSS_LEGACY = os.path.join(SRC_CSS_DIR, "styles.css")
 SRC_CSS_MOBILE = os.path.join(SRC_CSS_DIR, "mobile.css")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output", "mobile")
 DATA_OUT = os.path.join(OUTPUT_DIR, "data")
@@ -790,9 +789,6 @@ def main():
                     print(f"  WARNING: CSS file not found: {line}")
         css = ''.join(css_parts)
         print(f"  [css] {len(css_files)} component files ({len(css):,} chars)")
-    else:
-        css = read_file(SRC_CSS_LEGACY)
-        print(f"  [css] styles.css ({len(css):,} chars)")
 
     # Mobile-specific CSS additions (read from source file)
     if os.path.exists(SRC_CSS_MOBILE):
@@ -1778,6 +1774,16 @@ self.addEventListener('fetch', event => {
     print(f"  Initial load: ~{shell_size/1024/1024:.1f} MB (shell + manifest)")
     print(f"  Per-text load: ~1-3 MB on demand")
     print(f"{'=' * 60}")
+    print(f"\n  To test locally:")
+    # Copy docs/ reference files to mobile output
+    docs_src = os.path.join(BASE_DIR, "docs", "bible_study_reference.html")
+    if os.path.exists(docs_src):
+        docs_dest = os.path.join(OUTPUT_DIR, "docs")
+        os.makedirs(docs_dest, exist_ok=True)
+        import shutil
+        shutil.copy2(docs_src, docs_dest)
+        print(f"  Copied bible_study_reference.html to docs/")
+
     print(f"\n  To test locally:")
     print(f"    cd output/mobile")
     print(f"    python -m http.server 8080")
