@@ -134,3 +134,30 @@
     --border-color: var(--border);
 }
 
+/* ── Light Mode ──────────────────────────────────────────── */
+body.light-mode {
+    --bg-primary: #f5f3ee;
+    --bg-secondary: #eae7e0;
+    --bg-card: #ffffff;
+    --bg-sidebar: #f0ede6;
+    --bg-hover: #e8e5dd;
+    --text-primary: #2a2520;
+    --text-secondary: #5a5550;
+    --text-muted: #8a8580;
+    --gold: #8a6d20;
+    --gold-light: #a68430;
+    --gold-dim: rgba(138,109,32,0.1);
+    --gold-glow: rgba(138,109,32,0.08);
+    --gold-border: rgba(138,109,32,0.25);
+    --border: rgba(0,0,0,0.08);
+    --border-strong: rgba(0,0,0,0.15);
+    --border-subtle: rgba(0,0,0,0.04);
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+    --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+    --shadow-xl: 0 16px 48px rgba(0,0,0,0.15);
+    --shadow-glow: 0 0 20px rgba(138,109,32,0.08);
+    --shadow-card: 0 2px 8px rgba(0,0,0,0.06);
+    --bg-overlay: rgba(255,255,255,0.85);
+}
+

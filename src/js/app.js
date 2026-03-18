@@ -3696,6 +3696,12 @@
                 '<input type="range" class="bible-font-slider" id="bibleFontSlider" min="0.8" max="1.8" step="0.1" value="' + savedFontSize + '">' +
                 '<span class="bible-font-preview" id="bibleFontPreview">' + savedFontSize.toFixed(1) + 'em</span>' +
                 '</div>' +
+                '<div class="bible-setting-row">' +
+                '<label class="bible-setting-label">Light Mode</label>' +
+                '<button class="bible-light-toggle" id="bibleLightToggle">' +
+                (document.body.classList.contains('light-mode') ? 'On' : 'Off') +
+                '</button>' +
+                '</div>' +
                 '</div>';
 
             // Apply saved font size
@@ -3711,6 +3717,16 @@
                         if (preview) preview.textContent = size.toFixed(1) + 'em';
                         if (contentEl) contentEl.style.fontSize = size + 'em';
                         localStorage.setItem('atl-bible-font-size', String(size));
+                    });
+                }
+
+                var lightBtn = document.getElementById('bibleLightToggle');
+                if (lightBtn) {
+                    lightBtn.addEventListener('click', function() {
+                        document.body.classList.toggle('light-mode');
+                        var isLight = document.body.classList.contains('light-mode');
+                        localStorage.setItem('atl-light-mode', String(isLight));
+                        this.textContent = isLight ? 'On' : 'Off';
                     });
                 }
             }, 50);
@@ -12882,5 +12898,101 @@
     } else {
         startApp();
     }
+
+    // ═══════════════════════════════════════════════════════
+    // FEEDBACK BUTTON — Floating on every screen
+    // ═══════════════════════════════════════════════════════
+    (function initFeedback() {
+        var fbBtn = document.createElement('button');
+        fbBtn.id = 'feedbackBtn';
+        fbBtn.className = 'feedback-fab';
+        fbBtn.innerHTML = '&#x1F4AC;';
+        fbBtn.title = 'Send Feedback';
+        document.body.appendChild(fbBtn);
+
+        var fbModal = document.createElement('div');
+        fbModal.id = 'feedbackModal';
+        fbModal.className = 'feedback-modal-overlay';
+        fbModal.innerHTML = '<div class="feedback-modal">' +
+            '<div class="feedback-header"><h3>Send Feedback</h3><button class="feedback-close" id="feedbackClose">&times;</button></div>' +
+            '<div class="feedback-body">' +
+            '<div class="feedback-types">' +
+            '<button class="feedback-type active" data-type="bug">Bug</button>' +
+            '<button class="feedback-type" data-type="feature">Feature Request</button>' +
+            '<button class="feedback-type" data-type="content">Content Issue</button>' +
+            '<button class="feedback-type" data-type="other">Other</button>' +
+            '</div>' +
+            '<label class="feedback-label">What screen/section is this about?</label>' +
+            '<input type="text" class="feedback-input" id="feedbackContext" placeholder="e.g. Genesis 3 interlinear, landing page, map...">' +
+            '<label class="feedback-label">Describe the issue or idea</label>' +
+            '<textarea class="feedback-textarea" id="feedbackText" rows="5" placeholder="Tell us what happened, what you expected, or what you\'d like to see..."></textarea>' +
+            '<button class="feedback-submit" id="feedbackSubmit">Submit on GitHub &rarr;</button>' +
+            '</div></div>';
+        document.body.appendChild(fbModal);
+
+        var fbType = 'bug';
+
+        fbBtn.addEventListener('click', function() {
+            fbModal.classList.add('open');
+            // Auto-fill context based on current view
+            var ctx = document.getElementById('feedbackContext');
+            if (ctx && !ctx.value) {
+                var hash = location.hash || '';
+                if (hash.indexOf('read/') > -1) {
+                    ctx.value = hash.replace('#read/', 'Bible Mode: ').replace(/\//g, ' ch.');
+                } else if (hash.indexOf('book/') > -1) {
+                    ctx.value = 'Book Landing: ' + hash.replace('#book/', '');
+                } else {
+                    ctx.value = 'Landing Page';
+                }
+            }
+        });
+
+        document.getElementById('feedbackClose').addEventListener('click', function() {
+            fbModal.classList.remove('open');
+        });
+
+        fbModal.addEventListener('click', function(e) {
+            if (e.target === fbModal) fbModal.classList.remove('open');
+        });
+
+        fbModal.querySelectorAll('.feedback-type').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                fbModal.querySelectorAll('.feedback-type').forEach(function(b) { b.classList.remove('active'); });
+                this.classList.add('active');
+                fbType = this.dataset.type;
+            });
+        });
+
+        document.getElementById('feedbackSubmit').addEventListener('click', function() {
+            var context = document.getElementById('feedbackContext').value.trim();
+            var text = document.getElementById('feedbackText').value.trim();
+            if (!text) { alert('Please describe the issue or idea.'); return; }
+
+            var title = encodeURIComponent('[' + fbType.toUpperCase() + '] ' + (context || 'General') + ' — User Feedback');
+            var body = encodeURIComponent(
+                '**Type:** ' + fbType + '\n' +
+                '**Context:** ' + (context || 'Not specified') + '\n' +
+                '**User Agent:** ' + navigator.userAgent.substring(0, 80) + '\n\n' +
+                '## Description\n' + text + '\n\n' +
+                '---\n_Submitted via in-app feedback button_'
+            );
+            var url = 'https://github.com/Seaverhall10/ancient-texts-app/issues/new?title=' + title + '&body=' + body + '&labels=user-feedback';
+            window.open(url, '_blank');
+
+            // Clear and close
+            document.getElementById('feedbackText').value = '';
+            document.getElementById('feedbackContext').value = '';
+            fbModal.classList.remove('open');
+        });
+    })();
+
+    // ═══════════════════════════════════════════════════════
+    // LIGHT MODE TOGGLE
+    // ═══════════════════════════════════════════════════════
+    (function initLightMode() {
+        var saved = localStorage.getItem('atl-light-mode');
+        if (saved === 'true') document.body.classList.add('light-mode');
+    })();
 
 })();
