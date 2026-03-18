@@ -11,6 +11,7 @@
     const MANIFEST = __MANIFEST_DATA__;
     const ERA_DATA = __ERA_DATA__;
     const GLOSSARY = __GLOSSARY_DATA__;
+    const SHORT_DIVE_ARTICLES = __SHORT_DIVES_DATA__;
     const INTERLINEAR = __INTERLINEAR_DATA__;
     const INTERLINEAR_EXODUS = __INTERLINEAR_EXODUS_DATA__;
     const INTERLINEAR_LEVITICUS = __INTERLINEAR_LEVITICUS_DATA__;
@@ -1614,6 +1615,7 @@
         var SHORT_DIVES = [
             {
                 title: 'Jonah & the Fish God',
+                slug: 'jonah-fish-god',
                 text: 'jonah',
                 insight: 'Jonah ran from Nineveh and ended up preached TO by a fish. But here\u2019s the wild part \u2014 Nineveh worshipped Dagon, a fish deity. Assyrian priests dressed in fish-skin costumes. So when a half-decomposed prophet walks out of the Mediterranean claiming the God of Israel sent him \u2014 via a giant fish \u2014 they didn\u2019t just listen. They were terrified. God used their own mythology to get their attention.',
                 tag: 'OT \u2022 Jonah 1\u20134',
@@ -1621,6 +1623,7 @@
             },
             {
                 title: 'Why 72 Disciples?',
+                slug: 'why-72-disciples',
                 text: 'luke',
                 insight: 'Jesus didn\u2019t pick a random number. Genesis 10 lists exactly 70\u201372 nations scattered at Babel. Deuteronomy 32:8 says God assigned those nations to divine beings \u2014 sons of God. When Jesus sends 72 disciples, He\u2019s reclaiming the nations. Luke 10:18: \u201cI saw Satan fall like lightning.\u201d This wasn\u2019t metaphor. It was a military report.',
                 tag: 'NT \u2022 Luke 10',
@@ -1628,6 +1631,7 @@
             },
             {
                 title: 'The Scapegoat Goes to Azazel',
+                slug: 'scapegoat-azazel',
                 text: 'leviticus',
                 insight: 'Leviticus 16 describes two goats on the Day of Atonement. One is sacrificed to Yahweh. The other is sent \u201cto Azazel\u201d in the wilderness. Most translations say \u201cscapegoat.\u201d But Azazel is a proper name \u2014 a Watcher from 1 Enoch who taught humanity forbidden knowledge. The sins are being sent BACK to their originator.',
                 tag: 'OT \u2022 Leviticus 16',
@@ -1635,6 +1639,7 @@
             },
             {
                 title: 'The High Priest Tore His Robes \u2014 Why?',
+                slug: 'high-priest-robes',
                 text: 'mark',
                 insight: 'At Jesus\u2019 trial, the high priest asks: \u201cAre you the Christ?\u201d Jesus answers with Daniel 7:13 \u2014 \u201cYou will see the Son of Man sitting at the right hand of Power, coming on the clouds.\u201d The priest tears his robes. Not because Jesus claimed to be Messiah \u2014 many had. He tore them because cloud-riding was EXCLUSIVELY a divine prerogative. Jesus claimed to be God.',
                 tag: 'NT \u2022 Mark 14:62\u201363',
@@ -1642,6 +1647,7 @@
             },
             {
                 title: 'Psalm 82: God Fires the Gods',
+                slug: 'psalm-82-gods',
                 text: 'psalms',
                 insight: '\u201cGod stands in the divine council; among the gods he holds judgment.\u201d This isn\u2019t metaphor. The Hebrew elohim here refers to real divine beings who were assigned to govern nations (Deut 32:8). They ruled corruptly. Verse 6\u20137: \u201cYou are gods \u2014 but you shall die like men.\u201d Jesus quotes this verse in John 10:34. He knew exactly what it meant.',
                 tag: 'OT \u2022 Psalm 82',
@@ -1649,6 +1655,7 @@
             },
             {
                 title: 'Paul\u2019s Roman Triumph in Colossians',
+                slug: 'roman-triumph',
                 text: 'colossians',
                 insight: 'Colossians 2:15 \u2014 \u201cHe disarmed the rulers and authorities and put them to open shame, triumphing over them.\u201d The Greek word thriambeuo means a Roman triumphal procession \u2014 a conquered general paraded through the streets in chains. Paul is saying the Cross wasn\u2019t a defeat. It was a victory parade. The powers didn\u2019t know they were walking into their own public humiliation.',
                 tag: 'NT \u2022 Colossians 2:15',
@@ -1656,6 +1663,7 @@
             },
             {
                 title: 'Sheol Is Not Hell',
+                slug: 'sheol-not-hell',
                 text: 'sheol_resurrection',
                 insight: 'Jacob expected to go to Sheol when he died (Gen 37:35). So did Job (Job 14:13). So did David (Ps 88:3). Sheol was the universal destination \u2014 righteous and wicked alike. It\u2019s not hell, not heaven, not purgatory. It\u2019s the waiting place. The Hebrew Bible never once describes the afterlife the way most churches teach it.',
                 tag: 'THEMATIC \u2022 Hebrew Afterlife',
@@ -1663,6 +1671,7 @@
             },
             {
                 title: 'Apantesis: The Word That Kills the Rapture',
+                slug: 'apantesis-rapture',
                 text: 'prophetic_sequence',
                 insight: '1 Thessalonians 4:17 \u2014 \u201ccaught up to MEET the Lord.\u201d That word \u201cmeet\u201d is apantesis in Greek. It\u2019s a technical term: when a dignitary approaches a city, citizens go OUT to meet him and escort him BACK in. Acts 28:15 uses the same word for believers meeting Paul on the road and walking him INTO Rome. We go up to escort Him down.',
                 tag: 'THEMATIC \u2022 1 Thess 4:17',
@@ -1670,6 +1679,7 @@
             },
             {
                 title: 'The Apostles Read a Different Bible',
+                slug: 'apostles-different-bible',
                 text: 'canon_septuagint',
                 insight: 'The New Testament quotes the Old Testament roughly 300 times. About 80% of those quotations follow the Greek Septuagint \u2014 not the Hebrew Masoretic Text your English Bible translates from. The Masoretic was standardized 700\u20131000 AD. The Septuagint is 300 years older than Jesus. The Dead Sea Scrolls confirmed the Septuagint was right on key passages.',
                 tag: 'THEMATIC \u2022 LXX vs MT',
@@ -1677,6 +1687,7 @@
             },
             {
                 title: 'The Minas Parable: Cities, Not Clouds',
+                slug: 'minas-cities',
                 text: 'reward_bema',
                 insight: 'In Luke 19, a servant turns one mina into ten. His reward? \u201cYou shall have authority over ten cities.\u201d Not a mansion. Not a cloud. Not a harp. Ten cities to govern in the new creation. The parable of the minas is the clearest picture in the NT of differentiated reward \u2014 your faithfulness now determines your authority then.',
                 tag: 'THEMATIC \u2022 Luke 19:11\u201327',
@@ -1684,6 +1695,7 @@
             },
             {
                 title: 'Because of the Angels',
+                slug: 'because-angels',
                 text: '1corinthians',
                 insight: '1 Corinthians 11:10 \u2014 Paul says women should have exousia (\u201cauthority\u201d) on their head \u201cbecause of the angels.\u201d Dia tous angelous. Most commentaries skip this phrase. But in Second Temple context, angelic beings are present in worship assemblies (1QSa, 1QM). The Watchers of Genesis 6 violated the human\u2013divine boundary. According to 1 Enoch 6\u20138, they were drawn by human beauty. Paul\u2019s warning only makes sense if fallen angels are real, watching, and the boundary still matters.',
                 tag: 'NT \u2022 1 Cor 11:10',
@@ -1691,6 +1703,7 @@
             },
             {
                 title: 'We Will Judge Angels',
+                slug: 'judge-angels',
                 text: 'reward_bema',
                 insight: 'Paul drops it casually in 1 Corinthians 6:3: \u201cDo you not know that we will judge angels?\u201d The Greek krinouomen means to render a judicial verdict. Which angels? Psalm 82 names them \u2014 the divine beings assigned to govern nations at Babel (Deut 32:8) who ruled corruptly. God pronounced the sentence: \u201cYou shall die like men.\u201d The bema judgment isn\u2019t just about crowns and rewards. Believers are being trained to fill vacated council seats in the divine administration.',
                 tag: 'NT \u2022 1 Cor 6:3',
@@ -1698,6 +1711,7 @@
             },
             {
                 title: 'Christ Preached to Imprisoned Spirits',
+                slug: 'imprisoned-spirits',
                 text: '1peter',
                 insight: '1 Peter 3:19 \u2014 between the cross and resurrection, Christ \u201cwent and proclaimed to the spirits in prison.\u201d The Greek verb is kerysso \u2014 a herald\u2019s formal announcement, not euangelizo (gospel offer). These \u201cspirits\u201d are the divine beings from Genesis 6 who \u201cdid not obey\u201d in Noah\u2019s day. Jude 6 confirms angels are imprisoned. According to 1 Enoch 10\u201312, the Watchers were bound until judgment. Christ descended not to evangelize but to announce their defeat. A victory declaration, not a rescue mission.',
                 tag: 'NT \u2022 1 Pet 3:19',
@@ -1705,6 +1719,7 @@
             },
             {
                 title: '\u201cLet Us Make\u201d \u2014 Who Was God Talking To?',
+                slug: 'let-us-make',
                 text: 'genesis',
                 insight: 'Genesis 1:26 \u2014 \u201cLet us make man in our image.\u201d The plural has puzzled interpreters for millennia. Trinitarian reading is anachronistic \u2014 no Israelite reader would have heard that. The Hebrew answer: the divine council. Na\u2019aseh (\u201clet us make\u201d) uses the same cohortative plural as 1 Kings 22:19\u201320 where Yahweh asks the heavenly host \u201cWho will go?\u201d and Isaiah 6:8 where God says \u201cWho will go for us?\u201d Creation was a council event. Humanity was made to join the family business.',
                 tag: 'OT \u2022 Gen 1:26',
@@ -1712,6 +1727,7 @@
             },
             {
                 title: 'Ezekiel 28: Satan Was in Eden Before Adam',
+                slug: 'satan-eden-before-adam',
                 text: 'ezekiel',
                 insight: 'Ezekiel 28:13\u201315 \u2014 addressed to the \u201cking of Tyre,\u201d but the details exceed any human ruler: \u201cYou were in Eden, the garden of God... you were an anointed guardian cherub (keruv mimshach hasokek)... you were blameless until unrighteousness was found in you.\u201d A throne-room guardian. Present in Eden. Blameless, then fallen. This is not metaphor \u2014 no Tyrian king walked among \u201cstones of fire.\u201d Satan fell BEFORE Genesis 3. The serpent in Eden was his second act, not his origin story.',
                 tag: 'OT \u2022 Ezek 28:13\u201315',
@@ -1719,6 +1735,7 @@
             },
             {
                 title: 'Pentecost Was a Babel Reversal',
+                slug: 'pentecost-babel',
                 text: 'acts',
                 insight: 'At Babel: languages confused, nations scattered, peoples assigned to divine beings other than Yahweh (Deut 32:8\u20139). At Pentecost: \u201cdevout men from every nation under heaven\u201d hear in their own languages (Acts 2:5\u20136). Luke uses diamerizo (\u201cdistribute\u201d) for the tongues of fire \u2014 the same word the Septuagint uses in Deuteronomy 32:8 for God distributing the nations. This is not coincidence. Pentecost was the cosmic reclamation \u2014 the nations being called back to Yahweh through the Spirit that Babel\u2019s judgment had scattered.',
                 tag: 'NT \u2022 Acts 2:1\u201311',
@@ -1726,6 +1743,7 @@
             },
             {
                 title: 'Daniel 10: Geopolitics Is Spiritual',
+                slug: 'daniel-10-geopolitics',
                 text: 'daniel',
                 insight: 'Gabriel tells Daniel the \u201cprince of Persia\u201d (sar malkhut paras) resisted him for 21 days until Michael \u2014 \u201cone of the chief princes\u201d \u2014 came to help (Dan 10:13). This is not a human king. No Persian emperor fights angels for three weeks. This is a divine being governing Persia \u2014 the same category as the sons of God assigned nations in Deuteronomy 32:8. Ephesians 6:12 confirms it: \u201cOur struggle is not against flesh and blood, but against the rulers, the authorities, the cosmic powers.\u201d Every empire has a spiritual administrator.',
                 tag: 'OT \u2022 Dan 10:13\u201321',
@@ -1733,6 +1751,7 @@
             },
             {
                 title: 'The Arm of the LORD Is a Person',
+                slug: 'arm-of-lord',
                 text: 'isaiah',
                 insight: 'Isaiah 53:1 asks: \u201cTo whom has the arm of the LORD (zeroa\u2019 YHWH) been revealed?\u201d Read Isaiah 51:9\u201352:10 \u2014 the \u201carm\u201d is addressed as a distinct agent, awakened, called to act, clothed with strength. By chapter 53, the Servant IS the arm. The Hebrew Bible contains divine agents \u2014 the Angel of YHWH, the Name, the Word, the Arm \u2014 who act with Yahweh\u2019s full authority yet are distinguishable from Him. This isn\u2019t Christian eisegesis. It\u2019s embedded in the Hebrew grammar.',
                 tag: 'OT \u2022 Isa 53:1',
@@ -1740,6 +1759,7 @@
             },
             {
                 title: 'The Stoicheia: Cosmic Powers Behind Religion',
+                slug: 'stoicheia',
                 text: 'galatians',
                 insight: 'Paul warns against the stoicheia tou kosmou (Gal 4:3, 9; Col 2:8, 20) \u2014 usually translated \u201celementary principles.\u201d But in Greek cosmology, stoicheia referred to spiritual forces governing the cosmic order \u2014 the elemental powers that structured reality itself. Paul is not warning against kindergarten-level teaching. He\u2019s saying that all religious systems \u2014 Jewish Torah observance and pagan worship alike \u2014 operated within a cosmic framework of spiritual powers that Christ dismantled at the cross (Col 2:15). The stoicheia are dethroned.',
                 tag: 'NT \u2022 Gal 4:3\u20139',
@@ -1747,6 +1767,7 @@
             },
             {
                 title: 'Isaiah 24:21 \u2014 The Hidden Cosmic Judgment',
+                slug: 'isaiah-24-21',
                 text: 'isaiah',
                 insight: 'Isaiah 24:21 \u2014 \u201cOn that day the LORD will punish (yifqod) the host of heaven in heaven, and the kings of the earth on the earth.\u201d The verb paqad means a formal judicial visitation \u2014 an official review with consequences. The \u201chost of heaven\u201d (tseva\u2019 hamarom) is not stars. It\u2019s the divine beings. This verse has been in Isaiah for 2,700 years, plainly stating that God will judicially punish angelic powers. It is Psalm 82\u2019s death sentence being executed. Most readers skim it as apocalyptic poetry. It\u2019s a court date.',
                 tag: 'OT \u2022 Isa 24:21',
@@ -1754,6 +1775,7 @@
             },
             {
                 title: 'Hesed: The Word That Holds the Bible Together',
+                slug: 'hesed',
                 text: 'psalms',
                 insight: 'Psalm 136 says it 26 times in a row: ki le\u2018olam hasdo \u2014 \u201cfor his hesed endures forever.\u201d Your Bible probably says \u201csteadfast love\u201d or \u201cloving-kindness,\u201d but neither captures it. Hesed is covenantal loyalty \u2014 the obligation a partner fulfills not because the law requires it, but because the relationship demands it. It\u2019s what Ruth showed Naomi. It\u2019s what Yahweh shows Israel even after they break every covenant. The cross is hesed made flesh. From Genesis 2 to Revelation 22, this is the thread that never breaks.',
                 tag: 'OT \u2022 Psalm 136',
@@ -1761,6 +1783,7 @@
             },
             {
                 title: 'Why Your Bible Has 66 Books',
+                slug: 'why-66-books',
                 text: 'canon_scripture',
                 insight: 'The Council of Nicaea (AD 325) did not decide the biblical canon \u2014 it was called about the Trinity. The real story is messier and more interesting. Early churches used texts for centuries before any council spoke. The criteria were apostolicity, catholicity, and orthodoxy \u2014 and they were applied inconsistently. 1 Enoch was quoted as prophecy by Jude but excluded. Hebrews and Revelation nearly didn\u2019t make it. Jerome fought over the Deuterocanon. The canon is not a divine download \u2014 it\u2019s a historical process shaped by real arguments, real politics, and real faith.',
                 tag: 'THEMATIC \u2022 Canon History',
@@ -1768,6 +1791,7 @@
             },
             {
                 title: 'Ekklesia Is Not \u201cChurch\u201d',
+                slug: 'ekklesia-not-church',
                 text: 'ephesians',
                 insight: 'Every Greek-speaking reader in the first century knew what ekklesia meant: a governing assembly \u2014 citizens called out to conduct public business. Athens had one. Rome had them. It was political, not religious. When Jesus says \u201cI will build my ekklesia\u201d (Matt 16:18), he\u2019s not founding a Sunday meeting. He\u2019s establishing a governing assembly with legal authority. Ephesians 3:10 makes it explicit: the ekklesia\u2019s assignment is to make God\u2019s wisdom known to the \u201crulers and authorities in the heavenly places.\u201d This is a cosmic mission statement, not a church bulletin.',
                 tag: 'NT \u2022 Eph 3:10',
@@ -1775,6 +1799,7 @@
             },
             {
                 title: 'Leviticus Is Not Boring',
+                slug: 'leviticus-not-boring',
                 text: 'leviticus',
                 insight: 'Leviticus is the most Christologically dense book in the Torah \u2014 if you know what you\u2019re looking at. The entire sacrificial system is pattern language for the atonement: the substitutionary lamb, the priest who mediates, the blood that covers. Leviticus 16 alone contains the Day of Atonement, the two goats (one to Yahweh, one to Azazel), and the high priest entering the Most Holy Place \u2014 all of which Hebrews 9\u201310 unpacks as fulfilled in Christ. Paul didn\u2019t invent penal substitution. It was already in the system. Moses was writing Christology 1,400 years before the cross.',
                 tag: 'OT \u2022 Leviticus 16',
@@ -1782,6 +1807,7 @@
             },
             {
                 title: 'What Paul Actually Said About Women',
+                slug: 'paul-women',
                 text: 'romans',
                 insight: 'Romans 16:1 introduces Phoebe as a diakonos \u2014 the same word Paul uses for himself and Apollos as church ministers (1 Cor 3:5). Verse 7 calls Junia \u201cprominent among the apostles\u201d \u2014 the Greek Iounian is a woman\u2019s name, and every church father before the 13th century read it that way. The 13th-century shift to \u201cJunias\u201d (a male name with zero ancient attestation) was not a linguistic finding. It was a theological preference reshaping the text. Read the Greek: Paul\u2019s closing chapter alone names ten women as coworkers, patrons, and leaders.',
                 tag: 'NT \u2022 Romans 16:1\u20137',
@@ -1789,6 +1815,7 @@
             },
             {
                 title: 'The Servant Songs: 700 Years Early',
+                slug: 'servant-songs',
                 text: 'isaiah',
                 insight: 'Isaiah 52:13\u201353:12 \u2014 the fourth Servant Song \u2014 describes a figure who is \u201cpierced for our transgressions\u201d (mecholal mippesha\u2019enu), \u201ccrushed for our iniquities,\u201d and whose suffering brings shalom. The word mecholal is the passive participle of chalal \u2014 to be fatally pierced in battle. This is not poetic metaphor. The Servant bears the covenant curse (Deut 28) so others receive the covenant blessing. When Jesus reads Isaiah 61 in the synagogue at Nazareth (Luke 4:21) and says \u201ctoday this Scripture has been fulfilled,\u201d the audience knew exactly which Servant He was claiming to be.',
                 tag: 'OT \u2022 Isa 52:13\u201353:12',
@@ -1796,6 +1823,7 @@
             },
             {
                 title: 'Dead Sea Scrolls: What Changed, What Held',
+                slug: 'dead-sea-scrolls',
                 text: 'dss_sectarian',
                 insight: 'In 1947, a Bedouin shepherd found jars in Cave 1 at Qumran containing manuscripts 1,000 years older than our previously oldest Hebrew Bible. The Great Isaiah Scroll (1QIsa\u1d43) is the most important: it is Isaiah in full, dated to 125 BC \u2014 a century before Christ. On the foundational doctrines \u2014 God, covenant, sin, the Servant \u2014 the text is essentially identical to what we have. But on Deuteronomy 32:8, the DSS confirmed \u201csons of God\u201d over the Masoretic \u201csons of Israel.\u201d One phrase. Every territorial spirit, every divine council passage, every Psalm 82 argument rests on it.',
                 tag: 'DSS \u2022 Multiple Texts',
@@ -1803,6 +1831,7 @@
             },
             {
                 title: 'Melchizedek: The Priest with No Origin Story',
+                slug: 'melchizedek',
                 text: 'hebrews',
                 insight: 'Genesis 14 introduces Melchizedek as priest-king of Salem \u2014 and then he disappears. No genealogy. No death. No origin. The author of Hebrews (7:3) says he is \u201cwithout father or mother or genealogy, having neither beginning of days nor end of life.\u201d In a world where priestly legitimacy depended entirely on ancestry, this is a theological thunderclap. The Melchizedek scroll from Qumran (11QMelch) identifies him as a heavenly figure who executes judgment. Jesus cannot be a Levitical priest \u2014 wrong tribe (Judah, Heb 7:13\u201314). So the argument of Hebrews turns on Psalm 110:4: there is a priesthood older than Aaron\u2019s, and it never ends.',
                 tag: 'NT \u2022 Hebrews 7',
@@ -1810,6 +1839,7 @@
             },
             {
                 title: 'The Shema and the Trinity',
+                slug: 'shema-trinity',
                 text: 'deuteronomy',
                 insight: 'Deuteronomy 6:4 \u2014 Shema Yisra\u2019el, YHWH Eloheinu, YHWH echad. \u201cHear O Israel, the LORD our God, the LORD is one.\u201d The word echad is a compound unity \u2014 the same word used for the \u201cone flesh\u201d of husband and wife (Gen 2:24) and the \u201cone cluster\u201d of grapes (Num 13:23). The word for absolute singularity is yachid \u2014 and the Shema does not use it. Jewish scholars today dispute whether echad vs yachid is decisive. But the New Testament writers, all of them Jewish, had no trouble reading the God of the Shema as Father, Son, and Spirit. They weren\u2019t departing from Moses. They were reading Moses more carefully.',
                 tag: 'OT \u2022 Deut 6:4',
@@ -1817,6 +1847,7 @@
             },
             {
                 title: 'Habakkuk Filed a Lawsuit Against God',
+                slug: 'habakkuk-lawsuit',
                 text: 'habakkuk',
                 insight: 'Habakkuk 1:2 \u2014 \u201cO LORD, how long shall I cry for help, and you will not hear? Or cry to you \u2018Violence!\u2019 and you will not save?\u201d This is not a prayer. It\u2019s a riv \u2014 a formal covenant lawsuit. The prophet is using the same legal framework the prophets invoke against Israel: covenant prosecutor, list of charges, demand for a verdict. Habakkuk files it against Yahweh himself. And God answers \u2014 not with rebuke, but with a vision. Habakkuk 2:4 emerges from this legal argument: \u201cthe righteous shall live by his faith (emunah).\u201d Paul quotes it three times (Rom 1:17, Gal 3:11, Heb 10:38). The doctrine of justification by faith came out of a prophet\u2019s complaint.',
                 tag: 'OT \u2022 Habakkuk 1\u20132',
@@ -1879,7 +1910,7 @@
         SHORT_DIVES.forEach(function(sd) {
             var chMatch = sd.tag.match(/(\d+)/);
             var sdChapter = chMatch ? chMatch[1] : '';
-            html += '<div class="short-dive-card" data-text="' + sd.text + '" data-chapter="' + sdChapter + '" style="--card-color:' + sd.color + '">' +
+            html += '<div class="short-dive-card" data-text="' + sd.text + '" data-chapter="' + sdChapter + '" data-slug="' + sd.slug + '" style="--card-color:' + sd.color + '">' +
                 '<span class="short-dive-tag">' + sd.tag + '</span>' +
                 '<h3 class="short-dive-title">' + sd.title + '</h3>' +
                 '<p class="short-dive-insight">' + sd.insight + '</p>' +
@@ -2244,21 +2275,18 @@
         // ─── SHORT DIVE CARD CLICKS ───
         mainContent.querySelectorAll('.short-dive-card').forEach(function(card) {
             card.addEventListener('click', function() {
+                var titleEl = this.querySelector('.short-dive-title');
+                var insightEl = this.querySelector('.short-dive-insight');
+                var tagEl = this.querySelector('.short-dive-tag');
                 var textId = this.getAttribute('data-text');
-                if (!textId) return;
-                var bibleChapter = parseInt(this.getAttribute('data-chapter'), 10);
-                // Grab the dive content to show in Bible Mode
-                var diveTitle = (this.querySelector('.short-dive-title') || {}).textContent || '';
-                var diveInsight = (this.querySelector('.short-dive-insight') || {}).textContent || '';
-                var diveTag = (this.querySelector('.short-dive-tag') || {}).textContent || '';
-                // Store dive context for Bible Mode to display
-                window._pendingDive = { title: diveTitle, insight: diveInsight, tag: diveTag };
-                // Open Bible Mode
-                if (bibleChapter) {
-                    showBibleMode(textId, bibleChapter - 1);
-                } else {
-                    showBibleMode(textId, 0);
-                }
+                var chapter = this.getAttribute('data-chapter');
+
+                var title = titleEl ? titleEl.textContent : '';
+                var insight = insightEl ? insightEl.textContent : '';
+                var tag = tagEl ? tagEl.textContent : '';
+                var slug = this.getAttribute('data-slug');
+
+                openShortDiveArticle(slug, title, tag, insight, textId, chapter);
             });
         });
 
@@ -12950,6 +12978,80 @@
         document.addEventListener('DOMContentLoaded', startApp);
     } else {
         startApp();
+    }
+
+    // ═══════════════════════════════════════════════════════
+    // SHORT DIVE ARTICLE READER
+    // ═══════════════════════════════════════════════════════
+    function openShortDiveArticle(slug, title, tag, insight, textId, chapter) {
+        // Check if full article exists in SHORT_DIVE_ARTICLES
+        var article = (typeof SHORT_DIVE_ARTICLES !== 'undefined' && SHORT_DIVE_ARTICLES[slug]) ? SHORT_DIVE_ARTICLES[slug] : null;
+
+        // Build the article overlay
+        var html = '<div class="sd-overlay" id="sdOverlay">' +
+            '<div class="sd-overlay-header">' +
+            '<button class="sd-overlay-back" id="sdOverlayBack">&larr; Back</button>' +
+            '<span class="sd-overlay-tag">' + esc(tag) + '</span>' +
+            '</div>' +
+            '<div class="sd-overlay-content">' +
+            '<h1 class="sd-overlay-title">' + esc(title) + '</h1>';
+
+        if (article) {
+            // Full article available
+            html += article;
+        } else {
+            // Fallback: show the insight paragraph with a note
+            html += '<div class="sd-article">' +
+                '<p class="sd-lede">' + esc(insight) + '</p>' +
+                '<p class="sd-coming-soon"><em>Full article coming soon. The insight above is the summary.</em></p>' +
+                '</div>';
+        }
+
+        // Add "Continue to full study" link
+        if (textId) {
+            var chIdx = chapter ? parseInt(chapter) - 1 : 0;
+            html += '<div class="sd-continue">' +
+                '<button class="sd-continue-btn" id="sdContinueBtn" data-text="' + textId + '" data-ch="' + chIdx + '">' +
+                'Continue to full study &rarr;</button>' +
+                '</div>';
+        }
+
+        html += '</div></div>';
+
+        // Remove any existing overlay
+        var old = document.getElementById('sdOverlay');
+        if (old) old.remove();
+
+        // Add to body
+        var container = document.createElement('div');
+        container.innerHTML = html;
+        document.body.appendChild(container.firstChild);
+
+        // Wire handlers
+        document.getElementById('sdOverlayBack').addEventListener('click', function() {
+            var overlay = document.getElementById('sdOverlay');
+            if (overlay) overlay.remove();
+        });
+
+        var continueBtn = document.getElementById('sdContinueBtn');
+        if (continueBtn) {
+            continueBtn.addEventListener('click', function() {
+                var tid = this.dataset.text;
+                var ch = parseInt(this.dataset.ch) || 0;
+                var overlay = document.getElementById('sdOverlay');
+                if (overlay) overlay.remove();
+                showBibleMode(tid, ch);
+            });
+        }
+
+        // Escape key closes
+        var escHandler = function(e) {
+            if (e.key === 'Escape') {
+                var overlay = document.getElementById('sdOverlay');
+                if (overlay) { overlay.remove(); document.removeEventListener('keydown', escHandler); }
+            }
+        };
+        document.addEventListener('keydown', escHandler);
     }
 
     // ═══════════════════════════════════════════════════════

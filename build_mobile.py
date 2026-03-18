@@ -461,6 +461,18 @@ def main():
     js = js.replace("__PROPHECY_TRACKER_DATA__", "{}")
     js = js.replace("__CORE_BELIEFS_DATA__", "{}")
     js = js.replace("__RESOURCES_DATA__", "{}")
+
+    # Load Short Dive articles
+    sd_articles = {}
+    sd_path1 = os.path.join(DATA_DIR, "short_dives.py")
+    sd_path2 = os.path.join(DATA_DIR, "short_dives_2.py")
+    if os.path.exists(sd_path1):
+        sd_mod1 = load_module("short_dives", sd_path1)
+        sd_articles.update(getattr(sd_mod1, "SHORT_DIVE_ARTICLES", {}))
+    if os.path.exists(sd_path2):
+        sd_mod2 = load_module("short_dives_2", sd_path2)
+        sd_articles.update(getattr(sd_mod2, "SHORT_DIVE_ARTICLES_2", {}))
+    js = js.replace("__SHORT_DIVES_DATA__", json.dumps(sd_articles, ensure_ascii=False))
     js = js.replace("__RELIGIONS_DETAIL_DATA__", "{}")
     js = js.replace("__SEARCH_QA_DATA__", "[]")
     js = js.replace("__SEARCH_INDEX_DATA__", '{"docs":[],"words":[],"bigrams":{}}')

@@ -1475,3 +1475,130 @@ body.bible-mode-active .feedback-fab { bottom: 70px; }
     margin-top: var(--space-md);
     border-radius: var(--radius-pill);
 }
+
+/* ═══════════════════════════════════════════════════════════
+   SHORT DIVE ARTICLE READER
+   ═══════════════════════════════════════════════════════════ */
+.sd-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 900;
+    background: var(--bg-primary);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-direction: column;
+}
+
+.sd-overlay-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: 12px var(--space-lg);
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    flex-shrink: 0;
+}
+
+.sd-overlay-back {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+}
+.sd-overlay-back:hover { color: var(--gold); background: var(--gold-dim); }
+
+.sd-overlay-tag {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+}
+
+.sd-overlay-content {
+    flex: 1;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-lg) var(--space-3xl);
+    width: 100%;
+}
+
+.sd-overlay-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    color: var(--gold);
+    line-height: 1.25;
+    margin: 0 0 var(--space-lg);
+}
+
+/* Article content */
+.sd-article, .short-dive-article { color: var(--text-primary); }
+.sd-article p, .short-dive-article p { font-size: 1rem; line-height: 1.8; margin: 0 0 var(--space-md); }
+.sd-article p.sd-lede, .short-dive-article p:first-of-type { font-size: 1.05rem; color: var(--text-primary); line-height: 1.85; }
+.sd-article strong, .short-dive-article strong { color: var(--gold-light); }
+.short-dive-article h2 { display: none; } /* title already in overlay header */
+.short-dive-article .sd-article-ref { font-size: 0.78rem; color: var(--gold); margin-bottom: var(--space-md); display: block; }
+.short-dive-article blockquote { border-left: 3px solid var(--gold-border); padding: var(--space-sm) var(--space-lg); margin: var(--space-md) 0; background: var(--gold-dim); border-radius: 0 var(--radius-md) var(--radius-md) 0; font-family: var(--font-heading); font-size: 0.95rem; font-style: italic; line-height: 1.7; }
+
+.sd-scripture {
+    border-left: 3px solid var(--gold-border);
+    padding: var(--space-sm) var(--space-lg);
+    margin: var(--space-md) 0;
+    background: var(--gold-dim);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+.sd-scripture p {
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    line-height: 1.7;
+    font-style: italic;
+    margin: 0;
+}
+.sd-scripture cite {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.78rem;
+    color: var(--gold);
+    font-style: normal;
+    font-family: var(--font-body);
+}
+
+.sd-coming-soon { color: var(--text-muted); font-style: italic; }
+
+.sd-continue {
+    text-align: center;
+    padding: var(--space-xl) 0;
+    border-top: 1px solid var(--border);
+    margin-top: var(--space-xl);
+}
+
+.sd-continue-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--gold-dim);
+    border: 1px solid var(--gold-border);
+    border-radius: var(--radius-md);
+    color: var(--gold);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--font-heading);
+    cursor: pointer;
+    transition: all 0.15s;
+    text-decoration: none;
+}
+.sd-continue-btn:hover { background: rgba(201,168,76,0.2); }
+
+.sd-hebrew { color: #e8d5b7; font-family: 'SBL Hebrew', 'Times New Roman', serif; }
+.sd-greek { color: #d0c8e0; font-style: italic; }
+
+@media (max-width: 600px) {
+    .sd-overlay-content { padding: var(--space-md) var(--space-md) var(--space-2xl); }
+    .sd-overlay-title { font-size: 1.4rem; }
+}

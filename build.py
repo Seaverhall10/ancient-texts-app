@@ -7,7 +7,7 @@ Reads:
   data/<text>/chapters/*.html (HTML fragments for thematic texts)
   data/glossary.py           (multi-language term glossary)
   data/<text>/interlinear*.py (interlinear data per text, optional)
-  src/css/styles.css         (dark theme stylesheet)
+  src/css/build-order.txt    (CSS component concatenation order)
   src/js/app.js              (IIFE application controller)
 
 Outputs:
@@ -42,7 +42,6 @@ else:
 DATA_DIR = os.path.join(BASE, "data")
 SRC_CSS_DIR = os.path.join(BASE, "src", "css")
 SRC_CSS_ORDER = os.path.join(SRC_CSS_DIR, "build-order.txt")
-SRC_CSS_LEGACY = os.path.join(SRC_CSS_DIR, "styles.css")
 SRC_JS = os.path.join(BASE, "src", "js", "app.js")
 MANIFEST_PATH = os.path.join(BASE, "manifest.json")
 OUTPUT_DIR = os.path.join(BASE, "output")
@@ -372,9 +371,6 @@ def build():
                     print(f"  WARNING: CSS file not found: {line}")
         css = ''.join(css_parts)
         print(f"[css] {len(css_files)} component files ({len(css):,} chars)")
-    else:
-        css = read_file(SRC_CSS_LEGACY)
-        print(f"[css] styles.css ({len(css):,} chars)")
 
     # \u2500\u2500 Read JS and inject data \u2500\u2500
     js = read_file(SRC_JS)
@@ -382,6 +378,19 @@ def build():
     js = js.replace("__ERA_DATA__", json.dumps(era_data, ensure_ascii=False))
     js = js.replace("__GLOSSARY_DATA__", json.dumps(glossary, ensure_ascii=False))
     js = js.replace("__TEXT_INTROS_DATA__", json.dumps(text_intros, ensure_ascii=False))
+
+    # Inject Short Dive articles
+    sd_articles = {}
+    sd_path1 = os.path.join(DATA_DIR, "short_dives.py")
+    sd_path2 = os.path.join(DATA_DIR, "short_dives_2.py")
+    if os.path.exists(sd_path1):
+        sd_mod1 = load_module("short_dives", sd_path1)
+        sd_articles.update(getattr(sd_mod1, "SHORT_DIVE_ARTICLES", {}))
+    if os.path.exists(sd_path2):
+        sd_mod2 = load_module("short_dives_2", sd_path2)
+        sd_articles.update(getattr(sd_mod2, "SHORT_DIVE_ARTICLES_2", {}))
+    print(f"[short-dives] {len(sd_articles)} articles loaded")
+    js = js.replace("__SHORT_DIVES_DATA__", json.dumps(sd_articles, ensure_ascii=False))
 
     # Inject Prophecy Matrix data
     prophecy_path = os.path.join(DATA_DIR, "prophecy_matrix.py")
