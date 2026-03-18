@@ -1780,7 +1780,6 @@ self.addEventListener('fetch', event => {
     if os.path.exists(docs_src):
         docs_dest = os.path.join(OUTPUT_DIR, "docs")
         os.makedirs(docs_dest, exist_ok=True)
-        import shutil
         shutil.copy2(docs_src, docs_dest)
         print(f"  Copied bible_study_reference.html to docs/")
 

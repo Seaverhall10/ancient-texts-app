@@ -2912,6 +2912,10 @@
             '<span class="bible-btn-icon">\ud83d\udd24</span>' +
             '<span class="bible-btn-label">' + (textDef.category === 'nt' ? 'Greek' : 'Hebrew') + '</span>' +
             '</button>' +
+            '<button class="bible-timeline-btn" id="bibleTimelineBtn">' +
+            '<span class="bible-btn-icon">&#128197;</span>' +
+            '<span class="bible-btn-label">Timeline</span>' +
+            '</button>' +
             ((BOOK_TO_JOURNEYS[textId] || []).length > 0 ?
             '<button class="bible-map-btn" id="bibleMapBtn">' +
             '<span class="bible-btn-icon">\ud83d\uddfa\ufe0f</span>' +
@@ -3267,6 +3271,12 @@
         var bibleMapBtn = document.getElementById('bibleMapBtn');
         if (bibleMapBtn) {
             bibleMapBtn.addEventListener('click', function() { openMapForBook(textId); });
+        }
+
+        // Timeline button in Bible Mode
+        var timelineBtn = document.getElementById('bibleTimelineBtn');
+        if (timelineBtn) {
+            timelineBtn.addEventListener('click', function() { openTimeline(); });
         }
 
         // Drawer tabs
@@ -11729,6 +11739,25 @@
             btn.addEventListener('click', function() {
                 timelineEraFilter = this.dataset.era;
                 renderTimeline();
+            });
+        });
+
+        // Timeline event click — open the referenced text
+        content.querySelectorAll('.tl-event').forEach(function(evEl) {
+            evEl.style.cursor = 'pointer';
+            evEl.addEventListener('click', function() {
+                var refText = this.querySelector('.tl-ref');
+                if (!refText) return;
+                var ref = refText.textContent.trim();
+                var parsed = parseScriptureRef(ref);
+                if (parsed && parsed.textId) {
+                    var textDef = getTextDef(parsed.textId);
+                    if (textDef) {
+                        closeTimeline();
+                        var chIdx = parsed.chapter ? parsed.chapter - 1 : 0;
+                        showBibleMode(parsed.textId, chIdx);
+                    }
+                }
             });
         });
     }

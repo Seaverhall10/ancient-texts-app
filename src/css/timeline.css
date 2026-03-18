@@ -189,6 +189,18 @@
     font-family: var(--font-mono);
 }
 
+.tl-event { cursor: pointer; }
+.tl-card::after {
+    content: 'Read \2192';
+    display: block;
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    margin-top: 6px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+.tl-card:hover::after { opacity: 1; }
+
 /* Responsive timeline */
 @media (max-width: 768px) {
     .tl-track::before {

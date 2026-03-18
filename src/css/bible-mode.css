@@ -1421,6 +1421,24 @@ body.bible-mode-active .feedback-fab { bottom: 70px; }
 .bible-light-toggle:hover { background: rgba(201,168,76,0.2); }
 
 /* ── Short Dive / Featured Study Banner ──────────────────── */
+/* ── Timeline button in bottom bar ────────────────────────── */
+.bible-timeline-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 0.65rem;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    transition: all 0.15s;
+}
+.bible-timeline-btn:hover { color: var(--gold); background: var(--gold-dim); }
+.bible-timeline-btn .bible-btn-icon { font-size: 1.1rem; }
+
 .bible-dive-banner {
     max-width: 640px;
     margin: 0 auto var(--space-lg);
