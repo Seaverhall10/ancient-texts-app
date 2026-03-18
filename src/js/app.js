@@ -1499,8 +1499,8 @@
         // Migration: old tab names → new defaults
         if (savedTab === 'trails' || savedTab === 'browse') savedTab = 'featured';
         html += '<div class="library-tab-bar">' +
-            '<button class="library-tab' + (savedTab === 'mystudy' ? ' active' : '') + '" data-library-tab="mystudy">My Study</button>' +
             '<button class="library-tab' + (savedTab === 'featured' ? ' active' : '') + '" data-library-tab="featured">Featured</button>' +
+            '<button class="library-tab' + (savedTab === 'mystudy' ? ' active' : '') + '" data-library-tab="mystudy">My Study</button>' +
             '<button class="library-tab' + (savedTab === 'ot' ? ' active' : '') + '" data-library-tab="ot">Old Testament</button>' +
             '<button class="library-tab' + (savedTab === 'nt' ? ' active' : '') + '" data-library-tab="nt">New Testament</button>' +
             '<button class="library-tab' + (savedTab === 'scrolls' ? ' active' : '') + '" data-library-tab="scrolls">Scrolls &amp; Studies</button>' +
@@ -2221,6 +2221,11 @@
                 var textId = this.getAttribute('data-text');
                 var eraId = this.getAttribute('data-era');
                 if (!textId) return;
+                // Grab the study card content for the banner
+                var fsTitle = (this.querySelector('.featured-study-title') || {}).textContent || '';
+                var fsHook = (this.querySelector('.featured-study-hook') || {}).textContent || '';
+                var fsBadge = (this.querySelector('.canon-badge') || {}).textContent || '';
+                window._pendingDive = { title: fsTitle, insight: fsHook, tag: fsBadge };
                 // Jump directly into Bible Mode at the first chapter of this era
                 if (eraId) {
                     var eras = getTextEras(textId);
@@ -2242,11 +2247,16 @@
                 var textId = this.getAttribute('data-text');
                 if (!textId) return;
                 var bibleChapter = parseInt(this.getAttribute('data-chapter'), 10);
-                // Always open directly into Bible Mode — never dump on book landing
+                // Grab the dive content to show in Bible Mode
+                var diveTitle = (this.querySelector('.short-dive-title') || {}).textContent || '';
+                var diveInsight = (this.querySelector('.short-dive-insight') || {}).textContent || '';
+                var diveTag = (this.querySelector('.short-dive-tag') || {}).textContent || '';
+                // Store dive context for Bible Mode to display
+                window._pendingDive = { title: diveTitle, insight: diveInsight, tag: diveTag };
+                // Open Bible Mode
                 if (bibleChapter) {
                     showBibleMode(textId, bibleChapter - 1);
                 } else {
-                    // Thematic/study texts without a chapter number — open at chapter 0
                     showBibleMode(textId, 0);
                 }
             });
@@ -2765,7 +2775,9 @@
         bibleTotalChapters = getBibleChapterCount(textId);
         currentBibleChapter = Math.max(1, Math.min(chapterIndex + 1, bibleTotalChapters));
 
+        hashHandling = true;
         location.hash = 'read/' + textId + '/' + currentBibleChapter;
+        setTimeout(function() { hashHandling = false; }, 50);
 
         var html = '<div class="bible-mode bible-layout-' + bibleLayoutMode + '" id="bibleMode">';
 
@@ -2810,6 +2822,18 @@
                 'Tap <strong>\ud83d\udd24 ' + origLang + '</strong> below to see every word in the original language with grammar, morphology, and Strong\'s numbers.</span>' +
                 '<button class="bible-lang-hint-close" id="bibleLangHintClose">&times;</button>' +
                 '</div>';
+        }
+
+        // ─── SHORT DIVE BANNER (if opened from a Short Dive card) ───
+        if (window._pendingDive) {
+            var dive = window._pendingDive;
+            html += '<div class="bible-dive-banner">' +
+                '<div class="bible-dive-banner-tag">' + esc(dive.tag) + '</div>' +
+                '<h2 class="bible-dive-banner-title">' + esc(dive.title) + '</h2>' +
+                '<p class="bible-dive-banner-insight">' + esc(dive.insight) + '</p>' +
+                '<div class="bible-dive-banner-divider"></div>' +
+                '</div>';
+            window._pendingDive = null;
         }
 
         var verses = getBibleChapterContent(textId, currentBibleChapter);
