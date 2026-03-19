@@ -1852,6 +1852,46 @@
                 insight: 'Habakkuk 1:2 \u2014 \u201cO LORD, how long shall I cry for help, and you will not hear? Or cry to you \u2018Violence!\u2019 and you will not save?\u201d This is not a prayer. It\u2019s a riv \u2014 a formal covenant lawsuit. The prophet is using the same legal framework the prophets invoke against Israel: covenant prosecutor, list of charges, demand for a verdict. Habakkuk files it against Yahweh himself. And God answers \u2014 not with rebuke, but with a vision. Habakkuk 2:4 emerges from this legal argument: \u201cthe righteous shall live by his faith (emunah).\u201d Paul quotes it three times (Rom 1:17, Gal 3:11, Heb 10:38). The doctrine of justification by faith came out of a prophet\u2019s complaint.',
                 tag: 'OT \u2022 Habakkuk 1\u20132',
                 color: '#7a8a5a'
+            },
+            {
+                title: 'The Titans ARE the Watchers',
+                slug: 'titans-are-watchers',
+                text: 'nephilim_giants',
+                insight: 'Hesiod\u2019s Theogony describes divine beings (Titans) who ruled before the Olympians, were overthrown, and imprisoned in Tartarus. 2 Peter 2:4 uses the Greek word tartarosas \u2014 the ONLY time it appears in the entire New Testament \u2014 for the prison of the fallen angels from Genesis 6. Peter reached for the Greek word because the Greeks already had the memory. They just called the Watchers by a different name.',
+                tag: 'NEPHILIM \u2022 2 Pet 2:4',
+                color: '#a855f7'
+            },
+            {
+                title: 'Six Fingers at Chaco Canyon',
+                slug: 'six-fingers-chaco',
+                text: 'nephilim_giants',
+                insight: '2 Samuel 21:20 identifies a giant warrior with six fingers on each hand and six toes on each foot \u2014 a son of the Rapha, the Nephilim bloodline. At Chaco Canyon, New Mexico, archaeologists found a 3.1% rate of six-toed burials \u2014 31 times the human baseline. These polydactyl individuals received ritual burials. Petroglyphs of six-fingered hands appear across the American Southwest. The Bible calls polydactyly a Nephilim marker. Chaco Canyon has it.',
+                tag: 'NEPHILIM \u2022 2 Sam 21:20',
+                color: '#dc2626'
+            },
+            {
+                title: 'Every Culture Remembers Giants',
+                slug: 'every-culture-giants',
+                text: 'nephilim_giants',
+                insight: 'Aztec Quinametzin. Greek Titans. Norse Jotnar. Irish Fomorians. Indian Rakshasas. Paiute Si-Te-Cah. Aboriginal Dreamtime ogres. Every continent, every culture, independently reports the same cluster: divine beings mating with humans, giant offspring, extreme violence, advanced knowledge, destruction by flood. Deuteronomy 32:8 says every nation was assigned a divine being after Babel. If some of THOSE beings also rebelled like the Hermon 200, you\u2019d get independent Nephilim events worldwide. That\u2019s exactly what we see.',
+                tag: 'NEPHILIM \u2022 Deut 32:8',
+                color: '#a855f7'
+            },
+            {
+                title: 'Prometheus IS Azazel',
+                slug: 'prometheus-is-azazel',
+                text: 'nephilim_giants',
+                insight: 'Prometheus stole fire from the gods and gave it to humans. He was punished \u2014 chained to a rock for eternity. In 1 Enoch 8:1, Azazel taught humanity metallurgy, weapons, and cosmetics. He was punished \u2014 bound hand and foot and cast into darkness in the desert of Dudael (1 Enoch 10:4-6). Both give forbidden knowledge. Both are punished by the chief god. Both are bound in isolation. One is Greek mythology. One is Hebrew. They\u2019re the same story.',
+                tag: 'NEPHILIM \u2022 1 Enoch 8:1',
+                color: '#dc2626'
+            },
+            {
+                title: 'Baalbek: The Stones That Shouldn\u2019t Exist',
+                slug: 'baalbek-stones',
+                text: 'nephilim_giants',
+                insight: 'Three stones in the foundation of Baalbek\u2019s Temple of Jupiter weigh over 800 tons EACH. The Stone of the Pregnant Woman: 1,650 tons. The Romans built on top of this foundation but did NOT quarry these blocks \u2014 they were already there. No known ancient technology explains moving them. Baalbek sits in the territory of the sons of God assigned over the nations (Deut 32:8), near Mount Hermon where the 200 Watchers descended (1 Enoch 6:6). The builders had knowledge that normal humans didn\u2019t have.',
+                tag: 'NEPHILIM \u2022 1 Enoch 8',
+                color: '#a855f7'
             }
         ];
 
@@ -10123,6 +10163,36 @@
                 {lat:31.7839, lng:35.2297, label:'Garden Tomb / Gordon\'s Calvary — Claimed Ark of the Covenant Site', ref:'Jeremiah 3:16; Matthew 27:33', desc:'Wyatt\'s most extraordinary and most contested claim: that the Ark of the Covenant lies hidden in a cave system beneath Gordon\'s Calvary (Skull Hill) and the adjacent Garden Tomb in Jerusalem, and that at the moment of Christ\'s crucifixion, an earthquake (Matthew 27:51) opened a crack in the rock through which Christ\'s blood dripped down onto the mercy seat of the Ark — a theological convergence of the sacrifice and the atonement symbol. Wyatt claimed to have entered the cave system in 1982, found the Ark in a chamber, and been prohibited by angelic figures from removing or photographing it. He said he took a sample of dried blood from the crack, which when rehydrated reportedly showed only 24 chromosomes — 23 from Mary and one Y chromosome from the Father — a claim with no scientific documentation or independent verification. Jeremiah 3:16 prophesies that the Ark "shall not come to mind" and "shall not be made again" in the messianic age, which some interpret as implying it was hidden rather than destroyed. The Garden Tomb itself is a genuine 1st-century tomb, proposed as an alternative to the Church of the Holy Sepulchre as the burial site of Christ.'},
                 {lat:31.7785, lng:35.2340, label:'Zedekiah\'s Cave — Solomon\'s Quarries', ref:'2 Chronicles 35:3; Jeremiah 3:16', desc:'A massive underground quarry stretching approximately 330 feet beneath the Muslim Quarter of Jerusalem\'s Old City, with an entrance at the base of the northern city wall near the Damascus Gate. The cave runs some 750 feet into the hill and covers an area of roughly 5 acres. It is composed of meleke limestone, the same stone used in Second Temple construction, and shows extensive ancient quarrying marks. It is traditionally associated with Freemason lore as "Solomon\'s Quarries." In the context of Wyatt\'s Ark claim, the cave system is relevant because it connects to the broader underground network beneath the Old City. 2 Chronicles 35:3 records Josiah commanding the Levites to return the Ark to the Temple — implying it had been removed — and many scholars believe Josiah or Jeremiah hid the Ark before the Babylonian invasion of 586 BC. Jeremiah\'s Grotto, a traditional site of Jeremiah\'s imprisonment, is located directly adjacent to Gordon\'s Calvary and the Garden Tomb, lending circumstantial geographical coherence to Wyatt\'s hypothesis about the Ark\'s concealment location.'}
             ]
+        },
+        {id: 'nephilim_worldwide',
+            name: 'Nephilim Worldwide \u2014 Giant Traditions Across Every Continent',
+            color: '#dc2626',
+            weight: 2,
+            dash: '8 4',
+            desc: 'Tracking the core Nephilim template \u2014 divine beings, giant offspring, advanced knowledge, flood judgment \u2014 as it appears independently across every continent. These sites preserve physical evidence, oral traditions, or megalithic construction attributed to giants or divine beings.',
+            refs: 'Genesis 6:1-4; 1 Enoch 6-16; Deuteronomy 32:8 DSS',
+            waypoints: [
+                {lat:33.42, lng:35.86, label:'Mount Hermon \u2014 The Descent Site', ref:'1 Enoch 6:6', desc:'Where 200 Watchers swore their oath and descended. The name Hermon (cherem) means "devoted/banned." Caesarea Philippi at its base = "gates of Hades."'},
+                {lat:34.01, lng:36.20, label:'Baalbek \u2014 Trilithon Mystery', ref:'Book of Giants', desc:'Three stones weighing 800+ tons each in the temple foundation. The 1,650-ton Stone of the Pregnant Woman. No Roman engineering explains this. Pre-Roman foundation in "City of Baal" territory.'},
+                {lat:30.97, lng:46.10, label:'Ur / Eridu \u2014 Apkallu Sages', ref:'Sumerian King List', desc:'Sumerian traditions of seven Apkallu (fish-human hybrid sages) who brought civilization. Structural parallel to Watchers teaching forbidden knowledge in 1 Enoch 8. [C]'},
+                {lat:32.06, lng:44.39, label:'Uruk \u2014 Gilgamesh\'s City', ref:'Epic of Gilgamesh', desc:'Gilgamesh: 2/3 divine, 1/3 human. The gibbor archetype. Sought immortality. Built massive walls. Flood narrative parallels Genesis 6-9. [C]'},
+                {lat:29.98, lng:31.13, label:'Giza \u2014 Precision Beyond Explanation', ref:'1 Enoch 8:1-3', desc:'Great Pyramid: 2.3 million blocks, 13-acre base level to within 2cm. Phi/Pi ratios encoded. Astronomical alignment to Orion. Conventional explanations struggle with the precision. [C]'},
+                {lat:25.73, lng:32.60, label:'Valley of the Kings / Amarna', ref:'Egyptian texts', desc:'Akhenaten\'s family: elongated skulls at Amarna. Divine Pharaonic ideology (Pharaoh = son of the gods). Is divine kingship a fossil of actual divine-human hybrid rule? [C]'},
+                {lat:37.97, lng:23.73, label:'Athens \u2014 Titans & Tartarus', ref:'2 Peter 2:4', desc:'Hesiod\'s Theogony: Titans imprisoned in Tartarus after war with Olympians. Peter uses tartarosas (2 Pet 2:4) \u2014 the ONLY NT use of this Greek word \u2014 for the Watchers\' prison. Same tradition. [B]'},
+                {lat:37.64, lng:21.63, label:'Olympia \u2014 Demigod Tradition', ref:'Genesis 6:4', desc:'Hercules, Perseus, Achilles: divine father + human mother = superhuman warrior. This IS the gibbor template of Genesis 6:4. Greek mythology preserves the memory in heroic form. [C]'},
+                {lat:36.45, lng:-6.35, label:'Strait of Gibraltar \u2014 Atlantis Traditions', ref:'Plato / Richat', desc:'Plato\'s Atlantis: concentric rings, advanced civilization, destroyed by divine judgment. The Richat Structure (Eye of the Sahara) matches the description. Pre-Flood memory? [C]'},
+                {lat:53.16, lng:-1.83, label:'Stonehenge \u2014 Megalithic Europe', ref:'Geoffrey of Monmouth', desc:'Geoffrey attributes Stonehenge to giants. Carnac in Brittany: 3,000+ standing stones. 2025: 120m underwater granite wall off Brittany predates both. Who built these? [C]'},
+                {lat:64.15, lng:-21.95, label:'Iceland \u2014 Norse Jotnar', ref:'Prose Edda', desc:'Frost giants (Jotnar) predate the gods. Ymir\'s body becomes the world. Ragnarok destroys the old order. Structural parallel to pre-Flood/Flood/post-Flood sequence. [C]'},
+                {lat:53.35, lng:-6.26, label:'Ireland \u2014 Fomorians', ref:'Lebor Gab\u00e1la \u00c9renn', desc:'The Fomorians: Irish mythology\'s race of giants, associated with the sea, defeated by the Tuatha D\u00e9 Danann. Possible post-Babel Nephilim memory in Japheth-line territory. [C]'},
+                {lat:19.69, lng:-98.84, label:'Teotihuac\u00e1n \u2014 Quinametzin', ref:'Codex Rios', desc:'Aztec tradition: the Quinametzin (giants) built Teotihuac\u00e1n and Cholula before being destroyed by flood. Spanish chroniclers (Dur\u00e1n, Olmos) recorded this independently of biblical influence. [C]'},
+                {lat:36.06, lng:-112.14, label:'Chaco Canyon \u2014 Polydactyly', ref:'2 Samuel 21:20', desc:'3.1% six-toed rate in burials (vs 0.1% baseline). Ritual burial of polydactyl individuals. Six-fingered hand petroglyphs across Four Corners. 2 Sam 21:20 identifies polydactyly as a Rapha lineage marker. [C]'},
+                {lat:39.95, lng:-118.49, label:'Lovelock Cave \u2014 Si-Te-Cah', ref:'Paiute oral tradition', desc:'Sarah Winnemucca Hopkins recorded her people\'s tradition of red-haired, cannibalistic giants. Artifacts recovered. The tradition predates European contact. [C]'},
+                {lat:-13.77, lng:-76.12, label:'Paracas \u2014 Elongated Skulls', ref:'Physical evidence', desc:'Some specimens show features inconsistent with artificial deformation: different suture patterns, larger cranial volume, anomalous foramen magnum. DNA results debated. [C]'},
+                {lat:-16.56, lng:-68.67, label:'Tiwanaku / Puma Punku', ref:'Inca traditions', desc:'H-blocks with extreme precision. Conventional explanations unsatisfying. Cieza de Le\u00f3n recorded Inca traditions of giants arriving by reed raft near Lake Titicaca. [C]'},
+                {lat:27.18, lng:78.04, label:'India \u2014 Rakshasas', ref:'Mahabharata', desc:'Giant demonic beings in Vedic/Hindu tradition. Manu and the fish = flood narrative. Rakshasa traits match Nephilim template: giant stature, cannibalism, supernatural power. [C]'},
+                {lat:34.39, lng:108.94, label:'China \u2014 Sage-Kings', ref:'Chinese flood traditions', desc:'Yu the Great: flood narrative. Divine sage-kings with supernatural abilities. Is Chinese "sage-king" ideology a divine-hybrid memory like pharaonic ideology? [C]'},
+                {lat:-25.27, lng:131.04, label:'Uluru \u2014 Aboriginal Dreamtime', ref:'Aboriginal oral tradition', desc:'Patrick Nunn\'s research: Aboriginal traditions accurately preserve sea-level-change memories from 7,000+ years ago. If flood memories are this accurate, giant memories may be equally historical. [C]'}
+            ]
         }
     ];
 
@@ -10219,7 +10289,7 @@
         'josephus': ['jesus_final_week', 'nimrod_expansion'],
         'heavenly_court': ['watcher_descent', 'conquest'],
         'messianic_thread': ['abraham', 'exodus', 'david_flight', 'jesus_final_week'],
-        'nephilim_giants': ['watcher_descent', 'giant_slayer', 'conquest', 'nimrod_expansion'],
+        'nephilim_giants': ['watcher_descent', 'nephilim_worldwide', 'giant_slayer', 'conquest', 'nimrod_expansion'],
         'three_rebellions': ['watcher_descent', 'nimrod_expansion', 'conquest']
     };
 
