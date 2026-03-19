@@ -3039,6 +3039,23 @@
       ]
     },
     {
+      "id": "nephilim_worldwide",
+      "text": "nephilim_giants",
+      "name": "Part IV: Nephilim Worldwide — The Memory Every Culture Carries",
+      "chapters": "Chapters 11–16",
+      "color": "#a05a54",
+      "icon": "IV",
+      "data_file": "era_nephilim_worldwide",
+      "themes": [
+        "Worldwide traditions",
+        "Mesopotamia",
+        "Greece",
+        "Americas",
+        "Physical evidence",
+        "Sacred geometry"
+      ]
+    },
+    {
       "id": "parables_mystery",
       "text": "parables_invitation",
       "name": "Part I: Why Did Jesus Speak in Parables?",
