@@ -65,7 +65,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'malak_yhwh',
+            'tsaddiq',
+            'mishpat',
+            'ruach',
+            'shamayim',
+            'olam',
+        ],
 
         'ane_backdrop': "The framing of a visionary text as a 'second vision' has parallels in Mesopotamian apocalyptic literature, where sequential visions build upon one another in escalating revelatory intensity. The genealogy tracing Enoch to Adam through seven generations (the 'seventh from Adam' motif) connects to Mesopotamian traditions about the seventh antediluvian king (apkallu) who received divine wisdom. In the Sumerian King List, the seventh sage Utuabzu is the one who ascended to heaven. The claim that this wisdom was 'never before given' echoes the Akkadian tradition of secret knowledge (nisirti) reserved for the chosen sage.",
 
@@ -140,7 +147,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'tsaddiq',
+            'mishpat',
+            'yom_yhwh',
+            'kavod',
+            'mashiach',
+            'goy',
+        ],
 
         'ane_backdrop': "The motif of eschatological reversal — the mighty brought low, the oppressed exalted — has deep roots in both Israelite and broader ANE traditions. The Egyptian 'Admonitions of Ipuwer' describes social inversion, though in a different register. More directly, the Israelite prophetic tradition of the 'Day of the LORD' (Amos 5:18-20, Isaiah 2:12-17) envisions the humiliation of the proud. The Parables draw this tradition forward into a fully eschatological framework where the reversal is permanent and cosmic in scope.",
 
@@ -217,7 +231,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'tsaddiq',
+            'shamayim',
+            'qodesh',
+            'malak_yhwh',
+            'kavod',
+            'ruach',
+        ],
 
         'ane_backdrop': "The concept of heavenly dwelling places prepared for the righteous has parallels in Egyptian funerary literature, where the 'Field of Reeds' (Sekhet-Aaru) awaits the justified dead. More directly relevant is the Mesopotamian motif of the divine garden or abode where favored humans are taken (cf. Utnapishtim's translation in Gilgamesh XI). The Israelite tradition of heavenly habitations appears in Psalm 23:6 ('I shall dwell in the house of the LORD') and develops into the NT's 'many mansions' (John 14:2).",
 
@@ -298,7 +319,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'malak_yhwh',
+            'sod_yhwh',
+            'kavod',
+            'merkavah',
+            'mastema',
+            'qodesh',
+        ],
 
         'ane_backdrop': "The four-directional guardian figure schema is deeply rooted in Mesopotamian religion. The Babylonian lamassu (winged human-headed bulls) guarded the four cardinal points of temples and palaces. The concept of four divine beings surrounding the supreme deity's throne appears in multiple ANE contexts. In Israel, the four-cherubim throne of Ezekiel 1 and 10 directly informs this passage, while the four-archangel schema (Michael, Gabriel, Raphael, Uriel/ Phanuel) became standard in Second Temple Judaism.",
 
@@ -385,7 +413,13 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'shamayim',
+            'raqia',
+            'malak_yhwh',
+            'mishpat',
+            'olam',
+        ],
 
         'ane_backdrop': 'The cosmological content draws on the same astronomical traditions that underlie the Astronomical Book (1 Enoch 72-82). Babylonian astronomy — with its elaborate tracking of lunar and solar courses, its MUL.APIN star catalogues, and its concept of cosmic regularity — provides the distant background. The theological argument (celestial regularity proves divine faithfulness) is distinctly Israelite, rooted in Jeremiah 31:35-36 and Psalm 19:1-6.',
 
@@ -457,7 +491,13 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'ruach',
+            'shamayim',
+            'malak_yhwh',
+            'tsedaqah',
+            'mishpat',
+        ],
 
         'ane_backdrop': "The personified Wisdom tradition has deep ANE roots. The Egyptian goddess Ma'at embodies cosmic order and right dealing. Within Israel, personified Wisdom (chokmah) calls out in the streets (Proverbs 1:20-33), was present at creation (Proverbs 8:22-31), and builds her house (Proverbs 9:1-6). Ben Sira 24 tells of Wisdom seeking a resting place among the nations and being assigned to Israel. 1 Enoch 42 inverts Ben Sira's optimism: Wisdom finds NO place at all among humanity.",
 
@@ -535,7 +575,13 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'shamayim',
+            'tsedaqah',
+            'mishpat',
+            'kavod',
+            'olam',
+        ],
 
         'ane_backdrop': 'Star naming and cataloguing was central to Mesopotamian astronomy. The MUL.APIN series catalogues stars and constellations with their rising dates and associated deities. The Israelite tradition transforms this into monotheistic praise: YHWH alone names and summons each star (Isaiah 40:26).',
 
@@ -600,7 +646,13 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'shamayim',
+            'cherem',
+            'mishpat',
+            'egregoroi',
+            'malak_yhwh',
+        ],
 
         'ane_backdrop': 'The concept of celestial disobedience — stars failing to appear at their appointed times — inverts the Mesopotamian omen tradition where irregular celestial phenomena were interpreted as divine messages. In 1 Enoch, irregular celestial behavior is not a sign but a sin.',
 
@@ -672,7 +724,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'ben_adam',
+            'mashiach',
+            'kavod',
+            'mishpat',
+            'tsaddiq',
+            'yom_yhwh',
+        ],
 
         'ane_backdrop': "The enthronement of a divine agent on a judgment throne draws on the Canaanite motif of the divine council's judicial session. At Ugarit, El presides over the divine assembly, but it is the younger deity (Baal or Yamm) who often executes judgment. The Parables adapt this two-tier authority structure within strict monotheism: the Lord of Spirits is supreme but delegates judgment to the Elect One.",
 
@@ -749,7 +808,15 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'ben_adam',
+            'kavod',
+            'tsaddiq',
+            'mashiach',
+            'malak_yhwh',
+            'elyon',
+            'mishpat',
+        ],
 
         'ane_backdrop': "The two-throne concept — a supreme aged deity alongside a younger warrior/judge figure — has direct parallels in Canaanite religion. At Ugarit, the aged El presides over the divine assembly while the younger Baal executes power. The phrase 'Head of Days' translates the Aramaic 'Attiq Yomin' from Daniel 7:9, while 'Son of Man' translates 'bar enash' of Daniel 7:13. The Parables develop Daniel's brief scene into an extended character portrait, giving the Son of Man attributes, history, and a name.",
 
@@ -836,7 +903,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'tsaddiq',
+            'nefesh',
+            'mishpat',
+            'kavod',
+            'malak_yhwh',
+            'qodesh',
+        ],
 
         'ane_backdrop': 'The motif of shed blood crying out from the earth originates in Genesis 4:10. The concept that innocent blood pollutes the land and demands vindication is deeply embedded in ANE jurisprudence and Israelite law (Numbers 35:33).',
 
@@ -901,7 +975,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'ben_adam',
+            'mashiach',
+            'olam',
+            'kavod',
+            'goy',
+            'ruach',
+        ],
 
         'ane_backdrop': "In the Enuma Elish, naming IS creating: 'When on high the heaven had not been named, firm ground below had not been called by name.' The Parables use this convention to assert the Son of Man's identity was established before the cosmos. Rabbinic tradition (b. Pesachim 54a) lists the 'Name of the Messiah' among seven things conceived before the world.",
 
@@ -986,7 +1067,13 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'ruach',
+            'mashiach',
+            'tsedaqah',
+            'mishpat',
+            'kavod',
+        ],
 
         'ane_backdrop': None,
 
@@ -1046,7 +1133,13 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'tsaddiq',
+            'kavod',
+            'goy',
+            'tsedaqah',
+            'olam',
+        ],
 
         'ane_backdrop': None,
 
@@ -1111,7 +1204,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'sheol',
+            'nefesh',
+            'ben_adam',
+            'mashiach',
+            'tsaddiq',
+            'mishpat',
+        ],
 
         'ane_backdrop': "Bodily resurrection first appears clearly in Daniel 12:2 and Isaiah 26:19. Zoroastrian eschatology included a general resurrection (Frashokereti). The Parables' form — the Elect One choosing the righteous — is distinctly Jewish.",
 
@@ -2467,7 +2567,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'tehom',
+            'shamayim',
+            'malak_yhwh',
+            'kavod',
+            'mabbul',
+            'bara',
+        ],
 
         'ane_backdrop': 'Leviathan and Behemoth draw on deep ANE mythology. The Ugaritic Lotan (= Leviathan) is the seven-headed sea serpent defeated by Baal. Behemoth appears as a primordial land creature in Job 40:15-24. The separation of the two cosmic monsters — one to sea, one to land — reflects the ANE cosmogonic tradition of taming chaos at creation.',
 
@@ -2548,7 +2655,13 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'malak_yhwh',
+            'tsaddiq',
+            'mishpat',
+            'kavod',
+            'ben_adam',
+        ],
 
         'ane_backdrop': None,
 
@@ -2608,7 +2721,15 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'ben_adam',
+            'kavod',
+            'mishpat',
+            'tsaddiq',
+            'mashiach',
+            'yom_yhwh',
+            'goy',
+        ],
 
         'ane_backdrop': "Royal judgment scenes — a divine or divinely appointed figure on a throne rendering verdicts — are among the oldest ANE literary motifs. Egyptian Osiris presides over the Hall of Maat. The Parables' innovation is placing a second figure (not the Most High) on the judgment throne.",
 
@@ -2694,7 +2815,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'ben_adam',
+            'mishpat',
+            'goy',
+            'kavod',
+            'malak_yhwh',
+            'cherem',
+        ],
 
         'ane_backdrop': None,
 
@@ -3283,7 +3411,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'egregoroi',
+            'malak_yhwh',
+            'mishpat',
+            'cherem',
+            'tehom',
+            'asael',
+        ],
 
         'ane_backdrop': None,
 
@@ -3505,7 +3640,14 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'ben_adam',
+            'kavod',
+            'mishpat',
+            'shamayim',
+            'berit',
+            'cherem',
+        ],
 
         'ane_backdrop': "The creative power of the divine name/word resonates with Egyptian theology (Ptah creates through speech — the Memphite Theology) and with Mesopotamian traditions where divine utterance establishes cosmic order. The Hebrew tradition of creation by speech (Genesis 1: 'Let there be...') is the immediate background. The 'oath' by which creation is sustained is a unique Enochic concept that the cosmos is maintained by a covenantal word.",
 
@@ -3740,7 +3882,15 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'ben_adam',
+            'kavod',
+            'tsaddiq',
+            'malak_yhwh',
+            'shamayim',
+            'ruach',
+            'merkavah',
+        ],
 
         'ane_backdrop': 'The concept of a human elevated to divine status has deep ANE precedent. Utnapishtim receives immortality after the flood. Adapa is brought before the gods. Enmeduranki is taken into the divine assembly. Egyptian pharaohs become Osiris after death. The Greek apotheosis tradition describes humans becoming divine. 1 Enoch 71 is the Jewish version filtered through divine council theology.',
 
@@ -3841,7 +3991,14 @@ CHAPTERS = [
 
         'key_verse': None,
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'ben_adam',
+            'mashiach',
+            'kavod',
+            'elyon',
+            'malak_yhwh',
+            'tsaddiq',
+        ],
 
         'ane_backdrop': None,
 
@@ -3919,7 +4076,15 @@ CHAPTERS = [
 
         'key_verse': None,
 
-        'hebrew_terms': [],
+        'hebrew_terms': [
+            'ben_adam',
+            'mashiach',
+            'kavod',
+            'mishpat',
+            'malak_yhwh',
+            'tsaddiq',
+            'olam',
+        ],
 
         'ane_backdrop': None,
 

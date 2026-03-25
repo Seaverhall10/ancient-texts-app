@@ -1,5 +1,5 @@
 # Ancient Texts Study App — Current Status
-*Last updated: 2026-03-14 (Session 8)*
+*Last updated: 2026-03-25 (Session 9)*
 
 ---
 
@@ -8,7 +8,7 @@
 ### Core App — Two Versions
 - [x] **PC Version**: Single-file HTML app (`build.py → output/AncientTextsStudy.html`, ~68 MB dev / ~65.5 MB release)
 - [x] **Mobile Version**: Progressive Web App (`build_mobile.py → output/mobile/`, 0.7 MB shell + on-demand data)
-- [x] Both versions contain identical content (77 texts, all interlinear, all features)
+- [x] Both versions contain identical content (86 texts, all interlinear, all features)
 - [x] **Electron desktop app** (Windows installer, `electron/` folder)
 - [x] Release system packages both into `PC/` + `Mobile/` folders with launchers
 
@@ -21,10 +21,10 @@
 - [x] Current version: **3.3.0**
 - [x] Release ZIP: ~40 MB (includes both PC + Mobile)
 
-### Content (77 texts total)
-- [x] **80 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 1 Historical + 4 Thematic + 3 Study)
-- [x] **246 eras** (study chapter groupings)
-- [x] **1,059 study chapters** across all texts
+### Content (86 texts total)
+- [x] **86 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 2 Historical + 12 Thematic)
+- [x] **278 era files** (study chapter groupings)
+- [x] **1,149 study chapters** across all texts
 - [x] CONTENT_MAP.json — master AI navigation index (auto-rebuilt on every build)
 
 ### Flow Translations (verse-by-verse English prose)
@@ -88,15 +88,15 @@ DSS Sectarian, Josephus, Heavenly Court
 ## WHAT IS MISSING
 
 ### TIER 0 — Audit Fixes (Blocking Deploy)
-0. **37 CRITICAL**: 6 NT era files missing `id`/`era` fields (18 chapters) + 1 missing `ref`
-1. **~180 cross-refs missing type tags** in Matthew, Acts, Galatians, Philippians, Colossians, 1 Thess, 1 Peter, Jude era files
-2. **Leviticus sections are empty shells** — 27 chapters with 0-char section bodies, no headings
-3. **2 Peter + 3 John sections empty** — placeholder structure but no content
-4. **59 chapters missing `key_verse`** — scattered across texts
-5. **1 unlisted CSS file** — `styles.css` on disk but not in `build-order.txt`
+~~All TIER 0 issues resolved as of 2026-03-25.~~
+- ~~37 CRITICAL NT eras~~ → fixed (all id/era fields present, QA passes 497/497)
+- ~~180 cross-refs missing types~~ → fixed (21 actual issues corrected: 19 in Galatians, 2 in Matthew)
+- ~~Leviticus empty shells~~ → verified: all 27 chapters have substantial content
+- ~~2 Peter + 3 John empty~~ → verified: both have developed content
+- **59 chapters missing `key_verse`** — scattered across texts (low priority)
+- **1 unlisted CSS file** — `styles.css` on disk but not in `build-order.txt`
 
 ### TIER 1 — Content Depth (Major Gaps)
-0. **Fix 37 CRITICAL audit findings** — 6 new NT era files (Galatians, Philippians, Colossians, 1 Thess, 1 Peter, Jude) missing `id` and `era` fields on 18 chapters; 1 chapter (`ane-joseph-egypt`) missing `ref` field
 1. **Minor Prophets section depth** — All 12 books at 25-40% of Genesis depth (51/55 chapters flagged)
 2. **NT era expansion** — Luke, John still have only 2 eras each (Matthew + Acts now have 5 each)
 3. **DSS Sectarian hebrew_terms** — 26 chapters at 0% coverage
@@ -136,16 +136,17 @@ DSS Sectarian, Josephus, Heavenly Court
 
 | Metric | Value |
 |--------|-------|
-| Total texts | **80** |
-| Total eras | **246** |
-| Study chapters | **1,059** |
-| Flow translations | **66/80 texts** (all 39 OT + all 27 NT) |
+| Total texts | **88** |
+| Total era files | **300** |
+| Study chapters | **1,189** |
+| Flow translations | **66/86 texts** (all 39 OT + all 27 NT) |
+| Flow files | **111** |
 | Flow verses | **31,101** |
 | Flow scholarly notes | **9,497** |
 | Interlinear words (OT) | **306,506** |
 | Interlinear words (NT) | **137,833** |
 | **Total interlinear** | **444,339** |
-| Cross-references | **6,990** |
+| Cross-references | **8,310** |
 | Glossary terms | **607** |
 | Map journey routes | **24** (206 waypoints) |
 | Religions in Truth Matrix | **52** |
@@ -158,11 +159,38 @@ DSS Sectarian, Josephus, Heavenly Court
 | Release ZIP | ~40 MB (PC + Mobile) |
 | Current version | **3.3.0** |
 | Audit modules | **12** |
-| Audit baseline | 37 critical, 87 warnings, 577 info |
+| Audit baseline (2026-03-25) | **0 critical**, 0 warnings, 514 passed |
 
 ---
 
-## RECENT CHANGES (2026-03-13)
+## RECENT CHANGES
+
+### Session 9 (2026-03-25) — Major Content Expansion + Audit Cleanup
+- **QA audit: 0 critical, 502 passed** — clean across the board
+- **2 new thematic study texts** (18 chapters):
+  - **Melchizedek & the Royal Priesthood** — 9 chapters across 3 eras: Genesis 14 origins, Psalm 110 + 11QMelchizedek + Hebrews 5-7, bread-and-wine fulfillment, ekklesia as royal priesthood
+  - **The Riv: Prophets as Covenant Prosecutors** — 9 chapters across 3 eras: riv framework + royal messenger protocol, Isaiah/Jeremiah/Ezekiel prosecutions, the Twelve + Jesus as final prosecutor
+- **5 new NT/OT era files** (16 new study chapters):
+  - **Luke Travel Narrative** (`era_luke_journey.py`) — 4 chapters: Good Samaritan, Prodigal Son, parables of grace, Zacchaeus
+  - **John I AM + Farewell** (`era_john_discourse.py`) — 4 chapters: seven I AM statements, Upper Room Discourse, High Priestly Prayer, Hour of Glory
+  - **Amos Covenant Prosecutor** (`era_amos_riv.py`) — 3 chapters: sod/divine council authority, five failed disciplines, famine of the word
+  - **Obadiah Deep Dive** (`era_obadiah_edom.py`) — 3 chapters: pride, betrayal, kingdom restoration
+  - **Haggai Latter Glory** (`era_haggai_glory.py`) — 2 chapters: greater glory, Zerubbabel signet ring
+- **4 Minor Prophet expansions** (8 new chapters):
+  - Joel cosmic (Day of YHWH + Valley of Decision), Zephaniah nations (de-creation + remnant call)
+  - Jonah mercy (reluctant prophet + divine mercy), Nahum warrior (divine warrior + Nineveh's fall)
+- **DSS Sectarian hebrew_terms**: 0/26 → **26/26** populated (100%)
+- **1 Enoch hebrew_terms**: 18/73 → **73/73** populated (100%)
+- **21 cross-ref type tags fixed** (Galatians + Matthew)
+- Content map: **88 texts, 300 eras, 1,189 chapters, 8,310 cross-references**
+- QA audit: **0 critical, 0 warnings, 514 passed**
+
+### Session 8 (2026-03-14) — Nephilim Worldwide + Short Dives
+- **Nephilim Worldwide**: 6 new chapters tracking giant traditions across every continent + map integration
+- **Short Dives**: 30 full mini-articles with dedicated reader
+- **Unified reader** redesign with theme index, Bible Analysis tab, My Study tab
+- **Landing page** redesign with study-first layout and Short Dives carousel
+- Connected timeline, map, and reader — everything linked
 
 ### Session 7 — Agent Audit System, Map Enhancements, NT Era Expansion
 - **Full Sentient Audit System** (`agents/audit_claude_work.py`, 1,426 lines):

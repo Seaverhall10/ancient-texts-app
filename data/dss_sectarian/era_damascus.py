@@ -20,7 +20,15 @@ CHAPTERS = [
         "text": "And He raised for them a Teacher of Righteousness to lead them in the way of His heart and to make known to the last generations what He would do to the last generation, the congregation of traitors",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "moreh ha-tsedeq (מורה הצדק — Teacher of Righteousness; the divinely sent founder who revealed God's will to the remnant)",
+        "shoresh matta'at (שורש מטעת — root of planting; the founding generation raised by God from Israel and Aaron)",
+        "ish ha-latson (איש הלצון — Man of Mockery/Scoffer; opponent who led Israel astray against the Teacher)",
+        "ish ha-kazav (איש הכזב — Man of the Lie; the false teacher who rejected divine revelation)",
+        "she'erit (שארית — remnant; the faithful survivors preserved through exile and apostasy)",
+        "berit ḥadashah (ברית חדשה — new covenant; the restored divine relationship established in Damascus)",
+        "dammesheq (דמשק — Damascus; the symbolic or literal location where the new covenant was sealed)"
+    ],
     "ane_backdrop": "The 390-year chronology reflects ancient Near Eastern scribal practices of using symbolic numbers to structure salvation history. Babylonian and Persian administrative records regularly employed schematic chronologies rather than precise dating systems. The Damascus Document's historical prologue follows a pattern common in ANE treaty documents and covenant renewals: rehearsal of the suzerain's past faithfulness, recounting the vassal's rebellion, and declaration of renewed relationship terms. The concept of a faithful remnant preserved through judgment appears in Mesopotamian flood narratives and Egyptian wisdom literature. The figure of a divinely appointed teacher who reveals hidden wisdom parallels roles in Persian Zoroastrianism and Egyptian priestly traditions, though the Damascus Document's monotheistic framework is distinctly Israelite. The 'root of planting' metaphor draws on agricultural imagery ubiquitous in Levantine covenant language.",
     "second_temple": [
         {
@@ -115,7 +123,15 @@ CHAPTERS = [
         "text": "Because they walked in the stubbornness of their hearts, the Watchers of heaven fell; on account of it they were caught, because they did not keep the commandments of God",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "'irey ha-shamayim (עירי השמים — Watchers of heaven; the divine beings who fell through disobedience)",
+        "nefilim (נפילים — fallen ones/giants; the offspring of the Watchers whose height was 'like cedars')",
+        "sherirut lev (שרירות לב — stubbornness of heart; the inner rebellion that caused both angelic and human downfall)",
+        "mabbul (מבול — flood/deluge; God's judgment on the generation corrupted by the Watchers' sin)",
+        "zanah (זנה — to go astray/fornicate; the sexual transgression of cosmic boundary-crossing by the Watchers)",
+        "musar (מוסר — discipline/instruction; the warning lessons drawn from historical examples of rebellion)",
+        "gevurah (גבורה — might/strength; the giants' physical power that could not save them from divine judgment)"
+    ],
     "ane_backdrop": "Ancient Near Eastern literature frequently depicts divine beings who transgress cosmic boundaries. The Mesopotamian Apkallu tradition describes seven sages who descended from heaven to teach humanity forbidden arts, paralleling the Watcher narrative. Egyptian texts speak of divine-human unions producing semi-divine rulers. Ugaritic mythology includes stories of divine beings ('elohim) who interact with humanity in ways that blur cosmic boundaries. The Damascus Document's Watcher warning draws on this widespread ANE conceptual framework where heaven and earth were understood as distinct but permeable realms, with divine council members occasionally violating the separation. The emphasis on 'stubbornness of heart' reflects covenant theology, but the underlying cosmology—rebellious divine beings producing giant offspring—is thoroughly ancient Near Eastern in character.",
     "second_temple": [
         {
@@ -210,7 +226,15 @@ CHAPTERS = [
         "text": "All who were brought into the New Covenant in the land of Damascus and who turned back and betrayed and departed from the well of living waters shall not be counted in the assembly of the people",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "berit ḥadashah (ברית חדשה — new covenant; the eschatological covenant sealed in the land of Damascus)",
+        "mattiph ha-kazav (מטיף הכזב — Spouter of Lies; the opponent who 'spouted waters of falsehood' against the Teacher)",
+        "be'er mayim ḥayyim (באר מים חיים — well of living waters; the Torah as God's life-giving covenant instruction)",
+        "shuv (שוב — to turn back/apostatize; the act of betraying the new covenant after entering it)",
+        "doresh ha-torah (דורש התורה — Interpreter of Torah; the messianic 'star' figure who comes to Damascus)",
+        "qahal (קהל — congregation/assembly; the gathered covenant community counted among the faithful)",
+        "'aḥarit ha-yamim (אחרית הימים — the last days; the eschatological period in which the community lives)"
+    ],
     "ane_backdrop": "Ancient Near Eastern covenant theology provides essential context for understanding the Damascus Document's 'New Covenant.' Hittite suzerainty treaties (14th-13th centuries BCE) established the pattern: a superior king binds vassals through oaths, stipulations, blessings for obedience, and curses for betrayal. Israel's covenant at Sinai (Exodus 19-24) adopted this structure, with YHWH as divine King. Deuteronomy 28-30 elaborates the blessings-and-curses framework, culminating in the promise of restoration after exile (Deut 30:1-10). By the Second Temple period, Jewish communities wrestling with ongoing foreign domination and perceived covenant failure looked for a 'renewed' or 'new' covenant that would finally secure God's promises. The Qumran sectarians saw themselves as recipients of this eschatological covenant, sealed not in Jerusalem's 'polluted' temple but in the wilderness 'land of Damascus' — echoing Israel's original Sinai experience. The Teacher of Righteousness served as the new Moses figure, mediating divine instruction.",
     "second_temple": [
         {
@@ -305,7 +329,15 @@ CHAPTERS = [
         "text": "No one shall do work on the sixth day from the time when the orb of the sun is distant from the gate by its own fullness, for this is what He said: 'Observe the Sabbath day to keep it holy'",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "shabbat (שבת — Sabbath; the weekly sacred rest observed with extreme rigor beyond biblical requirements)",
+        "mebaqqer (מבקר — overseer/examiner; the camp official who supervised admissions, property, and discipline)",
+        "maḥaneh (מחנה — camp; the settlements outside Qumran where community members lived under covenant rules)",
+        "halakhah (הלכה — walking/legal ruling; the practical regulations governing daily covenant life)",
+        "niddah (נדה — impurity/separation; ritual contamination requiring exclusion from the community's sacred activities)",
+        "'ammah (אמה — cubit; the unit of measurement defining Sabbath travel limits and boundary markers)",
+        "ḥerem (חרם — devoted thing/ban; property or persons dedicated to God and subject to strict regulation)"
+    ],
     "ane_backdrop": "Ancient Near Eastern cultures universally recognized sacred time—Babylonian šapattu days, Egyptian decade festivals, and Canaanite new moon observances. The biblical Sabbath, however, was unprecedented in its weekly rhythm independent of lunar cycles and its complete cessation of labor for all classes including slaves and animals. By the Second Temple period, Sabbath observance had become Judaism's most distinctive boundary marker, separating Jews from Gentiles more visibly than circumcision or dietary laws. The Maccabean crisis (167-164 BCE) intensified Sabbath rigor when pious Jews chose death rather than defend themselves on the Sabbath (1 Maccabees 2:29-38). The Damascus Document's extreme Sabbath halakhah reflects this post-Maccabean environment where Sabbath violation symbolized covenant betrayal. The community's willingness to let a person drown rather than rescue them on the Sabbath shows how sacred time had become an absolute boundary between the holy and the profane, between Israel and the nations.",
     "second_temple": [
         {
@@ -400,7 +432,15 @@ CHAPTERS = [
         "text": "They shall not depart from any counsel of the Torah to walk in the stubbornness of their hearts, but shall be governed by the first ordinances... until the coming of the Messiah of Aaron and Israel",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "mashiaḥ 'aharon ve-yisra'el (משיח אהרן וישראל — Messiah of Aaron and Israel; the expected anointed figure(s) combining priestly and royal authority)",
+        "kokhav (כוכב — star; from Num 24:17, the messianic interpreter of Torah who comes to Damascus)",
+        "shevet (שבט — scepter; from Num 24:17, the prince/ruler of the whole congregation)",
+        "nasi' kol ha-'edah (נשיא כל העדה — prince of the whole congregation; the expected Davidic royal messiah)",
+        "qets (קץ — end/appointed time; the predetermined moment of divine visitation and final judgment)",
+        "peqquddah (פקודה — visitation; God's eschatological intervention to judge the wicked and vindicate the righteous)",
+        "mishteh ha-torah (משטה התורה — counsel of the Torah; the divine instruction governing messianic governance)"
+    ],
     "ane_backdrop": "Ancient Near Eastern royal ideology consistently portrayed kings as divinely appointed agents who mediated between the gods and humanity, establishing cosmic order (ma'at in Egypt, kittu in Mesopotamia). Mesopotamian texts describe kings as shepherds appointed by the gods to execute justice and maintain social order. Egyptian pharaohs claimed divine sonship and priestly functions, serving as intermediaries in temple rituals. The Qumran community's messianic expectation diverges from this pattern by separating priestly and royal offices, reflecting Israel's distinctive covenant structure where Aaron's descendants held priestly authority while David's line held royal authority. This bifurcation prevented the concentration of religious and political power in one individual, a safeguard against the deification of rulers common in surrounding cultures. The expectation of eschatological figures who would restore proper order echoes broader ANE hopes for divine intervention through anointed agents.",
     "second_temple": [
         {

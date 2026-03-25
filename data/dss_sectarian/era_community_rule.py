@@ -20,7 +20,15 @@ CHAPTERS = [
         "text": "All those who freely devote themselves to His truth shall bring all their knowledge, powers, and possessions into the Community of God",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "yaḥad (יחד — community/unity; the sect's self-designation as God's covenant assembly)",
+        "berit (ברית — covenant; the binding agreement renewed annually at Qumran)",
+        "bene 'or (בני אור — Sons of Light; the community's identity as those aligned with God's lot)",
+        "bene ḥoshekh (בני חושך — Sons of Darkness; those under Belial's dominion, opposed to God's covenant)",
+        "beliyya'al (בליעל — Belial/worthlessness; the chief demonic adversary ruling the Sons of Darkness)",
+        "goral (גורל — lot/portion; cosmic assignment to either God's administration or Belial's)",
+        "'amen 'amen (אמן אמן — double affirmation; the solemn oath ratifying covenant membership)"
+    ],
     "ane_backdrop": "Covenant renewal ceremonies were central to Ancient Near Eastern treaty relationships, particularly Hittite suzerain-vassal treaties that required periodic reaffirmation. These ceremonies typically involved public recitation of treaty terms, invocation of divine witnesses, and pronouncement of blessings for loyalty and curses for rebellion. Israel's covenant theology adapted this diplomatic framework, with Yahweh as the divine suzerain and Israel as vassal. The Deuteronomic ceremony at Mounts Ebal and Gerizim (Deuteronomy 27-28) established a pattern of antiphonal blessings and curses that echoed throughout Israelite worship. The Qumran community saw itself as the faithful remnant maintaining this covenant structure while the Jerusalem priesthood had abandoned it. Their annual renewal ceremony thus reclaimed Israel's authentic treaty relationship with God in an age of apostasy.",
     "second_temple": [
         {
@@ -115,7 +123,16 @@ CHAPTERS = [
         "text": "He created man to rule the world and placed within him two spirits so that he would walk with them until the appointed time of His visitation: they are the spirits of truth and of falsehood",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "ruaḥ (רוח — spirit; the two created spirits governing human moral destiny)",
+        "sar ha-'orim (שר האורים — Prince of Light; the angelic spirit ruling the Sons of Light, identified with Michael)",
+        "mal'akh ha-ḥoshekh (מלאך החושך — Angel of Darkness; the spirit of falsehood identified with Belial)",
+        "'emet (אמת — truth; the defining quality of the spirit of light and its adherents)",
+        "'evel (עול — injustice/perversity; the defining quality of the spirit of darkness)",
+        "peqquddah (פקודה — visitation; God's appointed time of final judgment when darkness is destroyed)",
+        "moshel (מושל — dominion/ruler; the governance exercised by each spirit over its human subjects)",
+        "toledot (תולדות — generations/nature; the moral characteristics produced by each spirit in humanity)"
+    ],
     "ane_backdrop": "Ancient Near Eastern cosmologies commonly featured opposing divine or semi-divine forces governing cosmic order and chaos. In Zoroastrianism, Ahura Mazda (light) opposed Angra Mainyu (darkness) in an eternal cosmic struggle. Mesopotamian creation myths depicted battles between order-gods and chaos-monsters. Egyptian theology contrasted Ma'at (cosmic order) with Isfet (chaos). The Qumran Two Spirits doctrine represents a uniquely Jewish adaptation of these dualistic patterns, maintaining strict monotheism while incorporating angelic intermediaries. Unlike Persian dualism where good and evil are co-eternal principles, the Yahad affirmed God's absolute sovereignty over both spirits. This theological synthesis reflects Second Temple Judaism's engagement with Hellenistic and Persian thought while preserving Israel's covenantal monotheism.",
     "second_temple": [
         {
@@ -210,7 +227,15 @@ CHAPTERS = [
         "text": "When these things exist in Israel, the council of the community shall be established in truth... to prepare the way in the wilderness, as it is written: 'In the wilderness prepare the way of the LORD, make straight in the desert a highway for our God'",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "midbar (מדבר — wilderness; the place of covenant formation and eschatological preparation)",
+        "maskil (משכיל — instructor/wise one; the community's teaching authority who guides in divine wisdom)",
+        "midrash ha-torah (מדרש התורה — study/exposition of Torah; the community's continuous scriptural investigation)",
+        "pannu derekh (פנו דרך — prepare the way; from Isa 40:3, the community's self-understanding as God's highway builders)",
+        "'atsah (עצה — council/counsel; the governing body of twelve men and three priests)",
+        "sod (סוד — secret counsel/divine council; the heavenly assembly whose wisdom the maskil transmits)",
+        "yesod (יסוד — foundation; the community as the tested cornerstone of God's eschatological building)"
+    ],
     "ane_backdrop": "Ancient Near Eastern royal ideology provides the backdrop for Isaiah 40:3's imagery. When a king traveled through his realm, advance teams would literally prepare roads, removing obstacles and smoothing the path. The community appropriates this royal highway language, understanding themselves as preparing not a physical road but a spiritual pathway for God's eschatological arrival. The wilderness itself held profound significance in Israelite memory — it was where the nation was formed, where they received Torah at Sinai, and where prophets like Elijah encountered God. By withdrawing to the wilderness, the Qumran community reenacts Israel's formative experience, positioning themselves as the true Israel being refined in preparation for the new covenant age. The number fifteen in the council (twelve plus three) reflects the traditional tribal structure of Israel, asserting continuity with the ancient covenant people.",
     "second_temple": [
         {
@@ -301,7 +326,16 @@ CHAPTERS = [
         "text": "This is the rule for the men of the community who freely devote themselves to turn from all evil and to hold fast to all that He has commanded according to His will, to separate from the congregation of the men of injustice in order to constitute a community in Law and possessions, replying to the authority of the sons of Zadok, the priests who keep the covenant, and to the authority of the multitude of the men of the community who hold fast to the covenant.",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "bene tsadoq (בני צדוק — Sons of Zadok; the priestly authority governing the community's covenant life)",
+        "rabbim (רבים — the Many/the assembly; the general membership body with voting authority)",
+        "moshav (מושב — session/seating; the ranked assembly order reflecting spiritual hierarchy)",
+        "hon (הון — wealth/property; communal possessions surrendered upon full initiation)",
+        "'onesh (עונש — penalty/punishment; the disciplinary consequences for violating community rules)",
+        "nidaḥ (נדח — expulsion/banishment; permanent removal from the covenant community for grave offenses)",
+        "serekh (סרך — rule/order; the regulatory framework governing every aspect of community life)",
+        "paqid (פקיד — overseer/guardian; the official who examines new members and manages communal affairs)"
+    ],
     "ane_backdrop": "The concept of communal property sharing had precedents in ancient Near Eastern temple communities and Greek philosophical schools like the Pythagoreans. Egyptian temple complexes maintained strict hierarchies with graded access to sacred spaces based on rank and purity. Mesopotamian scribal guilds enforced behavioral codes with economic penalties—fines, reduced rations, or expulsion. The penal code's specificity reflects ancient Near Eastern legal traditions where precise casuistic law (if X, then Y) governed community life. The hierarchical seating arrangement mirrors ancient banquet customs where social status determined proximity to the host. What distinguishes Qumran is the theological rationale: these structures enable communion with the angelic hosts who maintain similar hierarchies in the divine council.",
     "second_temple": [
         {
@@ -392,7 +426,15 @@ CHAPTERS = [
         "text": "He shall not be justified while he maintains the stubbornness of his heart... He shall neither be purified by atonement offerings nor cleansed by lustral waters... Unclean, unclean shall he be as long as he rejects the ordinances of God",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "tevilah (טבילה — immersion; ritual water purification, ineffective without inner repentance)",
+        "tohorah (טהרה — purity/purification; the holiness state required for angelic fellowship)",
+        "sherirut lev (שרירות לב — stubbornness of heart; the inner rebellion that nullifies external ritual)",
+        "mishpat (משפט — ordinance/judgment; God's regulatory standards that must be internalized, not just performed)",
+        "luaḥ (לוח — calendar; the 364-day solar calendar distinguishing true from corrupted worship)",
+        "ma'akhal (מאכל — communal meal; the sacred shared table restricted during probation periods)",
+        "mishteh (משתה — sacred drink; the pure drink of the Many, withheld until second year of initiation)"
+    ],
     "ane_backdrop": "Ancient Near Eastern purification rituals typically emphasized external cleansing through water, oil, and sacrificial blood to remove ritual impurity before approaching the divine. Egyptian priests bathed multiple times daily before temple service, while Mesopotamian texts prescribe elaborate washing ceremonies for priests and worshippers. The Hittite ritual texts contain detailed purification procedures involving running water to remove defilement. However, the Qumran community's insistence that external washing is meaningless without internal moral transformation represents a significant theological development beyond typical ANE practice. While prophetic texts like Ezekiel 36:25-27 had already connected water imagery with spiritual renewal, the Community Rule systematizes this connection into a comprehensive initiation theology that would profoundly influence later Jewish and Christian baptismal practices.",
     "second_temple": [
         {
@@ -483,7 +525,15 @@ CHAPTERS = [
         "text": "As for me, if I stumble, the mercies of God shall be my salvation always; and if I fall in the sin of the flesh, my justification shall stand forever through God's righteousness... In His mercy He has drawn me close, and with His favors He will render my justification.",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "tsedaqah (צדקה — righteousness; belongs to God alone, not achievable by human effort)",
+        "ḥesed (חסד — mercy/lovingkindness; God's gracious action that draws the unworthy near)",
+        "yetser ḥomer (יצר חומר — creature of clay; humanity's fundamental material weakness before God)",
+        "razei pele' (רזי פלא — wonderful mysteries; divine secrets revealed to the elect through grace)",
+        "mishpaṭ (משפט — justification/judgment; God's verdict of righteousness over the repentant sinner)",
+        "da'at (דעת — knowledge; divine understanding granted to the maskil beyond human capacity)",
+        "seliḥah (סליחה — forgiveness; God's pardon that establishes covenant standing despite human failure)"
+    ],
     "ane_backdrop": "Ancient Near Eastern hymnic literature typically praised deities for their power, wisdom, and favor toward their devotees, but rarely with the theological sophistication seen here. Mesopotamian penitential psalms confessed human weakness before the gods, and Egyptian wisdom texts acknowledged divine sovereignty, yet the Community Rule's hymn synthesizes confession and praise in a uniquely Israelite way. The concept of divine 'justification' of the unworthy appears in some Babylonian texts, but always contingent on proper ritual performance or moral reformation. The maskil's hymn breaks this pattern by grounding justification entirely in God's sovereign mercy and knowledge, not human achievement. The Ancient Near Eastern background helps us appreciate how revolutionary this theology was: in a world where divine favor was earned through sacrifice, ritual purity, and moral performance, the Qumran community proclaimed justification by divine grace alone. This represented a radical departure from the transactional religion of Israel's neighbors and even from much of Second Temple Judaism's emphasis on Torah obedience as the path to righteousness.",
     "second_temple": [
         {

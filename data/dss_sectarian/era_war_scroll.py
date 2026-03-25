@@ -20,7 +20,15 @@ CHAPTERS = [
         "text": "The first attack of the Sons of Light shall be undertaken against the lot of the Sons of Darkness, against the army of Belial: against the troop of Edom, Moab, the sons of Ammon, and [the land of] Philistia, and against the troops of the Kittim of Asshur, and with them those who assist them from among the violators of the covenant.",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "bene 'or (בני אור — Sons of Light; the eschatological army of God drawn from Levi, Judah, and Benjamin)",
+        "bene ḥoshekh (בני חושך — Sons of Darkness; the cosmic enemy alliance under Belial including Kittim and apostates)",
+        "kittim (כתיים — Kittim; the Romans, identified as the primary earthly instrument of Belial's forces)",
+        "beliyya'al (בליעל — Belial; the chief demonic commander leading the forces of darkness in the final war)",
+        "goral (גורל — lot; the cosmic division assigning every person and nation to either God's army or Belial's)",
+        "milḥamah (מלחמה — war/battle; the forty-year eschatological conflict ending Belial's dominion forever)",
+        "sheva' (שבע — seven; the sacred number of decisive battles, with God intervening in the seventh for final victory)"
+    ],
     "ane_backdrop": "Ancient Near Eastern warfare traditions inform the War Scroll's structure and ideology. Mesopotamian and Egyptian royal inscriptions regularly depicted earthly battles as cosmic conflicts between patron deities—Marduk vs. Tiamat, Ashur vs. chaos forces, Amun-Ra defeating foreign gods alongside Pharaoh's armies. The concept of divinely ordained war plans, sacred lots determining battle outcomes, and forty-year generational cycles all have ANE precedents. Hittite military texts describe ritualized warfare with priestly involvement, while Assyrian annals frame conquests as executing divine council decrees. The War Scroll's seven-battle structure echoes widespread ANE patterns of sacred numerology in warfare accounts. The identification of enemies by tribal-territorial designations (Edom, Moab, Ammon) reflects the ancient worldview where geography, ethnicity, and spiritual allegiance were inseparable—each nation represented not just a people but a cosmic jurisdiction under spiritual authority.",
     "second_temple": [
         {
@@ -111,7 +119,15 @@ CHAPTERS = [
         "text": "On the standards of the congregation they shall write: 'Congregation of God,' 'Camps of God,' 'Tribes of God,' 'Families of God'... On the standards of the assembly of the camps they shall write: 'Peace of God in the camps of His saints'",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "ḥatsotsrot (חצוצרות — trumpets; the signal instruments commanding every phase of battle from assembly to retreat)",
+        "'otot (אותות — standards/banners; the inscribed military emblems declaring divine ownership of each unit)",
+        "ma'arakhah (מערכה — battle line/formation; the seven-line combat arrangement reflecting sacred military order)",
+        "parashat (פרשת — cavalry division; the mounted units organized alongside infantry and slingers)",
+        "gibborim (גיבורים — mighty warriors; the combat soldiers aged 25-49 chosen for frontline eschatological battle)",
+        "mishmerot (משמרות — divisions/watches; the rotating military courses maintaining readiness for the final war)",
+        "'am 'el (עם אל — People of God; the banner inscription declaring the army's identity as God's covenant force)"
+    ],
     "ane_backdrop": "The War Scroll's military organization reflects sophisticated knowledge of Hellenistic and Roman military practices that dominated the Ancient Near East in the Second Temple period. The detailed trumpet signals parallel Greek and Roman military manuals that prescribed specific audio commands for battlefield coordination. The seven-line battle formation shows awareness of phalanx tactics developed by Alexander the Great and refined by his successors. Age-based military service requirements (25-49 for combat) align with practices in Hellenistic armies and later Roman legions, which recognized that military effectiveness peaked in these years. The use of inscribed standards and banners to identify units and inspire troops was universal in ancient warfare, from Egyptian campaigns to Roman legions. However, the War Scroll transforms these conventional military elements into theological statements, making every tactical detail a declaration of divine sovereignty and covenant relationship.",
     "second_temple": [
         {
@@ -206,7 +222,15 @@ CHAPTERS = [
         "text": "On that day the assembly of the gods and the congregation of men shall confront one another for great destruction. The sons of light and the lot of darkness shall battle together for the might of God, amid the roar of a great multitude and the clamor of gods and men",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "mikha'el (מיכאל — Michael; the Prince of Light who leads the angelic host alongside Israel in eschatological battle)",
+        "sar ha-'orim (שר האורים — Prince of Light; Michael's title as commander of God's loyal heavenly forces)",
+        "'adat 'elim (עדת אלים — assembly of divine beings; the heavenly host fighting alongside human warriors)",
+        "'adat 'anashim (עדת אנשים — congregation of men; the earthly army converging with angelic forces on the battlefield)",
+        "ḥevel (חבל — destruction/birth pang; the catastrophic collision when heaven and earth join in final battle)",
+        "naḥalat 'el (נחלת אל — inheritance of God; Israel as God's own portion among the divided nations, per Deut 32:8-9)",
+        "elyon (עליון — Most High; God's supreme title as sovereign commander over both human and angelic armies)"
+    ],
     "ane_backdrop": "Ancient Near Eastern warfare was inherently theological—battles were fought between nations and their patron deities simultaneously. Mesopotamian texts routinely describe gods fighting alongside human armies, with victory attributed to divine intervention. The Mesha Stele records how Chemosh, god of Moab, was 'angry with his land' but then delivered Israel into Moab's hands. Egyptian battle accounts depict Amun-Ra fighting for Pharaoh, while Hittite treaties invoke divine witnesses who enforce covenant terms through military defeat. The War Scroll operates within this conceptual framework but inverts it: Israel's God is the Most High who presides over the divine council, and the 'gods' fighting for other nations are rebellious members of that council. Where ANE texts present equal divine combatants, the War Scroll presents a hierarchical reality where YHWH's supremacy guarantees ultimate victory despite temporary setbacks. The sectarians understood themselves as fighting the same cosmic war described in Deuteronomy 32:8-9, where the Most High assigned nations to divine beings but kept Israel as his own inheritance.",
     "second_temple": [
         {
@@ -301,7 +325,15 @@ CHAPTERS = [
         "text": "Who is like You in strength, O God of Israel? Your mighty hand is with the poor. Which angel or prince is like the help of Your face?",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "tefillah (תפלה — prayer; the liturgical petitions recited by priests before and during eschatological battle)",
+        "'el gibor (אל גבור — God the Warrior; the divine title invoked in pre-battle prayers echoing the Song of the Sea)",
+        "shirat ha-nitsaḥon (שירת הנצחון — victory hymn; the songs of triumph celebrating God's sovereign battle outcomes)",
+        "kohen (כהן — priest; the liturgical officer who leads prayers, sounds trumpets, and directs the spiritual dimension of warfare)",
+        "yeshu'ah (ישועה — salvation/deliverance; God's definitive rescue of the Sons of Light attributed to divine power alone)",
+        "gevu'rah (גבורה — might/strength; the divine power that secures victory, rendering human military strength secondary)",
+        "'ani (עני — poor/humble; the faithful remnant whom God defends despite their military weakness)"
+    ],
     "ane_backdrop": "Ancient Near Eastern battle prayers typically invoked patron deities to fight alongside human armies. Egyptian, Hittite, and Mesopotamian texts describe gods riding storm clouds into battle or shooting arrows from heaven. The divine warrior motif appears throughout ANE literature, with gods like Marduk, Baal, and Ashur portrayed as cosmic champions. Israel's battle prayers, however, uniquely emphasize YHWH's incomparability among divine beings and reject reliance on military might. The War Scroll continues this tradition, framing eschatological warfare within the divine council framework where YHWH commands all heavenly hosts. Unlike ANE polytheism where multiple gods might support opposing armies, the Scroll presents a unified divine realm under YHWH's absolute sovereignty.",
     "second_temple": [
         {
@@ -396,7 +428,15 @@ CHAPTERS = [
         "text": "Rise up, rise up, O God of gods! Raise yourself in might, O King of kings!... Let all the Sons of Darkness scatter before you! Let the light of your majesty shine forever",
         "translation": "Vermes/Martinez composite reconstruction"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "mappalat beliyya'al (מפלת בליעל — fall/defeat of Belial; the permanent destruction of the chief demonic adversary)",
+        "'esh (אש — fire; the divine consuming flame that annihilates Belial's forces in the seventh battle)",
+        "memshelet 'or (ממשלת אור — dominion of light; the eternal divine rule established after darkness is abolished)",
+        "qum (קום — arise; the imperative cry 'Rise up, O God of gods!' invoking the divine warrior's final intervention)",
+        "nitsaḥon (נצחון — victory; the permanent, irrevocable triumph of God's sovereignty over all rebellion)",
+        "ḥerev (חרב — sword; divine judgment weapon wielded against Belial's armies in the climactic confrontation)",
+        "hod (הוד — majesty/splendor; the divine glory that scatters the Sons of Darkness and ends their dominion forever)"
+    ],
     "ane_backdrop": "The War Scroll's final battle draws on Ancient Near Eastern holy war traditions where divine intervention secures victory. Mesopotamian texts like the Enuma Elish depict cosmic battles between order and chaos, with the victorious deity establishing eternal rule. Egyptian texts describe the pharaoh's enemies being consumed by divine fire. The concept of a seven-stage conflict reflects ancient numerology where seven represents completion and perfection. Unlike ANE parallels where gods battle other gods in perpetual cycles, the War Scroll presents an absolute, final victory—darkness is permanently abolished rather than temporarily subdued. This reflects Israel's linear eschatology versus the cyclical worldview of surrounding cultures. The divine warrior motif appears throughout ANE literature, but the War Scroll's emphasis on moral dualism and eschatological finality distinguishes it from polytheistic precedents.",
     "second_temple": [
         {

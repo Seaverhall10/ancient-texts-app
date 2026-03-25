@@ -745,6 +745,28 @@
       "description": "How Enoch became the template for all prophetic council access — from Genesis 5 through the throne vision to Isaiah, Ezekiel, Paul, and John"
     },
     {
+      "id": "melchizedek_priesthood",
+      "name": "Melchizedek and the Royal Priesthood",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 9,
+      "color": "#8a6a3a",
+      "data_dir": "melchizedek_priesthood",
+      "interlinear": null,
+      "description": "From Genesis 14 through Psalm 110 to Hebrews 7 — the priest-king order that bypasses Levi and culminates in Christ"
+    },
+    {
+      "id": "riv_prosecutors",
+      "name": "The Riv: Prophets as Covenant Prosecutors",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 9,
+      "color": "#5a3a3a",
+      "data_dir": "riv_prosecutors",
+      "interlinear": null,
+      "description": "The covenant lawsuit framework — how prophets functioned as royal messengers from YHWH's divine council, prosecuting Israel for covenant breach"
+    },
+    {
       "id": "job",
       "name": "Job",
       "category": "ot",
@@ -3440,6 +3462,24 @@
       ]
     },
     {
+      "id": "luke_journey",
+      "text": "luke",
+      "name": "The Travel Narrative — Parables, Prayer, and the Road to Jerusalem",
+      "chapters": "Luke 9:51–19:27",
+      "color": "#7a8a9a",
+      "icon": "IV",
+      "data_file": "era_luke_journey",
+      "themes": [
+        "Good Samaritan",
+        "Prodigal Son",
+        "Parables of grace",
+        "Cost of discipleship",
+        "Prayer teaching",
+        "Rich Fool / Rich Man and Lazarus",
+        "Zacchaeus"
+      ]
+    },
+    {
       "id": "john_signs",
       "text": "john",
       "name": "The Book of Signs",
@@ -3471,6 +3511,24 @@
         "Pre-existent glory",
         "Tetelestai",
         "My Lord and My God"
+      ]
+    },
+    {
+      "id": "john_discourse",
+      "text": "john",
+      "name": "I AM, the Farewell, and the Hour of Glory — Deep Dive",
+      "chapters": "John 8, 14–19",
+      "color": "#8a6a9a",
+      "icon": "III",
+      "data_file": "era_john_discourse",
+      "themes": [
+        "Seven I AM statements",
+        "Ego eimi / divine name",
+        "Farewell Discourse",
+        "Parakletos promise",
+        "High Priestly Prayer",
+        "Tetelestai — priestly declaration",
+        "Upper Room theology"
       ]
     },
     {
@@ -4685,13 +4743,29 @@
       "name": "Visions & Hope",
       "chapters": "Amos 5–9",
       "color": "#6a5a3a",
-      "icon": "I",
+      "icon": "II",
       "data_file": "era_79b_visions_hope",
       "themes": [
         "Five visions",
         "Day of YHWH",
         "Confrontation at Bethel",
         "Fallen booth of David"
+      ]
+    },
+    {
+      "id": "amos_riv",
+      "text": "amos",
+      "name": "The Covenant Prosecutor — Deep Dive",
+      "chapters": "Amos 3–4, 8",
+      "color": "#6a5a3a",
+      "icon": "III",
+      "data_file": "era_amos_riv",
+      "themes": [
+        "Divine council sod",
+        "Covenant lawsuit (riv)",
+        "Prophetic authority",
+        "Social justice indictment",
+        "Famine of the word"
       ]
     },
     {
@@ -4707,6 +4781,22 @@
         "Edom's pride",
         "Day of YHWH",
         "Kingdom belongs to YHWH"
+      ]
+    },
+    {
+      "id": "obadiah_edom",
+      "text": "obadiah",
+      "name": "Edom Deep Dive — Pride, Betrayal, and the Kingdom",
+      "chapters": "Obadiah 1–21",
+      "color": "#7a6a5a",
+      "icon": "II",
+      "data_file": "era_obadiah_edom",
+      "themes": [
+        "Edom's cosmic pride",
+        "Jacob-Esau rivalry",
+        "Betrayal at Jerusalem's fall",
+        "Day of YHWH for all nations",
+        "Kingdom restoration"
       ]
     },
     {
@@ -4904,6 +4994,22 @@
         "Glory of latter house",
         "Zerubbabel as signet",
         "Shaking of nations"
+      ]
+    },
+    {
+      "id": "haggai_glory",
+      "text": "haggai",
+      "name": "The Latter Glory — Deep Dive",
+      "chapters": "Haggai 2",
+      "color": "#8a7a4a",
+      "icon": "II",
+      "data_file": "era_haggai_glory",
+      "themes": [
+        "Latter glory greater than former",
+        "Shaking heavens and earth",
+        "Zerubbabel as signet ring",
+        "Messianic descendant",
+        "Holy vs unclean teaching"
       ]
     },
     {
@@ -5606,6 +5712,162 @@
         "Paul caught up",
         "Revelation 4",
         "Council access pattern"
+      ]
+    },
+    {
+      "id": "melchizedek_origins",
+      "text": "melchizedek_priesthood",
+      "name": "Part I: Origins — Genesis 14 and El Elyon",
+      "chapters": "Chapters 1–3",
+      "color": "#8a6a3a",
+      "icon": "I",
+      "data_file": "era_melchizedek_origins",
+      "themes": [
+        "Genesis 14 encounter",
+        "King of Salem",
+        "El Elyon",
+        "Levitical problem",
+        "Bread and wine"
+      ]
+    },
+    {
+      "id": "melchizedek_psalm110",
+      "text": "melchizedek_priesthood",
+      "name": "Part II: Psalm 110, 11QMelchizedek, and Hebrews",
+      "chapters": "Chapters 4–6",
+      "color": "#8a6a3a",
+      "icon": "II",
+      "data_file": "era_melchizedek_psalm110",
+      "themes": [
+        "Psalm 110 oath",
+        "11QMelchizedek DSS",
+        "Hebrews 5-7",
+        "Priest forever",
+        "Indestructible life"
+      ]
+    },
+    {
+      "id": "melchizedek_fulfillment",
+      "text": "melchizedek_priesthood",
+      "name": "Part III: Fulfillment — From Salem to the Upper Room",
+      "chapters": "Chapters 7–9",
+      "color": "#8a6a3a",
+      "icon": "III",
+      "data_file": "era_melchizedek_fulfillment",
+      "themes": [
+        "Priest-king union",
+        "Bread and wine",
+        "Heavenly tabernacle",
+        "Royal priesthood of believers",
+        "Ekklesia"
+      ]
+    },
+    {
+      "id": "riv_framework",
+      "text": "riv_prosecutors",
+      "name": "Part I: The Covenant Lawsuit Framework",
+      "chapters": "Chapters 1–3",
+      "color": "#5a3a3a",
+      "icon": "I",
+      "data_file": "era_riv_framework",
+      "themes": [
+        "Riv pattern",
+        "Royal messenger protocol",
+        "Divine council commissioning",
+        "Sinai covenant",
+        "Deuteronomy curses"
+      ]
+    },
+    {
+      "id": "riv_major",
+      "text": "riv_prosecutors",
+      "name": "Part II: The Major Prosecutors — Isaiah, Jeremiah, Ezekiel",
+      "chapters": "Chapters 4–6",
+      "color": "#5a3a3a",
+      "icon": "II",
+      "data_file": "era_riv_major",
+      "themes": [
+        "Isaiah vineyard",
+        "Jeremiah weeping prosecutor",
+        "Ezekiel merkavah",
+        "Glory departs",
+        "New covenant"
+      ]
+    },
+    {
+      "id": "riv_twelve",
+      "text": "riv_prosecutors",
+      "name": "Part III: The Twelve and the Final Prosecutor",
+      "chapters": "Chapters 7–9",
+      "color": "#5a3a3a",
+      "icon": "III",
+      "data_file": "era_riv_twelve",
+      "themes": [
+        "Book of the Twelve",
+        "Lost prophets",
+        "Jesus as prosecutor",
+        "Temple cleansing",
+        "Riv fulfilled"
+      ]
+    },
+    {
+      "id": "joel_cosmic",
+      "text": "joel",
+      "name": "The Day of YHWH — Cosmic Vision Deep Dive",
+      "chapters": "Joel 1:15–3:21",
+      "color": "#6a5a4a",
+      "icon": "III",
+      "data_file": "era_joel_cosmic",
+      "themes": [
+        "Divine warrior army",
+        "Sun to darkness, moon to blood",
+        "Valley of Decision",
+        "YHWH roars from Zion"
+      ]
+    },
+    {
+      "id": "zephaniah_nations",
+      "text": "zephaniah",
+      "name": "Cosmic Undoing and the Nations Deep Dive",
+      "chapters": "Zephaniah 1–3",
+      "color": "#5a5a6a",
+      "icon": "III",
+      "data_file": "era_zephaniah_nations",
+      "themes": [
+        "De-creation reversal",
+        "Day of YHWH",
+        "Oracles against nations",
+        "Seek humility"
+      ]
+    },
+    {
+      "id": "jonah_mercy",
+      "text": "jonah",
+      "name": "Divine Mercy and the Angry Prophet Deep Dive",
+      "chapters": "Jonah 1–4",
+      "color": "#4a7a6a",
+      "icon": "III",
+      "data_file": "era_jonah_mercy",
+      "themes": [
+        "Reluctant prophet",
+        "Sovereign mercy",
+        "Pagan conversion",
+        "YHWH's unanswered question"
+      ]
+    },
+    {
+      "id": "nahum_warrior",
+      "text": "nahum",
+      "name": "The Divine Warrior — YHWH Against Nineveh Deep Dive",
+      "chapters": "Nahum 1–3",
+      "color": "#6a4a4a",
+      "icon": "III",
+      "data_file": "era_nahum_warrior",
+      "themes": [
+        "Divine warrior theophany",
+        "Jonah-Nahum contrast",
+        "Nineveh's fall",
+        "Assyrian empire end"
       ]
     }
   ]

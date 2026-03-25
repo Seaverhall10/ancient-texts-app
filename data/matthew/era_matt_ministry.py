@@ -790,7 +790,7 @@ CHAPTERS = [
             {"ref": "Daniel 7:13-14", "note": "The Son of Man's authority -- background to Jesus' 'Son of Man' title used throughout these chapters (12:8, 32, 40)", "type": "ot"},
             {"ref": "Psalm 78:2", "note": "'I will open my mouth in a parable; I will utter dark sayings from of old' -- quoted in Matt 13:35 as the basis for Jesus' parabolic teaching", "type": "ot"},
             {"ref": "Mark 3:22-30", "note": "Mark's parallel Beelzebul controversy -- includes the 'blasphemy against the Holy Spirit' warning with Mark's characteristic urgency", "type": "nt"},
-            {"ref": "1 Enoch 10:4-6", "note": "The binding of Azazel -- apocalyptic background to the 'binding the strong man' in Matt 12:29", "type": "noncanonical"},
+            {"ref": "1 Enoch 10:4-6", "note": "The binding of Azazel -- apocalyptic background to the 'binding the strong man' in Matt 12:29", "type": "pseudepigrapha"},
             {"ref": "Revelation 20:1-3", "note": "Satan bound for a thousand years -- the eschatological fulfillment of the 'binding the strong man' that Jesus began in his ministry", "type": "nt"}
         ],
 

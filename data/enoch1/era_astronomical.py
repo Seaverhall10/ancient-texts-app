@@ -61,7 +61,13 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "shamayim",
+            "raqia",
+            "malak_yhwh",
+            "olam",
+            "mishpat",
+        ],
 
         "ane_backdrop": "Ancient calendrical systems varied widely. The Mesopotamian "
                         "calendar was lunisolar (354 days adjusted by intercalary "
@@ -225,7 +231,13 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "shamayim",
+            "raqia",
+            "ruach",
+            "malak_yhwh",
+            "olam",
+        ],
 
         "ane_backdrop": "Lunar observation was the basis of most ANE calendrical "
                         "systems. The Mesopotamian calendar was fundamentally lunar, "
@@ -369,7 +381,13 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "shamayim",
+            "raqia",
+            "ruach",
+            "malak_yhwh",
+            "kavod",
+        ],
 
         "ane_backdrop": "The systematic mapping of the world into four quarters with "
                         "numbered mountains and rivers reflects ANE geographic traditions. "
@@ -510,7 +528,13 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "malak_yhwh",
+            "shamayim",
+            "mishpat",
+            "olam",
+            "kavod",
+        ],
 
         "ane_backdrop": "The concept that celestial bodies operate according to \'laws\' "
                         "(Akkadian: kishru, \'bond/regulation\') is attested in Mesopotamian "
@@ -663,7 +687,13 @@ CHAPTERS = [
                     "understanding Second Temple Judaism\'s deepest theological division.",
 
         "key_verse": None,
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "shamayim",
+            "qodesh",
+            "berit",
+            "malak_yhwh",
+            "mishpat",
+        ],
         "ane_backdrop": None,
         "second_temple": [],
 
@@ -788,7 +818,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "shamayim",
+            "mishpat",
+            "cherem",
+            "olam",
+            "tsaddiq",
+            "lukhot_shamayim",
+        ],
 
         "ane_backdrop": "The concept of cosmic disruption as a sign of moral "
                         "degradation is widespread in the ANE. Mesopotamian omen "
@@ -947,7 +984,13 @@ CHAPTERS = [
                     "community's separation from the Jerusalem establishment.",
 
         "key_verse": None,
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "shamayim",
+            "qodesh",
+            "berit",
+            "mishpat",
+            "avodah",
+        ],
         "ane_backdrop": None,
         "second_temple": [],
 

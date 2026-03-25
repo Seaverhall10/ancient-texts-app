@@ -1,4 +1,35 @@
 /**
+ * Bible Analysis — inline book-card helpers (global for onclick handlers)
+ */
+function toggleAnalysisCard(header) {
+    header.parentElement.classList.toggle('open');
+}
+function filterAnalysisBooks(query) {
+    query = query.toLowerCase().trim();
+    document.querySelectorAll('.ba-book-card').forEach(function(card) {
+        if (!query) { card.style.display = ''; return; }
+        var text = (card.textContent || '').toLowerCase();
+        var themes = (card.dataset.themes || '').toLowerCase();
+        card.style.display = (text.includes(query) || themes.includes(query)) ? '' : 'none';
+    });
+}
+var baActiveFilter = null;
+function toggleAnalysisFilter(theme) {
+    document.querySelectorAll('.ba-filter-btn').forEach(function(b) { b.classList.remove('active'); });
+    if (theme === 'all' || baActiveFilter === theme) {
+        baActiveFilter = null;
+        document.querySelectorAll('.ba-book-card').forEach(function(c) { c.style.display = ''; });
+        return;
+    }
+    baActiveFilter = theme;
+    if (event && event.target) event.target.classList.add('active');
+    document.querySelectorAll('.ba-book-card').forEach(function(card) {
+        var themes = (card.dataset.themes || '').split(' ');
+        card.style.display = themes.includes(theme) ? '' : 'none';
+    });
+}
+
+/**
  * Ancient Texts Library — App Controller (IIFE)
  * Handles: library navigation, era navigation, chapter rendering, scroll-spy,
  *          search, bookmarks, cross-ref drawer, glossary overlay, hash routing,
@@ -2164,7 +2195,7 @@
         // Method
         html += '<div class="analysis-card">' +
             '<h3>How This Was Built</h3>' +
-            '<p>Every one of our <strong>284 era files</strong> across <strong>86 texts</strong> was read and analyzed. For each book we tracked:</p>' +
+            '<p>Every one of our <strong>300 era files</strong> across <strong>88 texts</strong> was read and analyzed. For each book we tracked:</p>' +
             '<ul>' +
             '<li><strong>Major &amp; minor themes</strong> \u2014 22 theme codes (SEED, COVENANT, DIVINE COUNCIL, etc.) assigned to every chapter</li>' +
             '<li><strong>Contested Hebrew/Greek words</strong> \u2014 100+ translation landmines rated CRITICAL, MAJOR, or NOTABLE</li>' +
@@ -2246,26 +2277,12 @@
             '<span class="at-tag" style="--tc:#b5564a">LOVE</span>' +
             '</div></div>';
 
-        // What's Next
-        html += '<div class="analysis-card">' +
-            '<h3>Ongoing Deep Mapping Plan</h3>' +
-            '<p>The scan is never finished. Here is the roadmap for continued analysis:</p>' +
-            '<ul>' +
-            '<li><strong>Theme filtering in the reader</strong> \u2014 use the 22 theme codes to filter chapters by topic across all 66 books</li>' +
-            '<li><strong>Contested word glossary</strong> \u2014 dedicated searchable index of 100+ translation landmines with severity ratings</li>' +
-            '<li><strong>Cross-reference heat map</strong> \u2014 visual map showing which books cite which (density = line thickness)</li>' +
-            '<li><strong>Seed line tracker</strong> \u2014 trace the messianic lineage from Gen 3:15 through every genealogy to Christ</li>' +
-            '<li><strong>Divine council passage index</strong> \u2014 every passage where the heavenly assembly is visible, mapped chronologically</li>' +
-            '<li><strong>Geographic thread mapping</strong> \u2014 connect era content to journey map routes (24 routes, 206 waypoints)</li>' +
-            '<li><strong>Recurring pattern scanner</strong> \u2014 automated detection of type-scenes (well scenes, barren wife, theophany)</li>' +
-            '<li><strong>Second Temple context layer</strong> \u2014 connect every passage to its Second Temple reading tradition</li>' +
-            '</ul></div>';
+        // Search box for book cards
+        html += '<input type="text" class="ba-search-box" placeholder="Search books, themes, contested words..." oninput="filterAnalysisBooks(this.value)">';
 
-        // Full Reference Link
-        html += '<div class="analysis-card" style="text-align:center">' +
-            '<a href="docs/bible_study_reference.html" target="_blank" rel="noopener" class="analysis-full-link">Open Full Interactive Theme Index \u2192</a>' +
-            '<p style="margin-top:8px;color:var(--text-muted);font-size:0.8rem">4,142 lines \u2022 All 66 books + non-canonical texts \u2022 Searchable with theme filters</p>' +
-            '</div>';
+        // Filter bar + Book cards (injected by build.py)
+        var analysisBookCards = __BIBLE_ANALYSIS_HTML__;
+        html += analysisBookCards;
 
         html += '</div>'; // analysis section
         html += '</div>'; // end analysis tab

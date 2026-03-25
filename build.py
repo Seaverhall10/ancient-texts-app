@@ -461,6 +461,35 @@ def build():
         print(f"[search-qa] {len(search_qa_data)} Q&A entries loaded")
     js = js.replace("__SEARCH_QA_DATA__", json.dumps(search_qa_data, ensure_ascii=False))
 
+    # ── Inject Bible Analysis book cards HTML ─────────────────
+    ba_ref_path = os.path.join(BASE, "docs", "bible_study_reference.html")
+    analysis_html = ""
+    if os.path.exists(ba_ref_path):
+        ba_raw = read_file(ba_ref_path)
+        ba_lines = ba_raw.split('\n')
+        # Extract lines 228-558 (filter bar through last book card, 0-indexed: 227-557)
+        ba_chunk = '\n'.join(ba_lines[227:558])
+        # Prefix CSS classes to avoid conflicts
+        ba_chunk = ba_chunk.replace('book-card', 'ba-book-card')
+        ba_chunk = ba_chunk.replace('book-header', 'ba-book-header')
+        ba_chunk = ba_chunk.replace('book-body', 'ba-book-body')
+        ba_chunk = ba_chunk.replace('filter-bar', 'ba-filter-bar')
+        ba_chunk = ba_chunk.replace('filter-btn', 'ba-filter-btn')
+        ba_chunk = ba_chunk.replace('ref-table', 'ba-ref-table')
+        ba_chunk = ba_chunk.replace('section-header', 'ba-section-header')
+        ba_chunk = ba_chunk.replace('theme-grid', 'ba-theme-grid')
+        ba_chunk = ba_chunk.replace('"badge ', '"ba-badge ')
+        ba_chunk = ba_chunk.replace('"badge"', '"ba-badge"')
+        ba_chunk = ba_chunk.replace('xref', 'ba-xref')
+        # Rename JS function calls
+        ba_chunk = ba_chunk.replace('toggleCard(this)', 'toggleAnalysisCard(this)')
+        ba_chunk = ba_chunk.replace('filterBooks(', 'filterAnalysisBooks(')
+        ba_chunk = ba_chunk.replace('toggleFilter(', 'toggleAnalysisFilter(')
+        analysis_html = ba_chunk
+        card_count = ba_chunk.count('ba-book-card" id=')
+        print(f"[bible-analysis] {card_count} book cards extracted from reference HTML")
+    js = js.replace("__BIBLE_ANALYSIS_HTML__", json.dumps(analysis_html, ensure_ascii=False))
+
     # ── Build pre-computed search index ───────────────────────
     def _strip_html(s):
         return _re.sub(r'<[^>]+>', ' ', s).replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').replace('&quot;', '"')

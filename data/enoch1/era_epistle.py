@@ -62,7 +62,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "mishpat",
+            "tsedaqah",
+            "olam",
+            "tsaddiq",
+            "berit",
+            "mashiach",
+        ],
 
         "ane_backdrop": "The periodization of history into numbered epochs is a "
                         "widespread ANE and Second Temple convention. The Mesopotamian "
@@ -245,7 +252,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "mishpat",
+            "tsedaqah",
+            "olam",
+            "qodesh",
+            "berit",
+            "mabbul",
+        ],
 
         "ane_backdrop": "Historical periodization schemes are attested across the ANE. "
                         "The Hesiodic tradition (Works and Days, c. 700 BC) divides "
@@ -412,7 +426,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "tsaddiq",
+            "tsedaqah",
+            "mishpat",
+            "sheol",
+            "nefesh",
+            "olam",
+        ],
 
         "ane_backdrop": "The \'two ways\' or \'two paths\' motif is one of the oldest "
                         "moral frameworks in world literature. Egyptian wisdom texts "
@@ -575,7 +596,13 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "shamayim",
+            "mishpat",
+            "tsedaqah",
+            "berit",
+            "malak_yhwh",
+        ],
 
         "ane_backdrop": "The concept of creation as a moral witness has roots in "
                         "Mesopotamian and Egyptian traditions. In Egyptian judgment "
@@ -741,7 +768,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "mishpat",
+            "tsedaqah",
+            "arar",
+            "goy",
+            "sheol",
+            "yom_yhwh",
+        ],
 
         "ane_backdrop": "The prophetic 'woe' (Hebrew hoy) oracle is a distinctively "
                         "Israelite literary form with no close ANE parallel in its "
@@ -905,7 +939,13 @@ CHAPTERS = [
                     "sacred history.",
 
         "key_verse": None,
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "mishpat",
+            "olam",
+            "mashiach",
+            "berit",
+            "tsaddiq",
+        ],
         "ane_backdrop": None,
         "second_temple": [],
 
@@ -1040,7 +1080,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "sheol",
+            "nefesh",
+            "tsaddiq",
+            "mishpat",
+            "olam",
+            "ruach",
+        ],
 
         "ane_backdrop": "The question of post-mortem justice — why the righteous "
                         "suffer in life and what happens after death — is one of the "
@@ -1217,7 +1264,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "mabbul",
+            "tebah",
+            "nephilim",
+            "tsaddiq",
+            "berit",
+            "kavod",
+        ],
 
         "ane_backdrop": "The motif of a miraculous or divinely marked birth is "
                         "widespread in the ANE. Sargon of Akkad's birth legend "

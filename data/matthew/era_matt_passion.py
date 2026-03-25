@@ -88,7 +88,7 @@ CHAPTERS = [
         ],
 
         "cross_refs": [
-            {"ref": "1 Enoch 6:1-6", "note": "The Watchers' oath on Mount Hermon -- the background to Jesus' 'gates of Hades' declaration at the mountain's base", "type": "noncanonical"},
+            {"ref": "1 Enoch 6:1-6", "note": "The Watchers' oath on Mount Hermon -- the background to Jesus' 'gates of Hades' declaration at the mountain's base", "type": "pseudepigrapha"},
             {"ref": "Exodus 34:29-35", "note": "Moses' shining face after meeting YHWH on Sinai -- the Transfiguration reveals Jesus' glory as surpassing Moses'", "type": "ot"},
             {"ref": "2 Kings 2:11", "note": "Elijah taken to heaven -- one of the two witnesses at the Transfiguration who never died a normal death", "type": "ot"},
             {"ref": "Daniel 7:9-14", "note": "The Ancient of Days and Son of Man vision -- the Transfiguration's white garments and divine glory echo Daniel's throne room", "type": "ot"},

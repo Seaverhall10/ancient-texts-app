@@ -61,7 +61,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "mabbul",
+            "tehom",
+            "shamayim",
+            "tsaddiq",
+            "mishpat",
+            "kavod",
+        ],
 
         "ane_backdrop": "Prophetic dreams and visions warning of catastrophe are a "
                         "standard ANE literary convention. In the Atrahasis epic, the "
@@ -354,7 +361,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "nephilim",
+            "egregoroi",
+            "bene_elohim",
+            "gibborim",
+            "malak_yhwh",
+            "goy",
+        ],
 
         "ane_backdrop": "Animal symbolism for nations and rulers is among the oldest "
                         "literary conventions in the ANE. Egyptian pharaohs were depicted "
@@ -677,7 +691,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "bene_elohim",
+            "goy",
+            "malak_yhwh",
+            "mishpat",
+            "mashiach",
+            "egregoroi",
+        ],
 
         "ane_backdrop": "The concept of divinely appointed angelic overseers of "
                         "nations has deep roots in the ANE divine council tradition. "
@@ -855,7 +876,15 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "mishpat",
+            "egregoroi",
+            "mashiach",
+            "qodesh",
+            "goy",
+            "olam",
+            "sheol",
+        ],
 
         "ane_backdrop": "The replacement of an old temple with a new, greater one is "
                         "a common ANE royal motif. Mesopotamian kings regularly "
@@ -998,7 +1027,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "mashiach",
+            "ben_adam",
+            "goy",
+            "gibborim",
+            "mishpat",
+            "olam",
+        ],
 
         "ane_backdrop": "The horn as a symbol of power and authority is ubiquitous in "
                         "the ANE. Mesopotamian kings wore horned crowns to indicate "
@@ -1160,7 +1196,14 @@ CHAPTERS = [
                     "but more limited zoomorphic technique.",
 
         "key_verse": None,
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "nephilim",
+            "egregoroi",
+            "bene_elohim",
+            "goy",
+            "malak_yhwh",
+            "mashiach",
+        ],
         "ane_backdrop": None,
         "second_temple": [],
 

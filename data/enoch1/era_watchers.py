@@ -59,7 +59,15 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "egregoroi",
+            "qodesh",
+            "malak_yhwh",
+            "mishpat",
+            "yom_yhwh",
+            "kavod",
+            "shamayim",
+        ],
 
         "ane_backdrop": "The theophanic march of a deity from a sacred mountain "
                         "is a well-attested ANE motif. The Ugaritic Baal cycle "
@@ -628,7 +636,16 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "malak_yhwh",
+            "shemihazah",
+            "asael",
+            "nephilim",
+            "mishpat",
+            "mabbul",
+            "cherem",
+            "sod_yhwh",
+        ],
 
         "ane_backdrop": "The divine tribunal scene — in which subordinate deities "
                         "report to a supreme god and receive commissions — is a "
@@ -815,7 +832,15 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "tsedaqah",
+            "mishpat",
+            "olam",
+            "berit",
+            "mabbul",
+            "qodesh",
+            "shamayim",
+        ],
 
         "ane_backdrop": "Visions of a golden age characterized by impossible agricultural "
                         "abundance are attested across the ANE. The Sumerian paradise myth "
@@ -1095,7 +1120,16 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "egregoroi",
+            "merkavah",
+            "kavod",
+            "nephilim",
+            "shed",
+            "ruach",
+            "shamayim",
+            "qodesh_haqqodashim",
+        ],
 
         "ane_backdrop": "The heavenly throne room of 1 Enoch 14 draws on a rich "
                         "ANE tradition of cosmic temples. Mesopotamian temples were "
@@ -1293,7 +1327,15 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "shed",
+            "shedim",
+            "nephilim",
+            "ruach",
+            "ruach_ra",
+            "egregoroi",
+            "gibborim",
+        ],
 
         "ane_backdrop": "Demonic beings are ubiquitous in ANE religion. Mesopotamian "
                         "tradition includes an elaborate taxonomy of demons: utukku "
@@ -1452,7 +1494,14 @@ CHAPTERS = [
                     "and contextualizing the Book of the Watchers.",
 
         "key_verse": None,
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "egregoroi",
+            "shemihazah",
+            "asael",
+            "nephilim",
+            "cherem",
+            "har_hermon",
+        ],
         "ane_backdrop": None,
         "second_temple": [],
 
@@ -1586,7 +1635,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "tehom",
+            "shamayim",
+            "sheol",
+            "egregoroi",
+            "malak_yhwh",
+            "cherem",
+        ],
 
         "ane_backdrop": "Cosmic journey narratives in which a sage or hero traverses "
                         "the cosmos have deep roots in Mesopotamian literature. The "
@@ -1732,7 +1788,15 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "sheol",
+            "nefesh",
+            "ruach",
+            "malak_yhwh",
+            "mishpat",
+            "tsaddiq",
+            "olam",
+        ],
 
         "ane_backdrop": "The compartmentalized afterlife in 1 Enoch 22 represents "
                         "an important development beyond the older OT concept of Sheol "
@@ -1901,7 +1965,14 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "shamayim",
+            "sheol",
+            "qodesh",
+            "mishpat",
+            "olam",
+            "tsaddiq",
+        ],
 
         "ane_backdrop": "The concept of a cosmic center (axis mundi) from which the "
                         "world's sacred geography radiates outward is universal in "
@@ -2048,7 +2119,15 @@ CHAPTERS = [
                     "Christian theology in context.",
 
         "key_verse": None,
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            "egregoroi",
+            "nephilim",
+            "shed",
+            "sheol",
+            "bene_elohim",
+            "mishpat",
+            "ruach",
+        ],
         "ane_backdrop": None,
         "second_temple": [],
 

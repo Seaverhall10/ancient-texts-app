@@ -20,7 +20,15 @@ CHAPTERS = [
         "text": "And I will consecrate my temple by my glory, the temple on which I will settle my glory, until the day of the blessing on which I will create my temple, establishing it for myself for all time",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "torah (תורה — instruction/law; the divine legal corpus that the Temple Scroll rewrites in God's direct voice)",
+        "dibbur (דבור — speech/saying; God's first-person speech without Mosaic mediation throughout the scroll)",
+        "miqdash (מקדש — sanctuary/temple; the sacred dwelling God commands to be built according to His blueprint)",
+        "qiddesh (קדש — to consecrate/make holy; God's act of setting apart the temple by His own glory)",
+        "berakhah (ברכה — blessing; the covenant promise tied to obedience of the scroll's divine commands)",
+        "mishkan (משכן — tabernacle/dwelling; God's settled presence among Israel, the scroll's central concern)",
+        "sefer (ספר — scroll/book; the written Torah document claiming direct divine authorship without intermediary)"
+    ],
     "ane_backdrop": "Ancient Near Eastern royal inscriptions frequently employed first-person divine speech, particularly in temple foundation documents where deities declared their intentions and requirements. Mesopotamian temple texts often featured gods speaking directly about their cultic requirements, architectural specifications, and the establishment of their earthly dwelling places. Egyptian temple inscriptions similarly presented divine speech without intermediary, establishing the authority of cultic regulations. The Temple Scroll's first-person divine voice thus participates in a broader ANE literary tradition where temple construction and cultic law derived ultimate authority from direct divine declaration. However, the scroll's sustained first-person voice throughout an entire legal corpus represents an unprecedented development in Jewish literature, going far beyond the occasional divine speeches in biblical texts.",
     "second_temple": [
         {
@@ -115,7 +123,15 @@ CHAPTERS = [
         "text": "And you shall make an inner court and a middle court and an outer court, with gates on every side, and the measurement of the court shall be...",
         "translation": "Martinez"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "ḥatser (חצר — court/courtyard; the three concentric courts radiating holiness outward from God's presence)",
+        "sha'ar (שער — gate; the twelve tribal gates giving structured access to the sacred precinct)",
+        "mizbeaḥ (מזבח — altar; the central sacrificial structure at the heart of the ideal temple complex)",
+        "kiyor (כיור — laver/basin; the purification vessel for priestly washing before approaching the altar)",
+        "qodesh ha-qodashim (קודש הקודשים — Holy of Holies; the innermost sanctuary where God's presence dwells)",
+        "middah (מדה — measurement/dimension; the precise architectural specifications reflecting cosmic order)",
+        "tavnit (תבנית — pattern/blueprint; the divine architectural plan mirroring the heavenly temple structure)"
+    ],
     "ane_backdrop": "Sacred architecture throughout the ancient Near East embodied cosmic symbolism and served as the intersection point between divine and human realms. Mesopotamian ziggurats functioned as artificial mountains connecting earth to heaven, with ascending stages representing degrees of holiness as one approached the divine dwelling at the summit. Egyptian temple complexes featured concentric courts with increasingly restricted access, moving from outer public areas through hypostyle halls to the inner sanctuary where only the high priest could enter the presence of the deity. The Temple Scroll's three-court system reflects this widespread ANE pattern of graduated holiness. Ancient Near Eastern temples were understood as microcosms—miniature representations of the ordered cosmos—where the deity's enthronement maintained cosmic order against the forces of chaos. The twelve tribal gates in the Temple Scroll echo the cosmic geography found in Babylonian temple texts where gates oriented to celestial bodies and cardinal directions integrated earthly worship into the divine cosmic administration.",
     "second_temple": [
         {
@@ -210,7 +226,16 @@ CHAPTERS = [
         "text": "On the fourteenth day of the first month... is the Passover of the LORD. On the fifteenth day of this month is a festival, seven days unleavened bread shall be eaten",
         "translation": "Martinez"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "luaḥ (לוח — calendar; the 364-day solar system aligning earthly worship with the heavenly liturgy)",
+        "mo'adim (מועדים — appointed festivals; the sacred times fixed by divine decree in the solar calendar)",
+        "pesaḥ (פסח — Passover; the foundational liberation festival observed on the 14th of the first month)",
+        "shavu'ot (שבועות — Weeks/Pentecost; the harvest festival marking covenant renewal at Sinai)",
+        "tirosh (תירוש — new wine; the uniquely sectarian festival of New Wine not found in biblical Torah)",
+        "yitshar (יצהר — new oil; the uniquely sectarian festival of New Oil celebrating agricultural first fruits)",
+        "'etsim (עצים — wood; the Wood Offering festival for supplying the temple altar's perpetual fire)",
+        "tekufah (תקופה — season/turning; the four quarterly divisions of the 364-day year, each exactly 91 days)"
+    ],
     "ane_backdrop": "Ancient Near Eastern cultures universally recognized the cosmic significance of calendrical systems, viewing them as expressions of divine order imposed on chaos. Mesopotamian temples maintained elaborate astronomical records, with priests calculating lunar months and intercalary adjustments to maintain seasonal alignment. Egyptian solar calendars divided the year into 365 days, while Babylonian lunar calendars required complex intercalation. The Hebrew Bible itself reflects calendrical diversity — early texts use Canaanite month names (Abib, Ziv, Ethanim) while post-exilic texts adopt Babylonian names (Nisan, Iyyar, Tishri). The Qumran community's insistence on a fixed 364-day calendar represents a rejection of Babylonian influence and an attempt to recover what they believed was the original creation calendar. Their system's mathematical perfection (364 = 52 weeks exactly, with each quarter containing 91 days) reflects ancient Near Eastern fascination with cosmic harmony expressed through numerical patterns.",
     "second_temple": [
         {
@@ -305,7 +330,15 @@ CHAPTERS = [
         "text": "And you shall make a place outside the city to which they shall go, northwest of the city: roofed places with pits within them, into which the excrement shall descend",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "tohorah (טהרה — purity; the holiness state required for dwelling in the sacred city precincts)",
+        "tum'ah (טומאה — impurity; ritual contamination requiring exclusion from zones of holiness)",
+        "niddah (נדה — menstrual impurity; a major source of defilement requiring separation from the holy city)",
+        "moshav (מושב — dwelling/settlement; the inhabited zones governed by graduated purity requirements)",
+        "qedushah (קדושה — holiness; the divine quality radiating outward from the temple in concentric circles)",
+        "maqom (מקום — place; the designated locations for latrines and impure persons outside the sacred zone)",
+        "ḥomah (חומה — wall; the physical boundaries separating zones of increasing sanctity)"
+    ],
     "ane_backdrop": "Ancient Near Eastern temple complexes universally recognized gradations of sacred space, with increasing purity requirements as one approached the divine presence. Mesopotamian ziggurats, Egyptian temple precincts, and Hittite sanctuaries all employed physical barriers and ritual washings to separate the holy from the profane. However, the Temple Scroll's extension of sanctuary holiness to encompass an entire city represents an unprecedented expansion of this principle. While other ANE cultures confined extreme purity requirements to priests and temple personnel, the Qumran community democratized priestly holiness, requiring all residents of the holy city to maintain standards previously reserved for those serving at the altar. This reflects the broader Second Temple period trend toward intensified purity consciousness, particularly among groups anticipating imminent divine intervention.",
     "second_temple": [
         {
@@ -400,7 +433,15 @@ CHAPTERS = [
         "text": "He shall select from them twelve princes of his people, and twelve priests, and twelve Levites, who shall sit with him for judgment and for Torah. He shall not act on his own without them concerning any matter",
         "translation": "Martinez"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "melekh (מלך — king; the monarch subordinated to Torah and accountable to a mandatory priestly council)",
+        "mishpaṭ ha-melekh (משפט המלך — law of the king; the expanded constitutional restraints on royal authority)",
+        "'atsah (עצה — council; the mandatory body of 36 advisors (12 priests, 12 Levites, 12 laymen) required for every royal decision)",
+        "kohen (כהן — priest; the priestly class holding authority above the king in matters of Torah and holiness)",
+        "sefer ha-torah (ספר התורה — scroll of the Torah; the personal copy the king must write and keep beside him always)",
+        "nasi' (נשיא — prince/leader; the idealized ruler who governs under divine law rather than personal ambition)",
+        "mishmerot (משמרות — watches/divisions; the organized priestly and military courses serving the ideal monarchy)"
+    ],
     "ane_backdrop": "Ancient Near Eastern kingship ideology typically portrayed monarchs as absolute rulers, often with divine or semi-divine status. In Mesopotamia, the king was the representative of the gods on earth, mediating between heaven and earth. Egyptian pharaohs were considered living gods, embodying divine authority without limitation. Even in smaller kingdoms like Moab and Edom, inscriptions present kings as autonomous decision-makers answerable only to their patron deities. Against this backdrop, the Temple Scroll's vision is radically counter-cultural: the Israelite king is neither divine nor autonomous but subordinate to Torah and accountable to a human council. This reflects Israel's unique covenant theology where even the king stands under divine law rather than above it, a concept with few parallels in the ancient world.",
     "second_temple": [
         {

@@ -204,10 +204,10 @@ CHAPTERS = [
             'nations (the reversal of Deuteronomy 32:8-9) is the framework for the entire letter.'
         ),
         'cross_refs': [
-            {'ref': 'Acts 9:1-19', 'note': 'Luke\'s account of Paul\'s Damascus road encounter'},
-            {'ref': 'Jeremiah 1:5', 'note': 'Prophetic calling from the womb \u2014 Paul\'s self-understanding'},
-            {'ref': 'Deuteronomy 32:8-9', 'note': 'The nations allotted to lesser elohim \u2014 the framework Paul is reversing'},
-            {'ref': 'Acts 15:1-29', 'note': 'The Jerusalem Council \u2014 parallel account of the same events'}
+            {'ref': 'Acts 9:1-19', 'note': 'Luke\'s account of Paul\'s Damascus road encounter', 'type': 'nt'},
+            {'ref': 'Jeremiah 1:5', 'note': 'Prophetic calling from the womb \u2014 Paul\'s self-understanding', 'type': 'ot'},
+            {'ref': 'Deuteronomy 32:8-9', 'note': 'The nations allotted to lesser elohim \u2014 the framework Paul is reversing', 'type': 'ot'},
+            {'ref': 'Acts 15:1-29', 'note': 'The Jerusalem Council \u2014 parallel account of the same events', 'type': 'nt'}
         ],
         'historical_note': (
             'Galatians was written to churches in central Asia Minor (modern Turkey) '
@@ -434,11 +434,11 @@ CHAPTERS = [
             'are being displaced by the Spirit of the Son (4:6).'
         ),
         'cross_refs': [
-            {'ref': 'Genesis 15:6', 'note': 'Abraham believed God and it was credited as righteousness'},
-            {'ref': 'Genesis 12:3', 'note': '"All nations blessed through you" \u2014 Paul\'s key proof text'},
-            {'ref': 'Genesis 3:15', 'note': 'The protoevangelium \u2014 the singular Seed that crushes the serpent'},
-            {'ref': 'Deuteronomy 33:2 (LXX)', 'note': 'Angels at Sinai in the Greek translation'},
-            {'ref': 'Hebrews 2:2', 'note': 'Parallel statement that the law was spoken through angels'}
+            {'ref': 'Genesis 15:6', 'note': 'Abraham believed God and it was credited as righteousness', 'type': 'ot'},
+            {'ref': 'Genesis 12:3', 'note': '"All nations blessed through you" \u2014 Paul\'s key proof text', 'type': 'ot'},
+            {'ref': 'Genesis 3:15', 'note': 'The protoevangelium \u2014 the singular Seed that crushes the serpent', 'type': 'ot'},
+            {'ref': 'Deuteronomy 33:2 (LXX)', 'note': 'Angels at Sinai in the Greek translation', 'type': 'ot'},
+            {'ref': 'Hebrews 2:2', 'note': 'Parallel statement that the law was spoken through angels', 'type': 'nt'}
         ],
         'historical_note': (
             'The Jerusalem Council (ca. AD 49, Acts 15) had ruled that Gentile believers '
@@ -668,11 +668,11 @@ CHAPTERS = [
             'to the regime of the very powers Christ defeated.'
         ),
         'cross_refs': [
-            {'ref': 'Deuteronomy 32:8-9', 'note': 'Nations allotted to the sons of God; Israel kept for YHWH'},
-            {'ref': 'Daniel 10:13, 20-21', 'note': 'Angelic "princes" over Persia and Greece'},
-            {'ref': 'Colossians 2:8, 15, 20', 'note': 'Paul\'s parallel discussion of stoicheia and Christ\'s triumph'},
-            {'ref': 'Romans 8:14-17', 'note': 'Parallel adoption language: Abba, co-heirs with Christ'},
-            {'ref': 'Hebrews 12:22', 'note': '"The heavenly Jerusalem" \u2014 same concept as "Jerusalem above"'}
+            {'ref': 'Deuteronomy 32:8-9', 'note': 'Nations allotted to the sons of God; Israel kept for YHWH', 'type': 'ot'},
+            {'ref': 'Daniel 10:13, 20-21', 'note': 'Angelic "princes" over Persia and Greece', 'type': 'ot'},
+            {'ref': 'Colossians 2:8, 15, 20', 'note': 'Paul\'s parallel discussion of stoicheia and Christ\'s triumph', 'type': 'nt'},
+            {'ref': 'Romans 8:14-17', 'note': 'Parallel adoption language: Abba, co-heirs with Christ', 'type': 'nt'},
+            {'ref': 'Hebrews 12:22', 'note': '"The heavenly Jerusalem" \u2014 same concept as "Jerusalem above"', 'type': 'nt'}
         ],
         'historical_note': (
             'The Galatian churches likely included both Gentile converts and some Jewish '
@@ -898,11 +898,11 @@ CHAPTERS = [
             'but through the Spirit of the Son crying "Abba, Father" in human hearts.'
         ),
         'cross_refs': [
-            {'ref': 'Jeremiah 31:31-34', 'note': 'New covenant: Torah written on hearts'},
-            {'ref': 'Ezekiel 36:26-27', 'note': 'New heart, new Spirit within'},
-            {'ref': 'Isaiah 65:17', 'note': 'New heavens and new earth \u2014 the kaine ktisis'},
-            {'ref': 'Revelation 21:1-5', 'note': 'The consummation of the new creation'},
-            {'ref': 'Romans 8:1-17', 'note': 'Parallel life-in-the-Spirit teaching'}
+            {'ref': 'Jeremiah 31:31-34', 'note': 'New covenant: Torah written on hearts', 'type': 'ot'},
+            {'ref': 'Ezekiel 36:26-27', 'note': 'New heart, new Spirit within', 'type': 'ot'},
+            {'ref': 'Isaiah 65:17', 'note': 'New heavens and new earth \u2014 the kaine ktisis', 'type': 'ot'},
+            {'ref': 'Revelation 21:1-5', 'note': 'The consummation of the new creation', 'type': 'nt'},
+            {'ref': 'Romans 8:1-17', 'note': 'Parallel life-in-the-Spirit teaching', 'type': 'nt'}
         ],
         'historical_note': (
             'Paul\'s closing remark \u2014 "I bear on my body the marks [stigmata] of Jesus" '

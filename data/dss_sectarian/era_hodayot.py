@@ -20,7 +20,15 @@ CHAPTERS = [
         "text": "I give thanks to you, O Lord, for you have placed my soul in the bundle of the living, and you have hedged me against all the snares of the pit",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "hodayot ('odekha) (הודיות/אודכה — thanksgiving/I thank You; the opening formula of each hymn praising God)",
+        "moreh ha-tsedeq (מורה הצדק — Teacher of Righteousness; the probable author of the Teacher Hymns, persecuted prophet-figure)",
+        "sod YHWH (סוד יהוה — council of the LORD; the heavenly assembly to which the Teacher claims access for revelation)",
+        "mattiph ha-kazav (מטיף הכזב — Spouter of Lies; the Teacher's chief opponent who drove him from Jerusalem)",
+        "tseroref (צרוף — refining/smelting; divine testing that purifies the righteous like gold in a furnace)",
+        "razim (רזים — mysteries/secrets; the hidden divine knowledge revealed to the Teacher through the Spirit)",
+        "tseror ha-ḥayyim (צרור החיים — bundle of the living; God's protective binding of the righteous soul)"
+    ],
     "ane_backdrop": "The righteous sufferer motif has deep roots in Ancient Near Eastern literature, most notably in Mesopotamian texts like Ludlul Bēl Nēmeqi ('I Will Praise the Lord of Wisdom') and the Babylonian Theodicy. These compositions explore the problem of innocent suffering and divine justice, with the sufferer maintaining faith despite apparent divine abandonment. The Teacher Hymns participate in this broader tradition while distinctively combining it with Israelite covenant theology and prophetic claims to divine revelation. The concept of persecution by religious opponents who claim superior authority also appears in Egyptian wisdom literature, where the righteous sage faces opposition from corrupt officials. The Teacher's claim to have received revelation directly from the divine council reflects Ancient Near Eastern patterns of prophetic legitimation, where access to the heavenly assembly authenticated a messenger's authority. The imagery of being driven 'like a bird from its nest' echoes Mesopotamian laments over exile and displacement.",
     "second_temple": [
         {
@@ -115,7 +123,15 @@ CHAPTERS = [
         "text": "What is flesh compared to this? What creature of clay can do wonders? He is in iniquity from the womb, and in sinful guilt to old age. I know that righteousness belongs not to a man, nor perfection of way to a son of Adam. To God Most High belong all works of righteousness",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "yetser ḥomer (יצר חומר — creature of clay; humanity's material frailty and moral corruption before God)",
+        "ma'aseh ḥoshekh (מעשה חושך — deeds of darkness; the sinful works produced by human nature without divine grace)",
+        "tsedaqah (צדקה — righteousness; belongs exclusively to God, never achievable through human effort)",
+        "ḥesed (חסד — mercy/lovingkindness; God's undeserved grace that justifies the unworthy)",
+        "ruaḥ 'avvah (רוח עוה — perverse spirit; the twisted human disposition requiring divine purification)",
+        "basar (בשר — flesh; mortal human weakness contrasted with God's eternal power)",
+        "'afar (עפר — dust; the base material of human creation emphasizing radical creaturely dependence)"
+    ],
     "ane_backdrop": "Ancient Near Eastern creation myths consistently portrayed humans as fashioned from clay or earth, often mixed with divine blood or saliva. In Mesopotamian tradition, humans were created as servants to relieve the gods of labor. The Atrahasis Epic describes humanity formed from clay mixed with the blood of a slain god, making humans inherently impure yet bearing divine elements. Egyptian texts similarly emphasized humanity's lowly material origins while acknowledging their potential connection to the divine through ma'at (cosmic order). The Hodayot's clay imagery draws on this widespread ANE motif but radically intensifies the emphasis on human corruption. Unlike Mesopotamian texts that saw clay as neutral raw material, the Hodayot present clay as emblematic of moral corruption and epistemological limitation, requiring divine intervention for any righteousness or knowledge.",
     "second_temple": [
         {
@@ -210,7 +226,15 @@ CHAPTERS = [
         "text": "You created the earth by your power, the seas and the deeps... You established the heavenly luminaries for their wondrous service, and the stars for their paths",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "tehillah (תהלה — praise/psalm; communal hymns designed for corporate liturgical recitation)",
+        "me'orot (מאורות — luminaries; the heavenly lights established by God for His 'wondrous service')",
+        "gevurah (גבורה — mighty power; God's creative and redemptive strength celebrated in worship)",
+        "'avodah (עבודה — service/worship; the liturgical acts joining the earthly community with heavenly beings)",
+        "shirah (שירה — song; the hymnic praise connecting Qumran's worship to the angelic liturgy)",
+        "yetser (יצר — formed/created; God's sovereign act of making all things according to His design)",
+        "mo'ed (מועד — appointed time/festival; the sacred calendar occasions for communal hymnic worship)"
+    ],
     "ane_backdrop": "Ancient Near Eastern creation hymns consistently depicted the gods establishing cosmic order through acts of separation and boundary-setting. The Enuma Elish describes Marduk organizing the heavens and assigning duties to the celestial bodies after defeating Tiamat. Egyptian hymns to Atum and Ptah similarly celebrate divine craftsmen shaping the cosmos through word and deed. The Qumran Community Hymns participate in this tradition but radically monotheize it—only YHWH creates, and He does so without conflict or struggle. The heavenly luminaries serve Him rather than representing independent divine powers. The community's emphasis on worship as cosmic participation reflects broader ANE temple theology where earthly sanctuaries mirror heavenly patterns and human liturgy echoes divine council proceedings. The Qumran sectarians saw their worship as maintaining cosmic order alongside the angels.",
     "second_temple": [
         {
@@ -305,7 +329,15 @@ CHAPTERS = [
         "text": "Before you created them, you knew all their works forever and ever. For apart from you nothing is done, and nothing is known without your will. You formed every spirit and you determined their works before they came into being.",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "goral (גורל — lot/destiny; the predetermined cosmic assignment of each person to light or darkness)",
+        "luḥot (לוחות — tablets; the heavenly records where God inscribed all fates before creation)",
+        "maḥashavah (מחשבה — thought/plan; God's eternal counsel determining all events before they occur)",
+        "beḥirah (בחירה — election/choosing; God's sovereign selection of the righteous before their existence)",
+        "razei pele' (רזי פלא — wonderful mysteries; the predestined plan known only to God and revealed to the elect)",
+        "yada' (ידע — to know; God's comprehensive foreknowledge of all works before creation)",
+        "'olam (עולם — eternity/age; the timeless scope of God's predetermined plan encompassing all history)"
+    ],
     "ane_backdrop": "Ancient Near Eastern concepts of fate and divine determination provide crucial context for Qumran's predestinarian theology. Mesopotamian texts speak of the 'Tablet of Destinies' held by various deities, determining cosmic and human affairs. Egyptian theology emphasized Ma'at (divine order) as predetermined by the gods at creation. Persian Zoroastrianism, which may have influenced Second Temple Judaism, taught a cosmic dualism where humans were aligned with either Ahura Mazda (light) or Angra Mainyu (darkness) from the beginning. The Qumran community synthesized these concepts with Israelite covenant theology, creating a unique framework where YHWH's sovereignty extends to individual human destinies predetermined in the heavenly court. This represents a significant development beyond earlier Israelite theology, which emphasized human choice within covenant relationship.",
     "second_temple": [
         {
@@ -400,7 +432,15 @@ CHAPTERS = [
         "text": "You have purified a perverse spirit from great transgression that it might watch with the host of the holy ones and enter into community with the congregation of the sons of heaven. You have cast for man an eternal lot with the spirits of knowledge, that he might praise Your name in common rejoicing and recount Your wonders before all Your works.",
         "translation": "Vermes"
     },
-    "hebrew_terms": [],
+    "hebrew_terms": [
+        "qedoshim (קדושים — holy ones; the angelic beings with whom the purified community worships in fellowship)",
+        "bene shamayim (בני שמים — sons of heaven; the heavenly host that the community joins in liturgical praise)",
+        "sod (סוד — council/fellowship; the intimate divine assembly into which purified humans are admitted)",
+        "taher (טהר — to purify/cleanse; the divine act that enables human participation in angelic worship)",
+        "ruaḥ da'at (רוח דעת — spirit of knowledge; the divine gift enabling humans to join the heavenly praise)",
+        "'edah (עדה — congregation; the unified assembly of human and angelic worshipers before God)",
+        "kavod (כבוד — glory; the divine radiance shared between the heavenly and earthly worship assemblies)"
+    ],
     "ane_backdrop": "Ancient Near Eastern temple theology consistently portrayed temples as meeting points between heaven and earth where divine and human realms intersected. Mesopotamian ziggurats served as cosmic mountains connecting the earthly and divine spheres, with priests performing rituals that maintained cosmic order alongside the gods. Egyptian temple liturgies depicted pharaohs and priests participating in the daily routines of the divine court. The Qumran community radicalized this concept by claiming that their entire fellowship—not just priests in a physical temple—constituted a living temple where humans and angels worshiped together. This democratization of priestly privilege reflected their rejection of the corrupted Jerusalem temple and their belief that ritual purity, not physical location, enabled divine-human communion. The community saw themselves as fulfilling Isaiah's vision of a house of prayer where heaven and earth unite.",
     "second_temple": [
         {
