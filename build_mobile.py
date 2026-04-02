@@ -328,6 +328,56 @@ def main():
 
     print(f"  Flow translations: merged into {flow_count} books")
 
+    # Write standalone flow JSON for non-interlinear texts (1 Enoch, DSS, Jubilees, etc.)
+    standalone_flow_count = 0
+    standalone_flow_map = {}  # textId -> {ch: {v: text}}
+    standalone_notes_map = {}
+    if os.path.isdir(flow_dir):
+        for flow_file in sorted(os.listdir(flow_dir)):
+            if flow_file.startswith("flow_") and flow_file.endswith(".py") and flow_file.count("_") == 1:
+                book_name = flow_file.replace("flow_", "").replace(".py", "")
+                if book_name in interlinear_data:
+                    continue  # already merged into interlinear
+                try:
+                    flow_mod = load_module(f"sf_{book_name}", os.path.join(flow_dir, flow_file))
+                except Exception:
+                    continue
+                flow_data = getattr(flow_mod, f"FLOW_{book_name.upper()}", None)
+                if not flow_data:
+                    for attr in dir(flow_mod):
+                        if attr.startswith("FLOW"):
+                            flow_data = getattr(flow_mod, attr)
+                            break
+                if not flow_data:
+                    continue
+                notes_data = getattr(flow_mod, f"NOTES_{book_name.upper()}", None)
+                if not notes_data:
+                    for attr in dir(flow_mod):
+                        if attr.startswith("NOTES"):
+                            notes_data = getattr(flow_mod, attr)
+                            break
+                # Convert int keys to string for JSON
+                sf = {}
+                for ch, verses in flow_data.items():
+                    sf[str(ch)] = {str(v): t for v, t in verses.items()}
+                standalone_flow_map[book_name] = sf
+                if notes_data:
+                    sn = {}
+                    for ch, notes in notes_data.items():
+                        sn[str(ch)] = {str(v): n for v, n in notes.items()}
+                    standalone_notes_map[book_name] = sn
+                standalone_flow_count += 1
+
+    if standalone_flow_count > 0:
+        flow_out_dir = os.path.join(DATA_OUT, "flow")
+        os.makedirs(flow_out_dir, exist_ok=True)
+        for tid, sf_data in standalone_flow_map.items():
+            write_json(os.path.join(flow_out_dir, f"{tid}.json"), sf_data)
+            if tid in standalone_notes_map:
+                write_json(os.path.join(flow_out_dir, f"{tid}_notes.json"), standalone_notes_map[tid])
+        total_sv = sum(sum(len(ch) for ch in t.values()) for t in standalone_flow_map.values())
+        print(f"  Standalone flow: {standalone_flow_count} texts, {total_sv} verses -> data/flow/*.json")
+
     # ══════════════════════════════════════════════════════════
     # 2. WRITE JSON DATA FILES
     # ══════════════════════════════════════════════════════════
@@ -612,6 +662,16 @@ def main():
 
                 // Assign via eval to dynamic variable name (safe — we control the key)
                 try { eval(ilKey + ' = ilData;'); } catch(e) {}
+
+                // Load standalone flow for non-interlinear texts (1 Enoch, Jubilees, DSS, etc.)
+                if (!ilData || Object.keys(ilData).length === 0) {
+                    var sfData = await _fetchJSON('flow/' + textId + '.json').catch(function() { return null; });
+                    if (sfData) {
+                        STANDALONE_FLOW[textId] = sfData;
+                        var snData = await _fetchJSON('flow/' + textId + '_notes.json').catch(function() { return null; });
+                        if (snData) STANDALONE_NOTES[textId] = snData;
+                    }
+                }
 
                 _loadedTexts[textId] = true;
                 _hideLoading();

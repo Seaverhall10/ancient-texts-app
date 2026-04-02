@@ -35,6 +35,12 @@
       "badge": "HISTORICAL"
     },
     {
+      "id": "deuterocanonical",
+      "name": "Deuterocanonical / LXX",
+      "color": "#6a8f5a",
+      "badge": "LXX"
+    },
+    {
       "id": "thematic",
       "name": "Thematic Studies",
       "color": "#c9a84c",
@@ -521,7 +527,7 @@
       "name": "Book of Giants",
       "category": "dss",
       "language": "aramaic",
-      "chapters": 0,
+      "chapters": 12,
       "color": "#2d9a8f",
       "data_dir": "giants",
       "interlinear": null,
@@ -553,6 +559,19 @@
       "description": "Extended patriarchal narratives referenced in Joshua 10:13 and 2 Samuel 1:18"
     },
     {
+      "id": "psalms_of_solomon",
+      "name": "Psalms of Solomon",
+      "category": "pseudepigrapha",
+      "language": "hebrew",
+      "chapters": 18,
+      "color": "#9b7ec8",
+      "data_dir": "psalms_of_solomon",
+      "content_type": null,
+      "interlinear": null,
+      "canon": false,
+      "description": "Eighteen psalms from the 1st century BC with significant messianic expectations of a Davidic king"
+    },
+    {
       "id": "genesis_apocryphon",
       "name": "Genesis Apocryphon",
       "category": "dss",
@@ -575,6 +594,58 @@
       "interlinear": null,
       "canon": false,
       "description": "Community Rule, War Scroll, Temple Scroll, Damascus Document, Hodayot"
+    },
+    {
+      "id": "tobit",
+      "name": "Tobit",
+      "category": "deuterocanonical",
+      "language": "aramaic",
+      "chapters": 13,
+      "color": "#6a8f5a",
+      "data_dir": "tobit",
+      "content_type": null,
+      "interlinear": null,
+      "canon": false,
+      "description": "A narrative set during the Assyrian exile about Tobit and his son Tobias, featuring the angel Raphael and the demon Asmodeus"
+    },
+    {
+      "id": "judith",
+      "name": "Judith",
+      "category": "deuterocanonical",
+      "language": "hebrew",
+      "chapters": 16,
+      "color": "#6a8f5a",
+      "data_dir": "judith",
+      "content_type": null,
+      "interlinear": null,
+      "canon": false,
+      "description": "A Jewish heroine saves her city from the Assyrian general Holofernes through faith and courage"
+    },
+    {
+      "id": "wisdom_of_solomon",
+      "name": "Wisdom of Solomon",
+      "category": "deuterocanonical",
+      "language": "greek",
+      "chapters": 19,
+      "color": "#6a8f5a",
+      "data_dir": "wisdom_of_solomon",
+      "content_type": null,
+      "interlinear": null,
+      "canon": false,
+      "description": "A Jewish wisdom text echoed throughout the New Testament, describing divine Wisdom in terms later applied to Christ"
+    },
+    {
+      "id": "sirach",
+      "name": "Sirach (Ben Sira)",
+      "category": "deuterocanonical",
+      "language": "hebrew",
+      "chapters": 51,
+      "color": "#6a8f5a",
+      "data_dir": "sirach",
+      "content_type": null,
+      "interlinear": null,
+      "canon": false,
+      "description": "The most extensive Second Temple wisdom text, including the famous Praise of the Fathers (ch. 44-50)"
     },
     {
       "id": "josephus",
