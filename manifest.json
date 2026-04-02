@@ -572,6 +572,19 @@
       "description": "Eighteen psalms from the 1st century BC with significant messianic expectations of a Davidic king"
     },
     {
+      "id": "2enoch",
+      "name": "2 Enoch (Slavonic)",
+      "category": "pseudepigrapha",
+      "language": "slavonic",
+      "chapters": 68,
+      "color": "#9b7ec8",
+      "data_dir": "2enoch",
+      "content_type": null,
+      "interlinear": null,
+      "canon": false,
+      "description": "The Secrets of Enoch: a journey through seven heavens, creation revelations, and Enoch's final testament to his sons"
+    },
+    {
       "id": "genesis_apocryphon",
       "name": "Genesis Apocryphon",
       "category": "dss",
