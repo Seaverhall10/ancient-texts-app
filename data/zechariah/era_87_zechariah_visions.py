@@ -73,25 +73,15 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "Return to Me (1:1-6)",
-                "body": "Zechariah's opening oracle (November 520 BC): 'Do not be like your fathers, to whom "
-                        "the former prophets cried out.' The exile happened because the previous generation "
-                        "refused to listen. Now YHWH offers a fresh start: 'Return to me... and I will return "
-                        "to you.' The condition is repentance; the promise is presence."
+                "body": "Zechariah's opening oracle arrives in the eighth month of Darius's second year (November 520 BC), two months after Haggai began his Temple-building campaign. The word is blunt: 'YHWH was very angry with your fathers' (1:2). The exile happened because the previous generation refused to heed the former prophets' call to 'return (shuv) from your evil ways and from your evil deeds' (1:4). The verb shuv ('return, repent, turn back') is the key word: YHWH offers a symmetrical covenant: 'Return to me, says YHWH of hosts, and I will return to you' (1:3). The condition is repentance; the promise is YHWH's own return -- his presence among his people. Zechariah adds a sobering observation: 'Your fathers, where are they? And the prophets, do they live forever?' (1:5). Both the disobedient generation and the prophets who warned them are dead. But YHWH's words and decrees 'overtook your fathers' (1:6) -- the prophetic word outlives both prophet and audience. History vindicated every warning."
             },
             {
                 "heading": "The First Vision: Horsemen Among the Myrtles (1:7-17)",
-                "body": "February 519 BC. Zechariah sees a man on a red horse among the myrtle trees, with "
-                        "mounted riders behind him. These are YHWH's patrol agents who have surveyed the earth. "
-                        "The earth is 'at rest' -- but this is troubling, because it means the nations are "
-                        "comfortable while Jerusalem suffers. The Angel of YHWH intercedes: 'How long?' YHWH "
-                        "responds with jealousy for Jerusalem and anger toward the complacent nations."
+                "body": "Three months later (February 519 BC), the night visions begin. Zechariah sees a man riding a red horse, standing among the myrtle trees in a ravine (metsulah, suggesting a deep, shadowed place). Behind him are red, sorrel, and white horses with riders. The angel-interpreter explains: 'These are they whom YHWH has sent to patrol the earth' (1:10). This is the divine council's intelligence network -- supernatural agents deployed on reconnaissance throughout the earth, reporting back to command. The patrol reports: 'All the earth remains at rest (shaqat)' (1:11). But this 'rest' is not good news -- it means the nations that destroyed Jerusalem are prospering while YHWH's people suffer in a ruined city. The Angel of YHWH erupts in intercession: 'O YHWH of hosts, how long will you have no mercy on Jerusalem and the cities of Judah, against which you have been angry these seventy years?' (1:12). YHWH responds with 'gracious and comforting words' and declares: 'I am exceedingly jealous (qana) for Jerusalem' and 'very angry with the nations that are at ease' (1:14-15). YHWH allowed punishment, but the nations exceeded their mandate. The temple will be rebuilt. YHWH's measuring line will stretch over Jerusalem."
             },
             {
                 "heading": "The Second Vision: Four Horns and Four Craftsmen (1:18-21)",
-                "body": "Four horns represent the nations that scattered Judah, Israel, and Jerusalem. Four "
-                        "craftsmen are sent to cast them down. The divine council deploys agents of judgment "
-                        "against the oppressor nations. Every horn of power raised against YHWH's people will "
-                        "be broken."
+                "body": "Zechariah lifts his eyes and sees four horns (qarnayin) -- in the ancient Near East, horns symbolize power, especially military-political power. These are 'the horns that have scattered Judah, Israel, and Jerusalem' (1:19) -- the empires that dismembered YHWH's people. Then four craftsmen (charashim) appear. 'What are these coming to do?' Zechariah asks. The answer: they have come 'to terrify them, to cast down the horns of the nations who lifted up their horns against the land of Judah to scatter it' (1:21). The divine council deploys agents of judgment against the very empires that served as instruments of discipline. Every horn of power raised against YHWH's people will be broken by a craftsman YHWH commissions. The vision establishes a principle that runs through all of Zechariah: the nations that exceeded their divine mandate in punishing Israel will themselves face judgment. YHWH uses empires, but he does not approve their cruelty."
             }
         ]
     },
@@ -161,17 +151,11 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "The Third Vision: Measuring Jerusalem (2:1-5)",
-                "body": "A man with a measuring line goes to survey Jerusalem for walls. An angel interrupts: "
-                        "the city will be too vast for walls. YHWH himself will be a wall of fire around it "
-                        "and the glory within. No human fortification can contain what YHWH plans."
+                "body": "A young man goes out with a measuring line to determine Jerusalem's dimensions -- presumably to plan walls for the rebuilt city. An angel intercepts him with a message that demolishes conventional city-planning: 'Jerusalem shall be inhabited as villages without walls, because of the multitude of people and livestock in it' (2:4). The city will be too vast, too overflowing with life, for walls to contain it. Then the extraordinary promise: 'I will be to her a wall of fire all around, declares YHWH, and I will be the glory in her midst' (2:5). YHWH replaces stone walls with fire -- the same fire of the theophany at Sinai (Exod 19:18), the pillar of fire in the wilderness (Exod 13:21), and the glory-fire that filled Solomon's Temple (1 Kings 8:10-11). The city's defense is not military architecture but divine presence. The glory (kavod) that departed the Temple in Ezekiel's vision (Ezek 10:18-19) will return and become Jerusalem's center. No human fortification can contain what YHWH plans. This vision anticipates the new Jerusalem of Revelation 21, which also has no temple or walls because YHWH and the Lamb are its temple and light."
             },
             {
                 "heading": "Flee from Babylon -- YHWH Is Coming (2:6-13)",
-                "body": "The call to escape Babylon: YHWH will 'shake his hand' over the oppressor nations. "
-                        "The stunning promise: 'I come and I will dwell in your midst.' Many nations will "
-                        "join YHWH and become his people. 'Be silent, all flesh, before YHWH, for he has "
-                        "roused himself from his holy dwelling' (2:13) -- the divine council sovereign "
-                        "rising from his throne to act."
+                "body": "The vision transitions to urgent command: 'Up! Up! Flee from the land of the north, declares YHWH, for I have spread you abroad as the four winds of the heavens' (2:6). Jews still living in Babylon must escape before YHWH strikes. Then the stunning declaration: 'He who touches you touches the apple of his eye' (2:8) -- YHWH identifies so closely with his people that an attack on them is an attack on his own eye. YHWH will 'shake his hand' over the oppressor nations, and they will become plunder for their own slaves (2:9). The climax is christologically dense: 'Sing and rejoice, O daughter of Zion, for behold, I come and I will dwell in your midst, declares YHWH. And many nations shall join themselves to YHWH in that day, and shall be my people' (2:10-11). The 'I come' is YHWH himself -- yet the next phrase says 'YHWH of hosts has sent me to you' (2:11). A figure who speaks as YHWH is sent by YHWH -- the 'two powers in heaven' pattern of divine council Christology. Many nations joining YHWH reverses the Deuteronomy 32:8 allotment. The oracle closes: 'Be silent, all flesh, before YHWH, for he has roused himself from his holy dwelling' (2:13) -- the sovereign of the council rises from his throne to act."
             }
         ]
     },
@@ -258,25 +242,15 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "The Courtroom Scene: Joshua Accused (3:1-3)",
-                "body": "Joshua the high priest stands before the Angel of YHWH -- the divine judge. The "
-                        "satan stands at his right hand to accuse him. Joshua's filthy garments represent "
-                        "Israel's defilement. The scene is a heavenly trial: the nation's representative "
-                        "faces prosecution in the divine council."
+                "body": "The fourth night vision opens on a heavenly courtroom. Joshua the high priest -- the nation's representative before God -- stands before the Angel of YHWH, who presides as judge. At Joshua's right hand stands ha-satan ('the adversary'), not yet a proper name but a prosecutorial title with the definite article, identifying a role within the divine council: the accuser, the one who brings charges. Joshua is clothed in 'filthy garments' (begadim tso'im) -- the Hebrew tso'im refers not to ordinary dirt but to excrement-stained clothing, indicating deep moral and ritual defilement. Joshua's filthy garments represent the whole nation's condition: Israel has returned from exile outwardly, but the people remain spiritually contaminated, their priesthood compromised. The scene is a heavenly trial: the highest representative of YHWH's covenant people faces formal prosecution in the very council chamber of God. The accuser has a legitimate case -- Israel's defilement is real, the priestly corruption documented by Malachi is evident, and the covenant violations that caused the exile have not been fully addressed."
             },
             {
                 "heading": "The Rebuke and the Re-Clothing (3:4-5)",
-                "body": "YHWH rebukes the accuser: 'Is not this a brand plucked from the fire?' Joshua is "
-                        "a survivor of exile -- scarred but rescued. His filthy garments are removed: 'I have "
-                        "taken your iniquity away from you.' Clean garments and a pure turban replace the "
-                        "defilement. This is divine acquittal made visible: guilt removed, priesthood restored."
+                "body": "YHWH's response to the prosecution is not a legal defense but a sovereign decree: 'YHWH rebuke you, O satan! YHWH who has chosen Jerusalem rebuke you! Is not this a brand plucked from the fire?' (3:2). The accuser's case may be technically valid, but YHWH overrules it on the basis of his election -- he has chosen Jerusalem, and the accused is a survivor snatched from the fire of exile. YHWH then commands those standing before him (the council attendants): 'Remove the filthy garments from him' (3:4). To Joshua directly: 'Behold, I have taken your iniquity away from you, and I will clothe you with pure vestments.' A clean turban (tsanif tahor) is placed on his head -- the priestly turban that bore the inscription 'Holy to YHWH' (Exod 28:36-38). This is divine acquittal enacted as a visible drama: guilt is not merely forgiven but physically removed. The filthy garments come off; the clean garments go on. The priesthood is not reformed but reconstituted from above. No human effort achieves this purification -- it is entirely YHWH's initiative, YHWH's action, YHWH's gift. The pattern prefigures the New Testament doctrine of justification: the guilty are clothed in righteousness not their own."
             },
             {
                 "heading": "The Branch and the Single Day (3:6-10)",
-                "body": "YHWH charges Joshua to walk in his ways, then announces: 'I will bring my servant "
-                        "the Branch' (tsemach). A stone with seven eyes is set before Joshua -- YHWH will "
-                        "engrave it and 'remove the iniquity of this land in a single day.' The seven eyes "
-                        "are YHWH's omniscient gaze (cf. 4:10). The 'single day' of iniquity removal "
-                        "points to the cross."
+                "body": "YHWH charges the restored Joshua: 'If you will walk in my ways and keep my charge, then you shall rule my house and have charge of my courts, and I will give you the right of access among those who are standing here' (3:7) -- 'those standing here' are the divine council members. Joshua is offered a seat in the heavenly assembly. Then the messianic announcement: 'Hear now, O Joshua the high priest, you and your friends who sit before you, for they are men who are a sign (mofet): behold, I will bring my servant the Branch (tsemach)' (3:8). The Branch is the messianic shoot from David's line (cf. Isa 11:1; Jer 23:5; 33:15) -- YHWH's servant who will fulfill what the current priesthood can only foreshadow. A stone with seven eyes is set before Joshua: 'I will engrave its inscription, declares YHWH of hosts, and I will remove the iniquity of this land in a single day (beyom echad)' (3:9). The seven eyes represent YHWH's omniscient gaze (cf. 4:10; 2 Chr 16:9). The 'single day' of total iniquity removal points beyond anything Yom Kippur could accomplish -- it points to the cross, where the Branch accomplishes in one day what the entire sacrificial system spread across centuries could not. The chapter closes with messianic peace: 'In that day, declares YHWH of hosts, every one of you will invite his neighbor to come under his vine and under his fig tree' (3:10) -- the same image from Micah 4:4 and 1 Kings 4:25."
             }
         ]
     },
@@ -352,24 +326,15 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "The Fifth Vision: The Golden Lampstand (4:1-5)",
-                "body": "Zechariah is awakened (the visionary trance deepens with each vision) and sees a "
-                        "golden lampstand with a bowl on top, seven lamps, seven lips, and two olive trees "
-                        "flanking it. The imagery is of continuous, self-sustaining light -- the oil flows "
-                        "directly from the trees to the lamps without human intervention."
+                "body": "The interpreting angel rouses Zechariah 'as a man who is awakened out of his sleep' (4:1) -- the visionary trance has deepened to the point where returning to prophetic consciousness feels like waking. What he sees is extraordinary: a golden lampstand (menorah) with a bowl on top, seven lamps on it, and seven lips (channels) for each lamp -- forty-nine oil conduits total. Two olive trees flank the lampstand, one on the right and one on the left. The imagery is of a self-sustaining, continuously fed light source: living olive trees pour oil directly into the bowl that feeds the lamps. No human priest needs to trim the wicks or refill the oil. The menorah in the Tabernacle and Temple required daily priestly tending (Exod 27:20-21; Lev 24:2-4); this menorah tends itself. The vision declares that YHWH's presence and witness (symbolized by the lampstand) will be sustained by his own power flowing through his appointed agents, not by human religious maintenance. Zechariah asks, 'What are these, my lord?' The angel's response -- 'Do you not know?' -- suggests the symbolism should be recognizable from Israel's liturgical tradition."
             },
             {
                 "heading": "Not by Might -- The Word to Zerubbabel (4:6-10)",
-                "body": "YHWH's message to Zerubbabel: the Temple will be completed not by human power but "
-                        "by YHWH's Spirit. The 'great mountain' of opposition will become a plain. Zerubbabel "
-                        "will bring forth the capstone with shouts of 'Grace, grace!' The seven lamps are "
-                        "YHWH's eyes ranging through the earth -- divine omniscience sustaining the project."
+                "body": "The central oracle of the vision is addressed to Zerubbabel, the Davidic governor leading the Temple reconstruction: 'Not by might (chayil -- military force), nor by power (koach -- human strength), but by my Spirit (ruach), says YHWH of hosts' (4:6). This is the divine council's operating principle: human empires build by military conquest and forced labor; YHWH's kingdom is built by his Spirit working through his agents. The 'great mountain' of opposition before Zerubbabel -- political resistance from Samaria, economic scarcity, community discouragement -- 'shall become a plain' (4:7). Zerubbabel will bring forth the capstone (even ha-roshah, the head stone, the final piece completing the Temple) with shouts of 'Grace, grace to it!' (chen, chen) -- the building's completion is not a human achievement but a divine gift acknowledged with acclamation. YHWH's challenge to the discouraged community: 'For whoever has despised the day of small things shall rejoice, and shall see the plumb line in the hand of Zerubbabel' (4:10). The 'seven eyes' are identified as 'the eyes of YHWH, which range through the whole earth' -- the seven lamps represent YHWH's omniscient gaze, monitoring and sustaining the project from the divine council."
             },
             {
                 "heading": "The Two Anointed Ones (4:11-14)",
-                "body": "Zechariah asks about the two olive trees. The angel identifies them as 'the two sons "
-                        "of fresh oil who stand by the Lord of the whole earth.' These are the royal and "
-                        "priestly figures -- Zerubbabel and Joshua -- who occupy positions in the divine "
-                        "council, channeling YHWH's sustaining power to his people."
+                "body": "Zechariah presses for the meaning of the two olive trees flanking the lampstand. His persistence is notable -- he asks twice, and the angel's response is one of the most theologically significant identifications in the prophetic corpus: 'These are the two sons of fresh oil (bene ha-yitshar) who stand by (omedim al) the Lord of the whole earth (Adon kol-ha-arets)' (4:14). The phrase 'stand by' is technical divine council language -- these figures occupy positions in YHWH's presence, standing before his throne as servants and agents. The 'two sons of fresh oil' are anointed figures -- the royal (Zerubbabel) and priestly (Joshua) offices that together channel YHWH's sustaining power to Israel. The immediate reference is to the post-exilic leadership; the typological significance points to the ultimate king-priest who will unite both offices (Zech 6:12-13; Heb 7). Revelation 11:3-4 directly appropriates this image: 'These are the two olive trees and the two lampstands that stand before the Lord of the earth.' The vision's core theology: YHWH sustains his people through anointed agents who stand in the divine council and mediate his Spirit to the community."
             }
         ]
     },
@@ -448,26 +413,15 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "The Flying Scroll and the Ephah (5:1-11)",
-                "body": "The sixth vision: a massive flying scroll bearing curses against covenant-breakers. "
-                        "The seventh vision: Wickedness personified as a woman is sealed in a basket and "
-                        "carried by winged figures to Shinar (Babylon). The land is being purified: covenant "
-                        "enforcement removes the guilty, and evil itself is exiled to its origin."
+                "body": "The sixth vision: a flying scroll, thirty feet long and fifteen feet wide (the same dimensions as the Tabernacle's Holy Place, Exod 26:15-25), soars through the sky bearing curses against two categories of covenant-breakers: thieves and perjurers (5:3-4). These represent violations of the commandments governing neighbor-relations and God-relations respectively. The curse 'enters the house' of the guilty and 'consumes it, both timber and stones' (5:4) -- YHWH's covenant enforcement is thorough and structural. The seventh vision (5:5-11) introduces one of the strangest images in prophetic literature: a woman named Rishah ('Wickedness') is seated inside an ephah (a measuring basket, about a bushel in size). A lead disc is pushed down over the opening, sealing her in. Then two women with wings 'like the wings of a stork' (chasidah, a wordplay -- the 'stork' comes from the root chesed, 'kindness,' yet carries wickedness away) lift the ephah and fly it to Shinar (Babylon/Babel). There a house will be built for it. Evil is personified, contained, and physically removed from the holy land -- returned to the land of Babel, the original locus of human rebellion (Gen 11:2). The land is being purified: covenant enforcement removes the guilty, and wickedness itself is exiled to its origin."
             },
             {
                 "heading": "The Four Chariots from the Bronze Mountains (6:1-8)",
-                "body": "The eighth and final vision: four chariots with colored horses emerge from between "
-                        "two mountains of bronze. These are the four spirits of heaven who have presented "
-                        "themselves before the Lord of all the earth. They go north, south, and throughout -- "
-                        "YHWH's council agents executing judgment. The black horses going north 'set my Spirit "
-                        "at rest' -- YHWH's judgment on Babylon is accomplished."
+                "body": "The eighth and climactic vision: four chariots emerge from between two mountains of bronze (nechoshet). The bronze mountains are the gateway of the divine council throne room -- the cosmic entrance through which YHWH's agents depart on their missions. The chariots are drawn by red, black, white, and dappled horses. The interpreting angel identifies them: 'These are going out to the four winds/spirits (ruchot) of heaven, after presenting themselves (hityatsev) before the Lord of all the earth' (6:5). The verb hityatsev is the same used in Job 1:6 and 2:1 for the bene elohim ('sons of God') presenting themselves before YHWH in the divine council. These are council agents dispatched on sovereign missions to the four compass directions. The black horses go north (toward Babylon), the white follow, and the dappled go south. YHWH declares: 'Behold, those who go toward the north country have set my Spirit at rest (henichu et-ruchi) in the north country' (6:8). YHWH's anger toward Babylon is satisfied -- the judgment is accomplished, and the divine wrath is 'at rest.' The vision cycle is complete: from the patrol horsemen of chapter 1 (reconnaissance) to the chariot agents of chapter 6 (execution), the divine council has surveyed, judged, and enforced its decrees across the earth."
             },
             {
                 "heading": "The Crowning of Joshua: The Branch Oracle (6:9-15)",
-                "body": "A crown is placed on Joshua the high priest's head with the declaration: 'Behold, "
-                        "the man whose name is the Branch.' He will build YHWH's Temple, bear royal honor, "
-                        "sit and rule on his throne, and be a priest on his throne. Royal and priestly offices "
-                        "are united -- a theological impossibility under the old covenant, pointing forward "
-                        "to Christ the king-priest."
+                "body": "The vision cycle concludes with a symbolic act that breaks every category in Israelite religion. YHWH commands Zechariah to take silver and gold from returned exiles, make a crown (atarah), and place it on the head of Joshua the high priest (6:11). Then the oracle: 'Behold, the man whose name is the Branch (tsemach): for he shall branch out from his place, and he shall build the temple of YHWH' (6:12). The Branch will 'bear royal honor (hod), and shall sit and rule on his throne. And there shall be a priest on his throne, and the counsel of peace (atsat shalom) shall be between them both' (6:13). This is theologically explosive. Under the Mosaic covenant, the offices of king and priest were rigidly separated: kings came from Judah, priests from Levi. King Uzziah was struck with leprosy for attempting to burn incense -- a priestly function (2 Chr 26:16-21). Yet here a single figure -- 'the Branch' -- occupies both throne and altar. Royal and priestly offices are united on one throne with 'the counsel of peace between them.' This is possible only through the order of Melchizedek (Ps 110:4; Gen 14:18), the priest-king who preceded the Levitical division. The crown is to be placed in the Temple as a memorial (6:14), a permanent sign pointing forward to the one who will fulfill what no Israelite king or priest could combine: Christ, the king-priest after Melchizedek (Heb 6:20-7:28)."
             }
         ]
     },
@@ -538,24 +492,15 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "The Fasting Question: Ritual vs. Reality (7:1-14)",
-                "body": "A delegation asks about continuing the mourning fasts. YHWH's answer: your fasting "
-                        "was for yourselves, not for me. What I required was justice, mercy, and compassion. "
-                        "Your fathers refused and were scattered. True devotion is ethical, not ritual."
+                "body": "Two years after the night visions (December 518 BC), a delegation from Bethel arrives to ask the priests and prophets whether they should continue the fasting rituals that commemorated Jerusalem's destruction (7:2-3). These fasts had been observed for seventy years of exile -- mourning the Temple's fall in the fifth month and Gedaliah's assassination in the seventh. YHWH's answer through Zechariah cuts to the heart of religious performance: 'When you fasted and mourned in the fifth month and in the seventh, for these seventy years, was it for me that you fasted? And when you eat and when you drink, do you not eat for yourselves and drink for yourselves?' (7:5-6). The question exposes the self-referential nature of religious ritual: even mourning can become about the mourner rather than about God. What YHWH actually required through the former prophets was concrete ethical behavior: 'Render true judgments (mishpat emet), show kindness and mercy (chesed ve-rachamim) to one another, do not oppress the widow, the fatherless, the sojourner, or the poor, and let none of you devise evil against another in your heart' (7:9-10). Their fathers refused, 'made their hearts diamond-hard' (7:12), and YHWH scattered them 'with a whirlwind among all the nations that they had not known' (7:14). The land was left desolate. The lesson: ritual without justice is not devotion but self-indulgence."
             },
             {
                 "heading": "The Glorious Future of Jerusalem (8:1-17)",
-                "body": "YHWH returns to Zion with great jealousy. Jerusalem will be called 'the faithful city.' "
-                        "Old men and women will sit safely in its streets. Children will play in its squares. "
-                        "'If it is marvelous in the eyes of the remnant... should it also be marvelous in my "
-                        "eyes?' (8:6). Nothing is too hard for YHWH. The covenant demands remain: speak truth, "
-                        "render justice, love no evil."
+                "body": "Chapter 8 pivots from warning to extraordinary promise. YHWH declares: 'I am jealous (qana) for Zion with great jealousy, and I am jealous for her with great wrath' (8:2) -- the divine passion that will not abandon his covenant city. 'I have returned to Zion and will dwell in the midst of Jerusalem' (8:3). The city's new names reveal its transformed character: 'the faithful city' (ir ha-emet) and 'the holy mountain' (har ha-qodesh). Then the most tender image in the prophetic corpus: 'Old men and old women shall again sit in the streets of Jerusalem, each with staff in hand because of great age. And the streets of the city shall be full of boys and girls playing in its streets' (8:4-5). A city of the very old and the very young, safe enough for both -- the complete reversal of war's devastation. YHWH anticipates the community's skepticism: 'If it is marvelous in the eyes of the remnant of this people in these days, should it also be marvelous in my eyes, declares YHWH of hosts?' (8:6). What seems impossible to the remnant is effortless for the God who created the heavens. YHWH will save his people 'from the east country and from the west country' and bring them to dwell in Jerusalem in covenant faithfulness (8:7-8). The demands remain: 'Speak the truth to one another; render in your gates judgments that are true and make for peace; do not devise evil in your hearts against one another, and love no false oath' (8:16-17)."
             },
             {
                 "heading": "The Nations Stream to Jerusalem (8:18-23)",
-                "body": "The fasts of mourning will become feasts of joy. Many peoples and strong nations will "
-                        "seek YHWH in Jerusalem. Ten men from every tongue will seize a Jew's robe: 'Let us go "
-                        "with you, for we have heard that God is with you.' The Gentile inclusion is complete -- "
-                        "the nations reclaimed from the allotment."
+                "body": "The fasts of mourning are transformed: 'The fast of the fourth month and the fast of the fifth and the fast of the seventh and the fast of the tenth shall be to the house of Judah seasons of joy and gladness and cheerful feasts' (8:19). The mourning rituals that prompted the original question (7:3) will be converted into celebrations. Then the vision expands to global scale: 'Many peoples and strong nations shall come to seek YHWH of hosts in Jerusalem and to entreat the favor of YHWH' (8:22). The culminating image is stunning: 'In those days ten men from the nations of every tongue shall take hold of the robe of a Jew, saying, \"Let us go with you, for we have heard that God is with you\"' (8:23). The Gentile inclusion is not reluctant acceptance but eager pursuit -- ten men per Jew, from every language, grasping the garment of an Israelite and asking to come along. This is the ultimate reversal of the Deuteronomy 32:8 allotment: the nations that were assigned to the sons of God will voluntarily reclaim YHWH as their own God, drawn not by conquest but by the testimony of his presence among his people. The vision anticipates Pentecost (Acts 2), where people from every nation hear the mighty works of God in their own tongues."
             }
         ]
     }

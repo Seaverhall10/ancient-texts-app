@@ -360,10 +360,11 @@ body.sidebar-open .main-content { overflow: hidden !important; }
     .search-input::placeholder { font-size: 0.85rem; }
     .search-results { max-height: 50vh; }
     .glossary-overlay, .resources-overlay, .hebrew-learn-overlay, .map-overlay,
-    .matrix-overlay, .timeline-overlay, .progress-overlay {
+    .matrix-overlay, .timeline-overlay, .progress-overlay, .theme-explorer-overlay {
         z-index: var(--z-mobile-overlay, 120) !important; padding: 8px !important;
     }
-    .glossary-modal, .resources-modal, .hebrew-learn-modal, .map-modal {
+    .glossary-modal, .resources-modal, .hebrew-learn-modal, .map-modal,
+    .theme-explorer-modal {
         max-height: 90vh; padding: 12px !important; width: 100%;
     }
     .glossary-modal-header h2, .resources-modal-header h2 { font-size: 1.2rem; }

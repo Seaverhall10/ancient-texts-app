@@ -1,0 +1,171 @@
+/* ── Theme Explorer Overlay ────────────────────── */
+.theme-explorer-overlay {
+    position: fixed;
+    inset: 0;
+    background: var(--bg-overlay);
+    z-index: var(--z-modal);
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    padding: var(--space-2xl) var(--space-lg);
+    overflow-y: auto;
+}
+.theme-explorer-overlay.open { display: flex; }
+
+.theme-explorer-modal {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-lg);
+    width: 100%;
+    max-width: 720px;
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: var(--space-xl);
+    box-shadow: var(--shadow-xl);
+}
+
+.theme-explorer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-md);
+}
+.theme-explorer-header h2 {
+    font-size: var(--text-2xl);
+    margin: 0;
+}
+
+.theme-explorer-desc {
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-sm);
+    line-height: 1.5;
+}
+
+.theme-explorer-stats {
+    color: var(--text-muted);
+    font-size: var(--text-xs);
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border);
+}
+
+/* Tag bar for switching themes without closing */
+.theme-explorer-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: var(--space-lg);
+}
+.theme-explorer-tags .te-tag {
+    padding: 3px 10px;
+    border-radius: var(--radius-pill);
+    font-size: 0.65rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--tc);
+    background: color-mix(in srgb, var(--tc) 8%, transparent);
+    border: 1px solid color-mix(in srgb, var(--tc) 20%, transparent);
+    transition: all 0.15s;
+}
+.theme-explorer-tags .te-tag:hover,
+.theme-explorer-tags .te-tag.active {
+    background: color-mix(in srgb, var(--tc) 18%, transparent);
+    border-color: color-mix(in srgb, var(--tc) 40%, transparent);
+}
+
+/* Results grouped by text */
+.te-text-group {
+    margin-bottom: var(--space-lg);
+}
+.te-text-name {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--text-secondary);
+    padding: var(--space-xs) 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: var(--space-xs);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+.te-text-count {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+.te-chapter-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    padding: var(--space-sm) var(--space-sm);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: background 0.15s;
+}
+.te-chapter-item:hover {
+    background: rgba(255, 255, 255, 0.04);
+}
+.te-chapter-ref {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    min-width: 100px;
+    flex-shrink: 0;
+}
+.te-chapter-title {
+    font-size: var(--text-sm);
+    color: var(--text-primary);
+}
+.te-chapter-themes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-top: 2px;
+}
+.te-chapter-themes .te-micro-tag {
+    font-size: 0.55rem;
+    padding: 1px 5px;
+    border-radius: var(--radius-pill);
+    color: var(--text-muted);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Clickable era theme tags */
+.era-theme-tag {
+    cursor: pointer;
+}
+.era-theme-tag:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-primary);
+}
+
+/* Chapter-level theme tags */
+.chapter-themes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin: var(--space-sm) 0;
+}
+.chapter-theme-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: var(--radius-pill);
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.03);
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.chapter-theme-tag:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-primary);
+}
+
+/* Clickable at-tags in Master Theme Registry */
+.at-tag { cursor: pointer; }
+.at-tag:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05);
+}

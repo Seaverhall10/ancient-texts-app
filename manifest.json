@@ -617,12 +617,12 @@
       "name": "Nephilim & Giants",
       "category": "thematic",
       "language": "multi",
-      "chapters": 10,
+      "chapters": 16,
       "color": "#a05a54",
       "data_dir": "nephilim_giants",
       "content_type": "html_fragment",
       "interlinear": null,
-      "description": "Track the giant bloodlines from Genesis 6 through conquest, David's battles, and Second Temple traditions"
+      "description": "Track the giant bloodlines from Genesis 6 through conquest, David's battles, Second Temple traditions, and worldwide giant memories across every continent"
     },
     {
       "id": "parables_invitation",
@@ -4214,6 +4214,21 @@
       ]
     },
     {
+      "id": "philemon_onesimus",
+      "text": "philemon",
+      "name": "New Identity and Imputation",
+      "chapters": "Philemon 10–21",
+      "color": "#8a7a8a",
+      "icon": "II",
+      "data_file": "era_philemon_theology",
+      "themes": [
+        "Useless to useful",
+        "New identity in Christ",
+        "Substitutionary imputation",
+        "Charge it to my account"
+      ]
+    },
+    {
       "id": "james_faith",
       "text": "james",
       "name": "Faith That Works",
@@ -4360,6 +4375,21 @@
       ]
     },
     {
+      "id": "2john_discernment",
+      "text": "2john",
+      "name": "The Elect Lady and Boundaries of Truth",
+      "chapters": "2 John 1–13",
+      "color": "#7a6a8a",
+      "icon": "II",
+      "data_file": "era_2john_discernment",
+      "themes": [
+        "Elect lady as house church",
+        "Divine council election language",
+        "Hospitality as cosmic allegiance",
+        "Progressive theology warning"
+      ]
+    },
+    {
       "id": "3john_hospitality",
       "text": "3john",
       "name": "Faithful Gaius and Ambitious Diotrephes",
@@ -4372,6 +4402,21 @@
         "Diotrephes self-exaltation",
         "Authority and service",
         "Fellow workers for truth"
+      ]
+    },
+    {
+      "id": "3john_leadership",
+      "text": "3john",
+      "name": "Kingdom Leadership and the Sin of Preeminence",
+      "chapters": "3 John 1–15",
+      "color": "#7a6a8a",
+      "icon": "II",
+      "data_file": "era_3john_leadership",
+      "themes": [
+        "Character test for leadership",
+        "Gaius and Demetrius commended",
+        "Philoproteuon hapax legomenon",
+        "Ecclesiastical tyranny as divine council rebellion"
       ]
     },
     {
@@ -4388,6 +4433,22 @@
         "1 Enoch quoted",
         "Cain Balaam Korah",
         "Glorious ones blasphemed"
+      ]
+    },
+    {
+      "id": "jude_enoch",
+      "text": "jude",
+      "name": "Enochic Theology and the Three Rebellions",
+      "chapters": "Jude 5–15",
+      "color": "#a05a54",
+      "icon": "II",
+      "data_file": "era_jude_enoch",
+      "themes": [
+        "1 Enoch 1:9 as prophecy",
+        "Ten thousands of holy ones",
+        "Angels who left their dwelling",
+        "Strange flesh boundary violation",
+        "Three-rebellion framework"
       ]
     },
     {
@@ -4690,6 +4751,22 @@
         "YHWH's compassion",
         "Return to covenant",
         "Resurrection hope"
+      ]
+    },
+    {
+      "id": "hosea_chesed",
+      "text": "hosea",
+      "name": "The Chesed Theology Deep Dive",
+      "chapters": "Hosea 1\u20133, 4, 6, 11, 14",
+      "color": "#a0504a",
+      "icon": "III",
+      "data_file": "era_hosea_chesed",
+      "themes": [
+        "Marriage as covenant theology",
+        "Chesed not sacrifice (6:6)",
+        "Da'at Elohim \u2014 knowledge of God",
+        "Heartbroken father (ch 11)",
+        "Redemption at a price"
       ]
     },
     {
@@ -5086,6 +5163,22 @@
         "Refiner's fire",
         "Sun of righteousness",
         "Elijah before the Day"
+      ]
+    },
+    {
+      "id": "mal_confrontation",
+      "text": "malachi",
+      "name": "The Disputation Deep Dive",
+      "chapters": "Malachi 1\u20134",
+      "color": "#7a5a4a",
+      "icon": "III",
+      "data_file": "era_malachi_confrontation",
+      "themes": [
+        "Six disputation structure",
+        "Priest as mal'akh (messenger)",
+        "Marriage as YHWH-witnessed covenant",
+        "Cynicism vs book of remembrance",
+        "Three figures of 3:1 \u2014 Christology"
       ]
     },
     {

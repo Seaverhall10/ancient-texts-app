@@ -42,6 +42,25 @@ CHAPTERS = [
                     "\u2014 cultures separated by oceans and millennia \u2014 the "
                     "explanation cannot be coincidence. It is memory.",
 
+        "ane_backdrop": "Sumerian Apkallu tradition — seven antediluvian sages "
+                        "who brought civilization, parallel to Watchers bringing "
+                        "forbidden knowledge. Akkadian texts describe divine-human "
+                        "hybrid kings (Gilgamesh as two-thirds divine).",
+
+        "second_temple": "1 Enoch 6-16 provides the most detailed Second Temple "
+                         "account of Watchers descending, taking wives, and "
+                         "producing giants. Jubilees 5:1-11 adds that God sent "
+                         "angels to bind the Watchers. Book of Giants (4Q530-533) "
+                         "preserves Nephilim names and their prophetic dreams of "
+                         "doom.",
+
+        "divine_council_note": "The worldwide memory pattern points back to a "
+                               "divine council rebellion — 200 members of God's "
+                               "heavenly host abandoned their station (Jude 6) and "
+                               "produced hybrid offspring. The universality of this "
+                               "memory across isolated cultures is evidence [B] that "
+                               "Genesis 6 records an actual event, not mythology.",
+
         "key_verse": {
             "ref": "Genesis 6:4",
             "text": "The Nephilim were on the earth in those days, and also "
@@ -79,6 +98,29 @@ CHAPTERS = [
                            "human behavior into biological existence itself \u2014 "
                            "consistent with hybridization affecting the created "
                            "order globally."
+            },
+            {
+                "term": "\u05d2\u05b4\u05bc\u05d1\u05bc\u05d5\u05b9\u05e8\u05b4\u05d9\u05dd (gibborim)",
+                "meaning": "'Mighty ones' or 'warriors of renown.' Genesis 6:4 "
+                           "identifies the Nephilim as gibborim \u2014 not merely "
+                           "large but supernaturally powerful. Every culture's "
+                           "giant tradition emphasizes both size AND extraordinary "
+                           "martial prowess, matching this Hebrew descriptor."
+            },
+            {
+                "term": "\u05d4\u05b7\u05e0\u05b0\u05bc\u05e4\u05b4\u05d9\u05dc\u05b4\u05d9\u05dd (ha-nephilim)",
+                "meaning": "'The Nephilim' with the definite article \u2014 Genesis "
+                           "6:4 and Numbers 13:33 use the article, indicating "
+                           "these were a known, specific group, not a generic "
+                           "category. The audience was expected to recognize them."
+            },
+            {
+                "term": "\u05e9\u05b4\u05c1\u05d7\u05b5\u05ea (shichet)",
+                "meaning": "'Corrupted/destroyed' \u2014 Genesis 6:11-12 uses this "
+                           "term for the earth's condition. The root implies both "
+                           "moral corruption and physical ruination \u2014 the Nephilim "
+                           "didn't merely sin, they corrupted the created order "
+                           "itself."
             }
         ],
 
@@ -267,6 +309,26 @@ CHAPTERS = [
                     "the 'mountain of the oath' where 200 Watchers swore their "
                     "pact (1 Enoch 6:6).",
 
+        "ane_backdrop": "The Sumerian King List records pre-Flood kings with "
+                        "impossibly long reigns \u2014 mirror of Genesis 5 longevity. "
+                        "Gilgamesh Epic presents a hero who is part divine, seeks "
+                        "immortality after the Flood. Ugaritic rpum texts describe "
+                        "the Rephaim as departed warrior-kings, connecting to the "
+                        "Hebrew double-meaning of rephaim.",
+
+        "second_temple": "1 Enoch 8:1-3 names specific Watchers who taught "
+                         "specific arts: Azazel taught metalwork and cosmetics, "
+                         "Semjaza taught enchantments, Armaros taught counter-"
+                         "spells. These map directly onto Mesopotamian apkallu "
+                         "attributions.",
+
+        "divine_council_note": "Mesopotamia preserves the clearest memory of the "
+                               "divine council rebellion because of geographic "
+                               "proximity to both Eden and Mount Hermon. Canaanite "
+                               "traditions of the rpum at Bashan connect directly "
+                               "to the biblical Rephaim \u2014 Og's kingdom (Deut 3:11) "
+                               "sits atop the ancient Watcher territory.",
+
         "key_verse": {
             "ref": "Genesis 10:8-9",
             "text": "Cush fathered Nimrod; he was the first on earth to be a "
@@ -304,6 +366,23 @@ CHAPTERS = [
                            "200 Watchers swore their oath. The very name "
                            "encodes judgment: the place is cherem \u2014 devoted "
                            "to destruction."
+            },
+            {
+                "term": "\u05d0\u05b7\u05e4\u05b0\u05bc\u05db\u05b7\u05dc\u05bc\u05d5\u05bc (apkallu)",
+                "meaning": "Akkadian term for the seven antediluvian sages. Not "
+                           "Hebrew but critical parallel: the apkallu brought "
+                           "civilization from the divine realm, exactly as 1 "
+                           "Enoch's Watchers brought forbidden arts. Berossus "
+                           "preserved this tradition in the 3rd century BC."
+            },
+            {
+                "term": "\u05d1\u05b7\u05e2\u05b7\u05dc (ba'al)",
+                "meaning": "'Lord/master' \u2014 Canaanite divine title that became "
+                           "the generic term for territorial deities. The Baal "
+                           "worship Israel encountered in Canaan connects to the "
+                           "Deut 32:8 framework: these were real beings assigned "
+                           "to the nations who accepted worship and corrupted "
+                           "their peoples."
             }
         ],
 
@@ -463,6 +542,29 @@ CHAPTERS = [
                     "the Greek tradition as a genuine, if distorted, memory of "
                     "the same event.",
 
+        "ane_backdrop": "Hesiod's Theogony preserves a combat myth where Titans "
+                        "(divine beings) war against Olympians and are imprisoned "
+                        "in Tartarus \u2014 the exact Greek word Peter uses in 2 Peter "
+                        "2:4 (tartaroo). The Gigantomachy describes earth-born "
+                        "giants attacking heaven, paralleling the Nephilim's "
+                        "violence reaching to heaven (1 Enoch 9:1).",
+
+        "second_temple": "2 Peter 2:4 uses tartaroo (\u03c4\u03b1\u03c1\u03c4\u03b1\u03c1\u03cc\u03c9) \u2014 a word "
+                         "appearing nowhere else in the NT \u2014 deliberately "
+                         "connecting the imprisoned Watchers to the Greek Titan "
+                         "tradition. Jude 6 parallels this with angels who 'did "
+                         "not stay within their own position of authority.' The "
+                         "Sibylline Oracles (Jewish-Christian, 2nd c. BC) "
+                         "explicitly identify the Titans with the fallen Watchers.",
+
+        "divine_council_note": "Greek mythology preserves the divine council "
+                               "rebellion through the lens of polytheistic "
+                               "corruption \u2014 the Titans are the Watchers remembered "
+                               "as an older generation of gods. Tartarus as their "
+                               "prison maps to 1 Enoch's cosmic imprisonment. "
+                               "Prometheus bringing fire to humanity parallels "
+                               "Azazel teaching forbidden metallurgy.",
+
         "key_verse": {
             "ref": "2 Peter 2:4",
             "text": "For if God did not spare angels when they sinned, but "
@@ -502,6 +604,22 @@ CHAPTERS = [
                            "victory), not euangelizo (to preach good news). "
                            "Christ announced triumph to the imprisoned "
                            "Watchers in their Tartarus prison."
+            },
+            {
+                "term": "\u03c4\u03b1\u03c1\u03c4\u03b1\u03c1\u03cc\u03c9 (tartaroo)",
+                "meaning": "Greek verb used ONLY in 2 Peter 2:4, meaning 'to "
+                           "cast into Tartarus.' Peter deliberately chose the "
+                           "Greek mythological prison rather than Gehenna or "
+                           "Hades, signaling that the Greek Titan tradition "
+                           "preserves a real memory of the Watcher imprisonment."
+            },
+            {
+                "term": "\u03b3\u03af\u03b3\u03b1\u03bd\u03c4\u03b5\u03c2 (gigantes)",
+                "meaning": "The Septuagint translates nephilim as gigantes in "
+                           "Genesis 6:4. This is the bridge between Hebrew and "
+                           "Greek giant traditions \u2014 the LXX translators "
+                           "recognized the equivalence between biblical Nephilim "
+                           "and Greek Giants."
             }
         ],
 
@@ -660,6 +778,30 @@ CHAPTERS = [
                     "with the ten-point Nephilim template demands honest "
                     "assessment.",
 
+        "ane_backdrop": "Aztec Quinametzin ('giants') were said to have built "
+                        "Teotihuacan and Cholula before being destroyed by divine "
+                        "judgment. Paiute oral tradition records Si-Te-Cah \u2014 "
+                        "red-haired cannibalistic giants exterminated by tribal "
+                        "coalition. These parallel ANE accounts of pre-Flood "
+                        "giants building cities and being destroyed by divine "
+                        "action.",
+
+        "second_temple": "While no direct Second Temple text addresses American "
+                         "giants, the framework of 1 Enoch 15:8-10 (disembodied "
+                         "Nephilim spirits roaming the earth) and Deuteronomy "
+                         "32:8 (nations assigned to divine beings after Babel) "
+                         "provides the theological mechanism for worldwide giant "
+                         "traditions \u2014 the Table of Nations dispersion carried "
+                         "both bloodlines and memories.",
+
+        "divine_council_note": "Deuteronomy 32:8 (DSS/LXX) assigns the nations "
+                               "to divine beings after Babel. If rebellious sons "
+                               "of God received territorial authority over "
+                               "dispersed peoples, their corruption would produce "
+                               "giant traditions independently across continents "
+                               "\u2014 not through cultural diffusion but through "
+                               "repeated supernatural incursion.",
+
         "key_verse": {
             "ref": "2 Samuel 21:20",
             "text": "And there was again war at Gath, where there was a man "
@@ -688,6 +830,25 @@ CHAPTERS = [
                            "'born to the giant in Gath.' The definite article "
                            "suggests ha-Rapha was a known progenitor, and "
                            "polydactyly was his lineage marker."
+            },
+            {
+                "term": "\u05d7\u05b5\u05e8\u05b6\u05dd (cherem)",
+                "meaning": "'Devoted to destruction/ban.' The conquest command to "
+                           "utterly destroy specific Canaanite populations (Josh "
+                           "6:17, Deut 7:2) was not genocide but targeted divine "
+                           "warfare against Nephilim-contaminated bloodlines. "
+                           "American traditions of tribal coalitions exterminating "
+                           "giants mirror this pattern."
+            },
+            {
+                "term": "\u05e8\u05b8\u05e4\u05b8\u05d0 (rapha)",
+                "meaning": "Root of 'Rephaim,' meaning 'healer' or 'shade of "
+                           "the dead.' The double meaning \u2014 giant clan AND "
+                           "departed spirits \u2014 reflects the 1 Enoch 15:8-10 "
+                           "teaching: dead Nephilim become evil spirits. The "
+                           "worldwide association of giants with both physical "
+                           "power and the spirit world preserves this dual "
+                           "identity."
             }
         ],
 
@@ -836,6 +997,32 @@ CHAPTERS = [
                     "territory developed its own version of the Nephilim "
                     "memory.",
 
+        "ane_backdrop": "Indo-European traditions share a common template: "
+                        "divine-human unions producing heroes of extraordinary "
+                        "size and strength (Indian Rakshasas, Norse Jotnar, "
+                        "Celtic Fomorians). Aboriginal Australian Dreamtime "
+                        "describes giant beings who shaped the landscape in the "
+                        "creation era \u2014 then were destroyed or bound beneath "
+                        "the earth.",
+
+        "second_temple": "Jubilees 7:21-25 states that after the Flood, demons "
+                         "(disembodied Nephilim per 1 Enoch 15:8-10) continued "
+                         "to 'lead astray and blind and slay' Noah's "
+                         "grandchildren. This provides the mechanism for post-"
+                         "Flood giant traditions: not surviving bloodlines alone, "
+                         "but ongoing demonic influence perpetuating the Watcher "
+                         "corruption pattern worldwide.",
+
+        "divine_council_note": "The global distribution of giant traditions \u2014 "
+                               "from Scandinavian frost giants to Polynesian Maui "
+                               "stories to Japanese Oni \u2014 maps onto the "
+                               "Deuteronomy 32:8 framework. Each nation received "
+                               "a divine being as patron; rebellious ones "
+                               "reproduced the Hermon pattern locally. The "
+                               "convergence of 10+ traits across isolated cultures "
+                               "is evidence [B] of a common supernatural origin, "
+                               "not mere cultural borrowing.",
+
         "key_verse": {
             "ref": "Deuteronomy 32:8",
             "text": "When the Most High gave to the nations their inheritance, "
@@ -864,6 +1051,27 @@ CHAPTERS = [
                            "traditions appear independently in every culture: "
                            "each territory had its own divine being capable of "
                            "replicating the Watcher transgression."
+            },
+            {
+                "term": "\u05d9\u05b9\u05ea\u05d5\u05bc\u05df (yotun)",
+                "meaning": "Not Hebrew but Old Norse: 'giant/devourer.' The "
+                           "Norse Jotnar parallel the Nephilim in being: (1) "
+                           "offspring of a primordial mixing, (2) associated "
+                           "with chaos and destruction, (3) opposed by divine "
+                           "warriors, (4) destined for destruction at Ragnarok/"
+                           "judgment. The linguistic root means 'eater/devourer' "
+                           "\u2014 matching 1 Enoch 7:2-5's description of Nephilim "
+                           "cannibalism."
+            },
+            {
+                "term": "\u05de\u05b7\u05d1\u05bc\u05d5\u05bc\u05dc (mabbul)",
+                "meaning": "'Flood/deluge' \u2014 Used exclusively for Noah's Flood "
+                           "in the Hebrew Bible. Every culture with a giant "
+                           "tradition also has a flood tradition, and in most "
+                           "cases the flood is explicitly connected to destroying "
+                           "the giants. This linguistic-theological pairing "
+                           "(giants + flood judgment) is itself evidence of a "
+                           "common source memory."
             }
         ],
 
@@ -1021,6 +1229,33 @@ CHAPTERS = [
                     "genuinely unexplained. The evidence is not proof. But "
                     "it is witness. And the witnesses demand investigation.",
 
+        "ane_backdrop": "Baalbek's trilithon stones (800-1,000 tons each, "
+                        "quarried and transported by unknown means) and "
+                        "Sacsayhuaman's polygonal masonry represent construction "
+                        "that defies conventional archaeological explanation. "
+                        "Ancient texts consistently attribute megalithic "
+                        "construction to giants \u2014 Josephus (Antiquities 5.2.3) "
+                        "connects Hebron's massive walls to the Anakim.",
+
+        "second_temple": "1 Enoch 7:2-5 describes the Nephilim as consuming "
+                         "everything humans produced, then turning to "
+                         "cannibalism \u2014 matching archaeological evidence of "
+                         "extreme violence in pre-Flood contexts. Josephus "
+                         "(Antiquities 1.3.1) preserves the tradition that the "
+                         "giants' bones were still visible in his day. The Book "
+                         "of Giants describes Nephilim of enormous stature whose "
+                         "'bodies were like great mountains.'",
+
+        "divine_council_note": "Physical evidence (polydactyly clustering at "
+                               "ancient sites, elongated cranial remains, "
+                               "megalithic construction beyond ancient human "
+                               "engineering capacity) provides [C]-tier evidence "
+                               "that corroborates the biblical and Second Temple "
+                               "accounts. While no single artifact proves Nephilim "
+                               "existence, the convergence of textual tradition + "
+                               "physical anomaly + global distribution creates a "
+                               "cumulative case that demands serious engagement.",
+
         "key_verse": {
             "ref": "Deuteronomy 3:11",
             "text": "For only Og the king of Bashan was left of the remnant "
@@ -1060,6 +1295,34 @@ CHAPTERS = [
                            "The sacred geometry found in megalithic sites "
                            "worldwide may be the legacy of this Watcher-"
                            "transmitted knowledge."
+            },
+            {
+                "term": "\u05e2\u05b2\u05e0\u05b8\u05e7\u05b4\u05d9\u05dd (anaqim)",
+                "meaning": "'Anakim/long-necked ones' \u2014 The giant clan name may "
+                           "derive from 'anak' (necklace/chain) or describe "
+                           "elongated features. Archaeological finds of elongated "
+                           "crania at sites associated with giant traditions "
+                           "(Paracas, Malta, ancient Egypt) raise the question of "
+                           "whether 'long-necked' was literal physical description, "
+                           "not metaphor."
+            },
+            {
+                "term": "\u05e9\u05b5\u05c1\u05e9\u05c1 \u05d0\u05b6\u05e6\u05b0\u05d1\u05b8\u05bc\u05e2\u05d5\u05b9\u05ea (shesh etzba'ot)",
+                "meaning": "'Six fingers' \u2014 2 Samuel 21:20 records a Raphah "
+                           "descendant with six fingers on each hand and six toes "
+                           "on each foot. Polydactyly appears at statistically "
+                           "anomalous rates at ancient sites worldwide (Chaco "
+                           "Canyon: 31x normal rate), suggesting a genetic marker "
+                           "associated with the Nephilim bloodline."
+            },
+            {
+                "term": "\u05e2\u05b6\u05e8\u05b6\u05e9\u05c2 \u05d1\u05b7\u05e8\u05b0\u05d6\u05b6\u05dc (eres barzel)",
+                "meaning": "'Iron bed/sarcophagus' \u2014 Og of Bashan's iron bed "
+                           "(Deut 3:11) measured 9 cubits by 4 cubits (~13.5 x 6 "
+                           "feet). This is physical evidence preserved in "
+                           "Scripture \u2014 a measurable artifact that contemporary "
+                           "audiences could verify. It establishes a precedent "
+                           "for taking giant physical evidence seriously."
             }
         ],
 

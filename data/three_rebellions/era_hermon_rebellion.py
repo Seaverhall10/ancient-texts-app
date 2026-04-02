@@ -133,7 +133,8 @@ CHAPTERS = [
             {"ref": "1 Enoch 6-16", "note": "According to 1 Enoch, 200 Watchers led by Shemihazah descended on Mount Hermon, swore oaths, and took human wives", "type": "pseudepigrapha"},
             {"ref": "Jude 14-15", "note": "Jude quotes 1 Enoch 1:9 as prophecy \u2014 'Enoch, the seventh from Adam, prophesied' \u2014 canonical validation of the tradition", "type": "nt"},
             {"ref": "4Q180-181 (Ages of Creation)", "note": "Qumran pesher text that interprets Genesis 6:1-4 as referring to Watchers (divine beings) who descended and sinned", "type": "dss"},
-            {"ref": "4Q530-533 (Book of Giants)", "note": "Qumran fragments narrating the Nephilim's terrifying dreams of coming judgment, connected to the Watcher tradition", "type": "dss"}
+            {"ref": "4Q530-533 (Book of Giants)", "note": "Qumran fragments narrating the Nephilim's terrifying dreams of coming judgment, connected to the Watcher tradition", "type": "dss"},
+            {"ref": "Nephilim Worldwide: Core Template", "note": "The Hermon descent produced a worldwide memory — ten specific traits (divine origin, hybrid offspring, giant stature, forbidden knowledge, flood judgment) surface independently on every inhabited continent.", "type": "thematic"}
         ],
 
         "divine_council_note": "The Hermon rebellion is a divine council mutiny. The Watchers were members of "

@@ -4,7 +4,7 @@ info.py -- Text introduction for the Nephilim & Giants thematic study.
 
 TEXT_INFO = {
     "display_name": "Nephilim & Giants",
-    "full_title": "Nephilim & Giants: Tracking the Giant Bloodlines from Genesis 6 Through Conquest to David",
+    "full_title": "Nephilim & Giants: Tracking the Giant Bloodlines from Genesis 6 Through Conquest, David, and Worldwide Traditions",
 
     "canonical_status": {
         "status": "thematic_study",
@@ -112,9 +112,13 @@ TEXT_INFO = {
     "reader_notes": [
         "Evidence tags throughout: [A] = direct Scripture, [B] = valid inference from "
         "Scripture, [C] = ancient parallels (non-canonical context).",
-        "10 chapters organized in 3 parts: Origins & The Flood (Genesis 6, 1 Enoch, "
-        "Book of Giants), Giant Clans & Conquest (Numbers-Joshua), and David's Giant "
-        "Slayers & Legacy (1-2 Samuel, Second Temple traditions).",
+        "16 chapters organized in 4 parts: Part I — Origins & The Flood (Ch 1-4: "
+        "Genesis 6, 1 Enoch, Flood judgment, post-Flood return), Part II — Giant "
+        "Clans & Conquest (Ch 5-7: Anakim/Rephaim taxonomy, Og of Bashan, Joshua's "
+        "campaign), Part III — David's Giant Slayers & Legacy (Ch 8-10: Goliath, "
+        "final slayers, Second Temple transmission), Part IV — Worldwide Traditions "
+        "(Ch 11-16: core template, Mesopotamia/Canaan, Greece/Rome, the Americas, "
+        "Asia/Europe/Pacific, physical evidence and anomalies).",
         "Key Hebrew terms: nephilim (fallen ones), gibborim (mighty men), rephaim "
         "(shades/giants), anakim (long-necked), benei ha-elohim (sons of God), "
         "ish ha-benayim (man of the between -- Goliath's title).",

@@ -1,7 +1,7 @@
 /* ── Print Styles ────────────────────────────── */
 @media print {
     .sidebar, .sidebar-toggle, .sidebar-backdrop,
-    .xref-drawer, .glossary-overlay, .bookmark-btn,
+    .xref-drawer, .glossary-overlay, .theme-explorer-overlay, .bookmark-btn,
     .search-container, .reading-pane, .reading-pane-toggle,
     .word-popup { display: none !important; }
 

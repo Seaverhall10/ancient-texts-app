@@ -1097,7 +1097,8 @@ CHAPTERS = [
             {"ref": "Ezekiel 28:13-15", "note": "The guardian cherub (kerub mimshach) was in Eden, blameless from creation until iniquity was found — the closest canonical text to a pre-Eden fall of Satan figure", "type": "ot"},
             {"ref": "Ephesians 2:2", "note": "Satan as 'the prince of the power of the air (ton archonta tes exousias tou aeros)' — current operational domain of the adversary, distinct from Tartarus, the Abyss, and the heavenly places of the Territorial Princes", "type": "nt"},
             {"ref": "Revelation 20:2-3", "note": "Satan bound in the Abyss for a thousand years — the Abyss as a distinct intermediate containment; then released briefly before the lake of fire (20:10)", "type": "nt"},
-            {"ref": "1 Enoch 15:8-10", "note": "According to 1 Enoch, evil spirits are the disembodied spirits of the Nephilim — giants whose angelic fathers are imprisoned in Tartarus while their hybrid offspring roam the earth as demons", "pseudepigrapha": "pseudepigrapha", "type": "pseudepigrapha"}
+            {"ref": "1 Enoch 15:8-10", "note": "According to 1 Enoch, evil spirits are the disembodied spirits of the Nephilim — giants whose angelic fathers are imprisoned in Tartarus while their hybrid offspring roam the earth as demons", "pseudepigrapha": "pseudepigrapha", "type": "pseudepigrapha"},
+            {"ref": "Nephilim Worldwide: Physical Evidence", "note": "Archaeological anomalies — polydactyly clustering, elongated crania, megalithic construction — provide [C]-tier evidence corroborating the Watcher-Nephilim tradition across cultures.", "type": "thematic"}
         ],
 
         "divine_council_note": "The four categories of fallen beings represent four distinct trajectories "

@@ -157,7 +157,7 @@ SEARCH_QA = [
         "keywords": ["cherem", "ban", "canaanites", "destroy", "genocide", "giants", "nephilim", "conquest", "herem", "devoted"],
         "answer": "The Hebrew word cherem (devoted to destruction) applied specifically to populations and places connected to Nephilim bloodlines and their corrupt worship. The conquest targets \u2014 Og of Bashan, the Anakim, the Rephaim \u2014 were giant clans descended from or associated with the Nephilim (Numbers 13:33, Deuteronomy 2\u20133). God's cherem was not ethnic cleansing but a continuation of the Genesis 6 judgment: eliminating the corrupted bloodline that threatened the messianic line. Rahab and the Gibeonites show that non-Nephilim Canaanites could be spared through faith.",
         "nav_targets": [
-            {"type": "chapter", "id": "nephilim-conquest-land", "label": "Nephilim & Giants \u2014 The Conquest"},
+            {"type": "chapter", "id": "nephilim-conquest-clans", "label": "Nephilim & Giants \u2014 The Conquest"},
             {"type": "chapter", "id": "josh-6", "label": "Joshua 6 \u2014 Jericho"},
             {"type": "glossary", "term": "cherem", "label": "Glossary: cherem"}
         ],
@@ -284,7 +284,7 @@ SEARCH_QA = [
         "answer": "The Nephilim (Hebrew: 'fallen ones' or 'those who cause others to fall') were the offspring of the 'sons of God' (divine beings) and human women (Genesis 6:1\u20134). They were 'mighty men of old, men of renown' \u2014 warrior giants. After the Flood, Nephilim-related clans (Anakim, Rephaim, Emim, Zamzummim) appear in Canaan, which is why the spies in Numbers 13:33 report seeing 'Nephilim' in the land. The conquest of Canaan specifically targeted these giant clans. Goliath was likely a descendant of the Rephaim/Anakim.",
         "nav_targets": [
             {"type": "chapter", "id": "nephilim-origin-crossing", "label": "Nephilim & Giants \u2014 Origins"},
-            {"type": "chapter", "id": "nephilim-conquest-land", "label": "Nephilim \u2014 The Conquest"},
+            {"type": "chapter", "id": "nephilim-conquest-clans", "label": "Nephilim \u2014 The Conquest"},
             {"type": "glossary", "term": "nephilim", "label": "Glossary: nephilim"},
             {"type": "glossary", "term": "rephaim", "label": "Glossary: rephaim"}
         ],
@@ -309,7 +309,7 @@ SEARCH_QA = [
         "keywords": ["goliath", "david", "giant", "gath", "nephilim", "rephaim", "philistine"],
         "answer": "Goliath was from Gath, one of the cities associated with the Anakim/Rephaim \u2014 giant clans linked to the Nephilim. 2 Samuel 21:15\u201322 records four other Philistine giants from Gath, described as 'descendants of the giants' (Rephaim). Joshua 11:22 notes that when Joshua eliminated the Anakim from Israel, remnants survived in Gaza, Gath, and Ashdod \u2014 all Philistine cities. David's defeat of Goliath thus continues the divine mandate to eliminate Nephilim bloodlines from the promised land.",
         "nav_targets": [
-            {"type": "chapter", "id": "nephilim-david-champion", "label": "Nephilim & Giants \u2014 David's Champions"},
+            {"type": "chapter", "id": "nephilim-david-goliath", "label": "Nephilim & Giants \u2014 David's Champions"},
             {"type": "chapter", "id": "1sam-17", "label": "1 Samuel 17 \u2014 David & Goliath"}
         ],
         "tier": "B"
@@ -320,7 +320,7 @@ SEARCH_QA = [
         "keywords": ["og", "bashan", "giant", "bed", "iron", "rephaim", "deuteronomy 3"],
         "answer": "Og was the last of the Rephaim (Deuteronomy 3:11), a king whose iron bed was 9 cubits long (~13.5 feet). His territory, Bashan, was associated in ancient tradition with the realm of the dead and the Rephaim spirits. The defeat of Og by Moses was so significant it became a liturgical refrain (Psalm 135:11, 136:20). Bashan is also connected to Mount Hermon, where according to 1 Enoch, the Watchers descended. The destruction of Og was part of God's campaign against Nephilim remnants before Israel entered the promised land.",
         "nav_targets": [
-            {"type": "chapter", "id": "nephilim-conquest-land", "label": "Nephilim & Giants \u2014 The Conquest"},
+            {"type": "chapter", "id": "nephilim-conquest-clans", "label": "Nephilim & Giants \u2014 The Conquest"},
             {"type": "chapter", "id": "deut-3", "label": "Deuteronomy 3"}
         ],
         "tier": "B"
@@ -331,7 +331,7 @@ SEARCH_QA = [
         "keywords": ["anakim", "anak", "giants", "hebron", "spies", "numbers 13", "caleb"],
         "answer": "The Anakim ('long-necked ones') were a clan of giants descended from Anak, who descended from Arba (Joshua 15:13). They inhabited Hebron and the hill country of Judah. The 10 spies who gave a bad report said 'we were like grasshoppers' compared to the Anakim, whom they identified as Nephilim (Numbers 13:33). Joshua eventually drove them out of the hill country, but remnants survived in Gaza, Gath, and Ashdod (Joshua 11:22) \u2014 Philistine cities, explaining why giants like Goliath appeared there later.",
         "nav_targets": [
-            {"type": "chapter", "id": "nephilim-conquest-land", "label": "Nephilim \u2014 The Conquest"},
+            {"type": "chapter", "id": "nephilim-conquest-clans", "label": "Nephilim \u2014 The Conquest"},
             {"type": "glossary", "term": "anakim", "label": "Glossary: Anakim"}
         ],
         "tier": "B"

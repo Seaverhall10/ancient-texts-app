@@ -1059,6 +1059,20 @@ def build():
         </div>
     </div>
 
+    <!-- Theme Explorer Overlay -->
+    <div class="theme-explorer-overlay" id="themeExplorerOverlay">
+        <div class="theme-explorer-modal">
+            <div class="theme-explorer-header">
+                <h2 id="themeExplorerTitle">Theme Explorer</h2>
+                <button class="glossary-close" id="themeExplorerClose">&times;</button>
+            </div>
+            <div class="theme-explorer-desc" id="themeExplorerDesc"></div>
+            <div class="theme-explorer-stats" id="themeExplorerStats"></div>
+            <div class="theme-explorer-tags" id="themeExplorerTags"></div>
+            <div id="themeExplorerResults"></div>
+        </div>
+    </div>
+
     <!-- Glossary Overlay -->
     <div class="glossary-overlay" id="glossaryOverlay">
         <div class="glossary-modal">

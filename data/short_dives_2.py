@@ -438,6 +438,104 @@ SHORT_DIVE_ARTICLES_2 = {
 
 <p>Habakkuk demonstrates something remarkable about the covenant relationship: it is robust enough to absorb accusation. God does not punish Habakkuk for the <strong>riv</strong>. He answers it. The covenant is not a fragile arrangement that shatters under honest questioning. It is a legal framework sturdy enough to contain a prophet's rage and still produce the most quoted verse in the New Testament.</p>
 </article>
+""",
+
+    # ───────────────────────────────────────────────
+    # The Brittany Wall: 120 Meters Below
+    # ───────────────────────────────────────────────
+    "brittany-wall-120m": """
+<article class="short-dive-article">
+<h2>The Brittany Wall: 120 Meters Below</h2>
+<p class="sd-article-ref">1 Enoch 7:2-5 | Genesis 6:4 | Wisdom of Solomon 14:6</p>
+
+<p>In 2025, sonar mapping off the coast of Brittany, France revealed a massive granite wall structure sitting 120 meters below the current sea surface. The structure runs parallel to the coastline and appears to be engineered — not a natural geological formation. It predates the famous Carnac megalithic complex on shore, which already contains over 3,000 standing stones that no one can fully explain. Whatever built the Brittany wall did so when that seabed was dry land — before post-glacial sea levels rose between 12,000 and 8,000 years ago.</p>
+
+<p>The engineering problem is immediate. At 120 meters depth, we are talking about construction on a coastal plain that has been underwater for thousands of years. Mainstream archaeology has no framework for a civilization capable of megalithic construction at that date range in northwestern Europe. The stones at Carnac already push the boundaries — some weigh over 350 tons, and the original grand menhir (Er Grah) stood 20 meters tall before it fell. The submerged wall suggests the above-water monuments are the remnants of something much larger and much older.</p>
+
+<p>The parallel to Baalbek is hard to ignore. The trilithon stones at Baalbek in Lebanon weigh over 800 tons each, cut and transported with a precision that Roman engineers — who later built a temple on top of them — could not replicate. The Stone of the Pregnant Woman, still in its quarry, weighs an estimated 1,000 tons. No known ancient civilization had the technology to move these stones. The standard answer is "we don't know how they did it." The biblical answer is more specific.</p>
+
+<blockquote>"And the Nephilim were on the earth in those days, and also afterward, when the sons of God came in to the daughters of man and they bore children to them. These were the mighty men who were of old, the men of renown." — Genesis 6:4</blockquote>
+
+<p>The Hebrew <strong>gibborim</strong> — mighty men — and <strong>anshei ha-shem</strong> — men of renown, literally "men of the Name" — describe beings whose physical capabilities exceeded normal human parameters. First Enoch 7:2-5 adds detail: the giants consumed the produce of the land at such a rate that humans could not sustain them, and they turned to devouring animals, then each other, then human beings. But before the violence, there was building. The Watchers taught their offspring metalworking, stonecutting, and the arts of civilization (1 Enoch 8:1-3). Beings of extraordinary size and strength, equipped with advanced knowledge transmitted from heavenly beings, would have no difficulty moving 800-ton stones — or building walls on coastal plains that are now 120 meters underwater.</p>
+
+<p><strong>[C] Evidence tier: Archaeological anomaly / ancient parallel.</strong> The Brittany wall does not prove the Nephilim built it. What it does is add another data point to a growing pattern: megalithic structures worldwide that exceed the engineering capabilities of any known ancient human civilization, clustered in a time period that aligns with the pre-Flood and immediate post-Flood biblical narrative. The stones do not explain themselves. But Genesis 6 and 1 Enoch 7 offer a framework that fits the evidence better than "we don't know."</p>
+</article>
+""",
+
+    # ───────────────────────────────────────────────
+    # The DNA That Matches Genesis 6
+    # ───────────────────────────────────────────────
+    "dna-matches-genesis-6": """
+<article class="short-dive-article">
+<h2>The DNA That Matches Genesis 6</h2>
+<p class="sd-article-ref">Genesis 6:1-4 | 1 Enoch 6:1-2 | Jude 6-7</p>
+
+<p>In 2024 and 2025, advances in ancient DNA extraction produced a finding that should have made headlines in every seminary on earth. Studies of archaic hominin interbreeding — Neanderthal and Denisovan DNA found in modern human genomes — revealed a persistent sex-bias pattern. The genetic evidence shows that the interbreeding went overwhelmingly in one direction: archaic <strong>males</strong> mating with anatomically modern human <strong>females</strong>. The mitochondrial DNA (inherited from mothers) remains fully modern human, while the nuclear DNA carries archaic male contributions.</p>
+
+<p>Read that again, and then read Genesis 6:1-4:</p>
+
+<blockquote>"When man began to multiply on the face of the land and daughters were born to them, the sons of God saw that the daughters of man were attractive. And they took as their wives any they chose." — Genesis 6:1-2</blockquote>
+
+<p>The direction is specific and consistent. The <strong>bene elohim</strong> — sons of God — are the non-human party. The <strong>benot ha-adam</strong> — daughters of man — are the human party. The union is always non-human males with human females. Not the reverse. First Enoch 6 repeats the same pattern: the Watchers descend, see human women, and take them. Jude 6-7 confirms it, comparing the angels "who did not stay within their own position of authority" to Sodom, which pursued <strong>heteras sarkos</strong> — "different flesh." The direction of the transgression is always the same.</p>
+
+<p>Now, this article is not claiming that Neanderthals were Nephilim. The categories are different. Neanderthals are classified as archaic hominins within the genus Homo; the Nephilim are described as offspring of divine-human unions. What the DNA evidence provides is a <strong>pattern match</strong> — a directional signature in the genetic record that mirrors the directional signature in the biblical text. Non-human males. Human females. Consistently.</p>
+
+<p>Standard paleoanthropology explains the sex bias through behavioral models: archaic male groups encountering and mating with modern human female groups during migration overlaps. That is a reasonable hypothesis. But the hypothesis does not explain why the pattern is so one-directional across multiple archaic lineages (both Neanderthal and Denisovan), across multiple geographic regions, over tens of thousands of years. A random interbreeding model would predict bidirectional gene flow. The data shows asymmetry.</p>
+
+<p>The Sethite interpretation of Genesis 6 — which claims the "sons of God" were merely godly men from Seth's line — has no mechanism to explain a sex-bias pattern. If these were ordinary human men marrying ordinary human women from Cain's line, there is no reason the interbreeding would show directional asymmetry. The supernatural reading — divine or quasi-divine beings taking human women — predicts exactly the pattern the DNA reveals: the non-human contribution comes from the male side.</p>
+
+<p><strong>[C] Evidence tier: Modern scientific data read through a biblical lens.</strong> The DNA does not prove Genesis 6. But Genesis 6 predicted a pattern that the DNA now confirms: when non-human beings mixed with humanity, it was the non-human males who crossed the boundary to take human women. The text said it first. The genomes are saying it again.</p>
+</article>
+""",
+
+    # ───────────────────────────────────────────────
+    # The Paracas Skulls Won't Stay Quiet
+    # ───────────────────────────────────────────────
+    "paracas-skulls": """
+<article class="short-dive-article">
+<h2>The Paracas Skulls Won't Stay Quiet</h2>
+<p class="sd-article-ref">Numbers 13:33 | 2 Samuel 21:20 | Deuteronomy 2:10-11 | 1 Enoch 15:8-10</p>
+
+<p>The Paracas Peninsula in southern Peru has produced over 300 elongated skulls dating from roughly 800 BC to 200 AD. Many ancient cultures practiced cranial deformation — binding infant heads with boards or cloth to produce elongated shapes. This is well documented and not controversial. What is controversial is that a subset of the Paracas skulls show elongation that forensic analysts say cannot be produced by artificial binding.</p>
+
+<p>The distinction is anatomical. Cradle-boarding redistributes the volume of a normal skull — it pushes bone into a different shape, but the total cranial volume remains roughly the same (around 1,400 cubic centimeters for modern humans). Several Paracas skulls have cranial volumes 25 percent larger than normal — up to 1,750 cc. The bone is thicker. Some skulls have only two parietal plates instead of the normal three. The foramen magnum (the hole where the spine meets the skull) is positioned differently. These are not features that binding can produce. They are structural differences that would need to be present from birth.</p>
+
+<p>DNA analysis of Paracas skull samples — conducted by multiple labs since 2014 — has produced results that keep generating more questions than answers. Some samples show mitochondrial haplogroups not found in any known indigenous South American population. The results are contested, the sample sizes small, and the chain of custody debated. But the physical anomalies remain regardless of the DNA interpretation: skulls with volumes and structural features outside the normal range of Homo sapiens variation.</p>
+
+<blockquote>"And there we saw the Nephilim (the sons of Anak, who come from the Nephilim), and we seemed to ourselves like grasshoppers, and so we seemed to them." — Numbers 13:33</blockquote>
+
+<p>The Hebrew term <strong>Anakim</strong> — the giants encountered in Canaan — likely derives from a root meaning "long-necked." The physical description consistently emphasizes unusual stature and proportion, not merely height. Second Samuel 21:20 records a giant from Gath with six fingers on each hand and six toes on each foot — <strong>polydactyly</strong>, a congenital condition that suggests genetic anomaly rather than normal human variation. Deuteronomy 2:10-11 groups the Emim, Rephaim, and Anakim as related giant populations with distinct physical characteristics.</p>
+
+<p>The global pattern is what matters here. Elongated skulls appear not only in Peru but in Malta, Egypt, Russia, Mexico, and Bolivia. Giant skeletal remains — though systematically disputed — have been reported on every inhabited continent. The biblical text describes Nephilim and their post-Flood remnants (Anakim, Rephaim, Zamzummim) as physically distinct populations with features outside normal human parameters. The Paracas skulls are one data point in a much larger constellation.</p>
+
+<p><strong>[C] Evidence tier: Archaeological and forensic anomaly.</strong> The Paracas skulls do not prove the existence of Nephilim in South America. But they document the existence of a population with cranial features that cannot be explained by artificial deformation alone — features that align with the biblical description of physically anomalous giant lineages dispersed across the post-Babel world. The skulls keep generating new studies because the easy explanations keep falling short. Something was different about these people, and the standard models do not have a satisfying answer for what.</p>
+</article>
+""",
+
+    # ───────────────────────────────────────────────
+    # What the Spanish Priests Saw
+    # ───────────────────────────────────────────────
+    "spanish-priests-giants": """
+<article class="short-dive-article">
+<h2>What the Spanish Priests Saw</h2>
+<p class="sd-article-ref">Deuteronomy 32:8 | Genesis 10 (Table of Nations) | 1 Enoch 15:8-10</p>
+
+<p>When the Spanish arrived in Mesoamerica in the 16th century, the Dominican and Franciscan friars did something that turned out to be more valuable than all the gold they shipped home: they wrote down what the indigenous people told them. Diego Duran, Andres de Olmos, Bernardino de Sahagun, and Pedro Cieza de Leon compiled detailed accounts of Aztec, Toltec, and Andean oral traditions — recorded from living sources who had no access to European Bibles and no reason to fabricate stories that matched Genesis.</p>
+
+<p>The accounts are remarkably consistent. The Aztecs preserved traditions of the <strong>Quinametzin</strong> — a race of giants who inhabited the land before the current age of humanity. According to Duran's <em>Historia de las Indias de Nueva Espana</em> (1581), the Quinametzin were builders of extraordinary ability. The indigenous sources attributed the construction of the pyramids at Teotihuacan and the Great Pyramid of Cholula — the largest pyramid by volume on earth, larger than Giza — to these giants. The Quinametzin were eventually destroyed, the traditions say, by a great catastrophe.</p>
+
+<p>Cieza de Leon, writing from Peru in the 1550s, recorded Andean traditions of giants who arrived by sea and terrorized the coastal populations. The indigenous sources described beings of enormous stature who consumed resources at unsustainable rates and committed acts of violence and sexual transgression that provoked divine judgment. The parallels to 1 Enoch 7:2-5 — where the giants devour everything, turn violent, and provoke heaven's intervention — are striking, especially given that no one in 16th-century Peru had ever heard of 1 Enoch.</p>
+
+<blockquote>"When the Most High gave to the nations their inheritance, when he divided mankind, he fixed the borders of the peoples according to the number of the sons of God." — Deuteronomy 32:8 (ESV, following DSS)</blockquote>
+
+<p>The Table of Nations in Genesis 10 describes the post-Babel dispersion of humanity across the earth. Deuteronomy 32:8 adds the theological layer: the nations were allotted to divine beings. If Genesis 6:4 is correct that Nephilim existed "and also afterward" — meaning after the Flood as well as before — then the dispersion of nations would also have been a dispersion of giant remnant populations. The biblical text names several: Anakim in Canaan, Rephaim in Transjordan, Zamzummim among the Ammonites, Emim among the Moabites. But it never claims these were the only ones.</p>
+
+<p>What makes the Spanish chronicles so valuable is their timing. These accounts were recorded within decades of first contact, from indigenous elders who were transmitting traditions preserved for centuries before any European influence. Sahagun's <em>Florentine Codex</em> was compiled in Nahuatl directly from Aztec sources. Duran was raised bilingual in Nahuatl and Spanish. These were not armchair mythologists — they were field researchers recording primary sources.</p>
+
+<p>The objection is always the same: these are myths, not history. But the question is why the myths match. Why do Aztec, Andean, Canaanite, Greek, Sumerian, and Indian traditions all describe a pre-human race of giants, associated with extraordinary building, excessive consumption, sexual boundary-crossing, and eventual divine destruction? Coincidence is an explanation. So is common origin.</p>
+
+<p><strong>[C] Evidence tier: Historical primary sources.</strong> The Spanish chronicles do not prove that Nephilim reached Mesoamerica. But they document that the indigenous peoples of the Americas, with no knowledge of Genesis or Enoch, preserved traditions of giant races that match the biblical pattern in specific, detailed ways — builders of megalithic structures, consumers of unsustainable resources, destroyed by divine judgment. The priests wrote down what they heard. What they heard sounds like Genesis 6.</p>
+</article>
 """
 
 }

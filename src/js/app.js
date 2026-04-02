@@ -30,6 +30,175 @@ function toggleAnalysisFilter(theme) {
 }
 
 /**
+ * Theme Explorer — global open/close (called from onclick on theme badges)
+ */
+var _themeExplorerReady = false;
+function openThemeExplorer(code) {
+    var overlay = document.getElementById('themeExplorerOverlay');
+    if (!overlay) return;
+
+    // Theme metadata
+    var THEME_COLORS = {
+        SEED:'#c9a84c',COV:'#5b8dbf',DC:'#9b7ec8',REBEL:'#c45c5c',EXILE:'#b09050',
+        IMAGE:'#5a9a6a',TYPE:'#2d9a8f',HOLY:'#d4a853',SPIRIT:'#7a5a8a',WOMEN:'#b5564a',
+        REVERSAL:'#4a8a6a',NATIONS:'#5b8dbf',BLOOD:'#c45c5c',NAME:'#c9a84c',PROV:'#2d9a8f',
+        LAND:'#b09050',PRIEST:'#9b7ec8',KING:'#d4a853',REMNANT:'#5a9a6a',RIV:'#c45c5c',
+        GLORY:'#7a5a8a',LOVE:'#b5564a',LAW:'#d4a853',DELIVER:'#4a8a6a',WORSHIP:'#c9a84c',
+        REMEMBER:'#5b8dbf',DREAM:'#9b7ec8',HARDENING:'#c45c5c',COUNCIL:'#9b7ec8',
+        KINGDOM:'#d4a853',DAY:'#b09050'
+    };
+    var THEME_LABELS = {
+        SEED:'Seed / Messianic Lineage',COV:'Covenant',DC:'Divine Council',
+        REBEL:'Rebellion',EXILE:'Exile',IMAGE:'Image of God',TYPE:'Typology',
+        HOLY:'Holiness / Sacred Space',SPIRIT:'Spiritual Warfare',WOMEN:'Women in Key Roles',
+        REVERSAL:'Great Reversals',NATIONS:'Nations / Gentiles',BLOOD:'Sacrifice / Atonement',
+        NAME:'Names / Authority',PROV:'Providence',LAND:'Land Promise',PRIEST:'Priesthood',
+        KING:'Kingship',REMNANT:'Faithful Remnant',RIV:'Covenant Lawsuit',GLORY:'Glory of God',
+        LOVE:'Love / Compassion',LAW:'Torah / Law',DELIVER:'Deliverance',WORSHIP:'Worship',
+        REMEMBER:'Remember / Memorial',DREAM:'Dreams / Visions',HARDENING:'Hardening'
+    };
+    var THEME_DESCS = {
+        SEED:'The seed promise from Genesis 3:15 through every genealogy to Christ.',
+        COV:'God binding himself to people \u2014 from Noah through the New Covenant in Christ\u2019s blood.',
+        DC:'The heavenly assembly: sons of God, Psalm 82, throne room scenes, cosmic government.',
+        REBEL:'Human or spiritual beings defying God \u2014 Eden, Hermon, Babel, and every pattern since.',
+        EXILE:'Cast out from sacred space \u2014 Eden to Babylon to restoration.',
+        IMAGE:'Tselem \u2014 humanity as God\u2019s physical representatives on earth.',
+        TYPE:'Patterns that prefigure Christ: Adam, Isaac, Joseph, Moses, David, Jonah.',
+        HOLY:'Set apart \u2014 from Eden to Tabernacle to Temple to the believer as temple.',
+        SPIRIT:'The cosmic war behind human history \u2014 Ephesians 6, Daniel 10, Revelation 12.',
+        WOMEN:'Women who change the story: Sarah, Rahab, Ruth, Deborah, Mary, Priscilla.',
+        REVERSAL:'God overturning human expectations \u2014 the last shall be first.',
+        NATIONS:'God\u2019s plan for all peoples \u2014 from Babel\u2019s scattering to Pentecost\u2019s gathering.',
+        BLOOD:'The blood that covers \u2014 from Abel\u2019s lamb through Leviticus to Golgotha.',
+        NAME:'Theophoric names, name changes, and the authority embedded in naming.',
+        PROV:'God working behind the scenes \u2014 Joseph, Esther, Ruth, Daniel.',
+        LAND:'The promised land from Abraham to Joshua to the New Earth.',
+        PRIEST:'Melchizedek to Levi to Christ \u2014 the priesthood that bridges heaven and earth.',
+        KING:'God as King, human kings as vice-regents, and Christ as the ultimate King.',
+        REMNANT:'The 7,000 who didn\u2019t bow \u2014 the faithful minority through every age.',
+        RIV:'Prophets as prosecutors \u2014 the riv framework of divine legal action.',
+        GLORY:'Kavod \u2014 the weight of God\u2019s presence from Sinai to Shekinah to incarnation.',
+        LOVE:'Chesed \u2014 covenant loyalty, steadfast love that never gives up.',
+        LAW:'God\u2019s instruction \u2014 not burden but gift, the way of life.',
+        DELIVER:'God rescuing his people \u2014 Exodus, Judges, Psalms, the Cross.',
+        WORSHIP:'How humanity responds to God\u2019s presence \u2014 from Abel\u2019s offering to Revelation\u2019s throne.',
+        REMEMBER:'Zakar \u2014 the call to remember what God has done, lest we forget.',
+        DREAM:'God speaking through dreams \u2014 Joseph, Daniel, Joel\u2019s prophecy.',
+        HARDENING:'Pharaoh\u2019s heart, Israel\u2019s stubbornness \u2014 divine judgment through confirmed rebellion.'
+    };
+
+    // Collect all matching chapters across all texts/eras
+    var manifest = window._TE_MANIFEST;
+    var eraData = window._TE_ERA_DATA;
+    if (!manifest || !eraData) return;
+
+    var results = []; // {textId, textName, chId, ref, title, themes, eraId}
+    var textOrder = manifest.texts.map(function(t) { return t.id; });
+
+    manifest.eras.forEach(function(era) {
+        var chapters = eraData[era.id] || [];
+        var textDef = manifest.texts.find(function(t) { return t.id === era.text; });
+        if (!textDef) return;
+        chapters.forEach(function(ch) {
+            if (ch.themes && ch.themes.indexOf(code) !== -1) {
+                results.push({
+                    textId: textDef.id,
+                    textName: textDef.name,
+                    chId: ch.id,
+                    ref: ch.ref || '',
+                    title: ch.title || '',
+                    themes: ch.themes || [],
+                    eraId: era.id
+                });
+            }
+        });
+    });
+
+    // Group by text, maintaining manifest order
+    var groups = {};
+    var groupOrder = [];
+    results.forEach(function(r) {
+        if (!groups[r.textId]) {
+            groups[r.textId] = { name: r.textName, chapters: [] };
+            groupOrder.push(r.textId);
+        }
+        groups[r.textId].chapters.push(r);
+    });
+    // Sort groupOrder by manifest text order
+    groupOrder.sort(function(a, b) { return textOrder.indexOf(a) - textOrder.indexOf(b); });
+
+    var color = THEME_COLORS[code] || '#888';
+    var label = THEME_LABELS[code] || code;
+    var desc = THEME_DESCS[code] || '';
+    var totalTexts = groupOrder.length;
+    var totalChapters = results.length;
+
+    // Title & desc
+    document.getElementById('themeExplorerTitle').innerHTML =
+        '<span style="color:' + color + '">' + code + '</span> \u2014 ' + label;
+    document.getElementById('themeExplorerDesc').textContent = desc;
+    document.getElementById('themeExplorerStats').textContent =
+        totalChapters + ' chapters across ' + totalTexts + ' texts';
+
+    // Tag bar — all themes for quick switching
+    var tagHtml = '';
+    var allCodes = Object.keys(THEME_LABELS);
+    allCodes.forEach(function(c) {
+        var tc = THEME_COLORS[c] || '#888';
+        var active = c === code ? ' active' : '';
+        tagHtml += '<span class="te-tag' + active + '" style="--tc:' + tc + '" onclick="openThemeExplorer(\'' + c + '\')">' + c + '</span>';
+    });
+    document.getElementById('themeExplorerTags').innerHTML = tagHtml;
+
+    // Results
+    var html = '';
+    groupOrder.forEach(function(textId) {
+        var g = groups[textId];
+        html += '<div class="te-text-group">';
+        html += '<div class="te-text-name">' + g.name + ' <span class="te-text-count">(' + g.chapters.length + ')</span></div>';
+        g.chapters.forEach(function(ch) {
+            html += '<div class="te-chapter-item" data-text="' + ch.textId + '" data-era="' + ch.eraId + '" data-ch="' + ch.chId + '">';
+            html += '<span class="te-chapter-ref">' + ch.ref + '</span>';
+            html += '<span class="te-chapter-title">' + ch.title + '</span>';
+            html += '</div>';
+        });
+        html += '</div>';
+    });
+    document.getElementById('themeExplorerResults').innerHTML = html;
+
+    // Wire up chapter clicks
+    document.querySelectorAll('.te-chapter-item').forEach(function(item) {
+        item.addEventListener('click', function() {
+            var textId = this.dataset.text;
+            var chId = this.dataset.ch;
+            overlay.classList.remove('open');
+            // Navigate to that text and chapter
+            if (typeof selectText === 'function') {
+                selectText(textId);
+                setTimeout(function() {
+                    var el = document.getElementById(chId);
+                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 300);
+            }
+        });
+    });
+
+    overlay.classList.add('open');
+
+    // Wire close (once)
+    if (!_themeExplorerReady) {
+        _themeExplorerReady = true;
+        document.getElementById('themeExplorerClose').addEventListener('click', function() {
+            overlay.classList.remove('open');
+        });
+        overlay.addEventListener('click', function(e) {
+            if (e.target === overlay) overlay.classList.remove('open');
+        });
+    }
+}
+
+/**
  * Ancient Texts Library — App Controller (IIFE)
  * Handles: library navigation, era navigation, chapter rendering, scroll-spy,
  *          search, bookmarks, cross-ref drawer, glossary overlay, hash routing,
@@ -118,6 +287,42 @@ function toggleAnalysisFilter(theme) {
     const RESOURCES = __RESOURCES_DATA__;
     var SEARCH_QA = __SEARCH_QA_DATA__;
     var SEARCH_INDEX = __SEARCH_INDEX_DATA__;
+
+    // Expose data for global theme explorer
+    window._TE_MANIFEST = MANIFEST;
+    window._TE_ERA_DATA = ERA_DATA;
+
+    // ── Theme Color & Description Map ─────────────────────
+    var THEME_MAP = {
+        SEED:     { color: '#c9a84c', label: 'Seed / Messianic Lineage', desc: 'The seed promise from Genesis 3:15 through every genealogy to Christ.' },
+        COV:      { color: '#5b8dbf', label: 'Covenant', desc: 'God binding himself to people — from Noah through the New Covenant in Christ\'s blood.' },
+        DC:       { color: '#9b7ec8', label: 'Divine Council', desc: 'The heavenly assembly: sons of God, Psalm 82, throne room scenes, cosmic government.' },
+        REBEL:    { color: '#c45c5c', label: 'Rebellion', desc: 'Human or spiritual beings defying God — Eden, Hermon, Babel, and every pattern since.' },
+        EXILE:    { color: '#b09050', label: 'Exile', desc: 'Cast out from sacred space — Eden to Babylon to restoration.' },
+        IMAGE:    { color: '#5a9a6a', label: 'Image of God', desc: 'Tselem — humanity as God\'s physical representatives on earth.' },
+        TYPE:     { color: '#2d9a8f', label: 'Typology', desc: 'Patterns that prefigure Christ: Adam, Isaac, Joseph, Moses, David, Jonah.' },
+        HOLY:     { color: '#d4a853', label: 'Holiness / Sacred Space', desc: 'Set apart — from Eden to Tabernacle to Temple to the believer as temple.' },
+        SPIRIT:   { color: '#7a5a8a', label: 'Spiritual Warfare', desc: 'The cosmic war behind human history — Ephesians 6, Daniel 10, Revelation 12.' },
+        WOMEN:    { color: '#b5564a', label: 'Women in Key Roles', desc: 'Women who change the story: Sarah, Rahab, Ruth, Deborah, Mary, Priscilla.' },
+        REVERSAL: { color: '#4a8a6a', label: 'Great Reversals', desc: 'God overturning human expectations — the last shall be first.' },
+        NATIONS:  { color: '#5b8dbf', label: 'Nations / Gentiles', desc: 'God\'s plan for all peoples — from Babel\'s scattering to Pentecost\'s gathering.' },
+        BLOOD:    { color: '#c45c5c', label: 'Sacrifice / Atonement', desc: 'The blood that covers — from Abel\'s lamb through Leviticus to Golgotha.' },
+        NAME:     { color: '#c9a84c', label: 'Names / Authority', desc: 'Theophoric names, name changes, and the authority embedded in naming.' },
+        PROV:     { color: '#2d9a8f', label: 'Providence', desc: 'God working behind the scenes — Joseph, Esther, Ruth, Daniel.' },
+        LAND:     { color: '#b09050', label: 'Land Promise', desc: 'The promised land from Abraham to Joshua to the New Earth.' },
+        PRIEST:   { color: '#9b7ec8', label: 'Priesthood', desc: 'Melchizedek to Levi to Christ — the priesthood that bridges heaven and earth.' },
+        KING:     { color: '#d4a853', label: 'Kingship', desc: 'God as King, human kings as vice-regents, and Christ as the ultimate King.' },
+        REMNANT:  { color: '#5a9a6a', label: 'Faithful Remnant', desc: 'The 7,000 who didn\'t bow — the faithful minority through every age.' },
+        RIV:      { color: '#c45c5c', label: 'Covenant Lawsuit', desc: 'Prophets as prosecutors — the riv framework of divine legal action.' },
+        GLORY:    { color: '#7a5a8a', label: 'Glory of God', desc: 'Kavod — the weight of God\'s presence from Sinai to Shekinah to incarnation.' },
+        LOVE:     { color: '#b5564a', label: 'Love / Compassion', desc: 'Chesed — covenant loyalty, steadfast love that never gives up.' },
+        LAW:      { color: '#d4a853', label: 'Torah / Law', desc: 'God\'s instruction — not burden but gift, the way of life.' },
+        DELIVER:  { color: '#4a8a6a', label: 'Deliverance', desc: 'God rescuing his people — Exodus, Judges, Psalms, the Cross.' },
+        WORSHIP:  { color: '#c9a84c', label: 'Worship', desc: 'How humanity responds to God\'s presence — from Abel\'s offering to Revelation\'s throne.' },
+        REMEMBER: { color: '#5b8dbf', label: 'Remember / Memorial', desc: 'Zakar — the call to remember what God has done, lest we forget.' },
+        DREAM:    { color: '#9b7ec8', label: 'Dreams / Visions', desc: 'God speaking through dreams — Joseph, Daniel, Joel\'s prophecy.' },
+        HARDENING:{ color: '#c45c5c', label: 'Hardening', desc: 'Pharaoh\'s heart, Israel\'s stubbornness — divine judgment through confirmed rebellion.' }
+    };
 
     // ── State ───────────────────────────────────────────────
     let currentText = localStorage.getItem('atl-current-text') || null;
@@ -320,7 +525,10 @@ function toggleAnalysisFilter(theme) {
                 { textId: '1samuel', label: '1 Samuel 17 \u2014 David & Goliath', why: 'Goliath of Gath \u2014 the last champion' },
                 { textId: '2samuel', label: '2 Samuel 21 \u2014 Final Giant Slayers', why: 'David\u2019s mighty men finish the job' },
                 { textId: '1enoch', label: '1 Enoch 7\u201310 \u2014 The Watchers\u2019 Sin', why: 'How 200 Watchers taught forbidden arts' },
-                { textId: 'giants', label: 'Book of Giants \u2014 Nephilim Dreams', why: 'The giants receive visions of their doom' }
+                { textId: 'giants', label: 'Book of Giants \u2014 Nephilim Dreams', why: 'The giants receive visions of their doom' },
+                { chId: 'nephilim-worldwide-template', label: 'The Core Template \u2014 What Every Culture Remembers', why: 'Ten traits that surface independently on every continent' },
+                { chId: 'nephilim-worldwide-americas', label: 'The Americas \u2014 Giants from Sea to Sea', why: 'Paiute Si-Te-Cah, Aztec Quinametzin, Patagonian giants' },
+                { chId: 'nephilim-worldwide-physical', label: 'Physical Evidence & Anomalies', why: 'Polydactyly, elongated skulls, megalithic construction' }
             ]
         },
         {
@@ -2253,28 +2461,28 @@ function toggleAnalysisFilter(theme) {
             '<h3>Master Theme Registry</h3>' +
             '<p>These 22 codes are now tagged on every chapter in the app:</p>' +
             '<div class="analysis-themes">' +
-            '<span class="at-tag" style="--tc:#c9a84c">SEED</span>' +
-            '<span class="at-tag" style="--tc:#5b8dbf">COVENANT</span>' +
-            '<span class="at-tag" style="--tc:#9b7ec8">DIVINE COUNCIL</span>' +
-            '<span class="at-tag" style="--tc:#c45c5c">REBELLION</span>' +
-            '<span class="at-tag" style="--tc:#b09050">EXILE</span>' +
-            '<span class="at-tag" style="--tc:#5a9a6a">IMAGE</span>' +
-            '<span class="at-tag" style="--tc:#2d9a8f">TYPOLOGY</span>' +
-            '<span class="at-tag" style="--tc:#d4a853">HOLY</span>' +
-            '<span class="at-tag" style="--tc:#7a5a8a">SPIRITUAL WAR</span>' +
-            '<span class="at-tag" style="--tc:#b5564a">WOMEN</span>' +
-            '<span class="at-tag" style="--tc:#4a8a6a">REVERSAL</span>' +
-            '<span class="at-tag" style="--tc:#5b8dbf">NATIONS</span>' +
-            '<span class="at-tag" style="--tc:#c45c5c">BLOOD</span>' +
-            '<span class="at-tag" style="--tc:#c9a84c">NAME</span>' +
-            '<span class="at-tag" style="--tc:#2d9a8f">PROVIDENCE</span>' +
-            '<span class="at-tag" style="--tc:#b09050">LAND</span>' +
-            '<span class="at-tag" style="--tc:#9b7ec8">PRIESTHOOD</span>' +
-            '<span class="at-tag" style="--tc:#d4a853">KINGSHIP</span>' +
-            '<span class="at-tag" style="--tc:#5a9a6a">REMNANT</span>' +
-            '<span class="at-tag" style="--tc:#c45c5c">COVENANT LAWSUIT</span>' +
-            '<span class="at-tag" style="--tc:#7a5a8a">GLORY</span>' +
-            '<span class="at-tag" style="--tc:#b5564a">LOVE</span>' +
+            '<span class="at-tag" style="--tc:#c9a84c" onclick="openThemeExplorer(\'SEED\')">SEED</span>' +
+            '<span class="at-tag" style="--tc:#5b8dbf" onclick="openThemeExplorer(\'COV\')">COVENANT</span>' +
+            '<span class="at-tag" style="--tc:#9b7ec8" onclick="openThemeExplorer(\'DC\')">DIVINE COUNCIL</span>' +
+            '<span class="at-tag" style="--tc:#c45c5c" onclick="openThemeExplorer(\'REBEL\')">REBELLION</span>' +
+            '<span class="at-tag" style="--tc:#b09050" onclick="openThemeExplorer(\'EXILE\')">EXILE</span>' +
+            '<span class="at-tag" style="--tc:#5a9a6a" onclick="openThemeExplorer(\'IMAGE\')">IMAGE</span>' +
+            '<span class="at-tag" style="--tc:#2d9a8f" onclick="openThemeExplorer(\'TYPE\')">TYPOLOGY</span>' +
+            '<span class="at-tag" style="--tc:#d4a853" onclick="openThemeExplorer(\'HOLY\')">HOLY</span>' +
+            '<span class="at-tag" style="--tc:#7a5a8a" onclick="openThemeExplorer(\'SPIRIT\')">SPIRITUAL WAR</span>' +
+            '<span class="at-tag" style="--tc:#b5564a" onclick="openThemeExplorer(\'WOMEN\')">WOMEN</span>' +
+            '<span class="at-tag" style="--tc:#4a8a6a" onclick="openThemeExplorer(\'REVERSAL\')">REVERSAL</span>' +
+            '<span class="at-tag" style="--tc:#5b8dbf" onclick="openThemeExplorer(\'NATIONS\')">NATIONS</span>' +
+            '<span class="at-tag" style="--tc:#c45c5c" onclick="openThemeExplorer(\'BLOOD\')">BLOOD</span>' +
+            '<span class="at-tag" style="--tc:#c9a84c" onclick="openThemeExplorer(\'NAME\')">NAME</span>' +
+            '<span class="at-tag" style="--tc:#2d9a8f" onclick="openThemeExplorer(\'PROV\')">PROVIDENCE</span>' +
+            '<span class="at-tag" style="--tc:#b09050" onclick="openThemeExplorer(\'LAND\')">LAND</span>' +
+            '<span class="at-tag" style="--tc:#9b7ec8" onclick="openThemeExplorer(\'PRIEST\')">PRIESTHOOD</span>' +
+            '<span class="at-tag" style="--tc:#d4a853" onclick="openThemeExplorer(\'KING\')">KINGSHIP</span>' +
+            '<span class="at-tag" style="--tc:#5a9a6a" onclick="openThemeExplorer(\'REMNANT\')">REMNANT</span>' +
+            '<span class="at-tag" style="--tc:#c45c5c" onclick="openThemeExplorer(\'RIV\')">COVENANT LAWSUIT</span>' +
+            '<span class="at-tag" style="--tc:#7a5a8a" onclick="openThemeExplorer(\'GLORY\')">GLORY</span>' +
+            '<span class="at-tag" style="--tc:#b5564a" onclick="openThemeExplorer(\'LOVE\')">LOVE</span>' +
             '</div></div>';
 
         // Search box for book cards
@@ -3868,6 +4076,7 @@ function toggleAnalysisFilter(theme) {
 
     var textContentCache = {};
 
+    window.selectText = selectText; // expose for theme explorer
     function selectText(textId, skipPushState) {
         try {
             logEvent('text_view', textId);
@@ -4341,7 +4550,7 @@ function toggleAnalysisFilter(theme) {
             '<h2 style="color:' + era.color + '">' + era.icon + ' ' + era.name + '</h2>' +
             '<div class="era-chapters-range">' + era.chapters + '</div>' +
             '<div class="era-themes">' +
-            era.themes.map(function(t) { return '<span class="era-theme-tag">' + t + '</span>'; }).join('') +
+            era.themes.map(function(t) { return '<span class="era-theme-tag" onclick="openThemeExplorer(\'' + t + '\')">' + t + '</span>'; }).join('') +
             '</div></div>';
     }
 
@@ -4412,6 +4621,17 @@ function toggleAnalysisFilter(theme) {
         html += '<div class="chapter-ref">' + ch.ref + '</div>' +
             '<h3>' + ch.title + '</h3>' +
             '<div class="synopsis">' + ch.synopsis + '</div>';
+
+        // Chapter-level theme badges
+        if (ch.themes && ch.themes.length > 0) {
+            html += '<div class="chapter-themes">';
+            ch.themes.forEach(function(t) {
+                var tm = THEME_MAP[t];
+                var color = tm ? tm.color : '#888';
+                html += '<span class="chapter-theme-tag" style="color:' + color + ';border-color:' + color + '33" onclick="openThemeExplorer(\'' + t + '\')">' + t + '</span>';
+            });
+            html += '</div>';
+        }
 
         // Only show reading mode toggle for canonical texts with scripture/interlinear data (not thematic essays)
         var showModeToggle = textDef && textDef.category !== 'thematic';

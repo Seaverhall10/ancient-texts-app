@@ -33,6 +33,7 @@ breadcrumbs.css
 chapter-nav.css
 hai.css
 trails.css
+theme-explorer.css
 related-studies.css
 matrix.css
 religion-detail.css
