@@ -527,31 +527,15 @@ def main():
     js = js.replace("__SEARCH_QA_DATA__", "[]")
     js = js.replace("__SEARCH_INDEX_DATA__", '{"docs":[],"words":[],"bigrams":{}}')
 
-    # ── Inject Bible Analysis book cards HTML ─────────────────
-    ba_ref_path = os.path.join(BASE_DIR, "docs", "bible_study_reference.html")
-    analysis_html = ""
-    if os.path.exists(ba_ref_path):
-        ba_raw = open(ba_ref_path, "r", encoding="utf-8").read()
-        ba_lines = ba_raw.split('\n')
-        ba_chunk = '\n'.join(ba_lines[227:558])
-        ba_chunk = ba_chunk.replace('book-card', 'ba-book-card')
-        ba_chunk = ba_chunk.replace('book-header', 'ba-book-header')
-        ba_chunk = ba_chunk.replace('book-body', 'ba-book-body')
-        ba_chunk = ba_chunk.replace('filter-bar', 'ba-filter-bar')
-        ba_chunk = ba_chunk.replace('filter-btn', 'ba-filter-btn')
-        ba_chunk = ba_chunk.replace('ref-table', 'ba-ref-table')
-        ba_chunk = ba_chunk.replace('section-header', 'ba-section-header')
-        ba_chunk = ba_chunk.replace('theme-grid', 'ba-theme-grid')
-        ba_chunk = ba_chunk.replace('"badge ', '"ba-badge ')
-        ba_chunk = ba_chunk.replace('"badge"', '"ba-badge"')
-        ba_chunk = ba_chunk.replace('xref', 'ba-xref')
-        ba_chunk = ba_chunk.replace('toggleCard(this)', 'toggleAnalysisCard(this)')
-        ba_chunk = ba_chunk.replace('filterBooks(', 'filterAnalysisBooks(')
-        ba_chunk = ba_chunk.replace('toggleFilter(', 'toggleAnalysisFilter(')
-        analysis_html = ba_chunk
-        card_count = ba_chunk.count('ba-book-card" id=')
-        print(f"  Bible Analysis: {card_count} book cards injected")
-    js = js.replace("__BIBLE_ANALYSIS_HTML__", json.dumps(analysis_html, ensure_ascii=False))
+    # ── Inject Bible Analysis structured data ───────────────
+    ba_path = os.path.join(BASE_DIR, "data", "bible_analysis.py")
+    ba_data = {"filters": [], "sections": [], "books": []}
+    if os.path.exists(ba_path):
+        ba_mod = load_module("bible_analysis", ba_path)
+        ba_data = getattr(ba_mod, "BIBLE_ANALYSIS", ba_data)
+        book_count = len([b for b in ba_data.get("books", []) if b.get("body_html")])
+        print(f"  Bible Analysis: {book_count} book entries loaded")
+    js = js.replace("__BIBLE_ANALYSIS_DATA__", json.dumps(ba_data, ensure_ascii=False))
 
     # Replace all interlinear placeholders with empty objects
     import re

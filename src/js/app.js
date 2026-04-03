@@ -28,6 +28,69 @@ function toggleAnalysisFilter(theme) {
         card.style.display = themes.includes(theme) ? '' : 'none';
     });
 }
+function navigateToAnalysisBook(bookId) {
+    showLibrary();
+    localStorage.setItem('atl-library-tab', 'analysis');
+    setTimeout(function() {
+        renderLibraryMain();
+        setTimeout(function() {
+            var card = document.getElementById(bookId);
+            if (card) {
+                card.classList.add('open');
+                card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }, 100);
+    }, 50);
+}
+function renderBibleAnalysisCards(data) {
+    if (!data || !data.books) return '';
+    var h = '';
+    // Filter bar
+    h += '<div class="ba-filter-bar"><span style="color:var(--text-muted);font-size:.7rem;margin-right:8px">Filter by theme:</span>';
+    (data.filters || []).forEach(function(f) {
+        h += '<button class="ba-filter-btn" onclick="toggleAnalysisFilter(\'' + f.code + '\')">' + f.label + '</button>';
+    });
+    h += '<button class="ba-filter-btn" onclick="toggleAnalysisFilter(\'all\')" style="color:var(--gold)">SHOW ALL</button></div>';
+    // Section headers + book cards
+    var currentSection = '';
+    data.books.forEach(function(book) {
+        // Insert section header if new section
+        if (book.section && book.section !== currentSection) {
+            currentSection = book.section;
+            var sec = (data.sections || []).find(function(s) { return s.id === currentSection; });
+            if (sec) {
+                h += '<h2 class="ba-section-header" id="' + sec.id + '">' + sec.title + '</h2>';
+            }
+        }
+        // Build card
+        h += '<div class="ba-book-card" id="' + book.id + '" data-themes="' + (book.themes || '') + '">';
+        h += '<div class="ba-book-header" onclick="toggleAnalysisCard(this)">';
+        h += '<div><h3>' + book.title + '</h3>';
+        if (book.meta_text) {
+            var metaHtml = book.meta_text;
+            // Render grade badge
+            if (book.grade) {
+                var gc = book.grade.charAt(0) === 'A' ? 'a' : 'b';
+                metaHtml = metaHtml.replace('Grade: ' + book.grade, 'Grade: <span class="ba-badge ba-badge-grade ba-badge-grade-' + gc + '">' + book.grade + '</span>');
+            }
+            h += '<span class="meta">' + metaHtml + '</span>';
+        }
+        h += '</div><span class="arrow">&#9654;</span></div>';
+        // Body — prefix CSS classes for namespacing
+        if (book.body_html) {
+            var body = book.body_html
+                .replace(/class="ref-table/g, 'class="ba-ref-table')
+                .replace(/class="theme-grid/g, 'class="ba-theme-grid')
+                .replace(/class="section-header/g, 'class="ba-section-header')
+                .replace(/class="xref/g, 'class="ba-xref')
+                .replace(/"badge /g, '"ba-badge ')
+                .replace(/"badge"/g, '"ba-badge"');
+            h += '<div class="ba-book-body">' + body + '</div>';
+        }
+        h += '</div>';
+    });
+    return h;
+}
 
 /**
  * Theme Explorer — global open/close (called from onclick on theme badges)
@@ -2488,9 +2551,9 @@ function openThemeExplorer(code) {
         // Search box for book cards
         html += '<input type="text" class="ba-search-box" placeholder="Search books, themes, contested words..." oninput="filterAnalysisBooks(this.value)">';
 
-        // Filter bar + Book cards (injected by build.py)
-        var analysisBookCards = __BIBLE_ANALYSIS_HTML__;
-        html += analysisBookCards;
+        // Filter bar + Book cards (rendered from structured data)
+        var BIBLE_ANALYSIS_DATA = __BIBLE_ANALYSIS_DATA__;
+        html += renderBibleAnalysisCards(BIBLE_ANALYSIS_DATA);
 
         html += '</div>'; // analysis section
         html += '</div>'; // end analysis tab
@@ -3717,8 +3780,8 @@ function openThemeExplorer(code) {
 
         // Theme Index link
         html += '<div class="bible-study-footer">' +
-            '<a class="bible-study-theme-link" href="docs/bible_study_reference.html#' + textId + '" target="_blank" rel="noopener">' +
-            'View in Theme Index &nearr;</a>' +
+            '<a class="bible-study-theme-link" href="javascript:void(0)" onclick="navigateToAnalysisBook(\'' + textId + '\')">' +
+            'View in Theme Index &rarr;</a>' +
             '</div>';
 
         html += '</div>';
@@ -3806,7 +3869,7 @@ function openThemeExplorer(code) {
         // Action buttons
         html += '<div class="bible-vd-actions">' +
             '<button class="bible-vd-deep-dive" id="bibleVdDeepDive">Deep Dive &darr;</button>' +
-            '<a class="bible-vd-theme-link" href="docs/bible_study_reference.html#' + textId + '" target="_blank" rel="noopener">Theme Index &nearr;</a>' +
+            '<a class="bible-vd-theme-link" href="javascript:void(0)" onclick="navigateToAnalysisBook(\'' + textId + '\')">Theme Index &rarr;</a>' +
             '</div>';
 
         html += '</div>';
