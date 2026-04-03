@@ -245,6 +245,7 @@ CHAPTERS_5_7 = [
             "translation": "ESV"
         },
 
+        # NOTE: These are Greek (NT) terms, not Hebrew — field name is a known schema limitation
         "hebrew_terms": [
             {
                 "term": "\u03c4\u03b1\u03c1\u03c4\u03b1\u03c1\u03ce\u03c3\u03b1\u03c2 (tartarosas)",
@@ -340,19 +341,19 @@ CHAPTERS_5_7 = [
             {
                 "heading": "Different Flesh: The Jude\u2013Genesis Connection",
                 "tier": "B",
-                "body": "Jude 7 connects the angelic rebellion directly to sexual "
-                        "boundary violation: 'just as Sodom and Gomorrah and the "
-                        "surrounding cities, which likewise indulged in sexual "
-                        "immorality and pursued unnatural desire, serve as an "
-                        "example' (ESV). The Greek phrase translated 'unnatural "
-                        "desire' is apelthousai opiso sarkos heteras \u2014 literally "
-                        "'having gone after different flesh.' The word 'likewise' "
-                        "(ton homoion tropon) is the key: Jude says Sodom sinned "
-                        "IN THE SAME MANNER as the angels of verse 6. The angels "
-                        "went after human flesh \u2014 flesh different from their own "
-                        "nature. Sodom went after angelic flesh \u2014 the two angels "
-                        "of Genesis 19. Both crossed the same divine-human "
-                        "boundary from opposite sides. This is a canonical NT "
+                "body": "Jude 7 says Sodom and Gomorrah 'in a similar manner to "
+                        "these' (ton homoion tropon toutois) \u2014 referring back to "
+                        "the angels of verse 6 \u2014 'indulged in sexual immorality "
+                        "and pursued different flesh (heteras sarkos).' The Greek "
+                        "phrase apelthousai opiso sarkos heteras means literally "
+                        "'having gone after different flesh.' The grammatical "
+                        "direction matters: ton homoion tropon runs from Sodom "
+                        "BACK to the angels \u2014 Sodom is compared to the angels, "
+                        "not the other way around. Both violated the same "
+                        "divine-human boundary. The angels of verse 6 went after "
+                        "human flesh \u2014 flesh different from their own nature. "
+                        "Sodom went after angelic flesh \u2014 the two angels of "
+                        "Genesis 19. This is a canonical NT "
                         "author explicitly linking the angelic sin to sexual "
                         "transgression across the species boundary. The Sethite "
                         "interpretation \u2014 that 'sons of God' means pious men "
@@ -384,18 +385,19 @@ CHAPTERS_5_7 = [
             },
             {
                 "heading": "Jude Quotes 1 Enoch as Prophecy",
-                "tier": "C",
-                "body": "Jude 14\u201315 directly quotes 1 Enoch 1:9: 'Behold, the "
+                "tier": "a",
+                "body": "[A] Jude 14\u201315 directly quotes 1 Enoch 1:9: 'Behold, the "
                         "Lord comes with ten thousands of his holy ones, to "
                         "execute judgment on all' (ESV). Jude attributes this to "
                         "'Enoch, the seventh from Adam,' treating the text as "
                         "genuine prophecy. This is a canonical New Testament "
                         "author citing 1 Enoch as an authoritative prophetic "
-                        "source. According to 1 Enoch 10:4\u20136, the specific "
-                        "prison Jude and Peter reference is where Azazel \u2014 the "
-                        "leader of the Watchers \u2014 was bound: thrown into "
-                        "darkness, covered with jagged rocks, confined until the "
-                        "great day of judgment. According to 1 Enoch 12\u201316, "
+                        "source \u2014 the fact that Jude quotes it is tier [A] "
+                        "canonical Scripture. [C] According to 1 Enoch 10:4\u20136, "
+                        "the specific prison Jude and Peter reference is where "
+                        "Azazel \u2014 the leader of the Watchers \u2014 was bound: thrown "
+                        "into darkness, covered with jagged rocks, confined until "
+                        "the great day of judgment. According to 1 Enoch 12\u201316, "
                         "Enoch himself was commissioned to pronounce God's "
                         "verdict on the imprisoned Watchers. The NT authors knew "
                         "these traditions. They did not dismiss them as fantasy "

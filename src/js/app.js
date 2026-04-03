@@ -151,6 +151,7 @@ function renderStructuredBookBody(book) {
             var sc = w.severity === 'CRITICAL' ? 'critical' : 'major';
             h += '<tr><td class="ba-hebrew-col">';
             if (w.hebrew) h += '<span class="ba-hebrew">' + w.hebrew + '</span> ';
+            if (w.greek) h += '<span class="ba-greek">' + w.greek + '</span> ';
             h += '<strong>' + w.word + '</strong></td>';
             h += '<td>' + w.issue + '</td>';
             h += '<td><span class="ba-badge ba-badge-' + sc + '">' + w.severity + '</span></td></tr>';
@@ -718,7 +719,8 @@ function openThemeExplorer(code) {
                 { textId: 'giants', label: 'Book of Giants \u2014 Nephilim Dreams', why: 'The giants receive visions of their doom' },
                 { chId: 'nephilim-worldwide-template', label: 'The Core Template \u2014 What Every Culture Remembers', why: 'Ten traits that surface independently on every continent' },
                 { chId: 'nephilim-worldwide-americas', label: 'The Americas \u2014 Giants from Sea to Sea', why: 'Paiute Si-Te-Cah, Aztec Quinametzin, Patagonian giants' },
-                { chId: 'nephilim-worldwide-physical', label: 'Physical Evidence & Anomalies', why: 'Polydactyly, elongated skulls, megalithic construction' }
+                { chId: 'nephilim-worldwide-physical', label: 'Physical Evidence & Anomalies', why: 'Polydactyly, elongated skulls, megalithic construction' },
+                { textId: 'nephilim_narrative', label: 'The Nephilim Story \u2014 Narrative with Evidence Tiers', why: 'Read the full story with adjustable evidence levels (Canon Only / Canon + Inference / Full Picture)' }
             ]
         },
         {
@@ -4952,7 +4954,7 @@ function openThemeExplorer(code) {
                 if (isNarrative && sec.tier === 'a') {
                     var nextSec = ch.sections[secIdx + 1];
                     if (nextSec && nextSec.tier === 'b') {
-                        html += '<div class="tier-upsell section-tier-b" data-tier="b">' +
+                        html += '<div class="tier-upsell">' +
                             '<em>Want to see what the Hebrew reveals? Switch to <strong>Canon + Inference</strong> above.</em></div>';
                     }
                 }

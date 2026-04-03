@@ -74,11 +74,13 @@ CHAPTERS = [
             {
                 "term": "nephilim",
                 "hebrew": "\u05e0\u05b0\u05e4\u05b4\u05dc\u05b4\u05d9\u05dd",
-                "meaning": "Most likely derived from naphal (\u05e0\u05b8\u05e4\u05b7\u05dc), 'to fall' \u2014 "
-                           "hence 'fallen ones.' The noun form is passive: these "
-                           "are not those who fall upon others (aggressors) but "
-                           "those who have fallen \u2014 from heaven, from their proper "
-                           "station, from grace.",
+                "meaning": "The name is often connected to the root naphal "
+                           "(\u05e0\u05b8\u05e4\u05b7\u05dc, 'to fall'), though the precise derivation is "
+                           "debated \u2014 the expected passive form would be nephulim, "
+                           "not nephilim. Whether it means 'fallen ones,' 'those "
+                           "who fall upon' (warriors), or derives from a separate "
+                           "root remains uncertain. What is clear: the LXX "
+                           "translators understood them as gigantes.",
                 "verse": "Genesis 6:4"
             },
             {
@@ -130,7 +132,10 @@ CHAPTERS = [
                 "summary": "The New Testament epistle of Jude directly quotes 1 Enoch "
                            "1:9 as prophecy, attributing it to 'Enoch, the seventh "
                            "from Adam.' This is the only explicit quotation of a "
-                           "non-canonical text as prophetic in the New Testament.",
+                           "non-canonical text as prophetic in the New Testament. "
+                           "This demonstrates 1 Enoch's high authority in the "
+                           "apostolic period, though it does not confer canonical "
+                           "status on the entire book.",
                 "relevance": "Demonstrates that at least one NT author considered "
                              "the Enochic Watcher tradition authoritative enough to "
                              "cite as genuine prophecy."
@@ -224,9 +229,12 @@ CHAPTERS = [
                         "are the fallen ones. The gibborim (\u05d2\u05b4\u05bc\u05d1\u05b9\u05bc\u05e8\u05b4\u05d9\u05dd) are 'mighty "
                         "warriors' \u2014 a word used elsewhere for exceptional military "
                         "power. The Sethite interpretation \u2014 that bene ha\u2019elohim "
-                        "means 'descendants of Seth' \u2014 was completely absent from "
-                        "Jewish interpretation until Julius Africanus proposed it "
-                        "around 225 AD. For the first two centuries of the church, "
+                        "means 'descendants of Seth' \u2014 was absent from the dominant "
+                        "Jewish and early Christian tradition until Julius "
+                        "Africanus proposed it around 225 AD \u2014 some scholars "
+                        "trace proto-Sethite readings to Philo of Alexandria "
+                        "(1st century), though Philo's reading is more "
+                        "allegorical than the later patristic Sethite view. For the first two centuries of the church, "
                         "the supernatural reading was universal."
             },
             {
@@ -296,8 +304,8 @@ CHAPTERS = [
                     "Nephilim).' Moses then catalogs the giant clans inhabiting "
                     "the Promised Land with the precision of an intelligence report "
                     "\u2014 Rephaim, Emim, Zamzummim, Anakim. These were not metaphors. "
-                    "They had names, territories, and a king with a thirteen-foot "
-                    "iron bed.",
+                    "They had names, territories, and a king with an iron bed over "
+                    "thirteen feet long (~13.5 feet).",
 
         "key_verse": {
             "ref": "Numbers 13:33",

@@ -4,14 +4,14 @@
     {
       "name": "ancient-texts",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "C:\\Users\\User\\Desktop\\ANCIENT_TEXTS Study App\\output"],
-      "port": 8765
+      "runtimeArgs": ["-m", "http.server", "8766", "--directory", "C:\\Users\\User\\Desktop\\ANCIENT_TEXTS Study App\\output"],
+      "port": 8766
     },
     {
       "name": "mobile",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8767", "--bind", "127.0.0.1", "--directory", "C:\\Users\\User\\Desktop\\ANCIENT_TEXTS Study App\\output\\mobile"],
-      "port": 8767
+      "runtimeArgs": ["-m", "http.server", "8768", "--bind", "127.0.0.1", "--directory", "C:\\Users\\User\\Desktop\\ANCIENT_TEXTS Study App\\output\\mobile"],
+      "port": 8768
     },
     {
       "name": "study-reference",

@@ -647,6 +647,7 @@
 /* Hebrew column */
 .ba-hebrew-col { white-space: nowrap; }
 .ba-hebrew { font-size: 1.1rem; direction: rtl; unicode-bidi: bidi-override; color: var(--gold, #c9a84c); }
+.ba-greek { font-size: 1rem; color: var(--accent-blue, #5b8dbf); }
 
 /* Connection items */
 .ba-connection-item { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid rgba(201,168,76,0.08); align-items: baseline; }
