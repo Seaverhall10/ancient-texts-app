@@ -2489,7 +2489,7 @@ function openThemeExplorer(code) {
         html += '<input type="text" class="ba-search-box" placeholder="Search books, themes, contested words..." oninput="filterAnalysisBooks(this.value)">';
 
         // Filter bar + Book cards (injected by build.py)
-        var analysisBookCards = __BIBLE_ANALYSIS_HTML__;
+        var analysisBookCards = (typeof __BIBLE_ANALYSIS_HTML__ !== 'undefined') ? __BIBLE_ANALYSIS_HTML__ : '';
         html += analysisBookCards;
 
         html += '</div>'; // analysis section
