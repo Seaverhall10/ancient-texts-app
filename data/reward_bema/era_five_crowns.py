@@ -178,7 +178,7 @@ CHAPTERS = [
                         "it under control, lest after preaching to others I myself "
                         "should be disqualified' (9:26-27). The word 'disqualified' "
                         "(adokimos) means failing the test -- not losing salvation "
-                        "but losing the prize. Paul, the apostle, the church-"
+                        "but losing the prize. Paul, the apostle, the ekklesia-"
                         "planter, fears losing his stephanos. This crown is for "
                         "disciplined, purposeful, intentional living."
             },
@@ -404,16 +404,16 @@ CHAPTERS = [
                         "person who remained faithful through it -- receives the "
                         "Crown of Life. Revelation 2:10 sharpens this to its most "
                         "extreme expression: 'Be faithful unto death, and I will "
-                        "give you the crown of life.' Christ speaks to the church "
+                        "give you the crown of life.' Christ speaks to the ekklesia "
                         "at Smyrna, facing imminent persecution. The crown is "
                         "specifically for those willing to die rather than deny the "
-                        "king. The martyrs earn this crown -- and the early church "
+                        "king. The martyrs earn this crown -- and the early ekklesia "
                         "understood this with a seriousness that the comfortable "
                         "Western church has largely lost."
             },
             {
                 "heading": "The Crown of Glory -- 1 Peter 5:1-4",
-                "body": "Peter addresses the elders (presbyterous) of the churches "
+                "body": "Peter addresses the elders (presbyterous) of the ekklesias "
                         "with a specific charge about HOW to shepherd: 'not under "
                         "compulsion, but willingly, as God would have you; not for "
                         "shameful gain, but eagerly; not domineering over those in "
@@ -462,8 +462,8 @@ CHAPTERS = [
                 "heading": "Hold Fast -- Crowns Can Be Lost",
                 "body": "Revelation 3:11 contains a sobering warning: 'I am coming "
                         "soon. Hold fast what you have, so that no one may seize "
-                        "your crown (stephanos).' Christ speaks to the church at "
-                        "Philadelphia -- a faithful church -- and warns them that "
+                        "your crown (stephanos).' Christ speaks to the ekklesia at "
+                        "Philadelphia -- a faithful ekklesia -- and warns them that "
                         "their crown can be taken. This is not a salvation warning "
                         "-- Philadelphia is commended, not condemned. It is a reward "
                         "warning. A crown earned through past faithfulness can be "

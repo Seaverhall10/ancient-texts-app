@@ -89,9 +89,12 @@ CHAPTERS = [
             {
                 "term": "\u05e0\u05b0\u05d0\u05bb\u05dd \u05d9\u05b0\u05d4\u05d5\u05b8\u05d4 (ne'um YHWH)",
                 "meaning": "'Declaration/utterance of YHWH' -- the prophetic formula used to "
-                           "introduce direct divine speech. Ne'um derives from a root meaning 'to "
-                           "whisper, to utter solemnly.' Psalm 110:1 uses this formula: 'The LORD "
-                           "(YHWH) says (ne'um) to my Lord (la'adoni): Sit at my right hand.' David "
+                           "introduce direct divine speech. Ne'um is a noun ('utterance/oracle of'), "
+                           "not a verb meaning 'says' — the citation formula functions without an "
+                           "explicit verb. Psalm 110:1 uses this formula: 'The utterance of "
+                           "YHWH (ne'um YHWH) to my Lord (la'adoni): Sit at my right hand.' "
+                           "NOTE: la'adoni uses adon with 1cs suffix, not Adonai — a significant "
+                           "distinction Jesus exploits in Matt 22:44. David "
                            "hears a divine utterance directed to someone David calls 'my Lord' -- a "
                            "figure David acknowledges as his superior. Jesus uses this in Matthew "
                            "22:41-46 to silence the Pharisees: if the Messiah is merely David's son, "
@@ -283,11 +286,13 @@ CHAPTERS = [
                              "extending into the heavenly temple's liturgical life."
             },
             {
-                "source": "2 Enoch 71-72 (Slavonic Enoch)",
-                "summary": "A later text (possibly 1st c. AD) where Melchizedek is miraculously "
+                "source": "2 Enoch 71-72 (Slavonic Enoch, non-canonical — dating uncertain, possibly 1st c. AD but manuscript tradition is late)",
+                "summary": "According to 2 Enoch (a non-canonical text with uncertain dating and "
+                           "no DSS attestation, unlike 1 Enoch), Melchizedek is miraculously "
                            "born and taken to paradise, appointed as priest of priests forever.",
-                "relevance": "Another Second Temple tradition of Melchizedek as a supernatural "
-                             "priestly figure -- the tradition was widespread, not isolated to Qumran."
+                "relevance": "Another tradition of Melchizedek as a supernatural "
+                             "priestly figure -- the tradition was widespread, not isolated to Qumran. "
+                             "NOTE: 2 Enoch does not share 1 Enoch's elevated authority (Rule 6)."
             }
         ],
 

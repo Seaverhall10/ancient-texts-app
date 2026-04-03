@@ -419,8 +419,8 @@ CHAPTERS = [
         ],
 
         "cross_refs": [
-            {"ref": "Isaiah 66:8", "note": "Christian Zionists cite this as predicting 1948: 'Shall a nation be born in one day?' But in context, Isaiah is describing eschatological Zion giving birth to a renewed people -- not a UN vote [A]", "type": "ot"},
-            {"ref": "Ezekiel 37:1-14", "note": "The valley of dry bones: 'I will open your graves and raise you from your graves, O my people. And I will bring you into the land of Israel.' Often applied to 1948, but the passage promises RESURRECTION and SPIRITUAL renewal, not mere political statehood [A]", "type": "ot"},
+            {"ref": "Isaiah 66:8", "note": "Christian Zionists cite this as predicting 1948: 'Shall a nation be born in one day?' In context, Isaiah describes eschatological Zion giving birth to a renewed people. The eschatological and partial-historical readings are not mutually exclusive -- but applying it flatly to a UN vote oversimplifies the text [B]", "type": "ot"},
+            {"ref": "Ezekiel 37:1-14", "note": "The valley of dry bones: 'I will open your graves... And I will bring you into the land of Israel' (v.12-14) AND 'I will put my Spirit within you' (v.14). The passage requires BOTH geographic return AND spiritual transformation -- 1948 fulfills only the geographic dimension at best, making it incomplete fulfillment [B]", "type": "ot"},
             {"ref": "Ezekiel 37:21-23", "note": "God promises to gather Israel from the nations AND 'cleanse them' -- geographic return without spiritual transformation is incomplete fulfillment at best [A]", "type": "ot"},
             {"ref": "Luke 21:24", "note": "Jesus says Jerusalem 'will be trampled underfoot by the Gentiles, until the times of the Gentiles are fulfilled' -- some see 1967 (recapture of Old City) as fulfilling this. Others note that the 'times of the Gentiles' is a theological category, not a military one [B]", "type": "nt"},
             {"ref": "Deuteronomy 28:64-68", "note": "Moses warns of scattering among the nations if Israel is unfaithful -- the exile was JUDGMENT. The question is whether the return must also be accompanied by national repentance [A]", "type": "ot"},
@@ -794,7 +794,7 @@ CHAPTERS = [
             },
             {
                 "heading": "Paul's Redefinition of 'Israel'",
-                "body": "Paul does not simply replace Israel with the Church. He "
+                "body": "Paul does not simply replace Israel with the ekklesia. He "
                         "REDEFINES the boundaries of the covenant community. In "
                         "Romans 2:28-29, he declares that true Jewishness is 'a matter "
                         "of the heart, by the Spirit' \u2014 not ethnicity or circumcision. "
@@ -1115,7 +1115,7 @@ CHAPTERS = [
                         "political state is exempt from prophetic critique. (4) REFUSE "
                         "UNCONDITIONAL ENDORSEMENT of any political entity \u2014 only God "
                         "receives unconditional allegiance. (5) HOLD THE TENSION \u2014 God "
-                        "is not finished with Israel, AND the Church is not a footnote. "
+                        "is not finished with Israel, AND the ekklesia is not a footnote. "
                         "Both truths must be held with humility before a God whose "
                         "judgments are 'unsearchable' (Rom 11:33). [A][B]"
             }

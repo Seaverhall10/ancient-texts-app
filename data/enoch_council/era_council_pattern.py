@@ -60,7 +60,7 @@ CHAPTERS = [
                            "transport. Ezekiel is carried by the ruach "
                            "(Ezek 3:12, 14; 8:3; 11:1; 37:1; 43:5). The "
                            "ruach YHWH carries prophets into the council's "
-                           "presence. In 1 Enoch 14:8, the 'winds' (identical "
+                           "presence. According to 1 Enoch 14:8, the 'winds' (identical "
                            "concept) carry Enoch into the heavenly temple. "
                            "The ruach is not merely inspiration \u2014 it is the "
                            "vehicle of transit between realms."
@@ -145,7 +145,7 @@ CHAPTERS = [
                          "to pass through the seven heavenly palaces, giving "
                          "passwords to angelic gatekeepers. All of these "
                          "traditions trace their lineage to Enoch's ascent "
-                         "in 1 Enoch 14 and the prophetic visions it "
+                         "described in 1 Enoch 14 and the prophetic visions it "
                          "inaugurated.",
 
         "cross_refs": [
@@ -611,7 +611,7 @@ CHAPTERS = [
                         "graduated-access system is gone: no courtyard, no "
                         "veil, no restricted zone. Every servant sees God's "
                         "face \u2014 the very thing that even the highest angels "
-                        "in 1 Enoch 14 could not do. Enoch walked with God "
+                        "(according to 1 Enoch 14) could not do. Enoch walked with God "
                         "and was taken. The prophets saw the throne in fleeting "
                         "visions. Paul was caught up temporarily and heard "
                         "things he could not repeat. John saw the door open "

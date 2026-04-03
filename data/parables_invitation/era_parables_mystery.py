@@ -395,7 +395,7 @@ CHAPTERS = [
                            "The aristocratic priestly party who controlled the Temple, "
                            "denied resurrection, angels, and spirits (Acts 23:8), and "
                            "collaborated with Rome for political stability. They were "
-                           "theological minimalists \u2014 only accepting the Pentateuch \u2014 "
+                           "theological minimalists \u2014 according to later rabbinic tradition, only accepting the Pentateuch (though Josephus focuses on their rejection of oral tradition rather than the written canon) \u2014 "
                            "which made them miss the very resurrection they denied when "
                            "it happened in front of their Temple."
             },

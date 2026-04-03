@@ -762,7 +762,7 @@ CHAPTERS = [
         "cross_refs": [
             {"ref": "Ezekiel 40-48", "note": "Ezekiel's temple vision: specific measurements, regulations, and geography of a future temple -- interpreted literally by some, symbolically by others", "type": "ot"},
             {"ref": "1 Corinthians 3:16", "note": "'Do you not know that you are God's temple and that God's Spirit dwells in you?' -- Paul identifies the believing community as the temple", "type": "nt"},
-            {"ref": "Ephesians 2:19-22", "note": "The church is 'built on the foundation of the apostles and prophets, Christ Jesus himself being the cornerstone... grows into a holy temple in the Lord'", "type": "nt"},
+            {"ref": "Ephesians 2:19-22", "note": "The ekklesia is 'built on the foundation of the apostles and prophets, Christ Jesus himself being the cornerstone... grows into a holy temple in the Lord'", "type": "nt"},
             {"ref": "Revelation 21:1-22:5", "note": "The new Jerusalem descends from heaven with no temple, the tree of life, the river of life, and God dwelling directly with His people -- the final vision", "type": "nt"},
             {"ref": "Romans 4:13", "note": "'The promise to Abraham and his offspring that he would be heir of the world' -- Paul expands the land promise from Canaan to the entire cosmos", "type": "nt"},
             {"ref": "Hebrews 11:10, 13-16", "note": "Abraham 'was looking forward to the city that has foundations, whose designer and builder is God' -- the patriarchs desired 'a better country, a heavenly one'", "type": "nt"},

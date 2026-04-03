@@ -153,7 +153,7 @@ CHAPTERS = [
 
         "divine_council_note": "The four-stage sequence from present age to Christ's return "
                                "is fundamentally a divine council narrative. Stage 1 is the "
-                               "period where the rebel elohim (Deuteronomy 32:8) still "
+                               "period where the rebel elohim (Deuteronomy 32:8, DSS/LXX) still "
                                "exercise territorial authority over the nations while the "
                                "ekklesia reclaims territory through the gospel. Stage 2 is "
                                "the final consolidation of rebellious spiritual power under "
@@ -178,7 +178,7 @@ CHAPTERS = [
                         "posture clear: 'the gates of Hades will NOT prevail against' the "
                         "ekklesia. Gates are defensive structures. The ekklesia is not "
                         "defending against the gates of hell -- it is assaulting them. The "
-                        "church is on offense. The nations are being reclaimed through the "
+                        "ekklesia is on offense. The nations are being reclaimed through the "
                         "gospel -- the reversal of Babel continues as people from every "
                         "nation, tribe, and tongue are gathered into the one people of God. "
                         "Multiple antichrists are already operating (1 John 2:18). Birth "

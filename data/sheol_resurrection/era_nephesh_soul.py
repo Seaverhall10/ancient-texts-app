@@ -387,7 +387,7 @@ CHAPTERS = [
                         "UNNECESSARY -- why would a liberated soul return to its prison? "
                         "Paul's Athenian audience mocked the resurrection precisely because "
                         "their philosophical framework made it absurd (Acts 17:32). The "
-                        "tragedy is that within three centuries, the church would absorb the "
+                        "tragedy is that within three centuries, the institutional church would absorb the "
                         "very framework that made the resurrection sound ridiculous."
             },
             {

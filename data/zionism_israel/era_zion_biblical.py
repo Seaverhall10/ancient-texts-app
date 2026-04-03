@@ -11,7 +11,7 @@ Three chapters covering:
   2. The Abrahamic Covenant & the Land (Genesis 12, 15, 17 + NT reframing)
   3. Exile, Return & the Prophetic Hope (Jeremiah, Ezekiel, Romans 9-11)
 
-Framework: Divine council theology (Deuteronomy 32:8-9 worldview). Zion is
+Framework: Divine council theology (Deuteronomy 32:8-9, DSS/LXX worldview). Zion is
 not merely a geographic location -- it is the earthly seat of YHWH's rule,
 the place where the divine council meets on earth as it does in heaven.
 The Abrahamic land promise must be read alongside the Pauline expansion

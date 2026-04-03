@@ -122,7 +122,7 @@ CHAPTERS = [
                             "consistent with reading them as stages in a single covenant prosecution."
             },
             {
-                "source": "According to 1 Enoch 1:1-9",
+                "source": "1 Enoch 1:1-9 (non-canonical)",
                 "summary": "1 Enoch opens with a prophetic prosecution pattern: Enoch delivers a verdict "
                            "against the Watchers using riv-like structure -- charges, evidence, and "
                            "sentence from the divine council.",
@@ -278,7 +278,7 @@ CHAPTERS = [
                             "and Isaiah 6 present."
             },
             {
-                "source": "According to 1 Enoch 14:8-25",
+                "source": "1 Enoch 14:8-25 (non-canonical)",
                 "summary": "1 Enoch describes the patriarch being brought before the divine throne "
                            "in extraordinary detail -- crystal walls, fiery floor, the Great Glory "
                            "seated on the throne. Enoch receives his commission to deliver judgment "

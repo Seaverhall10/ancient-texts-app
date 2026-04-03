@@ -204,8 +204,9 @@ CHAPTERS = [
                                "form. According to Deuteronomy 33:2, YHWH 'came from the "
                                "ten thousands of holy ones, with flaming fire at his right "
                                "hand' \u2014 He arrived at Sinai with His heavenly entourage. "
-                               "Galatians 3:19 and Acts 7:53 confirm that the law was "
-                               "'ordained through angels' (di' angelon). The Torah is thus "
+                               "Galatians 3:19 confirms the law was 'put in place through "
+                               "angels' (diatageis di' angelon, ESV) and Acts 7:53 echoes "
+                               "this: the law was 'delivered by angels.' The Torah is thus "
                                "a product of the heavenly court delivered into human hands.",
 
         "sections": [

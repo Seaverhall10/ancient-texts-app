@@ -18,11 +18,11 @@ This era continues from era_canon_ot.py (Chapters 1-4, the Old Testament canon)
 and completes the Biblical Canon thematic study. Evidence tiers are applied
 throughout: [A] Direct Scripture, [B] Valid inference, [C] Historical parallel.
 
-Key principle: the church did not CREATE the canon -- it RECOGNIZED it. The
-authority of these books derives from their apostolic origin and the work of
-the Holy Spirit through the apostolic community, not from institutional decree.
-This distinction matters enormously for how we understand the relationship
-between Scripture and the church.
+Key principle: the ekklesia (governing assembly) did not CREATE the canon -- it
+RECOGNIZED it. The authority of these books derives from their apostolic origin
+and the work of the Holy Spirit through the apostolic community, not from
+institutional decree. This distinction matters enormously for how we understand
+the relationship between Scripture and the ekklesia.
 """
 
 CHAPTERS = [
@@ -261,12 +261,12 @@ CHAPTERS = [
             {
                 "heading": "Recognition, Not Creation",
                 "body": "This distinction is the hinge on which the entire canon debate "
-                        "turns. The church did not CREATE canonical authority by choosing "
+                        "turns. The ekklesia did not CREATE canonical authority by choosing "
                         "books -- it RECOGNIZED authority that was already present. The "
                         "analogy is a scientific discovery: Isaac Newton did not create "
                         "gravity when he described it. He recognized what was already "
-                        "operative. Similarly, when the church eventually produced formal "
-                        "canon lists, it was articulating what the churches had already "
+                        "operative. Similarly, when the ekklesia eventually produced formal "
+                        "canon lists, it was articulating what the ekklesias had already "
                         "been practicing for generations. Paul's letters were collected "
                         "and circulated within decades of his death. The four Gospels "
                         "were read in worship across the Mediterranean world by the early "

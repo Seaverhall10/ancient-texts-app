@@ -56,7 +56,7 @@ CHAPTERS = [
                     "of Jared on the summit of Mount Hermon, and they called it "
                     "Mount Hermon, because they had sworn and bound themselves by "
                     "mutual imprecations upon it.",
-            "translation": "Charles"
+            "translation": "Charles (R.H. Charles, 1917 translation of 1 Enoch — non-canonical)"
         },
 
         "hebrew_terms": [

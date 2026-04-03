@@ -197,7 +197,7 @@ CHAPTERS = [
                            "authority was not recognized."
             },
             {
-                "term": "\u03b4\u03bf\u03cd\u03bb\u03bf\u03c5\u03c2 (doulous)",
+                "term": "δοῦλος (doulos) [GREEK, accusative plural δούλους in text]",
                 "meaning": "Servants, bondservants, slaves. The king sends his douloi "
                            "repeatedly \u2014 these represent the prophets sent to Israel across "
                            "centuries: Isaiah, Jeremiah, Zechariah, John the Baptist. The "

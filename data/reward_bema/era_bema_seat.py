@@ -136,7 +136,7 @@ CHAPTERS = [
 
         "cross_refs": [
             {"ref": "2 Corinthians 5:10", "note": "The definitive bema text -- every believer appears before Christ's evaluation platform to receive what is due for the embodied life", "type": "nt"},
-            {"ref": "Romans 14:10-12", "note": "'We will all stand before the judgment seat of God... each of us will give an account of himself' -- Paul says it twice, to two churches", "type": "nt"},
+            {"ref": "Romans 14:10-12", "note": "'We will all stand before the judgment seat of God... each of us will give an account of himself' -- some manuscripts read 'judgment seat of Christ' (cf. 2 Cor 5:10). Paul says it twice, to two ekklesias", "type": "nt"},
             {"ref": "Acts 18:12-17", "note": "Gallio's bema in Corinth -- the actual stone platform Paul's audience knew. When Paul wrote 'bema of Christ,' this was their reference point", "type": "nt"},
             {"ref": "Revelation 20:11-15", "note": "The Great White Throne judgment -- a SEPARATE event for the unbelieving dead. Not the bema. Different audience, different outcome", "type": "nt"},
             {"ref": "1 Corinthians 9:24-27", "note": "Paul's athletic metaphor: 'Run that you may obtain the prize' -- the bema is the prize platform at the end of the race", "type": "nt"},
@@ -194,7 +194,7 @@ CHAPTERS = [
                         "this to the Romans: 'We will all stand before the judgment "
                         "seat of God... each of us will give an account of himself "
                         "to God' (Rom 14:10-12). He says it twice, to two different "
-                        "churches, in two different letters. This is not optional. "
+                        "ekklesias, in two different letters. This is not optional. "
                         "There is no exemption category. Apostles appear. Pastors "
                         "appear. New converts appear. Mature believers appear. The "
                         "thief on the cross, had he lived, would have appeared. "
@@ -367,7 +367,7 @@ CHAPTERS = [
             {"ref": "1 Peter 1:7", "note": "'So that the tested genuineness of your faith -- more precious than gold that perishes though it is tested by fire -- may result in praise'", "type": "nt"},
             {"ref": "Proverbs 17:3", "note": "'The crucible is for silver, and the furnace is for gold, and the LORD tests hearts' -- fire refines, it does not destroy the genuine", "type": "ot"},
             {"ref": "Matthew 7:24-27", "note": "The wise and foolish builders -- Jesus' parable about building on rock vs. sand. Quality of foundation and materials matters", "type": "nt"},
-            {"ref": "Revelation 3:18", "note": "Christ counsels Laodicea to buy 'gold refined by fire' -- the fire-tested gold metaphor applied to the lukewarm church", "type": "nt"},
+            {"ref": "Revelation 3:18", "note": "Christ counsels Laodicea to buy 'gold refined by fire' -- the fire-tested gold metaphor applied to the lukewarm ekklesia", "type": "nt"},
             {"ref": "2 John 1:8", "note": "'Watch yourselves, so that you may not lose what we have worked for, but may win a full reward' -- reward can be partial or full", "type": "nt"}
         ],
 

@@ -80,7 +80,7 @@ CHAPTERS = [
                 "meaning": "Glory, weight, heaviness, honor. The kavod of YHWH "
                            "is the visible, tangible manifestation of God's "
                            "presence \u2014 what Ezekiel calls the 'likeness of the "
-                           "glory of YHWH' (Ezek 1:28). In 1 Enoch 14:20, the "
+                           "glory of YHWH' (Ezek 1:28). According to 1 Enoch 14:20, the "
                            "being on the throne is called 'the Great Glory' "
                            "(megalosyne in Greek, reflecting kavod or hod in "
                            "the underlying Aramaic). The kavod is what fills "

@@ -312,7 +312,7 @@ CHAPTERS = [
                     "precise that the psalm reads like an eyewitness account written "
                     "a millennium in advance. 'My God, my God, why have you forsaken "
                     "me?' (22:1) -- the exact words Jesus cries from the cross. 'They "
-                    "have pierced my hands and my feet' (22:16). 'They divide my "
+                    "have pierced my hands and my feet' (22:16, following the LXX/DSS reading ka'aru; the MT reads ka'ari, 'like a lion' — ESV follows the LXX/DSS). 'They divide my "
                     "garments among them, and for my clothing they cast lots' (22:18). "
                     "This is not vague symbolism or retroactive eisegesis. This is "
                     "prophecy of staggering specificity.",
@@ -340,8 +340,10 @@ CHAPTERS = [
             {
                 "term": "\u05e2\u05b5\u05dc\u05b4\u05d9 \u05e2\u05b5\u05dc\u05b4\u05d9 (Eli, Eli)",
                 "meaning": "'My God, My God.' The opening cry of Psalm 22 and the "
-                           "words Jesus speaks from the cross in Aramaic: 'Eli, Eli, "
-                           "lema sabachthani?' (Matthew 27:46). By quoting the first "
+                           "words Jesus speaks from the cross: 'Eli, Eli, lema "
+                           "sabachthani?' (Matthew 27:46). NOTE: Matthew's 'Eli' form "
+                           "is closer to Hebrew אֵלִי, while Mark 15:34 uses the Aramaic "
+                           "'Eloi, Eloi' (אֱלָהִי). By quoting the first "
                            "line, Jesus signals the entire psalm -- including its "
                            "triumphant ending."
             },

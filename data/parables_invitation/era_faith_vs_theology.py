@@ -56,18 +56,23 @@ CHAPTERS = [
                            "lay them on people's shoulders' (Matt 23:4)."
             },
             {
-                "term": "\u05de\u05b5\u05ea\u05b7\u05e0\u05b0\u05d9\u05b8\u05d0 (metanya)",
-                "meaning": "Repentance (Aramaic). The very first word of Jesus's public "
-                           "ministry was 'Repent' (metanoeite in Greek, Matt 4:17). Not "
+                "term": "μετανοέω (metanoeō) [GREEK]; Hebrew: תְּשׁוּבָה (teshuvah)",
+                "meaning": "Repentance. The very first word of Jesus's public "
+                           "ministry was 'Repent' (metanoeite in Greek, Matt 4:17). "
+                           "The Greek metanoia (change of mind) corresponds to the "
+                           "Hebrew teshuvah (turning, returning to God). Not "
                            "'believe these doctrines' or 'perform these rituals' but "
                            "'change your mind, turn around, reorient your life toward God.' "
                            "Repentance is the single most consistent theme in Jesus's "
                            "public preaching."
             },
             {
-                "term": "\u03b2\u03b1\u03c3\u03b9\u03bb\u03b5\u03af\u03b1 \u03c4\u03bf\u1fe6 \u03b8\u03b5\u03bf\u1fe6 (basileia tou theou)",
-                "meaning": "Kingdom of God \u2014 the central topic of Jesus's preaching. He "
-                           "does not primarily preach 'how to get saved' \u2014 He preaches "
+                "term": "βασιλεία τοῦ θεοῦ (basileia tou theou) [GREEK]; Hebrew: מַלְכוּת שָׁמַיִם (malkut shamayim)",
+                "meaning": "Kingdom of God \u2014 the central topic of Jesus's preaching. "
+                           "The Greek basileia tou theou maps to the Hebrew malkut "
+                           "shamayim (kingdom of heaven) or malkut YHWH (kingdom of "
+                           "the LORD) \u2014 the Semitic substrate Jesus would have invoked. "
+                           "He does not primarily preach 'how to get saved' \u2014 He preaches "
                            "the kingdom. This is a realm where God's authority is "
                            "acknowledged, His will is done, and His justice reigns. "
                            "Jesus's parables almost universally begin: 'The kingdom of "
@@ -142,7 +147,7 @@ CHAPTERS = [
                         "kingdom (Acts 1:3). The pattern is clear: Jesus gave the crowds "
                         "what they could receive \u2014 the call to repent, believe, and follow "
                         "\u2014 and gave His disciples the theological framework that would "
-                        "become the foundation of the church. He explicitly says this is "
+                        "become the foundation of the ekklesia (governing assembly). He explicitly says this is "
                         "His strategy: 'I still have many things to say to you, but you "
                         "cannot bear them now. When the Spirit of truth comes, he will "
                         "guide you into all the truth' (John 16:12-13). The theological "
@@ -373,7 +378,7 @@ CHAPTERS = [
             {
                 "heading": "Pentecost \u2014 The First Gospel Invitation",
                 "body": "Fifty days after the resurrection, Peter preaches the first "
-                        "public sermon of the church (Acts 2:14-36). His message is "
+                        "public sermon of the ekklesia (Acts 2:14-36). His message is "
                         "simple: Jesus of Nazareth, whom you crucified, God raised from "
                         "the dead. He is Lord and Christ. When the crowd is 'cut to the "
                         "heart' and asks 'What shall we do?' Peter answers: 'Repent and "

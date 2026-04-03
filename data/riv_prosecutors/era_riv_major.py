@@ -114,7 +114,7 @@ CHAPTERS = [
                             "pardon are inseparable."
             },
             {
-                "source": "According to 1 Enoch 48:2-7 (Similitudes)",
+                "source": "1 Enoch 48:2-7 (Similitudes, non-canonical)",
                 "summary": "1 Enoch's Son of Man figure draws on Isaiah's Servant language: chosen "
                            "before creation, a light to the nations, the one who will execute "
                            "judgment on the oppressors.",
@@ -168,7 +168,7 @@ CHAPTERS = [
             },
             {
                 "heading": "Isaiah 6 -- The Merkavah Commissioning",
-                "body": "Isaiah's call narrative in chapter 6 is not just a spiritual experience -- it is his courtroom appointment. 'In the year that King Uzziah died I saw the Lord sitting upon a throne, high and lifted up, and the train of his robe filled the temple.' The earthly throne is empty; the heavenly throne is occupied. The seraphim (literally 'burning ones' -- the same category of being as the nachash, divine serpentine creatures who serve as YHWH's throne attendants) cover their faces and feet and cry 'Holy, holy, holy is the LORD of hosts; the whole earth is full of his glory.' The triple repetition is the Hebrew superlative: maximally holy. Isaiah's response is terror: 'Woe is me! For I am lost; for I am a man of unclean lips, and I dwell in the midst of a people of unclean lips.' Note the dual charge: personal impurity and national impurity. The seraph takes a burning coal from the altar and touches Isaiah's lips: 'Behold, this has touched your lips; your guilt is taken away, and your sin atoned for.' The prosecutor must be clean before he can prosecute. Then the commissioning: 'Whom shall I send, and who will go for us?' The singular 'I' is YHWH; the plural 'us' is the divine council. Isaiah volunteers and receives his devastating brief: preach, but they will not listen. The verdict is judicial hardening -- this is not an evangelistic mission but a legal proceeding where the sentence has already been determined."
+                "body": "Isaiah's call narrative in chapter 6 is not just a spiritual experience -- it is his courtroom appointment. 'In the year that King Uzziah died I saw the Lord sitting upon a throne, high and lifted up, and the train of his robe filled the temple.' The earthly throne is empty; the heavenly throne is occupied. The seraphim (literally 'burning ones' -- serpentine divine beings who share some iconographic features with the nachash tradition [B], serving as YHWH's throne attendants) cover their faces and feet and cry 'Holy, holy, holy is the LORD of hosts; the whole earth is full of his glory.' The triple repetition is the Hebrew superlative: maximally holy. Isaiah's response is terror: 'Woe is me! For I am lost; for I am a man of unclean lips, and I dwell in the midst of a people of unclean lips.' Note the dual charge: personal impurity and national impurity. The seraph takes a burning coal from the altar and touches Isaiah's lips: 'Behold, this has touched your lips; your guilt is taken away, and your sin atoned for.' The prosecutor must be clean before he can prosecute. Then the commissioning: 'Whom shall I send, and who will go for us?' The singular 'I' is YHWH; the plural 'us' is the divine council. Isaiah volunteers and receives his devastating brief: preach, but they will not listen. The verdict is judicial hardening -- this is not an evangelistic mission but a legal proceeding where the sentence has already been determined."
             },
             {
                 "heading": "The Servant Songs -- The Prosecutor Carries a Pardon",
@@ -290,8 +290,8 @@ CHAPTERS = [
                             "the treaty penalties were being executed."
             },
             {
-                "source": "Baruch 1:15-3:8",
-                "summary": "The book attributed to Jeremiah's scribe Baruch contains an extended "
+                "source": "Baruch 1:15-3:8 (deuterocanonical)",
+                "summary": "According to the book attributed to Jeremiah's scribe Baruch, it contains an extended "
                            "confession of covenant violation that closely mirrors Jeremiah's riv: "
                            "acknowledgment of YHWH's justice, confession of disobedience, and "
                            "appeal for mercy.",
@@ -448,7 +448,7 @@ CHAPTERS = [
                             "at the deepest level."
             },
             {
-                "source": "According to 1 Enoch 14:8-25",
+                "source": "1 Enoch 14:8-25 (non-canonical)",
                 "summary": "1 Enoch's throne vision parallels Ezekiel's merkavah: crystal walls, "
                            "tongues of fire, the throne of the Great Glory. Enoch sees what Ezekiel "
                            "saw -- the divine council in session.",

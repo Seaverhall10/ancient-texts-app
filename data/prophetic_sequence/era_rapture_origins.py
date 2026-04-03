@@ -40,7 +40,7 @@ CHAPTERS = [
                     "Darby in the 1830s as part of a comprehensive theological system called "
                     "dispensationalism. This chapter traces its origins with historical "
                     "precision and asks the question every serious student must face: if "
-                    "the entire church for 1,800 years never saw this doctrine in the text, "
+                    "the entire ekklesia for 1,800 years never saw this doctrine in the text, "
                     "what does that tell us?",
 
         "key_verse": {
@@ -176,7 +176,7 @@ CHAPTERS = [
                         "follows Christ's return. Tertullian, Hippolytus, Lactantius -- all "
                         "premillennial, all post-tribulational. They expected suffering before "
                         "glory, not evacuation before suffering. For 1,800 years, the entire "
-                        "church -- East and West, Catholic and Protestant -- held that Christ "
+                        "ekklesia -- East and West, Catholic and Protestant -- held that Christ "
                         "would return once, visibly, at the end of the tribulation, to raise "
                         "the dead and establish his kingdom. The question is not whether the "
                         "rapture is biblical. The question is: how did something nobody taught "
@@ -199,11 +199,12 @@ CHAPTERS = [
                         "rapture was not discovered in the text -- it was required by the "
                         "system. Without the rapture, dispensationalism collapses, because "
                         "the church would be present during events Darby assigned exclusively "
-                        "to Israel. Margaret MacDonald's 1830 vision at a prophetic conference "
-                        "in Port Glasgow, Scotland -- in which she described a two-stage "
-                        "coming of Christ -- provided experiential confirmation. Darby developed "
-                        "the theology; MacDonald provided the spiritual experience. The "
-                        "doctrine was born."
+                        "to Israel. In 1830, Margaret MacDonald experienced a vision at her "
+                        "home in Port Glasgow, Scotland -- in which she described a two-stage "
+                        "coming of Christ. Some historians (notably Dave MacPherson) argue "
+                        "this provided experiential confirmation for Darby's system, though "
+                        "others dispute a direct link. What is undisputed: the doctrine "
+                        "appeared in the 1830s and had zero prior attestation."
             },
             {
                 "heading": "The Israel-Church Separation \u2014 What Paul Actually Said",
@@ -357,7 +358,7 @@ CHAPTERS = [
         "cross_refs": [
             {"ref": "2 Timothy 4:3-4", "note": "Paul warns of a time when people will accumulate teachers to suit their desires and turn from truth to myths -- the rapture's cultural appeal fits this warning precisely", "type": "nt"},
             {"ref": "Matthew 24:13", "note": "'The one who endures to the end will be saved' -- Jesus commands endurance through tribulation, not escape from it", "type": "nt"},
-            {"ref": "Revelation 2:10", "note": "'Be faithful unto death, and I will give you the crown of life' -- Christ's promise to the church at Smyrna: faithfulness through persecution, not removal from it", "type": "nt"},
+            {"ref": "Revelation 2:10", "note": "'Be faithful unto death, and I will give you the crown of life' -- Christ's promise to the ekklesia at Smyrna: faithfulness through persecution, not removal from it", "type": "nt"},
             {"ref": "Acts 14:22", "note": "'Through many tribulations we must enter the kingdom of God' -- the apostolic expectation: tribulation precedes the kingdom", "type": "nt"},
             {"ref": "Romans 11:17-24", "note": "Gentile believers grafted into Israel's olive tree -- one tree, one people, not two separate programs requiring a rapture", "type": "nt"},
             {"ref": "Galatians 3:28-29", "note": "In Christ there is 'neither Jew nor Greek' -- the dispensationalist Israel-church separation is explicitly denied", "type": "nt"},

@@ -170,7 +170,7 @@ CHAPTERS = [
         ],
 
         "divine_council_note": "The millennium is the divine council narrative's penultimate "
-                               "chapter. Since Babel (Deuteronomy 32:8-9), the nations have "
+                               "chapter. Since Babel (Deuteronomy 32:8-9, DSS/LXX), the nations have "
                                "been under the authority of corrupt bene elohim who received "
                                "them as their allotment. Christ's return strips these powers "
                                "of their authority (1 Corinthians 15:24-25) and establishes "

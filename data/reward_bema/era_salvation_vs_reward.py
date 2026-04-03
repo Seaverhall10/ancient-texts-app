@@ -151,7 +151,7 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "The Floor and the Ceiling -- Two Categories, Not One",
-                "body": "The Western church has largely collapsed two distinct NT "
+                "body": "The Western tradition has largely collapsed two distinct NT "
                         "categories into one, producing confusion that distorts the "
                         "entire Christian life. Salvation (soteria) is the floor -- "
                         "the entrance into the kingdom, given by grace through faith "

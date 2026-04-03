@@ -390,13 +390,14 @@ CHAPTERS = [
                                "humanity ruling creation as God's image-bearers -- and it is "
                                "the completion of the divine council replacement program. The "
                                "fallen elohim who were assigned to the nations at Babel "
-                               "(Deuteronomy 32:8-9) and who corrupted their charge are "
+                               "(Deuteronomy 32:8-9, DSS/LXX) and who corrupted their charge are "
                                "replaced by redeemed human beings who will govern alongside "
                                "Christ forever. 1 Corinthians 6:3 adds that the ekklesia will "
                                "'judge angels.' Ephesians 3:10 says the 'manifold wisdom of "
-                               "God' is being made known 'through the church' to the 'rulers "
-                               "and authorities in the heavenly places.' The church is the "
-                               "announcement. The new creation is the fulfillment.",
+                               "God' is being made known 'through the ekklesia (governing "
+                               "assembly)' to the 'rulers and authorities in the heavenly "
+                               "places.' The ekklesia is the announcement. The new creation "
+                               "is the fulfillment.",
 
         "sections": [
             {

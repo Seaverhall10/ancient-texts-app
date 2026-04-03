@@ -124,10 +124,11 @@ CHAPTERS = [
                             "as a unified collection."
             },
             {
-                "source": "According to 1 Enoch 90:31 (Animal Apocalypse)",
-                "summary": "1 Enoch's Animal Apocalypse depicts the prophets as sheep who cried out "
+                "source": "1 Enoch 89:51-90:19 (Animal Apocalypse, non-canonical)",
+                "summary": "According to 1 Enoch, the Animal Apocalypse depicts the prophets as sheep who cried out "
                            "but were not heard -- a narrative framework where the prophetic "
-                           "prosecution is acknowledged but rejected.",
+                           "prosecution is acknowledged but rejected. (NOTE: 1 En 90:31 concerns the "
+                           "eschatological transformation; the rejected-prophet motif is in 89:51-90:19.)",
                 "relevance": "The Enochic tradition recognized the prophets' unified role as "
                             "prosecutors whose message was systematically rejected by the people."
             }
@@ -173,7 +174,7 @@ CHAPTERS = [
             },
             {
                 "heading": "Malachi -- The Final Summons Before Silence",
-                "body": "Malachi is the closing argument of the Twelve's prosecution. The book is structured as a series of disputations -- YHWH makes a claim, Israel challenges it, YHWH responds with evidence. 'I have loved you, says the LORD. But you say, \"How have you loved us?\"' (1:2). The people question YHWH's faithfulness even while violating the covenant -- the ultimate irony. The charges are devastating: defiled sacrifices ('When you offer blind animals in sacrifice, is that not evil?' 1:8), priestly corruption ('You have turned aside from the way. You have caused many to stumble by your instruction' 2:8), and covenant treachery ('The LORD was witness between you and the wife of your youth, to whom you have been faithless, though she is your companion and your wife by covenant' 2:14). Then the climactic announcement: 'Behold, I send my messenger, and he will prepare the way before me. And the Lord whom you seek will suddenly come to his temple; the messenger of the covenant in whom you delight -- behold, he is coming, says the LORD of hosts. But who can endure the day of his coming, and who can stand when he appears?' (3:1-2). The messenger of the covenant (mal'akh habberit) is coming, and he will prosecute in person. Malachi closes with the Elijah promise (4:5-6) -- a forerunner will come before the final day. Then silence. Four hundred years of prophetic silence until a man in camel's hair appears at the Jordan: 'Repent, for the kingdom of heaven is at hand' (Matt 3:2)."
+                "body": "Malachi is the closing argument of the Twelve's prosecution. The book is structured as a series of disputations -- YHWH makes a claim, Israel challenges it, YHWH responds with evidence. 'I have loved you, says the LORD. But you say, \"How have you loved us?\"' (1:2). The people question YHWH's faithfulness even while violating the covenant -- the ultimate irony. The charges are devastating: defiled sacrifices ('When you offer blind animals in sacrifice, is that not evil?' 1:8), priestly corruption ('You have turned aside from the way. You have caused many to stumble by your instruction' 2:8), and covenant treachery ('The LORD was witness between you and the wife of your youth, to whom you have been faithless, though she is your companion and your wife by covenant' 2:14). Then the climactic announcement: 'Behold, I send my messenger, and he will prepare the way before me. And the Lord whom you seek will suddenly come to his temple; the messenger of the covenant in whom you delight -- behold, he is coming, says the LORD of hosts. But who can endure the day of his coming, and who can stand when he appears?' (3:1-2). The messenger of the covenant (mal'akh habberit) is coming, and he will prosecute in person. Malachi closes with the Elijah promise (4:5-6) -- a forerunner will come before the final day. Then silence. What tradition calls four hundred years of prophetic silence (cf. 1 Macc 9:27 — 'there was great distress in Israel, such as had not been since the time that prophets ceased to appear among them') [B] until a man in camel's hair appears at the Jordan: 'Repent, for the kingdom of heaven is at hand' (Matt 3:2)."
             }
         ]
     },
@@ -267,7 +268,7 @@ CHAPTERS = [
 
         "second_temple": [
             {
-                "source": "According to 1 Enoch 1:1-9",
+                "source": "1 Enoch 1:1-9 (non-canonical)",
                 "summary": "1 Enoch opens with a prophetic prosecution: 'The Holy Great One will come "
                            "forth from his dwelling, and the eternal God will tread upon the earth, "
                            "even on Mount Sinai, and appear from his camp.' Charges are brought "
@@ -280,9 +281,9 @@ CHAPTERS = [
             },
             {
                 "source": "Dead Sea Scrolls (General)",
-                "summary": "Qumran preserved 1 Enoch fragments across 7 caves (more copies than any "
-                           "biblical book except Psalms, Deuteronomy, and Isaiah), indicating the "
-                           "community treated it as central to their library.",
+                "summary": "Qumran preserved 1 Enoch fragments primarily in Cave 4 (4QEna-g, seven "
+                           "Aramaic manuscripts), with possible fragments in other caves — more copies "
+                           "than many biblical books, indicating the community treated it as central to their library.",
                 "relevance": "The Qumran community's preservation of 1 Enoch alongside canonical "
                             "prophets shows that the Second Temple period did not draw the same "
                             "canonical boundaries later Christians would."
@@ -307,7 +308,7 @@ CHAPTERS = [
             {"ref": "Jude 14-15", "note": "'Enoch, the seventh from Adam, prophesied, saying, \"Behold, the Lord comes with ten thousands of his holy ones\"' -- Jude quotes 1 Enoch as prophecy", "type": "nt"},
             {"ref": "1 Enoch 1:1-9", "note": "According to 1 Enoch, the patriarch delivers a prophetic prosecution of the Watchers using riv-like structure: theophany, charges, verdict, sentence", "type": "pseudepigrapha"},
             {"ref": "1 Enoch 12-16", "note": "According to 1 Enoch, Enoch is commissioned by the holy angels to deliver judgment to the Watchers -- a divine council dispatch following the prophetic pattern", "type": "pseudepigrapha"},
-            {"ref": "4QEna-g (Qumran Enoch fragments)", "note": "1 Enoch fragments across 7 Qumran caves -- more copies than most biblical books, indicating central importance to the Second Temple community", "type": "dss"}
+            {"ref": "4QEna-g (Qumran Enoch fragments)", "note": "1 Enoch fragments primarily from Cave 4 (4QEna-g, seven Aramaic manuscripts) -- more copies than many biblical books, indicating central importance to the Second Temple community", "type": "dss"}
         ],
 
         "divine_council_note": "The lost prophets operated within the same divine council framework as "
@@ -441,7 +442,7 @@ CHAPTERS = [
 
         "second_temple": [
             {
-                "source": "According to 1 Enoch 46:1-6 (Similitudes)",
+                "source": "1 Enoch 46:1-6 (Similitudes, non-canonical)",
                 "summary": "The Son of Man in 1 Enoch sits on the throne of glory, judges the kings "
                            "and the mighty, and vindicates the righteous. This figure merges Daniel "
                            "7's Son of Man with Isaiah's Servant -- a prosecuting judge who is also "

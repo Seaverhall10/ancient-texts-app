@@ -13,7 +13,7 @@ they should have been interceding for humans, not the other way around.
 But Enoch's role as mediator-intercessor establishes a pattern that runs
 through the entire biblical narrative: humans can stand in the council
 and speak. This is the seed of Paul's claim that believers will judge
-angels (1 Cor 6:3) and that the church makes known God's wisdom to rulers
+angels (1 Cor 6:3) and that the ekklesia (governing assembly) makes known God's wisdom to rulers
 and authorities in the heavenly places (Eph 3:10).
 """
 
@@ -156,7 +156,7 @@ CHAPTERS = [
             {"ref": "1 Enoch 13:1-7", "note": "According to 1 Enoch, the terrified Watchers ask Enoch to compose a memorial petition and intercede with God on their behalf \u2014 divine beings begging a human to speak for them", "type": "pseudepigrapha"},
             {"ref": "1 Enoch 15:1-2", "note": "According to 1 Enoch, God addresses Enoch: 'Go, say to the Watchers of heaven, who have sent thee to intercede for them: You should intercede for men, and not men for you'", "type": "pseudepigrapha"},
             {"ref": "1 Corinthians 6:3", "note": "'Do you not know that we are to judge angels?' \u2014 Paul's astonishing claim that believers will exercise judicial authority over angelic beings, the culmination of Enoch's precedent", "type": "nt"},
-            {"ref": "Ephesians 3:10", "note": "'Through the church the manifold wisdom of God might now be made known to the rulers and authorities in the heavenly places' \u2014 the church as God's instrument of revelation to the powers", "type": "nt"},
+            {"ref": "Ephesians 3:10", "note": "'Through the ekklesia (governing assembly) the manifold wisdom of God might now be made known to the rulers and authorities in the heavenly places' \u2014 the ekklesia as God's instrument of revelation to the powers", "type": "nt"},
             {"ref": "Genesis 18:22-33", "note": "Abraham intercedes for Sodom, bargaining with YHWH from fifty righteous down to ten \u2014 a human standing before God and negotiating judgment, following Enoch's template", "type": "ot"},
             {"ref": "Exodus 32:11-14", "note": "Moses intercedes for Israel after the golden calf, and 'the LORD relented from the disaster' \u2014 human intercession affecting divine judgment in the council pattern", "type": "ot"},
             {"ref": "Job 1:6-12; 2:1-6", "note": "Satan enters the divine council and acts as accuser against Job \u2014 but God sets the terms, demonstrating that council members operate within divine boundaries", "type": "ot"},
@@ -595,7 +595,7 @@ CHAPTERS = [
                         "spirits. He proclaimed victory over them. He announced "
                         "the verdict. The 'spirits in prison' who 'did not obey "
                         "in the days of Noah' are the Watchers \u2014 the same "
-                        "beings for whom Enoch interceded in 1 Enoch 13. The "
+                        "beings for whom, according to 1 Enoch 13, Enoch interceded. The "
                         "arc is complete: Enoch mediates for the Watchers, and "
                         "God denies the petition. Centuries later, Christ "
                         "descends to the prison and proclaims to the Watchers "
@@ -605,7 +605,7 @@ CHAPTERS = [
                         "\u2014 Christ finishes. But Christ does not mediate for "
                         "them. He proclaims His triumph over them. The mediator "
                         "of the old covenant becomes the herald of the new. "
-                        "And the church, His body, inherits the Enochic role: "
+                        "And the ekklesia, His body, inherits the Enochic role: "
                         "standing before the powers with the authority of the "
                         "risen King."
             }

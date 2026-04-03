@@ -13,7 +13,7 @@ him'), Revelation 3:21 ('sit with me on my throne'), Revelation 20:4
 ever'), 1 Corinthians 6:2-3 ('judge the world... judge angels').
 
 The divine council connection makes this concrete: the fallen sons of God
-received governing authority over the nations at Babel (Deut 32:8) and
+received governing authority over the nations at Babel (Deut 32:8-9, DSS/LXX) and
 corrupted it. Their sentence in Psalm 82 vacates their positions. Redeemed
 humanity fills the positions the corrupted divine beings abandoned. The
 degree of faithfulness NOW determines the degree of authority THEN.
@@ -166,7 +166,7 @@ CHAPTERS = [
                                "description of the divine council replacement program "
                                "in the NT. The fallen sons of God sat in council "
                                "positions with governing authority over the nations "
-                               "(Deut 32:8, Ps 82:1). They corrupted their "
+                               "(Deut 32:8-9 DSS/LXX, Ps 82:1). They corrupted their "
                                "stewardship and were sentenced to die like men "
                                "(Ps 82:7). Their positions are vacated. Redeemed "
                                "humanity fills those positions: sitting on thrones "
@@ -210,8 +210,8 @@ CHAPTERS = [
                 "heading": "Revelation 3:21 -- Sit With Me on My Throne",
                 "body": "The promise in Revelation 3:21 may be the most audacious "
                         "statement about human destiny in all of Scripture. Jesus "
-                        "speaks to the church at Laodicea -- the lukewarm church, "
-                        "the self-satisfied church -- and offers this to the "
+                        "speaks to the ekklesia at Laodicea -- the lukewarm assembly, "
+                        "the self-satisfied congregation -- and offers this to the "
                         "overcomer: 'I will grant him to sit with me on my throne, "
                         "as I also conquered and sat down with my Father on his "
                         "throne.' Unpack this carefully. Christ conquered (enikesa "
@@ -293,11 +293,11 @@ CHAPTERS = [
         "synopsis": "The divine council replacement program provides the "
                     "theological backbone for the entire reward framework. The "
                     "fallen sons of God received governing authority over the "
-                    "nations at Babel (Deut 32:8-9) and corrupted it. Their "
+                    "nations at Babel (Deut 32:8-9, DSS/LXX) and corrupted it. Their "
                     "sentence in Psalm 82 is that they will die like men -- "
                     "their positions vacated. Redeemed humanity fills those "
                     "positions through faithful stewardship evaluated at the "
-                    "bema. The trajectory runs from Deut 32:8 through Psalm 82 "
+                    "bema. The trajectory runs from Deut 32:8 (DSS/LXX) through Psalm 82 "
                     "through 1 Cor 6:3 to Revelation 22:5: the corrupted "
                     "council is replaced by a redeemed one. Forever.",
 
@@ -389,7 +389,7 @@ CHAPTERS = [
             {"ref": "1 Corinthians 6:3", "note": "'We are to judge angels' -- redeemed humans will evaluate the very beings whose positions they are filling", "type": "nt"},
             {"ref": "Revelation 22:5", "note": "'They will reign forever and ever' -- the replacement council is permanent. The new administration never ends", "type": "nt"},
             {"ref": "Daniel 10:13-20", "note": "The 'prince of Persia' and 'prince of Greece' -- territorial divine beings with jurisdiction over nations", "type": "ot"},
-            {"ref": "Ephesians 3:10", "note": "'So that through the church the manifold wisdom of God might now be made known to the rulers and authorities in the heavenly places'", "type": "nt"},
+            {"ref": "Ephesians 3:10", "note": "'So that through the church [ekklesia -- governing assembly] the manifold wisdom of God might now be made known to the rulers and authorities in the heavenly places'", "type": "nt"},
             {"ref": "Ephesians 6:12", "note": "'We wrestle not against flesh and blood but against rulers, authorities, cosmic powers over this present darkness'", "type": "nt"},
             {"ref": "John 10:34-35", "note": "Jesus quotes Psalm 82:6 -- 'I said, you are gods' -- confirming these are beings to whom 'the word of God came'", "type": "nt"},
             {"ref": "Colossians 2:15", "note": "Christ 'disarmed the rulers and authorities and put them to open shame, triumphing over them' -- the Cross as council coup", "type": "nt"}
@@ -397,7 +397,7 @@ CHAPTERS = [
 
         "divine_council_note": "This chapter IS the divine council replacement "
                                "program in its fullest articulation. The trajectory "
-                               "is clear: (1) Deut 32:8 -- nations assigned to the "
+                               "is clear: (1) Deut 32:8 (DSS/LXX) -- nations assigned to the "
                                "sons of God at Babel. (2) Psalm 82 -- the sons of "
                                "God judged for corruption, sentenced to die, "
                                "positions vacated. (3) Colossians 2:15 -- Christ "
@@ -469,10 +469,11 @@ CHAPTERS = [
                         "Christ at the Cross 'disarmed the rulers and authorities "
                         "and put them to open shame, triumphing over them.' The "
                         "powers that held the nations in bondage are defeated. "
-                        "Ephesians 3:10 -- 'through the church the manifold wisdom "
-                        "of God might now be made known to the rulers and authorities "
-                        "in the heavenly places.' The church demonstrates to the "
-                        "spiritual powers what God is doing: replacing them. "
+                        "Ephesians 3:10 -- 'through the ekklesia (governing assembly) "
+                        "the manifold wisdom of God might now be made known to the "
+                        "rulers and authorities in the heavenly places.' The ekklesia "
+                        "demonstrates to the spiritual powers what God is doing: "
+                        "replacing them. "
                         "1 Corinthians 6:3 -- 'we are to judge angels.' The "
                         "replacement personnel will evaluate the original occupants. "
                         "Revelation 20:4 -- 'they came to life and reigned with "

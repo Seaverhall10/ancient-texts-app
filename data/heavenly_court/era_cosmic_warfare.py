@@ -147,7 +147,7 @@ CHAPTERS = [
                                "administration, designed to serve his purposes. Their rebellion does not "
                                "constitute an alternative cosmic order; it constitutes a mutiny within his "
                                "creation. Ephesians 3:10 announces the ekklesia's cosmic assignment: 'that "
-                               "through the church the manifold wisdom of God might now be made known to the "
+                               "through the ekklesia (governing assembly) the manifold wisdom of God might now be made known to the "
                                "rulers and authorities in the heavenly places.' The church's existence and "
                                "unity is itself a proclamation to the power hierarchy — a demonstration that "
                                "the reclamation of the nations (Deut 32 reversal) is underway.",
@@ -182,7 +182,7 @@ CHAPTERS = [
                         "authority within their sphere, exousiai as the exercise of that authority in "
                         "practice. In the Deuteronomy 32 framework, these correspond to the 'sons of God' "
                         "allotted the nations at Babel (Deut 32:8) — beings given legitimate governing "
-                        "authority who corrupted it (Ps 82:2-4) and were condemned (Ps 82:6-8). Their "
+                        "authority who corrupted it (Ps 82:2-4) and were condemned (Ps 82:6-8). NOTE: This Deut 32/Babel rebellion is distinct from the Hermon rebellion of Genesis 6/1 Enoch 6-11 — the Psalm 82 condemnation applies specifically to the Babel-era territorial princes, not the imprisoned Watchers. Their "
                         "authority was real, delegated, and now both judicially condemned and practically "
                         "contested between the Cross and the Parousia."
             },
@@ -1036,7 +1036,7 @@ CHAPTERS = [
                         "demons (udug, ala, etimmu — disembodied spirits of the dead or beings of chaos) "
                         "that afflict humanity. The etimmu were specifically the spirits of those who "
                         "died violently or without proper burial — disembodied beings that wandered and "
-                        "tormented the living. This maps precisely onto 1 Enoch's description of demons "
+                        "tormented the living. According to 1 Enoch, demons are described "
                         "as the disembodied spirits of the Nephilim who seek embodiment. Ugaritic texts "
                         "describe the divine council's structure with El as head, Baal as the active "
                         "storm deity, and lesser beings in various roles. The Hebrew Bible assumes this "

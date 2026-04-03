@@ -438,7 +438,7 @@ CHAPTERS = [
             },
             {
                 "heading": "Recognition vs. Creation \u2014 An Honest Framework",
-                "body": "The church did not create the canon -- it recognized it. The "
+                "body": "The ekklesia did not create the canon -- it recognized it. The "
                         "books of the Bible were authoritative from the moment of their "
                         "composition because they were 'breathed out by God' (2 Timothy "
                         "3:16). The human process of canon formation was the messy, "

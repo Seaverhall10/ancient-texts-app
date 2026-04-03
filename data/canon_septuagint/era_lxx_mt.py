@@ -131,7 +131,7 @@ CHAPTERS = [
 
         "cross_refs": [
             {"ref": "Hebrews 1:6", "note": "Quotes LXX Deuteronomy 32:43 -- 'Let all God's angels worship him' -- a line absent from the Masoretic Text. The NT argument for Christ's supremacy over angels depends on a text the standard Protestant OT does not contain.", "type": "nt"},
-            {"ref": "Acts 2:17-21", "note": "Peter at Pentecost quotes Joel 2:28-32 following the LXX text, not the Hebrew. The sermon that launches the church era uses the Greek Old Testament.", "type": "nt"},
+            {"ref": "Acts 2:17-21", "note": "Peter at Pentecost quotes Joel 2:28-32 following the LXX text, not the Hebrew. The sermon that launches the ekklesia era uses the Greek Old Testament.", "type": "nt"},
             {"ref": "Romans 3:10-18", "note": "Paul's catena of OT quotations in Romans 3 follows the LXX text throughout, including slight variations from the Hebrew that are theologically significant.", "type": "nt"},
             {"ref": "Matthew 1:23", "note": "Matthew quotes Isaiah 7:14 using the LXX's parthenos (virgin) rather than the Hebrew 'almah (young woman), a translation choice that shapes Christian understanding of the virgin birth.", "type": "nt"},
             {"ref": "Deuteronomy 32:43 LXX", "note": "The LXX preserves a longer version of the Song of Moses including 'Rejoice, O heavens, with him, and let all the sons of God worship him' -- the source text for Hebrews 1:6.", "type": "ot"},
@@ -165,8 +165,8 @@ CHAPTERS = [
                         "sometimes preserves readings older than what survived in the later "
                         "Hebrew manuscript tradition. The Septuagint became so widely used "
                         "that by the 1st century AD, it was simply 'the Scriptures' for "
-                        "Greek-speaking Jews and the entire early church. When Paul writes "
-                        "to churches in Rome, Corinth, or Ephesus and quotes the Old "
+                        "Greek-speaking Jews and the entire early ekklesia. When Paul writes "
+                        "to ekklesias in Rome, Corinth, or Ephesus and quotes the Old "
                         "Testament, he is quoting the LXX -- because that is the text "
                         "his readers knew."
             },

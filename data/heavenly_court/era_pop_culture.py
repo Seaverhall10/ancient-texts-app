@@ -173,7 +173,7 @@ CHAPTERS = [
                 "heading": "Sauron as Azazel \u2014 The Craftsman-Corruptor",
                 "body": "Sauron is not Tolkien\'s Satan \u2014 Morgoth is. Sauron is something "
                         "more specific: he is the lieutenant, the deceiver, the teacher of "
-                        "forbidden crafts. In 1 Enoch 8:1, Azazel \'taught men to make "
+                        "forbidden crafts. According to 1 Enoch 8:1, Azazel \'taught men to make "
                         "swords, and knives, and shields, and breastplates, and taught them "
                         "about metals of the earth and the art of working them.\' Sauron\'s "
                         "defining act is teaching the Elven-smiths of Eregion to forge the "
@@ -187,7 +187,7 @@ CHAPTERS = [
                         "undead shadow-beings who are neither alive nor dead, a corruption "
                         "of the human form that echoes the Nephilim as hybrid beings who "
                         "\'belonged to neither heaven nor earth.\' Even Sauron\'s binding "
-                        "parallels Azazel\'s: in 1 Enoch 10:4-6, God commands Raphael to "
+                        "parallels Azazel\'s: according to 1 Enoch 10:4-6, God commands Raphael to "
                         "\'bind Azazel hand and foot, and cast him into the darkness... "
                         "cover him with darkness.\' Sauron is ultimately unhoused and "
                         "reduced to an impotent spirit when the Ring is destroyed."
@@ -298,7 +298,7 @@ CHAPTERS = [
 
         "hebrew_terms": ["elohim", "nachash"],
 
-        "ane_backdrop": "Gnosticism emerged in the 2nd century AD as a radical "
+        "ane_backdrop": "Gnosticism emerged as a recognizable movement by the 2nd century AD (though proto-Gnostic currents appear earlier) as a radical "
                         "reinterpretation of Jewish and Christian cosmology. The Gnostics "
                         "taught that the material world was created not by the true God "
                         "but by a flawed or malevolent sub-deity called the Demiurge "
@@ -317,15 +317,16 @@ CHAPTERS = [
 
         "second_temple": [
             {
-                "source": "The Apocryphon of John (Nag Hammadi II.1)",
-                "summary": "A Gnostic text describing the Demiurge Yaldabaoth who "
+                "source": "The Apocryphon of John (Nag Hammadi II.1, 2nd-3rd century AD Gnostic text — NOT Second Temple)",
+                "summary": "A post-apostolic Gnostic text describing the Demiurge Yaldabaoth who "
                            "creates the material world as a prison, populated by archons "
                            "who keep humanity in ignorance. A divine revealer descends to "
-                           "awaken the elect to their true spiritual nature.",
-                "relevance": "The Matrix\'s Architect is Yaldabaoth \u2014 the creator of a "
+                           "awaken the elect to their true spiritual nature. NOTE: This is a "
+                           "2nd-3rd century Nag Hammadi text, not a Second Temple Jewish document.",
+                "relevance": "The Matrix's Architect is Yaldabaoth — the creator of a "
                              "false reality who believes himself supreme. Morpheus is the "
                              "divine revealer who offers gnosis (the red pill). The agents "
-                             "are archons enforcing the system\'s rules."
+                             "are archons enforcing the system's rules. [C] — Gnostic literary parallel, not scriptural."
             },
             {
                 "source": "1 Enoch 40:1-10 (The Four Presences)",
@@ -343,7 +344,7 @@ CHAPTERS = [
             {"ref": "Ephesians 6:12", "note": "\'We wrestle not against flesh and blood but against rulers, authorities, cosmic powers\' \u2014 the ENTIRE premise of The Matrix: the real enemy is not human but a system of spiritual oppression", "type": "nt"},
             {"ref": "2 Corinthians 4:4", "note": "\'The god of this world has blinded the minds of the unbelievers\' \u2014 the Matrix itself is this blindness made literal, a simulated reality hiding the truth", "type": "nt"},
             {"ref": "Colossians 2:15", "note": "Christ \'disarmed the rulers and authorities and put them to open shame, triumphing over them\' \u2014 Neo\'s final victory over the agents mirrors Paul\'s triumphant language", "type": "nt"},
-            {"ref": "John 8:32", "note": "\'You will know the truth, and the truth will set you free\' \u2014 Morpheus quotes this principle directly: the red pill is liberation through truth", "type": "nt"},
+            {"ref": "John 8:32", "note": "\'You will know the truth, and the truth will set you free\' \u2014 Morpheus echoes this principle: the red pill is liberation through truth", "type": "nt"},
             {"ref": "Psalm 82:1-7", "note": "God stands in the divine council, judges among the \'gods\' who have failed, and sentences them to \'die like men\' \u2014 Agent Smith\'s eventual defeat follows this pattern exactly", "type": "ot"},
             {"ref": "Romans 8:38-39", "note": "Neither \'rulers\' nor \'things present nor things to come, nor powers\' can separate us from God\'s love \u2014 Paul\'s list reads like a taxonomy of Matrix-style oppressive forces", "type": "nt"}
         ],

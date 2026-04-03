@@ -219,7 +219,7 @@ CHAPTERS = [
                         "will be saved, but only as through fire.' The Catholic reading: "
                         "the fire that purifies is purgatorial fire that cleanses the soul "
                         "after death. The actual context: Paul is addressing the Corinthian "
-                        "church about ministry quality. He has laid the foundation (Christ); "
+                        "ekklesia about ministry quality. He has laid the foundation (Christ); "
                         "others build on it with gold, silver, precious stones, wood, hay, "
                         "straw (3:12). The fire does not purify the PERSON. It tests the "
                         "WORK -- the ministry, the spiritual fruit, the deeds. The person "

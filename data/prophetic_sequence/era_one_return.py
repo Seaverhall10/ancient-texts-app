@@ -393,7 +393,7 @@ CHAPTERS = [
                                "Man receives 'dominion and glory and a kingdom, that all "
                                "peoples, nations, and languages should serve him' (Daniel "
                                "7:14). This is the moment the territorial authority given "
-                               "to the bene elohim at Babel (Deuteronomy 32:8) is revoked "
+                               "to the bene elohim at Babel (Deuteronomy 32:8, DSS/LXX) is revoked "
                                "and transferred to the rightful ruler. One return. One "
                                "transfer of cosmic authority. One kingdom that 'shall not "
                                "be destroyed.'",
@@ -439,9 +439,9 @@ CHAPTERS = [
                         "There is no temporal gap. There is no prior gathering. The elect "
                         "are gathered by angels at the visible post-tribulational return. "
                         "To insert a rapture seven years before this, dispensationalism must "
-                        "argue that Matthew 24 applies to Israel, not the church -- but "
+                        "argue that Matthew 24 applies to Israel, not the ekklesia -- but "
                         "Jesus is speaking to his disciples, who are the foundation of the "
-                        "church (Ephesians 2:20). He says 'the elect' (tous eklektous) -- "
+                        "ekklesia (Ephesians 2:20). He says 'the elect' (tous eklektous) -- "
                         "the standard New Testament term for believers."
             },
             {

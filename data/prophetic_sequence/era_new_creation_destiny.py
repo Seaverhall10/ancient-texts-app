@@ -177,7 +177,7 @@ CHAPTERS = [
                                "ended at Gog-Magog. The Watchers were bound in 1 Enoch "
                                "10 / 2 Peter 2:4 / Jude 6 and face final judgment at the "
                                "Great White Throne. The corrupt territorial elohim of "
-                               "Deuteronomy 32:8 are stripped of authority at Christ's "
+                               "Deuteronomy 32:8 (DSS/LXX) are stripped of authority at Christ's "
                                "return (1 Corinthians 15:24) and judged in Psalm 82:6-7 "
                                "('you shall die like men'). The Great White Throne is "
                                "where every rebel -- divine and human -- faces final "

@@ -66,8 +66,9 @@ CHAPTERS = [
             {
                 "term": "\u05e9\u05b7\u05c2\u05e8\u05be\u05e9\u05b8\u05c1\u05dc\u05d5\u05b9\u05dd (sar-shalom)",
                 "meaning": "'Prince of Peace' -- the fourth title in Isaiah 9:6's name chain. Sar "
-                           "means 'prince, ruler, commander' (not melek, 'king' -- suggesting a "
-                           "prince under the authority of a higher king, namely YHWH). Shalom means "
+                           "means 'prince, ruler, commander' (not melek, 'king' -- [B] inference: this "
+                           "may suggest a prince under the authority of a higher king, namely YHWH, "
+                           "though sar in prophetic usage does not consistently imply subordination). Shalom means "
                            "'peace, wholeness, completeness' -- from the same root sh-l-m as Salem "
                            "(shalem), Melchizedek's city. The Prince of Peace rules from the city "
                            "of Peace. The Isaiah 9:6 title chain connects this figure directly to "
@@ -273,14 +274,14 @@ CHAPTERS = [
 
         "second_temple": [
             {
-                "source": "Didache 9-10 (late 1st / early 2nd c. AD)",
+                "source": "Didache 9-10 (late 1st / early 2nd c. AD, non-canonical)",
                 "summary": "The earliest post-apostolic instructions for the eucharistic meal, "
                            "using language of thanksgiving over bread and wine.",
-                "relevance": "Shows the immediate church continuing the bread-and-wine pattern "
+                "relevance": "Shows the immediate ekklesia continuing the bread-and-wine pattern "
                              "as the central priestly act -- table, not altar."
             },
             {
-                "source": "1 Corinthians 11:23-26",
+                "source": "1 Corinthians 11:23-26 (canonical NT Scripture — NOTE: this is apostolic Scripture, not a Second Temple source; included here for the bread-and-wine typological continuity)",
                 "summary": "Paul's tradition of the Last Supper: 'This cup is the new covenant "
                            "in my blood. Do this, as often as you drink it, in remembrance of me.'",
                 "relevance": "The apostolic tradition explicitly connects the bread and wine to "

@@ -365,10 +365,13 @@ CHAPTERS = [
                            "is the ultimate temple."
             },
             {
-                "term": "\u05de\u05d5\u05b9\u05e0\u05d5\u05b9\u05d2\u05b5\u05e0\u05b5\u05e1 (monogenes)",
+                "term": "μονογενής (monogenes) [GREEK]",
                 "meaning": "Only-begotten, unique, one-of-a-kind. The Greek monogenes "
-                           "in John 1:14, 18 echoes the Hebrew yachid used of Isaac "
-                           "in Genesis 22 (the beloved, only son). The incarnate Word "
+                           "(μονογενής) in John 1:14, 18 is theologically connected to "
+                           "the Hebrew yachid (יָחִיד) used of Isaac in Genesis 22, "
+                           "though the LXX translates yachid in Gen 22:2 as agapēton "
+                           "(beloved), not monogenes — the connection is theological [B], "
+                           "not a direct lexical equivalence. The incarnate Word "
                            "is God's unique Son, just as Isaac was Abraham's -- the "
                            "Aqedah typology continues."
             },

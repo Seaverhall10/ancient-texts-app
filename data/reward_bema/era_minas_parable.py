@@ -141,7 +141,7 @@ CHAPTERS = [
             {"ref": "Matthew 25:21", "note": "'Well done, good and faithful servant. You have been faithful over a little; I will set you over much' -- the talents version of the principle", "type": "nt"},
             {"ref": "Luke 22:29-30", "note": "'I assign to you, as my Father assigned to me, a kingdom, that you may eat and drink at my table and sit on thrones judging the twelve tribes'", "type": "nt"},
             {"ref": "Daniel 7:27", "note": "'The kingdom and the dominion... shall be given to the people of the saints of the Most High' -- OT anticipation of saints receiving governing authority", "type": "ot"},
-            {"ref": "Revelation 2:26-27", "note": "'The one who conquers... I will give authority over the nations' -- the minas principle applied to the churches", "type": "nt"}
+            {"ref": "Revelation 2:26-27", "note": "'The one who conquers... I will give authority over the nations' -- the minas principle applied to the ekklesias", "type": "nt"}
         ],
 
         "divine_council_note": "The parable of the minas is the divine council "
@@ -154,7 +154,7 @@ CHAPTERS = [
                                "authority over CITIES -- actual territorial "
                                "administration in the coming kingdom. This is exactly "
                                "what the fallen sons of God had: territorial authority "
-                               "over the nations (Deut 32:8). Their positions were "
+                               "over the nations (Deut 32:8, DSS/LXX). Their positions were "
                                "vacated by the Psalm 82 sentence. The faithful servants "
                                "of the parable are being prepared to fill those "
                                "positions. Ten cities. Five cities. The scope of "
