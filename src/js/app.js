@@ -10466,7 +10466,7 @@ function openThemeExplorer(code) {
         },
         {id: 'nephilim_worldwide',
             name: 'Nephilim Worldwide \u2014 Giant Traditions Across Every Continent',
-            color: '#dc2626',
+            color: '#b44d3e',
             weight: 2,
             dash: '8 4',
             desc: 'Tracking the core Nephilim template \u2014 divine beings, giant offspring, advanced knowledge, flood judgment \u2014 as it appears independently across every continent. These sites preserve physical evidence, oral traditions, or megalithic construction attributed to giants or divine beings.',
