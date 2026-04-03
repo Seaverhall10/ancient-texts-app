@@ -48,7 +48,7 @@ CHAPTERS = [
             {"ref": "Exodus 24:12-18", "note": "The canonical account of Moses' ascent to Sinai for 40 days — Jubilees' opening scene elaborates on what was revealed during this period", "type": "ot"},
             {"ref": "4Q216-228 (Qumran Jubilees MSS)", "note": "Fourteen fragmentary Hebrew manuscripts attest to Jubilees' importance at Qumran, more copies than most biblical books", "type": "dss"},
             {"ref": "CD 16:3-4 (Damascus Document)", "note": "Explicitly cites Jubilees by its alternative title as an authoritative chronological source", "type": "dss"},
-            {"ref": "1 Enoch 72-82 (Astronomical Book)", "note": "Shares the 364-day solar calendar that Jubilees treats as divinely mandated from creation", "type": "ot"}
+            {"ref": "1 Enoch 72-82 (Astronomical Book)", "note": "Shares the 364-day solar calendar that Jubilees treats as divinely mandated from creation", "type": "pseudepigrapha"}
         ],
 
         "divine_council_note": "Jubilees is fundamentally a divine council text. Its narrative frame — an angel dictating heavenly tablet contents to Moses — presupposes a heavenly bureaucracy in which angels serve as record-keepers, guardians of nations, and administrators of divine justice. The 'Angel of the Presence' (mal'akh ha-panim) is the highest-ranking angel, one who stands in God's immediate presence, and he serves as the narrator for the entire book. This positions Jubilees within the broader Second Temple tradition of angelic mediation of Torah (cf. Acts 7:53, Galatians 3:19, Hebrews 2:2).",
@@ -121,7 +121,7 @@ CHAPTERS = [
             {"ref": "Jeremiah 31:31-34", "note": "The new covenant promise echoes Jubilees 1:23-25, where God promises to circumcise hearts and create a holy people", "type": "ot"},
             {"ref": "Revelation 21:3", "note": "God dwelling among his people forever — Jubilees 1:17,26 anticipates this eschatological vision", "type": "nt"},
             {"ref": "Galatians 3:19", "note": "Torah 'ordained through angels' — Jubilees literalizes this tradition by having the Angel of the Presence dictate the entire history", "type": "nt"},
-            {"ref": "1 Enoch 93:1-10 (Apocalypse of Weeks)", "note": "Another periodized history from creation to eschaton, using a week-of-weeks structure comparable to Jubilees' jubilee chronology", "type": "ot"}
+            {"ref": "1 Enoch 93:1-10 (Apocalypse of Weeks)", "note": "Another periodized history from creation to eschaton, using a week-of-weeks structure comparable to Jubilees' jubilee chronology", "type": "pseudepigrapha"}
         ],
 
         "divine_council_note": "Jubilees 1 introduces the Angel of the Presence (mal'akh ha-panim) as the narrator of the entire book. This figure is one of the highest-ranking members of the divine council — an angel who stands perpetually in God's immediate presence (cf. Isaiah 63:9, where the 'angel of his presence' saves Israel). In Second Temple angelology, the 'angels of the presence' formed an elite tier alongside the 'angels of sanctification,' distinguished from lesser angels who served at greater remove from God. By making this supreme angel the narrator, Jubilees claims the highest possible angelic authority for its contents, second only to God himself.",
@@ -198,7 +198,7 @@ CHAPTERS = [
             {"ref": "Psalm 104:4", "note": "'He makes his angels winds, his servants flames of fire' — Jubilees 2:2 specifies the creation of various angelic orders on Day 1", "type": "ot"},
             {"ref": "Nehemiah 9:6", "note": "God made the heavens, the heaven of heavens, and all their host — Jubilees 2 elaborates the angelic host created alongside the heavens", "type": "ot"},
             {"ref": "Colossians 1:16", "note": "All things created, visible and invisible, thrones, dominions, rulers, authorities — echoes the angelic hierarchy Jubilees 2 describes", "type": "nt"},
-            {"ref": "1 Enoch 72:32", "note": "The 364-day solar year as revealed by Uriel to Enoch — the same calendar Jubilees 2 inscribes into creation", "type": "ot"},
+            {"ref": "1 Enoch 72:32", "note": "The 364-day solar year as revealed by Uriel to Enoch — the same calendar Jubilees 2 inscribes into creation", "type": "pseudepigrapha"},
             {"ref": "4Q252 (Commentary on Genesis A)", "note": "Recalculates the Flood chronology to fit the 364-day solar calendar, following Jubilees' approach", "type": "dss"}
         ],
 

@@ -17,9 +17,12 @@ TEXT_INFO = {
                   "canons but excluded from the Protestant canon. Despite its exclusion, "
                   "it exercised enormous influence on New Testament theology. Paul's "
                   "language in Romans 1:18-32 closely parallels Wisdom 13-15. The "
-                  "Christological hymn of Colossians 1:15-20 and Hebrews 1:3 echo "
-                  "Wisdom's description of divine Wisdom as the image of God's goodness "
-                  "and the radiance of eternal light (Wisdom 7:25-26)."
+                  "Christological hymn of Colossians 1:15-20 and Hebrews 1:3 use "
+                  "language that echoes Wisdom's descriptions. Wisdom 7:25-26 calls "
+                  "divine Wisdom 'the image of his goodness' and 'a radiance of "
+                  "eternal light,' while Hebrews 1:3 (canonical Scripture) calls "
+                  "Christ 'the radiance of the glory of God.' The vocabulary overlaps, "
+                  "but the canonical claims go significantly further."
     },
 
     "authorship": {
@@ -117,10 +120,15 @@ TEXT_INFO = {
             "type": "context",
             "title": "Wisdom and Christ",
             "body": "The early church identified Christ with the divine Wisdom described "
-                    "in this text. When Hebrews 1:3 calls Jesus 'the radiance of God's "
-                    "glory,' it echoes Wisdom 7:26. When Colossians 1:15 calls Christ "
-                    "'the image of the invisible God,' it echoes Wisdom 7:26. This is "
-                    "not coincidence — the NT authors knew this text."
+                    "in this text. Wisdom 7:26 describes Wisdom as 'an image of his "
+                    "goodness' — when Colossians 1:15 calls Christ 'the image of the "
+                    "invisible God,' the vocabulary echoes Wisdom, but Paul's "
+                    "Christological claim goes significantly further: from an image of "
+                    "divine goodness to the full revelation of God's invisible nature. "
+                    "Similarly, Hebrews 1:3 ('the radiance of the glory of God') echoes "
+                    "Wisdom's 'radiance of eternal light' but is canonical Scripture "
+                    "making a definitive Christological statement. The NT authors knew "
+                    "this text, but their claims about Christ transcend its categories."
         }
     ]
 }

@@ -121,7 +121,7 @@ CHAPTERS = [
             {"ref": "2 Corinthians 11:14", "note": "'Satan disguises himself as an angel of light' \u2014 the shining nature of the nachash confirmed in the NT", "type": "nt"},
             {"ref": "Luke 10:18", "note": "Jesus says 'I saw Satan fall like lightning from heaven' \u2014 eyewitness testimony of the pre-Eden fall", "type": "nt"},
             {"ref": "1 Enoch 69:6", "note": "According to 1 Enoch, the fallen angel Gadreel 'led Eve astray' \u2014 the nachash identified as a specific fallen Watcher", "type": "pseudepigrapha"},
-            {"ref": "Wisdom of Solomon 2:23-24", "note": "'Through the devil's envy death entered the world' \u2014 Second Temple identification of the serpent as the devil", "type": "pseudepigrapha"},
+            {"ref": "Wisdom of Solomon 2:23-24", "note": "'Through the devil's envy death entered the world' \u2014 Second Temple identification of the serpent as the devil", "type": "deuterocanonical"},
             {"ref": "KTU 1.6 (Baal Cycle)", "note": "Athtar attempts to sit on Baal's throne on Mount Zaphon and is cast down \u2014 the Ugaritic parallel to Isaiah 14's throne usurpation", "type": "ane"}
         ],
 
@@ -218,9 +218,11 @@ CHAPTERS = [
                            "targets: 'he shall shuph your head' and 'you shall shuph his heel.' The same "
                            "verb for both strikes, but the targets are asymmetric \u2014 head versus heel. A "
                            "head-wound is fatal; a heel-wound is painful but survivable. Some lexicons "
-                           "debate whether shuph means 'crush' or 'snap at,' but the Septuagint uses "
-                           "tereo ('to watch/guard against') for the serpent's strike and syntripso "
-                           "('to crush completely') in related passages, favoring a fatal head-blow. "
+                           "debate whether shuph means 'crush' or 'snap at.' The LXX of Genesis 3:15 "
+                           "uses the same verb (tereo, 'to watch/guard against') for BOTH the seed's "
+                           "action and the serpent's action, leaving the asymmetry implicit in the "
+                           "targets (head vs. heel) rather than the verbs. Paul's syntripso ('to crush "
+                           "completely') in Romans 16:20 reflects the fatal head-blow interpretation. "
                            "The cross is the heel-wound; the resurrection is the head-crush."
             },
             {
@@ -268,7 +270,7 @@ CHAPTERS = [
             {"ref": "Revelation 12:1-5", "note": "The woman, the dragon, and the male child \u2014 the cosmic seed war of Genesis 3:15 in apocalyptic vision", "type": "nt"},
             {"ref": "1 John 3:8", "note": "'The reason the Son of God appeared was to destroy the works of the devil' \u2014 the head-crush enacted", "type": "nt"},
             {"ref": "Hebrews 2:14", "note": "Through death Jesus destroyed 'the one who has the power of death, that is, the devil' \u2014 heel-wound accomplishing head-crush", "type": "nt"},
-            {"ref": "Targum Pseudo-Jonathan Gen 3:15", "note": "Explicitly messianic rendering: 'He will remember what you did to him from the beginning, and you will be observant of him in the end'", "type": "ane"}
+            {"ref": "Targum Pseudo-Jonathan Gen 3:15", "note": "Explicitly messianic rendering: 'He will remember what you did to him from the beginning, and you will be observant of him in the end'", "type": "second_temple"}
         ],
 
         "divine_council_note": "Genesis 3:15 is a divine council decree. God is not making a prediction \u2014 he is "

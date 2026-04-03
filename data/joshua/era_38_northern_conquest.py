@@ -130,7 +130,7 @@ CHAPTERS = [
             {"ref": "2 Samuel 21:15-22", "note": "Four more Philistine giants killed by David's men -- the final cleanup of the Anakim remnant that Joshua 11:22 left in Philistia", "type": "ot"},
             {"ref": "Judges 4:1-3", "note": "A later Jabin king of Hazor oppresses Israel -- suggesting Hazor was rebuilt, though Joshua had burned it", "type": "ot"},
             {"ref": "Psalm 20:7", "note": "'Some trust in chariots and some in horses, but we trust in the name of the LORD our God' -- the theology behind hamstringing horses in Josh 11:6", "type": "ot"},
-            {"ref": "1 Enoch 6-16", "note": "The Watchers' descent, their offspring (the giants), and YHWH's decree of destruction -- the cosmic backstory to the Anakim of Joshua 11", "type": "ot"}
+            {"ref": "1 Enoch 6-16", "note": "The Watchers' descent, their offspring (the giants), and YHWH's decree of destruction -- the cosmic backstory to the Anakim of Joshua 11", "type": "pseudepigrapha"}
         ],
 
         "divine_council_note": "Joshua 11 contains the most significant divine council connection "

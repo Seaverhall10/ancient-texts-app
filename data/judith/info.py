@@ -103,10 +103,12 @@ TEXT_INFO = {
         {
             "type": "authority",
             "title": "Deuterocanonical Status",
-            "body": "Judith is not part of the Protestant canon but is valued by Catholic "
-                    "and Orthodox traditions. The deliberate historical anachronisms mark "
-                    "it as theological narrative rather than historical chronicle. Read it "
-                    "for its powerful theology of divine deliverance through unlikely agents."
+            "body": "Judith is not canonical Scripture — it should never be cited as "
+                    "'the Bible says.' It is included in Catholic and Orthodox canons but "
+                    "not in the Protestant or Jewish canons. The deliberate historical "
+                    "anachronisms mark it as theological narrative rather than historical "
+                    "chronicle. Read it as powerful theological storytelling that "
+                    "illuminates the faith and courage valued in Second Temple Judaism."
         },
         {
             "type": "context",

@@ -12,8 +12,11 @@ TEXT_INFO = {
 
     "canonical_status": {
         "status": "pseudepigrapha",
-        "label": "Pseudepigrapha (KJV Apocrypha as 2 Esdras; canonical in Ethiopian, Slavonic, Armenian traditions)",
-        "detail": "4 Ezra occupies a complex canonical position. The Jewish core (chapters 3-14) "
+        "label": "Pseudepigrapha in Protestant & Catholic traditions; canonical in Ethiopian Orthodox, Slavonic, and Armenian churches (KJV Apocrypha as 2 Esdras)",
+        "detail": "4 Ezra occupies a complex canonical position. It is classified as pseudepigrapha "
+                  "in Protestant and Catholic traditions, but holds canonical status in the Ethiopian "
+                  "Orthodox Tewahedo Church (as 1 Esdras/Ezra Sutuel) and is preserved in the "
+                  "Slavonic and Armenian biblical traditions. The Jewish core (chapters 3-14) "
                   "is widely studied as a major Second Temple apocalypse. Christian additions "
                   "bracket the Jewish text: 5 Ezra (chapters 1-2, c. 2nd century AD) and 6 Ezra "
                   "(chapters 15-16, c. 3rd century AD). The composite work entered the KJV "
@@ -40,7 +43,10 @@ TEXT_INFO = {
 
     "date": {
         "traditional": "Set thirty years after Jerusalem's first destruction (3:1), ostensibly "
-                       "c. 556 BC.",
+                       "c. 556 BC. Note: this is the fictional narrative frame — Ezra is set 30 "
+                       "years after the fall of Jerusalem in 586 BC. The actual composition date "
+                       "is c. 100 AD, written in response to the destruction of the Second Temple "
+                       "in 70 AD (see critical_range below).",
         "critical_range": "Jewish core (ch. 3-14): c. 100 AD, approximately thirty years after "
                          "Rome destroyed the Second Temple in 70 AD — the 'thirty years' of 3:1 "
                          "is the author's actual timeframe. 5 Ezra (ch. 1-2): c. mid-2nd century AD. "

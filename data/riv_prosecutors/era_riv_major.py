@@ -309,7 +309,7 @@ CHAPTERS = [
             {"ref": "Deuteronomy 27:26", "note": "'Cursed be anyone who does not confirm the words of this law by doing them' -- the curse formula Jeremiah invokes in 11:3", "type": "ot"},
             {"ref": "Luke 22:20", "note": "'This cup that is poured out for you is the new covenant in my blood' -- Jesus activates Jeremiah's new covenant promise at the Last Supper", "type": "nt"},
             {"ref": "Hebrews 8:8-12", "note": "The author quotes Jeremiah 31:31-34 in full, declaring the old covenant 'obsolete' and the new covenant operative through Christ", "type": "nt"},
-            {"ref": "2 Maccabees 2:1-8", "note": "Tradition remembers Jeremiah hiding the Ark before destruction -- the prosecutor who preserved the covenant instruments", "type": "pseudepigrapha"}
+            {"ref": "2 Maccabees 2:1-8", "note": "Tradition remembers Jeremiah hiding the Ark before destruction -- the prosecutor who preserved the covenant instruments", "type": "deuterocanonical"}
         ],
 
         "divine_council_note": "Jeremiah's divine council connection is most explicit in 23:18-22, where "

@@ -108,24 +108,31 @@ TEXT_INFO = {
                      "longing and promised restoration. The wisdom poem surveys the nations "
                      "(Canaan, Teman, Merran) who sought wisdom but failed to find it.",
         "historical_connections": "Baruch's identification of Torah with divine Wisdom (3:37-4:1) "
-                                 "is a revolutionary theological move that parallels Sirach 24 and "
-                                 "anticipates the Johannine identification of Logos with Torah and "
-                                 "Christ (John 1:1-14). The confession prayer tradition (drawn from "
-                                 "Daniel 9, Nehemiah 9, Ezra 9) represents a major stream of Second "
-                                 "Temple piety that shaped synagogue liturgy."
+                                 "parallels Sirach 24 and reflects the canonical Wisdom tradition "
+                                 "rooted in Proverbs 8, Psalm 33:6, and Genesis 1. John's Logos "
+                                 "theology (John 1:1-14) draws on that canonical tradition — Proverbs 8 "
+                                 "and Genesis 1 are the foundation, not Baruch. However, Baruch 3:37-4:1 "
+                                 "shows this Torah-Wisdom identification was active in Second Temple "
+                                 "Judaism, providing important historical context for how John 1 would "
+                                 "have been heard. The confession prayer tradition (drawn from Daniel 9, "
+                                 "Nehemiah 9, Ezra 9) represents a major stream of Second Temple piety "
+                                 "that shaped synagogue liturgy."
     },
 
     "reader_notes": [
         {
             "type": "context",
             "title": "Torah as Wisdom",
-            "body": "Baruch 3:37-4:1 makes the revolutionary identification of cosmic Wisdom "
-                    "with Torah. While the nations grope after wisdom through philosophy and "
-                    "speculation, God has given Wisdom to Israel in the form of the commandments. "
-                    "This parallels Sirach 24 and stands behind the later Rabbinic concept of "
-                    "Torah as God's pre-existent blueprint for creation. Early Christians would "
-                    "reinterpret this Wisdom-Torah identification christologically (John 1, "
-                    "Colossians 1:15-20)."
+            "body": "Baruch 3:37-4:1 identifies cosmic Wisdom with Torah — while the nations "
+                    "grope after wisdom through philosophy and speculation, God has given Wisdom "
+                    "to Israel in the form of the commandments. This parallels Sirach 24 and "
+                    "stands behind the later Rabbinic concept of Torah as God's pre-existent "
+                    "blueprint for creation. The canonical Torah-Wisdom tradition (Proverbs 8, "
+                    "Job 28, Psalm 33:6) is primary; Baruch is a witness to how that tradition "
+                    "was developing in the Second Temple period. Early Christians drew on the "
+                    "canonical Wisdom texts — not Baruch — when they articulated Christology "
+                    "(John 1, Colossians 1:15-20), though Baruch shows the theological milieu "
+                    "in which that christological reading became possible."
         },
         {
             "type": "authority",

@@ -121,7 +121,7 @@ CHAPTERS = [
         ],
 
         "cross_refs": [
-            {"ref": "1 Enoch 6:6", "note": "The two hundred Watchers descend on Hermon\'s summit and swear the oath of mutual imprecation \u2014 the defining event that gives the mountain its name", "type": "ot"},
+            {"ref": "1 Enoch 6:6", "note": "The two hundred Watchers descend on Hermon\'s summit and swear the oath of mutual imprecation \u2014 the defining event that gives the mountain its name", "type": "pseudepigrapha"},
             {"ref": "Matthew 16:13-18", "note": "At Caesarea Philippi (the base of Hermon), Jesus declares the \'gates of Hades\' will not prevail against His church \u2014 spoken at the very location tradition associated with the entry of the Watchers", "type": "nt"},
             {"ref": "Judges 3:3", "note": "The Hivites dwelling \'on Mount Lebanon, from Mount Baal-hermon as far as Lebo-hamath\' \u2014 Baal Hermon as a geographic and cultic marker", "type": "ot"},
             {"ref": "Deuteronomy 3:8-9", "note": "Hermon is called Sirion by the Sidonians and Senir by the Amorites \u2014 multiple names indicating multiple cultures revered this peak", "type": "ot"},
@@ -666,7 +666,7 @@ CHAPTERS = [
         "cross_refs": [
             {"ref": "Genesis 10:6", "note": "Mitsrayim (Egypt) as son of Ham, grandson of Noah \u2014 the Table of Nations genealogy for Egyptian civilization", "type": "ot"},
             {"ref": "Isaiah 19:19-20", "note": "A \'pillar to the LORD at its border\' in Egypt \u2014 some have identified this with the Great Pyramid at the border of Upper and Lower Egypt", "type": "ot"},
-            {"ref": "1 Enoch 8:1-3", "note": "Watcher-taught forbidden knowledge including astronomy, metallurgy, and root-cutting \u2014 the hypothetical source of pre-Flood advanced technology", "type": "ot"},
+            {"ref": "1 Enoch 8:1-3", "note": "Watcher-taught forbidden knowledge including astronomy, metallurgy, and root-cutting \u2014 the hypothetical source of pre-Flood advanced technology", "type": "pseudepigrapha"},
             {"ref": "Genesis 6:4", "note": "The Nephilim were \'mighty men of old, men of renown\' \u2014 a description consistent with builders of monuments that endure millennia", "type": "ot"},
             {"ref": "Genesis 11:3-4", "note": "The Tower of Babel: \'let us build ourselves a city and a tower with its top in the heavens\' \u2014 monumental construction as a recurring theme in the primeval narrative", "type": "ot"}
         ],
@@ -948,7 +948,7 @@ CHAPTERS = [
             {"ref": "Genesis 4:21-22", "note": "Jubal (music) and Tubal-cain (metallurgy) \u2014 the Cainite line develops sophisticated technology before the Flood", "type": "ot"},
             {"ref": "Genesis 6:4", "note": "The Nephilim as \'mighty men of old, men of renown\' \u2014 a pre-Flood civilization of extraordinary achievement", "type": "ot"},
             {"ref": "Genesis 6:11-12", "note": "\'The earth was corrupt and filled with violence\' \u2014 the Flood as judgment on a civilization, not primitive tribes", "type": "ot"},
-            {"ref": "1 Enoch 8:1-3", "note": "Watcher-taught knowledge: astronomy, herbalism, metallurgy, enchantments \u2014 a curriculum that could produce monumental architecture", "type": "ot"}
+            {"ref": "1 Enoch 8:1-3", "note": "Watcher-taught knowledge: astronomy, herbalism, metallurgy, enchantments \u2014 a curriculum that could produce monumental architecture", "type": "pseudepigrapha"}
         ],
 
         "divine_council_note": "Gobekli Tepe does not directly reference the divine "
@@ -1750,7 +1750,7 @@ CHAPTERS = [
             {"ref": "Genesis 6:11-13", "note": "The earth \'filled with violence\' (chamas) through the corruption of \'all flesh\' \u2014 the pre-Flood condition that provoked the Flood judgment", "type": "ot"},
             {"ref": "Isaiah 2:19-21", "note": "\'People will go into caves of the rocks and into holes of the ground, from before the terror of the LORD\' \u2014 underground refuge from divine judgment as a prophetic theme", "type": "ot"},
             {"ref": "Revelation 6:15-16", "note": "Kings and generals hide \'in the caves and among the rocks of the mountains\' from \'the wrath of the Lamb\' \u2014 the eschatological parallel to pre-Flood underground refuge", "type": "nt"},
-            {"ref": "1 Enoch 7:3-5", "note": "The Nephilim consume humanity\'s resources and turn to devouring humans themselves \u2014 the threat that makes underground cities logical", "type": "ot"},
+            {"ref": "1 Enoch 7:3-5", "note": "The Nephilim consume humanity\'s resources and turn to devouring humans themselves \u2014 the threat that makes underground cities logical", "type": "pseudepigrapha"},
             {"ref": "Genesis 6:4", "note": "The Nephilim as \'mighty men of old, men of renown\' \u2014 powerful beings whose violence necessitated extreme defensive measures", "type": "ot"},
             {"ref": "Acts 2:9", "note": "Cappadocians present at Pentecost \u2014 the region\'s connection to the earliest Christian community", "type": "nt"}
         ],

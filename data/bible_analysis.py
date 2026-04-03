@@ -575,7 +575,7 @@ BOOK_ENTRIES = [
         "chapters": 28,
         "grade": 'A+',
         "meta_text": '5 era files &middot; 28 chapters &middot; Grade: A+',
-        "body_html": '''<p><strong>GOSPEL OF THE KINGDOM</strong> — "Gates of Hades shall not prevail against my ekklesia" (16:18) — declared at Caesarea Philippi, base of Mount Hermon (Watcher descent site). "All authority in heaven and on earth has been given to me" (28:18) — Deut 32:8 allotment reversed.</p>''',
+        "body_html": '''<p><strong>GOSPEL OF THE KINGDOM</strong> — "Gates of Hades shall not prevail against my ekklesia" (16:18, governing assembly — not institutional church) — declared at Caesarea Philippi, base of Mount Hermon (Watcher descent site). "All authority in heaven and on earth has been given to me" (28:18) — Deut 32:8 allotment reversed.</p>''',
     },
     {
         "id": 'mark',
@@ -671,7 +671,7 @@ BOOK_ENTRIES = [
         "chapters": 6,
         "grade": 'A+',
         "meta_text": '2 era files &middot; 6 chapters &middot; Grade: A+',
-        "body_html": '''<p><strong>THE SPIRITUAL WARFARE EPISTLE</strong> — "Through the ekklesia the wisdom of God is made known to the rulers and authorities in heavenly places" (3:10). The CHURCH teaches the COUNCIL. Eph 6:12: "We wrestle not against flesh and blood but against rulers, authorities, cosmic powers, spiritual forces of evil in heavenly places." Most explicit spiritual warfare passage in NT.</p>''',
+        "body_html": '''<p><strong>THE SPIRITUAL WARFARE EPISTLE</strong> — "Through the ekklesia the wisdom of God is made known to the rulers and authorities in heavenly places" (3:10). The ekklesia — God's governing assembly — teaches the COUNCIL. Eph 6:12: "We wrestle not against flesh and blood but against rulers, authorities, cosmic powers, spiritual forces of evil in heavenly places." Most explicit spiritual warfare passage in NT.</p>''',
     },
     {
         "id": 'philippians',

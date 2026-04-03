@@ -118,7 +118,7 @@ CHAPTERS = [
         ],
 
         "cross_refs": [
-            {"ref": "2 Maccabees 12:43-45", "note": "The primary Catholic proof text -- prayer for the dead and sin offerings. Not in the Hebrew or Protestant canon. Does not describe purgatory as a place or process.", "type": "pseudepigrapha"},
+            {"ref": "2 Maccabees 12:43-45", "note": "The primary Catholic proof text -- prayer for the dead and sin offerings. Not in the Hebrew or Protestant canon. Does not describe purgatory as a place or process.", "type": "deuterocanonical"},
             {"ref": "Matthew 12:32", "note": "'Whoever speaks against the Holy Spirit will not be forgiven, either in this age or in the age to come.' 'Neither in this age NOR in the age to come' = Hebrew idiom for NEVER.", "type": "nt"},
             {"ref": "1 Corinthians 3:13-15", "note": "'Each one's WORK will become manifest... if anyone's work is burned up, he will suffer loss, though he himself will be saved, but only as through fire.' The fire tests WORK, not the person.", "type": "nt"},
             {"ref": "Hebrews 9:27", "note": "'It is appointed for man to die once, and after that comes judgment.' Death, then judgment. No intermediate purification stage mentioned.", "type": "nt"},

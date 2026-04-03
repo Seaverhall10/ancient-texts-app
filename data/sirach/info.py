@@ -18,8 +18,11 @@ TEXT_INFO = {
                   "widely used in the early church (hence its Latin title 'Ecclesiasticus' — "
                   "'the church book'). The rabbis excluded it from the Hebrew canon despite "
                   "its popularity, partly because the author was known and too recent to be "
-                  "considered prophetic. Fragments were found at Qumran (2Q18) and Masada, "
-                  "and extensive Hebrew manuscripts were recovered from the Cairo Genizah."
+                  "considered prophetic. A fragment was found at Qumran (2Q18, Cave 2), "
+                  "and a separate Hebrew scroll was discovered at Masada by Yigael Yadin "
+                  "(1963-1965). These are distinct sites — Qumran near the Dead Sea caves, "
+                  "Masada the mountaintop fortress further south. Extensive Hebrew "
+                  "manuscripts were also recovered from the Cairo Genizah."
     },
 
     "authorship": {
@@ -60,9 +63,11 @@ TEXT_INFO = {
                    "as exemplars of wisdom embodied in action.",
         "theological_intent": "Sirach identifies Torah with cosmic Wisdom (chapter 24) — "
                              "Wisdom came down from heaven and 'pitched her tent' in Israel. "
-                             "This Torah-Wisdom identification became foundational for later "
-                             "Jewish theology and provides crucial background for John 1 "
-                             "(the Word 'tabernacled' among us)."
+                             "This Torah-Wisdom identification shaped later Jewish theology "
+                             "and shows the theological trajectory that leads to John 1, "
+                             "where the Word 'tabernacled' among us. The canonical Gospel "
+                             "makes the definitive claim; Sirach provides important "
+                             "background for the conceptual vocabulary John employs."
     },
 
     "language": {

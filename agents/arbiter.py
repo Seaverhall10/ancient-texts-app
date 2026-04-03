@@ -670,6 +670,51 @@ def main():
         print(f"\nTotal: {len(findings)} findings")
         sys.exit(1 if any(f[0] == 'CRITICAL' for f in findings) else 0)
 
+    elif args.text:
+        text_id = args.text
+        manifest = load_manifest()
+        text_entry = None
+        for t in manifest.get("texts", []):
+            if t.get("id") == text_id:
+                text_entry = t
+                break
+        if not text_entry:
+            print(f"ERROR: Text '{text_id}' not found in manifest.")
+            sys.exit(1)
+
+        data_dir_name = text_entry.get("data_dir", text_id)
+        text_data_dir = os.path.join(DATA_DIR, data_dir_name)
+        era_files = sorted([
+            os.path.join(text_data_dir, f)
+            for f in os.listdir(text_data_dir)
+            if f.startswith("era_") and f.endswith(".py")
+        ]) if os.path.isdir(text_data_dir) else []
+
+        if not era_files:
+            print(f"No era files found for text '{text_id}' in {text_data_dir}")
+            sys.exit(1)
+
+        print(f"[arbiter] AI audit of text: {text_id} ({len(era_files)} era files)")
+        all_findings = []
+        for ef in era_files:
+            print(f"\n  Auditing: {os.path.basename(ef)}")
+            findings, usage = run_ai_audit(ef)
+            all_findings.extend(findings)
+            for f in findings:
+                level = f.get("level", "INFO")
+                loc = f.get("location", "")
+                msg = f.get("message", "")
+                print(f"    [{level}] {loc}: {msg}")
+            if usage:
+                print(f"    (tokens: in={usage.input_tokens}, out={usage.output_tokens})")
+
+        report = generate_report(all_findings, f"ai_audit_{text_id}")
+        critical = sum(1 for f in all_findings if f.get("level") == "CRITICAL")
+        warnings = sum(1 for f in all_findings if f.get("level") == "WARNING")
+        info = sum(1 for f in all_findings if f.get("level") == "INFO")
+        print(f"\n  Total: {len(all_findings)} findings ({critical} CRITICAL, {warnings} WARNING, {info} INFO)")
+        return all_findings
+
     elif args.file:
         print(f"[arbiter] AI audit of: {args.file}")
         findings, _usage = run_ai_audit(args.file)

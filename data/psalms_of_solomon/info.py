@@ -111,12 +111,16 @@ TEXT_INFO = {
         {
             "type": "authority",
             "title": "Not Scripture — But Essential for Understanding Jesus",
-            "body": "The Psalms of Solomon are not canonical in any tradition. However, "
-                    "they provide the most detailed window into 1st century BC Jewish "
-                    "messianic expectations. When Jesus entered Jerusalem and the crowds "
-                    "cried 'Hosanna to the Son of David,' they were expecting the kind "
-                    "of Messiah described in Psalm of Solomon 17. Understanding what they "
-                    "expected illuminates what Jesus actually came to do."
+            "body": "The Psalms of Solomon are not canonical in any tradition. The "
+                    "Davidic messianic hope rests on canonical Scripture: 2 Samuel 7 "
+                    "(the Davidic covenant), Isaiah 11 (the Branch from Jesse's root), "
+                    "Jeremiah 23:5-6 (the righteous Branch), Ezekiel 34:23-24 (the "
+                    "Davidic shepherd), and Zechariah 9:9 (the humble king). These are "
+                    "the foundational texts. Psalm of Solomon 17 then shows how these "
+                    "canonical promises were being interpreted in the generation before "
+                    "Jesus — a detailed window into the messianic expectations the crowds "
+                    "carried when they cried 'Hosanna to the Son of David.' Understanding "
+                    "what they expected illuminates what Jesus actually came to do."
         },
         {
             "type": "context",

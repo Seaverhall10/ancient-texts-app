@@ -116,17 +116,25 @@ TEXT_INFO = {
                     "resurrection in Jewish literature. The mother and her seven sons face "
                     "torture and death, each affirming that God will raise them bodily. This "
                     "is not 'spiritual survival' but physical resurrection — the God who made "
-                    "the body will restore it. This theology stands behind the Pharisaic "
-                    "position that Jesus affirmed (Mark 12:18-27) and Paul proclaimed (1 Cor 15)."
+                    "the body will restore it. Note: when Jesus confronted the Sadducees on "
+                    "resurrection (Mark 12:18-27), he grounded the doctrine in Torah — Exodus "
+                    "3:6, 'I am the God of Abraham, Isaac, and Jacob... He is not God of the "
+                    "dead but of the living.' The canonical foundation for resurrection is Torah "
+                    "itself. 2 Maccabees 7 shows how that Torah-rooted hope had developed into "
+                    "explicit bodily resurrection theology by the Maccabean period, which Paul "
+                    "later proclaimed fully in 1 Corinthians 15."
         },
         {
             "type": "context",
             "title": "Creation Ex Nihilo",
-            "body": "2 Maccabees 7:28 contains the earliest clear statement of creation from "
-                    "nothing (ex nihilo) in Jewish literature: the mother tells her youngest son "
-                    "that God made everything 'out of things that did not exist.' This theological "
-                    "development goes beyond Genesis 1 (which does not explicitly address pre-existing "
-                    "matter) and became foundational for both Jewish and Christian doctrine of creation."
+            "body": "2 Maccabees 7:28 contains the earliest Jewish articulation of creation from "
+                    "nothing (ex nihilo): the mother tells her youngest son that God made everything "
+                    "'out of things that did not exist.' This theological development goes beyond "
+                    "Genesis 1 (which does not explicitly address pre-existing matter). The concept "
+                    "is later affirmed canonically in Romans 4:17 (God 'calls into existence the "
+                    "things that do not exist'), Hebrews 11:3, and John 1:3. Those canonical texts "
+                    "are the doctrinal foundation; 2 Maccabees is the important historical precedent "
+                    "showing this idea was already active in Second Temple Judaism."
         },
         {
             "type": "deeper_reading",
@@ -135,7 +143,7 @@ TEXT_INFO = {
                     "offering on behalf of fallen soldiers found wearing pagan amulets. The text "
                     "explicitly connects this to belief in resurrection — it would be pointless "
                     "to pray for the dead if there were no resurrection. This passage became the "
-                    "primary biblical text behind the Catholic doctrine of purgatory and prayers "
+                    "primary scriptural source cited by Catholic tradition for the doctrine of purgatory and prayers "
                     "for the dead, and was a key point of contention during the Reformation."
         }
     ]

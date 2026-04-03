@@ -185,12 +185,17 @@ CHAPTERS = [
             {
                 "term": "\u05e4\u05bc\u05b7\u05e8\u05b0\u05d3\u05bc\u05b5\u05e1 (pardes)",
                 "meaning": "Paradise, garden, enclosed park. The Hebrew/Persian word behind "
-                           "the Greek paradeisos. Jesus promises the thief 'paradise' "
-                           "\u2014 the same word the Septuagint uses for Eden's garden (Gen "
-                           "2:8). The thief is promised a return to Eden's fellowship "
-                           "with God, bypassing every intermediate step. Paradise is where "
-                           "God walks with His people (Gen 3:8). Jesus brings the thief "
-                           "back to the Garden."
+                           "the Greek paradeisos. In Second Temple Jewish thought, 'paradise' "
+                           "referred to the righteous compartment of Sheol \u2014 the place of "
+                           "comfort where the faithful dead await the final resurrection "
+                           "(cf. Luke 16:22-26, Abraham's bosom). The Septuagint uses the "
+                           "same word for Eden's garden (Gen 2:8), connecting the intermediate "
+                           "state to Eden's fellowship with God. Jesus promises the thief His "
+                           "own presence in this intermediate state \u2014 'with me' \u2014 while they "
+                           "await the bodily resurrection and new creation that is the "
+                           "ultimate biblical hope (Rev 21:1-4, 1 Cor 15:42-44). Paradise "
+                           "is real and it is with Christ, but it is not the final destination "
+                           "\u2014 resurrection is."
             },
             {
                 "term": "\u03bc\u03bd\u03ae\u03c3\u03b8\u03b7\u03c4\u03af (mn\u0113sth\u0113ti)",

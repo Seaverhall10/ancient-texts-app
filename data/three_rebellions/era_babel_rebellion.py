@@ -36,7 +36,7 @@ CHAPTERS = [
                     "he scattered (puts, 'to disperse') the peoples and confused (balal) their language. "
                     "But Deuteronomy 32:8-9 reveals a dimension of the Babel event that Genesis does not "
                     "narrate: 'When the Most High (Elyon) gave to the nations their inheritance, when he "
-                    "divided (haphrid) mankind, he fixed the borders of the peoples according to the number "
+                    "divided (haphrid, Hiphil of parad, \u05e4\u05b8\u05bc\u05e8\u05b7\u05d3 \u2014 to separate/divide) mankind, he fixed the borders of the peoples according to the number "
                     "of the sons of God (bene elohim).' The Dead Sea Scrolls reading (4QDeutj) and the "
                     "Septuagint (angelon theou / huioi theou) confirm 'sons of God,' not the Masoretic "
                     "'sons of Israel' \u2014 a scribal alteration to avoid the theological difficulty of God "
@@ -56,7 +56,7 @@ CHAPTERS = [
                            "bene yisra'el ('sons of Israel'), but the Dead Sea Scrolls fragment 4QDeutj "
                            "reads bene elohim ('sons of God'), and the Septuagint reads angelon theou "
                            "('angels of God') or huioi theou ('sons of God') depending on manuscript. "
-                           "The DSS/LXX reading is universally regarded by textual scholars as original: "
+                           "The DSS/LXX reading is widely regarded by textual scholars as original: "
                            "Israel did not yet exist at the time of Babel, making 'sons of Israel' "
                            "anachronistic. The Masoretic scribes altered the text to remove the "
                            "theologically uncomfortable idea that God assigned nations to divine beings. "
@@ -110,9 +110,9 @@ CHAPTERS = [
                        "human terms, repeating the pattern of autonomous grasping at divine prerogative "
                        "that characterized both Eden and Hermon.",
 
-        "second_temple": "The Second Temple period developed the Babel tradition extensively. Jubilees "
-                        "10:18-26 places the tower building in the days of Peleg and describes the confusion "
-                        "of language as producing seventy tongues \u2014 matching the seventy nations of the "
+        "second_temple": "The Second Temple period developed the Babel tradition extensively. According to Jubilees "
+                        "10:18-26, the tower was built in the days of Peleg, and the confusion "
+                        "of language produced seventy tongues \u2014 matching the seventy nations of the "
                         "Table of Nations (Genesis 10). The Targum Pseudo-Jonathan on Genesis 11:7-8 expands "
                         "the scattering to include divine beings: God descends 'with seventy angels' to "
                         "scatter the nations, each angel assigned to a language group. This targum tradition "
@@ -156,7 +156,7 @@ CHAPTERS = [
             },
             {
                 "heading": "Deuteronomy 32:8-9 \u2014 The Text That Changes Everything",
-                "body": "The most important Old Testament passage for understanding the current spiritual condition of the world is Deuteronomy 32:8-9. The Song of Moses declares: 'When the Most High (Elyon) gave to the nations their inheritance (nahalot), when he divided (haphrid) mankind, he fixed (yatsev) the borders (gevulot) of the peoples according to the number of the sons of God (bene elohim). But YHWH's portion (chelek) is his people; Jacob is his allotted heritage (chevel nachalatow).' The Dead Sea Scrolls fragment 4QDeutj reads 'sons of God' (bene elohim). The Septuagint reads 'angels of God' (angelon theou) or 'sons of God' (huioi theou). The Masoretic Text reads 'sons of Israel' (bene yisra'el) \u2014 a reading that is anachronistic (Israel did not exist at the time of Babel) and textually secondary. The scholarly consensus is overwhelming: the original reading is 'sons of God,' and the Masoretic scribes altered it. The implication is staggering: at Babel, God did not merely scatter the nations. He assigned each nation to a divine being \u2014 a 'son of God' tasked with governing that people. He kept one nation for himself: Israel. Deuteronomy 4:19-20 confirms this: YHWH 'has allotted' the heavenly bodies 'to all the peoples under the whole heaven,' but he 'took you and brought you out of the iron furnace, out of Egypt, to be a people of his own inheritance.'"
+                "body": "The most important Old Testament passage for understanding the current spiritual condition of the world is Deuteronomy 32:8-9. The Song of Moses declares: 'When the Most High (Elyon) gave to the nations their inheritance (nahalot), when he divided (haphrid, Hiphil of parad, \u05e4\u05b8\u05bc\u05e8\u05b7\u05d3 \u2014 to separate/divide) mankind, he fixed (yatsev) the borders (gevulot) of the peoples according to the number of the sons of God (bene elohim). But YHWH's portion (chelek) is his people; Jacob is his allotted heritage (chevel nachalatow).' The Dead Sea Scrolls fragment 4QDeutj reads 'sons of God' (bene elohim). The Septuagint reads 'angels of God' (angelon theou) or 'sons of God' (huioi theou). The Masoretic Text reads 'sons of Israel' (bene yisra'el) \u2014 a reading that is anachronistic (Israel did not exist at the time of Babel) and textually secondary. The scholarly consensus is overwhelming: the original reading is 'sons of God,' and the Masoretic scribes altered it. The implication is staggering: at Babel, God did not merely scatter the nations. He assigned each nation to a divine being \u2014 a 'son of God' tasked with governing that people. He kept one nation for himself: Israel. Deuteronomy 4:19-20 confirms this: YHWH 'has allotted' the heavenly bodies 'to all the peoples under the whole heaven,' but he 'took you and brought you out of the iron furnace, out of Egypt, to be a people of his own inheritance.'"
             },
             {
                 "heading": "The Nations Were Not Abandoned \u2014 They Were Delegated",
@@ -168,7 +168,7 @@ CHAPTERS = [
             },
             {
                 "heading": "From Babel to Abraham \u2014 God's Counter-Strategy",
-                "body": "The Babel event and the disinheritance of the nations created a crisis: humanity was scattered, divided, and placed under the governance of divine beings who would eventually corrupt them into idolatry. God's response is Genesis 12:1-3 \u2014 the call of Abraham. Immediately after the Babel narrative (Genesis 11) and the genealogy linking Babel to Abraham (11:10-32), God calls one man out of the wreckage: 'Go from your country and your kindred and your father's house to the land that I will show you. And I will make of you a great nation... and in you all the families (mishpechot) of the earth shall be blessed.' The phrase 'all the families of the earth' is the key: God is not abandoning the nations but beginning a rescue operation. Abraham's calling is the first step in reclaiming the nations from the corrupt divine beings assigned at Babel. The promise moves from Abraham to Isaac to Jacob (Israel) \u2014 one nation kept by YHWH himself (Deuteronomy 32:9), tasked with being a 'kingdom of priests and a holy nation' (Exodus 19:6). Israel was to be the instrument through which God would reclaim every nation he disinherited at Babel. The seed of Abraham is ultimately the seed of the woman from Genesis 3:15, now narrowed to a specific family line. And when Christ comes, he comes as the seed of Abraham (Galatians 3:16) who reverses Babel at Pentecost (Acts 2), reclaiming the nations by pouring out the Spirit on 'all flesh' (Acts 2:17, quoting Joel 2:28) \u2014 undoing the disinheritance one tongue at a time."
+                "body": "The Babel event and the disinheritance of the nations created a crisis: humanity was scattered, divided, and placed under the governance of divine beings who would eventually corrupt them into idolatry. God's response is Genesis 12:1-3 \u2014 the call of Abraham. Immediately after the Babel narrative (Genesis 11) and the genealogy linking Babel to Abraham (11:10-32), God calls one man out of the wreckage: 'Go from your country and your kindred and your father's house to the land that I will show you. And I will make of you a great nation... and in you all the families (mishpechot) of the earth shall be blessed.' The phrase 'all the families of the earth' is the key: God is not abandoning the nations but beginning a rescue operation. Abraham's calling is the first step in reclaiming the nations from the corrupt divine beings assigned at Babel. The promise moves from Abraham to Isaac to Jacob (Israel) \u2014 one nation kept by YHWH himself (Deuteronomy 32:9), tasked with being a 'kingdom of priests and a holy nation' (Exodus 19:6). Israel was to be the instrument through which God would reclaim every nation he disinherited at Babel. Genesis 3:15's promise of a seed who would crush the serpent is now progressively narrowed \u2014 through Abraham (Genesis 12), then Judah (Genesis 49:10), then David (2 Samuel 7), culminating in Christ (Galatians 3:16). And when Christ comes, he comes as the seed of Abraham who reverses Babel at Pentecost (Acts 2), reclaiming the nations by pouring out the Spirit on 'all flesh' (Acts 2:17, quoting Joel 2:28) \u2014 undoing the disinheritance one tongue at a time."
             }
         ]
     },
@@ -186,7 +186,7 @@ CHAPTERS = [
 
         "synopsis": "Psalm 82 is the most important psalm for understanding the divine council and the "
                     "three-rebellion framework. In eight verses, it presents a courtroom scene of cosmic "
-                    "significance. Verse 1: 'God (Elohim) stands in the divine assembly (adat-El); in the "
+                    "significance. Verse 1 (literal Hebrew): 'God (Elohim) stands in the divine assembly (adat-El); in the "
                     "midst of the gods (elohim) he holds judgment.' The first 'Elohim' is YHWH; the second "
                     "'elohim' (plural) are the divine beings assigned to govern the nations at Babel. Verses "
                     "2-4 present the indictment: these elohim have judged unjustly, shown partiality to the "
@@ -262,8 +262,8 @@ CHAPTERS = [
                        "council to death. This is Israel's radical contribution: YHWH is not first among "
                        "equals but the sovereign judge who holds the divine beings themselves accountable.",
 
-        "second_temple": "Psalm 82 was central to Second Temple theology. The Qumran community (11QMelchizedek, "
-                        "11Q13) interpreted Psalm 82 eschatologically: Melchizedek would execute God's judgment "
+        "second_temple": "Psalm 82 was central to Second Temple theology. The Qumran community interpreted Psalm 82 "
+                        "eschatologically. According to 11QMelchizedek (11Q13), Melchizedek would execute God's judgment "
                         "on Belial and his spirits in the final epoch. The text reads: 'And Melchizedek will "
                         "avenge the vengeance of God's judgments... as it is written concerning him in the songs "
                         "of David, who said: Elohim stands in the assembly of El, in the midst of the elohim "

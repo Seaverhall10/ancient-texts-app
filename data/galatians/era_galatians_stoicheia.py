@@ -286,7 +286,7 @@ CHAPTERS = [
             {"ref": "Romans 8:14-17", "note": "The parallel adoption text: 'You did not receive the spirit of slavery to fall back into fear, but you have received the Spirit of adoption as sons, by whom we cry, Abba! Father!'", "type": "nt"},
             {"ref": "Mark 14:36", "note": "Jesus in Gethsemane: 'Abba, Father, all things are possible for you' -- the same intimate address the Spirit enables believers to use", "type": "nt"},
             {"ref": "Ephesians 1:5", "note": "God 'predestined us for adoption to himself as sons through Jesus Christ' -- the huiothesia theme across Paul's letters", "type": "nt"},
-            {"ref": "1 Enoch 89:59-77", "note": "According to 1 Enoch, the seventy shepherds (angels) appointed over Israel ruled unjustly and will face judgment -- a parallel to the stoicheia whose governance has expired", "type": "ot"}
+            {"ref": "1 Enoch 89:59-77", "note": "According to 1 Enoch, the seventy shepherds (angels) appointed over Israel ruled unjustly and will face judgment -- a parallel to the stoicheia whose governance has expired", "type": "pseudepigrapha"}
         ],
 
         "divine_council_note": "Galatians 4:1-11 is the theological nerve center of Paul's divine council "

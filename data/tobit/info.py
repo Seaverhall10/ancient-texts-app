@@ -103,20 +103,20 @@ TEXT_INFO = {
         {
             "type": "authority",
             "title": "Deuterocanonical Status",
-            "body": "Tobit is not part of the Protestant canon but is valued as a "
-                    "Second Temple Jewish text. Its angelology and demonology provide "
-                    "important context for understanding New Testament supernatural "
-                    "worldview. Read it as Jewish theological storytelling, not as "
-                    "canonical scripture (unless you follow the Catholic or Orthodox canon)."
+            "body": "Tobit is deuterocanonical (included in Catholic and Orthodox canons "
+                    "but not in the Protestant or Jewish canons). This app treats it as "
+                    "valuable Second Temple literature, not as canonical Scripture. Its "
+                    "angelology and demonology provide important context for understanding "
+                    "the New Testament supernatural worldview."
         },
         {
             "type": "context",
             "title": "Raphael and Asmodeus",
             "body": "Tobit is one of the earliest Jewish texts naming specific angels "
-                    "(Raphael) and demons (Asmodeus). Raphael identifies himself as "
-                    "'one of the seven holy angels who present the prayers of the saints' "
-                    "(Tobit 12:15), a tradition echoed in Revelation 8:2. Asmodeus becomes "
-                    "a significant figure in later Jewish demonology."
+                    "(Raphael) and demons (Asmodeus). According to Tobit 12:15, Raphael "
+                    "identifies himself as 'one of the seven holy angels who present the "
+                    "prayers of the saints,' a tradition echoed in Revelation 8:2. "
+                    "Asmodeus becomes a significant figure in later Jewish demonology."
         }
     ]
 }

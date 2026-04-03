@@ -115,7 +115,7 @@ CHAPTERS = [
             {"ref": "Genesis 5:24", "note": "'Enoch walked with God, and he was not, for God took him' — Jubilees 4:23 specifies that he was taken to the Garden of Eden as a heavenly scribe", "type": "ot"},
             {"ref": "Hebrews 11:5", "note": "Enoch taken up so that he should not see death — Jubilees provides the location (Eden) and the purpose (recording judgment)", "type": "nt"},
             {"ref": "Jude 14-15", "note": "Quotes Enoch's prophecy of judgment — Jubilees 4:24 describes Enoch as perpetually recording judgment and wickedness", "type": "nt"},
-            {"ref": "1 Enoch 12:4", "note": "'Enoch, scribe of righteousness' — Jubilees 4 affirms this title and role", "type": "ot"},
+            {"ref": "1 Enoch 12:4", "note": "'Enoch, scribe of righteousness' — Jubilees 4 affirms this title and role", "type": "pseudepigrapha"},
             {"ref": "Genesis 6:1-4", "note": "The Watcher crisis previewed in Jubilees 4:15,22 and fully narrated in Jubilees 5", "type": "ot"}
         ],
 
@@ -185,7 +185,7 @@ CHAPTERS = [
         "cross_refs": [
             {"ref": "Genesis 6:1-4", "note": "The canonical Watcher/Nephilim passage that Jubilees 5 expands with details drawn from 1 Enoch and related traditions", "type": "ot"},
             {"ref": "Genesis 6:5-8:22", "note": "The Flood narrative retold in Jubilees 5 with precise jubilee dating and emphasis on heavenly tablet judgment", "type": "ot"},
-            {"ref": "1 Enoch 6-11", "note": "The primary source for Jubilees 5's Watcher narrative — 200 angels descend, take wives, produce giants, are judged", "type": "ot"},
+            {"ref": "1 Enoch 6-11", "note": "The primary source for Jubilees 5's Watcher narrative — 200 angels descend, take wives, produce giants, are judged", "type": "pseudepigrapha"},
             {"ref": "2 Peter 2:4-5", "note": "God did not spare angels who sinned but cast them into Tartarus — echoes the Watcher judgment tradition", "type": "nt"},
             {"ref": "Jude 6", "note": "Angels who did not keep their proper domain, kept in eternal chains — directly references the Watcher tradition", "type": "nt"},
             {"ref": "1 Peter 3:19-20", "note": "Christ preaching to 'spirits in prison' who disobeyed in Noah's time — likely references imprisoned Watchers", "type": "nt"},
@@ -319,7 +319,7 @@ CHAPTERS = [
             {"ref": "Genesis 9:18-27", "note": "The cursing of Canaan and blessing of Shem — Jubilees 7 provides the geographical division that follows", "type": "ot"},
             {"ref": "Genesis 10:1-32", "note": "The Table of Nations — Jubilees 7-9 provides a more detailed geographical division with precise boundaries", "type": "ot"},
             {"ref": "Deuteronomy 32:8", "note": "God dividing the nations according to the sons of God — Jubilees 7-8 narrates the physical division of lands", "type": "ot"},
-            {"ref": "1 Enoch 15:8-12", "note": "The origin of demons from the dead giants — the theological background for Noah's warning in Jubilees 7:27", "type": "ot"},
+            {"ref": "1 Enoch 15:8-12", "note": "The origin of demons from the dead giants — the theological background for Noah's warning in Jubilees 7:27", "type": "pseudepigrapha"},
             {"ref": "Matthew 12:43-45", "note": "Wandering unclean spirits seeking rest — consistent with Jubilees' demonology of disembodied giant spirits", "type": "nt"}
         ],
 

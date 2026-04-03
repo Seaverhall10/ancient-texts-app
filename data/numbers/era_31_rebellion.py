@@ -484,7 +484,7 @@ CHAPTERS = [
             {"ref": "Joshua 15:14", "note": "Caleb drives out the three sons of Anak from Hebron — completing what he was ready to do 45 years earlier", "type": "ot"},
             {"ref": "Hebrews 3:16-19", "note": "The spy generation cited as the ultimate example of unbelief: 'they were unable to enter because of unbelief'", "type": "nt"},
             {"ref": "1 Corinthians 10:11", "note": "'These things happened to them as examples, and they were written down for our instruction'", "type": "nt"},
-            {"ref": "1 Enoch 6-7, 15:8-12", "note": "The Watchers (rebellious divine beings) father the Nephilim-giants — the fullest Second Temple account of the origin of the giant clans the spies encountered", "type": "ot"},
+            {"ref": "1 Enoch 6-7, 15:8-12", "note": "The Watchers (rebellious divine beings) father the Nephilim-giants — the fullest Second Temple account of the origin of the giant clans the spies encountered", "type": "pseudepigrapha"},
             {"ref": "2 Samuel 21:16-22", "note": "David's warriors kill four descendants of the Rephaim (giants) in Gath — the final mop-up of the giant-clan problem Numbers 13 identified", "type": "ot"},
             {"ref": "1 Samuel 17:4-7", "note": "Goliath of Gath, 'six cubits and a span' — a Rephaim-descended warrior whom David defeats, completing what the spy generation refused to attempt", "type": "ot"}
         ],

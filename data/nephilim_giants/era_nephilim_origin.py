@@ -70,9 +70,11 @@ CHAPTERS = [
                 "meaning": "From the Hebrew root n-p-l, 'to fall.' The Nephilim "
                            "are the 'fallen ones' \u2014 the offspring of the union "
                            "between divine beings and human women. LXX translates "
-                           "as gigantes ('earth-born'), connecting to Greek titan "
-                           "mythology. They are described as gibborim ('mighty "
-                           "ones') and 'men of renown' (anshei ha-shem)."
+                           "as gigantes, a term associated in Greek mythology with "
+                           "the earth-born Titans (from Ge, earth) — though this "
+                           "etymology is debated among linguists. They are described "
+                           "as gibborim ('mighty ones') and 'men of renown' "
+                           "(anshei ha-shem)."
             },
             {
                 "term": "\u05d2\u05b4\u05bc\u05d1\u05bc\u05d5\u05b9\u05e8\u05b4\u05d9\u05dd (gibborim)",
@@ -207,9 +209,13 @@ CHAPTERS = [
                         "Normal human marriages do not produce superhuman offspring. "
                         "The text presents a cause-and-effect: divine beings mated "
                         "with human women, and the result was something other than "
-                        "fully human. The Sethite view was unknown before the late "
-                        "4th century AD, when Augustine popularized it in City of "
-                        "God (Book 15, Chapter 23). Every Second Temple Jewish "
+                        "fully human. The Sethite view was absent from Second Temple "
+                        "Judaism and only emerged in patristic Christianity from "
+                        "the 3rd century onward — first appearing with Julius "
+                        "Africanus (~225 AD) and Ephrem the Syrian, before "
+                        "receiving its most influential formulation in Augustine's "
+                        "City of God (Book 15, Ch. 23, early 5th century). Every "
+                        "Second Temple Jewish "
                         "text \u2014 1 Enoch, Jubilees, the Genesis Apocryphon, Philo, "
                         "Josephus \u2014 reads bene ha-elohim as divine beings. The "
                         "earliest Christian writers (Justin Martyr, Irenaeus, "
@@ -256,10 +262,12 @@ CHAPTERS = [
                         "name that encodes their origin in an act of rebellion. "
                         "They are further described as gibborim (\u05d2\u05d1\u05d5\u05e8\u05d9\u05dd), 'mighty "
                         "men,' and anshei ha-shem, 'men of the name' or 'men of "
-                        "renown.' The LXX renders Nephilim as gigantes, which in "
-                        "Greek does not primarily mean 'large' but 'earth-born' "
-                        "\u2014 those born of the earth (ge), connecting to the Titan "
-                        "tradition. According to 1 Enoch 7:2-5, the giants 'grew "
+                        "renown.' The LXX renders Nephilim as gigantes, a term "
+                        "associated in Greek mythology with the earth-born Titans "
+                        "(from Ge, earth) \u2014 though this etymology is debated among "
+                        "linguists. The mythological association with beings born "
+                        "from earth resonates with the Genesis account of boundary-"
+                        "crossing between heaven and earth. According to 1 Enoch 7:2-5, the giants 'grew "
                         "in accordance with their great stature' and 'consumed all "
                         "the acquisitions of men' until people could no longer "
                         "sustain them. Then 'the giants turned against them and "
@@ -352,8 +360,10 @@ CHAPTERS = [
                     "of roots. When the earth cries out under the violence, the "
                     "archangels appeal to God, and judgment is decreed.",
 
+        # NON-CANONICAL SOURCE — 1 Enoch is highly authoritative (Jude 14-15
+        # quotes it as prophecy) but is not canonical Scripture.
         "key_verse": {
-            "ref": "1 Enoch 6:1-2",
+            "ref": "[Non-canonical] 1 Enoch 6:1-2",
             "text": "And it came to pass when the children of men had multiplied "
                     "that in those days were born unto them beautiful and comely "
                     "daughters. And the angels, the children of the heaven, saw "
@@ -385,10 +395,15 @@ CHAPTERS = [
                 "term": "\u05e2\u05b2\u05d6\u05b8\u05d0\u05d6\u05b5\u05dc (Azazel)",
                 "meaning": "The second leader of the Watchers, associated with "
                            "teaching forbidden knowledge \u2014 specifically metallurgy "
-                           "for weaponry and adornment. In Leviticus 16:8-10, the "
-                           "scapegoat is sent 'to Azazel' in the Day of Atonement "
-                           "ritual, possibly a reference to this fallen Watcher "
-                           "now associated with the wilderness."
+                           "for weaponry and adornment. The meaning of la'azazel "
+                           "(\u05dc\u05b7\u05e2\u05b2\u05d6\u05b8\u05d0\u05d6\u05b5\u05dc) in Leviticus 16 is itself debated \u2014 it may "
+                           "be a place name, an abstract noun meaning 'complete "
+                           "removal,' or a personal name. This app follows the "
+                           "interpretation [B] that identifies it with the Enochic "
+                           "Watcher Azazel (1 Enoch 10:4-6), supported by the Day "
+                           "of Atonement's structure of sending sin back to its "
+                           "originator. This identification is a valid inference, "
+                           "not a direct scriptural statement."
             },
             {
                 "term": "\u05d7\u05e8\u05dd (cherem)",

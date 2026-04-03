@@ -189,7 +189,7 @@ CHAPTERS = [
             {"ref": "Isaiah 53:6, 11-12", "note": "'The LORD has laid on him the iniquity of us all... he shall bear their iniquities' — the Suffering Servant as the ultimate scapegoat", "type": "ot"},
             {"ref": "John 1:29", "note": "'Behold the Lamb of God who takes away the sin of the world' — Christ as the sin offering goat AND the scapegoat simultaneously", "type": "nt"},
             {"ref": "Revelation 20:1-3", "note": "An angel binds Satan and casts him into the abyss — the eschatological fulfillment of sending Azazel's goat to the wilderness", "type": "nt"},
-            {"ref": "1 Enoch 10:4-8", "note": "Azazel bound in the desert wilderness by Raphael — the Watcher tradition behind the scapegoat's destination", "type": "ot"},
+            {"ref": "1 Enoch 10:4-8", "note": "Azazel bound in the desert wilderness by Raphael — the Watcher tradition behind the scapegoat's destination", "type": "pseudepigrapha"},
             {"ref": "Jude 6", "note": "Angels who 'did not stay within their own position of authority' are kept 'in eternal chains under gloomy darkness' — Azazel's fate", "type": "nt"},
             {"ref": "2 Peter 2:4", "note": "God cast the sinning angels into Tartarus — the Greek equivalent of Azazel's desert prison", "type": "nt"},
             {"ref": "Hebrews 13:11-12", "note": "'The bodies of those animals whose blood is brought into the holy places... are burned outside the camp. So Jesus also suffered outside the gate' — Christ fulfills both goats: his blood enters the heavenly Holy of Holies AND he bears sin outside the camp", "type": "nt"},

@@ -45,7 +45,7 @@ TEXT_INFO = {
                            "- Others (Bottrich, Macaskill) suggest a Palestinian Jewish origin "
                            "with later Slavonic Christian editing.\n"
                            "- A minority position (Vaillant) dates it much later as a medieval "
-                           "composition, but this view is now largely rejected.\n\n"
+                           "composition; this view remains a minority position but cannot be definitively ruled out given the absence of any pre-medieval manuscript evidence.\n\n"
                            "The text exists in two recensions: a shorter version and a longer "
                            "version. Scholarly opinion is divided on which is more original. "
                            "The Melchizedek section (chs. 68-73) appears only in the longer "
@@ -257,10 +257,12 @@ TEXT_INFO = {
                    "maps onto the biblical portrayal of God's heavenly host.\n"
                    "- The Melchizedek birth narrative connects to the divine council's "
                    "role in establishing priestly mediation between heaven and earth.\n\n"
-                   "For Heiser's framework, 2 Enoch reinforces the reality of the "
-                   "heavenly council as a governing body, confirms the Watcher rebellion "
-                   "tradition, and provides rich detail about the structure of the unseen "
-                   "realm that the biblical authors assumed but did not always make explicit.",
+                   "For Heiser's framework, 2 Enoch illustrates the concept of the "
+                   "heavenly council as a governing body, provides additional context for "
+                   "the Watcher rebellion tradition, and offers detail about the structure "
+                   "of the unseen realm that the biblical authors assumed but did not "
+                   "always make explicit. However, as a 1/5 reliability text, 2 Enoch "
+                   "cannot independently confirm theology that must rest on canonical texts.",
 
         "key_connections": [
             "The Unseen Realm, chs. 2-4 (divine council as heavenly bureaucracy)",
@@ -314,8 +316,9 @@ TEXT_INFO = {
     "reliability": {
         "rating": "LOW",
         "score": "1/5",
-        "comparison": "For context: 1 Enoch = 4/5 (Jude quotes it, 11 Qumran copies, "
-                     "Ethiopian canon). Jubilees = 4/5 (15+ Qumran fragments, Ethiopian "
+        "comparison": "For context: 1 Enoch = 4/5 (Jude quotes it as prophecy in Jude "
+                     "14-15, 11 Qumran copies, canonical only in the Ethiopian Orthodox "
+                     "tradition). Jubilees = 4/5 (15+ Qumran fragments, Ethiopian "
                      "canon). Book of Giants = 3/5 (6 Qumran manuscripts). Sirach = 4/5 "
                      "(Qumran + Masada fragments, Catholic/Orthodox canon, known author). "
                      "2 Enoch = 1/5 (no ancient copies, no NT citation, Slavonic only, "
@@ -360,11 +363,16 @@ TEXT_INFO = {
             "location": "Chapters 68-73 (longer recension only)",
             "description": "The Melchizedek birth narrative claims he was born miraculously "
                           "from the dead body of Sopanima (wife of Nir, Noah's brother). "
-                          "This contradicts Hebrews 7:3 which emphasizes Melchizedek as "
-                          "'without father, without mother, without genealogy' -- 2 Enoch "
-                          "gives him both parents and a genealogy. The narrative is likely "
-                          "a later Christian addition attempting to explain Hebrews 7.",
-            "severity": "SIGNIFICANT -- contradicts Hebrews 7:3 interpretation"
+                          "This undermines the argument of Hebrews 7:3, which calls "
+                          "Melchizedek 'without father, without mother, without genealogy.' "
+                          "Hebrews 7:3 is a typological argument from Genesis 14's "
+                          "deliberate silence about Melchizedek's lineage — the point is "
+                          "that Genesis omits his genealogy to establish a type of eternal "
+                          "priesthood, not that he literally had no parents. 2 Enoch "
+                          "undercuts this typology by supplying the very genealogy Genesis "
+                          "intentionally withheld. The narrative is likely a later Christian "
+                          "addition attempting to explain Hebrews 7.",
+            "severity": "SIGNIFICANT -- undermines the typological argument of Hebrews 7:3"
         },
         {
             "issue": "Trinitarian-sounding language",
