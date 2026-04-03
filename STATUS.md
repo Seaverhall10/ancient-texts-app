@@ -1,5 +1,5 @@
 # Ancient Texts Study App — Current Status
-*Last updated: 2026-03-25 (Session 9)*
+*Last updated: 2026-04-03 (Session 13)*
 
 ---
 
@@ -8,7 +8,7 @@
 ### Core App — Two Versions
 - [x] **PC Version**: Single-file HTML app (`build.py → output/AncientTextsStudy.html`, ~68 MB dev / ~65.5 MB release)
 - [x] **Mobile Version**: Progressive Web App (`build_mobile.py → output/mobile/`, 0.7 MB shell + on-demand data)
-- [x] Both versions contain identical content (86 texts, all interlinear, all features)
+- [x] Both versions contain identical content (102 texts, all interlinear, all features)
 - [x] **Electron desktop app** (Windows installer, `electron/` folder)
 - [x] Release system packages both into `PC/` + `Mobile/` folders with launchers
 
@@ -21,14 +21,14 @@
 - [x] Current version: **3.3.0**
 - [x] Release ZIP: ~40 MB (includes both PC + Mobile)
 
-### Content (86 texts total)
-- [x] **86 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 2 Historical + 12 Thematic)
-- [x] **278 era files** (study chapter groupings)
-- [x] **1,149 study chapters** across all texts
+### Content (102 texts total)
+- [x] **102 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 2 Historical + 12 Thematic + 16 extra-biblical)
+- [x] **307 era files** (study chapter groupings)
+- [x] **1,209 study chapters** across all texts
 - [x] CONTENT_MAP.json — master AI navigation index (auto-rebuilt on every build)
 
 ### Flow Translations (verse-by-verse English prose)
-**ALL 66 biblical books have flow translations — 31,101 total verses.**
+**ALL 66 biblical books have flow translations — 42,373 total verses (includes extra-biblical texts).**
 
 **OT — all 39 books complete** | **NT — all 27 books complete**
 
@@ -74,6 +74,8 @@
 - [x] **All 6 mobile Study Tool buttons verified working** (Timeline, Map, Matrix, Prophecy, Hebrew, Glossary)
 
 ### Thematic Deep Dives
+- [x] **The Nephilim Story** — 7-chapter continuous narrative with 3-position evidence tier toggle ([A] Canon Only / [A+B] Canon + Inference / [A+B+C] Full Picture)
+- [x] **Bible Analysis** — 70/70 books, structured tabbed UI (Key Claim, Contested Words, Connections, Silences, Characters, Patterns, Hidden in Translation)
 - [x] **Nephilim & Giants** — multi-era study
 - [x] **Messianic Thread** — prophecy-to-fulfillment trail
 - [x] **Heavenly Court** — divine council deep dive
@@ -88,20 +90,19 @@ DSS Sectarian, Josephus, Heavenly Court
 ## WHAT IS MISSING
 
 ### TIER 0 — Audit Fixes (Blocking Deploy)
-~~All TIER 0 issues resolved as of 2026-03-25.~~
-- ~~37 CRITICAL NT eras~~ → fixed (all id/era fields present, QA passes 497/497)
-- ~~180 cross-refs missing types~~ → fixed (21 actual issues corrected: 19 in Galatians, 2 in Matthew)
-- ~~Leviticus empty shells~~ → verified: all 27 chapters have substantial content
-- ~~2 Peter + 3 John empty~~ → verified: both have developed content
+- **~110 unfixed thematic text CRITICALs from Arbiter** — systemic issues: evidence tiers missing, Rule 5 gaps (non-canonical framing), ESV accuracy checks needed
+- **`hebrew_terms` → `original_terms` schema rename needed** — 12 app.js references + ~300 data files still use old field name
+- **18+ truncated era files need content completion** — partial content from previous sessions
 - **59 chapters missing `key_verse`** — scattered across texts (low priority)
 - **1 unlisted CSS file** — `styles.css` on disk but not in `build-order.txt`
 
 ### TIER 1 — Content Depth (Major Gaps)
 1. **Minor Prophets section depth** — All 12 books at 25-40% of Genesis depth (51/55 chapters flagged)
 2. **NT era expansion** — Luke, John still have only 2 eras each (Matthew + Acts now have 5 each)
-3. **DSS Sectarian hebrew_terms** — 26 chapters at 0% coverage
-4. **1 Enoch hebrew_terms** — 55/73 chapters empty (75%)
+3. ~~DSS Sectarian hebrew_terms~~ — done (26/26)
+4. ~~1 Enoch hebrew_terms~~ — done (73/73)
 5. **Jasher hebrew_terms** — 43/49 chapters empty (88%)
+6. ~~**Psalms of Solomon flow**~~ — done (rebuilt from scratch, 320 real verses)
 
 ### TIER 2 — Study Trails
 **Existing trails needing conversion (old step-by-step → article format):**
@@ -136,17 +137,18 @@ DSS Sectarian, Josephus, Heavenly Court
 
 | Metric | Value |
 |--------|-------|
-| Total texts | **88** |
-| Total era files | **300** |
-| Study chapters | **1,189** |
-| Flow translations | **66/86 texts** (all 39 OT + all 27 NT) |
+| Total texts | **102** |
+| Total era files | **307** |
+| Study chapters | **1,209** |
+| Flow translations | **66/102 texts** (all 39 OT + all 27 NT + extra-biblical) |
 | Flow files | **111** |
-| Flow verses | **31,101** |
+| Flow verses | **42,373** |
 | Flow scholarly notes | **9,497** |
 | Interlinear words (OT) | **306,506** |
 | Interlinear words (NT) | **137,833** |
 | **Total interlinear** | **444,339** |
-| Cross-references | **8,310** |
+| Cross-references | **8,467** |
+| Bible Analysis entries | **70/70** (structured tabbed UI) |
 | Glossary terms | **607** |
 | Map journey routes | **24** (206 waypoints) |
 | Religions in Truth Matrix | **52** |
@@ -159,11 +161,35 @@ DSS Sectarian, Josephus, Heavenly Court
 | Release ZIP | ~40 MB (PC + Mobile) |
 | Current version | **3.3.0** |
 | Audit modules | **12** |
-| Audit baseline (2026-03-25) | **0 critical**, 0 warnings, 514 passed |
+| Audit baseline (2026-04-03) | **0 critical**, 546 passed |
 
 ---
 
 ## RECENT CHANGES
+
+### Session 12-13 (2026-04-03) — The Reckoning + Nephilim Narrative + Bible Analysis Rebuild
+
+**Session 12: Full Content Audit**
+- Arbiter AI review of 61 era files across 27 texts: 177 CRITICAL, 601 WARNING found
+- Fixed 43 CRITICALs directly: Rule 5 violations (non-canonical framing), three-rebellions conflation, Sethite dating errors, gigantes etymology, Azazel evidence tier, unnamed nephew factual error, LXX manuscript specificity
+- 18 cross-ref type misclassifications fixed app-wide (1 Enoch "ot" to "pseudepigrapha", deuterocanonical corrections)
+- Psalms of Solomon flow rebuilt from scratch (was 18 duplicates of Psalm 1 — now 320 real verses)
+- 2 Enoch OCR cleaned (300 mid-word space artifacts from PDF extraction)
+- Bible Analysis ekklesia wording fixed (Law #22)
+- Parables afterlife framing fixed (Paradise = intermediate state, Law #23)
+- `arbiter.py --text` handler implemented (was broken)
+
+**Session 13: Nephilim Narrative with Evidence Tier Filter**
+- NEW: **"The Nephilim Story"** — 7-chapter continuous narrative with 3-position evidence toggle
+  - [A] Canon Only / [A+B] Canon + Inference / [A+B+C] Full Picture
+  - CSS-driven show/hide, localStorage persistence, "Want to see more?" upsell prompts
+  - 8 Arbiter CRITICALs found and fixed before commit
+  - Added to Nephilim & Giants study trail
+- NEW: **Bible Analysis** rebuilt from static HTML to structured tabbed UI
+  - 70/70 books complete (zero stubs remaining)
+  - 7 tabs per book: Key Claim, Contested Words, Connections, Silences, Characters, Patterns, Hidden in Translation
+  - Hebrew/Greek Unicode throughout, severity badges, cross-reference navigation
+  - Tab switching verified in mobile browser
 
 ### Session 9 (2026-03-25) — Major Content Expansion + Audit Cleanup
 - **QA audit: 0 critical, 502 passed** — clean across the board

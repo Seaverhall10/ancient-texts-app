@@ -152,7 +152,9 @@ python agents/audit_claude_work.py --eras      # Era depth + field validation
 # After any deploy:
 # Review the report at agents/reports/claude_audit_*.md
 ```
-**Baseline (2026-03-13)**: 0 CRITICAL target (current: 37 from new NT eras needing id/era fields).
+**Baseline (2026-04-03)**: 0 CRITICAL, 0 warnings, 546 passed.
+Session 12 ran Arbiter on all 27 texts (61 era files) — 177 CRITICALs found, 43 fixed + systemic fixes.
+~110 thematic text CRITICALs remain (systemic: evidence tiers, Rule 5 gaps, ESV accuracy).
 Fix all CRITICAL findings before deploying.
 
 ## RULE: Rebuild Content Map After Data Changes
@@ -161,3 +163,31 @@ After adding/modifying era files, flow files, or manifest entries, rebuild the A
 python agents/build_content_map.py
 ```
 This updates `CONTENT_MAP.json` which all agents read for project context.
+
+## RULE: Update All Docs Before Closing (MANDATORY)
+Every session that adds features, fixes content, or changes architecture MUST update these before the final commit:
+- `STATUS.md` — current completion state, recent changes, statistics
+- `CONTENT_MAP.json` — rebuild via `python agents/build_content_map.py`
+- Memory files — session plan, architecture reference, any new feedback
+- `CLAUDE.md` — if new rules, patterns, or commands were established
+- `PROJECT.md` — if directory structure or file counts changed
+
+Do NOT wait for the user to ask. Do NOT treat this as optional. If you modified 30 files and didn't update STATUS.md, the session is not done.
+
+## RULE: Complete Everything — No Stubs, No Gaps (MANDATORY)
+If a task involves N items, do all N. Not N-10. Not "most of them."
+- 70 Bible Analysis entries = write all 70, not 60
+- 7 narrative chapters = write all 7, not 4 + "we'll do the rest later"
+- 13 texts to audit = audit all 13, not "the important ones"
+
+"Skip stubs" is not a valid scope decision unless the user explicitly says to skip them. Before marking any task complete, verify: is this actually 100% done?
+
+## RULE: Test in Browser — Not Just Code Analysis (MANDATORY)
+After building features, verify them in the mobile browser (desktop 78MB is too large for preview):
+```bash
+python build_mobile.py
+# Use preview_start with "mobile" server config
+# Navigate to the feature, click buttons, verify state changes
+# Take screenshots to show the user
+```
+Build compiling ≠ feature working. QA passing ≠ UI rendering correctly. Never claim "verified" from grep or code-reading alone.
