@@ -44,6 +44,10 @@ tests/crawl/results/
 .claude/plans/
 .claude/todos/
 
+# ── Source PDFs & Raw HTML (large, not source code) ──
+tools/*.pdf
+tools/*_raw.html
+
 # ── OS Files ──────────────────────────────────────────
 .DS_Store
 Thumbs.db
