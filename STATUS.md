@@ -1,5 +1,5 @@
 # Ancient Texts Study App — Current Status
-*Last updated: 2026-04-03 (Session 15)*
+*Last updated: 2026-04-03 (Session 17)*
 
 ---
 
@@ -8,7 +8,7 @@
 ### Core App — Two Versions
 - [x] **PC Version**: Single-file HTML app (`build.py → output/AncientTextsStudy.html`, ~68 MB dev / ~65.5 MB release)
 - [x] **Mobile Version**: Progressive Web App (`build_mobile.py → output/mobile/`, 0.7 MB shell + on-demand data)
-- [x] Both versions contain identical content (103 texts, all interlinear, all features)
+- [x] Both versions contain identical content (105 texts, all interlinear, all features)
 - [x] **Electron desktop app** (Windows installer, `electron/` folder)
 - [x] Release system packages both into `PC/` + `Mobile/` folders with launchers
 
@@ -21,10 +21,10 @@
 - [x] Current version: **3.3.0**
 - [x] Release ZIP: ~40 MB (includes both PC + Mobile)
 
-### Content (103 texts total)
-- [x] **103 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 2 Historical + 12 Thematic + 1 Research Lens + 16 extra-biblical)
-- [x] **310 era files** (study chapter groupings)
-- [x] **1,216 study chapters** across all texts
+### Content (105 texts total)
+- [x] **105 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 2 Historical + 12 Thematic + 3 Research Lenses + 16 extra-biblical)
+- [x] **316 era files** (study chapter groupings)
+- [x] **1,231 study chapters** across all texts
 - [x] CONTENT_MAP.json — master AI navigation index (auto-rebuilt on every build)
 
 ### Flow Translations (verse-by-verse English prose)
@@ -97,7 +97,7 @@ DSS Sectarian, Josephus, Heavenly Court
 - **1 unlisted CSS file** — `styles.css` on disk but not in `build-order.txt`
 
 ### TIER 1 — Content Depth (Major Gaps)
-0. **Research Lenses**: Islam complete (Session 15). Rabbinic Judaism and Catholicism pending (Sessions 16-17)
+0. **Research Lenses**: All 3 Research Lenses complete: Islam, Rabbinic Judaism, Catholicism
 1. **Minor Prophets section depth** — All 12 books at 25-40% of Genesis depth (51/55 chapters flagged)
 2. **NT era expansion** — Luke, John still have only 2 eras each (Matthew + Acts now have 5 each)
 3. ~~DSS Sectarian hebrew_terms~~ — done (26/26)
@@ -138,9 +138,9 @@ DSS Sectarian, Josephus, Heavenly Court
 
 | Metric | Value |
 |--------|-------|
-| Total texts | **103** |
-| Total era files | **310** |
-| Study chapters | **1,216** |
+| Total texts | **105** |
+| Total era files | **316** |
+| Study chapters | **1,231** |
 | Flow translations | **66/102 texts** (all 39 OT + all 27 NT + extra-biblical) |
 | Flow files | **111** |
 | Flow verses | **42,373** |
@@ -162,11 +162,32 @@ DSS Sectarian, Josephus, Heavenly Court
 | Release ZIP | ~40 MB (PC + Mobile) |
 | Current version | **3.3.0** |
 | Audit modules | **12** |
-| Audit baseline (2026-04-03) | **0 critical**, 550 passed |
+| Audit baseline (2026-04-03) | **0 critical**, 558 passed |
 
 ---
 
 ## RECENT CHANGES
+
+### Session 16-17 (2026-04-03) — Research Lenses: Rabbinic Judaism + Catholicism
+- **NEW: "Rabbinic Judaism & the Talmud"** — 7-chapter comparative study
+  - Ch 1: The Oral Torah Claim (Torah she-be'al peh vs Deut 4:2)
+  - Ch 2: Jesus vs. the Pharisees — What He Actually Rejected (agreements + breaks)
+  - Ch 3: The Three Sects (Pharisees, Sadducees, Essenes + DSS)
+  - Ch 4: How the Talmud Handles Messianic Prophecy (Isaiah 53, Daniel 9, Psalm 22)
+  - Ch 5: The Parting of the Ways (Birkat haMinim, Yavneh, Bar Kokhba)
+  - Ch 6: Modern Streams (Orthodox, Conservative, Reform)
+  - Ch 7: What Rabbinic Judaism Preserved (Hebrew, Masoretic tradition, liturgy)
+- **NEW: "Catholicism"** — 8-chapter comparative study
+  - Ch 1: Peter and the Rock (petros/petra, Kepha, church fathers)
+  - Ch 2: Mary — From Theotokos to Mediatrix (Immaculate Conception, Assumption)
+  - Ch 3: Purgatory & Prayers for the Dead (2 Maccabees, Platonic infiltration)
+  - Ch 4: The Eucharist — Transubstantiation (touto estin, Aristotelian categories)
+  - Ch 5: Saints, Relics, and Intercession (Heb 4:16, 1 Tim 2:5, hero cult)
+  - Ch 6: Papal Infallibility (Vatican I, ex cathedra, political context)
+  - Ch 7: The Canon — Who Decided? (Trent, Jerome vs Augustine)
+  - Ch 8: What Catholicism Got Right (liturgy, manuscripts, fathers, continuity)
+- All 3 Research Lenses complete (Islam, Rabbinic Judaism, Catholicism)
+- Arbiter reviewed: 24 CRITICALs found and fixed across both texts
 
 ### Session 15 (2026-04-03) — Research Lens: Islam & the Quran
 - NEW: **"Islam & the Quran"** — 7-chapter comparative study (first Research Lens)

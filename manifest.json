@@ -965,6 +965,28 @@
       "description": "Research Lens: Islam examined through the biblical witness — Muhammad's call, Isa vs Jesus, borrowed sources, jinn, crucifixion denial, textual integrity"
     },
     {
+      "id": "rabbinic_judaism",
+      "name": "Rabbinic Judaism & the Talmud",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 7,
+      "color": "#4a6a9a",
+      "data_dir": "rabbinic_judaism",
+      "interlinear": null,
+      "description": "Research Lens: How rabbinic tradition developed, what Jesus rejected and agreed with, messianic prophecy in the Talmud, the Jewish-Christian split"
+    },
+    {
+      "id": "catholicism",
+      "name": "Catholicism",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 8,
+      "color": "#7a4a6a",
+      "data_dir": "catholicism",
+      "interlinear": null,
+      "description": "Research Lens: Catholic distinctive doctrines examined against the biblical text — Peter and the Rock, Mary, purgatory, transubstantiation, papal infallibility, the canon"
+    },
+    {
       "id": "job",
       "name": "Job",
       "category": "ot",
@@ -6162,6 +6184,66 @@
         "Manuscript evidence",
         "Satanic Verses"
       ]
+    },
+    {
+      "id": "rabbinic_oral_torah",
+      "text": "rabbinic_judaism",
+      "name": "Part I: The Oral Torah & Jesus' Engagement",
+      "chapters": "Chapters 1–3",
+      "color": "#4a6a9a",
+      "icon": "I",
+      "data_file": "era_rabbinic_torah",
+      "themes": ["Oral Torah", "Pharisees", "Jesus and halakha", "Three sects"]
+    },
+    {
+      "id": "rabbinic_messianic",
+      "text": "rabbinic_judaism",
+      "name": "Part II: Messianic Prophecy & the Parting",
+      "chapters": "Chapters 4–5",
+      "color": "#4a6a9a",
+      "icon": "II",
+      "data_file": "era_rabbinic_messianic",
+      "themes": ["Isaiah 53", "Daniel 9", "Birkat haMinim", "Yavneh"]
+    },
+    {
+      "id": "rabbinic_modern",
+      "text": "rabbinic_judaism",
+      "name": "Part III: Modern Streams & What Was Preserved",
+      "chapters": "Chapters 6–7",
+      "color": "#4a6a9a",
+      "icon": "III",
+      "data_file": "era_rabbinic_modern",
+      "themes": ["Orthodox", "Conservative", "Reform", "Hebrew preservation"]
+    },
+    {
+      "id": "catholic_authority",
+      "text": "catholicism",
+      "name": "Part I: Authority — Peter, Mary & the Magisterium",
+      "chapters": "Chapters 1–3",
+      "color": "#7a4a6a",
+      "icon": "I",
+      "data_file": "era_catholic_authority",
+      "themes": ["Petrine primacy", "Marian doctrines", "Purgatory"]
+    },
+    {
+      "id": "catholic_sacraments",
+      "text": "catholicism",
+      "name": "Part II: Sacraments, Saints & Infallibility",
+      "chapters": "Chapters 4–6",
+      "color": "#7a4a6a",
+      "icon": "II",
+      "data_file": "era_catholic_sacraments",
+      "themes": ["Transubstantiation", "Saints", "Papal infallibility"]
+    },
+    {
+      "id": "catholic_canon",
+      "text": "catholicism",
+      "name": "Part III: The Canon & What Catholicism Got Right",
+      "chapters": "Chapters 7–8",
+      "color": "#7a4a6a",
+      "icon": "III",
+      "data_file": "era_catholic_canon",
+      "themes": ["Deuterocanonicals", "Trent", "Manuscript preservation", "Liturgy"]
     },
     {
       "id": "joel_cosmic",
