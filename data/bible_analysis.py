@@ -601,10 +601,89 @@ BOOK_ENTRIES = [
     {
         "id": '2samuel',
         "section": 'historical-books',
-        "title": '2samuel',
-        "themes": 'KING COV SEED DC',
-        "meta_text": '',
-        "body_html": '''''',
+        "title": 'Book 10: 2 Samuel',
+        "themes": 'KING COV SEED DC WOMEN REBEL',
+        "era_count": 3,
+        "chapters": 24,
+        "grade": 'A',
+        "meta_text": '3 era files &middot; 24 chapters &middot; Grade: A',
+        "body_html": '''<h4>Major Themes</h4>
+  <div class="theme-grid">
+    <span class="badge badge-theme">DAVIDIC COVENANT</span><span class="badge badge-theme">KINGSHIP &amp; FAILURE</span><span class="badge badge-theme">DIVINE COUNCIL</span><span class="badge badge-theme">SEED LINE</span><span class="badge badge-theme">CONSEQUENCES</span><span class="badge badge-theme">WOMEN</span>
+  </div>
+  <p><strong>DAVIDIC COVENANT (2 Sam 7)</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; The theological heart of the entire book: YHWH promises David an eternal throne, an eternal house, and an eternal kingdom. "I will be to him a father, and he shall be to me a son" (7:14). This is THE covenant that generates all messianic expectation &mdash; "Son of David" as Christ's title flows from here.</p>
+  <p><strong>KINGSHIP &amp; FAILURE</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; David&rsquo;s adultery with Bathsheba and murder of Uriah (chs. 11-12) triggers a cascade: the child dies, Amnon rapes Tamar, Absalom murders Amnon, Absalom rebels. The sword "never departs" (12:10). The "man after God's heart" proves the point &mdash; no human king can sit the eternal throne.</p>
+  <p><strong>DIVINE COUNCIL</strong> <span class="badge badge-major">MAJOR</span> &mdash; The destroying angel (mal&rsquo;ak) stands over Jerusalem with drawn sword (24:16). David SEES the angel. YHWH "relents" (nacham) from the destruction. The threshing floor of Araunah becomes the Temple site &mdash; divine council judgment determines sacred geography.</p>
+
+  <h4>Contested Words</h4>
+  <table class="ref-table">
+    <tr><th>Hebrew</th><th>Issue</th><th>Severity</th></tr>
+    <tr><td><strong>bayit</strong> (7:11)</td><td>"House" &mdash; triple meaning in the Davidic covenant: dynasty, temple, family. YHWH will build David a house (dynasty), not the other way around.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>hesed</strong> (7:15)</td><td>"Steadfast love" &mdash; YHWH&rsquo;s hesed will NOT be removed from David's line, even when the son sins. Unconditional covenantal commitment.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>mal'ak YHWH</strong> (24:16)</td><td>"Angel of YHWH" with drawn sword over Jerusalem &mdash; a divine council agent executing judgment. David sees him at Araunah's threshing floor.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>nacham</strong> (24:16)</td><td>"Relented" &mdash; YHWH relents from destroying Jerusalem. Same word as Ex 32:14. Does God change his mind, or is this anthropomorphic language for responsive sovereignty?</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+    <tr><td><strong>Rephaim</strong> (21:16-22)</td><td>Four Rephaim warriors killed by David's men &mdash; Nephilim-descendant giant clans still active in the seed war.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+  </table>
+
+  <h4>Unusual Characters</h4>
+  <ul>
+    <li><strong>Bathsheba</strong> (11:3) &mdash; Victim of royal power, yet becomes mother of Solomon and appears in Jesus' genealogy (Matt 1:6). The seed line runs through scandal.</li>
+    <li><strong>Nathan the prophet</strong> (12:1-14) &mdash; Covenant prosecutor who brings YHWH's riv against David with the parable of the ewe lamb. "You are the man."</li>
+    <li><strong>Absalom</strong> (chs. 13-18) &mdash; David's son who rebels, takes the throne, and is killed. His rebellion is the direct consequence of David's sin &mdash; the sword that never departs.</li>
+    <li><strong>The destroying angel</strong> (24:16) &mdash; Divine council agent with drawn sword over Jerusalem. The threshing floor where he stands becomes the Temple site.</li>
+  </ul>
+
+  <h4>Conspicuous Silences</h4>
+  <ul>
+    <li>David's internal response to Absalom's death beyond "O my son" (18:33) &mdash; the deepest grief in the OT given minimal narration</li>
+    <li>Bathsheba's perspective on the affair is never given &mdash; she speaks only when spoken to until 1 Kings 1</li>
+    <li>How David's "man after God's heart" status survives adultery and murder &mdash; the theology is assumed, never explained</li>
+    <li>Why the census (ch. 24) provoked divine wrath &mdash; the sin of numbering the people is stated but never clarified</li>
+  </ul>
+
+  <h4>Cross-References</h4>
+  <p class="xref">2 Samuel <span class="arrow">&rarr;</span> <span class="badge badge-ot">1 Samuel</span> <span class="badge badge-ot">1 Chronicles</span> <span class="badge badge-ot">Psalms</span> <span class="badge badge-nt">Matthew</span> <span class="badge badge-nt">Acts</span> <span class="badge badge-nt">Romans</span> <span class="badge badge-nt">Hebrews</span> <span class="badge badge-nt">Luke</span></p>''',
+        "key_claim": "The Davidic covenant (2 Sam 7) is the theological engine of messianic expectation — YHWH promises an eternal throne, house, and kingdom, and David's catastrophic failure with Bathsheba proves no human king can occupy it, pointing forward to Christ as the only one who can.",
+        "contested_words": [
+            {"word": "bayit", "hebrew": "בַּיִת", "issue": "'House' — triple meaning in the Davidic covenant: dynasty, temple, family. YHWH will build David a house (dynasty), not the other way around.", "severity": "CRITICAL"},
+            {"word": "hesed", "hebrew": "חֶסֶד", "issue": "YHWH's 'steadfast love' will NOT be removed from David's line, even when the son sins. Unconditional covenantal commitment.", "severity": "CRITICAL"},
+            {"word": "mal'ak YHWH", "hebrew": "מַלְאַךְ יהוה", "issue": "'Angel of YHWH' with drawn sword over Jerusalem (24:16) — a divine council agent executing judgment. David sees him at Araunah's threshing floor.", "severity": "CRITICAL"},
+            {"word": "nacham", "hebrew": "נָחַם", "issue": "'Relented' (24:16) — YHWH relents from destroying Jerusalem. Does God change his mind, or is this anthropomorphic language for responsive sovereignty?", "severity": "MAJOR"},
+            {"word": "Rephaim", "hebrew": "רְפָאִים", "issue": "Four Rephaim warriors killed by David's men (21:16-22) — Nephilim-descendant giant clans still active in the seed war.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "1samuel", "why": "David's anointing (1 Sam 16) reaches its throne in 2 Sam 2-5 — the covenant promise (2 Sam 7) answers the kingship crisis of 1 Sam 8"},
+            {"target": "1chronicles", "why": "Chronicles retells the same events but OMITS Bathsheba and Absalom — the priestly lens sanitizes what Samuel records raw"},
+            {"target": "psalms", "why": "Many psalm superscriptions reference 2 Samuel events: Ps 51 (Bathsheba), Ps 3 (Absalom's rebellion), Ps 18 (deliverance) — the internal soundtrack"},
+            {"target": "matthew", "why": "'Son of David' as Jesus' title (Matt 1:1) flows directly from the Davidic covenant (2 Sam 7:12-16)"},
+            {"target": "acts", "why": "Peter at Pentecost (Acts 2:30-31) cites the Davidic covenant — David knew God swore to seat one of his descendants on his throne"},
+            {"target": "romans", "why": "Paul opens Romans declaring Jesus 'descended from David according to the flesh' (Rom 1:3) — the seed line runs through 2 Samuel"},
+            {"target": "hebrews", "why": "'I will be to him a father, and he shall be to me a son' (7:14) — adopted by Hebrews 1:5 for the Son's divine sonship"},
+            {"target": "luke", "why": "Gabriel announces to Mary: 'The Lord God will give him the throne of his father David' (Luke 1:32) — the Davidic covenant fulfilled"},
+        ],
+        "what_it_doesnt_say": [
+            "David's internal response to Absalom's death beyond 'O my son' (18:33) — the deepest grief in the OT given minimal narration",
+            "Bathsheba's perspective on the affair is never given — she speaks only when spoken to until 1 Kings 1",
+            "How David's 'man after God's own heart' status survives adultery and murder — the theology is assumed, never explained",
+            "Why the census (ch. 24) provoked divine wrath — the sin of numbering the people is stated but never clarified",
+        ],
+        "unusual_characters": [
+            {"name": "Bathsheba", "ref": "11:3", "detail": "Victim of royal power, yet becomes mother of Solomon and appears in Jesus' genealogy (Matt 1:6). The seed line runs through scandal.", "connections": ["matthew", "1kings"]},
+            {"name": "Nathan the prophet", "ref": "12:1", "detail": "Covenant prosecutor who brings YHWH's riv against David with the parable of the ewe lamb. 'You are the man.'", "connections": ["1kings"]},
+            {"name": "Absalom", "ref": "13:1", "detail": "David's son who rebels, takes the throne, and is killed. His rebellion is the direct consequence of David's sin — the sword that never departs.", "connections": []},
+            {"name": "The destroying angel", "ref": "24:16", "detail": "Divine council agent with drawn sword over Jerusalem. The threshing floor where he stands becomes the Temple site.", "connections": ["1chronicles", "exodus", "revelation"]},
+        ],
+        "patterns": [
+            "Sin-consequence cascade: adultery (ch. 11) triggers child's death (ch. 12), Amnon's rape of Tamar (ch. 13), Absalom's murder and rebellion (chs. 13-18), Sheba's revolt (ch. 20) — 'the sword shall never depart' (12:10)",
+            "Covenant despite failure: the Davidic covenant (ch. 7) is given BEFORE the fall (chs. 11-12), and YHWH's hesed is explicitly not withdrawn even when the son sins (7:15) — grace precedes and survives catastrophe",
+            "Women as seed-line agents: Bathsheba, Tamar (Absalom's sister), the wise woman of Tekoa, the wise woman of Abel — women drive the narrative at critical junctures",
+            "Sacred geography: the threshing floor of Araunah (24:18-25), purchased after divine judgment, becomes the Temple mount — judgment site becomes worship site",
+        ],
+        "mistranslations": [
+            {"english": "house", "original": "bayit", "issue": "English collapses the triple meaning: dynasty/lineage, physical temple, and family — the entire Davidic covenant turns on this wordplay"},
+            {"english": "angel of the LORD", "original": "mal'ak YHWH", "issue": "Reduces a terrifying divine council agent standing between heaven and earth with a drawn sword to a generic 'angel'"},
+            {"english": "steadfast love", "original": "hesed", "issue": "No English word captures it — covenantal faithfulness that persists through the worst betrayal. YHWH's hesed survives David's adultery and murder"},
+        ],
     },
     {
         "id": '1kings',
@@ -658,10 +737,86 @@ BOOK_ENTRIES = [
     {
         "id": '2kings',
         "section": 'historical-books',
-        "title": '2kings',
-        "themes": 'KING REBEL EXILE RIV',
-        "meta_text": '',
-        "body_html": '''''',
+        "title": 'Book 12: 2 Kings',
+        "themes": 'KING REBEL EXILE RIV DC NATIONS',
+        "era_count": 3,
+        "chapters": 25,
+        "grade": 'A',
+        "meta_text": '3 era files &middot; 25 chapters &middot; Grade: A',
+        "body_html": '''<h4>Major Themes</h4>
+  <div class="theme-grid">
+    <span class="badge badge-theme">ELISHA</span><span class="badge badge-theme">FALL OF ISRAEL</span><span class="badge badge-theme">FALL OF JUDAH</span><span class="badge badge-theme">EXILE</span><span class="badge badge-theme">DIVINE COUNCIL</span><span class="badge badge-theme">COVENANT LAWSUIT</span>
+  </div>
+  <p><strong>ELISHA&rsquo;S DOUBLE PORTION</strong> <span class="badge badge-major">MAJOR</span> &mdash; Elisha receives a "double portion" of Elijah&rsquo;s spirit (2:9) and performs twice as many miracles. His ministry proves the Spirit is transferable and multiplicative. His bones raise a dead man (13:21) &mdash; power persists beyond death.</p>
+  <p><strong>FALL OF ISRAEL (722 BC)</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; The northern kingdom falls to Assyria. "This occurred because the people of Israel had sinned against YHWH their God" (17:7). The Deuteronomic verdict: Israel served "other gods" &mdash; the territorial elohim of Deut 32:8 who seduced the nation allotted to YHWH.</p>
+  <p><strong>FALL OF JUDAH (586 BC)</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; Nebuchadnezzar destroys the Temple, burns Jerusalem, exiles Judah. "YHWH removed Israel out of his sight, as he had spoken by all his servants the prophets" (17:23). The covenant curses of Deut 28 executed in full.</p>
+  <p><strong>DIVINE COUNCIL</strong> <span class="badge badge-major">MAJOR</span> &mdash; Elisha prays and the servant&rsquo;s eyes are opened: "The mountain was full of horses and chariots of fire" (6:17). The divine council&rsquo;s army surrounds the prophets &mdash; invisible warfare made visible.</p>
+
+  <h4>Contested Words</h4>
+  <table class="ref-table">
+    <tr><th>Hebrew</th><th>Issue</th><th>Severity</th></tr>
+    <tr><td><strong>pi shenayim</strong> (2:9)</td><td>"Double portion" &mdash; NOT twice as much power, but the firstborn&rsquo;s inheritance share (Deut 21:17). Elisha claims Elijah&rsquo;s spiritual inheritance.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>elohim acherim</strong> (17:7)</td><td>"Other gods" &mdash; the Deuteronomic verdict on Israel&rsquo;s fall. These are real beings &mdash; the territorial elohim of Deut 32:8 &mdash; not mere statues.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>sus va'rekev esh</strong> (6:17)</td><td>"Horses and chariots of fire" &mdash; the divine council&rsquo;s army surrounding Elisha. The same fiery chariots that took Elijah (2:11).</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+    <tr><td><strong>mal'ak YHWH</strong> (19:35)</td><td>"Angel of YHWH" strikes 185,000 Assyrians in one night. A single divine council agent annihilates an entire army.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+  </table>
+
+  <h4>Unusual Characters</h4>
+  <ul>
+    <li><strong>Elisha</strong> (2:9-14) &mdash; Firstborn heir of Elijah&rsquo;s prophetic ministry. Twice the miracles. His bones resurrect a dead man (13:21) &mdash; the Spirit persists beyond death.</li>
+    <li><strong>Naaman</strong> (5:1-19) &mdash; Aramean general healed of leprosy by washing in the Jordan. A Gentile brought to faith: "There is no God in all the earth but in Israel" (5:15).</li>
+    <li><strong>Josiah</strong> (22:1-23:30) &mdash; The last great reformer. Finds the lost Torah scroll, tears his robes, purges the land of idolatry. But too late &mdash; exile is already decreed.</li>
+    <li><strong>Hezekiah</strong> (18:1-20:21) &mdash; Prays and YHWH sends one angel to destroy 185,000 Assyrians. Then shows Babylonian envoys all his treasure &mdash; planting the seed of the Babylonian exile.</li>
+  </ul>
+
+  <h4>Conspicuous Silences</h4>
+  <ul>
+    <li>What happened to the ten northern tribes after 722 BC &mdash; they vanish from biblical history entirely</li>
+    <li>HOW one angel killed 185,000 Assyrians overnight (19:35) &mdash; the mechanism is never described</li>
+    <li>Why Josiah&rsquo;s sweeping reforms could not avert exile &mdash; the decree was already final (23:26-27) but no explanation of why repentance failed</li>
+    <li>The Ark of the Covenant disappears before the exile and is never mentioned again &mdash; the most important object in Israel simply vanishes</li>
+  </ul>
+
+  <h4>Cross-References</h4>
+  <p class="xref">2 Kings <span class="arrow">&rarr;</span> <span class="badge badge-ot">Deuteronomy</span> <span class="badge badge-ot">Isaiah</span> <span class="badge badge-ot">Jeremiah</span> <span class="badge badge-nt">Luke</span> <span class="badge badge-ot">2 Chronicles</span> <span class="badge badge-ot">Daniel</span> <span class="badge badge-ot">1 Kings</span></p>''',
+        "key_claim": "2 Kings records the execution of the Deuteronomic covenant curses — Israel falls to Assyria (722 BC) and Judah to Babylon (586 BC) because they served 'other gods,' the real territorial elohim of Deut 32:8, proving that the spiritual rebellion behind idolatry has geopolitical consequences.",
+        "contested_words": [
+            {"word": "pi shenayim", "hebrew": "פִּי שְׁנַיִם", "issue": "'Double portion' — NOT twice as much power, but the firstborn's inheritance share (Deut 21:17). Elisha claims Elijah's spiritual inheritance.", "severity": "CRITICAL"},
+            {"word": "elohim acherim", "hebrew": "אֱלֹהִים אֲחֵרִים", "issue": "'Other gods' — the Deuteronomic verdict on Israel's fall. These are real beings — the territorial elohim of Deut 32:8 — not mere statues.", "severity": "CRITICAL"},
+            {"word": "sus va'rekev esh", "hebrew": "סוּס וְרֶכֶב אֵשׁ", "issue": "'Horses and chariots of fire' — the divine council's army surrounding Elisha. The same fiery chariots that took Elijah (2:11).", "severity": "MAJOR"},
+            {"word": "mal'ak YHWH", "hebrew": "מַלְאַךְ יהוה", "issue": "'Angel of YHWH' strikes 185,000 Assyrians in one night (19:35). A single divine council agent annihilates an entire army.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "deuteronomy", "why": "The entire Deuteronomic verdict (2 Kings 17:7-23) is the covenant curses of Deut 28 executed in history — exile was prophesied before the conquest"},
+            {"target": "isaiah", "why": "Hezekiah's crisis with Assyria (2 Kings 18-19) is paralleled in Isaiah 36-37 — the prophet and the king face the same threat from the same divine council perspective"},
+            {"target": "jeremiah", "why": "Jeremiah prophesies during Judah's final kings and witnesses the fall — the events of 2 Kings 24-25 are Jeremiah's lived experience"},
+            {"target": "daniel", "why": "Nebuchadnezzar's conquest of Jerusalem (2 Kings 24) creates the exile setting for Daniel — the seed line survives in Babylon"},
+            {"target": "luke", "why": "Jesus references Naaman the Syrian (Luke 4:27) and Elijah/Elisha — Gentile faith in 2 Kings prefigures the gospel going to the nations"},
+            {"target": "2chronicles", "why": "Chronicles retells the same kings from a priestly/worship perspective — same events, different theological emphasis"},
+        ],
+        "what_it_doesnt_say": [
+            "What happened to the ten northern tribes after 722 BC — they vanish from biblical history entirely",
+            "HOW one angel killed 185,000 Assyrians overnight (19:35) — the mechanism is never described",
+            "Why Josiah's sweeping reforms could not avert exile — the decree was already final (23:26-27) but no explanation of why repentance failed",
+            "The Ark of the Covenant disappears before the exile and is never mentioned again — the most important object in Israel simply vanishes",
+        ],
+        "unusual_characters": [
+            {"name": "Elisha", "ref": "2:9", "detail": "Firstborn heir of Elijah's prophetic ministry. Twice the miracles. His bones resurrect a dead man (13:21) — the Spirit persists beyond death.", "connections": ["1kings", "luke"]},
+            {"name": "Naaman", "ref": "5:1", "detail": "Aramean general healed of leprosy by washing in the Jordan. A Gentile confesses: 'There is no God in all the earth but in Israel.'", "connections": ["luke"]},
+            {"name": "Josiah", "ref": "22:1", "detail": "The last great reformer. Finds the lost Torah scroll, tears his robes, purges idolatry. But too late — exile is already decreed.", "connections": ["jeremiah", "2chronicles"]},
+            {"name": "The angel of YHWH", "ref": "19:35", "detail": "A single divine council agent destroys 185,000 Assyrians overnight — the invisible army made manifest.", "connections": ["isaiah", "exodus"]},
+        ],
+        "patterns": [
+            "Deuteronomic verdict: every king evaluated by one criterion — did he do right 'in the eyes of YHWH'? The formula repeats for every king, no exceptions",
+            "Prophet vs. king intensifies: Elisha confronts kings of Israel and Aram, Isaiah confronts Hezekiah, Huldah pronounces judgment on Josiah's generation — the riv framework never stops",
+            "Exile as covenant curse fulfillment: Deut 28:36 ('YHWH will bring you and your king to a nation you have not known') is precisely what happens in 2 Kings 24-25",
+            "Gentile faith foreshadowing: Naaman the Syrian (ch. 5) and the Shunammite woman's faith (ch. 4) — the nations respond while Israel rejects",
+        ],
+        "mistranslations": [
+            {"english": "double portion", "original": "pi shenayim", "issue": "Sounds like twice the power — but it is the firstborn's inheritance share (two-thirds). Elisha is Elijah's spiritual heir, not his superior"},
+            {"english": "other gods", "original": "elohim acherim", "issue": "English readers assume these are imaginary — but they are the real territorial elohim of Deut 32:8, spiritual beings who received the nations and became corrupt"},
+            {"english": "angel of the LORD", "original": "mal'ak YHWH", "issue": "Domesticates a terrifying divine council warrior — a single agent who annihilates 185,000 soldiers is not a greeting-card angel"},
+        ],
     },
     {
         "id": '1chronicles',
@@ -712,10 +867,86 @@ BOOK_ENTRIES = [
     {
         "id": '2chronicles',
         "section": 'historical-books',
-        "title": '2chronicles',
-        "themes": 'KING PRIEST HOLY EXILE',
-        "meta_text": '',
-        "body_html": '''''',
+        "title": 'Book 14: 2 Chronicles',
+        "themes": 'KING PRIEST HOLY EXILE COV REMNANT',
+        "era_count": 3,
+        "chapters": 36,
+        "grade": 'B+',
+        "meta_text": '3 era files &middot; 36 chapters &middot; Grade: B+',
+        "body_html": '''<h4>Major Themes</h4>
+  <div class="theme-grid">
+    <span class="badge badge-theme">SOLOMON&rsquo;S TEMPLE</span><span class="badge badge-theme">DIVIDED KINGDOM</span><span class="badge badge-theme">PRIESTLY WORSHIP</span><span class="badge badge-theme">REFORM &amp; REVIVAL</span><span class="badge badge-theme">EXILE &amp; RETURN</span><span class="badge badge-theme">REMNANT</span>
+  </div>
+  <p><strong>SOLOMON&rsquo;S TEMPLE</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; 2 Chronicles opens with Solomon&rsquo;s glory and the Temple construction (chs. 1-9). The glory cloud fills the Temple so that "the priests could not stand to minister" (5:14). This is the LAST time the divine presence visibly inhabits a structure &mdash; it will not happen in the Second Temple.</p>
+  <p><strong>JUDAH&rsquo;S PERSPECTIVE</strong> <span class="badge badge-major">MAJOR</span> &mdash; Chronicles almost completely ignores the northern kingdom. The focus is on Judah&rsquo;s kings, the Davidic line, and the Levitical worship system. Same events as 2 Kings but through a priestly lens &mdash; worship, Temple, and the seed line are what matter.</p>
+  <p><strong>REFORM CYCLES</strong> <span class="badge badge-major">MAJOR</span> &mdash; Periodic revivals: Asa (ch. 14-16), Jehoshaphat (chs. 17-20), Hezekiah (chs. 29-32), Josiah (chs. 34-35). Each reforms worship, restores the Temple, and renews the covenant. Each is followed by decline &mdash; proving human reform cannot fix the heart problem.</p>
+  <p><strong>EXILE &amp; CYRUS DECREE</strong> <span class="badge badge-major">MAJOR</span> &mdash; "Until the land had enjoyed its Sabbaths" (36:21) &mdash; 70 years of exile to repay 490 years of violated sabbath years. The book ends with Cyrus&rsquo;s decree: "YHWH has charged me to build him a house" (36:23).</p>
+
+  <h4>Contested Words</h4>
+  <table class="ref-table">
+    <tr><th>Hebrew</th><th>Issue</th><th>Severity</th></tr>
+    <tr><td><strong>kavod YHWH</strong> (5:14)</td><td>"Glory of YHWH" fills the Temple &mdash; a physical manifestation of divine presence so intense the priests cannot function. This never happens in the Second Temple.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>shabbat</strong> (36:21)</td><td>"Sabbath" &mdash; the land must rest. 70 years of exile = repayment for 490 years of violated sabbath-year cycles (Lev 25-26). The exile has mathematical precision.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>teshuvah</strong> (30:9)</td><td>"Return/repentance" &mdash; Hezekiah calls the remnant to return to YHWH. The same root (shuv) structures the entire prophetic message: turn back.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+    <tr><td><strong>Koresh</strong> (36:22)</td><td>"Cyrus" &mdash; a pagan king whose spirit YHWH "stirred up." The last word of Chronicles looks forward to restoration through a Gentile instrument.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+  </table>
+
+  <h4>Unusual Characters</h4>
+  <ul>
+    <li><strong>Solomon</strong> (chs. 1-9) &mdash; Builder of the Temple, recipient of divine wisdom. Chronicles emphasizes his glory and worship organization, minimizing the apostasy that 1 Kings highlights.</li>
+    <li><strong>Jehoshaphat</strong> (chs. 17-20) &mdash; Sends Levites to teach Torah throughout Judah. Faces a vast army and is told: "The battle is not yours but God&rsquo;s" (20:15). Worship precedes victory.</li>
+    <li><strong>Hezekiah</strong> (chs. 29-32) &mdash; Reopens and cleanses the Temple on day one of his reign. Celebrates the greatest Passover since Solomon. Worship restoration as the first act of governance.</li>
+    <li><strong>Josiah</strong> (chs. 34-35) &mdash; Finds the lost Torah scroll at age 26. The prophetess Huldah (not a male prophet) delivers YHWH&rsquo;s verdict: judgment is irreversible, but Josiah will die in peace.</li>
+  </ul>
+
+  <h4>Conspicuous Silences</h4>
+  <ul>
+    <li>The northern kingdom is virtually ignored &mdash; Chronicles treats the ten tribes as if they barely exist after the split</li>
+    <li>David&rsquo;s sin with Bathsheba and Absalom&rsquo;s rebellion are completely omitted &mdash; the priestly retelling sanitizes the king</li>
+    <li>The glory cloud fills Solomon&rsquo;s Temple but will never fill the Second Temple &mdash; the text never addresses why the divine presence does not return</li>
+    <li>How Manasseh&rsquo;s repentance in exile (33:12-13) relates to YHWH&rsquo;s irreversible judgment on Judah &mdash; personal repentance cannot undo national decree</li>
+  </ul>
+
+  <h4>Cross-References</h4>
+  <p class="xref">2 Chronicles <span class="arrow">&rarr;</span> <span class="badge badge-ot">1 Kings</span> <span class="badge badge-ot">2 Kings</span> <span class="badge badge-ot">Ezra</span> <span class="badge badge-ot">Leviticus</span> <span class="badge badge-ot">Isaiah</span> <span class="badge badge-ot">Jeremiah</span> <span class="badge badge-nt">Hebrews</span></p>''',
+        "key_claim": "2 Chronicles records the glory cloud filling Solomon's Temple so intensely the priests cannot stand (5:14) — and this is the LAST time divine presence visibly inhabits a structure, making the Second Temple's conspicuous absence of glory the Old Testament's greatest unanswered question.",
+        "contested_words": [
+            {"word": "kavod YHWH", "hebrew": "כְּבוֹד יהוה", "issue": "'Glory of YHWH' fills the Temple — a physical manifestation so intense the priests cannot function (5:14). This never happens in the Second Temple.", "severity": "CRITICAL"},
+            {"word": "shabbat", "hebrew": "שַׁבָּת", "issue": "'Sabbath' — the land must rest. 70 years of exile = repayment for 490 years of violated sabbath-year cycles (Lev 25-26). The exile has mathematical precision.", "severity": "CRITICAL"},
+            {"word": "teshuvah", "hebrew": "תְּשׁוּבָה", "issue": "'Return/repentance' — Hezekiah calls the remnant to return to YHWH. The root shuv structures the entire prophetic message: turn back.", "severity": "MAJOR"},
+            {"word": "Koresh", "hebrew": "כֹּרֶשׁ", "issue": "'Cyrus' — a pagan king whose spirit YHWH 'stirred up.' The last word of Chronicles looks forward to restoration through a Gentile instrument.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "1kings", "why": "Same events but different lens — 1 Kings records Solomon's apostasy and the political disaster; 2 Chronicles foregrounds his Temple and worship legacy"},
+            {"target": "2kings", "why": "The fall of Judah in 2 Kings 25 is retold in 2 Chr 36 — same event, but Chronicles adds the sabbath-year calculation (36:21) and Cyrus's decree"},
+            {"target": "ezra", "why": "2 Chronicles ends with Cyrus's decree (36:22-23) using nearly identical wording to Ezra 1:1-3 — the narrative continues seamlessly"},
+            {"target": "leviticus", "why": "The sabbath-year exile calculation (36:21) directly fulfills Lev 26:34-35 — the land finally enjoys its sabbaths"},
+            {"target": "isaiah", "why": "Cyrus named as YHWH's instrument (Isa 44:28-45:1) is the same Cyrus who closes 2 Chronicles — prophecy fulfilled in the closing verse"},
+            {"target": "hebrews", "why": "The Levitical worship system organized by Solomon in Chronicles is the 'shadow' that Hebrews argues Christ fulfills and surpasses"},
+        ],
+        "what_it_doesnt_say": [
+            "The northern kingdom is virtually ignored — Chronicles treats the ten tribes as if they barely exist after the split",
+            "David's sin with Bathsheba and Absalom's rebellion are completely omitted — the priestly retelling sanitizes the king",
+            "The glory cloud fills Solomon's Temple but will never fill the Second Temple — the text never addresses why the divine presence does not return",
+            "How Manasseh's repentance in exile (33:12-13) relates to YHWH's irreversible judgment on Judah — personal repentance cannot undo national decree",
+        ],
+        "unusual_characters": [
+            {"name": "Solomon", "ref": "1:1", "detail": "Builder of the Temple, recipient of divine wisdom. Chronicles emphasizes his glory and worship, minimizing the apostasy 1 Kings highlights.", "connections": ["1kings", "proverbs"]},
+            {"name": "Jehoshaphat", "ref": "17:1", "detail": "Sends Levites to teach Torah throughout Judah. Faces a vast army: 'The battle is not yours but God's' (20:15). Worship precedes victory.", "connections": []},
+            {"name": "Hezekiah", "ref": "29:1", "detail": "Reopens and cleanses the Temple on day one. Celebrates the greatest Passover since Solomon. Worship restoration as first act of governance.", "connections": ["isaiah", "2kings"]},
+            {"name": "Huldah", "ref": "34:22", "detail": "The prophetess — not a male prophet — delivers YHWH's verdict on Josiah's generation. A woman speaks the definitive word of judgment.", "connections": ["2kings"]},
+        ],
+        "patterns": [
+            "Reform-decline cycle: every reforming king (Asa, Jehoshaphat, Hezekiah, Josiah) is followed by decline — human reform cannot permanently fix the covenant breach",
+            "Worship as warfare: Jehoshaphat sends singers ahead of the army (20:21-22) and YHWH sets ambushes — the priestly lens shows worship as the weapon, not swords",
+            "Sabbath-year mathematics: 70 years of exile repays 490 years of violated sabbath cycles — YHWH keeps precise accounts even when Israel ignores them",
+            "The glory cloud appears at dedication (5:14) and never returns — the trajectory from filled Temple to empty Second Temple is the OT's silent tragedy",
+        ],
+        "mistranslations": [
+            {"english": "the glory of the LORD", "original": "kavod YHWH", "issue": "'Glory' sounds abstract — kavod means heavy, weighty, substantial. The divine presence was a physical, overwhelming force that incapacitated the priests"},
+            {"english": "Sabbath rest", "original": "shabbat", "issue": "Reduces a cosmic principle to a day off — the land itself requires sabbath, and violating it for 490 years triggers mathematical exile"},
+            {"english": "the LORD stirred up the spirit of Cyrus", "original": "he'ir YHWH et ruach Koresh", "issue": "Makes it sound like gentle inspiration — YHWH commandeered a pagan emperor's decision-making to fulfill covenant purposes"},
+        ],
     },
     {
         "id": 'ezra',
@@ -768,10 +999,86 @@ BOOK_ENTRIES = [
     {
         "id": 'nehemiah',
         "section": 'historical-books',
-        "title": 'nehemiah',
-        "themes": 'COV EXILE HOLY',
-        "meta_text": '',
-        "body_html": '''''',
+        "title": 'Book 16: Nehemiah',
+        "themes": 'COV EXILE HOLY REMNANT',
+        "era_count": 2,
+        "chapters": 13,
+        "grade": 'B+',
+        "meta_text": '2 era files &middot; 13 chapters &middot; Grade: B+',
+        "body_html": '''<h4>Major Themes</h4>
+  <div class="theme-grid">
+    <span class="badge badge-theme">WALL REBUILDING</span><span class="badge badge-theme">COVENANT RENEWAL</span><span class="badge badge-theme">OPPOSITION</span><span class="badge badge-theme">REMNANT</span><span class="badge badge-theme">REFORM</span><span class="badge badge-theme">TORAH READING</span>
+  </div>
+  <p><strong>WALL REBUILDING</strong> <span class="badge badge-major">MAJOR</span> &mdash; Nehemiah rebuilds Jerusalem&rsquo;s walls in 52 days against fierce opposition (6:15). Workers build with one hand and hold a weapon in the other (4:17). Physical restoration as spiritual warfare &mdash; the seed-line city must be defended.</p>
+  <p><strong>COVENANT RENEWAL</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; Ezra reads the Torah publicly for hours (ch. 8). The people weep when they hear it. Then they celebrate: "The joy of YHWH is your strength" (8:10). The covenant is renewed (ch. 9-10) with a comprehensive confession of national history from Abraham to exile.</p>
+  <p><strong>OPPOSITION AS SEED WAR</strong> <span class="badge badge-major">MAJOR</span> &mdash; Sanballat, Tobiah, and Geshem mock, threaten, and conspire. They attempt psychological warfare, false prophecy (6:10-14), and infiltration. The opposition to rebuilding Jerusalem is the seed war&rsquo;s political front in the post-exilic period.</p>
+  <p><strong>REFORM</strong> <span class="badge badge-major">MAJOR</span> &mdash; Nehemiah&rsquo;s second term (ch. 13): Sabbath enforcement, intermarriage confrontation, tithing restoration. The same problems persist despite the wall, the Torah, and the covenant &mdash; proving external reform cannot change the heart.</p>
+
+  <h4>Contested Words</h4>
+  <table class="ref-table">
+    <tr><th>Hebrew</th><th>Issue</th><th>Severity</th></tr>
+    <tr><td><strong>chedvat YHWH</strong> (8:10)</td><td>"The joy of YHWH is your strength" &mdash; not human happiness but divine joy as the source of communal power. The word chedvah appears only here in the OT.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>mevin</strong> (8:8)</td><td>"Gave the sense" / "made it understood" &mdash; the Levites translated or interpreted the Torah for the people. Possibly the origin of Targum (Aramaic paraphrase) tradition.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+    <tr><td><strong>aravim</strong> (10:31)</td><td>"Pledges/guarantors" &mdash; the people seal a written covenant with specific obligations: sabbath commerce, sabbath year, temple tax, tithes. A legal contract with YHWH.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+    <tr><td><strong>mamzer</strong> (13:23-24)</td><td>Children of mixed marriages who "could not speak the language of Judah" &mdash; linguistic assimilation as covenant erosion. Identity maintained through language.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+  </table>
+
+  <h4>Unusual Characters</h4>
+  <ul>
+    <li><strong>Nehemiah</strong> (1:1) &mdash; Cupbearer to the Persian king who becomes governor of Judah. Weeps, prays, plans, then acts. Governance as spiritual calling &mdash; he rebuilds with a sword and a trowel.</li>
+    <li><strong>Sanballat and Tobiah</strong> (2:10, 4:1-3) &mdash; Opposition leaders who use mockery, military threats, false prophecy, and political infiltration. The seed war fought through bureaucracy and intimidation.</li>
+    <li><strong>Noadiah</strong> (6:14) &mdash; A false prophetess hired to intimidate Nehemiah. "Remember Noadiah and the rest of the prophets who wanted to make me afraid." Prophetic corruption in the post-exilic community.</li>
+    <li><strong>Ezra</strong> (8:1-8) &mdash; Reads the Torah from a wooden platform from dawn to midday. The people stand, listen, weep, then feast &mdash; the word of God as the center of communal life.</li>
+  </ul>
+
+  <h4>Conspicuous Silences</h4>
+  <ul>
+    <li>No prophetic voice accompanies Nehemiah &mdash; unlike Moses, Joshua, or David, he operates without a named prophet beside him (Ezra fills a priestly role, not prophetic)</li>
+    <li>The Second Temple has no glory cloud, no ark, no Urim and Thummim &mdash; the physical return does not restore the divine presence</li>
+    <li>Nehemiah&rsquo;s reforms in chapter 13 repeat the same problems already addressed &mdash; the text offers no solution to the cycle of failure</li>
+    <li>The book ends abruptly with "Remember me, O my God, for good" (13:31) &mdash; no resolution, no divine response, no closure</li>
+  </ul>
+
+  <h4>Cross-References</h4>
+  <p class="xref">Nehemiah <span class="arrow">&rarr;</span> <span class="badge badge-ot">Ezra</span> <span class="badge badge-ot">Deuteronomy</span> <span class="badge badge-ot">Leviticus</span> <span class="badge badge-ot">Haggai</span> <span class="badge badge-ot">Malachi</span> <span class="badge badge-nt">Acts</span></p>''',
+        "key_claim": "Nehemiah proves that walls, Torah, and covenant renewal cannot fix the human heart — the same sins (Sabbath-breaking, intermarriage, tithing failures) resurface in chapter 13 despite everything, demonstrating that the true restoration requires something beyond external reform.",
+        "contested_words": [
+            {"word": "chedvat YHWH", "hebrew": "חֶדְוַת יהוה", "issue": "'The joy of YHWH is your strength' — not human happiness but divine joy as the source of communal power. The word chedvah appears only here in the OT.", "severity": "CRITICAL"},
+            {"word": "mevin", "hebrew": "מֵבִין", "issue": "'Gave the sense/made it understood' — the Levites translated or interpreted the Torah for the people. Possibly the origin of Targum tradition.", "severity": "MAJOR"},
+            {"word": "aravim", "hebrew": "עֲרָבִים", "issue": "The people seal a written covenant with specific obligations: sabbath commerce, sabbath year, temple tax, tithes. A legal contract with YHWH.", "severity": "MAJOR"},
+            {"word": "mamzer", "hebrew": "מַמְזֵר", "issue": "Children of mixed marriages who 'could not speak the language of Judah' — linguistic assimilation as covenant erosion. Identity maintained through language.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "ezra", "why": "Ezra-Nehemiah may have been one scroll — Ezra's Torah reading (Neh 8) and Nehemiah's wall-building are two halves of the same restoration"},
+            {"target": "deuteronomy", "why": "The covenant renewal (Neh 9-10) recounts history from creation to exile using Deuteronomic categories — the same riv/covenant lawsuit framework"},
+            {"target": "leviticus", "why": "Sabbath-year enforcement (10:31, 13:15-22) and tithing restoration (10:37-39, 13:10-13) enforce the Levitical code in the post-exilic community"},
+            {"target": "haggai", "why": "Haggai rebuked the returnees for neglecting the Temple (Hag 1:4); Nehemiah continues the same confrontation with communal neglect"},
+            {"target": "malachi", "why": "Malachi addresses the SAME post-exilic sins: intermarriage, corrupt priests, tithing failures — the problems Nehemiah confronts are still unresolved"},
+            {"target": "acts", "why": "Pentecost (Acts 2) reverses the linguistic fragmentation — where Nehemiah's community lost its language, the Spirit restores communication across all nations"},
+        ],
+        "what_it_doesnt_say": [
+            "No prophetic voice accompanies Nehemiah — unlike Moses, Joshua, or David, he operates without a named prophet beside him",
+            "The Second Temple has no glory cloud, no ark, no Urim and Thummim — the physical return does not restore the divine presence",
+            "Nehemiah's reforms in chapter 13 repeat problems already addressed — the text offers no solution to the cycle of failure",
+            "The book ends abruptly with 'Remember me, O my God, for good' (13:31) — no resolution, no divine response, no closure",
+        ],
+        "unusual_characters": [
+            {"name": "Nehemiah", "ref": "1:1", "detail": "Cupbearer to the Persian king who becomes governor. Weeps, prays, plans, then acts. Rebuilds with a sword and a trowel.", "connections": ["ezra"]},
+            {"name": "Sanballat and Tobiah", "ref": "2:10", "detail": "Opposition leaders using mockery, military threats, false prophecy, and political infiltration — the seed war through bureaucracy.", "connections": []},
+            {"name": "Noadiah", "ref": "6:14", "detail": "A false prophetess hired to intimidate Nehemiah. Prophetic corruption in the post-exilic community.", "connections": []},
+            {"name": "Ezra", "ref": "8:1", "detail": "Reads Torah from dawn to midday on a wooden platform. The people stand, listen, weep, then feast — the word as the center of communal life.", "connections": ["ezra"]},
+        ],
+        "patterns": [
+            "Build-then-renew sequence: walls first (chs. 1-7), then Torah (ch. 8), then covenant (chs. 9-10), then community reform (chs. 11-13) — physical security enables spiritual restoration",
+            "Opposition escalation: mockery (4:1-3) to military threat (4:7-8) to false prophecy (6:10-14) to infiltration (13:4-9) — the enemy adapts tactics when each fails",
+            "The confession prayer (ch. 9) recounts covenant history from Abraham to exile — the community locates itself within the larger story of failure and faithfulness",
+            "Nehemiah's 'remember me' refrain (5:19, 13:14, 13:22, 13:31) — the governor appeals directly to God's memory, bypassing all human systems of recognition",
+        ],
+        "mistranslations": [
+            {"english": "the joy of the LORD is your strength", "original": "chedvat YHWH hi ma'uzkem", "issue": "Often sentimentalized — this is not a happy feeling but divine joy as a defensive fortress (ma'oz = stronghold). Joy IS the fortification"},
+            {"english": "gave the sense", "original": "meforash/mevin", "issue": "Sounds like simple explanation — this may be the earliest evidence of Targum, translating Hebrew Torah into Aramaic for a community that lost its language in exile"},
+            {"english": "governor", "original": "tirshata/pechah", "issue": "English bureaucratic title hides that Nehemiah held Persian imperial authority — he was a political appointee of Artaxerxes with military backing"},
+        ],
     },
     {
         "id": 'esther',
@@ -1447,34 +1754,329 @@ BOOK_ENTRIES = [
     {
         "id": '2thessalonians',
         "section": 'new-testament',
-        "title": '2thessalonians',
-        "themes": 'SPIRIT DC',
-        "meta_text": '',
-        "body_html": '''''',
+        "title": 'Book 53: 2 Thessalonians',
+        "themes": 'SPIRIT DC REBEL',
+        "era_count": 2,
+        "chapters": 3,
+        "grade": 'B+',
+        "meta_text": '2 era files &middot; 3 chapters &middot; Grade: B+',
+        "body_html": '''<h4>Major Themes</h4>
+  <div class="theme-grid">
+    <span class="badge badge-theme">MAN OF LAWLESSNESS</span><span class="badge badge-theme">THE RESTRAINER</span><span class="badge badge-theme">DAY OF THE LORD</span><span class="badge badge-theme">DIVINE COUNCIL</span><span class="badge badge-theme">DECEPTION</span>
+  </div>
+  <p><strong>MAN OF LAWLESSNESS</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; "The man of lawlessness is revealed, the son of destruction, who opposes and exalts himself against every so-called god (theos) or object of worship, so that he takes his seat in the temple of God, proclaiming himself to be God" (2:3-4). This is a divine council concept &mdash; the anti-messiah figure who usurps the position above all spiritual authorities.</p>
+  <p><strong>THE RESTRAINER</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; "You know what is restraining him now" (2:6) and "he who now restrains" (2:7). Paul&rsquo;s audience knew the identity &mdash; we don&rsquo;t. The Holy Spirit? Michael the archangel? Rome? A divine council agent holding back chaos until the appointed time.</p>
+  <p><strong>STRONG DELUSION</strong> <span class="badge badge-major">MAJOR</span> &mdash; "God sends them a strong delusion (energeian planes), so that they may believe what is false" (2:11). Like the lying spirit in 1 Kings 22, divine council agents can be dispatched to deceive those who refuse truth &mdash; judgment through deception.</p>
+
+  <h4>Contested Words</h4>
+  <table class="ref-table">
+    <tr><th>Greek</th><th>Issue</th><th>Severity</th></tr>
+    <tr><td><strong>ho anomos</strong> (&omicron; &alpha;&nu;&omicron;&mu;&omicron;&sigmaf;)</td><td>"The lawless one" (2:8) &mdash; not merely immoral but anti-Torah, anti-order, anti-council. He opposes every divine authority structure. Christ will destroy him "by the breath of his mouth."</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>to katechon / ho katechon</strong></td><td>"The restrainer" (2:6-7) &mdash; neuter (to katechon, "what restrains") and masculine (ho katechon, "he who restrains"). Both a thing and a person. One of the NT&rsquo;s greatest mysteries.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>energeian planes</strong> (&epsilon;&nu;&epsilon;&rho;&gamma;&epsilon;&iota;&alpha;&nu; &pi;&lambda;&alpha;&nu;&eta;&sigmaf;)</td><td>"Working of error/strong delusion" (2:11) &mdash; energeia = active supernatural power. This is not mere confusion but divinely empowered deception sent as judgment.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>apostasia</strong> (&alpha;&pi;&omicron;&sigma;&tau;&alpha;&sigma;&iota;&alpha;)</td><td>"Rebellion/apostasy" (2:3) &mdash; the day cannot come unless the apostasia comes first. Spiritual defection or political revolt? The word carries both senses.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+  </table>
+
+  <h4>Unusual Characters</h4>
+  <ul>
+    <li><strong>The man of lawlessness</strong> (2:3-4) &mdash; Exalts himself above "every so-called god" &mdash; above the entire divine council. Takes God&rsquo;s seat in God&rsquo;s temple. The anti-messiah who claims supremacy over all spiritual hierarchy.</li>
+    <li><strong>The restrainer</strong> (2:6-7) &mdash; Both neuter ("what restrains") and masculine ("he who restrains"). Paul&rsquo;s audience knew. We don&rsquo;t. Holds back cosmic chaos until the appointed revelation.</li>
+    <li><strong>Christ as destroyer</strong> (2:8) &mdash; "The Lord Jesus will kill him with the breath of his mouth and bring to nothing by the appearance of his coming" &mdash; the parousia itself is a weapon.</li>
+  </ul>
+
+  <h4>Conspicuous Silences</h4>
+  <ul>
+    <li>The restrainer&rsquo;s identity &mdash; the biggest mystery in the letter. Paul says "you know" but never writes it down, leaving every generation guessing</li>
+    <li>Whether the "temple of God" (2:4) is a literal rebuilt temple or a metaphor for the ekklesia &mdash; the ambiguity is never resolved</li>
+    <li>The timeline between apostasia, restrainer removal, and lawless one&rsquo;s revelation &mdash; compressed into a few verses without chronological markers</li>
+    <li>How "God sends strong delusion" (2:11) relates to God&rsquo;s truthfulness &mdash; divine deception as judgment parallels 1 Kings 22 but is never theologized</li>
+  </ul>
+
+  <h4>Cross-References</h4>
+  <p class="xref">2 Thessalonians <span class="arrow">&rarr;</span> <span class="badge badge-ot">Daniel</span> <span class="badge badge-ot">Isaiah</span> <span class="badge badge-ot">1 Kings</span> <span class="badge badge-nt">Revelation</span> <span class="badge badge-nt">1 John</span> <span class="badge badge-nt">1 Thessalonians</span></p>''',
+        "key_claim": "The man of lawlessness is a divine council concept — a figure who 'exalts himself against every so-called god' (2:4), claiming supremacy above the entire spiritual hierarchy, and God responds with 'strong delusion' (2:11), a supernatural judgment-through-deception that echoes the lying spirit of 1 Kings 22.",
+        "contested_words": [
+            {"word": "ho anomos", "greek": "ὁ ἄνομος", "issue": "'The lawless one' (2:8) — not merely immoral but anti-Torah, anti-order, anti-council. He opposes every divine authority structure. Christ destroys him 'by the breath of his mouth.'", "severity": "CRITICAL"},
+            {"word": "to katechon / ho katechon", "greek": "τὸ κατέχον / ὁ κατέχων", "issue": "'The restrainer' (2:6-7) — neuter ('what restrains') and masculine ('he who restrains'). Both a thing and a person. One of the NT's greatest mysteries.", "severity": "CRITICAL"},
+            {"word": "energeian planes", "greek": "ἐνέργειαν πλάνης", "issue": "'Strong delusion' (2:11) — energeia = active supernatural power. Not mere confusion but divinely empowered deception sent as judgment.", "severity": "CRITICAL"},
+            {"word": "apostasia", "greek": "ἀποστασία", "issue": "'Rebellion/apostasy' (2:3) — the day cannot come unless the apostasia comes first. Spiritual defection or political revolt? Both senses present.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "daniel", "why": "The man of lawlessness exalting himself (2:4) echoes Dan 11:36 — the arrogant king who magnifies himself above every god"},
+            {"target": "isaiah", "why": "'I will ascend above the heights of the clouds; I will make myself like the Most High' (Isa 14:13-14) — the same satanic aspiration embodied in the lawless one"},
+            {"target": "1kings", "why": "God sending 'strong delusion' (2:11) parallels the lying spirit dispatched in 1 Kings 22:22 — divine council deception as judgment"},
+            {"target": "revelation", "why": "The man of lawlessness prefigures the beast of Rev 13 — both claim divine status, both deceive through signs, both are destroyed at Christ's coming"},
+            {"target": "1john", "why": "John's 'spirit of antichrist already at work' (1 John 4:3) confirms that the pattern Paul describes is not only future but present in every generation"},
+        ],
+        "what_it_doesnt_say": [
+            "The restrainer's identity — Paul says 'you know' but never writes it down, leaving every generation guessing",
+            "Whether the 'temple of God' (2:4) is a literal rebuilt temple or a metaphor for the ekklesia",
+            "The timeline between apostasia, restrainer removal, and lawless one's revelation — compressed without chronological markers",
+            "How 'God sends strong delusion' (2:11) relates to God's truthfulness — divine deception as judgment is stated without theological resolution",
+        ],
+        "unusual_characters": [
+            {"name": "The man of lawlessness", "ref": "2:3-4", "detail": "Exalts himself above 'every so-called god' — above the entire divine council. Takes God's seat. The anti-messiah claiming supremacy over all spiritual hierarchy.", "connections": ["daniel", "revelation"]},
+            {"name": "The restrainer", "ref": "2:6-7", "detail": "Both neuter and masculine. Paul's audience knew the identity. Holds back cosmic chaos until the appointed time.", "connections": []},
+            {"name": "Christ as destroyer", "ref": "2:8", "detail": "'The Lord Jesus will kill him with the breath of his mouth and bring to nothing by the appearance of his coming' — the parousia itself is a weapon.", "connections": ["isaiah", "revelation"]},
+        ],
+        "patterns": [
+            "Revelation sequence: apostasia first, then the restrainer removed, then the lawless one revealed, then Christ destroys him — a fixed eschatological order",
+            "Signs and wonders of deception (2:9): the lawless one performs 'false signs and wonders' (pseudos) — miracles are not proof of divine origin; discernment is mandatory",
+            "Judgment through deception: those who 'refused to love the truth' receive 'strong delusion' — the punishment fits the crime, echoing the lying spirit pattern of 1 Kings 22",
+            "The parousia as weapon: Christ destroys the lawless one simply by appearing — no battle, no struggle, just the radiance of his presence (epiphaneia tes parousias)",
+        ],
+        "mistranslations": [
+            {"english": "man of sin", "original": "ho anthropos tes anomias", "issue": "KJV 'man of sin' obscures 'man of lawlessness' — the figure is anti-Torah, anti-order, anti-council, not merely morally sinful"},
+            {"english": "strong delusion", "original": "energeian planes", "issue": "'Delusion' sounds like a psychological condition; energeia means active supernatural power — this is divinely empowered deception"},
+            {"english": "the falling away", "original": "he apostasia", "issue": "KJV 'falling away' is too gentle — apostasia is active rebellion, a deliberate defection from truth, not passive drifting"},
+        ],
     },
     {
         "id": '1timothy',
         "section": 'new-testament',
-        "title": '1timothy',
-        "themes": 'HOLY',
-        "meta_text": '',
-        "body_html": '''''',
+        "title": 'Book 54: 1 Timothy',
+        "themes": 'HOLY SPIRIT DC',
+        "era_count": 2,
+        "chapters": 6,
+        "grade": 'B+',
+        "meta_text": '2 era files &middot; 6 chapters &middot; Grade: B+',
+        "body_html": '''<h4>Major Themes</h4>
+  <div class="theme-grid">
+    <span class="badge badge-theme">FALSE TEACHING</span><span class="badge badge-theme">EKKLESIA ORDER</span><span class="badge badge-theme">MYSTERY OF GODLINESS</span><span class="badge badge-theme">SPIRITUAL WARFARE</span><span class="badge badge-theme">DECEITFUL SPIRITS</span>
+  </div>
+  <p><strong>FALSE TEACHING</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; Paul charges Timothy to "wage the good warfare" against false teachers (1:18). The false teaching involves "myths and endless genealogies" (1:4), a proto-Gnostic fascination with speculative systems that distract from faith. This is spiritual warfare, not merely intellectual disagreement.</p>
+  <p><strong>THE MYSTERY OF GODLINESS</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; "Great indeed, we confess, is the mystery of godliness: He was manifested in the flesh, vindicated by the Spirit, seen by angels, proclaimed among the nations, believed on in the world, taken up in glory" (3:16). An early christological hymn &mdash; note "seen by angels" &mdash; the divine council witnesses the incarnation.</p>
+  <p><strong>DECEITFUL SPIRITS</strong> <span class="badge badge-major">MAJOR</span> &mdash; "The Spirit expressly says that in later times some will depart from the faith by devoting themselves to deceitful spirits (pneumasin planois) and teachings of demons (didaskaliais daimonion)" (4:1). Apostasy has a supernatural source &mdash; demonic doctrine, not just human error.</p>
+  <p><strong>EKKLESIA ORDER</strong> <span class="badge badge-major">MAJOR</span> &mdash; Qualifications for overseers (3:1-7) and deacons (3:8-13). The ekklesia is a "pillar and buttress of the truth" (3:15) &mdash; a governing assembly with cosmic responsibility, not a religious social club.</p>
+
+  <h4>Contested Words</h4>
+  <table class="ref-table">
+    <tr><th>Greek</th><th>Issue</th><th>Severity</th></tr>
+    <tr><td><strong>mysterion tes eusebeias</strong></td><td>"Mystery of godliness" (3:16) &mdash; an early creedal hymn. "Seen by angels" (ophthe angelois) &mdash; the divine council witnesses the incarnation event.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>pneumasin planois</strong></td><td>"Deceitful spirits" (4:1) &mdash; real spiritual entities producing false teaching. Doctrine can have a demonic source, not just a human one.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>episkopos</strong> (&epsilon;&pi;&iota;&sigma;&kappa;&omicron;&pi;&omicron;&sigmaf;)</td><td>"Overseer" (3:1) &mdash; NOT "bishop" in the later hierarchical sense. A functional role in the ekklesia, not an ecclesiastical rank.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+    <tr><td><strong>stylos kai hedraioma</strong></td><td>"Pillar and buttress of the truth" (3:15) &mdash; the ekklesia as a governing assembly that UPHOLDS truth. Structural metaphor: without it, the truth collapses in the public sphere.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+  </table>
+
+  <h4>Unusual Characters</h4>
+  <ul>
+    <li><strong>Timothy</strong> (1:2) &mdash; Paul&rsquo;s "true child in the faith" &mdash; young, possibly timid ("let no one despise your youth," 4:12), entrusted with the cosmic responsibility of guarding sound doctrine at Ephesus.</li>
+    <li><strong>Hymenaeus and Alexander</strong> (1:20) &mdash; "Handed over to Satan" &mdash; Paul delivers false teachers to the adversary "that they may learn not to blaspheme." Discipline through divine council agency.</li>
+    <li><strong>The deceitful spirits</strong> (4:1) &mdash; Supernatural entities behind false teaching &mdash; forbidding marriage and requiring abstinence from foods. The demonic agenda is ascetic distortion, not mere intellectual error.</li>
+  </ul>
+
+  <h4>Conspicuous Silences</h4>
+  <ul>
+    <li>The specific false teaching is never fully described &mdash; "myths and genealogies" are mentioned but never quoted or detailed</li>
+    <li>What "handed over to Satan" (1:20) means in practice &mdash; excommunication? Physical affliction? The mechanism is unstated</li>
+    <li>How "seen by angels" (3:16) fits the christological hymn &mdash; the divine council witness is inserted without explanation</li>
+    <li>The relationship between "all Scripture is breathed out by God" (technically in 2 Timothy 3:16) and the oral traditions Paul also commands Timothy to guard</li>
+  </ul>
+
+  <h4>Cross-References</h4>
+  <p class="xref">1 Timothy <span class="arrow">&rarr;</span> <span class="badge badge-nt">2 Timothy</span> <span class="badge badge-nt">Titus</span> <span class="badge badge-nt">Ephesians</span> <span class="badge badge-nt">1 Corinthians</span> <span class="badge badge-nt">Acts</span> <span class="badge badge-ot">Deuteronomy</span></p>''',
+        "key_claim": "False teaching has a supernatural source — 'deceitful spirits and teachings of demons' (4:1) — making the ekklesia's role as 'pillar and buttress of the truth' (3:15) not a religious preference but a cosmic responsibility: the governing assembly holds the line against demonic doctrine.",
+        "contested_words": [
+            {"word": "mysterion tes eusebeias", "greek": "μυστήριον τῆς εὐσεβείας", "issue": "'Mystery of godliness' (3:16) — an early creedal hymn. 'Seen by angels' (ophthe angelois) — the divine council witnesses the incarnation.", "severity": "CRITICAL"},
+            {"word": "pneumasin planois", "greek": "πνεύμασιν πλάνοις", "issue": "'Deceitful spirits' (4:1) — real spiritual entities producing false teaching. Doctrine can have a demonic source, not just a human one.", "severity": "CRITICAL"},
+            {"word": "episkopos", "greek": "ἐπίσκοπος", "issue": "'Overseer' (3:1) — NOT 'bishop' in the later hierarchical sense. A functional role in the ekklesia, not an ecclesiastical rank.", "severity": "MAJOR"},
+            {"word": "stylos kai hedraioma", "greek": "στῦλος καὶ ἑδραίωμα", "issue": "'Pillar and buttress of the truth' (3:15) — the ekklesia upholds truth. Structural metaphor: without it, truth collapses in the public sphere.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "ephesians", "why": "The ekklesia as 'pillar of truth' (1 Tim 3:15) complements Eph 3:10 — the governing assembly both upholds truth and makes it known to cosmic powers"},
+            {"target": "2timothy", "why": "The same warfare against false teaching intensifies — 2 Tim warns of worse to come as 'evil people and impostors will go on from bad to worse' (2 Tim 3:13)"},
+            {"target": "titus", "why": "Parallel pastoral instruction — Titus organizes Cretan churches while Timothy guards Ephesus. Same theology, different contexts"},
+            {"target": "1corinthians", "why": "'Handing over to Satan' (1:20) parallels 1 Cor 5:5 — Paul uses the same divine council discipline in both communities"},
+            {"target": "acts", "why": "Paul's warning to Ephesian elders (Acts 20:29-30) about 'fierce wolves' is fulfilled in the false teachers Timothy now confronts"},
+            {"target": "deuteronomy", "why": "The false teaching involving 'the law' (1:7) is a distortion of Torah — 'desiring to be teachers of the law, without understanding' what they teach"},
+        ],
+        "what_it_doesnt_say": [
+            "The specific false teaching is never fully described — 'myths and genealogies' are mentioned but never quoted or detailed",
+            "What 'handed over to Satan' (1:20) means in practice — excommunication? Physical affliction? The mechanism is unstated",
+            "How 'seen by angels' (3:16) fits the christological hymn — the divine council witness is inserted without explanation",
+            "Whether women in the Ephesian context is a universal prohibition or a local correction to a specific false-teaching situation (2:11-15)",
+        ],
+        "unusual_characters": [
+            {"name": "Timothy", "ref": "1:2", "detail": "Paul's 'true child in the faith' — young, possibly timid, entrusted with guarding sound doctrine at Ephesus against demonic false teaching.", "connections": ["2timothy", "acts"]},
+            {"name": "Hymenaeus and Alexander", "ref": "1:20", "detail": "'Handed over to Satan' — Paul delivers false teachers to the adversary 'that they may learn not to blaspheme.' Divine council discipline.", "connections": ["2timothy", "1corinthians"]},
+            {"name": "The deceitful spirits", "ref": "4:1", "detail": "Supernatural entities behind false teaching — forbidding marriage, requiring food abstinence. Demonic agenda expressed through ascetic distortion.", "connections": ["1john", "2peter"]},
+        ],
+        "patterns": [
+            "Warfare language: 'wage the good warfare' (1:18), 'fight the good fight of faith' (6:12), spiritual armor assumed — pastoral ministry IS combat",
+            "Sound doctrine vs. demonic doctrine: the contrast runs through the entire letter — healthy teaching (hygiainousa didaskalia) versus teachings of demons (didaskaliais daimonion)",
+            "The ekklesia as governing assembly: overseer qualifications (3:1-7), deacon qualifications (3:8-13), 'pillar of truth' (3:15) — this is a structured administration, not a casual gathering",
+            "Money as spiritual battleground: 'the love of money is a root of all kinds of evil' (6:10) — false teachers are motivated by financial gain (6:5), connecting material greed to spiritual corruption",
+        ],
+        "mistranslations": [
+            {"english": "bishop", "original": "episkopos", "issue": "Later ecclesiastical hierarchy reads backward into a functional role — episkopos means 'overseer/supervisor,' not a ranked office with authority over multiple churches"},
+            {"english": "church", "original": "ekklesia", "issue": "'Church' imports institutional religion; ekklesia = governing assembly with cosmic responsibility — the 'pillar of truth' is a council, not a congregation"},
+            {"english": "godliness", "original": "eusebeia", "issue": "Sounds like personal piety; eusebeia means proper reverence and cosmic orientation — right relationship with God AND the divine order"},
+        ],
     },
     {
         "id": '2timothy',
         "section": 'new-testament',
-        "title": '2timothy',
-        "themes": 'HOLY',
-        "meta_text": '',
-        "body_html": '''''',
+        "title": 'Book 55: 2 Timothy',
+        "themes": 'HOLY SPIRIT',
+        "era_count": 2,
+        "chapters": 4,
+        "grade": 'B+',
+        "meta_text": '2 era files &middot; 4 chapters &middot; Grade: B+',
+        "body_html": '''<h4>Major Themes</h4>
+  <div class="theme-grid">
+    <span class="badge badge-theme">SCRIPTURE INSPIRED</span><span class="badge badge-theme">ENDURANCE</span><span class="badge badge-theme">FINAL CHARGE</span><span class="badge badge-theme">APOSTASY</span><span class="badge badge-theme">CROWN</span>
+  </div>
+  <p><strong>ALL SCRIPTURE IS GOD-BREATHED</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; "All Scripture is breathed out by God (theopneustos) and profitable for teaching, for reproof, for correction, and for training in righteousness" (3:16). Theopneustos appears ONLY here in all of Greek literature &mdash; Paul may have coined it. Not "inspired" (breathing into humans) but "expired" (breathed out FROM God).</p>
+  <p><strong>ENDURANCE UNDER SUFFERING</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; Paul writes from prison, expecting execution: "I am already being poured out as a drink offering" (4:6). He charges Timothy to "share in suffering as a good soldier" (2:3), "endure everything for the sake of the elect" (2:10). Ministry IS suffering.</p>
+  <p><strong>THE CROWN OF RIGHTEOUSNESS</strong> <span class="badge badge-major">MAJOR</span> &mdash; "I have fought the good fight, I have finished the race, I have kept the faith. Henceforth there is laid up for me the crown of righteousness" (4:7-8). Athletic and military metaphors merge &mdash; the stephanos (victor&rsquo;s wreath) awaits all who love Christ&rsquo;s appearing (epiphaneia).</p>
+  <p><strong>LAST-DAYS APOSTASY</strong> <span class="badge badge-major">MAJOR</span> &mdash; "In the last days there will come times of difficulty" (3:1). People will be "lovers of self, lovers of money... having the appearance of godliness but denying its power" (3:2-5). The description sounds contemporary because apostasy is a perpetual pattern, not only an end-time event.</p>
+
+  <h4>Contested Words</h4>
+  <table class="ref-table">
+    <tr><th>Greek</th><th>Issue</th><th>Severity</th></tr>
+    <tr><td><strong>theopneustos</strong> (&theta;&epsilon;&omicron;&pi;&nu;&epsilon;&upsilon;&sigma;&tau;&omicron;&sigmaf;)</td><td>"God-breathed" (3:16) &mdash; appears ONLY here in all Greek literature. Not "inspired" (God breathing into authors) but "expired" (breathed out from God). The direction of the breath matters.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>orthotomeo</strong> (&omicron;&rho;&theta;&omicron;&tau;&omicron;&mu;&epsilon;&omega;)</td><td>"Rightly handling" (2:15) &mdash; literally "cutting straight." A word from masonry or road-building: precision is required in handling truth, not approximate interpretation.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>stephanos dikaiosynes</strong></td><td>"Crown of righteousness" (4:8) &mdash; stephanos = victor&rsquo;s wreath (not diadema/royal crown). Awarded to all who have "loved his appearing" (epiphaneia).</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+    <tr><td><strong>sponde</strong> (&sigma;&pi;&omicron;&nu;&delta;&eta;)</td><td>"Drink offering" (4:6) &mdash; Paul describes his imminent execution using sacrificial language. His death is a liturgical act, not a tragedy.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+  </table>
+
+  <h4>Unusual Characters</h4>
+  <ul>
+    <li><strong>Paul</strong> (1:1) &mdash; Writing his final letter from a Roman prison, expecting execution. "I am already being poured out." The apostle faces death as a drink offering &mdash; sacrificial, not defeated.</li>
+    <li><strong>Hymenaeus and Philetus</strong> (2:17) &mdash; False teachers who say "the resurrection has already happened" &mdash; an over-realized eschatology that collapses future hope into past event, destroying faith.</li>
+    <li><strong>Jannes and Jambres</strong> (3:8) &mdash; Named nowhere in the OT but identified here as the Egyptian magicians who opposed Moses. Paul draws from Jewish tradition (possibly Targum) to name unnamed enemies.</li>
+    <li><strong>Lois and Eunice</strong> (1:5) &mdash; Timothy&rsquo;s grandmother and mother who transmitted "sincere faith" across three generations. Women as the primary agents of faith transmission in the seed line.</li>
+  </ul>
+
+  <h4>Conspicuous Silences</h4>
+  <ul>
+    <li>"All Scripture is God-breathed" (3:16) never defines which writings constitute "Scripture" &mdash; the canon was not yet closed when Paul wrote this</li>
+    <li>Paul says "all deserted me" (4:16) at his first defense &mdash; the abandonment of the apostle by the community is stated without bitterness or explanation</li>
+    <li>Demas "in love with this present world" (4:10) deserted Paul &mdash; no further detail, no resolution, no indication whether he ever returned</li>
+    <li>How "the resurrection has already happened" (2:18) functioned as false teaching &mdash; the theological mechanism of this specific heresy is assumed, not explained</li>
+  </ul>
+
+  <h4>Cross-References</h4>
+  <p class="xref">2 Timothy <span class="arrow">&rarr;</span> <span class="badge badge-nt">1 Timothy</span> <span class="badge badge-nt">Acts</span> <span class="badge badge-ot">Exodus</span> <span class="badge badge-nt">Philippians</span> <span class="badge badge-nt">Romans</span> <span class="badge badge-nt">1 Corinthians</span></p>''',
+        "key_claim": "Theopneustos (3:16) appears ONLY here in all of Greek literature — Paul may have coined the word to express that Scripture is not 'inspired' (breathed into) but 'expired' (breathed out FROM God), making the direction of the divine breath the foundation of all biblical authority.",
+        "contested_words": [
+            {"word": "theopneustos", "greek": "θεόπνευστος", "issue": "'God-breathed' (3:16) — appears ONLY here in all Greek literature. Not 'inspired' (God breathing into authors) but 'expired' (breathed out from God). The direction matters.", "severity": "CRITICAL"},
+            {"word": "orthotomeo", "greek": "ὀρθοτομέω", "issue": "'Rightly handling' (2:15) — literally 'cutting straight.' From masonry or road-building. Precision is required in handling truth.", "severity": "CRITICAL"},
+            {"word": "stephanos dikaiosynes", "greek": "στέφανος δικαιοσύνης", "issue": "'Crown of righteousness' (4:8) — stephanos = victor's wreath. Awarded to all who have 'loved his appearing.'", "severity": "MAJOR"},
+            {"word": "sponde", "greek": "σπονδή", "issue": "'Drink offering' (4:6) — Paul describes his execution using sacrificial language. His death is liturgical, not tragic.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "1timothy", "why": "The warfare continues — Hymenaeus appears in both letters (1 Tim 1:20, 2 Tim 2:17). The false teaching is spreading, not contained"},
+            {"target": "acts", "why": "Paul's final imprisonment and trial (2 Tim 4) follows Acts 28 — this letter fills the gap Acts leaves open about Paul's end"},
+            {"target": "exodus", "why": "Jannes and Jambres (3:8) are the Egyptian magicians of Ex 7:11 — Paul names them from Jewish tradition to identify the pattern of opposition to God's agents"},
+            {"target": "philippians", "why": "'Being poured out as a drink offering' (4:6) echoes Phil 2:17 — Paul used the same sacrificial language earlier, but now it is imminent, not hypothetical"},
+            {"target": "romans", "why": "'If we endure, we will also reign with him' (2:12) connects to Rom 8:17 — co-suffering leads to co-reigning in the cosmic administration"},
+            {"target": "1corinthians", "why": "The resurrection false teaching (2:18) inverts Paul's resurrection argument in 1 Cor 15 — without future resurrection, faith is futile"},
+        ],
+        "what_it_doesnt_say": [
+            "'All Scripture is God-breathed' never defines which writings constitute 'Scripture' — the canon was not yet closed when Paul wrote",
+            "Paul says 'all deserted me' (4:16) — the abandonment by the community is stated without bitterness or explanation",
+            "Demas 'in love with this present world' (4:10) deserted Paul — no further detail, no resolution, no return",
+            "How 'the resurrection has already happened' (2:18) functioned as heresy — the mechanism is assumed, not explained",
+        ],
+        "unusual_characters": [
+            {"name": "Paul (final letter)", "ref": "1:1", "detail": "Writing from prison, expecting execution. 'I am already being poured out.' Faces death as a drink offering — sacrificial, not defeated.", "connections": ["acts", "philippians"]},
+            {"name": "Hymenaeus and Philetus", "ref": "2:17", "detail": "Say 'the resurrection has already happened' — over-realized eschatology that collapses future hope into past event, destroying faith.", "connections": ["1timothy"]},
+            {"name": "Jannes and Jambres", "ref": "3:8", "detail": "Named nowhere in the OT but identified here as Egyptian magicians opposing Moses. Paul draws from Jewish tradition to name unnamed enemies.", "connections": ["exodus"]},
+            {"name": "Lois and Eunice", "ref": "1:5", "detail": "Timothy's grandmother and mother who transmitted 'sincere faith' across generations. Women as primary agents of faith transmission.", "connections": []},
+        ],
+        "patterns": [
+            "Soldier-athlete-farmer triad (2:3-6): three metaphors for ministry — the soldier endures, the athlete competes lawfully, the farmer works first and eats later. All require sacrifice before reward",
+            "Faithful sayings: 'if we died with him, we will live; if we endure, we will reign; if we deny, he will deny; if we are faithless, he remains faithful' (2:11-13) — four conditions, four outcomes",
+            "Last days as present reality: the characteristics of 'the last days' (3:1-5) describe not just a future period but an ongoing pattern of human corruption — 'having the appearance of godliness but denying its power'",
+            "Three-generation faith transmission: Lois to Eunice to Timothy (1:5) — the 'sincere faith' passes through women's witness, not institutional structures",
+        ],
+        "mistranslations": [
+            {"english": "inspired by God", "original": "theopneustos", "issue": "CRITICAL: 'inspired' reverses the direction — it means breathed INTO a person. Theopneustos means breathed OUT from God. Scripture originates from God, not from human inspiration"},
+            {"english": "rightly dividing", "original": "orthotomeo", "issue": "KJV 'dividing' suggests cutting into pieces; the word means cutting straight like a mason — accurate handling, not dissection"},
+            {"english": "fight the good fight", "original": "ton kalon agona agonizou", "issue": "'Fight' is too narrow — agon covers athletic contest, legal struggle, and military combat. Paul's entire ministry was the agon"},
+        ],
     },
     {
         "id": 'titus',
         "section": 'new-testament',
-        "title": 'titus',
-        "themes": 'HOLY',
-        "meta_text": '',
-        "body_html": '''''',
+        "title": 'Book 56: Titus',
+        "themes": 'HOLY COV TYPE',
+        "era_count": 2,
+        "chapters": 3,
+        "grade": 'B+',
+        "meta_text": '2 era files &middot; 3 chapters &middot; Grade: B+',
+        "body_html": '''<h4>Major Themes</h4>
+  <div class="theme-grid">
+    <span class="badge badge-theme">GRACE THAT TRAINS</span><span class="badge badge-theme">SOUND DOCTRINE</span><span class="badge badge-theme">GOOD WORKS</span><span class="badge badge-theme">JUSTIFIED BY GRACE</span><span class="badge badge-theme">BLESSED HOPE</span>
+  </div>
+  <p><strong>GRACE THAT TRAINS</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; "The grace of God has appeared, bringing salvation for all people, TRAINING us to renounce ungodliness" (2:11-12). The Greek paideuousa means disciplined instruction &mdash; grace is not permissive but pedagogical. It teaches, corrects, and shapes. Grace has content and demands transformation.</p>
+  <p><strong>THE BLESSED HOPE</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; "Waiting for our blessed hope, the appearing (epiphaneia) of the glory of our great God and Savior Jesus Christ" (2:13). One of the most explicit deity-of-Christ statements in Paul &mdash; "our great God and Savior" applies both titles to one person, Jesus Christ.</p>
+  <p><strong>JUSTIFIED BY GRACE</strong> <span class="badge badge-major">MAJOR</span> &mdash; "He saved us, not because of works done by us in righteousness, but according to his own mercy, by the washing of regeneration and renewal of the Holy Spirit... so that being justified by his grace we might become heirs according to the hope of eternal life" (3:5-7). The most concentrated salvation summary in Paul&rsquo;s letters.</p>
+  <p><strong>SOUND DOCTRINE &amp; GOOD WORKS</strong> <span class="badge badge-major">MAJOR</span> &mdash; "Sound doctrine" (hygiainousa didaskalia) appears repeatedly &mdash; teaching that produces health. Good works (kala erga) are the RESULT of grace, not the means &mdash; mentioned six times in three chapters.</p>
+
+  <h4>Contested Words</h4>
+  <table class="ref-table">
+    <tr><th>Greek</th><th>Issue</th><th>Severity</th></tr>
+    <tr><td><strong>paideuousa</strong> (&pi;&alpha;&iota;&delta;&epsilon;&upsilon;&omicron;&upsilon;&sigma;&alpha;)</td><td>"Training" (2:12) &mdash; from paideia, the Greek concept of comprehensive education. Grace does not merely forgive; it TRAINS, disciplines, and transforms. Grace has teeth.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>tou megalou theou kai soteros</strong></td><td>"Our great God and Savior" (2:13) &mdash; Granville Sharp rule: one article governing two nouns joined by kai = one person. "God" and "Savior" are BOTH Jesus Christ.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>palingenesia</strong> (&pi;&alpha;&lambda;&iota;&gamma;&gamma;&epsilon;&nu;&epsilon;&sigma;&iota;&alpha;)</td><td>"Regeneration" (3:5) &mdash; used only here and Matt 19:28. In Matthew it refers to cosmic renewal; here to individual rebirth. "Washing of regeneration" &mdash; baptismal or spiritual?</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+    <tr><td><strong>hygiainousa didaskalia</strong></td><td>"Sound doctrine" (1:9, 2:1) &mdash; hygiainousa = healthy, producing health. Doctrine is not abstract theory but medicine. False teaching is disease; sound teaching heals.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+  </table>
+
+  <h4>Unusual Characters</h4>
+  <ul>
+    <li><strong>Titus</strong> (1:4) &mdash; Paul&rsquo;s "true child in a common faith" &mdash; a Gentile entrusted with organizing churches on Crete. Never mentioned in Acts, yet Paul&rsquo;s most trusted troubleshooter.</li>
+    <li><strong>The Cretans</strong> (1:12) &mdash; Paul quotes their own prophet (Epimenides): "Cretans are always liars, evil beasts, lazy gluttons." Then says: "This testimony is true" &mdash; the most politically incorrect verse in the NT.</li>
+    <li><strong>Epimenides</strong> (1:12) &mdash; A pagan Cretan prophet whom Paul quotes approvingly. Paul engages pagan intellectual tradition when it speaks truth &mdash; just as he does at Athens (Acts 17:28).</li>
+  </ul>
+
+  <h4>Conspicuous Silences</h4>
+  <ul>
+    <li>Titus is never mentioned in Acts despite being one of Paul&rsquo;s most important colleagues &mdash; a significant gap in Luke&rsquo;s narrative</li>
+    <li>The "factious person" (3:10) who should be warned twice then avoided is never named or described &mdash; the criterion for separation is minimal</li>
+    <li>No mention of spiritual gifts, tongues, or charismatic manifestation on Crete &mdash; the entire focus is on character and sound teaching</li>
+    <li>The relationship between "justified by grace" (3:7) and the repeated emphasis on "good works" is asserted but never systematically resolved</li>
+  </ul>
+
+  <h4>Cross-References</h4>
+  <p class="xref">Titus <span class="arrow">&rarr;</span> <span class="badge badge-nt">1 Timothy</span> <span class="badge badge-nt">2 Timothy</span> <span class="badge badge-nt">Romans</span> <span class="badge badge-nt">Ephesians</span> <span class="badge badge-nt">Galatians</span> <span class="badge badge-nt">Acts</span></p>''',
+        "key_claim": "Grace is not permissive but pedagogical — 'the grace of God has appeared, TRAINING us to renounce ungodliness' (2:11-12) — and Titus 2:13 is one of the most explicit deity-of-Christ statements in Paul: 'our great God and Savior Jesus Christ,' both titles applied to one person.",
+        "contested_words": [
+            {"word": "paideuousa", "greek": "παιδεύουσα", "issue": "'Training' (2:12) — from paideia, comprehensive education. Grace does not merely forgive; it TRAINS, disciplines, and transforms. Grace has teeth.", "severity": "CRITICAL"},
+            {"word": "tou megalou theou kai soteros", "greek": "τοῦ μεγάλου θεοῦ καὶ σωτῆρος", "issue": "'Our great God and Savior' (2:13) — Granville Sharp rule: one article, two nouns, one person. God and Savior are BOTH Jesus.", "severity": "CRITICAL"},
+            {"word": "palingenesia", "greek": "παλιγγενεσία", "issue": "'Regeneration' (3:5) — used only here and Matt 19:28. In Matthew: cosmic renewal. Here: individual rebirth. 'Washing of regeneration' — baptismal or spiritual?", "severity": "MAJOR"},
+            {"word": "hygiainousa didaskalia", "greek": "ὑγιαίνουσα διδασκαλία", "issue": "'Sound doctrine' — hygiainousa = healthy, producing health. Doctrine is medicine. False teaching is disease; sound teaching heals.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "romans", "why": "'Justified by his grace' (3:7) is the condensed version of Romans 3-5 — the same theology in miniature, applied to pastoral context"},
+            {"target": "ephesians", "why": "'Saved by grace through faith, not of works' (Eph 2:8-9) parallels Titus 3:5 — 'not because of works done by us in righteousness'"},
+            {"target": "galatians", "why": "Titus himself was the test case: Paul refused to circumcise him (Gal 2:3) — a Gentile leader organizing churches proves the grace principle"},
+            {"target": "1timothy", "why": "Parallel pastoral structure — elder qualifications (1:5-9) mirror 1 Tim 3:1-7. Same theology for different cultural contexts"},
+            {"target": "acts", "why": "Paul quotes Epimenides (1:12) just as he quotes Aratus at Athens (Acts 17:28) — engaging pagan truth when it aligns with reality"},
+        ],
+        "what_it_doesnt_say": [
+            "Titus is never mentioned in Acts — one of Paul's most important colleagues has no narrative presence in Luke's history",
+            "The 'factious person' (3:10) to be warned then avoided is never named or described — the criterion for separation is minimal",
+            "No mention of spiritual gifts or charismatic manifestation on Crete — the entire focus is character and sound teaching",
+            "The relationship between 'justified by grace' (3:7) and repeated emphasis on 'good works' is asserted but never systematically resolved",
+        ],
+        "unusual_characters": [
+            {"name": "Titus", "ref": "1:4", "detail": "Paul's 'true child in a common faith' — a Gentile organizing churches on Crete. Never in Acts, yet Paul's most trusted troubleshooter.", "connections": ["galatians", "2corinthians"]},
+            {"name": "The Cretans", "ref": "1:12", "detail": "Paul quotes their own prophet: 'Cretans are always liars, evil beasts, lazy gluttons.' Then: 'This testimony is true.' The most culturally direct verse in the NT.", "connections": []},
+            {"name": "Epimenides", "ref": "1:12", "detail": "A pagan Cretan prophet whom Paul quotes approvingly — Paul engages pagan intellectual tradition when it speaks truth.", "connections": ["acts"]},
+        ],
+        "patterns": [
+            "Grace as pedagogy: grace 'appeared' (2:11), grace 'trains' (2:12), grace produces the 'blessed hope' (2:13) — a complete arc from revelation to transformation to consummation",
+            "Good works as fruit: kala erga appears six times in three chapters — always as the RESULT of grace, never the means. The order is irreversible: salvation then works",
+            "Sound/healthy language: hygiainousa (healthy) applied to doctrine, faith, speech — the medical metaphor runs throughout. The community's health depends on doctrinal health",
+            "Elder qualifications as character profile (1:5-9): blameless, husband of one wife, not arrogant, not violent, hospitable, self-controlled — leadership is proven character, not gifting",
+        ],
+        "mistranslations": [
+            {"english": "sound doctrine", "original": "hygiainousa didaskalia", "issue": "'Sound' as in 'solid' misses the medical metaphor — hygiainousa means 'healthy/health-producing.' Doctrine is either medicine or poison"},
+            {"english": "the grace of God has appeared", "original": "epephane he charis tou theou", "issue": "'Appeared' is too bland — epiphaino is theophany language. Grace made a divine appearance, an epiphany. This is revelation, not a concept"},
+            {"english": "washing of rebirth", "original": "loutrou palingenesias", "issue": "'Rebirth' domesticates palingenesia — the word means cosmic regeneration (Matt 19:28 uses it for the renewal of all things). Individual salvation is connected to cosmic restoration"},
+        ],
     },
     {
         "id": 'philemon',
@@ -1582,18 +2184,162 @@ BOOK_ENTRIES = [
     {
         "id": '2john',
         "section": 'new-testament',
-        "title": '2john',
-        "themes": '',
-        "meta_text": '',
-        "body_html": '''''',
+        "title": 'Book 63: 2 John',
+        "themes": 'SPIRIT',
+        "era_count": 2,
+        "chapters": 1,
+        "grade": 'B+',
+        "meta_text": '2 era files &middot; 1 chapter &middot; Grade: B+',
+        "body_html": '''<h4>Major Themes</h4>
+  <div class="theme-grid">
+    <span class="badge badge-theme">TRUTH</span><span class="badge badge-theme">ANTICHRIST</span><span class="badge badge-theme">HOSPITALITY REFUSED</span><span class="badge badge-theme">INCARNATION TEST</span><span class="badge badge-theme">LOVE &amp; COMMAND</span>
+  </div>
+  <p><strong>WALKING IN TRUTH</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; "I rejoiced greatly to find some of your children walking in the truth" (v. 4). Truth (aletheia) appears five times in 13 verses. Walking in truth is not abstract belief but embodied practice &mdash; a lifestyle of alignment with the reality God has revealed.</p>
+  <p><strong>THE ANTICHRIST TEST</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; "Many deceivers have gone out into the world, those who do not confess the coming of Jesus Christ in the flesh. Such a one is the deceiver and the antichrist" (v. 7). The incarnation &mdash; Christ truly taking on human flesh &mdash; is THE dividing line. Deny the flesh, and you serve the anti-Christ spirit.</p>
+  <p><strong>REFUSE FALSE TEACHERS HOSPITALITY</strong> <span class="badge badge-major">MAJOR</span> &mdash; "If anyone comes to you and does not bring this teaching, do not receive him into your house or give him any greeting, for whoever greets him takes part in his wicked works" (vv. 10-11). Radical boundary-drawing: hospitality to false teachers makes you complicit in their deception.</p>
+
+  <h4>Contested Words</h4>
+  <table class="ref-table">
+    <tr><th>Greek</th><th>Issue</th><th>Severity</th></tr>
+    <tr><td><strong>ho planos kai ho antichristos</strong></td><td>"The deceiver and the antichrist" (v. 7) &mdash; the definite articles make this a category, not just a single figure. Everyone who denies Christ in the flesh IS "the antichrist" pattern.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>erchomenon en sarki</strong></td><td>"Coming in the flesh" (v. 7) &mdash; present participle, not past. Some argue this refers to Christ&rsquo;s future return in bodily form, not just the past incarnation. The incarnation is ongoing.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>eklekte kyria</strong> (&epsilon;&kappa;&lambda;&epsilon;&kappa;&tau;&eta; &kappa;&upsilon;&rho;&iota;&alpha;)</td><td>"Elect lady" (v. 1) &mdash; a specific woman? A personification of a local ekklesia? Her "children" could be members. The ambiguity is deliberate.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+    <tr><td><strong>proagon</strong> (&pi;&rho;&omicron;&alpha;&gamma;&omega;&nu;)</td><td>"Goes on ahead/runs ahead" (v. 9) &mdash; those who "go beyond" Christ&rsquo;s teaching. Progress beyond the apostolic foundation is regression, not advancement.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+  </table>
+
+  <h4>Unusual Characters</h4>
+  <ul>
+    <li><strong>The elect lady</strong> (v. 1) &mdash; Either a specific woman leader or a personification of a local ekklesia. The letter is addressed to her and her "children" &mdash; a community under her care or influence.</li>
+    <li><strong>The deceivers</strong> (v. 7) &mdash; "Many deceivers have gone out into the world" &mdash; not a future threat but a present reality. They are already embedded in the community&rsquo;s network.</li>
+    <li><strong>The elder</strong> (v. 1) &mdash; John identifies himself only as "the elder" (ho presbyteros), not "the apostle." Authority through relationship and age, not title.</li>
+  </ul>
+
+  <h4>Conspicuous Silences</h4>
+  <ul>
+    <li>The identity of the "elect lady" is never clarified &mdash; woman or church? The ambiguity has never been resolved</li>
+    <li>The specific false teaching beyond denying Christ "in the flesh" is not described &mdash; what exactly were the deceivers teaching?</li>
+    <li>No mention of the Holy Spirit, prayer, or worship &mdash; the letter is entirely focused on truth-boundaries and hospitality ethics</li>
+    <li>How to distinguish between legitimate traveling teachers and false ones &mdash; the only criterion is christological confession</li>
+  </ul>
+
+  <h4>Cross-References</h4>
+  <p class="xref">2 John <span class="arrow">&rarr;</span> <span class="badge badge-nt">1 John</span> <span class="badge badge-nt">3 John</span> <span class="badge badge-nt">Jude</span> <span class="badge badge-nt">Revelation</span></p>''',
+        "key_claim": "The incarnation is the non-negotiable dividing line — 'whoever does not confess the coming of Jesus Christ in the flesh' is 'the deceiver and the antichrist' (v. 7) — and extending hospitality to those who deny it makes you 'a participant in their wicked works' (v. 11).",
+        "contested_words": [
+            {"word": "ho planos kai ho antichristos", "greek": "ὁ πλάνος καὶ ὁ ἀντίχριστος", "issue": "'The deceiver and the antichrist' (v. 7) — definite articles make this a category. Everyone who denies Christ in the flesh IS the antichrist pattern.", "severity": "CRITICAL"},
+            {"word": "erchomenon en sarki", "greek": "ἐρχόμενον ἐν σαρκί", "issue": "'Coming in the flesh' (v. 7) — present participle, not past. May refer to Christ's future return in bodily form, not just the past incarnation.", "severity": "CRITICAL"},
+            {"word": "eklekte kyria", "greek": "ἐκλεκτὴ κυρία", "issue": "'Elect lady' (v. 1) — a specific woman? A personification of a local ekklesia? Her 'children' could be members. The ambiguity may be deliberate.", "severity": "MAJOR"},
+            {"word": "proagon", "greek": "προάγων", "issue": "'Runs ahead' (v. 9) — those who 'go beyond' Christ's teaching. Progress beyond the apostolic foundation is regression, not advancement.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "1john", "why": "The antichrist warning (v. 7) continues 1 John 2:18-22 and 4:1-3 — the same christological test applied to concrete hospitality decisions"},
+            {"target": "3john", "why": "2 John warns against receiving false teachers; 3 John rebukes Diotrephes for refusing to receive TRUE teachers — the two letters are complementary boundary-setting"},
+            {"target": "jude", "why": "Jude warns of those who 'crept in unnoticed' (Jude 4) — the same infiltration problem that 2 John addresses with the hospitality ban"},
+            {"target": "revelation", "why": "The spirit of antichrist (v. 7) active now anticipates the eschatological antichrist of Revelation — the pattern is already operational"},
+            {"target": "colossians", "why": "Christ 'in the flesh' (v. 7) connects to Col 1:22 — reconciliation happened 'in his body of flesh by his death.' Deny the flesh, lose the reconciliation"},
+        ],
+        "what_it_doesnt_say": [
+            "The identity of the 'elect lady' — woman or church? The ambiguity has never been resolved",
+            "The specific false teaching beyond denying Christ 'in the flesh' — what exactly were the deceivers teaching?",
+            "No mention of the Holy Spirit, prayer, or worship — entirely focused on truth-boundaries and hospitality ethics",
+            "How to distinguish legitimate traveling teachers from false ones beyond christological confession",
+        ],
+        "unusual_characters": [
+            {"name": "The elect lady", "ref": "v. 1", "detail": "Either a specific woman leader or a personification of a local ekklesia. The letter is addressed to her and her 'children.'", "connections": ["3john"]},
+            {"name": "The deceivers", "ref": "v. 7", "detail": "'Many deceivers have gone out into the world' — not future but present. Already embedded in the community's network.", "connections": ["1john", "jude"]},
+            {"name": "The elder (John)", "ref": "v. 1", "detail": "Identifies himself as 'the elder,' not 'the apostle.' Authority through relationship and age, not institutional title.", "connections": ["3john"]},
+        ],
+        "patterns": [
+            "Truth as boundary: aletheia appears five times in 13 verses — truth defines who is in and who is out, who receives hospitality and who is turned away",
+            "Incarnation as the test: the single theological criterion is christological — does the teacher confess Christ 'coming in the flesh'? Everything else is secondary",
+            "Hospitality as theology: in the ancient world, hosting a teacher implied endorsing their message. Refusing hospitality is not rudeness but doctrinal faithfulness",
+            "Love and command inseparable: 'this is love, that we walk according to his commandments' (v. 6) — love is not sentiment but obedience, echoing the Deuteronomic pattern",
+        ],
+        "mistranslations": [
+            {"english": "the antichrist", "original": "ho antichristos", "issue": "The definite article makes readers think of one future figure — but John uses it as a CATEGORY. Anyone denying the incarnation embodies the antichrist pattern now"},
+            {"english": "does not abide in the teaching", "original": "me menon en te didache", "issue": "'Abide' sounds passive; menon means to remain planted, to hold position. Departure from apostolic teaching is active desertion, not passive drift"},
+            {"english": "greet", "original": "chairein", "issue": "'Greeting' sounds trivially social — in the ancient world, the greeting (chairein) was a formal acknowledgment of fellowship. Withholding it was a public declaration of separation"},
+        ],
     },
     {
         "id": '3john',
         "section": 'new-testament',
-        "title": '3john',
-        "themes": '',
-        "meta_text": '',
-        "body_html": '''''',
+        "title": 'Book 64: 3 John',
+        "themes": 'HOLY',
+        "era_count": 2,
+        "chapters": 1,
+        "grade": 'B+',
+        "meta_text": '2 era files &middot; 1 chapter &middot; Grade: B+',
+        "body_html": '''<h4>Major Themes</h4>
+  <div class="theme-grid">
+    <span class="badge badge-theme">HOSPITALITY</span><span class="badge badge-theme">TRUTH</span><span class="badge badge-theme">AUTHORITY ABUSE</span><span class="badge badge-theme">MISSIONARY SUPPORT</span><span class="badge badge-theme">IMITATION</span>
+  </div>
+  <p><strong>HOSPITALITY TO MISSIONARIES</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; Gaius is commended for receiving traveling teachers: "You will do well to send them on their journey in a manner worthy of God. For they have gone out for the sake of the name, accepting nothing from the Gentiles" (vv. 6-7). Material support for missionaries is "fellow workers for the truth" (v. 8) &mdash; hospitality IS partnership in the mission.</p>
+  <p><strong>DIOTREPHES: AUTHORITY ABUSE</strong> <span class="badge badge-critical">CRITICAL</span> &mdash; "Diotrephes, who likes to put himself first (philoproteuo), does not acknowledge our authority" (v. 9). He refuses to receive traveling teachers, expels those who do, and slanders the elder with "wicked nonsense" (v. 10). The earliest portrait of authoritarian leadership corrupting the ekklesia.</p>
+  <p><strong>IMITATION</strong> <span class="badge badge-major">MAJOR</span> &mdash; "Beloved, do not imitate evil but imitate good. Whoever does good is from God; whoever does evil has not seen God" (v. 11). The letter&rsquo;s ethical core: the choice between Gaius (good model) and Diotrephes (evil model). Character is revealed by imitation choices.</p>
+
+  <h4>Contested Words</h4>
+  <table class="ref-table">
+    <tr><th>Greek</th><th>Issue</th><th>Severity</th></tr>
+    <tr><td><strong>philoproteuo</strong> (&phi;&iota;&lambda;&omicron;&pi;&rho;&omega;&tau;&epsilon;&upsilon;&omega;)</td><td>"Loves to be first" (v. 9) &mdash; a rare word, only here in the NT. Diotrephes&rsquo; problem is not heresy but ambition. He loves preeminence more than truth.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>synergoi te aletheia</strong></td><td>"Fellow workers for the truth" (v. 8) &mdash; hosting missionaries makes you their co-laborer. Hospitality is not charity but partnership in the cosmic mission.</td><td><span class="badge badge-critical">CRITICAL</span></td></tr>
+    <tr><td><strong>hyper tou onomatos</strong></td><td>"For the sake of the name" (v. 7) &mdash; THE Name, unspecified. So sacred that the name of Jesus does not need to be stated. The missionaries serve "the Name" itself.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+    <tr><td><strong>phlyaron</strong> (&phi;&lambda;&upsilon;&alpha;&rho;&omega;&nu;)</td><td>"Talking wicked nonsense" (v. 10) &mdash; phlyareo = babble, slander. Diotrephes attacks the elder&rsquo;s character with verbal ammunition. Authority abuse begins with speech.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
+  </table>
+
+  <h4>Unusual Characters</h4>
+  <ul>
+    <li><strong>Gaius</strong> (v. 1) &mdash; Commended for walking in truth AND for showing hospitality to missionaries &mdash; doctrine and practice unified. He supports people he has never met because they serve "the Name."</li>
+    <li><strong>Diotrephes</strong> (v. 9) &mdash; "Loves to be first" &mdash; refuses the elder&rsquo;s authority, bars missionaries, expels those who welcome them. The first authoritarian church leader in recorded Christian history.</li>
+    <li><strong>Demetrius</strong> (v. 12) &mdash; "Testimony from everyone, and from the truth itself" &mdash; commended by universal witness and by truth as a personified judge. The positive model opposite Diotrephes.</li>
+  </ul>
+
+  <h4>Conspicuous Silences</h4>
+  <ul>
+    <li>What Diotrephes actually teaches is never stated &mdash; his problem is character (ambition), not doctrine, making him harder to identify than a heretic</li>
+    <li>Why the elder cannot simply overrule Diotrephes &mdash; apostolic authority appears limited by local ekklesia autonomy</li>
+    <li>The identity of Gaius &mdash; there are multiple men named Gaius in the NT (Acts 19:29, 20:4; Rom 16:23; 1 Cor 1:14). Which one, if any?</li>
+    <li>The traveling teachers&rsquo; message is never described &mdash; the only criterion is that they go out "for the sake of the name"</li>
+  </ul>
+
+  <h4>Cross-References</h4>
+  <p class="xref">3 John <span class="arrow">&rarr;</span> <span class="badge badge-nt">2 John</span> <span class="badge badge-nt">1 John</span> <span class="badge badge-nt">Acts</span> <span class="badge badge-nt">1 Corinthians</span></p>''',
+        "key_claim": "Diotrephes is the NT's first portrait of authoritarian leadership — 'loves to be first' (philoproteuo, v. 9), refuses apostolic authority, bars missionaries, and expels dissenters — proving that the ekklesia's greatest threat is not always heresy but unchecked human ambition.",
+        "contested_words": [
+            {"word": "philoproteuo", "greek": "φιλοπρωτεύω", "issue": "'Loves to be first' (v. 9) — a rare word, only here in the NT. Diotrephes' problem is not heresy but ambition. He loves preeminence more than truth.", "severity": "CRITICAL"},
+            {"word": "synergoi te aletheia", "greek": "συνεργοὶ τῇ ἀληθείᾳ", "issue": "'Fellow workers for the truth' (v. 8) — hosting missionaries makes you their co-laborer. Hospitality is partnership in the cosmic mission.", "severity": "CRITICAL"},
+            {"word": "hyper tou onomatos", "greek": "ὑπὲρ τοῦ ὀνόματος", "issue": "'For the sake of the name' (v. 7) — THE Name, unspecified. So sacred it does not need stating.", "severity": "MAJOR"},
+            {"word": "phlyaron", "greek": "φλυαρῶν", "issue": "'Talking wicked nonsense' (v. 10) — phlyareo = babble, slander. Authority abuse begins with speech attacks against legitimate leaders.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "2john", "why": "2 John warns against receiving false teachers; 3 John rebukes refusing TRUE teachers — the two letters are mirror-image boundary problems"},
+            {"target": "1john", "why": "'Walking in truth' (v. 3) continues the theme of 1 John — truth is embodied practice, not abstract belief. Gaius is the living proof"},
+            {"target": "acts", "why": "The traveling missionary model (vv. 5-8) reflects the apostolic pattern of Acts — itinerant teachers dependent on local ekklesia hospitality"},
+            {"target": "1corinthians", "why": "Paul's 'I planted, Apollos watered' (1 Cor 3:6) shows the same missionary network — different roles, one mission, mutual dependency"},
+            {"target": "matthew", "why": "'Whoever receives a prophet in the name of a prophet receives a prophet's reward' (Matt 10:41) — the principle behind Gaius's commendation"},
+        ],
+        "what_it_doesnt_say": [
+            "What Diotrephes actually teaches — his problem is character (ambition), not doctrine, making him harder to identify than a heretic",
+            "Why the elder cannot simply overrule Diotrephes — apostolic authority appears limited by local ekklesia autonomy",
+            "The identity of Gaius — multiple men bear this name in the NT. Which one, if any?",
+            "The traveling teachers' message is never described — the only criterion is 'for the sake of the name'",
+        ],
+        "unusual_characters": [
+            {"name": "Gaius", "ref": "v. 1", "detail": "Commended for walking in truth AND hospitality to missionaries — doctrine and practice unified. Supports people he has never met.", "connections": ["romans", "1corinthians"]},
+            {"name": "Diotrephes", "ref": "v. 9", "detail": "'Loves to be first' — refuses the elder, bars missionaries, expels dissenters. The first authoritarian ekklesia leader in recorded history.", "connections": []},
+            {"name": "Demetrius", "ref": "v. 12", "detail": "'Testimony from everyone, and from the truth itself' — commended by universal witness and by truth personified. The positive model opposite Diotrephes.", "connections": []},
+        ],
+        "patterns": [
+            "Three character portraits: Gaius (faithful host), Diotrephes (authoritarian abuser), Demetrius (commended by all) — the letter evaluates people by their relationship to truth and hospitality",
+            "Hospitality as mission: supporting missionaries financially and materially makes you a 'fellow worker for the truth' (v. 8) — material provision is spiritual partnership",
+            "Authority vs. ambition: the elder has legitimate authority but cannot enforce it against Diotrephes — local ekklesia autonomy creates both freedom and vulnerability",
+            "Imitation ethics: 'do not imitate evil but imitate good' (v. 11) — the choice between models (Gaius vs. Diotrephes) is the choice between God and not-God",
+        ],
+        "mistranslations": [
+            {"english": "who likes to put himself first", "original": "ho philoproteuo", "issue": "Sounds like mild vanity; philoproteuo is love of preeminence — an active, consuming desire to dominate that overrides truth, relationships, and apostolic authority"},
+            {"english": "fellow workers", "original": "synergoi", "issue": "Sounds like colleagues; synergoi means co-laborers in the same cosmic enterprise. Hosting a missionary is not charity but front-line participation"},
+            {"english": "church", "original": "ekklesia", "issue": "'Church' again obscures the governing-assembly meaning. Diotrephes is not a pastor gone bad — he is a council member who has seized unauthorized control of a governing body"},
+        ],
     },
     {
         "id": 'jude',
