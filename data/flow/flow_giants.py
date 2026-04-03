@@ -152,60 +152,61 @@ FLOW_GIANTS = {
 }
 
 NOTES_GIANTS = {
-    # Section 1 — The Descent
-    '1:1': 'Parallel to 1 Enoch 6:1-6. The descent on Mount Hermon (Aramaic: Hermon from herem, "curse/ban") — the Watchers swore an oath binding themselves by mutual curse, hence the mountain\'s name.',
-    '1:2': '4Q203 frag 7 preserves Shemihazah\'s fear of sole punishment. His name means "My name has seen" or possibly "the name sees." He leads the conspiracy but hedges against personal liability.',
-    '1:4': 'Ardis = Aramaic for the summit of Hermon. The number 200 matches 1 Enoch 6:6. The mutual oath (Aram. \'alah) is a covenant curse — violators become accursed.',
-    '1:8': 'The "three thousand ells" follows 1 Enoch 7:2. An ell (Heb. ammah) ~ 18 inches, making giants ~4,500 feet — clearly hyperbolic, signaling cosmic transgression rather than literal measurement.',
-
-    # Section 2 — Birth of the Giants
-    '2:2': 'Ohyah (also Ohya) and Hahyah (also Ahya/Hahya) are named in 4Q531 frag 2. Sons of Shemihazah, they serve as the narrative\'s protagonists — unusual for a judgment text to center the condemned.',
-    '2:3': 'Mahaway (also Mahawai), son of Baraq\'el ("lightning of God"), appears in 4Q530. His ability to fly may reflect his semi-divine nature. Later Manichaean versions make him a central figure.',
-    '2:10': 'Cf. 1 Enoch 7:3-5 and 9:1. The violence escalation pattern — consuming produce, then animals, then humans, then each other — mirrors the degeneracy spiral of Genesis 6:11-12.',
-
-    # Section 3 — The Violence
-    '3:1': 'The list "birds, beasts, creeping things, fish" inverts the creation order of Genesis 1:20-25 — the giants unmake creation itself. This is de-creation theology.',
-    '3:8': 'The four archangels (Michael, Sariel/Uriel, Raphael, Gabriel) match 1 Enoch 9:1. They function as heavenly prosecutors, observing and reporting — not acting until commanded.',
-
-    # Section 4 — Ohyah's Dream
-    '4:2': '4Q530 col ii preserves the garden dream. Trees representing rulers/kingdoms is standard ANE dream symbolism (cf. Daniel 4, Ezekiel 31). The dreamer is himself one of the trees.',
-    '4:5': 'The "one root with three branches" — possibly Noah and his three sons (Gen 6:10), the sole survivors. The giants\' dreams thus encode the flood narrative in symbolic form.',
-    '4:7': 'The flood motif confirms the Book of Giants was composed as a prequel to the flood narrative, expanding Genesis 6:1-4 through the perspective of the condemned.',
-
-    # Section 5 — Hahyah's Tablet Dream
-    '5:2': 'The heavenly tablet (Aram. luah) appears frequently in Second Temple literature. Cf. 1 Enoch 81:1-2, 93:2, 103:2. The concept of a pre-written divine decree connects to the "book of life" tradition.',
-    '5:3': 'Three signs surviving the water: a triad of judgment. The washing of writing from a tablet is the reversal of inscription — the giants\' existence is being erased from the record.',
-    '5:6': 'The threefold "condemned" echoes the trisagion of Isaiah 6:3 inverted — where the seraphim cry "holy, holy, holy," here the verdict cries "condemned, condemned, condemned."',
-
-    # Section 6 — The Council
-    '6:3': 'Gilgamesh appears in 4Q530 among the giants. This is the same Gilgamesh of Mesopotamian epic tradition — the Book of Giants incorporates ANE heroic figures as Nephilim offspring.',
-    '6:4': 'The debate between resistance and resignation mirrors the Watchers\' own divided counsel in 1 Enoch 6. The rhetorical question "Who can make war against the Most High?" anticipates Revelation 13:4.',
-
-    # Section 7 — Mahaway's Journey
-    '7:1': '6Q8 frag 2 preserves the eagle flight imagery. Mahaway\'s aerial journey parallels Enoch\'s own cosmic journeys in 1 Enoch 17-36. The messenger figure flying across desolation evokes prophetic commission.',
-    '7:5': 'Enoch as "scribe of truth" — his scribal role is central in all Enochic literature. He writes the decrees of heaven, mediates between realms, and serves as the witness to cosmic judgment.',
-
-    # Section 8 — The Interpretation
-    '8:1': '4Q530 col iii preserves portions of the interpretation. The equation garden = earth, trees = giants follows Daniel 4 conventions where trees represent prideful powers about to fall.',
-    '8:4': '"Not of your seed" — the surviving root (Noah) is explicitly distinguished from the Nephilim line. This is the seed theology of Genesis 3:15 at work: the line of promise survives while the corrupted line is cut off.',
-    '8:7': 'Chains, pit, and sealed decree — cf. 1 Enoch 10:4-6 (Azazel bound), 2 Peter 2:4 (angels in chains of darkness), Jude 6 (imprisoned in eternal bonds). The language is consistent across traditions.',
-
-    # Section 9 — The Giants' Response
-    '9:6': 'The division between rage and weeping among the giants reflects the two possible responses to divine judgment throughout Scripture — hardening or grief. Neither leads to repentance here.',
-    '9:7': 'Gilgamesh as fatalist: "children of doom." In the Mesopotamian epic, Gilgamesh seeks immortality and fails. Here he accepts mortality with grim clarity — the epic hero reduced to condemned Nephilim.',
-
-    # Section 10 — The Petition
-    '10:2': 'Parallel to 1 Enoch 13:4-7. The Watchers\' petition reversal — heavenly beings asking a human to intercede — is deeply ironic. They who abandoned their station now beg a mortal for help.',
-    '10:5': 'Enoch carrying a petition to God parallels Moses\' intercession (Exodus 32:11-14), but unlike Moses, Enoch\'s petition is denied. The sin of the Watchers has no remedy.',
-
-    # Section 11 — God's Verdict
-    '11:2': '"Ye should have interceded for men, and not men for you." This devastating line from 1 Enoch 15:2 reverses the expected order — spiritual beings were meant to be guardians (cf. Deut 32:8, Dan 10:13), not petitioners.',
-    '11:4': 'The theological logic: spiritual beings who chose materiality lose their spiritual standing. The mixing of realms (heaven/earth, spirit/flesh) is the core transgression — boundary violation.',
-    '11:7': 'Seventy generations of imprisonment — 1 Enoch 10:12. If a generation = 70 years, this is 4,900 years from the flood. Various schemes have been proposed to calculate the release date relative to eschatological events.',
-
-    # Section 12 — The End
-    '12:3': 'The key theological passage: giants\' spirits, born of heaven-earth union, belong to neither realm. They become "evil spirits" (demons) — 1 Enoch 15:8-12 is the foundational demonology text of Second Temple Judaism.',
-    '12:4': 'This is the origin of demons according to 1 Enoch 15:8-10: disembodied Nephilim spirits, distinct from the imprisoned Watchers, distinct from Satan. Three categories of evil spiritual beings, each with different origin and fate.',
-    '12:5': 'Cf. 1 Enoch 15:11 — demons "take no food yet hunger." They are incomplete beings, neither fully spirit nor fully material. This explains demonic possession theology: they seek embodiment because they once had bodies.',
-    '12:6': 'The "abyss of fire" as final destination parallels Revelation 20:10, Matthew 25:41. The Book of Giants thus contributes to the apocalyptic framework that Jesus himself later invokes.',
+    1: {
+        1: 'Parallel to 1 Enoch 6:1-6. The descent on Mount Hermon (Aramaic: Hermon from herem, "curse/ban") — the Watchers swore an oath binding themselves by mutual curse, hence the mountain\'s name.',
+        2: '4Q203 frag 7 preserves Shemihazah\'s fear of sole punishment. His name means "My name has seen" or possibly "the name sees." He leads the conspiracy but hedges against personal liability.',
+        4: 'Ardis = Aramaic for the summit of Hermon. The number 200 matches 1 Enoch 6:6. The mutual oath (Aram. \'alah) is a covenant curse — violators become accursed.',
+        8: 'The "three thousand ells" follows 1 Enoch 7:2. An ell (Heb. ammah) ~ 18 inches, making giants ~4,500 feet — clearly hyperbolic, signaling cosmic transgression rather than literal measurement.',
+    },
+    2: {
+        2: 'Ohyah (also Ohya) and Hahyah (also Ahya/Hahya) are named in 4Q531 frag 2. Sons of Shemihazah, they serve as the narrative\'s protagonists — unusual for a judgment text to center the condemned.',
+        3: 'Mahaway (also Mahawai), son of Baraq\'el ("lightning of God"), appears in 4Q530. His ability to fly may reflect his semi-divine nature. Later Manichaean versions make him a central figure.',
+        10: 'Cf. 1 Enoch 7:3-5 and 9:1. The violence escalation pattern — consuming produce, then animals, then humans, then each other — mirrors the degeneracy spiral of Genesis 6:11-12.',
+    },
+    3: {
+        1: 'The list "birds, beasts, creeping things, fish" inverts the creation order of Genesis 1:20-25 — the giants unmake creation itself. This is de-creation theology.',
+        8: 'The four archangels (Michael, Sariel/Uriel, Raphael, Gabriel) match 1 Enoch 9:1. They function as heavenly prosecutors, observing and reporting — not acting until commanded.',
+    },
+    4: {
+        2: '4Q530 col ii preserves the garden dream. Trees representing rulers/kingdoms is standard ANE dream symbolism (cf. Daniel 4, Ezekiel 31). The dreamer is himself one of the trees.',
+        5: 'The "one root with three branches" — possibly Noah and his three sons (Gen 6:10), the sole survivors. The giants\' dreams thus encode the flood narrative in symbolic form.',
+        7: 'The flood motif confirms the Book of Giants was composed as a prequel to the flood narrative, expanding Genesis 6:1-4 through the perspective of the condemned.',
+    },
+    5: {
+        2: 'The heavenly tablet (Aram. luah) appears frequently in Second Temple literature. Cf. 1 Enoch 81:1-2, 93:2, 103:2. The concept of a pre-written divine decree connects to the "book of life" tradition.',
+        3: 'Three signs surviving the water: a triad of judgment. The washing of writing from a tablet is the reversal of inscription — the giants\' existence is being erased from the record.',
+        6: 'The threefold "condemned" echoes the trisagion of Isaiah 6:3 inverted — where the seraphim cry "holy, holy, holy," here the verdict cries "condemned, condemned, condemned."',
+    },
+    6: {
+        3: 'Gilgamesh appears in 4Q530 among the giants. This is the same Gilgamesh of Mesopotamian epic tradition — the Book of Giants incorporates ANE heroic figures as Nephilim offspring.',
+        4: 'The debate between resistance and resignation mirrors the Watchers\' own divided counsel in 1 Enoch 6. The rhetorical question "Who can make war against the Most High?" anticipates Revelation 13:4.',
+    },
+    7: {
+        1: '6Q8 frag 2 preserves the eagle flight imagery. Mahaway\'s aerial journey parallels Enoch\'s own cosmic journeys in 1 Enoch 17-36. The messenger figure flying across desolation evokes prophetic commission.',
+        5: 'Enoch as "scribe of truth" — his scribal role is central in all Enochic literature. He writes the decrees of heaven, mediates between realms, and serves as the witness to cosmic judgment.',
+    },
+    8: {
+        1: '4Q530 col iii preserves portions of the interpretation. The equation garden = earth, trees = giants follows Daniel 4 conventions where trees represent prideful powers about to fall.',
+        4: '"Not of your seed" — the surviving root (Noah) is explicitly distinguished from the Nephilim line. This is the seed theology of Genesis 3:15 at work: the line of promise survives while the corrupted line is cut off.',
+        7: 'Chains, pit, and sealed decree — cf. 1 Enoch 10:4-6 (Azazel bound), 2 Peter 2:4 (angels in chains of darkness), Jude 6 (imprisoned in eternal bonds). The language is consistent across traditions.',
+    },
+    9: {
+        6: 'The division between rage and weeping among the giants reflects the two possible responses to divine judgment throughout Scripture — hardening or grief. Neither leads to repentance here.',
+        7: 'Gilgamesh as fatalist: "children of doom." In the Mesopotamian epic, Gilgamesh seeks immortality and fails. Here he accepts mortality with grim clarity — the epic hero reduced to condemned Nephilim.',
+    },
+    10: {
+        2: 'Parallel to 1 Enoch 13:4-7. The Watchers\' petition reversal — heavenly beings asking a human to intercede — is deeply ironic. They who abandoned their station now beg a mortal for help.',
+        5: 'Enoch carrying a petition to God parallels Moses\' intercession (Exodus 32:11-14), but unlike Moses, Enoch\'s petition is denied. The sin of the Watchers has no remedy.',
+    },
+    11: {
+        2: '"Ye should have interceded for men, and not men for you." This devastating line from 1 Enoch 15:2 reverses the expected order — spiritual beings were meant to be guardians (cf. Deut 32:8, Dan 10:13), not petitioners.',
+        4: 'The theological logic: spiritual beings who chose materiality lose their spiritual standing. The mixing of realms (heaven/earth, spirit/flesh) is the core transgression — boundary violation.',
+        7: 'Seventy generations of imprisonment — 1 Enoch 10:12. If a generation = 70 years, this is 4,900 years from the flood. Various schemes have been proposed to calculate the release date relative to eschatological events.',
+    },
+    12: {
+        3: 'The key theological passage: giants\' spirits, born of heaven-earth union, belong to neither realm. They become "evil spirits" (demons) — 1 Enoch 15:8-12 is the foundational demonology text of Second Temple Judaism.',
+        4: 'This is the origin of demons according to 1 Enoch 15:8-10: disembodied Nephilim spirits, distinct from the imprisoned Watchers, distinct from Satan. Three categories of evil spiritual beings, each with different origin and fate.',
+        5: 'Cf. 1 Enoch 15:11 — demons "take no food yet hunger." They are incomplete beings, neither fully spirit nor fully material. This explains demonic possession theology: they seek embodiment because they once had bodies.',
+        6: 'The "abyss of fire" as final destination parallels Revelation 20:10, Matthew 25:41. The Book of Giants thus contributes to the apocalyptic framework that Jesus himself later invokes.',
+    },
 }
