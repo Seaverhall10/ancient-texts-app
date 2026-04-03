@@ -332,7 +332,11 @@ CHAPTERS = [
 
         "synopsis": "The biblical flood narrative did not exist in isolation. At least three major Mesopotamian flood traditions predate or are contemporary with the Genesis account: the Sumerian Flood Story (featuring Ziusudra), the Atrahasis Epic, and the Gilgamesh Epic Tablet XI (featuring Utnapishtim). The structural parallels between these accounts and Genesis 6-9 are extensive and undeniable — a divine warning, a single survivor, a boat, animals, birds sent out, a sacrifice. But the theological differences between Genesis and its ANE counterparts are even more significant than the structural similarities, and it is in those differences that the distinctive claims of the biblical text emerge most clearly.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 6:17",
+            "text": "For behold, I will bring a flood of waters upon the earth to destroy all flesh in which is the breath of life under heaven. Everything that is on the earth shall die.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],

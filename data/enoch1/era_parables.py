@@ -3989,7 +3989,11 @@ CHAPTERS = [
 
         'synopsis': "The 'Son of Man' (Ge'ez: walda sab'e; Aramaic: bar enash) is the Parables' most important christological title. Its origin lies in Daniel 7:13-14, where 'one like a son of man' receives everlasting dominion. The Parables develop this figure beyond anything in Daniel: pre-existent, enthroned, Spirit-endowed, and identified as Enoch. Understanding this development is essential for grasping both the Parables' theology and Jesus' use of the title.",
 
-        'key_verse': None,
+        'key_verse': {
+            'ref': 'Daniel 7:13-14',
+            'text': 'I saw in the night visions, and behold, with the clouds of heaven there came one like a son of man, and he came to the Ancient of Days and was presented before him. And to him was given dominion and glory and a kingdom.',
+            'translation': 'ESV'
+        },
 
         'hebrew_terms': [
             'ben_adam',
@@ -4074,7 +4078,11 @@ CHAPTERS = [
 
         'synopsis': "The relationship between the Parables and the NT's Son of Man sayings is one of the most important questions in NT scholarship. Jesus' self-designation as 'the Son of Man' (over 80 times in the Gospels) draws on Daniel 7:13, but the Parables' development — pre-existent, enthroned, judging, messianic — provides the fullest background for understanding what Jesus meant. Whether Jesus knew the Parables directly, or both drew on a common tradition, the conceptual overlap is unmistakable.",
 
-        'key_verse': None,
+        'key_verse': {
+            'ref': 'Mark 14:62',
+            'text': 'And Jesus said, "I am, and you will see the Son of Man seated at the right hand of Power, and coming with the clouds of heaven."',
+            'translation': 'ESV'
+        },
 
         'hebrew_terms': [
             'ben_adam',

@@ -754,7 +754,11 @@ CHAPTERS = [
         "era": "plagues",
         "type": "historical_insert",
         "synopsis": "The ten plagues of Egypt are not random catastrophes but a systematic dismantling of the Egyptian religious order. Exodus 12:12 provides the interpretive key: 'against all the gods of Egypt I will execute judgments — I am YHWH.' Each plague targets a specific domain governed by an Egyptian deity, demonstrating YHWH's sovereignty over nature, fertility, disease, death, and the cosmic order itself. The plague sequence represents divine council warfare — a jurisdiction dispute between YHWH and the entire Egyptian pantheon, with Pharaoh as the earthly representative of the losing side.",
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Exodus 12:12",
+            "text": "For I will pass through the land of Egypt that night, and I will strike all the firstborn in the land of Egypt, both man and beast; and on all the gods of Egypt I will execute judgments: I am the LORD.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],

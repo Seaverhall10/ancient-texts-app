@@ -62,7 +62,11 @@ CHAPTERS = [
                     "only upon unrolling that its true scope — a first-person Aramaic "
                     "retelling of Genesis from Lamech through Abraham — became apparent.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 5:28-29",
+            "text": "When Lamech had lived 182 years, he fathered a son and called his name Noah, saying, 'Out of the ground that the LORD has cursed, this one shall bring us relief from our work and from the painful toil of our hands.'",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
@@ -633,7 +637,11 @@ CHAPTERS = [
                     "a narrative bridge between the Lamech/birth cycle and the "
                     "Flood proper.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 8:1",
+            "text": "But God remembered Noah and all the beasts and all the livestock that were with him in the ark. And God made a wind blow over the earth, and the waters subsided.",
+            "translation": "ESV"
+        },
 
         "hebrew_terms": [],
 
@@ -748,7 +756,11 @@ CHAPTERS = [
                     "reflecting Hellenistic-era geographic knowledge. Machiela's "
                     "2009 edition provided major advances in reading these columns.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 10:32",
+            "text": "These are the clans of the sons of Noah, according to their genealogies, in their nations, and from these the nations spread abroad on the earth after the flood.",
+            "translation": "ESV"
+        },
 
         "hebrew_terms": [],
 
@@ -1176,7 +1188,11 @@ CHAPTERS = [
                     "literary artistry and the cultural significance of Sarah's "
                     "beauty in Jewish memory.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 12:11",
+            "text": "When he was about to enter Egypt, he said to Sarai his wife, 'I know that you are a woman beautiful in appearance.'",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],

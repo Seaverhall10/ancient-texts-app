@@ -294,7 +294,11 @@ CHAPTERS = [
 
         "synopsis": "The 364-day solar calendar is not merely a detail of Jubilees' chronological system -- it is the single most consequential theological claim the book makes. The solar calendar of 364 days (52 weeks exactly) ensures that every festival falls on the same day of the week every year, that the Sabbath is never disrupted by calendar drift, and that Israel's worship is synchronized with the angelic liturgy in heaven. The lunar calendar of approximately 354 days (requiring intercalary months) causes festivals to 'wander' through the week, creates halakhic conflicts when festivals overlap with the Sabbath, and -- in Jubilees' view -- desynchronizes earthly worship from the heavenly pattern. This calendar dispute was the defining issue that separated the Qumran community from the Jerusalem temple establishment and that gives Jubilees its sectarian edge.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Jubilees 6:36-37",
+            "text": "And all the children of Israel will forget and will not find the path of the years, and will forget the new moons, and seasons, and sabbaths, and they will go wrong as to all the order of the years.",
+            "translation": "Charles"
+        },
         "hebrew_terms": ["shanah", "shemesh", "yareakh", "mo'adim", "tequfah", "lukhot_shamayim"],
 
         "ane_backdrop": "Calendar systems in the ancient Near East were diverse. Egypt used a 365-day solar calendar (12 months of 30 days plus 5 epagomenal days) from the 3rd millennium BCE onward. Mesopotamia used a 354-day lunar calendar with periodic intercalary months to realign with the solar year. The Israelite calendar as reflected in most biblical texts follows the Mesopotamian lunisolar model (months beginning with the new moon, with intercalary adjustments). Jubilees' 364-day calendar is a compromise: it is solar in its independence from lunar phases but shorter than the true solar year (365.25 days) by approximately 1.25 days per year. How the author proposed to handle this accumulating drift is unknown -- no intercalation scheme is described. This 'calendar gap' problem was apparently not resolved in any surviving text, though the community that used the calendar clearly functioned for centuries.",

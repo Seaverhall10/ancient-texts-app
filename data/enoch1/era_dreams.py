@@ -1195,7 +1195,11 @@ CHAPTERS = [
                     "Apocalypse's method with Daniel 7-8, which uses a similar "
                     "but more limited zoomorphic technique.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Daniel 7:3-4",
+            "text": "And four great beasts came up out of the sea, different from one another. The first was like a lion and had eagles' wings.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [
             "nephilim",
             "egregoroi",

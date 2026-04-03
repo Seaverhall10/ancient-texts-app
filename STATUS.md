@@ -23,8 +23,8 @@
 
 ### Content (105 texts total)
 - [x] **105 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 2 Historical + 12 Thematic + 3 Research Lenses + 16 extra-biblical)
-- [x] **316 era files** (study chapter groupings)
-- [x] **1,231 study chapters** across all texts
+- [x] **320 era files** (study chapter groupings)
+- [x] **1,246 study chapters** across all texts
 - [x] CONTENT_MAP.json — master AI navigation index (auto-rebuilt on every build)
 
 ### Flow Translations (verse-by-verse English prose)
@@ -93,13 +93,13 @@ DSS Sectarian, Josephus, Heavenly Court
 - ~~**~110 unfixed thematic text CRITICALs from Arbiter**~~ — All thematic text CRITICALs fixed (Session 14). Remaining: hebrew_terms schema rename, 18+ truncated era files
 - **`hebrew_terms` → `original_terms` schema rename needed** — 12 app.js references + ~300 data files still use old field name
 - **18+ truncated era files need content completion** — partial content from previous sessions
-- **59 chapters missing `key_verse`** — scattered across texts (low priority)
+- ~~**59 chapters missing `key_verse`**~~ — all 63 missing key_verses filled across 32 era files (100% coverage)
 - **1 unlisted CSS file** — `styles.css` on disk but not in `build-order.txt`
 
 ### TIER 1 — Content Depth (Major Gaps)
 0. **Research Lenses**: All 3 Research Lenses complete: Islam, Rabbinic Judaism, Catholicism
 1. **Minor Prophets section depth** — All 12 books at 25-40% of Genesis depth (51/55 chapters flagged)
-2. **NT era expansion** — Luke, John still have only 2 eras each (Matthew + Acts now have 5 each)
+2. ~~**NT era expansion** — Luke, John still have only 2 eras each~~ — Luke now has 6 eras, John now has 6 eras
 3. ~~DSS Sectarian hebrew_terms~~ — done (26/26)
 4. ~~1 Enoch hebrew_terms~~ — done (73/73)
 5. **Jasher hebrew_terms** — 43/49 chapters empty (88%)
@@ -139,8 +139,8 @@ DSS Sectarian, Josephus, Heavenly Court
 | Metric | Value |
 |--------|-------|
 | Total texts | **105** |
-| Total era files | **316** |
-| Study chapters | **1,231** |
+| Total era files | **320** |
+| Study chapters | **1,246** |
 | Flow translations | **66/102 texts** (all 39 OT + all 27 NT + extra-biblical) |
 | Flow files | **111** |
 | Flow verses | **42,373** |
@@ -162,11 +162,16 @@ DSS Sectarian, Josephus, Heavenly Court
 | Release ZIP | ~40 MB (PC + Mobile) |
 | Current version | **3.3.0** |
 | Audit modules | **12** |
-| Audit baseline (2026-04-03) | **0 critical**, 558 passed |
+| Audit baseline (2026-04-03) | **0 critical**, 562 passed |
 
 ---
 
 ## RECENT CHANGES
+
+### Continuous Improvements (2026-04-03)
+- **63 missing key_verse fields filled** across 32 era files — zero missing key_verses remaining
+- **Luke expanded**: 2 new eras (8 chapters) — Parables of Mercy (Good Samaritan, Prodigal Son, Rich Man & Lazarus, Pharisee & Tax Collector) + Passion & Resurrection (Gethsemane, Trials, Cross, Emmaus Road). Luke now has 6 eras total.
+- **John expanded**: 2 new eras (7 chapters) — The Seven Signs + Prologue & Cosmic Christology (logos theology, monogenes, first week of new creation). John now has 6 eras total.
 
 ### Session 16-17 (2026-04-03) — Research Lenses: Rabbinic Judaism + Catholicism
 - **NEW: "Rabbinic Judaism & the Talmud"** — 7-chapter comparative study

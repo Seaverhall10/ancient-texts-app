@@ -989,7 +989,11 @@ CHAPTERS = [
                     "the Animal Apocalypse\'s 70 shepherds, and the NT\'s principalities "
                     "and powers.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Deuteronomy 32:8",
+            "text": "When the Most High gave to the nations their inheritance, when he divided mankind, he fixed the borders of the peoples according to the number of the sons of God.",
+            "translation": "ESV (following DSS/LXX)"
+        },
         "hebrew_terms": ["bene_elohim", "elyon"],
         "ane_backdrop": None,
         "second_temple": [],
@@ -1493,7 +1497,11 @@ CHAPTERS = [
                     "Understanding the manuscript evidence is essential for dating "
                     "and contextualizing the Book of the Watchers.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Jude 14-15",
+            "text": "It was also about these that Enoch, the seventh from Adam, prophesied, saying, 'Behold, the Lord comes with ten thousands of his holy ones, to execute judgment on all.'",
+            "translation": "ESV"
+        },
         "hebrew_terms": [
             "egregoroi",
             "shemihazah",
@@ -2118,7 +2126,11 @@ CHAPTERS = [
                     "contributions is essential for reading both the NT and later "
                     "Christian theology in context.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Jude 6",
+            "text": "And the angels who did not stay within their own position of authority, but left their proper dwelling, he has kept in eternal chains under gloomy darkness until the judgment of the great day.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [
             "egregoroi",
             "nephilim",

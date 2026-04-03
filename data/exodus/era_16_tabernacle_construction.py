@@ -614,7 +614,11 @@ CHAPTERS = [
 
         "synopsis": "The tabernacle's completion in Exodus 40 is not an isolated event but the pivotal hinge in Scripture's grand narrative of divine dwelling. From Eden (Genesis 2-3) through the tabernacle (Exodus 25-40) to Solomon's temple (1 Kings 5-8) to the exile's devastating departure of glory (Ezekiel 10) to the incarnation (John 1:14) to the new creation (Revelation 21-22), the Bible tells one continuous story: God's relentless determination to dwell with his creatures, and the means by which he overcomes the barrier of sin to make that dwelling possible.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Exodus 40:34",
+            "text": "Then the cloud covered the tent of meeting, and the glory of the LORD filled the tabernacle.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],

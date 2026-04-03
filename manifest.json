@@ -3717,6 +3717,43 @@
       ]
     },
     {
+      "id": "luke_parables_mercy",
+      "text": "luke",
+      "name": "Parables of Mercy — The Outsider, the Lost, and the Justified",
+      "chapters": "Luke 10, 15–16, 18",
+      "color": "#7a8a9a",
+      "icon": "V",
+      "data_file": "era_luke_parables_mercy",
+      "themes": [
+        "Good Samaritan",
+        "Prodigal Son",
+        "Rich Man and Lazarus",
+        "Pharisee and Tax Collector",
+        "Justification by grace",
+        "Afterlife / intermediate state",
+        "Mercy over ethnic boundaries"
+      ]
+    },
+    {
+      "id": "luke_passion",
+      "text": "luke",
+      "name": "The Passion and Resurrection — The Cosmic Victory",
+      "chapters": "Luke 22:39–24:35",
+      "color": "#7a8a9a",
+      "icon": "VI",
+      "data_file": "era_luke_passion",
+      "themes": [
+        "Gethsemane / angel strengthening",
+        "Power of darkness",
+        "Peter's denial / Lord's gaze",
+        "Son of Man enthroned",
+        "Herod and Pilate / Psalm 2",
+        "Paradise promise / intermediate state",
+        "Temple veil torn",
+        "Emmaus road / christological hermeneutic"
+      ]
+    },
+    {
       "id": "john_signs",
       "text": "john",
       "name": "The Book of Signs",
@@ -3766,6 +3803,43 @@
         "High Priestly Prayer",
         "Tetelestai — priestly declaration",
         "Upper Room theology"
+      ]
+    },
+    {
+      "id": "john_prologue",
+      "text": "john",
+      "name": "The Prologue and Cosmic Christology",
+      "chapters": "John 1:1–2:11",
+      "color": "#8a6a9a",
+      "icon": "IV",
+      "data_file": "era_john_prologue",
+      "themes": [
+        "Logos theology",
+        "Two powers in heaven",
+        "Incarnation — sarx egeneto",
+        "Chesed ve'emet / grace and truth",
+        "Monogenes — the unique Son",
+        "New creation week",
+        "Theophany resolution"
+      ]
+    },
+    {
+      "id": "john_seven_signs",
+      "text": "john",
+      "name": "The Seven Signs — Miracles That Reveal the Divine Identity",
+      "chapters": "John 2–11",
+      "color": "#8a6a9a",
+      "icon": "V",
+      "data_file": "era_john_seven_signs",
+      "themes": [
+        "Seven semeia",
+        "Creator authority",
+        "Ego eimi on the water",
+        "Equal with God (5:18)",
+        "Bread of Life",
+        "Light of the world",
+        "I AM the resurrection and the life",
+        "Lazarus — the supreme sign"
       ]
     },
     {

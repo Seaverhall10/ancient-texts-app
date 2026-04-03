@@ -130,7 +130,11 @@ CHAPTERS = [
         "era": "bondage",
         "type": "historical_insert",
         "synopsis": "The relationship between Egypt and Israel spans centuries of migration, settlement, enslavement, and liberation. Placing the exodus narrative within its archaeological and historical context — the Hyksos expulsion, the New Kingdom building programs, the Ramesses II debate, the Merneptah Stele, and the evidence for Semitic labor in the Delta — illuminates both what the biblical text claims and what the material record reveals.",
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Exodus 1:8",
+            "text": "Now there arose a new king over Egypt, who did not know Joseph.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],

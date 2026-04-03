@@ -881,7 +881,11 @@ CHAPTERS = [
         "type": "historical_insert",
         "themes": [],
         "synopsis": "Abraham's story unfolds against the backdrop of a dynamic, interconnected ancient Near East. Understanding the Ur III collapse, Amorite migrations, and the legal and cultural customs documented at Mari, Nuzi, and other sites illuminates patriarchal customs that once seemed puzzling.",
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 12:1",
+            "text": "Now the LORD said to Abram, 'Go from your country and your kindred and your father's house to the land that I will show you.'",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],

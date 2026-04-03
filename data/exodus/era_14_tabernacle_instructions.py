@@ -661,7 +661,11 @@ CHAPTERS = [
 
         "synopsis": "The conception of a temple as a microcosm of the universe was pervasive in the ancient Near East. From Egypt's Karnak to Mesopotamia's Esagila to the Canaanite high places, temples were understood as the intersection of heaven and earth, the navel of the world, the point where cosmic order was maintained. The tabernacle of Exodus 25-31 participates in this theology while radically transforming it: the seven divine speeches of the tabernacle instructions parallel the seven days of creation, the Garden of Eden is recast as the first sanctuary, and the tabernacle's construction reverses Babel by bringing God down to dwell among his people rather than humanity building up to reach God.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Exodus 25:8-9",
+            "text": "And let them make me a sanctuary, that I may dwell in their midst. Exactly as I show you concerning the pattern of the tabernacle, and of all its furniture, so you shall make it.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],

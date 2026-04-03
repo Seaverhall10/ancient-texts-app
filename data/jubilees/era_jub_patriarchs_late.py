@@ -273,7 +273,11 @@ CHAPTERS = [
 
         "synopsis": "The figure of Mastema (Hebrew: mastema, from the root stm, 'hostility, animosity') represents a crucial development in Jewish demonology between the Hebrew Bible's ambiguous 'satan' and the fully personal Satan of later Christian and rabbinic tradition. In the Hebrew Bible, 'the satan' appears only three times as a specific celestial figure (Job 1-2, Zechariah 3, 1 Chronicles 21:1), and in each case the role is prosecutorial -- an 'adversary' operating within the divine court, not an autonomous evil power. Jubilees transforms this occasional courtroom role into a permanent office: Mastema is the prince of demons, the commander of the tenth-part of spirits retained after the Flood, and the instigator of every major trial in Israel's history. He is not yet the cosmic dualist opponent of later tradition -- he operates under divine permission and within divinely set boundaries -- but he is far more developed than any Hebrew Bible predecessor.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Job 1:6-7",
+            "text": "Now there was a day when the sons of God came to present themselves before the LORD, and Satan also came among them. The LORD said to Satan, 'From where have you come?' Satan answered the LORD and said, 'From going to and fro on the earth, and from walking up and down on it.'",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["mastema", "satan", "diabolos", "belial", "sar_ha_mastemah"],
 
         "ane_backdrop": "The concept of a divine adversary or trickster figure is widespread in ANE religion. The Egyptian god Set/Seth functions as both a legitimate member of the divine pantheon and a chaos agent. In Zoroastrian religion, Angra Mainyu (Ahriman) opposes Ahura Mazda in a thoroughgoing cosmic dualism. Scholarly debate continues over whether Persian dualism influenced Jewish satan-ology during the Persian period (539-332 BCE). Jubilees' Mastema occupies a middle position: he is neither the fully independent cosmic evil of Zoroastrianism nor the mere functionary of Job 1-2. He has his own 'will' and 'power' (Jub 10:8) but operates only with divine permission. This is 'subordinate dualism' -- evil is real and personalized but ultimately contained within monotheistic sovereignty.",
@@ -637,7 +641,11 @@ CHAPTERS = [
 
         "synopsis": "The figure of Levi in Jubilees 30-32 is not merely a character in a retold narrative but a theological program with immense practical implications for the Qumran community. The Dead Sea Scrolls reveal a community that identified itself as the true priesthood of Israel, exiled from a Jerusalem temple they regarded as defiled by an illegitimate priestly dynasty (the Hasmoneans, who were not Zadokite). Jubilees' portrait of Levi -- zealous enforcer of purity law, divinely appointed priest inscribed on the heavenly tablets, angelic in his worship -- provided the scriptural warrant for Qumran's self-understanding. This excursus examines the Levi traditions across Second Temple literature and their significance for Qumran's priestly ideology.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Malachi 2:7",
+            "text": "For the lips of a priest should guard knowledge, and people should seek instruction from his mouth, for he is the messenger of the LORD of hosts.",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["kohen", "levi", "tzadoq", "qinah", "moreh_ha_tzedeq"],
 
         "ane_backdrop": "The combination of priestly and military functions in a single figure is attested across the ANE. In ancient Egypt, pharaoh was simultaneously high priest and war leader. In Mesopotamia, the ensi (city governor) performed both cultic and military duties. In pre-monarchic Israel, priestly figures sometimes played military roles: Phinehas (Numbers 25, 31:6), the Levites at the Golden Calf episode (Exodus 32:26-28), and Samuel (who offered sacrifices and led military campaigns). The Hasmonean priest-kings of the Maccabean era embodied this combination, but Qumran rejected their legitimacy. Jubilees' Levi provided an alternative priest-warrior model with heavenly, pre-Sinaitic authorization.",

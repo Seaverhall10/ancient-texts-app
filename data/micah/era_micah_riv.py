@@ -569,7 +569,11 @@ CHAPTERS = [
         "type": "historical_insert",
 
         "synopsis": "The scholarly foundation for reading the prophets as covenant prosecutors using the riv (lawsuit) framework. Traces the identification of Hittite suzerainty treaty structures in the Hebrew Bible from George Mendenhall (1954) through Klaus Baltzer, Herbert Huffmon, and Delbert Hillers — establishing that 'Thus says Yahweh' is ANE royal messenger protocol and the prophets operated as official council emissaries.",
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Micah 6:1-2",
+            "text": "Hear what the LORD says: Arise, plead your case before the mountains, and let the hills hear your voice. Hear, you mountains, the indictment of the LORD, and you enduring foundations of the earth, for the LORD has an indictment against his people, and he will contend with Israel.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
 

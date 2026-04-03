@@ -47,6 +47,11 @@ CHAPTERS = [
             ),
             "translation": "William Whiston"
         },
+        "key_verse": {
+            "ref": "Psalm 90:1-2",
+            "text": "Lord, you have been our dwelling place in all generations. Before the mountains were brought forth, or ever you had formed the earth and the world, from everlasting to everlasting you are God.",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["torah", "kohen", "berit"],
         "ane_backdrop": (
             'The question of antiquity was central to ancient cultural prestige. In the '
@@ -263,6 +268,11 @@ CHAPTERS = [
                 'greatest difficulties.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Deuteronomy 4:8",
+            "text": "And what great nation is there, that has statutes and rules so righteous as all this law that I set before you today?",
+            "translation": "ESV"
         },
         "hebrew_terms": ["torah", "shema", "shabbat", "kashrut", "hesed"],
         "ane_backdrop": (
@@ -518,6 +528,11 @@ CHAPTERS = [
             ),
             "translation": "William Whiston"
         },
+        "key_verse": {
+            "ref": "Psalm 2:1-2",
+            "text": "Why do the nations rage and the peoples plot in vain? The kings of the earth set themselves, and the rulers take counsel together, against the LORD and against his Anointed.",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["libel", "onolatria", "kosher"],
         "ane_backdrop": (
             'Anti-Jewish sentiment in the Greco-Roman world had a long history, particularly in '
@@ -704,6 +719,11 @@ CHAPTERS = [
                 'great difficulties, and went through them all.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Jeremiah 1:18-19",
+            "text": "And I, behold, I make you this day a fortified city, an iron pillar, and bronze walls, against the whole land. They will fight against you, but they shall not prevail against you, for I am with you, declares the LORD, to deliver you.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["perushim", "kohen", "strategos", "apologia"],
         "ane_backdrop": (
@@ -914,6 +934,11 @@ CHAPTERS = [
                 'to the temper of men, and to the promotion of their happiness.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Daniel 3:17-18",
+            "text": "If this be so, our God whom we serve is able to deliver us from the burning fiery furnace, and he will deliver us out of your hand, O king. But if not, be it known to you, O king, that we will not serve your gods.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["qiddush_hashem", "torah", "emunah", "hesed"],
         "ane_backdrop": (
@@ -1133,6 +1158,11 @@ CHAPTERS = [
                 'to the laws? And what is more advantageous than mutual love and concord?'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Romans 11:1",
+            "text": "I ask, then, has God rejected his people? By no means! For I myself am an Israelite, a descendant of Abraham, a member of the tribe of Benjamin.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["teshuvah", "emunah", "tikkun"],
         "ane_backdrop": (

@@ -42,6 +42,11 @@ CHAPTERS = [
             ),
             "translation": "William Whiston"
         },
+        "key_verse": {
+            "ref": "Daniel 8:23-25",
+            "text": "And at the latter end of their kingdom, when the transgressors have reached their limit, a king of bold face, one who understands riddles, shall arise.",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["hasidim", "hasmonean"],
         "ane_backdrop": (
             'The Hasmonean revolt (167-160 BC) occurred during the collapse of Seleucid power '
@@ -223,6 +228,11 @@ CHAPTERS = [
                 'demonstrated the greatness of his generosity.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Psalm 75:6-7",
+            "text": "For not from the east or from the west and not from the wilderness comes lifting up, but it is God who executes judgment, putting down one and lifting up another.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["herodion", "bayit"],
         "ane_backdrop": (
@@ -413,6 +423,11 @@ CHAPTERS = [
                 'sect, which pretends to a severer discipline, are called Essenes.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Acts 23:8",
+            "text": "For the Sadducees say that there is no resurrection, nor angel, nor spirit, but the Pharisees acknowledge them all.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["perushim", "tseduqim", "essaioi", "hairesis"],
         "ane_backdrop": (
@@ -646,6 +661,11 @@ CHAPTERS = [
             ),
             "translation": "William Whiston"
         },
+        "key_verse": {
+            "ref": "Jeremiah 38:17-18",
+            "text": "Then Jeremiah said to Zedekiah, 'Thus says the LORD, the God of hosts, the God of Israel: If you will surrender to the officials of the king of Babylon, then your life shall be spared, and this city shall not be burned with fire.'",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["navi", "kohen", "mashiah", "pronoia"],
         "ane_backdrop": (
             'The Jewish revolt of 66-73 AD was one of the largest conflicts in Roman history, '
@@ -847,6 +867,11 @@ CHAPTERS = [
                 'denunciations that God made to them.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Luke 21:20-22",
+            "text": "But when you see Jerusalem surrounded by armies, then know that its desolation has come near. For these are days of vengeance, to fulfill all that is written.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["hurban", "mikdash", "galut", "otot"],
         "ane_backdrop": (
@@ -1085,6 +1110,11 @@ CHAPTERS = [
                 'practice.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Lamentations 1:1",
+            "text": "How lonely sits the city that was full of people! How like a widow has she become, she who was great among the nations!",
+            "translation": "ESV"
         },
         "hebrew_terms": ["qiddush_hashem", "herut", "galut"],
         "ane_backdrop": (

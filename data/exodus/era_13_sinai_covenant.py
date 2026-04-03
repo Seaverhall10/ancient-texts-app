@@ -286,7 +286,11 @@ CHAPTERS = [
 
         "synopsis": "The legal traditions of the ancient Near East provide essential context for understanding the Sinai covenant. From the Code of Ur-Nammu (c. 2100 BC) through the Laws of Eshnunna, the Code of Hammurabi, the Hittite Laws, and the Middle Assyrian Laws, Mesopotamia and Anatolia produced a rich body of legal literature spanning over a millennium before Moses. The Sinai covenant draws on this shared legal vocabulary while fundamentally transforming its premises: ANE law codes are royal proclamations asserting a king's justice; the Sinai covenant is a relational bond between a redeeming God and a liberated people.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Exodus 19:5-6",
+            "text": "Now therefore, if you will indeed obey my voice and keep my covenant, you shall be my treasured possession among all peoples, for all the earth is mine; and you shall be to me a kingdom of priests and a holy nation.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
 

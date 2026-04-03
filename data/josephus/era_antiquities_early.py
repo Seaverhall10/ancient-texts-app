@@ -40,6 +40,11 @@ CHAPTERS = [
             ),
             "translation": "William Whiston"
         },
+        "key_verse": {
+            "ref": "Genesis 1:1",
+            "text": "In the beginning, God created the heavens and the earth.",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["nephilim", "bnei_elohim", "gibborim"],
         "ane_backdrop": (
             'Josephus writes within a Greco-Roman intellectual context where creation accounts '
@@ -241,6 +246,11 @@ CHAPTERS = [
             ),
             "translation": "William Whiston"
         },
+        "key_verse": {
+            "ref": "Genesis 22:8",
+            "text": "Abraham said, 'God will provide for himself the lamb for a burnt offering, my son.' So they went both of them together.",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["aqedah", "elohim", "malak_yhwh"],
         "ane_backdrop": (
             'The patriarchal narratives unfold against the backdrop of Bronze Age Near Eastern '
@@ -440,6 +450,11 @@ CHAPTERS = [
                 'difficulties; which was on the following occasion.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Deuteronomy 34:10",
+            "text": "And there has not arisen a prophet since in Israel like Moses, whom the LORD knew face to face.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["moshe", "torah", "navi", "ot", "mopheth"],
         "ane_backdrop": (
@@ -656,6 +671,11 @@ CHAPTERS = [
             ),
             "translation": "William Whiston"
         },
+        "key_verse": {
+            "ref": "1 Kings 8:27",
+            "text": "But will God indeed dwell on the earth? Behold, heaven and the highest heaven cannot contain you; how much less this house that I have built!",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["shofet", "melekh", "heikhal", "mishkan", "keruvim"],
         "ane_backdrop": (
             'The transition from judges to monarchy parallels developments across the ancient Near '
@@ -847,6 +867,11 @@ CHAPTERS = [
                 'by them.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "2 Kings 17:13-14",
+            "text": "Yet the LORD warned Israel and Judah by every prophet and every seer, saying, 'Turn from your evil ways and keep my commandments.' But they would not listen.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["navi", "galut", "hurban", "teshuvah"],
         "ane_backdrop": (
@@ -1047,6 +1072,11 @@ CHAPTERS = [
             ),
             "translation": "William Whiston"
         },
+        "key_verse": {
+            "ref": "Daniel 11:32",
+            "text": "He shall seduce with flattery those who violate the covenant, but the people who know their God shall stand firm and take action.",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["hasidim", "abomination", "hanukkah"],
         "ane_backdrop": (
             'The Maccabean revolt (167-160 BC) belongs to the broader crisis of Hellenization in '
@@ -1212,6 +1242,11 @@ CHAPTERS = [
                 'the paths of virtue into inevitable miseries.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Deuteronomy 31:24-26",
+            "text": "When Moses had finished writing the words of this law in a book to the very end, Moses commanded the Levites who carried the ark of the covenant of the LORD, 'Take this Book of the Law and put it by the side of the ark.'",
+            "translation": "ESV"
         },
         "hebrew_terms": ["midrash", "haggadah", "apologia", "pronoia"],
         "ane_backdrop": (

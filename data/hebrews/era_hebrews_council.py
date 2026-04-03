@@ -1188,7 +1188,11 @@ CHAPTERS = [
             "Enoch literature. Hebrews identifies the person."
         ),
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Hebrews 7:16-17",
+            "text": "who has become a priest, not on the basis of a legal requirement concerning bodily descent, but by the power of an indestructible life. For it is witnessed of him, 'You are a priest forever, after the order of Melchizedek.'",
+            "translation": "ESV"
+        },
 
         "hebrew_terms": [
             "mēsitēs (mediator -- Heb 8:6; 9:15; 12:24; from mesos 'middle' + a verb of action; a mediator stands between two parties and facilitates their relationship; the question Hebrews answers is: which mediator has sufficient standing?)",

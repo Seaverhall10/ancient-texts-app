@@ -216,7 +216,11 @@ CHAPTERS = [
 
         "synopsis": "The Watcher tradition is the single most important Second Temple expansion of any Genesis text. Rooted in Genesis 6:1–4, it was developed extensively in 1 Enoch 6–16 (the Book of the Watchers), Jubilees 4–5, and the Qumran Book of Giants. This tradition shaped Jewish angelology, demonology, and apocalypticism for centuries, and its influence is directly visible in the New Testament epistles of Jude and 2 Peter. Understanding the Watcher tradition is essential for reading Genesis 6 in its historical interpretive context.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 6:1-2",
+            "text": "When man began to multiply on the face of the land and daughters were born to them, the sons of God saw that the daughters of man were attractive. And they took as their wives any they chose.",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["bene_elohim", "nephilim"],
         "ane_backdrop": None,
         "second_temple": [],
@@ -286,7 +290,11 @@ CHAPTERS = [
 
         "synopsis": "The Sumerian King List (SKL) records a sequence of kings who ruled 'before the flood' with fantastically long reigns, followed by the flood itself, and then post-flood kings with progressively shorter reigns. This structural parallel to Genesis 5 (long-lived patriarchs before the flood, declining lifespans afterward) has fascinated scholars for over a century. The parallels extend to specific figures: the seventh king Enmeduranki closely parallels the seventh patriarch Enoch. These correspondences illuminate how Genesis 5 functions within its ANE literary world.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 5:24",
+            "text": "Enoch walked with God, and he was not, for God took him.",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["adam"],
         "ane_backdrop": None,
         "second_temple": [],

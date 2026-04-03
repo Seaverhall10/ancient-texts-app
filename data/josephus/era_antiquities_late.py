@@ -48,6 +48,11 @@ CHAPTERS = [
             ),
             "translation": "William Whiston"
         },
+        "key_verse": {
+            "ref": "Daniel 2:21",
+            "text": "He changes times and seasons; he removes kings and sets up kings; he gives wisdom to the wise and knowledge to those who have understanding.",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["kohen_gadol", "hasmonean"],
         "ane_backdrop": (
             'The Hasmonean dynasty (140-37 BCE) represents a unique moment in Jewish history: a '
@@ -214,6 +219,11 @@ CHAPTERS = [
                 'magnificent altitude.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Micah 5:2",
+            "text": "But you, O Bethlehem Ephrathah, who are too little to be among the clans of Judah, from you shall come forth for me one who is to be ruler in Israel, whose coming forth is from of old, from ancient days.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["herod", "temple_second"],
         "ane_backdrop": (
@@ -404,6 +414,11 @@ CHAPTERS = [
                 'this day not disappeared.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Acts 26:26",
+            "text": "For the king knows about these things, and to him I speak boldly. For I am persuaded that none of these things has escaped his notice, for this has not been done in a corner.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["christos", "sophos_aner", "paradoxa_erga", "phylon"],
         "ane_backdrop": (
@@ -715,6 +730,11 @@ CHAPTERS = [
             ),
             "translation": "William Whiston"
         },
+        "key_verse": {
+            "ref": "Matthew 3:1-2",
+            "text": "In those days John the Baptist came preaching in the wilderness of Judea, 'Repent, for the kingdom of heaven is at hand.'",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["tevilah", "teshuvah", "dikaiosyne", "eusebeia"],
         "ane_backdrop": (
             'Ritual washing (tevilah) was widespread in Second Temple Judaism: the Qumran '
@@ -935,6 +955,11 @@ CHAPTERS = [
                 'them to be stoned.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Galatians 1:19",
+            "text": "But I saw none of the other apostles except James the Lord's brother.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["sanhedrin", "christos", "adelphos", "paranomesanton"],
         "ane_backdrop": (
@@ -1162,6 +1187,11 @@ CHAPTERS = [
                 'made a clamor against him.'
             ),
             "translation": "William Whiston"
+        },
+        "key_verse": {
+            "ref": "Acts 17:26",
+            "text": "And he made from one man every nation of mankind to live on all the face of the earth, having determined allotted periods and the boundaries of their dwelling place.",
+            "translation": "ESV"
         },
         "hebrew_terms": ["hegemon", "epistropos", "stasis"],
         "ane_backdrop": (

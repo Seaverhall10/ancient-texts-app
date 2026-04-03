@@ -468,7 +468,11 @@ CHAPTERS = [
 
         "synopsis": "The Book of Giants had an extraordinary afterlife beyond Judaism. In the 3rd century CE, the Mesopotamian prophet Mani (216-274/277 CE) adopted a version of the Book of Giants as one of his seven canonical scriptures for the Manichaean religion. Mani, who grew up in a Jewish-Christian baptismal community in southern Iraq, was deeply familiar with the Enochic tradition and recognized in the Book of Giants a mythological framework compatible with his own dualistic cosmology. The Manichaean Book of Giants was translated from Syriac/Aramaic into Middle Persian, Parthian, Sogdian, Coptic, and Uighur, spreading from Mesopotamia across Central Asia to the borders of China. Fragments have been recovered from sites as distant as Turfan (in modern Xinjiang, China). This transmission history makes the Book of Giants one of the most widely disseminated Jewish-origin texts in world history.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 6:4",
+            "text": "The Nephilim were on the earth in those days, and also afterward, when the sons of God came in to the daughters of man and they bore children to them. These were the mighty men who were of old, the men of renown.",
+            "translation": "ESV"
+        },
 
         "hebrew_terms": [],
 

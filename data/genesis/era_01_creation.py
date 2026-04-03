@@ -14,7 +14,11 @@ CHAPTERS = [
 
         "synopsis": "Before diving into the study chapters, this guide explains the specialized terms, abbreviations, and concepts you will encounter throughout. These are the tools scholars use to talk about the Bible in its original context. You do not need to memorize them \u2014 but understanding them will make every chapter richer.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "2 Timothy 2:15",
+            "text": "Do your best to present yourself to God as one approved, a worker who has no need to be ashamed, rightly handling the word of truth.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
@@ -205,7 +209,11 @@ CHAPTERS = [
 
         "synopsis": "Genesis 1\u20132 did not emerge in a vacuum. Israel's neighbors had well-developed creation traditions that shaped the conceptual vocabulary and literary conventions Genesis both uses and subverts. Understanding these accounts illuminates what Genesis is arguing and why.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 1:1",
+            "text": "In the beginning, God created the heavens and the earth.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],

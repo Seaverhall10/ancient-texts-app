@@ -1055,7 +1055,11 @@ CHAPTERS = [
             "their originator -- the servant completes this removal permanently."
         ),
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Isaiah 53:11",
+            "text": "Out of the anguish of his soul he shall see and be satisfied; by his knowledge shall the righteous one, my servant, make many to be accounted righteous, and he shall bear their iniquities.",
+            "translation": "ESV"
+        },
 
         "hebrew_terms": [
             "riv (covenant lawsuit -- the formal legal dispute YHWH brings against covenant-breaking Israel through the prophets)",

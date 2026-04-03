@@ -371,7 +371,11 @@ CHAPTERS = [
 
         "synopsis": "The geographical identification of the yam suf ('Sea of Reeds') and the precise route of the exodus from Egypt to Sinai remain among the most debated questions in biblical geography. The traditional identification with the Gulf of Suez has been challenged by proposals ranging from the Gulf of Aqaba to the Bitter Lakes to Lake Timsah. The number '600,000 men' (shesh me'ot eleph) has generated its own sustained debate, with the lexical range of eleph ('thousand,' 'clan,' 'military unit') yielding population estimates from 20,000 to over two million.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Exodus 14:21",
+            "text": "Then Moses stretched out his hand over the sea, and the LORD drove the sea back by a strong east wind all night and made the sea dry land, and the waters were divided.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],

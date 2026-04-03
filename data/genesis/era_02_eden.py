@@ -114,7 +114,11 @@ CHAPTERS = [
 
         "synopsis": "The serpent figure of Genesis 3 has been flattened by centuries of Western art into a literal talking snake in a tree. But the nachash belongs to a rich ANE world of serpentine divine beings, throne-room guardians, and shining supernatural creatures. Recovering this context reveals the original audience's understanding: the antagonist of Eden was a member of God's own heavenly court.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 3:1",
+            "text": "Now the serpent was more crafty than any other beast of the field that the LORD God had made.",
+            "translation": "ESV"
+        },
         "hebrew_terms": ["nachash", "keruvim"],
         "ane_backdrop": None,
         "second_temple": [],

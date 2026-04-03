@@ -1094,7 +1094,11 @@ CHAPTERS = [
         "type": "historical_insert",
         "themes": [],
         "synopsis": "The Joseph narrative fits most naturally within the Hyksos period (c. 1650–1550 BC), when Semitic rulers governed Lower Egypt from Avaris. This era saw Semitic peoples in positions of power, making a Hebrew vizier historically plausible. Egyptian dream interpretation, court protocol, and administrative practices illuminated by archaeological finds provide the cultural backdrop against which Joseph's story unfolds.",
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 50:20",
+            "text": "As for you, you meant evil against me, but God meant it for good, to bring it about that many people should be kept alive, as they are today.",
+            "translation": "ESV"
+        },
         "hebrew_terms": [
                 "chalom",
                 "patar",

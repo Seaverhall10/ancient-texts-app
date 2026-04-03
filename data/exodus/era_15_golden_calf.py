@@ -361,7 +361,11 @@ CHAPTERS = [
 
         "synopsis": "The golden calf of Exodus 32 did not emerge from a vacuum. Bull iconography permeated every major religious tradition of the ancient Near East, from the Apis cult of Memphis to El's epithet 'Bull' at Ugarit, from the storm-god's association with the auroch to the bull-leaping rituals of Minoan Crete. Understanding why Israel chose specifically a calf — and what that choice signified in its cultural context — illuminates both the severity of the sin and its persistent recurrence in Israelite history, culminating in Jeroboam's golden calves at Dan and Bethel.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Exodus 32:4",
+            "text": "And he received the gold from their hand and fashioned it with a graving tool and made a golden calf. And they said, 'These are your gods, O Israel, who brought you up out of the land of Egypt!'",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [],

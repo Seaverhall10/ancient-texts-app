@@ -19,7 +19,11 @@ CHAPTERS = [
 
         "synopsis": "The Book of Jubilees (also called 'The Little Genesis' or 'The Book of the Divisions of the Times') is a Second Temple Jewish work that retells Genesis 1 through Exodus 24, adding extensive halakhic, calendrical, and angelological material not found in the canonical text. It was composed in Hebrew, likely between 170-150 BCE, and survives complete only in Ge'ez (Ethiopic) translation. Fourteen fragmentary Hebrew manuscripts were discovered among the Dead Sea Scrolls (4Q216-228, 1Q17-18, 2Q19-20, 3Q5, 4Q482, 11Q12), confirming the work's high status at Qumran. The Ethiopian Orthodox Church considers Jubilees fully canonical Scripture.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Exodus 24:12",
+            "text": "The LORD said to Moses, 'Come up to me on the mountain and wait there, that I may give you the tablets of stone, with the law and the commandment, which I have written for their instruction.'",
+            "translation": "ESV"
+        },
         "hebrew_terms": [],
         "ane_backdrop": None,
         "second_temple": [

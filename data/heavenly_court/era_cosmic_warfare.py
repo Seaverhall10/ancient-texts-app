@@ -984,7 +984,11 @@ CHAPTERS = [
                     "This insert provides a structured reference guide to the four categories: Imprisoned "
                     "Watchers, Territorial Princes, Demons (disembodied Nephilim), and Satan.",
 
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Ephesians 6:12",
+            "text": "For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness, against the spiritual forces of evil in the heavenly places.",
+            "translation": "ESV"
+        },
 
         "hebrew_terms": [
             "tartaroō (ταρταρόω) — the unique verb used only in 2 Pet 2:4; 'God did not spare angels "

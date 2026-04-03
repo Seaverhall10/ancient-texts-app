@@ -837,7 +837,11 @@ CHAPTERS = [
         "type": "historical_insert",
         "themes": [],
         "synopsis": "Jacob's journey is punctuated by encounters at sites where heaven and earth intersect: Bethel (stairway to heaven), Mahanaim (two camps, divine and human), and Peniel (face of God). These are not random locations but points of divine council access — places where the boundary between the visible and invisible realms becomes thin.",
-        "key_verse": None,
+        "key_verse": {
+            "ref": "Genesis 28:12",
+            "text": "And he dreamed, and behold, there was a ladder set up on the earth, and the top of it reached to heaven. And behold, the angels of God were ascending and descending on it!",
+            "translation": "ESV"
+        },
         "hebrew_terms": [
                 "sulam",
                 "peniel",
