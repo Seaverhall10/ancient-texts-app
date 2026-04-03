@@ -1,5 +1,5 @@
 # Ancient Texts Study App — Current Status
-*Last updated: 2026-04-03 (Session 13)*
+*Last updated: 2026-04-03 (Session 15)*
 
 ---
 
@@ -8,7 +8,7 @@
 ### Core App — Two Versions
 - [x] **PC Version**: Single-file HTML app (`build.py → output/AncientTextsStudy.html`, ~68 MB dev / ~65.5 MB release)
 - [x] **Mobile Version**: Progressive Web App (`build_mobile.py → output/mobile/`, 0.7 MB shell + on-demand data)
-- [x] Both versions contain identical content (102 texts, all interlinear, all features)
+- [x] Both versions contain identical content (103 texts, all interlinear, all features)
 - [x] **Electron desktop app** (Windows installer, `electron/` folder)
 - [x] Release system packages both into `PC/` + `Mobile/` folders with launchers
 
@@ -21,10 +21,10 @@
 - [x] Current version: **3.3.0**
 - [x] Release ZIP: ~40 MB (includes both PC + Mobile)
 
-### Content (102 texts total)
-- [x] **102 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 2 Historical + 12 Thematic + 16 extra-biblical)
-- [x] **307 era files** (study chapter groupings)
-- [x] **1,209 study chapters** across all texts
+### Content (103 texts total)
+- [x] **103 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 2 Historical + 12 Thematic + 1 Research Lens + 16 extra-biblical)
+- [x] **310 era files** (study chapter groupings)
+- [x] **1,216 study chapters** across all texts
 - [x] CONTENT_MAP.json — master AI navigation index (auto-rebuilt on every build)
 
 ### Flow Translations (verse-by-verse English prose)
@@ -90,13 +90,14 @@ DSS Sectarian, Josephus, Heavenly Court
 ## WHAT IS MISSING
 
 ### TIER 0 — Audit Fixes (Blocking Deploy)
-- **~110 unfixed thematic text CRITICALs from Arbiter** — systemic issues: evidence tiers missing, Rule 5 gaps (non-canonical framing), ESV accuracy checks needed
+- ~~**~110 unfixed thematic text CRITICALs from Arbiter**~~ — All thematic text CRITICALs fixed (Session 14). Remaining: hebrew_terms schema rename, 18+ truncated era files
 - **`hebrew_terms` → `original_terms` schema rename needed** — 12 app.js references + ~300 data files still use old field name
 - **18+ truncated era files need content completion** — partial content from previous sessions
 - **59 chapters missing `key_verse`** — scattered across texts (low priority)
 - **1 unlisted CSS file** — `styles.css` on disk but not in `build-order.txt`
 
 ### TIER 1 — Content Depth (Major Gaps)
+0. **Research Lenses**: Islam complete (Session 15). Rabbinic Judaism and Catholicism pending (Sessions 16-17)
 1. **Minor Prophets section depth** — All 12 books at 25-40% of Genesis depth (51/55 chapters flagged)
 2. **NT era expansion** — Luke, John still have only 2 eras each (Matthew + Acts now have 5 each)
 3. ~~DSS Sectarian hebrew_terms~~ — done (26/26)
@@ -137,9 +138,9 @@ DSS Sectarian, Josephus, Heavenly Court
 
 | Metric | Value |
 |--------|-------|
-| Total texts | **102** |
-| Total era files | **307** |
-| Study chapters | **1,209** |
+| Total texts | **103** |
+| Total era files | **310** |
+| Study chapters | **1,216** |
 | Flow translations | **66/102 texts** (all 39 OT + all 27 NT + extra-biblical) |
 | Flow files | **111** |
 | Flow verses | **42,373** |
@@ -147,7 +148,7 @@ DSS Sectarian, Josephus, Heavenly Court
 | Interlinear words (OT) | **306,506** |
 | Interlinear words (NT) | **137,833** |
 | **Total interlinear** | **444,339** |
-| Cross-references | **8,467** |
+| Cross-references | **8,529** |
 | Bible Analysis entries | **70/70** (structured tabbed UI) |
 | Glossary terms | **607** |
 | Map journey routes | **24** (206 waypoints) |
@@ -161,11 +162,33 @@ DSS Sectarian, Josephus, Heavenly Court
 | Release ZIP | ~40 MB (PC + Mobile) |
 | Current version | **3.3.0** |
 | Audit modules | **12** |
-| Audit baseline (2026-04-03) | **0 critical**, 546 passed |
+| Audit baseline (2026-04-03) | **0 critical**, 550 passed |
 
 ---
 
 ## RECENT CHANGES
+
+### Session 15 (2026-04-03) — Research Lens: Islam & the Quran
+- NEW: **"Islam & the Quran"** — 7-chapter comparative study (first Research Lens)
+  - Ch 1: Muhammad & the Prophetic Pattern
+  - Ch 2: Isa in the Quran vs. Jesus in the NT
+  - Ch 3: Shared Prophets, Altered Stories (midrash → Quran pipeline)
+  - Ch 4: The Quran's Borrowed Sources (Infancy Gospel, Seven Sleepers, Pirke de-Rabbi Eliezer)
+  - Ch 5: Jinn vs. Biblical Demonology (four categories framework)
+  - Ch 6: Crucifixion Denied — The Central Divide (1 Cor 15 creed, 600-year gap)
+  - Ch 7: Satanic Verses, Abrogation & Textual Integrity
+- Content standards: Islamic position presented first in strongest form, then biblical response with Hebrew/Greek/Arabic evidence
+- 30 sections, 62 cross-references, 32 Hebrew/Greek/Arabic terms
+- Arbiter review: 9 CRITICALs found and fixed
+
+### Session 14 (2026-04-03) — Thematic Text CRITICAL Fixes
+- Fixed 81 Arbiter CRITICALs across all 12 remaining thematic texts (40 files)
+- ~30 "church" → "ekklesia (governing assembly)" fixes (Law #22)
+- 6 Deut 32:8 + "(DSS/LXX)" qualifiers added (Law #8)
+- Fictitious "metanya" Aramaic term replaced with correct Greek metanoeō
+- 1 Enoch 90:31 wrong verse corrected, "7 Qumran caves" factual error fixed
+- Galatians 3:19 ESV correction, Isaiah 66:8/Ezekiel 37 zionism nuances
+- All thematic texts now Arbiter-reviewed and fixed
 
 ### Session 12-13 (2026-04-03) — The Reckoning + Nephilim Narrative + Bible Analysis Rebuild
 
