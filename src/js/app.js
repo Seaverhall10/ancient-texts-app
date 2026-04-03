@@ -62,6 +62,11 @@ function renderBibleAnalysisCards(data) {
                 h += '<h2 class="ba-section-header" id="' + sec.id + '">' + sec.title + '</h2>';
             }
         }
+        // Stub entries: hidden filter targets with no real content — keep for theme filtering but don't show
+        if (book.title === book.id && !book.body_html) {
+            h += '<div class="ba-book-card" id="' + book.id + '" data-themes="' + (book.themes || '') + '" style="display:none"></div>';
+            return;
+        }
         // Build card
         h += '<div class="ba-book-card" id="' + book.id + '" data-themes="' + (book.themes || '') + '">';
         h += '<div class="ba-book-header" onclick="toggleAnalysisCard(this)">';
