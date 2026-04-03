@@ -83,6 +83,56 @@ BOOK_ENTRIES = [
 
   <h4>Cross-References</h4>
   <p class="xref">Genesis <span class="arrow">&rarr;</span> <span class="badge badge-ot">Exodus</span> <span class="badge badge-ot">Deuteronomy</span> <span class="badge badge-nt">Romans</span> <span class="badge badge-nt">Galatians</span> <span class="badge badge-nt">Hebrews</span> <span class="badge badge-dss">1 Enoch</span> <span class="badge badge-nt">Revelation</span> <span class="badge badge-ot">Job</span> <span class="badge badge-ot">Psalms</span></p>''',
+        "key_claim": "Genesis 3:15 is the thesis statement of the entire Bible — every genealogy, every covenant, every conflict from Cain to Christ tracks the seed line and the war between the serpent's offspring and the woman's.",
+        "contested_words": [
+            {"word": "elohim", "hebrew": "אֱלֹהִים", "issue": "'God' vs. 'gods' vs. 'divine beings' — same word for YHWH and the council. English translations obscure the plurality.", "severity": "CRITICAL"},
+            {"word": "bene ha'elohim", "hebrew": "בְּנֵי הָאֱלֹהִים", "issue": "'Sons of God' = divine beings, NOT 'sons of Seth.' Sethite view introduced 3rd c. AD, zero Hebrew support.", "severity": "CRITICAL"},
+            {"word": "nephilim", "hebrew": "נְפִילִים", "issue": "From naphal (to fall)? Giants, fallen ones. LXX: gigantes. Offspring of Watchers + human women.", "severity": "CRITICAL"},
+            {"word": "nachash", "hebrew": "נָחָשׁ", "issue": "Three roots with same consonants: snake, shine, divine. Isa 14 and Ezek 28 use 'shining' sense.", "severity": "CRITICAL"},
+            {"word": "zera", "hebrew": "זֶרַע", "issue": "Seed — singular (Christ) or collective? Paul argues singular (Gal 3:16).", "severity": "CRITICAL"},
+            {"word": "tselem", "hebrew": "צֶלֶם", "issue": "'Image' but literally carved statue. ANE kings placed tselem in territory. Functional vs. ontological.", "severity": "MAJOR"},
+            {"word": "berit", "hebrew": "בְּרִית", "issue": "Covenant — 'cut' (karat berit). Unilateral or bilateral? Shapes whether God's promises are conditional.", "severity": "MAJOR"},
+            {"word": "ruach", "hebrew": "רוּחַ", "issue": "'Spirit of God' or 'wind of God' or 'mighty wind'?", "severity": "MAJOR"},
+            {"word": "tohu wabohu", "hebrew": "תֹהוּ וָבֹהוּ", "issue": "Formless and void, chaos. Pre-existing chaos or created state? Gap theory.", "severity": "MAJOR"},
+            {"word": "hesed", "hebrew": "חֶסֶד", "issue": "Steadfast love, mercy, loyalty — no single English word captures covenant faithfulness.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "exodus", "why": "Passover lamb typology begins with God clothing Adam/Eve in skins (3:21) and Abraham's 'God will provide the lamb' (22:8)"},
+            {"target": "deuteronomy", "why": "Babel scattering (Gen 11) directly sets up the Deut 32:8 allotment of nations to lesser elohim"},
+            {"target": "romans", "why": "Adam-Christ typology (Rom 5:12-21) and Abraham's faith-righteousness (Rom 4, cf. Gen 15:6)"},
+            {"target": "galatians", "why": "Paul argues zera (seed) in Gen 3:15/12:7 is singular = Christ (Gal 3:16)"},
+            {"target": "hebrews", "why": "Melchizedek priesthood (Gen 14:18) becomes the anchor of Christ's superior priesthood (Heb 5-7)"},
+            {"target": "1enoch", "why": "Genesis 6:1-4 is the compressed account; 1 Enoch 6-16 provides the full Watcher narrative"},
+            {"target": "revelation", "why": "The nachash of Eden (Gen 3) is identified as Satan/the dragon (Rev 12:9, 20:2); Eden restored in Rev 21-22"},
+            {"target": "job", "why": "bene ha'elohim appear in the divine council (Job 1:6, 2:1) — same phrase as Gen 6:2"},
+            {"target": "psalms", "why": "Melchizedek reappears in Ps 110:4; divine council in Ps 82; creation theology in Ps 8, 104"},
+        ],
+        "what_it_doesnt_say": [
+            "Satan never named — the nachash is never called 'Satan' in Genesis (identified in Rev 12:9)",
+            "No afterlife details — people die but Genesis says nothing about where they go",
+            "Why God chose Abraham — Gen 12:1 starts mid-sentence with no explanation",
+            "The 400-year gap — Genesis 50 to Exodus 1 is a black hole",
+            "Enoch's story — one verse (5:24) for the man 1 Enoch gives 108 chapters",
+        ],
+        "unusual_characters": [
+            {"name": "Melchizedek", "ref": "14:18", "detail": "King of Salem + priest of El Elyon. No genealogy. Serves bread and wine. Abraham tithes to him.", "connections": ["psalms", "hebrews"]},
+            {"name": "Enoch", "ref": "5:24", "detail": "Walked with God and was not. Didn't die.", "connections": ["hebrews", "jude", "1enoch"]},
+            {"name": "The Nachash", "ref": "3:1", "detail": "NOT a snake. A 'shining one' / guardian cherub in Eden (Ezek 28:13-15).", "connections": ["isaiah", "ezekiel", "revelation"]},
+            {"name": "Hagar", "ref": "16:13", "detail": "The ONLY person in the Bible who NAMES God ('El Roi' — the God who sees me).", "connections": ["galatians"]},
+            {"name": "Tamar", "ref": "38:6", "detail": "Forces Judah to fulfill levirate duty. 'She is more righteous than I.' In Jesus' genealogy.", "connections": ["ruth", "matthew"]},
+        ],
+        "patterns": [
+            "Toledot structure: 'These are the generations of...' appears 11 times, organizing the entire book",
+            "Chiasm in the Flood narrative (Gen 6-9): 'God remembered Noah' at the center",
+            "First-mention principle: first occurrence of key words (covenant, love, worship, prophet) sets the pattern for the rest of Scripture",
+            "Seven-fold patterns: 7 days of creation, 7 'good' declarations, Lamech's 77-fold vengeance vs. 7-fold for Cain",
+            "Reversal of primogeniture: younger chosen over older repeatedly (Isaac over Ishmael, Jacob over Esau, Joseph over brothers, Ephraim over Manasseh)",
+        ],
+        "mistranslations": [
+            {"english": "God", "original": "elohim", "issue": "Hides divine council plurality — same word used for YHWH, angels, and the council"},
+            {"english": "serpent", "original": "nachash", "issue": "Hides the 'shining one' meaning — reduces a divine being to an animal"},
+            {"english": "giants", "original": "nephilim", "issue": "Obscures the 'fallen ones' etymology and connection to divine-human hybridization"},
+        ],
     },
     {
         "id": 'exodus',
@@ -121,6 +171,47 @@ BOOK_ENTRIES = [
     <li><strong>Pharaoh</strong> (unnamed) — The text NEVER names the exodus Pharaoh. Deliberate damnatio memoriae.</li>
     <li><strong>Five women of Exodus 1-2</strong> — Shiphrah, Puah, Jochebed, Miriam, Pharaoh's daughter: they outwit the most powerful man on earth.</li>
   </ul>''',
+        "key_claim": "The plagues are not random natural disasters but targeted strikes against Egypt's gods — YHWH systematically dismantles an entire pantheon to demonstrate his supremacy over the spiritual powers behind the nations.",
+        "contested_words": [
+            {"word": "YHWH", "hebrew": "יהוה", "issue": "The divine name itself — meaning, pronunciation, origin all debated. 'LORD' hides it.", "severity": "CRITICAL"},
+            {"word": "ehyeh asher ehyeh", "hebrew": "אֶהְיֶה אֲשֶׁר אֶהְיֶה", "issue": "'I AM WHO I AM' or 'I WILL BE WHAT I WILL BE'? Self-existence or promise of presence?", "severity": "CRITICAL"},
+            {"word": "nacham", "hebrew": "נָחַם", "issue": "'Relented' or 'repented' or 'changed his mind'? Does God change his mind? Used 30+ times.", "severity": "CRITICAL"},
+            {"word": "pesach", "hebrew": "פֶּסַח", "issue": "'Pass over' or 'hover over/protect'? Does God skip the house or guard the door?", "severity": "MAJOR"},
+            {"word": "yam suph", "hebrew": "יַם סוּף", "issue": "'Red Sea' or 'Reed Sea'? suph = reeds. LXX translated it 'Red Sea' and it stuck.", "severity": "MAJOR"},
+            {"word": "mashchit", "hebrew": "מַשְׁחִית", "issue": "'The destroyer' — a distinct being, NOT YHWH. A divine council agent executing the decree.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "genesis", "why": "Passover lamb fulfills the pattern of substitutionary sacrifice begun with the skins in Gen 3:21 and the ram for Isaac in Gen 22"},
+            {"target": "leviticus", "why": "The tabernacle instructions (Ex 25-40) set up the entire sacrificial system codified in Leviticus"},
+            {"target": "hebrews", "why": "The tabernacle as 'copy and shadow' of heavenly reality (Heb 8:5, cf. Ex 25:40 tavnit/pattern)"},
+            {"target": "revelation", "why": "The plagues of Exodus reappear in Revelation's trumpet and bowl judgments; the exodus pattern of cosmic liberation repeated"},
+            {"target": "1corinthians", "why": "'Christ our Passover lamb has been sacrificed' (1 Cor 5:7) — direct Passover typology"},
+            {"target": "john", "why": "Jesus crucified at Passover; 'not a bone shall be broken' (John 19:36, cf. Ex 12:46)"},
+        ],
+        "what_it_doesnt_say": [
+            "Pharaoh is never named — deliberate damnatio memoriae, the most powerful man on earth denied identity",
+            "No explanation of how Israel maintained identity for 400 years in Egypt",
+            "The burning bush is never explained — what kind of fire doesn't consume?",
+            "Moses' 40 years in Midian are compressed into a few verses",
+            "No account of how Israel learned to build the tabernacle's sophisticated structures",
+        ],
+        "unusual_characters": [
+            {"name": "The Destroyer (mashchit)", "ref": "12:23", "detail": "A distinct being executing the 10th plague, NOT YHWH himself. Divine council agent.", "connections": ["2samuel", "1chronicles", "revelation"]},
+            {"name": "Bezalel", "ref": "31:1-5", "detail": "First person 'filled with the Spirit of God' — for CRAFTSMANSHIP, not prophecy.", "connections": []},
+            {"name": "Pharaoh", "ref": "1:8", "detail": "The text NEVER names the exodus Pharaoh. Deliberate damnatio memoriae.", "connections": ["romans"]},
+            {"name": "Shiphrah and Puah", "ref": "1:15", "detail": "Hebrew midwives who defy Pharaoh's genocide order — named when Pharaoh is not.", "connections": []},
+        ],
+        "patterns": [
+            "Seven speeches of tabernacle instruction mirror the seven days of creation — tabernacle as new Eden",
+            "Hardening escalation: Pharaoh hardens his OWN heart first (chs. 7-8), then God hardens it (chs. 9-14) — three different Hebrew words: chazaq, kaved, qashah",
+            "Plagues follow a 3x3+1 structure: three sets of three plagues with escalating severity, then the 10th as climax",
+            "Chiasm in the Song of the Sea (Ex 15): YHWH as warrior at the center",
+        ],
+        "mistranslations": [
+            {"english": "LORD", "original": "YHWH", "issue": "Hides the personal divine name behind a title — readers never learn God's actual name"},
+            {"english": "Red Sea", "original": "yam suph", "issue": "Obscures 'Sea of Reeds' — LXX mistranslation that stuck for 2,000 years"},
+            {"english": "hardened", "original": "chazaq/kaved/qashah", "issue": "Collapses three distinct Hebrew concepts (strengthen/make heavy/stiffen) into one English word"},
+        ],
     },
     {
         "id": 'leviticus',
@@ -148,6 +239,41 @@ BOOK_ENTRIES = [
     <tr><td><strong>qadosh</strong> (19:2)</td><td>"Holy" — separated/set apart. Not moral perfection but ontological distinction.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
     <tr><td><strong>se'irim</strong> (17:7)</td><td>"Goat demons" — hairy ones. Israel sacrificing to actual spiritual entities in the wilderness.</td><td><span class="badge badge-major">MAJOR</span></td></tr>
   </table>''',
+        "key_claim": "The Day of Atonement (Lev 16) sends one goat to YHWH and one to Azazel — a specific imprisoned Watcher — returning sins to their originator, not merely symbolizing removal.",
+        "contested_words": [
+            {"word": "azazel", "hebrew": "עֲזָאזֵל", "issue": "'Scapegoat' or proper name of a Watcher/demon? 1 Enoch 10:4-6 names Azazel as the imprisoned Watcher leader.", "severity": "CRITICAL"},
+            {"word": "kaphar", "hebrew": "כָּפַר", "issue": "'Atone' — but does it mean cover, cleanse, or ransom? Shapes entire atonement theology.", "severity": "CRITICAL"},
+            {"word": "qadosh", "hebrew": "קָדוֹשׁ", "issue": "'Holy' — separated/set apart. Not moral perfection but ontological distinction.", "severity": "MAJOR"},
+            {"word": "se'irim", "hebrew": "שְׂעִירִים", "issue": "'Goat demons' — hairy ones. Israel sacrificing to actual spiritual entities in the wilderness.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "1enoch", "why": "Azazel in Lev 16 is the same being named in 1 Enoch 10:4-6 as the Watcher leader imprisoned in the wilderness"},
+            {"target": "hebrews", "why": "The entire sacrificial system is 'a shadow of good things to come' (Heb 10:1); Day of Atonement fulfilled in Christ's once-for-all sacrifice"},
+            {"target": "exodus", "why": "The tabernacle built in Exodus is the setting for every sacrifice prescribed in Leviticus"},
+            {"target": "romans", "why": "kaphar (atonement/propitiation) connects to hilasterion in Rom 3:25 — the mercy seat"},
+            {"target": "luke", "why": "Jesus' inaugural sermon (Luke 4:18-19) declares Jubilee (Lev 25) fulfilled"},
+        ],
+        "what_it_doesnt_say": [
+            "No explanation of WHY blood atones — 'the life is in the blood' (17:11) but the mechanism is never explained",
+            "Azazel is never identified — the text assumes the audience knows who/what Azazel is",
+            "No rationale for the clean/unclean animal distinctions — the categories are given without explanation",
+            "The Jubilee — no record that Israel ever actually observed it",
+        ],
+        "unusual_characters": [
+            {"name": "Azazel", "ref": "16:8", "detail": "The scapegoat's destination — a being in the wilderness. 1 Enoch identifies him as the Watcher leader who taught humans warfare and cosmetics.", "connections": ["1enoch"]},
+            {"name": "Nadab and Abihu", "ref": "10:1-2", "detail": "Aaron's sons who offer 'strange fire' and are consumed. God's holiness is lethal when boundaries are violated.", "connections": ["numbers", "2samuel"]},
+        ],
+        "patterns": [
+            "Five offerings address five dimensions: burnt (dedication), grain (provision), peace (fellowship), sin (purification), guilt (restitution)",
+            "Holiness gradient: camp → court → holy place → holy of holies mirrors the access structure of Eden",
+            "Clean/unclean binary structures the entire book — everything is categorized, nothing is neutral",
+            "Jubilee cycle (7x7+1 = 50 years) mirrors the creation week pattern at a macro scale",
+        ],
+        "mistranslations": [
+            {"english": "scapegoat", "original": "azazel", "issue": "Turns a proper name (a specific Watcher) into a generic concept — hides the divine council backstory"},
+            {"english": "atonement", "original": "kaphar", "issue": "English theological abstraction hides the concrete Hebrew: cover, smear, ransom"},
+            {"english": "holy", "original": "qadosh", "issue": "English implies moral perfection; Hebrew means 'set apart, other' — ontological category, not ethical"},
+        ],
     },
     {
         "id": 'numbers',
@@ -166,6 +292,42 @@ BOOK_ENTRIES = [
   <p><strong>PRIESTLY BLESSING</strong> (6:24-26) — "YHWH bless you and keep you; YHWH make his face shine on you." The oldest biblical text found in archaeology (Ketef Hinnom silver scrolls, ~600 BC). Fulfilled in Rev 22:4: "They will see his face."</p>
   <p><strong>NEPHILIM IN CANAAN</strong> (13:33) — The spies report Nephilim/Anakim in the land. The post-Flood giant clans are real. This is why conquest requires divine intervention.</p>
   <p><strong>BRONZE SERPENT</strong> (21:8-9) — "Moses made a bronze serpent (nachash nechoshet) and set it on a pole." Jesus interprets this: "As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up" (John 3:14). The NACHASH becomes the symbol of salvation.</p>''',
+        "key_claim": "Balaam — a pagan diviner — delivers the clearest messianic oracle in the Torah ('A star shall come out of Jacob,' 24:17), proving YHWH's sovereignty extends beyond Israel's borders and uses even hostile agents.",
+        "contested_words": [
+            {"word": "nephilim", "hebrew": "נְפִילִים", "issue": "The spies report Nephilim/Anakim in Canaan (13:33) — post-Flood giant clans are real, not exaggeration.", "severity": "CRITICAL"},
+            {"word": "nachash nechoshet", "hebrew": "נְחַשׁ נְחֹשֶׁת", "issue": "Bronze serpent — wordplay on nachash (serpent/shining one) and nechoshet (bronze/copper). The shining nachash becomes salvation.", "severity": "CRITICAL"},
+            {"word": "cherem", "hebrew": "חֵרֶם", "issue": "'Devoted to destruction' — consecrated to God, not ethnic cleansing. Religious category.", "severity": "MAJOR"},
+            {"word": "qesem", "hebrew": "קֶסֶם", "issue": "Divination — Balaam practices qesem (22:7) yet YHWH speaks through him. Pagan methods overridden by divine sovereignty.", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "john", "why": "Jesus directly interprets the bronze serpent: 'As Moses lifted up the serpent... so must the Son of Man be lifted up' (John 3:14)"},
+            {"target": "revelation", "why": "Balaam reappears as archetype of false teaching (Rev 2:14) — the one who taught Balak to entice Israel"},
+            {"target": "joshua", "why": "The Nephilim/Anakim reported by the spies are the targets of Joshua's conquest campaigns"},
+            {"target": "deuteronomy", "why": "Moses' final speeches in Deuteronomy recapitulate and interpret the wilderness failures recorded in Numbers"},
+            {"target": "2peter", "why": "Balaam becomes the paradigm of prophets-for-hire: 'the way of Balaam' (2 Pet 2:15)"},
+        ],
+        "what_it_doesnt_say": [
+            "Why 38 years of wilderness wandering are almost entirely skipped — from ch. 19 to ch. 20, decades vanish",
+            "How the Nephilim survived the Flood — the spies see them but no origin explanation is given",
+            "What Balaam actually saw when the donkey stopped — his spiritual blindness vs. an animal's sight",
+            "Why Moses striking the rock (20:11) instead of speaking to it warranted exclusion from the Promised Land",
+        ],
+        "unusual_characters": [
+            {"name": "Balaam", "ref": "22:5", "detail": "Pagan diviner hired to curse Israel, compelled by YHWH to bless instead. Delivers messianic prophecy. Later leads Israel into sin.", "connections": ["revelation", "2peter", "jude"]},
+            {"name": "Balaam's donkey", "ref": "22:28", "detail": "Sees the Angel of YHWH before the professional seer does. God opens its mouth to rebuke a prophet.", "connections": []},
+            {"name": "Zelophehad's daughters", "ref": "27:1-7", "detail": "Five women challenge inheritance law and win — God changes the legal code in their favor.", "connections": []},
+            {"name": "The bronze serpent", "ref": "21:9", "detail": "The nachash on a pole becomes the instrument of healing — the very image of the enemy becomes salvation.", "connections": ["john", "2kings"]},
+        ],
+        "patterns": [
+            "Census-rebellion-judgment cycle: the book is structured around two censuses (chs. 1, 26) with rebellion filling the gap between them",
+            "Escalating rebellion: complaining (11) → Miriam/Aaron challenge Moses (12) → spies refuse the land (13-14) → Korah challenges priesthood (16) → Moses fails (20)",
+            "The nachash wordplay in 21:8-9: nachash (serpent) made of nechoshet (bronze) — the instrument of the curse becomes the instrument of healing",
+            "Balaam's oracles follow a 4-oracle structure with escalating scope: Israel → Messiah → nations",
+        ],
+        "mistranslations": [
+            {"english": "giants", "original": "nephilim/anakim", "issue": "Reduces the theological category of divine-human hybrid 'fallen ones' to a mere physical description"},
+            {"english": "bronze serpent", "original": "nachash nechoshet", "issue": "Misses the deliberate wordplay connecting the serpent-being (nachash) to the bronze/shining material"},
+        ],
     },
     {
         "id": 'deuteronomy',
@@ -203,6 +365,44 @@ BOOK_ENTRIES = [
 
 <!-- This is Part 1 — Pentateuch complete. More books follow. -->
 <!-- Remaining books are loaded below -->''',
+        "key_claim": "Deuteronomy 32:8-9 is the single most important verse for understanding the spiritual architecture of the nations — after Babel, Elyon divided humanity among bene elohim (sons of God), keeping only Israel as YHWH's own portion.",
+        "contested_words": [
+            {"word": "bene elohim", "hebrew": "בְּנֵי אֱלֹהִים", "issue": "MT: 'sons of Israel' vs. DSS/LXX: 'sons of God.' Most consequential textual variant in the OT.", "severity": "CRITICAL"},
+            {"word": "echad", "hebrew": "אֶחָד", "issue": "'One' (ontological) vs. 'alone' (covenantal). yachid (strict unity) was available but not used.", "severity": "CRITICAL"},
+            {"word": "cherem", "hebrew": "חֵרֶם", "issue": "'Utterly destroy' — but means 'consecrated to God.' Religious category, not ethnic genocide.", "severity": "MAJOR"},
+            {"word": "Torah", "hebrew": "תּוֹרָה", "issue": "'Law' (wrong — Western juridical import) vs. 'instruction/direction' from yarah (to direct).", "severity": "MAJOR"},
+            {"word": "shedim", "hebrew": "שֵׁדִים", "issue": "'Demons' — only here and Ps 106:37. Distinct from allotted elohim. Disembodied Nephilim (1 En 15:8-10).", "severity": "MAJOR"},
+        ],
+        "hidden_connections": [
+            {"target": "genesis", "why": "Babel scattering (Gen 11) is the event Deut 32:8 interprets — the nations were allotted to bene elohim as consequence"},
+            {"target": "psalms", "why": "Psalm 82 depicts YHWH judging the corrupt elohim given nations in Deut 32:8 — 'you shall die like men'"},
+            {"target": "daniel", "why": "Daniel 10 reveals the territorial princes (Prince of Persia, Prince of Greece) assigned at the Deut 32:8 allotment"},
+            {"target": "matthew", "why": "Jesus quotes Deuteronomy three times to defeat Satan (Matt 4:4, 7, 10 — all from Deut 6-8)"},
+            {"target": "acts", "why": "Pentecost (Acts 2) reverses Babel/Deut 32:8 — tongues unite what was divided, nations reclaimed for YHWH"},
+            {"target": "romans", "why": "Heart circumcision (Deut 30:6) becomes Paul's argument in Rom 2:28-29; new covenant in seed form"},
+        ],
+        "what_it_doesnt_say": [
+            "Who altered 'sons of God' to 'sons of Israel' in the MT — the most consequential scribal change in the OT has no explanation",
+            "How the allotted elohim became corrupt — Deut 32:8 assigns them but Ps 82 condemns them, with no narrative bridge",
+            "Moses' burial location — God buries him personally and 'no one knows his burial place to this day' (34:6)",
+            "Why God chose Israel specifically — Deut 7:7 says 'not because you were more numerous' but never gives the positive reason",
+        ],
+        "unusual_characters": [
+            {"name": "The Prophet Like Moses", "ref": "18:15", "detail": "A future prophet from among the brothers — fulfilled in Christ. Transfiguration echoes: 'Listen to him' (Matt 17:5).", "connections": ["matthew", "john", "acts"]},
+            {"name": "The shedim", "ref": "32:17", "detail": "Demons Israel sacrificed to — distinct from the allotted elohim. Disembodied Nephilim spirits (1 En 15:8-10).", "connections": ["psalms", "1enoch"]},
+        ],
+        "patterns": [
+            "Suzerainty treaty structure: preamble (1:1-5), historical prologue (1:6-4:43), stipulations (4:44-26:19), blessings/curses (27-28), witnesses (30:19, 31:28)",
+            "Deut 32 (Song of Moses) is a self-contained prophetic history: creation → election → rebellion → exile → restoration",
+            "Most quoted OT book in the NT (~200 times) — Jesus uses it to defeat Satan with all three temptation responses from Deut 6-8",
+            "Heart circumcision progression: 10:16 commands it, 29:4 admits Israel can't do it, 30:6 promises God will do it FOR them — new covenant in embryo",
+        ],
+        "mistranslations": [
+            {"english": "sons of Israel", "original": "bene elohim", "issue": "MT scribal alteration hides the divine council allotment — DSS and LXX independently preserve 'sons of God'"},
+            {"english": "the LORD is one", "original": "YHWH echad", "issue": "Implies ontological monotheism when the Hebrew context (among other elohim) means 'YHWH alone' — covenantal loyalty oath"},
+            {"english": "Law", "original": "Torah", "issue": "Western juridical import obscures 'instruction/direction' from yarah — makes Torah sound punitive rather than formative"},
+            {"english": "demons", "original": "shedim", "issue": "Generic English term hides the specific category — disembodied Nephilim spirits, distinct from the territorial elohim"},
+        ],
     },
     {
         "id": 'joshua',

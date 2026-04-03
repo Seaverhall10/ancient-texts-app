@@ -633,6 +633,42 @@
 /* Section headers inside analysis */
 .ba-section-header { font-family: Georgia, serif; color: #c9a84c; font-size: 1.3rem; margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 1px solid rgba(201,168,76,0.12); }
 
+/* == Structured Bible Analysis Tabs ====================== */
+.ba-tabs { display: flex; gap: 2px; margin: 12px 0 0; flex-wrap: wrap; }
+.ba-tab-btn { padding: 6px 12px; border: 1px solid rgba(201,168,76,0.15); background: transparent; color: var(--text-muted, #6b6860); border-radius: 6px 6px 0 0; font-size: .72rem; cursor: pointer; transition: all .2s; }
+.ba-tab-btn:hover { background: rgba(201,168,76,0.08); color: var(--text-primary, #e0ddd5); }
+.ba-tab-btn.active { background: rgba(201,168,76,0.12); color: var(--gold, #c9a84c); border-bottom-color: transparent; font-weight: 600; }
+.ba-tab-panel { display: none; padding: 12px 0; }
+.ba-tab-panel.active { display: block; }
+
+/* Key claim */
+.ba-key-claim { font-size: .92rem; line-height: 1.8; color: var(--text-primary, #e0ddd5); }
+
+/* Hebrew column */
+.ba-hebrew-col { white-space: nowrap; }
+.ba-hebrew { font-size: 1.1rem; direction: rtl; unicode-bidi: bidi-override; color: var(--gold, #c9a84c); }
+
+/* Connection items */
+.ba-connection-item { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid rgba(201,168,76,0.08); align-items: baseline; }
+.ba-connection-target { color: var(--gold, #c9a84c); cursor: pointer; white-space: nowrap; font-weight: 600; font-size: .82rem; }
+.ba-connection-target:hover { text-decoration: underline; }
+.ba-connection-why { font-size: .82rem; color: var(--text-secondary, #9a968e); line-height: 1.5; }
+
+/* Character items */
+.ba-character-item { padding: 8px 0; border-bottom: 1px solid rgba(201,168,76,0.08); }
+.ba-character-item p { font-size: .82rem; color: var(--text-secondary, #9a968e); margin: 4px 0; line-height: 1.6; }
+.ba-character-ref { font-size: .75rem; color: var(--text-muted, #6b6860); }
+.ba-character-links { font-size: .78rem; margin-top: 4px; }
+
+/* Silence + pattern lists */
+.ba-silence-list li, .ba-pattern-list li { font-size: .82rem; color: var(--text-secondary, #9a968e); line-height: 1.7; margin-bottom: 6px; }
+
+@media (max-width: 768px) {
+    .ba-tabs { gap: 1px; }
+    .ba-tab-btn { font-size: .65rem; padding: 5px 8px; }
+    .ba-connection-item { flex-direction: column; gap: 2px; }
+}
+
 /* Search box */
 .ba-search-box { width: 100%; padding: 10px 14px; background: var(--bg-primary, #0c0e14); border: 1px solid rgba(201,168,76,0.12); border-radius: 6px; color: #e0ddd5; font-size: .9rem; outline: none; margin-bottom: 12px; box-sizing: border-box; }
 .ba-search-box:focus { border-color: rgba(201,168,76,0.4); }

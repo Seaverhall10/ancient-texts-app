@@ -800,6 +800,18 @@
       "description": "Track the giant bloodlines from Genesis 6 through conquest, David's battles, Second Temple traditions, and worldwide giant memories across every continent"
     },
     {
+      "id": "nephilim_narrative",
+      "name": "The Nephilim Story",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 7,
+      "color": "#8b4a3e",
+      "data_dir": "nephilim_narrative",
+      "is_narrative": true,
+      "interlinear": null,
+      "description": "The full Nephilim story from Genesis 6 through David, with adjustable evidence levels — start with canon only, then unlock Hebrew analysis and ancient sources"
+    },
+    {
       "id": "parables_invitation",
       "name": "Jesus & the Gentiles",
       "category": "thematic",
@@ -3250,6 +3262,23 @@
         "Americas",
         "Physical evidence",
         "Sacred geometry"
+      ]
+    },
+    {
+      "id": "nephilim_story",
+      "text": "nephilim_narrative",
+      "name": "The Nephilim Story",
+      "chapters": "Complete Narrative (7 chapters)",
+      "color": "#8b4a3e",
+      "icon": "N",
+      "data_file": "era_nephilim_story",
+      "themes": [
+        "Nephilim",
+        "Sons of God",
+        "Giants",
+        "Seed War",
+        "Three Rebellions",
+        "Divine Council"
       ]
     },
     {

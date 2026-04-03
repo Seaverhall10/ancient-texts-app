@@ -4,6 +4,27 @@
 function toggleAnalysisCard(header) {
     header.parentElement.classList.toggle('open');
 }
+// Delegated click handler for BA structured tabs + connection links
+document.addEventListener('click', function(e) {
+    var tabBtn = e.target.closest('.ba-tab-btn');
+    if (tabBtn) {
+        var tabId = tabBtn.dataset.baTab;
+        var card = tabBtn.closest('.ba-book-card');
+        if (card) {
+            card.querySelectorAll('.ba-tab-btn').forEach(function(b) { b.classList.remove('active'); });
+            card.querySelectorAll('.ba-tab-panel').forEach(function(p) { p.classList.remove('active'); });
+            tabBtn.classList.add('active');
+            var panel = card.querySelector('[data-ba-panel="' + tabId + '"]');
+            if (panel) panel.classList.add('active');
+        }
+        return;
+    }
+    var connTarget = e.target.closest('[data-navigate-book]');
+    if (connTarget) {
+        var bookId = connTarget.dataset.navigateBook;
+        if (typeof navigateToAnalysisBook === 'function') navigateToAnalysisBook(bookId);
+    }
+});
 function filterAnalysisBooks(query) {
     query = query.toLowerCase().trim();
     document.querySelectorAll('.ba-book-card').forEach(function(card) {
@@ -81,8 +102,10 @@ function renderBibleAnalysisCards(data) {
             h += '<span class="meta">' + metaHtml + '</span>';
         }
         h += '</div><span class="arrow">&#9654;</span></div>';
-        // Body — prefix CSS classes for namespacing
-        if (book.body_html) {
+        // Body — structured data (new) or legacy HTML (fallback)
+        if (book.contested_words || book.key_claim) {
+            h += renderStructuredBookBody(book);
+        } else if (book.body_html) {
             var body = book.body_html
                 .replace(/class="ref-table/g, 'class="ba-ref-table')
                 .replace(/class="theme-grid/g, 'class="ba-theme-grid')
@@ -94,6 +117,105 @@ function renderBibleAnalysisCards(data) {
         }
         h += '</div>';
     });
+    return h;
+}
+
+function renderStructuredBookBody(book) {
+    var h = '<div class="ba-book-body ba-structured">';
+    // Tab bar
+    var tabs = [];
+    if (book.key_claim) tabs.push({id:'claim', label:'Key Claim'});
+    if (book.contested_words && book.contested_words.length) tabs.push({id:'words', label:'Contested Words'});
+    if (book.hidden_connections && book.hidden_connections.length) tabs.push({id:'connections', label:'Connections'});
+    if (book.what_it_doesnt_say && book.what_it_doesnt_say.length) tabs.push({id:'silences', label:'Silences'});
+    if (book.unusual_characters && book.unusual_characters.length) tabs.push({id:'characters', label:'Characters'});
+    if (book.patterns && book.patterns.length) tabs.push({id:'patterns', label:'Patterns'});
+    if (book.mistranslations && book.mistranslations.length) tabs.push({id:'hidden', label:'Hidden in Translation'});
+
+    h += '<div class="ba-tabs">';
+    tabs.forEach(function(t, i) {
+        h += '<button class="ba-tab-btn' + (i === 0 ? ' active' : '') + '" data-ba-tab="' + t.id + '">' + t.label + '</button>';
+    });
+    h += '</div>';
+
+    // Key Claim
+    if (book.key_claim) {
+        h += '<div class="ba-tab-panel active" data-ba-panel="claim"><p class="ba-key-claim">' + book.key_claim + '</p></div>';
+    }
+
+    // Contested Words
+    if (book.contested_words && book.contested_words.length) {
+        h += '<div class="ba-tab-panel" data-ba-panel="words">';
+        h += '<table class="ba-ref-table"><thead><tr><th>Hebrew/Greek</th><th>Issue</th><th>Severity</th></tr></thead><tbody>';
+        book.contested_words.forEach(function(w) {
+            var sc = w.severity === 'CRITICAL' ? 'critical' : 'major';
+            h += '<tr><td class="ba-hebrew-col">';
+            if (w.hebrew) h += '<span class="ba-hebrew">' + w.hebrew + '</span> ';
+            h += '<strong>' + w.word + '</strong></td>';
+            h += '<td>' + w.issue + '</td>';
+            h += '<td><span class="ba-badge ba-badge-' + sc + '">' + w.severity + '</span></td></tr>';
+        });
+        h += '</tbody></table></div>';
+    }
+
+    // Hidden Connections
+    if (book.hidden_connections && book.hidden_connections.length) {
+        h += '<div class="ba-tab-panel" data-ba-panel="connections">';
+        book.hidden_connections.forEach(function(c) {
+            var label = c.target.charAt(0).toUpperCase() + c.target.slice(1).replace(/_/g, ' ');
+            h += '<div class="ba-connection-item">' +
+                '<span class="ba-connection-target" data-navigate-book="' + c.target + '">&rarr; ' + label + '</span>' +
+                '<span class="ba-connection-why">' + c.why + '</span></div>';
+        });
+        h += '</div>';
+    }
+
+    // Silences
+    if (book.what_it_doesnt_say && book.what_it_doesnt_say.length) {
+        h += '<div class="ba-tab-panel" data-ba-panel="silences"><ul class="ba-silence-list">';
+        book.what_it_doesnt_say.forEach(function(s) { h += '<li>' + s + '</li>'; });
+        h += '</ul></div>';
+    }
+
+    // Unusual Characters
+    if (book.unusual_characters && book.unusual_characters.length) {
+        h += '<div class="ba-tab-panel" data-ba-panel="characters">';
+        book.unusual_characters.forEach(function(c) {
+            h += '<div class="ba-character-item"><strong>' + c.name + '</strong>';
+            if (c.ref) h += ' <span class="ba-character-ref">(' + c.ref + ')</span>';
+            h += '<p>' + c.detail + '</p>';
+            if (c.connections && c.connections.length) {
+                h += '<div class="ba-character-links">&rarr; ';
+                c.connections.forEach(function(conn, i) {
+                    if (i > 0) h += ', ';
+                    var clabel = conn.charAt(0).toUpperCase() + conn.slice(1);
+                    h += '<span class="ba-connection-target" data-navigate-book="' + conn + '">' + clabel + '</span>';
+                });
+                h += '</div>';
+            }
+            h += '</div>';
+        });
+        h += '</div>';
+    }
+
+    // Patterns
+    if (book.patterns && book.patterns.length) {
+        h += '<div class="ba-tab-panel" data-ba-panel="patterns"><ul class="ba-pattern-list">';
+        book.patterns.forEach(function(p) { h += '<li>' + p + '</li>'; });
+        h += '</ul></div>';
+    }
+
+    // Hidden in Translation (mistranslations)
+    if (book.mistranslations && book.mistranslations.length) {
+        h += '<div class="ba-tab-panel" data-ba-panel="hidden">';
+        h += '<table class="ba-ref-table"><thead><tr><th>English</th><th>Original</th><th>What\'s Hidden</th></tr></thead><tbody>';
+        book.mistranslations.forEach(function(m) {
+            h += '<tr><td><strong>' + m.english + '</strong></td><td class="ba-hebrew-col">' + m.original + '</td><td>' + m.issue + '</td></tr>';
+        });
+        h += '</tbody></table></div>';
+    }
+
+    h += '</div>';
     return h;
 }
 
@@ -4670,9 +4792,11 @@ function openThemeExplorer(code) {
         var cat = textDef ? getCategoryDef(textDef.category) : null;
 
         var isThematic = textDef && textDef.category === 'thematic';
+        var isNarrative = textDef && textDef.is_narrative === true;
         var modeClass = readingMode !== 'study' ? ' mode-' + readingMode : '';
         var thematicClass = isThematic ? ' thematic-chapter' : '';
-        var html = '<div class="chapter-card' + (isRead ? ' chapter-read' : '') + modeClass + thematicClass + '" id="' + ch.id + '" style="--era-color:' + era.color + '">' +
+        var tierFilterClass = isNarrative ? ' tier-filter-' + (localStorage.getItem('atl-evidence-tier') || 'abc') : '';
+        var html = '<div class="chapter-card' + (isRead ? ' chapter-read' : '') + modeClass + thematicClass + tierFilterClass + '" id="' + ch.id + '" style="--era-color:' + era.color + '">' +
             '<div style="position:absolute;top:0;left:0;right:0;height:3px;background:' + era.color + ';border-radius:6px 6px 0 0"></div>' +
             '<label class="read-check-label" title="Mark as read"><input type="checkbox" class="read-check" data-id="' + ch.id + '"' + (isRead ? ' checked' : '') + '></label>' +
             '<button class="chapter-copy-btn" data-id="' + ch.id + '" title="Copy study content">&#x1F4CB;</button>' +
@@ -4711,8 +4835,18 @@ function openThemeExplorer(code) {
                 '</div>';
         }
 
-        // Evidence tier legend for thematic chapters
-        if (isThematic) {
+        // Evidence tier legend / narrative tier toggle
+        if (isNarrative) {
+            var savedTier = localStorage.getItem('atl-evidence-tier') || 'abc';
+            html += '<div class="evidence-tier-toggle">' +
+                '<button class="tier-btn' + (savedTier === 'a' ? ' active' : '') + '" data-tier="a">' +
+                '<span class="evidence-badge badge-a">A</span> Canon Only</button>' +
+                '<button class="tier-btn' + (savedTier === 'ab' ? ' active' : '') + '" data-tier="ab">' +
+                '<span class="evidence-badge badge-a">A</span><span class="evidence-badge badge-b">B</span> Canon + Inference</button>' +
+                '<button class="tier-btn' + (savedTier === 'abc' ? ' active' : '') + '" data-tier="abc">' +
+                '<span class="evidence-badge badge-a">A</span><span class="evidence-badge badge-b">B</span><span class="evidence-badge badge-c">C</span> Full Picture</button>' +
+                '</div>';
+        } else if (isThematic) {
             html += '<div class="evidence-legend">' +
                 '<div class="evidence-legend-item"><span class="evidence-badge badge-a">A</span> Direct Scripture</div>' +
                 '<div class="evidence-legend-item"><span class="evidence-badge badge-b">B</span> Valid Inference</div>' +
@@ -4801,7 +4935,7 @@ function openThemeExplorer(code) {
         // Sections
         if (ch.sections && ch.sections.length > 0) {
             html += '<div class="chapter-sections">';
-            ch.sections.forEach(function(sec) {
+            ch.sections.forEach(function(sec, secIdx) {
                 var body = sec.body;
                 // Convert evidence tier markers [A], [B], [C] to styled badges in thematic chapters
                 if (isThematic) {
@@ -4809,9 +4943,19 @@ function openThemeExplorer(code) {
                     body = body.replace(/\[B\]/g, '<span class="evidence-badge badge-b">B</span>');
                     body = body.replace(/\[C\]/g, '<span class="evidence-badge badge-c">C</span>');
                 }
-                html += '<div class="section-block">' +
+                var tierAttr = sec.tier ? ' data-tier="' + sec.tier + '"' : '';
+                var tierClass = sec.tier ? ' section-tier-' + sec.tier : '';
+                html += '<div class="section-block' + tierClass + '"' + tierAttr + '>' +
                     '<h4>' + sec.heading + '</h4>' +
                     '<div class="section-body">' + body + '</div></div>';
+                // "Want to see more?" upsell after tier-a sections in narrative mode
+                if (isNarrative && sec.tier === 'a') {
+                    var nextSec = ch.sections[secIdx + 1];
+                    if (nextSec && nextSec.tier === 'b') {
+                        html += '<div class="tier-upsell section-tier-b" data-tier="b">' +
+                            '<em>Want to see what the Hebrew reveals? Switch to <strong>Canon + Inference</strong> above.</em></div>';
+                    }
+                }
             });
             html += '</div>';
         }
@@ -5209,6 +5353,23 @@ function openThemeExplorer(code) {
                 readingMode = mode;
                 localStorage.setItem('atl-reading-mode', mode);
                 syncAfterChange();
+                return;
+            }
+
+            // Evidence tier toggle (narrative texts)
+            var tierBtn = e.target.closest('.tier-btn');
+            if (tierBtn) {
+                var tier = tierBtn.dataset.tier;
+                localStorage.setItem('atl-evidence-tier', tier);
+                // Update all chapter cards with new tier filter class
+                document.querySelectorAll('.chapter-card').forEach(function(c) {
+                    c.className = c.className.replace(/\btier-filter-\w+/g, '').trim();
+                    c.classList.add('tier-filter-' + tier);
+                });
+                // Update active state on all tier buttons
+                document.querySelectorAll('.tier-btn').forEach(function(b) {
+                    b.classList.toggle('active', b.dataset.tier === tier);
+                });
                 return;
             }
 

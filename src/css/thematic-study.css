@@ -239,3 +239,104 @@
         gap: var(--space-xs);
     }
 }
+
+/* ══════════════════════════════════════════════════════════════
+   Evidence Tier Toggle — Narrative texts with [A]/[A+B]/[A+B+C]
+   ══════════════════════════════════════════════════════════════ */
+
+.evidence-tier-toggle {
+    display: flex;
+    gap: 4px;
+    margin: 0.75rem 0 var(--space-lg);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-sm);
+    padding: 4px;
+    border: 1px solid var(--border-subtle);
+}
+
+.tier-btn {
+    flex: 1;
+    padding: 10px 8px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: var(--text-muted);
+    border-radius: var(--radius-sm);
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.tier-btn:hover {
+    background: rgba(201, 168, 76, 0.08);
+    color: var(--text-primary);
+}
+
+.tier-btn.active {
+    background: rgba(201, 168, 76, 0.15);
+    color: var(--gold);
+    font-weight: 600;
+    border-color: rgba(201, 168, 76, 0.3);
+}
+
+/* ── Tier section border colors ───────────────── */
+.section-tier-a {
+    border-left: 3px solid var(--accent-green, #6aab73);
+    padding-left: var(--space-md);
+}
+
+.section-tier-b {
+    border-left: 3px solid var(--accent-blue, #5b8dbf);
+    padding-left: var(--space-md);
+}
+
+.section-tier-c {
+    border-left: 3px solid var(--accent-purple, #9b7ec8);
+    padding-left: var(--space-md);
+}
+
+/* ── Tier filter: Canon Only [A] ──────────────── */
+.tier-filter-a .section-tier-b,
+.tier-filter-a .section-tier-c {
+    display: none !important;
+}
+
+/* ── Tier filter: Canon + Inference [A+B] ─────── */
+.tier-filter-ab .section-tier-c {
+    display: none !important;
+}
+
+/* ── Tier filter: Full Picture [A+B+C] — default, show all ─── */
+
+/* ── Upsell prompts ──────────────────────────── */
+.tier-upsell {
+    text-align: center;
+    padding: var(--space-lg) var(--space-md);
+    color: var(--text-muted);
+    font-size: var(--text-sm);
+    opacity: 0.7;
+    border-left: 3px solid rgba(91, 141, 191, 0.3);
+    padding-left: var(--space-md);
+}
+
+.tier-filter-ab .tier-upsell,
+.tier-filter-abc .tier-upsell {
+    display: none !important;
+}
+
+/* ── Tier toggle responsive ──────────────────── */
+@media (max-width: 768px) {
+    .evidence-tier-toggle {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .tier-btn {
+        font-size: 0.72rem;
+        padding: 8px;
+    }
+}
