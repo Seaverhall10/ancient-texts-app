@@ -954,6 +954,18 @@
       "description": "The covenant lawsuit framework — how prophets functioned as royal messengers from YHWH's divine council, prosecuting Israel for covenant breach"
     },
     {
+      "id": "passion_week",
+      "name": "The Passion Week",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 10,
+      "color": "#8a2a2a",
+      "data_dir": "passion_week",
+      "is_narrative": true,
+      "interlinear": null,
+      "description": "The final week of Jesus' life told through the divine council framework — cosmic warfare, Hebrew/Greek depth, evidence tier toggle. The story they never told you."
+    },
+    {
       "id": "covenant_arc",
       "name": "The Covenant Arc",
       "category": "thematic",
@@ -6362,6 +6374,36 @@
       "icon": "III",
       "data_file": "era_catholic_canon",
       "themes": ["Deuterocanonicals", "Trent", "Manuscript preservation", "Liturgy"]
+    },
+    {
+      "id": "passion_approach",
+      "text": "passion_week",
+      "name": "Part I: The King Arrives",
+      "chapters": "Chapters 1–4",
+      "color": "#8a2a2a",
+      "icon": "I",
+      "data_file": "era_passion_approach",
+      "themes": ["Triumphal Entry", "Temple Cleansing", "Olivet Discourse", "Anointing"]
+    },
+    {
+      "id": "passion_night",
+      "text": "passion_week",
+      "name": "Part II: The Darkest Night",
+      "chapters": "Chapters 5–7",
+      "color": "#8a2a2a",
+      "icon": "II",
+      "data_file": "era_passion_night",
+      "themes": ["Last Supper", "Gethsemane", "Trials", "Cosmic warfare"]
+    },
+    {
+      "id": "passion_victory",
+      "text": "passion_week",
+      "name": "Part III: Death, Descent & Victory",
+      "chapters": "Chapters 8–10",
+      "color": "#8a2a2a",
+      "icon": "III",
+      "data_file": "era_passion_victory",
+      "themes": ["Crucifixion", "Descent", "Resurrection", "Ascension"]
     },
     {
       "id": "covenant_arc_patriarchal",
