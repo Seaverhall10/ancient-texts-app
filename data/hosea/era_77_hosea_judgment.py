@@ -459,9 +459,19 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "Ephraim's Wind-Chasing (12:1-2)",
-                "body": "Israel pursues worthless alliances with Assyria and Egypt, making treaties while "
-                        "exporting olive oil. They chase the east wind -- the hot desert wind (sirocco) "
-                        "that brings devastation, not life."
+                "body": "Hosea 12:1 delivers a devastating image: 'Ephraim feeds on ruach (wind), and "
+                        "pursues the east wind all day long.' The Hebrew wordplay is layered -- ruach means "
+                        "both 'wind' and 'spirit,' so Ephraim feeds on emptiness, chasing the qadim (east "
+                        "wind) -- the scorching sirocco that blasts from the Arabian desert and withers "
+                        "everything it touches. This is not a gentle breeze but a killing wind. Israel's "
+                        "foreign policy is the political equivalent: making covenants with Assyria while "
+                        "simultaneously shipping olive oil to Egypt (12:1b). They are courting both "
+                        "superpowers at once, playing them against each other -- political adultery that "
+                        "mirrors their spiritual adultery with Baal. The irony is precise: Israel left "
+                        "YHWH, the source of life, to chase wind. They abandoned the covenant husband "
+                        "for political 'lovers' (Assyria, Egypt) who will devour them. [A] YHWH responds "
+                        "by announcing a riv (lawsuit) against Judah too (12:2) -- the covenant prosecution "
+                        "now encompasses both kingdoms. No one escapes the east wind."
             },
             {
                 "heading": "Jacob's Story as Mirror (12:3-6)",

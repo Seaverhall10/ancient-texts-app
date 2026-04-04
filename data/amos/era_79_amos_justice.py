@@ -162,9 +162,19 @@ CHAPTERS = [
             },
             {
                 "heading": "Samaria's Luxury Condemned (3:9-4:3)",
-                "body": "The nations are called to witness Samaria's oppression. The 'cows of Bashan' will "
-                        "be dragged out through breaches in the walls. The luxury built on exploitation "
-                        "will be destroyed."
+                "body": "Amos summons the nations -- even Ashdod and Egypt -- to witness the tumults and "
+                        "oppression inside Samaria (3:9). The indictment targets the material excess built "
+                        "on injustice: 'I will strike the winter house along with the summer house, and the "
+                        "houses of ivory shall perish, and the great houses shall come to an end' (3:15). "
+                        "Archaeological confirmation is stunning: excavations at Samaria uncovered hundreds "
+                        "of carved ivory plaques from the 8th century BC -- the exact luxury Amos condemns. "
+                        "[A] These ivories decorated furniture and wall panels in the homes of the elite while "
+                        "the poor were crushed underfoot. Chapter 4 escalates with the biting address to the "
+                        "'cows of Bashan' (parot ha-Bashan) -- the pampered women of the ruling class who "
+                        "'oppress the poor, crush the needy, and say to their husbands, Bring, that we may "
+                        "drink!' (4:1). The prophetic sentence: they will be dragged out through breaches in "
+                        "the city wall with hooks (4:2). Luxury funded by exploitation is not prosperity -- "
+                        "it is evidence for the prosecution in YHWH's covenant lawsuit."
             },
             {
                 "heading": "Five Disciplines, Five Refusals (4:4-13)",

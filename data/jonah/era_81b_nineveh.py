@@ -76,8 +76,18 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "The Second Commission (3:1-3)",
-                "body": "YHWH speaks a second time: 'Arise, go to Nineveh.' This time Jonah goes. The "
-                        "narrator describes Nineveh as exceedingly great. Jonah enters the city."
+                "body": "'And the word of YHWH came to Jonah a second time' (3:1). There is grace in that "
+                        "repetition. After the flight, the storm, the fish, and the three days in darkness, "
+                        "YHWH does not discard his prophet -- he recommissions him. The command is identical: "
+                        "'Arise, go to Nineveh, that great city, and call out against it the message that I "
+                        "tell you' (3:2). This time Jonah obeys -- but the narrator's wording is telling. "
+                        "He 'arose and went to Nineveh, according to the word of YHWH' (3:3). Obedience, "
+                        "yes, but without enthusiasm, without the fire of a prophet compelled by YHWH's "
+                        "heart. Nineveh is described as 'an exceedingly great city, three days' journey in "
+                        "breadth' -- one of the largest urban centers in the ancient world, with massive "
+                        "walls stretching nearly eight miles. [B] Jonah walks one day into this vast city "
+                        "before delivering his message. He does the minimum. The reluctant prophet obeys "
+                        "the letter of his commission while resisting its spirit -- and YHWH uses him anyway."
             },
             {
                 "heading": "The Five-Word Sermon (3:4)",

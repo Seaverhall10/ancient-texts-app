@@ -70,8 +70,19 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "The First Complaint: How Long, O YHWH? (1:1-4)",
-                "body": "Habakkuk cries out against the violence and injustice in Judah. The law is paralyzed, "
-                        "justice never goes forth. The wicked surround the righteous, and justice is perverted."
+                "body": "Habakkuk's opening is one of the rawest prayers in scripture: 'How long, O YHWH, "
+                        "shall I cry for help, and you will not hear? Or cry to you chamas (violence!) and "
+                        "you will not save?' (1:2). The word chamas -- violence, injustice, brutality -- "
+                        "dominates the book. Judah is rotting from within: 'The law (torah) is paralyzed, "
+                        "and justice (mishpat) never goes forth' (1:4). Torah has become numb, ineffective, "
+                        "frozen. The wicked surround the righteous, and when justice does appear, it comes "
+                        "out perverted -- bent, twisted. What makes Habakkuk unique among the prophets is "
+                        "the direction of the riv. Normally YHWH prosecutes Israel through his prophets. "
+                        "Here the prophet prosecutes God. Habakkuk stands as covenant prosecutor and turns "
+                        "the lawsuit upward: You are the sovereign judge -- why do you tolerate this? The "
+                        "complaint is not faithless but deeply faithful. Habakkuk does not walk away from "
+                        "YHWH; he walks toward him with his hardest questions. [A] This is what biblical "
+                        "lament looks like: raw, honest, directed at the God who can actually do something."
             },
             {
                 "heading": "YHWH's Disturbing Answer: Babylon (1:5-11)",

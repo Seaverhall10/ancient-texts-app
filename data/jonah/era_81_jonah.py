@@ -160,9 +160,19 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "The Cry from Sheol (2:1-6a)",
-                "body": "Jonah prays from inside the fish -- the belly of Sheol. Waters, deep, weeds, "
-                        "the roots of mountains -- he descends to the lowest point of the cosmos. The 'bars' "
-                        "of the underworld closed upon him."
+                "body": "From the belly of the fish, Jonah prays a psalm that reaches into the deepest "
+                        "cosmic geography of the ancient world: 'Out of the belly of Sheol I cried, and "
+                        "you heard my voice' (2:2). The descent language is relentless -- 'the waters closed "
+                        "in over me to take my life; the deep (tehom) surrounded me; weeds were wrapped about "
+                        "my head. At the roots of the mountains I went down to the land whose bars closed upon "
+                        "me forever' (2:5-6a). Tehom is the primordial abyss of Genesis 1:2. The 'bars of the "
+                        "earth' are the gates of Sheol -- the underworld from which no one returns. Jonah has "
+                        "descended to the absolute nadir of existence: below the sea, below the mountains, "
+                        "into death itself. [A] Jesus explicitly cites this as the sign of Jonah: 'For just "
+                        "as Jonah was three days and three nights in the belly of the great fish, so will the "
+                        "Son of Man be three days and three nights in the heart of the earth' (Matt 12:40). "
+                        "The death-and-resurrection typology is unmistakable. Jonah's descent into Sheol "
+                        "prefigures Christ's descent into death -- and the deliverance that follows."
             },
             {
                 "heading": "Deliverance and Vow (2:6b-9)",
@@ -172,9 +182,19 @@ CHAPTERS = [
             },
             {
                 "heading": "The Fish Releases (2:10)",
-                "body": "YHWH speaks to the fish, and it vomits Jonah onto dry land. The fish obeyed "
-                        "YHWH perfectly -- another contrast with the disobedient prophet. Jonah is given "
-                        "a second chance."
+                "body": "'And YHWH spoke to the fish, and it vomited Jonah out upon the dry land' (2:10). "
+                        "The verb is vayomer -- YHWH spoke, commanded, and the fish obeyed instantly. This "
+                        "is the same creative word that called the universe into existence in Genesis 1. "
+                        "YHWH commands creation -- the storm (1:4), the lot (1:7), the fish (1:17), and "
+                        "later the plant, the worm, and the wind (4:6-8) -- and every element of the natural "
+                        "world responds with immediate obedience. The irony running through the entire book "
+                        "is devastating: the sea obeys, the sailors obey, the fish obeys, Nineveh will obey "
+                        "-- only the prophet of YHWH resists. The one creature in the story with the deepest "
+                        "knowledge of God is the one most resistant to God's purposes. [B] Jonah is vomited "
+                        "onto dry land -- delivered from death, restored to solid ground, given a second "
+                        "commission. The dry land (yabbashah) echoes 1:9 where Jonah confessed YHWH as the "
+                        "God 'who made the sea and the dry land.' The God who made it now places his "
+                        "reluctant prophet back on it."
             }
         ]
     }

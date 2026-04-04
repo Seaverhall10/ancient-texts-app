@@ -151,8 +151,20 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "The Call to Seek YHWH (2:1-3)",
-                "body": "Before the Day falls, seek YHWH, seek righteousness, seek humility. 'Perhaps' -- "
-                        "the humility of the conditional; no guarantees, only hope through genuine seeking."
+                "body": "Between the cosmic judgment of chapter 1 and the oracles against the nations, "
+                        "Zephaniah issues the book's most urgent appeal: 'Seek YHWH, all you anawim "
+                        "(humble/poor) of the land, who do his just commands; seek righteousness, seek "
+                        "humility; perhaps you may be hidden on the day of the anger of YHWH' (2:3). Three "
+                        "imperatives -- seek YHWH, seek righteousness, seek humility -- directed not at the "
+                        "powerful but at the anawim, the faithful remnant who have kept covenant. The word "
+                        "sater (to hide, to shelter) connects to Zephaniah's own name: Tsephanyah means "
+                        "'YHWH hides/treasures.' The prophet's name embodies his message. [A] The word "
+                        "'perhaps' (ulay) is not weakness but theological honesty -- YHWH is sovereign, "
+                        "and no human can presume upon his mercy. Yet 'perhaps' is also the only option. "
+                        "The Day of YHWH is coming with absolute certainty; the only shelter is YHWH "
+                        "himself. There is no bunker, no fortress, no wealth that delivers (1:18). Only "
+                        "hiding in the God who hides his people. The anawim -- the poor, humble, faithful "
+                        "-- are the seed of the future remnant that will survive the Day."
             },
             {
                 "heading": "Oracles Against the Nations (2:4-15)",

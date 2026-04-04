@@ -75,8 +75,18 @@ CHAPTERS = [
             },
             {
                 "heading": "Judgment on Nineveh, Comfort for Judah (1:9-15)",
-                "body": "Whatever Nineveh plots, YHWH will make a complete end. Judah's yoke will be broken. "
-                        "The herald on the mountains announces peace -- Nineveh's fall is Judah's liberation."
+                "body": "Nahum 1:7-8 captures the dual nature of YHWH's character in two devastating verses: "
+                        "'YHWH is good, a stronghold (maoz) in the day of trouble; he knows those who take "
+                        "refuge in him. But with an overflowing flood he will make a complete end of the "
+                        "adversaries.' The same God, two radically different experiences -- shelter for the "
+                        "faithful, annihilation for the oppressor. For Judah, crushed under Assyrian "
+                        "brutality for over a century, this is pure comfort. Nahum's very name means "
+                        "'comfort' or 'consolation.' For Nineveh, it is the end. Whatever they plot against "
+                        "YHWH, 'he will make a complete end; trouble will not rise up a second time' (1:9). "
+                        "The affliction YHWH permitted will not be repeated. 'Behold, upon the mountains, "
+                        "the feet of him who brings good news, who publishes peace!' (1:15). [A] This is the "
+                        "herald announcing that the empire has fallen. Judah can keep her feasts again. The "
+                        "yoke is broken. The oppressor is silenced."
             }
         ]
     },
@@ -137,15 +147,35 @@ CHAPTERS = [
         "sections": [
             {
                 "heading": "The Attack Begins (2:1-5)",
-                "body": "The scatterer approaches. Shields flash red, chariots race through streets like "
-                        "torches, warriors stumble in their haste. The poetry captures the chaos and speed "
-                        "of the assault."
+                "body": "Nahum's battle poetry is among the most vivid in scripture: 'The shield of his "
+                        "mighty men is red; his soldiers are clothed in scarlet. The chariots come with "
+                        "flashing metal on the day he musters them; the cypress spears are brandished' "
+                        "(2:3). The Hebrew verbs convey chaos and velocity -- chariots rage (yitholelu) "
+                        "through the streets, they rush back and forth in the broad squares, their "
+                        "appearance like torches, darting like lightning (2:4). This is the Medo-Babylonian "
+                        "coalition besieging Nineveh in 612 BC. Nahum is writing prophecy that would be "
+                        "fulfilled within his own lifetime -- the fall of the greatest military power the "
+                        "ancient world had ever seen. The crimson warriors, the flashing steel, the stumbling "
+                        "haste of defenders scrambling to the walls -- every line pulses with the terror of "
+                        "a city under siege. [A] The 'scatterer' (mephis) has come up against Nineveh (2:1), "
+                        "and the irony is thick: Assyria, who scattered the nations through mass deportation, "
+                        "is now being scattered."
             },
             {
                 "heading": "The River Gates and the Fall (2:6-10)",
-                "body": "The river gates open -- the fatal breach. The palace dissolves. The city is "
-                        "plundered: 'Devastation, desolation, and destruction!' (2:10). Hearts melt, "
-                        "knees tremble, anguish is in every face."
+                "body": "'The river gates are opened; the palace melts away' (2:6). This is one of the most "
+                        "precisely fulfilled prophecies in the Hebrew Bible. The Khosr River ran through "
+                        "Nineveh, and its waters were controlled by a system of dams and sluice gates. When "
+                        "the river flooded during the siege, it broke through sections of the massive walls "
+                        "-- exactly as Nahum prophesied. [C] The Greek historian Diodorus Siculus (2.27) "
+                        "records that a flood of the river destroyed part of Nineveh's wall, creating the "
+                        "breach through which the attackers poured. The palace 'melts away' (motzag) -- the "
+                        "royal structure dissolves like wax. The plunder is total: 'Plunder the silver, "
+                        "plunder the gold! There is no end of the treasure or of the wealth of all precious "
+                        "things' (2:9). Then the triple hammer blow of Hebrew alliteration: buqah, "
+                        "u-mevuqah, u-mevullaqah -- 'devastation, desolation, and destruction!' (2:10). "
+                        "Hearts melt, knees tremble, anguish grips every body, and every face grows pale. "
+                        "The empire that terrorized the world now knows terror."
             },
             {
                 "heading": "The Lion's Den Destroyed (2:11-13)",

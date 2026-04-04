@@ -179,8 +179,18 @@ CHAPTERS = [
             },
             {
                 "heading": "Vision 3: The Plumb Line (7:7-9)",
-                "body": "YHWH holds a plumb line against Israel. This time there is no intercession: "
-                        "'I will never again pass by them.' Israel is crooked, and YHWH will demolish."
+                "body": "YHWH stands beside a wall built with an anakh (plumb line), holding the anakh "
+                        "in his hand. The image is devastating: YHWH is measuring Israel against his own "
+                        "covenant standard, and the nation is fatally out of plumb. Unlike the first two "
+                        "visions, there is no intercession -- Amos does not cry out, and YHWH does not "
+                        "relent. 'I will never again pass by them' (7:8). The Hebrew avar (pass by) means "
+                        "YHWH will no longer overlook Israel's crookedness. The metaphor is architectural: "
+                        "a wall that is out of plumb cannot stand. It must be torn down before it collapses "
+                        "and kills. The judgment is specific: 'The high places of Isaac shall be made desolate, "
+                        "and the sanctuaries of Israel shall be laid waste, and I will rise against the house "
+                        "of Jeroboam with the sword' (7:9). The royal shrines of Jeroboam II -- the places "
+                        "where religion was co-opted to serve political power -- will be demolished. [A] The "
+                        "plumb line vision marks the turning point in Amos: YHWH's patience has ended."
             },
             {
                 "heading": "The Bethel Confrontation (7:10-17)",
