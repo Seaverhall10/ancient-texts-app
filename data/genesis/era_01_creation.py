@@ -19,7 +19,7 @@ CHAPTERS = [
             "text": "Do your best to present yourself to God as one approved, a worker who has no need to be ashamed, rightly handling the word of truth.",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
         "cross_refs": [],
@@ -120,7 +120,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["bara", "asah", "elohim", "elohim_plural", "yom", "tohu_vavohu", "ruach", "tselem", "demut", "adam", "nefesh", "radah", "kabash"],
+        "original_terms": ["bara", "asah", "elohim", "elohim_plural", "yom", "tohu_vavohu", "ruach", "tselem", "demut", "adam", "nefesh", "radah", "kabash"],
 
         "ane_backdrop": "Genesis 1 enters a world already saturated with creation stories. In Mesopotamia, the Enuma Elish describes Marduk slaying the chaos dragon Tiamat and fashioning the world from her corpse. In Egypt, Atum speaks the world into existence from the primordial waters (Nun). Genesis quietly but firmly subverts these narratives: there is no theogony (God has no origin story), no theomachy (no battle to create), and no divine rivalry. The sun and moon \u2014 worshipped as gods throughout the ANE \u2014 are demoted to functional objects ('the greater light,' 'the lesser light') without even being named. Creation is effortless: God speaks, and it is so. The seven-day structure parallels temple inauguration texts (cf. Gudea's temple dedication), suggesting that the cosmos itself is God's temple, with humanity as its priestly caretakers.",
 
@@ -214,7 +214,7 @@ CHAPTERS = [
             "text": "In the beginning, God created the heavens and the earth.",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
 
@@ -265,7 +265,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["yhwh", "adam", "adamah", "gan", "ezer_kenegdo", "nefesh", "ets_haddaat", "ets_hachayyim", "ruach"],
+        "original_terms": ["yhwh", "adam", "adamah", "gan", "ezer_kenegdo", "nefesh", "ets_haddaat", "ets_hachayyim", "ruach"],
 
         "ane_backdrop": "The Eden narrative draws on widespread ANE motifs: the sacred garden, the tree of life, the divine craftsman molding humans from clay, and the four rivers marking the center of the world. In Mesopotamian literature, the garden of the gods (particularly Dilmun in Sumerian tradition) is a paradise of abundance. The Gilgamesh Epic features a quest for the plant of immortality, which is ultimately lost to a serpent. Ezekiel 28:12\u201319 describes Eden as a 'garden of God' on a holy mountain, adorned with precious stones \u2014 language that merges garden and temple imagery. The 'working and keeping' (abad and shamar) of Genesis 2:15 is the same word pair used for Levitical priestly service (Numbers 3:7\u20138), indicating that Adam's role was inherently sacral.",
 

@@ -37,7 +37,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "na'hafokh hu (it was turned/reversed -- the literary and theological key to the entire book; what was intended for evil was turned to good; the great reversal)",
             "Purim (lots -- the feast named after Haman's pur; the instrument of intended destruction becomes the name of celebration; fate is transformed by providence)",
             "simchah (joy/gladness -- the emotional transformation: sorrow into gladness, mourning into holiday; God turns tears to laughter)",

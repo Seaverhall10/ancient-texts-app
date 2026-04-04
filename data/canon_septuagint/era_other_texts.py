@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d9\u05d5\u05b9\u05d1\u05b5\u05dc (yovel)",
                 "meaning": "Jubilee -- a period of 49 years (seven cycles of seven years) "
@@ -297,7 +297,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05E2\u05D5\u05B9\u05DC\u05B8\u05DD \u05D4\u05B7\u05D1\u05BC\u05B8\u05D0 (\u2018olam habba\u2019)",
                 "meaning": "'The age to come' -- the Hebrew eschatological concept of the "

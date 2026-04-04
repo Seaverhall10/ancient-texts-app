@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "philoproteuon (Greek: philoproteuon)",
                 "transliteration": "philoproteuon",

@@ -37,7 +37,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Onēsimos (useful/profitable — the slave's proper name; from oninēmi, 'to profit/benefit'; the gospel makes people what their name declares; Onesimus becomes truly 'useful' only after encountering Christ through Paul)",
             "achrestos / euchrestos (useless / useful — v.11; achrestos sounds like achristos ['without Christ']; euchrestos sounds like euchristos ['well in Christ']; this phonetic double entendre is deliberate theology compressed into wordplay)",
             "splanchna (tender affections / bowels of mercy — vv.7, 12, 20; literally 'intestines'; the deepest visceral emotion; Paul sends Onesimus as 'my own splanchna' — he is sending his deepest self back to Philemon)",
@@ -172,7 +172,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ellogeo (charge to account — v.18; from en + logos ['in' + 'word/account']; a commercial/banking term meaning to record a debt on someone's ledger; Paul asks Philemon to transfer Onesimus's debt to Paul's account — the substitutionary logic of the gospel applied to personal finance)",
             "apotinō (I will repay — v.19; a legal term for financial restitution; Paul makes a legally binding promise by writing 'with my own hand'; this transforms the letter into a promissory note — an IOU signed by the apostle)",
             "koinōnos (partner/sharer — v.17; from koinos ['common/shared']; Paul asks Philemon to receive Onesimus 'as you would receive me' on the basis of their koinōnia ['partnership']; the shared life of the gospel means that what belongs to one belongs to the other)",

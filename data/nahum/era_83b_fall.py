@@ -35,7 +35,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ir damim (city of blood -- Nineveh defined by violence)",
             "zonah (prostitute -- Nineveh as the seductive enchantress who enslaved nations)",
             "No-Amon (Thebes -- the Egyptian capital conquered by Ashurbanipal in 663 BC)",

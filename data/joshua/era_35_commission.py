@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chazaq (be strong -- the same charge given to warriors before battle)",
             "amats (be courageous -- firm, resolute, unyielding)",
             "yehoshua (YHWH saves/delivers -- Joshua's name, identical to 'Jesus')",
@@ -253,7 +253,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "rahab/rahav (proud one/chaos monster -- the same name as the primordial sea dragon)",
             "zonah (prostitute -- also used metaphorically for spiritual unfaithfulness)",
             "masas (to melt -- the dissolution of courage; used for wax melting before fire)",
@@ -471,7 +471,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "aron habrit (ark of the covenant -- YHWH's portable throne)",
             "El Chai (the living God -- a divine title emphasizing YHWH's vitality vs. dead idols)",
             "ned (heap -- waters standing up; same word used at the Red Sea in Exod 15:8)",
@@ -654,7 +654,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "zikkaron (memorial -- a physical marker designed to trigger covenant memory)",
             "avanim (stones -- the raw material of the memorial; twelve for twelve tribes)",
             "gilgal (rolling/circle -- the campsite named for the 'rolling away' of reproach)",
@@ -819,7 +819,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sar tseva YHWH (Commander of the army of YHWH -- a divine council title)",
             "milah (circumcision -- the Abrahamic covenant sign renewed)",
             "galal (to roll -- the etymology of Gilgal; rolling away reproach)",

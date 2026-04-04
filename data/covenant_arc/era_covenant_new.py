@@ -64,7 +64,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d1\u05bc\u05b0\u05e8\u05b4\u05d9\u05ea \u05d7\u05b2\u05d3\u05b8\u05e9\u05c1\u05b8\u05d4 (berit chadashah)",
                 "meaning": "New covenant. Berit is the standard Hebrew word for "
@@ -392,7 +392,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c0\u03b1\u03bb\u03b9\u03b3\u03b3\u03b5\u03bd\u03b5\u03c3\u03af\u03b1 (palingenesia)",
                 "meaning": "Regeneration, new creation, rebirth of the world. From "

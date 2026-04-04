@@ -48,7 +48,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "paqad (to count/muster — the same verb as the first census, now mustering a new army)",
             "nachalah (inheritance — the territorial allotment based on census size)",
             "goral (lot — the casting of stones or marked objects to determine YHWH's "
@@ -210,7 +210,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nachalah (inheritance — the territorial allotment that passes through family lines)",
             "mishpat (judgment/legal ruling — the precedent established by Zelophehad's daughters)",
             "hod (authority/majesty — the portion of Moses' leadership given to Joshua)",
@@ -362,7 +362,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tamid (continual/daily — the perpetual morning and evening sacrifice)",
             "musaf (additional — the extra offerings added on Sabbaths, new moons, festivals)",
             "mo'ed (appointed time — the divinely scheduled festivals)",
@@ -515,7 +515,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "neder (vow — a verbal commitment to God or regarding God)",
             "issar (binding obligation — a self-imposed restriction)",
             "hefer (to annul — the husband's or father's right to void a woman's vow)",
@@ -665,7 +665,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "miqneh (livestock — the herds that motivate Reuben and Gad's request)",
             "ever hayarden (across the Jordan — the Transjordan territory)",
             "chaluts (armed men — the warriors who must cross and fight before returning)",
@@ -805,7 +805,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "masa'ei (journeys/stages — the itinerary waypoints from Egypt to Moab)",
             "gebul (border/boundary — the defined limits of the promised land)",
             "ir miklat (city of refuge — the sanctuary for the unintentional killer)",

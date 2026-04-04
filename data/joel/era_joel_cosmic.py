@@ -41,7 +41,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "yom YHWH (Day of YHWH -- the controlling eschatological concept; YHWH's personal intervention in history)",
             "chayil (army/host -- 'his army'; the locust swarm as YHWH's military force)",
             "ra'ash (quake/tremble -- the earth quakes before the divine warrior's approach)",
@@ -199,7 +199,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "emeq Yehoshaphat (Valley of Jehoshaphat -- 'YHWH judges'; the cosmic courtroom of the final assize)",
             "shaphat (to judge -- the root in Jehoshaphat; YHWH as supreme judge of all nations)",
             "emeq he-charutz (valley of decision/threshing -- charutz carries dual meaning: judicial verdict and agricultural threshing)",

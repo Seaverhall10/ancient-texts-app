@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "archai (ἀρχαί) — rulers/principalities; the highest governing tier of created spiritual "
             "hierarchy; from archē (beginning/rule); appear in Rom 8:38, 1 Cor 15:24, Eph 1:21, 3:10, "
             "6:12, Col 1:16, 2:10, 2:15; governing rulers of cosmic regions",
@@ -267,7 +267,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "apekdysamenos (ἀπεκδυσάμενος) — aorist middle participle of apekdyomai; 'having stripped "
             "off himself'; the middle voice is decisive — this is not passive stripping but Christ "
             "actively stripping the powers OFF HIMSELF; as a wrestler removing an opponent's grip, "
@@ -509,7 +509,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "endunamousthe (ἐνδυναμοῦσθε) — present passive imperative: 'be continuously strengthened'; "
             "the source is 'in the Lord (en kyriō) and in the strength (kratei) of his might (ischyos "
             "autou)'; three Greek words for strength/power in one phrase — the available resource "
@@ -745,7 +745,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "daimonia (δαιμόνια) — demons; Paul's word for the real beings behind idols; in classical "
             "Greek, daimōn was a spirit being intermediate between gods and humans — not necessarily "
             "evil; Paul and the NT consistently use daimonia for malevolent supernatural beings; "
@@ -990,7 +990,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tartaroō (ταρταρόω) — the unique verb used only in 2 Pet 2:4; 'God did not spare angels "
             "when they sinned, but cast them into hell (tartaroō)'; Tartarus in Greek cosmology was the "
             "deepest abyss, below Hades; Peter uses this specific term for the Watchers' prison, "

@@ -49,7 +49,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Asaph (a Levitical musician and seer -- head of one of the three Levitical music guilds)",
             "tanninim (sea monsters/dragons -- the cosmic chaos creatures defeated by YHWH at creation)",
             "livyatan (Leviathan -- the multi-headed chaos sea dragon; cognate with Ugaritic Litanu/Lotan)",
@@ -252,7 +252,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mashal (parable/proverb -- a wisdom discourse that reveals hidden meaning in familiar events)",
             "chidot (dark sayings/riddles -- enigmatic truths that require discernment to understand)",
             "pelei (wonders/marvels -- the miraculous acts of YHWH that Israel repeatedly forgot)",
@@ -389,7 +389,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "adat-El (congregation/assembly of God -- the divine council; the heavenly court where YHWH presides)",
             "elohim (gods -- used for both the presiding God and the subordinate divine beings being judged)",
             "bene Elyon (sons of the Most High -- the divine council members; the same class as bene elohim)",
@@ -640,7 +640,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sod (secret counsel/conspiracy -- the nations take counsel together against YHWH's people)",
             "berit (covenant -- the nations 'make a covenant together,' 83:5; an anti-YHWH alliance)",
             "Elyon (Most High -- YHWH's supreme title, claiming authority over all other gods and nations)",
@@ -768,7 +768,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qehal qedoshim (assembly of the holy ones -- the divine council gathered in worship)",
             "bene elim (sons of God/sons of the mighty -- the divine council members; same phrase as Ps 29:1)",
             "sod qedoshim (council/counsel of the holy ones -- the deliberative assembly of divine beings)",
@@ -991,7 +991,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "adat-El (assembly of God -- the divine council of Ps 82)",
             "sod qedoshim (council of holy ones -- the divine council of Ps 89)",
             "bene Elyon (sons of the Most High -- the divine council members sentenced in Ps 82)",

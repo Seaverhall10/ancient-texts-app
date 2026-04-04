@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "doxa (glory -- the visible radiance of God's presence and character; from Hebrew kavod, the weighty splendor of YHWH; the old covenant had doxa, but the new covenant's doxa is surpassing and permanent)",
             "diakonia (ministry/service -- used to describe both the old covenant ministry of Moses [3:7-9] and the new covenant ministry of the Spirit; from diakonos [servant]; the contrast is between a diakonia of death [tou thanatou] and a diakonia of the Spirit [tou pneumatos])",
             "katoptrizomenoi (beholding as in a mirror -- from katoptron [mirror]; the present participle suggests an ongoing process of gazing at the Lord's glory; some scholars translate 'reflecting' rather than 'beholding,' but the context favors active contemplation that produces transformation)",
@@ -233,7 +233,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ho theos tou aionos toutou (the god of this age -- Satan identified with the stunning title theos, the same word the LXX uses for the elohim of Psalm 82:1; he is not a co-equal deity but a rebellious member of the divine council exercising illegitimate authority over the present world-system; aion [age] distinguishes his temporary rule from the 'age to come')",
             "eikon tou theou (the image of God -- Christ as the perfect, uncorrupted representation of God; connects to Gen 1:26-27 [the imago Dei] and Col 1:15 ['the image of the invisible God']; Satan blinds minds specifically to prevent recognition of Christ as the true eikon)",
             "photismos (illumination/light -- from phos [light]; 'the light of the knowledge of the glory of God' [4:6]; the gospel is not merely information but photismos -- a divine act of illumination that shatters the blindness imposed by the god of this age)",
@@ -426,7 +426,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kaine ktisis (new creation -- from kainos [new in quality, unprecedented] + ktisis [creation, the act of creating]; not neos [new in time] but kainos [new in kind]; the eschatological reality inaugurated in Christ; every believer is a living instance of the new creation breaking into the old world-system ruled by the god of this age)",
             "katalasso (to reconcile -- from kata [down, thoroughly] + allasso [to change, to exchange]; to change from enmity to friendship; God is the subject who reconciles; humanity is the object reconciled; the scope is cosmic: the kosmos itself is being reconciled [5:19])",
             "bema (judgment seat -- the raised platform where a Roman magistrate dispensed justice; Paul appeared before Gallio's bema in Corinth [Acts 18:12]; Christ's bema is the eschatological tribunal where believers give account for their stewardship of the body and the gospel ministry)",

@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chayyot (living creatures -- the four cherubim who bear YHWH's throne; from chay, 'living')",
             "ophan (wheel -- the mysterious wheel-within-a-wheel of the throne chariot; plural: ophannim)",
             "kavod (glory -- the visible, weighty manifestation of YHWH's presence; the book's central concept)",
@@ -199,7 +199,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ben-adam (son of man -- literally 'son of Adam/humanity'; YHWH's address to Ezekiel emphasizing his mortality)",
             "tsofeh (watchman -- the prophet's role as sentinel, responsible for warning the people of approaching danger)",
             "megillah (scroll -- the written word of YHWH that Ezekiel must eat/internalize)",
@@ -311,7 +311,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "to'evah (abomination -- the detestable practices that defile the temple, used 9 times in chapters 8-11)",
             "Tammuz (the Mesopotamian deity of vegetation whose death was ritually mourned -- worshipped in YHWH's temple)",
             "kavod YHWH (glory of YHWH -- the visible manifestation that departs the temple in stages)",

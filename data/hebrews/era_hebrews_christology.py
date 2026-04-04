@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "apaugasma (radiance/effulgence -- 1:3; the Son is the outshining of God's glory, not a reflection but the source light itself; used only here in the NT)",
             "charakter (exact imprint/representation -- 1:3; originally a stamp pressed into wax or metal; the Son bears the precise impression of God's being)",
             "hypostasis (nature/substance/reality -- 1:3; the underlying reality of God's being; the Son is the charakter of God's hypostasis)",
@@ -399,7 +399,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "archegos (pioneer/founder/trailblazer -- 2:10; the one who goes first into new territory, blazing a trail for others to follow; also used in 12:2 of Jesus as the 'founder of faith')",
             "teleioo (to make perfect/complete -- 2:10; not moral perfection but the completion of qualification through suffering; the pioneer is 'perfected' for his role through what he endured)",
             "katargeo (to destroy/render powerless -- 2:14; the Son's death 'destroyed' the devil's power -- not annihilated but stripped of authority, like a king dethroned)",
@@ -689,7 +689,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "apostolos (apostle/sent one -- 3:1; Jesus is called 'the apostle and high priest of our confession' -- the one sent from God's council with full authority)",
             "therapon (servant/attendant -- 3:5; used of Moses; a respectful term for a household servant, but still a servant, not the owner)",
             "katapausis (rest/cessation -- 3:11, 18; 4:1, 3, 5, 10, 11; the rest God entered on the seventh day of creation; the eschatological rest the faithful are invited to share)",
@@ -965,7 +965,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Melchisedek (king of righteousness -- from Hebrew melek = king + tsedeq = righteousness; the priest-king of Salem who appears in Gen 14:18-20 and Ps 110:4)",
             "hiereus eis ton aiona (priest forever -- 5:6; 6:20; 7:17, 21; the defining phrase of the Melchizedek order; from Ps 110:4, the divine oath establishing an eternal priesthood)",
             "aparabatos (permanent/unchangeable -- 7:24; the priesthood cannot be transferred to a successor because the priest lives forever)",
@@ -1335,7 +1335,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "skene (tent/tabernacle -- 8:2, 5; 9:2, 3, 6, 8, 11, 21; the sanctuary structure; the heavenly skene is the 'true tent' where Christ ministers)",
             "hypodeigma (copy/representation -- 8:5; 9:23; the earthly tabernacle was a hypodeigma of the heavenly reality -- a model, not the original)",
             "skia (shadow -- 8:5; 10:1; the law and its institutions cast a shadow of the 'good things to come' but were not the things themselves)",
@@ -1673,7 +1673,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "pistis (faith/faithfulness/trust -- the chapter's governing word; not mere belief but active trust that shapes behavior; the bridge between the visible and invisible worlds)",
             "hypostasis (assurance/substance/reality -- 11:1; the same word used in 1:3 for God's 'nature'; faith is the substantive reality of hoped-for things, not a vague feeling)",
             "elenchos (conviction/evidence/proof -- 11:1; a legal term meaning 'evidence that establishes a case'; faith is the evidence of invisible realities, the proof the eyes cannot provide)",
@@ -2022,7 +2022,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "archegos kai teleiotes (founder/pioneer and perfecter/completer -- 12:2; Jesus is both the originator and the finisher of faith; he blazed the trail and ran it to completion)",
             "nephos martyron (cloud of witnesses -- 12:1; not spectators but testifiers; their accumulated testimony of faith surrounds and encourages the present community)",
             "paideia (discipline/training/education -- 12:5, 7, 8, 11; God's correction understood as a father's training of his children, not punitive judgment)",

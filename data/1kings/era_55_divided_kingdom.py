@@ -49,7 +49,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "eglei zahav (calves of gold -- golden calves; likely bull-pedestals for YHWH's invisible presence, functioning like the cherubim on the ark but without divine authorization. In ANE iconography, deities often stood on the backs of bulls or lions; the pedestal was not the god itself but the god's platform. Jeroboam's calves may have been YHWH-pedestals, but the danger was obvious: the people could not see the invisible God standing on them, so the calves themselves became the focus of worship)",
             "chatah (to sin/miss the mark -- Jeroboam 'caused Israel to sin'; the Deuteronomistic verdict repeated for nearly every northern king)",
             "shevet (tribe -- the political unit that defines the division: ten tribes (shevatim) to Jeroboam, one to Rehoboam. Hebrew shevet means both 'tribe' and 'rod/staff,' connecting tribal identity to authority)",
@@ -202,7 +202,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ish ha'elohim (man of God -- a prophetic title indicating direct divine commission)",
             "davar YHWH (word of YHWH -- the authoritative divine decree the prophet carries)",
             "mofet (sign/portent -- the altar splitting as confirmation of the prophetic word)",
@@ -332,7 +332,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ra (evil -- the recurring assessment: 'he did evil (ra) in the eyes of YHWH.' This is the Deuteronomistic History's standard verdict -- every king is measured by covenant faithfulness, not political achievement. Omri was a successful state-builder, but the narrator dismisses him in six verses because he 'did evil')",
             "derekh Yarovam (way of Jeroboam -- the path of cultic innovation that becomes the standard of apostasy for ALL northern kings; the golden calves at Dan and Bethel that opened the door to full idolatry)",
             "asherah (Asherah -- the Canaanite goddess, consort of El in Ugaritic mythology, and the wooden pole or carved image that represented her at worship sites. Asherah poles were set up beside altars; they symbolized fertility and the female divine principle. Israel was repeatedly drawn to Asherah worship alongside YHWH worship, as if YHWH needed a consort -- a category error that imports Canaanite theology into Israelite faith)",

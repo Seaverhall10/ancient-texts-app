@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Christos / Meshiach (Christ / Anointed One -- Peter's confession identifies Jesus as the long-awaited anointed king)",
             "ekklesia (church / assembly -- from ek + kaleo, 'called out'; not a building but a gathered community; used only in Matt 16:18 and 18:17 in the Gospels)",
             "pylai hadou (gates of Hades -- the fortified entrance to the underworld; defensive structures that will not withstand the church's assault)",
@@ -237,7 +237,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "deo / lyo (bind / loose -- rabbinic judicial language for forbidding and permitting; in the divine council framework, earthly decisions carry heavenly authority)",
             "lytron (ransom -- the price paid to liberate a captive; Jesus' life given as the ransom that frees humanity from bondage to sin and the hostile powers)",
             "aphiemi (forgive -- to release, to send away; the seventy-times-seven forgiveness that mirrors the divine forgiveness)",
@@ -372,7 +372,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Hosanna (from Hebrew hoshia na, 'save, please!' -- a liturgical cry from Psalm 118:25, used as an acclamation for the coming king)",
             "kyrios (Lord -- when David calls the Messiah 'my Lord' in Psalm 110:1, it implies a divine status that transcends mere Davidic descent)",
             "ouai (woe -- the prophetic judgment cry; seven woes against the Pharisees echo the covenant curses of Deuteronomy 28)",
@@ -536,7 +536,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "parousia (coming / presence -- the technical term for the Son of Man's return; not merely 'arrival' but 'royal presence,' the advent of the king)",
             "thlipsis megale (great tribulation -- intense suffering; drawing on Daniel 12:1 and Jeremiah 30:7, the 'time of Jacob's trouble')",
             "dynameis ton ouranon (powers of the heavens -- the spiritual forces governing the cosmos; their shaking signals the collapse of the old order)",
@@ -691,7 +691,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "pasa exousia (all authority -- universal dominion over heaven and earth; the Daniel 7:14 fulfillment; the reversal of Satan's temptation offer)",
             "diatheke (covenant -- 'this is my blood of the covenant, poured out for many for the forgiveness of sins' (26:28); the new covenant ratified by blood)",
             "matheteuo (make disciples -- the imperative of the Great Commission; not merely 'convert' but 'train as learners/followers')",

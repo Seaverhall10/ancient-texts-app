@@ -37,7 +37,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "anathema (accursed/devoted to destruction -- 9:3; the Hebrew cherem; Paul would accept being cut off from Christ for Israel's sake; echoes Moses' intercession in Exod 32:32)",
             "hyiothesia (adoption -- 9:4; Israel's status as God's adopted son; 'Israel is my firstborn son,' Exod 4:22)",
             "doxa (glory -- 9:4; the shekinah, the visible divine presence that dwelt in the tabernacle and temple)",
@@ -210,7 +210,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "telos nomou (the end/goal of the law -- 10:4; telos can mean 'end' (termination) or 'goal' (fulfillment); Christ is both: the termination of law-righteousness and the fulfillment of law's purpose)",
             "dikaiosyne ek pisteos (righteousness from faith -- 10:6; the righteousness Paul commends; contrasted with the self-achieved righteousness Israel pursued)",
             "rhema (word/utterance -- 10:8; the spoken, proclaimed word; 'the word of faith that we proclaim'; the gospel as oral proclamation)",
@@ -361,7 +361,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "leimma (remnant -- 11:5; the preserved core; 'at the present time there is a remnant chosen by grace'; the Isaianic remnant theology)",
             "ekloge charitos (election of grace -- 11:5; the remnant exists by grace, not works; election and grace are inseparable)",
             "porosis (hardening -- 11:7, 25; the judicial blinding of the majority of Israel; partial and temporary, not total or permanent)",

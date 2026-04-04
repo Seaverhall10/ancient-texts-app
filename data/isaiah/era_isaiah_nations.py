@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Helel ben Shachar (Shining One, son of Dawn -- a celestial title for the morning star/Venus)",
             "kokhvei-El (stars of God/El -- the divine council members, the sons of God)",
             "har mo'ed (mount of assembly -- the cosmic mountain where the divine council gathers)",
@@ -262,7 +262,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "av qal (swift cloud -- YHWH's war chariot entering Egypt)",
             "elilim (worthless things/idols -- a contemptuous term for false gods)",
             "ruach ivim (spirit of confusion/dizziness -- divine befuddlement of Egypt's counsel)",
@@ -379,7 +379,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tseva ha-marom (host of heaven/the height -- the spiritual powers in the heavenly realm)",
             "berit olam (everlasting covenant -- the universal covenant binding all humanity)",
             "qiryat-tohu (city of chaos -- the anti-creation city, using the same word as Gen 1:2)",
@@ -564,7 +564,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "massa (oracle/burden against Damascus)",
             "me'i (heap of ruins -- Damascus reduced to rubble)",
             "Osehu (his Maker -- YHWH as creator, the one humanity will finally acknowledge)",

@@ -36,7 +36,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "baptizein eis (to baptize into -- immersion into Christ's death; baptism as participation in the crucifixion event, not merely a symbol)",
             "palaios anthropos (old man/old self -- the Adamic self, the person under sin's dominion; crucified with Christ so it no longer rules)",
             "soma tes hamartias (body of sin -- not the physical body but the entire self as enslaved to sin; the body as sin's instrument, now rendered powerless)",
@@ -186,7 +186,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nomos (law -- used in multiple senses throughout ch. 7: the Mosaic Torah, the principle of sin, the inner moral law; context determines meaning)",
             "thanatoo (to put to death -- 7:4; believers have been 'put to death' to the law through Christ's body; death ends the law's jurisdiction)",
             "entole (commandment -- 7:8-13; specifically the tenth commandment ('you shall not covet'); the commandment that exposed the heart's deepest rebellion)",
@@ -356,7 +356,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "katakrima (condemnation -- 8:1; the judicial verdict of guilty; no condemnation for those in Christ; the verdict of 5:16, 18 overturned)",
             "nomos tou pneumatos tes zoes (the law of the Spirit of life -- 8:2; the new operating principle: the Spirit's life-giving power that replaces the law of sin and death)",
             "phronema tes sarkos / tou pneumatos (the mind-set of the flesh / of the Spirit -- 8:5-6; two fundamental orientations: death or life-and-peace)",

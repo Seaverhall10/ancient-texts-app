@@ -30,7 +30,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "yeled",
                 "transliteration": "yeled",
@@ -137,7 +137,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "melekh Kush",
                 "transliteration": "melekh Kush",
@@ -245,7 +245,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "YHWH",
                 "transliteration": "YHWH",
@@ -335,7 +335,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "baqa",
                 "transliteration": "baqa",
@@ -426,7 +426,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "meraglim",
                 "transliteration": "meraglim",

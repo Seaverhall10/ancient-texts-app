@@ -28,7 +28,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "bekhorah",
                 "transliteration": "bekhorah",
@@ -119,7 +119,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "Peniel",
                 "transliteration": "Peniel",
@@ -209,7 +209,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "Edom",
                 "transliteration": "Edom",
@@ -298,7 +298,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "chalom",
                 "transliteration": "chalom",
@@ -393,7 +393,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "achim",
                 "transliteration": "achim",
@@ -484,7 +484,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "avdut",
                 "transliteration": "avdut",

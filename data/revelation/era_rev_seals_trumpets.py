@@ -59,7 +59,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "erchou (Come! -- the command of the four living creatures to the horsemen; the divine council's summons to its agents of judgment)",
             "hippos leukos (white horse -- conquest or perhaps parody of Christ's white horse in 19:11; the first rider carries a bow and wears a crown)",
             "hippos pyrros (fiery red horse -- war; the rider takes peace from the earth and carries a great sword)",
@@ -251,7 +251,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sphragis tou theou zontos (seal of the living God -- the mark of divine ownership and protection; cf. Ezekiel 9:4, the taw marked on the foreheads of the faithful)",
             "hekatontessarakonta tessares chiliades (144,000 -- 12 x 12 x 1000; the complete, organized people of God in military-census imagery; symbolic of totality)",
             "ochlos polys (great multitude -- innumerable, from all nations; the fulfillment of the Abrahamic promise that his descendants would be 'as the stars')",
@@ -417,7 +417,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sige (silence -- the half-hour silence in heaven; the divine council holds its breath; the dramatic pause before the verdict is executed)",
             "salpinx (trumpet -- the shofar of divine announcement; the trumpet blasts at Sinai (Exod 19:16), at Jericho (Josh 6:4-5), and at the Day of YHWH (Joel 2:1))",
             "thymiama (incense -- the prayers of the saints ascending to God; the priestly function of intercession in the heavenly temple)",
@@ -627,7 +627,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "biblaridion (little scroll -- the open scroll the angel holds, distinct from the sealed scroll of chapter 5; the prophetic commission given to John)",
             "chronos ouketi estai (time will be no more / there will be no more delay -- the divine timetable reaches its conclusion; the mystery of God is about to be completed)",
             "mysterion tou theou (mystery of God -- the hidden plan now revealed; the divine council's purposes unveiled to the prophets)",
@@ -848,7 +848,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "basileia tou kosmou (kingdom of the world -- singular: all earthly kingdoms unified into one; the Babel-fragmentation reversed)",
             "tou kyriou hemon kai tou christou autou (of our Lord and of his Christ -- the divine council's two rulers: YHWH and his anointed, the Psalm 2 pair)",
             "ebasileusas (you have begun to reign -- the decisive, completed action; the kingdom transfer is accomplished, not merely anticipated)",

@@ -55,7 +55,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "vayyitten Adonai (and the Lord gave -- YHWH's sovereignty over Judah's defeat)",
             "pathbag (portion of food -- the royal diet Daniel refuses; a Persian loanword)",
             "Elah bishmayya (God in heaven -- the Aramaic designation for the Most High who reveals mysteries)",
@@ -222,7 +222,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bar elahin (son of the gods/son of God -- this Aramaic phrase is the equivalent of the Hebrew b'nei ha-elohim ('sons of God') used in Gen 6:2, Job 1:6, and Ps 82:6 for members of the divine council. Nebuchadnezzar, speaking from his polytheistic worldview, says 'a son of the gods' (plural, since he believes in many gods). But the narrator reveals the true identity: this is YHWH's own mal'akh ('angel/messenger'), sent to protect the faithful. The early church fathers (Irenaeus, Hippolytus, Tertullian) identified this figure as a pre-incarnate appearance of Christ -- the divine Son who walks with his people through the fire)",
             "tselem di-dahav (image of gold -- the idol Nebuchadnezzar commands all to worship)",
             "attun di-nur (furnace of fire -- the instrument of execution for those who refuse to worship)",
@@ -412,7 +412,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ir (watcher -- Aramaic for 'wakeful one' or 'watcher.' This is the ONLY passage in the canonical Bible that uses this term for angelic beings. The name suggests beings who never sleep, who are always watching -- cosmic sentinels in YHWH's heavenly court. The same term appears extensively in 1 Enoch, a Second Temple Jewish text not in the Protestant Bible but quoted in Jude 14-15, where the 'Watchers' are the rebellious angels who descended to Mount Hermon and mated with human women (Gen 6:1-4). Crucially, Daniel's Watchers are the FAITHFUL ones -- they serve YHWH's purposes, not rebel against them. The existence of both faithful and rebellious Watchers suggests a complex heavenly hierarchy where some members of the divine council fell from their posts while others remained loyal)",
             "qaddish (holy one -- Aramaic for 'holy one, set-apart one.' When paired with ir ('watcher') as in 4:13 ('a watcher, a holy one, came down from heaven'), these are two titles for the same category of being: divine council members who serve as YHWH's judicial agents. The fact that these beings issue a 'decree' (gezerat) and render a 'decision' (she'elta) shows they function as a heavenly court -- passing binding verdicts on earthly kings)",
             "gezerat irin (decree of the watchers -- divine council judicial language for a binding decision)",
@@ -593,7 +593,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mal'akh (angel/messenger -- the divine council operative sent to shut the lions' mouths)",
             "gob aryawata (den of lions -- the instrument of execution under Persian law)",
             "dat Maday uPhras (law of the Medes and Persians -- the irrevocable legal principle that traps even the king)",

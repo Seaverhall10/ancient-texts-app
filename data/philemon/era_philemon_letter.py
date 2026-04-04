@@ -36,7 +36,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "adelphos agapetos (beloved brother -- v.16; the highest relational term Paul can use; a slave is now a brother, the most radical social redefinition imaginable in the ancient world)",
             "splanchna (inward parts/heart/affections -- v.7, 12, 20; literally 'intestines/bowels'; the deepest seat of emotion in ancient physiology; Paul sends Onesimus as his own 'guts')",
             "koinonia (partnership/fellowship/communion -- v.6, 17; from koinos [common/shared]; the shared life created by the gospel; Paul asks Philemon to treat Onesimus as a koinonos [partner])",

@@ -38,7 +38,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "eikon (image -- the same LXX term used in Gen 1:26-27 for humanity made in God's image; Christ is the true and perfect eikon, the visible representation of the invisible YHWH)",
             "prototokos (firstborn -- not 'first created' but 'preeminent heir'; the firstborn held supreme rank and inheritance rights in ANE culture; cf. Ps 89:27 where David is made 'firstborn, the highest of the kings of the earth')",
             "thronoi (thrones -- the highest tier of spiritual powers; beings who occupy seats of governance in the heavenly council; cf. Dan 7:9 where 'thrones were placed')",
@@ -217,7 +217,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "stoicheia tou kosmou (elemental spirits of the world -- 2:8; variously interpreted as (a) basic principles of religion, (b) elemental substances (earth, water, air, fire), or (c) personal spiritual powers governing the cosmos; the divine council reading favors (c): these are the cosmic authorities that enslaved humanity)",
             "pleroma tes theotetos (fullness of deity -- 2:9; theotes is the stronger form meaning the essential being of God, not merely divine quality; the complete God-essence dwells in Christ bodily, leaving no room for intermediaries)",
             "somatikos (bodily -- 2:9; the fullness of deity dwells in Christ in bodily form; the incarnation is not a temporary appearance but a permanent embodiment of the divine presence; God is accessible in a human body)",
@@ -401,7 +401,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "skia (shadow -- 2:17; the Platonic philosophical concept of shadow versus reality applied to salvation history; the OT regulations were not false but preparatory, casting a shadow of the coming substance; the shadow points forward to the reality that has now arrived in Christ)",
             "soma (body/substance -- 2:17; literally 'the body belongs to Christ'; the physical, substantial reality as opposed to the shadow; all the ceremonial, calendrical, and dietary regulations were shadows pointing to Christ who is the embodied reality they anticipated)",
             "threskeia ton angelon (worship of angels -- 2:18; either subjective genitive: worship directed toward angels, or objective genitive: worship performed by angels that humans seek to join; both interpretations point to the same error: placing angelic beings in a mediatorial role that belongs to Christ alone)",

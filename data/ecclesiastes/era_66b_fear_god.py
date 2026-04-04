@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chokhmah (wisdom -- the very thing Qoheleth pursues yet finds ultimately unattainable)",
             "amok amok (deep, deep -- the inaccessible depth of reality that wisdom cannot plumb, 7:24)",
             "orech appayim (patience/long-suffering -- 'the patient in spirit is better than the proud,' 7:8)",
@@ -156,7 +156,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "miqreh (chance/event/fate -- the shared destiny of all living beings: death, 9:2-3)",
             "simchah (joy -- the heartfelt enjoyment Qoheleth commends as God's gift, 9:7)",
             "et vapega (time and chance -- the unpredictable forces that determine outcomes, 9:11)",
@@ -271,7 +271,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Bore'akha (your Creator -- the personal appeal to remember the Creator, 12:1)",
             "soph davar (the end/conclusion of the matter -- the epilogist's final summary, 12:13)",
             "yirat elohim (fear of God -- the ultimate counsel, matching Proverbs 1:7 and Job 28:28)",

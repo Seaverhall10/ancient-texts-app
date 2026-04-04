@@ -41,7 +41,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "pur (lot -- the casting of lots to determine the date; from Akkadian puru; the feast of Purim is named after this lot-casting, transforming a tool of fate into a celebration of providence)",
             "Agagi (Agagite -- Haman's designation; connects him to Agag, king of the Amalekites (1 Sam 15); the ancient enemy of Israel reappears in the Persian court)",
             "dat (law/decree -- a Persian loanword; the irrevocable nature of Persian royal decrees is a key plot device)",
@@ -179,7 +179,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "makom acher (another place -- Mordecai's cryptic phrase; 'relief will arise from another place'; widely interpreted as an oblique reference to God without naming him)",
             "ka-'et hazot (for such a time as this -- the theology of divine appointment; you are where you are for a reason; providence positions people for purpose)",
             "na'hafokh hu (the reversal -- 'it was reversed/turned around' (9:1); the key literary and theological concept of Esther: what was meant for destruction becomes salvation)",

@@ -40,7 +40,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hokhmah (wisdom -- skill for living, moral and practical competence, the central concept of the book)",
             "musar (discipline/instruction -- the correction and training that produces wisdom)",
             "yirat YHWH (fear of YHWH -- reverent awe before God, the foundation of all knowledge)",
@@ -162,7 +162,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "derek (way/path -- the moral direction of life, the central metaphor of wisdom literature)",
             "chesed (steadfast love/loyalty -- coupled with truth as the core character qualities, 3:3)",
             "matmon (hidden treasure -- wisdom is worth the most diligent search, 2:4)",
@@ -273,7 +273,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ishah zarah (forbidden/strange woman -- foreign to wisdom, representing the anti-wisdom path)",
             "nofet (honey -- the initial sweetness of temptation that conceals destruction)",
             "bor (cistern/well -- the metaphor for marital faithfulness as a contained, pure water source)",
@@ -385,7 +385,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qanani (possessed/created/acquired me -- the debated verb of 8:22, central to christological controversy)",
             "amon (master workman/nursling/constantly -- the debated role of Wisdom at creation, 8:30)",
             "nissakhti (I was set up/appointed/poured out -- possibly an enthronement term, 8:23)",

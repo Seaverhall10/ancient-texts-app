@@ -48,7 +48,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bene Qorach (Sons of Korah -- a Levitical guild of temple musicians descended from Korah)",
             "El Chai (the living God -- the God who is vitally present, not a dead idol)",
             "penei Elohim (the face of God -- the divine presence encountered in worship at the sanctuary)",
@@ -212,7 +212,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "elohim (God/gods -- the king is addressed with this title in 45:6; the interpretation is debated)",
             "shir yedidot (a love song -- the superscription; a wedding hymn for the king)",
             "hod (splendor/majesty -- the royal garment imagery of the king)",
@@ -392,7 +392,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "machseh (refuge -- a place of shelter from cosmic and military threat)",
             "Elyon (Most High -- YHWH's supreme title as head of the divine council)",
             "ir Elohim (city of God -- Jerusalem/Zion as YHWH's earthly dwelling place)",
@@ -581,7 +581,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "rokhev ba'aravot (rider of the clouds/deserts -- the Baal epithet claimed by YHWH)",
             "rekhev Elohim (chariots of God -- the angelic war chariot army; twenty thousand strong)",
             "ribotayim (twice ten thousand -- the overwhelming number of YHWH's chariots)",
@@ -728,7 +728,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "lishlomoh (of Solomon/for Solomon -- the Solomonic attribution or dedication)",
             "tsedeq (righteousness -- the defining quality of the ideal king's rule)",
             "mishpat (justice -- the equitable judgment the king renders for the poor)",

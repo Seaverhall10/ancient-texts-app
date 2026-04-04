@@ -53,7 +53,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "מָשִׁיחַ (mashiach)",
                 "meaning": "[A] 'Anointed one, messiah' — from mashach, 'to anoint.' The "
@@ -324,7 +324,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "דְּבַר יְהוָה (devar YHWH)",
                 "meaning": "[A] 'The word of YHWH' — the foundational concept. The Dead "

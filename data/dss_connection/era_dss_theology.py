@@ -49,7 +49,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "יַחַד (Yahad)",
                 "meaning": "[C] 'Unity, community, together' — the Qumran community's "
@@ -310,7 +310,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "עִירִין ('irin)",
                 "meaning": "[C] Aramaic: 'Watchers' — the term used in 1 Enoch and Daniel "
@@ -596,7 +596,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "מַלְכִּי־צֶדֶק (Malki-Tsedeq)",
                 "meaning": "[A] 'King of Righteousness' or 'My king is Righteousness' — "

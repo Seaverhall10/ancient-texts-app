@@ -70,7 +70,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d0\u05b7\u05e0\u05b0\u05e9\u05b5\u05c1\u05d9 \u05d4\u05b7\u05e9\u05b5\u05bc\u05c1\u05dd (anshei ha-shem)",
                 "meaning": "'Men of the name' or 'men of renown.' The Nephilim "
@@ -339,7 +339,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e0\u05b4\u05de\u05b0\u05e8\u05d5\u05b9\u05d3 (Nimrod)",
                 "meaning": "From the root m-r-d, 'to rebel.' Nimrod is called "
@@ -574,7 +574,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c4\u03b1\u03c1\u03c4\u03b1\u03c1\u03ce\u03c3\u03b1\u03c2 (tartarosas)",
                 "meaning": "The Greek verb used in 2 Peter 2:4, meaning 'to "
@@ -812,7 +812,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e9\u05b5\u05c1\u05e9\u05c1 \u05d5\u05b8\u05e9\u05b5\u05c1\u05e9\u05c1 (shesh va-shesh)",
                 "meaning": "'Six and six' \u2014 the polydactyly described in 2 "
@@ -1032,7 +1032,7 @@ CHAPTERS = [
             "translation": "ESV (with DSS/LXX reading)"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d1\u05b0\u05bc\u05e0\u05b5\u05d9 \u05d0\u05b1\u05dc\u05b9\u05d4\u05b4\u05d9\u05dd (bene elohim)",
                 "meaning": "'Sons of God' \u2014 the divine beings to whom YHWH "
@@ -1267,7 +1267,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05b6\u05e8\u05b6\u05e9\u05c2 (eres)",
                 "meaning": "'Bed' or 'couch' \u2014 Og's iron bed measured nine "

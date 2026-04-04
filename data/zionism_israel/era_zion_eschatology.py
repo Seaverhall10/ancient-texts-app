@@ -67,7 +67,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e9\u05b8\u05c1\u05d1\u05bb\u05e2\u05b4\u05d9\u05dd (shavu\u2019im)",
                 "meaning": "'Weeks' or 'sevens' -- the Hebrew word does not specify "
@@ -358,7 +358,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d2\u05bc\u05d5\u05b9\u05d2 (Gog)",
                 "meaning": "The name of the invader-prince. No clear Hebrew "
@@ -655,7 +655,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d1\u05b5\u05bc\u05d9\u05ea \u05d4\u05b7\u05de\u05bc\u05b4\u05e7\u05b0\u05d3\u05bc\u05b8\u05e9\u05c1 (Beit HaMikdash)",
                 "meaning": "'The House of the Sanctuary' or simply 'the Temple.' "

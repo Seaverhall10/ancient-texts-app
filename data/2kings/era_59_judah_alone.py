@@ -57,7 +57,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mal'akh YHWH (angel of YHWH -- Hebrew mal'akh simply means 'messenger'; the English word 'angel' comes from the Greek angelos, which also just means 'messenger.' In the Old Testament, the mal'akh YHWH is a unique figure: sometimes he speaks AS YHWH in the first person, sometimes he is distinguished FROM YHWH as a separate being. This ambiguity led later theologians to identify him as the 'second power in heaven' -- a divine being who carries YHWH's full authority and presence. In this passage he is a divine council agent who executes military judgment, destroying 185,000 Assyrians in one night)",
             "Nehushtan (the bronze thing -- Moses' serpent, now an idol; Hezekiah destroys it, demonstrating that even sacred objects can become idols)",
             "Rabshaqeh (chief cupbearer/field commander -- IMPORTANT: this is NOT a personal name, though English Bibles capitalize it like one. Rabshakeh is an Assyrian TITLE, like 'Secretary of State' or 'Field Marshal.' The Akkadian rab shaqe means 'chief cupbearer,' originally the official who tasted the king's wine but by this period a high-ranking military commander and diplomatic envoy. We do not know the personal name of the man who delivered this speech -- the text identifies him only by his rank. Similarly, 'Tartan' (2 Kgs 18:17) is not a name but means 'supreme commander')",
@@ -245,7 +245,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "emet (truth/faithfulness -- Hezekiah claims he walked in 'emet'; yet his display of treasures lacks wisdom)",
             "lev shalem (whole heart -- complete devotion; Hezekiah's sincere but imperfect faith)",
             "beit nekhoto (his treasure house -- the storehouse Hezekiah shows to Babylonian envoys; a fatal indiscretion)",
@@ -383,7 +383,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tseva hashamayim (host of heaven -- Hebrew tseva means 'army, host, organized company,' and shamayim means 'heaven/sky.' The phrase therefore means 'the army of heaven' or 'the heavenly host.' But what IS this army? It refers to the sun, moon, stars, and planets understood not merely as astronomical objects but as spiritual beings -- members of YHWH's divine council who serve under his authority (much as officers serve under a king). Deuteronomy 4:19 says YHWH 'allotted' these heavenly bodies to the nations as objects of worship, but Israel was forbidden to worship them because Israel belongs directly to YHWH. When Manasseh worships the tseva hashamayim, he is worshipping YHWH's subordinate council members instead of YHWH himself -- like saluting the generals while ignoring the commander-in-chief)",
             "he'evir ba'esh (passed through the fire -- the Hebrew phrase literally means 'caused to pass through the fire,' a euphemism for child sacrifice. The children were offered to a deity called Molech (or Molek), whose name may derive from the Hebrew word melek ('king') with the vowels of boshet ('shame') substituted by later scribes to express revulsion. The practice involved burning children alive at a site called Topheth in the Valley of Hinnom (ge-hinnom) outside Jerusalem. Archaeological sites in Carthage and other Phoenician colonies have uncovered burial precincts (called tophets) containing cremated remains of infants in sacrificial jars, confirming this practice existed in the broader ANE world. YHWH's Torah explicitly forbids it in Lev 18:21 and Deut 18:10)",
             "Asherah (the Canaanite goddess -- Asherah was the chief female deity of the Canaanite pantheon, often understood as the consort (wife) of El, the high god. In Ugaritic mythology she is called 'Lady Athirat of the Sea' and is the mother of the seventy gods. The word 'asherah' in the Bible can refer to (1) the goddess herself, or (2) a wooden pole or carved image that represented her, set up at worship sites. When the Bible says someone 'made an Asherah,' it means they set up such a cult object. Placing her image in YHWH's Temple was the ultimate desecration because it implied YHWH had a goddess-consort -- importing Canaanite theology into YHWH's own throne room)",
@@ -550,7 +550,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sefer hattorah (the Book of the Law -- the scroll discovered in the Temple; identified with Deuteronomy or a form of it)",
             "qara (to tear -- Josiah tears his clothes upon hearing the Torah read; genuine repentance and anguish)",
             "rakh levav (tender/penitent heart -- YHWH's description of Josiah; a heart responsive to God's word)",
@@ -723,7 +723,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "galut (exile/deportation -- the great exile to Babylon; YHWH's covenant judgment executed)",
             "saraf (to burn -- the Temple, the palace, every great house burned; YHWH's earthly throne room destroyed)",
             "natats (to break down -- the walls of Jerusalem demolished; the city's defenses unmade)",

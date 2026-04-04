@@ -50,7 +50,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nachamu (comfort/console -- piel imperative plural, addressed to the divine council)",
             "qol qore (a voice crying -- the herald announcing YHWH's approach)",
             "derekh YHWH (the way of YHWH -- the royal highway through the wilderness)",
@@ -232,7 +232,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "eved (servant -- the Servant of YHWH, a figure of unique calling and authority)",
             "bechir (chosen one -- the elect agent of YHWH's purposes)",
             "ruach (Spirit -- the divine Spirit placed upon the Servant, cf. Isaiah 11:2)",
@@ -374,7 +374,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mashiach (anointed one -- the title applied to Cyrus, normally reserved for Israel's kings and priests)",
             "Koresh (Cyrus -- the Persian king named by God before his birth)",
             "ro'i (my shepherd -- YHWH's pastoral title for the pagan king who will free Israel)",
@@ -516,7 +516,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mibeten (from the womb -- the Servant's calling precedes his birth)",
             "cherev chaddah (sharp sword -- the Servant's mouth as a weapon of divine speech)",
             "chets barar (polished arrow -- hidden in YHWH's quiver, deployed at the right moment)",
@@ -643,7 +643,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "leshon limmudim (tongue of the taught/disciples -- the Servant learns before he speaks)",
             "babboqer babboqer (morning by morning -- the daily discipline of divine instruction)",
             "lo mariti (I was not rebellious -- the Servant's perfect obedience, unlike Israel)",
@@ -783,7 +783,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mecholal (pierced/wounded -- from the root chalal, to bore through, pierce fatally)",
             "medukka (crushed -- from the root daka, to be broken to pieces, pulverized)",
             "musar (chastisement/discipline -- the corrective punishment the Servant bears for others)",
@@ -1023,7 +1023,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tsame (thirsty -- spiritual need described as physical thirst)",
             "berit olam (everlasting covenant -- the Davidic covenant renewed and made permanent)",
             "chasdei David (the faithful loves of David -- YHWH's covenant mercies promised to David)",

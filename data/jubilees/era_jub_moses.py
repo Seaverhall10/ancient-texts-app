@@ -27,7 +27,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["avdut", "mitsrayim", "par'oh", "ya'akov"],
+        "original_terms": ["avdut", "mitsrayim", "par'oh", "ya'akov"],
 
         "ane_backdrop": "The enslavement of a foreign population settled within a kingdom's borders is well attested in ANE records. The Egyptians used corvee labor (forced labor for state projects) extensively, as documented in papyri describing Asiatic (Semitic) laborers building monuments, quarrying stone, and making bricks. The Leiden Papyrus 348 mentions 'Apiru' (a term some associate with 'Hebrew') engaged in hauling stones for the construction of a storehouse of Ramesses. The infanticide policy attributed to Pharaoh echoes broader ANE anxieties about foreign populations growing too large within a host nation's borders. Jubilees frames this entire oppression as Mastema-driven, adding a supernatural dimension to the political and economic exploitation.",
 
@@ -88,7 +88,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["mosheh", "amram", "yokheved", "sinai", "sneh"],
+        "original_terms": ["mosheh", "amram", "yokheved", "sinai", "sneh"],
 
         "ane_backdrop": "The 'exposed infant saved to become a great leader' is one of the most widespread motifs in ANE literature. The Legend of Sargon of Akkad (c. 2300 BCE) describes Sargon's mother placing him in a basket of rushes, sealed with bitumen, and setting him in the river, from which he was rescued and raised to kingship. The parallels with Moses' exposure in a basket (tebah) are striking and have been noted since antiquity. The motif establishes the hero's humble origins and divine destiny. Jubilees, while following the Exodus account, adds the element of Amram's instruction — Moses' formation comes not from Egypt but from Israel, preserving the patriarchal chain of knowledge transmission.",
 
@@ -154,7 +154,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["mastema", "pesach", "makkot", "yam_suf", "geulah"],
+        "original_terms": ["mastema", "pesach", "makkot", "yam_suf", "geulah"],
 
         "ane_backdrop": "The contest between Moses and the Egyptian magicians has ANE parallels in the genre of magical competition narratives. Egyptian papyri describe contests between rival magicians, and the 'Tale of Setne Khamwas' features magical duels. The concept of a supreme deity binding a lesser divine adversary appears in multiple ANE traditions: Marduk binds Tiamat in the Enuma Elish, and various Mesopotamian incantation texts describe the binding of demons. Jubilees' binding of Mastema combines the magical-contest motif with the divine-binding motif, creating a scene in which Israel's liberation is simultaneously a military exodus, a divine judgment on Egypt's gods (Exodus 12:12), and a cosmic defeat of the prince of demons.",
 
@@ -233,7 +233,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["pesach", "seh", "matzot", "lukhot_shamayim"],
+        "original_terms": ["pesach", "seh", "matzot", "lukhot_shamayim"],
 
         "ane_backdrop": "Passover-like spring festivals are attested across the ANE. The Mesopotamian Akitu (New Year) festival, held at the spring equinox, involved ritual sacrifice, communal meals, and recitation of creation myths (the Enuma Elish). The Canaanite spring harvest festivals included animal sacrifice and communal feasting. Israel's Passover shares the spring timing and sacrificial meal structure but radically reinterprets these elements within the Exodus narrative: the sacrifice is not a seasonal offering to ensure agricultural fertility but a memorial of divine liberation from slavery. Jubilees intensifies the Passover's uniqueness by tying its dating to the solar calendar and inscribing its laws on the heavenly tablets.",
 
@@ -299,7 +299,7 @@ CHAPTERS = [
             "text": "And all the children of Israel will forget and will not find the path of the years, and will forget the new moons, and seasons, and sabbaths, and they will go wrong as to all the order of the years.",
             "translation": "Charles"
         },
-        "hebrew_terms": ["shanah", "shemesh", "yareakh", "mo'adim", "tequfah", "lukhot_shamayim"],
+        "original_terms": ["shanah", "shemesh", "yareakh", "mo'adim", "tequfah", "lukhot_shamayim"],
 
         "ane_backdrop": "Calendar systems in the ancient Near East were diverse. Egypt used a 365-day solar calendar (12 months of 30 days plus 5 epagomenal days) from the 3rd millennium BCE onward. Mesopotamia used a 354-day lunar calendar with periodic intercalary months to realign with the solar year. The Israelite calendar as reflected in most biblical texts follows the Mesopotamian lunisolar model (months beginning with the new moon, with intercalary adjustments). Jubilees' 364-day calendar is a compromise: it is solar in its independence from lunar phases but shorter than the true solar year (365.25 days) by approximately 1.25 days per year. How the author proposed to handle this accumulating drift is unknown -- no intercalation scheme is described. This 'calendar gap' problem was apparently not resolved in any surviving text, though the community that used the calendar clearly functioned for centuries.",
 
@@ -374,7 +374,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["shabbat", "menuchah", "lukhot", "yovel"],
+        "original_terms": ["shabbat", "menuchah", "lukhot", "yovel"],
 
         "ane_backdrop": "The seven-day week with a designated rest day has no precise ANE parallel, though the Babylonian 'shappatu' (the fifteenth day of the month, a full-moon observance) may be linguistically related to 'shabbat.' However, the Babylonian shappatu was a monthly observance tied to lunar phases, not a weekly rest independent of the moon. The weekly Sabbath's independence from astronomical cycles is unique to Israel and is precisely the point Jubilees emphasizes: the Sabbath is based on the seven-day creation week (an eternal pattern), not on lunar phases (which Jubilees considers a pagan corruption). The strictness of Jubilees' Sabbath laws exceeds anything in the Pentateuch and anticipates the rigorous Sabbath halakhah found at Qumran (CD 10:14-11:18).",
 
@@ -449,7 +449,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['mastema', 'mosheh', 'tzipporah', 'milah', 'khatan_damim'],
+        'original_terms': ['mastema', 'mosheh', 'tzipporah', 'milah', 'khatan_damim'],
 
         'ane_backdrop': 'The motif of a divine or demonic figure attacking a hero on a journey is widespread in ANE literature. In the Gilgamesh Epic, the hero faces supernatural opposition during his travels. In Greek tradition, gods intervene to impede or redirect heroes on their quests (Poseidon opposing Odysseus). The specific motif of a night attack at a lodging place has parallels in Jacob\'s wrestling at the Jabbok (Genesis 32:22-32), where a mysterious figure attacks him at night during a journey. Jubilees\' identification of the attacker as Mastema (rather than God or a neutral divine being) reflects a broader Second Temple trend of transferring potentially embarrassing divine actions to adversarial agents, preserving God\'s moral integrity.',
 
@@ -515,7 +515,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['pesach', 'dam', 'mashkhit', 'mastema', 'seh', 'geulah'],
+        'original_terms': ['pesach', 'dam', 'mashkhit', 'mastema', 'seh', 'geulah'],
 
         'ane_backdrop': 'The use of blood as a protective ritual substance is widespread in the ancient Near East. Mesopotamian apotropaic rituals (namburbi) involved smearing blood on doorposts and thresholds to ward off evil spirits. The Egyptian \'Book of the Dead\' describes protective rituals using blood to repel hostile entities. Hittite purification rites involved blood application to doorways and sacred spaces. Israel\'s Passover blood ritual shares this apotropaic function but transforms it within the Exodus narrative: the blood protects not from generic evil spirits but specifically from the \'destroyer\' sent as divine judgment on Egypt. Jubilees intensifies the anti-demonic dimension by connecting the Passover blood to the binding of Mastema.',
 
@@ -581,7 +581,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['shabbat', 'mot_yumat', 'melakhah', 'menuchah', 'qodesh'],
+        'original_terms': ['shabbat', 'mot_yumat', 'melakhah', 'menuchah', 'qodesh'],
 
         'ane_backdrop': 'No other ancient Near Eastern culture had a weekly rest day with capital penalties for violation. The uniqueness of this institution cannot be overstated. Mesopotamian \'evil days\' (umu lemnu) were inauspicious days on which certain activities were avoided, but they were not celebrated, they fell on different dates each month, and they carried no death penalty for violation. The Egyptian calendar had feast days associated with particular deities, but no weekly rest day. Rome later adopted a seven-day week under Jewish and eventually Christian influence, but the concept of a legally enforced weekly rest was an Israelite innovation. Jubilees\' death penalty for Sabbath violation represents the most extreme expression of this unique institution.',
 
@@ -648,7 +648,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['galut', 'teshuvah', 'lev_chadash', 'ruach_qodesh', 'miqdash'],
+        'original_terms': ['galut', 'teshuvah', 'lev_chadash', 'ruach_qodesh', 'miqdash'],
 
         'ane_backdrop': 'The pattern of sin-exile-restoration is deeply embedded in ancient Near Eastern royal ideology. Mesopotamian texts describe cities punished by their patron gods for neglecting worship, suffering destruction, and then being restored when the gods\' anger subsides. The Weidner Chronicle attributes the rise and fall of Babylonian dynasties to their treatment of Marduk\'s cult. The prophetic tradition of Israel (Deuteronomy 28-30; Jeremiah 31; Ezekiel 36-37) transforms this pattern into a covenantal framework: Israel\'s exile is not the result of divine caprice but of covenant violation, and restoration requires repentance and divine transformation of the human heart. Jubilees 1 draws directly on this prophetic tradition.',
 
@@ -721,7 +721,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['luakh_shemesh', 'shanah', 'shavu\'ot', 'mo\'adim', 'lukhot_shamayim'],
+        'original_terms': ['luakh_shemesh', 'shanah', 'shavu\'ot', 'mo\'adim', 'lukhot_shamayim'],
 
         'ane_backdrop': 'Calendar disputes were among the most divisive issues in ancient religious communities. In Egypt, the introduction of the reformed Julian calendar under Roman rule (25 BCE) caused significant resistance from traditional priests who regarded the old 365-day Egyptian calendar as sacred. In Mesopotamia, the authority to proclaim intercalary months was a royal prerogative with profound religious implications — the wrong calendar date for a festival could render the entire ceremony ineffective. In Israel, the calendar dispute between the solar and lunar traditions was not merely a practical disagreement but a theological schism: each side believed the other was worshipping on the wrong days, which was tantamount to not worshipping at all.',
 

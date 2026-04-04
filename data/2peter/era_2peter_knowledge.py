@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "theias physeos koinonoi (partakers of the divine nature -- 1:4; theios = divine, physis = nature, koinonos = partaker/sharer; the ONLY place in the NT where believers are said to share in God's own nature; this is the positive counter to the Watchers' transgression -- they illegitimately crossed the heaven-earth boundary, but believers legitimately participate in divinity through Christ)",
             "epignosis (full/thorough knowledge -- 1:2, 3, 8; 2:20; from epi [upon/thorough] + gnosis [knowledge]; not mere intellectual awareness but deep, experiential, transformative knowledge of God; the antidote to the false teachers' counterfeit 'knowledge')",
             "epoptai (eyewitnesses -- 1:16; from epi [upon] + horao [to see]; literally 'overseers' or 'beholders'; in Greek mystery religions, epoptai were initiates who had witnessed the highest sacred rites; Peter claims to have witnessed the ultimate sacred event: Christ's glorification on the mountain)",
@@ -260,7 +260,7 @@ CHAPTERS = [
             "translation": "ESV (note: 'hell' here translates tartarosas, a unique word meaning 'cast into Tartarus' -- not the standard Greek words for the afterlife)"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tartarosas (to cast into Tartarus -- 2:4; a verb used ONLY HERE in the entire Bible; from Tartaros, the deepest region of the Greek underworld, below Hades, where the Titans were imprisoned after their rebellion against the Olympians; Peter uses this specific Greek cosmological term to describe the prison of the fallen Watchers from the 1 Enoch / Genesis 6 tradition)",
             "seirais zophou (chains of gloomy darkness -- 2:4; some manuscripts read 'pits of darkness' [seirois]; either way, the Watchers are bound in darkness, matching 1 Enoch 10:4-6 where Azazel is bound in a dark hole in the desert; the 'chains' are cosmic restraints preventing the imprisoned divine council members from acting until the final judgment)",
             "pseudodidaskaloi (false teachers -- 2:1; from pseudos [false] + didaskalos [teacher]; teachers who present counterfeit knowledge as genuine; they operate as earthly agents of the same rebellion the Watchers initiated in the heavenly realm)",

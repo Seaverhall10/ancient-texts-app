@@ -38,7 +38,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ro'eh (shepherd -- both the failed kings and YHWH himself; the governing metaphor for leadership)",
             "avdi David (my servant David -- the messianic shepherd from David's line)",
             "berit shalom (covenant of peace -- the new covenant YHWH will make with restored Israel)",
@@ -158,7 +158,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "lev chadash (new heart -- the transformed center of will and thought that enables obedience)",
             "ruach chadashah (new spirit -- the renewed inner life; parallel to Jeremiah's Torah written on hearts)",
             "lev ha-even (heart of stone -- the unregenerate, stubborn heart that resists YHWH's will)",
@@ -303,7 +303,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kavod YHWH (glory of YHWH -- the divine presence that returns through the east gate)",
             "mayim (waters -- the river of life flowing from the temple, healing everything it touches)",
             "YHWH Shammah (YHWH Is There -- the new name of the eschatological city, the book's final word)",

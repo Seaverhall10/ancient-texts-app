@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "divrei hayamim (words/matters of the days -- the Hebrew title; means chronicle or record of events)",
             "toledot (generations/genealogies -- the structuring device from Genesis; each toledot section traces a family line)",
             "hityahas (to register by genealogy -- a key Chronicles verb for the act of establishing identity through lineage)",
@@ -200,7 +200,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ma'al (breach of faith/unfaithfulness -- the Chronicler's key theological term; Saul's defining sin; appears in the verdict formula 10:13)",
             "darash (to seek/inquire -- the Chronicler's test of faithfulness: Saul failed to 'seek' YHWH; David consistently 'seeks' YHWH)",
             "kol-yisra'el (all Israel -- the Chronicler's ideal of national unity under the Davidic king, used over 40 times in Chronicles)",
@@ -315,7 +315,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "aron ha-elohim (the Ark of God -- the throne footstool of YHWH; its presence means God's presence dwells among his people)",
             "perets (a breach/outburst -- the name given to the place where Uzzah was struck: Perez-uzzah, 'breach of Uzzah'; divine holiness is not safe)",
             "meshorerim (singers -- the Levitical musicians David appointed; worship as a permanent vocation, not occasional activity)",

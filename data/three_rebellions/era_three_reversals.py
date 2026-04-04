@@ -53,7 +53,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b8\u03c1\u03b9\u03b1\u03bc\u03b2\u03b5\u03cd\u03c3\u03b1\u03c2 (thriambeusas)",
                 "meaning": "'Having triumphed over, having led in triumphal procession.' From thriambeuein, "
@@ -210,7 +210,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b1\u03c1\u03c7\u03b1\u03af / \u03b5\u03be\u03bf\u03c5\u03c3\u03af\u03b1\u03b9 (archai / exousiai)",
                 "meaning": "'Rulers / authorities' \u2014 Paul's technical terminology for the hostile spiritual "

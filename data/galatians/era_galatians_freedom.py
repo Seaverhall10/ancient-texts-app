@@ -67,7 +67,7 @@ CHAPTERS = [
             '(2:6) and extended "the right hand of fellowship" (2:9). The divine council has '
             'authorized a two-track mission: Peter to the circumcised, Paul to the nations.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u1f00\u03c0\u03cc\u03c3\u03c4\u03bf\u03bb\u03bf\u03c2',
                 'transliteration': 'apostolos',
@@ -292,7 +292,7 @@ CHAPTERS = [
             'Greek, neither slave nor free, neither male nor female, for you are all one '
             'in Christ Jesus" (3:28).</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u03b4\u03b9\u03ba\u03b1\u03b9\u03bf\u03c3\u03cd\u03bd\u03b7',
                 'transliteration': 'dikaiosyne',
@@ -523,7 +523,7 @@ CHAPTERS = [
             '(4:9). For Gentile Galatians to adopt Torah observance is not an upgrade \u2014 it is '
             'a RETURN to cosmic slavery, just under a different set of rulers.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u03c3\u03c4\u03bf\u03b9\u03c7\u03b5\u1fd6\u03b1 \u03c4\u03bf\u1fe6 \u03ba\u03cc\u03c3\u03bc\u03bf\u03c5',
                 'transliteration': 'stoicheia tou kosmou',
@@ -754,7 +754,7 @@ CHAPTERS = [
             'it is the same kosmos governed by the stoicheia. The cross has severed Paul\'s '
             'connection to the old cosmic order. A new creation has begun (6:15).</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u03c6\u03b1\u03c1\u03bc\u03b1\u03ba\u03b5\u03af\u03b1',
                 'transliteration': 'pharmakeia',

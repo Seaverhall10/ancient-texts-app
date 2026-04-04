@@ -18,7 +18,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nedavah",
             "chokhmah_lev",
             "terumah",
@@ -114,7 +114,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "dai",
             "marbim",
             "yeri'ot",
@@ -211,7 +211,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "zahav_tahor",
             "aron",
             "kapporet",
@@ -313,7 +313,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kiyor",
             "mareh",
             "mizbeach_haolah",
@@ -410,7 +410,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ephod",
             "choshen",
             "urim_vetummim",
@@ -508,7 +508,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kavod_yhwh",
             "anan",
             "mishkan",
@@ -619,7 +619,7 @@ CHAPTERS = [
             "text": "Then the cloud covered the tent of meeting, and the glory of the LORD filled the tabernacle.",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
 

@@ -34,7 +34,7 @@ CHAPTERS = [
             "translation": "KJV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "ishah kushit",
                 "transliteration": "ishah kushit",
@@ -108,7 +108,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "hakkarah",
                 "transliteration": "hakkarah",
@@ -197,7 +197,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "berakhot",
                 "transliteration": "berakhot",
@@ -273,7 +273,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "shikhchah",
                 "transliteration": "shikhchah",
@@ -344,7 +344,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "Mosheh",
                 "transliteration": "Mosheh",
@@ -425,7 +425,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "Kush",
                 "transliteration": "Kush",
@@ -501,7 +501,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "seneh",
                 "transliteration": "seneh",
@@ -573,7 +573,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "makkot",
                 "transliteration": "makkot",
@@ -664,7 +664,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "yam suph",
                 "transliteration": "yam suph",

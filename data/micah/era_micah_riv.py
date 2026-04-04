@@ -36,7 +36,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shim'u ammim kullam (Hear, O peoples, all of you -- the universal summons; the riv courtroom being called to order)",
             "riv (covenant lawsuit -- the formal legal case a suzerain brings against a vassal who has violated treaty terms)",
             "yotsea mimqomo (coming out of his place -- YHWH leaving the heavenly throne room; theophanic departure for judgment)",
@@ -212,7 +212,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "riv (covenant lawsuit -- the formal term used twice in 6:1-2; YHWH's legal case against Israel)",
             "harim (mountains -- the ancient covenant witnesses at Sinai/Horeb; summoned here as the court's witness panel)",
             "mah-asiti lekha (what have I done to you -- the suzerain's invitation for counter-charges; extraordinary legal humility)",
@@ -412,7 +412,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Bet-lechem Ephrathah (Bethlehem Ephrathah -- the two names together identify the specific Bethlehem in Judah, distinguishing it from a northern Bethlehem in Zebulun)",
             "tsair livhyot be-alphe Yehudah (too little to be among the thousands/clans of Judah -- the deliberate theological inversion of greatness from insignificance)",
             "moshel be-Yisrael (ruler in Israel -- moshel from mashal, to rule/govern; the Messiah's governing function)",
@@ -574,7 +574,7 @@ CHAPTERS = [
             "text": "Hear what the LORD says: Arise, plead your case before the mountains, and let the hills hear your voice. Hear, you mountains, the indictment of the LORD, and you enduring foundations of the earth, for the LORD has an indictment against his people, and he will contend with Israel.",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
 
         "second_temple": [

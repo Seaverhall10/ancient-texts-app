@@ -61,7 +61,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "apokalypsis (unveiling/revelation -- the genre title; not 'destruction' but 'disclosure of hidden reality')",
             "huios anthropou (son of man -- the Daniel 7:13 title that Jesus claimed as his primary self-designation)",
             "ho protos kai ho eschatos (the first and the last -- a divine title from Isaiah 44:6; 48:12, applied to Christ)",
@@ -269,7 +269,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "angelos tes ekklesias (angel of the church -- the guardian spiritual being assigned to each congregation, a local divine council representative)",
             "ho nikon (the one who conquers/overcomes -- the faithful believer who endures; the recurring promise of eschatological reward)",
             "Nikolaitai (Nicolaitans -- a heretical group promoting accommodation with pagan culture; possibly from nikolaos, 'conqueror of the people')",
@@ -538,7 +538,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "thronos (throne -- the seat of divine sovereignty; echoes the kisse of 1 Kings 22:19, the karsavan of Daniel 7:9)",
             "presbyteroi (elders -- the twenty-four council members; the term is used for both human leaders and heavenly beings in apocalyptic literature)",
             "zoa (living creatures -- not 'beasts' [theria] but 'living beings'; the cherubim of Ezekiel 1 and the seraphim of Isaiah 6)",
@@ -806,7 +806,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "arnion (Lamb -- the diminutive form; used 28 times in Revelation for Christ; the Passover lamb, the suffering servant, the conquering sacrifice)",
             "biblion (scroll/book -- the sealed document containing the divine decree; the cosmic riv, the covenant lawsuit document)",
             "sphragis (seal -- the seven seals that secure the scroll; each seal broken releases a phase of the divine judgment)",

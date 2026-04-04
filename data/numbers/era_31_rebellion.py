@@ -49,7 +49,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mit'on'nim (complainers — those who speak adversely about their situation)",
             "asafsuf (rabble/mixed multitude — the non-Israelite group that left Egypt with them)",
             "ta'avah (craving — intense, disordered desire)",
@@ -245,7 +245,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kushit (Cushite — Ethiopian or Midianite woman, debated identity)",
             "navi (prophet — one who receives divine communication)",
             "peh el peh (mouth to mouth — direct, unmediated divine speech)",
@@ -429,7 +429,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "meraglim (spies — from ragal, to spy out, literally 'to foot/tread')",
             "dibbah (evil report — slander, defamatory speech about the land)",
             "Nephilim (fallen ones/giants — from naphal, 'to fall'; the same beings "
@@ -626,7 +626,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "salachti (I have pardoned — YHWH's declaration of forgiveness that does not remove consequences)",
             "nasa (to carry/forgive — bearing the guilt, same word for the Levites' 'carrying')",
             "ma'al (trespass/unfaithfulness — covenant violation)",

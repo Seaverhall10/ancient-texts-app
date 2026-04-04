@@ -51,7 +51,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "שָׁמַיִם (shamayim)",
                 "meaning": "[A] 'Heavens' — always plural in Hebrew, never singular. From a root "
@@ -322,7 +322,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "הַר (har)",
                 "meaning": "[A] 'Mountain' — the primary Hebrew word for elevated terrain, but "
@@ -568,7 +568,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "עָבַד (abad)",
                 "meaning": "[A] 'To work, to serve' — in Genesis 2:15, Adam is placed in the "

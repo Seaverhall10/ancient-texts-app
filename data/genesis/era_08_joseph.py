@@ -17,7 +17,7 @@ CHAPTERS = [
                 "text": "They said to one another, 'Here comes this dreamer. Come now, let us kill him and throw him into one of the pits. Then we will say that a fierce animal has devoured him, and we will see what will become of his dreams.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "chalom",
                 "ketonet_passim",
                 "toledot",
@@ -97,7 +97,7 @@ CHAPTERS = [
                 "text": "Then Judah identified them and said, 'She is more righteous than I, since I did not give her to my son Shelah.' And he did not know her again.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "zera",
                 "tsedaqah",
                 "bechor",
@@ -178,7 +178,7 @@ CHAPTERS = [
                 "text": "He is not greater in this house than I am, nor has he kept back anything from me except you, because you are his wife. How then can I do this great wickedness and sin against God?",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "yhwh",
                 "chen",
                 "hesed",
@@ -249,7 +249,7 @@ CHAPTERS = [
                 "text": "They said to him, 'We have had dreams, and there is no one to interpret them.' And Joseph said to them, 'Do not interpretations belong to God? Please tell them to me.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "chalom",
                 "patar",
                 "elohim"
@@ -318,7 +318,7 @@ CHAPTERS = [
                 "text": "Joseph answered Pharaoh, 'It is not in me; God will give Pharaoh a favorable answer.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "chalom",
                 "patar",
                 "elohim",
@@ -399,7 +399,7 @@ CHAPTERS = [
                 "text": "Then they said to one another, 'In truth we are guilty concerning our brother, in that we saw the distress of his soul, when he begged us and we did not listen. That is why this distress has come upon us.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "chalom",
                 "berit",
                 "yhwh",
@@ -469,7 +469,7 @@ CHAPTERS = [
                 "text": "I will be a pledge of his safety. From my hand you shall require him. If I do not bring him back to you and set him before you, then let me bear the blame forever.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "berakah",
                 "chen",
                 "el_shaddai",
@@ -539,7 +539,7 @@ CHAPTERS = [
                 "text": "Now therefore, please let your servant remain instead of the boy as a servant to my lord, and let the boy go back with his brothers.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "go_el",
                 "abad",
                 "chen",
@@ -615,7 +615,7 @@ CHAPTERS = [
                 "text": "And God sent me before you to preserve for you a remnant on earth, and to keep alive for you many survivors. So it was not you who sent me here, but God. He made me a father to Pharaoh, and lord of all his house and ruler over all the land of Egypt.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "yhwh",
                 "elohim",
                 "zera",
@@ -691,7 +691,7 @@ CHAPTERS = [
                 "text": "Then he said, 'I am God, the God of your father. Do not be afraid to go down to Egypt, for there I will make you into a great nation. I myself will go down with you to Egypt, and I will also bring you up again, and Joseph's hand shall close your eyes.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "elohim",
                 "goy",
                 "yhwh",
@@ -767,7 +767,7 @@ CHAPTERS = [
                 "text": "And Jacob said to Pharaoh, 'The days of the years of my sojourning are 130 years. Few and evil have been the days of the years of my life, and they have not attained to the days of the years of the life of my fathers in the days of their sojourning.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "berakah",
                 "gur",
                 "eretz",
@@ -843,7 +843,7 @@ CHAPTERS = [
                 "text": "And Israel stretched out his right hand and laid it on the head of Ephraim, who was the younger, and his left hand on the head of Manasseh, crossing his hands, for Manasseh was the firstborn.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "berakah",
                 "bechor",
                 "malak_yhwh",
@@ -919,7 +919,7 @@ CHAPTERS = [
                 "text": "The scepter shall not depart from Judah, nor the ruler's staff from between his feet, until tribute comes to him; and to him shall be the obedience of the peoples.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "shiloh",
                 "mashiach",
                 "berakah",
@@ -1007,7 +1007,7 @@ CHAPTERS = [
                 "text": "As for you, you meant evil against me, but God meant it for good, to bring it about that many people should be kept alive, as they are today.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "yhwh",
                 "elohim",
                 "hesed",
@@ -1099,7 +1099,7 @@ CHAPTERS = [
             "text": "As for you, you meant evil against me, but God meant it for good, to bring it about that many people should be kept alive, as they are today.",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "chalom",
                 "patar",
                 "navi"

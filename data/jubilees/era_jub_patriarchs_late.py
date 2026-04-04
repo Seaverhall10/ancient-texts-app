@@ -27,7 +27,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["avram", "el_elyon", "mastema", "orevim", "ur_kasdim"],
+        "original_terms": ["avram", "el_elyon", "mastema", "orevim", "ur_kasdim"],
 
         "ane_backdrop": "The tradition of Abraham destroying idols is absent from the Hebrew Bible but appears in multiple Second Temple and rabbinic sources (Genesis Rabbah 38:13, Apocalypse of Abraham 1-8). The motif has parallels in Mesopotamian literature: the Babylonian 'Poem of the Righteous Sufferer' (Ludlul Bel Nemeqi) features a protagonist who questions the efficacy of traditional worship. The raven plague on crops recalls the locust plagues of ancient agricultural societies; Jubilees transforms a natural hazard into a demonic assault orchestrated by Mastema. Abraham's star-gazing and rejection of astral worship engages directly with Babylonian astral religion, the dominant religious system of Ur in the early second millennium BCE.",
 
@@ -93,7 +93,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["berit_bein_ha_betarim", "tzedaqah", "sukkot", "mizbeach"],
+        "original_terms": ["berit_bein_ha_betarim", "tzedaqah", "sukkot", "mizbeach"],
 
         "ane_backdrop": "Covenant rituals involving the cutting of animals and walking between the pieces are well attested in the ANE. The Mari texts (18th century BCE) describe covenant ceremonies in which a donkey is slaughtered and the parties pass between the pieces. The Hittite soldiers' oath similarly involves walking between halved animals with the implicit curse: 'If I break this oath, let me be cut in two like these animals.' Genesis 15:9-21 describes just such a ceremony, and Jubilees follows it closely. The practice persists in Jeremiah 34:18-20, where Judean nobles who broke their covenant are told they will be 'like the calf they cut in two and walked between its pieces.'",
 
@@ -149,7 +149,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["milah", "brit_milah", "yishmael", "yitzhaq", "sukkot"],
+        "original_terms": ["milah", "brit_milah", "yishmael", "yitzhaq", "sukkot"],
 
         "ane_backdrop": "Circumcision was practiced throughout the ancient Near East -- by Egyptians (evidenced in tomb reliefs from the Old Kingdom, ca. 2400 BCE), by various Semitic peoples, and possibly by pre-Israelite Canaanites. The Philistines and Mesopotamians were notable exceptions, consistently labeled 'uncircumcised' in the Hebrew Bible. What distinguishes Israelite circumcision is its covenantal function: it is not a rite of passage or hygienic practice but a sign of election. Jubilees 15 goes further than any biblical text in sacralizing circumcision by linking it to angelic ontology -- the highest angels were created circumcised, making the practice a feature of heavenly existence itself.",
 
@@ -211,7 +211,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["aqedah", "mastema", "moriyyah", "olah", "nisayon"],
+        "original_terms": ["aqedah", "mastema", "moriyyah", "olah", "nisayon"],
 
         "ane_backdrop": "Child sacrifice was practiced in the ancient Near East, notably by the Phoenicians and Carthaginians (the biblical Molech/Molek cult). Archaeological evidence from Carthage's 'tophet' precincts reveals thousands of infant cremation burials. The Hebrew Bible consistently condemns child sacrifice (Leviticus 18:21, 20:2-5; Deuteronomy 12:31, 18:10; Jeremiah 7:31, 19:5; 2 Kings 23:10) while acknowledging its practice in Israel (2 Kings 3:27, 16:3, 21:6). The Aqedah narrative in Genesis 22 functions in part as an etiology for the substitution of animal sacrifice for child sacrifice. Jubilees preserves this function but adds the Mastema framework, shifting the emphasis from God 'testing' Abraham to a cosmic adversary challenging Abraham's devotion.",
 
@@ -278,7 +278,7 @@ CHAPTERS = [
             "text": "Now there was a day when the sons of God came to present themselves before the LORD, and Satan also came among them. The LORD said to Satan, 'From where have you come?' Satan answered the LORD and said, 'From going to and fro on the earth, and from walking up and down on it.'",
             "translation": "ESV"
         },
-        "hebrew_terms": ["mastema", "satan", "diabolos", "belial", "sar_ha_mastemah"],
+        "original_terms": ["mastema", "satan", "diabolos", "belial", "sar_ha_mastemah"],
 
         "ane_backdrop": "The concept of a divine adversary or trickster figure is widespread in ANE religion. The Egyptian god Set/Seth functions as both a legitimate member of the divine pantheon and a chaos agent. In Zoroastrian religion, Angra Mainyu (Ahriman) opposes Ahura Mazda in a thoroughgoing cosmic dualism. Scholarly debate continues over whether Persian dualism influenced Jewish satan-ology during the Persian period (539-332 BCE). Jubilees' Mastema occupies a middle position: he is neither the fully independent cosmic evil of Zoroastrianism nor the mere functionary of Job 1-2. He has his own 'will' and 'power' (Jub 10:8) but operates only with divine permission. This is 'subordinate dualism' -- evil is real and personalized but ultimately contained within monotheistic sovereignty.",
 
@@ -348,7 +348,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["berakhah", "makhpelah", "tzavvaah", "yaaqov", "esav"],
+        "original_terms": ["berakhah", "makhpelah", "tzavvaah", "yaaqov", "esav"],
 
         "ane_backdrop": "The deathbed blessing is a well-attested ANE literary form with legal force. In Mesopotamian law, the father's verbal blessing determined inheritance rights. The Nuzi tablets (15th century BCE) document cases where fathers' oral blessings were contested in court -- once spoken, they could not be revoked. This legal background illuminates both the Genesis narrative (Isaac's irrevocable blessing of Jacob in Genesis 27) and Jubilees' modification: by having Abraham directly bless Jacob, Jubilees removes the trickery that makes Genesis 27 morally problematic. The covenant passes to Jacob not through deception but through Abraham's deliberate, prophetic choice.",
 
@@ -404,7 +404,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["yomei_ha_olam", "tequfah", "geulah", "techiyyat_ha_metim"],
+        "original_terms": ["yomei_ha_olam", "tequfah", "geulah", "techiyyat_ha_metim"],
 
         "ane_backdrop": "The 'decline of ages' motif -- humanity degenerating from a golden age -- appears in Hesiod's Works and Days (the five ages from Gold to Iron), in the Hindu Yugas, and in the four-kingdom schema of Daniel 2. Jubilees 23 participates in this widespread tradition but gives it a specifically covenantal framework: decline is measured not by metal quality or cosmic cycles but by lifespan reduction correlated with Torah observance. When Israel keeps the law, lifespans increase; when they abandon it, lifespans plummet. This is moral causation applied to biological reality -- a distinctively Jubilean synthesis of apocalyptic and halakhic thought.",
 
@@ -466,7 +466,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["berakhah", "bekhor", "esav", "rivqah", "gerar"],
+        "original_terms": ["berakhah", "bekhor", "esav", "rivqah", "gerar"],
 
         "ane_backdrop": "The 'stolen blessing' motif has parallels in ANE succession narratives. In Mesopotamian literature, the 'Decree of Enki' describes divine blessing being redirected from one intended recipient to another. The Hittite 'Succession Treaty of Suppiluliuma' shows that the designation of an heir could be contested and required formal witnesses. Genesis 27's blessing narrative operates within this ANE legal framework: a father's oral blessing, once spoken, carries irrevocable legal force. Jubilees acknowledges this legal reality but reframes the episode so that the 'correct' recipient receives the blessing -- Jacob's claim is prior because of divine election, not subsequent because of trickery.",
 
@@ -522,7 +522,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["beit_el", "sullam", "malaakhim", "lavan", "leah", "rachel"],
+        "original_terms": ["beit_el", "sullam", "malaakhim", "lavan", "leah", "rachel"],
 
         "ane_backdrop": "Jacob's ladder/stairway vision (Genesis 28:12) has been connected to the Mesopotamian ziggurat tradition since antiquity. The stepped temple towers of Babylon were conceived as stairways between heaven and earth -- the name Etemenanki ('house of the foundation of heaven and earth') describes exactly this cosmic bridge function. The angels ascending and descending parallel the divine messengers who traverse the levels of the ziggurat. Jubilees does not develop the architectural symbolism but focuses on the theophany: God's confirmation of the Abrahamic covenant to Jacob, with the added assurance that this confirmation is recorded on the heavenly tablets.",
 
@@ -578,7 +578,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["kehunnah", "levi", "qinah", "shekhem", "dinah", "maaser"],
+        "original_terms": ["kehunnah", "levi", "qinah", "shekhem", "dinah", "maaser"],
 
         "ane_backdrop": "The concept of priestly status as a reward for zealous violence has parallels in ANE warrior-priest traditions. In Egypt, the pharaoh functioned as both king and high priest, and military valor was directly connected to cultic authority. The Greek tradition of 'sacred war' (hieros polemos) similarly linked martial zeal with religious service. In Israel, Phinehas's spear-thrust against the Midianite-Israelite couple (Numbers 25:7-13) earned him a 'covenant of perpetual priesthood' -- the exact model Jubilees applies to Levi. Jubilees casts Levi as a 'second Phinehas,' retroactively explaining why the Levites were given the priesthood: it was earned through zealous violence against sexual boundary violation.",
 
@@ -646,7 +646,7 @@ CHAPTERS = [
             "text": "For the lips of a priest should guard knowledge, and people should seek instruction from his mouth, for he is the messenger of the LORD of hosts.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["kohen", "levi", "tzadoq", "qinah", "moreh_ha_tzedeq"],
+        "original_terms": ["kohen", "levi", "tzadoq", "qinah", "moreh_ha_tzedeq"],
 
         "ane_backdrop": "The combination of priestly and military functions in a single figure is attested across the ANE. In ancient Egypt, pharaoh was simultaneously high priest and war leader. In Mesopotamia, the ensi (city governor) performed both cultic and military duties. In pre-monarchic Israel, priestly figures sometimes played military roles: Phinehas (Numbers 25, 31:6), the Levites at the Golden Calf episode (Exodus 32:26-28), and Samuel (who offered sacrifices and led military campaigns). The Hasmonean priest-kings of the Maccabean era embodied this combination, but Qumran rejected their legitimacy. Jubilees' Levi provided an alternative priest-warrior model with heavenly, pre-Sinaitic authorization.",
 
@@ -710,7 +710,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["reuven", "bilhah", "gilulim", "tzevaot", "berit"],
+        "original_terms": ["reuven", "bilhah", "gilulim", "tzevaot", "berit"],
 
         "ane_backdrop": "The motif of a son's sexual violation of his father's concubine functions as a claim to paternal authority in ANE culture. Absalom's public intercourse with David's concubines (2 Samuel 16:21-22) was Ahithophel's strategy to publicly declare Absalom king. Reuben's act with Bilhah (Genesis 35:22) may have been a failed power play. Jubilees, however, treats it purely as a sexual sin warranting the harshest penalties, using it as a vehicle for anti-incest legislation inscribed on the heavenly tablets.",
 
@@ -766,7 +766,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["milkhamah", "esav", "edom", "yaaqov", "herem"],
+        "original_terms": ["milkhamah", "esav", "edom", "yaaqov", "herem"],
 
         "ane_backdrop": "The war narratives of Jubilees 37-38 draw on the ANE literary tradition of eponymous ancestor warfare -- battles between the founding figures of rival nations that explain contemporary geopolitical relationships. The Egyptian 'Contendings of Horus and Seth' provides a mythological template for fraternal conflict that determines cosmic order. Mesopotamian city-state foundation myths frequently feature military conflicts between ancestral heroes. The Moabite Stone (Mesha Stele) presents national warfare in theological terms -- wars fought at divine command with herem (devoted destruction). Jubilees' Jacob-Esau war narrative follows this pattern, explaining the Israel-Edom conflict through an ancestral military confrontation.",
 
@@ -822,7 +822,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["yosef", "potifar", "mitzrayim", "chalomot", "raav", "tamar", "yehudah"],
+        "original_terms": ["yosef", "potifar", "mitzrayim", "chalomot", "raav", "tamar", "yehudah"],
 
         "ane_backdrop": "The 'spurned wife' motif (Potiphar's wife accusing Joseph of attempted rape after he refuses her advances) has close parallels in ANE literature. The Egyptian 'Tale of Two Brothers' (Papyrus D'Orbiney, 13th century BCE) contains a virtually identical plot: a married woman propositions her husband's younger brother, who refuses; she then accuses him of assault. The motif also appears in Homer's Iliad (Bellerophon and Anteia/Stheneboea) and in Ugaritic literature. The widespread distribution of this motif does not mean the Joseph story is fictional but rather that ancient audiences would have recognized the narrative pattern and understood Joseph's integrity within a cross-cultural framework.",
 

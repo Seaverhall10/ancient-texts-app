@@ -50,7 +50,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "milluim", "mashach", "shemen_hamishchah", "miznephet",
             "tsits", "choshen", "efod", "rachats", "chattat", "olah"
             # Key glosses: milluim = 'ordination/filling' (lit. 'filling of the
@@ -275,7 +275,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "yom_hashemini", "kavod", "esh", "vayyaronu",
             "vayyiplu", "barakh", "chattat", "olah", "shelamim"
             # Key glosses: yom ha-shemini = 'the eighth day' (day of new
@@ -489,7 +489,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "esh_zarah", "vayyiddom", "qadash", "kavod",
             "machtatah", "qetoret", "yayin", "shekhar", "hol_qodesh"
             # Key glosses: esh zarah = 'strange/unauthorized fire' (fire God had

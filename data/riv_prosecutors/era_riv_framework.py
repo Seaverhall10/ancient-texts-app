@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e8\u05b4\u05d9\u05d1 (riv)",
                 "meaning": "'Lawsuit, legal case, contention, dispute.' The root r-y-b means 'to conduct "
@@ -205,7 +205,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e1\u05d5\u05b9\u05d3 (sod)",
                 "meaning": "'Secret, confidential council, intimate circle.' The word carries a dual "
@@ -376,7 +376,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d1\u05b0\u05bc\u05e8\u05b4\u05d9\u05ea (berit)",
                 "meaning": "'Covenant, treaty, pact.' The central legal concept of the Hebrew Bible. "

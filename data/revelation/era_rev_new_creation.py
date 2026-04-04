@@ -57,7 +57,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "porne megale (great prostitute -- the world-system that seduces the nations into idolatry; the OT metaphor of unfaithfulness as sexual immorality; cf. Hosea 1-3; Ezekiel 16; 23)",
             "Babylon he megale (Babylon the great -- the cumulative symbol of every empire that opposes God; historical Babylon, Rome, and every system that demands ultimate allegiance)",
             "meter ton pornon (mother of prostitutes -- the source and paradigm of all false worship; the Babel spirit that generates every subsequent idolatrous civilization)",
@@ -245,7 +245,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Hallouia (Hallelujah -- Hebrew: hallelu-Yah, 'Praise YHWH!'; the only NT occurrence; the culminating praise of the entire Bible, echoing the Hallel psalms 113-118 and 146-150)",
             "gamos tou arniou (marriage of the Lamb -- the covenant union between Christ and his church; the eschatological fulfillment of the prophetic marriage metaphor of Hosea, Isaiah 54, and Ephesians 5)",
             "ho Logos tou Theou (The Word of God -- Christ's name as divine warrior; the creative and judicial word of God personified; cf. John 1:1, 'the Word was God')",
@@ -428,7 +428,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chilia ete (a thousand years -- the 'millennium'; whether literal or symbolic is the central debate; 10 x 10 x 10 = a comprehensive, complete period of divine rule)",
             "anastasis he prote (the first resurrection -- the resurrection of the faithful who reign with Christ; the 'second death has no power over them' [20:6])",
             "Gog kai Magog (Gog and Magog -- from Ezekiel 38-39; the eschatological enemies who attack God's people; in Revelation, they are gathered by Satan for the final rebellion)",
@@ -615,7 +615,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ouranon kainon kai gen kainen (new heaven and new earth -- kainos means 'new in quality/nature,' not neos, 'new in time'; renewed creation, not replacement)",
             "Ierousalem kaine (New Jerusalem -- the city that descends from heaven; the bride of the Lamb; the garden-city-temple that fulfills and surpasses Eden)",
             "skene tou theou (dwelling place/tabernacle of God -- God's tent pitched among humanity; the wilderness tabernacle made permanent and universal)",

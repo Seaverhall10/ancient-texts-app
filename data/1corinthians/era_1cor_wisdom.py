@@ -46,7 +46,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sophia (wisdom -- Greek philosophical pursuit; Paul redefines it as the cross, inverting the entire Hellenistic value system)",
             "moria (foolishness/madness -- the cross appears as sheer absurdity to Gentile philosophical culture; root of English 'moron')",
             "dynamis (power -- the cross as God's power; the same term used for spiritual might in the divine council hierarchy; cf. Ps 103:20 LXX)",
@@ -235,7 +235,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "archontes tou aionos toutou (rulers of this age -- the spiritual powers governing the present evil age under the Deut 32 allotment; the term archon is used for both human officials and cosmic powers in Second Temple literature)",
             "mysterion (mystery/secret -- from the Hebrew raz and Aramaic raz in Daniel 2:18-19, 27-30; not a puzzle to solve but a divine plan hidden in the council and now revealed through the Spirit)",
             "kyrios tes doxes (Lord of glory -- a title applied to YHWH enthroned in the heavenly court in 1 Enoch 22:14, 25:3, 27:3-5; Paul transfers it to the crucified Christ, identifying him with the God of the divine assembly)",
@@ -437,7 +437,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "naos theou (temple/sanctuary of God -- the inner shrine, the holy of holies where YHWH's presence dwells; distinct from hieron, the broader temple complex; Paul applies it to the community, not a building)",
             "themelion (foundation -- 3:11; Christ is the only valid foundation; in the LXX, used for the foundation of the temple and of Zion itself; cf. Isa 28:16)",
             "dokimazo (to test/prove -- 3:13; the eschatological fire that tests the quality of each builder's work; a metallurgical metaphor for purification by divine judgment)",

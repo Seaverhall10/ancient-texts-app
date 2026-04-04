@@ -38,7 +38,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chesed (steadfast love / covenant loyalty -- the central theological word in Hosea; not mere emotion but covenantal commitment that persists through betrayal)",
             "da'at Elohim (knowledge of God -- not intellectual knowledge but intimate relational knowing; the marriage-knowledge that Hosea 2:20 promises)",
             "ahavah (love -- YHWH's love for Israel; the same word used for Hosea's love for Gomer; costly, persistent, undeserved)",
@@ -141,7 +141,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chesed (steadfast love / loyal kindness -- not emotion alone but covenantal commitment enacted in relationships)",
             "da'at Elohim (knowledge of God -- relational, experiential knowing; the 'knowing' of covenant intimacy, not intellectual data)",
             "emet (faithfulness / truth -- the quality absent from the land; covenant reliability)",
@@ -244,7 +244,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "meshuvah (apostasy / backsliding -- from shuv, 'to turn'; the turning away that YHWH will heal)",
             "nedavah (freely / voluntarily -- YHWH's love is a free gift, not earned by repentance)",
             "teshuvah (return / repentance -- the genuine turning that chapter 14 provides words for)",

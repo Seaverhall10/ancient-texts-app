@@ -54,7 +54,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d1\u05b0\u05bc\u05e0\u05b5\u05d9\u05be\u05d4\u05b8\u05d0\u05b1\u05dc\u05b9\u05d4\u05b4\u05d9\u05dd (bene ha-elohim)",
                 "meaning": "'Sons of God' \u2014 a technical term for divine beings "
@@ -373,7 +373,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05b4\u05d9\u05e8\u05b4\u05d9\u05df (Irin / Watchers)",
                 "meaning": "Aramaic term for the Watchers, from the root meaning "
@@ -682,7 +682,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05ea\u05b8\u05bc\u05de\u05b4\u05d9\u05dd (tamim)",
                 "meaning": "'Blameless, complete, without blemish.' Used of Noah "
@@ -988,7 +988,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05b2\u05e0\u05b8\u05e7\u05b4\u05d9\u05dd (Anakim)",
                 "meaning": "Descendants of Anak, son of Arba (Joshua 15:13). "

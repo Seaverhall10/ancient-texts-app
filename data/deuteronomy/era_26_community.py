@@ -38,7 +38,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["ir_miqlat", "goel_haddam", "rotseach", "gevul", "ed", "lex_talionis", "ayin_tachat_ayin"],
+        "original_terms": ["ir_miqlat", "goel_haddam", "rotseach", "gevul", "ed", "lex_talionis", "ayin_tachat_ayin"],
 
         "hebrew_glossary": {
             "ir_miqlat": "City of refuge (a designated safe city where someone who kills accidentally can flee from blood vengeance — a theological institution that reflects YHWH's justice: he distinguishes between intent and accident, unlike the capricious gods of the ANE)",
@@ -175,7 +175,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["milchamah", "kohen", "shoter", "cherem", "shalom", "mas", "ets_maakhal"],
+        "original_terms": ["milchamah", "kohen", "shoter", "cherem", "shalom", "mas", "ets_maakhal"],
 
         "hebrew_glossary": {
             "milchamah": "War / battle (in Deuteronomy, warfare is theological, not merely military — YHWH 'goes with you to fight for you'; Israel's battles are extensions of the divine council's purposes against the allotted 'elohim's territories)",
@@ -308,7 +308,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["eglah_arufah", "chalal", "bekhor", "ben_sorer_umoreh", "qelalat_elohim", "talah_al_ets"],
+        "original_terms": ["eglah_arufah", "chalal", "bekhor", "ben_sorer_umoreh", "qelalat_elohim", "talah_al_ets"],
 
         "hebrew_glossary": {
             "eglah_arufah": "Broken-necked heifer (the animal used to purge bloodguilt from an unsolved murder — a heifer that has never been worked, killed in an uncultivated valley with running water; the untouched elements symbolize purity absorbing the pollution of innocent blood)",
@@ -447,7 +447,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["shilu'ach_haqen", "kilayim", "sha'atnez", "betulah", "na'arah", "naaph", "ones"],
+        "original_terms": ["shilu'ach_haqen", "kilayim", "sha'atnez", "betulah", "na'arah", "naaph", "ones"],
 
         "hebrew_glossary": {
             "kilayim": "Mixture / forbidden crossbreeding (the prohibition of mixing different kinds — seeds, plowing animals, fabrics; these maintain the category distinctions God established at creation in Genesis 1; in the divine council framework, the Watchers' sin was crossing the ultimate boundary between divine and human kinds)",
@@ -571,7 +571,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["qahal_yhwh", "mamzer", "qedeshah", "neshekh", "neder", "machaneh", "ervat_davar"],
+        "original_terms": ["qahal_yhwh", "mamzer", "qedeshah", "neshekh", "neder", "machaneh", "ervat_davar"],
 
         "hebrew_glossary": {
             "qahal_yhwh": "Assembly of the LORD (the gathered covenant community in YHWH's presence — not every Israelite gathering, but the formal worship assembly; exclusions from the qahal are religious, not civil; those excluded could still live in Israel but could not participate in formal worship)",
@@ -698,7 +698,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["sefer_keritut", "ervat_davar", "mashkon", "ganav", "sakar", "leqet", "shikhechah", "peah"],
+        "original_terms": ["sefer_keritut", "ervat_davar", "mashkon", "ganav", "sakar", "leqet", "shikhechah", "peah"],
 
         "hebrew_glossary": {
             "sefer_keritut": "Certificate of divorce (literally 'document of cutting off' — a written legal instrument that freed the woman to remarry; the certificate protected the woman's status by providing proof that her marriage was legitimately ended, not that she was abandoned or an adulteress)",
@@ -824,7 +824,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["malkot", "yibum", "goel", "chalutsah", "even_vaeven", "efah_veefah", "amaleq"],
+        "original_terms": ["malkot", "yibum", "goel", "chalutsah", "even_vaeven", "efah_veefah", "amaleq"],
 
         "hebrew_glossary": {
             "malkot": "Stripes / lashes (judicial corporal punishment — limited to forty stripes to preserve the convicted person's dignity; Jewish practice reduced it to thirty-nine as a safety margin; Paul received this punishment five times, 2 Cor 11:24)",
@@ -942,7 +942,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["bikkurim", "vidui", "arami_oved", "segullah", "hemir", "am_qadosh", "tehillah"],
+        "original_terms": ["bikkurim", "vidui", "arami_oved", "segullah", "hemir", "am_qadosh", "tehillah"],
 
         "hebrew_glossary": {
             "bikkurim": "Firstfruits (the first produce of the land, brought to the central sanctuary — presenting firstfruits acknowledges that the land and its fertility belong to YHWH; the worshipper gives back from what God gave first)",

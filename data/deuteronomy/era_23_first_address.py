@@ -41,7 +41,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["devarim", "horeb", "torah", "mishpat", "shofet", "meraglim", "kadesh_barnea", "nachalah"],
+        "original_terms": ["devarim", "horeb", "torah", "mishpat", "shofet", "meraglim", "kadesh_barnea", "nachalah"],
 
         "hebrew_glossary": {
             "devarim": "Words (the Hebrew title of Deuteronomy, from the opening phrase 'These are the words' — the book is Moses' spoken words to Israel, not raw legislation but interpreted, preached instruction)",
@@ -260,7 +260,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["seir", "moav", "ammon", "rephaim", "emim", "zamzummim", "cherem", "sichon", "cheshbon", "nachalah"],
+        "original_terms": ["seir", "moav", "ammon", "rephaim", "emim", "zamzummim", "cherem", "sichon", "cheshbon", "nachalah"],
 
         "hebrew_glossary": {
             "rephaim": "Shades / giants (a term with two meanings in Hebrew: (1) the giant warrior clans descended from the Nephilim of Genesis 6:1-4, and (2) the shades of the dead in the underworld; the Ugaritic rpum connects both — dead warrior-kings with preternatural power)",
@@ -465,7 +465,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["bashan", "rephaim", "og", "eres", "cherem", "pisgah", "yehoshua", "gilead", "machir"],
+        "original_terms": ["bashan", "rephaim", "og", "eres", "cherem", "pisgah", "yehoshua", "gilead", "machir"],
 
         "hebrew_glossary": {
             "bashan": "Bashan (the territory east of the Sea of Galilee, associated in Ugaritic texts with the abode of the dead and the divine assembly — Psalm 68:15 calls it 'a mountain of God'; in the divine council framework, Og's kingdom was territory under hostile spiritual authority that YHWH conquered)",
@@ -650,7 +650,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["shema", "chuqqim", "mishpatim", "temunah", "tseva_hashamayim", "chalaq", "kur_habarzel", "nachalah", "segullah", "teshuvah"],
+        "original_terms": ["shema", "chuqqim", "mishpatim", "temunah", "tseva_hashamayim", "chalaq", "kur_habarzel", "nachalah", "segullah", "teshuvah"],
 
         "hebrew_glossary": {
             "shema": "Hear / Listen / Obey (the imperative that opens both Deut 4:1 and the great Shema of 6:4 — in Hebrew, hearing and obeying are the same word; to truly 'hear' God's word is to act on it)",

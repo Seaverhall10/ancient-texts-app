@@ -54,7 +54,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "analempsis (taking up -- used only here in the NT (9:51); refers to Jesus' entire departure: death, resurrection, and ascension as a single divine event)",
             "to prosopon esterisen (he set his face -- a Semitism from Isa 50:7; resolute determination toward the cross; the Servant's unflinching advance)",
             "ergatas (workers / laborers -- 'The harvest is plentiful, but the laborers (ergatai) are few' (10:2); kingdom mission language for those sent into hostile territory)",
@@ -252,7 +252,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Pater (Father -- Luke's version of the Lord's Prayer opens with the bare vocative 'Father' (11:2), more intimate than Matthew's 'Our Father in heaven'; the Aramaic Abba behind it)",
             "daktylō tou theou (finger of God -- 'by the finger of God I cast out demons' (11:20); echoes Exod 8:19 where Pharaoh's magicians recognize God's power; Jesus is the new Moses)",
             "Beelzeboul (Beelzebul / lord of the flies -- a derisive name for Satan as 'prince of demons' (11:15); from Ba'al Zebub of 2 Kings 1:2, the Philistine deity of Ekron)",
@@ -451,7 +451,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "splanchnistheis (moved with compassion -- the father 'felt compassion' (splanchnistheis) for the prodigal (15:20); the same visceral, gut-level mercy; this is the heart of God)",
             "ousia (property / substance -- the prodigal asks for 'the share of property (ousia) that falls to me' (15:12); he demands his inheritance while his father is still alive -- a social death wish)",
             "stole ten proten (the best robe -- the father commands 'bring quickly the best robe (stolen ten proten)' (15:22); the robe of honor, the ring of authority, the sandals of sonship -- full restoration)",
@@ -662,7 +662,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "allogenes (foreigner / one of another race -- 'this foreigner' (17:18); the grateful Samaritan leper; the term appears in the Jerusalem Temple warning inscription forbidding Gentile entry)",
             "entos hymon (in the midst of you / within you -- 'the kingdom of God is entos hymon' (17:21); debated: 'within you' (interior spiritual reality) or 'among you' (Jesus' present ministry); both are theologically true)",
             "ekdikēsin (justice / vindication -- 'will not God give justice (ekdikēsin) to his elect?' (18:7); not revenge but righteous vindication; the persistent widow's cry is the cry of God's people under oppression)",

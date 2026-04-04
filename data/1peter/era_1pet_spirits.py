@@ -41,7 +41,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "apologia (a reasoned defense -- 3:15; a legal term for a formal defense speech in court; believers must be prepared to articulate the rational basis of their hope)",
             "syneidesis agathe (good conscience -- 3:16, 21; the inner witness of a life aligned with God's will; this becomes the link between suffering and baptism in 3:21)",
             "dikaios hyper adikon (the righteous for the unrighteous -- 3:18; substitutionary language; the one who meets God's standard dies in the place of those who do not)",
@@ -235,7 +235,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ekeruxen (he proclaimed -- 3:19; from kerysso, 'to herald as a public crier'; this is NOT euangelizomai, 'to preach good news'; Christ went as a herald announcing victory, not as an evangelist offering salvation to the imprisoned spirits)",
             "pneumata en phylake (spirits in prison -- 3:19; pneumata refers to spiritual beings, not human dead; phylake means a place of custody or guarding; these are the divine beings imprisoned for the transgression of Genesis 6:1-4)",
             "apeithesan (they disobeyed/were disobedient -- 3:20; from apeitheo, 'to refuse obedience'; the specific sin: crossing the boundary between the divine and human realms in the days of Noah)",
@@ -436,7 +436,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nekroi (the dead -- 4:6; in contrast to pneumata of 3:19, nekroi refers to deceased humans; these are people who heard the gospel while alive and then died physically)",
             "euengelisthe (was preached as good news -- 4:6; from euangelizomai, to proclaim the gospel; UNLIKE the ekeruxen of 3:19, this IS gospel preaching -- to humans, not to imprisoned spirits)",
             "krinomenoi sarki (judged in the flesh -- 4:6; experiencing physical death, the universal human judgment; 'the way people are' -- death is the common lot of humanity)",

@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hebel (vapor/breath/vanity -- the key word of the book, appearing 38 times; transience, futility, absurdity)",
             "tachath hashamesh (under the sun -- the frame for Qoheleth's investigation: earthly, human-level observation)",
             "yitron (profit/gain -- the economic metaphor: what lasting advantage does life produce? Answer: none)",
@@ -172,7 +172,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "et (time/appointed time -- the right moment for each activity, divinely determined)",
             "olam (eternity/the world/long duration -- placed in the human heart but remaining incomprehensible)",
             "yapheh (beautiful/fitting -- everything is appropriate in its divinely appointed time)",
@@ -297,7 +297,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bet ha-elohim (house of God -- the Temple, approached with reverent caution)",
             "neder (vow -- a binding commitment before God that must not be made rashly)",
             "amal (toil/labor -- the daily work that can be either burden or gift depending on perspective)",

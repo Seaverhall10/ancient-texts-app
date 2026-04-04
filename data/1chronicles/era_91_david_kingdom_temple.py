@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bayit (house -- the pivotal wordplay: David wants to build God a bayit (temple), but God will build David a bayit (dynasty))",
             "olam (forever/eternity -- the covenant promise: David's throne is established 'forever,' a term pointing beyond any human dynasty)",
             "chesed (steadfast love/covenant loyalty -- YHWH's unbreakable commitment to the Davidic line, even when individual kings fail)",
@@ -182,7 +182,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "satan (adversary/accuser -- in 1 Chr 21:1 without the definite article; a divine council member who functions as prosecutor/tester)",
             "vayyamod (and he stood -- the posture of a council member presenting himself before the throne, cf. Job 1:6 where the satan 'stood among' the sons of God)",
             "vayyaset (and he incited/moved -- the same verb used for YHWH in 2 Sam 24:1; the council's decree is attributed to both the sovereign and the agent)",
@@ -350,7 +350,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tavnit (pattern/plan -- the architectural blueprint David received 'by the Spirit' (28:12); the same word used for the tabernacle pattern shown to Moses on Sinai (Exod 25:9))",
             "ruach (spirit -- the Spirit who gave David the temple plan; the divine source of the architectural design)",
             "naba (to prophesy -- the musicians 'prophesied' with lyres, harps, and cymbals (25:1); worship as prophetic activity)",

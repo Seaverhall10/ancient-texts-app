@@ -20,7 +20,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["nachash", "zera", "ets_haddaat", "ets_hachayyim", "keruvim", "adam", "adamah", "yhwh", "gan", "elohim", "elohim_plural"],
+        "original_terms": ["nachash", "zera", "ets_haddaat", "ets_hachayyim", "keruvim", "adam", "adamah", "yhwh", "gan", "elohim", "elohim_plural"],
 
         "ane_backdrop": "The Genesis 3 narrative operates against a rich ANE backdrop of divine garden traditions, serpent figures, and lost immortality. In the Gilgamesh Epic (Tablet XI), Utnapishtim reveals the plant of immortality to Gilgamesh, but a serpent steals it while Gilgamesh bathes \u2014 immortality lost through a serpent, echoing Genesis 3. In Mesopotamian iconography, serpents were associated with both wisdom and chaos: the mushussu (serpent-dragon) was a throne guardian of Marduk, while serpent motifs adorned temple gates. The Adapa myth tells of a human sage who is offered the food of immortality by the gods but refuses on bad advice and loses eternal life. In Egyptian tradition, the uraeus (cobra) sat on Pharaoh's crown as a symbol of divine authority and protection \u2014 a shining, divine serpent-guardian. Ezekiel 28:12\u201319 describes a guardian cherub 'in Eden, the garden of God,' adorned with precious stones, who was 'blameless in your ways from the day you were created, till unrighteousness was found in you.' This parallel suggests that the nachash of Genesis 3 was understood in Israelite tradition as a divine being who held a position of privilege in God's garden-sanctuary before his rebellion. The ANE world would have immediately recognized the serpent figure not as a mere animal but as a being of supernatural power and cunning.",
 
@@ -119,7 +119,7 @@ CHAPTERS = [
             "text": "Now the serpent was more crafty than any other beast of the field that the LORD God had made.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["nachash", "keruvim"],
+        "original_terms": ["nachash", "keruvim"],
         "ane_backdrop": None,
         "second_temple": [],
 
@@ -182,7 +182,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["zera", "adam", "adamah", "yhwh", "nachash", "berakah", "nefesh"],
+        "original_terms": ["zera", "adam", "adamah", "yhwh", "nachash", "berakah", "nefesh"],
 
         "ane_backdrop": "The Cain and Abel narrative engages with universal ANE themes of sibling rivalry, the farmer-versus-herder conflict, and the founding violence of civilization. The Sumerian poem 'Dumuzi and Enkimdu' stages a debate between a shepherd-god and a farmer-god for the hand of the goddess Inanna, though it resolves peacefully (unlike Genesis 4). The tension between settled agriculture and pastoral nomadism was a defining social dynamic in Mesopotamia, Egypt, and the Levant. More profoundly, many ANE civilizations preserved founding myths involving primordial murder: Romulus and Remus in Rome, but also the Enuma Elish where Marduk's creation of the world involves the slaying of Tiamat and the execution of Kingu. In these myths, civilization is literally built on blood. Genesis 4 makes a similar claim but with moral judgment: Cain, the murderer, builds the first city, and his line produces technology, music, and metalworking \u2014 but also escalating violence. Civilization advances, but it advances stained with blood. The mark of Cain (ot qayin) has parallels in ANE protective signs and tribal marks, and may function as a sign of divine sovereignty: even the murderer remains under God's governance.",
 

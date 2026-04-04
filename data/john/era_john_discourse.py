@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ego eimi (I AM -- Greek rendering of the divine name; when Jesus uses it without a "
             "predicate in 8:58, it echoes the Hebrew ehyeh asher ehyeh, 'I AM WHO I AM,' of Exodus "
             "3:14; the Septuagint renders Exodus 3:14 as ego eimi ho on, 'I am the one who is')",
@@ -284,7 +284,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "he hodos kai he aletheia kai he zoe (the way, the truth, and the life -- 14:6; "
             "hodos = way/path, the singular road to the Father; aletheia = truth/ultimate reality; "
             "zoe = life/the divine life; three attributes that converge in one person)",
@@ -507,7 +507,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "elegxei ton kosmon (will convict the world -- 16:8; elegcho = to convict/expose/reprove; "
             "a legal term for cross-examination that exposes the truth; the Spirit acts as prosecutor "
             "in the cosmic court, convicting the world-system of sin, righteousness, and judgment)",
@@ -743,7 +743,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tetelestai (it is finished/completed/accomplished -- 19:30; from teleo = to bring to "
             "an end/to complete/to fulfill; perfect tense indicating a completed action with ongoing "
             "results; used in commercial papyri for 'paid in full' and in sacrificial contexts for "

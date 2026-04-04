@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV (note: 'hell' translates tartarosas -- a unique NT verb meaning 'cast into Tartarus,' the deepest cosmic prison, not the standard terms Hades or Gehenna)"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tartarosas (cast into Tartarus -- 2:4; a verb used ONLY HERE in the entire Bible; from Tartaros, the deepest region of the Greek underworld, below Hades, where the Titans were imprisoned after rebelling against the Olympians; Peter uses this specific Greek cosmological term to describe the prison of the fallen Watchers -- this is NOT Hades [realm of the dead] or Gehenna [lake of fire] but a distinct, deeper cosmic prison reserved for divine beings who violated the boundary between heaven and earth)",
             "seirais zophou (chains of gloomy darkness -- 2:4; some manuscripts read seirois [pits] instead of seirais [chains]; either way, the Watchers are bound in darkness, unable to act, matching 1 Enoch 10:4-6 where Azazel is bound in a dark hole in the desert; the 'chains' are cosmic restraints preventing imprisoned divine council members from exercising power until the final judgment)",
             "pseudodidaskaloi (false teachers -- 2:1; from pseudos [false] + didaskalos [teacher]; teachers who present counterfeit knowledge as genuine revelation; they operate as earthly agents of the same cosmic rebellion the Watchers initiated in the heavenly realm)",
@@ -268,7 +268,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tolmetai authadeis (bold and arrogant ones -- 2:10b; tolmetes = daring, presumptuous; authades = self-pleasing, stubborn; a devastating double description: these men are both reckless in their audacity and enslaved to their own will; they dare to do what even angels will not do)",
             "doxas (glorious ones -- 2:10b; literally 'glories'; a title for angelic beings of honor and rank within the divine council; the false teachers 'blaspheme' these beings -- speaking contemptuously about spiritual realities they have never experienced and cannot comprehend)",
             "Balaam ho tou Bosor (Balaam the son of Beor -- 2:15; the prophet-for-hire of Numbers 22-24 who used his genuine spiritual gift for personal profit; some manuscripts read Bosor instead of Beor, possibly a wordplay on basar [flesh], marking him as the 'fleshly' prophet)",
@@ -492,7 +492,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "empaiktai (scoffers/mockers -- 3:3; from empaizo [to mock, ridicule]; those who treat the parousia promise as a joke; in divine council terms, they deny that the sovereign God will act to judge and restore -- they effectively deny God's kingship over history)",
             "stoicheia (elements -- 3:10, 12; the basic building blocks of the physical cosmos; the stoicheia 'will melt with fervent heat'; in Galatians 4:3, 9 and Colossians 2:8, 20, Paul connects stoicheia to 'elemental spirits' -- the spiritual powers associated with the material world; Peter may intend a double meaning: both the physical cosmos and the spiritual powers bound up with it are dissolved)",
             "kainous ouranous kai gen kainen (new heavens and a new earth -- 3:13; from Isaiah 65:17 and 66:22; kainos means 'new in quality/kind,' not neos [new in time]; the renewal is qualitative -- the cosmos purged of corruption, not a different cosmos altogether; 'in which righteousness dwells' means dikaiosyne takes up permanent residence)",

@@ -55,7 +55,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "toevah", "ervah", "gillui_arayot", "molech",
             "tebel", "zimah", "tame", "qia", "chukkat"
             # Key glosses: toevah = 'abomination/detestable thing' (in Leviticus,
@@ -267,7 +267,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qadosh", "ahavah", "rea", "ger", "leket",
             "peah", "mishpat", "toevah", "ov", "yidoni", "ani_YHWH"
             # Key glosses: qadosh = 'holy/set apart' (God's essential nature,
@@ -516,7 +516,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mot_yumat", "karet", "regem", "ervah",
             "ov", "yidoni", "molech", "qadosh", "badal"
             # Key glosses: mot yumat = 'he shall surely be put to death'
@@ -714,7 +714,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kohen", "kohen_gadol", "tamei_nefesh", "mum",
             "tamim", "challal", "qadash", "lechem_elohim", "chillul_hashem"
             # Key glosses: kohen = 'priest' (a descendant of Aaron authorized

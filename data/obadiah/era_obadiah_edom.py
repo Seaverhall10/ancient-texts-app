@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ga'on (pride/arrogance -- Edom's defining sin; the self-exaltation that deceives the heart)",
             "Sela (rock/cliff -- Edom's cliff-dwelling identity; associated with Petra, the 'rose-red city')",
             "kokhavim (stars -- 'though your nest is set among the stars'; divine council imagery, the host of heaven)",
@@ -202,7 +202,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chamas (violence -- 'the violence done to your brother Jacob'; covenant-violating aggression)",
             "achicha (your brother -- the kinship term that intensifies the charge; Esau and Jacob are twins)",
             "al (you should not have -- the prohibitive particle repeated eight times; each use is a covenant charge)",
@@ -354,7 +354,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "yom YHWH (Day of YHWH -- 'the day of YHWH is near upon all the nations'; the cosmic judgment event)",
             "moshi'im (saviors/deliverers -- those who ascend Zion to govern; human agents of YHWH's rule)",
             "melukah (kingdom/kingship -- 'the kingdom shall be YHWH's'; the ultimate sovereignty declaration)",

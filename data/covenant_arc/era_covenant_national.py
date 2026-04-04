@@ -70,7 +70,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05ea\u05d5\u05b9\u05e8\u05b8\u05d4 (torah)",
                 "meaning": (
@@ -447,7 +447,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d7\u05b6\u05e1\u05b6\u05d3 (chesed)",
                 "meaning": (
@@ -844,7 +844,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e8\u05b4\u05d9\u05d1 (riv)",
                 "meaning": (

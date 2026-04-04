@@ -35,7 +35,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "parastesai (to present/offer -- 12:1; the priestly term for offering sacrifice; the same verb used in 6:13 for presenting members as instruments of righteousness)",
             "thysia zosa (living sacrifice -- 12:1; unlike animal sacrifices that die; the believer's entire life as continuous offering; a living death-to-self)",
             "logike latreia (spiritual/rational worship -- 12:1; worship that engages the mind; not ecstatic but thoughtful, not ritualistic but wholistic)",
@@ -205,7 +205,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "astheneo (to be weak -- 14:1; weakness of conscience, not of faith per se; the person who feels bound by dietary or calendar restrictions)",
             "proslambanesthe (welcome/accept -- 14:1; 15:7; take to yourself, receive as a companion; not reluctant tolerance but genuine embrace)",
             "dialogismoi (disputes/quarrels -- 14:1; literally 'reasonings'; not to welcome the weak person in order to argue about opinions)",
@@ -350,7 +350,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "leitourgos Christou Iesou (minister/priest of Christ Jesus -- 15:16; the priestly language for Paul's apostolic ministry; the gospel proclamation as liturgical service)",
             "hierourgounta (serving as a priest -- 15:16; a hapax legomenon; Paul functions as a priest offering the Gentiles to God; the missionary offering)",
             "prosphora ton ethnon (the offering of the Gentiles -- 15:16; the Gentiles themselves are the sacrifice Paul presents; sanctified by the Spirit)",

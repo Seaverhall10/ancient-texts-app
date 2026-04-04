@@ -53,7 +53,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e6\u05b4\u05d9\u05bc\u05d5\u05b9\u05df (Tsiyyon)",
                 "meaning": "Zion. The etymology is debated \u2014 possibly from a root "
@@ -364,7 +364,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d1\u05b0\u05bc\u05e8\u05b4\u05d9\u05ea (berit)",
                 "meaning": "Covenant. The foundational relational structure of biblical "
@@ -661,7 +661,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d2\u05b8\u05bc\u05dc\u05d5\u05bc\u05ea (galut)",
                 "meaning": "Exile, diaspora. From the root g-l-h, 'to uncover' or "

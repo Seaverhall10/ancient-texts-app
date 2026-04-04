@@ -51,7 +51,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ge'ulei YHWH (the redeemed of YHWH -- those brought back from exile; the covenant people restored)",
             "chesed (steadfast love/covenant loyalty -- the refrain of Ps 107; YHWH's faithfulness that outlasts exile)",
             "shir hamma'alot (song of ascents/song of the steps -- the superscription of Pss 120-134; pilgrim songs for going up to Jerusalem)",
@@ -268,7 +268,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ne'um YHWH la'adoni (oracle of YHWH to my lord -- the divine decree installing a figure at YHWH's right hand; the most important messianic formula in the OT)",
             "shev limini (sit at my right hand -- the position of supreme authority; sharing YHWH's throne in the divine council)",
             "kohen le'olam al-divrati Malkhi-Tsedeq (a priest forever after the order of Melchizedek -- a non-Levitical, eternal priesthood combining royal and priestly functions)",
@@ -503,7 +503,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "halelu-Yah (Praise YAH! -- the shortened form of YHWH; the battle cry of worship that opens and closes the final psalms)",
             "Hallel (praise -- the name for the Pss 113-118 collection; the liturgical praise sung at the great festivals)",
             "neshamah (breath -- 'everything that has breath' in 150:6; the gift of life that obligates praise; cf. Gen 2:7, the breath YHWH gave to humanity)",
@@ -705,7 +705,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "torah (law/instruction -- the comprehensive term for YHWH's revealed will; not mere legislation but divine teaching)",
             "edah/edot (testimony/testimonies -- YHWH's covenant stipulations that testify to his character and demands)",
             "piqqudim (precepts -- YHWH's appointed charges; specific instructions requiring careful attention)",
@@ -896,7 +896,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chaqar (to search/probe -- YHWH's exhaustive examination of the human person; he knows everything about us)",
             "ruach (Spirit -- YHWH's Spirit from which no one can flee; the omnipresent divine presence)",
             "panim (face/presence -- YHWH's face from which no one can hide; the personal aspect of divine omnipresence)",

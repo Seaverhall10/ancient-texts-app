@@ -65,7 +65,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "ناسخ (nasikh)",
                 "meaning": "Abrogating verse — a later Quranic verse that cancels "

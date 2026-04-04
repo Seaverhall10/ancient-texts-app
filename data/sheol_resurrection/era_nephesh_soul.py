@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e0\u05b6\u05e4\u05b6\u05e9\u05c1 (nephesh)",
                 "meaning": "A living being, a breathing creature, life, self, "
@@ -277,7 +277,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c8\u03c5\u03c7\u03ae (psyche)",
                 "meaning": "The Greek word used to translate nephesh in the "

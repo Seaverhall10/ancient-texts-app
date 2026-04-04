@@ -53,7 +53,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e0\u05b4\u05e9\u05b0\u05c1\u05d1\u05b7\u05bc\u05e2 (nishba)",
                 "meaning": "'He has sworn' -- from the root sh-v-' ('to swear, take an oath'). The "
@@ -214,7 +214,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d9\u05d5\u05d1\u05b5\u05dc (yovel)",
                 "meaning": "'Jubilee' -- from the root y-v-l, likely referring to a ram's horn trumpet. "
@@ -375,7 +375,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b1\u03c0\u03ac\u03c4\u03c9\u03c1, \u03b1\u03bc\u03ae\u03c4\u03c9\u03c1, \u03b1\u03b3\u03b5\u03bd\u03b5\u03b1\u03bb\u03cc\u03b3\u03b7\u03c4\u03bf\u03c2 (apator, ametor, agenealogetos)",
                 "meaning": "'Without father, without mother, without genealogy' -- the three Greek "

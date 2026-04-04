@@ -41,7 +41,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Teman (a region south of Israel, possibly in Edom -- the direction of YHWH's theophanic march)",
             "Paran (the mountainous wilderness south of Judah -- associated with the Sinai theophany tradition)",
             "hod (splendor/majesty -- YHWH's visible glory covering the heavens)",

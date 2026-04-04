@@ -60,7 +60,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "logos (ho logos -- the Word; Greek philosophical term for rational principle, but John's "
             "usage draws on the Hebrew dabar YHWH -- the creative, active, personal word of God that "
             "accomplishes his purposes; Gen 1:3 'And God said'; Ps 33:6 'By the word of the LORD the "
@@ -356,7 +356,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "monogenes (unique / only-begotten -- from monos + genos, 'one of a kind'; used of Isaac "
             "in Heb 11:17 (Abraham's 'only' son, though he had Ishmael) -- the emphasis is uniqueness, "
             "not biological generation; the Son's relationship to the Father is unlike any other being "
@@ -582,7 +582,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ho amnos tou theou (the Lamb of God -- 1:29, 36; the Passover lamb whose blood delivers "
             "from death (Exod 12:1-13), the suffering servant led like a lamb to slaughter (Isa 53:7), "
             "the daily tamid offering; the Baptist's title fuses all three sacrificial traditions into "

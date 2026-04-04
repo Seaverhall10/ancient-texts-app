@@ -75,7 +75,7 @@ CHAPTERS = [
             'now constituted as YHWH\'s own nation \u2014 the reversal of Deuteronomy 32:8-9 in '
             'action. The nations once given to lesser gods now belong directly to YHWH.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u1f10\u03ba\u03bb\u03b5\u03ba\u03c4\u03bf\u03af \u03c0\u03b1\u03c1\u03b5\u03c0\u03af\u03b4\u03b7\u03bc\u03bf\u03b9',
                 'transliteration': 'eklektoi parepidemos',
@@ -322,7 +322,7 @@ CHAPTERS = [
             'Christ\'s authority. The one who proclaimed victory to the imprisoned rebels now '
             'sits enthroned over the entire cosmic hierarchy.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u03c0\u03bd\u03b5\u03cd\u03bc\u03b1\u03c4\u03b1 \u1f10\u03bd \u03c6\u03c5\u03bb\u03b1\u03ba\u1fc7',
                 'transliteration': 'pneumata en phylake',
@@ -575,7 +575,7 @@ CHAPTERS = [
             'shifted from prosecuting in God\'s council to prowling outside it, seeking to '
             'destroy those under God\'s protection.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u1f00\u03bd\u03c4\u03af\u03b4\u03b9\u03ba\u03bf\u03c2',
                 'transliteration': 'antidikos',

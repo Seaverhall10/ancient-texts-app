@@ -35,7 +35,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "barach (to flee -- Jonah's attempt to escape YHWH's presence/commission)",
             "yarad (to go down -- Jonah descends: to Joppa, into the ship, into the hold, into the sea, into the fish)",
             "goral (lot -- the lot falls on Jonah; divine providence directing the sailors' inquiry)",
@@ -123,7 +123,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Sheol (the underworld/realm of the dead -- Jonah's descent reaches its nadir)",
             "tehom (the deep -- the cosmic abyss of chaos waters)",
             "yeshuah (salvation -- 'Salvation belongs to YHWH!'; the theological summary of the entire book)"

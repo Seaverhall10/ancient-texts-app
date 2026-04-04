@@ -20,7 +20,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["berakah", "bechor", "adam", "adamah"],
+        "original_terms": ["berakah", "bechor", "adam", "adamah"],
 
         "ane_backdrop": "The vineyard and wine motif connects to broader ANE traditions about the origins of viticulture. In Mesopotamian literature, the cultivation of the vine was associated with civilizational advancement and divine gift. The Gilgamesh Epic features the ale-wife Siduri, who offers Gilgamesh wine and counsel at the edge of the world. Drunkenness of gods and heroes is a recurring ANE theme: in the Ugaritic texts, El becomes drunk at a feast and is discovered in a shameful state (KTU 1.114), a remarkably close parallel to Noah's episode. The concept of a patriarch's blessing or curse carrying binding, prophetic force is deeply ANE: the spoken word of a patriarch, once uttered, could not be recalled (cf. Isaac's blessing of Jacob in Genesis 27). The curse-and-blessing oracle in Genesis 9:25-27 functions as the first post-flood prophecy, establishing the hierarchical relationship among the three branches of humanity.",
 
@@ -97,7 +97,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["goy", "nephilim", "bene_elohim", "babel", "elohim", "yhwh"],
+        "original_terms": ["goy", "nephilim", "bene_elohim", "babel", "elohim", "yhwh"],
 
         "ane_backdrop": "The Table of Nations has no true parallel in ANE literature. While Mesopotamian king lists (the Sumerian King List, the Assyrian King List) traced royal lineages, no other ancient document attempted to map all known peoples into a single genealogical framework derived from one family. The geographical scope -- from Tarshish (Spain) to Elam (Iran), from Cush (Ethiopia) to the Aegean -- reflects the world as known to an Israelite author in the early-to-mid first millennium BC. Several names correspond to known political entities: Mizraim = Egypt, Kush = Nubia/Ethiopia, Ashur = Assyria, Elam = southwest Iran, Yavan = Ionia (Greece), Kittim = Cyprus. The number seventy appears repeatedly in ANE contexts: the Ugaritic texts describe the seventy sons of Athirat (El's consort), and Egyptian execration texts list groups of enemies in multiples of seventy. For Israel, seventy is the number of the nations (Genesis 10), of Jacob's family who enter Egypt (Genesis 46:27), and of the elders who see God on Sinai (Exodus 24:9).",
 
@@ -196,7 +196,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["babel", "migdal", "yhwh", "elohim", "elohim_plural", "bene_elohim", "nephilim", "goy", "hinneh"],
+        "original_terms": ["babel", "migdal", "yhwh", "elohim", "elohim_plural", "bene_elohim", "nephilim", "goy", "hinneh"],
 
         "ane_backdrop": "The tower 'with its top in the heavens' (rosho bashamayim) is almost certainly a ziggurat -- the massive stepped temple-towers of Mesopotamia. The most famous, Etemenanki ('temple of the foundation of heaven and earth'), stood in Babylon and was dedicated to Marduk. Ziggurats were not designed to reach heaven physically but to provide a landing place for the gods to descend -- an artificial mountain replicating the cosmic mountain where heaven and earth intersect. The Sumerian composition 'Enmerkar and the Lord of Aratta' contains a passage about a time when all lands spoke one language and worshipped Enlil in unison, followed by a divine confusion of tongues -- a strikingly close parallel to Genesis 11. The phrase 'let us make a name for ourselves' (na'aseh lanu shem) uses the Hebrew shem, which means both 'name' and 'renown/monument.' In Mesopotamian culture, building projects were the primary means of establishing royal legacy; kings inscribed their names on every brick. The Babel builders are essentially deifying their own collective will, creating a rival sacred center to replace the Eden-mountain that God established. The use of 'bricks for stone and bitumen for mortar' (11:3) is specific to Mesopotamian construction (Israel built with stone), grounding the narrative geographically in the alluvial plain where stone was unavailable.",
 
@@ -305,7 +305,7 @@ CHAPTERS = [
             "translation": "ESV (following LXX/DSS)"
         },
 
-        "hebrew_terms": ["bene_elohim", "el_elyon", "elohim", "elohim_plural", "yhwh", "goy", "babel"],
+        "original_terms": ["bene_elohim", "el_elyon", "elohim", "elohim_plural", "yhwh", "goy", "babel"],
 
         "ane_backdrop": "The concept of patron deities assigned to specific nations was universal in the ancient Near East. Every city-state and kingdom had its national god: Marduk for Babylon, Ashur for Assyria, Chemosh for Moab, Milcom for Ammon, Hadad (Baal) for Aram. These were not understood as imaginary but as real spiritual powers who governed their peoples' destinies and fought on their behalf. International conflict was simultaneously understood as conflict between patron deities -- when Assyria conquered Israel, it was Ashur defeating YHWH (or so the Assyrians claimed; 2 Kings 18:33-35). The Deuteronomy 32 worldview adopts and radically reinterprets this framework: the gods of the nations are real spiritual beings, but they are not independent deities -- they are subordinate members of YHWH's council, originally delegated authority over the nations when YHWH disinherited humanity at Babel. They have become corrupt (Psalm 82), and YHWH will reclaim the nations through Israel and ultimately through the Messiah. This is not polytheism but a hierarchical divine council theology in which YHWH is the Most High (El Elyon) presiding over subordinate elohim.",
 

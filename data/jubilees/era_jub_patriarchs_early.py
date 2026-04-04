@@ -25,7 +25,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["gan_eden", "adam", "havvah", "nachash", "saphah_ekhat"],
+        "original_terms": ["gan_eden", "adam", "havvah", "nachash", "saphah_ekhat"],
 
         "ane_backdrop": "The motif of animals speaking appears in several ANE traditions. In the Sumerian 'Debate between the Hoe and the Plow' and similar contest literature, animals and objects engage in articulate speech. The Balaam narrative in Numbers 22:28-30 preserves a biblical example of animal speech. Jubilees' innovation is systematizing this: all animals once spoke, but this capacity was a feature of the pre-Fall world that was lost as a consequence of the serpent's misuse of language. The serpent did not speak because it was uniquely gifted but because speech was universal in Eden. This removes the 'magical' quality of the serpent's speech and normalizes it within the created order.",
 
@@ -91,7 +91,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["qayin", "hevel", "hanokh", "gan_eden"],
+        "original_terms": ["qayin", "hevel", "hanokh", "gan_eden"],
 
         "ane_backdrop": "The antediluvian king lists from Mesopotamia (the Sumerian King List) provide remarkably long reigns for pre-Flood rulers, paralleling the extreme longevity of Genesis 5's patriarchs. The Sumerian sage Enmeduranki, seventh in the king list and associated with the sun-god Shamash, is widely regarded as the prototype for the biblical Enoch, seventh from Adam. Both figures are associated with divination, heavenly knowledge, and translation to the divine realm. Jubilees 4 develops Enoch's role as heavenly scribe — a function that parallels the Mesopotamian apkallu (antediluvian sages) who transmitted divine knowledge to humanity.",
 
@@ -157,7 +157,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["irin", "nefilim", "gibborim", "mabbul"],
+        "original_terms": ["irin", "nefilim", "gibborim", "mabbul"],
 
         "ane_backdrop": "The fallen Watchers tradition has deep roots in Mesopotamian mythology. The apkallu — seven antediluvian sages sent by the gods to civilize humanity — parallel the Watchers' role as teachers. In the Mesopotamian tradition, the apkallu brought beneficial knowledge (agriculture, writing, medicine); in the Watcher tradition, the knowledge is ambiguous or corrupting (metallurgy for weapons, cosmetics, sorcery). The Flood as divine response to corruption is shared with the Atrahasis Epic and the Gilgamesh Flood tablet. Jubilees follows the Enochic tradition in making the Watchers' transgression sexual (cf. Genesis 6:1-4 and 1 Enoch 6-7), but its legal framework — judgment according to heavenly tablets — is distinctively Jubilean.",
 
@@ -230,7 +230,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["berit", "dam", "shavuot", "shanah"],
+        "original_terms": ["berit", "dam", "shavuot", "shanah"],
 
         "ane_backdrop": "Blood prohibition is widespread in ANE religious practice, though the theological rationale differs. In Mesopotamian religion, blood was associated with divine life-force (the god Kingu's blood was mixed with clay to create humans in the Atrahasis Epic). The Hittite Instructions for Temple Officials prohibit consuming blood near sacred precincts. Israel's blood prohibition (Genesis 9:4, Leviticus 17:10-14) locates the life (nephesh) in the blood and reserves it for God alone. Jubilees 6 intensifies this prohibition by making it a capital offense and tracing it to Noah's covenant — the first post-Flood law, binding on all humanity.",
 
@@ -296,7 +296,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["shedim", "dam", "tzavvaah"],
+        "original_terms": ["shedim", "dam", "tzavvaah"],
 
         "ane_backdrop": "The 'testament' or farewell discourse of a patriarch before death is a well-attested literary form in the ANE. The Egyptian 'Instruction of Amenemhat' presents a deceased pharaoh advising his son from beyond the grave. The Akkadian 'Advice of a Father to His Son' and 'Counsel of Wisdom' share the testamentary format. In Second Temple Judaism, the genre flourished: the Testaments of the Twelve Patriarchs, Testament of Moses, Testament of Abraham, Testament of Job, and others all present dying patriarchs delivering final ethical instruction. Noah's testament in Jubilees 7 fits squarely within this tradition.",
 
@@ -357,7 +357,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["mastema", "migdal_bavel", "shedim", "kena'an", "nachar"],
+        "original_terms": ["mastema", "migdal_bavel", "shedim", "kena'an", "nachar"],
 
         "ane_backdrop": "The Tower of Babel narrative (Genesis 11:1-9) has parallels in Mesopotamian ziggurat traditions — massive temple towers (ziggurats) were built 'with their heads in the heavens' (cf. the Etemenanki inscription for Marduk's temple in Babylon). The name 'Babel' itself derives from the Akkadian 'Bab-ili' (Gate of God), while Genesis puns on the Hebrew 'balal' (confuse). Jubilees follows the canonical narrative closely but adds the Canaan land-seizure, which provides a mythological charter for the territorial claims central to the Israelite-Canaanite conflict. The Mastema figure draws on the Israelite 'satan' tradition (Job 1-2, Zechariah 3:1-2) but is more fully developed as a personal adversary with a demonic army.",
 
@@ -435,7 +435,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['irin', 'nefilim', 'shemihazah', 'aza\'el', 'mastema'],
+        'original_terms': ['irin', 'nefilim', 'shemihazah', 'aza\'el', 'mastema'],
 
         'ane_backdrop': 'The Watcher tradition draws on Mesopotamian myths of the apkallu — seven antediluvian sages sent by the gods to civilize humanity. In the Mesopotamian version, the apkallu bring beneficial knowledge (writing, agriculture, medicine). In the Enochic/Jubilean version, the knowledge is corrupted: metallurgy becomes weapon-making, cosmetics become seduction, and herbal knowledge becomes sorcery. The transformation from beneficial cultural heroes to corrupting transgressors reflects Israel\'s theological suspicion of pagan \'wisdom\' traditions. Both 1 Enoch and Jubilees participate in this critique, but 1 Enoch provides the fuller mythological development while Jubilees provides the legal-covenantal framework.',
 
@@ -501,7 +501,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['mastema', 'stm', 'satan', 'shedim', 'rukhot'],
+        'original_terms': ['mastema', 'stm', 'satan', 'shedim', 'rukhot'],
 
         'ane_backdrop': 'The figure of a divine adversary who operates within (or adjacent to) the divine council has Mesopotamian parallels. The Babylonian demon Pazuzu, while functioning as an evil spirit, was paradoxically invoked as protection against other demons — a figure whose destructive power could be directed for beneficial purposes. The concept of divinely permitted evil also appears in the Mesopotamian theodicy traditions, where the gods\' inscrutable purposes sometimes include allowing suffering. In the Hebrew Bible, the \'satan\' (adversary) of Job 1-2 and Zechariah 3:1-2 provides the direct prototype for Mastema: a figure who appears before God, challenges human faithfulness, and receives divine permission to test. Jubilees takes this canonical prototype and develops it into a fully realized character with a name, an army, and a narrative arc spanning the entire book.',
 
@@ -574,7 +574,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['ma\'aser', 'shedim', 'asarah', 'din', 'rukhot'],
+        'original_terms': ['ma\'aser', 'shedim', 'asarah', 'din', 'rukhot'],
 
         'ane_backdrop': 'The concept of tithing (one-tenth) is deeply embedded in ANE economic and religious practice. Mesopotamian temple economies collected tithes of agricultural produce. The Hebrew Bible mandates tithes to support the Levitical priesthood (Numbers 18:21-24). Jubilees\' use of the tithe as the measure of Mastema\'s demonic allotment is darkly ironic: just as Israel gives one-tenth of its produce to God, God gives one-tenth of the demons to Mastema. The tithe structure suggests that Mastema\'s allotment is a kind of \'cosmic tax\' — a measured portion of the total spiritual force allocated for a specific, if adversarial, purpose.',
 
@@ -639,7 +639,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['migdal_bavel', 'lashon', 'erets', 'cherem', 'kena\'an'],
+        'original_terms': ['migdal_bavel', 'lashon', 'erets', 'cherem', 'kena\'an'],
 
         'ane_backdrop': 'The Tower of Babel narrative has clear connections to Mesopotamian ziggurat construction. The Etemenanki — the great ziggurat of Babylon dedicated to Marduk — was described as having its \'head in the heavens,\' directly paralleling Genesis 11:4. The name Babel derives from the Akkadian Bab-ili (\'Gate of God\'), though Genesis puns on the Hebrew balal (\'to confuse\'). The geographic division of the earth among Noah\'s sons reflects a common ANE literary convention: the tripartite world map (seen in Babylonian cartography) dividing the known world into three regions. Jubilees\' innovation is to make this division a legal-covenantal act, sealed by oath and recorded on heavenly tablets, transforming geography into theology.',
 

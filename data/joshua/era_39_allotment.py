@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "yarash (to possess/inherit -- the verb for taking possession of allotted territory)",
             "nachalah (inheritance/allotment -- this is not merely legal property but a theological concept: the land is YHWH's gift, permanently tied to the tribe by divine decree; nachalah is one of the most important words in Joshua, connecting the land to God's covenant promises to Abraham in Genesis 12 and 15)",
             "goral (lot -- the device used for divine allocation of land; lot-casting was not gambling but a recognized method of seeking YHWH's decision -- Proverbs 16:33 states 'The lot is cast into the lap, but its every decision is from the LORD'; the Urim and Thummim in the high priest's breastplate were a form of sacred lot)",
@@ -202,7 +202,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kalev (Caleb -- possibly 'dog' or 'wholehearted'; one who 'wholly followed' YHWH)",
             "male acharei YHWH (wholly followed YHWH -- complete, undivided devotion)",
             "anakim (the giants of the hill country -- Nephilim descendants)",
@@ -359,7 +359,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shiloh (place of rest/tranquility -- the site of the tabernacle)",
             "ohel moed (tent of meeting -- the tabernacle, YHWH's portable throne room)",
             "kavash (subdued -- the land brought under Israel's authority)",
@@ -519,7 +519,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ir miklat (city of refuge -- a sanctuary for the unintentional killer)",
             "go'el haddam (avenger/redeemer of blood -- the same go'el ('kinsman-redeemer') concept seen in Ruth and Genesis 48, but here applied to blood-justice: the nearest male relative of a murder victim was legally obligated to pursue and execute the killer; the cities of refuge protect the unintentional killer from this avenger until his case can be properly judged)",
             "bishgagah (unintentionally -- without premeditation or prior enmity)",
@@ -623,7 +623,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "arei levi (Levitical cities -- the 48 cities distributed among the Levitical clans)",
             "migrash (pastureland -- the grazing land surrounding each Levitical city)",
             "natan (to give -- YHWH giving what he promised)",

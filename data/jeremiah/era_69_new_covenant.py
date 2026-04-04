@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ol (yoke -- the symbol of servitude to Babylon, YHWH's decreed instrument)",
             "shalom (welfare/peace -- what the exiles should seek for Babylon, and what YHWH plans for Israel)",
             "makhashavot (plans/thoughts -- YHWH's deliberate, purposeful intentions for Israel's future)",
@@ -165,7 +165,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "berit chadashah (new covenant -- the only occurrence of this exact phrase in the Hebrew Bible)",
             "torah (law/instruction -- what YHWH will write on the heart in the New Covenant)",
             "lev (heart -- the seat of will, intellect, and decision in Hebrew anthropology; the location of the internalized Torah)",
@@ -314,7 +314,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "megillah (scroll -- the physical medium of YHWH's written word, burned by Jehoiakim)",
             "ta'ar sofer (scribe's knife -- the tool Jehoiakim used to cut YHWH's word; ironic reversal of the scribe's pen)",
             "bor (cistern -- the waterless pit where Jeremiah is thrown to die, a symbol of Sheol)",

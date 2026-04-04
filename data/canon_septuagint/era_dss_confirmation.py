@@ -50,7 +50,7 @@ CHAPTERS = [
             "translation": "ESV (following 4QDeut-j / LXX reading)"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d1\u05bc\u05b0\u05e0\u05b5\u05d9 \u05d0\u05b1\u05dc\u05b9\u05d4\u05b4\u05d9\u05dd (b\u0115n\u00ea \u02be\u0115l\u014dh\u00eem)",
                 "meaning": "'Sons of God' -- the reading preserved in 4QDeut-j and "
@@ -286,7 +286,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05b2\u05d3\u05b7\u05ea\u05be\u05d0\u05b5\u05dc (\u2018adat-\u2019El)",
                 "meaning": "'Assembly/council of God' -- the term in Psalm 82:1 for the "

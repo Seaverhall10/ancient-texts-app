@@ -35,7 +35,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chamas (violence -- the controlling complaint; both Judah's and Babylon's characteristic sin)",
             "Kasdim (Chaldeans/Babylonians -- the instrument of judgment YHWH is raising up)",
             "tsaddiq (righteous -- 'the man more righteous than he'; the unjust comparison that drives the theodicy)"
@@ -126,7 +126,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "emunah (faith/faithfulness -- 'the righteous shall live by his emunah'; trust and faithful living)",
             "chazon (vision -- 'write the vision'; YHWH's prophetic revelation for the appointed time)",
             "hoi (woe -- the prophetic judgment cry, repeated five times against Babylon)",

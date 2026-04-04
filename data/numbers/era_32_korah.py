@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shegagah (unintentional sin — error committed without deliberate intent)",
             "beyad ramah (with a high hand — deliberate, defiant sin against YHWH)",
             "challah (first dough — the initial portion of bread offered to YHWH)",
@@ -225,7 +225,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "beriah (new creation — the unprecedented act of the earth opening)",
             "she'ol (realm of the dead — the shadowy underworld where the departed exist; "
              "the rebels are swallowed alive into the place of the dead, a reversal of "
@@ -430,7 +430,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "matteh (staff/rod/tribe — the triple meaning connects leadership, authority, and tribal identity)",
             "shaqed (almond — the 'watcher' tree, first to bloom, a sign of divine vigilance)",
             "parach (to sprout/blossom — life emerging from dead wood by divine power)",
@@ -590,7 +590,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "avon (guilt/liability — the priestly bearing of sanctuary risk)",
             "terumah (heave offering/contribution — the priestly portion of offerings)",
             "ma'aser (tithe — the tenth given to the Levites)",
@@ -753,7 +753,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "parah adummah (red heifer — the unblemished red cow used for purification ashes)",
             "chuqqah (statute — a divine decree not fully explicable by human reason)",
             "mei niddah (water of impurity/purification — the ash-and-water mixture)",

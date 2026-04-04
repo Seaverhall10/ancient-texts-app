@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "merom (the waters of Merom -- the northern battle site, likely near Lake Huleh)",
             "yavin/jabin (he understands -- the king of Hazor, a dynastic title recurring in Judges 4)",
             "chatsor/hazor (enclosure -- the 'head of all those kingdoms,' the largest Canaanite city)",
@@ -319,7 +319,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "melek (king -- the royal title of each defeated Canaanite ruler)",
             "echad (one -- the counting word after each king, tallying the total)",
             "ever hayarden (beyond the Jordan -- the Transjordan territories conquered by Moses)",

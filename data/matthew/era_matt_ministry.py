@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Christos / Meshiach (Christ / Anointed One -- the Greek and Hebrew terms for the promised king anointed by YHWH)",
             "biblos geneseos (book of genesis/genealogy -- echoing Gen 2:4 LXX, signaling a new creation narrative)",
             "Immanuel / immanu-el (God with us -- from Isaiah 7:14; the claim that God's presence is embodied in Jesus)",
@@ -232,7 +232,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "basileia ton ouranon (kingdom of heaven -- Matthew's circumlocution for kingdom of God; God's sovereign rule breaking into the present age)",
             "metanoeite (repent -- Greek metanoia, a complete change of mind and direction; the proper response to the kingdom's arrival)",
             "huios agapetos (beloved Son -- the divine declaration at baptism; echoing Ps 2:7 and Isa 42:1; identity as unique divine Son)",
@@ -423,7 +423,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "makarioi (blessed -- the Greek beatitude formula; equivalent to Hebrew ashre; not emotional happiness but divine favor and flourishing)",
             "dikaiosyne (righteousness -- right standing with God and right conduct before God; the central demand of the kingdom)",
             "pleroo (to fulfill -- not to abolish or replace but to fill up, to bring to fullest expression and intended meaning)",
@@ -610,7 +610,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "exousia (authority -- delegated power; Jesus has authority over disease, demons, nature, and death; he delegates it to the Twelve)",
             "daimonizomai (to be demonized -- not merely 'possessed' but under the oppressive influence of demonic powers)",
             "pistis (faith -- trusting reliance on Jesus' authority; the centurion's faith surpasses Israel's)",
@@ -743,7 +743,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Beelzeboul (Beelzebul -- from Baal-Zebub/'lord of flies' or Baal-Zebul/'lord of the high place'; a derogatory name for Satan as prince of demons)",
             "ephthasen (has come upon -- aorist of phthano; the kingdom has arrived, not merely approached; decisive, completed arrival)",
             "ischuros (strong man -- Satan as the fortified ruler whose domain Jesus invades; binding language echoes apocalyptic judgment)",

@@ -56,7 +56,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c9\u03b4\u03b9\u03bd (odin)",
                 "meaning": "Labor pain, birth pang. Jesus calls the current era's "
@@ -291,7 +291,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b1\u03bd\u03b1\u03c3\u03c4\u03b1\u03c3\u03b9\u03c2 \u03b7 \u03c0\u03c1\u03c9\u03c4\u03b7 (anastasis he prote)",
                 "meaning": "The first resurrection. Revelation 20:5-6 explicitly names "

@@ -40,7 +40,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mashach (to anoint -- the act that designates YHWH's chosen king; root of mashiach, 'anointed one,' which becomes 'Messiah' in English via Greek Christos. Every Israelite king was a mashiach, but the term eventually pointed to THE ultimate Anointed One)",
             "shofar (ram's horn trumpet -- the instrument of royal proclamation and divine theophany; its blast marks coronations, holy days, and the coming day of YHWH)",
             "gichon (Gihon spring -- Jerusalem's primary water source; the name echoes the river of Eden, Gen 2:13, connecting the anointing site to paradise geography)",
@@ -197,7 +197,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "lev shomea (a listening/understanding heart -- lit. a heart that hears; the organ of discernment)",
             "chokhmat elohim (wisdom of God -- divine wisdom dwelling in a human king)",
             "biyn (to discern/understand -- the ability to distinguish between good and evil)",
@@ -339,7 +339,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bayit YHWH (house of YHWH -- the Temple; in Hebrew bayit means both 'house' and 'palace.' The Temple is simultaneously YHWH's dwelling, his throne room, and his royal palace. ANE temples were always understood as the deity's house -- the place where the god 'lived' and received visitors, offerings, and petitions)",
             "devir (inner sanctuary / Holy of Holies -- the innermost room of the Temple, a perfect 20-cubit cube, where the ark and the cherubim stood. Only the high priest could enter, once per year on the Day of Atonement. This was YHWH's throne room -- the earthly counterpart of the heavenly council chamber)",
             "keruvim (cherubim -- composite winged beings who guard the divine throne; NOT the chubby baby angels of Renaissance art. In ANE iconography, the cherubim are powerful hybrid creatures -- human-faced, winged, often with lion or bull bodies -- who serve as throne guardians. They guarded Eden's entrance (Gen 3:24), formed the mercy seat on the ark (Exod 25:18-22), and in Ezekiel's visions carry YHWH's mobile throne (Ezek 1, 10))",
@@ -535,7 +535,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ashtoreth (Ashtoreth/Astarte -- the Sidonian goddess of fertility and war; the West Semitic form of Mesopotamian Ishtar. In the divine council framework, she is one of the elohim allotted to govern Sidon under the Deuteronomy 32:8-9 dispensation)",
             "kemosh (Chemosh -- the national deity of Moab; attested on the Mesha Stele where King Mesha credits Chemosh with military victories. Chemosh received human sacrifice, including Israelite captives dedicated as herem, 'devoted destruction')",
             "milkom (Milcom/Molech -- the Ammonite deity; associated with child sacrifice through fire. The name may derive from melek, 'king,' with the vowels of boshet, 'shame,' substituted by scribes to express revulsion)",

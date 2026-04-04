@@ -41,7 +41,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["arur", "amen", "eval", "gerizim", "sid", "mizbeach", "abanim_shelemot", "kol_divrei_hatorah"],
+        "original_terms": ["arur", "amen", "eval", "gerizim", "sid", "mizbeach", "abanim_shelemot", "kol_divrei_hatorah"],
 
         "hebrew_glossary": {
             "arur": "Cursed (the covenant sanction for disobedience — each of the twelve curses begins with this word; by responding 'Amen,' Israel voluntarily invokes these curses upon themselves if they violate the covenant; the opposite of barukh, 'blessed')",
@@ -192,7 +192,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["barukh", "arur", "dever", "shachin", "shiddafon", "shoteh", "galut", "magor", "tzalmavet"],
+        "original_terms": ["barukh", "arur", "dever", "shachin", "shiddafon", "shoteh", "galut", "magor", "tzalmavet"],
 
         "hebrew_glossary": {
             "barukh": "Blessed (the covenant reward for faithfulness — the blessings are active, they 'come upon you and overtake you'; barukh is the opposite of arur and covers every dimension of life: city, field, womb, ground, basket, and movement)",
@@ -373,7 +373,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["berit", "alah", "shoresh", "rosh_velaanah", "nistarot", "niglot", "chalaq"],
+        "original_terms": ["berit", "alah", "shoresh", "rosh_velaanah", "nistarot", "niglot", "chalaq"],
 
         "hebrew_glossary": {
             "berit": "Covenant (the solemn, binding agreement between YHWH and Israel — the Moab covenant here is distinct from the Sinai/Horeb covenant, a supplemental treaty renewal for the new generation)",
@@ -525,7 +525,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["teshuvah", "shuv", "milat_halev", "chayyim", "mavet", "bachar", "shamayim_vaarets"],
+        "original_terms": ["teshuvah", "shuv", "milat_halev", "chayyim", "mavet", "bachar", "shamayim_vaarets"],
 
         "hebrew_glossary": {
             "teshuvah": "Repentance / return (from the verb shuv — a physical and spiritual turning; teshuvah means both returning to the land from exile and returning to YHWH from apostasy; it is the central concept of Jewish repentance theology)",

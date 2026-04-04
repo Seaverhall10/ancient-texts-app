@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "davaq (to cling/cleave -- the marriage verb of Gen 2:24, now Ruth's loyalty to Naomi)",
             "hesed (covenant loyalty/lovingkindness -- the controlling theme of the entire book)",
             "go'el (kinsman-redeemer -- introduced here, fulfilled in chapters 3-4)",
@@ -209,7 +209,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "laqat (to glean -- the right of the poor to gather leftover grain; Lev 19:9-10)",
             "miqreh (chance/happening -- the narrator's ironic word for divine providence)",
             "gibbor chayil (mighty man of valor/wealth -- Boaz's social and military status)",

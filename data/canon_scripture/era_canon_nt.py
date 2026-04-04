@@ -62,7 +62,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b3\u03c1\u03b1\u03c6\u03ae (graphe)",
                 "meaning": "Scripture, sacred writing. When Peter calls Paul's letters "
@@ -316,7 +316,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u1f00\u03bd\u03c4\u03b9\u03bb\u03b5\u03b3\u03cc\u03bc\u03b5\u03bd\u03b1 (antilegomena)",
                 "meaning": "Spoken against, disputed. Eusebius of Caesarea (Church History "
@@ -586,7 +586,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b8\u03b5\u03cc\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03bf\u03c2 (theopneustos)",
                 "meaning": "God-breathed, divinely inspired. This compound word (theos + "
@@ -856,7 +856,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b3\u03bd\u1ff6\u03c3\u03b9\u03c2 (gnosis)",
                 "meaning": "Knowledge. In standard Greek usage, simply 'knowledge.' But "

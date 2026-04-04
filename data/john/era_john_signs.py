@@ -64,7 +64,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Logos (ho logos -- the Word; Greek philosophical term for rational principle/ordering intelligence, "
             "but John's usage draws on the Hebrew dabar YHWH -- the creative, active word of God that "
             "accomplishes his purposes; Gen 1:3; Ps 33:6; Isa 55:11; also the Aramaic memra of the Targums)",
@@ -283,7 +283,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "semeion (sign -- John's term for Jesus' miracles; they point beyond themselves to his identity "
             "and glory; seven signs structure the Book of Signs)",
             "naos (temple sanctuary -- the inner dwelling of God's presence, not the outer courts; Jesus "
@@ -483,7 +483,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hydor zon (living water -- in the OT, 'living water' is flowing, fresh water as opposed to "
             "cistern water; metaphorically, God himself is the 'fountain of living water,' Jer 2:13; 17:13)",
             "en pneumati kai aletheia (in spirit and truth -- worship that transcends location because it "
@@ -659,7 +659,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "artos tes zoes (bread of life -- the first I AM + predicate statement; Jesus as the true manna, "
             "the bread from heaven that gives eternal life; replacing the wilderness manna of Exod 16)",
             "ego eimi (I AM -- used both in the Bread of Life declaration and on the sea in 6:20; the "
@@ -825,7 +825,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Sukkot (Festival of Tabernacles/Booths -- the seven-day harvest festival celebrating God's "
             "provision in the wilderness; the most joyful festival, associated with water and light)",
             "nisukh ha-mayim (water-pouring ceremony -- the priest drew water from the Pool of Siloam and "
@@ -996,7 +996,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "poimen ho kalos (the good/noble shepherd -- the fourth I AM + predicate; echoes YHWH as "
             "Israel's shepherd in Ps 23:1; Isa 40:11; Ezek 34:11-16; Jesus claims the divine role)",
             "hen (one -- 10:30; neuter, indicating unity of nature/essence/will, not personal identity; "
@@ -1185,7 +1185,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "he anastasis kai he zoe (the resurrection and the life -- the fifth I AM + predicate; Jesus "
             "does not merely give resurrection; he IS resurrection; life and death are under his "
             "personal authority)",

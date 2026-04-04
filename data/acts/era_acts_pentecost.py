@@ -41,7 +41,7 @@ CHAPTERS = [
             "text": "Let all the house of Israel therefore know for certain that God has made him both Lord and Christ, this Jesus whom you crucified."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "שָׁבוּעוֹת", "transliteration": "shavuot", "meaning": "Weeks/Pentecost — the feast of covenant renewal; the day God chose to inaugurate the new covenant"},
             {"term": "πνεῦμα", "transliteration": "pneuma", "meaning": "Spirit/wind/breath — the ambiguity is intentional: God's breath-wind-Spirit fills the community"},
             {"term": "γλῶσσα", "transliteration": "glōssa", "meaning": "Tongue/language — both the physical organ and the spoken language; reversal of Babel's confusion"},
@@ -134,7 +134,7 @@ CHAPTERS = [
             "text": "And there is salvation in no one else, for there is no other name under heaven given among men by which we must be saved."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "παρρησία", "transliteration": "parrēsia", "meaning": "Boldness/free speech — a political term: the right to speak freely; the Spirit's gift to the persecuted"},
             {"term": "ὄνομα", "transliteration": "onoma", "meaning": "Name — in Semitic thought, the name carries the authority and character of the person"},
             {"term": "שֵׁם", "transliteration": "shem", "meaning": "Name (Hebrew) — to act 'in the name' of Jesus is to act under his authority and mandate"},
@@ -231,7 +231,7 @@ CHAPTERS = [
             "text": "But he, full of the Holy Spirit, gazed into heaven and saw the glory of God, and Jesus standing at the right hand of God. And he said, 'Behold, I see the heavens opened, and the Son of Man standing at the right hand of God.'"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "μάρτυς", "transliteration": "martys", "meaning": "Witness — from which 'martyr' derives; Stephen is the first to witness unto death"},
             {"term": "σκληροτράχηλος", "transliteration": "sklērotrachēlos", "meaning": "Stiff-necked — an OT covenant lawsuit term (Exod 33:3, Deut 9:6) accusing Israel of stubborn rebellion"},
             {"term": "σκηνή τοῦ μαρτυρίου", "transliteration": "skēnē tou martyriou", "meaning": "Tent of testimony/tabernacle — God's mobile dwelling, which Stephen prefers to the fixed temple"},
@@ -333,7 +333,7 @@ CHAPTERS = [
             "text": "Truly I understand that God shows no partiality, but in every nation anyone who fears him and does what is right is acceptable to him."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "κοινός", "transliteration": "koinos", "meaning": "Common/unclean — the purity label Peter must unlearn; God declares Gentiles clean"},
             {"term": "εὐνοῦχος", "transliteration": "eunouchos", "meaning": "Eunuch — excluded from the assembly (Deut 23:1) but welcomed by Isaiah (56:3-5) and now by Philip"},
             {"term": "προσωπολήμπτης", "transliteration": "prosōpolēmptēs", "meaning": "One who shows partiality/respects persons — Peter declares God is NOT this"},

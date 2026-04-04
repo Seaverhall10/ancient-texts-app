@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mashqeh (cupbearer -- Nehemiah's position; not merely a servant but a trusted royal advisor who tested the king's wine for poison; a position of extreme trust and influence)",
             "yad-elohay hatovah (the hand of my God for good -- Nehemiah's recurring testimony; divine providence expressed as God's active hand directing events)",
             "chomah (wall -- the physical wall of Jerusalem, but theologically a symbol of identity, protection, and divine commitment to Zion)",
@@ -182,7 +182,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "neshek (interest/usury -- the practice Nehemiah abolishes; Torah prohibited charging interest to fellow Israelites, Exod 22:25, Lev 25:36-37)",
             "yir'ah (fear/reverence -- 'I did not do so, because of the fear of God' (5:15); Nehemiah's moral compass; the fear of God prevents exploitation)",
             "na'asu melacha (they accomplished the work -- the completion formula; the work is attributed both to the people's effort and to God's help)"

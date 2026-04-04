@@ -42,7 +42,7 @@ CHAPTERS = [
             "text": "Then will appear in heaven the sign of the Son of Man, and then all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "παρουσία", "transliteration": "parousia", "meaning": "Coming/arrival/presence — technical term for a royal visit; the Son of Man's return in glory"},
             {"term": "βδέλυγμα τῆς ἐρημώσεως", "transliteration": "bdelygma tēs erēmōseōs", "meaning": "Abomination of desolation — from Daniel; desecration that renders the holy place desolate"},
             {"term": "ὠδίν", "transliteration": "ōdin", "meaning": "Birth pain — eschatological suffering that precedes the new creation (cf. Rom 8:22)"},
@@ -138,7 +138,7 @@ CHAPTERS = [
             "text": "For this is my blood of the covenant, which is poured out for many for the forgiveness of sins."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "παραδίδωμι", "transliteration": "paradidōmi", "meaning": "To hand over/betray/deliver up — the theological verb of the passion; God's own act behind Judas' treachery"},
             {"term": "דָּם הַבְּרִית", "transliteration": "dam ha-berit", "meaning": "Blood of the covenant — from Exodus 24:8; Jesus claims his blood inaugurates a new covenant"},
             {"term": "ποτήριον", "transliteration": "potērion", "meaning": "Cup — metaphor for divine wrath (Isa 51:17, Jer 25:15) that Jesus drinks on behalf of many"},
@@ -239,7 +239,7 @@ CHAPTERS = [
             "text": "And behold, the curtain of the temple was torn in two, from top to bottom. And the earth shook, and the rocks were split."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "σταυρόω", "transliteration": "stauroō", "meaning": "To crucify — Roman execution for rebels and slaves; the most shameful death possible"},
             {"term": "כָּפֹרֶת", "transliteration": "kapporet", "meaning": "Mercy seat/atonement cover — the place behind the veil where God's presence dwelt; now the veil is torn"},
             {"term": "פָּרֹכֶת", "transliteration": "paroket", "meaning": "Curtain/veil — the massive temple curtain separating the Holy Place from the Most Holy Place"},
@@ -335,7 +335,7 @@ CHAPTERS = [
             "text": "All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "ἐξουσία", "transliteration": "exousia", "meaning": "Authority/power — not mere ability but delegated ruling authority; given by the Father to the Son"},
             {"term": "μαθητεύω", "transliteration": "mathēteuō", "meaning": "To make disciples — the central verb of the Commission; not 'convert' but 'apprentice to a master'"},
             {"term": "ἔθνος", "transliteration": "ethnos", "meaning": "Nation/people group — all the nations formerly allotted to lesser gods (Deut 32:8) now claimed by Messiah"},

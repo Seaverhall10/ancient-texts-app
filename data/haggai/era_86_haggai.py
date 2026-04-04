@@ -34,7 +34,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "simu levavchem al-darkhechem (set your hearts upon your ways -- 'consider your ways'; repeated five times)",
             "saphun (paneled/ceiled -- the same word used for Solomon's palace; ironic luxury while YHWH's house is desolate)",
             "charev (desolate/waste -- the Temple lies in ruins; the root also means 'drought,' connecting to the curse in 1:11)"
@@ -122,7 +122,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ra'ash (to shake -- YHWH will shake heavens, earth, sea, dry land, and all nations; a theophanic action)",
             "chemdat kol-ha-goyim (treasures/desire of all nations -- the wealth of nations flowing to YHWH's house; some read this messianically)",
             "chotam (signet ring -- the seal of royal authority; Zerubbabel is restored as YHWH's signet, reversing Jehoiachin's curse)",

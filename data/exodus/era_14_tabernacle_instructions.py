@@ -18,7 +18,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mishkan",
             "aron",
             "kapporet",
@@ -148,7 +148,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "parokhet",
             "qodesh",
             "qodesh_haqqodashim",
@@ -252,7 +252,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mizbeach",
             "nechoshet",
             "chatser",
@@ -345,7 +345,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ephod",
             "choshen",
             "urim_vetummim",
@@ -469,7 +469,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mashach",
             "qadash",
             "milluim",
@@ -571,7 +571,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qetoret",
             "kopher_nefesh",
             "shemen_hamishchah",
@@ -666,7 +666,7 @@ CHAPTERS = [
             "text": "And let them make me a sanctuary, that I may dwell in their midst. Exactly as I show you concerning the pattern of the tabernacle, and of all its furniture, so you shall make it.",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
 
@@ -756,7 +756,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ruach_elohim",
             "chokmah",
             "tevunah",

@@ -46,7 +46,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "archiereus (high priest -- the central title applied to Christ throughout Hebrews; from archi- 'chief' + hiereus 'priest'; Christ is not merely a priest but THE high priest, the one who enters the inner sanctum)",
             "Melchisedek (Melchizedek -- Hebrew malki-tsedeq, 'my king is righteousness' or 'king of righteousness'; the author parses the name in 7:2 to reveal its theological meaning)",
             "taxis (order/succession -- 5:6, 10; 6:20; 7:11, 17; from tasso 'to arrange'; Christ's priesthood belongs to a different order or arrangement than Aaron's -- not a modification of the Levitical system but a fundamentally different institution)",
@@ -286,7 +286,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "skene (tent/tabernacle -- 8:2, 5; 9:2, 3, 8, 11; the 'true tent' (skene alethine) set up by the Lord, not by human hands; the heavenly tabernacle is the reality of which the Mosaic tabernacle was a shadowy copy)",
             "leitourgos (minister/servant -- 8:2; from leitourgia 'public service'; Christ is the liturgist of the heavenly sanctuary, actively performing his priestly ministry in the true holy places)",
             "typos (pattern/model -- 8:5; from Exodus 25:40 LXX; the blueprint shown to Moses on Sinai was a representation of the heavenly reality; the earthly tabernacle was built according to the heavenly archetype)",
@@ -526,7 +526,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ephapax (once for all -- 7:27; 9:12, 26; 10:10; the defining adverb of Hebrews' sacrificial theology; from epi 'upon' + hapax 'once'; Christ's sacrifice was a singular, unrepeatable, permanently effective event that ended the cycle of repetitive offerings)",
             "teleioo (to perfect/complete -- 10:1, 14; the Levitical sacrifices could never 'perfect' (teleioo) the worshippers -- they could not bring them to the complete, final state of covenant relationship with God; Christ's single offering has 'perfected for all time' those being sanctified)",
             "proserchomai (to draw near/approach -- 10:1, 22; a cultic term for approaching God in worship; under the old covenant, only the high priest could draw near, and only once a year; through Christ, all believers are invited to 'draw near with a true heart in full assurance of faith')",

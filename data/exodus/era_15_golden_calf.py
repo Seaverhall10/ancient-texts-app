@@ -18,7 +18,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "egel",
             "massekah",
             "chag_layhwh",
@@ -140,7 +140,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ohel_moed",
             "panim_el_panim",
             "kavod",
@@ -253,7 +253,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qaran",
             "masveh",
             "rachum_vechanun",
@@ -366,7 +366,7 @@ CHAPTERS = [
             "text": "And he received the gold from their hand and fashioned it with a graving tool and made a golden calf. And they said, 'These are your gods, O Israel, who brought you up out of the land of Egypt!'",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
 

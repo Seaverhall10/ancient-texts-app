@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "eikhah (How! -- the funeral cry that opens the book and gives it its Hebrew title)",
             "bat-Tsiyyon (Daughter Zion -- Jerusalem personified as a grieving woman)",
             "tsaddiq (righteous -- Zion confesses YHWH is righteous in his judgment, 1:18)",
@@ -208,7 +208,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "oyev (enemy -- YHWH has become 'like an enemy,' 2:4-5, the most shocking claim in the book)",
             "sukkah (booth/tabernacle -- YHWH has 'destroyed his booth' like a garden hut, 2:6)",
             "moed (appointed meeting place -- the temple where YHWH met his people, now destroyed, 2:6)",
@@ -386,7 +386,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chesed (steadfast love/covenant loyalty -- the bedrock attribute of YHWH that endures through judgment, 3:22)",
             "rachamim (mercies/compassions -- from rechem, 'womb'; the deep, maternal compassion of God, 3:22)",
             "emunah (faithfulness -- the reliability and trustworthiness of YHWH's character, 3:23)",

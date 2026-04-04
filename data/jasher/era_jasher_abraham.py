@@ -30,7 +30,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "pesel",
                 "transliteration": "pesel",
@@ -147,7 +147,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "kivshan ha-esh",
                 "transliteration": "kivshan ha-esh",
@@ -242,7 +242,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "berit",
                 "transliteration": "berit",
@@ -333,7 +333,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "Sedom",
                 "transliteration": "Sedom",
@@ -423,7 +423,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "Aqedah",
                 "transliteration": "Aqedah",
@@ -524,7 +524,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "shiddukhin",
                 "transliteration": "shiddukhin",

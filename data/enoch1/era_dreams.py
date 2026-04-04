@@ -61,7 +61,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mabbul",
             "tehom",
             "shamayim",
@@ -198,7 +198,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["bene_elohim", "nephilim"],
+        "original_terms": ["bene_elohim", "nephilim"],
 
         "ane_backdrop": "Animal symbolism for nations and rulers is widespread in the "
                         "ANE. Egyptian art depicts the pharaoh as a bull trampling "
@@ -361,7 +361,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nephilim",
             "egregoroi",
             "bene_elohim",
@@ -529,7 +529,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["bene_elohim"],
+        "original_terms": ["bene_elohim"],
 
         "ane_backdrop": "The concept of deities assigned to govern specific nations is "
                         "fundamental to ANE polytheism. Each Mesopotamian city had its "
@@ -691,7 +691,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bene_elohim",
             "goy",
             "malak_yhwh",
@@ -876,7 +876,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mishpat",
             "egregoroi",
             "mashiach",
@@ -1027,7 +1027,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mashiach",
             "ben_adam",
             "goy",
@@ -1200,7 +1200,7 @@ CHAPTERS = [
             "text": "And four great beasts came up out of the sea, different from one another. The first was like a lion and had eagles' wings.",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "nephilim",
             "egregoroi",
             "bene_elohim",

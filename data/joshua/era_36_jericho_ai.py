@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "cherem (devoted destruction -- a difficult but important concept: everything placed under cherem is totally dedicated to YHWH and cannot be taken as plunder. Persons are killed, objects are either destroyed or placed in YHWH's treasury. This is not ordinary warfare but an act of sacred judgment. The practice was not unique to Israel -- the Moabite Stone (Mesha Stele, ~840 BC) records King Mesha of Moab devoting Israelite cities to his god Chemosh using identical language. In the biblical context, herem is reserved for the specific Canaanite populations whose sin had reached a critical threshold (cf. Genesis 15:16, where God tells Abraham that 'the iniquity of the Amorites is not yet complete'). It was never intended as a permanent policy for all warfare.)",
             "shofar (ram's horn trumpet -- the instrument of divine warfare and worship; its blast announced God's presence and his intervention in battle)",
             "teru'ah (war cry/shout -- the battle cry that triggers divine intervention)",
@@ -258,7 +258,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ma'al (trespass/unfaithfulness -- sacrilege against YHWH's sacred property)",
             "cherem (devoted things -- the sacred property Achan stole from YHWH)",
             "chamad (to covet/desire -- the same verb used in the tenth commandment)",
@@ -460,7 +460,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "orev (ambush -- the military tactic YHWH authorizes for Ai)",
             "shalal (spoil/plunder -- permitted at Ai, unlike Jericho's total herem)",
             "talah (to hang -- post-mortem display of the defeated king)",

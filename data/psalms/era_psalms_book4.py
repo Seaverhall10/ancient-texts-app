@@ -46,7 +46,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ish ha'Elohim (man of God -- Moses' title; a prophet who has direct access to the divine council)",
             "ma'on (dwelling place -- YHWH himself as the habitation of his people; not a building but a person)",
             "me'olam ad-olam (from everlasting to everlasting -- YHWH's eternal nature, the answer to temporal crisis)",
@@ -203,7 +203,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "YHWH malakh (YHWH reigns/YHWH has become king -- the enthronement declaration of 93:1; 96:10; 97:1; 99:1)",
             "ge'ut (majesty -- YHWH robed in majesty; the kingly garment of sovereignty)",
             "tevel (the world -- the inhabited earth established and immovable by YHWH's decree)",
@@ -399,7 +399,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "or (light -- YHWH wraps himself in light as a garment; the primordial light of creation)",
             "ruach (wind/breath/Spirit -- YHWH's messengers are winds; his ruach sustains all life)",
             "malakhav (his messengers/angels -- the divine council agents who are winds and fire)",
@@ -545,7 +545,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shedim (demons -- the supernatural entities behind the Canaanite idols; cf. Deut 32:17)",
             "atsabbim (idols -- the physical images; from a root meaning 'to shape, to fashion')",
             "egel (calf -- the golden calf at Horeb; the image that replaced YHWH's glory)",

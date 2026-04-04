@@ -51,7 +51,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05de\u05b7\u05dc\u05b0\u05db\u05b4\u05bc\u05d9\u05be\u05e6\u05b6\u05d3\u05b6\u05e7 (malki-tsedeq)",
                 "meaning": "'My king is righteousness' -- a compound name from melek ('king') and "
@@ -198,7 +198,7 @@ CHAPTERS = [
             "translation": "ESV (with DSS/LXX reading 'sons of God')"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05b6\u05dc\u05b0\u05d9\u05d5\u05b9\u05df (Elyon)",
                 "meaning": "'Most High, Supreme, Exalted' -- a superlative adjective from the root "
@@ -349,7 +349,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c4\u03b5\u03bb\u03b5\u03af\u03c9\u03c3\u03b9\u03c2 (teleiosis)",
                 "meaning": "'Perfection, completion, bringing to the goal' -- the Greek word in "

@@ -33,7 +33,7 @@ CHAPTERS = [
             "translation": "KJV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "yashar",
                 "transliteration": "yashar",
@@ -131,7 +131,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "nachash",
                 "transliteration": "nachash",
@@ -234,7 +234,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "chanokh",
                 "transliteration": "chanokh",
@@ -329,7 +329,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "noach",
                 "transliteration": "noach",
@@ -447,7 +447,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "nimrod",
                 "transliteration": "nimrod",
@@ -535,7 +535,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "migdal",
                 "transliteration": "migdal",
@@ -630,7 +630,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "avodah zarah",
                 "transliteration": "avodah zarah",

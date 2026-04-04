@@ -38,7 +38,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Gedalyahu (Gedaliah -- 'YHWH is great'; the governor whose assassination doomed the remnant)",
             "Mitspa (Mizpah -- 'watchtower'; the administrative center after Jerusalem's destruction)",
             "melekhet ha-shamayim (Queen of Heaven -- the deity (likely Ishtar/Asherah) worshipped by Judean women in Egypt)",
@@ -149,7 +149,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Bel (the chief Babylonian deity, equivalent to Marduk -- 'put to shame' by YHWH's judgment)",
             "Merodach (Marduk -- Babylon's patron god, whose cosmic claims are dismantled)",
             "mashchit (destroyer -- the agent YHWH sends against Babylon, echoing the Passover destroyer)",

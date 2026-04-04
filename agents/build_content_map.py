@@ -305,7 +305,7 @@ def build_content_map():
                 'key_verse': (ch.get('key_verse') or {}).get('ref', ''),
                 'cross_ref_count': len(cross_refs),
                 'has_divine_council_note': bool(ch.get('divine_council_note')),
-                'hebrew_terms': ch.get('hebrew_terms', []),
+                'original_terms': ch.get('original_terms', []),
             })
 
             # Add to cross-ref index

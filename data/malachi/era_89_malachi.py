@@ -37,7 +37,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ahavti (I have loved -- YHWH's covenant love for Jacob/Israel; the starting point of the disputation)",
             "bazzah (to despise -- 'you have despised my name'; the priests treat YHWH's altar with contempt)",
             "minchah tehorah (pure offering -- the Gentile worship that will surpass Israel's corrupted sacrifices)",
@@ -115,7 +115,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "berit ha-levi (covenant of Levi -- the priestly covenant of life and peace; the standard the priests have abandoned)",
             "mal'akh YHWH tseva'ot (messenger of YHWH of hosts -- the priest's role; he is supposed to be YHWH's earthly messenger)",
             "bat el nekhar (daughter of a foreign god -- the woman devoted to a foreign deity; the theological issue behind intermarriage)",

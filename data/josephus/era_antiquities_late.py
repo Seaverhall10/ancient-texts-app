@@ -53,7 +53,7 @@ CHAPTERS = [
             "text": "He changes times and seasons; he removes kings and sets up kings; he gives wisdom to the wise and knowledge to those who have understanding.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["kohen_gadol", "hasmonean"],
+        "original_terms": ["kohen_gadol", "hasmonean"],
         "ane_backdrop": (
             'The Hasmonean dynasty (140-37 BCE) represents a unique moment in Jewish history: a '
             'priest-led independent state arising from the Maccabean Revolt. Unlike the Davidic '
@@ -225,7 +225,7 @@ CHAPTERS = [
             "text": "But you, O Bethlehem Ephrathah, who are too little to be among the clans of Judah, from you shall come forth for me one who is to be ruler in Israel, whose coming forth is from of old, from ancient days.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["herod", "temple_second"],
+        "original_terms": ["herod", "temple_second"],
         "ane_backdrop": (
             'Herod the Great (37-4 BCE) represents a distinctly Hellenistic type of client king: '
             'utterly loyal to Rome, culturally Greek, yet ruling a Jewish kingdom. His Idumean '
@@ -420,7 +420,7 @@ CHAPTERS = [
             "text": "For the king knows about these things, and to him I speak boldly. For I am persuaded that none of these things has escaped his notice, for this has not been done in a corner.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["christos", "sophos_aner", "paradoxa_erga", "phylon"],
+        "original_terms": ["christos", "sophos_aner", "paradoxa_erga", "phylon"],
         "ane_backdrop": (
             'The Testimonium must be read against several intersecting contexts. First, Greco-Roman '
             'historiography: historians like Tacitus (Annals 15.44) and Pliny (Letters 10.96) '
@@ -735,7 +735,7 @@ CHAPTERS = [
             "text": "In those days John the Baptist came preaching in the wilderness of Judea, 'Repent, for the kingdom of heaven is at hand.'",
             "translation": "ESV"
         },
-        "hebrew_terms": ["tevilah", "teshuvah", "dikaiosyne", "eusebeia"],
+        "original_terms": ["tevilah", "teshuvah", "dikaiosyne", "eusebeia"],
         "ane_backdrop": (
             'Ritual washing (tevilah) was widespread in Second Temple Judaism: the Qumran '
             'community practiced daily immersion, proselyte baptism was becoming established, '
@@ -961,7 +961,7 @@ CHAPTERS = [
             "text": "But I saw none of the other apostles except James the Lord's brother.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["sanhedrin", "christos", "adelphos", "paranomesanton"],
+        "original_terms": ["sanhedrin", "christos", "adelphos", "paranomesanton"],
         "ane_backdrop": (
             'The execution of James occurred in 62 AD, during the brief interregnum between the '
             'death of the Roman governor Festus and the arrival of his replacement Albinus. The '
@@ -1193,7 +1193,7 @@ CHAPTERS = [
             "text": "And he made from one man every nation of mankind to live on all the face of the earth, having determined allotted periods and the boundaries of their dwelling place.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["hegemon", "epistropos", "stasis"],
+        "original_terms": ["hegemon", "epistropos", "stasis"],
         "ane_backdrop": (
             'Roman provincial governance in the first century was notoriously variable: good '
             'governors could maintain peace for years, while corrupt or incompetent ones could '

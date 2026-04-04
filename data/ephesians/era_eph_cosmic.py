@@ -37,7 +37,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "eulogetos (blessed -- the opening word, echoing the Jewish berakah prayer formula; God is blessed because he has blessed us)",
             "proorizein (to predestine -- literally 'to mark out beforehand'; God's predetermined plan, not arbitrary fate)",
             "mysterion (mystery -- the hidden plan now revealed; not unknowable but previously unrevealed)",
@@ -222,7 +222,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "archon (ruler/prince -- the 'prince of the power of the air'; Satan as territorial ruler over the present age)",
             "exousia tou aeros (authority of the air -- the atmospheric realm between earth and heaven; the zone of demonic activity in Second Temple cosmology)",
             "aion (age/world-system -- 'the course of this world'; not just time but the entire system of the present evil age)",
@@ -440,7 +440,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mysterion (mystery -- the previously hidden plan now revealed; not unknowable but newly disclosed by the Spirit)",
             "oikonomia (plan/stewardship/administration -- God's household management of history; Paul's stewardship of the mystery)",
             "synkleronoma (fellow heirs -- Gentiles inheriting alongside Israel; syn- prefix = 'together with')",
@@ -655,7 +655,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "axios (worthy -- to walk in a manner consistent with one's calling; behavior matching identity)",
             "henotes (unity -- the oneness of the body; maintained, not created, by believers; grounded in the seven 'ones' of 4:4-6)",
             "katabainein/anabainein (to descend/to ascend -- the christological descent-ascent pattern; Christ descends to earth/Hades and ascends above all heavens)",
@@ -843,7 +843,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kephale (head -- Christ as head of the church; the husband as head of the wife; headship as source/authority, debated in scholarship)",
             "mysterion mega (great mystery -- 5:32; the marriage relationship as a window into Christ's love for the church; the cosmic mystery applied to human relationships)",
             "panoplia (whole armor/full armor -- 6:11, 13; the complete equipment of the divine warrior; technical Roman military term for full infantry kit)",

@@ -20,7 +20,7 @@ CHAPTERS = [
         "text": "And He raised for them a Teacher of Righteousness to lead them in the way of His heart and to make known to the last generations what He would do to the last generation, the congregation of traitors",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "moreh ha-tsedeq (מורה הצדק — Teacher of Righteousness; the divinely sent founder who revealed God's will to the remnant)",
         "shoresh matta'at (שורש מטעת — root of planting; the founding generation raised by God from Israel and Aaron)",
         "ish ha-latson (איש הלצון — Man of Mockery/Scoffer; opponent who led Israel astray against the Teacher)",
@@ -123,7 +123,7 @@ CHAPTERS = [
         "text": "Because they walked in the stubbornness of their hearts, the Watchers of heaven fell; on account of it they were caught, because they did not keep the commandments of God",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "'irey ha-shamayim (עירי השמים — Watchers of heaven; the divine beings who fell through disobedience)",
         "nefilim (נפילים — fallen ones/giants; the offspring of the Watchers whose height was 'like cedars')",
         "sherirut lev (שרירות לב — stubbornness of heart; the inner rebellion that caused both angelic and human downfall)",
@@ -226,7 +226,7 @@ CHAPTERS = [
         "text": "All who were brought into the New Covenant in the land of Damascus and who turned back and betrayed and departed from the well of living waters shall not be counted in the assembly of the people",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "berit ḥadashah (ברית חדשה — new covenant; the eschatological covenant sealed in the land of Damascus)",
         "mattiph ha-kazav (מטיף הכזב — Spouter of Lies; the opponent who 'spouted waters of falsehood' against the Teacher)",
         "be'er mayim ḥayyim (באר מים חיים — well of living waters; the Torah as God's life-giving covenant instruction)",
@@ -329,7 +329,7 @@ CHAPTERS = [
         "text": "No one shall do work on the sixth day from the time when the orb of the sun is distant from the gate by its own fullness, for this is what He said: 'Observe the Sabbath day to keep it holy'",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "shabbat (שבת — Sabbath; the weekly sacred rest observed with extreme rigor beyond biblical requirements)",
         "mebaqqer (מבקר — overseer/examiner; the camp official who supervised admissions, property, and discipline)",
         "maḥaneh (מחנה — camp; the settlements outside Qumran where community members lived under covenant rules)",
@@ -432,7 +432,7 @@ CHAPTERS = [
         "text": "They shall not depart from any counsel of the Torah to walk in the stubbornness of their hearts, but shall be governed by the first ordinances... until the coming of the Messiah of Aaron and Israel",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "mashiaḥ 'aharon ve-yisra'el (משיח אהרן וישראל — Messiah of Aaron and Israel; the expected anointed figure(s) combining priestly and royal authority)",
         "kokhav (כוכב — star; from Num 24:17, the messianic interpreter of Torah who comes to Damascus)",
         "shevet (שבט — scepter; from Num 24:17, the prince/ruler of the whole congregation)",

@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "lechem hapanim (bread of the Presence / showbread -- literally 'bread of the face,' referring to the twelve loaves placed on the golden table in the tabernacle each Sabbath (Lev 24:5-9). The twelve loaves represented the twelve tribes perpetually before YHWH's 'face' (panim). Normally only priests could eat the old bread when it was replaced. Ahimelech's giving it to David under emergency conditions established a precedent that Jesus later cites (Mark 2:25-26) to teach that human need can override ceremonial regulation: 'The Sabbath was made for man, not man for the Sabbath')",
             "mashiach YHWH (YHWH's anointed -- the sacrosanct title David refuses to violate, even for self-preservation. The mashiach is one upon whom YHWH has poured anointing oil, marking him as divinely commissioned. David uses this title for Saul repeatedly (24:6, 10; 26:9, 11, 16, 23) even when Saul is trying to kill him. The principle: YHWH installs and YHWH removes. No human may preempt YHWH's sovereign decisions about his anointed agents. This theology governs the entire Davidic narrative and ultimately applies to Christ, the final Mashiach)",
             "kanaf (corner/wing/edge -- David cuts the kanaf of Saul's robe at En-gedi (24:4). The word means both 'corner' of a garment and 'wing.' Ruth asks Boaz to spread his kanaf over her (Ruth 3:9) as a symbol of marriage and protection; the Psalms celebrate refuge 'under YHWH's wings (kanaf)' (Ps 17:8; 36:7; 91:4). David cuts Saul's royal kanaf -- symbolically trimming the king's authority -- and immediately his 'heart struck him' (24:5). Even this symbolic act against YHWH's anointed troubles David's conscience)",
@@ -205,7 +205,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "naval (fool/senseless -- Nabal's name and character. His wife Abigail explains: 'As his name is, so is he. Naval is his name, and folly (nevalah) is with him' (25:25). In Hebrew, naval is not merely unintelligent but morally deficient: the 'fool' who says 'there is no God' in Psalm 14:1 is the naval. Nabal's refusal to provision David is not just rudeness but a denial of YHWH's providence working through David)",
             "bayit ne'eman (sure/faithful house -- Abigail's prophecy that YHWH will establish David's dynasty: 'YHWH will certainly make my lord a sure house (bayit ne'eman)' (25:28). This anticipates the Davidic Covenant of 2 Samuel 7 by several chapters. Abigail speaks prophetically -- she announces the dynasty before Nathan delivers the formal covenant oracle. The adjective ne'eman means 'established, reliable, trustworthy' -- what YHWH builds endures)",
             "tsror hachayyim (bundle of the living -- Abigail's remarkable metaphor: 'the life (nephesh) of my lord shall be bound in the bundle of the living (tsror hachayyim) in the care of YHWH your God' (25:29). The image is of a precious object tied securely in a bundle for safekeeping. This phrase became the standard Jewish memorial inscription on tombstones to this day. It may reference a heavenly registry where the righteous are preserved (cf. Dan 12:1, 'everyone whose name is written in the book'; Phil 4:3, 'the book of life'))",
@@ -346,7 +346,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "'ob (spirit of the dead / necromantic pit -- the technical term for the spirit-entity or the ritual mechanism by which the dead are contacted. The 'ob may refer to the spirit itself, the ritual pit through which spirits ascend, or the practitioner's familiar spirit. The word is cognate with Mesopotamian concepts of a spirit-hole connecting the world of the living to the underworld. Consulting an 'ob is strictly prohibited in the Torah (Lev 19:31; 20:6, 27; Deut 18:11) -- not because it does not work, but because it transgresses the boundary between the living and the dead that YHWH established)",
             "ba'alat 'ob (mistress/possessor of an 'ob -- literally 'female master of a spirit-pit.' The woman at Endor is a professional necromancer (one who consults the dead). The term ba'al/ba'alat means 'owner/master' -- she controls or possesses the means of accessing the dead. Saul himself had banished all mediums and necromancers from Israel (28:3), making his resort to one the ultimate indicator of spiritual collapse: the king who enforced the law now violates it in desperation)",
             "'elohim (divine being/spirit -- the woman sees 'an 'elohim ascending out of the earth' (28:13). Here 'elohim does not mean 'God' (YHWH) but 'a divine/spiritual being.' The word 'elohim in Hebrew is broader than English 'God': it can refer to YHWH, to angelic beings, to members of the divine council, and here to the departed dead who have entered the spiritual realm. The dead Samuel is an 'elohim because he now belongs to the spirit world. This usage is critical for understanding the biblical concept of the divine council: 'elohim is a category of being (spiritual/supernatural), not a unique title)",

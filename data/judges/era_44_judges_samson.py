@@ -53,7 +53,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "peli (wonderful/incomprehensible -- the Angel's self-designation, connecting to the messianic title in Isaiah 9:6)",
             "nazir (Nazirite -- from nazar, 'to separate'; one consecrated to God by a special vow involving three prohibitions: no wine or grape products, no contact with dead bodies, and no cutting of hair (Numbers 6:1-21). Samson's case is unique: he is a Nazirite from the womb by divine decree, not personal choice, making his repeated violations all the more tragic)",
             "Shimshon (Samson -- from shemesh, 'sun'; a name with solar associations in a region bordering Philistine Dagon/sun worship)",
@@ -248,7 +248,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "vatitslach alav ruakh YHWH (the Spirit of YHWH rushed upon him -- the violent, sudden empowerment for supernatural strength)",
             "chidah (riddle -- a wisdom-contest form; Samson's riddle is based on a private experience no one can know)",
             "mishteh (feast/drinking party -- from shatah, 'to drink'; likely involving wine, potentially violating the Nazirite vow)",
@@ -384,7 +384,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "lechi chamor (jawbone of a donkey -- the improvised weapon of the Spirit-empowered warrior)",
             "shu'alim (foxes/jackals -- the 300 animals used as incendiary weapons against the grain harvest)",
             "lappidim (torches -- tied between the foxes' tails, an unconventional weapon of agricultural destruction)",
@@ -525,7 +525,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Delilah (possibly from dalal, 'to weaken/impoverish' or laylah, 'night' -- the woman who drains Samson's power)",
             "seranim (lords/rulers -- the Philistine pentapolis (five-city) governors who ruled Gaza, Ashkelon, Ashdod, Ekron, and Gath; from a non-Semitic word possibly related to Greek tyrannos, reflecting the Philistines' Aegean/Sea Peoples origin)",
             "machleqot rosho (the locks of his head -- the seven Nazirite locks whose cutting represents the breaking of the vow)",

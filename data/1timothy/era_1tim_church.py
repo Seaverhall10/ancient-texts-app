@@ -34,7 +34,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mysterion tes eusebeias (mystery of godliness -- the hidden divine plan now revealed in Christ; eusebeia = godliness/piety/reverence toward God)",
             "ophthe angelois (seen by angels -- the divine council witnessed the Christ event; ophthe = was seen/appeared to; the same verb used for resurrection appearances in 1 Cor 15:5-8)",
             "episkopos (overseer/bishop -- from epi [over] + skopeo [to watch/examine]; one who watches over the congregation; cognate with English 'episcopal')",
@@ -138,7 +138,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "didaskaliais daimoniōn (doctrines/teachings of demons -- false teachings that originate from demonic spiritual beings; the cosmic rebellion operates through intellectual deception)",
             "pneumasin planois (deceitful/seducing spirits -- spiritual beings who actively lead people astray; from planao [to wander, deceive])",
             "kekausteriasmenon ten idian syneidesin (seared in their own conscience -- the false teachers' moral compass has been cauterized/deadened; from kausteriazo [to brand with a hot iron])",

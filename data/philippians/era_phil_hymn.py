@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "morphe theou (form of God -- not outward appearance but essential nature; to exist in the morphe theou is to possess the very being of God, a pre-existence claim of the highest order)",
             "harpagmos (a thing grasped/exploited -- Christ did not regard equality with God as something to be seized or clung to; the term implies he already possessed it but refused to exploit it for self-advantage)",
             "kenoo (to empty -- the verb behind the theological term 'kenosis'; Christ emptied himself not by subtraction of divinity but by addition of servanthood, veiling his glory in human flesh)",
@@ -217,7 +217,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "phobos kai tromos (fear and trembling -- not servile terror but the reverent awe appropriate before the God who 'works in you'; the phrase appears in the LXX for Israel's response to divine theophanies)",
             "energeo (to work/energize -- God energizes both the willing and the doing in believers; the term carries connotations of divine power operating within the human agent)",
             "phosteres (luminaries/stars -- used in Gen 1:14-16 LXX for the celestial bodies and in Dan 12:3 for the righteous who shine; Paul identifies the community as cosmic light-bearers)",
@@ -379,7 +379,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "politeuma (citizenship/commonwealth -- a community of citizens living abroad who maintain allegiance to their home city; Philippi was a Roman politeuma in Macedonia, but Paul declares believers' true politeuma is in heaven)",
             "soter (savior -- one of Caesar's primary titles; Augustus was proclaimed soter for bringing the Pax Romana; Paul applies the title to Christ, who brings cosmic salvation rather than military conquest)",
             "symmorphon (conformed to / sharing the form of -- from the same root as morphe in 2:6-7; believers' lowly bodies will be conformed to the morphe of Christ's glorious body, completing the transformation)",

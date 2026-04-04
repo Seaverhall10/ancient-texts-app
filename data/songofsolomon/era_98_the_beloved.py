@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "dodi (my beloved -- the woman's word for her lover; from dod, 'beloved/uncle/love'; used 32 times in the Song; the same root as David, 'beloved')",
             "ra'yati (my darling/companion -- the man's word for his beloved; from ra'ah, 'companion/friend'; she is not merely desired but valued as a companion)",
             "shoshanah (lily/lotus -- the flower the beloved is compared to; 'a lily among brambles,' 2:2; a symbol of beauty flourishing in an unlikely place)",
@@ -185,7 +185,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kallah (bride -- used six times in 4:8-5:1; the marriage context of the love celebration)",
             "gan na'ul (locked garden -- the woman as an enclosed, exclusive garden; a metaphor for sexual purity and covenant exclusivity)",
             "ma'yan chatum (sealed fountain -- parallel to the locked garden; the beloved's intimacy is reserved for her lover alone)",

@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "martyreō (Greek: martyreō)",
                 "transliteration": "martyreō",
@@ -285,7 +285,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "philoproteuō (Greek: philoproteuō)",
                 "transliteration": "philoproteuō",

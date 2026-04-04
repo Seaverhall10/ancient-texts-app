@@ -62,7 +62,7 @@ CHAPTERS = [
         },
 
         # NOTE: These are Greek/Latin terms — field name is a known schema limitation
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c4\u03bf\u1fe6\u03c4\u03cc \u1f10\u03c3\u03c4\u03b9\u03bd \u03c4\u1f78 \u03c3\u1ff6\u03bc\u03ac \u03bc\u03bf\u03c5 (touto estin to soma mou)",
                 "meaning": "This is my body. The Catholic case rests heavily on "
@@ -392,7 +392,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b4\u03bf\u03c5\u03bb\u03af\u03b1 / \u03bb\u03b1\u03c4\u03c1\u03b5\u03af\u03b1 (doulia / latreia)",
                 "meaning": "Veneration/service vs. worship. Catholic theology "
@@ -733,7 +733,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "ex cathedra (Latin)",
                 "meaning": "From the chair. The technical term for papal infallible "

@@ -46,7 +46,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u1f10\u03ba\u03b4\u03b7\u03bc\u03ad\u03c9 (ekdemeo)",
                 "meaning": "To be away from home, to emigrate. In 2 Cor 5:8, Paul "
@@ -279,7 +279,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u1f81\u03b4\u03b7\u03c2 (Hades)",
                 "meaning": "The Greek equivalent of Sheol -- the realm of the dead. "

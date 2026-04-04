@@ -20,7 +20,7 @@ CHAPTERS = [
             "text": "Then two of them had dreams and the sleep of their eyes fled from them, and they arose and came to [him] and told him their dreams",
             "translation": "Stuckenbruck (2003)"
         },
-        "hebrew_terms": ["chalom", "tablet", "nephilim", "irin"],
+        "original_terms": ["chalom", "tablet", "nephilim", "irin"],
         "ane_backdrop": "Dream interpretation as divine communication pervades Ancient Near Eastern literature, from Mesopotamian dream books to Egyptian oneiromancy. The Assyrian Dream Book (7th century BCE) catalogs symbolic meanings, while Gudea of Lagash received architectural instructions through dreams. The pairing of dreams—as with Pharaoh's two dreams in Genesis 41—follows established convention: dual visions confirm divine origin and interpretive certainty. Babylonian texts distinguish between solicited incubation dreams and spontaneous revelatory visions. The Book of Giants employs this ANE framework while subverting it: the giant offspring of rebellious divine beings receive dreams warning of their own destruction, creating ironic distance between the medium (divine communication) and the message (divine judgment). The tablet motif resonates with Mesopotamian Tablet of Destinies traditions, where cosmic authority resides in written decrees.",
         "second_temple": [
             {
@@ -110,7 +110,7 @@ CHAPTERS = [
             "text": "Then Mahaway... and he flew in the air like the eagles... over the cultivated lands and crossed the Desolation, the great desert...",
             "translation": "Stuckenbruck (2003)"
         },
-        "hebrew_terms": ["nephilim", "baraq_el", "irin", "sopher"],
+        "original_terms": ["nephilim", "baraq_el", "irin", "sopher"],
         "ane_backdrop": "The journey through cosmic zones to reach a remote sage parallels Mesopotamian literary conventions, particularly Gilgamesh's quest to Utnapishtim across the Waters of Death. Ancient Near Eastern geography divided the cosmos into inhabited lands (civilization), wilderness (chaos), and paradise (divine realm). The motif of flight appears in Etana Epic traditions where the hero ascends on eagle's wings. Diplomatic embassies requiring traversal of dangerous territory to consult oracular figures were standard Ancient Near Eastern protocol, reflected in Hittite and Assyrian royal correspondence. The Desolation (Aramaic: ḥurbā) functions as liminal space separating mortal and immortal realms, similar to the steppe of the gods in Gilgamesh XI.",
         "second_temple": [
             {
@@ -200,7 +200,7 @@ CHAPTERS = [
             "text": "And he said unto me: 'Observe, Enoch, these heavenly tablets and read what is written thereon, and mark every individual fact.' And I observed the heavenly tablets, and read everything which was written (thereon) and understood everything, and read the book of all the deeds of mankind.",
             "translation": "R.H. Charles"
         },
-        "hebrew_terms": ["sopher", "raz", "tablet", "sod_yhwh"],
+        "original_terms": ["sopher", "raz", "tablet", "sod_yhwh"],
         "ane_backdrop": "The Mesopotamian Tablet of Destinies (tuppi shimati) functioned as the cosmic charter of divine authority in Akkadian mythology. In Enuma Elish, possession of this tablet conferred supreme power over the gods, making it the object of violent struggle between Tiamat, Qingu, and ultimately Marduk. The tablet contained the fates of gods and humans, written in cuneiform by divine scribes. Jewish apocalyptic literature transformed this polytheistic concept into a monotheistic framework: the heavenly tablets became YHWH's immutable record of cosmic law, moral decree, and predetermined judgment. Unlike the contested Mesopotamian tablet, the Jewish version represents unassailable divine sovereignty. The transformation reflects broader Second Temple theological concerns about theodicy, determinism, and the certainty of eschatological judgment against rebellious spiritual powers.",
         "second_temple": [
             {
@@ -290,7 +290,7 @@ CHAPTERS = [
             "text": "...Ohyah and Hahyah...and all the giants...",
             "translation": "Stuckenbruck 2003"
         },
-        "hebrew_terms": ["nephilim", "gibborim", "bene_elohim", "sod_yhwh"],
+        "original_terms": ["nephilim", "gibborim", "bene_elohim", "sod_yhwh"],
         "ane_backdrop": "Ancient Near Eastern king lists and hero catalogues provide the literary template for the Book of Giants' prosopography. Mesopotamian tradition preserved names of antediluvian heroes (Gilgamesh, Humbaba) and semi-divine rulers in genealogical records. The Sumerian King List's antediluvian section parallels the giants' catalogue, while Akkadian omen texts name specific apkallu (sages) who brought forbidden knowledge. The Book of Giants adapts this prosopographical genre to catalog hybrid offspring of the Watchers, transforming Mesopotamian heroes into Nephilim and creating a counter-genealogy to biblical patriarchal lists. This naming strategy establishes the giants as historical agents within Second Temple cosmology.",
         "second_temple": [
             {
@@ -380,7 +380,7 @@ CHAPTERS = [
             "text": "And now, the giants, who are produced from the spirits and flesh, shall be called evil spirits upon the earth, and on the earth shall be their dwelling. Evil spirits have proceeded from their bodies; because they are born from men and from the holy Watchers is their beginning and primal origin; they shall be evil spirits on earth, and evil spirits shall they be called.",
             "translation": "R.H. Charles"
         },
-        "hebrew_terms": ["nephilim", "ruach", "shedim", "gibborim"],
+        "original_terms": ["nephilim", "ruach", "shedim", "gibborim"],
         "ane_backdrop": "Ancient Near Eastern demonology featured territorial spirits, disease demons (Mesopotamian Lamashtu, Pazuzu), and restless dead requiring appeasement. The Enochic innovation—demons as hybrid offspring rather than primordial chaos forces—provided Judaism with a historical etiology for evil spirits. Unlike Babylonian demons who existed from creation, Jewish demons had a datable origin in the Watcher rebellion. This historicization of demonology distinguished Second Temple Judaism from its neighbors while explaining the proliferation of exorcism rituals in Jewish magical texts like the Testament of Solomon and Aramaic incantation bowls.",
         "second_temple": [
             {

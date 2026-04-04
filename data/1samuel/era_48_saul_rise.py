@@ -46,7 +46,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "melek (king -- Hebrew melek is the standard ANE title for a sovereign ruler. Israel's demand for a melek replaces YHWH's direct theocratic rule with a human intermediary. The irony: YHWH IS their melek, but they want one they can see)",
             "mishpat hamelek (manner/right of the king -- lit. 'the judgment/custom of the king'; a catalog of what the king will take. This is not legislation but warning: here is what human kingship will cost you. Every item in the list came true under Solomon)",
             "ma'as (to reject -- the verb YHWH uses: 'they have rejected (ma'as) ME from being king over them.' The same verb will be used when YHWH rejects Saul (15:23, 26) -- a bitter symmetry: the people rejected YHWH; their king will be rejected by YHWH)",
@@ -179,7 +179,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nagid (prince/leader/commander -- the title Samuel uses rather than melek, 'king.' YHWH remains the true king; Saul is appointed nagid, the military commander who serves under the divine king. This is Israel's unique contribution to political theology: the human ruler is always subordinate to the divine sovereign)",
             "mashiach (anointed one -- from mashach, 'to anoint with oil.' Saul is Israel's first mashiach (messiah/anointed king). The anointing oil signifies divine selection and empowerment: YHWH has chosen this person, and YHWH's spirit now rests on him. Every subsequent Israelite king was a mashiach, but the title eventually pointed forward to THE Mashiach -- the ultimate Anointed King whom David's line would produce)",
             "ruach YHWH (Spirit of YHWH -- the divine empowerment that rushes upon Saul. Hebrew ruach means 'wind, breath, spirit.' The ruach YHWH is YHWH's own executive power -- not a separate being but YHWH's active presence operating through a human agent. When the ruach comes upon someone, they are enabled to do what they could never do naturally: prophesy, fight with superhuman strength, lead with divine wisdom. The ruach is conditional and revocable -- it comes upon Saul here and departs from him in chapter 16)",
@@ -321,7 +321,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "herem (devotion to destruction / the ban -- a form of sacred warfare in which everything captured -- people, animals, possessions -- is 'devoted' to the deity and must be utterly destroyed. Nothing may be kept as personal spoil because the victory and its spoils belong entirely to YHWH. The concept is attested in the Mesha Stele, where Moab's king likewise 'devoted' captured cities to his god Chemosh. Saul's failure to execute the herem fully is treated not as mere disobedience but as sacrilege -- keeping what belongs to God)",
             "nacham (to regret/relent -- 'I regret (nacham) that I have made Saul king.' This is anthropopathic language (describing God in human emotional terms). It does not mean YHWH made a mistake but that YHWH genuinely grieves the outcome of Saul's choices. The tension is felt within the same chapter: 15:11 says YHWH 'regrets'; 15:29 says 'the Glory of Israel will not lie or nacham, for he is not a man that he should nacham.' The paradox is intentional: YHWH experiences something analogous to regret without being subject to fickleness)",
             "shama (to hear/obey -- 'to obey (shama) is better than sacrifice.' Hebrew shama means both 'to hear' and 'to obey' -- the idea being that truly hearing YHWH's voice results in obedience. You cannot 'hear' God and remain unchanged)",

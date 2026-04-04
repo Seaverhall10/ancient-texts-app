@@ -122,8 +122,8 @@ def audit_chapter_structure(ch, era_id, findings):
 
 
 def audit_glossary_refs(ch, glossary_keys, findings):
-    """Check that hebrew_terms reference existing glossary entries."""
-    for term_key in ch.get("hebrew_terms", []):
+    """Check that original_terms reference existing glossary entries."""
+    for term_key in ch.get("original_terms", []):
         if not isinstance(term_key, str):
             continue
         if term_key not in glossary_keys:

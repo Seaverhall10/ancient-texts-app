@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c7\u03ac\u03c1\u03b9\u03c2 (charis)",
                 "meaning": "Grace, unmerited favor. The Greek word Paul uses for "
@@ -273,7 +273,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03ba\u03b5\u03bd\u03cc\u03c2 (kenos)",
                 "meaning": "Empty, vain, without result. Paul says your labor is NOT "

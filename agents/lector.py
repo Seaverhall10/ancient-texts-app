@@ -6,7 +6,7 @@ and validates Hebrew/Greek/Aramaic terminology across the project.
 
 Usage:
     python agents/lector.py --glossary "Generate terms for 1 Enoch Watchers section"
-    python agents/lector.py --audit-terms   # Check all hebrew_terms refs exist in glossary
+    python agents/lector.py --audit-terms   # Check all original_terms refs exist in glossary
     python agents/lector.py --task-file agents/tasks/pending/task_xxx.json
 """
 import os
@@ -54,7 +54,7 @@ def load_glossary():
 
 
 def audit_term_references():
-    """Check that all hebrew_terms in chapter data reference existing glossary entries."""
+    """Check that all original_terms in chapter data reference existing glossary entries."""
     manifest = load_manifest()
     glossary = load_glossary()
     glossary_keys = set(glossary.keys())
@@ -84,7 +84,7 @@ def audit_term_references():
             mod = load_module(data_file, path)
             chapters = getattr(mod, "CHAPTERS", [])
             for ch in chapters:
-                for term_key in ch.get("hebrew_terms", []):
+                for term_key in ch.get("original_terms", []):
                     if isinstance(term_key, str):
                         used_keys.add(term_key)
                         if term_key not in glossary_keys:

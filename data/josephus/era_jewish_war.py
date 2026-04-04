@@ -47,7 +47,7 @@ CHAPTERS = [
             "text": "And at the latter end of their kingdom, when the transgressors have reached their limit, a king of bold face, one who understands riddles, shall arise.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["hasidim", "hasmonean"],
+        "original_terms": ["hasidim", "hasmonean"],
         "ane_backdrop": (
             'The Hasmonean revolt (167-160 BC) occurred during the collapse of Seleucid power '
             'and the rise of Parthia. The Maccabees exploited the vacuum created by Seleucid civil '
@@ -234,7 +234,7 @@ CHAPTERS = [
             "text": "For not from the east or from the west and not from the wilderness comes lifting up, but it is God who executes judgment, putting down one and lifting up another.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["herodion", "bayit"],
+        "original_terms": ["herodion", "bayit"],
         "ane_backdrop": (
             'Herod\'s reign (37-4 BC) coincided with the Augustan peace (Pax Romana) and the '
             'transformation of the Roman Republic into an empire. Client kings like Herod were '
@@ -429,7 +429,7 @@ CHAPTERS = [
             "text": "For the Sadducees say that there is no resurrection, nor angel, nor spirit, but the Pharisees acknowledge them all.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["perushim", "tseduqim", "essaioi", "hairesis"],
+        "original_terms": ["perushim", "tseduqim", "essaioi", "hairesis"],
         "ane_backdrop": (
             'Josephus deliberately casts the Jewish sects in the language of Greek philosophy '
             'to make them intelligible to his Roman readers. The Pharisees are compared to Stoics '
@@ -666,7 +666,7 @@ CHAPTERS = [
             "text": "Then Jeremiah said to Zedekiah, 'Thus says the LORD, the God of hosts, the God of Israel: If you will surrender to the officials of the king of Babylon, then your life shall be spared, and this city shall not be burned with fire.'",
             "translation": "ESV"
         },
-        "hebrew_terms": ["navi", "kohen", "mashiah", "pronoia"],
+        "original_terms": ["navi", "kohen", "mashiah", "pronoia"],
         "ane_backdrop": (
             'The Jewish revolt of 66-73 AD was one of the largest conflicts in Roman history, '
             'involving multiple legions and lasting seven years. Josephus\'s position as military '
@@ -873,7 +873,7 @@ CHAPTERS = [
             "text": "But when you see Jerusalem surrounded by armies, then know that its desolation has come near. For these are days of vengeance, to fulfill all that is written.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["hurban", "mikdash", "galut", "otot"],
+        "original_terms": ["hurban", "mikdash", "galut", "otot"],
         "ane_backdrop": (
             'The destruction of Jerusalem in 70 AD was one of the defining events of the Roman '
             'Empire, celebrated on the Arch of Titus and in Flavian coinage. Josephus writes '
@@ -1116,7 +1116,7 @@ CHAPTERS = [
             "text": "How lonely sits the city that was full of people! How like a widow has she become, she who was great among the nations!",
             "translation": "ESV"
         },
-        "hebrew_terms": ["qiddush_hashem", "herut", "galut"],
+        "original_terms": ["qiddush_hashem", "herut", "galut"],
         "ane_backdrop": (
             'The fall of Masada marked the end of organized Jewish resistance in Judea, though '
             'pockets of resistance continued in Egypt and Cyrenaica. Roman siege warfare against '

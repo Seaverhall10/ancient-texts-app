@@ -54,7 +54,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e0\u05b8\u05d7\u05b8\u05e9\u05c1 (nachash)",
                 "meaning": "Serpent, but far more than a snake. The root can mean "
@@ -340,7 +340,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d1\u05b0\u05bc\u05e8\u05b4\u05d9\u05ea (b\u0115rit)",
                 "meaning": "Covenant. Not a contract between equals but a solemn, "
@@ -592,7 +592,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05b2\u05e7\u05b5\u05d3\u05b8\u05d4 (Aqedah)",
                 "meaning": "The Binding. The technical term for the Genesis 22 "
@@ -852,7 +852,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e9\u05c1\u05b5\u05d1\u05b6\u05d8 (shevet)",
                 "meaning": "Scepter, rod, or tribal staff. The word functions as "

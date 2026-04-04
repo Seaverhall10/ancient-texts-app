@@ -56,7 +56,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05de\u05b5\u05dc\u05b4\u05d9\u05e5 (melitz)",
                 "meaning": "Mediator, intercessor, interpreter, advocate. In "
@@ -361,7 +361,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e9\u05c1\u05b5\u05d3\u05b4\u05d9\u05dd (shedim)",
                 "meaning": "Demons, harmful spirits. In Deuteronomy 32:17, "

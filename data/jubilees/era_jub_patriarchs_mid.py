@@ -27,7 +27,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["terafim", "avodah_zarah", "ur_kasdim", "mastema"],
+        "original_terms": ["terafim", "avodah_zarah", "ur_kasdim", "mastema"],
 
         "ane_backdrop": "The tradition of Abraham as idol-smasher has no parallel in Genesis but resonates with the broader ANE pattern of religious reform narratives. The Egyptian pharaoh Akhenaten's suppression of polytheism in favor of Aten worship (14th century BCE) provides a distant cultural parallel. In Mesopotamian literature, the Cuthaean Legend describes a king who recognizes the futility of idol worship. The specific motif of destroying one's father's idols appears in the Arabic tradition as well (cf. Quran, Sura 21:51-70, where Ibrahim smashes his father's idols). The ubiquity of this tradition across Jewish, Christian, and Islamic sources suggests it was deeply embedded in the Abraham tradition from an early period, even though it is absent from the canonical text.",
 
@@ -103,7 +103,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["berit", "milah", "sukkot", "ma'aser"],
+        "original_terms": ["berit", "milah", "sukkot", "ma'aser"],
 
         "ane_backdrop": "Circumcision was practiced throughout the ancient Near East, though with varying significance. The Egyptians practiced circumcision as a coming-of-age rite (depicted in reliefs at Saqqara). Several West Semitic peoples practiced it, while Mesopotamians generally did not (hence 'uncircumcised' as an epithet for Babylonians and Philistines). Genesis 17 transforms circumcision from a cultural practice into a covenant sign between God and Abraham's descendants. Jubilees 15 goes further, making circumcision a metaphysical reality that predates humanity — the highest angels are created in this condition, and Israel's circumcision is participation in the angelic nature. No other ANE source makes such a claim.",
 
@@ -170,7 +170,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["aqedah", "mastema", "sedom", "yitschaq", "olah"],
+        "original_terms": ["aqedah", "mastema", "sedom", "yitschaq", "olah"],
 
         "ane_backdrop": "Child sacrifice was practiced in the ancient Near East, particularly in the cult of Molek/Moloch (attested in Leviticus 18:21, 2 Kings 23:10, and Punic/Phoenician inscriptions). The Aqedah has often been interpreted as a divine rejection of child sacrifice: God demands the willingness but provides a substitute ram. The Phoenician tradition preserved by Philo of Byblos describes the god El sacrificing his son, providing a cultural parallel. The destruction of Sodom parallels other ANE traditions of divine destruction of wicked cities, particularly the overthrow of corrupt urban centers in Mesopotamian mythology. The Dead Sea region's geological features (sulfur deposits, salt formations) may have contributed to the tradition of fire and brimstone.",
 
@@ -244,7 +244,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["tzavvaah", "avraham", "ya'akov", "berakah"],
+        "original_terms": ["tzavvaah", "avraham", "ya'akov", "berakah"],
 
         "ane_backdrop": "The deathbed testament is a ubiquitous ANE literary form. The Egyptian 'Instructions' genre (Instruction of Ptahhotep, Instruction of Amenemhat, Instruction of Merikare) consists of dying rulers or sages passing wisdom to the next generation. In Mesopotamia, the 'Advice' literature serves a similar function. The Hebrew Bible has numerous deathbed scenes (Jacob in Genesis 49, Moses in Deuteronomy 33, Joshua in Joshua 23-24, David in 1 Kings 2). Jubilees' Abraham testament follows this established pattern but adds the distinctive Jubilean themes: calendar observance, demon awareness, and Torah-before-Sinai.",
 
@@ -299,7 +299,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["kohen", "mizbeyach", "dam", "milkha", "olah"],
+        "original_terms": ["kohen", "mizbeyach", "dam", "milkha", "olah"],
 
         "ane_backdrop": "Priestly instruction regarding sacrifice has extensive ANE parallels. Hittite temple ritual texts prescribe hand-washing before approaching the gods, specific types of wood and animal preparation, and penalties for ritual impurity. Mesopotamian temple rituals (namburbi texts) detail washing procedures, acceptable offerings, and altar protocols. The Egyptian mortuary texts describe purification rites before divine presence. Jubilees' Abraham-to-Isaac priestly transmission mirrors these temple training traditions but grounds them in familial rather than institutional authority — the patriarch trains his son, not a temple academy.",
 
@@ -366,7 +366,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['avodah_zarah', 'terafim', 'ur_kasdim', 'esh', 'pesel'],
+        'original_terms': ['avodah_zarah', 'terafim', 'ur_kasdim', 'esh', 'pesel'],
 
         'ane_backdrop': 'The destruction of cult images was a political and religious act throughout the ancient Near East. Assyrian kings routinely carried off or destroyed the cult statues of conquered peoples as a demonstration of their god\'s superiority (cf. the capture of Marduk\'s statue by Sennacherib). Within Israel, iconoclasm was commanded in Deuteronomy 7:5, 12:3 (destroy altars, smash pillars, burn Asherim). The prophetic polemic against idol-making (Isaiah 44:9-20; Jeremiah 10:1-16) mocks the absurdity of worshipping objects fashioned by human hands. Jubilees places Abraham at the origin of this iconoclastic tradition: the first patriarch was the first idol-smasher, predating the prophets and the Deuteronomic reform by millennia.',
 
@@ -438,7 +438,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['aqedah', 'mastema', 'olah', 'mizbeyach', 'moriah', 'nisah'],
+        'original_terms': ['aqedah', 'mastema', 'olah', 'mizbeyach', 'moriah', 'nisah'],
 
         'ane_backdrop': 'Child sacrifice was practiced in the ancient Near East, particularly in Phoenician and Punic cult practices associated with Molek/Moloch. The tophet at Carthage and the evidence from biblical references (Leviticus 18:21; 2 Kings 23:10; Jeremiah 32:35) attest to the practice of sacrificing children by fire. The Aqedah has traditionally been interpreted as God\'s definitive rejection of child sacrifice: Abraham\'s willingness is accepted, but a ram is substituted. Jubilees adds a new dimension by making Mastema the instigator — the demand for child sacrifice comes from the adversary, not from God, making the rejection even more emphatic.',
 
@@ -510,7 +510,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['milah', 'berit', 'mal\'akhim', 'panim', 'qedushah'],
+        'original_terms': ['milah', 'berit', 'mal\'akhim', 'panim', 'qedushah'],
 
         'ane_backdrop': 'Circumcision was practiced by multiple ancient Near Eastern peoples. Egyptian tomb reliefs at Saqqara (6th Dynasty, c. 2345-2181 BCE) depict circumcision as a coming-of-age ritual performed on adolescents. West Semitic peoples, including Moabites, Ammonites, and Edomites, practiced circumcision, while Mesopotamians, Philistines, and Greeks generally did not. Israel\'s circumcision was distinctive in its timing (eighth day after birth, not puberty), its theological interpretation (covenant sign, not maturity rite), and its exclusivity (marking membership in God\'s covenant people). Jubilees goes further than any other text by claiming circumcision is an angelic reality inscribed in the highest created beings.',
 
@@ -576,7 +576,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['ya\'akov', 'esav', 'edom', 'milkhamah', 'kesheth'],
+        'original_terms': ['ya\'akov', 'esav', 'edom', 'milkhamah', 'kesheth'],
 
         'ane_backdrop': 'The motif of fraternal warfare between nations personified as brothers is deeply embedded in ANE literary convention. The Mesopotamian text \'Cattle and Grain\' presents two divine siblings in contest, each representing a mode of civilization. The Egyptian \'Contendings of Horus and Seth\' narrates the cosmic struggle between two divine brothers for the kingship of the gods. In the Hebrew Bible, the Jacob-Esau conflict is explicitly linked to the Israel-Edom conflict (Genesis 25:23, \'two nations are in your womb\'). Jubilees\' expansion of this into open warfare reflects the intense hostility between Judea and Idumea (Edom) in the Hasmonean period, when the Hasmonean king John Hyrcanus forcibly converted the Idumeans (c. 125 BCE).',
 
@@ -642,7 +642,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['halakhah', 'lukhot_shamayim', 'torah', 'mitzvot', 'berit'],
+        'original_terms': ['halakhah', 'lukhot_shamayim', 'torah', 'mitzvot', 'berit'],
 
         'ane_backdrop': 'The retrojection of later law to earlier periods is a widespread phenomenon in ANE legal literature. The Code of Hammurabi (18th century BCE) claims that the sun-god Shamash entrusted the laws to Hammurabi, grounding human legislation in divine authority. Hittite law codes similarly attribute their origins to divine mandate. In Israel, the Torah presents all law as given at Sinai, but Jubilees goes further by placing Torah observance before Sinai — in the patriarchal period and even at creation. This is not merely antiquarian fiction; it is a theological argument that the Torah is eternal, not temporally contingent. The patriarchs observed it because it was written on the heavenly tablets before Sinai, before Abraham, before creation itself.',
 

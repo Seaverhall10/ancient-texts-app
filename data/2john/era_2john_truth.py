@@ -40,7 +40,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "eklekte kyria (elect lady -- v.1; either a specific woman named Kyria, or [more likely] a personification of a house church: the 'chosen lady' is the congregation, her 'children' are its members, and her 'elect sister' [v.13] is another church)",
             "planos (deceiver -- v.7; from planao [to wander/lead astray]; one who causes others to deviate from the truth; the same root used for 'deceitful spirits' [pneumasin planois] in 1 Tim 4:1)",
             "ho antichristos (the antichrist -- v.7; the definite article intensifies: this is THE antichrist spirit manifested in those who deny the incarnation; the term appears only in 1 John and 2 John)",

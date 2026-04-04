@@ -65,7 +65,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03ba\u03b1\u03bd\u03ce\u03bd (kanon)",
                 "meaning": "Rule, standard, measuring rod. The Greek term from which "
@@ -363,7 +363,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b4\u03bf\u03ba\u03b9\u03bc\u03ac\u03b6\u03c9 (dokimazo)",
                 "meaning": "To test, examine, approve after testing. The verb Paul uses "

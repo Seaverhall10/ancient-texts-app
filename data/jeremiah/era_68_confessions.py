@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "berit (covenant -- the Sinai covenant whose terms Judah has violated)",
             "arur (cursed -- the covenant curses of Deuteronomy 28 activated by disobedience)",
             "tsaddiq (righteous -- Jeremiah's claim of innocence before YHWH in the lament)",
@@ -162,7 +162,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "pittah (to deceive/seduce/entice -- Jeremiah's accusation that YHWH has 'seduced' him into the prophetic office)",
             "yotser (potter -- YHWH as the divine potter who shapes nations, from Jer 18)",
             "esh (fire -- the burning compulsion of YHWH's word within Jeremiah's bones)",
@@ -301,7 +301,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tsemach tsaddiq (righteous Branch -- the messianic title, from the root tsemach 'to sprout')",
             "YHWH Tsidqenu (YHWH is our righteousness -- the name of the messianic king, bearing the divine name)",
             "sod YHWH (council of YHWH -- the heavenly assembly where YHWH deliberates with his host)",
@@ -458,7 +458,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "avdi (my servant -- the astonishing title YHWH gives to Nebuchadnezzar as his instrument of judgment)",
             "shiv'im shanah (seventy years -- the decreed duration of the Babylonian exile)",
             "kos ha-yayin ha-chemah (cup of the wine of wrath -- YHWH's judgment portrayed as forced intoxication)",

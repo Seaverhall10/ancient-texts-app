@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "even bochan (tested stone -- a foundation stone that has been proven reliable)",
             "pinnat yiqrat (precious cornerstone -- the stone that anchors and aligns the entire building)",
             "musad mussad (sure/established foundation -- doubled for emphasis, absolutely certain)",
@@ -194,7 +194,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Rabshakeh (chief cupbearer -- the title of the Assyrian official, not a personal name)",
             "malakh YHWH (angel/messenger of YHWH -- the divine agent who strikes the Assyrian camp)",
             "yoshev hakeruvim (enthroned above the cherubim -- YHWH's throne room title)",
@@ -369,7 +369,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Ariel (lion of God / altar hearth -- a double-meaning name for Jerusalem)",
             "ruach tardemah (spirit of deep sleep -- the same supernatural sleep as Adam's in Gen 2:21)",
             "sepher ha-chatum (sealed scroll -- the prophetic word inaccessible due to spiritual blindness)",
@@ -514,7 +514,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tseva hashamayim (host of heaven -- the divine council members assigned to govern the nations; the spiritual powers behind earthly kingdoms. This is NOT a reference to stars as physical objects but to the spiritual beings associated with the stars -- the 'sons of God' of Deut 32:8, the elohim of Psalm 82, the 'princes' of Daniel 10)",
             "yimmaqu (shall rot away/dissolve -- from the root maqaq, meaning to waste away, putrefy, decompose; used of flesh rotting (Zech 14:12) and of enemies melting in terror (Ps 38:5). Applied to the host of heaven, it describes their total dissolution -- they are unmade, decomposed back into non-existence)",
             "venigollu kasseper (rolled up like a scroll -- the heavens are treated as a written document that can be rolled shut; the cosmic order 'closed' by divine decree)",
@@ -733,7 +733,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mesillah (highway -- a raised road, prepared and graded for easy travel)",
             "derekh haqqodesh (Way of Holiness -- the sacred road for the redeemed)",
             "peduyyei YHWH (the ransomed of YHWH -- those redeemed by God's purchase-price)",

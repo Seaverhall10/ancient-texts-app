@@ -49,7 +49,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hypsistos (Most High -- Greek translation of Hebrew elyon; the divine council title for the supreme God (Deut 32:8 LXX); Gabriel uses it for the Father)",
             "Christos Kyrios (Christ the Lord / Messiah the Lord -- the double title announced to the shepherds; combines the messianic office with the divine name)",
             "soter (Savior -- the angelic announcement's title for Jesus; used for YHWH in the OT: 'I, I am the LORD, and besides me there is no savior,' Isa 43:11)",
@@ -194,7 +194,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "emoi paradedotai (it has been delivered to me -- Satan's claim of delegated authority over the nations; passive voice implying God as the ultimate source; the Deut 32 worldview)",
             "pneuma kyriou (Spirit of the Lord -- the anointing Spirit of Isaiah 61:1; Jesus is the Spirit-anointed Messiah who proclaims the jubilee)",
             "aphesis (release / forgiveness -- 'to proclaim release to the captives' (4:18); jubilee language from Leviticus 25; liberation from bondage)",
@@ -323,7 +323,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ptochoi (poor -- Luke's Beatitudes address the literally poor, not just the 'poor in spirit' (Matt 5:3); Luke emphasizes material reversal)",
             "ouai (woe -- Luke's unique woes (6:24-26) pronounce judgment on the rich, the full, the laughing, and the popular; the covenant curses inverted)",
             "agapate tous echthrous (love your enemies -- the radical ethic of the kingdom; extending love beyond natural boundaries into enemy territory)",
@@ -440,7 +440,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "pistis (faith -- the centurion's faith surpasses Israel's; faith is the operative response to the kingdom's arrival)",
             "prophetes megas (a great prophet -- the crowd's response to the raising of the widow's son: 'A great prophet has arisen among us!' (7:16); echoing Elijah)",
             "epeskepsato (has visited -- 'God has visited his people!' (7:16); the same verb used in 1:68 (Benedictus); YHWH's personal intervention in history)",
@@ -554,7 +554,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "exodos (departure / exodus -- Moses and Elijah discuss Jesus' 'exodus' at Jerusalem; linking the crucifixion to Israel's liberation from bondage; Jesus' death is the new exodus)",
             "Christos tou theou (the Christ of God -- Peter's confession; the anointed one who belongs to God; the long-awaited Messiah)",
             "to prosopon esterisen (he set his face -- 'he set his face to go to Jerusalem' (9:51); echoing Isaiah 50:7, the Servant's resolve: 'I have set my face like a flint')",

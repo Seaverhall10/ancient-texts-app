@@ -49,7 +49,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c3\u03c4\u03ad\u03c6\u03b1\u03bd\u03bf\u03c2 (stephanos)",
                 "meaning": "Crown, wreath, garland. Distinct from diadema "
@@ -289,7 +289,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c3\u03c4\u03ad\u03c6\u03b1\u03bd\u03bf\u03c2 \u03c4\u03b7\u03c2 \u03b6\u03c9\u03b7\u03c2 (stephanos tes zoes)",
                 "meaning": "The Crown of Life. Promised to those who remain "

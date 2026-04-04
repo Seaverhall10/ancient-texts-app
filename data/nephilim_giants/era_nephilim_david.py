@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d2\u05b8\u05bc\u05dc\u05b0\u05d9\u05b8\u05ea (Golyat / Goliath)",
                 "meaning": "Possibly from the root g-l-h, 'to uncover' or "
@@ -379,7 +379,7 @@ CHAPTERS = [
                                "designation rather than a generic plural."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d9\u05b4\u05dc\u05bc\u05b4\u05d3 \u05d4\u05b8\u05e8\u05b8\u05e4\u05b8\u05d4 (yillid ha-raphah)",
                 "meaning": "'Born to the giant' or 'descendant of the Raphah.' "
@@ -689,7 +689,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e1\u05b5\u05e4\u05b6\u05e8 \u05d4\u05b7\u05e0\u05b0\u05e4\u05b4\u05d9\u05dc\u05b4\u05d9\u05dd (Sefer ha-Nephilim)",
                 "meaning": "The 'Book of Giants' \u2014 a fragmentary work found "

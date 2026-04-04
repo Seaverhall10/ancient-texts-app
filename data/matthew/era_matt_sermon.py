@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "makarioi (blessed -- from makar; equivalent to Hebrew ashre in Psalm 1:1; not emotional happiness but divine favor, the state of flourishing under God's rule)",
             "ptochoi to pneumati (poor in spirit -- ptochos means 'beggar-poor,' totally dependent; spiritual poverty = knowing one's desperate need for God)",
             "praeis (meek/gentle -- from praus; a controlled strength, like a trained war horse; LXX of Psalm 37:11 uses this word for Hebrew anawim, the humble faithful)",
@@ -151,7 +151,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "pleroo (to fulfill -- not to replace but to fill up to its fullest meaning; Jesus reveals what Torah was always pointing toward)",
             "ego de lego hymin (but I say to you -- the unprecedented formula of authority; no scribe says 'I say' but rather 'Rabbi X said'; Jesus speaks on his own divine authority)",
             "raka (Aramaic: empty one, worthless -- a contemptuous dismissal of someone's value; Jesus equates verbal dehumanization with murder)",
@@ -278,7 +278,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Pater hemon ho en tois ouranois (Our Father in heaven -- Avinu shebashamayim; YHWH as cosmic Father, enthroned in the heavenly realm above the council)",
             "hagiastheto to onoma sou (hallowed be your name -- from hagiazo; the divine Name set apart as supremely holy; a declaration of YHWH's incomparability)",
             "arton epiousion (daily bread -- epiousion appears NOWHERE else in Greek literature; possibly 'bread for the coming day' or 'bread of existence'; a complete mystery word)",
@@ -413,7 +413,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "krinete (judge -- from krino; the word covers a range from 'evaluate' to 'condemn'; Jesus forbids condemnatory judgment, not moral discernment)",
             "stene pyle (narrow gate -- the kingdom entrance is constrained; few find it because it requires self-denial, not self-promotion)",
             "anomia (lawlessness -- from a + nomos, 'without Torah'; those who claim Jesus' name but reject his teaching; lawlessness = life without divine order)",
@@ -532,7 +532,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "exousia (authority -- the word that closes the Sermon; Jesus possesses divine authority that surpasses all human teaching tradition)",
             "basileia (kingdom -- the governing concept: the Sermon describes life under God's rule, not merely ethical principles for a fallen world)",
             "dikaiosyne (righteousness -- appears 7 times in the Sermon; not forensic imputation but lived covenant faithfulness that exceeds the Pharisees' (5:20))",

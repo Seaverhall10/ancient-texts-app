@@ -53,7 +53,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e8\u05d5\u05bc\u05d7\u05b7 (ruach)",
                 "meaning": "Spirit, wind, breath. The medium of prophetic "
@@ -352,7 +352,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b1\u03c1\u03c0\u03b1\u03b3\u03ad\u03bd\u03c4\u03b1 (harpagenta)",
                 "meaning": "Caught up, snatched away, seized (Greek aorist "

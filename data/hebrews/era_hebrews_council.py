@@ -57,7 +57,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "apaugasma (radiance/effulgence -- 1:3; the Son is the outshining of divine glory, not a reflected light but the emission of the source itself; used only here in the NT)",
             "charakter (exact imprint -- 1:3; the stamp pressed into wax that carries the precise impression of the seal; the Son bears the precise impression of God's hypostasis)",
             "hypostasis (substance/underlying reality -- 1:3; the foundational ontological reality of God's being; the Son is the charakter of this hypostasis, not a copy of a copy)",
@@ -354,7 +354,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "di' angelon (through angels -- 2:2; the Mosaic Torah was 'declared through angels'; this is not heterodox -- Acts 7:53, Gal 3:19, Deut 33:2 LXX all confirm this tradition)",
             "bebaios (reliable/firm -- 2:2; the angelic-mediated word was bebaios -- solid, legally binding, dependable; the author is not dismissing the Torah but affirming its authority before showing what surpasses it)",
             "bebaiōsis (confirmation/validation -- the word-group appears at 6:16 for oaths that confirm covenants; the angelic mediation produced a legally confirmed covenant)",
@@ -625,7 +625,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "antitypon (copy/antitype -- 9:24; the earthly sanctuary is the antitypon -- the corresponding copy -- of the true heavenly original; typology in Hebrews is always historical, not allegorical)",
             "typos (pattern -- 8:5; Moses was shown the typos on the mountain; the earthly tabernacle was constructed according to a heavenly blueprint, implying the heavenly original exists)",
             "skia (shadow -- 8:5; 10:1; the Mosaic system is a skia -- a shadow cast by the heavenly substance; a shadow implies a solid object producing it)",
@@ -905,7 +905,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "proselelythate (you have come -- 12:22; perfect indicative, completed action; the ekklesia has already arrived at the heavenly assembly -- not 'you will come' but 'you have come'; present spiritual reality)",
             "panegyris (festal assembly/celebration -- 12:22; a Greek term for a great public gathering, a festival of the whole people; the angelic gathering at Mount Zion is a celebration, not a military muster)",
             "ekklesia (governing assembly -- 12:23; the term for the Greek democratic assembly of citizens with authority to act; here applied to the assembly of the firstborn enrolled in heaven)",
@@ -1194,7 +1194,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mēsitēs (mediator -- Heb 8:6; 9:15; 12:24; from mesos 'middle' + a verb of action; a mediator stands between two parties and facilitates their relationship; the question Hebrews answers is: which mediator has sufficient standing?)",
             "Melchizedek (malki-tsedeq -- 'king of righteousness' or 'my king is righteousness'; Heb 7:2 parses the name; also 'king of Salem' = 'king of peace'; priest-king who predates the Levitical system)",
             "engyos (guarantor -- Heb 7:22; used only here in the NT; Christ is the personal guarantee of the better covenant; his indestructible life is staked on its fulfillment)",

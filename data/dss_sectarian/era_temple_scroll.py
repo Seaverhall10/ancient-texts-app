@@ -20,7 +20,7 @@ CHAPTERS = [
         "text": "And I will consecrate my temple by my glory, the temple on which I will settle my glory, until the day of the blessing on which I will create my temple, establishing it for myself for all time",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "torah (תורה — instruction/law; the divine legal corpus that the Temple Scroll rewrites in God's direct voice)",
         "dibbur (דבור — speech/saying; God's first-person speech without Mosaic mediation throughout the scroll)",
         "miqdash (מקדש — sanctuary/temple; the sacred dwelling God commands to be built according to His blueprint)",
@@ -123,7 +123,7 @@ CHAPTERS = [
         "text": "And you shall make an inner court and a middle court and an outer court, with gates on every side, and the measurement of the court shall be...",
         "translation": "Martinez"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "ḥatser (חצר — court/courtyard; the three concentric courts radiating holiness outward from God's presence)",
         "sha'ar (שער — gate; the twelve tribal gates giving structured access to the sacred precinct)",
         "mizbeaḥ (מזבח — altar; the central sacrificial structure at the heart of the ideal temple complex)",
@@ -226,7 +226,7 @@ CHAPTERS = [
         "text": "On the fourteenth day of the first month... is the Passover of the LORD. On the fifteenth day of this month is a festival, seven days unleavened bread shall be eaten",
         "translation": "Martinez"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "luaḥ (לוח — calendar; the 364-day solar system aligning earthly worship with the heavenly liturgy)",
         "mo'adim (מועדים — appointed festivals; the sacred times fixed by divine decree in the solar calendar)",
         "pesaḥ (פסח — Passover; the foundational liberation festival observed on the 14th of the first month)",
@@ -330,7 +330,7 @@ CHAPTERS = [
         "text": "And you shall make a place outside the city to which they shall go, northwest of the city: roofed places with pits within them, into which the excrement shall descend",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "tohorah (טהרה — purity; the holiness state required for dwelling in the sacred city precincts)",
         "tum'ah (טומאה — impurity; ritual contamination requiring exclusion from zones of holiness)",
         "niddah (נדה — menstrual impurity; a major source of defilement requiring separation from the holy city)",
@@ -433,7 +433,7 @@ CHAPTERS = [
         "text": "He shall select from them twelve princes of his people, and twelve priests, and twelve Levites, who shall sit with him for judgment and for Torah. He shall not act on his own without them concerning any matter",
         "translation": "Martinez"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "melekh (מלך — king; the monarch subordinated to Torah and accountable to a mandatory priestly council)",
         "mishpaṭ ha-melekh (משפט המלך — law of the king; the expanded constitutional restraints on royal authority)",
         "'atsah (עצה — council; the mandatory body of 36 advisors (12 priests, 12 Levites, 12 laymen) required for every royal decision)",

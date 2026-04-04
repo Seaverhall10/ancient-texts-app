@@ -25,7 +25,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["adam", "adamah", "tselem", "demut", "zera"],
+        "original_terms": ["adam", "adamah", "tselem", "demut", "zera"],
 
         "ane_backdrop": "The ten-generation genealogy from Adam to Noah finds a striking structural parallel in the Sumerian King List (SKL), which records eight or ten kings who ruled before the flood with fantastically long reigns (tens of thousands of years). Both traditions share the same architecture: a list of pre-flood figures with extraordinary lifespans, a catastrophic flood that divides history, and post-flood figures whose lifespans progressively diminish. The Sumerian sage Enmeduranki, king of Sippar (city of the sun god Shamash), was said to have been taken up into the divine assembly and taught heavenly secrets — a tradition remarkably parallel to Enoch, the seventh from Adam, who 'walked with God and was not.' The declining lifespans in Genesis 5 (Adam 930, Noah 950) compared to post-flood genealogies (Shem 600, Abraham 175) mirror the SKL's pattern where post-flood kings reign for progressively shorter periods. Whether Genesis is drawing on, correcting, or independently paralleling these Mesopotamian traditions, the structural correspondence is unmistakable.",
 
@@ -118,7 +118,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["bene_elohim", "nephilim", "adam", "ruach", "elohim", "elohim_plural"],
+        "original_terms": ["bene_elohim", "nephilim", "adam", "ruach", "elohim", "elohim_plural"],
 
         "ane_backdrop": "The motif of divine-human sexual union is widespread in the Ancient Near East. In Mesopotamia, the apkallu (antediluvian sages sent by the gods) brought forbidden knowledge to humanity — a tradition strikingly parallel to the Watchers of 1 Enoch. The Gilgamesh Epic describes Gilgamesh himself as two-thirds divine and one-third human, the offspring of the goddess Ninsun and the mortal Lugalbanda. Ugaritic texts describe the birth of divine-human hybrid figures: the Rephaim (rpum) are semi-divine warrior-kings of old, linguistically cognate with the biblical Rephaim who are associated with the Nephilim in later traditions (Deut 2:11, 20). Hesiod's Theogony and the Greek tradition of heroes (hemitheos, 'half-gods') born from unions of gods with mortal women — Heracles, Achilles, Perseus — represents the same motif in the Aegean world. The phrase 'mighty men of old, men of renown' (gibborim asher me'olam anshei hashem) in Genesis 6:4 uses the exact language of heroic warriors and demi-gods found across ANE literature. Genesis does not borrow these stories uncritically; it reframes the divine-human union as transgression rather than glory, and the resulting 'heroes' as the catalyst for divine judgment rather than objects of admiration.",
 
@@ -221,7 +221,7 @@ CHAPTERS = [
             "text": "When man began to multiply on the face of the land and daughters were born to them, the sons of God saw that the daughters of man were attractive. And they took as their wives any they chose.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["bene_elohim", "nephilim"],
+        "original_terms": ["bene_elohim", "nephilim"],
         "ane_backdrop": None,
         "second_temple": [],
 
@@ -295,7 +295,7 @@ CHAPTERS = [
             "text": "Enoch walked with God, and he was not, for God took him.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["adam"],
+        "original_terms": ["adam"],
         "ane_backdrop": None,
         "second_temple": [],
 

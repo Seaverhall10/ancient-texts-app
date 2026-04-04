@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "patach (to open -- Hezekiah's defining act: opening the temple doors Ahaz had shut; the reversal of apostasy begins with opening the house of God)",
             "pesach (Passover -- Hezekiah's Passover reunites north and south; the Chronicler presents it as a preview of eschatological unity)",
             "channun verachum (gracious and merciful -- YHWH's character, cited by Hezekiah as the basis for the northern invitation; echoing Exod 34:6)",
@@ -179,7 +179,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shuv (to turn/repent -- Manasseh's repentance: he 'humbled himself greatly before the God of his fathers' and God 'brought him again to Jerusalem'; even the worst king can return)",
             "sefer hatorah (the Book of the Law -- discovered by Hilkiah during Josiah's temple repair; probably Deuteronomy or a portion of the Torah)",
             "ein marpe (no remedy/no healing -- the point of no return for Judah; God's patience has limits; persistent mockery of prophets exhausts covenant grace)",

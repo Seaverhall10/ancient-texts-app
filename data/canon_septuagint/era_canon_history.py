@@ -50,7 +50,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b8\u03b5\u03cc\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03bf\u03c2 (theopneustos)",
                 "meaning": "'God-breathed' -- Paul's term in 2 Timothy 3:16 for the nature "
@@ -274,7 +274,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c0\u03c1\u03bf\u03b5\u03c6\u03ae\u03c4\u03b5\u03c5\u03c3\u03b5\u03bd (epropheteusen)",
                 "meaning": "'Prophesied' -- the Greek verb Jude uses to describe Enoch's "

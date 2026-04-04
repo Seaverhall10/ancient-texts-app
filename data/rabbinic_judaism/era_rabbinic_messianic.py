@@ -54,7 +54,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "eved YHWH",
                 "hebrew": "עֶבֶד יהוה",
@@ -399,7 +399,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "minim",
                 "hebrew": "מִינִים",

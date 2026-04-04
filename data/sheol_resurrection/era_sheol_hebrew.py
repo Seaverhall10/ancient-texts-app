@@ -46,7 +46,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e9\u05c1\u05b0\u05d0\u05d5\u05b9\u05dc (she'ol)",
                 "meaning": "The realm of the dead. Etymology disputed: possibly from "
@@ -263,7 +263,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d7\u05b5\u05d9\u05e7 \u05d0\u05b7\u05d1\u05b0\u05e8\u05b8\u05d4\u05b8\u05dd (cheiq Avraham)",
                 "meaning": "Abraham's bosom -- the place of comfort for the righteous "

@@ -40,7 +40,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sofer mahir (skilled scribe -- Ezra's title; not merely a copyist but an expert interpreter of Torah; the prototype of the later rabbinic tradition)",
             "yad-elohay (the hand of his God -- the recurring phrase for divine provision and protection on Ezra; appears six times in chs. 7-8)",
             "ma'al (unfaithfulness/breach of faith -- the same Chronicler word used for exile; intermarriage is ma'al because it risks repeating the covenant treachery that caused the exile)",

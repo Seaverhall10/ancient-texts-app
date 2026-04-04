@@ -35,7 +35,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mishpat (justice -- right ordering of society; YHWH's primary demand)",
             "tsedaqah (righteousness -- covenant faithfulness enacted in social relationships)",
             "qinah (funeral lament -- Amos sings Israel's death song while the nation is still alive)",
@@ -130,7 +130,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "anakh (plumb line -- the standard by which Israel is measured and found wanting)",
             "qayits/qets (summer fruit/end -- devastating wordplay: the fruit is ripe, the end has come)",
             "sukkah (booth/hut -- the 'booth of David' that will be restored; humble, not palatial)"

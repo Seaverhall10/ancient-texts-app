@@ -36,7 +36,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ruach (wind -- they sow wind; insubstantial, empty)",
             "sufah (whirlwind/storm -- they reap destruction far greater than what they sowed)",
             "egel Shomeron (calf of Samaria -- the golden calf worship at Bethel and Dan)",
@@ -129,7 +129,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "paqad (visitation/punishment -- YHWH 'visits' Israel in judgment)",
             "Baal-peor (the site of Israel's first mass apostasy through sexual idolatry, Num 25)",
             "nabi (prophet -- the people mock the prophet as a fool)",
@@ -216,7 +216,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "gefen (vine -- Israel as luxuriant vine, cf. Isa 5, Ps 80, John 15)",
             "nir (fallow ground -- unplowed land that needs breaking up; metaphor for hardened hearts)",
             "tsedaqah (righteousness -- what Israel should sow instead of iniquity)"
@@ -309,7 +309,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "na'ar (child/youth -- Israel as YHWH's beloved child)",
             "ahavah (love -- 'I loved him,' divine parental love)",
             "rachamim (compassion -- 'my compassion grows warm and tender,' womb-love, visceral)",
@@ -421,7 +421,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "aqav (to take by the heel/supplant -- wordplay on Jacob's name and character)",
             "sarah (to strive/contend -- Jacob 'strove' with God; the root of 'Israel')",
             "mal'ak (angel/messenger -- the divine being Jacob wrestled at Peniel)"
@@ -517,7 +517,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Sheol (the realm of the dead -- the underworld, the grave)",
             "mavet (Death -- personified as a power; in Canaanite mythology, Mot was the god of death)",
             "padah (ransom/redeem -- YHWH's capacity to buy back from Death itself)",
@@ -608,7 +608,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shub (return/repent -- the key verb of the entire book, here finally enacted genuinely)",
             "rapha (to heal -- 'I will heal their apostasy'; only YHWH can heal the sickness of unfaithfulness)",
             "nedavah (freely/voluntarily -- 'I will love them freely'; YHWH's love is uncaused, unearned)",

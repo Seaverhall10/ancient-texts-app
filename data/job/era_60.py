@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tam (blameless/complete -- moral integrity, not sinless perfection)",
             "yashar (upright -- straight, ethically aligned with God's standards)",
             "bene ha-elohim (sons of God -- divine council members, spiritual beings)",
@@ -207,7 +207,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tummah (integrity -- from the same root as tam, completeness of character)",
             "khinnam (for nothing/without cause -- the key word linking the two council scenes)",
             "shechin ra (loathsome sores -- a severe skin disease, possibly related to elephantiasis or boils)",
@@ -327,7 +327,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "yovad (let it perish -- jussive expressing a wish for destruction of the day itself)",
             "choshek (darkness -- the opposite of the creative light of Genesis 1:3)",
             "Leviathan (the chaos sea monster -- invoked here as a symbol of anti-creation power)",
@@ -434,7 +434,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ruach (spirit -- the spirit being that appears to Eliphaz in the night vision)",
             "tsadaq (to be righteous/in the right -- the key verb of the entire book)",
             "enosh (mortal man -- emphasizing human frailty and mortality)",
@@ -547,7 +547,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nachal (wadi/seasonal brook -- the metaphor for friends who fail when needed)",
             "tsava (hard service/military conscription -- life as forced labor under God)",
             "enosh (mortal/frail man -- Job diminishes humanity's stature before God)",
@@ -641,7 +641,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mishpat (justice -- Bildad insists God does not pervert it; Job questions whether he can access it)",
             "mokiach (arbiter/mediator -- the one who could bridge the gap between God and man)",
             "chaqar (to search out -- the depths of God that Zophar says are unsearchable)",
@@ -751,7 +751,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chokhmah (wisdom -- Job claims equal wisdom with the friends and attributes all wisdom to God)",
             "yakach (to argue/contend -- the legal language of pressing a case before God)",
             "tikvah (hope -- the fragile hope that a dead tree might sprout again, applied tentatively to death)",

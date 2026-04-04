@@ -51,7 +51,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b5\u03b9\u03c2 \u03b1\u03c0\u03b1\u03bd\u03c4\u03b7\u03c3\u03b9\u03bd (eis apantesin)",
                 "meaning": "For the purpose of a formal reception. The preposition eis "
@@ -294,7 +294,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b1\u03c0\u03bf\u03ba\u03b1\u03bb\u03c5\u03c8\u03b9\u03c2 (apokalypsis)",
                 "meaning": "Unveiling, revelation, disclosure. Used for Christ's return in "

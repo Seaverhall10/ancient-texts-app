@@ -20,7 +20,7 @@ CHAPTERS = [
         "text": "The first attack of the Sons of Light shall be undertaken against the lot of the Sons of Darkness, against the army of Belial: against the troop of Edom, Moab, the sons of Ammon, and [the land of] Philistia, and against the troops of the Kittim of Asshur, and with them those who assist them from among the violators of the covenant.",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "bene 'or (בני אור — Sons of Light; the eschatological army of God drawn from Levi, Judah, and Benjamin)",
         "bene ḥoshekh (בני חושך — Sons of Darkness; the cosmic enemy alliance under Belial including Kittim and apostates)",
         "kittim (כתיים — Kittim; the Romans, identified as the primary earthly instrument of Belial's forces)",
@@ -119,7 +119,7 @@ CHAPTERS = [
         "text": "On the standards of the congregation they shall write: 'Congregation of God,' 'Camps of God,' 'Tribes of God,' 'Families of God'... On the standards of the assembly of the camps they shall write: 'Peace of God in the camps of His saints'",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "ḥatsotsrot (חצוצרות — trumpets; the signal instruments commanding every phase of battle from assembly to retreat)",
         "'otot (אותות — standards/banners; the inscribed military emblems declaring divine ownership of each unit)",
         "ma'arakhah (מערכה — battle line/formation; the seven-line combat arrangement reflecting sacred military order)",
@@ -222,7 +222,7 @@ CHAPTERS = [
         "text": "On that day the assembly of the gods and the congregation of men shall confront one another for great destruction. The sons of light and the lot of darkness shall battle together for the might of God, amid the roar of a great multitude and the clamor of gods and men",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "mikha'el (מיכאל — Michael; the Prince of Light who leads the angelic host alongside Israel in eschatological battle)",
         "sar ha-'orim (שר האורים — Prince of Light; Michael's title as commander of God's loyal heavenly forces)",
         "'adat 'elim (עדת אלים — assembly of divine beings; the heavenly host fighting alongside human warriors)",
@@ -325,7 +325,7 @@ CHAPTERS = [
         "text": "Who is like You in strength, O God of Israel? Your mighty hand is with the poor. Which angel or prince is like the help of Your face?",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "tefillah (תפלה — prayer; the liturgical petitions recited by priests before and during eschatological battle)",
         "'el gibor (אל גבור — God the Warrior; the divine title invoked in pre-battle prayers echoing the Song of the Sea)",
         "shirat ha-nitsaḥon (שירת הנצחון — victory hymn; the songs of triumph celebrating God's sovereign battle outcomes)",
@@ -428,7 +428,7 @@ CHAPTERS = [
         "text": "Rise up, rise up, O God of gods! Raise yourself in might, O King of kings!... Let all the Sons of Darkness scatter before you! Let the light of your majesty shine forever",
         "translation": "Vermes/Martinez composite reconstruction"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "mappalat beliyya'al (מפלת בליעל — fall/defeat of Belial; the permanent destruction of the chief demonic adversary)",
         "'esh (אש — fire; the divine consuming flame that annihilates Belial's forces in the seventh battle)",
         "memshelet 'or (ממשלת אור — dominion of light; the eternal divine rule established after darkness is abolished)",

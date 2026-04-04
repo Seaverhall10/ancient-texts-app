@@ -50,7 +50,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ketem (fine gold -- now 'grown dim,' symbolizing the degradation of all that was precious, 4:1)",
             "avnei-qodesh (sacred stones -- scattered in the streets, possibly temple stones or precious children, 4:1)",
             "tannim (jackals -- even jackals nurse their young, but Zion's daughters are cruel, 4:3)",
@@ -229,7 +229,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "zekhor (remember! -- the imperative cry opening the chapter; to 'remember' in Hebrew is to act, not merely recall, 5:1)",
             "nachalatenu (our inheritance -- the land promised to Abraham, now occupied by strangers, 5:2)",
             "kiseh (throne -- YHWH's throne endures forever, 5:19, even when his earthly dwelling is destroyed)",

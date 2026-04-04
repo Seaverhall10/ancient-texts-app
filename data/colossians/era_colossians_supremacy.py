@@ -82,7 +82,7 @@ CHAPTERS = [
             'lesser powers in Deuteronomy 32:8 are being reclaimed through Christ dwelling in '
             'them by the Spirit.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u03b5\u1f30\u03ba\u03ce\u03bd',
                 'transliteration': 'eikon',
@@ -332,7 +332,7 @@ CHAPTERS = [
             '(2:18). The false teachers promote angel worship; Paul says these angels have '
             'been publicly humiliated by the cross.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u1f00\u03c0\u03b5\u03ba\u03b4\u03c5\u03c3\u03ac\u03bc\u03b5\u03bd\u03bf\u03c2',
                 'transliteration': 'apekdysamenos',
@@ -576,7 +576,7 @@ CHAPTERS = [
             'all" (3:11). The old ethnic and social divisions \u2014 the boundaries that the '
             'stoicheia maintained \u2014 are dissolved in Christ.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u03c4\u1f70 \u1f04\u03bd\u03c9',
                 'transliteration': 'ta ano',

@@ -48,7 +48,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qinah (lament/dirge -- the formal funeral poem. The qinah has a distinctive Hebrew meter: a 3:2 beat pattern, where the second half of each line is shorter than the first. The effect is a rhythmic 'limping' -- the poem musically enacts the incompleteness of grief, each line trailing off before reaching resolution. David's lament for Saul and Jonathan (1:17-27) is the finest example of the genre in the Hebrew Bible)",
             "qeshet (bow -- 'The Song of the Bow' (qeshet) is David's elegy title (1:18). Jonathan was an archer -- his weapon (the bow he gave David in 18:4) identifies him in this poem. The instruction 'to teach the people of Judah the Bow' (1:18) means the poem was to be memorized and sung publicly. It was recorded in the 'Book of Jashar' (sefer hayashar), a lost collection of Israel's heroic poetry also referenced in Joshua 10:13)",
             "mashach (to anoint -- David is anointed king over Judah at Hebron (2:4), his second anointing. His first was by Samuel at Bethlehem (1 Sam 16:13); his third will be over all Israel (2 Sam 5:3). Three anointings for three stages of authority. Each anointing is by a different agent (prophet, tribe, nation) but the same oil symbolizes the same reality: YHWH's Spirit empowering for kingship)",
@@ -192,7 +192,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ir David (City of David -- Jerusalem, David's newly conquered capital. The choice was politically brilliant: Jerusalem belonged to no Israelite tribe (it was a Jebusite city, Judg 1:21), making it neutral ground that would not provoke tribal jealousy. It sat on the border between Judah and Benjamin, bridging north and south. David renamed it 'the City of David,' making it his personal possession and the center of both political and spiritual authority when the Ark arrived)",
             "tsinnor (water shaft/tunnel -- the means by which David's men captured the Jebusite fortress (5:8). The Jebusites boasted 'the blind and the lame will turn you back' -- their city was considered impregnable. Warren's Shaft, discovered in Jerusalem in 1867, was long thought to be the tsinnor David exploited, though recent archaeology complicates this identification. The point of the narrative: human fortifications cannot stand against YHWH's purpose)",
             "emeq Rephaim (Valley of Rephaim/Giants -- the battle site southwest of Jerusalem where David twice defeated the Philistines (5:17-25). The valley's name connects to the Rephaim giant lineage (Gen 14:5; Deut 2:11, 20). David's victories here continue the pattern of YHWH's anointed defeating the seed of the rebellious bene ha'elohim. The Valley of Rephaim is the valley of the giants -- and YHWH's king conquers it)",
@@ -346,7 +346,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bayit (house -- the master word of the entire chapter, used in three senses: (1) bayit as temple -- David wants to build YHWH a 'house' to dwell in; (2) bayit as dynasty -- YHWH will build David a 'house' (royal line); (3) bayit as temple again -- David's seed will build YHWH a 'house' (Solomon's Temple). The triple wordplay is the literary and theological genius of the oracle: David cannot give YHWH a house; YHWH gives David a house that will then give YHWH a house. The initiative is always YHWH's)",
             "zera (seed/offspring -- 'I will raise up your seed (zera) after you, who shall come from your body' (7:12). This word deliberately echoes the chain of seed promises running through the Bible: the seed of the woman who will crush the serpent (Gen 3:15), the seed of Abraham through whom all nations will be blessed (Gen 22:18), the seed of Judah who will hold the scepter (Gen 49:10). The Davidic 'seed' is the next link in this chain -- and the chain will not be complete until Christ, 'the Son of David' (Matt 1:1))",
             "av / ben (father / son -- 'I will be to him a father (av), and he shall be to me a son (ben)' (7:14). This is divine adoption language: the Davidic king enters a unique filial relationship with YHWH. He is not divine by nature (as in Egyptian theology, where Pharaoh was literally 'son of Re') but adopted by decree. Psalm 2:7 makes this explicit: 'You are my Son; today I have begotten you' -- the coronation formula declaring adoption at enthronement. The New Testament applies this father-son language to Jesus as the ultimate 'Son of David' and 'Son of God' (Heb 1:5))",
@@ -548,7 +548,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chesed Elohim (the kindness/hesed of God -- David's remarkable question: 'Is there still anyone left of the house of Saul, that I may show him the chesed of God (chesed Elohim)?' (9:3). David does not show merely human kindness but 'the hesed of God' -- divine covenant loyalty channeled through human action. In ANE politics, a new dynasty typically exterminated the previous royal house to prevent rival claims. David does the opposite: he seeks out the last heir of his rival's house to honor him. This is grace -- unmerited favor to one who might be considered an enemy)",
             "shulchan hamelek (the king's table -- Mephibosheth is given a permanent place at the king's table: 'he ate at David's table, like one of the king's sons' (9:11). The king's table was the center of royal fellowship: to eat there meant inclusion in the royal family's daily life, provision, and protection. Mephibosheth, lame in both feet, coming from Lo-debar ('no pasture/no word' -- a place of desolation), is brought to the king's table as a son. From desolation to royal fellowship: this is the gospel in miniature)",
             "mishpat utsedaqah (justice and righteousness -- 'David administered justice (mishpat) and righteousness (tsedaqah) to all his people' (8:15). These twin terms define ideal governance throughout the Old Testament. Mishpat is equitable legal judgment; tsedaqah is conformity to YHWH's standard of what is right. When both are present, the kingdom flourishes. When either is absent, the kingdom decays. The prophets will later judge every king by this standard: 'Let justice roll down like waters, and righteousness like an ever-flowing stream' (Amos 5:24))",

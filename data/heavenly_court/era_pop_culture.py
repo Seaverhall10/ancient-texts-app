@@ -58,7 +58,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["elohim", "nephilim", "nachash", "azazel"],
+        "original_terms": ["elohim", "nephilim", "nachash", "azazel"],
 
         "ane_backdrop": "Tolkien was a professional philologist specializing in Old "
                         "English and medieval literature, but he was deeply read in "
@@ -296,7 +296,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["elohim", "nachash"],
+        "original_terms": ["elohim", "nachash"],
 
         "ane_backdrop": "Gnosticism emerged as a recognizable movement by the 2nd century AD (though proto-Gnostic currents appear earlier) as a radical "
                         "reinterpretation of Jewish and Christian cosmology. The Gnostics "
@@ -507,7 +507,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["elohim", "nephilim"],
+        "original_terms": ["elohim", "nephilim"],
 
         "ane_backdrop": "Joseph Campbell\'s monomyth theory, which heavily influenced "
                         "Lucas, was itself built on the study of ancient Near Eastern "
@@ -719,7 +719,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["elohim", "nephilim", "nachash"],
+        "original_terms": ["elohim", "nephilim", "nachash"],
 
         "ane_backdrop": "Lewis, like his close friend Tolkien, was steeped in ancient "
                         "literature and mythology. His academic career at Oxford and "
@@ -961,7 +961,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["nephilim", "elohim", "gibbor", "rephaim"],
+        "original_terms": ["nephilim", "elohim", "gibbor", "rephaim"],
 
         "ane_backdrop": "The divine-human hybrid motif predates Genesis by millennia. "
                         "Sumerian king lists describe antediluvian rulers who reigned "
@@ -1202,7 +1202,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["elohim", "nephilim"],
+        "original_terms": ["elohim", "nephilim"],
 
         "ane_backdrop": "The phenomenon of parallel mythologies across cultures that "
                         "had no contact with each other has been noted by scholars since "

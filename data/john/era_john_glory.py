@@ -67,7 +67,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hora (hour -- the divinely appointed moment of Jesus' death and glorification; now arrived; "
             "the culmination of the Gospel's temporal framework: 2:4; 7:30; 8:20; 12:23; 13:1; 17:1)",
             "eis telos (to the end/to the uttermost -- 13:1; his love reaches its final, complete "
@@ -249,7 +249,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "he hodos kai he aletheia kai he zoe (the way, the truth, and the life -- the sixth I AM + "
             "predicate; Jesus is the exclusive access to the Father; not a teacher of the way but THE way)",
             "parakletos (Advocate/Helper/Comforter -- from parakaleo, 'to call alongside'; a legal term "
@@ -478,7 +478,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "doxa (glory -- the visible manifestation of the divine presence; the kavod of the OT; Jesus "
             "had this glory WITH the Father before creation and now asks for its restoration)",
             "pro tou ton kosmon einai (before the world existed -- 17:5; a claim to pre-existence that "
@@ -688,7 +688,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ego eimi (I AM -- 18:5-6, 8; Jesus' response to the arrest party; the soldiers fall to the "
             "ground at the utterance of the divine name; even at his arrest, he is sovereign)",
             "he basileia he eme (my kingdom -- 18:36; not 'of this world'; not originating from the "
@@ -901,7 +901,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ho kyrios mou kai ho theos mou (my Lord and my God -- 20:28; the christological climax of "
             "the Gospel; kyrios = YHWH in the LXX; theos = elohim; Thomas confesses Jesus as both "
             "YHWH and Elohim; the 'two powers in heaven' confessed as one)",

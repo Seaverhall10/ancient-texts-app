@@ -50,7 +50,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "eliyahu (Elijah -- 'My God is YHWH'; the name itself is a polemic against Baal)",
             "amadti lephanav (I stand before him -- divine council throne-room language; a messenger who has access)",
             "orevim (ravens -- unclean birds that feed YHWH's prophet; God overrides purity categories for provision)",
@@ -219,7 +219,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "se'ippim (divided opinions / crutches -- limping between two positions; the halting of indecision)",
             "esh YHWH (fire of YHWH -- the fire that falls from heaven; the signature of divine council action)",
             "YHWH hu ha'Elohim (YHWH, he is God -- the people's confession; the theological verdict of the contest)",
@@ -394,7 +394,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qol demamah daqqah (sound of thin silence / still small voice -- the paradoxical medium of YHWH's presence)",
             "chorev (Horeb/Sinai -- the mountain of God; the covenant-making mountain where YHWH first revealed himself to Moses)",
             "me'arah (cave -- where Elijah shelters; possibly the 'cleft of the rock' where Moses stood, Exod 33:22)",
@@ -542,7 +542,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nachalah (inheritance -- the inalienable family land grant; Naboth's refusal is Torah obedience, not stubbornness)",
             "kerem (vineyard -- a symbol of Israel itself throughout the prophets: Isa 5:1-7)",
             "beliyyaal (worthless/wicked men -- the false witnesses Jezebel hires; the sons of Belial)",
@@ -681,7 +681,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sod YHWH (council of YHWH -- Hebrew sod means 'intimate counsel, secret deliberation, inner circle.' The sod YHWH is the divine throne room where YHWH presides over his council of spiritual beings and decisions about history are made. Jeremiah 23:18 asks: 'For who among them has stood in the sod (council) of YHWH to see and hear his word?' The answer defines true prophecy: only those who have actually stood in the divine council and witnessed its deliberations can speak YHWH's authentic word. Micaiah has stood in the sod; the 400 prophets have not -- this is the fundamental difference between true and false prophecy)",
             "tseva hashamayim (host of heaven -- 'the army of heaven.' These are the spiritual beings who stand at YHWH's right and left in the throne room -- not decorative courtiers but active agents who participate in governance. They are the same beings referred to as 'sons of God' (bene elohim) in Job 1-2 and as 'holy ones' (qedoshim) in Psalm 89:7)",
             "ruach sheqer (lying spirit -- a specific spirit (ruach) authorized by YHWH to be a 'spirit of falsehood' in the mouths of Ahab's prophets. This is NOT Satan -- the text does not identify the spirit. It is a member of the divine council who volunteers for a specific mission and receives YHWH's authorization. The theological implication is startling: YHWH can authorize deception as an instrument of judgment against the wicked)",

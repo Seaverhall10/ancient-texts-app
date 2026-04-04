@@ -46,7 +46,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "paqad (to count/muster — same verb used for divine visitation)",
             "edah (congregation — the assembled covenant community of Israel, "
              "functioning as both a religious assembly and a political body; "
@@ -223,7 +223,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "degel (standard/banner — tribal military ensign)",
             "ot (sign/banner — distinguishing marker)",
             "machaneh (camp — organized military/religious encampment)",
@@ -405,7 +405,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bechor (firstborn — the one who belongs to YHWH by right of the tenth plague)",
             "pidyon (redemption — the price paid for what belongs to God)",
             "Levi (joined/attached — the tribe set apart for sacred service)",
@@ -574,7 +574,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "avodah (service/work — the Levitical labor of sacred transport)",
             "massa (burden/load — the specific item each Levite carries)",
             "parokhet (veil — the curtain separating the Most Holy Place)",
@@ -744,7 +744,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tamei (ritually impure — a state of contamination requiring separation)",
             "asham (guilt/guilt offering — the sacrifice for trespass against God or neighbor)",
             "sotah (the woman suspected of infidelity — from satah, 'to go astray')",
@@ -933,7 +933,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nazir (consecrated one — from nazar, to separate/dedicate)",
             "neder (vow — a binding verbal commitment to God)",
             "nezer (consecration/crown — the uncut hair as a symbol of dedication)",

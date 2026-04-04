@@ -45,7 +45,7 @@ CHAPTERS = [
             "text": "In the beginning, God created the heavens and the earth.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["nephilim", "bnei_elohim", "gibborim"],
+        "original_terms": ["nephilim", "bnei_elohim", "gibborim"],
         "ane_backdrop": (
             'Josephus writes within a Greco-Roman intellectual context where creation accounts '
             '(Hesiod\'s Theogony, Plato\'s Timaeus) and flood narratives (Deucalion myth, '
@@ -251,7 +251,7 @@ CHAPTERS = [
             "text": "Abraham said, 'God will provide for himself the lamb for a burnt offering, my son.' So they went both of them together.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["aqedah", "elohim", "malak_yhwh"],
+        "original_terms": ["aqedah", "elohim", "malak_yhwh"],
         "ane_backdrop": (
             'The patriarchal narratives unfold against the backdrop of Bronze Age Near Eastern '
             'culture -- covenant-making ceremonies, household gods (teraphim), tribal migration '
@@ -456,7 +456,7 @@ CHAPTERS = [
             "text": "And there has not arisen a prophet since in Israel like Moses, whom the LORD knew face to face.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["moshe", "torah", "navi", "ot", "mopheth"],
+        "original_terms": ["moshe", "torah", "navi", "ot", "mopheth"],
         "ane_backdrop": (
             'Josephus\'s Moses must compete with the legendary lawgivers of antiquity -- Lycurgus '
             'of Sparta, Solon of Athens, Numa Pompilius of Rome -- whom Greek and Roman readers '
@@ -676,7 +676,7 @@ CHAPTERS = [
             "text": "But will God indeed dwell on the earth? Behold, heaven and the highest heaven cannot contain you; how much less this house that I have built!",
             "translation": "ESV"
         },
-        "hebrew_terms": ["shofet", "melekh", "heikhal", "mishkan", "keruvim"],
+        "original_terms": ["shofet", "melekh", "heikhal", "mishkan", "keruvim"],
         "ane_backdrop": (
             'The transition from judges to monarchy parallels developments across the ancient Near '
             'East, where charismatic military leaders gave way to hereditary dynasties. Josephus\'s '
@@ -873,7 +873,7 @@ CHAPTERS = [
             "text": "Yet the LORD warned Israel and Judah by every prophet and every seer, saying, 'Turn from your evil ways and keep my commandments.' But they would not listen.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["navi", "galut", "hurban", "teshuvah"],
+        "original_terms": ["navi", "galut", "hurban", "teshuvah"],
         "ane_backdrop": (
             'The Assyrian and Babylonian conquests (722 BC and 586 BC) belong to a broader '
             'pattern of Near Eastern imperial expansion. Josephus writes for an audience that '
@@ -1077,7 +1077,7 @@ CHAPTERS = [
             "text": "He shall seduce with flattery those who violate the covenant, but the people who know their God shall stand firm and take action.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["hasidim", "abomination", "hanukkah"],
+        "original_terms": ["hasidim", "abomination", "hanukkah"],
         "ane_backdrop": (
             'The Maccabean revolt (167-160 BC) belongs to the broader crisis of Hellenization in '
             'the eastern Mediterranean. Antiochus IV Epiphanes\'s persecution of Jewish religion '
@@ -1248,7 +1248,7 @@ CHAPTERS = [
             "text": "When Moses had finished writing the words of this law in a book to the very end, Moses commanded the Levites who carried the ark of the covenant of the LORD, 'Take this Book of the Law and put it by the side of the ark.'",
             "translation": "ESV"
         },
-        "hebrew_terms": ["midrash", "haggadah", "apologia", "pronoia"],
+        "original_terms": ["midrash", "haggadah", "apologia", "pronoia"],
         "ane_backdrop": (
             'Ancient historians freely adapted their sources, adding speeches, rearranging events, '
             'and providing moral interpretation. Josephus follows the conventions of Greco-Roman '

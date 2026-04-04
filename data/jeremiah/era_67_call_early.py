@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "yada (knew -- intimate, covenantal knowledge, not mere awareness)",
             "hiqdish (consecrated/set apart -- from qadash, the root of 'holy')",
             "navi (prophet -- one who speaks on behalf of another, the council's herald)",
@@ -196,7 +196,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "rib (covenant lawsuit -- a legal proceeding in which YHWH prosecutes Israel for covenant violation)",
             "chesed (covenant loyalty/devotion -- Israel's early faithfulness to YHWH in the wilderness)",
             "hevel (vanity/breath -- the worthlessness of idols, same word as in Ecclesiastes)",
@@ -336,7 +336,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "heikhal YHWH (temple of YHWH -- the threefold repetition mocks the false confidence in the temple)",
             "me'arat paritsim (den of robbers -- a hideout where thieves flee after committing crimes)",
             "Shiloh (the earlier sanctuary at Shiloh, destroyed ~1050 BC, proof that YHWH can abandon a sanctuary)",
@@ -464,7 +464,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tohu vavohu (without form and void -- the exact phrase from Gen 1:2, used nowhere else except here)",
             "tsafon (north -- both geographic and mythological; the direction of divine judgment and the mountain of the gods)",
             "adam (man/humanity -- the absence of humanity reverses the creation of Day 6)",
@@ -584,7 +584,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chesed (steadfast love -- YHWH's primary self-description alongside mishpat and tsedaqah)",
             "mishpat (justice -- the exercise of righteous judgment)",
             "tsedaqah (righteousness -- conformity to YHWH's covenantal standard)",

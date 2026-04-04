@@ -78,7 +78,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "yom_hakippurim", "kapporet", "azazel", "goralot",
             "qodesh_haqodashim", "ketoret", "sa'ir", "avon",
             "erets_gezerah", "innui_nefesh", "parokhet", "bad"
@@ -423,7 +423,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nephesh", "dam", "kaphar", "seirim", "mizbeach",
             "ohel_moed", "karet", "basar", "shachat", "kissah"
             # Key glosses: nephesh = 'life/soul/life-force' (the animating

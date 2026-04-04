@@ -20,7 +20,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["tebah", "mabbul", "berit", "ruach", "nefesh", "yhwh"],
+        "original_terms": ["tebah", "mabbul", "berit", "ruach", "nefesh", "yhwh"],
 
         "ane_backdrop": "The motif of a god warning a single righteous man to build a vessel before a great flood is deeply embedded in Mesopotamian tradition. In the Atrahasis Epic (ca. 1700 BC), the god Enki secretly warns Atrahasis through a reed wall to build a boat because the gods have decided to destroy humanity with a flood — not for moral reasons, but because human 'noise' (rigmu) is disturbing their sleep. In the Gilgamesh Epic Tablet XI, Ea warns Utnapishtim in nearly identical fashion. The Sumerian Flood Story names the survivor as Ziusudra, a pious king. Genesis transforms this shared ANE narrative at every level: the reason for the flood is ethical (human wickedness), not arbitrary (divine annoyance); one God makes the decision, rather than a fractured divine assembly acting on impulse; and the survivor is chosen for his righteousness, not merely because a sympathetic deity breaks ranks with the council. The word tebah (ark) is itself distinctive — it is not the standard Hebrew word for a ship (oniyyah) but means a box or chest, the same word used for the basket that preserves the infant Moses in Exodus 2:3. The ark is not a vehicle; it is a container of divine preservation.",
 
@@ -115,7 +115,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["tebah", "mabbul", "yhwh", "elohim", "nefesh", "ruach"],
+        "original_terms": ["tebah", "mabbul", "yhwh", "elohim", "nefesh", "ruach"],
 
         "ane_backdrop": "The Mesopotamian flood accounts share striking structural parallels with Genesis 7: a divine warning, a loading of animals, a sealing of the vessel, and the onset of devastating rains. In Gilgamesh XI, Utnapishtim loads 'all the seed of living things' along with craftsmen and precious metals. The storm lasts six days and seven nights (compared to Genesis' forty days). The Atrahasis flood is sent because the god Enlil is disturbed by human noise — there is no moral reason. When the storm begins in Gilgamesh, even the gods are terrified: they 'cowered like dogs' against the walls of heaven, and Ishtar wails that she has 'given birth to these people' only to see them destroyed. The contrast with Genesis is stark: YHWH does not cower or regret the flood mid-event. He acts with sorrow (6:6) but also with sovereign purpose, and he personally seals the door of the ark (7:16). The Mesopotamian gods lose control of their own flood; the God of Genesis never does.",
 
@@ -192,7 +192,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["ruach", "tebah", "mabbul", "yhwh", "elohim", "berit", "adamah"],
+        "original_terms": ["ruach", "tebah", "mabbul", "yhwh", "elohim", "berit", "adamah"],
 
         "ane_backdrop": "The Mesopotamian flood accounts contain strikingly similar post-flood sequences. In Gilgamesh XI, Utnapishtim's boat comes to rest on Mount Nisir (Nimush). He sends out a dove (which returns), then a swallow (which returns), then a raven (which does not return — the reverse order from Genesis). He then offers sacrifice: 'The gods smelled the savor, the gods smelled the sweet savor, the gods crowded like flies around the sacrifice.' The imagery of gods swarming around the offering like hungry flies is a far cry from Genesis 8:21, where YHWH 'smelled the pleasing aroma' (reyach hannichoach) and makes a solemn, reasoned commitment never to destroy the earth again. In Atrahasis, the mother goddess Mami/Nintu weeps over her destroyed children and swears by her fly-shaped lapis lazuli necklace never to forget the flood. The contrast is instructive: in Mesopotamia, the gods are remorseful and traumatized by a flood they barely controlled; in Genesis, God acts deliberately from start to finish and responds to Noah's sacrifice with a covenant promise rooted in his own character.",
 
@@ -264,7 +264,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["berit", "tselem", "adam", "nefesh", "elohim", "mabbul", "berakah"],
+        "original_terms": ["berit", "tselem", "adam", "nefesh", "elohim", "mabbul", "berakah"],
 
         "ane_backdrop": "The Noahic covenant has no direct ANE parallel — and that absence is itself significant. In Mesopotamian flood traditions, there is no post-flood covenant. In Gilgamesh XI, after the flood Utnapishtim and his wife are granted individual immortality and removed to a distant place — there is no covenant with humanity, no new moral order, no sign in the sky. In the Atrahasis Epic, the gods decide to control human population through barrenness, infant mortality, and celibate priestesses — mechanisms of limitation rather than covenant blessing. Genesis stands alone in presenting a post-flood covenant that (1) is universal (with 'all flesh'), (2) is unconditional (not dependent on human behavior), (3) establishes a moral framework (blood prohibition, sanctity of life), and (4) includes a visible sign (the rainbow). The rainbow (qeshet) is particularly significant: in ANE iconography, the bow is a weapon of the storm god. By hanging his 'war bow' in the sky as a sign of peace, God is declaring an end to hostilities — he has disarmed himself, as it were, toward his creation. The Noahic covenant thus introduces a category that the ANE world lacked: a binding divine commitment to the created order itself.",
 
@@ -337,7 +337,7 @@ CHAPTERS = [
             "text": "For behold, I will bring a flood of waters upon the earth to destroy all flesh in which is the breath of life under heaven. Everything that is on the earth shall die.",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
 

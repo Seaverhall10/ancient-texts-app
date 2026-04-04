@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ho theos tou aionos toutou (the god of this age -- Satan as the ruling spiritual power of the present world-system; an astounding title that presupposes divine council hierarchy)",
             "eikon tou theou (image of God -- Christ as the perfect image/representation of God; connects to Gen 1:26-27; Col 1:15)",
             "kaine ktisis (new creation -- the eschatological reality inaugurated in Christ; from kainos [new in quality] + ktisis [creation]; cf. Isa 65:17)",
@@ -196,7 +196,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Beliar/Belial (worthlessness/wickedness -- in Second Temple literature, a proper name for Satan or the chief demon; used in DSS War Scroll, Testament of Levi, Jubilees)",
             "heterozygountes (unequally yoked -- from heteros [different] + zygos [yoke]; metaphor from Deut 22:10, prohibiting yoking an ox and donkey together)",
             "naos theou zontos (temple of the living God -- the church community as God's dwelling; 'living God' distinguishes YHWH from dead idols)",
@@ -322,7 +322,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tritos ouranos (third heaven -- the highest heaven, the dwelling place of God; presupposes a multi-layered cosmic geography; equated with paradise)",
             "paradeisos (paradise -- a Persian loanword [pairidaeza = walled garden]; used in LXX for Eden [Gen 2:8]; the eschatological dwelling of the righteous)",
             "angelos Satana (messenger/angel of Satan -- a demonic agent assigned to afflict Paul; the 'thorn in the flesh')",

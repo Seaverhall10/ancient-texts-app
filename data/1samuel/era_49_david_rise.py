@@ -48,7 +48,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ruach ra'ah me'et YHWH (evil/harmful spirit from YHWH -- one of the most theologically provocative phrases in the Old Testament. A spirit (ruach) described as 'evil' or 'harmful' (ra'ah) is sent 'from YHWH' (me'et YHWH) to torment Saul. In the divine council framework, this spirit is a member of YHWH's council dispatched on a specific mission -- comparable to the lying spirit YHWH sends in 1 Kings 22:22 or the 'satan' who accuses Job in Job 1-2. The spirit operates UNDER YHWH's authority, not independently. YHWH's sovereignty over evil spirits is absolute: they do not freelance. The theological point: when YHWH removes his Spirit (ruach) from Saul, he does not leave a vacuum -- he fills it with a spirit of torment. The withdrawal of grace has consequences)",
             "levav (heart -- Hebrew levav is the seat of intellect, will, and character -- not merely emotion as in modern English. When YHWH says he 'looks at the levav,' he means he evaluates the totality of a person's inner life: their loyalty, their motives, their fundamental orientation. David's heart is aligned toward YHWH; Saul's is aligned toward self-preservation)",
             "admoni (ruddy/red-complexioned -- David's physical description. The same word describes Esau (Gen 25:25). David is 'ruddy, with beautiful eyes, and handsome' (16:12) -- the narrator notes his appearance while simultaneously teaching that YHWH does not choose on the basis of appearance)",
@@ -216,7 +216,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ish habbenayim (man of the between/champion -- Goliath's title, literally 'man of the space between the two armies.' The champion occupied the no-man's-land where the outcome of the battle was decided by representative combat. The term appears only here in the Hebrew Bible)",
             "Rephaim (the ancient giants / the dead/shades -- a term with two distinct meanings in Hebrew: (1) the giant warrior lineage that predated Israel in Canaan, related to the Nephilim of Genesis 6:4; (2) the shades of the dead in Sheol (Job 26:5; Isa 14:9; Ps 88:10). The double meaning may not be accidental: the giant warriors were associated with the underworld realm of the dead. Goliath as a Rephaim descendant carries the taint of the rebellious bene ha'elohim whose offspring (Nephilim/Rephaim) are the physical legacy of the first rebellion)",
             "Anakim (descendants of Anak -- 'long-necked ones' or 'those who wear necklaces'; a clan of extraordinarily tall warriors related to the Rephaim (Deut 2:10-11). Joshua drove them from the hill country but 'some remained in Gaza, in Gath, and in Ashdod' (Josh 11:22) -- the Philistine cities. Goliath of Gath is a surviving Anakite remnant)",
@@ -387,7 +387,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "berit (covenant -- a binding, solemn agreement ratified before YHWH. Jonathan's covenant with David is not merely a friendship pact but a formal treaty of loyalty sworn by sacred oath. The same word governs YHWH's relationship with Israel (the Mosaic covenant), with Abraham (Gen 15), and with David (2 Sam 7). Jonathan's berit transfers his royal claim to David voluntarily -- an act of covenant faithfulness to YHWH's choice over his own dynastic interest)",
             "qashar (to knit/bind/conspire -- Jonathan's soul 'knit' to David's; the verb carries both covenant bonding and conspiracy overtones. In one sense Jonathan and David are bound in deepest loyalty; in another, Jonathan's attachment to David is political conspiracy against his own father's dynasty. The same verb is used for Absalom's conspiracy (2 Sam 15:12) -- but Jonathan's 'conspiracy' is with YHWH's plan, not against it)",
             "me'il (robe -- the royal outer garment. When Jonathan gives David his me'il, he transfers the visible symbol of princely authority. This is the same garment type whose corner David will cut from Saul's robe (24:4), and the same garment Samuel's ghost wears at Endor (28:14). The me'il is a marker of status and identity throughout 1 Samuel)",

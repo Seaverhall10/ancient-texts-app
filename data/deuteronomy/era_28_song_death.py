@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["chazaq", "amats", "yehoshua", "sefer_hatorah", "haqhel", "shirah", "hester_panim", "anan"],
+        "original_terms": ["chazaq", "amats", "yehoshua", "sefer_hatorah", "haqhel", "shirah", "hester_panim", "anan"],
 
         "hebrew_glossary": {
             "chazaq": "Be strong (the covenant charge given to Joshua — not mere encouragement but a command to covenant courage)",
@@ -217,7 +217,7 @@ CHAPTERS = [
             "translation": "ESV (with DSS reading, b'nei 'elohim)"
         },
 
-        "hebrew_terms": ["haazinu", "tsur", "elyon", "bnei_elohim", "nachalah", "chevel", "shedim", "elohim_lo_yadaum",
+        "original_terms": ["haazinu", "tsur", "elyon", "bnei_elohim", "nachalah", "chevel", "shedim", "elohim_lo_yadaum",
                           "yeshurun", "lo_el", "lo_am", "davar", "neqamah", "kipper", "nachash", "emunah", "eloah"],
 
         "hebrew_glossary": {
@@ -637,7 +637,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["berakhah", "qedoshim", "thummim", "urim", "yeshurun", "zeroa_olam", "elohei_qedem", "rokhev_shamayim"],
+        "original_terms": ["berakhah", "qedoshim", "thummim", "urim", "yeshurun", "zeroa_olam", "elohei_qedem", "rokhev_shamayim"],
 
         "hebrew_glossary": {
             "berakhah": "Blessing (a prophetic declaration of divine favor — legally binding in the ANE as a deathbed oracle)",
@@ -800,7 +800,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["nevo", "pisgah", "eved_yhwh", "panim_el_panim", "semikhat_yadayim", "evel", "otot_umoftim"],
+        "original_terms": ["nevo", "pisgah", "eved_yhwh", "panim_el_panim", "semikhat_yadayim", "evel", "otot_umoftim"],
 
         "hebrew_glossary": {
             "nevo": "Nebo (the mountain in Moab where Moses dies — possibly named after the Babylonian god Nabu, god of writing, which would be ironic for the place where the Torah's author departs)",

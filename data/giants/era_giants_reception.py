@@ -23,7 +23,7 @@ CHAPTERS = [
             "text": "Two hundred demons descended to the earth... and they took wives and begat giants.",
             "translation": "W.B. Henning (1943)"
         },
-        "hebrew_terms": ["nephilim", "shemihazah", "irin", "chalom"],
+        "original_terms": ["nephilim", "shemihazah", "irin", "chalom"],
         "ane_backdrop": "The Turfan oasis in Chinese Turkestan (modern Xinjiang) was a major center of Manichaean missionary activity along the Silk Road from the 3rd-9th centuries CE. The discovery of thousands of manuscript fragments in multiple languages at sites like Bulayïq and Qočo revealed the remarkable geographical and linguistic spread of Manichaeism, which had been nearly eradicated in its Persian homeland. The multi-lingual nature of these fragments—Middle Persian (Pahlavi), Sogdian, Parthian, Coptic, and Old Uighur Turkish—demonstrates how Mani's religion adapted to diverse cultural contexts while maintaining core narratives, including the Book of Giants, which Mani himself listed among his canonical scriptures.",
         "second_temple": [
             {
@@ -116,7 +116,7 @@ CHAPTERS = [
             "text": "For owing to these three things came the flood upon the earth... on account of the fornication wherein the Watchers against the law of their ordinances went a whoring after the daughters of men, and took themselves wives of all which they chose: and they made the beginning of uncleanness.",
             "translation": "R.H. Charles"
         },
-        "hebrew_terms": ["nephilim", "bene_elohim", "gibborim", "shedim"],
+        "original_terms": ["nephilim", "bene_elohim", "gibborim", "shedim"],
         "ane_backdrop": "The Book of Jubilees, composed in the mid-2nd century BCE (ca. 160-150 BCE), represents a comprehensive rewriting of Genesis and Exodus from an Enochic theological perspective. Often called 'Little Genesis' in ancient sources, Jubilees presents itself as a revelation to Moses on Mount Sinai, dictated by the Angel of the Presence. The work's chronological precision (dating all events by jubilees, weeks of years, and specific days) and its halakhic innovations suggest composition within priestly circles concerned with calendar disputes and cultic purity. Multiple copies found at Qumran (15 manuscripts: 1Q17-18, 2Q19-20, 3Q5, 4Q176, 4Q216-228, 11Q12) demonstrate its importance to the Dead Sea community, and fragments of a Hebrew original confirm that the complete Ethiopic version preserves an authentic Second Temple text. The work's integration of Enochic traditions—particularly the Watcher narrative—into the Pentateuchal framework reveals how some Jewish groups considered this material essential for understanding biblical history, not as speculative legend but as revealed truth necessary for proper interpretation of Torah.",
         "second_temple": [
             {

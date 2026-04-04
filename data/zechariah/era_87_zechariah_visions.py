@@ -33,7 +33,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mal'akh YHWH (Angel/Messenger of YHWH -- the heavenly figure who guides Zechariah's visions and intercedes for Jerusalem)",
             "lehithalekh ba-arets (to patrol the earth -- the heavenly horsemen's reconnaissance mission; cf. Job 1:7 where the satan also patrols)",
             "shuvu elai (return to me -- the covenant invitation; YHWH's return depends on their return)"
@@ -112,7 +112,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chevel middah (measuring line -- the surveyor's tool; but YHWH's Jerusalem cannot be measured)",
             "chomat esh (wall of fire -- YHWH himself as Jerusalem's protection; theophanic fire imagery)",
             "nilvu (shall join themselves -- the nations will attach themselves to YHWH; the ingathering of the Gentiles)"
@@ -188,7 +188,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ha-satan (the accuser/adversary -- with the article; a prosecutorial role in the divine council, not yet a proper name)",
             "tsemach (Branch -- the messianic title; the shoot from David's line; cf. Isa 11:1, Jer 23:5)",
             "tso'im (filthy garments -- not merely dirty but excrement-stained; representing deep moral defilement)",
@@ -282,7 +282,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "menorah (lampstand -- the golden lampstand; symbol of YHWH's presence and Israel's witness)",
             "ruach (Spirit -- YHWH's Spirit, the divine power that accomplishes what human might cannot)",
             "bene ha-yitshar (sons of fresh oil -- the two anointed figures who stand before the Lord of all the earth)",
@@ -369,7 +369,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "megillah afah (flying scroll -- the airborne covenant document; YHWH's judgment published in the heavens)",
             "ha-rishah (the Wickedness -- personified evil, female; sealed and exiled to Shinar/Babylon)",
             "arba ruchot ha-shamayim (four spirits/winds of heaven -- the divine council agents dispatched from YHWH's throne)",
@@ -456,7 +456,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mishpat emet (true judgment -- the justice YHWH demands over empty religious ritual)",
             "chesed ve-rachamim (kindness and mercy -- the covenant virtues that matter more than fasting)",
             "ir ha-emet (city of truth -- Jerusalem's future name; YHWH's holy mountain is the 'faithful mountain')"

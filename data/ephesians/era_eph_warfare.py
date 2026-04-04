@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "en tois epouraniois (in the heavenly places -- the five-fold phrase unique to Ephesians; the spiritual dimension where blessings, Christ's throne, the powers, and spiritual warfare all intersect)",
             "hyperano (far above -- a compound preposition intensifying 'above'; Christ's position is not one rank higher but transcendently superior to every tier of the cosmic hierarchy)",
             "arche (rule/principality -- the highest tier of spiritual authority in the divine council; ruling princes with jurisdiction over cosmic domains)",
@@ -240,7 +240,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "polypoikilos (manifold/many-splendored -- used of intricate embroidery or a tapestry of many colors; the dazzling complexity of God's wisdom revealed through the church to the watching powers)",
             "mysterion (mystery -- the previously hidden plan now apocalyptically disclosed; not unknowable but previously unrevealed, concealed in God since before creation)",
             "oikonomia (stewardship/administration -- God's household management of the cosmic plan; Paul's delegated role in administering the mystery to the Gentiles)",
@@ -452,7 +452,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kosmokratores tou skotous (cosmic powers of this darkness -- a term from Greco-Roman astral religion for planetary deities; Paul co-opts it for the hostile spiritual powers whose domain is the darkness of the present age)",
             "pale (wrestling -- 6:12; hand-to-hand combat, the closest and most personal form of ancient warfare; spiritual conflict is not fought at a distance but in direct engagement)",
             "panoplia tou theou (the full armor of God -- 6:11, 13; the complete set of military equipment; not the believer's armor but GOD's own armor, the same gear YHWH wears as warrior in Isaiah 59:17)",

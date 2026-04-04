@@ -36,7 +36,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "massa (oracle / burden -- the opening word of Malachi; the weight of YHWH's word on the prophet)",
             "ahavah (love -- the opening claim that the people challenge; YHWH's covenant commitment questioned)",
             "bagad (to act treacherously / to be faithless -- the verb that characterizes the community's condition throughout)",
@@ -127,7 +127,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mal'akhi (my messenger -- the book's title word applied to the forerunner; John the Baptist as YHWH's messenger)",
             "ha-Adon (the Lord -- with the definite article; a title for YHWH himself; the one who comes to his temple)",
             "mal'akh ha-berit (messenger of the covenant -- the divine council figure who mediates and enforces the covenant)",

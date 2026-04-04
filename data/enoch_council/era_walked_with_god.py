@@ -53,7 +53,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d4\u05b4\u05ea\u05b0\u05d4\u05b7\u05dc\u05b5\u05bc\u05da\u05b0 (hithallek)",
                 "meaning": "Hithpael of halak ('to walk'). The hithpael stem "
@@ -327,7 +327,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e9\u05c1\u05b6\u05d1\u05b7\u05e2 (sheva)",
                 "meaning": "Seven \u2014 the most theologically loaded number in "

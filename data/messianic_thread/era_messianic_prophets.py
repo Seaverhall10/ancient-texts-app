@@ -51,7 +51,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e0\u05b8\u05d1\u05b4\u05d9\u05d0 (navi)",
                 "meaning": "Prophet. One who speaks on behalf of God, receiving and "
@@ -326,7 +326,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05db\u05b8\u05bc\u05d0\u05b2\u05e8\u05b4\u05d9 (ka'ari)",
                 "meaning": "The Hebrew of Psalm 22:16 is textually debated. The MT "
@@ -608,7 +608,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05b6\u05d1\u05b6\u05d3 \u05d9\u05b0\u05d4\u05d5\u05b8\u05d4 (Eved YHWH)",
                 "meaning": "'Servant of the LORD.' The Servant figure in Isaiah "
@@ -894,7 +894,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e9\u05b8\u05c1\u05d1\u05bb\u05e2\u05b4\u05d9\u05dd (shavu'im)",
                 "meaning": "Weeks, or 'sevens.' The word means 'units of seven' -- "

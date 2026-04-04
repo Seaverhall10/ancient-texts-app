@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e7\u05d5\u05bc\u05dd (qum)",
                 "meaning": "To rise, to stand up, to arise. The primary Hebrew verb "
@@ -272,7 +272,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c3\u1ff6\u03bc\u03b1 \u03c0\u03bd\u03b5\u03c5\u03bc\u03b1\u03c4\u03b9\u03ba\u03cc\u03bd (soma pneumatikon)",
                 "meaning": "A spiritual body -- not a disembodied spirit but a body "

@@ -51,7 +51,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d2\u05bc\u05d5\u05b9\u05d2 (Gog)",
                 "meaning": "The leader of the final rebellion in Ezekiel 38-39 and "
@@ -319,7 +319,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c3\u03ba\u03b7\u03bd\u03b7 (skene)",
                 "meaning": "Tent, tabernacle, dwelling place. Revelation 21:3 -- 'the "

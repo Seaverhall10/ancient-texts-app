@@ -77,7 +77,7 @@ CHAPTERS = [
         },
 
         # NOTE: These are Greek/Aramaic terms — field name is a known schema limitation
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03a0\u03ad\u03c4\u03c1\u03bf\u03c2 Petros (petros)",
                 "meaning": (
@@ -501,7 +501,7 @@ CHAPTERS = [
         },
 
         # NOTE: These are Greek/Aramaic terms — field name is a known schema limitation
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u0398\u03b5\u03bf\u03c4\u03cc\u03ba\u03bf\u03c2 Theotokos (theotokos)",
                 "meaning": (
@@ -917,7 +917,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e9\u05c1\u05b0\u05d0\u05d5\u05b9\u05dc Sheol (sh\u0115\u02be\u014dl)",
                 "meaning": (

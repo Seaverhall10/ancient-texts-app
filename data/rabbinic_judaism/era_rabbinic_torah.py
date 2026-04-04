@@ -48,7 +48,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "תּוֹרָה שֶׁבִּכְתָב (Torah she-bikhtav)",
                 "meaning": "'Written Torah' — the five books of Moses (Pentateuch/Chumash) as physically "
@@ -238,7 +238,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "פְּרוּשִׁים (Perushim)",
                 "meaning": "'Separated ones' — from the root p-r-sh, 'to separate, to distinguish.' "
@@ -436,7 +436,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "צְדוּקִים (Tseduqim / Sadducees)",
                 "meaning": "'Righteous ones' or 'sons of Zadok' — possibly from the root ts-d-q "

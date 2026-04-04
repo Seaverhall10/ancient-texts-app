@@ -41,7 +41,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ho anthrōpos tēs anomias (the man of lawlessness -- anomia = 'without law/torah'; not merely a lawbreaker but the embodiment of anti-torah rebellion; the genitive is qualitative: lawlessness defines his very nature)",
             "ho huios tēs apōleias (the son of destruction -- a Semitic idiom meaning 'one destined for destruction'; the same title Jesus applies to Judas in John 17:12, linking betrayal from within to eschatological treachery)",
             "apostasia (the apostasy/rebellion -- from aphistēmi, 'to stand away from'; in the LXX used for rebellion against God [Josh 22:22]; here it denotes the great eschatological defection that precedes the end)",
@@ -213,7 +213,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "to mysterion tēs anomias (the mystery of lawlessness -- mysterion = a hidden reality now revealed; the demonic rebellion operates covertly in the present age, hidden from most but discernible to those with spiritual insight; the genitive is both qualitative and possessive: lawlessness has a mysterion, a hidden operative dimension)",
             "ho katechōn (the one who restrains -- masculine participle; a personal being who holds back the full manifestation of lawlessness; the identity has been debated for two millennia: Michael the archangel, the Holy Spirit, the Roman emperor, or God's sovereign decree)",
             "to katechon (that which restrains -- neuter participle; the impersonal force or principle that restrains; the shift between masculine and neuter suggests both a person and a power/institution working together)",
@@ -396,7 +396,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "energeia tou Satana (the working/activity of Satan -- energeia denotes effective, operative power; Satan is the active agent behind the lawless one; the same word describes God's power in Eph 1:19-20 and Phil 3:21 -- there is a battle of energeiai, divine vs. satanic)",
             "sēmeia kai terata pseudous (signs and wonders of falsehood -- sēmeia kai terata is the standard LXX phrase for God's mighty acts [Deut 6:22; 26:8]; pseudous is a genitive of quality -- these are lying signs, counterfeit miracles that mimic the real)",
             "energeia planēs (a working of delusion -- God sends not merely deception but an active, effective operation of error; the same energeia root used of Satan in 2:9 is now used of God's judicial action in 2:11; God turns Satan's own weapon back on those who chose the lie)",

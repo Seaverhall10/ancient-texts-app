@@ -37,7 +37,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bamot (high places -- YHWH treads on them; both mountains and idolatrous shrines)",
             "rib (covenant lawsuit -- implied; YHWH as plaintiff, creation as witness)",
             "mishpat (justice -- what the rulers should practice but pervert)"
@@ -115,7 +115,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "moshel (ruler -- the one who will govern from Bethlehem)",
             "motsa'ot (goings forth/origins -- 'from of old, from days of eternity'; suggests pre-existence)",
             "yemei olam (days of eternity/ancient days -- the ruler's origins are eternal, not merely ancient)",

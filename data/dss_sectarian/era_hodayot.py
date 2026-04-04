@@ -20,7 +20,7 @@ CHAPTERS = [
         "text": "I give thanks to you, O Lord, for you have placed my soul in the bundle of the living, and you have hedged me against all the snares of the pit",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "hodayot ('odekha) (הודיות/אודכה — thanksgiving/I thank You; the opening formula of each hymn praising God)",
         "moreh ha-tsedeq (מורה הצדק — Teacher of Righteousness; the probable author of the Teacher Hymns, persecuted prophet-figure)",
         "sod YHWH (סוד יהוה — council of the LORD; the heavenly assembly to which the Teacher claims access for revelation)",
@@ -123,7 +123,7 @@ CHAPTERS = [
         "text": "What is flesh compared to this? What creature of clay can do wonders? He is in iniquity from the womb, and in sinful guilt to old age. I know that righteousness belongs not to a man, nor perfection of way to a son of Adam. To God Most High belong all works of righteousness",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "yetser ḥomer (יצר חומר — creature of clay; humanity's material frailty and moral corruption before God)",
         "ma'aseh ḥoshekh (מעשה חושך — deeds of darkness; the sinful works produced by human nature without divine grace)",
         "tsedaqah (צדקה — righteousness; belongs exclusively to God, never achievable through human effort)",
@@ -226,7 +226,7 @@ CHAPTERS = [
         "text": "You created the earth by your power, the seas and the deeps... You established the heavenly luminaries for their wondrous service, and the stars for their paths",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "tehillah (תהלה — praise/psalm; communal hymns designed for corporate liturgical recitation)",
         "me'orot (מאורות — luminaries; the heavenly lights established by God for His 'wondrous service')",
         "gevurah (גבורה — mighty power; God's creative and redemptive strength celebrated in worship)",
@@ -329,7 +329,7 @@ CHAPTERS = [
         "text": "Before you created them, you knew all their works forever and ever. For apart from you nothing is done, and nothing is known without your will. You formed every spirit and you determined their works before they came into being.",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "goral (גורל — lot/destiny; the predetermined cosmic assignment of each person to light or darkness)",
         "luḥot (לוחות — tablets; the heavenly records where God inscribed all fates before creation)",
         "maḥashavah (מחשבה — thought/plan; God's eternal counsel determining all events before they occur)",
@@ -432,7 +432,7 @@ CHAPTERS = [
         "text": "You have purified a perverse spirit from great transgression that it might watch with the host of the holy ones and enter into community with the congregation of the sons of heaven. You have cast for man an eternal lot with the spirits of knowledge, that he might praise Your name in common rejoicing and recount Your wonders before all Your works.",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "qedoshim (קדושים — holy ones; the angelic beings with whom the purified community worships in fellowship)",
         "bene shamayim (בני שמים — sons of heaven; the heavenly host that the community joins in liturgical praise)",
         "sod (סוד — council/fellowship; the intimate divine assembly into which purified humans are admitted)",

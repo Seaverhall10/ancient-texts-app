@@ -61,7 +61,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shamayim",
             "raqia",
             "malak_yhwh",
@@ -231,7 +231,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shamayim",
             "raqia",
             "ruach",
@@ -381,7 +381,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shamayim",
             "raqia",
             "ruach",
@@ -528,7 +528,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "malak_yhwh",
             "shamayim",
             "mishpat",
@@ -691,7 +691,7 @@ CHAPTERS = [
             "text": "And command thou the children of Israel that they observe the years according to this reckoning — three hundred and sixty-four days, and these will constitute a complete year.",
             "translation": "Charles"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "shamayim",
             "qodesh",
             "berit",
@@ -822,7 +822,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shamayim",
             "mishpat",
             "cherem",
@@ -992,7 +992,7 @@ CHAPTERS = [
             "text": "He shall speak words against the Most High, and shall wear out the saints of the Most High, and shall think to change the times and the law.",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "shamayim",
             "qodesh",
             "berit",

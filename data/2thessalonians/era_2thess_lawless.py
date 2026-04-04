@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ho anthropos tes anomias (the man of lawlessness -- the eschatological opponent of God; anomia = lawlessness/torah-lessness; a human agent of Satan's cosmic rebellion)",
             "ho huios tes apoleias (the son of destruction/perdition -- Semitic idiom: one destined for destruction; same title applied to Judas in John 17:12)",
             "apostasia (apostasy/rebellion -- a deliberate departure from established truth; in military usage, a desertion or mutiny; the great cosmic defection before the end)",

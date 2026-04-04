@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "berit (covenant/treaty -- the binding agreement Israel was tricked into making)",
             "ormah (craftiness/cunning -- the Gibeonites' deceptive strategy)",
             "sha'al (to ask/inquire -- the verb Israel failed to use regarding YHWH's counsel; they should have consulted the Urim and Thummim, sacred objects kept in the high priest's breastplate that were used to inquire of YHWH for yes/no divine guidance on major decisions; see Exodus 28:30, Numbers 27:21)",
@@ -265,7 +265,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hamam (to confuse/panic -- divine psychological warfare against enemies)",
             "avanim gedolot (great stones -- the hailstones YHWH hurls from heaven)",
             "dom (to be still/silent -- the command to the sun to cease its movement)",
@@ -511,7 +511,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "milchamah (battle/war -- but specifically YHWH's war, not Israel's)",
             "lacham (to fight -- 'YHWH fought for Israel' -- divine combat)",
             "barad (hail/hailstones -- cosmic weapons stored in YHWH's heavenly armory)",

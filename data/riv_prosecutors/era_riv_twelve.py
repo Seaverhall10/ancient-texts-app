@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d6\u05b0\u05e0\u05d5\u05bc\u05e0\u05b4\u05d9\u05dd (zenunim)",
                 "meaning": "'Whoredom, sexual infidelity, prostitution.' Hosea's opening command uses "
@@ -211,7 +211,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d7\u05b9\u05d6\u05b6\u05d4 (chozeh)",
                 "meaning": "'Seer, visionary.' From the root ch-z-h ('to see, to envision, to behold "
@@ -379,7 +379,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d0\u05d5\u05b9\u05d9 (\u2018oy)",
                 "meaning": "'Woe!' -- the prophetic judgment oracle formula. When Jesus says 'Woe to "

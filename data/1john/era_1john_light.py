@@ -40,7 +40,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ho theos phos estin (God is light -- 1:5; not merely 'God has light' or 'God gives light' but 'God IS light'; light is his essential nature; darkness has no place in him whatsoever)",
             "hilasmos (propitiation/atoning sacrifice -- 2:2; 4:10; from hilaskomai [to make favorable/to atone]; the sacrifice that turns aside God's righteous anger against sin; Christ is both the priest and the sacrifice)",
             "antichristos (antichrist -- 2:18, 22; from anti [against/in place of] + christos [anointed one]; one who opposes Christ AND substitutes a false christ; 'many antichrists have come' [2:18] -- the spirit of antichrist manifests in multiple false teachers)",
@@ -168,7 +168,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "dokimazete ta pneumata (test the spirits -- 4:1; dokimazo = to test/examine/prove [a metallurgical term for testing metals by fire]; pneumata = spirits [spiritual beings behind the teachers]; every teaching has a spiritual source that can be tested)",
             "to pneuma tou antichristou (the spirit of the antichrist -- 4:3; a specific hostile spiritual entity that operates through false prophets who deny the incarnation; the 'anti' means both 'against' and 'in place of' -- opposing Christ while offering a substitute)",
             "ho theos agape estin (God is love -- 4:8, 16; as with 'God is light' [1:5], love is not merely God's activity but his essential nature; agape = self-giving, sacrificial love, defined by the cross [4:10])",

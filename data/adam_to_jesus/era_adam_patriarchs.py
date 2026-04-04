@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "זֶרַע (zera)",
                 "meaning": "[A] 'Seed, offspring, descendant' — the key word of Genesis 3:15 and "
@@ -270,7 +270,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "תָּמִים (tamim)",
                 "meaning": "[A] 'Blameless, complete, without defect' — used in Gen 6:9 for Noah. "
@@ -494,7 +494,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "בְּרָכָה (berakah)",
                 "meaning": "[A] 'Blessing' — the keyword of the Abrahamic promise. The word "

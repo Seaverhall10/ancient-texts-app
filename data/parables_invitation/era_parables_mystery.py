@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05de\u05e9\u05dc (mashal)",
                 "meaning": "Parable, proverb, riddle, or allegory. The Hebrew concept "
@@ -215,7 +215,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d2\u05bc\u05d5\u05b9\u05d9 (goy)",
                 "meaning": "Nation, people, Gentile. In the Hebrew Bible, goyim simply "
@@ -379,7 +379,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e4\u05e8\u05d5\u05e9\u05c1\u05d9\u05dd (Perushim)",
                 "meaning": "Pharisees \u2014 'the separated ones.' Their name itself reveals "

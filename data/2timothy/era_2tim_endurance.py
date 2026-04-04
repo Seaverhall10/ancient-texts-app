@@ -40,7 +40,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "stratiotes (soldier -- 2:3-4; the Roman soldier served under absolute obedience to his commanding officer; Paul applies this to gospel ministry under Christ's authority)",
             "athleo (to compete as an athlete -- 2:5; the verb specifically means competing in the public games; 'an athlete is not crowned unless he competes according to the rules')",
             "georgos (farmer/husbandman -- 2:6; the hard-working farmer who labors before he reaps; ministry requires patient toil before fruitfulness)",
@@ -206,7 +206,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "theopneustos (God-breathed -- 3:16; a compound: theo = God + pneustos = breathed; Scripture originates from God's breath/Spirit; this word appears only here in the entire NT)",
             "eschatai hemerai (last days -- 3:1; the final period of the present evil age before God's kingdom breaks in fully; Paul considers this period already underway)",
             "Iannes kai Iambres (Jannes and Jambres -- 3:8; the Egyptian magicians who opposed Moses; their names are absent from the OT text and come from Jewish oral tradition preserved in the Apocryphon of Jannes and Jambres)",
@@ -359,7 +359,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "stephanos tes dikaiosynes (crown of righteousness -- 4:8; the victor's wreath awarded at the divine tribunal; not the perishable crown of the games but the imperishable reward of the heavenly court)",
             "epiphaneia (appearing/manifestation -- 4:1, 8; the visible arrival of Christ in glory; in secular Greek used for the manifestation of a deity or a royal visitation; used 5x in the Pastorals)",
             "agon (fight/contest -- 4:7; 'I have fought the good fight'; the word for a public athletic contest; Paul's entire ministry framed as a cosmic competition)",

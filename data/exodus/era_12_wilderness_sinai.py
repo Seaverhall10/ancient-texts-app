@@ -18,7 +18,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "marah",
             "raphah",
             "ets",
@@ -125,7 +125,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "man_hu",
             "selav",
             "shabbat",
@@ -251,7 +251,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "massah",
             "meribah",
             "tsur",
@@ -369,7 +369,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "yitro",
             "cohen_midyan",
             "shophet",

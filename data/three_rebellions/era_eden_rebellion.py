@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e0\u05b8\u05d7\u05b8\u05e9\u05c1 (nachash)",
                 "meaning": "Three-layered Hebrew word functioning simultaneously as noun ('serpent'), "
@@ -190,7 +190,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d6\u05b6\u05e8\u05b7\u05e2 (zera)",
                 "meaning": "'Seed, offspring, descendant.' The word carries both collective (all descendants) "

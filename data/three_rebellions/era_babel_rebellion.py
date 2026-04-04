@@ -49,7 +49,7 @@ CHAPTERS = [
             "translation": "ESV (following DSS/LXX reading)"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d1\u05b0\u05bc\u05e0\u05b5\u05d9 \u05d0\u05b1\u05dc\u05b9\u05d4\u05b4\u05d9\u05dd (bene elohim) / \u05d1\u05b0\u05bc\u05e0\u05b5\u05d9 \u05d9\u05b4\u05e9\u05b0\u05c2\u05e8\u05b8\u05d0\u05b5\u05dc (bene yisra'el)",
                 "meaning": "The critical textual variant at Deuteronomy 32:8. The Masoretic Text reads "
@@ -204,7 +204,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05b2\u05d3\u05b7\u05ea\u05be\u05d0\u05b5\u05dc (adat-El)",
                 "meaning": "'Assembly of God' or 'congregation of the divine.' The word 'edah means "

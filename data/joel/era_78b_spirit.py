@@ -41,7 +41,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ruach (Spirit/wind -- the divine presence poured out on all flesh)",
             "kol basar (all flesh -- the universality of the Spirit promise, transcending all social boundaries)",
             "naba (to prophesy -- sons and daughters will prophesy; prophetic access for all)",
@@ -160,7 +160,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "emeq Yehoshaphat (Valley of Jehoshaphat, 'YHWH judges' -- the site of eschatological judgment)",
             "shaphat (to judge -- YHWH as cosmic judge; the root embedded in 'Jehoshaphat')",
             "qatsir (harvest -- judgment as harvest; the grain is ripe, the winepress full)",

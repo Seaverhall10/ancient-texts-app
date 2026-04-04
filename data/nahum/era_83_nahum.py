@@ -30,7 +30,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qanna (jealous -- YHWH's exclusive claim on worship and loyalty)",
             "naqam (vengeance -- not petty but judicial; the divine warrior's righteous action)",
             "Exod 34:6-7 citation: 'slow to anger and great in power' -- patience has limits"
@@ -114,7 +114,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mephis (the scatterer -- the attacking army YHWH sends against Nineveh)",
             "aryeh (lion -- Nineveh as a lions' den, now destroyed by the divine warrior)"
         ],

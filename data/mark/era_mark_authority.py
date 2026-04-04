@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "exousia (authority -- Jesus teaches and commands demons with authority that surpasses the scribes; this is divine council authority operating on earth, not derived from human tradition)",
             "pneuma akatharton (unclean spirit -- a hostile spiritual being opposed to God's holiness; 'unclean' places it in the category of chaos and rebellion against YHWH's created order)",
             "ho hagios tou theou (the Holy One of God -- the demon's recognition of Jesus' divine identity in 1:24; a title used in the OT for YHWH himself (Isa 43:15) and his consecrated agents)",
@@ -230,7 +230,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "epitimao (to rebuke -- Jesus 'rebuked' (epetimesen) the wind in 4:39, using the identical verb for commanding unclean spirits; Mark treats the storm as a hostile spiritual force to be subdued by divine authority)",
             "phimoo (to muzzle / to silence -- 'Peace! Be still!' (4:39) is literally 'Silence! Be muzzled!' (siopa, pephimoso); the same verb used to silence the Capernaum demon (1:25), linking storm-stilling to exorcism)",
             "Legeon (Legion -- 'My name is Legion, for we are many' (5:9); the Latin term for a Roman military unit of 5,000-6,000 soldiers, evoking military occupation; demonic oppression parallels imperial oppression)",
@@ -424,7 +424,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Christos (Christ / Anointed One -- Peter's confession at Caesarea Philippi; Meshiach in Hebrew, the long-awaited king of David's line who would restore Israel; Peter speaks the right title but does not yet understand its meaning)",
             "ho huios tou anthropou (the Son of Man -- Jesus' preferred self-designation, drawn from Daniel 7:13-14 where 'one like a son of man' receives everlasting dominion from the Ancient of Days; in Mark 8:31, the Son of Man must suffer before receiving the kingdom)",
             "dei (it is necessary / it must -- divine necessity; 'the Son of Man must (dei) suffer' (8:31); this is not fate or inevitability but the decreed plan of the divine council, the 'things of God' (8:33))",

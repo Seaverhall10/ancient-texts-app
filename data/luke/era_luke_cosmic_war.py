@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "emoi paradedotai (it has been delivered to me — Satan's claim of delegated authority over "
             "the nations; perfect passive indicative implying God as the ultimate source and the Deut 32:8 "
             "allotment as the mechanism; this is the Deuteronomy 32 worldview made explicit in Jesus' hearing)",
@@ -300,7 +300,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "therismos (harvest — the eschatological gathering language of Isa 27:12, Joel 3:13; the "
             "harvest is the nations; the labourers are the 72 sent to gather what the Babel dispersion "
             "scattered; the Lord of the harvest is YHWH reclaiming his disinherited peoples)",
@@ -540,7 +540,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bene elohim (sons of God — the divine council members to whom the nations were allotted at "
             "Babel per Deut 32:8 LXX/DSS; the beings the 72 mission displaces)",
             "el elyon (Most High — the title of YHWH as presiding sovereign of the divine council; "
@@ -759,7 +759,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "astrape (lightning — the specific image for Satan's fall; lightning is a divine council "
             "weapon (Ps 18:14, 77:18, 97:4) and theophanic phenomenon; Satan falls with the speed "
             "and visibility of a lightning bolt — sudden, dramatic, seen)",

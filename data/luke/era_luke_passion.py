@@ -56,7 +56,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "potērion (cup -- 22:42; the OT image of divine wrath: 'the cup of his wrath' (Isa 51:17); "
             "'the cup of the wine of wrath' (Jer 25:15); Jesus asks the Father to remove the cup of "
             "judgment that he will drink as the sin-bearer for humanity)",
@@ -267,7 +267,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "dynamis tou theou (the power of God -- 22:69; a circumlocution for God himself; 'seated at "
             "the right hand of the power of God' is a claim to share God's throne; the divine council "
             "enthronement of Psalm 110:1)",
@@ -481,7 +481,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "paradeisos (paradise -- 23:43; from Old Persian pairidaeza, 'walled garden'; in the LXX, "
             "it translates Hebrew pardes and is used for the Garden of Eden (Gen 2:8 LXX); in Second "
             "Temple thought, paradise is the dwelling of the righteous dead -- the restored Eden where "
@@ -719,7 +719,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "edei (it was necessary / it was divinely required -- 24:26; from dei, 'it is necessary'; "
             "a divine passive indicating the necessity is rooted in God's plan; the suffering was not "
             "an accident but a divine requirement; the same word used for Jesus' 'must' statements "

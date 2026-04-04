@@ -35,7 +35,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Tsor (Tyre -- the great Phoenician port city, symbol of commercial power and pride)",
             "kelilat yofi (perfect in beauty -- Tyre's self-description, the same phrase used of the guardian cherub in 28:12)",
             "lev yammim (heart of the seas -- the maritime center where Tyre sits and where she will sink)",
@@ -138,7 +138,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "keruv mimshach hassokek (anointed guardian cherub -- a divine being installed by YHWH himself to protect/cover)",
             "chotam tokhnit (signet of perfection -- the seal/pattern of completeness; a perfect model)",
             "har-qodesh elohim (holy mountain of God -- the divine council's meeting place, the cosmic mountain)",
@@ -311,7 +311,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tannin (dragon/sea-monster -- the chaos creature; here applied to Pharaoh as a pretender to cosmic power)",
             "ets (tree -- the cosmic tree metaphor for Assyria/Egypt, planted in Eden, reaching the clouds)",
             "Sheol (the underworld -- the destination of all fallen empires and their rulers)",

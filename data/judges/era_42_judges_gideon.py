@@ -61,7 +61,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mal'akh YHWH (Angel of YHWH -- the visible YHWH who appears to Gideon and is interchanged with 'YHWH' in the narrative)",
             "gibbor hachayil (mighty man of valor -- YHWH's ironic address to a frightened farmer)",
             "lavash (to clothe/put on -- the Spirit 'wore' Gideon like a garment, possessing him entirely)",
@@ -255,7 +255,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "cherev laYHWH uleGid'on (a sword for YHWH and for Gideon -- the war cry combining divine and human agency)",
             "shofar (ram's horn trumpet -- the instrument of YHWH's holy war, not a military weapon)",
             "kad (jar/pitcher -- the vessels concealing the torches, an unconventional battle implement)",
@@ -400,7 +400,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mashal (to rule/govern -- the kingship verb Gideon rejects but functionally assumes)",
             "ephod (a priestly garment worn over the shoulders, designed to hold the Urim and Thummim (sacred lots for receiving yes/no oracles from YHWH) -- Gideon's gold ephod bypassed the legitimate Levitical priesthood and became a rival source of divine guidance that 'all Israel whored after')",
             "Abimelech (my father is king -- the name of Gideon's son by a Shechemite concubine, revealing Gideon's true ambition)",
@@ -533,7 +533,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ruakh ra'ah (evil/harmful spirit -- not a 'demon' acting against God but a spirit dispatched from YHWH's heavenly throne room to execute judicial punishment; the same mechanism used against Saul in 1 Sam 16:14 and Ahab's prophets in 1 Kings 22:19-23)",
             "atad (bramble/thornbush -- the worthless plant that accepts kingship in Jotham's parable)",
             "mashal (parable/proverb -- the literary form of Jotham's allegorical fable)",

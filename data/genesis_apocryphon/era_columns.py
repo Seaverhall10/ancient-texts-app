@@ -67,7 +67,7 @@ CHAPTERS = [
             "text": "When Lamech had lived 182 years, he fathered a son and called his name Noah, saying, 'Out of the ground that the LORD has cursed, this one shall bring us relief from our work and from the painful toil of our hands.'",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
 
@@ -195,7 +195,7 @@ CHAPTERS = [
             "translation": "Fitzmyer"
         },
 
-        "hebrew_terms": ["irin", "nephilin"],
+        "original_terms": ["irin", "nephilin"],
 
         "ane_backdrop": "The motif of a hero's miraculous birth — accompanied by "
                         "extraordinary physical signs and parental anxiety — is "
@@ -343,7 +343,7 @@ CHAPTERS = [
             "translation": "Fitzmyer"
         },
 
-        "hebrew_terms": ["irin", "bene_shemayin"],
+        "original_terms": ["irin", "bene_shemayin"],
 
         "ane_backdrop": "Bitenosh's oath of sexual fidelity has parallels in ancient "
                         "Near Eastern legal practice. The oath of purgation — where an "
@@ -502,7 +502,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "The motif of a chain of inquiries — son to father to "
                         "grandfather to distant sage — reflects the ancient Near "
@@ -643,7 +643,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "First-person Flood narratives are attested in Mesopotamian "
                         "literature. In Tablet XI of the Epic of Gilgamesh, "
@@ -762,7 +762,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "The division of the earth among three figures has roots in "
                         "both Mesopotamian and Greek traditions. The Greek division "
@@ -887,7 +887,7 @@ CHAPTERS = [
             "translation": "Fitzmyer"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "Abraham's itinerary through Canaan follows the major north-south "
                         "route known from both archaeological evidence and ancient "
@@ -1035,7 +1035,7 @@ CHAPTERS = [
             "translation": "Fitzmyer"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "The detailed blazon (a head-to-toe description of a woman's "
                         "beauty) has parallels in both Mesopotamian and Egyptian love "
@@ -1193,7 +1193,7 @@ CHAPTERS = [
             "text": "When he was about to enter Egypt, he said to Sarai his wife, 'I know that you are a woman beautiful in appearance.'",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
 
@@ -1331,7 +1331,7 @@ CHAPTERS = [
             "translation": "Fitzmyer (adapted)"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "The geographic survey from a high vantage point is a "
                         "well-attested ANE literary and royal motif. Mesopotamian "
@@ -1471,7 +1471,7 @@ CHAPTERS = [
             "translation": "Fitzmyer (adapted)"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "Genesis 14 is one of the most debated chapters in the "
                         "Pentateuch, with scholars arguing over whether the war "

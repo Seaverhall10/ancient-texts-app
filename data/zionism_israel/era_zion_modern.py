@@ -62,7 +62,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e6\u05d9\u05d5\u05e0\u05d5\u05ea (tziyonut)",
                 "meaning": "Zionism \u2014 a modern Hebrew coinage derived from Tziyon "
@@ -321,7 +321,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d4\u05e6\u05d4\u05e8\u05ea \u05d1\u05dc\u05e4\u05d5\u05e8 (hatzaharat balfour)",
                 "meaning": "The Balfour Declaration \u2014 a 67-word letter dated "
@@ -584,7 +584,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b4\u03b9\u03b1\u03b8\u03ae\u03ba\u03b7 (diatheke)",
                 "meaning": "Covenant or testament \u2014 the Greek term Paul uses for "
@@ -879,7 +879,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u1f10\u03bb\u03b1\u03af\u03b1 (elaia)",
                 "meaning": "Olive tree \u2014 Paul's controlling metaphor in Romans "

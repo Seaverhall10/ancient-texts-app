@@ -50,7 +50,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b1\u03c1\u03c0\u03b1\u03b3\u03b7\u03c3\u03bf\u03bc\u03b5\u03b8\u03b1 (harpagesometha)",
                 "meaning": "From harpazo -- 'to seize, snatch, catch up.' This is the word "
@@ -286,7 +286,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c5\u03b3\u03b9\u03b1\u03b9\u03bd\u03bf\u03c5\u03c3\u03b7\u03c2 \u03b4\u03b9\u03b4\u03b1\u03c3\u03ba\u03b1\u03bb\u03b9\u03b1\u03c2 (hugiainouses didaskalias)",
                 "meaning": "Sound teaching, healthy doctrine. Paul's term for instruction "

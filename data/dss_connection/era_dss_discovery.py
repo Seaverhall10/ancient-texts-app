@@ -54,7 +54,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "מְגִלָּה (megillah)",
                 "meaning": "[A] 'Scroll' — from galal, 'to roll.' The primary format for sacred "
@@ -296,7 +296,7 @@ CHAPTERS = [
             "translation": "ESV (with DSS/LXX reading)"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "בְּנֵי אֱלֹהִים (b'nei 'elohim)",
                 "meaning": "[A] 'Sons of God' — the reading preserved in 4QDeut-j (Dead Sea "
@@ -543,7 +543,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "כְּבַר אֱנָשׁ (kebar enash)",
                 "meaning": "[A] Aramaic: 'one like a son of man' — Daniel 7:13. The Qumran "

@@ -59,7 +59,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "egregoroi",
             "qodesh",
             "malak_yhwh",
@@ -268,7 +268,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["bene_elohim", "nephilim"],
+        "original_terms": ["bene_elohim", "nephilim"],
 
         "ane_backdrop": "The motif of divine beings descending a cosmic mountain "
                         "to interact with humans has deep ANE roots. Mount Hermon "
@@ -438,7 +438,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["nephilim"],
+        "original_terms": ["nephilim"],
 
         "ane_backdrop": "The Azazel tradition parallels two major ANE motifs. First, "
                         "the Prometheus myth in Greek tradition: a divine being who "
@@ -636,7 +636,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "malak_yhwh",
             "shemihazah",
             "asael",
@@ -832,7 +832,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tsedaqah",
             "mishpat",
             "olam",
@@ -994,7 +994,7 @@ CHAPTERS = [
             "text": "When the Most High gave to the nations their inheritance, when he divided mankind, he fixed the borders of the peoples according to the number of the sons of God.",
             "translation": "ESV (following DSS/LXX)"
         },
-        "hebrew_terms": ["bene_elohim", "elyon"],
+        "original_terms": ["bene_elohim", "elyon"],
         "ane_backdrop": None,
         "second_temple": [],
 
@@ -1124,7 +1124,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "egregoroi",
             "merkavah",
             "kavod",
@@ -1331,7 +1331,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shed",
             "shedim",
             "nephilim",
@@ -1502,7 +1502,7 @@ CHAPTERS = [
             "text": "It was also about these that Enoch, the seventh from Adam, prophesied, saying, 'Behold, the Lord comes with ten thousands of his holy ones, to execute judgment on all.'",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "egregoroi",
             "shemihazah",
             "asael",
@@ -1643,7 +1643,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tehom",
             "shamayim",
             "sheol",
@@ -1796,7 +1796,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sheol",
             "nefesh",
             "ruach",
@@ -1973,7 +1973,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shamayim",
             "sheol",
             "qodesh",
@@ -2131,7 +2131,7 @@ CHAPTERS = [
             "text": "And the angels who did not stay within their own position of authority, but left their proper dwelling, he has kept in eternal chains under gloomy darkness until the judgment of the great day.",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "egregoroi",
             "nephilim",
             "shed",

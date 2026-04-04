@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "YHWH tseva'ot (LORD of hosts/armies -- this is the FIRST occurrence of this divine title in the entire Bible, and it appears on the lips of a barren woman in a rural sanctuary. The tseva'ot ('hosts') are the heavenly armies -- the angelic beings who constitute YHWH's divine council (1 Kings 22:19: 'I saw YHWH sitting on his throne, and all the host of heaven standing beside him'). By invoking this title, Hannah appeals not to a local deity but to the cosmic sovereign who commands all spiritual and physical armies. The title will dominate the prophetic literature, especially Isaiah, Jeremiah, and Zechariah)",
             "chanah (grace/favor -- Hannah's name, from the root meaning 'to be gracious.' She who receives grace becomes the vessel through which YHWH's grace flows to Israel. The name also echoes chen ('favor, grace'), the foundational concept of divine unmerited favor)",
             "shemu'el (heard of God / name of God -- Samuel's name is a compound: shem ('name') + 'el ('God'). Hannah explains it through sha'al ('to ask'): 'I asked him of YHWH' (1:20). The wordplay is intentional and extends through the narrative: sha'al (to ask) will become the root of Sha'ul (Saul, 'the asked-for one'), creating a literary connection between the prophet and the king he will anoint)",
@@ -203,7 +203,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mashiach (anointed one -- Hannah's song (2:10) contains the FIRST biblical reference to YHWH's mashiach as a royal figure: 'He will exalt the horn of his anointed (mashiach).' Remarkably, Israel has no king when Hannah speaks -- she prophesies the monarchy before it exists. The word mashiach comes from mashach, 'to anoint with oil,' and becomes the source of English 'Messiah' and Greek 'Christos/Christ.' Every use of 'Christ' in the New Testament echoes this word)",
             "bene beliyya'al (sons of worthlessness/wickedness -- literally 'sons of no-profit' or 'sons of destruction.' Applied to Eli's sons Hophni and Phinehas (2:12), it is the strongest condemnation of character in Hebrew. In Second Temple literature, beliyya'al evolves into a proper name for the anti-God figure: Paul uses 'Belial' (2 Cor 6:15) as a name for Satan. The sons of the high priest are characterized with the language of ultimate cosmic wickedness)",
             "qeren (horn -- a symbol of strength and royal power. In ANE iconography, horns on a helmet or crown represented divine authority (the 'horned crown' of Mesopotamian gods). Hannah declares 'my horn is exalted in YHWH' (2:1) and prophesies that YHWH will 'exalt the horn of his anointed' (2:10). The horn connects strength, royalty, and the coming Messiah in a single image)",
@@ -363,7 +363,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "aron ha'elohim (Ark of God -- the Ark of the Covenant was not a 'magic box' but YHWH's throne. The ark-lid (kapporet, 'mercy seat') was flanked by two cherubim (keruvim), and YHWH was described as 'enthroned above the cherubim' (1 Sam 4:4; 2 Sam 6:2). The Ark was the footstool of the invisible God's throne (1 Chr 28:2), the point of contact between heaven and earth. When Israel brought the Ark to battle as a talisman, they treated YHWH's throne like a lucky charm -- and YHWH allowed it to be captured rather than validate their manipulation)",
             "Dagon (the Philistine deity -- attested at Ugarit and in Mesopotamian texts as Dagan. The etymology is debated: possibly from dagan ('grain'), making him a grain/fertility god, or from dag ('fish'), giving him the fish-god iconography of later tradition. He was the chief deity of the Philistine pentapolis (five cities: Gaza, Ashkelon, Ashdod, Gath, Ekron). His temple at Ashdod, where the Ark was placed, was a major cultic center)",
             "Ichabod (i-kavod, 'no glory' or 'where is the glory?' -- the name Phinehas's dying wife gives her newborn son (4:21). The prefix i- is either a negation ('there is no glory') or an interrogative ('where is the glory?'). Either way, the name is a theological verdict: YHWH's kavod has departed from Israel. The child's name becomes a permanent memorial of catastrophe)",
@@ -527,7 +527,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Even ha-Ezer (Ebenezer, 'Stone of Help' -- from even ('stone') + ezer ('help'). Samuel sets up this memorial stone between Mizpah and Shen, declaring: 'Till now YHWH has helped us' (7:12). The name carries ironic resonance: Ebenezer was also the site of Israel's devastating defeat when they used the Ark as a talisman (4:1). The same place-name now marks genuine deliverance through repentance, not manipulation)",
             "teshuvah (repentance/return -- from the root shuv, 'to turn, to return.' Samuel's call: 'If you are returning (shavim) to YHWH with all your heart' (7:3). Repentance in Hebrew is not primarily an emotion (feeling sorry) but a directional change: turning from idols back to YHWH. The prophets will use shuv hundreds of times as the core call of their message)",
             "Ashtaroth (plural of Ashtoreth -- the Canaanite/Phoenician goddess of fertility, love, and war. Known as Ishtar in Mesopotamia and Astarte in Greek sources. Her cult involved sacred prostitution and fertility rituals. She was the consort of Baal in popular Canaanite religion. The plural 'Ashtaroth' may refer to multiple local manifestations of the goddess or to her cult images. Samuel demands their removal as a condition of deliverance)",

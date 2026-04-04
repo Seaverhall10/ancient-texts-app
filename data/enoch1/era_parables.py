@@ -65,7 +65,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'malak_yhwh',
             'tsaddiq',
             'mishpat',
@@ -147,7 +147,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'tsaddiq',
             'mishpat',
             'yom_yhwh',
@@ -231,7 +231,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'tsaddiq',
             'shamayim',
             'qodesh',
@@ -319,7 +319,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'malak_yhwh',
             'sod_yhwh',
             'kavod',
@@ -413,7 +413,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'shamayim',
             'raqia',
             'malak_yhwh',
@@ -491,7 +491,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'ruach',
             'shamayim',
             'malak_yhwh',
@@ -575,7 +575,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'shamayim',
             'tsedaqah',
             'mishpat',
@@ -646,7 +646,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'shamayim',
             'cherem',
             'mishpat',
@@ -724,7 +724,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'ben_adam',
             'mashiach',
             'kavod',
@@ -808,7 +808,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'ben_adam',
             'kavod',
             'tsaddiq',
@@ -903,7 +903,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'tsaddiq',
             'nefesh',
             'mishpat',
@@ -975,7 +975,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'ben_adam',
             'mashiach',
             'olam',
@@ -1067,7 +1067,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'ruach',
             'mashiach',
             'tsedaqah',
@@ -1133,7 +1133,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'tsaddiq',
             'kavod',
             'goy',
@@ -1204,7 +1204,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'sheol',
             'nefesh',
             'ben_adam',
@@ -1283,7 +1283,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': ['mashiach', 'goy', 'malak_yhwh', 'cherem', 'gibborim'],
+        'original_terms': ['mashiach', 'goy', 'malak_yhwh', 'cherem', 'gibborim'],
 
         'ane_backdrop': "The metallurgical symbolism of 1 Enoch 52 draws on widespread Ancient Near Eastern traditions of declining world ages represented by metals. Hesiod's Works and Days (8th century BC) describes five ages: gold, silver, bronze, heroic, and iron—each representing moral and material decline. Persian Zoroastrian texts describe four ages of metal (gold, silver, steel, iron mixed with clay) culminating in the appearance of the Saoshyant (savior figure). The Daniel 2 statue (gold, silver, bronze, iron, iron-clay) represents successive empires destroyed by God's kingdom. Mountains as divine thrones or assembly places pervades ANE cosmology: Mesopotamian ziggurats, Egyptian pyramids, Canaanite Mount Zaphon (Baal's throne), and Israel's Mount Zion all function as axis mundi—cosmic centers where heaven and earth intersect. The seven mountains may echo the seven-tiered Mesopotamian cosmos or the seven planetary spheres. The melting of metals before divine presence appears in Micah 1:4 ('the mountains will melt under him') and Psalm 97:5 ('the mountains melt like wax before the LORD').",
 
@@ -1449,7 +1449,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': ['asael', 'cherem', 'tehom', 'sheol', 'arar', 'kasday', 'malak_yhwh', 'sod_yhwh'],
+        'original_terms': ['asael', 'cherem', 'tehom', 'sheol', 'arar', 'kasday', 'malak_yhwh', 'sod_yhwh'],
 
         'ane_backdrop': "The concept of a cosmic prison for rebellious divine beings has deep ANE roots. In Mesopotamian mythology, defeated gods were sometimes imprisoned in the underworld (Kur). The Sumerian myth 'Inanna's Descent' describes the underworld as having seven gates with guardians, from which there is no return. Egyptian texts speak of the Duat (underworld) where enemies of Ra are bound and tortured. However, the Enochic innovation is applying this to formerly loyal members of the divine council—the Watchers who rebelled. The 'valley' geography echoes the Valley of Hinnom (Gehenna) south of Jerusalem, which became associated with judgment and fire (Jeremiah 7:31-32, 19:6). The iron chains specifically prepared for Azazel parallel ANE binding rituals where defeated enemies (human or divine) were symbolically or literally bound to demonstrate complete subjugation. The Assyrian annals frequently describe conquered kings being bound in bronze or iron fetters. Here, the Watcher-king receives the same treatment.",
 
@@ -1628,7 +1628,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': ['asael', 'mastema', 'cherem', 'tehom', 'gibborim', 'shed', 'seirim'],
+        'original_terms': ['asael', 'mastema', 'cherem', 'tehom', 'gibborim', 'shed', 'seirim'],
 
         'ane_backdrop': "The imagery of divine judgment executed through fire, chains, and imprisonment in subterranean locations pervades Ancient Near Eastern literature. In the Babylonian <em>Descent of Ishtar</em>, the netherworld is described as a place from which there is no return, guarded by seven gates. The Ugaritic Baal Cycle depicts Mot (Death) as dwelling in a pit with a 'double-deep' throat that swallows the living. Egyptian texts describe the Lake of Fire (in the Duat/underworld) where enemies of Re are destroyed. The Greek <em>Theogony</em> by Hesiod describes Tartarus as a bronze-gated prison beneath the earth where the Titans are confined after their defeat by Zeus — a striking parallel to the Watcher judgment. The 'rough stones' covering the jaws may relate to Mesopotamian incantation bowls and binding rituals, where demons were trapped under clay seals inscribed with divine names. Genesis 6:4 mentions the Nephilim, whose violent corruption precipitated the Flood; 1 Enoch extends this narrative by detailing the post-Flood judgment of their spiritual progenitors.",
 
@@ -1802,7 +1802,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': ['berit', 'mabbul', 'shemihazah', 'malak_yhwh', 'ot', 'karat_berit', 'cherem'],
+        'original_terms': ['berit', 'mabbul', 'shemihazah', 'malak_yhwh', 'ot', 'karat_berit', 'cherem'],
 
         'ane_backdrop': "The concept of divine oaths binding even the gods appears throughout Ancient Near Eastern literature. In Hittite treaties, the gods themselves are invoked as witnesses and guarantors, with curses ensuring compliance. The Mesopotamian flood narratives (Atrahasis, Gilgamesh XI) include divine regret after the deluge — Enlil's anger is tempered by Ea/Enki's wisdom, and the gods resolve never to send such destruction again. However, these accounts lack the covenantal formality of Genesis 9 or 1 Enoch 55. The notion that cosmic order requires divine administration through intermediary beings is widespread: in Mesopotamian thought, the Anunnaki assign destinies and maintain natural law. The Enochic tradition adapts this framework, making angels the administrators of God's decreed natural order, subordinate to YHWH's sovereign will.",
 
@@ -1939,7 +1939,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': ['malak_yhwh', 'goy', 'mishpat', 'yom_yhwh', 'cherem', 'qedem'],
+        'original_terms': ['malak_yhwh', 'goy', 'mishpat', 'yom_yhwh', 'cherem', 'qedem'],
 
         'ane_backdrop': "The 'enemy from the east' motif has deep roots in ANE military history and prophecy. Mesopotamian omen texts frequently predicted invasions from the east (Elamites, later Medes and Persians). The Medes under Cyaxares destroyed Nineveh in 612 BC, fulfilling Nahum's prophecy. Cyrus the Persian conquered Babylon from the east in 539 BC, fulfilling Isaiah's prophecies (Isa 41:2, 25; 44:28-45:1). In Greco-Roman period Jewish thought, the Parthian Empire occupied the same geographical and symbolic space: the great eastern power that could threaten western hegemony. The Parthians' devastating defeat of Crassus at Carrhae (53 BC) and their brief conquest of Jerusalem (40-37 BC) made them a living embodiment of the prophetic 'armies from the east.' The apocalyptic tradition weaponized this historical pattern: just as God once used eastern armies to judge Assyria and Babylon, so he would use them in the final judgment against Rome and apostate Israel.",
 
@@ -2092,7 +2092,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'galah',
             'go_el',
             'eretz',
@@ -2256,7 +2256,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': ['tsedaqah', 'malak_yhwh', 'berakah', 'kavod', 'nefesh', 'ruach'],
+        'original_terms': ['tsedaqah', 'malak_yhwh', 'berakah', 'kavod', 'nefesh', 'ruach'],
 
         'ane_backdrop': "Ancient Near Eastern royal ideology held that kings mediated between heaven and earth, sometimes claiming divine or semi-divine status. In Egyptian tradition, the pharaoh became Osiris at death, joining the gods. Mesopotamian kings were 'images' of the gods who ruled on earth. Genesis 1:26-27 democratized this image-bearing to all humanity, but sin corrupted the image. The Enochic tradition takes the next step: the righteous will be restored to—and beyond—Adamic glory, becoming 'like the angels' (cf. Jesus in Mark 12:25). The luminous transformation described here parallels Mesopotamian astral theology, where the righteous dead became stars, but radically reframes it: they don't become minor astral deities, but companions of YHWH's heavenly host.",
 
@@ -2428,7 +2428,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': ['maaseh_bereshit', 'shamayim', 'malak_yhwh', 'sod_yhwh', 'hesed', 'arar'],
+        'original_terms': ['maaseh_bereshit', 'shamayim', 'malak_yhwh', 'sod_yhwh', 'hesed', 'arar'],
 
         'ane_backdrop': "Ancient Near Eastern cultures invested enormous intellectual energy in celestial observation. Mesopotamian astronomers (particularly the Chaldeans) developed sophisticated predictive models for planetary movements, eclipses, and weather patterns. The Enuma Anu Enlil series comprises some 7,000 omens derived from celestial phenomena. In this worldview, the heavens were not mechanistic but communicative — the gods spoke through astral signs. Babylonian creation texts describe the gods assigning stations to the stars and establishing the calendar (Enuma Elish V). Egyptian cosmology similarly emphasized <em>maat</em> (cosmic order), with the sun god Ra's daily journey representing the triumph of order over chaos. Genesis 1:14-19 participates in this discourse by affirming that luminaries serve as 'signs and seasons' while denying their divinity. 1 Enoch 59 extends this: the luminaries are not autonomous but governed by angelic overseers who enforce divine law. Thunder and lightning, often associated with storm gods (Baal, Hadad, Zeus), are here depicted as instruments in the hands of YHWH's angelic agents.",
 
@@ -2567,7 +2567,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'tehom',
             'shamayim',
             'malak_yhwh',
@@ -2655,7 +2655,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'malak_yhwh',
             'tsaddiq',
             'mishpat',
@@ -2721,7 +2721,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'ben_adam',
             'kavod',
             'mishpat',
@@ -2815,7 +2815,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'ben_adam',
             'mishpat',
             'goy',
@@ -2887,7 +2887,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': ['tebah', 'mabbul', 'malak_yhwh', 'cherem', 'mashiach', 'tsaddiq'],
+        'original_terms': ['tebah', 'mabbul', 'malak_yhwh', 'cherem', 'mashiach', 'tsaddiq'],
 
         'ane_backdrop': "The concept of divine agents executing judgment appears throughout ANE literature. In the Atrahasis Epic, the gods send plague, famine, and flood as progressive judgments against noisy humanity. The Gilgamesh flood narrative features Ea warning Utnapishtim while the other gods decree destruction. Egyptian texts describe the 'Seven Hathors' as agents of fate and destruction. Mesopotamian incantation texts invoke protective deities against destructive demons (udug, alu). What distinguishes 1 Enoch 64 is the ethical dimension: the angels of punishment execute righteous judgment against specific moral corruption (the Watchers' sin), not arbitrary divine irritation. The flood becomes forensic — a legal sentence carried out by heaven's executioners.",
 
@@ -3044,7 +3044,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': ['mabbul', 'tebah', 'berit', 'nephilim', 'chen', 'tsaddiq', 'qorban', 'asah', 'bara'],
+        'original_terms': ['mabbul', 'tebah', 'berit', 'nephilim', 'chen', 'tsaddiq', 'qorban', 'asah', 'bara'],
 
         'ane_backdrop': "The flood narrative in 1 Enoch 65 participates in a widespread Ancient Near Eastern literary tradition. The Atrahasis Epic (Old Babylonian, ~1700 BC) describes the gods sending a flood due to human 'noise' disturbing divine rest, with the wise Atrahasis warned by Enki to build a boat. The Gilgamesh Epic (Standard Babylonian, ~1200 BC) includes Utnapishtim's flood account, featuring divine council deliberation, a faithful man warned, animal preservation, and post-flood sacrifice. The Sumerian Eridu Genesis (fragmentary, ~1600 BC) presents Ziusudra as the flood hero. What distinguishes the biblical and Enochic traditions is theological motivation: the flood comes not from divine irritation but from moral corruption and cosmic contamination. The Enochic expansion emphasizes that the Watchers' transgression created an ontological crisis—hybrid beings (Nephilim) who had no place in the created order, violence that filled the earth, and forbidden knowledge that perverted human society. The flood becomes necessary cosmic surgery to excise the cancer introduced by angelic rebellion.",
 
@@ -3221,7 +3221,7 @@ CHAPTERS = [
             'translation': 'E. Isaac',
         },
 
-        'hebrew_terms': ['tebah', 'mabbul', 'berit', 'nephilim', 'tehom', 'raqia', 'tohu_vavohu', 'bara'],
+        'original_terms': ['tebah', 'mabbul', 'berit', 'nephilim', 'tehom', 'raqia', 'tohu_vavohu', 'bara'],
 
         'ane_backdrop': "The flood narrative in Genesis shares striking parallels with multiple Ancient Near Eastern flood traditions, most notably the Atrahasis Epic and the flood account in Tablet XI of the Epic of Gilgamesh. In these Mesopotamian accounts, the gods send a flood to destroy noisy humanity, but one man (Atrahasis/Utnapishtim) is warned by a sympathetic deity and builds a boat to survive. The Sumerian King List divides history into pre-flood and post-flood periods, indicating that flood traditions were widespread. However, Genesis transforms this shared narrative: the flood is not sent because humans are noisy but because the earth is filled with violence (hamas) and corruption. The Mesopotamian hero achieves immortality; Noah receives a covenant. The polytheistic gods regret their hasty decision and fear the flood's magnitude; YHWH acts with deliberate justice and sovereign control. The ark (tebah) itself is unique — not a ship designed for navigation but a rectangular box designed for floating, emphasizing that salvation comes through God's provision, not human seamanship.",
 
@@ -3411,7 +3411,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'egregoroi',
             'malak_yhwh',
             'mishpat',
@@ -3478,7 +3478,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'shemihazah',
             'asael',
             'egregoroi',
@@ -3640,7 +3640,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'ben_adam',
             'kavod',
             'mishpat',
@@ -3720,7 +3720,7 @@ CHAPTERS = [
             'translation': 'R.H. Charles',
         },
 
-        'hebrew_terms': ['malak_yhwh', 'merkavah', 'ruach', 'ben_adam', 'shamayim', 'kavod'],
+        'original_terms': ['malak_yhwh', 'merkavah', 'ruach', 'ben_adam', 'shamayim', 'kavod'],
 
         'ane_backdrop': "The concept of heavenly ascent was well-established in ANE literature by the Second Temple period. In Mesopotamian tradition, figures like Enmeduranki (7th antediluvian king, parallel to Enoch as 7th patriarch) and Adapa were granted access to divine knowledge and heavenly realms. Egyptian funerary texts describe the soul's ascent through celestial regions. The 'raising of the name' echoes royal ideology throughout the ANE: in Akkadian royal inscriptions, the king's name is 'raised' or 'exalted' (našû) by the gods as a sign of divine favor and legitimation. Babylonian creation accounts describe Marduk's '50 names' being proclaimed after his cosmic victory. In 1 Enoch 70, this royal language is democratized and eschatologized — a righteous human, not a king, has his name exalted, and the exaltation is not political but cosmological, placing Enoch in the presence of the divine Son of Man.",
 
@@ -3882,7 +3882,7 @@ CHAPTERS = [
             'translation': 'Charles',
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'ben_adam',
             'kavod',
             'tsaddiq',
@@ -3995,7 +3995,7 @@ CHAPTERS = [
             'translation': 'ESV'
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'ben_adam',
             'mashiach',
             'kavod',
@@ -4084,7 +4084,7 @@ CHAPTERS = [
             'translation': 'ESV'
         },
 
-        'hebrew_terms': [
+        'original_terms': [
             'ben_adam',
             'mashiach',
             'kavod',

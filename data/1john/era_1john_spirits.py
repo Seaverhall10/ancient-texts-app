@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "dokimazete ta pneumata (test the spirits -- 4:1; dokimazo = to test/examine/prove by trial, a metallurgical term for assaying metals in fire to determine purity; pneumata = spirits, spiritual beings operating behind human teachers; the command presupposes a populated spirit world where discernment is essential)",
             "pneuma tou antichristou (the spirit of the antichrist -- 4:3; a specific hostile spiritual entity or class of entities that operates through false prophets who deny the incarnation; anti means both 'against' and 'in place of' -- this spirit both opposes the true Christ and promotes a counterfeit)",
             "pneuma tes aletheias / tes planes (spirit of truth / spirit of error -- 4:6; the binary classification of all spiritual influence into two sources: the Spirit aligned with God's purposes and the spirit that leads astray; planes = wandering, deception, the root of English 'planet' [wandering star])",
@@ -238,7 +238,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ho theos agape estin (God is love -- 4:8, 16; like 'God is light' [1:5], this is an ontological statement about God's essential nature, not merely his activity; agape is self-giving, sacrificial love defined by the cross; the definite article with theos makes clear this is the God of Israel, not a generic deity)",
             "monogenes (only begotten / unique one -- 4:9; from monos [only] + genos [kind/type]; describes the Son's unique relationship to the Father; the Father sent his uniquely-beloved Son into hostile territory, the kosmos under the evil one's control, as the ultimate act of self-giving love)",
             "hilasmos (propitiation / atoning sacrifice -- 4:10; from hilaskomai [to make favorable, to atone]; the sacrifice that satisfies God's righteous anger against sin; Christ is simultaneously the loving God who sends and the sacrificial means by which wrath is absorbed -- love and justice meet at the cross)",
@@ -434,7 +434,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nike / nikao (victory / to overcome -- 5:4; nike is the noun [victory, conquest], nikao is the verb [to conquer, to overcome]; in the LXX renders Hebrew natsach; 'this is the victory that has overcome the world -- our faith'; faith is not passive belief but an active conquering force that breaks the world-system's hold on the individual)",
             "martyria (testimony / witness -- 5:9-11; from martys [witness]; God's own testimony about his Son constitutes the highest possible evidence; to reject this testimony is to 'make God a liar' [5:10]; the English word 'martyr' derives from this root because early Christians died bearing witness)",
             "aitema (request / petition -- 5:15; from aiteo [to ask]; the specific prayer request that is made according to God's will and is therefore granted; John's teaching on prayer is conditioned on alignment with the divine will, not on the intensity of human desire)",

@@ -65,7 +65,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b8\u03b5\u03cc\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03bf\u03c2 (theopneustos)",
                 "meaning": "'God-breathed.' Used only here in the entire NT "
@@ -368,7 +368,7 @@ CHAPTERS = [
             "translation": "NRSV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b4\u03b5\u03c5\u03c4\u03b5\u03c1\u03bf\u03ba\u03b1\u03bd\u03bf\u03bd\u03b9\u03ba\u03cc\u03c2 (deuterokanonikos)",
                 "meaning": "'Second canon' or 'of the second canon.' The term was "
@@ -653,7 +653,7 @@ CHAPTERS = [
             "translation": "NETS"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u0398\u03b5\u03bf\u03c4\u03cc\u03ba\u03bf\u03c2 (Theotokos)",
                 "meaning": "'God-bearer' or 'Mother of God.' While not a canonical "
@@ -938,7 +938,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u12a6\u122a\u1275 (Orit)",
                 "meaning": "The Ge'ez (classical Ethiopic) name for the Torah or "

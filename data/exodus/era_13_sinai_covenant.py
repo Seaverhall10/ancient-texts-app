@@ -18,7 +18,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "berit",
             "mamlekhet_kohanim",
             "goy_qadosh",
@@ -152,7 +152,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "aseret_hadevarim",
             "lo_tirtsach",
             "lo_tinaf",
@@ -291,7 +291,7 @@ CHAPTERS = [
             "text": "Now therefore, if you will indeed obey my voice and keep my covenant, you shall be my treasured possession among all peoples, for all the earth is mine; and you shall be to me a kingdom of priests and a holy nation.",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
 
         "second_temple": [],
@@ -372,7 +372,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mishpatim",
             "eved_ivri",
             "chofshi",
@@ -478,7 +478,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ger",
             "almanah",
             "yatom",
@@ -600,7 +600,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shabbat",
             "shemittah",
             "chag",
@@ -707,7 +707,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "dam_habberit",
             "livnat_hassappir",
             "na_aseh_venishma",

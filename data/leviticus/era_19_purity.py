@@ -56,7 +56,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tahor", "tamei", "sheqets", "parsah", "gerah",
             "sherets", "qadosh", "nefesh", "tame", "maqor"
             # Key glosses: tahor = 'clean/pure' (ritually fit to approach God);
@@ -273,7 +273,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "yoledet", "niddah", "demei_toharah", "milah",
             "chattat", "olah", "kaphar", "tahor", "tamei"
             # Key glosses: yoledet = 'woman who gives birth'; niddah =
@@ -448,7 +448,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tsaraat", "nega", "baheret", "se'et", "sapachat",
             "kohen", "hesger", "tamei", "tahor", "michyah"
             # Key glosses: tsara'at = 'skin disease/affliction' (NOT Hansen's
@@ -652,7 +652,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tohorat_hametsora", "tsipporim", "erez", "shani",
             "ezov", "mayim_chayyim", "asham", "shemen", "log"
             # Key glosses: tohorat ha-metsora = 'purification of the afflicted
@@ -852,7 +852,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "zav", "zov", "shikevat_zera", "niddah",
             "tamei", "tahor", "mishkav", "moshav", "kaphar"
             # Key glosses: zav = 'a man with an abnormal genital discharge';

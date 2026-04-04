@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "dynamis (power -- 'you will receive power when the Holy Spirit has come upon you' (1:8); the Spirit's empowerment for witness; the same power that raised Jesus from the dead)",
             "glossais (tongues / languages -- the Spirit enables the disciples to speak in the languages of the nations; the reversal of Babel's linguistic confusion)",
             "pantos ethnous (every nation -- 'devout men from every nation under heaven' (2:5); the nations of Genesis 10, scattered at Babel, now gathered by the Spirit)",
@@ -193,7 +193,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "stratia tou ouranou (host of heaven -- the celestial powers; Deut 4:19 says YHWH 'allotted' them to the nations; Israel was forbidden to worship them but did so anyway (7:42))",
             "archegos tes zoes (Author / Prince of life -- Peter's title for Jesus (3:15); the one who originates and leads into life; a divine council title for the Son)",
             "prophetes (prophet -- Jesus as 'the prophet like Moses' (3:22, quoting Deut 18:15); the definitive spokesman of YHWH's council)",
@@ -330,7 +330,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "prosopolemptes (one who shows partiality / respecter of persons -- 'God shows no partiality' (10:34); YHWH's impartiality extends to ALL nations, not just Israel)",
             "en panti ethnei (in every nation -- 'in every nation anyone who fears him is acceptable' (10:35); the Deuteronomy 32 boundaries are officially transcended)",
             "koinos (common / unclean -- 'What God has made clean (ekatharisen), do not call common (koinou)' (10:15); the purity distinction between Jew and Gentile is abolished)",

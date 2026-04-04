@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kavod (glory -- 'I will fill this house with glory'; the visible manifestation of YHWH's presence, the Shekinah)",
             "ra'ash (to shake/tremble -- 'I will shake the heavens and the earth'; a theophanic action, the cosmos responding to YHWH's intervention)",
             "chemdat kol-ha-goyim (treasures/desire of all nations -- the wealth of nations flowing to YHWH's house; some patristic interpreters read this messianically)",
@@ -229,7 +229,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chotam (signet ring -- the seal of royal authority; YHWH restores Zerubbabel as his signet, reversing Jehoiachin's curse)",
             "tahor/tame (clean/unclean -- the binary categories of priestly holiness law; the halachic ruling that exposes the people's condition)",
             "qodesh (holy -- 'holy meat'; holiness does not transfer by contact, a critical priestly principle)",

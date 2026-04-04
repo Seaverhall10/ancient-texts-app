@@ -37,7 +37,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "gazam (cutting/gnawing locust -- the first wave of destruction)",
             "arbeh (swarming locust -- the massive swarm; the most common Hebrew word for locust)",
             "yeleq (hopping/licking locust -- the larval stage that consumes what remains)",
@@ -130,7 +130,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shofar (trumpet/ram's horn -- the alarm call, eschatological signal)",
             "shuv (return/repent -- the central call: 'return to me with all your heart')",
             "channun verachum (gracious and merciful -- YHWH's character, echoing Exod 34:6-7)",

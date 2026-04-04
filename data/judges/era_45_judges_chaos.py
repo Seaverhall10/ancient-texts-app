@@ -56,7 +56,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "pesel (carved image -- a wooden idol overlaid with metal, explicitly prohibited in the Decalogue, Exod 20:4)",
             "massekhah (metal/cast image -- a molten idol, the same word used for Aaron's golden calf in Exod 32:4)",
             "ephod (priestly garment for oracular inquiry -- part of Micah's private cult apparatus)",
@@ -211,7 +211,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Layish (Laish -- the peaceful northern city the Danites conquer and rename Dan)",
             "pesel Mikhayhu (Micah's carved image -- the idol that becomes Dan's tribal cult object)",
             "Yehonatan ben Gershom ben Mosheh (Jonathan son of Gershom son of Moses -- the priest of the Danite shrine, Moses' descendant)",
@@ -371,7 +371,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "pilegesh (concubine -- a secondary wife with fewer legal rights than a primary wife)",
             "bene beliyya'al (sons of worthlessness/wickedness -- the mob at Gibeah, the same term applied to Eli's corrupt sons in 1 Samuel 2:12)",
             "yada (to know -- used euphemistically for sexual intercourse, as in the Sodom narrative, Gen 19:5)",
@@ -537,7 +537,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ke'ish echad (as one man -- the united assembly of Israel, the last time the tribes act in concert in Judges)",
             "cherem (the ban of total destruction -- a solemn devotion of persons or property to YHWH by destroying them completely; originally commanded against the Canaanites (Deut 7:2; 20:17) to prevent Israel from adopting their worship; now applied by Israel against its own tribe, a self-inflicted judgment showing that covenant unfaithfulness has made Israel indistinguishable from the nations YHWH expelled)",
             "Pinchas ben El'azar (Phinehas son of Eleazar -- Aaron's grandson, establishing a date close to the conquest generation)",
@@ -683,7 +683,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shevuah (oath -- the irrevocable oath at Mizpah that prevents giving daughters to Benjamin)",
             "betulot (virgins -- the only women spared from Jabesh-gilead, seized as wives for Benjamin)",
             "chag YHWH (feast of YHWH -- the annual festival at Shiloh where the dancing girls are abducted)",

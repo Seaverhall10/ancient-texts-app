@@ -65,7 +65,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ben-nekar (son of the foreigner -- a non-Israelite who joins YHWH's covenant)",
             "saris (eunuch -- one excluded under Deut 23:1 but now welcomed by YHWH's grace)",
             "yad vashem (a monument and a name -- the memorial given to the eunuch; this phrase became the name of Israel's Holocaust memorial)",
@@ -246,7 +246,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tsom (fast -- the religious observance YHWH redefines as social justice)",
             "mavdilim (making a separation -- sin as the barrier between God and humanity)",
             "emet (truth/faithfulness -- the quality that has fallen in the public square)",
@@ -436,7 +436,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qumi ori (arise, shine -- the imperative to Zion personified as a woman)",
             "mashach (to anoint -- the verb from which mashiach/Messiah derives; the speaker of 61:1 is the Anointed One)",
             "basar (to bring good news -- the verb root of besorah, 'gospel/good news')",
@@ -632,7 +632,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "gat (winepress -- the instrument of divine judgment; YHWH treads it alone)",
             "levaddi (alone/by myself -- no council member, no ally assists the Divine Warrior)",
             "nitsach (lifeblood/juice -- the crimson stain on the warrior's garments)",
@@ -836,7 +836,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shamayim chadashim (new heavens -- the renewed cosmic realm)",
             "erets chadashah (new earth -- the transformed terrestrial realm)",
             "bore (creating -- the same verb as Genesis 1:1; a new act of divine creation)",

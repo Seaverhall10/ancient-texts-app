@@ -59,7 +59,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ra&rsquo;av (famine &mdash; the physical consequence of covenant violation; the land itself suffers when sworn oaths are broken before YHWH)",
             "dam / damim (blood / bloodguilt &mdash; Saul&rsquo;s bloodguilt against the Gibeonites persists beyond his death; corporate and transgenerational accountability)",
             "kippur / kaphar (atonement/covering &mdash; the Gibeonites require a form of atonement for the covenant violation; the verb is related to the Day of Atonement terminology)",
@@ -203,7 +203,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "haraphah (the giant/the Raphah &mdash; the Rephaim ancestor; these are descendants of the giant lineage linked to the Nephilim and Anakim traditions)",
             "ner Yisrael (lamp of Israel &mdash; David as the &lsquo;lamp&rsquo; of his people; the metaphor for the Davidic line&rsquo;s continuity and the covenant promise)",
             "kidon / chanit (spear/javelin &mdash; the giants&rsquo; weapons described with specific weight; echoing Goliath&rsquo;s armament in 1 Sam 17:7)",
@@ -354,7 +354,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "keruv (cherub &mdash; YHWH rides on a cherub, 22:11; the cherubim are the throne-bearers of the divine council, the living chariot of YHWH&rsquo;s presence)",
             "Elyon (Most High &mdash; the title of YHWH as supreme over all &lsquo;elohim; &lsquo;the Most High uttered his voice,&rsquo; 22:14)",
             "sela / metsudah (rock / fortress &mdash; the opening barrage of protection metaphors; YHWH as the unassailable refuge)",
@@ -539,7 +539,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ne&rsquo;um David (oracle of David &mdash; the prophetic formula usually reserved for YHWH&rsquo;s own speech; David claims prophetic authority for his last words)",
             "mashiach Elohei Ya&rsquo;akov (anointed of the God of Jacob &mdash; David&rsquo;s self-identification linking his kingship to the patriarchal covenant)",
             "ne&rsquo;im zemirot Yisrael (sweet psalmist of Israel &mdash; or &lsquo;the one to whom the songs of Israel are lovely&rsquo;; David as Israel&rsquo;s worship leader)",
@@ -719,7 +719,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "satan (adversary &mdash; this is one of the most misunderstood terms in the Bible. In Hebrew, satan is NOT a proper name &mdash; it is a common noun meaning &lsquo;adversary, accuser, prosecutor.&rsquo; In Job 1-2 and Zech 3:1-2, the Hebrew reads ha-satan (&lsquo;THE adversary&rsquo;), with the definite article &lsquo;ha-,&rsquo; showing it is a TITLE, not a name &mdash; you do not put &lsquo;the&rsquo; before someone&rsquo;s name in Hebrew. Ha-satan functions as a member of the divine council who serves as a cosmic prosecutor &mdash; like a district attorney in YHWH&rsquo;s heavenly court, authorized to bring accusations against humans and to test their faithfulness. He operates WITHIN YHWH&rsquo;s authority, not independently of it. In 1 Chr 21:1, the word appears WITHOUT the article, which is why some translators read it as a proper name (&lsquo;Satan&rsquo;) &mdash; but even here, the being acts within YHWH&rsquo;s sovereign permission, not as an equal adversary. The later Christian concept of Satan as a fallen rebel lord of hell developed gradually during the Second Temple period and is not yet present in most Old Testament uses of the word)",
             "mal&rsquo;akh hammashchit (the destroying angel &mdash; Hebrew mal&rsquo;akh means &lsquo;messenger&rsquo; (the word English Bibles translate as &lsquo;angel&rsquo;), and mashchit means &lsquo;destroyer.&rsquo; This is not a rogue spirit acting on its own but a member of YHWH&rsquo;s heavenly host carrying out a specific commission from the divine council. The destroying angel operates under YHWH&rsquo;s direct command &mdash; he destroys when told and stops when told (&lsquo;It is enough; now stay your hand,&rsquo; 24:16). The same type of agent struck Egypt&rsquo;s firstborn at the Passover (Exod 12:23) and will later annihilate 185,000 Assyrians in a single night (2 Kgs 19:35). In 1 Chr 21:16, this angel is visible, standing between earth and heaven with a drawn sword stretched over Jerusalem)",
             "goren Aravnah (threshing floor of Araunah &mdash; the Jebusite threshing floor on Mount Moriah; the future Temple site, connecting David&rsquo;s sacrifice to Solomon&rsquo;s Temple and Abraham&rsquo;s binding of Isaac)",

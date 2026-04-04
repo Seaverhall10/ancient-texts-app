@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["berit", "horeb", "aseret_haddevarim", "elohim_acherim", "pesel", "shabbat", "kavod", "lo_tirtsach", "lo_tinaf"],
+        "original_terms": ["berit", "horeb", "aseret_haddevarim", "elohim_acherim", "pesel", "shabbat", "kavod", "lo_tirtsach", "lo_tinaf"],
 
         "hebrew_glossary": {
             "berit": "Covenant (a solemn, binding agreement — not a contract between equals but a treaty between a greater and a lesser party; in the divine council framework, God's berit with Israel is what distinguishes Israel from the nations governed by allotted 'elohim)",
@@ -226,7 +226,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["shema", "echad", "ahavah", "levav", "nefesh", "meod", "totafot", "mezuzah", "tefillin", "massah"],
+        "original_terms": ["shema", "echad", "ahavah", "levav", "nefesh", "meod", "totafot", "mezuzah", "tefillin", "massah"],
 
         "hebrew_glossary": {
             "shema": "Hear! / Listen! / Obey! (the imperative that opens Israel's central confession — in Hebrew, hearing and obeying are inseparable; the Shema is not merely a creed to recite but a life to live)",
@@ -463,7 +463,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["cherem", "am_qadosh", "segullah", "bachar", "ahavah", "berit", "chesed", "sheva", "davar"],
+        "original_terms": ["cherem", "am_qadosh", "segullah", "bachar", "ahavah", "berit", "chesed", "sheva", "davar"],
 
         "hebrew_glossary": {
             "cherem": "Devoted destruction / the ban (total consecration of conquered populations and possessions to YHWH — a form of spiritual warfare, not ethnic cleansing; the Moabite Stone shows that Israel's neighbors practiced the same thing for their gods)",
@@ -656,7 +656,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["zakar", "man", "nasah", "anah", "berakhah", "lev", "koach", "kol_hamitsvah"],
+        "original_terms": ["zakar", "man", "nasah", "anah", "berakhah", "lev", "koach", "kol_hamitsvah"],
 
         "hebrew_glossary": {
             "zakar": "Remember (not merely mental recall but active, covenantal remembrance — to 'remember' in Hebrew means to act on what you remember; forgetting YHWH leads to idolatry, remembering YHWH produces obedience)",
@@ -833,7 +833,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["tsedaqah", "rishah", "qesheh_oref", "egel_massekhah", "palal", "shachat", "luchot_haberit"],
+        "original_terms": ["tsedaqah", "rishah", "qesheh_oref", "egel_massekhah", "palal", "shachat", "luchot_haberit"],
 
         "hebrew_glossary": {
             "tsedaqah": "Righteousness (right standing before the covenant-maker — Deut 9:4-6 demolishes any claim that Israel's tsedaqah earned them the land; the conquest is God's judgment on Canaanite wickedness, not a reward for Israelite virtue)",
@@ -1014,7 +1014,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["luchot", "aron", "levi", "milah", "yare", "ahav", "elohei_haelohim", "adonei_haadonim", "ger"],
+        "original_terms": ["luchot", "aron", "levi", "milah", "yare", "ahav", "elohei_haelohim", "adonei_haadonim", "ger"],
 
         "hebrew_glossary": {
             "elohei_haelohim": "God of gods (the supreme divine council title — presupposes a hierarchy: there are 'elohim, and YHWH is THEIR God; this is the language of Psalm 82:1, 'God stands in the divine council; in the midst of the gods he holds judgment')",
@@ -1176,7 +1176,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["berakhah", "qelalah", "geshem", "yoreh", "malqosh", "gerizim", "eval", "ahav", "shamor"],
+        "original_terms": ["berakhah", "qelalah", "geshem", "yoreh", "malqosh", "gerizim", "eval", "ahav", "shamor"],
 
         "hebrew_glossary": {
             "berakhah": "Blessing (covenant prosperity that flows from obedience — not abstract 'good vibes' but concrete: rain, harvest, fertility, military victory; the blessing is active, it 'overtakes' Israel, 28:2)",

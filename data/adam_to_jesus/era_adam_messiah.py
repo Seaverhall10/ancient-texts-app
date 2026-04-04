@@ -61,7 +61,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "βίβλος γενέσεως (biblos geneseos)",
                 "meaning": "[A] 'Book of the genesis/origin' — the opening phrase of Matthew's "
@@ -295,7 +295,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "σπέρμα (sperma)",
                 "meaning": "[A] 'Seed, offspring, descendant' — the Greek equivalent of Hebrew "

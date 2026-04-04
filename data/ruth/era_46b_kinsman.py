@@ -49,7 +49,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kanaf (wing/corner of garment -- marriage covering; same word as YHWH's 'wings' in 2:12)",
             "go'el (kinsman-redeemer -- the one obligated to redeem a relative's land and line)",
             "amah (female servant/handmaid -- Ruth's self-designation; humbler than shifchah)",
@@ -212,7 +212,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sha'ar (gate -- the legal court of the Israelite city)",
             "peloni almoni (so-and-so -- the anonymous nearer go'el, deliberately unnamed)",
             "ga'al (to redeem -- the verb form of go'el; to buy back, to act as kinsman-redeemer)",

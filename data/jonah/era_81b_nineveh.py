@@ -35,7 +35,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hafakh (to overthrow -- the same verb used for Sodom's destruction; Nineveh was 'overturned' in repentance instead)",
             "nacham (to relent/repent -- both Nineveh and God 'relent'; Nineveh from evil, God from judgment)",
             "saq (sackcloth -- the garment of mourning and repentance)"
@@ -142,7 +142,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chanun ve-rachum (gracious and merciful -- the Exod 34:6 creedal formula, here a complaint)",
             "qiqayon (castor oil plant or gourd -- the object lesson in divine compassion)",
             "chus (to pity/have compassion -- YHWH's compassion for Nineveh vs. Jonah's pity for a plant)"

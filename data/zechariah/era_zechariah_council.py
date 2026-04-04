@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ha-satan (the accuser -- ha = definite article; hassatan is THE accuser, a role-title in the divine council's legal proceedings, not yet a personal name)",
             "leqitro (to accuse/to be his adversary -- the legal term for prosecutorial accusation; the satan's function is to bring charges)",
             "bigdei tso'im (filthy garments -- tso'im = excrement-soaked; not merely dirty but ritually and morally catastrophic defilement)",
@@ -255,7 +255,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "vehibbitu elai (and they shall look on me -- first-person YHWH as the object of the looking; et asher = 'on him whom'; the grammatical pivot)",
             "daqaru (they pierced -- daqar = to pierce through, to thrust through with a spear; violent lethal piercing, not metaphorical wounding)",
             "ruach chen vetachanunim (spirit of grace and supplications -- the Spirit YHWH pours out that produces the mourning; grace enabling recognition)",
@@ -471,7 +471,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "menorah (lampstand -- the golden lampstand; the central symbol of YHWH's presence and Israel's function as a light-bearer among the nations)",
             "gullah (bowl -- the reservoir on top of the lampstand; the holding vessel for the oil that feeds the seven lamps)",
             "sheva shivah (seven... seven -- the repetition in 4:2 is deliberate; the seven lamps and their seven channels; completeness of the divine light)",

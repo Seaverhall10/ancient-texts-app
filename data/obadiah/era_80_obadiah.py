@@ -34,7 +34,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ga'on (pride -- Edom's core sin; the arrogance of trusting in natural fortifications)",
             "Sela (rock/cliff -- Edom's cliff-dwelling identity; associated with Petra)",
             "yom YHWH (Day of YHWH -- 'near upon all the nations'; cosmic judgment)",

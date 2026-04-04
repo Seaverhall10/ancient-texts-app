@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "zenunim (whoredom/promiscuity -- used for both sexual and spiritual infidelity)",
             "Yizre'el (Jezreel, 'God sows' -- ambiguous: judgment in the near term, fruitfulness in the restoration)",
             "Lo-Ruhamah ('No Mercy/Not Pitied' -- from racham, the womb-love of a mother, the deepest compassion)",
@@ -185,7 +185,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "rib (covenant lawsuit -- YHWH as plaintiff, Israel as defendant, creation as witness)",
             "Ishi ('my husband' -- the intimate name Israel will use for YHWH in the restoration)",
             "ba'ali ('my Baal/my master' -- the title purged from Israel's vocabulary)",
@@ -302,7 +302,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ahavah (love -- the controlling verb; YHWH commands Hosea to love as YHWH loves)",
             "karah (to buy/acquire -- the verb of redemption; Hosea purchases his wife out of slavery)",
             "ashishe anavim (cakes of raisins -- associated with fertility cult offerings to Baal)"
@@ -398,7 +398,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "rib (covenant lawsuit -- the formal legal accusation pattern)",
             "da'at Elohim (knowledge of God -- not information but covenant intimacy and faithful obedience)",
             "emet (faithfulness/truth -- foundational covenant virtue, absent from the land)",
@@ -493,7 +493,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shachat (corruption/destruction -- the depth of Israel's moral decay)",
             "zanah (spiritual whoredom -- the persistent Hosean metaphor)",
             "darash (to seek -- Israel will seek YHWH but not find him because they seek with wrong motives)"
@@ -580,7 +580,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hesed (covenant loyalty/steadfast love -- what YHWH wants, not ritual sacrifice)",
             "da'at Elohim (knowledge of God -- covenant intimacy, the ultimate goal)",
             "ke-Adam (like Adam -- 'they transgressed the covenant like Adam'; Adam as covenant-breaker)",
@@ -679,7 +679,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tannur (oven -- metaphor for the political conspiracies smoldering beneath the surface)",
             "uggah (cake -- 'a cake not turned,' half-baked, useless Ephraim)",
             "yonah (dove -- 'silly dove' Ephraim, flitting between Egypt and Assyria)",

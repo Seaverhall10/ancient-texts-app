@@ -51,7 +51,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e6\u05b6\u05de\u05b7\u05d7 (tsemach)",
                 "meaning": "'Branch, sprout, growth' -- a messianic title used in Zechariah 3:8, "
@@ -214,7 +214,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05dc\u05b6\u05d7\u05b6\u05dd \u05d5\u05b7\u05d9\u05b8\u05d9\u05b4\u05df (lechem vayayin)",
                 "meaning": "'Bread and wine' -- the elements Melchizedek brings in Genesis 14:18. "
@@ -375,7 +375,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b2\u03b1\u03c3\u03af\u03bb\u03b5\u03b9\u03bf\u03bd \u03b9\u03b5\u03c1\u03ac\u03c4\u03b5\u03c5\u03bc\u03b1 (basileion hierateuma)",
                 "meaning": "'Royal priesthood' -- the Greek phrase in 1 Peter 2:9, echoing the "

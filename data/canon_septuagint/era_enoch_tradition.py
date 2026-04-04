@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u12C8\u1295\u1326\u122D (Watcher / \u02BFir)",
                 "meaning": "From Aramaic \u02BFir (\u05E2\u05D9\u05E8), meaning 'watcher, wakeful one.' "
@@ -314,7 +314,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b4\u03bf\u03ba\u03b9\u03bc\u03ac\u03b6\u03b5\u03c4\u03b5 (dokimazete)",
                 "meaning": "'Test, examine, prove.' John's imperative in 1 John 4:1 -- "

@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV (following DSS/LXX)"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "בְּנֵי אֱלֹהִים (b'nei 'elohim)",
                 "meaning": "[A] 'Sons of God' — the divine beings to whom the nations were "
@@ -319,7 +319,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "חֵרֶם (herem)",
                 "meaning": "[A] 'The ban, devoted to destruction' — from the root h-r-m, the "
@@ -558,7 +558,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "דְּבִיר (devir)",
                 "meaning": "[A] 'Inner sanctuary, Holy of Holies' — the innermost room of the "

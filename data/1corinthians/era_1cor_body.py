@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "archontes tou aionos toutou (rulers of this age -- the spiritual-political powers who orchestrated the crucifixion; debate whether human, spiritual, or both)",
             "sophia (wisdom -- God's hidden plan vs. the world's reasoning; in Prov 8:22-31, Wisdom personified participated in creation)",
             "mysterion (mystery -- not a puzzle to solve but a secret plan now revealed; used 6x in 1 Cor, rooted in Dan 2:18-19 LXX raz/mysterion)",
@@ -200,7 +200,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "krinein angelous (to judge angels -- believers will participate in the eschatological judgment of rebellious angelic beings; cf. Psalm 82)",
             "paradounai to satana (to deliver to Satan -- expulsion from the covenant community into the hostile spiritual realm outside; cf. Job 1-2, 1 Tim 1:20)",
             "naos tou hagiou pneumatos (temple of the Holy Spirit -- the individual body as sacred divine dwelling; naos = inner sanctuary, not hieron = temple complex)",
@@ -348,7 +348,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "daimonia (demons -- in Paul's usage, the spiritual beings behind pagan worship; the LXX of Deut 32:17 uses daimoniois for the Hebrew shedim)",
             "eidolothyton (idol-meat -- meat sacrificed to an idol; a compound from eidolon [idol] + thyo [sacrifice])",
             "koinonia (fellowship/participation -- sharing in something at a deep level; used for both the Lord's table and demonic fellowship)",
@@ -503,7 +503,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "charismata (grace-gifts -- gifts given by God's charis [grace]; from which 'charismatic' derives; distinct from natural talents)",
             "pneumatika (spiritual things/gifts -- the Corinthians' word; Paul reframes these as charismata to emphasize divine origin rather than personal achievement)",
             "soma Christou (body of Christ -- the church as Christ's physical presence on earth; each member has a unique function)",
@@ -660,7 +660,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "arche (rule/ruler/beginning -- in 15:24, the cosmic rulers; the same word used for spiritual powers in Eph 1:21, 3:10, 6:12; Col 1:16, 2:15)",
             "exousia (authority -- cosmic spiritual authorities; paired with arche in the Pauline power vocabulary)",
             "dynamis (power -- the third term in Paul's triad of hostile cosmic powers; also 'miracle' in 12:10, 28-29)",

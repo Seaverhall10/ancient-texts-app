@@ -40,7 +40,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "barach (to flee -- Jonah's theological flight from YHWH's mercy, not his presence)",
             "yarad (to go down -- five-stage descent: Joppa, ship, hold, sea, fish/Sheol)",
             "Sheol (the underworld/realm of the dead -- Jonah's psalm places him at cosmic death's door)",
@@ -189,7 +189,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chanun ve-rachum (gracious and merciful -- the Exod 34:6 creedal formula, wielded as a complaint)",
             "nacham (to relent -- both Nineveh and YHWH 'relent'; Nineveh from evil, YHWH from judgment)",
             "hafakh (to overthrow -- same verb used for Sodom; Nineveh was 'overturned' in repentance instead of fire)",

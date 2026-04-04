@@ -37,7 +37,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ad-anah (how long -- the covenant lament formula; used throughout the Psalms; the suzerain is being asked to account for his delay in acting)",
             "shavati ve-lo tishma (I cry for help and you do not hear -- the unheard prayer as the opening indictment; YHWH's apparent inaction is itself the complaint)",
             "chamas (violence -- the controlling term; Habakkuk's primary charge against Judah; appears repeatedly; the breakdown of covenant social order)",
@@ -232,7 +232,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mishmerti (my watchpost/guard post -- the prophetic posture of a sentinel; the prophet as a council sentinel waiting to receive and transmit)",
             "matsor (rampart/tower -- the elevated position; higher vantage point that sees what the ground level cannot)",
             "ma-yatsiv bi (what he will say within me -- the expectation of an interior divine communication; the prophetic reception of council messages)",
@@ -444,7 +444,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Teman (southward region associated with Edom; the direction of YHWH's theophanic march; the Sinai approach from the desert south)",
             "Paran (the mountainous wilderness south of Judah, associated with Sinai and Ishmael; cf. Deut 33:2)",
             "hod (splendor/majesty -- YHWH's visible glory; the divine kavod made visible in the theophanic approach)",

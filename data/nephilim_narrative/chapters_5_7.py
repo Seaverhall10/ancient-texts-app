@@ -48,7 +48,7 @@ CHAPTERS_5_7 = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d4\u05b8\u05e8\u05b8\u05e4\u05b8\u05d4 (ha-raphah)",
                 "meaning": "The ESV renders this 'the giants,' but the Hebrew "
@@ -246,7 +246,7 @@ CHAPTERS_5_7 = [
         },
 
         # NOTE: These are Greek (NT) terms, not Hebrew — field name is a known schema limitation
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c4\u03b1\u03c1\u03c4\u03b1\u03c1\u03ce\u03c3\u03b1\u03c2 (tartarosas)",
                 "meaning": "From Tartarus (\u03c4\u03ac\u03c1\u03c4\u03b1\u03c1\u03bf\u03c2), the subterranean prison "
@@ -467,7 +467,7 @@ CHAPTERS_5_7 = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d6\u05b6\u05e8\u05b7\u05e2 (zera)",
                 "meaning": "'Seed' or 'offspring.' The central word of "

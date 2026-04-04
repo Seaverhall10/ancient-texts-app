@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "he'ir YHWH et-ruach (the LORD stirred up the spirit -- divine sovereign action on a pagan king's mind; YHWH governs all rulers)",
             "nedavah (freewill offering -- the voluntary contributions for rebuilding; the same word used for David's offerings in 1 Chr 29)",
             "shiv'im shanah (seventy years -- the prophesied duration of exile from Jeremiah 25:11-12; now fulfilled)",
@@ -170,7 +170,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "satanei (adversaries -- the same root as satan; those who 'stand against' the rebuilding, echoing the divine council adversary)",
             "nevua'ah (prophecy -- the prophesying of Haggai and Zechariah that restarts the building; prophetic word as the catalyst for action)",
             "te'em (decree -- the Persian royal decrees that authorize the rebuilding; God works through imperial bureaucracy)",

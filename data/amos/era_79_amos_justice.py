@@ -36,7 +36,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sha'ag (to roar -- YHWH roars like a lion from Zion; the divine warrior's battle cry)",
             "pesha (transgression/rebellion -- the legal charge against each nation)",
             "tsaddiq (righteous -- the innocent poor sold into debt slavery)",
@@ -119,7 +119,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sod (secret council/counsel -- YHWH reveals his council deliberations to prophets)",
             "parot ha-Bashan (cows of Bashan -- the pampered, exploitative elite women of Samaria)",
             "shub (return/repent -- the fivefold refrain: 'yet you did not return to me')"

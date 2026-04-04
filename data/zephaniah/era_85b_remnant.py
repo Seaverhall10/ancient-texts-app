@@ -35,7 +35,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "gibbor yoshia (mighty one who saves -- the divine warrior, now as savior-lover)",
             "yagil (he will rejoice -- YHWH's exultant joy over his restored people)",
             "yacharish be-ahavato (he will quiet you by his love -- YHWH's love silences fear and shame)",

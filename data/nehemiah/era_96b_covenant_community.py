@@ -37,7 +37,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "meforash (clearly/with interpretation -- the Levites did not merely read Torah but explained it; this is the origin of the sermon/homily tradition)",
             "sekhel (understanding/sense -- the goal of Torah reading is comprehension, not mere recitation; the people must understand what they hear)",
             "vidui (confession -- the communal confession of ch. 9; Israel's history recited as a confession of unfaithfulness and an appeal to divine mercy)",
@@ -182,7 +182,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "goral (lot -- the method for selecting who would live in Jerusalem; casting lots as an expression of divine guidance)",
             "todah (thanksgiving -- the choirs that process on the wall; todah encompasses praise, confession, and public declaration)",
             "simchah gedolah (great joy -- the emotion of the wall dedication; joy so intense it 'was heard far away')",

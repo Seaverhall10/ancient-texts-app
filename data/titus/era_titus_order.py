@@ -36,7 +36,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "presbyteros (elder -- from presbys [old man]; the primary term for church leaders in the Jewish-Christian tradition; synonymous with episkopos [overseer] in this passage [1:5, 7])",
             "episkopos (overseer/bishop -- 1:7; used interchangeably with presbyteros here, indicating that the two terms describe the same office in the earliest church structure)",
             "hygiainos didaskalia (sound/healthy doctrine -- 1:9; hygiainos = healthy [from which 'hygiene' derives]; doctrine that promotes spiritual health, as opposed to the 'disease' of false teaching)",
@@ -132,7 +132,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "epephane he charis tou theou (the grace of God has appeared -- 2:11; epiphaino = to shine upon/appear; grace is personified as a cosmic event that 'appeared' in history, like the rising of a star or the manifestation of a deity)",
             "tou megalou theou kai soteros hemon Iesou Christou (our great God and Savior Jesus Christ -- 2:13; the Granville Sharp rule: a single article [tou] governing two nouns [theou, soteros] connected by kai with the second being a proper noun strongly indicates one person: Christ is both 'great God' and 'Savior')",
             "palingenesia (regeneration/rebirth -- 3:5; from palin [again] + genesis [birth/origin]; used only here and Matt 19:28 in the NT; the cosmic renewal that begins in the individual believer through the Spirit)",

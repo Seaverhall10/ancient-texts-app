@@ -61,7 +61,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05db\u05b4\u05bc\u05e1\u05b5\u05bc\u05d0 (kisse)",
                 "meaning": "Throne, seat of authority. In the divine council "
@@ -357,7 +357,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05ea\u05b7\u05bc\u05d1\u05b0\u05e0\u05b4\u05d9\u05ea (tavnit)",
                 "meaning": "Pattern, model, blueprint, architectural plan. "

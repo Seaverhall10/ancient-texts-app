@@ -60,7 +60,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "bene ha\u2019elohim",
                 "hebrew": "\u05d1\u05b0\u05e0\u05b5\u05d9 \u05d4\u05b8\u05d0\u05b1\u05dc\u05b9\u05d4\u05b4\u05d9\u05dd",
@@ -315,7 +315,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "rephaim",
                 "hebrew": "\u05e8\u05b0\u05e4\u05b8\u05d0\u05b4\u05d9\u05dd",
@@ -540,7 +540,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "cherem",
                 "hebrew": "\u05d7\u05b5\u05e8\u05b6\u05dd",
@@ -769,7 +769,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "YHWH Tsevaot",
                 "hebrew": "\u05d9\u05d4\u05d5\u05d4 \u05e6\u05b0\u05d1\u05b8\u05d0\u05d5\u05b9\u05ea",

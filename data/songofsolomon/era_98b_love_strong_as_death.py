@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shalhevet-yah (flame of YAH/the LORD -- the only possible divine name in the Song; love's fire is identified with God's own fire; love is divine in origin)",
             "azah kammavet ahavah (love is strong as death -- love is death's equal, the only force that matches death's power and finality)",
             "qin'ah (jealousy/zeal -- love's exclusive demand; 'jealousy is fierce as the grave'; the same word used for YHWH's jealousy for his people, Exod 20:5)",

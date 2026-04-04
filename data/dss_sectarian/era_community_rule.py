@@ -20,7 +20,7 @@ CHAPTERS = [
         "text": "All those who freely devote themselves to His truth shall bring all their knowledge, powers, and possessions into the Community of God",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "yaḥad (יחד — community/unity; the sect's self-designation as God's covenant assembly)",
         "berit (ברית — covenant; the binding agreement renewed annually at Qumran)",
         "bene 'or (בני אור — Sons of Light; the community's identity as those aligned with God's lot)",
@@ -123,7 +123,7 @@ CHAPTERS = [
         "text": "He created man to rule the world and placed within him two spirits so that he would walk with them until the appointed time of His visitation: they are the spirits of truth and of falsehood",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "ruaḥ (רוח — spirit; the two created spirits governing human moral destiny)",
         "sar ha-'orim (שר האורים — Prince of Light; the angelic spirit ruling the Sons of Light, identified with Michael)",
         "mal'akh ha-ḥoshekh (מלאך החושך — Angel of Darkness; the spirit of falsehood identified with Belial)",
@@ -227,7 +227,7 @@ CHAPTERS = [
         "text": "When these things exist in Israel, the council of the community shall be established in truth... to prepare the way in the wilderness, as it is written: 'In the wilderness prepare the way of the LORD, make straight in the desert a highway for our God'",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "midbar (מדבר — wilderness; the place of covenant formation and eschatological preparation)",
         "maskil (משכיל — instructor/wise one; the community's teaching authority who guides in divine wisdom)",
         "midrash ha-torah (מדרש התורה — study/exposition of Torah; the community's continuous scriptural investigation)",
@@ -326,7 +326,7 @@ CHAPTERS = [
         "text": "This is the rule for the men of the community who freely devote themselves to turn from all evil and to hold fast to all that He has commanded according to His will, to separate from the congregation of the men of injustice in order to constitute a community in Law and possessions, replying to the authority of the sons of Zadok, the priests who keep the covenant, and to the authority of the multitude of the men of the community who hold fast to the covenant.",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "bene tsadoq (בני צדוק — Sons of Zadok; the priestly authority governing the community's covenant life)",
         "rabbim (רבים — the Many/the assembly; the general membership body with voting authority)",
         "moshav (מושב — session/seating; the ranked assembly order reflecting spiritual hierarchy)",
@@ -426,7 +426,7 @@ CHAPTERS = [
         "text": "He shall not be justified while he maintains the stubbornness of his heart... He shall neither be purified by atonement offerings nor cleansed by lustral waters... Unclean, unclean shall he be as long as he rejects the ordinances of God",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "tevilah (טבילה — immersion; ritual water purification, ineffective without inner repentance)",
         "tohorah (טהרה — purity/purification; the holiness state required for angelic fellowship)",
         "sherirut lev (שרירות לב — stubbornness of heart; the inner rebellion that nullifies external ritual)",
@@ -525,7 +525,7 @@ CHAPTERS = [
         "text": "As for me, if I stumble, the mercies of God shall be my salvation always; and if I fall in the sin of the flesh, my justification shall stand forever through God's righteousness... In His mercy He has drawn me close, and with His favors He will render my justification.",
         "translation": "Vermes"
     },
-    "hebrew_terms": [
+    "original_terms": [
         "tsedaqah (צדקה — righteousness; belongs to God alone, not achievable by human effort)",
         "ḥesed (חסד — mercy/lovingkindness; God's gracious action that draws the unworthy near)",
         "yetser ḥomer (יצר חומר — creature of clay; humanity's fundamental material weakness before God)",

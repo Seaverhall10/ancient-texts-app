@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "KJV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "shemesh dom",
                 "transliteration": "shemesh dom",
@@ -109,7 +109,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "luchot",
                 "transliteration": "luchot",
@@ -182,7 +182,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "meraglim",
                 "transliteration": "meraglim",
@@ -279,7 +279,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "Bil'am",
                 "transliteration": "Bil'am",
@@ -361,7 +361,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "dom",
                 "transliteration": "dom",
@@ -427,7 +427,7 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "nachalah",
                 "transliteration": "nachalah",

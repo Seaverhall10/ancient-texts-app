@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ashre (blessed/happy -- the opening word of the Psalter; a state of flourishing under God's favor)",
             "meshiach (anointed one -- the king YHWH has installed on Zion; the root of 'Messiah')",
             "ben (son -- the divine decree of sonship over the Davidic king; Ps 2:7, 12)",
@@ -206,7 +206,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "enosh (man/mortal -- emphasizing human frailty and mortality)",
             "ben-adam (son of man/son of Adam -- the human being in his earthly, creaturely identity)",
             "elohim (gods/heavenly beings -- the divine council members; some translations render 'angels')",
@@ -368,7 +368,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "miktam (a psalm type of uncertain meaning -- possibly 'inscription' or 'golden psalm')",
             "chasid (faithful one/holy one -- the one devoted to YHWH who is preserved from Sheol)",
             "shachat (pit/corruption -- the grave; YHWH will not allow his chasid to decay)",
@@ -547,7 +547,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ro'i (my shepherd -- YHWH as the divine shepherd of Israel, a royal ANE title)",
             "tsalmawet (shadow of death/deep darkness -- the darkest valley; possibly 'death-shadow')",
             "shevet (rod -- the shepherd's weapon against predators)",
@@ -693,7 +693,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bene elim (sons of God/sons of the mighty -- the divine council members called to worship YHWH)",
             "qol YHWH (voice of YHWH -- the thunder of the storm; appears seven times)",
             "kavod (glory -- the weighty, radiant presence that the elohim must ascribe to YHWH)",
@@ -860,7 +860,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "davar (word -- the creative, commanding speech of YHWH that brings reality into existence)",
             "ruach (breath/spirit -- the life-giving exhalation of YHWH; the same word as 'Spirit')",
             "tseva'am (their host -- the heavenly bodies and/or angelic armies created by YHWH's breath)",
@@ -1050,7 +1050,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ledavid (of David/for David/belonging to David -- the superscription of most Book I psalms)",
             "mizmor (psalm -- a song accompanied by stringed instruments; the defining genre of the Psalter)",
             "selah (a liturgical notation of uncertain meaning -- possibly a musical interlude or a call to contemplation)",

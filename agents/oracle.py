@@ -149,7 +149,7 @@ def generate_tasks(status, use_ai=True):
             "description": f"Write era data file for {missing['era']} (text: {missing['text']}). "
                           f"Create CHAPTERS list with study content covering this era's scope. "
                           f"Follow the ERA_DATA_FORMAT template. Include cross-references, "
-                          f"hebrew_terms, divine_council_note, and 3-6 sections per chapter.",
+                          f"original_terms, divine_council_note, and 3-6 sections per chapter.",
             "output_path": os.path.join(DATA_DIR, missing['text'],
                                        missing.get('file', missing['era']) + ".py"),
             "metadata": {"text": missing["text"], "era": missing["era"], "type": "era_data"}

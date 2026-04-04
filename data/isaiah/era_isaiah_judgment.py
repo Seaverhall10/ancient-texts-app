@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "riv (covenant lawsuit -- the legal genre YHWH employs against his people)",
             "chazon (vision -- the term for Isaiah's entire prophetic collection)",
             "pasha (to rebel/transgress -- deliberate covenant violation, not mere error)",
@@ -218,7 +218,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "saraphim (burning ones -- fiery angelic beings attending YHWH's throne)",
             "qadosh (holy -- set apart, transcendently other; the Trisagion's core word)",
             "YHWH tseva'ot (YHWH of hosts/armies -- the divine warrior enthroned over his council)",
@@ -436,7 +436,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "almah (young woman of marriageable age -- LXX renders as parthenos, 'virgin')",
             "Immanu-El (God with us -- the theophoric name of the promised child)",
             "ot (sign -- a prophetic marker confirming divine involvement)",
@@ -602,7 +602,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Pele Yo'ets (Wonderful Counselor -- supernatural wisdom, divine planning)",
             "El Gibbor (Mighty God -- a divine title applied to a human child; also used for YHWH in 10:21)",
             "Avi-Ad (Father of Eternity/Everlasting Father -- transcending temporal limits)",
@@ -762,7 +762,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "geza (stump -- the Davidic dynasty reduced to a rootstock, but alive)",
             "choter (shoot -- new growth from the stump; messianic terminology)",
             "netser (branch -- a green shoot; possibly the root of 'Nazarene' in Matt 2:23)",
@@ -907,7 +907,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "yeshu'ah (salvation -- from the same root as Yeshua/Joshua/Jesus)",
             "Yah YHWH (the LORD GOD -- the doubled divine name emphasizing covenant identity)",
             "zimrat (song/strength -- the music of YHWH's people in response to deliverance)",

@@ -52,7 +52,7 @@ CHAPTERS = [
             "text": "Lord, you have been our dwelling place in all generations. Before the mountains were brought forth, or ever you had formed the earth and the world, from everlasting to everlasting you are God.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["torah", "kohen", "berit"],
+        "original_terms": ["torah", "kohen", "berit"],
         "ane_backdrop": (
             'The question of antiquity was central to ancient cultural prestige. In the '
             'Greco-Roman world, older civilizations were considered more authoritative and closer '
@@ -274,7 +274,7 @@ CHAPTERS = [
             "text": "And what great nation is there, that has statutes and rules so righteous as all this law that I set before you today?",
             "translation": "ESV"
         },
-        "hebrew_terms": ["torah", "shema", "shabbat", "kashrut", "hesed"],
+        "original_terms": ["torah", "shema", "shabbat", "kashrut", "hesed"],
         "ane_backdrop": (
             'Josephus\'s defense of Jewish law must be understood against the backdrop of Roman '
             'imperial religion and Hellenistic philosophy. By the late first century AD, educated '
@@ -533,7 +533,7 @@ CHAPTERS = [
             "text": "Why do the nations rage and the peoples plot in vain? The kings of the earth set themselves, and the rulers take counsel together, against the LORD and against his Anointed.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["libel", "onolatria", "kosher"],
+        "original_terms": ["libel", "onolatria", "kosher"],
         "ane_backdrop": (
             'Anti-Jewish sentiment in the Greco-Roman world had a long history, particularly in '
             'Alexandria, where Jews and Greeks competed for civic status and economic resources. '
@@ -725,7 +725,7 @@ CHAPTERS = [
             "text": "And I, behold, I make you this day a fortified city, an iron pillar, and bronze walls, against the whole land. They will fight against you, but they shall not prevail against you, for I am with you, declares the LORD, to deliver you.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["perushim", "kohen", "strategos", "apologia"],
+        "original_terms": ["perushim", "kohen", "strategos", "apologia"],
         "ane_backdrop": (
             'Ancient autobiography (apologia pro vita sua) was an established genre: Plato\'s '
             'Seventh Letter, Isocrates\'s Antidosis, and later Augustus\'s Res Gestae all share '
@@ -940,7 +940,7 @@ CHAPTERS = [
             "text": "If this be so, our God whom we serve is able to deliver us from the burning fiery furnace, and he will deliver us out of your hand, O king. But if not, be it known to you, O king, that we will not serve your gods.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["qiddush_hashem", "torah", "emunah", "hesed"],
+        "original_terms": ["qiddush_hashem", "torah", "emunah", "hesed"],
         "ane_backdrop": (
             'Josephus\'s celebration of Jewish martyrdom connects to the broader Hellenistic '
             'discourse on noble death. Socrates\'s acceptance of the hemlock (Plato, Phaedo) '
@@ -1164,7 +1164,7 @@ CHAPTERS = [
             "text": "I ask, then, has God rejected his people? By no means! For I myself am an Israelite, a descendant of Abraham, a member of the tribe of Benjamin.",
             "translation": "ESV"
         },
-        "hebrew_terms": ["teshuvah", "emunah", "tikkun"],
+        "original_terms": ["teshuvah", "emunah", "tikkun"],
         "ane_backdrop": (
             'Josephus\'s tonal evolution must be understood within the broader context of Jewish '
             'intellectual response to 70 AD. Other contemporary responses include: 4 Ezra\'s '

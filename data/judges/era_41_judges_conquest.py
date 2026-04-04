@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shophet (judge -- not a courtroom magistrate but a Spirit-empowered military deliverer raised by YHWH to rescue Israel from oppression)",
             "yarash (to dispossess/inherit -- the key verb of the conquest; Israel's mission was to yarash the land by displacing its current inhabitants)",
             "rekev barzel (chariots of iron -- Canaanite military technology using iron-fitted wooden war vehicles that exposed Israel's failure of nerve, not YHWH's failure of power)",
@@ -188,7 +188,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mal'akh YHWH (Angel of YHWH -- the visible YHWH, divine council envoy who speaks as God himself)",
             "Bochim (weepers -- the place named for Israel's grief at the covenant prosecution)",
             "rib (covenant lawsuit -- the legal form of the Angel's speech at Bochim)",
@@ -344,7 +344,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "moshia (deliverer/savior -- the term used for the judges as YHWH's agents of salvation)",
             "ruakh YHWH (Spirit of YHWH -- the divine council empowerment that came upon Othniel)",
             "itter yad yemino (restricted in his right hand -- Ehud's left-handedness, used strategically)",
@@ -504,7 +504,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "neviah (prophetess -- Deborah's title; she speaks for YHWH, one of only a handful of named female prophets)",
             "shophetet (female judge -- Deborah exercises both juridical and military leadership)",
             "rekev barzel (chariots of iron -- Sisera's 900 chariots, rendered useless by YHWH's storm)",
@@ -654,7 +654,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shirah (song -- the genre designation; a victory hymn celebrating YHWH's military triumph)",
             "Se'ir/Edom (the region south of the Dead Sea -- YHWH's march-route, his southern mountain stronghold)",
             "kokhavim (stars -- the astral host who fight from heaven, members of YHWH's heavenly army)",

@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d7\u05b8\u05db\u05b0\u05de\u05b8\u05d4 (chokmah)",
                 "meaning": "Wisdom \u2014 personified as a woman in Proverbs 1-9. In the "
@@ -186,7 +186,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b3\u03ac\u03bc\u03bf\u03c2 (gamos)",
                 "meaning": "Wedding, wedding feast, marriage celebration. In the ancient "
@@ -328,7 +328,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e9\u05c1\u05b6\u05de\u05b6\u05df (shemen)",
                 "meaning": "Oil \u2014 used for anointing, healing, light, and joy. Throughout "

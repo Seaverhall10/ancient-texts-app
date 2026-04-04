@@ -50,7 +50,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c3\u03b5\u03c0\u03c4\u03c5\u03b1\u03b3\u03b9\u03bd\u03c4\u03b1 (Septuaginta)",
                 "meaning": "Latin for 'seventy,' referring to the tradition that seventy "
@@ -262,7 +262,7 @@ CHAPTERS = [
             "translation": "ESV (following DSS/LXX reading)"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05de\u05b8\u05e1\u05d5\u05b9\u05e8\u05b8\u05d4 (Masorah)",
                 "meaning": "Tradition, transmission. The Masoretes were Jewish scribes "

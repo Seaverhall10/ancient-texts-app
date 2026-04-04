@@ -67,7 +67,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u1F10\u03BA\u03BA\u03BB\u03B7\u03C3\u03AF\u03B1 (ekklesia)",
                 "meaning": (
@@ -468,7 +468,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u1F10\u03C0\u03AF\u03C3\u03BA\u03BF\u03C0\u03BF\u03C2 (episkopos)",
                 "meaning": (
@@ -869,7 +869,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03B3\u03BD\u1FF6\u03C3\u03B9\u03C2 (gnosis)",
                 "meaning": (
@@ -1319,7 +1319,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03BC\u03AC\u03C1\u03C4\u03C5\u03C2 (martyrs)",
                 "meaning": (

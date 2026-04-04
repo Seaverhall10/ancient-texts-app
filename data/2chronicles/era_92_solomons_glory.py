@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chokmah (wisdom -- Solomon's defining gift; not mere intelligence but the skill to rule justly and build rightly)",
             "bayit YHWH (house of YHWH -- the temple; God's earthly dwelling place, mirror of his heavenly throne room)",
             "devir (inner sanctuary/Holy of Holies -- the most sacred space, where the Ark of the Covenant rests between the cherubim)",
@@ -171,7 +171,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kavod (glory -- the visible manifestation of YHWH's presence; the cloud that fills the temple is the same kavod that led Israel through the wilderness and descended on Sinai)",
             "anan (cloud -- the vehicle of divine presence; when the cloud fills the temple, heaven has descended to earth)",
             "esh min-hashamayim (fire from heaven -- divine acceptance of Solomon's offerings, as with the tabernacle dedication in Lev 9:24 and Elijah's sacrifice in 1 Kgs 18:38)",
@@ -315,7 +315,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chidot (riddles/hard questions -- the Queen of Sheba tests Solomon with complex problems; the same term for Samson's riddle in Judges 14)",
             "mishpat u-tsedaqah (justice and righteousness -- the Queen recognizes Solomon's purpose: not personal glory but just governance)",
             "kisse YHWH (throne of YHWH -- the Queen says Solomon sits 'on his throne as king for the LORD your God'; the Davidic throne is YHWH's own throne)"

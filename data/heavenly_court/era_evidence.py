@@ -59,7 +59,7 @@ CHAPTERS = [
             "translation": "Charles (R.H. Charles, 1917 translation of 1 Enoch — non-canonical)"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d7\u05e8\u05dd (cherem)",
                 "meaning": "Devoted to destruction; a ban; something irrevocably "
@@ -340,7 +340,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e8\u05e4\u05d0\u05d9\u05dd (Rephaim)",
                 "meaning": "The Rephaim are an enigmatic group in the Hebrew Bible: "
@@ -596,7 +596,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05de\u05e6\u05e8\u05d9\u05dd (Mitsrayim)",
                 "meaning": "Egypt. The dual form (-ayim) may reference Upper and "
@@ -883,7 +883,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05d9\u05e8 (ir)",
                 "meaning": "City. Genesis 4:17 states Cain \'built a city\' (banah "
@@ -1135,7 +1135,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05de\u05d2\u05d3\u05dc (migdal)",
                 "meaning": "Tower. The Tower of Babel (migdal Babel) is described "
@@ -1406,7 +1406,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c3\u03b9\u03bd\u03b4\u03ce\u03bd (sindon)",
                 "meaning": "A linen wrapping cloth. Used in the Synoptic Gospels "
@@ -1683,7 +1683,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d7\u05de\u05e1 (chamas)",
                 "meaning": "Violence, wrong, injustice. Genesis 6:11 describes "

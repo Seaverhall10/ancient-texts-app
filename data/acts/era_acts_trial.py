@@ -43,7 +43,7 @@ CHAPTERS = [
             "text": "The following night the Lord stood by him and said, 'Take courage, for as you have testified to the facts about me in Jerusalem, so you must testify also in Rome.'"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "Ἑβραΐδι διαλέκτῳ", "transliteration": "Hebraidi dialektō", "meaning": "In the Hebrew/Aramaic language — Paul switches from Greek to Aramaic to connect with the Jerusalem crowd"},
             {"term": "πολίτης Ῥωμαῖος", "transliteration": "politēs Rhōmaios", "meaning": "Roman citizen — Paul's legal status that protects him from arbitrary flogging and grants appeal to Caesar"},
             {"term": "ἀνάστασις νεκρῶν", "transliteration": "anastasis nekrōn", "meaning": "Resurrection of the dead — the core doctrine dividing Pharisees and Sadducees; Paul's strategic emphasis"},
@@ -145,7 +145,7 @@ CHAPTERS = [
             "text": "To this day I have had the help that comes from God, and so I stand here testifying both to small and great, saying nothing but what the prophets and Moses said would come to pass: that the Christ must suffer and that, by being the first to rise from the dead, he would proclaim light both to our people and to the Gentiles."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "ἡ ὁδός", "transliteration": "hē hodos", "meaning": "The Way — the earliest name for Christianity; a movement, not just a belief system"},
             {"term": "αἵρεσις", "transliteration": "hairesis", "meaning": "Sect/faction — what Paul's accusers call 'the Way'; Paul rejects the label by affirming continuity with Moses and the prophets"},
             {"term": "Χριστιανός", "transliteration": "Christianos", "meaning": "Christian — Agrippa uses the term; only appears three times in the NT (here, 11:26, 1 Pet 4:16)"},
@@ -246,7 +246,7 @@ CHAPTERS = [
             "text": "He lived there two whole years at his own expense, and welcomed all who came to him, proclaiming the kingdom of God and teaching about the Lord Jesus Christ with all boldness and without hindrance."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "ἄγγελος τοῦ θεοῦ", "transliteration": "angelos tou theou", "meaning": "Angel of God — the divine messenger who assures Paul of safe arrival (27:23)"},
             {"term": "δεῖ", "transliteration": "dei", "meaning": "It is necessary/must — divine necessity; 'you MUST stand before Caesar' (27:24) — the same dei from 23:11"},
             {"term": "ἀκωλύτως", "transliteration": "akōlytōs", "meaning": "Without hindrance/unhindered — Acts' final word, describing the gospel's unstoppable advance"},

@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b8\u03b7\u03c3\u03b1\u03c5\u03c1\u03cc\u03c2 (thesauros)",
                 "meaning": "Treasure, storehouse, treasury. The word describes "
@@ -294,7 +294,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d9\u05b7\u05d6\u05b0\u05d4\u05b4\u05e8\u05d5\u05bc (yazhiru)",
                 "meaning": "They will shine, they will be radiant, they will give "

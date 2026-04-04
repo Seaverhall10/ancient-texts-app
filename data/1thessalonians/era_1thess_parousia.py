@@ -67,7 +67,7 @@ CHAPTERS = [
             'evidence of the cosmic transfer: the Thessalonians are now under new governance, '
             'empowered by the Spirit of the living God rather than the impotent idols.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u03b5\u1f34\u03b4\u03c9\u03bb\u03b1',
                 'transliteration': 'eidola',
@@ -306,7 +306,7 @@ CHAPTERS = [
             'the <i>apantesis</i> is a royal welcome: the citizens going out to meet their '
             'arriving King and escorting him into his city.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u1f00\u03c1\u03c7\u03ac\u03b3\u03b3\u03b5\u03bb\u03bf\u03c2',
                 'transliteration': 'archangelos',
@@ -554,7 +554,7 @@ CHAPTERS = [
             'vs. sons of darkness" and ultimately to the cosmic conflict between God\'s '
             'realm and the domain of hostile powers.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u1f21\u03bc\u03ad\u03c1\u03b1 \u03ba\u03c5\u03c1\u03af\u03bf\u03c5',
                 'transliteration': 'hemera kyriou',

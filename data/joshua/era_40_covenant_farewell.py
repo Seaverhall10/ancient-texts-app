@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mizbeach (altar -- the structure that triggers the crisis)",
             "ed (witness -- the name given to the altar, testifying to covenant unity)",
             "ma'al (breach of faith/trespass -- the accusation against the eastern tribes)",
@@ -249,7 +249,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "davaq (to cling/cleave -- used both for clinging to YHWH and for dangerous attachment to the nations)",
             "chatanim (intermarriage -- the specific danger Joshua warns against)",
             "moqesh (snare -- the nations as traps for Israel's faith)",
@@ -410,7 +410,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "bachar (to choose -- the covenant demand for a conscious decision)",
             "avad (to serve/worship -- the verb applied to both YHWH and other gods)",
             "elohim acherim (other gods -- the Hebrew Bible uses <em>elohim</em> as a broad category meaning 'divine beings' or 'spiritual beings,' not exclusively the one true God; the 'other gods' here are real spiritual entities in the divine council framework, not mere idols, though their worship is forbidden because YHWH alone is the supreme God and Israel's covenant lord)",

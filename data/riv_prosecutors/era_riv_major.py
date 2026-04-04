@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e4\u05b8\u05bc\u05e9\u05b0\u05c1\u05e2\u05d5\u05bc (pash\u2018u)",
                 "meaning": "'They have rebelled, they have transgressed.' From the root p-sh-\u2018 "
@@ -210,7 +210,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05de\u05b8\u05e7\u05d5\u05b9\u05e8 \u05de\u05b7\u05d9\u05b4\u05dd\u05be\u05d7\u05b7\u05d9\u05b4\u05bc\u05d9\u05dd (maqor mayim-chayyim)",
                 "meaning": "'Fountain of living waters.' YHWH describes himself as maqor mayim-chayyim "
@@ -377,7 +377,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05db\u05b8\u05bc\u05d1\u05d5\u05b9\u05d3 (kavod)",
                 "meaning": "'Glory, weight, honor, presence.' From the root k-b-d ('to be heavy, "

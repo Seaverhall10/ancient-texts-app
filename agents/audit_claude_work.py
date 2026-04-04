@@ -482,7 +482,7 @@ def audit_era_files():
 
     # Required chapter fields
     REQUIRED_FIELDS = ['id', 'ref', 'title', 'era', 'type']
-    DEPTH_FIELDS = ['synopsis', 'sections', 'cross_refs', 'hebrew_terms', 'key_verse']
+    DEPTH_FIELDS = ['synopsis', 'sections', 'cross_refs', 'original_terms', 'key_verse']
     THEOLOGY_FIELDS = ['divine_council_note', 'ane_backdrop', 'second_temple']
 
     total_eras = 0
@@ -535,7 +535,7 @@ def audit_era_files():
                 # Check depth fields
                 sections = ch.get('sections', [])
                 xrefs = ch.get('cross_refs', [])
-                terms = ch.get('hebrew_terms', [])
+                terms = ch.get('original_terms', [])
                 synopsis = ch.get('synopsis', '')
                 key_verse = ch.get('key_verse', None)
 
@@ -596,7 +596,7 @@ def audit_era_files():
     findings.append(('INFO', 'era_summary',
         f"Scanned {total_eras} era files, {total_chapters} chapters"))
     findings.append(('INFO', 'era_depth',
-        f"Totals: {total_sections} sections, {total_xrefs} xrefs, {total_terms} hebrew_terms"))
+        f"Totals: {total_sections} sections, {total_xrefs} xrefs, {total_terms} original_terms"))
     findings.append(('INFO', 'era_thin',
         f"{thin_chapters} thin chapters (< 3 sections AND < 3 xrefs)"))
     findings.append(('INFO', 'era_synopsis',

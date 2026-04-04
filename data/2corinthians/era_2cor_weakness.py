@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ochyroma (stronghold/fortress -- from ochyros [fortified]; a military term for a walled citadel; Paul applies siege-warfare language to intellectual and spiritual structures opposed to God)",
             "logismos (argument/reasoning -- from logizomai [to reckon]; the calculated ideological positions that fortify resistance against the knowledge of God)",
             "kathairesis (demolition/destruction -- from kathaireo [to pull down]; the same word used for demolishing physical fortifications in warfare)",
@@ -222,7 +222,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "harpazo (to snatch up/seize -- from the root meaning to seize by force; Paul was violently seized and transported into the heavenly realm; used also in 1 Thess 4:17 for the rapture)",
             "tritos ouranos (third heaven -- the highest level of the multi-layered cosmic geography; God's own dwelling place and throne room; the seat of the divine council)",
             "paradeisos (paradise -- Persian loanword from pairidaeza meaning 'walled garden'; the LXX uses it for Eden in Gen 2:8; identified here with the third heaven as the restored garden of God)",
@@ -411,7 +411,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "semeia kai terata kai dynameis (signs and wonders and mighty works -- the threefold description of apostolic credentials; semeia [signs] point to meaning, terata [wonders] evoke awe, dynameis [mighty works] display power)",
             "dokimazo (to test/examine/prove -- from dokimos [approved after testing]; Paul challenges the Corinthians to test themselves rather than demanding proof from him)",
             "koinonia tou hagiou pneumatos (the fellowship/participation of the Holy Spirit -- from koinoneo [to share in common]; the Spirit creates communal participation in divine life)",

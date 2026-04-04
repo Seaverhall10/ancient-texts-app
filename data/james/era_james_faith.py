@@ -41,7 +41,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "peirasmos (trial/testing/temptation -- 1:2, 12-13; the same word covers both external trials [suffering] and internal temptation [desire]; God sends the first but never the second)",
             "dipsychos (double-minded/double-souled -- 1:8; 4:8; from dis [two/double] + psyche [soul]; a person divided in loyalty between God and the world; unique to James in the NT)",
             "pater ton photon (Father of lights -- 1:17; God as the source of all light, both physical [sun, moon, stars] and spiritual [truth, goodness]; 'lights' may refer to the heavenly luminaries or the members of the divine council)",
@@ -186,7 +186,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hedone (pleasure/passion -- 4:1, 3; from which 'hedonism' derives; the internal drives that wage war within a person and produce external conflict)",
             "moichalis (adulteress -- 4:4; 'You adulterous people!' -- spiritual adultery, the OT metaphor of unfaithfulness to God as sexual infidelity [Hos 2:2; Jer 3:6-10]; James applies it to friendship with the world)",
             "antitassomai (to resist/oppose -- 4:6; 'God opposes the proud'; a military term for arraying troops against an enemy; God actively takes up position against the arrogant)",

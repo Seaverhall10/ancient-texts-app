@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "elohei Aram (gods of Aram -- the territorial deities of the Aramean peoples to the northeast, especially Hadad the storm god; Aram stretched from Damascus to upper Mesopotamia)",
             "elohei Tsidon (gods of Sidon -- Phoenician deities worshiped at the major coastal trade city, including Baal, Astarte/Ashtaroth (the fertility and war goddess), and Eshmun (a healing deity))",
             "elohei Mo'av (gods of Moab -- primarily Chemosh, the national deity of Moab attested on the Mesha Stele (~840 BC), where Mesha credits Chemosh with military victories in language strikingly parallel to Israelite holy war texts)",
@@ -220,7 +220,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Kemosh (Chemosh -- the national deity of Moab, treated by Jephthah as a real territorial being with land-granting authority)",
             "yarash (to possess/dispossess -- the key verb in 11:24, used for both Chemosh's and YHWH's territorial allotments)",
             "neder (vow -- Jephthah's rash promise that binds him to a devastating outcome)",
@@ -431,7 +431,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shibolet (ear of grain/flowing stream -- the word used as a dialectal test; Ephraimites could not pronounce the 'sh' sound)",
             "sibolet (the Ephraimite pronunciation -- substituting samekh for shin, revealing dialectal difference)",
             "ma'barot haYarden (the fords of the Jordan -- the strategic chokepoint seized by the Gileadites)",

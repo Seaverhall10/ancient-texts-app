@@ -43,7 +43,7 @@ CHAPTERS = [
             "text": "For so the Lord has commanded us, saying, 'I have made you a light for the Gentiles, that you may bring salvation to the ends of the earth.'"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "ἀφορίζω", "transliteration": "aphorizō", "meaning": "To set apart/separate — the Spirit's consecration of Paul and Barnabas for mission"},
             {"term": "φῶς ἐθνῶν", "transliteration": "phōs ethnōn", "meaning": "Light to/of the Gentiles — from Isaiah 49:6; the Servant's mission now carried by the church"},
             {"term": "אוֹר גּוֹיִם", "transliteration": "or goyim", "meaning": "Light of nations (Hebrew) — Isaiah's phrase that defines the church's mission beyond Israel"},
@@ -141,7 +141,7 @@ CHAPTERS = [
             "text": "But we believe that we will be saved through the grace of the Lord Jesus, just as they will."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "περιτομή", "transliteration": "peritomē", "meaning": "Circumcision — the covenant sign of Gen 17; the question: is it required for Gentile salvation?"},
             {"term": "סֻכַּת דָּוִד", "transliteration": "sukkat david", "meaning": "Booth/tent of David — Amos' image of David's fallen dynasty; rebuilt in Jesus to include the nations"},
             {"term": "ζυγός", "transliteration": "zygos", "meaning": "Yoke — Peter describes Torah observance as an unbearable yoke for Gentiles"},
@@ -239,7 +239,7 @@ CHAPTERS = [
             "text": "And he made from one man every nation of mankind to live on all the face of the earth, having determined allotted periods and the boundaries of their dwelling place, that they should seek God, and perhaps feel their way toward him and find him."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "Ἄρειος Πάγος", "transliteration": "Areios Pagos", "meaning": "Areopagus/Mars Hill — Athens' intellectual forum where Paul engages Greek philosophy with Hebrew theology"},
             {"term": "ἀγνώστῳ θεῷ", "transliteration": "agnōstō theō", "meaning": "To an unknown god — the Athenian altar Paul uses as a starting point for gospel proclamation"},
             {"term": "ὁροθεσία", "transliteration": "horothesia", "meaning": "Determined boundaries — echoes Deut 32:8 where God set the boundaries of peoples according to the sons of God"},
@@ -341,7 +341,7 @@ CHAPTERS = [
             "text": "For I did not shrink from declaring to you the whole counsel of God."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "βουλή", "transliteration": "boulē", "meaning": "Counsel/plan/purpose — the comprehensive divine plan that Paul declared in its entirety"},
             {"term": "Ἄρτεμις", "transliteration": "Artemis", "meaning": "Artemis/Diana — the great goddess of Ephesus; the gospel threatens her economic cult"},
             {"term": "ἐπίσκοπος", "transliteration": "episkopos", "meaning": "Overseer/bishop — the role Paul assigns to the Ephesian elders (20:28)"},

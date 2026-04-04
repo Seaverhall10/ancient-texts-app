@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "darash (to seek -- the defining verb of the Chronicler's theology; kings and people who 'seek' YHWH prosper; those who do not are punished)",
             "azav (to forsake/abandon -- the opposite of darash; when Israel 'forsakes' YHWH, he 'forsakes' them; the covenant is bilateral)",
             "sibbah me-elohim (a turn of affairs from God -- the divine causation behind the political division; YHWH orchestrates historical events)",
@@ -158,7 +158,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kol-tseva hashamayim (all the host of heaven -- the divine council assembled around YHWH's throne; the spiritual beings who serve in the heavenly administration)",
             "ruach (spirit -- the spirit who volunteers to be a lying spirit in the prophets' mouths; a divine council agent commissioned for a specific mission)",
             "darash (to seek -- Jehoshaphat 'sought' YHWH and prospered; the recurring verb of faithfulness)",
@@ -317,7 +317,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ma'al (breach of faith -- Uzziah's defining sin: entering the temple unauthorized; the same word used for Saul, Rehoboam, and the exile itself)",
             "tsara'at (skin disease/leprosy -- Uzziah's punishment for temple violation; a sign of divine displeasure marking him as unclean)",
             "ge-ben-hinnom (Valley of the son of Hinnom/Gehenna -- where Ahaz burned his sons; later becomes the symbol of eternal judgment in Jesus' teaching)",

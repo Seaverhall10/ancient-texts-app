@@ -38,7 +38,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sahad (witness -- the heavenly witness who will testify for Job)",
             "melits (intercessor/advocate -- one who speaks on Job's behalf in the divine court)",
             "yirah (fear of God -- what Eliphaz accuses Job of undermining)",
@@ -136,7 +136,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "goel (redeemer/kinsman-redeemer -- the family member obligated to vindicate and restore)",
             "melekh ballahot (king of terrors -- death personified, the ultimate enemy in Bildad's speech)",
             "acharon (the last/the latter -- temporal reference to the end, when the goel will act)",
@@ -258,7 +258,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "rasha (wicked -- the class the friends insist must suffer, but Job observes prospering)",
             "shalav (at ease/in prosperity -- the condition of the wicked that contradicts retribution theology)",
             "etsah (counsel/purpose -- God's plan that the friends claim to understand but do not)"
@@ -348,7 +348,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chokhmah (wisdom -- personified in chapter 28 as a hidden treasure God alone knows)",
             "tummah (integrity -- what Job refuses to surrender despite all pressure)",
             "yirat adonai (fear of the Lord -- the conclusion of the wisdom hymn and the beginning of true knowledge)",
@@ -469,7 +469,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tav (signature/mark -- the last letter of the Hebrew alphabet, Job's legal seal)",
             "berith (covenant -- Job's covenant with his eyes not to look lustfully, 31:1)",
             "tsedeq (righteousness -- the justice Job practiced and now invokes as defense)",
@@ -576,7 +576,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "musar (discipline/instruction -- suffering as God's teaching tool, not punitive judgment)",
             "melits (mediator/interpreter -- the angelic mediator of 33:23 who declares a person upright)",
             "kopher (ransom -- the price of redemption that the mediator announces, 33:24)",

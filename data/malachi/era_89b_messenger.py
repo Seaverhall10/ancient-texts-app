@@ -40,7 +40,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mal'akhi (my messenger -- the one who prepares the way; John the Baptist; also the prophet's name)",
             "ha-Adon (the Lord -- with the article; distinguished from YHWH who sends him; the second power in heaven)",
             "mal'akh ha-berit (messenger of the covenant -- the divine figure who mediates YHWH's covenant; possibly the Angel of YHWH)",
@@ -131,7 +131,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shemesh tsedaqah (sun of righteousness -- the healing sunrise; Christ as the dawn of a new age)",
             "marpeh bi-khenapheyha (healing in its wings -- the sun's rays as healing wings; theophanic light imagery)",
             "Eliyyahu ha-navi (Elijah the prophet -- the promised forerunner of the Day of YHWH; fulfilled in John the Baptist)",

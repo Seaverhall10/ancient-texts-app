@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "'eved (servant -- covenant representative, not slave; one who acts with the master's full authority)",
             "bechiyr (chosen one -- the elect, specifically chosen for a purpose, same root as bachar)",
             "ratsah (delight/pleasure -- the same word used for an accepted sacrifice; YHWH's approval is total)",
@@ -266,7 +266,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "'iyim (coastlands/islands -- the far reaches of the known world, the most distant nations)",
             "le'om (peoples -- ethnic groups, parallel to goyim; the servant's audience is all humanity)",
             "beten (womb -- the place of pre-birth calling; the servant's identity is named before birth)",
@@ -503,7 +503,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "lashon limudim (tongue of those who are taught -- the servant's speech is the result of daily divine instruction)",
             "ya'ar (wakes/rouses -- YHWH rouses the servant morning by morning; consistent daily formation)",
             "ozen limudim (ear of disciples -- the servant first RECEIVES before he speaks; hearing precedes speaking)",
@@ -742,7 +742,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "rum ve-nasa' (high and lifted up -- 52:13, the SAME phrase as Isaiah 6:1 for YHWH himself; divine elevation language)",
             "ish makh'ovot (man of sorrows/pains -- 53:3; makh'ov from ka'av, deep visceral pain, not mild discomfort)",
             "nasa' and saval (he bore AND he carried -- 53:4; double weight, sustained carrying, not a moment's bearing)",
@@ -1061,7 +1061,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "riv (covenant lawsuit -- the formal legal dispute YHWH brings against covenant-breaking Israel through the prophets)",
             "yatsdiq (he shall justify -- 53:11 Hiphil causative: the servant makes others righteous before the court)",
             "'asham (guilt offering -- 53:10; the precise Levitical sacrifice for intentional covenant violations)",

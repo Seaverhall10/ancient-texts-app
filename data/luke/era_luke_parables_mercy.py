@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "plesion (neighbor -- the lawyer's question 'Who is my neighbor?' (10:29); in the Hebrew "
             "of Lev 19:18, rea' means 'companion, associate'; the question is really 'where does my "
             "obligation end?'; Jesus redefines it from ethnic category to ethical action)",
@@ -255,7 +255,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ousia (property / substance / estate -- 'Give me the share of property (ousia) that falls "
             "to me' (15:12); the son demands his inheritance while his father is alive; under "
             "Deuteronomy 21:17 — the firstborn receives a double portion; in a two-son household, the "
@@ -484,7 +484,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kolpos Abraam (Abraham's bosom / Abraham's side -- 16:22; the place of comfort and covenant "
             "blessing in the intermediate state; the patriarch as host of the faithful dead; in Jewish "
             "tradition, to recline at Abraham's bosom is to share his table at the eschatological feast)",
@@ -715,7 +715,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hilasthēti (be merciful / be propitiated -- 18:13; from hilaskomai, 'to propitiate, to "
             "make atonement'; the same root as hilastērion, the 'mercy seat' (kapporet) atop the Ark "
             "of the Covenant (Exod 25:17-22; Rom 3:25); the tax collector appeals to God's atoning "

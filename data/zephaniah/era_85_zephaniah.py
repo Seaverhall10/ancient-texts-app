@@ -32,7 +32,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "asoph aseph (I will utterly sweep away -- intensive form emphasizing totality)",
             "tseva ha-shamayim (host of the heavens -- the celestial beings worshiped in astral cults)",
             "yom evrah (day of wrath -- the phrase that inspired the medieval Dies Irae hymn)"
@@ -115,7 +115,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "anavim (humble/poor of the land -- the remnant who seek YHWH)",
             "razah (to famish/make lean -- YHWH will 'famish' the gods of the earth; starve them of worship)",
             "sater (to hide/shelter -- 'perhaps you may be hidden'; the prophet's name means 'YHWH hides')"

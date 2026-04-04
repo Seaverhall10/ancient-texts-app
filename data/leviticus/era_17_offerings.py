@@ -53,7 +53,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "olah", "korban", "tamim", "semikah", "dam", "mizbeach",
             "reach_nichoach", "kaphar", "ohel_moed", "esh"
             # Key glosses: korban = 'offering' (from qarab, 'to draw near');
@@ -285,7 +285,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "minchah", "solet", "levonah", "azkarah", "chametz",
             "devash", "melach_berit", "qodesh_qodashim", "shemen"
             # Key glosses: minchah = 'gift/tribute'; solet = 'fine flour';
@@ -471,7 +471,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shelamim", "shalom", "zebach", "chelev", "dam",
             "klayot", "yoteret", "lechem_ishsheh", "semikah", "zaraq"
             # Key glosses: shelamim = 'peace/fellowship offering' (from shalom,
@@ -681,7 +681,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chattat", "chata", "bishgagah", "kohen_mashiach", "parokhet",
             "qetoret", "kapporet", "qeren", "nasi", "nefesh"
             # Key glosses: chattat = 'purification/sin offering'; chata = 'to miss
@@ -888,7 +888,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "asham", "maal", "shegagah", "tor", "yonah",
             "chamishit", "sheqel_haqqodesh", "kaphar", "salach", "nefesh"
             # Key glosses: asham = 'guilt/reparation offering' (requires restitution
@@ -1081,7 +1081,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "esh_tamid", "maal", "gazal", "asham", "minchah",
             "kohen_gadol", "qodesh_qodashim", "chattat", "chavitin"
             # Key glosses: esh tamid = 'perpetual fire' (the altar fire that must
@@ -1273,7 +1273,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "torah", "todah", "neder", "nedavah", "piggul",
             "karet", "tenufah", "chazeh", "shoq", "chelev"
             # Key glosses: torah = 'instruction/law' (not merely 'law' but

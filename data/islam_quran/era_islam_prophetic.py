@@ -46,7 +46,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "נָבִיא (navi)",
                 "meaning": "'Prophet' — from the root n-b-a, likely meaning 'to call, to announce.' "
@@ -213,7 +213,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "מָשִׁיחַ (mashiach)",
                 "meaning": "'Anointed one' — from the root m-sh-ch, 'to anoint with oil.' The mashiach "
@@ -417,7 +417,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "יָחִיד (yachid)",
                 "meaning": "'Only one, unique, beloved.' In Genesis 22:2, God tells Abraham to take "

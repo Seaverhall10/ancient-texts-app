@@ -41,7 +41,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "b'nei 'elim (sons of the mighty ones -- divine council members addressed directly; same construction as 'sons of God' in Job 1:6)",
             "qol Yahweh (voice of the LORD -- the thunderstorm theophany; seven repetitions structure the entire psalm)",
             "kavod (glory -- the divine weight or radiance; what the council is commanded to ascribe to Yahweh)",
@@ -239,7 +239,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shir (song -- the psalm's own genre designation; a victory ode for the divine warrior's march)",
             "qum (arise -- v.1: 'Let God arise (yaqum) and his enemies be scattered'; the battle cry launching the march)",
             "'avi yetomim (father of the fatherless -- v.5: Yahweh's social justice identity within the divine warrior frame)",
@@ -444,7 +444,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "'adat-El (divine assembly/congregation of El -- the council chamber; Ugaritic cognate phr 'ilm is exact parallel)",
             "nitsav (to take a stand/to station oneself -- Niphal of natsav; the posture of a prosecuting judge rising to deliver verdict)",
             "b'qerev 'elohim (in the midst of the gods -- the plural divine council members; elohim here is unambiguously plural in reference)",
@@ -662,7 +662,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sod (intimate council/secret assembly -- the inner circle of the divine council; same word as Amos 3:7 where prophets receive Yahweh's sod)",
             "qedoshim (holy ones -- the divine council members; b'nei 'elim = sons of the mighty; both terms appear in vv.5-7)",
             "b'nei 'elim (sons of the mighty -- the council members in v.6; same phrase as Ps 29:1 commanding them to worship Yahweh)",
@@ -881,7 +881,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ne'um Yahweh (oracle/declaration of Yahweh -- the prophetic formula for a divine pronouncement; used 365 times in OT for authoritative divine speech)",
             "l'adoni (to my Lord -- David's superior; the puzzle Jesus exploits in Matt 22: whose son is the Messiah if David calls him lord?)",
             "shev li-ymini (sit at my right hand -- enthronement at the highest council position; the Son of Man ascending to the Ancient of Days, Dan 7:13)",

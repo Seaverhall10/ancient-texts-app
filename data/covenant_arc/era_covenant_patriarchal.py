@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "צֶלֶם (tselem)",
                 "meaning": "[A] 'Image' — from a root meaning 'to cut, to carve.' In the ANE, a "
@@ -302,7 +302,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "בְּרִית (berit)",
                 "meaning": "[A] 'Covenant' — the single most important theological word in the "
@@ -560,7 +560,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "כָּרַת בְּרִית (karat berit)",
                 "meaning": "[A] 'To cut a covenant' — the standard Hebrew idiom for covenant-"

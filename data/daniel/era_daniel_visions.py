@@ -65,7 +65,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Attiq Yomin (Ancient of Days -- the eternal God enthroned as cosmic judge; appears only in Daniel 7)",
             "kebar enash (one like a son of man -- the divine figure who receives dominion from the Ancient of Days)",
             "karsavan (thrones -- PLURAL, set up for the divine council members who sit in judgment)",
@@ -324,7 +324,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tseva hashamayim (host of heaven -- the angelic/divine council army; the 'stars' are council members)",
             "sar-hatsava (Prince of the host -- YHWH or his chief angel, the commander of the heavenly army)",
             "sar-sarim (Prince of princes -- the supreme Prince, YHWH himself)",
@@ -506,7 +506,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shavu'im shiv'im (seventy weeks/sevens -- the 490-year prophetic timeline)",
             "mashiach nagid (anointed one, a prince -- the messianic ruler; mashiach is the root of 'Messiah')",
             "yikkaret (shall be cut off -- the death of the anointed one; karat means to cut, kill, or make a covenant)",
@@ -687,7 +687,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sar (prince -- a territorial spirit, a divine being assigned to govern a nation or empire)",
             "sar Paras (Prince of Persia -- the divine being governing the Persian Empire from the unseen realm)",
             "sar Yavan (Prince of Greece -- the divine being behind the Greek Empire)",

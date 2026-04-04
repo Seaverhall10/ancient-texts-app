@@ -40,7 +40,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "seara (whirlwind/tempest -- the medium of YHWH's theophanic appearance)",
             "kokhve voqer (morning stars -- celestial beings who witnessed creation, parallel to bene elohim)",
             "bene elohim (sons of God -- the divine council present at creation)",
@@ -181,7 +181,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "behemoth (intensive plural of behemah/beast -- the supreme land creature, possibly supernatural)",
             "Leviathan (livyatan -- the chaos sea serpent, cognate with Ugaritic Litanu)",
             "tannin (sea monster/dragon -- related to Leviathan in the ANE chaos-monster tradition)",
@@ -321,7 +321,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nacham (to repent/relent/comfort -- Job's response after seeing God, debated in meaning)",
             "ra (evil/calamity -- what YHWH brought upon Job, acknowledged in 42:11)",
             "eved (servant -- YHWH calls Job 'my servant' four times in 42:7-8, the title of highest honor)",

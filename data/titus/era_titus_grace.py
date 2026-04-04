@@ -40,7 +40,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "anypotaktoi (insubordinate/unruly -- 1:10; from a-negative + hypotasso [to place under]; those who refuse to submit to apostolic authority and the divine order established through Paul's teaching)",
             "mataiologoi (empty talkers -- 1:10; from mataios [vain/futile] + logos [word]; speech that sounds impressive but carries no substance or truth; their words produce nothing of spiritual value)",
             "Kretes aei pseustai (Cretans are always liars -- 1:12; a hexameter line from Epimenides of Knossos, c. 600 BC, quoted by Paul as testimony from 'a prophet of their own'; creates the Epimenides paradox -- if all Cretans always lie, and Epimenides is Cretan, is this statement true?)",
@@ -205,7 +205,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "charis tou theou (the grace of God -- 2:11; not merely an attribute of God but a personified force that 'appears' in history; grace is the divine disposition of unmerited favor that enters the created order as an active agent)",
             "epephane (has appeared/has been made manifest -- 2:11; from epiphaino, the verb form of epiphaneia [epiphany]; used in Hellenistic culture for the manifestation of a deity or the arrival of a king; grace 'appeared' as a theophanic event -- a divine being stepping from the heavenly realm into the visible world)",
             "soterios (saving/bringing salvation -- 2:11; adjective modifying charis: grace is not merely kind but inherently salvific; it appears with saving power for all humanity, not just a select group)",
@@ -372,7 +372,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chrestotes kai philanthropia (goodness and loving-kindness -- 3:4; chrestotes = kindness/generosity [a character attribute of God in Rom 2:4]; philanthropia = love for humanity [lit. 'friend of man']; together they describe the divine motivation for salvation: not human merit but God's own benevolent disposition toward his creatures)",
             "loutron palingenesias (washing of regeneration -- 3:5; loutron = bath/washing [used only here and Eph 5:26 in the NT]; palingenesia = rebirth/renewal [from palin 'again' + genesis 'birth/origin']; used only here and Matt 19:28, where Jesus applies it to the cosmic renewal at the eschaton; Paul applies the cosmic term to the individual believer -- personal regeneration as a preview of cosmic re-creation)",
             "anakainosis pneumatos hagiou (renewal of the Holy Spirit -- 3:5; anakainosis = making new/renovation [used only here and Rom 12:2]; the Spirit is the agent of inward renovation, transforming the believer's nous [mind] and kardia [heart] from within)",

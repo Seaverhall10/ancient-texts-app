@@ -55,7 +55,7 @@ CHAPTERS = [
         },
 
         # NOTE: These are Greek (NT) terms — field name is a known schema limitation
-        "hebrew_terms": [
+        "original_terms": [
             "semeion (sign -- John's term for Jesus' miracles; distinct from teras, 'wonder/portent'; "
             "a semeion points beyond itself to reveal something about the one performing it; the signs "
             "are not just demonstrations of power but revelations of identity and glory)",
@@ -233,7 +233,7 @@ CHAPTERS = [
         },
 
         # NOTE: These are Greek (NT) terms — field name is a known schema limitation
-        "hebrew_terms": [
+        "original_terms": [
             "ergazomai (to work -- 5:17; Jesus claims the same continuous working as the Father; "
             "the rabbinic tradition acknowledged that God does not cease working on the Sabbath -- "
             "he sustains creation, gives life, and judges even on the seventh day; Jesus claims the "
@@ -441,7 +441,7 @@ CHAPTERS = [
         },
 
         # NOTE: These are Greek (NT) terms — field name is a known schema limitation
-        "hebrew_terms": [
+        "original_terms": [
             "ego eimi (I AM -- 6:20; on the surface, 'It is I'; but in the context of walking on "
             "water -- a divine prerogative (Job 9:8; Ps 77:19; Isa 43:16) -- the phrase carries "
             "the full weight of the divine name revealed at the burning bush (Exod 3:14, ehyeh "
@@ -637,7 +637,7 @@ CHAPTERS = [
         },
 
         # NOTE: These are Greek (NT) terms — field name is a known schema limitation
-        "hebrew_terms": [
+        "original_terms": [
             "anastasis (resurrection -- from ana + histemi, 'to stand up again'; the bodily raising "
             "from death; in Jewish eschatology (Dan 12:2), resurrection occurs at the end of the age; "
             "Jesus claims to BE the resurrection -- the eschatological power is not an event but a "

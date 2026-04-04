@@ -17,7 +17,7 @@ CHAPTERS = [
                 "text": "Blessed be the LORD, the God of my master Abraham, who has not forsaken his steadfast love and his faithfulness toward my master. As for me, the LORD has led me in the way to the house of my master's kinsmen.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "hesed",
                 "emunah",
                 "yhwh",
@@ -83,7 +83,7 @@ CHAPTERS = [
                 "text": "And the LORD said to her, 'Two nations are in your womb, and two peoples from within you shall be divided; the one shall be stronger than the other, the older shall serve the younger.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "toledot",
                 "bechor",
                 "zera",
@@ -152,7 +152,7 @@ CHAPTERS = [
                 "text": "And the LORD appeared to him the same night and said, 'I am the God of Abraham your father. Fear not, for I am with you and will bless you and multiply your offspring for my servant Abraham's sake.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "berit",
                 "berakah",
                 "zera",
@@ -211,7 +211,7 @@ CHAPTERS = [
                 "text": "May God give you of the dew of heaven and of the fatness of the earth and plenty of grain and wine. Let peoples serve you, and nations bow down to you. Be lord over your brothers, and may your mother's sons bow down to you.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "berakah",
                 "bechor",
                 "yhwh"
@@ -280,7 +280,7 @@ CHAPTERS = [
                 "text": "And he dreamed, and behold, there was a ladder set up on the earth, and the top of it reached to heaven. And behold, the angels of God were ascending and descending on it! And behold, the LORD stood above it and said, 'I am the LORD, the God of Abraham your father and the God of Isaac.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "sulam",
                 "malak_yhwh",
                 "yhwh",
@@ -352,7 +352,7 @@ CHAPTERS = [
                 "text": "So Jacob served seven years for Rachel, and they seemed to him but a few days because of the love he had for her.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "hesed",
                 "yhwh",
                 "bechor",
@@ -417,7 +417,7 @@ CHAPTERS = [
                 "text": "Then God remembered Rachel, and God listened to her and opened her womb. She conceived and bore a son and said, 'God has taken away my reproach.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "zera",
                 "yhwh",
                 "elohim",
@@ -476,7 +476,7 @@ CHAPTERS = [
                 "text": "Then the LORD said to Jacob, 'Return to the land of your fathers and to your kindred, and I will be with you.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "teraphim",
                 "berit",
                 "yhwh",
@@ -535,7 +535,7 @@ CHAPTERS = [
                 "text": "Then he said, 'Your name shall no longer be called Jacob, but Israel, for you have striven with God and with men, and have prevailed.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "yisrael",
                 "peniel",
                 "malak_yhwh",
@@ -607,7 +607,7 @@ CHAPTERS = [
                 "text": "Jacob said, 'No, please, if I have found favor in your sight, then accept my present from my hand. For I have seen your face, which is like seeing the face of God, and you have accepted me.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "peniel",
                 "chen",
                 "shalom",
@@ -663,7 +663,7 @@ CHAPTERS = [
                 "text": "But they said, 'Should he treat our sister like a prostitute?'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "milah",
                 "berit"
         ],
@@ -717,7 +717,7 @@ CHAPTERS = [
                 "text": "And God said to him, 'Your name is Jacob; no longer shall your name be called Jacob, but Israel shall be your name.' So he called his name Israel. And God said to him, 'I am God Almighty: be fruitful and multiply. A nation and a company of nations shall come from you, and kings shall come from your body.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "el_shaddai",
                 "berit",
                 "yisrael",
@@ -788,7 +788,7 @@ CHAPTERS = [
                 "text": "So Esau settled in the hill country of Seir. Esau is Edom.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "toledot",
                 "eretz"
         ],
@@ -842,7 +842,7 @@ CHAPTERS = [
             "text": "And he dreamed, and behold, there was a ladder set up on the earth, and the top of it reached to heaven. And behold, the angels of God were ascending and descending on it!",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "sulam",
                 "peniel",
                 "malak_yhwh"

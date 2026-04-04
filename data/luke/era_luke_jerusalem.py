@@ -45,7 +45,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Satanas (Satan -- the adversary; Jesus sees him falling from his position of heavenly authority as the 72 advance into the nations' territory)",
             "exousia (authority -- given to the 72 to 'tread on serpents and scorpions, and over all the power (dynamin) of the enemy' (10:19); delegated divine council authority)",
             "onomata hymon engegraptai en tois ouranois (your names are written in heaven -- registration in the divine council's book of life; citizenship in the heavenly realm)",
@@ -182,7 +182,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "splanchnistheis (felt compassion -- the father's visceral response to the prodigal; splanchna are the 'innards,' the seat of deep emotion in Greek; divine compassion made human)",
             "apollymi (to lose / to perish / to destroy -- the key verb of chapter 15: the sheep is 'lost,' the coin is 'lost,' the son 'was lost'; God seeks the lost)",
             "metanoia (repentance -- 'there will be more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance' (15:7); cosmic celebration in the divine council)",
@@ -308,7 +308,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "soteria (salvation -- 'Today salvation has come to this house' (19:9); salvation as a present reality entering a specific household through Jesus' presence)",
             "zeteo kai sosai to apollos (seek and save the lost -- the mission statement of the Son of Man; combining shepherd imagery (Ezek 34) with the 'lost' theme of chapter 15)",
             "eirene (peace -- 'Would that you, even you, had known on this day the things that make for peace!' (19:42); the shalom that Jesus offers and Jerusalem rejects)",
@@ -433,7 +433,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "exetesato (demanded -- Satan's formal request before the divine council to test Peter; courtroom/legal language; echoing Job 1:6-12)",
             "siniazo (to sift -- 'sift you like wheat' (22:31); vigorous shaking to separate grain from chaff; the testing will be violent and thorough)",
             "paradeisos (paradise -- 'Today you will be with me in paradise' (23:43); the garden of God (Gen 2; Ezek 28:13); the restored Eden where the righteous dwell after death)",
@@ -572,7 +572,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nomos Mouseos, prophetai, psalmoi (Law of Moses, Prophets, Psalms -- the three divisions of the Hebrew Bible (Torah, Nevi'im, Ketuvim); Jesus claims them all as christological)",
             "dianoigo (to open -- 'he opened their minds (dianoixen ton noun) to understand the Scriptures' (24:45); a divine act of illumination; the same verb used for the opening of eyes at Emmaus (24:31))",
             "panta ta ethne (all nations -- the scope of the commission; the Deuteronomy 32 nations being reclaimed; the Babel reversal proclaimed)",

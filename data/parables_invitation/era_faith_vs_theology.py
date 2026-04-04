@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05d5\u05b9\u05dc (ol)",
                 "meaning": "Yoke \u2014 a wooden frame joining two animals for work. In "
@@ -186,7 +186,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e4\u05bc\u05b7\u05e8\u05b0\u05d3\u05bc\u05b5\u05e1 (pardes)",
                 "meaning": "Paradise, garden, enclosed park. The Hebrew/Persian word behind "
@@ -330,7 +330,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c7\u03ac\u03c1\u03b9\u03c2 (charis)",
                 "meaning": "Grace \u2014 unmerited favor, gift freely given. The foundational "

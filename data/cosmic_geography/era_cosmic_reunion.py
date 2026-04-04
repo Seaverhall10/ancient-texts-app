@@ -56,7 +56,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "ἀνακεφαλαιώσασθαι (anakephalaiosasthai)",
                 "meaning": "[A] 'To bring under one head, to sum up, to unite' — the Greek verb "
@@ -305,7 +305,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "καινός (kainos)",
                 "meaning": "[A] 'New in quality, renewed, fresh' — NOT neos ('new in time, "

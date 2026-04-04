@@ -40,7 +40,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hagiasmos (sanctification -- the process of being set apart for God; in the LXX renders Hebrew qadosh-related words; 4:3, 4, 7)",
             "peripateo (to walk -- a Hebraism for daily conduct/lifestyle, from Hebrew halak; Paul uses it 4 times in this section; 4:1, 12)",
             "skeuos (vessel/body -- literally 'container'; 4:4; debated whether it means 'body' or 'wife,' but the holiness context favors the body as a vessel for the Holy Spirit; cf. 2 Cor 4:7)",
@@ -204,7 +204,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "koimaomai (to fall asleep -- euphemism for death among believers; 4:13, 14, 15; implies death is temporary, not final; the dead are merely sleeping until the resurrection)",
             "parousia (arrival/presence -- the technical term for Christ's return; 4:15; in Hellenistic Greek, used for the official visit of a king or emperor to a city)",
             "keleusma (cry of command -- a military shout or order; 4:16; the word used for a general's command to troops or a charioteer's shout to horses; the supreme commander issues his battle order)",
@@ -388,7 +388,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hemera kyriou (Day of the Lord -- the Greek rendering of Hebrew yom YHWH; 5:2; the climactic moment of divine intervention, judgment, and kingdom establishment in OT prophecy)",
             "kleptes en nykti (thief in the night -- 5:2, 4; the image of unexpected, sudden arrival; Jesus himself used this metaphor in Matt 24:43; the thief does not announce his schedule)",
             "olethros (destruction/ruin -- 5:3; sudden, total catastrophe; not annihilation but devastating judgment; used in the LXX for divine wrath-events)",

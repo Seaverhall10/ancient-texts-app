@@ -48,7 +48,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "purgatorium (Latin)",
                 "meaning": "A place of purging, purification. The Latin term does not "
@@ -262,7 +262,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c4\u03b5\u03c4\u03b5\u03bb\u03b5\u03af\u03c9\u03ba\u03b5\u03bd (teteleioken)",
                 "meaning": "He has perfected -- perfect tense in Greek, indicating a "

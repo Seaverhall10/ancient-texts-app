@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chanukkah (dedication — the consecration of the altar for service)",
             "qorban (offering — a gift brought near to God)",
             "nasi (prince/leader — the tribal representative before God)",
@@ -229,7 +229,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "menorah (lampstand — the seven-branched golden candelabrum)",
             "tenufah (wave offering — the ritual of lifting and waving before YHWH)",
             "taharah (purification — the ritual cleansing required before sacred service)",
@@ -402,7 +402,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "pesach (Passover — the foundational deliverance festival)",
             "anan (cloud — the visible manifestation of YHWH's presence and guidance)",
             "esh (fire — the nighttime form of the divine presence over the tabernacle)",
@@ -585,7 +585,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chatsotsrot (silver trumpets — the priestly signal instruments)",
             "teruah (alarm blast — the staccato war signal or the triumphal shout "
              "announcing YHWH's arrival as divine warrior; this is the blast that "

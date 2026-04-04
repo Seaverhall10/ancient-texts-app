@@ -54,7 +54,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c3\u03c5\u03bc\u03b2\u03b1\u03c3\u03b9\u03bb\u03b5\u03cd\u03c9 (sumbasileuo)",
                 "meaning": "To reign together with, to co-reign. Paul uses this "
@@ -309,7 +309,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d0\u05b1\u05dc\u05b9\u05d4\u05b4\u05d9\u05dd (elohim)",
                 "meaning": "Gods, divine beings, members of the heavenly council. "

@@ -42,7 +42,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["maqom", "shem", "shikno", "bamot", "matstsevah", "asherah", "olah", "zevach", "dam"],
+        "original_terms": ["maqom", "shem", "shikno", "bamot", "matstsevah", "asherah", "olah", "zevach", "dam"],
 
         "hebrew_glossary": {
             "maqom": "Place (the unnamed 'place YHWH will choose' — Deuteronomy never names it, preserving the anticipation; it would be identified as Jerusalem in 2 Samuel 24 and 1 Kings 8)",
@@ -228,7 +228,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["navi", "cholem_chalom", "ot", "mofet", "nasah", "meisit", "cherem", "dibbek"],
+        "original_terms": ["navi", "cholem_chalom", "ot", "mofet", "nasah", "meisit", "cherem", "dibbek"],
 
         "hebrew_glossary": {
             "navi": "Prophet (one who speaks for God — the term may come from an Akkadian root meaning 'to call'; in the divine council framework, the true prophet has access to YHWH's council, while the false prophet speaks from unauthorized spiritual sources)",
@@ -382,7 +382,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["banim", "am_qadosh", "segullah", "tahor", "tamei", "ma'aser", "maakhal", "geulah"],
+        "original_terms": ["banim", "am_qadosh", "segullah", "tahor", "tamei", "ma'aser", "maakhal", "geulah"],
 
         "hebrew_glossary": {
             "banim": "Sons / children (Israel is called 'sons of the LORD your God' in 14:1 — a divine council term: in 32:8 the nations are allotted to the 'sons of God' (divine council members), but here ISRAEL is called God's sons; this places Israel in the divine council family structure)",
@@ -545,7 +545,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["shemittah", "eved", "chofshi", "ani", "evyon", "berakhah", "bekhor", "patoach_tiftach"],
+        "original_terms": ["shemittah", "eved", "chofshi", "ani", "evyon", "berakhah", "bekhor", "patoach_tiftach"],
 
         "hebrew_glossary": {
             "shemittah": "Release / letting go (the sabbatical year debt cancellation — every seventh year, debts between Israelites are released; the word comes from the root shamat, 'to let drop'; a radical economic reset with no parallel in ANE law codes)",
@@ -688,7 +688,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["pesach", "matzot", "shavuot", "sukkot", "chag", "tsedek", "shofet", "aliyah_laregel"],
+        "original_terms": ["pesach", "matzot", "shavuot", "sukkot", "chag", "tsedek", "shofet", "aliyah_laregel"],
 
         "hebrew_glossary": {
             "pesach": "Passover (from the verb pasach, 'to pass over' or 'to protect' — commemorating YHWH's protection of Israelite firstborn while striking Egypt's; the lamb's blood on the doorposts marked those under YHWH's protection vs. those under Egypt's gods' jurisdiction)",
@@ -834,7 +834,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["melekh", "mishneh_hatorah", "kohen", "shofet", "hofea", "ra'ah", "miqrev_achekha"],
+        "original_terms": ["melekh", "mishneh_hatorah", "kohen", "shofet", "hofea", "ra'ah", "miqrev_achekha"],
 
         "hebrew_glossary": {
             "melekh": "King (the human ruler under Torah — uniquely in the ANE, Deuteronomy's king is NOT the source of law but its most devoted student; YHWH is the true King, the human melekh is a vice-regent under covenant)",
@@ -974,7 +974,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["navi", "levi", "kohen", "nachalah", "qesem", "anan", "nachash", "kashaph", "ov", "yidoni", "doresh_el_hametim"],
+        "original_terms": ["navi", "levi", "kohen", "nachalah", "qesem", "anan", "nachash", "kashaph", "ov", "yidoni", "doresh_el_hametim"],
 
         "hebrew_glossary": {
             "navi": "Prophet (one who speaks God's words — from a root meaning 'to call, to announce'; the prophet is YHWH's authorized spokesperson, replacing all unauthorized methods of accessing the spiritual realm)",

@@ -49,7 +49,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "euangelion (gospel / good news -- imperial proclamation language co-opted for God's kingdom; the announcement that YHWH is king)",
             "schizo (to tear / to rip -- the heavens are 'torn open' at the baptism (1:10) and the Temple veil is 'torn' at the death (15:38); same verb, forming an inclusio)",
             "pneuma akatharton (unclean spirit -- a hostile spiritual being that oppresses humans; 'unclean' because it belongs to the realm opposed to God's holiness)",
@@ -196,7 +196,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "exousia (authority -- Jesus' authority to forgive sins (2:10), over the Sabbath (2:28), and over demons, nature, disease, and death)",
             "ischuros (strong man -- Satan as the fortified ruler whose house Jesus is plundering; the core of Mark's cosmic warfare theology)",
             "Legeon (Legion -- 'for we are many' (5:9); the name evokes the Roman military unit; demonic occupation parallels political occupation)",
@@ -350,7 +350,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Ephphatha (Aramaic: 'Be opened' -- Jesus' command to the deaf-mute (7:34); preserved in the original language; the opening of ears and tongue in Gentile territory)",
             "koinos (common / unclean -- the Pharisaic purity concern; Jesus declares that defilement comes from the heart, not from food (7:15-23))",
             "artos (bread -- the central symbol of the feeding miracles; 'bread' is mentioned 20+ times in 6:30-8:21, creating a 'bread section')",
@@ -471,7 +471,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Christos (Christ/Anointed One -- Peter's confession at Caesarea Philippi: 'You are the Christ' (8:29); the messianic identity finally named by a human)",
             "metamorphoo (transfigured -- Jesus' form is changed to reveal his divine glory; the inner reality made visible)",
             "lytron (ransom -- 'the Son of Man came to give his life as a ransom for many' (10:45); the liberation price paid to free captives from bondage)",
@@ -621,7 +621,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "hai dynameis en tois ouranois (the powers in the heavens -- the spiritual forces governing the cosmos; their shaking signals the collapse of the old order (13:25))",
             "ho huios tou anthropou (the Son of Man -- from Daniel 7:13; the human-divine figure who comes in the clouds with divine authority)",
             "eklektous (elect / chosen ones -- those chosen by God; gathered by the angels at the Son of Man's coming from the four winds)",
@@ -751,7 +751,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ego eimi (I AM -- Jesus' answer at the trial: 'Are you the Christ?' 'I am' (14:62); potentially the divine self-identification of Exodus 3:14)",
             "Abba (Father -- Aramaic intimate address; Jesus' prayer in Gethsemane (14:36); the familial relationship with God that grounds his obedience)",
             "diatheke (covenant -- 'This is my blood of the covenant, which is poured out for many' (14:24); the new covenant ratified by the Messiah's death)",

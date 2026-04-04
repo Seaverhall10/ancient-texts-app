@@ -54,7 +54,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "שֵׁבֶט (shevet)",
                 "meaning": "[A] 'Scepter, rod, tribe' — the word carries both meanings: the "
@@ -275,7 +275,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "מָשַׁח (mashach)",
                 "meaning": "[A] 'To anoint' — the verb from which mashiach (Messiah, 'anointed "
@@ -495,7 +495,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "גָּלוּת (galut)",
                 "meaning": "[A] 'Exile, captivity' — from galah, 'to uncover, to remove.' The "

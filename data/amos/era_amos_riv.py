@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sod (secret/council — the divine council where YHWH deliberates; Amos claims access to this assembly; same word as Jer 23:18, Ps 89:7)",
             "yada (to know — covenant intimacy, not mere information; 'You only have I known' is election language that grounds the prosecution)",
             "sha'ag (to roar — the lion metaphor for YHWH's voice; the divine warrior announces the hunt before striking)",
@@ -217,7 +217,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "parot ha-bashan (cows of Bashan — the elite women of Samaria compared to pampered cattle; Bashan was renowned for its fertile pastures and fat livestock)",
             "ashaq (to oppress — the systematic economic exploitation of the poor by Samaria's ruling class)",
             "ratsa (to crush — intensified form of oppression; the needy are not merely exploited but broken)",
@@ -381,7 +381,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qayits (summer fruit — ripe fruit at harvest's end; the pun with qets signals Israel's time is up)",
             "qets (end — phonetically identical to qayits; the literary device that links agricultural ripeness to covenant termination)",
             "ephah (dry measure — the merchants shrink it to cheat buyers; economic fraud as covenant violation)",

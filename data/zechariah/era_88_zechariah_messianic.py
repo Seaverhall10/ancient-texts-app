@@ -36,7 +36,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ani ve-rokhev al-chamor (humble and riding on a donkey -- the messianic king's deliberate rejection of military power)",
             "nosha (having salvation/saved -- passive participle; the king is both savior and saved by YHWH)",
             "yedabber shalom la-goyim (he shall speak peace to the nations -- the king's dominion is established by word, not sword)",
@@ -124,7 +124,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sheloshim kasef (thirty of silver -- the price of a gored slave in Exodus 21:32; an insultingly low valuation)",
             "ha-yotser (the potter -- the destination for the silver; Matt 27:7 records Judas' silver buying the 'potter's field')",
             "no'am (Favor/Grace -- the first staff, representing YHWH's gracious covenant with the nations; broken)",
@@ -212,7 +212,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "vehibbitu elai et asher-daqaru (they shall look on me, whom they have pierced -- YHWH speaks of himself as pierced; fulfilled at the cross)",
             "ruach chen vetachanunim (spirit of grace and pleas for mercy -- the Holy Spirit poured out to produce repentance)",
             "amiti (my associate/fellow/equal -- YHWH calls the shepherd 'the man who stands next to me'; a divine council term of intimate proximity)",
@@ -317,7 +317,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mayim chayyim (living waters -- fresh, flowing water from Jerusalem; the source of life for the whole earth)",
             "YHWH echad u-shmo echad (YHWH will be one and his name one -- echoing the Shema; the final unification of all worship under YHWH)",
             "qadosh la-YHWH (holy to YHWH -- inscribed on horse bells and cooking pots; the entire city becomes sacred space)",

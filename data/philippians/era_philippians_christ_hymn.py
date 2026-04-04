@@ -70,7 +70,7 @@ CHAPTERS = [
             'Christ\'s authority extends beyond death itself. The grave is not the end of the '
             'story \u2014 it is a transition within the kingdom.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u03b5\u1f50\u03b1\u03b3\u03b3\u03ad\u03bb\u03b9\u03bf\u03bd',
                 'transliteration': 'euangelion',
@@ -298,7 +298,7 @@ CHAPTERS = [
             'own words to Jesus. The implication is staggering: Jesus receives the worship '
             'that Isaiah reserved for YHWH alone.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u03bc\u03bf\u03c1\u03c6\u03ae \u03b8\u03b5\u03bf\u1fe6',
                 'transliteration': 'morphe theou',
@@ -540,7 +540,7 @@ CHAPTERS = [
             'poster \u2014 it is a statement about the cosmic Lord\'s power sustaining Paul through '
             'every circumstance.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u03c0\u03bf\u03bb\u03af\u03c4\u03b5\u03c5\u03bc\u03b1',
                 'transliteration': 'politeuma',

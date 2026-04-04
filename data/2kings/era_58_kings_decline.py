@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mashach (to anoint -- Jehu is anointed by a prophetic messenger as YHWH's instrument of judgment. The anointing with oil signifies divine selection and empowerment; the mashiach, 'anointed one,' carries YHWH's commission with YHWH's authority)",
             "shig'on (furious driving / madness -- Jehu's reckless chariot speed. The watchman reports: 'the driving is like the driving of Jehu son of Nimshi, for he drives furiously (beshig'on).' The Hebrew word suggests possession or frenzy -- the energy of divine commission expressed as manic intensity)",
             "naqam (vengeance -- YHWH avenges (naqam) the blood of his prophets through Jehu's violence. Biblical vengeance is not personal revenge but the restoration of justice when blood has been wrongfully shed; it is a divine council function, not a human prerogative)",
@@ -176,7 +176,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "berit (covenant -- the three-fold covenant Jehoiada renews: between YHWH and king, between YHWH and people, and between king and people. Hebrew berit means a solemn, binding agreement sealed by oath and often by blood sacrifice. The covenant is the foundation of Israel's entire political theology: the king does not rule by naked power but by covenant obligation to YHWH and to the people)",
             "ataliyahu (Athaliah -- the only queen regnant in Judah's history. She was a daughter of Ahab and likely Jezebel, which makes her the carrier of Baal worship into the southern kingdom. Her attempted extermination of the Davidic seed is the most direct threat to the messianic line in the Old Testament)",
             "nezer (crown/diadem -- the royal crown placed on Joash at his coronation. The nezer is a symbol of the Davidic dynasty's legitimacy and YHWH's covenant promise; its placement on the child king's head is a public declaration that the divine council's decree (2 Sam 7) has not been nullified)",
@@ -311,7 +311,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "galah (to uncover/exile -- the Hebrew verb means both 'to uncover, strip bare' and 'to go into exile.' The double meaning is theologically loaded: Israel is stripped bare, exposed, and removed from the land that was YHWH's gift. Exile is the ultimate covenant curse, reversing the exodus)",
             "elohim acherim (other gods -- the territorial deities of the nations; the 'sons of God' allotted to govern non-Israelite peoples under the Deuteronomy 32:8-9 dispensation. Israel's fundamental sin is worshipping these subordinate council members instead of YHWH, the Most High who allotted them)",
             "chuqqot haggoyim (customs of the nations -- walking in the religious and cultural practices of peoples allotted to other elohim. This phrase captures the core Deuteronomic concern: Israel was called to be holy (set apart), not to imitate the nations)",

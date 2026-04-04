@@ -20,7 +20,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["toledot", "eretz", "goy"],
+        "original_terms": ["toledot", "eretz", "goy"],
 
         "ane_backdrop": "Ur of the Chaldeans (Ur III dynasty, c. 2112-2004 BC) was one of the most sophisticated cities in the ancient world — a Sumerian metropolis with ziggurat temples, advanced bureaucracy, and a thriving economy. The Great Ziggurat of Ur, dedicated to the moon-god Nanna (Akkadian: Sin), was the city's religious centerpiece — a massive stepped temple-tower designed as a meeting point between heaven and earth, where the patron deity would descend to commune with his people. This is a counterfeit Eden: just as Eden was God's original household where the divine and human realms met, the ziggurat represented a rival cosmic household — a competing divine-human meeting point under the authority of one of the b'nei elohim allotted a nation at Babel (Deuteronomy 32:8). Haran (Harran) in upper Mesopotamia was another major cult center of the same moon-god Sin — so Terah's migration from Ur to Haran was not a religious departure but a lateral transfer within the same rival household system. Joshua 24:2 confirms that Terah's family 'served other gods' beyond the River. Abram's call in chapter 12 is thus far more than leaving an idolatrous city — it is a call to abandon the rival cosmic household of Sin and enter the true household of YHWH, the God who retained Israel as his own portion.",
 
@@ -82,7 +82,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["berakah", "goy", "eretz", "yhwh", "zera", "berit"],
+        "original_terms": ["berakah", "goy", "eretz", "yhwh", "zera", "berit"],
 
         "ane_backdrop": "Abram's journey from Ur/Haran to Canaan follows known trade routes of the early second millennium BC. The 'Fertile Crescent' arc from Mesopotamia through Syria down into Canaan was well-traveled by merchants, pastoralists, and migrants. The Amorite migrations (c. 2000-1800 BC) provide a plausible historical context for Abram's movement. Egyptian texts like the Story of Sinuhe (c. 1875 BC) describe Canaan as a land of semi-nomadic chieftains — exactly the world Abram enters. The famine-driven descent to Egypt (12:10) mirrors a pattern documented in Egyptian border records: Asiatic peoples regularly sought grain in Egypt during Levantine droughts.",
 
@@ -151,7 +151,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["eretz", "zera", "yhwh", "berakah"],
+        "original_terms": ["eretz", "zera", "yhwh", "berakah"],
 
         "ane_backdrop": "The conflict between Abram and Lot reflects common ANE pastoralist disputes over grazing land and water rights. The Jordan plain's fertility is compared to both Eden and Egypt's Nile irrigation — the two most famous watered landscapes in the ancient imagination. The mention that 'the Canaanite and the Perizzite were then dwelling in the land' (13:7) adds political complexity: two foreign herding operations competing for resources in occupied territory. Archaeological surveys confirm the Middle Bronze Age Jordan plain supported significant populations, consistent with the cities of the plain mentioned here.",
 
@@ -211,7 +211,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["el_elyon", "kohen", "magen", "berakah", "yhwh"],
+        "original_terms": ["el_elyon", "kohen", "magen", "berakah", "yhwh"],
 
         "ane_backdrop": "The four kings of Genesis 14 (Amraphel, Arioch, Chedorlaomer, Tidal) bear names with plausible Mesopotamian and Anatolian etymologies. Chedorlaomer is an Elamite name (Kutir-Lagamar), and Tidal may correspond to the Hittite royal name Tudhaliya. The military campaign from Mesopotamia down the Transjordanian King's Highway to the Dead Sea region follows known invasion routes. The valley of Siddim 'full of bitumen pits' matches the Dead Sea's geological character. Salem is almost certainly Jerusalem (cf. Psalm 76:2). The combination of kingship and priesthood in Melchizedek reflects the ANE pattern of the priest-king, common in Canaanite city-states.",
 
@@ -278,7 +278,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["emunah", "tsedaqah", "berit", "karat_berit", "magen", "zera", "yhwh"],
+        "original_terms": ["emunah", "tsedaqah", "berit", "karat_berit", "magen", "zera", "yhwh"],
 
         "ane_backdrop": "The covenant ritual of Genesis 15 matches ANE treaty practices precisely. Cutting animals in half and walking between the pieces was a self-maledictory oath: 'May I become like these animals if I break this covenant.' Texts from Mari and Alalakh attest to this practice. The Aramaic phrase for making a covenant is literally 'to cut a covenant' (cf. Hebrew karat berit). The list of nations in 15:19-21 (Kenites, Kenizzites, Kadmonites, Hittites, Perizzites, Rephaim, Amorites, Canaanites, Girgashites, Jebusites) represents the full extent of promised land occupation — a tenfold list matching the tenfold promise structure.",
 
@@ -340,7 +340,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": ["malak_yhwh", "el_roi", "zera", "yhwh"],
+        "original_terms": ["malak_yhwh", "el_roi", "zera", "yhwh"],
 
         "ane_backdrop": "Sarai's surrogate proposal precisely follows the legal customs documented in Nuzi tablets and the Code of Hammurabi (Laws 144-146). A barren wife could give her servant to her husband, and the child born would legally be the wife's. The Nuzi texts further specify that the surrogate could not claim equal status with the wife — exactly the conflict that erupts when Hagar 'looked with contempt on her mistress.' Sarai's harsh treatment of Hagar also has legal precedent: the wife retained authority over the surrogate. The beer-lahai-roi ('well of the Living One who sees me') place-name reflects the ANE practice of naming sacred sites after divine encounters.",
 
@@ -395,7 +395,7 @@ CHAPTERS = [
                 "text": "When Abram was ninety-nine years old the LORD appeared to Abram and said to him, 'I am God Almighty; walk before me, and be blameless.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "el_shaddai",
                 "berit",
                 "milah",
@@ -468,7 +468,7 @@ CHAPTERS = [
                 "text": "Far be it from you to do such a thing, to put the righteous to death with the wicked, so that the righteous fare as the wicked! Far be that from you! Shall not the Judge of all the earth do what is just?",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "yhwh",
                 "malak_yhwh",
                 "tsedaqah",
@@ -544,7 +544,7 @@ CHAPTERS = [
                 "text": "Then the LORD rained on Sodom and Gomorrah sulfur and fire from the LORD out of heaven. And he overthrew those cities, and all the valley, and all the inhabitants of the cities, and what grew on the ground.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "malak_yhwh",
                 "yhwh"
         ],
@@ -608,7 +608,7 @@ CHAPTERS = [
                 "text": "Now then, return the man's wife, for he is a prophet, and he will pray for you, and you shall live. But if you do not return her, know that you shall surely die, you and all who are yours.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "navi",
                 "yhwh",
                 "elohim"
@@ -662,7 +662,7 @@ CHAPTERS = [
                 "text": "The LORD visited Sarah as he had said, and the LORD did to Sarah as he had promised. And Sarah conceived and bore Abraham a son in his old age at the time of which God had spoken to him.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "zera",
                 "berit",
                 "yhwh",
@@ -733,7 +733,7 @@ CHAPTERS = [
                 "text": "So Abraham called the name of that place, 'The LORD will provide'; as it is said to this day, 'On the mount of the LORD it shall be provided.'",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "aqedah",
                 "yhwh",
                 "malak_yhwh",
@@ -822,7 +822,7 @@ CHAPTERS = [
                 "text": "I am a sojourner and foreigner among you; give me property among you for a burying place, that I may bury my dead out of my sight.",
                 "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
                 "eretz",
                 "gur",
                 "berit"
@@ -886,7 +886,7 @@ CHAPTERS = [
             "text": "Now the LORD said to Abram, 'Go from your country and your kindred and your father's house to the land that I will show you.'",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
         "cross_refs": [

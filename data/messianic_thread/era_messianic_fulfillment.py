@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05b7\u05dc\u05b0\u05de\u05b8\u05d4 (almah)",
                 "meaning": "Young woman of marriageable age. Isaiah 7:14 uses almah "
@@ -338,7 +338,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d3\u05b8\u05bc\u05d1\u05b8\u05e8 (davar) / \u03bb\u03cc\u03b3\u03bf\u03c2 (logos)",
                 "meaning": "Word. In Hebrew, davar is both 'word' and 'thing/event' "
@@ -622,7 +622,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c4\u03b5\u03c4\u03ad\u03bb\u03b5\u03c3\u03c4\u03b1\u03b9 (tetelestai)",
                 "meaning": "It is finished, completed, accomplished. A Greek perfect "
@@ -902,7 +902,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05de\u05b6\u05dc\u05b6\u05da\u05b0 \u05d4\u05b7\u05de\u05b0\u05bc\u05dc\u05b8\u05db\u05b4\u05d9\u05dd (Melekh hamm\u0115lakhim)",
                 "meaning": "King of kings. The supreme royal title in the ANE, used "

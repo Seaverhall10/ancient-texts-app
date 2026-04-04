@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "metamorphoo (to transform / to transfigure -- Jesus' form is changed to reveal his true glorified nature; the veil of flesh momentarily lifted to show the divine radiance beneath)",
             "leukos (white / radiant -- Mark intensifies: 'radiant, intensely white, as no one on earth could bleach them' (9:3); divine glory manifested as blinding whiteness, the garments of heavenly beings)",
             "nephele (cloud -- the cloud of divine presence that covered Sinai, filled the Tabernacle, and guided Israel; the visible sign of YHWH's kavod dwelling among his people)",
@@ -241,7 +241,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Hosanna (hoshia na -- 'Save us, we pray!'; from Psalm 118:25; the crowd's messianic acclamation as Jesus enters Jerusalem, an appeal for divine deliverance)",
             "hieron (temple complex -- the entire Temple precinct including the Court of the Gentiles where the money-changers operated; distinguished from naos, the inner sanctuary)",
             "naos (inner sanctuary / temple proper -- the sacred building housing the Holy Place and the Holy of Holies; the dwelling place of YHWH's presence on earth)",
@@ -436,7 +436,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Abba (Father -- Aramaic intimate address preserved in Mark 14:36; the only time Jesus uses this familial term in Mark; expresses the unique filial relationship that grounds his obedient surrender to the cross)",
             "poterion (cup -- 'Remove this cup from me' (14:36); the OT metaphor for divine wrath poured out in judgment (Isa 51:17; Jer 25:15-16; Ps 75:8); Jesus drinks the cup of wrath on behalf of humanity)",
             "ego eimi (I AM -- Jesus' answer to the high priest: 'I am' (14:62); the divine self-identification of Exodus 3:14; the claim that provokes the charge of blasphemy)",

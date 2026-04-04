@@ -35,7 +35,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "paratheke (the deposit/entrustment -- the body of apostolic teaching committed to Timothy's keeping; a banking term for something entrusted for safekeeping)",
             "pro chronon aionion (before the ages began -- God's saving purpose predates creation; the divine plan was established in the council before time)",
             "katargeo ton thanaton (abolished death -- rendered death powerless; the same verb used for destroying the cosmic powers in 1 Cor 15:24, 26)",
@@ -130,7 +130,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "theopneustos (God-breathed -- theo = God + pneustos = breathed; Scripture originates from God's breath/Spirit; a unique word in the NT, found only here)",
             "epiphaneia (appearing/manifestation -- the visible arrival of Christ; used 5x in the Pastorals; in secular Greek, used for the manifestation of a deity or a royal visit)",
             "stephanos tes dikaiosynes (crown of righteousness -- the victor's wreath awarded at the divine tribunal; cf. 1 Cor 9:25; James 1:12; 1 Pet 5:4; Rev 2:10)",

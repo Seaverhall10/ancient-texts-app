@@ -44,7 +44,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "epangelia (promise -- the Abrahamic covenant of Gen 12:1-3; 15:1-6, God's unconditional commitment to bless all nations through Abraham's seed; this promise precedes and supersedes Torah)",
             "nomos (law -- Torah, the Mosaic covenant given at Sinai; Paul treats it as a temporary custodial arrangement, subordinate to the prior Abrahamic promise because it was mediated by angels rather than given directly by God)",
             "katara (curse -- the covenant curse of Deuteronomy 27-28 that falls on all who fail to keep the entire Torah; Christ absorbed this curse on the cross by becoming the accursed one, per Deut 21:23)",
@@ -212,7 +212,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "stoicheia tou kosmou (elemental principles/spirits of the world -- one of the most debated phrases in the NT; can mean basic elements, elementary principles, celestial bodies, or spiritual powers; in divine council context these are the cosmic beings of Deut 32:8 who governed the nations before Christ)",
             "huiothesia (adoption as sons -- a distinctly Roman legal concept; the adopted son received the new father's name, full inheritance rights, and legal status identical to a biological son; believers are transferred from stoicheia-governance into God's own family)",
             "Abba (Father -- Aramaic intimate address for 'father,' the word Jesus himself used in prayer at Gethsemane, Mark 14:36; that Paul preserves the Aramaic in a Greek letter to Gentiles shows it was a liturgical formula in early worship)",
@@ -392,7 +392,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "eleutheria (freedom/liberty -- not mere autonomy but liberation from cosmic bondage; Christ's freedom is a transfer from stoicheia-governance to Spirit-governance, from slavery under cosmic powers to sonship under God the Father)",
             "sarx (flesh -- for Paul, sarx is not merely the physical body but the entire old-creation order dominated by the stoicheia; it is the realm of human existence apart from the Spirit's governance, encompassing moral weakness, cosmic rebellion, and allegiance to the old powers)",
             "pneuma (Spirit -- the Spirit of God's Son (4:6) who now governs believers from within; the Spirit replaces the external governance of Torah and the cosmic governance of the stoicheia with internal transformation that produces the character of God himself)",

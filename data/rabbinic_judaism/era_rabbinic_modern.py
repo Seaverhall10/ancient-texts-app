@@ -74,7 +74,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d4\u05dc\u05db\u05d4 halakha (h\u0103l\u0101k\u0101h)",
                 "meaning": (
@@ -495,7 +495,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05de\u05e1\u05d5\u05e8\u05d4 Masorah (m\u0101s\u014dr\u0101h)",
                 "meaning": (

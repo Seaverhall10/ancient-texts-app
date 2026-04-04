@@ -74,7 +74,7 @@ CHAPTERS = [
             "translation": "Sahih International"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05de\u05d3\u05e8\u05e9 midrash (m\u012bdr\u0101sh)",
                 "meaning": (
@@ -446,7 +446,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e9\u05c1\u05b5\u05d3\u05b4\u05d9\u05dd shedim (sh\u0113d\u012bm)",
                 "meaning": (
@@ -852,7 +852,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c3\u03c4\u03b1\u03c5\u03c1\u03cc\u03c2 stauros (staur\u00f3s)",
                 "meaning": (

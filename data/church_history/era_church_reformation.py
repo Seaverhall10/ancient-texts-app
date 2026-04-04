@@ -56,7 +56,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c0\u03af\u03c3\u03c4\u03b9\u03c2 (pistis)",
                 "meaning": "Faith, faithfulness, trust, conviction. The Greek noun "
@@ -396,7 +396,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u1f00\u03bd\u03ac\u03b8\u03b5\u03bc\u03b1 (anathema)",
                 "meaning": "Cursed, devoted to destruction, placed under a ban. Paul "
@@ -721,7 +721,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u1f10\u03ba\u03ba\u03bb\u03b7\u03c3\u03af\u03b1 (ekklesia)",
                 "meaning": "Assembly, congregation, those called out. The word the NT "

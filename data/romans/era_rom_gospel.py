@@ -35,7 +35,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "euangelion (gospel/good news -- not just 'salvation information' but the royal proclamation of the king's victory; cf. Isa 52:7)",
             "dikaiosyne theou (the righteousness of God -- God's character, gift, and covenant faithfulness revealed in the gospel)",
             "ek pisteos eis pistin (from faith to/for faith -- the entire dynamic of salvation is faith: originating in God's faithfulness, received by human faith)",
@@ -212,7 +212,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "prosopolempsia (partiality/favoritism -- literally 'face-receiving'; 2:11; God shows no favoritism based on ethnic identity)",
             "peritome (circumcision -- the covenant sign of Genesis 17; Paul redefines it as 'of the heart' in 2:29)",
             "nomos (law/Torah -- the Mosaic covenant; possessing it does not guarantee righteousness; it must be DONE)",
@@ -373,7 +373,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nyni de (but now -- the cosmic turning point; the transition from universal condemnation to universal offer of grace)",
             "dikaioumenoi (being justified -- present passive: justification as God's ongoing act of declaring righteous, not human achievement)",
             "dorean (freely/as a gift -- justification is gratis, without cost to the recipient; the same word used for 'for nothing' in secular Greek)",
@@ -542,7 +542,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "eirene (peace -- 5:1; not merely absence of conflict but the positive state of restored relationship with God; the shalom of the covenant)",
             "prosagoge (access -- 5:2; the right to enter the king's presence; a court term for introduction to royalty; believers have permanent access to grace)",
             "kauchaomai (to boast/exult -- 5:2, 3, 11; not proud arrogance but confident, joyful celebration of God's work)",

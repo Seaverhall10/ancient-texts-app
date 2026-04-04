@@ -24,7 +24,7 @@ CHAPTERS = [
             "text": "The LORD said to Moses, 'Come up to me on the mountain and wait there, that I may give you the tablets of stone, with the law and the commandment, which I have written for their instruction.'",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [
             {
@@ -93,7 +93,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["mal'akh ha-panim", "lukhot", "yovel"],
+        "original_terms": ["mal'akh ha-panim", "lukhot", "yovel"],
 
         "ane_backdrop": "The motif of a deity dictating to a human scribe on a sacred mountain has deep ANE roots. In Mesopotamia, the god Nabu was patron of scribes and keeper of the Tablets of Destiny (Tuppi Shimati), which recorded the decrees governing the cosmos. The Tablets of Destiny determined the fates of gods and humans alike. In Jubilees, the 'heavenly tablets' (lukhot shamayim) function similarly — they contain the pre-written record of all events, laws, and judgments. The mountain-revelation motif also echoes Hesiod's encounter with the Muses on Mount Helicon, though the direct parallel is Sinai itself: Jubilees is claiming that what Moses received on the mountain was far more extensive than the canonical text records.",
 
@@ -170,7 +170,7 @@ CHAPTERS = [
             "translation": "Charles"
         },
 
-        "hebrew_terms": ["shabbat", "mal'akhim", "lukhot_shamayim", "bara", "asah"],
+        "original_terms": ["shabbat", "mal'akhim", "lukhot_shamayim", "bara", "asah"],
 
         "ane_backdrop": "The seven-day creation structure in Genesis already mirrors ANE temple inauguration patterns (cf. the seven-day dedication of Gudea's temple and Solomon's temple in 1 Kings 8). Jubilees 2 intensifies this connection by making the Sabbath not merely a day of rest but a cosmic institution observed in heaven. The 364-day solar calendar advocated by Jubilees stands in contrast to the Babylonian lunar calendar of 354 days (with intercalary months). The author of Jubilees regards the lunar calendar as a pagan corruption; the solar calendar, with its neat division into 52 weeks (4 quarters of 13 weeks), ensures that festivals always fall on the same day of the week — a theological priority that the Babylonian calendar cannot satisfy.",
 
@@ -248,7 +248,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['mal\'akh_ha_panim', 'sar_ha_panim', 'panim', 'malakh'],
+        'original_terms': ['mal\'akh_ha_panim', 'sar_ha_panim', 'panim', 'malakh'],
 
         'ane_backdrop': 'The concept of a supreme intermediary deity or angel who stands in the chief god\'s presence has broad ANE parallels. In Mesopotamian religion, the god Nusku served as Enlil\'s vizier and messenger, carrying decrees from the divine assembly to the world. The Egyptian god Thoth functioned as the scribe of the divine tribunal, recording judgments and transmitting decrees — a role strikingly similar to the Angel of the Presence reading from heavenly tablets. In Ugaritic mythology, the divine messengers Gapn and Ugar carried messages from El\'s council. The Angel of the Presence combines the roles of vizier, scribe, and messenger into a single exalted figure who both records and communicates the divine will.',
 
@@ -321,7 +321,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['shemesh', 'shanah', 'mo\'adim', 'tequfah', 'lukhot_shamayim'],
+        'original_terms': ['shemesh', 'shanah', 'mo\'adim', 'tequfah', 'lukhot_shamayim'],
 
         'ane_backdrop': 'Calendar disputes were a perennial feature of ancient Near Eastern religious politics. Egypt used a 365-day solar calendar from the third millennium BCE, while Mesopotamia used a lunisolar calendar of 354 days plus periodic intercalary months. The tension between solar and lunar timekeeping was not merely practical but religious: temples derived authority from controlling the calendar, and rival priestly factions could assert power by promoting alternative calendar systems. The Second Temple calendar dispute that animates Jubilees is a local instance of this broader pattern. The author\'s insistence on the solar calendar may also reflect awareness of the Egyptian 365-day system, though Jubilees\' 364-day calendar differs from the Egyptian by one day — a difference that produces the theological advantage of exact divisibility by seven.',
 
@@ -394,7 +394,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['shabbat', 'menuchah', 'qodesh', 'berit', 'ot'],
+        'original_terms': ['shabbat', 'menuchah', 'qodesh', 'berit', 'ot'],
 
         'ane_backdrop': 'No ancient Near Eastern culture had a weekly rest day comparable to the Israelite Sabbath. The Babylonian shappatu (the 15th of the month, associated with the full moon) was a monthly observance tied to lunar phases, not a seven-day weekly cycle. Some scholars have noted Mesopotamian \'evil days\' (umu lemnu) on the 7th, 14th, 21st, and 28th of certain months when certain activities were avoided, but these were inauspicious days to be feared, not holy days to be celebrated. The uniqueness of the weekly Sabbath — independent of lunar phases, grounded in creation theology, and observed as a positive act of worship — is precisely what Jubilees emphasizes. The Sabbath\'s independence from astronomical cycles reflects its origin in the creation week, not in nature.',
 
@@ -462,7 +462,7 @@ CHAPTERS = [
             'translation': 'Charles'
         },
 
-        'hebrew_terms': ['yovel', 'shavu\'a', 'shanah', 'lukhot', 'mahleqot_ha_ittim'],
+        'original_terms': ['yovel', 'shavu\'a', 'shanah', 'lukhot', 'mahleqot_ha_ittim'],
 
         'ane_backdrop': 'The periodization of history has deep ANE roots. The Sumerian King List divides pre-flood and post-flood history into reigns of decreasing length. The Babylonian \'Dynastic Chronicle\' periodizes the transfer of kingship between cities. In Israel, the jubilee cycle of 49 years (Leviticus 25) was itself an economic and social institution — land returned to original owners, debts were forgiven, slaves were freed. Jubilees transforms this social institution into a cosmic chronological framework: the jubilee is not merely a recurring event within history but the very structure of history itself. The concept of predetermined epochs also appears in Daniel\'s \'seventy weeks\' (Daniel 9:24-27) and the Apocalypse of Weeks (1 Enoch 93:1-10; 91:12-17), suggesting a widespread Second Temple conviction that history follows a divinely scripted timetable.',
 

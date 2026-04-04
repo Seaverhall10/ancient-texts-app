@@ -49,7 +49,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d1\u05b0\u05bc\u05e0\u05b5\u05d9\u05be\u05d4\u05b8\u05d0\u05b1\u05dc\u05b9\u05d4\u05b4\u05d9\u05dd (bene ha-elohim)",
                 "meaning": "'Sons of God' \u2014 a technical term for members of the divine council. The "
@@ -206,7 +206,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05ea\u05b8\u05bc\u05de\u05b4\u05d9\u05dd (tamim)",
                 "meaning": "'Complete, whole, without blemish, perfect.' Used of Noah in Genesis 6:9, "

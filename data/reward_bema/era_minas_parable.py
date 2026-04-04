@@ -52,7 +52,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03bc\u03bd\u03b1 (mna)",
                 "meaning": "Mina. A unit of currency worth about 100 drachmas or "
@@ -286,7 +286,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c3\u03bf\u03c5\u03b4\u03ac\u03c1\u03b9\u03bf\u03bd (soudarion)",
                 "meaning": "A cloth, handkerchief, or face-covering. The third "

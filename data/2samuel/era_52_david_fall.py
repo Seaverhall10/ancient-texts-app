@@ -63,7 +63,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "chata (to sin &mdash; David&rsquo;s confession: &lsquo;I have sinned against YHWH&rsquo;; the first step of repentance)",
             "nasa (to put away/forgive &mdash; &lsquo;YHWH has put away (he&rsquo;evir) your sin&rsquo;; the sin is transferred, not ignored)",
             "kivsat harash (the poor man&rsquo;s lamb &mdash; Nathan&rsquo;s parable; Bathsheba as the &lsquo;one little ewe lamb&rsquo;)",
@@ -242,7 +242,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nevalah (outrageous thing/folly &mdash; a technical term for a scandalous sexual violation that shocks the moral order; NOT the modern English word &lsquo;folly&rsquo; (a silly mistake). In Hebrew, nevalah denotes a gross moral abomination &mdash; a sexual outrage so severe it violates the covenant community&rsquo;s identity before YHWH. It implies that the act is &lsquo;not done in Israel&rsquo; because it degrades what YHWH has made sacred. The same word is used for the gang-rape at Gibeah, Judg 19:23-24, and for Shechem&rsquo;s rape of Dinah, Gen 34:7)",
             "innah (to humble/violate &mdash; the verb for rape; Amnon &lsquo;humbled&rsquo; Tamar, stripping her of honor and status)",
             "ketonet passim (long-sleeved or ornamented robe &mdash; often translated &lsquo;coat of many colors&rsquo; in the Joseph story, Gen 37:3, but the actual meaning is debated. It was a distinctive garment marking special status: for Joseph it marked his father&rsquo;s favoritism; for Tamar it marked her as an unmarried princess. When Tamar tears this robe publicly, she is making her violated status visible for all to see &mdash; the torn garment is a physical declaration that her protected status has been destroyed)",
@@ -406,7 +406,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ganav lev (to steal the heart &mdash; literally &lsquo;to steal the heart/mind.&rsquo; In Hebrew, the &lsquo;heart&rsquo; (lev) is not primarily the seat of emotions as in modern English &mdash; it is the seat of thought, will, and decision-making. To &lsquo;steal the heart&rsquo; is to hijack someone&rsquo;s judgment and loyalty through deception. Absalom &lsquo;stole the hearts of the men of Israel&rsquo; (15:6) by making false promises and positioning himself as a better alternative to David &mdash; political seduction masquerading as concern for justice)",
             "etsah (counsel &mdash; the contrasting counsels of Ahithophel and Hushai; YHWH defeats the superior counsel to bring judgment on Absalom)",
             "ya&rsquo;ar Ephrayim (the forest of Ephraim &mdash; the battle site east of the Jordan where the trees kill more than the sword, 18:8)",
@@ -595,7 +595,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ish beliyya&rsquo;al (worthless man/son of Belial &mdash; Sheba ben Bichri; this is NOT simply an insult like &lsquo;worthless fellow.&rsquo; In Hebrew, beliyya&rsquo;al literally means &lsquo;without profit&rsquo; or &lsquo;without worth,&rsquo; but it functions as a category label for someone who acts outside YHWH&rsquo;s moral order &mdash; a person so corrupt they undermine the covenant community itself. In later Second Temple Judaism the term evolved into a proper name for a demonic figure, &lsquo;Belial,&rsquo; the spirit of lawlessness. Paul uses it this way in 2 Cor 6:15. The same term is used for the wicked men of Gibeah, Judg 19:22)",
             "chelqah (portion/inheritance &mdash; &lsquo;we have no portion in David&rsquo;; the tribal grievance that will split the kingdom under Rehoboam, 1 Kgs 12:16)",
             "chakham / ishah chakhamah (wise / wise woman &mdash; the woman of Abel Beth-maacah who saves her city by negotiating Sheba&rsquo;s death; wisdom as a feminine virtue in Israel)",

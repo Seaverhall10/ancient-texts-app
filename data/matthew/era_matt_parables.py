@@ -38,7 +38,7 @@ CHAPTERS = [
             "text": "To you it has been given to know the secrets of the kingdom of heaven, but to them it has not been given."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "מָשָׁל", "transliteration": "mashal", "meaning": "Proverb/parable — from a root meaning 'to compare'; the OT genre behind Jesus' parables"},
             {"term": "μυστήριον", "transliteration": "mystērion", "meaning": "Mystery/secret — a divine plan now being revealed to the initiated"},
             {"term": "σπείρω", "transliteration": "speirō", "meaning": "To sow — agricultural metaphor for divine word-scattering"},
@@ -126,7 +126,7 @@ CHAPTERS = [
             "text": "The kingdom of heaven is like treasure hidden in a field, which a man found and covered up. Then in his joy he goes and sells all that he has and buys that field."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "ζιζάνιον", "transliteration": "zizanion", "meaning": "Darnel/tare — a weed nearly identical to wheat until harvest, representing counterfeit believers"},
             {"term": "συντέλεια τοῦ αἰῶνος", "transliteration": "synteleia tou aiōnos", "meaning": "Consummation of the age — the final judgment when angels separate righteous from wicked"},
             {"term": "σίναπι", "transliteration": "sinapi", "meaning": "Mustard — proverbially the smallest seed, kingdom starting point"},
@@ -216,7 +216,7 @@ CHAPTERS = [
             "text": "Truly, I say to you, unless you turn and become like children, you will never enter the kingdom of heaven. Whoever humbles himself like this child is the greatest in the kingdom of heaven."
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "στρέφω", "transliteration": "strephō", "meaning": "To turn/reverse — complete directional change, here meaning repentance and status-reversal"},
             {"term": "μικρός", "transliteration": "mikros", "meaning": "Little/small one — the vulnerable in the community whom God fiercely protects"},
             {"term": "τάλαντον", "transliteration": "talanton", "meaning": "Talent — a unit of weight (~75 lbs), worth 6,000 denarii; 10,000 talents = an unpayable sum"},
@@ -309,7 +309,7 @@ CHAPTERS = [
             "text": "Jesus said to them, 'Have you never read in the Scriptures: The stone that the builders rejected has become the cornerstone; this was the Lord's doing, and it is marvelous in our eyes? Therefore I tell you, the kingdom of God will be taken away from you and given to a people producing its fruits.'"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "כֶּרֶם", "transliteration": "kerem", "meaning": "Vineyard — Israel as God's vineyard (Isaiah 5:1-7), the foundational metaphor"},
             {"term": "אֶבֶן", "transliteration": "even", "meaning": "Stone — the rejected cornerstone; wordplay with ben (son) in Hebrew"},
             {"term": "κλητός", "transliteration": "klētos", "meaning": "Called/invited — God's universal invitation to the kingdom feast"},
@@ -406,7 +406,7 @@ CHAPTERS = [
             "text": "And the King will answer them, 'Truly, I say to you, as you did it to one of the least of these my brothers, you did it to me.'"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {"term": "φρόνιμος", "transliteration": "phronimos", "meaning": "Wise/prudent — practical readiness, not just theoretical knowledge"},
             {"term": "μωρός", "transliteration": "mōros", "meaning": "Foolish — related to English 'moron'; spiritual unpreparedness despite appearing ready"},
             {"term": "τάλαντον", "transliteration": "talanton", "meaning": "Talent — a massive sum (6,000 denarii ≈ 20 years' wages); God's entrusted resources"},

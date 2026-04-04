@@ -3875,9 +3875,9 @@ function openThemeExplorer(code) {
         }
 
         // Hebrew/Greek terms
-        if (studyCh.hebrew_terms && studyCh.hebrew_terms.length > 0) {
+        if (studyCh.original_terms && studyCh.original_terms.length > 0) {
             html += '<div class="bible-study-terms">';
-            studyCh.hebrew_terms.forEach(function(t) {
+            studyCh.original_terms.forEach(function(t) {
                 var term = typeof t === 'string' ? t : (t.term || t);
                 html += '<span class="bible-study-term">' + esc(term) + '</span>';
             });
@@ -4866,11 +4866,11 @@ function openThemeExplorer(code) {
         }
 
         // Hebrew terms — handle both glossary keys (strings) and inline objects ({term, meaning})
-        if (ch.hebrew_terms && ch.hebrew_terms.length > 0) {
-            if (isThematic && typeof ch.hebrew_terms[0] === 'object') {
-                html += renderThematicTerms(ch.hebrew_terms);
+        if (ch.original_terms && ch.original_terms.length > 0) {
+            if (isThematic && typeof ch.original_terms[0] === 'object') {
+                html += renderThematicTerms(ch.original_terms);
             } else {
-                html += renderTermsGrid(ch.hebrew_terms);
+                html += renderTermsGrid(ch.original_terms);
             }
         }
 
@@ -7370,11 +7370,11 @@ function openThemeExplorer(code) {
         }
 
         // Hebrew/Greek terms
-        if (activeChapter.hebrew_terms && activeChapter.hebrew_terms.length > 0) {
+        if (activeChapter.original_terms && activeChapter.original_terms.length > 0) {
             html += '<div class="source-reading-terms">' +
                 '<div class="source-reading-label">Key Terms</div>' +
                 '<div class="source-reading-term-list">';
-            activeChapter.hebrew_terms.forEach(function(term) {
+            activeChapter.original_terms.forEach(function(term) {
                 if (typeof term === 'object') {
                     html += '<span class="source-reading-term">' +
                         (term.hebrew || term.greek || '') + ' ' +
@@ -7886,9 +7886,9 @@ function openThemeExplorer(code) {
             md.push('');
         }
 
-        if (ch.hebrew_terms && ch.hebrew_terms.length > 0) {
+        if (ch.original_terms && ch.original_terms.length > 0) {
             md.push('### Key Terms');
-            ch.hebrew_terms.forEach(function(t) {
+            ch.original_terms.forEach(function(t) {
                 if (typeof t === 'string') {
                     md.push('- **' + t.split('(')[0].trim() + '** — ' + (t.indexOf('(') > -1 ? t.substring(t.indexOf('(') + 1).replace(/\)$/, '') : t));
                 } else if (t.term) {
@@ -13005,7 +13005,7 @@ function openThemeExplorer(code) {
             chapter_ref: '',
             key_verse: '',
             chapter_content: '',
-            hebrew_terms: [],
+            original_terms: [],
             cross_refs: []
         };
 
@@ -13014,7 +13014,7 @@ function openThemeExplorer(code) {
             var ch = chapters[0];
             ctx.chapter_title = ch.title || '';
             ctx.chapter_ref = ch.ref || '';
-            ctx.hebrew_terms = ch.hebrew_terms || [];
+            ctx.original_terms = ch.original_terms || [];
             ctx.cross_refs = (ch.cross_refs || []).map(function(x) {
                 return { ref: x.ref || '', note: x.note || '' };
             });

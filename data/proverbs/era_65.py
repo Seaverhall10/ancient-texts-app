@@ -38,7 +38,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "sheloshim (thirty -- the thirty sayings that parallel Amenemope's thirty chapters)",
             "gevul olam (ancient boundary stone -- the property marker that must not be moved, protecting inheritance)",
             "riv (to plead a case -- YHWH as the legal advocate of the poor, 22:23)",
@@ -151,7 +151,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "he'etiqu (copied out/transcribed -- the editorial activity of Hezekiah's scribes, 25:1)",
             "gachalim (burning coals -- the image of kindness to enemies that 'heaps coals' on them, 25:22)",
             "kesil (fool -- the character type extensively analyzed in chapter 26)",
@@ -263,7 +263,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "massa (oracle/burden -- the genre designation for both Agur's and Lemuel's speeches)",
             "eshet chayil (woman of valor/strength -- the military term applied to the ideal woman, 31:10)",
             "qedoshim (Holy One/Ones -- Agur's reference to divine knowledge, 30:3, matching 9:10)",

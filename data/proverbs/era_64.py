@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tsaddiq (righteous -- the person aligned with God's moral order)",
             "rasha (wicked -- the person who violates God's moral order)",
             "peh (mouth -- the instrument of speech, either fountain of life or well of violence)",
@@ -144,7 +144,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ets chayyim (tree of life -- the Eden motif reappearing in wisdom, applied to desire fulfilled, 13:12)",
             "toeivat YHWH (abomination to YHWH -- actions that YHWH finds detestable, a strong ethical category)",
             "ratson YHWH (delight/favor of YHWH -- what pleases God, the positive counterpart to abomination)",
@@ -247,7 +247,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "lev (heart -- the seat of human planning, which YHWH ultimately overrules, 16:1, 9)",
             "gaavah (pride -- the root sin that Proverbs identifies as the path to destruction, 16:18)",
             "goral (lot -- the casting of lots, whose every outcome YHWH determines, 16:33)",
@@ -358,7 +358,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "palge mayim (streams of water -- the irrigation-channel metaphor for YHWH directing the king's will)",
             "taqan (to weigh/test -- YHWH's evaluation of the heart, beyond human self-assessment, 21:2)",
             "shem tov (good name -- reputation and character as more valuable than wealth, 22:1)",

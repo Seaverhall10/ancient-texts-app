@@ -38,7 +38,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "golah (exile/exiles -- the condition Ezekiel enacts and the community he addresses)",
             "nevi'ei sheqer (false prophets -- those who prophesy from their own imagination, without council access)",
             "tafal (whitewash -- the false prophets' covering of weak walls with plaster, hiding structural failure)",
@@ -144,7 +144,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "zanah (to commit adultery/prostitution -- the governing metaphor for Jerusalem's infidelity in chapter 16)",
             "nefesh (soul/life -- the subject of the individual responsibility declaration in chapter 18)",
             "tsedaqah (righteousness -- demonstrated by just behavior: feeding the hungry, clothing the naked, lending without interest)",
@@ -267,7 +267,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "machmad einayim (delight of the eyes -- both Ezekiel's wife and the temple; the most precious possession)",
             "chel'ah (rust/encrustation -- the bloodguilt that cannot be scoured from Jerusalem's 'pot')",
             "challel (to profane -- YHWH himself will profane/desecrate his own sanctuary through judgment)",

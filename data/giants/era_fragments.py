@@ -26,7 +26,7 @@ CHAPTERS = [
             "translation": "Martinez/Tigchelaar"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "The Book of Giants stands at the intersection of Israelite and Mesopotamian literary traditions. The inclusion of Gilgamesh as one of the named giants connects this text directly to the Mesopotamian heroic cycle -- the oldest literary tradition in human history. The Sumerian and Akkadian Gilgamesh traditions describe a king who is two-thirds divine and one-third human, a hero of extraordinary strength who seeks immortality after the death of his companion Enkidu. In the Book of Giants, Gilgamesh is recast not as a legendary Sumerian king but as one of the Nephilim -- a giant born from the illicit union of Watchers and human women. This represents a deliberate Jewish appropriation and theological reframing of Mesopotamian heroic tradition: the great heroes of antiquity are not admirable demigods but the corrupted offspring of rebellious divine beings, destined for destruction. The dream-interpretation motif that drives the Book of Giants' plot also has deep Mesopotamian roots, paralleling the dream sequences in the Gilgamesh Epic, the Atrahasis Epic, and Akkadian dream omen literature.",
 
@@ -98,7 +98,7 @@ CHAPTERS = [
             "translation": "Martinez/Tigchelaar"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "Dream narratives as vehicles of divine communication are ubiquitous in the ancient Near East. The Akkadian dream omen literature (Ziqiqu) catalogued thousands of dream scenarios and their interpretations. In the Epic of Gilgamesh, Gilgamesh himself receives a dream foretelling the arrival of Enkidu (Tablet I), and later both Gilgamesh and Enkidu receive ominous dreams during their journey to the Cedar Forest (Tablets IV-V). The Atrahasis Epic features a dream warning to the flood hero. In the Hebrew Bible, the pattern continues through Jacob's ladder (Genesis 28), Joseph's dreams and his interpretation of Pharaoh's dreams (Genesis 37, 40-41), and most directly in Daniel 2 and 4, where Babylonian kings receive dreams of coming judgment that only a man of God can interpret. The Book of Giants participates in this deep tradition: the giants' dreams are not psychological phenomena but divine communications that reveal the irrevocable verdict of the heavenly court.",
 
@@ -174,7 +174,7 @@ CHAPTERS = [
             "translation": "Martinez/Tigchelaar"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "The motif of a hero undertaking a cosmic journey to reach a sage who possesses divine knowledge is deeply embedded in Mesopotamian literature. In the Epic of Gilgamesh (Tablets IX-X), Gilgamesh traverses the waters of death and passes through the mountains at the edge of the world to reach Utnapishtim, the flood survivor, who dwells in a paradisiacal location and possesses the secret of immortality. The structural parallel with Mahway's journey is striking: a semi-divine being (Gilgamesh/Mahway) undertakes a perilous journey through inhospitable terrain (mountains of darkness/the Desolation) to reach a righteous patriarch (Utnapishtim/Enoch) who dwells apart from humanity and possesses knowledge of divine decrees. The irony is that Gilgamesh himself appears as one of the giants in the Book of Giants -- the Jewish author has recast the hero of the greatest Mesopotamian epic as a condemned Nephilim, while assigning his traditional role (the questor who seeks wisdom) to a different giant, Mahway.",
 
@@ -250,7 +250,7 @@ CHAPTERS = [
             "translation": "Martinez/Tigchelaar"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "The motif of a divine message delivered to the condemned is present across ancient Near Eastern literature. In the Akkadian Erra Epic, the god Erra receives a vision of destruction, and a scribe (Kabti-ilani-Marduk) records the divine decree. In the Atrahasis Epic, the god Ea communicates the divine decision to destroy humanity, though he subverts it by warning the flood hero through a reed wall. In contrast to these Mesopotamian texts where divine decisions can be circumvented or moderated by a sympathetic deity, the Book of Giants presents the decree as absolute: Enoch reads the tablet, but he does not intercede on the giants' behalf as Ea does for Atrahasis. The closest parallel is in 1 Enoch 13-14, where the Watchers ask Enoch to write a petition of mercy and Enoch delivers it to God, only to have it definitively rejected. The Book of Giants compresses this dynamic: Enoch does not even attempt intercession -- he simply reads the verdict.",
 
@@ -322,7 +322,7 @@ CHAPTERS = [
             "translation": "Martinez/Tigchelaar"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "The pre-flood corruption and divine response narrative finds extensive parallels in Mesopotamian literature. The Atrahasis Epic describes the gods resolving to destroy humanity through plague, drought, and finally flood -- though their motivation (overpopulation and noise) differs from the moral corruption in Genesis and the Enochic texts. The Sumerian Flood Story and Tablet XI of the Gilgamesh Epic both describe a divine decision to destroy the world by flood, with one righteous family preserved. What distinguishes the Book of Giants from these Mesopotamian parallels is the focus on the agents of corruption: not humanity in general (as in Atrahasis) but the specific hybrid offspring of divine-human unions. The giants are not merely victims of a divine mood swing but the cause of the crisis -- their violence, their insatiable appetites, and their corruption of the natural order have made the earth uninhabitable. The Flood is therefore presented as a necessary surgical response, not a divine overreaction.",
 
@@ -398,7 +398,7 @@ CHAPTERS = [
             "translation": "Martinez/Tigchelaar"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "The Gilgamesh tradition is the bedrock of Mesopotamian literary culture, attested from at least 2100 BC (Sumerian poems about Bilgames) through the Standard Babylonian version composed by Sin-leqi-unninni (c. 1200 BC) and copied throughout the first millennium BC. Gilgamesh is described as 'two-thirds god and one-third human' -- the offspring of the goddess Ninsun and the mortal king Lugalbanda. He is the archetypal hero-king: builder of the walls of Uruk, slayer of monsters, friend of Enkidu, and seeker of immortality. His semi-divine parentage makes him, in biblical terms, a classic Nephilim: the offspring of a divine being and a human. The Book of Giants' identification of Gilgamesh as a Nephilim is therefore not arbitrary but follows logically from the theological reframing of divine-human offspring as the corrupted products of the Watcher rebellion. If all semi-divine heroes of antiquity are actually Nephilim, then the greatest semi-divine hero of them all -- Gilgamesh -- must be a Nephilim too.",
 
@@ -474,7 +474,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [],
+        "original_terms": [],
 
         "ane_backdrop": "Manichaeism emerged in the 3rd century CE in the Sasanian Persian Empire as a self-consciously universal religion that synthesized elements from Zoroastrianism, Christianity, Buddhism, and Jewish-Enochic traditions. Mani claimed to be the 'Seal of the Prophets' -- the final messenger in a chain that included Adam, Seth, Enoch, Noah, Abraham, Shem, Buddha, Zoroaster, and Jesus. His adoption of the Book of Giants reflects a broader pattern of Manichaean syncretism: taking existing religious texts and reinterpreting them within the Manichaean framework of a cosmic struggle between Light and Darkness. The Book of Giants' narrative of divine beings falling from heaven and producing corrupt offspring mapped naturally onto Mani's cosmology of light particles trapped in material darkness. The Watchers became agents of the Realm of Darkness, and the giants became embodiments of material corruption.",
 

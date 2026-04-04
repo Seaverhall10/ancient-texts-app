@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mysterion tes eusebeias (mystery of godliness -- 3:16; mysterion = hidden divine plan now unveiled; eusebeia = reverence/godliness; the Christ event is the great secret of the divine council, now publicly revealed through incarnation and proclamation)",
             "ephanerothe en sarki (manifested in the flesh -- 3:16; phaneroo = to make visible/reveal; the invisible God of the divine council takes on sarx [flesh]; this is the council's most shocking act -- deity entering human materiality)",
             "ophthe angelois (seen by angels -- 3:16; ophthe = was seen/appeared to, the same verb used for resurrection appearances [1 Cor 15:5-8]; the divine council members -- the angels -- witnessed the incarnation, death, resurrection, and ascension of the Son)",
@@ -223,7 +223,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "strateia / strateuo (warfare / to wage war -- 1:18; 'wage the good warfare [kalen strateian]'; the pastoral ministry is a military campaign; strateia denotes the whole campaign, not a single battle; Timothy is a soldier under orders)",
             "paradidomi to Satana (handed over to Satan -- 1:20; a judicial-disciplinary act of the apostle, transferring offenders into Satan's jurisdiction for corrective suffering; the same formula appears in 1 Cor 5:5 for the sexually immoral man in Corinth)",
             "kalos agon tes pisteos (good fight/contest of the faith -- 6:12; agon = athletic contest or combat; the 'good' [kalos] fight is noble, honorable, worthy; pistis is both the content of faith [the deposit] and the act of believing)",
@@ -414,7 +414,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "heis theos (one God -- 2:5; the fundamental monotheistic confession; in the divine council framework, this does not deny the existence of other spiritual beings but asserts YHWH's absolute supremacy and uniqueness as Creator; echoes the Shema of Deut 6:4)",
             "heis mesites (one mediator -- 2:5; mesites = one who stands between two parties to reconcile them; in a world of multiple claimed intermediaries -- angels, deceased heroes, mystery cult initiators -- Paul insists on one: the man Christ Jesus)",
             "antilytron hyper panton (ransom for all -- 2:6; antilytron = a price paid in exchange, a substitutionary ransom; hyper panton = on behalf of all; the scope is universal: the ransom reclaims not just Israel but every nation from the jurisdiction of the lesser powers)",

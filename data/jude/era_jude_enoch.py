@@ -66,7 +66,7 @@ CHAPTERS = [
             'leads the heavenly armies (Josh 5:14, 2 Kings 6:17).'
         ),
 
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': 'proephēteusen',
                 'transliteration': 'proephēteusen',
@@ -289,7 +289,7 @@ CHAPTERS = [
             'the darkness of the Enochic prison described in 1 Enoch 10:4-6 and 18:11-16.'
         ),
 
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': 'apolipousa to idion oikētērion',
                 'transliteration': 'apolipousa to idion oikētērion',

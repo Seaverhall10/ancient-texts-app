@@ -57,7 +57,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "aphorisate (set apart -- 'Set apart for me Barnabas and Saul' (13:2); the same verb used of Paul's apostolic call in Gal 1:15; the Spirit commissions missionaries as the divine council commissions agents)",
             "huie diabolou (son of the devil -- Paul's denunciation of Bar-Jesus (13:10); the sorcerer is identified as an agent of the adversary, opposing God's mission)",
             "phos ethnon (light for the Gentiles -- 'I have made you a light for the Gentiles' (13:47, quoting Isa 49:6); the Servant's mission now applied to the church's Gentile mission)",
@@ -233,7 +233,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "skene Dauid (tent/tabernacle of David -- Amos 9:11 LXX; the fallen Davidic dynasty rebuilt in Jesus; NOT the Temple but the messianic kingdom)",
             "ta ethne (the Gentiles / the nations -- 'all the Gentiles who are called by my name' (15:17); the disinherited nations of Deut 32 now claimed by YHWH)",
             "to pneumati to hagio kai hemin (to the Holy Spirit and to us -- 'it seemed good to the Holy Spirit and to us' (15:28); the council's human decision ratified by the divine Spirit; the earthly assembly aligned with the heavenly)",
@@ -391,7 +391,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "pneuma pythona (Python spirit -- literally a spirit associated with the Delphic oracle; the territorial spiritual authority of Greek paganism; Paul casts it out in Jesus' name (16:16-18))",
             "theou hypsistou (of the Most High God -- the Python spirit's testimony: 'servants of the Most High God' (16:17); the divine council title (cf. Deut 32:8, 'When the Most High gave the nations their inheritance'); even hostile spirits recognize the supreme God)",
             "prostetagmenous kairous (allotted periods/appointed times -- 'having determined allotted periods' (17:26); the same concept as Deut 32:8's allotment; God assigned the nations their historical epochs)",
@@ -558,7 +558,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "ton Iesoun ginosko kai ton Paulon epistamai (Jesus I know and Paul I recognize -- the demon's response (19:15); two different verbs: ginosko (know by experience/relationship) for Jesus, epistamai (recognize/be acquainted with) for Paul; the demon recognizes the authority hierarchy)",
             "periergos (magic / curious arts -- 'those who practiced magic arts (ta perierga)' (19:19); the technical term for occult practices; the Ephesian magical tradition was famous throughout the ancient world)",
             "Ephesia grammata (Ephesian letters -- the famous magical texts of Ephesus; burning them (19:19) represents a complete break with the territorial spiritual powers)",
@@ -724,7 +724,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "anastasis (resurrection -- the core issue dividing Pharisees and Sadducees; the Sadducees denied it; Paul exploits this theological division (23:6-8))",
             "angelos kai pneuma (angel and spirit -- the Sadducees deny these (23:8); the Pharisees affirm them; the divine council worldview is the battleground)",
             "episte de auto ho kyrios (the Lord stood by him -- 'the Lord stood by him' (23:11); a divine council appearance: the risen Christ appears to Paul in his cell to commission him for Rome)",
@@ -874,7 +874,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "exousia tou Satana (the power/authority of Satan -- 'from the power of Satan to God' (26:18); the nations are under Satan's jurisdiction; Paul's mission transfers them to God's kingdom)",
             "he hodos (the Way -- 'concerning the Way (tes hodou)' (24:14, 22); the self-designation of early Christians; not a new religion but the fulfillment of Israel's path)",
             "meta parrhesias akolytos (with all boldness without hindrance -- the final words of Acts (28:31); the gospel preached in Rome, the center of the world's power, with complete freedom)",

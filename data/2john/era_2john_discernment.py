@@ -38,7 +38,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "eklektē (elect/chosen — v.1; from eklegomai ['to choose out, select']; the same word used for Israel's election [Isa 43:20 LXX], for Christ as God's Chosen One [Luke 9:35], and for believers as God's 'elect' [Rom 8:33, Col 3:12]; the house church inherits Israel's elected status in the divine council's plan)",
             "kyria (lady/mistress — v.1; feminine of kyrios ['lord/master']; whether a personal name or a title for the church, the word carries connotations of authority and rank; this is no ordinary gathering but a royally-positioned community; contrast with 'the great prostitute' of Revelation 17 — the elect lady vs. the harlot of Babylon)",
             "tekna (children — vv.1, 4; from tikto ['to bear/give birth']; the members of the house church as the 'offspring' of the elect lady; in the divine council framework, the faithful community produces 'children' who walk in truth — spiritual reproduction that advances God's purposes)",
@@ -169,7 +169,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "planoi (deceivers — v.7; from planao ['to wander, lead astray']; one who causes deviation from the straight path; the word family includes planē ['wandering/error'] and planos ['wandering/deceiving']; in the divine council framework, the original planos is the Nachash in Eden who led humanity astray from God's command)",
             "antichristos (anti-anointed one — v.7; anti can mean 'against' or 'in place of'; the antichrist is both opposed to Christ and offers a counterfeit in his place; the denial of the incarnation is the specific anti-Christ doctrine because it attacks the divine council's plan at its hinge point)",
             "didachē (teaching/doctrine — vv.9, 10; from didasko ['to teach']; the body of apostolic instruction about Christ; those who 'go on ahead' [proago, v.9] beyond this teaching do not have God; 'progress' that abandons the foundational gospel is regression, not advancement)",

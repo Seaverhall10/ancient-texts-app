@@ -15,7 +15,7 @@ CHAPTERS = [
             "text": "But Pharaoh said, 'Who is the LORD, that I should obey his voice and let Israel go? I do not know the LORD, and moreover, I will not let Israel go.'",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "shalach",
             "chag",
             "teben",
@@ -121,7 +121,7 @@ CHAPTERS = [
             "text": "Say therefore to the people of Israel, 'I am the LORD, and I will bring you out from under the burdens of the Egyptians, and I will deliver you from slavery to them, and I will redeem you with an outstretched arm and with great acts of judgment. I will take you to be my people, and I will be your God.'",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "yhwh",
             "el_shaddai",
             "berit",
@@ -236,7 +236,7 @@ CHAPTERS = [
             "text": "The Egyptians shall know that I am the LORD, when I stretch out my hand against Egypt and bring out the people of Israel from among them.",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "elohim",
             "navi",
             "chazaq",
@@ -359,7 +359,7 @@ CHAPTERS = [
             "text": "Then the magicians said to Pharaoh, 'This is the finger of God.' But Pharaoh's heart was hardened, and he would not listen to them, as the LORD had said.",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "tsefardea",
             "kinnim",
             "arov",
@@ -459,7 +459,7 @@ CHAPTERS = [
             "text": "For this time I will send all my plagues on you yourself, and on your servants and your people, so that you may know that there is none like me in all the earth. For by now I could have put out my hand and struck you and your people with pestilence, and you would have been cut off from the earth. But for this purpose I have raised you up, to show you my power, so that my name may be proclaimed in all the earth.",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "dever",
             "shechin",
             "barad",
@@ -570,7 +570,7 @@ CHAPTERS = [
             "text": "Then the LORD said to Moses, 'Stretch out your hand toward heaven, that there may be darkness over the land of Egypt, a darkness to be felt.' So Moses stretched out his hand toward heaven, and there was thick darkness in all the land of Egypt three days. They did not see one another, nor did anyone rise from his place for three days, but all the people of Israel had light in their dwellings.",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "arbeh",
             "choshekh",
             "afeilah",
@@ -664,7 +664,7 @@ CHAPTERS = [
             "text": "So Moses said, 'Thus says the LORD: About midnight I will go out in the midst of Egypt, and every firstborn in the land of Egypt shall die, from the firstborn of Pharaoh who sits on his throne, even to the firstborn of the slave girl who is behind the handmill, and all the firstborn of the cattle.'",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "bekhor",
             "tseaqah",
             "maggephah",
@@ -759,7 +759,7 @@ CHAPTERS = [
             "text": "For I will pass through the land of Egypt that night, and I will strike all the firstborn in the land of Egypt, both man and beast; and on all the gods of Egypt I will execute judgments: I am the LORD.",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
         "cross_refs": [
@@ -828,7 +828,7 @@ CHAPTERS = [
             "text": "For I will pass through the land of Egypt that night, and I will strike all the firstborn in the land of Egypt, both man and beast; and on all the gods of Egypt I will execute judgments: I am the LORD. The blood shall be a sign for you, on the houses where you are. And when I see the blood, I will pass over you, and no plague shall fall upon you to destroy you, when I strike the land of Egypt.",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "pesach",
             "seh",
             "dam",

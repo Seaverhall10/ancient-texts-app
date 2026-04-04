@@ -64,7 +64,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "semeion mega (great sign -- a symbolic vision of cosmic significance; not a literal astronomical event but a theological disclosure)",
             "drakon megas pyrros (great red dragon -- the chaos serpent of Genesis 3, Isaiah 27:1, and Psalm 74:13-14; the seven heads echo the seven-headed Leviathan of Ugaritic mythology)",
             "ophis ho archaios (the ancient serpent -- ho archaios means 'the original, primordial one'; this IS the nachash of Genesis 3, now identified by his cosmic title)",
@@ -304,7 +304,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "therion ek tes thalasses (beast from the sea -- the chaos monster arising from the primordial waters; Daniel 7's four beasts fused into one; political empire animated by the dragon)",
             "therion ek tes ges (beast from the earth -- the false prophet; religious deception that enforces worship of the first beast; the propaganda arm of the dragon's empire)",
             "charagma (mark -- a brand, stamp, or seal; the counterpart of the seal of God (7:3); economic and social control through forced identification with the beast system)",
@@ -483,7 +483,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Sion (Zion -- the holy mountain; the Lamb's counter-position to the dragon's throne; the true seat of cosmic authority)",
             "euangelion aionion (eternal gospel -- the timeless proclamation that God is Creator, Judge, and King; not a 'new' gospel but the original and permanent one)",
             "drepanon (sickle -- the instrument of harvest; the eschatological reaping of the earth; cf. Joel 3:13, 'Put in the sickle, for the harvest is ripe')",
@@ -632,7 +632,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "phiale (bowl -- a broad, shallow libation bowl used in temple worship; the imagery of worship vessels turned into instruments of judgment)",
             "ode Mouseos kai ode tou arniou (song of Moses and song of the Lamb -- the Exodus liberation song combined with the Lamb's victory song; old covenant and new covenant united)",
             "Harmageddon / Armageddon (Hebrew: Har Megiddo, 'Mount Megiddo' -- the eschatological battlefield; Megiddo was the site of many decisive battles in Israel's history)",

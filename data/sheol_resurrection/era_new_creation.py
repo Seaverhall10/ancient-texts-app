@@ -50,7 +50,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e9\u05c1\u05b8\u05de\u05b7\u05d9\u05b4\u05dd \u05d7\u05b2\u05d3\u05b8\u05e9\u05c1\u05b4\u05d9\u05dd (shamayim chadashim)",
                 "meaning": "New heavens -- not replacement heavens made from scratch "
@@ -290,7 +290,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b2\u03b1\u03c3\u03b9\u03bb\u03b5\u03cd\u03c3\u03bf\u03c5\u03c3\u03b9\u03bd (basileusousin)",
                 "meaning": "They will reign -- future active indicative. Not 'they "

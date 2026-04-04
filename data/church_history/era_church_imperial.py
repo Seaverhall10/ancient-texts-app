@@ -64,7 +64,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b2\u03b1\u03c3\u03b9\u03bb\u03b9\u03ba\u03ae (basilike)",
                 "meaning": "Royal hall, king's court. The Roman basilica was a "
@@ -343,7 +343,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03bf\u03bc\u03bf\u03bf\u03cd\u03c3\u03b9\u03bf\u03c2 (homoousios)",
                 "meaning": "Of the same substance, of one being. The pivotal term of the "
@@ -641,7 +641,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u0398\u03b5\u03bf\u03c4\u03cc\u03ba\u03bf\u03c2 (Theotokos)",
                 "meaning": "God-bearer, Mother of God. The title affirmed at Ephesus in "
@@ -945,7 +945,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "Filioque",
                 "meaning": "'And the Son' -- the Latin word added to the Nicene Creed by "

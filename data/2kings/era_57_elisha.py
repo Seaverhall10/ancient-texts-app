@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "baal-zevuv (Baal-zebub -- 'lord of the flies'; likely a Hebrew mockery of Baal-zebul, 'lord of the exalted dwelling')",
             "malakh YHWH (angel of YHWH -- the divine messenger who dispatches Elijah; a divine council operative)",
             "esh (fire -- the fire from heaven that consumes the soldiers; Elijah's signature element)",
@@ -167,7 +167,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "searah (whirlwind/storm -- the vehicle of Elijah's ascent; theophanic transportation)",
             "merkavah esh (chariot of fire -- the divine war chariot; heavenly military transport)",
             "pi shenayim (double portion -- the firstborn's inheritance; Elisha's request for prophetic succession)",
@@ -310,7 +310,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tsaraath (leprosy / skin disease -- the condition that renders Naaman ritually unclean; YHWH alone can heal it)",
             "taval (to dip/immerse -- the seven-fold immersion in the Jordan; later associated with baptism)",
             "rimmon (Rimmon/Hadad -- the Syrian storm god; Naaman will bow in his temple under duress)",
@@ -447,7 +447,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "rekhev esh vesusim (chariots of fire and horses -- the divine council's military forces; the heavenly army visible)",
             "sanverim (blindness/dazzlement -- the supernatural blindness struck on the Syrian army)",
             "paqach (to open -- YHWH 'opens' the servant's eyes to see the spiritual realm)",

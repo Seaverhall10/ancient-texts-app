@@ -49,7 +49,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e8\u05b0\u05e4\u05b8\u05d0\u05b4\u05d9\u05dd (Rephaim)",
                 "meaning": "The umbrella term for the giant clans. In life, they "
@@ -356,7 +356,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e2\u05d5\u05b9\u05d2 (Og)",
                 "meaning": "The name may derive from a root meaning 'round' or "
@@ -669,7 +669,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d9\u05b7\u05db\u05b0\u05e8\u05b5\u05ea (yakhret)",
                 "meaning": "'He cut off' \u2014 from the root k-r-t, meaning to cut, "

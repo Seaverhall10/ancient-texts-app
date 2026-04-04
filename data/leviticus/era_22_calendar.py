@@ -56,7 +56,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "moed", "miqra_qodesh", "pesach", "matzot", "bikkurim",
             "shavuot", "teruah", "kippur", "sukkot", "lulav", "shabbat"
             # Key glosses: mo'ed = 'appointed time/meeting' (divine appointment
@@ -296,7 +296,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "menorah", "lechem_hapanim", "shemen_zayit",
             "ha_Shem", "naqav", "qalal", "ayin_tachat_ayin", "ger"
             # Key glosses: menorah = 'lampstand' (7-branched golden candelabrum
@@ -483,7 +483,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "shemittah", "yovel", "deror", "goel",
             "geullah", "shofar", "neshekh", "achuzzah", "eved"
             # Key glosses: shemittah = 'release/remission' (the sabbatical year
@@ -695,7 +695,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "berakhah", "qelalah", "berit", "shalom", "galut",
             "vidui", "zakar", "orlah_lev", "shammah", "qeri"
             # Key glosses: berakhah = 'blessing' (divine favor flowing from
@@ -925,7 +925,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "neder", "erekh", "cherem", "geullah",
             "maaser", "sheqel_haqqodesh", "chamishit", "qadosh", "haqdeish"
             # Key glosses: neder = 'vow' (a voluntary promise to God, binding

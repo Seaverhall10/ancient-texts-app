@@ -50,7 +50,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d7\u05b9\u05d8\u05b6\u05e8 (choter)",
                 "meaning": "Branch, shoot, rod. Isaiah 11:1 -- 'A shoot (choter) from "
@@ -308,7 +308,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03b5\u03b6\u03b7\u03c3\u03b1\u03bd (ezesan)",
                 "meaning": "They came to life, they lived. From zao -- to live. In "

@@ -29,7 +29,7 @@ CHAPTERS = [
         "text": "Behold, I thought in my heart that the conception was from the Watchers, and the pregnancy from the Holy Ones, and it belonged to the Nephilim...",
         "translation": "Fitzmyer (2004)"
     },
-    "hebrew_terms": ["irin", "nephilim", "bene_elohim"],
+    "original_terms": ["irin", "nephilim", "bene_elohim"],
     "ane_backdrop": (
         "Ancient Near Eastern birth omens and divine paternity narratives provide essential context. "
         "Mesopotamian texts like the Gilgamesh Epic describe semi-divine births with luminous features, "
@@ -426,7 +426,7 @@ CHAPTERS = [
         ),
         "translation": "Fitzmyer"
     },
-    "hebrew_terms": ["watchers", "nephilim", "holy_ones", "sons_of_god"],
+    "original_terms": ["watchers", "nephilim", "holy_ones", "sons_of_god"],
     "ane_backdrop": (
         "Ancient Near Eastern mythology frequently depicts divine-human hybridization. "
         "Sumerian king lists claim antediluvian rulers with superhuman lifespans, often "
@@ -838,7 +838,7 @@ CHAPTERS = [
         ),
         "translation": "Fitzmyer (2004)"
     },
-    "hebrew_terms": ["berit", "chazon", "tefillah", "ruach_raah"],
+    "original_terms": ["berit", "chazon", "tefillah", "ruach_raah"],
     "ane_backdrop": (
         "Dream visions as divine communication were ubiquitous in ancient Near Eastern literature — Mesopotamian dream omens "
         "(Assyrian Dream Book), Egyptian dream interpretation texts (Chester Beatty III papyrus), and Ugaritic dream revelations "
@@ -1228,7 +1228,7 @@ CHAPTERS = [
         ),
         "translation": "Fitzmyer 2004"
     },
-    "hebrew_terms": ["ruach", "nephesh", "mashal", "halakhah"],
+    "original_terms": ["ruach", "nephesh", "mashal", "halakhah"],
     "ane_backdrop": (
         "The wife-sister motif appears three times in Genesis (12:10-20; 20:1-18; 26:6-11), reflecting "
         "ancient Near Eastern legal practices where a husband could adopt his wife as a sister to gain "
@@ -1636,7 +1636,7 @@ CHAPTERS = [
         ),
         "translation": "Fitzmyer (2004)"
     },
-    "hebrew_terms": ["el_elyon", "kohen", "melchizedek", "salem"],
+    "original_terms": ["el_elyon", "kohen", "melchizedek", "salem"],
     "ane_backdrop": (
         "The figure of Melchizedek in Genesis 14 reflects Ancient Near Eastern royal ideology where kingship "
         "and priesthood were often combined in a single office. In Canaanite culture, city-state kings routinely "
@@ -2036,7 +2036,7 @@ CHAPTERS = [
         ),
         "translation": "Fitzmyer (2004)"
     },
-    "hebrew_terms": ["nephilim", "irin", "bene_elohim"],
+    "original_terms": ["nephilim", "irin", "bene_elohim"],
     "ane_backdrop": (
         "The Genesis Apocryphon participates in a broader Ancient Near Eastern tradition of "
         "literary rewriting and expansion. Egyptian literature featured parallel traditions of "

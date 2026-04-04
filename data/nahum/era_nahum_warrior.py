@@ -39,7 +39,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qanna (jealous -- YHWH's exclusive claim on worship; the covenant warrior's passion)",
             "naqam (vengeance/avenger -- not petty revenge but the divine judge's righteous action against oppressors)",
             "erekh appayim (slow to anger -- literally 'long of nostrils'; the patience that defined Jonah's era now exhausted)",
@@ -199,7 +199,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "mephis (the scatterer -- the attacking army YHWH sends; an ironic reversal, since Assyria was the great 'scatterer' of nations)",
             "aryeh (lion -- Assyria's self-chosen symbol turned against her; the lion's den is destroyed)",
             "ir damim (city of blood -- Nineveh defined by systematic violence and imperial terror)",

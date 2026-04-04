@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "dokimion (testing/proving -- 1:3; the tested quality or means of testing; cognate with dokimos [approved/tested]; the furnace that proves whether faith is genuine, as gold is tested by fire)",
             "hypomone (steadfastness/endurance -- 1:3-4; not passive resignation but active perseverance under pressure; the capacity to remain faithful when circumstances demand retreat)",
             "sophia (wisdom -- 1:5; not mere intellectual knowledge but divinely given insight for navigating life's trials; the practical skill of living rightly before God; connects to the OT hokmah tradition)",
@@ -231,7 +231,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "prosopolempsia (partiality/favoritism -- 2:1; from prosopon [face] + lambano [to take/receive]; literally 'receiving the face,' the Greek equivalent of the Hebrew nasa panim; showing regard for outward appearance rather than true character)",
             "nomos basilikos (royal law -- 2:8; the law belonging to the King [God/Christ]; Leviticus 19:18 'love your neighbor as yourself' is royal because it is the supreme law of the kingdom and fulfills all other relational commands)",
             "pistis (faith -- 2:14, 17, 20, 26; James uses pistis not as Paul does [trust in Christ for justification] but to expose a counterfeit: mere intellectual assent that produces no obedience; 'that faith' [he pistis] in 2:14 refers specifically to the claimed-but-barren variety)",
@@ -415,7 +415,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "he anothen sophia (the wisdom from above -- 3:17; anothen = from above, from the beginning; wisdom that descends from God's throne, characterized by seven qualities: pure, peaceable, gentle, open to reason, merciful, fruitful, impartial, sincere)",
             "epigeios (earthly -- 3:15; from epi [upon] + ge [earth]; bound to the terrestrial realm; the first step in the descending taxonomy of false wisdom; rooted in human self-interest rather than divine perspective)",
             "psychike (natural/unspiritual/soulish -- 3:15; from psyche [soul]; operating at the level of the natural human soul without the Spirit's illumination; the same word Paul uses in 1 Cor 2:14 for the 'natural person' who cannot receive spiritual truth)",

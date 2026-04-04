@@ -47,7 +47,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "Merivah (quarreling/contention — the place name that memorializes the dispute)",
             "hiqdishsheni (to sanctify/uphold as holy — what Moses failed to do before the people)",
             "matteh (staff/rod/tribe — the triple-meaning word: a physical walking "
@@ -231,7 +231,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "nachash (serpent — the same word as the Genesis 3 serpent; also means "
              "'shining one' or 'diviner,' from a root meaning 'to shine like bronze'; "
              "the nachash of Eden was not a garden snake but a luminous divine being, "
@@ -442,7 +442,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "qosem (diviner — Balaam's profession, consulting the spiritual realm for hire)",
             "mashal (oracle/proverb — the elevated speech Balaam delivers under YHWH's compulsion)",
             "mal'akh YHWH (Angel of YHWH — the divine messenger who blocks Balaam's road)",
@@ -623,7 +623,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "kokhav (star — the celestial sign of the coming ruler)",
             "shevet (scepter — the symbol of royal authority)",
             "Shaddai (Almighty — the archaic divine name Balaam uses for God)",
@@ -820,7 +820,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "tsamad (to yoke/bind oneself — covenant loyalty language applied to Baal-Peor)",
             "Baal Peor (lord of Peor — the territorial deity of the Moabite site)",
             "qin'ah (jealousy/zeal — Phinehas's passionate defense of YHWH's honor)",

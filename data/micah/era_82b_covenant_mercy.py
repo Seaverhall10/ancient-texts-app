@@ -37,7 +37,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "rib (covenant lawsuit -- the formal legal case YHWH brings against Israel)",
             "mishpat (justice -- to do justice; right ordering of society)",
             "hesed (kindness/covenant loyalty -- to love hesed; relational faithfulness)",

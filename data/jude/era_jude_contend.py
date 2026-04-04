@@ -91,7 +91,7 @@ CHAPTERS = [
             'a prophecy. The "ten thousands of holy ones" are the divine council in full '
             'procession \u2014 the angelic army accompanying YHWH to judgment.</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u1f00\u03c1\u03c7\u03ae',
                 'transliteration': 'arche',
@@ -394,7 +394,7 @@ CHAPTERS = [
             'the very qualities that belong to the cosmic powers: glory, majesty, dominion, '
             'authority \u2014 and declares that these belong to God "before all time" (eternally).</p>'
         ),
-        'hebrew_terms': [
+        'original_terms': [
             {
                 'term': '\u03c8\u03c5\u03c7\u03b9\u03ba\u03bf\u03af',
                 'transliteration': 'psychikoi',

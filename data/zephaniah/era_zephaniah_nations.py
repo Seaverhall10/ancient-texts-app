@@ -41,7 +41,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "asoph aseph (I will utterly sweep away -- intensive doubling, absolute totality of judgment)",
             "adam u-behemah (man and beast -- the first pair swept away, reversing Day 6 of creation)",
             "oph ha-shamayim (birds of the heavens -- Day 5 creation reversed; the sky emptied)",
@@ -206,7 +206,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "anavim (humble/poor of the land -- the remnant who seek YHWH; the meek who inherit)",
             "baqash (to seek -- 'seek YHWH, seek righteousness, seek humility'; the triple imperative of survival)",
             "satar (to hide/protect -- 'perhaps you may be hidden'; the prophet's own name Tsephanyah means 'YHWH hides')",

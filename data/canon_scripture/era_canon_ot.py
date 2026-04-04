@@ -66,7 +66,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05ea\u05bc\u05d5\u05b9\u05e8\u05b8\u05d4 (torah)",
                 "meaning": "'Instruction' or 'teaching' \u2014 from the root "
@@ -389,7 +389,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05e0\u05b8\u05d1\u05b4\u05d9\u05d0 (navi)",
                 "meaning": "'Prophet' \u2014 one who speaks on behalf of another. "
@@ -687,7 +687,7 @@ CHAPTERS = [
             "translation": "ESV (with DSS/LXX reading)"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05d1\u05b0\u05bc\u05e0\u05b5\u05d9 \u05d0\u05b1\u05dc\u05b9\u05d4\u05b4\u05d9\u05dd (b'nei 'elohim)",
                 "meaning": "'Sons of God' \u2014 divine beings in YHWH's council. "
@@ -998,7 +998,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u05de\u05b0\u05d2\u05b4\u05dc\u05bc\u05d5\u05b9\u05ea (megillot)",
                 "meaning": "'Scrolls' \u2014 from the root g-l-l, 'to roll.' "

@@ -15,7 +15,7 @@ CHAPTERS = [
             "text": "Now there arose a new king over Egypt, who did not know Joseph. And he said to his people, 'Behold, the people of Israel are too many and too mighty for us.'",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "am",
             "ger",
             "yeled",
@@ -135,7 +135,7 @@ CHAPTERS = [
             "text": "Now there arose a new king over Egypt, who did not know Joseph.",
             "translation": "ESV"
         },
-        "hebrew_terms": [],
+        "original_terms": [],
         "ane_backdrop": None,
         "second_temple": [],
         "cross_refs": [
@@ -209,7 +209,7 @@ CHAPTERS = [
             "text": "And God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob. God saw the people of Israel — and God knew.",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "tebah",
             "mosheh",
             "mashah",
@@ -341,7 +341,7 @@ CHAPTERS = [
             "text": "God said to Moses, 'I AM WHO I AM.' And he said, 'Say this to the people of Israel: I AM has sent me to you.'",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "yhwh",
             "ehyeh",
             "malak_yhwh",
@@ -474,7 +474,7 @@ CHAPTERS = [
             "text": "Then the LORD said to him, 'Who has made man's mouth? Who makes him mute, or deaf, or seeing, or blind? Is it not I, the LORD? Now therefore go, and I will be with your mouth and teach you what you shall speak.'",
             "translation": "ESV"
         },
-        "hebrew_terms": [
+        "original_terms": [
             "matteh",
             "nachash",
             "ot",

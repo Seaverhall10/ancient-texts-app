@@ -43,7 +43,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "paradidomi (delivered/handed down -- technical term for the transmission of authoritative oral tradition; the same verb used for Judas 'handing over' Jesus [Matt 26:15] and for God 'handing over' humans to sin [Rom 1:24]; here it describes the faithful chain of creedal transmission)",
             "paralambanein (received -- the correlate of paradidomi; together they form the technical vocabulary for tradition transmission in both rabbinic Judaism [qibbel/masar] and Hellenistic schools; Paul received this creed from the Jerusalem apostles, likely within 3-5 years of the crucifixion)",
             "egeiro (raised -- the dominant NT verb for resurrection; passive voice implies God as the agent: God raised Christ; distinguished from anistemi [to rise/stand up]; the passive 'was raised' emphasizes divine action, not human achievement)",
@@ -233,7 +233,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "aparche (firstfruits -- the first sheaf of the grain harvest, offered to God on the day after the Sabbath during Passover week [Lev 23:10-11]; by presenting the first portion, the farmer consecrated the entire harvest; Christ's resurrection is the aparche that guarantees the resurrection of all who belong to him)",
             "tagma (order/rank/arrangement -- a military term for a unit or division; Paul uses it for the sequential 'order' of resurrection: Christ first, then believers at the parousia, then the end; the resurrection unfolds according to divine strategy, not chaos)",
             "katargeo (to destroy/abolish/render powerless/bring to nothing -- Paul's verb for what Christ does to every hostile power [15:24] and to death [15:26]; the same verb used in 2:6 for the rulers of this age being 'brought to nothing'; it means to make completely inoperative, to strip of all force and authority)",
@@ -439,7 +439,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             "soma pneumatikon (spiritual body -- NOT a non-physical body but a body animated and governed by the Holy Spirit [pneuma]; the opposite of soma psychikon [body animated by natural life]; the resurrection body is more physical, not less -- it is material existence raised to a higher order, imperishable and immortal)",
             "soma psychikon (natural/soulish body -- the present body animated by psyche [soul/natural life]; subject to decay, weakness, and death; the 'bare kernel' that must be transformed; psychikos in Paul always means 'unspiritual' or 'merely natural' -- limited to created life without the Spirit's animation)",
             "phthora (corruption/decay/perishability -- the fundamental condition of the present body; from phtheiro, 'to corrupt/destroy'; the resurrection body is aphtharsia [incorruption/imperishability], the negation of phthora; this is not merely about aging but about the entire created order's subjection to futility [Rom 8:20-21])",

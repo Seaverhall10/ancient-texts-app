@@ -68,7 +68,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03a0\u03ad\u03c4\u03c1\u03bf\u03c2 (Petros)",
                 "meaning": "A stone, a detached piece of rock, a movable boulder. "
@@ -419,7 +419,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "\u03c0\u03ac\u03c0\u03b1\u03c2 (papas) / papa",
                 "meaning": "Father, pope. Originally a term of affection used for "
@@ -752,7 +752,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "indulgentia",
                 "meaning": "Indulgence. In Catholic theology, a remission of the "
@@ -1096,7 +1096,7 @@ CHAPTERS = [
             "translation": "ESV"
         },
 
-        "hebrew_terms": [
+        "original_terms": [
             {
                 "term": "ex cathedra",
                 "meaning": "From the chair. The technical term for an infallible "
