@@ -90,27 +90,28 @@ DSS Sectarian, Josephus, Heavenly Court
 ## WHAT IS MISSING
 
 ### TIER 0 — Audit Fixes (Blocking Deploy)
-- ~~**~110 unfixed thematic text CRITICALs from Arbiter**~~ — All thematic text CRITICALs fixed (Session 14). Remaining: hebrew_terms schema rename, 18+ truncated era files
-- **`hebrew_terms` → `original_terms` schema rename needed** — 12 app.js references + ~300 data files still use old field name
-- **18+ truncated era files need content completion** — partial content from previous sessions
-- ~~**59 chapters missing `key_verse`**~~ — all 63 missing key_verses filled across 32 era files (100% coverage)
-- **1 unlisted CSS file** — `styles.css` on disk but not in `build-order.txt`
+~~All TIER 0 issues resolved as of 2026-04-03.~~
+- ~~110 thematic CRITICALs~~ — fixed (Session 14)
+- ~~`hebrew_terms` → `original_terms` schema rename~~ — done (336 files renamed)
+- ~~18+ truncated era files~~ — verified not actually truncated (Arbiter token-limit artifact)
+- ~~59 chapters missing `key_verse`~~ — all 63 filled (100% coverage)
+- ~~1 unlisted CSS file~~ — verified doesn't exist (false flag)
 
-### TIER 1 — Content Depth (Major Gaps)
-0. **Research Lenses**: All 3 Research Lenses complete: Islam, Rabbinic Judaism, Catholicism
-1. **Minor Prophets section depth** — All 12 books at 25-40% of Genesis depth (51/55 chapters flagged)
-2. ~~**NT era expansion** — Luke, John still have only 2 eras each~~ — Luke now has 6 eras, John now has 6 eras
-3. ~~DSS Sectarian hebrew_terms~~ — done (26/26)
-4. ~~1 Enoch hebrew_terms~~ — done (73/73)
-5. **Jasher hebrew_terms** — 43/49 chapters empty (88%)
-6. ~~**Psalms of Solomon flow**~~ — done (rebuilt from scratch, 320 real verses)
+### TIER 1 — Content Depth (Completed)
+- ~~Research Lenses~~ — All 3 complete: Islam (7ch), Rabbinic Judaism (7ch), Catholicism (8ch)
+- ~~Minor Prophets section depth~~ — 11 short sections expanded to 800+ chars
+- ~~NT era expansion~~ — Luke now has 6 eras, John now has 6 eras
+- ~~DSS Sectarian original_terms~~ — done (26/26)
+- ~~1 Enoch original_terms~~ — done (73/73)
+- ~~Jasher original_terms~~ — done (36/43 filled, 147 new terms)
+- ~~Psalms of Solomon flow~~ — rebuilt from scratch (320 verses)
 
-### TIER 2 — Study Trails
-**Existing trails needing conversion (old step-by-step → article format):**
-6. ~~**Covenant Arc** — still old step-by-step format, needs article conversion~~ — DONE, converted to 8-chapter article format
-7. ~~**Adam to Jesus** — still old step-by-step format~~ — DONE, converted to 8-chapter article format
-8. ~~**Cosmic Geography** — still old step-by-step format~~ — DONE, converted to 8-chapter article format
-9. ~~**Dead Sea Scrolls Connection** — still old step-by-step format~~ — DONE, converted to 8-chapter article format
+### TIER 2 — Study Trails (All Converted)
+~~All 4 trails converted from step-by-step to full article format:~~
+- ~~Covenant Arc~~ — 8 chapters (Eden → New Creation)
+- ~~Adam to Jesus~~ — 8 chapters (Adam → Revelation 22:16)
+- ~~Cosmic Geography~~ — 8 chapters (Three-Tier Cosmos → Heaven & Earth Reunited)
+- ~~Dead Sea Scrolls Connection~~ — 8 chapters (Discovery → Why DSS Matter)
 
 **NEW trails proposed (from Seaver's Theological Law document):**
 10. **The Continuous Tradition** — 7 chapters: throne room across Ezek/1 Enoch/Daniel/Rev, Son of Man thread, Watchers, archangels, cosmic geography, Azazel proof case, canon history
