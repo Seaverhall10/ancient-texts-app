@@ -3347,7 +3347,7 @@
       "name": "The Nephilim Story",
       "chapters": "Complete Narrative (7 chapters)",
       "color": "#8b4a3e",
-      "icon": "N",
+      "icon": "\u25c6",
       "data_file": "era_nephilim_story",
       "themes": [
         "Nephilim",
