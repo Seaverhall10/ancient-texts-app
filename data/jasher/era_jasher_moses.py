@@ -30,7 +30,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "yeled",
+                "transliteration": "yeled",
+                "meaning": "Child, boy -- Moses as an infant drawn from the Nile (Exod 2:6); Jasher adds the tradition of the child Moses taking Pharaoh's crown, which triggers a test of his intelligence"
+            },
+            {
+                "term": "bat Par'oh",
+                "transliteration": "bat Par'oh",
+                "meaning": "Daughter of Pharaoh -- the princess who adopts Moses (Exod 2:5-10); Jasher names her and expands her role, giving her political maneuvering to protect the Hebrew child"
+            },
+            {
+                "term": "chokmah",
+                "transliteration": "chokmah",
+                "meaning": "Wisdom -- Moses educated in all the wisdom (chokmah) of Egypt (Acts 7:22); Jasher describes his training in Egyptian learning as preparation for his future role as lawgiver"
+            },
+            {
+                "term": "nezer",
+                "transliteration": "nezer",
+                "meaning": "Crown, diadem -- the tradition (found in Jasher and earlier midrash) of infant Moses seizing Pharaoh's crown; the advisors test whether the child acts with intent or innocence"
+            }
+        ],
 
         "ane_backdrop": "The birth of Moses follows the classic ANE 'endangered hero' motif: a child of destiny is threatened by a powerful ruler, hidden by his parents, and eventually raised in a position of privilege from which he will later challenge the oppressor. The closest parallel is the Sargon Legend, in which Sargon of Akkad is placed in a basket of rushes sealed with bitumen, set upon the river, drawn out by Aqqi the water-drawer, and raised to become the greatest king in Mesopotamian history. The parallels between Sargon and Moses are striking: basket, river, discovery, adoption into a higher social class, eventual rise to power. Whether the biblical narrative borrowed from the Sargon legend, or both drew on a common story pattern, or the events are historical and the similarities coincidental, remains debated.",
 
@@ -116,7 +137,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "melekh Kush",
+                "transliteration": "melekh Kush",
+                "meaning": "King of Cush -- Moses' forty-year reign over Ethiopia according to Jasher; the most dramatic expansion of Moses' biography in the entire book"
+            },
+            {
+                "term": "tsava",
+                "transliteration": "tsava",
+                "meaning": "Army, host, military force -- Moses leads the Cushite army as their general before becoming king; demonstrating military leadership that prefigures his leading Israel through the wilderness"
+            },
+            {
+                "term": "gevurah",
+                "transliteration": "gevurah",
+                "meaning": "Strength, might, heroic power -- Moses' military prowess in Ethiopia; Jasher presents a warrior-Moses phase that complements the prophet-Moses of Exodus"
+            },
+            {
+                "term": "galut",
+                "transliteration": "galut",
+                "meaning": "Exile -- Moses' departure from Cush and journey to Midian; each phase of his life involves exile and displacement before his ultimate calling at the burning bush"
+            }
+        ],
 
         "ane_backdrop": "The kingdom of Cush (Kush) was a real and powerful state in Upper Nubia (modern Sudan), corresponding roughly to the ancient kingdom of Kerma and later the kingdom of Meroe. Egypt and Kush had a complex, millennia-long relationship involving trade, warfare, colonization, and cultural exchange. During the Second Intermediate Period (c. 1650-1550 BC), Kush was powerful enough to form a coalition with the Hyksos against Theban Egypt. During the 25th Dynasty (c. 747-656 BC), Kushite kings actually ruled Egypt itself. The tradition of Moses serving as a military leader in Kush is geographically plausible for someone fleeing south from Egypt, and it aligns with the biblical notice in Numbers 12:1 that Moses had married a Cushite woman.",
 
@@ -203,7 +245,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "YHWH",
+                "transliteration": "YHWH",
+                "meaning": "The divine name (Tetragrammaton) -- revealed to Moses at the burning bush (Exod 3:14-15); 'I AM WHO I AM'; the personal, covenant name of the God of Abraham, Isaac, and Jacob"
+            },
+            {
+                "term": "shaliach",
+                "transliteration": "shaliach",
+                "meaning": "Sent one, messenger, agent -- Moses as God's commissioned agent to Pharaoh; the shaliach carries the full authority of the one who sends; Moses speaks and acts with divine authority"
+            },
+            {
+                "term": "matteh",
+                "transliteration": "matteh",
+                "meaning": "Staff, rod -- Moses' staff that becomes a serpent and performs signs (Exod 4:2-4); the instrument of God's power in the plagues; later the rod that parts the sea and strikes the rock"
+            },
+            {
+                "term": "dam",
+                "transliteration": "dam",
+                "meaning": "Blood -- the first plague turns the Nile to blood (Exod 7:20); attacks Hapi, the Nile god; blood as the symbol of both judgment (plagues) and redemption (Passover lamb)"
+            }
+        ],
 
         "ane_backdrop": "The ten plagues have been connected by scholars to the Egyptian divine order: each plague targets a specific Egyptian deity or domain. The Nile turning to blood attacks Hapi (the Nile god) and Osiris (whose domain included the Nile). Frogs attack Heqet (the frog goddess of fertility). Darkness attacks Ra (the supreme sun god). The death of the firstborn attacks Pharaoh himself, who was considered an incarnation of Horus and the son of Ra. Exodus 12:12 makes this explicit: 'On all the gods of Egypt I will execute judgments -- I am YHWH.' This 'judgment on the gods' framework is reflected in Jasher's treatment of the plagues, which emphasizes the theological contest between YHWH and the Egyptian divine order.",
 
@@ -272,7 +335,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "baqa",
+                "transliteration": "baqa",
+                "meaning": "To split, divide, cleave -- the verb for splitting the sea (Exod 14:16, 21); God divides the waters as at creation (Gen 1:6-7); the sea crossing is a new creation act"
+            },
+            {
+                "term": "Sinai",
+                "transliteration": "Sinai",
+                "meaning": "Mount Sinai (also called Horeb) -- the mountain of God where the Torah is given (Exod 19-20); the site of divine theophany with fire, smoke, thunder, and the voice of God"
+            },
+            {
+                "term": "Torah",
+                "transliteration": "Torah",
+                "meaning": "Instruction, teaching, law -- from yarah (to throw, direct, teach); the covenant instructions given at Sinai; not merely 'law' but comprehensive divine instruction for covenant life"
+            },
+            {
+                "term": "midbar",
+                "transliteration": "midbar",
+                "meaning": "Wilderness, desert -- the setting for Israel's forty-year journey; from davar (to speak) -- the wilderness is where God speaks; a place of testing, provision, and intimate divine encounter"
+            }
+        ],
 
         "ane_backdrop": "The splitting of a body of water by divine agency is attested in multiple ANE traditions. In the Baal Cycle from Ugarit, Baal defeats Yamm (Sea) and establishes his sovereignty over the waters of chaos. In the Enuma Elish, Marduk splits the body of Tiamat (the sea goddess) to create heaven and earth. The biblical crossing of the Red Sea draws on this mythological heritage but historicizes it: rather than a primordial battle between gods, it is a historical act of deliverance in which YHWH defeats Egypt (the agent of chaos) and brings his people through the waters to safety. The Song of the Sea (Exodus 15) explicitly uses Chaoskampf language: 'The deeps covered them; they went down into the depths like a stone' (15:5). Jasher preserves this theological framing while narrating the event as historical reality.",
 
@@ -342,7 +426,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "meraglim",
+                "transliteration": "meraglim",
+                "meaning": "Spies, scouts -- the twelve spies sent to Canaan (Num 13); from ragal (to walk about, spy out); ten return with a faithless report, two (Joshua, Caleb) with faith"
+            },
+            {
+                "term": "am qesheh oref",
+                "transliteration": "am qesheh oref",
+                "meaning": "Stiff-necked people -- God's repeated description of Israel's stubbornness (Exod 32:9, 33:3, 34:9); the image of an ox that refuses to turn when directed"
+            },
+            {
+                "term": "nachash nechoshet",
+                "transliteration": "nachash nechoshet",
+                "meaning": "Bronze serpent -- the serpent Moses lifts on a pole to heal snakebites (Num 21:8-9); Jesus identifies this as a type of his crucifixion (John 3:14-15)"
+            },
+            {
+                "term": "nachalah",
+                "transliteration": "nachalah",
+                "meaning": "Inheritance, allotted portion -- the promised land as Israel's inheritance (Num 26:53); each tribe receives its nachalah; the land is God's gift, not a human conquest"
+            }
+        ],
 
         "ane_backdrop": "The wilderness period as described in the Bible and in Jasher corresponds to a region (the Sinai Peninsula and the Negev) that was indeed sparsely populated in antiquity but not uninhabited. Egyptian records document mining expeditions to Sinai (particularly for turquoise at Serabit el-Khadim), military garrisons, and caravan routes. The Transjordan kingdoms of Sihon (Amorites) and Og (Bashan) are consistent with the archaeological record of settled kingdoms in modern Jordan during the Late Bronze Age. The 'Way of the King's Highway' (Numbers 20:17, 21:22) was a real trade route running through Transjordan, still traceable in the modern landscape.",
 

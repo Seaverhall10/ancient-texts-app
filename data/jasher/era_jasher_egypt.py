@@ -108,7 +108,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "hakkarah",
+                "transliteration": "hakkarah",
+                "meaning": "Recognition -- from nakhar (to recognize); the key moment when Joseph reveals himself to his brothers (Gen 45:1-3); Jasher expands the emotional weight of this recognition scene"
+            },
+            {
+                "term": "mechilah",
+                "transliteration": "mechilah",
+                "meaning": "Forgiveness, pardon -- Joseph's forgiveness of his brothers (Gen 50:19-21); a model of grace that anticipates divine forgiveness; 'You meant it for evil, but God meant it for good'"
+            },
+            {
+                "term": "shever",
+                "transliteration": "shever",
+                "meaning": "Grain (for purchase) -- from the same root as 'breaking' (shavar); the brothers come to Egypt to buy grain (shever), creating the context for reunion; a wordplay on brokenness and provision"
+            },
+            {
+                "term": "Binyamin",
+                "transliteration": "Binyamin",
+                "meaning": "Benjamin, 'son of the right hand' -- the youngest brother whose presence Joseph demands; the test of whether the brothers have changed from the men who sold Joseph"
+            }
+        ],
 
         "ane_backdrop": "The Joseph reunion narrative contains elements found in other ANE recognition stories: the concealed identity, the testing of character, and the dramatic revelation. The most frequently cited parallel is the Odyssey, where Odysseus returns home disguised and tests the loyalty of his household before revealing himself. While direct literary borrowing is unlikely, the pattern of concealed identity, moral testing, and climactic recognition appears to be a widespread narrative type-scene in ancient Mediterranean and Near Eastern literature.",
 
@@ -176,7 +197,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "berakhot",
+                "transliteration": "berakhot",
+                "meaning": "Blessings (plural) -- Jacob's deathbed blessings over the twelve sons (Gen 49); prophetic declarations that shape each tribe's destiny; Jasher adds detail to each blessing's context"
+            },
+            {
+                "term": "Makhpelah",
+                "transliteration": "Makhpelah",
+                "meaning": "The Cave of Machpelah -- the burial site Abraham purchased (Gen 23); Jacob's burial procession to Machpelah becomes a military event in Jasher, with Esau's descendants contesting the burial"
+            },
+            {
+                "term": "neshiyah",
+                "transliteration": "neshiyah",
+                "meaning": "Forgetfulness -- Joseph's brothers fear he will forget his promise to forgive after Jacob's death (Gen 50:15); Jasher expands their anxiety and Joseph's reassurance"
+            },
+            {
+                "term": "shivtei Yisrael",
+                "transliteration": "shivtei Yisrael",
+                "meaning": "Tribes of Israel -- the twelve sons whose blessings define the tribal structure of the nation; Jacob's deathbed scene is the founding charter of Israel as a twelve-tribe confederation"
+            }
+        ],
 
         "ane_backdrop": "Burial disputes over ancestral caves and tombs are well attested in ANE legal texts. In Hittite, Mesopotamian, and later Greco-Roman law, the right of burial in a family tomb was a legally enforceable inheritance right that could be contested by rival claimants. The cave of Machpelah, purchased by Abraham from Ephron the Hittite (Genesis 23), was legally Abraham's property, but the question of which descendants inherited the burial right was not explicitly settled. Jasher's tradition that Esau contested Jacob's right to burial there reflects a genuine legal ambiguity that the midrashic tradition recognized and dramatized.",
 
@@ -231,7 +273,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "shikhchah",
+                "transliteration": "shikhchah",
+                "meaning": "Forgetting -- 'a new king arose who did not know Joseph' (Exod 1:8); the erasure of Joseph's memory from Egyptian consciousness triggers the shift to oppression"
+            },
+            {
+                "term": "avodat perekh",
+                "transliteration": "avodat perekh",
+                "meaning": "Harsh labor, crushing work -- the brutal forced labor imposed on Israel (Exod 1:13-14); perekh implies work designed to break the spirit, not merely extract labor"
+            },
+            {
+                "term": "miskenot",
+                "transliteration": "miskenot",
+                "meaning": "Storage cities -- Pithom and Raamses, built by Israelite slave labor (Exod 1:11); Jasher describes the construction in detail, emphasizing the cruelty of the taskmasters"
+            },
+            {
+                "term": "go'el",
+                "transliteration": "go'el",
+                "meaning": "Redeemer, kinsman-redeemer -- the role God will fill for Israel; from ga'al (to redeem, buy back); the Exodus is fundamentally an act of redemption from slavery"
+            }
+        ],
 
         "ane_backdrop": "The gradual enslavement of a resident alien population has historical parallels in ANE societies. Mesopotamian and Egyptian records document the legal distinction between citizen and resident foreigner (ger in Hebrew), and the progressive erosion of foreigners' rights during periods of political instability or xenophobic sentiment. The corvee labor system described in Exodus 1 (building store-cities Pithom and Raamses) corresponds to known Egyptian construction practices: Ramesses II's building programs are documented as using both Egyptian corvee workers and foreign laborers, including Semitic populations in the Delta region.",
 
@@ -281,7 +344,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "Mosheh",
+                "transliteration": "Mosheh",
+                "meaning": "Moses; from mashah (to draw out) -- 'I drew him out of the water' (Exod 2:10); the deliverer whose name encodes his origin story and foreshadows his role in the Red Sea crossing"
+            },
+            {
+                "term": "tevah",
+                "transliteration": "tevah",
+                "meaning": "Basket/ark -- the same word used for Noah's ark (Gen 6:14); Moses' basket on the Nile connects him typologically to Noah: both are vessels of divine rescue through water"
+            },
+            {
+                "term": "sar",
+                "transliteration": "sar",
+                "meaning": "Prince, official -- Moses raised as an Egyptian prince in Pharaoh's court; Jasher expands his years as a military and political figure before his flight from Egypt"
+            },
+            {
+                "term": "nakhar",
+                "transliteration": "nakhar",
+                "meaning": "To recognize, acknowledge -- Moses sees (ra'ah) the affliction of his brothers and recognizes them as his people; the moment of identity that drives him to act (Exod 2:11)"
+            }
+        ],
 
         "ane_backdrop": "The birth narrative of Moses in Jasher follows the 'endangered deliverer' pattern found across ANE literature. The Sargon of Akkad birth legend (a composite text known from Neo-Assyrian copies but describing a third-millennium king) describes an infant placed in a reed basket on a river and rescued by a water-drawer -- strikingly similar to Moses in the bulrushes (Exodus 2:3-6). Whether the Hebrew tradition borrows from the Sargon legend, vice versa, or both draw on a common motif is debated. Jasher's addition of astrological prediction parallels the Abraham-Nimrod pattern within Jasher itself and the Perseus-Acrisius pattern in Greek mythology, suggesting a widespread 'star-child' type-scene.",
 
@@ -341,7 +425,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "Kush",
+                "transliteration": "Kush",
+                "meaning": "Ethiopia/Cush -- the African kingdom where Moses becomes king and general according to Jasher; this tradition may explain the 'Cushite wife' of Numbers 12:1"
+            },
+            {
+                "term": "ishah kushit",
+                "transliteration": "ishah kushit",
+                "meaning": "Cushite woman -- the wife Moses took in Ethiopia (Num 12:1); Jasher provides the narrative backstory: a queen given to Moses as king of Cush, distinct from Zipporah"
+            },
+            {
+                "term": "gibbor chayil",
+                "transliteration": "gibbor chayil",
+                "meaning": "Mighty warrior, valiant man -- Moses as military commander in Jasher; leading the Cushite army to victory before becoming their king; a dimension of Moses absent from Exodus"
+            },
+            {
+                "term": "mamlakhah",
+                "transliteration": "mamlakhah",
+                "meaning": "Kingdom -- Moses rules a kingdom for forty years before departing for Midian; Jasher presents three phases of Moses' life: Egypt (prince), Cush (king), Midian (shepherd)"
+            }
+        ],
 
         "ane_backdrop": "The tradition of a foreign general becoming king of an African kingdom has parallels in both Egyptian and Kushite history. The 25th Dynasty of Egypt was itself Cushite (Nubian), demonstrating that cross-cultural royal succession between Egypt and Cush occurred historically. The specific military details in Jasher's account -- siege warfare, the use of serpent-infested terrain as a defensive barrier (also found in Josephus) -- reflect genuine knowledge of East African geography and military conditions. The tradition of Moses commanding armies also resonates with the Egyptian military culture in which Moses was raised: an educated member of the royal household would have received military training as a matter of course.",
 
@@ -396,7 +501,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "seneh",
+                "transliteration": "seneh",
+                "meaning": "Burning bush, thornbush -- the site of God's self-revelation to Moses (Exod 3:2); a lowly desert bush that burns without being consumed, symbolizing divine presence in the humble and afflicted"
+            },
+            {
+                "term": "ehyeh asher ehyeh",
+                "transliteration": "ehyeh asher ehyeh",
+                "meaning": "'I AM WHO I AM' or 'I WILL BE WHAT I WILL BE' (Exod 3:14) -- the divine name revealed at the bush; the self-existent, self-defining God who needs no external reference point"
+            },
+            {
+                "term": "shalach",
+                "transliteration": "shalach",
+                "meaning": "To send -- 'Come, I will send you to Pharaoh' (Exod 3:10); Moses' prophetic commissioning; the same verb used for all of God's sent messengers"
+            },
+            {
+                "term": "Midyan",
+                "transliteration": "Midyan",
+                "meaning": "Midian -- the wilderness region where Moses shepherds Jethro's flocks for forty years (Exod 2:15-22); the place of preparation between royal courts and divine mission"
+            }
+        ],
 
         "ane_backdrop": "The theophany at the burning bush has been compared to ANE traditions of divine appearances in natural phenomena. Fire as a medium of divine presence is attested in Mesopotamian, Egyptian, and Canaanite religion. The concept of a location being made holy by divine presence (Exodus 3:5, 'Take off your sandals, for the place where you stand is holy ground') parallels the ANE concept of sacred space (temenos), where the boundary between divine and human realms becomes permeable. The commission pattern -- divine call, human objection, divine reassurance, sign given -- follows a structure also found in Gideon's call (Judges 6) and Isaiah's (Isaiah 6).",
 
@@ -447,7 +573,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "makkot",
+                "transliteration": "makkot",
+                "meaning": "Plagues, strikes, blows -- the ten plagues upon Egypt (Exod 7-12); from nakah (to strike); each plague systematically dismantles an Egyptian deity and Pharaoh's claim to divine authority"
+            },
+            {
+                "term": "ot u-mofet",
+                "transliteration": "ot u-mofet",
+                "meaning": "Sign and wonder -- the paired terms for God's miraculous acts in Egypt (Exod 7:3); 'ot' signifies meaning, 'mofet' signifies power; together they reveal God's character through action"
+            },
+            {
+                "term": "chazaq lev",
+                "transliteration": "chazaq lev",
+                "meaning": "Hardened heart -- Pharaoh's heart is hardened/strengthened (Exod 7:13); the Hebrew uses three different roots (chazaq, kaved, qashah), suggesting a progressive judicial hardening"
+            },
+            {
+                "term": "Pesach",
+                "transliteration": "Pesach",
+                "meaning": "Passover -- from pasach (to pass over, skip); the final plague where the destroyer passes over houses marked with lamb's blood (Exod 12); the foundational redemptive event of Israel"
+            }
+        ],
 
         "ane_backdrop": "The plague narratives have been extensively studied for their relationship to Egyptian natural phenomena and religious theology. Each plague has been interpreted as a polemic against a specific Egyptian deity: the Nile turning to blood attacks Hapi (the Nile god), darkness attacks Ra (the sun god), the death of firstborn attacks Pharaoh himself (considered divine). The magical contest between Moses and the Egyptian magicians reflects the ANE tradition of competitive divination, in which rival practitioners demonstrate their power to determine whose deity is supreme. Egyptian magical texts (particularly from the Ramesside period) describe elaborate magical procedures similar to what the biblical sorcerers attempt.",
 
@@ -517,7 +664,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "yam suph",
+                "transliteration": "yam suph",
+                "meaning": "Sea of Reeds (Red Sea) -- the body of water God divides for Israel's crossing (Exod 13:18, 15:4); suph means 'reeds/rushes'; the crossing is the definitive act of divine deliverance"
+            },
+            {
+                "term": "geulah",
+                "transliteration": "geulah",
+                "meaning": "Redemption -- the Exodus is the paradigmatic act of redemption in the Hebrew Bible; God as go'el (redeemer) buys Israel out of slavery with 'an outstretched arm and mighty hand'"
+            },
+            {
+                "term": "shirah",
+                "transliteration": "shirah",
+                "meaning": "Song -- the Song of the Sea (Exod 15:1-18); Israel's response to deliverance; 'I will sing to the LORD, for He has triumphed gloriously; horse and rider He has thrown into the sea'"
+            },
+            {
+                "term": "yad chazaqah",
+                "transliteration": "yad chazaqah",
+                "meaning": "Mighty hand -- 'the LORD brought us out of Egypt with a mighty hand' (Exod 13:14); the signature phrase for God's power displayed in the Exodus; paired with 'outstretched arm' (zeroa netuyah)"
+            }
+        ],
 
         "ane_backdrop": "The Red Sea crossing is the defining event of Israelite national identity, with no close parallel in other ANE literatures. However, Egyptian sources do contain references to 'the sea of reeds' (yam suf in Hebrew) as a body of water in the eastern Delta region, and the geographic setting of the crossing has been endlessly debated. The 'strong east wind' (Exodus 14:21) that drives back the waters has been investigated from both naturalistic and theological perspectives. Ancient Egyptian texts describe military pursuits of escaping populations (the Papyrus Anastasi records the pursuit of two escaped servants through the Sinai), though none describe a catastrophic water event. The complete destruction of Pharaoh's army in the returning waters is presented in Jasher, as in Exodus, as an act of divine judgment without naturalistic explanation.",
 

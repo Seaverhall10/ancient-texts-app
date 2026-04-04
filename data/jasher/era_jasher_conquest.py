@@ -109,7 +109,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "luchot",
+                "transliteration": "luchot",
+                "meaning": "Tablets -- the two stone tablets inscribed by God's finger (Exod 31:18, 32:15-16); smashed by Moses at the golden calf; rewritten as an act of covenant renewal"
+            },
+            {
+                "term": "egel",
+                "transliteration": "egel",
+                "meaning": "Calf -- the golden calf fashioned by Aaron (Exod 32:4); an Egyptian/Canaanite fertility symbol; Israel's first great apostasy after receiving the covenant"
+            },
+            {
+                "term": "aseret ha-dibrot",
+                "transliteration": "aseret ha-dibrot",
+                "meaning": "Ten Words/Commandments -- literally 'ten utterances' (Exod 34:28); the summary of covenant obligation; the foundation of Israel's legal and moral order"
+            },
+            {
+                "term": "kavod",
+                "transliteration": "kavod",
+                "meaning": "Glory, weight, honor -- the glory of the LORD that descends on Sinai (Exod 24:16-17) and fills the Tabernacle (Exod 40:34); the visible manifestation of God's presence"
+            }
+        ],
 
         "ane_backdrop": "The Sinai theophany has been compared to ANE treaty-making ceremonies. The thunderstorm language (thunder, lightning, thick cloud, trumpet blast) parallels theophanic descriptions in Canaanite literature, where Baal appears as the storm god. However, the content of the revelation -- moral law given by a single God to an entire nation in covenant -- has no ANE parallel. Suzerainty treaties between Hittite great kings and vassal states follow a structure similar to the covenant at Sinai (historical prologue, stipulations, blessings and curses, witnesses, deposit and reading), suggesting that the biblical covenant form draws on or parallels ANE diplomatic convention.",
 
@@ -161,7 +182,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "meraglim",
+                "transliteration": "meraglim",
+                "meaning": "Spies -- the twelve spies sent to Canaan (Num 13:2); their faithless report leads to forty years of wilderness wandering; only Joshua and Caleb enter the promised land"
+            },
+            {
+                "term": "meri",
+                "transliteration": "meri",
+                "meaning": "Rebellion, bitterness -- Israel's repeated rebellion against God in the wilderness (Num 14:9, 20:10); from marah (to be bitter, rebellious); the defining sin of the wilderness generation"
+            },
+            {
+                "term": "Miryam",
+                "transliteration": "Miryam",
+                "meaning": "Miriam -- Moses' sister, a prophetess (Exod 15:20); her death at Kadesh (Num 20:1) marks the end of the first generation; tradition connects her to the miraculous well that sustained Israel"
+            },
+            {
+                "term": "Aharon",
+                "transliteration": "Aharon",
+                "meaning": "Aaron -- Moses' brother, the first high priest; his death on Mount Hor (Num 20:22-29) transfers the priesthood to Eleazar; Jasher describes the mourning period"
+            }
+        ],
 
         "ane_backdrop": "The forty years of wilderness wandering correspond to an entire generation -- a common ANE concept for a period of transition or punishment. In Mesopotamian literature, the gods sometimes decree multi-generational punishments. The specific duration of forty years may also reflect Egyptian military-administrative practice: records describe forty-year cycles in royal annals. The tradition of sending scouts before military operations (the twelve spies) is well attested in ANE military practice, from Mesopotamian royal campaigns to Egyptian reconnaissance of Canaan (documented in texts like the Amarna letters).",
 
@@ -237,7 +279,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "Bil'am",
+                "transliteration": "Bil'am",
+                "meaning": "Balaam -- the pagan diviner hired by Balak to curse Israel (Num 22-24); instead blesses them by divine compulsion; a complex figure who knows YHWH but serves other interests"
+            },
+            {
+                "term": "cherem",
+                "transliteration": "cherem",
+                "meaning": "Devoted to destruction, ban -- the total destruction commanded for Sihon and Og's kingdoms (Num 21:2-3, Deut 2:34); devoted entirely to God as an act of holy war"
+            },
+            {
+                "term": "Og",
+                "transliteration": "Og",
+                "meaning": "Og king of Bashan -- a giant whose iron bed measured 9 by 4 cubits (Deut 3:11); one of the last of the Rephaim (remnant giant clans); his defeat opens the Transjordan for settlement"
+            },
+            {
+                "term": "mot Mosheh",
+                "transliteration": "mot Mosheh",
+                "meaning": "Death of Moses -- Moses dies on Mount Nebo overlooking the promised land (Deut 34:1-5); 'the LORD buried him' (Deut 34:6); Jasher describes the transition of leadership to Joshua"
+            }
+        ],
 
         "ane_backdrop": "The Balaam tradition has received dramatic external confirmation from the Deir Alla inscription (discovered in 1967 in Jordan), a plaster text dating to approximately 840-760 BC that mentions 'Balaam son of Beor' as a 'seer of the gods' who receives a night vision. This is the same Balaam of Numbers 22-24 and Jasher 87, and the inscription confirms that Balaam was a historical figure known in the Transjordan region. The inscription's portrayal of Balaam as a prophet who communicates with the divine assembly ('the gods came to him at night') is consistent with the biblical and Jasher portraits of a man with genuine prophetic gifts who operates outside Israel's covenant framework.",
 
@@ -364,7 +427,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "nachalah",
+                "transliteration": "nachalah",
+                "meaning": "Inheritance, allotted portion -- the tribal territories distributed by Joshua (Josh 13-21); each tribe receives its allotted land as fulfillment of the Abrahamic promise"
+            },
+            {
+                "term": "kibbush",
+                "transliteration": "kibbush",
+                "meaning": "Conquest -- from kavash (to subdue, conquer); the military campaign to take Canaan; Jasher summarizes the northern and southern campaigns and the settlement process"
+            },
+            {
+                "term": "shofetim",
+                "transliteration": "shofetim",
+                "meaning": "Judges -- the leaders who arise after Joshua's death (Judg 2:16-18); Jasher's final chapters bridge the conquest into the Judges period, a time of cyclical apostasy and deliverance"
+            },
+            {
+                "term": "Yehoshua",
+                "transliteration": "Yehoshua",
+                "meaning": "Joshua; 'YHWH saves' or 'YHWH is salvation' -- Moses' successor who leads the conquest of Canaan; his name is the Hebrew form of 'Jesus' (Greek Iesous), connecting the two deliverers"
+            }
+        ],
 
         "ane_backdrop": "The division of conquered territory among tribal groups is well attested in ANE practice. Mesopotamian kings distributed land among their supporters after successful military campaigns, and Hittite treaties included land grants as incentives for loyalty. The Israelite tribal allotment described in Joshua 13-21 follows this general pattern but is distinctive in its theological framing: the land belongs to God, and the tribes are tenants rather than owners (Leviticus 25:23). The transition from unified military command (Joshua) to decentralized tribal governance (the Judges period) has parallels in other ANE societies where centralized authority gave way to regional strongmen after the death of a founding leader.",
 

@@ -28,7 +28,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "bekhorah",
+                "transliteration": "bekhorah",
+                "meaning": "Birthright, firstborn status -- the rights Esau sells to Jacob for stew (Gen 25:31-34); carries both material inheritance (double portion) and spiritual leadership of the family"
+            },
+            {
+                "term": "berakhah",
+                "transliteration": "berakhah",
+                "meaning": "Blessing -- Isaac's blessing stolen by Jacob (Gen 27); in the ancient world a spoken blessing carried binding, prophetic force and could not be revoked"
+            },
+            {
+                "term": "Esav",
+                "transliteration": "Esav",
+                "meaning": "Esau; meaning uncertain, possibly 'hairy' (se'ar) -- the elder twin who despises his birthright; his descendants (Edom) become perpetual adversaries of Israel"
+            },
+            {
+                "term": "Ya'aqov",
+                "transliteration": "Ya'aqov",
+                "meaning": "Jacob; from aqev (heel) -- 'he grasps the heel' (Gen 25:26); also implies 'supplanter'; later renamed Israel (yisra'el, 'he struggles with God')"
+            }
+        ],
 
         "ane_backdrop": "The birthright (bekorah) and blessing (berakhah) were distinct but related concepts in the ancient Near East. The birthright was the firstborn's legal claim to a double portion of the inheritance and family leadership. The blessing was the patriarchal oracle that conferred divine favor and determined the future of the recipients. In Nuzi texts (15th-14th century BC), we find records of birthright transfers between brothers, sometimes for payment -- remarkably paralleling the Genesis 25 sale. The Nuzi tablets also show that oral blessings had binding legal force and could not be retracted once given, explaining Isaac's distress when he discovers Jacob's deception in Genesis 27:33: the blessing, once spoken, cannot be recalled.",
 
@@ -98,7 +119,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "Peniel",
+                "transliteration": "Peniel",
+                "meaning": "Face of God -- 'I have seen God face to face (panim el panim) and my life is preserved' (Gen 32:30); the site of Jacob's wrestling match and transformation into Israel"
+            },
+            {
+                "term": "Yisrael",
+                "transliteration": "Yisrael",
+                "meaning": "Israel; 'he struggles/strives with God' or 'God strives' -- the new name given to Jacob after wrestling the divine being at Peniel (Gen 32:28); the name of the covenant nation"
+            },
+            {
+                "term": "milchamah",
+                "transliteration": "milchamah",
+                "meaning": "War, battle -- Jasher significantly expands the military exploits of Jacob's sons, depicting them as formidable warriors who conquer cities, far beyond what Genesis records"
+            },
+            {
+                "term": "shalom",
+                "transliteration": "shalom",
+                "meaning": "Peace, wholeness, completeness -- Jacob and Esau's reconciliation (Gen 33) is a restoration of shalom; Jacob arrives 'shalem' (whole/at peace) at Shechem (Gen 33:18)"
+            }
+        ],
 
         "ane_backdrop": "The military campaigns described in Jasher 34-36 have no direct parallel in Genesis but reflect the broader ANE context of tribal warfare in Canaan during the second millennium BC. The Amarna Letters (14th century BC) describe a Canaan characterized by small city-states in constant conflict, with alliances forming and dissolving rapidly. The idea that a powerful clan could defeat larger forces through superior tactics and divine aid is consistent with narratives from the period (cf. the Mesha Stele, the Merneptah Stele). Whether Jasher's war narratives preserve genuine ancient traditions about pre-Israelite tribal conflicts or are medieval inventions is debated, but they fill a real narrative gap: Genesis mentions that Jacob's sons were capable of extreme violence (Genesis 34, 49:5-7) but provides little detail about the military consequences.",
 
@@ -167,7 +209,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "Edom",
+                "transliteration": "Edom",
+                "meaning": "Esau's territory and nation; from adom (red) -- referring to the red stew (Gen 25:30); Jasher develops the Edomite genealogy and the Zepho narrative far beyond Genesis 36"
+            },
+            {
+                "term": "toledot",
+                "transliteration": "toledot",
+                "meaning": "Generations, genealogy, account -- the structuring formula of Genesis ('these are the generations of...'); Jasher follows the Edomite toledot into territories and kingdoms not covered in the Bible"
+            },
+            {
+                "term": "Tsepho",
+                "transliteration": "Tsepho",
+                "meaning": "Zepho; Esau's grandson (Gen 36:11, 1 Chr 1:36) -- Jasher develops him into a major character with military campaigns across Africa and into Italy, a tradition unique to Jasher"
+            },
+            {
+                "term": "goy",
+                "transliteration": "goy",
+                "meaning": "Nation, people -- the Edomite and related nations that descend from Esau; Jasher traces the spread of these nations to explain the geopolitics of the biblical world"
+            }
+        ],
 
         "ane_backdrop": "The identification of Esau/Edom with Rome is a major theme in rabbinic literature, dating from at least the 2nd century AD. This identification arose after Rome destroyed the Second Temple (70 AD), and the rabbis drew typological parallels between Edom (Israel's ancient rival) and Rome (Israel's contemporary oppressor). The association may have been reinforced by traditions that Herod the Great, who rebuilt the Temple but was also its political despoiler, was of Edomite (Idumean) ancestry. Jasher's Zepho narrative, in which Esau's grandson becomes king of Kittim (interpreted as Italy/Rome), is a narrative expression of this Edom-Rome typology. It transforms a genealogical footnote in Genesis 36 into a geopolitical saga.",
 
@@ -235,7 +298,33 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "chalom",
+                "transliteration": "chalom",
+                "meaning": "Dream -- Joseph's prophetic dreams (Gen 37:5-10) drive the narrative; dreams as a mode of divine revelation are central to both Genesis and Jasher's Joseph cycle"
+            },
+            {
+                "term": "bor",
+                "transliteration": "bor",
+                "meaning": "Pit, cistern -- the brothers cast Joseph into a pit (Gen 37:24); in Jasher the pit contains serpents and scorpions, heightening the drama and Joseph's miraculous survival"
+            },
+            {
+                "term": "eved",
+                "transliteration": "eved",
+                "meaning": "Servant, slave -- Joseph is sold as a slave (Gen 37:28); his descent from beloved son to slave to prisoner to vizier is the archetypal pattern of divine reversal"
+            },
+            {
+                "term": "Potiphar",
+                "transliteration": "Potiphar",
+                "meaning": "Potiphar; an Egyptian name meaning 'he whom Ra gave' -- the captain of Pharaoh's guard who purchases Joseph (Gen 39:1); Jasher expands the household dynamics and the wife's accusation"
+            },
+            {
+                "term": "mashbir",
+                "transliteration": "mashbir",
+                "meaning": "Provider of grain, sustainer -- Joseph's role in Egypt distributing grain during famine; from shavar (to buy grain); Joseph becomes the sustainer of both Egypt and his own family"
+            }
+        ],
 
         "ane_backdrop": "Joseph's rise from slave to vizier finds plausible parallels in Egyptian history. The 'Tale of Sinuhe' (Middle Kingdom, c. 1875 BC) describes an Egyptian who flees abroad, achieves prominence in a foreign land, and eventually returns to Egypt with honor. The administrative titles and powers described for Joseph -- authority over the grain supply, the pharaoh's signet ring, a chariot, and a new Egyptian name -- are consistent with known Egyptian administrative practices. The 'seven years of plenty and seven years of famine' motif has been connected to documented Nile flood patterns and to a 3rd Dynasty inscription at Sehel Island (the 'Famine Stela') describing seven years of low Nile floods. The motif of a foreign advisor rising to prominence through dream interpretation is attested in Egyptian wisdom literature.",
 
@@ -304,7 +393,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "achim",
+                "transliteration": "achim",
+                "meaning": "Brothers -- the central relational term in the Joseph narrative; the brothers who betrayed Joseph must face him in Egypt; reconciliation restores the broken brotherhood"
+            },
+            {
+                "term": "teshuvah",
+                "transliteration": "teshuvah",
+                "meaning": "Repentance, return -- the brothers' transformation from jealous conspirators to men willing to sacrifice for Benjamin demonstrates genuine teshuvah; Judah's speech (Gen 44:18-34) is its climax"
+            },
+            {
+                "term": "ra'av",
+                "transliteration": "ra'av",
+                "meaning": "Famine -- the severe famine that drives Jacob's sons to Egypt (Gen 42:1-2); the divine mechanism by which Joseph's dreams are fulfilled and the family reunited"
+            },
+            {
+                "term": "Goshen",
+                "transliteration": "Goshen",
+                "meaning": "The fertile region of Egypt where Jacob's family settles (Gen 46:28-34); Jasher describes the settlement in detail, setting the stage for Israel's growth into a nation"
+            }
+        ],
 
         "ane_backdrop": "The practice of foreign peoples migrating to Egypt during famine is well documented in Egyptian records. The 'Report of a Frontier Official' from the time of Merneptah (c. 1213-1203 BC) describes Shasu Bedouin being admitted to Egypt's eastern delta to keep them and their herds alive, closely paralleling the Jacob family's migration. Wall paintings in the tomb of Khnumhotep II at Beni Hasan (c. 1900 BC) depict a group of Asiatics arriving in Egypt, providing visual evidence of Semitic peoples entering Egypt during the Middle Kingdom period. The settlement of Joseph's family in Goshen (the eastern delta region) is consistent with Egyptian practices of settling foreign groups in frontier areas where they could both graze their herds and serve as a buffer against Asiatic incursions.",
 
@@ -374,7 +484,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "avdut",
+                "transliteration": "avdut",
+                "meaning": "Slavery, bondage, servitude -- the Israelites' condition in Egypt after Joseph's death; from eved (servant/slave); the primary condition from which the Exodus delivers"
+            },
+            {
+                "term": "perikhat",
+                "transliteration": "perikhat",
+                "meaning": "Fruitfulness, multiplication -- 'the Israelites were fruitful and multiplied greatly' (Exod 1:7); their explosive growth fulfills the Abrahamic promise but triggers Egyptian fear"
+            },
+            {
+                "term": "sivlot",
+                "transliteration": "sivlot",
+                "meaning": "Burdens, forced labor -- the heavy burdens imposed on Israel (Exod 1:11); from saval (to bear a load); the oppression that precedes the cry to God"
+            },
+            {
+                "term": "melekh chadash",
+                "transliteration": "melekh chadash",
+                "meaning": "New king -- 'a new king arose over Egypt who did not know Joseph' (Exod 1:8); the political shift that transforms Israel's status from honored guests to enslaved population"
+            }
+        ],
 
         "ane_backdrop": "The transition from favored foreign community to enslaved labor force has historical parallels in the ancient Near East. The Hyksos, Semitic peoples who ruled Egypt during the Second Intermediate Period (c. 1650-1550 BC), were eventually expelled by native Egyptian rulers of the 18th Dynasty, and anti-foreign sentiment may have affected other Semitic communities in Egypt. Papyrus documents from the New Kingdom period (particularly Papyrus Leiden 348 and Brooklyn Papyrus 35.1446) mention Asiatic (Semitic) slaves in Egypt, some with Northwest Semitic names. The use of forced labor on royal building projects is extensively documented in Egyptian texts from all periods, lending historical plausibility to the Exodus account of Israelite brick-making.",
 

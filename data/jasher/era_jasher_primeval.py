@@ -33,7 +33,28 @@ CHAPTERS = [
             "translation": "KJV"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "yashar",
+                "transliteration": "yashar",
+                "meaning": "Upright, straight, just -- the root of the book's title Sefer HaYashar ('Book of the Upright'); connotes moral rectitude and straightforward truth (Deut 6:18)"
+            },
+            {
+                "term": "sefer",
+                "transliteration": "sefer",
+                "meaning": "Book, scroll, written document -- from the root s-f-r (to count, recount, write); indicates an authoritative written record, the same word used for Torah scrolls"
+            },
+            {
+                "term": "midrash",
+                "transliteration": "midrash",
+                "meaning": "Inquiry, investigation, exposition -- from darash (to seek, inquire); the genre of rabbinic biblical interpretation that Jasher draws upon and compiles into narrative form"
+            },
+            {
+                "term": "aggadah",
+                "transliteration": "aggadah",
+                "meaning": "Narrative, legend, homiletical teaching -- the non-legal storytelling tradition in rabbinic literature; Jasher is essentially an aggadic retelling of Genesis through Joshua"
+            }
+        ],
 
         "ane_backdrop": "The concept of supplementary historical records alongside canonical scripture was common in the ancient Near East. Mesopotamian scribal culture maintained multiple parallel accounts of the same events -- royal annals, chronicle series, and literary epics could all cover the same period from different angles. The Hebrew Bible itself references numerous lost works: the Book of the Wars of the LORD (Numbers 21:14), the Book of the Acts of Solomon (1 Kings 11:41), the Chronicles of the Kings of Israel and Judah (passim in Kings), and the Book of Jasher. Whether any of these survive in any form is debated. The title 'Jasher' (yashar, 'upright' or 'just') may indicate a collection of poems and narratives about righteous figures, or it may be a generic title for an authoritative historical record. The Septuagint renders it 'Book of the Upright' (to biblion tou euthous).",
 
@@ -110,7 +131,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "nachash",
+                "transliteration": "nachash",
+                "meaning": "Serpent, shining one -- the being who deceives Eve in Eden; from a root meaning to hiss or to shine, suggesting a luminous divine being rather than a mere animal (cf. Ezek 28:13-15)"
+            },
+            {
+                "term": "kotnot or",
+                "transliteration": "kotnot or",
+                "meaning": "Garments of skin (Gen 3:21) -- in Jasher these become a major artifact passed from Adam to Noah to Nimrod, conferring dominion over the animal kingdom"
+            },
+            {
+                "term": "hevel",
+                "transliteration": "hevel",
+                "meaning": "Abel; literally 'breath, vapor, vanity' -- a name foreshadowing his brief life; his righteous offering establishes the pattern of faithful worship"
+            },
+            {
+                "term": "qayin",
+                "transliteration": "qayin",
+                "meaning": "Cain; possibly from qanah (to acquire/possess) -- Eve says 'I have acquired a man with the LORD' (Gen 4:1); his line represents escalating rebellion"
+            }
+        ],
 
         "ane_backdrop": "The motif of twin sisters born with Cain and Abel, whom they respectively marry, addresses the perennial question of where Cain found his wife (Genesis 4:17). This tradition is widespread in Jewish, Christian, and Islamic sources. The idea that Abel's offering was accepted because it was of higher quality (the firstborn and fattest of his flock) while Cain's was rejected because he offered inferior produce is also a common exegetical tradition that addresses the apparent arbitrariness of God's preference in Genesis 4:3-5. The Adamic naming of animals and their initial obedience to humanity echoes Mesopotamian traditions about primordial harmony between humans and nature before a disrupting event.",
 
@@ -192,7 +234,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "chanokh",
+                "transliteration": "chanokh",
+                "meaning": "Enoch; from chanak (to dedicate, train up) -- the righteous sage-king who 'walked with God' (Gen 5:22) and was translated to heaven without dying"
+            },
+            {
+                "term": "halakh",
+                "transliteration": "halakh",
+                "meaning": "To walk -- 'Enoch walked with God' (Gen 5:22); the Hebrew implies continuous, habitual communion, not a single event; same root as halakhah (the way one walks/lives)"
+            },
+            {
+                "term": "laqach",
+                "transliteration": "laqach",
+                "meaning": "To take, receive -- 'God took him' (Gen 5:24); used for Enoch's translation to heaven; same verb used for Elijah's departure (2 Kings 2:3)"
+            },
+            {
+                "term": "melekh",
+                "transliteration": "melekh",
+                "meaning": "King -- Jasher uniquely portrays Enoch as a king who rules over all the sons of men, a pre-flood sage-king paralleling Mesopotamian traditions of Enmeduranki"
+            }
+        ],
 
         "ane_backdrop": "The portrayal of Enoch as a pre-flood sage-king who receives divine wisdom and is taken to heaven has deep roots in Mesopotamian tradition. Scholars have long noted the parallel between Enoch (seventh in the Sethite genealogy) and Enmeduranki (seventh in some versions of the Sumerian King List), the legendary king of Sippar who was initiated into the secrets of heaven and earth by the gods Shamash and Adad. Enmeduranki was the founder of the baru (diviner) priesthood and was said to have been taken into the divine assembly. The Mesopotamian flood hero's ancestor Utuabzu was also said to have ascended to heaven. These parallels suggest that the Enoch tradition, even in its biblical form, reflects awareness of Mesopotamian sage-king mythology, radically reinterpreted within Israelite monotheism.",
 
@@ -266,7 +329,33 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "noach",
+                "transliteration": "noach",
+                "meaning": "Noah; from nacham (to comfort/rest) -- 'this one will comfort us' (Gen 5:29); the righteous remnant who finds grace (chen) in the eyes of the LORD"
+            },
+            {
+                "term": "mabbul",
+                "transliteration": "mabbul",
+                "meaning": "Flood, deluge -- a word used exclusively for Noah's flood in the Hebrew Bible; implies a cosmic, heavenly catastrophe (from the waters above the firmament)"
+            },
+            {
+                "term": "tevah",
+                "transliteration": "tevah",
+                "meaning": "Ark, chest -- used only for Noah's ark and Moses' basket (Exod 2:3); NOT the same word as the Ark of the Covenant (aron); implies a vessel of divine rescue"
+            },
+            {
+                "term": "chen",
+                "transliteration": "chen",
+                "meaning": "Grace, favor -- 'Noah found grace in the eyes of the LORD' (Gen 6:8); the first occurrence of grace in the Bible, given to the one righteous man amid total corruption"
+            },
+            {
+                "term": "tsaddiq",
+                "transliteration": "tsaddiq",
+                "meaning": "Righteous one -- Noah described as 'a righteous man, blameless in his generation' (Gen 6:9); the standard of covenant faithfulness"
+            }
+        ],
 
         "ane_backdrop": "The flood narrative in Jasher, like Genesis itself, has extensive parallels to Mesopotamian flood traditions. The Atrahasis Epic and the flood tablet of the Gilgamesh Epic both describe a divine decision to destroy humanity, the selection of one righteous man to build a boat, the gathering of animals, and the post-flood sacrifice. Jasher's particular addition -- Noah preaching repentance to a mocking world -- does not have a direct Mesopotamian parallel (Utnapishtim in Gilgamesh is told to deceive his neighbors about the boat's purpose) and reflects a distinctly Israelite theological concern: God's judgment is never arbitrary but comes only after repeated warning and opportunity to repent. The 120-year construction period is derived from Genesis 6:3, which Jasher interprets as the time allotted for repentance.",
 
@@ -358,7 +447,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "nimrod",
+                "transliteration": "nimrod",
+                "meaning": "Nimrod; possibly from marad (to rebel) -- 'a mighty hunter before the LORD' (Gen 10:8-9); Jasher presents him as the archetypal tyrant who usurps divine authority"
+            },
+            {
+                "term": "gibbor",
+                "transliteration": "gibbor",
+                "meaning": "Mighty one, warrior, hero -- applied to Nimrod (Gen 10:8); the same word describes the Nephilim (Gen 6:4); implies superhuman power or dominance"
+            },
+            {
+                "term": "tsayid",
+                "transliteration": "tsayid",
+                "meaning": "Hunter, hunting -- Nimrod was 'a mighty hunter before the LORD'; Jasher explains this through the garments of Adam that gave him power over animals"
+            },
+            {
+                "term": "mamshelet",
+                "transliteration": "mamshelet",
+                "meaning": "Dominion, rule, authority -- the garments of Adam conferred dominion over the animal kingdom; Nimrod's possession of them is the source of his tyrannical power in Jasher"
+            }
+        ],
 
         "ane_backdrop": "The tradition of a powerful garment that confers authority on its wearer has deep ANE roots. In Mesopotamian literature, divine garments (melammu) radiate supernatural splendor and power; kings received their authority symbolically through investiture with divine garments. The Sumerian myth of Inanna's Descent describes the goddess's progressive loss of power as she is stripped of her garments at each gate of the underworld. In the Hebrew Bible itself, garments carry authority: the priestly vestments (Exodus 28) confer the right to minister before God, Elijah's mantle carries prophetic power (2 Kings 2:13-14), and Joseph's coat distinguishes him from his brothers. Jasher's Adam-garments tradition fits within this broader ANE and biblical pattern of garments as vehicles of divinely conferred power.",
 
@@ -425,7 +535,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "migdal",
+                "transliteration": "migdal",
+                "meaning": "Tower -- the Tower of Babel (migdal Bavel); from gadal (to be great); the builders' attempt to 'make a name' and reach heaven represents rebellion against divine order"
+            },
+            {
+                "term": "balal",
+                "transliteration": "balal",
+                "meaning": "To confuse, confound, mix -- the root behind 'Babel' (Gen 11:9); God confused (balal) their language; a wordplay on Babylon (Bab-ili, 'gate of god')"
+            },
+            {
+                "term": "saphah",
+                "transliteration": "saphah",
+                "meaning": "Language, lip, speech -- 'the whole earth had one language (saphah) and the same words' (Gen 11:1); the division of languages is the mechanism of the Babel judgment"
+            },
+            {
+                "term": "puts",
+                "transliteration": "puts",
+                "meaning": "To scatter, disperse -- 'the LORD scattered them abroad over the face of all the earth' (Gen 11:8); the scattering at Babel is reversed at Pentecost (Acts 2)"
+            }
+        ],
 
         "ane_backdrop": "The physical description of the tower in Jasher aligns with what is known about Mesopotamian ziggurats, particularly the great ziggurat of Babylon (Etemenanki, 'temple of the foundation of heaven and earth'). Archaeological evidence shows that Etemenanki was a massive stepped pyramid approximately 91 meters tall, rebuilt multiple times over centuries. The tradition of a great building project involving bricks and bitumen matches Genesis 11:3 and is archaeologically accurate for Mesopotamian construction. The detail about bricks being valued more than human life is unique to Jasher and may reflect knowledge of the brutal labor conditions associated with ancient Near Eastern monumental construction. Herodotus (Histories 1.178-183) described the great works of Babylon and the forced labor used to construct them.",
 
@@ -499,7 +630,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "avodah zarah",
+                "transliteration": "avodah zarah",
+                "meaning": "Strange worship, idolatry -- the worship of false gods that dominates the post-Babel world in Jasher; the backdrop against which Abram's monotheism emerges"
+            },
+            {
+                "term": "teraphim",
+                "transliteration": "teraphim",
+                "meaning": "Household idols, divine images -- the idols Terah makes and sells; associated with divination and false worship throughout the Hebrew Bible (Gen 31:19, Judg 17:5)"
+            },
+            {
+                "term": "Avram",
+                "transliteration": "Avram",
+                "meaning": "Exalted father -- Abram's birth name before the covenant renaming to Abraham (av hamon, 'father of a multitude', Gen 17:5); born into an idolatrous household"
+            },
+            {
+                "term": "Terach",
+                "transliteration": "Terach",
+                "meaning": "Terah; Abram's father, an idol-maker in Ur of the Chaldeans; Jasher expands his role as both craftsman of idols and reluctant father who reports his son to Nimrod"
+            }
+        ],
 
         "ane_backdrop": "The motif of a threatened birth -- a king seeks to destroy a child destined to supplant him -- is one of the most widespread narrative patterns in the ancient Near East and classical world. The Sargon of Akkad birth legend describes the great king being placed in a basket on the river by his mother and found by a water-drawer, paralleling Moses. The Neo-Assyrian text about the birth of the god Marduk describes celestial portents accompanying the deity's birth. The Greek myths of Perseus and Oedipus involve kings attempting to prevent the birth or survival of destined heroes. Jasher's narrative of Nimrod seeking to kill the infant Abram fits squarely within this ANE 'endangered hero' pattern, suggesting either the compiler's awareness of such traditions or the independent development of a common narrative archetype.",
 

@@ -30,7 +30,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "pesel",
+                "transliteration": "pesel",
+                "meaning": "Idol, graven image -- from pasal (to hew, carve); Abram smashes his father's idols in one of the most celebrated traditions in Jewish literature, a scene absent from Genesis"
+            },
+            {
+                "term": "elil",
+                "transliteration": "elil",
+                "meaning": "Worthless thing, idol -- a contemptuous term for false gods, possibly a diminutive of el (god); the prophets use it to mock idols as 'nothings' (Isa 2:8, Hab 2:18)"
+            },
+            {
+                "term": "emunah",
+                "transliteration": "emunah",
+                "meaning": "Faithfulness, steadfastness, belief -- Abram's refusal to worship idols demonstrates emunah in the one true God; the same root appears in 'Abraham believed (he'emin) the LORD' (Gen 15:6)"
+            },
+            {
+                "term": "Ur Kasdim",
+                "transliteration": "Ur Kasdim",
+                "meaning": "Ur of the Chaldeans -- Abraham's birthplace (Gen 11:31); in rabbinic tradition, 'Ur' is also connected to or (fire), linking it to the furnace of Nimrod narrative in Jasher"
+            }
+        ],
 
         "ane_backdrop": "Iconoclasm -- the destruction of cult images -- was a serious crime in the ancient Near East. Temple images were not merely decorative but were understood as the physical dwelling places of the gods, animated through mouth-washing (mis pi) and mouth-opening (pit pi) rituals. To destroy an idol was to attack the deity it housed and to commit both sacrilege and political rebellion, since temple cults were integrated into the state apparatus. The Babylonian Chronicles record that Nabonidus's removal of cult statues from provincial temples to Babylon was considered an act of impiety that contributed to the fall of the Neo-Babylonian Empire. In this context, Abram's idol-smashing is not juvenile pranking but an act of radical theological terrorism -- a one-man assault on the religious foundations of Mesopotamian civilization.",
 
@@ -126,7 +147,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "kivshan ha-esh",
+                "transliteration": "kivshan ha-esh",
+                "meaning": "Furnace of fire -- the fiery furnace into which Nimrod casts Abram for refusing idolatry; parallels Daniel 3 (Nebuchadnezzar's furnace); connected to 'Ur' (fire) of the Chaldeans"
+            },
+            {
+                "term": "esh",
+                "transliteration": "esh",
+                "meaning": "Fire -- central to the furnace narrative; Nimrod demands Abram worship fire; Abram argues that water extinguishes fire, exposing the absurdity of worshipping created elements"
+            },
+            {
+                "term": "hatzalah",
+                "transliteration": "hatzalah",
+                "meaning": "Deliverance, rescue -- God delivers Abram from the furnace, establishing the pattern of divine rescue for the faithful; same root as in the Exodus deliverance"
+            },
+            {
+                "term": "Haran",
+                "transliteration": "Haran",
+                "meaning": "Abram's brother who dies in the furnace according to Jasher; his death (for hesitating between God and Nimrod) contrasts with Abram's faithful survival"
+            }
+        ],
 
         "ane_backdrop": "Death by fire was an attested punishment in the ancient Near East, though it was not the most common form of execution. Hammurabi's Code (Laws 25, 110) prescribes burning for specific offenses. The practice of casting people into furnaces or kilns appears in various Mesopotamian contexts. The city name 'Ur' (Hebrew 'Ur Kasdim,' 'Ur of the Chaldees') was connected in rabbinic tradition to the word 'or/ur' meaning 'fire' or 'light,' leading to the interpretation that 'Ur of the Chaldees' meant 'fire of the Chaldees' -- i.e., the furnace into which Abram was cast. This folk etymology is linguistically incorrect (Ur is a proper Sumerian place name) but theologically creative, reading Abram's origin story as inseparable from his trial by fire.",
 
@@ -200,7 +242,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "berit",
+                "transliteration": "berit",
+                "meaning": "Covenant -- the foundational relationship structure between God and Abraham (Gen 15, 17); a binding agreement involving promises, obligations, and covenant signs"
+            },
+            {
+                "term": "eretz",
+                "transliteration": "eretz",
+                "meaning": "Land, earth -- the promised land of Canaan; 'To your offspring I will give this land' (Gen 12:7); the territorial dimension of the Abrahamic covenant"
+            },
+            {
+                "term": "milchamah",
+                "transliteration": "milchamah",
+                "meaning": "War, battle -- the War of the Kings (Gen 14) where Abram defeats the coalition that captured Lot; demonstrates Abram as both man of faith and capable warrior"
+            },
+            {
+                "term": "Malki-Tsedeq",
+                "transliteration": "Malki-Tsedeq",
+                "meaning": "Melchizedek, 'my king is righteousness' -- the priest-king of Salem who blesses Abram (Gen 14:18-20); a Melchizedekian priesthood that precedes and supersedes the Levitical order (Heb 7)"
+            }
+        ],
 
         "ane_backdrop": "The War of the Kings in Genesis 14 has long fascinated scholars because of its unique style and specific naming of eastern kings. Chedorlaomer is plausibly an Elamite royal name (Kutir-Lagamar), and Amraphel has been variously identified with Hammurabi of Babylon or another Mesopotamian ruler, though no identification is certain. The campaign described -- a punitive expedition from Mesopotamia into the Jordan Valley to reassert suzerainty over vassal kings -- is entirely plausible within the geopolitics of the early second millennium BC. Coalition warfare between city-states and the extraction of tribute from vassals are abundantly documented in texts from Mari, Ebla, and later Amarna. Jasher's expansion of the military details reflects awareness of these geopolitical patterns, whether from ancient tradition or educated medieval reconstruction.",
 
@@ -270,7 +333,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "Sedom",
+                "transliteration": "Sedom",
+                "meaning": "Sodom -- the city destroyed for its extreme wickedness; Jasher expands the specific sins far beyond Genesis, detailing cruelty to strangers, perversion of justice, and systemic oppression"
+            },
+            {
+                "term": "tseaqah",
+                "transliteration": "tseaqah",
+                "meaning": "Outcry, cry of distress -- 'the outcry against Sodom and Gomorrah is great' (Gen 18:20-21); the cry of the oppressed that reaches God and triggers judgment"
+            },
+            {
+                "term": "mishpat",
+                "transliteration": "mishpat",
+                "meaning": "Justice, judgment -- 'Shall not the Judge of all the earth do justice?' (Gen 18:25); Abraham's intercession for Sodom raises the question of divine justice and mercy"
+            },
+            {
+                "term": "haphakhah",
+                "transliteration": "haphakhah",
+                "meaning": "Overthrow, overturning -- the specific term for Sodom's destruction (Gen 19:29); not mere burning but a total cosmic inversion of the created order"
+            }
+        ],
 
         "ane_backdrop": "The destruction of cities by divine fire is a theme attested in multiple ANE traditions. The geological Jordan Rift Valley, where Sodom is traditionally located, is seismically active and contains natural deposits of bitumen and sulfur -- materials that could produce a catastrophic fire event during an earthquake. Some scholars have proposed that a cosmic airburst event (similar to the Tunguska event) may underlie the Sodom tradition, based on archaeological evidence from Tell el-Hammam of a massive destruction event around 1650 BC. The institutionalized injustice described in Jasher's Sodom traditions has parallels in ancient legal satires: several Mesopotamian literary texts describe corrupt cities where laws serve the powerful and oppress the weak, representing a recognizable critique of urban civilization gone wrong.",
 
@@ -339,7 +423,33 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "Aqedah",
+                "transliteration": "Aqedah",
+                "meaning": "The Binding -- from aqad (to bind); the binding of Isaac (Gen 22) is the supreme test of Abraham's faith and a foundational event in Jewish theology; Jasher expands the dialogue and emotional weight"
+            },
+            {
+                "term": "olah",
+                "transliteration": "olah",
+                "meaning": "Burnt offering, ascending offering -- from alah (to go up); the type of sacrifice God commands for Isaac; the smoke ascends entirely to God, symbolizing total dedication"
+            },
+            {
+                "term": "yirah",
+                "transliteration": "yirah",
+                "meaning": "Fear, awe, reverence -- 'Now I know that you fear (yare) God' (Gen 22:12); the Aqedah demonstrates the highest form of yirat Hashem (fear of the Lord)"
+            },
+            {
+                "term": "Moriyyah",
+                "transliteration": "Moriyyah",
+                "meaning": "Mount Moriah -- the site of Isaac's binding (Gen 22:2); later identified with the Temple Mount in Jerusalem (2 Chr 3:1); from ra'ah (to see) -- 'the LORD will provide/see'"
+            },
+            {
+                "term": "ayil",
+                "transliteration": "ayil",
+                "meaning": "Ram -- the ram caught in the thicket that becomes the substitute sacrifice (Gen 22:13); a type of the substitutionary atonement that culminates in Christ"
+            }
+        ],
 
         "ane_backdrop": "Child sacrifice was practiced in the ancient Near East, particularly in the Phoenician and Carthaginian cult of Molech/MLK, where children (especially firstborn sons) were offered to the deity by immolation. The Hebrew Bible repeatedly condemns this practice (Leviticus 18:21, 20:2-5; Deuteronomy 12:31; 2 Kings 23:10; Jeremiah 32:35). The Akedah narrative functions in part as a divine repudiation of child sacrifice: God tests Abraham's willingness but ultimately provides a ram as substitute, establishing the principle of substitutionary sacrifice that will undergird the entire Israelite sacrificial system. Some scholars see in the Akedah a polemic against Canaanite child sacrifice: Israel's God demands total devotion but not the destruction of children.",
 
@@ -414,7 +524,28 @@ CHAPTERS = [
             "translation": "1840 Translation"
         },
 
-        "hebrew_terms": [],
+        "hebrew_terms": [
+            {
+                "term": "shiddukhin",
+                "transliteration": "shiddukhin",
+                "meaning": "Marriage arrangement -- the search for Isaac's wife (Gen 24); the servant's mission to find Rebekah establishes the pattern of divinely guided marriage in the patriarchal narratives"
+            },
+            {
+                "term": "chesed",
+                "transliteration": "chesed",
+                "meaning": "Loyal love, covenant faithfulness, lovingkindness -- the servant prays for God's chesed in guiding him to the right woman (Gen 24:12); the relational glue of covenant"
+            },
+            {
+                "term": "Qeturah",
+                "transliteration": "Qeturah",
+                "meaning": "Keturah; from qetoret (incense) -- Abraham's wife after Sarah's death (Gen 25:1); her sons become the ancestors of Arabian peoples, extending Abraham's influence beyond the covenant line"
+            },
+            {
+                "term": "qevurah",
+                "transliteration": "qevurah",
+                "meaning": "Burial -- Abraham's burial at Machpelah (Gen 25:9-10); the purchase of the cave (Gen 23) establishes the first legal land claim in Canaan, a down payment on the promise"
+            }
+        ],
 
         "ane_backdrop": "Marriage negotiations in the ancient Near East were complex legal transactions involving the transfer of bride-price (mohar) from the groom's family to the bride's family, the establishment of dowry, and often elaborate diplomatic protocols when the families were of different clans or regions. The Genesis 24 narrative -- with Abraham's servant traveling to Aram-Naharaim, meeting Rebekah at the well, negotiating with Laban and Bethuel, and returning with the bride -- reflects these customs accurately. The well-meeting motif is a recognized biblical type-scene (cf. Jacob and Rachel in Genesis 29, Moses and Zipporah in Exodus 2), and Jasher's expansion of the scene shows awareness of its literary significance.",
 

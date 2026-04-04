@@ -8,7 +8,7 @@
 ### Core App — Two Versions
 - [x] **PC Version**: Single-file HTML app (`build.py → output/AncientTextsStudy.html`, ~68 MB dev / ~65.5 MB release)
 - [x] **Mobile Version**: Progressive Web App (`build_mobile.py → output/mobile/`, 0.7 MB shell + on-demand data)
-- [x] Both versions contain identical content (105 texts, all interlinear, all features)
+- [x] Both versions contain identical content (109 texts, all interlinear, all features)
 - [x] **Electron desktop app** (Windows installer, `electron/` folder)
 - [x] Release system packages both into `PC/` + `Mobile/` folders with launchers
 
@@ -22,7 +22,7 @@
 - [x] Release ZIP: ~40 MB (includes both PC + Mobile)
 
 ### Content (105 texts total)
-- [x] **105 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 2 Historical + 12 Thematic + 3 Research Lenses + 16 extra-biblical)
+- [x] **109 texts** in manifest (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 2 Historical + 12 Thematic + 4 Study Trails + 3 Research Lenses + 16 extra-biblical)
 - [x] **320 era files** (study chapter groupings)
 - [x] **1,246 study chapters** across all texts
 - [x] CONTENT_MAP.json — master AI navigation index (auto-rebuilt on every build)
@@ -107,10 +107,10 @@ DSS Sectarian, Josephus, Heavenly Court
 
 ### TIER 2 — Study Trails
 **Existing trails needing conversion (old step-by-step → article format):**
-6. **Covenant Arc** — still old step-by-step format, needs article conversion
-7. **Adam to Jesus** — still old step-by-step format
-8. **Cosmic Geography** — still old step-by-step format
-9. **Dead Sea Scrolls Connection** — still old step-by-step format
+6. ~~**Covenant Arc** — still old step-by-step format, needs article conversion~~ — DONE, converted to 8-chapter article format
+7. ~~**Adam to Jesus** — still old step-by-step format~~ — DONE, converted to 8-chapter article format
+8. ~~**Cosmic Geography** — still old step-by-step format~~ — DONE, converted to 8-chapter article format
+9. ~~**Dead Sea Scrolls Connection** — still old step-by-step format~~ — DONE, converted to 8-chapter article format
 
 **NEW trails proposed (from Seaver's Theological Law document):**
 10. **The Continuous Tradition** — 7 chapters: throne room across Ezek/1 Enoch/Daniel/Rev, Son of Man thread, Watchers, archangels, cosmic geography, Azazel proof case, canon history
@@ -138,9 +138,9 @@ DSS Sectarian, Josephus, Heavenly Court
 
 | Metric | Value |
 |--------|-------|
-| Total texts | **105** |
-| Total era files | **320** |
-| Study chapters | **1,246** |
+| Total texts | **109** |
+| Total era files | **332** |
+| Study chapters | **1,278** |
 | Flow translations | **66/102 texts** (all 39 OT + all 27 NT + extra-biblical) |
 | Flow files | **111** |
 | Flow verses | **42,373** |
@@ -162,11 +162,18 @@ DSS Sectarian, Josephus, Heavenly Court
 | Release ZIP | ~40 MB (PC + Mobile) |
 | Current version | **3.3.0** |
 | Audit modules | **12** |
-| Audit baseline (2026-04-03) | **0 critical**, 562 passed |
+| Audit baseline (2026-04-03) | **0 critical**, 578 passed |
 
 ---
 
 ## RECENT CHANGES
+
+### Continuous Improvements (2026-04-03, continued)
+- **All 4 study trails converted** from step-by-step to full article format:
+  - Covenant Arc (8 chapters: Eden → Noahic → Abrahamic → Mosaic → Davidic → Exile → New Covenant → New Creation)
+  - Adam to Jesus: The Bloodline (8 chapters: Adam/Seth → Noah/Shem → Abraham/Jacob → Judah/Tamar → David → Exile → Two Genealogies → Seed Fulfilled)
+  - Cosmic Geography (8 chapters: Three-Tier Cosmos → Sacred Mountains → Eden as Temple → Deut 32 Worldview → Holy vs Unholy Ground → Temple as Cosmos → Christ Reclaims → Heaven & Earth Reunited)
+  - Dead Sea Scrolls Connection (8 chapters: Discovery → Deut 32:8 → Biblical Scrolls → Two Spirits → 1 Enoch/Jubilees → 11QMelchizedek → World Jesus Inherited → Why DSS Matter)
 
 ### Continuous Improvements (2026-04-03)
 - **63 missing key_verse fields filled** across 32 era files — zero missing key_verses remaining
