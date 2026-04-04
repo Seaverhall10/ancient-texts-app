@@ -965,6 +965,28 @@
       "description": "From Eden to the New Covenant — each covenant builds on the last, tracing God's progressive plan of redemption through blood, oath, and promise"
     },
     {
+      "id": "adam_to_jesus",
+      "name": "Adam to Jesus: The Bloodline",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 8,
+      "color": "#7a5c3a",
+      "data_dir": "adam_to_jesus",
+      "interlinear": null,
+      "description": "Trace the genealogical seed line from Adam through Seth, Noah, Abraham, Judah, David, and the exile to Jesus — every link in the chain of Genesis 3:15"
+    },
+    {
+      "id": "cosmic_geography",
+      "name": "Cosmic Geography",
+      "category": "thematic",
+      "language": "multi",
+      "chapters": 8,
+      "color": "#2d9a8f",
+      "data_dir": "cosmic_geography",
+      "interlinear": null,
+      "description": "The Bible's three-tier cosmos — heaven, earth, underworld — and how spiritual territory maps onto physical geography through the divine council framework"
+    },
+    {
       "id": "islam_quran",
       "name": "Islam & the Quran",
       "category": "thematic",
@@ -6359,6 +6381,66 @@
       "icon": "III",
       "data_file": "era_covenant_new",
       "themes": ["Jeremiah 31", "New covenant", "Diatheke", "Cup of blood", "Hebrews 8-10"]
+    },
+    {
+      "id": "adam_jesus_patriarchs",
+      "text": "adam_to_jesus",
+      "name": "Part I: Adam to Abraham — The Appointed Seed",
+      "chapters": "Chapters 1–3",
+      "color": "#7a5c3a",
+      "icon": "I",
+      "data_file": "era_adam_patriarchs",
+      "themes": ["Genesis 3:15", "Seth line", "Name gospel", "Flood", "Shem", "Election", "Reversal"]
+    },
+    {
+      "id": "adam_jesus_kings",
+      "text": "adam_to_jesus",
+      "name": "Part II: Judah to David — The Royal Seed Line",
+      "chapters": "Chapters 4–6",
+      "color": "#7a5c3a",
+      "icon": "II",
+      "data_file": "era_adam_kings",
+      "themes": ["Judah scepter", "Tamar", "Ruth", "David", "Davidic covenant", "Exile", "Jehoiachin curse"]
+    },
+    {
+      "id": "adam_jesus_messiah",
+      "text": "adam_to_jesus",
+      "name": "Part III: Exile to Christ — The Seed Fulfilled",
+      "chapters": "Chapters 7–8",
+      "color": "#7a5c3a",
+      "icon": "III",
+      "data_file": "era_adam_messiah",
+      "themes": ["Matthew genealogy", "Luke genealogy", "Virgin birth", "Gematria", "Galatians 3:16", "Root and descendant"]
+    },
+    {
+      "id": "cosmic_geo_structure",
+      "text": "cosmic_geography",
+      "name": "Part I: The Cosmic Architecture",
+      "chapters": "Chapters 1–3",
+      "color": "#2d9a8f",
+      "icon": "I",
+      "data_file": "era_cosmic_structure",
+      "themes": ["Three-tier cosmos", "Shamayim", "Tehom", "Raqia", "Sacred mountains", "Sinai", "Zion", "Hermon", "Bashan", "Eden as temple"]
+    },
+    {
+      "id": "cosmic_geo_territory",
+      "text": "cosmic_geography",
+      "name": "Part II: Spiritual Territory",
+      "chapters": "Chapters 4–6",
+      "color": "#2d9a8f",
+      "icon": "II",
+      "data_file": "era_cosmic_territory",
+      "themes": ["Deuteronomy 32:8", "Sons of God", "Babel", "Territorial princes", "Nephilim territory", "Conquest", "Azazel", "Temple as cosmos"]
+    },
+    {
+      "id": "cosmic_geo_reunion",
+      "text": "cosmic_geography",
+      "name": "Part III: Heaven and Earth Reunited",
+      "chapters": "Chapters 7–8",
+      "color": "#2d9a8f",
+      "icon": "III",
+      "data_file": "era_cosmic_reunion",
+      "themes": ["Cross as cosmic event", "Colossians 1:20", "Ascension", "Ekklesia mission", "New Jerusalem", "Tree of life", "No more sea", "Eden restored"]
     },
     {
       "id": "joel_cosmic",
