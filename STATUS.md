@@ -361,7 +361,7 @@ DSS Sectarian, Josephus, Heavenly Court
 | `DEPLOY.bat` | One-click: build all → commit → push → deploy gh-pages |
 | `LAUNCH.bat` | Main menu launcher (8 options) |
 | `release.py` | Package versioned release ZIP (PC + Mobile) |
-| `manifest.json` | Master text/era registry (80 texts, 246 eras) |
+| `manifest.json` | Master text/era registry (109 texts, 332 eras) |
 | `CONTENT_MAP.json` | AI navigation index (auto-built) |
 | `pipeline/bible_bound.py` | HAI system prompt builder |
 | `policy/linguistics.yaml` | Ancient linguistics reference data |

@@ -12,11 +12,11 @@
 A deep scripture study application with original-language interlinear, cross-references, divine council theology, and Second Temple Jewish context. Built as a single-page app from Python data files.
 
 **By the numbers:**
-- 80 texts (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 1 Historical + 4 Thematic + 3 Study)
-- 246 study eras, 1,059 chapters
+- 109 texts (39 OT + 27 NT + 5 DSS/Second Temple + 1 Pseudepigrapha + 2 Historical + 12 Thematic + 4 Study Trails + 3 Research Lenses + 16 extra-biblical)
+- 332 study eras, 1,278 chapters
 - 444,339 interlinear words (Hebrew + Greek)
-- 31,101 flow verse translations
-- 6,990 cross-references
+- 42,373 flow verse translations
+- 8,529 cross-references
 - 607 glossary terms
 - 52 world religions in Bible Truth Matrix
 
@@ -34,7 +34,7 @@ ANCIENT_TEXTS Study App/
 ├── build.py                 # Desktop build (dev + release)
 ├── build_mobile.py          # Mobile PWA build
 ├── release.py               # Package releases (PC + Mobile ZIP)
-├── manifest.json            # Master text manifest (80 texts, 246 eras)
+├── manifest.json            # Master text manifest (109 texts, 332 eras)
 ├── CONTENT_MAP.json         # Auto-generated content index (cross-refs, gaps)
 ├── requirements.txt         # Python dependencies
 ├── VERSION                  # Semver version string
@@ -50,7 +50,7 @@ ANCIENT_TEXTS Study App/
 ├── .gitignore               # Git exclusions
 │
 ├── src/                     # ── SOURCE CODE ──────────────────────────
-│   ├── css/                 # Component CSS files (45 files)
+│   ├── css/                 # Component CSS files (50 files)
 │   │   ├── build-order.txt  #   Concatenation order for build
 │   │   ├── _tokens.css      #   Design tokens (:root custom properties)
 │   │   ├── _reset.css       #   CSS reset + base typography
@@ -62,11 +62,11 @@ ANCIENT_TEXTS Study App/
 │   │   ├── mobile.css       #   Mobile PWA overrides + bottom nav
 │   │   ├── reading-modes.css#   Scripture / Study / Interlinear toggle
 │   │   ├── matrix.css       #   Bible Truth Matrix styles
-│   │   ├── ...              #   (34 more component files)
+│   │   ├── ...              #   (39 more component files)
 │   │   └── styles.css       #   Legacy monolith (fallback only)
 │   │
 │   └── js/                  # JavaScript source
-│       ├── app.js           #   Main application (7,907 lines — Phase 2 split planned)
+│       ├── app.js           #   Main application (13,691 lines — Phase 2 split planned)
 │       └── state.js         #   State management module (ready for Phase 2)
 │
 ├── data/                    # ── CONTENT DATA ─────────────────────────
@@ -81,18 +81,26 @@ ANCIENT_TEXTS Study App/
 │   ├── glossary.py          #   567 theological glossary terms
 │   ├── resources.py         #   Study resources library
 │   │
-│   ├── genesis/             #   Per-text folders (77 total):
+│   ├── genesis/             #   Per-text folders (112 total):
 │   │   ├── info.py          #     Text metadata
 │   │   ├── era_*.py         #     Study eras (thematic chapters)
 │   │   ├── interlinear.py   #     Hebrew/Greek interlinear data
 │   │   └── flow.py          #     Verse-by-verse flow translations
 │   ├── exodus/              #   Same pattern for all texts
 │   ├── parables_invitation/ #   Thematic deep dives (Jesus & the Gentiles)
+│   ├── nephilim_narrative/  #   Nephilim Story (7ch, evidence tiers)
+│   ├── islam_quran/         #   Research Lens: Islam & the Quran (7ch)
+│   ├── rabbinic_judaism/    #   Research Lens: Rabbinic Judaism (7ch)
+│   ├── catholicism/         #   Research Lens: Catholicism (8ch)
+│   ├── covenant_arc/        #   Study Trail: Covenant Arc (8ch)
+│   ├── adam_to_jesus/       #   Study Trail: Adam to Jesus (8ch)
+│   ├── cosmic_geography/    #   Study Trail: Cosmic Geography (8ch)
+│   ├── dss_connection/      #   Study Trail: DSS Connection (8ch)
 │   ├── ...                  #   (+ enoch1, jubilees, jasher, etc.)
 │   └── flow/                #   Combined flow files (one per book)
 │       └── flow_*.py        #     e.g. flow_genesis.py, flow_romans.py
 │
-├── agents/                  # ── BUILDER'S COUNCIL (5 AI Agents) ──────
+├── agents/                  # ── BUILDER'S COUNCIL (7 AI Agents) ──────
 │   ├── oracle.py            #   Planning & priorities
 │   ├── scribe.py            #   Content generation
 │   ├── arbiter.py           #   Theological accuracy
@@ -183,11 +191,11 @@ LAUNCH.bat                       # Interactive menu (build, run, HAI, council)
 ## Architecture Notes
 
 - **Build system:** Python scripts that concatenate CSS/JS source files and inject data via string replacement into HTML templates
-- **CSS:** 45 component files in `src/css/`, concatenated in order defined by `build-order.txt`
-- **JS:** Currently monolithic `app.js` (7,907 lines — Phase 2 will split into ~25 modules)
+- **CSS:** 50 component files in `src/css/`, concatenated in order defined by `build-order.txt`
+- **JS:** Currently monolithic `app.js` (13,691 lines — Phase 2 will split into ~25 modules)
 - **State:** `state.js` module created (AppState + Storage wrapper), to be wired in Phase 2
 - **Data:** Python files in `data/` folders export dicts/lists; build.py imports them dynamically
 - **Mobile:** PWA with service worker; 0.7 MB shell loads data JSON files on demand
 - **Desktop:** Single self-contained HTML file with all data embedded
 - **HAI:** Ollama-powered local AI chat (dev builds only, stripped from release/mobile)
-- **Council:** 5 AI agents for content generation, QA, and theological review (run independently)
+- **Council:** 7 AI agents for content generation, QA, and theological review (run independently)

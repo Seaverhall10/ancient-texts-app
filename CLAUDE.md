@@ -13,11 +13,11 @@
 
 ## WHAT THIS IS
 Two-target study app (Desktop + Mobile PWA) built from Python data files:
-- **80 texts** (39 OT + 27 NT + 5 DSS + 1 Pseudepigrapha + 1 Historical + 4 Thematic + 3 Study)
-- **246 study eras**, 1,059 chapters
+- **109 texts** (39 OT + 27 NT + 5 DSS + 1 Pseudepigrapha + 2 Historical + 12 Thematic + 4 Study Trails + 3 Research Lenses + 16 extra-biblical)
+- **332 study eras**, 1,278 chapters
 - **444,339 interlinear words** (Hebrew + Greek, click-to-popup)
 - **31,101 flow verse translations**, 9,497 scholarly notes
-- **6,990 cross-references**, 607 glossary terms
+- **8,529 cross-references**, 607 glossary terms
 - **52+ world religions** in Bible Truth Matrix
 - **24 map journey routes**, 206 waypoints with descriptions
 
@@ -40,9 +40,9 @@ python agents/build_content_map.py     # Rebuild CONTENT_MAP.json after data cha
 
 ## PROJECT STRUCTURE (see PROJECT.md for full map)
 ```
-src/css/         49 component CSS files + build-order.txt
-src/js/          app.js (main) + state.js (state management)
-data/            74 text folders + flow/ + shared era files
+src/css/         50 component CSS files + build-order.txt
+src/js/          app.js (main, ~13,691 lines) + state.js (state management)
+data/            112 text/data folders + flow/ + shared era files
 agents/          7 AI agents (Oracle, Scribe, Arbiter, Lector, Architect, Reader, Claude Auditor)
 hai/             Hallelujah AI (dev-only chat: app.py, server, pipeline, policy)
 docs/            Research notes, vision docs, handoffs, comms
@@ -51,8 +51,8 @@ electron/        Desktop Electron app
 ```
 
 ## BUILD SYSTEM
-- **CSS**: 49 component files concatenated via `src/css/build-order.txt`
-- **JS**: Currently monolithic `app.js` (~10,535 lines; Phase 2 will split into ~25 modules)
+- **CSS**: 50 component files concatenated via `src/css/build-order.txt`
+- **JS**: Currently monolithic `app.js` (~13,691 lines; Phase 2 will split into ~25 modules)
 - **Desktop**: `build.py` → single 65 MB HTML with all data embedded
 - **Mobile**: `build_mobile.py` → 0.7 MB shell + per-text JSON (on-demand loading)
 - **Deploy**: `DEPLOY.bat` uses temp-directory approach for gh-pages (NEVER `git checkout --orphan` in working dir)
@@ -115,10 +115,11 @@ electron/        Desktop Electron app
 - **1 Enoch special case**: manifest `data_dir: "enoch1"` → files in `data/enoch1/`
 - **Build filter**: `flow_file.count("_") == 1` — only loads combined flow files
 - **NT interlinear fallback**: build.py checks `INTERLINEAR_NT_{BOOK}` after `INTERLINEAR_{BOOK}`
+- **Era field rename**: `hebrew_terms` → `original_terms` (renamed across 336 files; use `original_terms` in all new era files)
 
 ## RESTRUCTURING PLAN (In Progress)
 Phase 1 ✅ CSS split + state module
-Phase 2 ⬜ JS module split (~25 files from ~10,535-line app.js)
+Phase 2 ⬜ JS module split (~25 files from ~13,691-line app.js)
 Phase 3 ⬜ Build consolidation + data registry
 Phase 4 ⬜ Testing + CI/CD
 
@@ -152,9 +153,8 @@ python agents/audit_claude_work.py --eras      # Era depth + field validation
 # After any deploy:
 # Review the report at agents/reports/claude_audit_*.md
 ```
-**Baseline (2026-04-03)**: 0 CRITICAL, 0 warnings, 546 passed.
-Session 12 ran Arbiter on all 27 texts (61 era files) — 177 CRITICALs found, 43 fixed + systemic fixes.
-~110 thematic text CRITICALs remain (systemic: evidence tiers, Rule 5 gaps, ESV accuracy).
+**Baseline (2026-04-03)**: 0 CRITICAL, 0 warnings, 578 passed.
+All thematic text CRITICALs resolved. All 3 Research Lenses Arbiter-reviewed and fixed.
 Fix all CRITICAL findings before deploying.
 
 ## RULE: Rebuild Content Map After Data Changes
